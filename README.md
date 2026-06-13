@@ -47,6 +47,9 @@ Every number carries **its source, a confidence score, and a tracked history** o
 - 🧠 **Learns which sources to trust** — sources that prove right over time earn more weight.
 - 🕒 **Version-tracked** — the git history *is* the audit log. See exactly how a company's reported ARR evolved.
 - 📡 **Composable** — emits typed events other agents subscribe to (newsletters, press alerts, investor outbound).
+- 🤝 **Agent-to-agent (A2A)** — not just an MCP *tool* but an A2A *agent* your agents can delegate research to.
+- 🧯 **Grounding** — give your AI a sourced, confidence-scored fact base so it stops making up AI-company numbers.
+- ⚡ **60-second install** — no key, no signup; works in your agent in under a minute.
 - 💸 **Genuinely free** — runs entirely on free tiers. No cost to run, no cost to use.
 
 ## Quickstart — use it in Claude Code / Codex
@@ -124,7 +127,7 @@ OpenPitch is **transparently probabilistic**. Many figures are estimates derived
 ## Roadmap
 
 - [x] Business + technical specs ([BRD](docs/BRD.md) · [FRD](docs/FRD.md))
-- [x] Competitive analysis + matrix ([doc](docs/COMPETITIVE-ANALYSIS.md) · [xlsx](docs/competitive-matrix.xlsx)) · growth plan ([doc](docs/GROWTH.md))
+- [x] Competitive analysis + matrix ([doc](docs/COMPETITIVE-ANALYSIS.md) · [xlsx](docs/competitive-matrix.xlsx)) · [OSS landscape](docs/OSS-LANDSCAPE.md) · [strategy & viability](docs/STRATEGY-DEEP-DIVE.md) · growth plan ([doc](docs/GROWTH.md))
 - [x] Seed universe (global AI + MENA segment)
 - [x] Core data model + reconciliation engine (confidence, consensus, contradiction) — *tested*
 - [x] Source adapters: podcast, news, EDGAR, company-site — *tested*
@@ -133,7 +136,9 @@ OpenPitch is **transparently probabilistic**. Many figures are estimates derived
 - [ ] Daily GitHub Actions pipeline
 - [ ] Static dashboard
 - [ ] Event feed + integration recipes
+- [ ] A2A agent interface (Agent Card) — delegate research agent-to-agent
 - [ ] MENA adapters (regional news, free-zone registries)
+- [ ] Rich-source expansion (GitHub, hiring, app-ranks) — *post-PMF scaling*
 - [ ] *v2:* implied-ARR model, intra-day funding fast-lane
 
 ## Contributing

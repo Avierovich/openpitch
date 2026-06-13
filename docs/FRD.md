@@ -331,6 +331,8 @@ Each stage is an independent, resumable module. Orchestrated by `pipeline/run.py
 
 Expectation set explicitly: **MENA launches at lower confidence/coverage**, clearly labeled in the data, rather than overstated. This is a known, documented trade-off, not a defect.
 
+**Rich-sources roadmap (BRD pillar 2 / BR-26).** Source diversity is a scaling moat single-source rivals can't match — *if curated for signal.* Beyond the v1 four, candidate adapters (add only when each measurably lifts confidence/coverage): GitHub activity, job boards (hiring velocity), app-store ranks, Product Hunt, web-traffic trends, YouTube, earnings/press. The confidence model (§4.1, §5.4) **auto-down-weights noisy sources**, so adding a weak source degrades gracefully rather than polluting estimates. **Sequencing note:** four credible sources that produce real contradictions beat twelve noisy ones — rich sources are a *post-PMF scaling* advantage, not a launch requirement (STRATEGY-DEEP-DIVE §7.2).
+
 **Caching/incrementality:** every fetched item keyed by content hash; unchanged items skip extraction. Keeps usage under free-tier limits (BRD §9.1).
 
 ---
@@ -429,6 +431,29 @@ GitHub Action → Gemini extracts    git    Claude Code/Codex asks → MCP reads
 
 **End-user install = add the MCP server to config. No signup, no key, no cost.**
 The *only* party needing a Gemini key is the maintainer (or an advanced user who forks and self-hosts their own daily pipeline instead of consuming the published data). This is documented prominently in the README.
+
+## 8.7 A2A (agent-to-agent) interface — OpenPitch as a delegate agent
+
+MCP exposes OpenPitch as a **tool**; A2A exposes it as an **agent** other agents can discover and delegate to (BRD §4.1.6). The two are **complementary** (MCP = vertical tool access; A2A = horizontal agent coordination), which is the emerging default for agent systems.
+
+- **Agent Card** (`/.well-known/agent.json`) advertising OpenPitch's skills, e.g. `research_company`, `compare_companies`, `whats_moved`, `find_contradictions`.
+- A thin A2A server wraps the **same read layer** the MCP server uses (the git-tracked data) — no new data path, and still **zero LLM calls of its own** for pure-data skills.
+- Hostable as a static Agent Card + a lightweight endpoint; for the fully-static/zero-cost posture, the Agent Card + JSON feed can satisfy discovery and simple delegation, with a richer hosted A2A endpoint as an optional add-on.
+
+This turns OpenPitch from "a data source you query" into "a specialist agent your agent hires" — and is, to our knowledge, the first **free, open A2A startup-intelligence agent**. Implemented behind the same data contract, so MCP and A2A never diverge.
+
+## 8.8 Ease of implementation (a first-class design goal — BRD pillar 1)
+
+Frictionless adoption is an explicit requirement (BR-25), not a nicety. Target: **working in an agent in <60s, no key, no signup.** Surfaces, cheapest-first:
+
+| Surface | Effort for adopter |
+|---|---|
+| MCP server | one line in agent config (`uvx openpitch-mcp`) |
+| A2A agent | point an agent at the Agent Card URL |
+| Raw JSON | fetch `data/companies/*.json` from raw GitHub |
+| RSS/Atom events | subscribe — works with no-code tools |
+
+A measured **<60s "first answer"** is tracked as a product metric; the README leads with a GIF proving it.
 
 ## 9. Dashboard (secondary interface)
 

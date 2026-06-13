@@ -22,6 +22,8 @@ Unlike incumbent platforms (PitchBook, CB Insights), which rely on slow human ve
 
 OpenPitch is positioned as **complementary, not a rip-and-replace** for incumbents (PitchBook, CB Insights, Crunchbase, Harmonic) and, in the region, for MENA providers (MAGNiTT, Wamda). We compete on a narrow wedge — **price (free/open), latency (daily), AI-agent-native integration (MCP), and transparency (sourced + confidence-scored)** — and deliberately *do not* compete on coverage breadth, verified-deal accuracy, historical depth, people-graph data, or analyst services. Coverage spans **top global AI startups plus a dedicated MENA AI/tech segment**. The full competitor mapping, feature matrix, and pricing live in [COMPETITIVE-ANALYSIS.md](COMPETITIVE-ANALYSIS.md) + [competitive-matrix.xlsx](competitive-matrix.xlsx).
 
+**Three competitive pillars** sharpen the wedge (detail + viability analysis in [STRATEGY-DEEP-DIVE.md](STRATEGY-DEEP-DIVE.md)): **(1) ease of implementation** — working in an agent in under 60 seconds, no key, no signup, multiple zero-effort surfaces; **(2) rich, diverse data sources** — multi-source mining (podcasts, filings, news, web, + roadmap: GitHub, hiring, app-ranks, regional) that single-source rivals can't match; **(3) A2A (agent-to-agent)** — OpenPitch is exposed not only as an MCP *tool* but as an A2A *agent* other agents can delegate to. **Primary ICP (beachhead):** AI builders who need **grounded, sourced company data inside their own agents/products** (anti-hallucination + a free alternative to $30k incumbents) — note this is a deliberate re-anchor from "mass-market free PitchBook," because the star-audience and the pain-audience differ (STRATEGY-DEEP-DIVE §6).
+
 The agent mines non-traditional sources (notably **podcasts**, where founders disclose metrics weeks before any database) alongside public filings, news, and web signals. It runs on a **daily schedule**, publishes version-tracked profiles, and surfaces a **"what moved today" digest**. All data carries provenance, a confidence score, and a tracked history of how each figure evolved.
 
 Critically, OpenPitch is designed as a **composable primitive, not a destination** — an open data/event layer that *other people's AI agents build on top of*. Beyond on-demand lookups (pull), it **emits typed, confidence-scored events** (push) when something material changes, so downstream agents can react: a content agent turns a valuation update into a newsletter, a press workflow gets alerted to a confirmed round, a growth investor's outbound agent triggers on a startup entering the radar.
@@ -76,6 +78,7 @@ Meanwhile, **real, current signals exist in the open**: founders state ARR on po
 - An **MCP server** (primary interface) exposing the dataset as tools any AI coding agent (Claude Code, Codex) can call in-agent — runs locally on the user's machine; the user brings their own agent/LLM (see §4.1.4).
 - A **read-only dashboard** (secondary interface) that displays all companies and metrics in an overview, and lets the user **select/filter/drill down** into a single company's full profile, metric history, and sources (see §4.1.3).
 - An **events / integration layer**: material changes emitted as typed, confidence-scored events on multiple free channels (MCP, JSONL feed, RSS/Atom, webhooks) with stable, versioned schemas, so third-party agents can subscribe and react (see §4.1.5).
+- An **A2A (agent-to-agent) interface**: OpenPitch published as an A2A agent (with an Agent Card) that other agents can discover and delegate research tasks to — complementary to the MCP *tool* interface (see §4.1.6).
 
 #### 4.1.1 Metrics captured per company
 The agent tracks the **broad panel of metrics a VC evaluates for a growth/late-stage company** — not a single figure. Each metric below is stored with its value, provenance, confidence score, and full history.
@@ -166,6 +169,9 @@ Each event carries **type, company, before→after payload, confidence, estimate
 | Press / PR workflow | `funding_round`, `valuation_update` with **confidence ≥ 0.8** | alerting a journalist to reach the company for confirmed commentary |
 | Growth-investor outbound agent | `universe_entry`, `metric_threshold_crossed` | triggering targeted outreach to a newly-qualifying startup |
 
+#### 4.1.6 A2A (agent-to-agent) interface **[CONFIRMED]**
+Beyond being an MCP *tool* (§4.1.4), OpenPitch is exposed as an **A2A agent** — a delegate other agents can discover (via an Agent Card) and hand tasks to, e.g. *"research Company X's funding and ARR, with sources and confidence."* Rationale: MCP and A2A are **complementary, not competing** — MCP for vertical tool access, A2A for horizontal agent-to-agent coordination — and the two-layer stack is becoming the default for agent systems. No competitor offers a **free, open A2A startup-intelligence agent**, making this a forward-looking differentiator and the deepest expression of the composable-primitive thesis. (Design: FRD §8.7.)
+
 ### 4.2 Out of Scope (initial release)
 - Companies beyond the top-50 list.
 - Proprietary/paid data sources.
@@ -222,6 +228,9 @@ Each event carries **type, company, before→after payload, confidence, estimate
 | BR-21 | Events shall be published on multiple free channels (MCP, JSONL feed, RSS/Atom, webhooks) so third-party agents can subscribe. | Must |
 | BR-22 | Events and data shall expose **stable, versioned schemas** (published JSON Schema) so downstream integrations don't break. | Must |
 | BR-23 | Consumers shall be able to **filter events** by type, company, and minimum confidence. | Should |
+| BR-24 | The system shall be exposed as an **A2A agent** (discoverable Agent Card) other agents can delegate research tasks to, complementary to the MCP interface. | Should |
+| BR-25 | Implementation shall be **frictionless**: usable in an agent in <60s with no key/signup, across multiple surfaces (MCP, A2A, raw JSON, RSS). | Must |
+| BR-26 | The data/source roster shall be **extensible and diverse** (podcasts, filings, news, web at v1; GitHub, hiring, app-ranks, regional on roadmap), with the confidence model down-weighting noisier sources. | Should |
 
 ### 6.2 Non-Functional
 

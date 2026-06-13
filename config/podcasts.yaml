@@ -1,0 +1,20 @@
+# Podcast feeds scanned for AI-startup metric mentions (FRD §7).
+#
+# These VC/startup/AI shows are where founders most often leak ARR, valuation,
+# and growth numbers. Add the verified RSS `feed_url` for each show — the
+# adapter SKIPS any entry without a feed_url, so empty ones are safe.
+#
+# Find a show's RSS via its host (Simplecast/Transistor/Megaphone/Substack),
+# Apple Podcasts ("Copy RSS"), or a feed-lookup tool. Verify before committing.
+
+feeds:
+  - { name: "20VC (Harry Stebbings)",        feed_url: "" }   # TODO: verify RSS
+  - { name: "No Priors",                     feed_url: "" }   # TODO
+  - { name: "Latent Space",                  feed_url: "" }   # TODO
+  - { name: "Acquired",                      feed_url: "" }   # TODO
+  - { name: "Lenny's Podcast",               feed_url: "" }   # TODO
+  - { name: "The Logan Bartlett Show",       feed_url: "" }   # TODO
+  - { name: "Invest Like the Best",          feed_url: "" }   # TODO
+  - { name: "This Week in Startups",         feed_url: "" }   # TODO
+  - { name: "The AI Daily Brief",            feed_url: "" }   # TODO
+  - { name: "Unsupervised Learning",         feed_url: "" }   # TODO

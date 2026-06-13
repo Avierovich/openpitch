@@ -1,0 +1,40 @@
+[project]
+name = "openpitch"
+version = "0.0.1"
+description = "Open, real-time, fully-sourced intelligence on top AI startups — MCP-native, zero-cost."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Mohamed Abdulhadi" }]
+keywords = ["ai", "startups", "vc", "mcp", "pitchbook", "intelligence"]
+
+dependencies = [
+    "pydantic>=2.6",
+    "httpx>=0.27",
+    "feedparser>=6.0",
+    "pyyaml>=6.0",
+    "typer>=0.12",
+]
+
+[project.optional-dependencies]
+# Pipeline-only deps (not needed by consumers running the MCP server)
+pipeline = [
+    "google-genai>=0.3",      # default pipeline LLM (swappable)
+    "pywhispercpp>=1.2",      # local transcription fallback
+]
+dev = ["ruff>=0.4", "mypy>=1.9", "pytest>=8.0"]
+
+[project.scripts]
+openpitch = "openpitch.pipeline.run:app"          # CLI: run the pipeline
+openpitch-mcp = "openpitch.mcp_server.server:main"  # the local MCP server
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/openpitch"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

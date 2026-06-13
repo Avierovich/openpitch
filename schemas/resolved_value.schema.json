@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openpitch.dev/schemas/resolved_value-1.0.json",
+  "title": "OpenPitch Resolved Value",
+  "description": "The reconciled best estimate for a single metric, with provenance and confidence (FRD §3.2).",
+  "type": "object",
+  "required": ["metric", "value", "estimate_type", "confidence", "as_of"],
+  "properties": {
+    "metric": { "type": "string" },
+    "value": {},
+    "unit": { "type": "string" },
+    "range": {
+      "type": "object",
+      "properties": { "low": {}, "high": {} }
+    },
+    "as_of": { "type": "string", "description": "Date of the freshest supporting claim" },
+    "estimate_type": { "type": "string", "enum": ["reported", "implied", "consensus"] },
+    "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+    "supporting_claims": { "type": "array", "items": { "type": "string" } },
+    "contradiction": { "type": "boolean", "default": false },
+    "delta": {
+      "type": "object",
+      "properties": {
+        "previous": {},
+        "change_pct": { "type": "number" },
+        "since": { "type": "string" }
+      }
+    },
+    "history_ref": { "type": "string" }
+  }
+}

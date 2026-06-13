@@ -1,0 +1,116 @@
+# OpenPitch — Universe Watchlist (seed)
+#
+# Candidate pool for the dynamic top-50 (FRD §6, BRD §4.1.2).
+# The VC-attention score ranks these each run and selects the top 50;
+# funding-news discovery adds new candidates over time.
+#
+# This is a SEED list — edit freely. `note` flags status worth watching
+# (e.g. IPO-filed, partial acquisition). Companies that go fully public or
+# are wholly acquired should be pruned (out of scope = private companies).
+#
+# Fields: id (kebab) · name · category · domain · note (optional)
+
+companies:
+  # ── Foundation-model labs ────────────────────────────────────────────
+  - { id: openai,            name: OpenAI,                 category: foundation-model, domain: openai.com }
+  - { id: anthropic,         name: Anthropic,              category: foundation-model, domain: anthropic.com }
+  - { id: mistral,           name: Mistral AI,             category: foundation-model, domain: mistral.ai }
+  - { id: xai,               name: xAI,                    category: foundation-model, domain: x.ai }
+  - { id: cohere,            name: Cohere,                 category: foundation-model, domain: cohere.com }
+  - { id: ai21,              name: AI21 Labs,              category: foundation-model, domain: ai21.com }
+  - { id: reka,              name: Reka AI,                category: foundation-model, domain: reka.ai }
+  - { id: ssi,               name: Safe Superintelligence, category: foundation-model, domain: ssi.inc }
+  - { id: thinking-machines, name: Thinking Machines Lab,  category: foundation-model, domain: thinkingmachines.ai }
+  - { id: liquid-ai,         name: Liquid AI,              category: foundation-model, domain: liquid.ai }
+  - { id: aleph-alpha,       name: Aleph Alpha,            category: foundation-model, domain: aleph-alpha.com }
+
+  # ── AI infrastructure / inference / compute / chips ──────────────────
+  - { id: together,          name: Together AI,            category: ai-infra, domain: together.ai }
+  - { id: fireworks,         name: Fireworks AI,           category: ai-infra, domain: fireworks.ai }
+  - { id: baseten,           name: Baseten,                category: ai-infra, domain: baseten.co }
+  - { id: modal,             name: Modal,                  category: ai-infra, domain: modal.com }
+  - { id: replicate,         name: Replicate,              category: ai-infra, domain: replicate.com }
+  - { id: anyscale,          name: Anyscale,               category: ai-infra, domain: anyscale.com }
+  - { id: lambda,            name: Lambda,                 category: ai-infra, domain: lambdalabs.com }
+  - { id: groq,              name: Groq,                   category: ai-infra, domain: groq.com }
+  - { id: sambanova,         name: SambaNova Systems,      category: ai-infra, domain: sambanova.ai }
+  - { id: cerebras,          name: Cerebras Systems,       category: ai-infra, domain: cerebras.ai, note: "IPO filed — watch status" }
+  - { id: crusoe,            name: Crusoe,                 category: ai-infra, domain: crusoe.ai }
+  - { id: vast-data,         name: VAST Data,              category: ai-infra, domain: vastdata.com }
+  - { id: dmatrix,           name: d-Matrix,               category: ai-infra, domain: d-matrix.ai }
+  - { id: etched,            name: Etched,                 category: ai-infra, domain: etched.com }
+
+  # ── Vector / data / RAG infrastructure ───────────────────────────────
+  - { id: pinecone,          name: Pinecone,               category: vector-data, domain: pinecone.io }
+  - { id: weaviate,          name: Weaviate,               category: vector-data, domain: weaviate.io }
+  - { id: chroma,            name: Chroma,                 category: vector-data, domain: trychroma.com }
+  - { id: qdrant,            name: Qdrant,                 category: vector-data, domain: qdrant.tech }
+  - { id: lancedb,           name: LanceDB,                category: vector-data, domain: lancedb.com }
+  - { id: llamaindex,        name: LlamaIndex,             category: vector-data, domain: llamaindex.ai }
+  - { id: unstructured,      name: Unstructured,           category: vector-data, domain: unstructured.io }
+
+  # ── Coding agents / developer tools ──────────────────────────────────
+  - { id: anysphere,         name: Anysphere (Cursor),     category: coding-agent, domain: cursor.com }
+  - { id: cognition,         name: Cognition (Devin),      category: coding-agent, domain: cognition.ai }
+  - { id: poolside,          name: Poolside,               category: coding-agent, domain: poolside.ai }
+  - { id: magic-dev,         name: Magic,                  category: coding-agent, domain: magic.dev }
+  - { id: augment,           name: Augment Code,           category: coding-agent, domain: augmentcode.com }
+  - { id: replit,            name: Replit,                 category: coding-agent, domain: replit.com }
+  - { id: tabnine,           name: Tabnine,                category: coding-agent, domain: tabnine.com }
+  - { id: sourcegraph,       name: Sourcegraph,            category: coding-agent, domain: sourcegraph.com }
+  - { id: windsurf,          name: Windsurf (Codeium),     category: coding-agent, domain: windsurf.com, note: "ownership in flux post-2025" }
+
+  # ── AI agents / automation / orchestration ───────────────────────────
+  - { id: sierra,            name: Sierra,                 category: ai-agents, domain: sierra.ai }
+  - { id: decagon,           name: Decagon,                category: ai-agents, domain: decagon.ai }
+  - { id: lindy,             name: Lindy,                  category: ai-agents, domain: lindy.ai }
+  - { id: imbue,             name: Imbue,                  category: ai-agents, domain: imbue.com }
+  - { id: langchain,         name: LangChain,              category: ai-agents, domain: langchain.com }
+  - { id: letta,             name: Letta,                  category: ai-agents, domain: letta.com }
+  - { id: crewai,            name: CrewAI,                 category: ai-agents, domain: crewai.com }
+
+  # ── Generative media (image / video / audio / voice) ─────────────────
+  - { id: midjourney,        name: Midjourney,             category: generative-media, domain: midjourney.com }
+  - { id: stability,         name: Stability AI,           category: generative-media, domain: stability.ai }
+  - { id: runway,            name: Runway,                 category: generative-media, domain: runwayml.com }
+  - { id: pika,              name: Pika,                   category: generative-media, domain: pika.art }
+  - { id: luma,              name: Luma AI,                category: generative-media, domain: lumalabs.ai }
+  - { id: elevenlabs,        name: ElevenLabs,             category: generative-media, domain: elevenlabs.io }
+  - { id: suno,              name: Suno,                   category: generative-media, domain: suno.com }
+  - { id: udio,              name: Udio,                   category: generative-media, domain: udio.com }
+  - { id: synthesia,         name: Synthesia,              category: generative-media, domain: synthesia.io }
+  - { id: heygen,            name: HeyGen,                 category: generative-media, domain: heygen.com }
+  - { id: captions,          name: Captions,               category: generative-media, domain: captions.ai }
+  - { id: ideogram,          name: Ideogram,               category: generative-media, domain: ideogram.ai }
+  - { id: krea,              name: Krea,                   category: generative-media, domain: krea.ai }
+  - { id: cartesia,          name: Cartesia,               category: generative-media, domain: cartesia.ai }
+  - { id: black-forest-labs, name: Black Forest Labs,      category: generative-media, domain: bfl.ai }
+
+  # ── Search / enterprise productivity ─────────────────────────────────
+  - { id: perplexity,        name: Perplexity,             category: enterprise-ai, domain: perplexity.ai }
+  - { id: glean,             name: Glean,                  category: enterprise-ai, domain: glean.com }
+  - { id: writer,            name: Writer,                 category: enterprise-ai, domain: writer.com }
+  - { id: sana,              name: Sana,                   category: enterprise-ai, domain: sanalabs.com }
+
+  # ── Vertical applications (legal / health / finance) ─────────────────
+  - { id: harvey,            name: Harvey,                 category: vertical-app, domain: harvey.ai }
+  - { id: evenup,            name: EvenUp,                 category: vertical-app, domain: evenuplaw.com }
+  - { id: abridge,           name: Abridge,                category: vertical-app, domain: abridge.com }
+  - { id: ambience,          name: Ambience Healthcare,    category: vertical-app, domain: ambiencehealthcare.com }
+  - { id: hippocratic,       name: Hippocratic AI,         category: vertical-app, domain: hippocraticai.com }
+  - { id: openevidence,      name: OpenEvidence,           category: vertical-app, domain: openevidence.com }
+  - { id: cresta,            name: Cresta,                 category: vertical-app, domain: cresta.com }
+  - { id: hebbia,            name: Hebbia,                 category: vertical-app, domain: hebbia.ai }
+
+  # ── Robotics / embodied AI ───────────────────────────────────────────
+  - { id: physical-intelligence, name: Physical Intelligence, category: robotics, domain: physicalintelligence.company }
+  - { id: skild,             name: Skild AI,               category: robotics, domain: skild.ai }
+  - { id: figure,            name: Figure AI,              category: robotics, domain: figure.ai }
+  - { id: 1x,                name: 1X Technologies,        category: robotics, domain: 1x.tech }
+
+  # ── Data / evaluation / labeling ─────────────────────────────────────
+  - { id: scale,             name: Scale AI,               category: data-eval, domain: scale.com, note: "Meta took ~49% stake 2025 — watch independence" }
+  - { id: surge,             name: Surge AI,               category: data-eval, domain: surgehq.ai }
+  - { id: mercor,            name: Mercor,                 category: data-eval, domain: mercor.com }
+  - { id: braintrust,        name: Braintrust,             category: data-eval, domain: braintrust.dev }
+  - { id: galileo,           name: Galileo,                category: data-eval, domain: galileo.ai }

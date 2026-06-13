@@ -1,0 +1,20 @@
+# VC-attention scoring weights (FRD §6, BRD §4.1.2).
+# Selects the dynamic top-N from config/watchlist.yaml each run.
+# ARR is deliberately NOT a selector (avoids circularity — it's a primary output).
+
+universe_size: 50
+
+weights:
+  valuation: 0.40              # latest valuation, log-normalized across candidates
+  funding_recency_size: 0.30   # round size × recency decay
+  investor_quality: 0.20       # score from the top-fund tier list below
+  momentum: 0.10               # buzz / web-traffic / hiring trend
+
+# Recency decay for funding events (days) — a raise this old contributes ~37% (1/e).
+funding_recency_tau: 365
+
+# Tiered investor quality scores (illustrative — extend freely).
+investor_tiers:
+  tier_1: { score: 1.0, funds: ["Sequoia", "Andreessen Horowitz", "Founders Fund", "Thrive Capital", "Lightspeed", "Khosla Ventures"] }
+  tier_2: { score: 0.7, funds: ["General Catalyst", "Index Ventures", "Accel", "Greenoaks", "Coatue", "Bond"] }
+  tier_3: { score: 0.4, funds: [] }   # default for recognized-but-unlisted funds

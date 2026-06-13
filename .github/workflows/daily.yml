@@ -1,0 +1,50 @@
+# Daily refresh pipeline (FRD §11). Free & unlimited for public repos.
+# The git-tracked data in data/ IS the database; this job rebuilds and commits it.
+name: daily-refresh
+
+on:
+  schedule:
+    - cron: "0 5 * * *"        # 05:00 UTC daily (cadence rationale: BRD §8 [A4])
+  workflow_dispatch: {}         # allow manual runs
+
+# Prevent overlapping runs.
+concurrency:
+  group: daily-refresh
+  cancel-in-progress: false
+
+permissions:
+  contents: write               # commit refreshed data
+  pages: write
+  id-token: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install
+        run: pip install -e ".[pipeline]"
+
+      - name: Run pipeline (stages 1–7)
+        env:
+          # Free-tier key, no billing attached → cannot be charged (FRD §8.6 / BRD §9.1)
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+        run: openpitch run --all
+
+      - name: Build dashboard
+        run: openpitch build-dashboard
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "openpitch-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/ dashboard/dist/
+          git diff --cached --quiet || git commit -m "data: daily refresh"
+          git push
+
+      # TODO: deploy dashboard/dist to GitHub Pages

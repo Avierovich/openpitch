@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.env
+.env.*
+
+# Tooling
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Transcription / model cache (never commit large binaries)
+.cache/
+*.bin
+*.gguf
+audio/
+
+# Dashboard build
+dashboard/dist/
+node_modules/
+
+# OS
+.DS_Store

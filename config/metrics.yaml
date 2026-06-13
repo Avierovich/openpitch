@@ -1,0 +1,17 @@
+# Metric registry (FRD §3.5)
+# τ (tau) = confidence decay constant in days — how fast a figure's confidence ages.
+# cluster_tolerance = ± fraction within which two claims are treated as agreeing (FRD §5.2).
+# implied_v1 = whether v1 may produce a (self-anchored/qualitative) implied estimate (FRD §5.5).
+
+metrics:
+  arr:               { label: "ARR / revenue",        unit: USD,   tau: 120, cluster_tolerance: 0.15, implied_v1: true }
+  revenue_growth:    { label: "Growth rate",          unit: pct,   tau: 120, cluster_tolerance: 0.20, implied_v1: true }
+  valuation:         { label: "Valuation",            unit: USD,   tau: 365, cluster_tolerance: 0.20, implied_v1: false }
+  total_funding:     { label: "Total raised",         unit: USD,   tau: 730, cluster_tolerance: 0.10, implied_v1: false }
+  latest_round:      { label: "Latest round",         unit: object, tau: 365, cluster_tolerance: 0.10, implied_v1: false }
+  revenue_multiple:  { label: "Valuation / ARR",      unit: x,     tau: 120, cluster_tolerance: 0.20, implied_v1: false }
+  headcount:         { label: "Employees",            unit: count, tau: 180, cluster_tolerance: 0.10, implied_v1: true }
+  headcount_growth:  { label: "Headcount growth",     unit: pct,   tau: 180, cluster_tolerance: 0.20, implied_v1: true }
+  subscribers:       { label: "Customers / users",    unit: count, tau: 150, cluster_tolerance: 0.25, implied_v1: true }
+  nrr:               { label: "Net revenue retention", unit: pct,  tau: 240, cluster_tolerance: 0.10, implied_v1: false }
+  notable_customers: { label: "Notable logos",        unit: list,  tau: 365, cluster_tolerance: 0.00, implied_v1: false }

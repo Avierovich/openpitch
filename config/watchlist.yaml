@@ -114,3 +114,29 @@ companies:
   - { id: mercor,            name: Mercor,                 category: data-eval, domain: mercor.com }
   - { id: braintrust,        name: Braintrust,             category: data-eval, domain: braintrust.dev }
   - { id: galileo,           name: Galileo,                category: data-eval, domain: galileo.ai }
+
+# ── MENA AI / tech segment ───────────────────────────────────────────────────
+# A dedicated regional set — the open, AI-native alternative to MAGNiTT/Wamda.
+# HONEST CAVEAT: MENA disclosure is lighter than the US (no EDGAR equivalent,
+# fewer English podcast leaks), so this segment launches at LOWER confidence /
+# coverage and needs region-specific adapters (FRD §7: mena_news, freezone_registry).
+# `segment: mena` distinguishes these from the global set. Verify domains/status.
+mena:
+  # AI-native
+  - { id: ai71,        name: "AI71",                category: foundation-model, segment: mena, domain: ai71.ai,       note: "UAE, G42/Falcon ecosystem" }
+  - { id: mozn,        name: "Mozn",                category: vertical-app,     segment: mena, domain: mozn.ai,       note: "Saudi, AI risk/data" }
+  - { id: lucidya,     name: "Lucidya",             category: vertical-app,     segment: mena, domain: lucidya.com,   note: "Saudi, Arabic NLP / CX" }
+  - { id: intella,     name: "Intella",             category: generative-media, segment: mena, domain: intella.ai,    note: "Saudi, Arabic speech AI" }
+  - { id: widebot,     name: "WideBot",             category: ai-agents,        segment: mena, domain: widebot.net,   note: "Egypt, Arabic conversational AI" }
+  # High-VC-interest MENA tech
+  - { id: tabby,       name: "Tabby",               category: vertical-app,     segment: mena, domain: tabby.ai,      note: "UAE/Saudi fintech (BNPL)" }
+  - { id: tamara,      name: "Tamara",              category: vertical-app,     segment: mena, domain: tamara.co,     note: "Saudi fintech (BNPL)" }
+  - { id: mnt-halan,   name: "MNT-Halan",           category: vertical-app,     segment: mena, domain: halan.com,     note: "Egypt fintech unicorn" }
+  - { id: lean,        name: "Lean Technologies",   category: vertical-app,     segment: mena, domain: leantech.me,   note: "Saudi fintech infra" }
+  - { id: tarabut,     name: "Tarabut",             category: vertical-app,     segment: mena, domain: tarabut.com,   note: "open banking, Bahrain/UAE" }
+  - { id: unifonic,    name: "Unifonic",            category: enterprise-ai,    segment: mena, domain: unifonic.com,  note: "Saudi comms platform" }
+  - { id: foodics,     name: "Foodics",             category: vertical-app,     segment: mena, domain: foodics.com,   note: "Saudi restaurant SaaS" }
+  - { id: huspy,       name: "Huspy",               category: vertical-app,     segment: mena, domain: huspy.com,     note: "UAE proptech/fintech" }
+  - { id: bayzat,      name: "Bayzat",              category: vertical-app,     segment: mena, domain: bayzat.com,    note: "UAE HR/insurtech" }
+  - { id: yassir,      name: "Yassir",              category: vertical-app,     segment: mena, domain: yassir.com,    note: "Algeria super app" }
+

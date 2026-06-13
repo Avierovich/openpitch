@@ -20,6 +20,8 @@ OpenPitch is an open-source AI research agent that produces **fresh, fully-sourc
 
 Unlike incumbent platforms (PitchBook, CB Insights), which rely on slow human verification and therefore lag fast-moving private markets, OpenPitch's core thesis is **latency, not coverage**: for hypergrowth AI startups, a fresh-but-probabilistic figure — properly contextualized with its source and confidence — is more useful than a verified-but-stale one.
 
+OpenPitch is positioned as **complementary, not a rip-and-replace** for incumbents (PitchBook, CB Insights, Crunchbase, Harmonic) and, in the region, for MENA providers (MAGNiTT, Wamda). We compete on a narrow wedge — **price (free/open), latency (daily), AI-agent-native integration (MCP), and transparency (sourced + confidence-scored)** — and deliberately *do not* compete on coverage breadth, verified-deal accuracy, historical depth, people-graph data, or analyst services. Coverage spans **top global AI startups plus a dedicated MENA AI/tech segment**. The full competitor mapping, feature matrix, and pricing live in [COMPETITIVE-ANALYSIS.md](COMPETITIVE-ANALYSIS.md) + [competitive-matrix.xlsx](competitive-matrix.xlsx).
+
 The agent mines non-traditional sources (notably **podcasts**, where founders disclose metrics weeks before any database) alongside public filings, news, and web signals. It runs on a **daily schedule**, publishes version-tracked profiles, and surfaces a **"what moved today" digest**. All data carries provenance, a confidence score, and a tracked history of how each figure evolved.
 
 Critically, OpenPitch is designed as a **composable primitive, not a destination** — an open data/event layer that *other people's AI agents build on top of*. Beyond on-demand lookups (pull), it **emits typed, confidence-scored events** (push) when something material changes, so downstream agents can react: a content agent turns a valuation update into a newsletter, a press workflow gets alerted to a confirmed round, a growth investor's outbound agent triggers on a startup entering the radar.
@@ -37,9 +39,11 @@ Critically, OpenPitch is designed as a **composable primitive, not a destination
 | O5 | Be a **composable building block** other AI agents/workflows integrate with | Third parties wire OpenPitch (pull + event push) into their own agents (content, press, investing) |
 
 ### Non-goals
-- Replicating PitchBook's proprietary, human-verified deal-terms database.
-- Global coverage of all startups.
+- Replicating PitchBook's proprietary, human-verified deal-terms database, or matching MAGNiTT's MENA funding-data breadth.
+- Global coverage of all startups, or any non-AI sector.
+- Replicating a people/founder graph (Harmonic) or analyst services/market maps (CB Insights, Wamda).
 - Guaranteeing 100% accuracy of any single figure (the product is **transparently probabilistic**).
+- Being a diligence-grade source of record — incumbents remain necessary for that; OpenPitch is the *fast, free, transparent first look*.
 
 ---
 
@@ -49,7 +53,7 @@ Private-market data is self-reported, unregulated, and incomplete. Incumbents ad
 
 Meanwhile, **real, current signals exist in the open**: founders state ARR on podcasts, hiring velocity reveals growth, SEC Form D filings disclose raises, and headcount trends are public. These signals are scattered, unstructured, and contradictory — **exactly the problem an AI agent is suited to solve.**
 
-**The gap:** No accessible tool continuously mines these fresh, open signals and presents them with honest provenance and confidence.
+**The gap:** Incumbents optimize for *verified breadth* (PitchBook, CB Insights, Crunchbase), *deal sourcing* (Harmonic), or *regional depth* (MAGNiTT, Wamda) — all behind paywalls and none agent-native. **No accessible tool continuously mines these fresh, open signals and presents them, in-agent, with honest provenance and confidence.** That gap — fast, free, transparent, AI-native — is OpenPitch's wedge (full analysis: [COMPETITIVE-ANALYSIS.md](COMPETITIVE-ANALYSIS.md)).
 
 ---
 
@@ -57,6 +61,7 @@ Meanwhile, **real, current signals exist in the open**: founders state ARR on po
 
 ### 4.1 In Scope
 - Coverage of **~50 AI companies selected by active VC interest** — i.e., the AI companies attracting the most venture-capital attention and funding activity (recent/rumored rounds, investor focus, notable backers). The list is **dynamic**: companies enter or exit as VC attention shifts, consistent with the project's daily-refresh thesis. *(Metrics captured per company: §4.1.1. Selection criteria: §4.1.2.)*
+- Coverage of a dedicated **MENA AI/tech startup segment** (a deliberate market-expansion bet vs MAGNiTT/Wamda). **Honest caveat:** MENA disclosure is lighter and more fragmented than the US (no EDGAR equivalent; fewer English podcast leaks), so this segment launches with **lower confidence/coverage**, clearly labeled, and needs region-specific sources (see FRD). Seed list: `config/watchlist.yaml` (`mena:` section).
 - Automated **daily** data collection from open sources.
 - **Podcast ingestion**: transcription + metric extraction.
 - Public-source ingestion: SEC EDGAR (Form D), news/press, company websites/careers pages.

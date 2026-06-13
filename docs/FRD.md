@@ -324,6 +324,13 @@ Each stage is an independent, resumable module. Orchestrated by `pipeline/run.py
 
 **Source adapters** implement a common interface (`fetch(company) -> list[RawItem]`) so adding a source = one file. v1 adapters: `podcast_rss`, `news`, `edgar`, `company_site`.
 
+**MENA sourcing (honest reality).** The global freshness engine leans on SEC EDGAR + English podcasts + US tech press — **none of which map cleanly to MENA** (BRD §4.1; COMPETITIVE-ANALYSIS.md §6). The `edgar` adapter is US-only; English founder-podcast metric leaks are rarer. MENA coverage therefore needs **region-specific adapters** (roadmap):
+- `mena_news` — regional outlets (Wamda, Menabytes, Magnitt blog, Zawya) RSS/press.
+- `freezone_registry` — best-effort signals from ADGM / DIFC / DMCC public registries.
+- `mena_podcasts` — regional shows (config-driven, same `podcast_rss` machinery).
+
+Expectation set explicitly: **MENA launches at lower confidence/coverage**, clearly labeled in the data, rather than overstated. This is a known, documented trade-off, not a defect.
+
 **Caching/incrementality:** every fetched item keyed by content hash; unchanged items skip extraction. Keeps usage under free-tier limits (BRD §9.1).
 
 ---
@@ -438,7 +445,8 @@ Built in stage 7; no runtime backend.
 ```
 openpitch/
 ├── README.md                  # the pitch + MCP install snippet + dashboard link
-├── docs/                      # BRD.md, FRD.md, integrations/ (recipes §8.5.4)
+├── docs/                      # BRD, FRD, COMPETITIVE-ANALYSIS, GROWTH, competitive-matrix.xlsx, integrations/
+├── scripts/                   # build_competitive_matrix.py (regenerates the xlsx)
 ├── schemas/                   # versioned JSON Schema (events, resolved values)
 ├── config/
 │   ├── watchlist.yaml         # candidate companies

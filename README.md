@@ -93,9 +93,29 @@ OpenPitch emits typed, confidence-scored **events** when something material chan
 
 Events ship on MCP, a raw `events/feed.jsonl`, and RSS/Atom. Schemas are versioned. See [`docs/integrations/`](docs/).
 
+## How we compare
+
+OpenPitch is **complementary to the incumbents, not a rip-and-replace.** We win a narrow wedge; we lose on breadth and verification — and we're honest about both.
+
+| | PitchBook / CB Insights | Crunchbase | Harmonic | MAGNiTT / Wamda | **OpenPitch** |
+|---|:--:|:--:|:--:|:--:|:--:|
+| Price | $20k–100k/yr | Freemium | Custom | $/regional | **Free & open** |
+| Freshness | Weeks–months | Variable | Days | Weeks | **Daily** |
+| In your AI agent (MCP) | ✗ | ✗ | ◐ | ✗ | **✓** |
+| Every figure sourced + confidence-scored | ◐ | ◐ | ◐ | ◐ | **✓** |
+| Contradiction detection | ✗ | ✗ | ✗ | ✗ | **✓** |
+| Coverage breadth | **✓✓✓** | **✓✓✓** | **✓✓** | ✓ (MENA) | narrow (by design) |
+| Verified, diligence-grade | **✓** | ◐ | ◐ | ◐ | ✗ (probabilistic) |
+
+**The honest pitch:** *the free, fresh, AI-native first look — every number sourced — before you pull the expensive verified report.* For an investment decision, you still need the incumbents. Full mapping, feature matrix & pricing: [docs/COMPETITIVE-ANALYSIS.md](docs/COMPETITIVE-ANALYSIS.md) · [spreadsheet](docs/competitive-matrix.xlsx).
+
 ## Coverage
 
-~50 AI companies, **dynamically selected** by VC attention (valuation + funding activity + investor quality — *not* ARR, to avoid circularity). The list moves as attention shifts; companies entering/leaving the top-50 is itself a tracked signal. Seed universe: [`config/watchlist.yaml`](config/watchlist.yaml).
+**Global AI startups** — ~50, **dynamically selected** by VC attention (valuation + funding activity + investor quality — *not* ARR, to avoid circularity). The list moves as attention shifts; companies entering/leaving the top-50 is itself a tracked signal.
+
+**MENA AI/tech segment** — a dedicated regional set (an open, AI-native alternative to MAGNiTT/Wamda). Honest caveat: MENA disclosure is lighter than the US, so this segment launches with lower confidence/coverage, clearly labeled.
+
+Seed universe: [`config/watchlist.yaml`](config/watchlist.yaml).
 
 ## Honest disclaimer
 
@@ -104,13 +124,16 @@ OpenPitch is **transparently probabilistic**. Many figures are estimates derived
 ## Roadmap
 
 - [x] Business + technical specs ([BRD](docs/BRD.md) · [FRD](docs/FRD.md))
-- [x] Seed universe
-- [ ] Core: data model + reconciliation engine
-- [ ] Source adapters (podcast, news, EDGAR, web)
+- [x] Competitive analysis + matrix ([doc](docs/COMPETITIVE-ANALYSIS.md) · [xlsx](docs/competitive-matrix.xlsx)) · growth plan ([doc](docs/GROWTH.md))
+- [x] Seed universe (global AI + MENA segment)
+- [x] Core data model + reconciliation engine (confidence, consensus, contradiction) — *tested*
+- [x] Source adapters: podcast, news, EDGAR, company-site — *tested*
+- [ ] Extraction stage (LLM claim extraction) — *the launch gate: real data + contradictions*
 - [ ] MCP server
 - [ ] Daily GitHub Actions pipeline
 - [ ] Static dashboard
 - [ ] Event feed + integration recipes
+- [ ] MENA adapters (regional news, free-zone registries)
 - [ ] *v2:* implied-ARR model, intra-day funding fast-lane
 
 ## Contributing

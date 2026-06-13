@@ -13,8 +13,11 @@
 
 ## 1. The landscape (what actually exists)
 
+> **Per-competitor teardowns + threat levels + revised viability are in [OSS-DEEP-DIVE.md](OSS-DEEP-DIVE.md)** — this page is the survey.
+
 | Project | Type | Open? | Agent-native (MCP)? | Scope | Provenance / confidence | Status |
 |---|---|:--:|:--:|---|:--:|---|
+| **[OpenBB](https://github.com/OpenBB-finance/OpenBB)** | Open finance data + MCP | ✓ | ✓✓ | **Public markets** (quant/analyst), not private startups | ✗ | Major project, very active ⚠️ |
 | **[OpenBook](https://github.com/iloveitaly/openbook)** | "PitchBook but open" | ✓ | ✗ | US **VC firms** (contacts), not companies/metrics | ✗ | ~54★, **dormant** |
 | **[OpenVC](https://www.openvc.app/)** | Community investor DB | partly | ✗ | 10k+ **investors** | ✗ | Active, free |
 | **[findfunding.vc](https://www.findfunding.vc/)** | Open VC-firm DB | ✓ | ✗ | US/Canada **VC firms** | ✗ | Active, niche |

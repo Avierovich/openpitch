@@ -127,7 +127,7 @@ OpenPitch is **transparently probabilistic**. Many figures are estimates derived
 ## Roadmap
 
 - [x] Business + technical specs ([BRD](docs/BRD.md) · [FRD](docs/FRD.md))
-- [x] Competitive analysis + matrix ([doc](docs/COMPETITIVE-ANALYSIS.md) · [xlsx](docs/competitive-matrix.xlsx)) · [OSS landscape](docs/OSS-LANDSCAPE.md) · [strategy & viability](docs/STRATEGY-DEEP-DIVE.md) · growth plan ([doc](docs/GROWTH.md))
+- [x] Competitive analysis: [incumbents](docs/COMPETITIVE-ANALYSIS.md) · [matrix xlsx](docs/competitive-matrix.xlsx) · [OSS landscape](docs/OSS-LANDSCAPE.md) · [**free/open deep-dive**](docs/OSS-DEEP-DIVE.md) · [strategy & viability](docs/STRATEGY-DEEP-DIVE.md) · [growth plan](docs/GROWTH.md)
 - [x] Seed universe (global AI + MENA segment)
 - [x] Core data model + reconciliation engine (confidence, consensus, contradiction) — *tested*
 - [x] Source adapters: podcast, news, EDGAR, company-site — *tested*

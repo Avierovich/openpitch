@@ -9,6 +9,8 @@
 
 > I'm going to be blunt in §6, because you asked for something the market *needs* and "instant PMF." One research finding (CB Insights is already agent-native) and one structural fact (your star-audience ≠ your pain-audience) matter more than any feature list. Read §6 first if you read nothing else.
 
+> **Scope note:** this doc teardowns the *paid incumbents*. But since OpenPitch is **free + easy to install, it beats them on price/ease by default** — so the *real* direct competitive set is **other free/open tools**, analyzed separately in [OSS-DEEP-DIVE.md](OSS-DEEP-DIVE.md) (incl. OpenBB, the most important one). Read both.
+
 ---
 
 ## 1. The one finding that reframes everything

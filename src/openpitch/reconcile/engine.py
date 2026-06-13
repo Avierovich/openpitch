@@ -1,0 +1,138 @@
+"""Reconciliation engine (FRD §5) — the hard, valuable core.
+
+Takes all current claims for one (company, metric) and produces a single
+ResolvedValue: a confidence-weighted estimate, a credible range, an
+estimate_type, a contradiction flag, and a delta vs the previous value.
+
+Never overwrites — the caller (publish stage) appends history. This module is
+pure logic with no I/O, so it is fully unit-testable.
+"""
+
+from __future__ import annotations
+
+from datetime import date
+
+from ..models import Claim, Delta, EstimateType, Range, ResolvedValue
+from .confidence import current_confidence, corroborate
+
+CREDIBLE_FLOOR = 0.30        # claims below this don't widen the range (§5.1 step 5)
+CONTRADICTION_FLOOR = 0.50   # a rival cluster this strong = a contradiction (§5.3)
+
+
+def _numeric(claims: list[Claim]) -> list[Claim]:
+    return [c for c in claims if isinstance(c.value, (int, float)) and not isinstance(c.value, bool)]
+
+
+def _cluster(
+    scored: list[tuple[Claim, float]], tolerance: float
+) -> list[list[tuple[Claim, float]]]:
+    """1-D greedy clustering by relative value proximity (§5.2).
+
+    Claims are grouped when consecutive sorted values are within `tolerance`
+    (relative). `scored` is a list of (claim, confidence) pairs.
+    """
+    if not scored:
+        return []
+    ordered = sorted(scored, key=lambda sc: float(sc[0].value))
+    clusters: list[list[tuple[Claim, float]]] = [[ordered[0]]]
+    for claim, conf in ordered[1:]:
+        prev_val = float(clusters[-1][-1][0].value)
+        cur_val = float(claim.value)
+        denom = max(abs(prev_val), abs(cur_val), 1e-9)
+        if abs(cur_val - prev_val) / denom <= tolerance:
+            clusters[-1].append((claim, conf))
+        else:
+            clusters.append([(claim, conf)])
+    return clusters
+
+
+def _cluster_weight(cluster: list[tuple[Claim, float]]) -> float:
+    return sum(conf for _, conf in cluster)
+
+
+def reconcile(
+    metric: str,
+    claims: list[Claim],
+    *,
+    as_of: date,
+    tau: float,
+    tolerance: float,
+    unit: str | None = None,
+    previous: ResolvedValue | None = None,
+    reliabilities: dict[str, float] | None = None,
+    history_ref: str | None = None,
+) -> ResolvedValue | None:
+    """Reconcile claims for one metric into a single ResolvedValue.
+
+    `reliabilities` maps source name -> learned reliability (optional).
+    Returns None if there are no usable numeric claims.
+    """
+    reliabilities = reliabilities or {}
+    numeric = _numeric(claims)
+    if not numeric:
+        return None
+
+    scored = [
+        (
+            c,
+            current_confidence(
+                c, as_of=as_of, tau=tau, reliability=reliabilities.get(c.source.name)
+            ),
+        )
+        for c in numeric
+    ]
+
+    clusters = _cluster(scored, tolerance)
+    clusters.sort(key=_cluster_weight, reverse=True)
+    dominant = clusters[0]
+
+    # Confidence-weighted central estimate of the dominant cluster.
+    total_w = _cluster_weight(dominant) or 1e-9
+    value = sum(float(c.value) * w for c, w in dominant) / total_w
+
+    # Range spans all *credible* claims, not just the dominant cluster.
+    credible_vals = [float(c.value) for c, w in scored if w >= CREDIBLE_FLOOR]
+    rng = (
+        Range(low=min(credible_vals), high=max(credible_vals))
+        if len(credible_vals) >= 2
+        else None
+    )
+
+    # estimate_type: multiple independent sources agreeing => consensus.
+    distinct_sources = {c.source.name for c, _ in dominant}
+    estimate_type = (
+        EstimateType.CONSENSUS if len(distinct_sources) > 1 else EstimateType.REPORTED
+    )
+
+    confidence = corroborate([w for _, w in dominant])
+
+    # Contradiction: a rival cluster also carries serious weight (§5.3).
+    contradiction = any(_cluster_weight(c) >= CONTRADICTION_FLOOR for c in clusters[1:])
+
+    # Freshest supporting date drives as_of.
+    pub_dates = [c.source.published_at for c, _ in dominant if c.source.published_at]
+    resolved_as_of = max(pub_dates) if pub_dates else as_of
+
+    delta = None
+    if previous is not None and isinstance(previous.value, (int, float)):
+        prev_val = float(previous.value)
+        if prev_val != 0:
+            delta = Delta(
+                previous=prev_val,
+                change_pct=round((value - prev_val) / abs(prev_val) * 100, 1),
+                since=previous.as_of,
+            )
+
+    return ResolvedValue(
+        metric=metric,
+        value=round(value, 2),
+        unit=unit,
+        range=rng,
+        as_of=resolved_as_of,
+        estimate_type=estimate_type,
+        confidence=round(confidence, 3),
+        supporting_claims=[c.id for c, _ in dominant],
+        contradiction=contradiction,
+        delta=delta,
+        history_ref=history_ref,
+    )

@@ -97,6 +97,46 @@ def test_extract_handles_empty():
 # ── end-to-end: extract → reconcile ──────────────────────────────────────────
 
 
+def test_extract_batch_tags_items_to_sources():
+    from openpitch.pipeline.extract import extract_claims_batch
+    items = [raw(SourceType.NEWS, "TC"), raw(SourceType.PODCAST, "20VC")]
+    llm = MockLLM({"claims": [
+        {"item_index": 0, "metric": "arr", "value": 50_000_000, "unit": "USD",
+         "speaker_role": "journalist", "raw_text": "hit $50M ARR"},
+        {"item_index": 1, "metric": "valuation", "value": 900_000_000, "unit": "USD",
+         "speaker_role": "founder", "raw_text": "valued near $900M"},
+        {"item_index": 9, "metric": "arr", "value": 1, "raw_text": "bad index"},  # dropped
+    ]})
+    claims = extract_claims_batch(items, ACME, llm=llm, metric_keys=METRICS, now=NOW)
+    assert len(claims) == 2
+    by_metric = {c.metric: c for c in claims}
+    assert by_metric["arr"].source.name == "TC"          # item 0 -> news
+    assert by_metric["valuation"].source.name == "20VC"  # item 1 -> podcast
+
+
+def test_gemini_rotates_models_on_daily_quota():
+    from openpitch.pipeline.llm import GeminiLLM
+
+    class _Models:
+        def generate_content(self, model, contents, config):
+            if model == "gemini-2.5-flash":
+                raise RuntimeError("429 RESOURCE_EXHAUSTED ... GenerateRequestsPerDayPerProjectPerModel-FreeTier")
+            class R:
+                text = '{"claims": []}'
+            return R()
+
+    class _Client:
+        models = _Models()
+
+    g = GeminiLLM.__new__(GeminiLLM)
+    g.client = _Client()
+    g.models = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-2.5-flash-lite"]
+    g._exhausted = set()
+    assert g.complete_json("s", "u", {}) == {"claims": []}
+    assert "gemini-2.5-flash" in g._exhausted   # exhausted model rotated out
+    assert g.model == "gemini-2.0-flash"
+
+
 def test_extract_then_reconcile_consensus():
     c1 = extract_claims(
         raw(SourceType.PODCAST, "20VC"), ACME,

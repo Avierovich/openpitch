@@ -37,6 +37,31 @@ EXTRACTION_SCHEMA = {
     "required": ["claims"],
 }
 
+# Batched variant: one LLM call covers many source items (each claim tags its
+# originating item_index). This is the key free-tier-quota lever (FRD §7).
+BATCH_EXTRACTION_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "claims": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": ["item_index", "metric", "value", "raw_text"],
+                "properties": {
+                    "item_index": {"type": "integer"},
+                    "metric": {"type": "string"},
+                    "value": {"type": "number"},
+                    "unit": {"type": "string"},
+                    "qualifiers": {"type": "array", "items": {"type": "string"}},
+                    "speaker_role": {"type": "string"},
+                    "raw_text": {"type": "string"},
+                },
+            },
+        }
+    },
+    "required": ["claims"],
+}
+
 EXTRACTION_SYSTEM = (
     "You extract hard business metrics about a specific company from text. "
     "Return ONLY metrics that are explicitly stated about THAT company. Do not infer, "
@@ -57,6 +82,21 @@ def build_user_prompt(raw_item: RawItem, company_name: str, metric_keys: list[st
         f"Source type: {raw_item.source_type.value}\n"
         f"Title: {raw_item.title or ''}\n\n"
         f"Text:\n{raw_item.text}"
+    )
+
+
+def build_batch_prompt(items: list[RawItem], company_name: str, metric_keys: list[str], *, per_item_chars: int = 1500) -> str:
+    blocks = []
+    for i, it in enumerate(items):
+        blocks.append(
+            f"[{i}] ({it.source_type.value}) {it.title or ''}\n{(it.text or '')[:per_item_chars]}"
+        )
+    return (
+        f"Company: {company_name}\n"
+        f"Allowed metric keys: {', '.join(metric_keys)}\n"
+        f"Extract metrics about THIS company from the numbered sources below. "
+        f"Tag every claim with the item_index it came from.\n\n"
+        + "\n\n".join(blocks)
     )
 
 
@@ -112,6 +152,48 @@ def extract_claims(
             extracted_at=now,
             extractor_model=llm.model,
             base_confidence=0.0,  # set below
+        )
+        claim.base_confidence = round(base_confidence(claim), 4)
+        claims.append(claim)
+    return claims
+
+
+def extract_claims_batch(
+    items: list[RawItem],
+    company,
+    *,
+    llm: LLMProvider,
+    metric_keys: list[str],
+    now: datetime | None = None,
+) -> list[Claim]:
+    """Extract Claims from MANY RawItems in a single LLM call (quota-efficient).
+
+    Each returned claim references the item_index it came from, so provenance is
+    attached to the right source. Unknown metric keys / bad indices are dropped.
+    """
+    now = now or datetime.now()
+    if not items:
+        return []
+    prompt = build_batch_prompt(items, company.name, metric_keys)
+    data = llm.complete_json(EXTRACTION_SYSTEM, prompt, BATCH_EXTRACTION_SCHEMA) or {}
+
+    claims: list[Claim] = []
+    for rc in data.get("claims", []):
+        metric = rc.get("metric")
+        idx = rc.get("item_index")
+        if metric not in metric_keys or not isinstance(idx, int) or not (0 <= idx < len(items)):
+            continue
+        it = items[idx]
+        source = Source(
+            type=it.source_type, name=it.source_name, url=it.url,
+            locator=it.locator, published_at=it.published_at,
+        )
+        claim = Claim(
+            id=_claim_id(company.id, metric, rc.get("value"), source.name, source.published_at),
+            company_id=company.id, metric=metric, value=rc.get("value"), unit=rc.get("unit"),
+            raw_text=rc.get("raw_text", ""), qualifiers=rc.get("qualifiers", []) or [],
+            speaker=Speaker(role=_role(rc.get("speaker_role"))), source=source,
+            extracted_at=now, extractor_model=llm.model, base_confidence=0.0,
         )
         claim.base_confidence = round(base_confidence(claim), 4)
         claims.append(claim)

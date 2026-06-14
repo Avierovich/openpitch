@@ -148,10 +148,14 @@ def run(
     now = datetime.now()
     as_of = now.date()
     from ..config import load_watchlist
-    from .extract import extract_claims
+    from .extract import extract_claims_batch
     from .llm import get_provider
     from .sources import ADAPTERS
     from .transcribe import transcribe
+
+    def _chunks(seq, n):
+        for i in range(0, len(seq), n):
+            yield seq[i : i + n]
 
     llm = get_provider()
     keys = metric_keys()
@@ -169,15 +173,14 @@ def run(
                 items.extend(adapter.fetch(company_stub))
             except Exception as exc:  # noqa: BLE001
                 typer.echo(f"  ! {meta['id']}/{adapter.__name__}: {exc}")
+        text_items = [t for it in items if (t := transcribe(it)).text]
         claims: list[Claim] = []
-        for it in items:
-            it = transcribe(it)
-            if not it.text:
-                continue
+        # Batch many source items per LLM call (free-tier-quota lever, FRD §7).
+        for chunk in _chunks(text_items, 15):
             try:
-                claims.extend(extract_claims(it, company_stub, llm=llm, metric_keys=keys, now=now))
+                claims.extend(extract_claims_batch(chunk, company_stub, llm=llm, metric_keys=keys, now=now))
             except Exception as exc:  # noqa: BLE001
-                typer.echo(f"  ! extract {meta['id']}: {exc}")
+                typer.echo(f"  ! extract {meta['id']}: {str(exc)[:120]}")
         if claims:
             pairs.append(_reconcile_company(meta, claims, now=now, as_of=as_of))
     n_events = _finalize(pairs, now=now, as_of=as_of)

@@ -16,7 +16,11 @@ from ..models import Claim, Delta, EstimateType, Range, ResolvedValue
 from .confidence import current_confidence, corroborate
 
 CREDIBLE_FLOOR = 0.30        # claims below this don't widen the range (§5.1 step 5)
-CONTRADICTION_FLOOR = 0.50   # a rival cluster this strong = a contradiction (§5.3)
+# A contradiction = a rival cluster that is BOTH meaningful in absolute terms AND a
+# serious fraction of the dominant cluster. Relative (not a fixed floor) so it still
+# fires on real, time-decayed data where single-source clusters sit well below 0.5.
+CONTRADICTION_ABS = 0.15
+CONTRADICTION_RATIO = 0.33
 
 
 def _numeric(claims: list[Claim]) -> list[Claim]:
@@ -106,8 +110,10 @@ def reconcile(
 
     confidence = corroborate([w for _, w in dominant])
 
-    # Contradiction: a rival cluster also carries serious weight (§5.3).
-    contradiction = any(_cluster_weight(c) >= CONTRADICTION_FLOOR for c in clusters[1:])
+    # Contradiction: a rival cluster carries serious weight, both absolutely and
+    # relative to the dominant cluster (§5.3).
+    floor = max(CONTRADICTION_ABS, CONTRADICTION_RATIO * total_w)
+    contradiction = any(_cluster_weight(c) >= floor for c in clusters[1:])
 
     # Freshest supporting date drives as_of.
     pub_dates = [c.source.published_at for c, _ in dominant if c.source.published_at]

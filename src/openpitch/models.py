@@ -138,6 +138,7 @@ class Company(BaseModel):
     aliases: list[str] = Field(default_factory=list)
     website: str | None = None
     category: str | None = None
+    segment: str | None = None       # global | mena
     in_universe: bool = True
     vc_attention_score: float | None = None
     universe_rank: int | None = None

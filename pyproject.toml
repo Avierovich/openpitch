@@ -22,7 +22,8 @@ pipeline = [
     "google-genai>=0.3",      # default pipeline LLM (swappable)
     "pywhispercpp>=1.2",      # local transcription fallback
 ]
-dev = ["ruff>=0.4", "mypy>=1.9", "pytest>=8.0"]
+mcp = ["mcp>=1.2"]                 # local MCP server (consumers)
+dev = ["ruff>=0.4", "mypy>=1.9", "pytest>=8.0", "openpyxl>=3.1"]
 
 [project.scripts]
 openpitch = "openpitch.pipeline.run:app"          # CLI: run the pipeline

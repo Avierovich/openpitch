@@ -6,3 +6,7 @@ structured data; the user's own agent does the reasoning (FRD §8.6).
 Every numeric response carries value, range, confidence, estimate_type,
 as_of, and sources — provenance is never stripped.
 """
+
+from . import tools
+
+__all__ = ["tools"]

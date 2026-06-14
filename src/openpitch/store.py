@@ -7,7 +7,6 @@ Everything round-trips through the Pydantic models in `models.py`.
 from __future__ import annotations
 
 import json
-from datetime import date
 from pathlib import Path
 
 from . import paths

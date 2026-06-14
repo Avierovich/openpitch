@@ -58,6 +58,35 @@ def test_edgar_empty():
     assert edgar.parse_hits({}, "acme") == []
 
 
+def test_edgar_headers_use_env_user_agent(monkeypatch):
+    monkeypatch.setenv("OPENPITCH_SEC_USER_AGENT", "OpenPitch/0.1 test@example.com")
+    headers = edgar.sec_headers()
+    assert headers["User-Agent"] == "OpenPitch/0.1 test@example.com"
+    assert headers["Accept-Encoding"] == "gzip, deflate"
+
+
+def test_edgar_fetch_sends_sec_headers(monkeypatch):
+    monkeypatch.setenv("OPENPITCH_SEC_USER_AGENT", "OpenPitch/0.1 test@example.com")
+    calls = []
+
+    class FakeResponse:
+        def raise_for_status(self):
+            return None
+
+        def json(self):
+            return {"hits": {"hits": []}}
+
+    class FakeClient:
+        def get(self, url, *, params=None, headers=None):
+            calls.append({"url": url, "params": params, "headers": headers})
+            return FakeResponse()
+
+    assert edgar.fetch(ACME, client=FakeClient()) == []
+    assert calls[0]["url"] == edgar.EFTS_URL
+    assert calls[0]["params"] == {"q": '"Acme AI"', "forms": "D"}
+    assert calls[0]["headers"]["User-Agent"] == "OpenPitch/0.1 test@example.com"
+
+
 # ── News ─────────────────────────────────────────────────────────────────────
 
 

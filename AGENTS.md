@@ -113,6 +113,60 @@ Recommended shape:
 - Store durable post URL/post ID, author handle, date, short supporting phrase, and provenance.
 - Use X mainly for contradiction discovery, founder/operator metric claims, funding/customer/logo announcements, and source discovery that can be corroborated elsewhere.
 
+### 2026-06-14 - SEC EDGAR fair-access header fix
+
+Codex updated the EDGAR source adapter after a live pipeline run returned `403 Forbidden` from the SEC EDGAR full-text search endpoint.
+
+Files modified by Codex:
+
+- `src/openpitch/pipeline/sources/edgar.py`
+- `tests/test_adapters.py`
+
+Main content changes:
+
+- Added `edgar.sec_headers()`.
+- The EDGAR adapter now reads `OPENPITCH_SEC_USER_AGENT` from `.env`.
+- Added SEC-friendly request headers: `User-Agent`, `Accept-Encoding`, and `Accept`.
+- Added adapter tests proving the env-backed user agent is sent without making network calls.
+
+Verification performed by Codex:
+
+- Ran `PYTHONPATH=src .venv/bin/python -m pytest tests/test_adapters.py`.
+- Result: `11 passed`.
+
+Follow-up required:
+
+- Add a real contact-bearing user agent to local `.env`, for example:
+
+```env
+OPENPITCH_SEC_USER_AGENT=OpenPitch/0.1 your-email@example.com
+```
+
+Do not commit `.env`; it is gitignored and should remain local.
+
+### 2026-06-14 - Daily workflow env wiring
+
+Codex updated the GitHub Actions daily refresh workflow so CI can pass optional live-source credentials.
+
+Files modified by Codex:
+
+- `.github/workflows/daily.yml`
+- `src/openpitch/pipeline/publish/events.py`
+- `src/openpitch/pipeline/publish/publish.py`
+- `src/openpitch/pipeline/sources/base.py`
+- `src/openpitch/store.py`
+
+Main content changes:
+
+- Added `GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}` to the pipeline step.
+- Added `OPENPITCH_SEC_USER_AGENT: ${{ secrets.OPENPITCH_SEC_USER_AGENT }}` to the pipeline step.
+- Updated the workflow comment to clarify that `LLM_API_KEY` controls live extraction, while Groq and SEC user-agent improve transcription and EDGAR reliability.
+- Removed unused imports found by the pre-push `ruff check`; no behavior change.
+
+Follow-up required:
+
+- Add repository secrets `GROQ_API_KEY` and `OPENPITCH_SEC_USER_AGENT` in GitHub before relying on the scheduled live pipeline.
+
 ## Claude Code Edits Log
 
 ### 2026-06-13 - Core engine implementation (committed)

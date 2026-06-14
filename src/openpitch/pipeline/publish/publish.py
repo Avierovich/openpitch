@@ -5,7 +5,7 @@ from __future__ import annotations
 from datetime import datetime
 
 from ... import store
-from ...models import Claim, Company, Event, ResolvedValue, Source
+from ...models import Claim, Company, Event, Source
 from .events import detect_events
 
 

@@ -9,14 +9,29 @@ I/O (`fetch`) is thin; `parse_hits` is pure and unit-tested.
 
 from __future__ import annotations
 
-from datetime import date
+import os
 
 from .base import RawItem, parse_date
 from ...models import Company, SourceType
+from ...paths import load_dotenv
 
 EFTS_URL = "https://efts.sec.gov/LATEST/search-index"
-# SEC asks API users to identify themselves; override via env/config in prod.
-USER_AGENT = "OpenPitch/0.1 (open-source AI-startup intelligence; contact via GitHub issues)"
+DEFAULT_USER_AGENT = "OpenPitch/0.1 (open-source AI-startup intelligence; contact via GitHub issues)"
+
+
+def sec_headers() -> dict[str, str]:
+    """Headers for SEC fair-access requests.
+
+    SEC asks automated clients to identify the caller with app/org + contact.
+    Set OPENPITCH_SEC_USER_AGENT in .env for production runs.
+    """
+    load_dotenv()
+    user_agent = os.environ.get("OPENPITCH_SEC_USER_AGENT", DEFAULT_USER_AGENT).strip()
+    return {
+        "User-Agent": user_agent or DEFAULT_USER_AGENT,
+        "Accept-Encoding": "gzip, deflate",
+        "Accept": "application/json, text/plain, */*",
+    }
 
 
 def parse_hits(payload: dict, company_id: str) -> list[RawItem]:
@@ -54,11 +69,10 @@ def fetch(company: Company, *, client=None, lookback_days: int = 400) -> list[Ra
     import httpx
 
     params = {"q": f'"{company.name}"', "forms": "D"}
-    headers = {"User-Agent": USER_AGENT}
     owns_client = client is None
     client = client or httpx.Client(timeout=20.0)
     try:
-        resp = client.get(EFTS_URL, params=params, headers=headers)
+        resp = client.get(EFTS_URL, params=params, headers=sec_headers())
         resp.raise_for_status()
         return parse_hits(resp.json(), company.id)
     finally:

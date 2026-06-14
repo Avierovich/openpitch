@@ -34,8 +34,11 @@ jobs:
         env:
           # Free-tier key, no billing attached → cannot be charged (FRD §8.6 / BRD §9.1)
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-        # Live run needs LLM_API_KEY + verified podcast feeds; falls back to the
-        # committed seed (offline) when no key is configured.
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          OPENPITCH_SEC_USER_AGENT: ${{ secrets.OPENPITCH_SEC_USER_AGENT }}
+        # Live run needs LLM_API_KEY for extraction; GROQ_API_KEY and
+        # OPENPITCH_SEC_USER_AGENT improve transcription and EDGAR reliability.
+        # Falls back to the committed seed (offline) when no LLM key is configured.
         run: openpitch run ${{ secrets.LLM_API_KEY == '' && '--offline' || '' }}
 
       - name: Build dashboard

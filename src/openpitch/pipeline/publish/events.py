@@ -9,7 +9,7 @@ from __future__ import annotations
 
 from datetime import datetime
 
-from ...models import Event, EventPayload, EventType, EstimateType, ResolvedValue, Source
+from ...models import Event, EventPayload, EventType, ResolvedValue, Source
 
 # Materiality: (min pct change, [absolute bands that, if crossed, also fire]).
 _THRESHOLDS: dict[str, tuple[float, list[float]]] = {

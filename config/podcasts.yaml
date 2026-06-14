@@ -1,20 +1,20 @@
 # Podcast feeds scanned for AI-startup metric mentions (FRD §7).
 #
 # These VC/startup/AI shows are where founders most often leak ARR, valuation,
-# and growth numbers. Add the verified RSS `feed_url` for each show — the
-# adapter SKIPS any entry without a feed_url, so empty ones are safe.
+# and growth numbers. The adapter scans recent episodes for company mentions.
 #
-# Find a show's RSS via its host (Simplecast/Transistor/Megaphone/Substack),
-# Apple Podcasts ("Copy RSS"), or a feed-lookup tool. Verify before committing.
+# feed_urls verified live via Apple Podcasts lookup on 2026-06-14 (all returned
+# 200 + valid RSS). Re-verify periodically; hosts (Megaphone/Substack/etc.) can
+# rotate feed URLs. The adapter skips any entry with a blank feed_url.
 
 feeds:
-  - { name: "20VC (Harry Stebbings)",        feed_url: "" }   # TODO: verify RSS
-  - { name: "No Priors",                     feed_url: "" }   # TODO
-  - { name: "Latent Space",                  feed_url: "" }   # TODO
-  - { name: "Acquired",                      feed_url: "" }   # TODO
-  - { name: "Lenny's Podcast",               feed_url: "" }   # TODO
-  - { name: "The Logan Bartlett Show",       feed_url: "" }   # TODO
-  - { name: "Invest Like the Best",          feed_url: "" }   # TODO
-  - { name: "This Week in Startups",         feed_url: "" }   # TODO
-  - { name: "The AI Daily Brief",            feed_url: "" }   # TODO
-  - { name: "Unsupervised Learning",         feed_url: "" }   # TODO
+  - { name: "20VC (Harry Stebbings)",  feed_url: "https://rss.libsyn.com/shows/61840/destinations/240976.xml" }
+  - { name: "No Priors",               feed_url: "https://feeds.megaphone.fm/nopriors" }
+  - { name: "Latent Space",            feed_url: "https://api.substack.com/feed/podcast/1084089.rss" }
+  - { name: "Acquired",                feed_url: "https://feeds.transistor.fm/acquired" }
+  - { name: "Lenny's Podcast",         feed_url: "https://api.substack.com/feed/podcast/10845.rss" }
+  - { name: "The Logan Bartlett Show", feed_url: "https://rss2.flightcast.com/jlx9l0yn04wt3r710o051jtm.xml" }
+  - { name: "Invest Like the Best",    feed_url: "https://feeds.megaphone.fm/CLS2859450455" }
+  - { name: "This Week in Startups",   feed_url: "https://anchor.fm/s/7c624c84/podcast/rss" }
+  - { name: "The AI Daily Brief",      feed_url: "https://anchor.fm/s/f7cac464/podcast/rss" }
+  - { name: "Unsupervised Learning",   feed_url: "https://feeds.simplecast.com/dOSE_bdP" }

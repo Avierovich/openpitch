@@ -95,6 +95,8 @@ OpenPitch is **not** a replacement for PitchBook, CB Insights, Crunchbase, Harmo
 
 > **PMM takeaway:** position OpenPitch as **complementary, not a rip-and-replace.** The honest pitch is *"the free, fresh, AI-native first look — before you pull the expensive verified report."* Claiming to "replace PitchBook" invites a credibility fight we'd lose; claiming to be "the fastest, most transparent, free first signal for AI startups" is a fight we win.
 
+> **Free/MCP competitor note:** this page focuses on paid/private-market incumbents. The more direct open/free/agent-native threat set now includes Exa Company Researcher, Octagon Funding MCP, Sieve MCP, CompanyLens MCP, Intelica MCP, Crunchbase MCP wrappers, ROSS Index, LF AI Landscape, and other company-research agents. See [OSS-LANDSCAPE.md](OSS-LANDSCAPE.md), [OSS-DEEP-DIVE.md](OSS-DEEP-DIVE.md), and the `OSS + Free Direct Landscape` sheet in [competitive-matrix.xlsx](competitive-matrix.xlsx).
+
 ---
 
 ## 6. MENA deep-dive (MAGNiTT & Wamda)

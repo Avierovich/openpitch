@@ -1,63 +1,76 @@
-# Open-Source & Adjacent Competitor Landscape
+# Open-Source, Free & MCP Competitor Landscape
 
 | | |
 |---|---|
 | **Owner** | Mohamed Abdulhadi |
 | **Date** | 2026-06-13 |
-| **Method** | Web research (GitHub, MCP registries, product sites), June 2026 |
-| **Companion** | [COMPETITIVE-ANALYSIS.md](COMPETITIVE-ANALYSIS.md) (paid incumbents) |
+| **Method** | Public web research across GitHub, MCP registries, package/product pages, dataset repos, public social snippets, and free-access docs |
+| **Companion** | [OSS-DEEP-DIVE.md](OSS-DEEP-DIVE.md), [competitive-matrix.xlsx](competitive-matrix.xlsx) |
 
-> Question answered: **does anyone already ship what OpenPitch is — an open/free, agent-native, fresh, sourced intelligence layer for (AI) startups?** Short answer: **no one combines all the axes.** Each closest analog nails *one* and misses the rest. That's genuine white space — but several pieces have prior art, so our defensibility is the *combination + openness + transparency*, not any single feature.
+> Question answered: **does anyone already ship what OpenPitch is — a free/open, agent-native, fresh, sourced intelligence layer for AI-startup metrics?** Short answer: **no one combines all the axes**, but the free/MCP landscape is broader than the first pass implied. The closest substitutes are open company-research agents, startup due-diligence MCPs, funding-data MCPs, Crunchbase wrappers, and open startup datasets.
 
----
+## 1. Research protocol
 
-## 1. The landscape (what actually exists)
+This pass explicitly searched beyond paid incumbents:
 
-> **Per-competitor teardowns + threat levels + revised viability are in [OSS-DEEP-DIVE.md](OSS-DEEP-DIVE.md)** — this page is the survey.
+- **GitHub/code** — `startup data`, `company research`, `funding data`, `crunchbase`, `pitchbook`, `MCP`, `due diligence`, `venture capital`, `private markets`.
+- **MCP registries** — Glama, MCP.so, LobeHub, Smithery/Pipedream-style lists, awesome-mcp lists.
+- **Product/docs/API pages** — install docs, pricing pages, changelogs, tool lists, examples.
+- **Package registries** — npm/package links where MCP servers expose install paths.
+- **Datasets** — ROSS Index, LF AI Landscape, YC/OSS lists, GitHub startup/funding data.
+- **Social/public traction** — X snippets, Reddit posts, Product Hunt/HN-like mentions where accessible. Social was used as directional evidence only, never as the sole source for hard capability claims.
 
-| Project | Type | Open? | Agent-native (MCP)? | Scope | Provenance / confidence | Status |
-|---|---|:--:|:--:|---|:--:|---|
-| **[OpenBB](https://github.com/OpenBB-finance/OpenBB)** | Open finance data + MCP | ✓ | ✓✓ | **Public markets** (quant/analyst), not private startups | ✗ | Major project, very active ⚠️ |
-| **[OpenBook](https://github.com/iloveitaly/openbook)** | "PitchBook but open" | ✓ | ✗ | US **VC firms** (contacts), not companies/metrics | ✗ | ~54★, **dormant** |
-| **[OpenVC](https://www.openvc.app/)** | Community investor DB | partly | ✗ | 10k+ **investors** | ✗ | Active, free |
-| **[findfunding.vc](https://www.findfunding.vc/)** | Open VC-firm DB | ✓ | ✗ | US/Canada **VC firms** | ✗ | Active, niche |
-| **[Crunchbase MCP server](https://github.com/Cyreslab-AI/crunchbase-mcp-server)** | MCP wrapper | ✓ (code) | ✓ | Whatever Crunchbase API returns | ✗ | Active — **needs paid Crunchbase key** |
-| **[Apify fundraising scraper (MCP)](https://apify.com/)** | Scraper + MCP | ✗ | ✓ | TechCrunch/Crunchbase/FinSMEs | ✗ | Paid service |
-| **[AI Funding Tracker](https://aifundingtracker.com/)** | Media/list site | ✗ | ✗ | **AI-startup funding** (closest content) | ✗ | Active, free-ish |
-| **[Growth List](https://growthlist.co/ai-startups/)** | Paid lead DB | ✗ | ✗ | ~10k funded AI startups | ✗ | Paid |
-| **[0x32e/crunchbase](https://github.com/0x32e/crunchbase)** | Funding analyzer | ✓ | ✗ | Seed/pre-seed query tool | ✗ | Small/experimental |
-| **[ryukeno/VC-Startup-Funding](https://github.com/ryukeno/VC-Startup-Funding)** | EDA notebooks | ✓ | ✗ | Funding analysis | ✗ | Static project |
-| **[yc-oss/open-source-companies](https://github.com/yc-oss/open-source-companies)** | Curated list | ✓ | ✗ | YC OSS startups | ✗ | List, not intelligence |
-| Kaggle funding datasets | Static dataset | ✓ | ✗ | 2024–25 rounds snapshot | ✗ | Frozen snapshots |
+Account-gated products were verified from public docs/listings unless a free account was needed and feasible. No paid access, payment-card trial, private scraping, or paywall bypassing was used.
 
----
+## 2. Directness scale
 
-## 2. Closest analogs on each axis (and why none is OpenPitch)
+| Label | Meaning |
+|---|---|
+| `direct` | Can answer company/startup/funding intelligence questions now |
+| `near-direct` | Can research companies but lacks structured startup metric database or OpenPitch-style trust model |
+| `adjacent` | Useful source, dataset, workflow, or discovery competitor |
+| `source/partner` | More likely an input source than a product competitor |
 
-| Axis OpenPitch owns | Closest existing thing | Why it's not us |
+## 3. Open / free / MCP landscape
+
+| Project | Type | Directness | Open? | Agent-native? | Scope | Provenance / confidence | Status / caveat |
+|---|---|---|:--:|:--:|---|:--:|---|
+| **OpenBB** | Open finance data + MCP | adjacent | ✓ | ✓✓ | Public markets / finance, not startup ARR | ◐ | Major open/MCP distribution threat |
+| **Exa Company Researcher** | Open-source company research app | near-direct | ✓ | ◐ | Any company; funding, PitchBook/Crunchbase/Tracxn lookups, news, social, GitHub | ◐ | Strongest OSS company-research analog; requires Exa + Anthropic keys |
+| **Octagon Funding Data MCP** | Funding/private-market MCP | direct | ◐ code | ✓ | Funding rounds, valuations, investors, trends | ◐ | Free account/API key per MCP listing; proprietary backend |
+| **Sieve MCP** | Startup due-diligence MCP | direct | ✓ repo | ✓ | Startup screening, IMPACT-X score, evidence-typed findings | ✓ | Closest due-diligence workflow analog |
+| **Intelica MCP** | Competitive intelligence API/MCP | near-direct | ◐ docs | ✓ | Competitive/venture screening context | ◐ | Agent-native CI substitute; paid per call |
+| **CompanyLens MCP** | Official-source corporate intelligence MCP | near-direct | ✓ | ✓ | SEC, Companies House, sanctions, contracts, court cases | ✓ | Strong source-layer competitor/partner, not private ARR |
+| **FounderSignal MCP** | Founder/startup signal MCP | near-direct | ? | ✓ | Trends, ads, Crunchbase, LinkedIn, product reviews | ◐ | Recent MCP listing; details need deeper verification |
+| **Crunchbase MCP Server** | MCP wrapper | direct | ✓ code | ✓ | Crunchbase company/funding/acquisition/people data | ✗ | Requires Crunchbase access/API; thin wrapper |
+| **ThomasJanssen Crunchbase MCP** | Small Crunchbase/company MCP | near-direct | ✓ repo | ✓ | Crunchbase-style company queries via Bright Data-style retrieval | ✗ | Tiny project; validates wrapper pattern |
+| **Apify company research actors** | Scraping/research marketplace | near-direct | ✗/varies | ◐ | Company profiles, PitchBook/Crunchbase/LinkedIn/news depending on actor | ◐ | Commodity paid/free-credit substitute |
+| **Tavily / Agentic Company Researcher** | Open company-research agent | near-direct | ✓ | ◐ | Search-generated company reports | ◐ | Live research pattern, not committed metric DB |
+| **AI Funding Tracker** | AI-startup funding site | adjacent | ✗ | ✗ | AI funding cards/roundups | ◐ | Closest content/SEO competitor for AI funding |
+| **ROSS Index** | OSS startup dataset/index | adjacent | ✓ | ✗ | Trending open-source startups by GitHub star growth | ✓ | Discovery signal, not funding/ARR intelligence |
+| **LF AI Landscape** | Open AI/data landscape | adjacent | ✓ | ✗ | Open-source AI/data projects, GitHub/funding metadata | ◐ | Source/partner dataset |
+| **OpenBook** | "PitchBook but open" VC contacts | adjacent | ✓ | ✗ | VC firms/investors, not company metrics | ✗ | Dormant/niche but relevant in spirit |
+| **OpenVC / findfunding.vc** | Investor-side databases | adjacent | ◐/✓ | ✗ | Investors/funds, not companies | ✗ | Complementary source/partner |
+| **YC OSS / yc-oss lists** | Startup directories | source/partner | ✓ | ✗ | Open-source startups/company lists | ✗ | Seed/source input, not intelligence layer |
+| **Kaggle/static funding datasets** | Static datasets | source/partner | ✓/varies | ✗ | Frozen company/funding snapshots | ✗ | Useful only as historical seed data |
+
+## 4. Closest analogs by axis
+
+| Axis OpenPitch owns | Closest existing thing | Why it is not OpenPitch |
 |---|---|---|
-| **Open + LLM extraction** | OpenBook | Extracts *investor contacts* from VC sites, not company metrics; dormant; ~54★ |
-| **Agent-native (MCP)** | Crunchbase MCP server / Apify | **Wrap paid/proprietary sources** — need a Crunchbase key or paid scraper. Not free, not open data, no provenance/confidence |
-| **AI-startup funding focus** | AI Funding Tracker | A website/newsletter, not open, not agent-native, no ARR/provenance/confidence/history |
-| **Open investor data** | OpenVC, findfunding.vc | Investor-side (who to pitch), not company-side metrics/intelligence |
-| **Funding datasets** | Kaggle / Intellizence | Static snapshots or paid; no freshness, no agent interface |
+| Open-source company research | Exa Company Researcher | Live research app; needs search/LLM keys; no committed startup metric DB, confidence decay, contradiction model, or event feed |
+| Funding-data MCP | Octagon Funding Data MCP | Funding/valuation MCP, but proprietary backend and API key; no open audit trail |
+| Startup due diligence MCP | Sieve MCP | Evidence-typed diligence workflow, but not an open sourced metric database with history |
+| Official-source company MCP | CompanyLens MCP | Strong public-company/registry data, but not private AI-startup ARR/funding intelligence |
+| Crunchbase-in-agent | Crunchbase MCP wrappers | Need proprietary Crunchbase/Bright Data access and add little trust logic |
+| AI-startup funding content | AI Funding Tracker | Human website/content, not structured agent-native open data |
+| OSS startup discovery | ROSS Index / LF AI Landscape | Tracks OSS ecosystems and GitHub/funding metadata, not private-company ARR/provenance |
 
-**Nobody does the full stack:** confidence-scoring **+** provenance **+** contradiction detection **+** podcast mining **+** daily freshness **+** MCP-native **+** free/open, on **AI startups (+ MENA)**. That specific combination is unoccupied.
+## 5. Strategic takeaways
 
----
-
-## 3. Honest threats (where this gets uncomfortable)
-
-1. **The "MCP-wraps-Crunchbase" pattern is easy and already exists.** Anyone can stand up an MCP server over a paid data API in a weekend. Our defense is *free + no key + provenance/confidence + podcast freshness + AI focus* — not novelty of "startup data in your agent."
-2. **AI Funding Tracker already owns the free-AI-funding-content niche** for humans. We differ by being structured, agent-native, sourced, and confidence-scored — but they have a head start on audience.
-3. **Individual features are not moats.** LLM extraction (OpenBook, Unstructured), funding data (Kaggle, Crunchbase), MCP servers — all commodity. **The moat is the combination + the transparency/provenance model + openness + agent-native distribution**, defended by execution and community, not secrecy.
-4. **Low-cost to clone the idea, high-cost to clone the trust.** The reconciliation/confidence/contradiction layer and a credible track record are the hard, slow parts — lean into them.
-
----
-
-## 4. Strategic takeaways
-
-- **White space is real but the framing matters.** Don't say "first startup data in your agent" (false — Crunchbase MCP exists). Say *"the first **free, open, sourced, confidence-scored** AI-startup intelligence that lives in your agent."*
-- **Differentiate hard on transparency + the contradiction-finder** — literally nobody in this list has them.
-- **Co-opt, don't fight, the adjacent open projects** — e.g. OpenVC/findfunding.vc are investor-side; we could *complement* (or even consume) them rather than compete.
-- **Speed matters:** the MCP-startup-data space is forming now (Runlayer, Manufact, etc. just funded). Being the *open, free, transparent* option early is the land-grab.
+1. **The space is not empty.** "Startup/company research in an agent" already exists through Exa, Octagon, Sieve, CompanyLens, Crunchbase wrappers, and generic research MCPs.
+2. **The specific combination is still open.** None of the found competitors combines no-key local MCP, committed open data, AI-startup focus, per-figure confidence/provenance, contradiction detection, corrections, and event feeds.
+3. **Funding scraping is commodity.** Apify and Crunchbase wrappers show raw collection is easy; OpenPitch must compete on reconciliation, source quality, freshness, and auditability.
+4. **OpenPitch should avoid "first" claims.** Safer claim: *"the free, open, no-key, confidence-scored AI-startup intelligence layer agents can call."*
+5. **Some competitors are future sources.** CompanyLens, ROSS Index, LF AI Landscape, OpenVC, and public registries may be source partners rather than rivals.
+6. **Social proof is useful but weak.** X and Reddit helped confirm Exa and Sieve traction, but hard workbook claims should still rely on repos, registries, docs, and product pages.

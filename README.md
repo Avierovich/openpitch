@@ -8,7 +8,7 @@
 
 `MCP-native` · `zero-cost` · `fully-sourced` · `updated daily`
 
-> ⚠️ **Status: early development.** Specs are complete ([BRD](docs/BRD.md) · [FRD](docs/FRD.md)); implementation is in progress.
+> ⚠️ **Status: early development.** Product/spec docs are in place ([BRD](docs/BRD.md) · [FRD](docs/FRD.md) · [PRD](docs/PRD.md)); implementation is in progress.
 
 </div>
 
@@ -56,20 +56,41 @@ Every number carries **its source, a confidence score, and a tracked history** o
 
 **No API key. No signup. No cost.** The data is already built and committed; the MCP server just reads it, and *your* agent does the reasoning.
 
+**Run it now from source** (until the package is published):
+
+```bash
+git clone <repo> && cd openpitch
+python -m venv .venv && source .venv/bin/activate
+pip install -e ".[mcp]"
+openpitch seed          # build the data/ database from the committed seed (offline, no key)
+```
+
+Then point your agent at the local server:
+
 ```jsonc
-// add to your MCP config (e.g. Claude Code / Codex)
+// MCP config (Claude Code / Codex). Published path will be: {"command":"uvx","args":["openpitch-mcp"]}
 {
   "mcpServers": {
-    "openpitch": { "command": "uvx", "args": ["openpitch-mcp"] }
+    "openpitch": { "command": "openpitch-mcp" }
   }
 }
 ```
 
-Then just ask your agent about any covered AI company. *(Install snippet finalized at first release.)*
+Ask your agent: *"What's Cognition's ARR, with sources and confidence?"* — it calls `get_metric`/`get_provenance` and answers from committed data (and will flag the public-source discrepancy).
 
 ### Or just browse the data
-- 🌐 **Dashboard** — all 50 companies, sortable, with history charts *(GitHub Pages link at release)*
+- 🌐 **Dashboard** — `openpitch build-dashboard` → open `dashboard/dist/index.html` (sourced company cards; GitHub Pages at release)
 - 📁 **Raw data** — [`data/companies/`](data/) — plain JSON, diffable, yours to use
+- 🤝 **A2A Agent Card** — generated at `dashboard/dist/.well-known/agent.json`
+
+> **Data status:** the committed seed is **illustrative, pending source verification** (see [LAUNCH-GATES](docs/LAUNCH-GATES.md)). The *software* is complete and runnable; launch-grade verified data is the remaining human-in-the-loop step.
+
+## Product docs
+
+- **Build scope** — [PRD](docs/PRD.md), [v0 seed dataset](docs/V0-SEED-DATASET.md), [launch gates](docs/LAUNCH-GATES.md)
+- **Trust model** — [methodology](docs/METHODOLOGY.md), [data policy](docs/DATA-POLICY.md), [corrections](docs/CORRECTIONS.md)
+- **Interfaces** — [MCP spec](docs/MCP-SPEC.md), [events spec](docs/EVENTS-SPEC.md), [FRD](docs/FRD.md)
+- **Go-to-market** — [growth plan](docs/GROWTH.md), [competitive analysis](docs/COMPETITIVE-ANALYSIS.md), [strategy deep dive](docs/STRATEGY-DEEP-DIVE.md)
 
 ## How it works
 

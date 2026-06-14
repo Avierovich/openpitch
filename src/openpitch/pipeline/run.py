@@ -138,7 +138,10 @@ def seed() -> None:
 
 
 @app.command()
-def run(offline: bool = typer.Option(False, help="Skip network sources; use seed only.")) -> None:
+def run(
+    offline: bool = typer.Option(False, help="Skip network sources; use seed only."),
+    companies: int = typer.Option(0, help="Limit to the first N watchlist companies (0 = all)."),
+) -> None:
     """Live daily pass: collect → transcribe → extract → derive → reconcile → publish."""
     if offline:
         return seed()
@@ -152,8 +155,12 @@ def run(offline: bool = typer.Option(False, help="Skip network sources; use seed
 
     llm = get_provider()
     keys = metric_keys()
+    watchlist = load_watchlist()
+    if companies > 0:
+        watchlist = watchlist[:companies]
     pairs: list[tuple[Company, list[Claim]]] = []
-    for meta in load_watchlist():
+    for meta in watchlist:
+        typer.echo(f"· {meta['id']}")
         company_stub = Company(id=meta["id"], name=meta["name"], last_updated=as_of,
                                aliases=meta.get("aliases", []), website=meta.get("domain"))
         items = []

@@ -46,18 +46,30 @@ class GeminiLLM:
         self.model = model
 
     def complete_json(self, system: str, user: str, schema: dict) -> Any:
+        import time
+
         from google.genai import types
 
-        resp = self.client.models.generate_content(
-            model=self.model,
-            contents=[user],
-            config=types.GenerateContentConfig(
-                system_instruction=system,
-                response_mime_type="application/json",
-                response_schema=schema,
-            ),
+        cfg = types.GenerateContentConfig(
+            system_instruction=system,
+            response_mime_type="application/json",
+            response_schema=schema,
         )
-        return json.loads(resp.text)
+        last: Exception | None = None
+        for attempt in range(4):
+            try:
+                resp = self.client.models.generate_content(
+                    model=self.model, contents=[user], config=cfg
+                )
+                return json.loads(resp.text)
+            except Exception as exc:  # noqa: BLE001
+                last = exc
+                msg = str(exc)
+                if "429" in msg or "RESOURCE_EXHAUSTED" in msg or "503" in msg:
+                    time.sleep(2 * (attempt + 1))  # simple backoff on rate/availability
+                    continue
+                raise
+        raise last  # type: ignore[misc]
 
 
 def get_provider() -> LLMProvider:

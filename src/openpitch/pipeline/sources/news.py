@@ -44,8 +44,8 @@ def parse_feed(parsed, company_id: str) -> list[RawItem]:
     return items
 
 
-def fetch(company: Company) -> list[RawItem]:
+def fetch(company: Company, *, limit: int = 10) -> list[RawItem]:
     import feedparser
 
     parsed = feedparser.parse(build_query_url(company.name))
-    return parse_feed(parsed, company.id)
+    return parse_feed(parsed, company.id)[:limit]  # Google News RSS is recency-ordered

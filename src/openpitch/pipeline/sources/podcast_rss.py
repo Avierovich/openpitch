@@ -10,6 +10,7 @@ transcribe stage handles audio → text; published transcripts are preferred).
 
 from __future__ import annotations
 
+from datetime import date
 from pathlib import Path
 
 import yaml
@@ -63,7 +64,12 @@ def episodes_mentioning(parsed, company: Company, show_name: str) -> list[RawIte
     return items
 
 
-def fetch(company: Company, *, feeds: list[dict] | None = None) -> list[RawItem]:
+def fetch(company: Company, *, feeds: list[dict] | None = None, limit: int = 6) -> list[RawItem]:
+    """Fetch the `limit` most-recent episodes (across feeds) that mention the company.
+
+    The cap keeps a live run inside free-tier LLM quota — these shows mention the
+    big labs constantly, so we take only the freshest mentions.
+    """
     import feedparser
 
     feeds = feeds if feeds is not None else load_feeds()
@@ -71,4 +77,5 @@ def fetch(company: Company, *, feeds: list[dict] | None = None) -> list[RawItem]
     for feed in feeds:
         parsed = feedparser.parse(feed["feed_url"])
         items.extend(episodes_mentioning(parsed, company, feed.get("name", "Podcast")))
-    return items
+    items.sort(key=lambda it: it.published_at or date(1970, 1, 1), reverse=True)
+    return items[:limit]

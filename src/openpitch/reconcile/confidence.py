@@ -25,6 +25,7 @@ TIER_PRIORS: dict[SourceType, float] = {
     SourceType.PODCAST: 0.60,
     SourceType.WEB: 0.50,
     SourceType.SOCIAL: 0.30,
+    SourceType.DERIVED: 0.50,  # placeholder; derived claims carry propagated confidence
 }
 
 # §4.2 — speaker authority
@@ -73,6 +74,10 @@ def decay(age_days: float, tau: float) -> float:
 
 
 def base_confidence(claim: Claim, reliability: float | None = None) -> float:
+    # Derived claims carry a confidence propagated from their inputs (FRD §5.6);
+    # don't recompute it from source/speaker priors.
+    if claim.source.type is SourceType.DERIVED:
+        return claim.base_confidence
     return (
         tier_prior(claim.source.type, reliability)
         * speaker_weight(claim.speaker.role)

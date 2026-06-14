@@ -15,3 +15,9 @@ metrics:
   subscribers:       { label: "Customers / users",    unit: count, tau: 150, cluster_tolerance: 0.25, implied_v1: true }
   nrr:               { label: "Net revenue retention", unit: pct,  tau: 240, cluster_tolerance: 0.10, implied_v1: false }
   notable_customers: { label: "Notable logos",        unit: list,  tau: 365, cluster_tolerance: 0.00, implied_v1: false }
+  # Derivation inputs (FRD §5.6) — feed the hard identities (MRR->ARR, round/equity->valuation, subs*ACV->ARR)
+  mrr:               { label: "MRR",                   unit: USD,   tau: 120, cluster_tolerance: 0.15, implied_v1: false }
+  acv:               { label: "Avg contract value",    unit: USD,   tau: 240, cluster_tolerance: 0.20, implied_v1: false }
+  round_amount:      { label: "Latest round amount",   unit: USD,   tau: 365, cluster_tolerance: 0.10, implied_v1: false }
+  equity_sold_pct:   { label: "Equity sold in round",  unit: pct,   tau: 365, cluster_tolerance: 0.15, implied_v1: false }
+  open_roles:        { label: "Open roles",            unit: count, tau: 90,  cluster_tolerance: 0.20, implied_v1: false }

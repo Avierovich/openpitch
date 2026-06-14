@@ -286,6 +286,32 @@ When no reported claim exists for an implied-able metric (§3.5), estimate from 
 
 Each implied value records its derivation method in `supporting_claims` as a synthetic claim so it's auditable.
 
+### 5.6 Derivation & validation engine (`reconcile/derive.py`)
+
+Reasons about the numbers like an analyst — *derives* metrics from each other and *validates* reported figures against independent signals. Pure logic (no LLM/network), fully unit-tested. **Implemented.**
+
+**(a) Hard identities — exact arithmetic, v1-safe.** Each produces a `DERIVED` Claim with a `derivation` trail (formula + input claim ids) and a confidence **propagated** from its inputs (`∏ input_confidences × IDENTITY_RELIABILITY`, ~0.92). Shipped:
+
+| Output | Formula | Inputs |
+|---|---|---|
+| `arr` | ARR = MRR × 12 | `mrr` |
+| `arr` | ARR = subscribers × ACV | `subscribers`, `acv` |
+| `valuation` | post-money = round ÷ equity% | `round_amount`, `equity_sold_pct` |
+| `revenue_multiple` | valuation ÷ ARR | `valuation`, `arr` |
+
+**(b) The triangulation payoff.** Derived claims flow into the reconciliation engine (§5) **alongside reported ones**. So when a reported ARR and a derived ARR (e.g. from MRR) disagree beyond tolerance, the existing contradiction logic flags it automatically — *no new machinery*. This is what turns "aggregates what's said" into "checks the math," and it amplifies the contradiction-finder (the launch hook).
+
+**(c) Confidence plumbing.** `DERIVED` is a `SourceType`; `confidence.base_confidence()` special-cases it to return the propagated value (not recompute from priors). Decay still applies via the freshest input's date.
+
+**(d) Validation signals (hiring/headcount — BR-26).** Reuses the tracked history (a "surge" is a delta on a series we already store):
+- `detect_surge(series)` → hiring/open-roles surge (→ a `hiring_surge` event candidate).
+- `concordance(revenue_growth, headcount_growth)` → `corroborates | contradicts | neutral` (a reported ARR jump with flat hiring is suspicious).
+- `growth_direction(headcount_growth)` → safe v1 *qualitative* implied-growth ("strong growth"), never a fabricated dollar figure.
+
+**(e) Soft benchmarks — gated, segment-aware (v2).** `headcount_implied_arr(headcount, category)` returns a wide `(low, high, reliability)` band, **not wired into v1 `derive_claims`** (Decision 3, §13). Critically segment-aware: **foundation-model labs get a low band + low reliability (0.2)** because they're research-heavy/pre-revenue — headcount is a weak ARR proxy exactly for our most prominent companies.
+
+**Pipeline placement:** runs after extraction (§7 stage 4), before/within reconciliation (stage 5) — derived claims join the claim pool the reconciler consumes.
+
 ---
 
 ## 6. VC-Attention Scoring (universe selection)

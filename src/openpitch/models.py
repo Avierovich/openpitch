@@ -29,6 +29,7 @@ class SourceType(str, Enum):
     PODCAST = "podcast"      # founder/operator interviews — the freshness edge
     WEB = "web"              # company site, careers page, traffic signals
     SOCIAL = "social"        # social posts / rumor — lowest trust
+    DERIVED = "derived"      # computed from other claims (FRD §5.6); confidence is propagated
 
 
 class SpeakerRole(str, Enum):
@@ -76,6 +77,14 @@ class Source(BaseModel):
 # ── Claim: the atomic extracted assertion (FRD §3.1) ─────────────────────────
 
 
+class Derivation(BaseModel):
+    """Provenance for a derived claim (FRD §5.6)."""
+
+    kind: str                       # identity | benchmark | concordance | surge
+    formula: str                    # e.g. "ARR = MRR × 12"
+    inputs: list[str] = Field(default_factory=list)   # input claim ids
+
+
 class Claim(BaseModel):
     id: str
     company_id: str
@@ -89,6 +98,7 @@ class Claim(BaseModel):
     extracted_at: datetime
     extractor_model: str
     base_confidence: float = Field(ge=0.0, le=1.0)
+    derivation: Derivation | None = None                  # set for DERIVED claims
 
 
 # ── ResolvedValue: the reconciled best estimate (FRD §3.2) ───────────────────

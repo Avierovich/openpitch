@@ -30,11 +30,13 @@ jobs:
       - name: Install
         run: pip install -e ".[pipeline]"
 
-      - name: Run pipeline (stages 1–7)
+      - name: Run pipeline (collect → … → publish)
         env:
           # Free-tier key, no billing attached → cannot be charged (FRD §8.6 / BRD §9.1)
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-        run: openpitch run --all
+        # Live run needs LLM_API_KEY + verified podcast feeds; falls back to the
+        # committed seed (offline) when no key is configured.
+        run: openpitch run ${{ secrets.LLM_API_KEY == '' && '--offline' || '' }}
 
       - name: Build dashboard
         run: openpitch build-dashboard
@@ -43,7 +45,7 @@ jobs:
         run: |
           git config user.name  "openpitch-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/ dashboard/dist/
+          git add data/
           git diff --cached --quiet || git commit -m "data: daily refresh"
           git push
 

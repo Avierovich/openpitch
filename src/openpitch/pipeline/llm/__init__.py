@@ -38,7 +38,7 @@ class MockLLM:
 class GeminiLLM:
     """Google Gemini Flash via google-genai (reference impl; adjust schema as the SDK evolves)."""
 
-    def __init__(self, api_key: str, model: str = "gemini-2.0-flash"):
+    def __init__(self, api_key: str, model: str = "gemini-2.5-flash"):
         from google import genai  # imported lazily so consumers don't need the dep
 
         self._genai = genai

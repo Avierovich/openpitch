@@ -65,6 +65,9 @@ def get_provider() -> LLMProvider:
 
     OPENPITCH_LLM selects the provider (default: gemini); LLM_API_KEY supplies the key.
     """
+    from ...paths import load_dotenv
+    load_dotenv()  # pick up a local .env (gitignored) if present
+
     name = os.environ.get("OPENPITCH_LLM", "gemini").lower()
     if name == "gemini":
         key = os.environ.get("LLM_API_KEY")

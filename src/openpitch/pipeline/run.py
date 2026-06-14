@@ -124,8 +124,10 @@ def _finalize(pairs: list[tuple[Company, list[Claim]]], *, now: datetime, as_of:
 @app.command()
 def seed() -> None:
     """Build the data/ database from committed seed claims (offline, no key)."""
-    now = datetime.now()
-    as_of = now.date()
+    # Deterministic timestamp so re-running on the same day is idempotent
+    # (clean git diffs — the data/ tree is the database).
+    as_of = date.today()
+    now = datetime.combine(as_of, datetime.min.time())
     groups = _load_seed(now)
     if not groups:
         typer.echo("No seed found at data/seed/claims.json")

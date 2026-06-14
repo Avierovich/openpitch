@@ -21,7 +21,11 @@
         "clm_1248d94248"
       ],
       "contradiction": true,
-      "delta": null,
+      "delta": {
+        "previous": 100000000.0,
+        "change_pct": 0.0,
+        "since": "2026-04-28"
+      },
       "history_ref": "history/cognition/arr.jsonl"
     },
     "valuation": {
@@ -36,7 +40,11 @@
         "clm_a3f6b5c8d4"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 4000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-03-05"
+      },
       "history_ref": "history/cognition/valuation.jsonl"
     },
     "revenue_multiple": {
@@ -51,7 +59,11 @@
         "drv_3c688e7dce"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 54.79,
+        "change_pct": 0.0,
+        "since": "2026-03-05"
+      },
       "history_ref": "history/cognition/revenue_multiple.jsonl"
     }
   },

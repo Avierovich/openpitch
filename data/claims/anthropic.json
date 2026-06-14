@@ -1,0 +1,133 @@
+[
+  {
+    "id": "clm_55640af56d",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 60000000000.0,
+    "unit": "USD",
+    "raw_text": "valued at about $60B in its latest round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Information",
+      "url": "https://www.theinformation.com/",
+      "locator": null,
+      "published_at": "2026-03-01"
+    },
+    "extracted_at": "2026-06-14T06:45:27.771280",
+    "extractor_model": "seed",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_f32c33bbd3",
+    "company_id": "anthropic",
+    "metric": "total_funding",
+    "value": 18000000000.0,
+    "unit": "USD",
+    "raw_text": "has raised roughly $18B to date",
+    "qualifiers": [
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg",
+      "url": "https://www.bloomberg.com/",
+      "locator": null,
+      "published_at": "2026-03-02"
+    },
+    "extracted_at": "2026-06-14T06:45:27.771280",
+    "extractor_model": "seed",
+    "base_confidence": 0.4462,
+    "derivation": null
+  },
+  {
+    "id": "clm_a969223ff4",
+    "company_id": "anthropic",
+    "metric": "arr",
+    "value": 4000000000.0,
+    "unit": "USD",
+    "raw_text": "annualized revenue around $4B",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://www.reuters.com/",
+      "locator": null,
+      "published_at": "2026-02-10"
+    },
+    "extracted_at": "2026-06-14T06:45:27.771280",
+    "extractor_model": "seed",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_a23a388fcb",
+    "company_id": "anthropic",
+    "metric": "arr",
+    "value": 5000000000.0,
+    "unit": "USD",
+    "raw_text": "we're past $5 billion in ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "founder"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "20VC",
+      "url": "https://example.com/20vc/anthropic",
+      "locator": "00:22:14",
+      "published_at": "2026-05-20"
+    },
+    "extracted_at": "2026-06-14T06:45:27.771280",
+    "extractor_model": "seed",
+    "base_confidence": 0.6,
+    "derivation": null
+  },
+  {
+    "id": "drv_d97cc440cc",
+    "company_id": "anthropic",
+    "metric": "revenue_multiple",
+    "value": 12.0,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-05-20"
+    },
+    "extracted_at": "2026-06-14T06:45:27.771280",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.2898,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_55640af56d",
+        "clm_a23a388fcb"
+      ]
+    }
+  }
+]

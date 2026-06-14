@@ -1,0 +1,74 @@
+{
+  "id": "anthropic",
+  "name": "Anthropic",
+  "aliases": [],
+  "website": "anthropic.com",
+  "category": "foundation-model",
+  "segment": "global",
+  "in_universe": true,
+  "vc_attention_score": 93.9,
+  "universe_rank": 2,
+  "metrics": {
+    "valuation": {
+      "metric": "valuation",
+      "value": 60000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-03-01",
+      "estimate_type": "reported",
+      "confidence": 0.394,
+      "supporting_claims": [
+        "clm_55640af56d"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/anthropic/valuation.jsonl"
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 18000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-03-02",
+      "estimate_type": "reported",
+      "confidence": 0.387,
+      "supporting_claims": [
+        "clm_f32c33bbd3"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/anthropic/total_funding.jsonl"
+    },
+    "arr": {
+      "metric": "arr",
+      "value": 5000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-05-20",
+      "estimate_type": "reported",
+      "confidence": 0.487,
+      "supporting_claims": [
+        "clm_a23a388fcb"
+      ],
+      "contradiction": true,
+      "delta": null,
+      "history_ref": "history/anthropic/arr.jsonl"
+    },
+    "revenue_multiple": {
+      "metric": "revenue_multiple",
+      "value": 12.0,
+      "unit": "x",
+      "range": null,
+      "as_of": "2026-05-20",
+      "estimate_type": "reported",
+      "confidence": 0.235,
+      "supporting_claims": [
+        "drv_d97cc440cc"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/anthropic/revenue_multiple.jsonl"
+    }
+  },
+  "last_updated": "2026-06-14"
+}

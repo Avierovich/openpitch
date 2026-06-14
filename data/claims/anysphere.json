@@ -1,0 +1,138 @@
+[
+  {
+    "id": "clm_ab64a15677",
+    "company_id": "anysphere",
+    "metric": "arr",
+    "value": 200000000.0,
+    "unit": "USD",
+    "raw_text": "about $200M in annualized revenue",
+    "qualifiers": [
+      "run_rate",
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/",
+      "locator": null,
+      "published_at": "2026-01-30"
+    },
+    "extracted_at": "2026-06-14T06:45:27.771280",
+    "extractor_model": "seed",
+    "base_confidence": 0.4252,
+    "derivation": null
+  },
+  {
+    "id": "clm_a3c340c3d8",
+    "company_id": "anysphere",
+    "metric": "mrr",
+    "value": 18000000.0,
+    "unit": "USD",
+    "raw_text": "we're doing about $18M a month",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "founder"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "Latent Space",
+      "url": "https://example.com/latentspace/cursor",
+      "locator": "00:41:03",
+      "published_at": "2026-02-15"
+    },
+    "extracted_at": "2026-06-14T06:45:27.771280",
+    "extractor_model": "seed",
+    "base_confidence": 0.6,
+    "derivation": null
+  },
+  {
+    "id": "clm_51733b7234",
+    "company_id": "anysphere",
+    "metric": "valuation",
+    "value": 9000000000.0,
+    "unit": "USD",
+    "raw_text": "valued at $9B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg",
+      "url": "https://www.bloomberg.com/",
+      "locator": null,
+      "published_at": "2026-02-01"
+    },
+    "extracted_at": "2026-06-14T06:45:27.771280",
+    "extractor_model": "seed",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "drv_22eeabf1ec",
+    "company_id": "anysphere",
+    "metric": "arr",
+    "value": 216000000.0,
+    "unit": "USD",
+    "raw_text": "ARR = MRR × 12",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:arr",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-02-15"
+    },
+    "extracted_at": "2026-06-14T06:45:27.771280",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.552,
+    "derivation": {
+      "kind": "identity",
+      "formula": "ARR = MRR × 12",
+      "inputs": [
+        "clm_a3c340c3d8"
+      ]
+    }
+  },
+  {
+    "id": "drv_9a6d870400",
+    "company_id": "anysphere",
+    "metric": "revenue_multiple",
+    "value": 45.0,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-02-01"
+    },
+    "extracted_at": "2026-06-14T06:45:27.771280",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.2054,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_51733b7234",
+        "clm_ab64a15677"
+      ]
+    }
+  }
+]

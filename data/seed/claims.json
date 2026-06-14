@@ -1,0 +1,47 @@
+{
+  "_note": "ILLUSTRATIVE SEED DATASET. Figures and source URLs are representative examples for pipeline + MCP demonstration and MUST be independently verified against the cited public sources before any public launch (see docs/LAUNCH-GATES.md, docs/DATA-POLICY.md). Values are public-knowledge ballparks, not audited data.",
+  "companies": [
+    {
+      "id": "anthropic", "name": "Anthropic", "category": "foundation-model", "domain": "anthropic.com", "segment": "global",
+      "claims": [
+        {"metric": "valuation", "value": 60000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": [], "raw_text": "valued at about $60B in its latest round", "source": {"type": "news", "name": "The Information", "url": "https://www.theinformation.com/", "published_at": "2026-03-01"}},
+        {"metric": "total_funding", "value": 18000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": ["approximate"], "raw_text": "has raised roughly $18B to date", "source": {"type": "news", "name": "Bloomberg", "url": "https://www.bloomberg.com/", "published_at": "2026-03-02"}},
+        {"metric": "arr", "value": 4000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": ["run_rate"], "raw_text": "annualized revenue around $4B", "source": {"type": "news", "name": "Reuters", "url": "https://www.reuters.com/", "published_at": "2026-02-10"}},
+        {"metric": "arr", "value": 5000000000, "unit": "USD", "speaker_role": "founder", "qualifiers": [], "raw_text": "we're past $5 billion in ARR", "source": {"type": "podcast", "name": "20VC", "url": "https://example.com/20vc/anthropic", "locator": "00:22:14", "published_at": "2026-05-20"}}
+      ]
+    },
+    {
+      "id": "openai", "name": "OpenAI", "category": "foundation-model", "domain": "openai.com", "segment": "global",
+      "claims": [
+        {"metric": "valuation", "value": 300000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": [], "raw_text": "valued at $300B", "source": {"type": "news", "name": "The Information", "url": "https://www.theinformation.com/", "published_at": "2026-04-01"}},
+        {"metric": "arr", "value": 12000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": ["run_rate"], "raw_text": "annualized revenue ~$12B", "source": {"type": "news", "name": "CNBC", "url": "https://www.cnbc.com/", "published_at": "2026-03-15"}},
+        {"metric": "headcount", "value": 4000, "unit": "count", "speaker_role": "journalist", "qualifiers": ["approximate"], "raw_text": "around 4,000 employees", "source": {"type": "news", "name": "Bloomberg", "url": "https://www.bloomberg.com/", "published_at": "2026-02-20"}}
+      ]
+    },
+    {
+      "id": "anysphere", "name": "Anysphere (Cursor)", "category": "coding-agent", "domain": "cursor.com", "segment": "global",
+      "claims": [
+        {"metric": "arr", "value": 200000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": ["run_rate", "rounded"], "raw_text": "about $200M in annualized revenue", "source": {"type": "news", "name": "TechCrunch", "url": "https://techcrunch.com/", "published_at": "2026-01-30"}},
+        {"metric": "mrr", "value": 18000000, "unit": "USD", "speaker_role": "founder", "qualifiers": [], "raw_text": "we're doing about $18M a month", "source": {"type": "podcast", "name": "Latent Space", "url": "https://example.com/latentspace/cursor", "locator": "00:41:03", "published_at": "2026-02-15"}},
+        {"metric": "valuation", "value": 9000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": [], "raw_text": "valued at $9B", "source": {"type": "news", "name": "Bloomberg", "url": "https://www.bloomberg.com/", "published_at": "2026-02-01"}}
+      ]
+    },
+    {
+      "id": "cognition", "name": "Cognition (Devin)", "category": "coding-agent", "domain": "cognition.ai", "segment": "global",
+      "claims": [
+        {"metric": "arr", "value": 73000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": ["rounded"], "raw_text": "run-rate revenue of about $73M", "source": {"type": "news", "name": "The Information", "url": "https://www.theinformation.com/", "published_at": "2026-03-05"}},
+        {"metric": "arr", "value": 100000000, "unit": "USD", "speaker_role": "founder", "qualifiers": ["run_rate", "forward_looking"], "raw_text": "approaching $100M run-rate", "source": {"type": "podcast", "name": "No Priors", "url": "https://example.com/nopriors/cognition", "locator": "00:33:20", "published_at": "2026-04-28"}},
+        {"metric": "valuation", "value": 4000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": [], "raw_text": "valued at $4B", "source": {"type": "news", "name": "Reuters", "url": "https://www.reuters.com/", "published_at": "2026-03-05"}}
+      ]
+    },
+    {
+      "id": "mistral", "name": "Mistral AI", "category": "foundation-model", "domain": "mistral.ai", "segment": "global",
+      "claims": [
+        {"metric": "round_amount", "value": 600000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": [], "raw_text": "raised 600M in its latest round", "source": {"type": "news", "name": "Financial Times", "url": "https://www.ft.com/", "published_at": "2026-01-15"}},
+        {"metric": "equity_sold_pct", "value": 10, "unit": "pct", "speaker_role": "journalist", "qualifiers": ["approximate"], "raw_text": "for roughly 10% of the company", "source": {"type": "news", "name": "Financial Times", "url": "https://www.ft.com/", "published_at": "2026-01-15"}},
+        {"metric": "valuation", "value": 6000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": [], "raw_text": "valued at about 6B", "source": {"type": "news", "name": "Reuters", "url": "https://www.reuters.com/", "published_at": "2026-01-15"}},
+        {"metric": "total_funding", "value": 1800000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": ["approximate"], "raw_text": "total funding around 1.8B", "source": {"type": "news", "name": "TechCrunch", "url": "https://techcrunch.com/", "published_at": "2026-01-16"}}
+      ]
+    }
+  ]
+}

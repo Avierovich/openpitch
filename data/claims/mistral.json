@@ -1,0 +1,133 @@
+[
+  {
+    "id": "clm_3985fe99a6",
+    "company_id": "mistral",
+    "metric": "round_amount",
+    "value": 600000000.0,
+    "unit": "USD",
+    "raw_text": "raised 600M in its latest round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Financial Times",
+      "url": "https://www.ft.com/",
+      "locator": null,
+      "published_at": "2026-01-15"
+    },
+    "extracted_at": "2026-06-14T06:45:27.771280",
+    "extractor_model": "seed",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_c7eea7f0f0",
+    "company_id": "mistral",
+    "metric": "equity_sold_pct",
+    "value": 10.0,
+    "unit": "pct",
+    "raw_text": "for roughly 10% of the company",
+    "qualifiers": [
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Financial Times",
+      "url": "https://www.ft.com/",
+      "locator": null,
+      "published_at": "2026-01-15"
+    },
+    "extracted_at": "2026-06-14T06:45:27.771280",
+    "extractor_model": "seed",
+    "base_confidence": 0.4462,
+    "derivation": null
+  },
+  {
+    "id": "clm_5ab49e6feb",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 6000000000.0,
+    "unit": "USD",
+    "raw_text": "valued at about 6B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://www.reuters.com/",
+      "locator": null,
+      "published_at": "2026-01-15"
+    },
+    "extracted_at": "2026-06-14T06:45:27.771280",
+    "extractor_model": "seed",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_d7d6c53e63",
+    "company_id": "mistral",
+    "metric": "total_funding",
+    "value": 1800000000.0,
+    "unit": "USD",
+    "raw_text": "total funding around 1.8B",
+    "qualifiers": [
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/",
+      "locator": null,
+      "published_at": "2026-01-16"
+    },
+    "extracted_at": "2026-06-14T06:45:27.771280",
+    "extractor_model": "seed",
+    "base_confidence": 0.4462,
+    "derivation": null
+  },
+  {
+    "id": "drv_ca7c9a5c9d",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 6000000000.0,
+    "unit": "USD",
+    "raw_text": "post-money = round ÷ equity%",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:valuation",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-01-15"
+    },
+    "extracted_at": "2026-06-14T06:45:27.771280",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.2155,
+    "derivation": {
+      "kind": "identity",
+      "formula": "post-money = round ÷ equity%",
+      "inputs": [
+        "clm_3985fe99a6",
+        "clm_c7eea7f0f0"
+      ]
+    }
+  }
+]

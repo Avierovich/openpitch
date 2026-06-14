@@ -1,0 +1,110 @@
+[
+  {
+    "id": "clm_9cbbbbce27",
+    "company_id": "cognition",
+    "metric": "arr",
+    "value": 73000000.0,
+    "unit": "USD",
+    "raw_text": "run-rate revenue of about $73M",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Information",
+      "url": "https://www.theinformation.com/",
+      "locator": null,
+      "published_at": "2026-03-05"
+    },
+    "extracted_at": "2026-06-14T06:45:27.771280",
+    "extractor_model": "seed",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_1248d94248",
+    "company_id": "cognition",
+    "metric": "arr",
+    "value": 100000000.0,
+    "unit": "USD",
+    "raw_text": "approaching $100M run-rate",
+    "qualifiers": [
+      "run_rate",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "founder"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "No Priors",
+      "url": "https://example.com/nopriors/cognition",
+      "locator": "00:33:20",
+      "published_at": "2026-04-28"
+    },
+    "extracted_at": "2026-06-14T06:45:27.771280",
+    "extractor_model": "seed",
+    "base_confidence": 0.378,
+    "derivation": null
+  },
+  {
+    "id": "clm_a3f6b5c8d4",
+    "company_id": "cognition",
+    "metric": "valuation",
+    "value": 4000000000.0,
+    "unit": "USD",
+    "raw_text": "valued at $4B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://www.reuters.com/",
+      "locator": null,
+      "published_at": "2026-03-05"
+    },
+    "extracted_at": "2026-06-14T06:45:27.771280",
+    "extractor_model": "seed",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "drv_3c688e7dce",
+    "company_id": "cognition",
+    "metric": "revenue_multiple",
+    "value": 54.79,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-03-05"
+    },
+    "extracted_at": "2026-06-14T06:45:27.771280",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.2282,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_a3f6b5c8d4",
+        "clm_9cbbbbce27"
+      ]
+    }
+  }
+]

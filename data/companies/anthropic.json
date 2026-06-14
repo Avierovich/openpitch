@@ -6,83 +6,67 @@
   "category": "foundation-model",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 93.9,
-  "universe_rank": 2,
+  "vc_attention_score": 100.0,
+  "universe_rank": 1,
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 60000000000.0,
+      "value": 965000000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2026-03-01",
+      "as_of": "2026-05-28",
       "estimate_type": "reported",
-      "confidence": 0.394,
+      "confidence": 0.501,
       "supporting_claims": [
-        "clm_55640af56d"
+        "clm_5aa2b17d08"
       ],
       "contradiction": false,
-      "delta": {
-        "previous": 60000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-03-01"
-      },
+      "delta": null,
       "history_ref": "history/anthropic/valuation.jsonl"
     },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 18000000000.0,
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 65000000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2026-03-02",
+      "as_of": "2026-05-28",
       "estimate_type": "reported",
-      "confidence": 0.387,
+      "confidence": 0.501,
       "supporting_claims": [
-        "clm_f32c33bbd3"
+        "clm_8e46c3ae08"
       ],
       "contradiction": false,
-      "delta": {
-        "previous": 18000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-03-02"
-      },
-      "history_ref": "history/anthropic/total_funding.jsonl"
+      "delta": null,
+      "history_ref": "history/anthropic/round_amount.jsonl"
     },
     "arr": {
       "metric": "arr",
-      "value": 5000000000.0,
+      "value": 47000000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2026-05-20",
+      "as_of": "2026-05-28",
       "estimate_type": "reported",
-      "confidence": 0.487,
+      "confidence": 0.41,
       "supporting_claims": [
-        "clm_a23a388fcb"
+        "clm_733be3c68d"
       ],
-      "contradiction": true,
-      "delta": {
-        "previous": 5000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-05-20"
-      },
+      "contradiction": false,
+      "delta": null,
       "history_ref": "history/anthropic/arr.jsonl"
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 12.0,
+      "value": 20.53,
       "unit": "x",
       "range": null,
-      "as_of": "2026-05-20",
+      "as_of": "2026-05-28",
       "estimate_type": "reported",
-      "confidence": 0.235,
+      "confidence": 0.198,
       "supporting_claims": [
-        "drv_d97cc440cc"
+        "drv_a61c036fee"
       ],
       "contradiction": false,
-      "delta": {
-        "previous": 12.0,
-        "change_pct": 0.0,
-        "since": "2026-05-20"
-      },
+      "delta": null,
       "history_ref": "history/anthropic/revenue_multiple.jsonl"
     }
   },

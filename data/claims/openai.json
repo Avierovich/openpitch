@@ -1,11 +1,11 @@
 [
   {
-    "id": "clm_f4c945108a",
+    "id": "clm_cf3cc7994a",
     "company_id": "openai",
     "metric": "valuation",
-    "value": 300000000000.0,
+    "value": 852000000000.0,
     "unit": "USD",
-    "raw_text": "valued at $300B",
+    "raw_text": "valued at $852 billion after completing $122 billion round",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -13,10 +13,10 @@
     },
     "source": {
       "type": "news",
-      "name": "The Information",
-      "url": "https://www.theinformation.com/",
+      "name": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-31/openai-valued-at-852-billion-after-completing-122-billion-round",
       "locator": null,
-      "published_at": "2026-04-01"
+      "published_at": "2026-03-31"
     },
     "extracted_at": "2026-06-14T00:00:00",
     "extractor_model": "seed",
@@ -24,12 +24,36 @@
     "derivation": null
   },
   {
-    "id": "clm_4c47c3f2e4",
+    "id": "clm_aebdf2685e",
+    "company_id": "openai",
+    "metric": "round_amount",
+    "value": 122000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI raises $122 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html",
+      "locator": null,
+      "published_at": "2026-03-31"
+    },
+    "extracted_at": "2026-06-14T00:00:00",
+    "extractor_model": "seed",
+    "base_confidence": 0.75,
+    "derivation": null
+  },
+  {
+    "id": "clm_f377d1d724",
     "company_id": "openai",
     "metric": "arr",
-    "value": 12000000000.0,
+    "value": 24000000000.0,
     "unit": "USD",
-    "raw_text": "annualized revenue ~$12B",
+    "raw_text": "generating about $2 billion in revenue per month (~$24B annualized)",
     "qualifiers": [
       "run_rate"
     ],
@@ -39,10 +63,10 @@
     },
     "source": {
       "type": "news",
-      "name": "CNBC",
-      "url": "https://www.cnbc.com/",
+      "name": "Sacra",
+      "url": "https://sacra.com/c/openai/",
       "locator": null,
-      "published_at": "2026-03-15"
+      "published_at": "2026-04-15"
     },
     "extracted_at": "2026-06-14T00:00:00",
     "extractor_model": "seed",
@@ -50,36 +74,10 @@
     "derivation": null
   },
   {
-    "id": "clm_21470df3fb",
-    "company_id": "openai",
-    "metric": "headcount",
-    "value": 4000.0,
-    "unit": "count",
-    "raw_text": "around 4,000 employees",
-    "qualifiers": [
-      "approximate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg",
-      "url": "https://www.bloomberg.com/",
-      "locator": null,
-      "published_at": "2026-02-20"
-    },
-    "extracted_at": "2026-06-14T00:00:00",
-    "extractor_model": "seed",
-    "base_confidence": 0.4462,
-    "derivation": null
-  },
-  {
-    "id": "drv_8d532689c0",
+    "id": "drv_34c2ac266e",
     "company_id": "openai",
     "metric": "revenue_multiple",
-    "value": 25.0,
+    "value": 35.5,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -92,7 +90,7 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-04-01"
+      "published_at": "2026-04-15"
     },
     "extracted_at": "2026-06-14T00:00:00",
     "extractor_model": "derive-engine",
@@ -101,8 +99,8 @@
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_f4c945108a",
-        "clm_4c47c3f2e4"
+        "clm_cf3cc7994a",
+        "clm_f377d1d724"
       ]
     }
   }

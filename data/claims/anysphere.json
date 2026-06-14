@@ -1,62 +1,11 @@
 [
   {
-    "id": "clm_ab64a15677",
-    "company_id": "anysphere",
-    "metric": "arr",
-    "value": 200000000.0,
-    "unit": "USD",
-    "raw_text": "about $200M in annualized revenue",
-    "qualifiers": [
-      "run_rate",
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://techcrunch.com/",
-      "locator": null,
-      "published_at": "2026-01-30"
-    },
-    "extracted_at": "2026-06-14T00:00:00",
-    "extractor_model": "seed",
-    "base_confidence": 0.4252,
-    "derivation": null
-  },
-  {
-    "id": "clm_a3c340c3d8",
-    "company_id": "anysphere",
-    "metric": "mrr",
-    "value": 18000000.0,
-    "unit": "USD",
-    "raw_text": "we're doing about $18M a month",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "founder"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "Latent Space",
-      "url": "https://example.com/latentspace/cursor",
-      "locator": "00:41:03",
-      "published_at": "2026-02-15"
-    },
-    "extracted_at": "2026-06-14T00:00:00",
-    "extractor_model": "seed",
-    "base_confidence": 0.6,
-    "derivation": null
-  },
-  {
-    "id": "clm_51733b7234",
+    "id": "clm_2a3c0b1ffe",
     "company_id": "anysphere",
     "metric": "valuation",
-    "value": 9000000000.0,
+    "value": 50000000000.0,
     "unit": "USD",
-    "raw_text": "valued at $9B",
+    "raw_text": "in talks to raise $2B at a $50B valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -64,10 +13,10 @@
     },
     "source": {
       "type": "news",
-      "name": "Bloomberg",
-      "url": "https://www.bloomberg.com/",
+      "name": "TheNextWeb",
+      "url": "https://thenextweb.com/news/cursor-anysphere-2-billion-funding-50-billion-valuation-ai-coding",
       "locator": null,
-      "published_at": "2026-02-01"
+      "published_at": "2026-04-17"
     },
     "extracted_at": "2026-06-14T00:00:00",
     "extractor_model": "seed",
@@ -75,40 +24,62 @@
     "derivation": null
   },
   {
-    "id": "drv_22eeabf1ec",
+    "id": "clm_96d64be7f5",
     "company_id": "anysphere",
-    "metric": "arr",
-    "value": 216000000.0,
+    "metric": "valuation",
+    "value": 60000000000.0,
     "unit": "USD",
-    "raw_text": "ARR = MRR × 12",
-    "qualifiers": [],
+    "raw_text": "SpaceX $60B acquisition interest, $10B above the $50B round valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
-      "type": "derived",
-      "name": "derived:arr",
-      "url": null,
+      "type": "news",
+      "name": "PM Insights",
+      "url": "https://www.pminsights.com/insights/cursor-momentum-builds-with-spacex-60b-deal-interest-and-advance-2b-funding-talks",
       "locator": null,
-      "published_at": "2026-02-15"
+      "published_at": "2026-04-18"
     },
     "extracted_at": "2026-06-14T00:00:00",
-    "extractor_model": "derive-engine",
-    "base_confidence": 0.552,
-    "derivation": {
-      "kind": "identity",
-      "formula": "ARR = MRR × 12",
-      "inputs": [
-        "clm_a3c340c3d8"
-      ]
-    }
+    "extractor_model": "seed",
+    "base_confidence": 0.315,
+    "derivation": null
   },
   {
-    "id": "drv_9a6d870400",
+    "id": "clm_cbd0eab1e1",
+    "company_id": "anysphere",
+    "metric": "arr",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "hitting $2B ARR in three years",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TheNextWeb",
+      "url": "https://thenextweb.com/news/cursor-anysphere-2-billion-funding-50-billion-valuation-ai-coding",
+      "locator": null,
+      "published_at": "2026-02-20"
+    },
+    "extracted_at": "2026-06-14T00:00:00",
+    "extractor_model": "seed",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "drv_5a2d84b82e",
     "company_id": "anysphere",
     "metric": "revenue_multiple",
-    "value": 45.0,
+    "value": 25.0,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -121,17 +92,17 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-02-01"
+      "published_at": "2026-04-17"
     },
     "extracted_at": "2026-06-14T00:00:00",
     "extractor_model": "derive-engine",
-    "base_confidence": 0.2054,
+    "base_confidence": 0.2282,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_51733b7234",
-        "clm_ab64a15677"
+        "clm_2a3c0b1ffe",
+        "clm_cbd0eab1e1"
       ]
     }
   }

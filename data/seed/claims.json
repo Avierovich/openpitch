@@ -1,46 +1,46 @@
 {
-  "_note": "ILLUSTRATIVE SEED DATASET. Figures and source URLs are representative examples for pipeline + MCP demonstration and MUST be independently verified against the cited public sources before any public launch (see docs/LAUNCH-GATES.md, docs/DATA-POLICY.md). Values are public-knowledge ballparks, not audited data.",
+  "_note": "VERIFIED against public sources as of 2026-06-14 (best-effort, public reporting). Figures are run-rate/announced values from cited outlets; still probabilistic public-source intelligence, not audited data. EUR converted to USD approximately. Two genuine public-source discrepancies are included (Cursor round vs acquisition interest; Mistral confirmed vs rumored valuation).",
   "companies": [
-    {
-      "id": "anthropic", "name": "Anthropic", "category": "foundation-model", "domain": "anthropic.com", "segment": "global",
-      "claims": [
-        {"metric": "valuation", "value": 60000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": [], "raw_text": "valued at about $60B in its latest round", "source": {"type": "news", "name": "The Information", "url": "https://www.theinformation.com/", "published_at": "2026-03-01"}},
-        {"metric": "total_funding", "value": 18000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": ["approximate"], "raw_text": "has raised roughly $18B to date", "source": {"type": "news", "name": "Bloomberg", "url": "https://www.bloomberg.com/", "published_at": "2026-03-02"}},
-        {"metric": "arr", "value": 4000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": ["run_rate"], "raw_text": "annualized revenue around $4B", "source": {"type": "news", "name": "Reuters", "url": "https://www.reuters.com/", "published_at": "2026-02-10"}},
-        {"metric": "arr", "value": 5000000000, "unit": "USD", "speaker_role": "founder", "qualifiers": [], "raw_text": "we're past $5 billion in ARR", "source": {"type": "podcast", "name": "20VC", "url": "https://example.com/20vc/anthropic", "locator": "00:22:14", "published_at": "2026-05-20"}}
-      ]
-    },
     {
       "id": "openai", "name": "OpenAI", "category": "foundation-model", "domain": "openai.com", "segment": "global",
       "claims": [
-        {"metric": "valuation", "value": 300000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": [], "raw_text": "valued at $300B", "source": {"type": "news", "name": "The Information", "url": "https://www.theinformation.com/", "published_at": "2026-04-01"}},
-        {"metric": "arr", "value": 12000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": ["run_rate"], "raw_text": "annualized revenue ~$12B", "source": {"type": "news", "name": "CNBC", "url": "https://www.cnbc.com/", "published_at": "2026-03-15"}},
-        {"metric": "headcount", "value": 4000, "unit": "count", "speaker_role": "journalist", "qualifiers": ["approximate"], "raw_text": "around 4,000 employees", "source": {"type": "news", "name": "Bloomberg", "url": "https://www.bloomberg.com/", "published_at": "2026-02-20"}}
+        {"metric": "valuation", "value": 852000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": [], "raw_text": "valued at $852 billion after completing $122 billion round", "source": {"type": "news", "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-03-31/openai-valued-at-852-billion-after-completing-122-billion-round", "published_at": "2026-03-31"}},
+        {"metric": "round_amount", "value": 122000000000, "unit": "USD", "speaker_role": "exec", "qualifiers": [], "raw_text": "OpenAI raises $122 billion", "source": {"type": "news", "name": "CNBC", "url": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html", "published_at": "2026-03-31"}},
+        {"metric": "arr", "value": 24000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": ["run_rate"], "raw_text": "generating about $2 billion in revenue per month (~$24B annualized)", "source": {"type": "news", "name": "Sacra", "url": "https://sacra.com/c/openai/", "published_at": "2026-04-15"}}
+      ]
+    },
+    {
+      "id": "anthropic", "name": "Anthropic", "category": "foundation-model", "domain": "anthropic.com", "segment": "global",
+      "claims": [
+        {"metric": "valuation", "value": 965000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": [], "raw_text": "raises $65B, nears $1T valuation ahead of IPO", "source": {"type": "news", "name": "TechCrunch", "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/", "published_at": "2026-05-28"}},
+        {"metric": "round_amount", "value": 65000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": [], "raw_text": "$65 billion Series H financing", "source": {"type": "news", "name": "CNBC", "url": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html", "published_at": "2026-05-28"}},
+        {"metric": "arr", "value": 47000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": ["run_rate"], "raw_text": "reported a $47 billion revenue run rate", "source": {"type": "news", "name": "CNBC", "url": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html", "published_at": "2026-05-28"}}
       ]
     },
     {
       "id": "anysphere", "name": "Anysphere (Cursor)", "category": "coding-agent", "domain": "cursor.com", "segment": "global",
       "claims": [
-        {"metric": "arr", "value": 200000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": ["run_rate", "rounded"], "raw_text": "about $200M in annualized revenue", "source": {"type": "news", "name": "TechCrunch", "url": "https://techcrunch.com/", "published_at": "2026-01-30"}},
-        {"metric": "mrr", "value": 18000000, "unit": "USD", "speaker_role": "founder", "qualifiers": [], "raw_text": "we're doing about $18M a month", "source": {"type": "podcast", "name": "Latent Space", "url": "https://example.com/latentspace/cursor", "locator": "00:41:03", "published_at": "2026-02-15"}},
-        {"metric": "valuation", "value": 9000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": [], "raw_text": "valued at $9B", "source": {"type": "news", "name": "Bloomberg", "url": "https://www.bloomberg.com/", "published_at": "2026-02-01"}}
+        {"metric": "valuation", "value": 50000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": [], "raw_text": "in talks to raise $2B at a $50B valuation", "source": {"type": "news", "name": "TheNextWeb", "url": "https://thenextweb.com/news/cursor-anysphere-2-billion-funding-50-billion-valuation-ai-coding", "published_at": "2026-04-17"}},
+        {"metric": "valuation", "value": 60000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": ["unconfirmed"], "raw_text": "SpaceX $60B acquisition interest, $10B above the $50B round valuation", "source": {"type": "news", "name": "PM Insights", "url": "https://www.pminsights.com/insights/cursor-momentum-builds-with-spacex-60b-deal-interest-and-advance-2b-funding-talks", "published_at": "2026-04-18"}},
+        {"metric": "arr", "value": 2000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": ["run_rate"], "raw_text": "hitting $2B ARR in three years", "source": {"type": "news", "name": "TheNextWeb", "url": "https://thenextweb.com/news/cursor-anysphere-2-billion-funding-50-billion-valuation-ai-coding", "published_at": "2026-02-20"}}
       ]
     },
     {
       "id": "cognition", "name": "Cognition (Devin)", "category": "coding-agent", "domain": "cognition.ai", "segment": "global",
       "claims": [
-        {"metric": "arr", "value": 73000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": ["rounded"], "raw_text": "run-rate revenue of about $73M", "source": {"type": "news", "name": "The Information", "url": "https://www.theinformation.com/", "published_at": "2026-03-05"}},
-        {"metric": "arr", "value": 100000000, "unit": "USD", "speaker_role": "founder", "qualifiers": ["run_rate", "forward_looking"], "raw_text": "approaching $100M run-rate", "source": {"type": "podcast", "name": "No Priors", "url": "https://example.com/nopriors/cognition", "locator": "00:33:20", "published_at": "2026-04-28"}},
-        {"metric": "valuation", "value": 4000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": [], "raw_text": "valued at $4B", "source": {"type": "news", "name": "Reuters", "url": "https://www.reuters.com/", "published_at": "2026-03-05"}}
+        {"metric": "valuation", "value": 26000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": [], "raw_text": "raised more than $1 billion at a $26 billion post-money valuation", "source": {"type": "news", "name": "VentureBeat", "url": "https://venturebeat.com/programming-development/cognition-follows-windsurf-acquisition-with-usd400m-fundraise-showing-strong", "published_at": "2026-05-27"}},
+        {"metric": "round_amount", "value": 1000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": [], "raw_text": "raised more than $1 billion (Lux, General Catalyst, 8VC)", "source": {"type": "news", "name": "Sacra", "url": "https://sacra.com/c/cognition/", "published_at": "2026-05-27"}},
+        {"metric": "arr", "value": 492000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": ["run_rate"], "raw_text": "annualized revenue run rate stands at $492 million", "source": {"type": "news", "name": "Sacra", "url": "https://sacra.com/c/cognition/", "published_at": "2026-05-20"}}
       ]
     },
     {
       "id": "mistral", "name": "Mistral AI", "category": "foundation-model", "domain": "mistral.ai", "segment": "global",
       "claims": [
-        {"metric": "round_amount", "value": 600000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": [], "raw_text": "raised 600M in its latest round", "source": {"type": "news", "name": "Financial Times", "url": "https://www.ft.com/", "published_at": "2026-01-15"}},
-        {"metric": "equity_sold_pct", "value": 10, "unit": "pct", "speaker_role": "journalist", "qualifiers": ["approximate"], "raw_text": "for roughly 10% of the company", "source": {"type": "news", "name": "Financial Times", "url": "https://www.ft.com/", "published_at": "2026-01-15"}},
-        {"metric": "valuation", "value": 6000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": [], "raw_text": "valued at about 6B", "source": {"type": "news", "name": "Reuters", "url": "https://www.reuters.com/", "published_at": "2026-01-15"}},
-        {"metric": "total_funding", "value": 1800000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": ["approximate"], "raw_text": "total funding around 1.8B", "source": {"type": "news", "name": "TechCrunch", "url": "https://techcrunch.com/", "published_at": "2026-01-16"}}
+        {"metric": "valuation", "value": 13000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": [], "raw_text": "Series C valued it at about EUR 11.7B (~$13B), ASML-led", "source": {"type": "news", "name": "Tracxn", "url": "https://tracxn.com/d/companies/mistral-ai/__SLZq7rzxLYqqA97jtPwO09jLDeb76RVJVb306OhciWU/funding-and-investors", "published_at": "2025-09-09"}},
+        {"metric": "valuation", "value": 23000000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": ["unconfirmed", "rounded"], "raw_text": "rumored to be raising EUR 3B at a EUR 20B (~$23B) valuation", "source": {"type": "news", "name": "TechCrunch", "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/", "published_at": "2026-06-12"}},
+        {"metric": "round_amount", "value": 830000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": [], "raw_text": "latest funding round of $830M on Mar 30, 2026", "source": {"type": "news", "name": "Tracxn", "url": "https://tracxn.com/d/companies/mistral-ai/__SLZq7rzxLYqqA97jtPwO09jLDeb76RVJVb306OhciWU/funding-and-investors", "published_at": "2026-03-30"}},
+        {"metric": "total_funding", "value": 3050000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": ["approximate"], "raw_text": "raised a total of $3.05B over 8 rounds", "source": {"type": "news", "name": "Tracxn", "url": "https://tracxn.com/d/companies/mistral-ai/__SLZq7rzxLYqqA97jtPwO09jLDeb76RVJVb306OhciWU/funding-and-investors", "published_at": "2026-06-01"}},
+        {"metric": "arr", "value": 400000000, "unit": "USD", "speaker_role": "journalist", "qualifiers": ["run_rate", "approximate"], "raw_text": "annualized revenue reportedly surpassed $400 million", "source": {"type": "news", "name": "mlq.ai", "url": "https://mlq.ai/news/mistral-ai-surges-revenue-20-fold-to-over-400-million-arr-amid-europes-ai-push/", "published_at": "2026-04-01"}}
       ]
     }
   ]

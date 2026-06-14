@@ -1,11 +1,11 @@
 [
   {
-    "id": "clm_55640af56d",
+    "id": "clm_5aa2b17d08",
     "company_id": "anthropic",
     "metric": "valuation",
-    "value": 60000000000.0,
+    "value": 965000000000.0,
     "unit": "USD",
-    "raw_text": "valued at about $60B in its latest round",
+    "raw_text": "raises $65B, nears $1T valuation ahead of IPO",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -13,10 +13,10 @@
     },
     "source": {
       "type": "news",
-      "name": "The Information",
-      "url": "https://www.theinformation.com/",
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
       "locator": null,
-      "published_at": "2026-03-01"
+      "published_at": "2026-05-28"
     },
     "extracted_at": "2026-06-14T00:00:00",
     "extractor_model": "seed",
@@ -24,38 +24,36 @@
     "derivation": null
   },
   {
-    "id": "clm_f32c33bbd3",
+    "id": "clm_8e46c3ae08",
     "company_id": "anthropic",
-    "metric": "total_funding",
-    "value": 18000000000.0,
+    "metric": "round_amount",
+    "value": 65000000000.0,
     "unit": "USD",
-    "raw_text": "has raised roughly $18B to date",
-    "qualifiers": [
-      "approximate"
-    ],
+    "raw_text": "$65 billion Series H financing",
+    "qualifiers": [],
     "speaker": {
       "name": null,
       "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "Bloomberg",
-      "url": "https://www.bloomberg.com/",
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html",
       "locator": null,
-      "published_at": "2026-03-02"
+      "published_at": "2026-05-28"
     },
     "extracted_at": "2026-06-14T00:00:00",
     "extractor_model": "seed",
-    "base_confidence": 0.4462,
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
-    "id": "clm_a969223ff4",
+    "id": "clm_733be3c68d",
     "company_id": "anthropic",
     "metric": "arr",
-    "value": 4000000000.0,
+    "value": 47000000000.0,
     "unit": "USD",
-    "raw_text": "annualized revenue around $4B",
+    "raw_text": "reported a $47 billion revenue run rate",
     "qualifiers": [
       "run_rate"
     ],
@@ -65,10 +63,10 @@
     },
     "source": {
       "type": "news",
-      "name": "Reuters",
-      "url": "https://www.reuters.com/",
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html",
       "locator": null,
-      "published_at": "2026-02-10"
+      "published_at": "2026-05-28"
     },
     "extracted_at": "2026-06-14T00:00:00",
     "extractor_model": "seed",
@@ -76,34 +74,10 @@
     "derivation": null
   },
   {
-    "id": "clm_a23a388fcb",
-    "company_id": "anthropic",
-    "metric": "arr",
-    "value": 5000000000.0,
-    "unit": "USD",
-    "raw_text": "we're past $5 billion in ARR",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "founder"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "20VC",
-      "url": "https://example.com/20vc/anthropic",
-      "locator": "00:22:14",
-      "published_at": "2026-05-20"
-    },
-    "extracted_at": "2026-06-14T00:00:00",
-    "extractor_model": "seed",
-    "base_confidence": 0.6,
-    "derivation": null
-  },
-  {
-    "id": "drv_d97cc440cc",
+    "id": "drv_a61c036fee",
     "company_id": "anthropic",
     "metric": "revenue_multiple",
-    "value": 12.0,
+    "value": 20.53,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -116,17 +90,17 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-05-20"
+      "published_at": "2026-05-28"
     },
     "extracted_at": "2026-06-14T00:00:00",
     "extractor_model": "derive-engine",
-    "base_confidence": 0.2898,
+    "base_confidence": 0.2282,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_55640af56d",
-        "clm_a23a388fcb"
+        "clm_5aa2b17d08",
+        "clm_733be3c68d"
       ]
     }
   }

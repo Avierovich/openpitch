@@ -1,64 +1,11 @@
 [
   {
-    "id": "clm_9cbbbbce27",
-    "company_id": "cognition",
-    "metric": "arr",
-    "value": 73000000.0,
-    "unit": "USD",
-    "raw_text": "run-rate revenue of about $73M",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Information",
-      "url": "https://www.theinformation.com/",
-      "locator": null,
-      "published_at": "2026-03-05"
-    },
-    "extracted_at": "2026-06-14T00:00:00",
-    "extractor_model": "seed",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_1248d94248",
-    "company_id": "cognition",
-    "metric": "arr",
-    "value": 100000000.0,
-    "unit": "USD",
-    "raw_text": "approaching $100M run-rate",
-    "qualifiers": [
-      "run_rate",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "founder"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "No Priors",
-      "url": "https://example.com/nopriors/cognition",
-      "locator": "00:33:20",
-      "published_at": "2026-04-28"
-    },
-    "extracted_at": "2026-06-14T00:00:00",
-    "extractor_model": "seed",
-    "base_confidence": 0.378,
-    "derivation": null
-  },
-  {
-    "id": "clm_a3f6b5c8d4",
+    "id": "clm_f5e2bc3e7a",
     "company_id": "cognition",
     "metric": "valuation",
-    "value": 4000000000.0,
+    "value": 26000000000.0,
     "unit": "USD",
-    "raw_text": "valued at $4B",
+    "raw_text": "raised more than $1 billion at a $26 billion post-money valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -66,10 +13,10 @@
     },
     "source": {
       "type": "news",
-      "name": "Reuters",
-      "url": "https://www.reuters.com/",
+      "name": "VentureBeat",
+      "url": "https://venturebeat.com/programming-development/cognition-follows-windsurf-acquisition-with-usd400m-fundraise-showing-strong",
       "locator": null,
-      "published_at": "2026-03-05"
+      "published_at": "2026-05-27"
     },
     "extracted_at": "2026-06-14T00:00:00",
     "extractor_model": "seed",
@@ -77,10 +24,60 @@
     "derivation": null
   },
   {
-    "id": "drv_3c688e7dce",
+    "id": "clm_d8ccc7bb18",
+    "company_id": "cognition",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "raised more than $1 billion (Lux, General Catalyst, 8VC)",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Sacra",
+      "url": "https://sacra.com/c/cognition/",
+      "locator": null,
+      "published_at": "2026-05-27"
+    },
+    "extracted_at": "2026-06-14T00:00:00",
+    "extractor_model": "seed",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_a53961cd0f",
+    "company_id": "cognition",
+    "metric": "arr",
+    "value": 492000000.0,
+    "unit": "USD",
+    "raw_text": "annualized revenue run rate stands at $492 million",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Sacra",
+      "url": "https://sacra.com/c/cognition/",
+      "locator": null,
+      "published_at": "2026-05-20"
+    },
+    "extracted_at": "2026-06-14T00:00:00",
+    "extractor_model": "seed",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "drv_ed2ac9a8a6",
     "company_id": "cognition",
     "metric": "revenue_multiple",
-    "value": 54.79,
+    "value": 52.85,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -93,7 +90,7 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-03-05"
+      "published_at": "2026-05-27"
     },
     "extracted_at": "2026-06-14T00:00:00",
     "extractor_model": "derive-engine",
@@ -102,8 +99,8 @@
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_a3f6b5c8d4",
-        "clm_9cbbbbce27"
+        "clm_f5e2bc3e7a",
+        "clm_a53961cd0f"
       ]
     }
   }

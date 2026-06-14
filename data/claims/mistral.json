@@ -1,61 +1,11 @@
 [
   {
-    "id": "clm_3985fe99a6",
-    "company_id": "mistral",
-    "metric": "round_amount",
-    "value": 600000000.0,
-    "unit": "USD",
-    "raw_text": "raised 600M in its latest round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Financial Times",
-      "url": "https://www.ft.com/",
-      "locator": null,
-      "published_at": "2026-01-15"
-    },
-    "extracted_at": "2026-06-14T00:00:00",
-    "extractor_model": "seed",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_c7eea7f0f0",
-    "company_id": "mistral",
-    "metric": "equity_sold_pct",
-    "value": 10.0,
-    "unit": "pct",
-    "raw_text": "for roughly 10% of the company",
-    "qualifiers": [
-      "approximate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Financial Times",
-      "url": "https://www.ft.com/",
-      "locator": null,
-      "published_at": "2026-01-15"
-    },
-    "extracted_at": "2026-06-14T00:00:00",
-    "extractor_model": "seed",
-    "base_confidence": 0.4462,
-    "derivation": null
-  },
-  {
-    "id": "clm_5ab49e6feb",
+    "id": "clm_aae5b904c2",
     "company_id": "mistral",
     "metric": "valuation",
-    "value": 6000000000.0,
+    "value": 13000000000.0,
     "unit": "USD",
-    "raw_text": "valued at about 6B",
+    "raw_text": "Series C valued it at about EUR 11.7B (~$13B), ASML-led",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -63,10 +13,10 @@
     },
     "source": {
       "type": "news",
-      "name": "Reuters",
-      "url": "https://www.reuters.com/",
+      "name": "Tracxn",
+      "url": "https://tracxn.com/d/companies/mistral-ai/__SLZq7rzxLYqqA97jtPwO09jLDeb76RVJVb306OhciWU/funding-and-investors",
       "locator": null,
-      "published_at": "2026-01-15"
+      "published_at": "2025-09-09"
     },
     "extracted_at": "2026-06-14T00:00:00",
     "extractor_model": "seed",
@@ -74,14 +24,15 @@
     "derivation": null
   },
   {
-    "id": "clm_d7d6c53e63",
+    "id": "clm_aae9941553",
     "company_id": "mistral",
-    "metric": "total_funding",
-    "value": 1800000000.0,
+    "metric": "valuation",
+    "value": 23000000000.0,
     "unit": "USD",
-    "raw_text": "total funding around 1.8B",
+    "raw_text": "rumored to be raising EUR 3B at a EUR 20B (~$23B) valuation",
     "qualifiers": [
-      "approximate"
+      "unconfirmed",
+      "rounded"
     ],
     "speaker": {
       "name": null,
@@ -90,9 +41,59 @@
     "source": {
       "type": "news",
       "name": "TechCrunch",
-      "url": "https://techcrunch.com/",
+      "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
       "locator": null,
-      "published_at": "2026-01-16"
+      "published_at": "2026-06-12"
+    },
+    "extracted_at": "2026-06-14T00:00:00",
+    "extractor_model": "seed",
+    "base_confidence": 0.2835,
+    "derivation": null
+  },
+  {
+    "id": "clm_1239b2d841",
+    "company_id": "mistral",
+    "metric": "round_amount",
+    "value": 830000000.0,
+    "unit": "USD",
+    "raw_text": "latest funding round of $830M on Mar 30, 2026",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tracxn",
+      "url": "https://tracxn.com/d/companies/mistral-ai/__SLZq7rzxLYqqA97jtPwO09jLDeb76RVJVb306OhciWU/funding-and-investors",
+      "locator": null,
+      "published_at": "2026-03-30"
+    },
+    "extracted_at": "2026-06-14T00:00:00",
+    "extractor_model": "seed",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_44b31caabf",
+    "company_id": "mistral",
+    "metric": "total_funding",
+    "value": 3050000000.0,
+    "unit": "USD",
+    "raw_text": "raised a total of $3.05B over 8 rounds",
+    "qualifiers": [
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tracxn",
+      "url": "https://tracxn.com/d/companies/mistral-ai/__SLZq7rzxLYqqA97jtPwO09jLDeb76RVJVb306OhciWU/funding-and-investors",
+      "locator": null,
+      "published_at": "2026-06-01"
     },
     "extracted_at": "2026-06-14T00:00:00",
     "extractor_model": "seed",
@@ -100,12 +101,39 @@
     "derivation": null
   },
   {
-    "id": "drv_ca7c9a5c9d",
+    "id": "clm_45f910ac6d",
     "company_id": "mistral",
-    "metric": "valuation",
-    "value": 6000000000.0,
+    "metric": "arr",
+    "value": 400000000.0,
     "unit": "USD",
-    "raw_text": "post-money = round ÷ equity%",
+    "raw_text": "annualized revenue reportedly surpassed $400 million",
+    "qualifiers": [
+      "run_rate",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "mlq.ai",
+      "url": "https://mlq.ai/news/mistral-ai-surges-revenue-20-fold-to-over-400-million-arr-amid-europes-ai-push/",
+      "locator": null,
+      "published_at": "2026-04-01"
+    },
+    "extracted_at": "2026-06-14T00:00:00",
+    "extractor_model": "seed",
+    "base_confidence": 0.4016,
+    "derivation": null
+  },
+  {
+    "id": "drv_49781dcebd",
+    "company_id": "mistral",
+    "metric": "revenue_multiple",
+    "value": 32.5,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -113,20 +141,20 @@
     },
     "source": {
       "type": "derived",
-      "name": "derived:valuation",
+      "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-01-15"
+      "published_at": "2026-04-01"
     },
     "extracted_at": "2026-06-14T00:00:00",
     "extractor_model": "derive-engine",
-    "base_confidence": 0.2155,
+    "base_confidence": 0.194,
     "derivation": {
       "kind": "identity",
-      "formula": "post-money = round ÷ equity%",
+      "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_3985fe99a6",
-        "clm_c7eea7f0f0"
+        "clm_aae5b904c2",
+        "clm_45f910ac6d"
       ]
     }
   }

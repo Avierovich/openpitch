@@ -7,7 +7,17 @@ from functools import lru_cache
 
 import yaml
 
+from . import paths
 from .paths import config_dir
+
+
+def _config_file(name: str):
+    """Local config if present, else the remote-cached copy (no-clone installs)."""
+    local = config_dir() / name
+    if local.exists():
+        return local
+    remote = paths.resolve_remote(f"config/{name}")
+    return remote if remote else local
 
 
 @dataclass(frozen=True)
@@ -22,7 +32,7 @@ class MetricDef:
 
 @lru_cache(maxsize=1)
 def load_metrics() -> dict[str, MetricDef]:
-    raw = yaml.safe_load((config_dir() / "metrics.yaml").read_text())["metrics"]
+    raw = yaml.safe_load(_config_file("metrics.yaml").read_text())["metrics"]
     return {
         k: MetricDef(
             key=k, label=v["label"], unit=str(v["unit"]),
@@ -39,13 +49,13 @@ def metric_keys() -> list[str]:
 
 @lru_cache(maxsize=1)
 def load_scoring() -> dict:
-    return yaml.safe_load((config_dir() / "scoring.yaml").read_text())
+    return yaml.safe_load(_config_file("scoring.yaml").read_text())
 
 
 @lru_cache(maxsize=1)
 def load_watchlist() -> list[dict]:
     """Global + MENA companies, each tagged with a `segment`."""
-    raw = yaml.safe_load((config_dir() / "watchlist.yaml").read_text())
+    raw = yaml.safe_load(_config_file("watchlist.yaml").read_text())
     out: list[dict] = []
     for c in raw.get("companies", []):
         out.append({**c, "segment": c.get("segment", "global")})
@@ -56,8 +66,8 @@ def load_watchlist() -> list[dict]:
 
 @lru_cache(maxsize=1)
 def load_podcasts() -> list[dict]:
-    path = config_dir() / "podcasts.yaml"
-    if not path.exists():
+    path = _config_file("podcasts.yaml")
+    if not path or not path.exists():
         return []
     data = yaml.safe_load(path.read_text()) or {}
     return [f for f in data.get("feeds", []) if f.get("feed_url")]

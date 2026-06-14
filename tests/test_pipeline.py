@@ -77,3 +77,9 @@ def test_pipeline_contradiction_and_mcp(data_dir):
 def test_no_data_responses(data_dir):
     assert tools.get_company("ghost")["status"] == "not_found"
     assert tools.search("nothing")["results"] == []
+
+
+def test_list_companies_falls_back_to_index(data_dir):
+    # Remote-style consumer: only the manifest exists, no companies/ dir to glob.
+    store.write_index(["alpha", "beta"])
+    assert store.list_company_ids() == ["alpha", "beta"]

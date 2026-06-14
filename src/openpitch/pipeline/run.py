@@ -107,6 +107,7 @@ def _finalize(pairs: list[tuple[Company, list[Claim]]], *, now: datetime, as_of:
     prev = store.read_universe() or {}
     universe = select_universe(companies, prev_ids=prev.get("selected"))
     store.write_universe(universe)
+    store.write_index([c.id for c in companies])  # manifest for no-clone consumers
 
     all_events = []
     for company, claims in pairs:
@@ -173,7 +174,15 @@ def run(
                 items.extend(adapter.fetch(company_stub))
             except Exception as exc:  # noqa: BLE001
                 typer.echo(f"  ! {meta['id']}/{adapter.__name__}: {exc}")
-        text_items = [t for it in items if (t := transcribe(it)).text]
+        # Bound audio transcriptions per company (others fall back to show-notes text).
+        transcribe_budget = 3
+        text_items: list = []
+        for it in items:
+            if it.needs_transcription and it.audio_url and transcribe_budget > 0:
+                it = transcribe(it)
+                transcribe_budget -= 1
+            if it.text:
+                text_items.append(it)
         claims: list[Claim] = []
         # Batch many source items per LLM call (free-tier-quota lever, FRD §7).
         for chunk in _chunks(text_items, 15):

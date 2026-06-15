@@ -21,7 +21,7 @@
 
 ## Priority Recommendations
 
-1. **[HIGH]** Verify seed data + add a demo asset before launch (LAUNCH-GATES) — *small, but launch-blocking.* **(open)**
+1. **[HIGH]** Verify seed data + add a demo asset — seed ✅ verified (2026-06-14); demo ✅ dashboard screenshot added (`docs/demo/dashboard.png`). Remaining: an in-agent MCP-query GIF before launch.
 2. **[MEDIUM]** ~~Fix the universe-ranking bug (global re-score in `_finalize`)~~ — **✅ DONE 2026-06-14** (62 companies → 62 unique ranks).
 3. **[MEDIUM]** ~~Add `.claude/skills/run-openpitch/` runbook~~ — **✅ DONE 2026-06-14** (Dimension 3 now GREEN).
 4. **[LOW]** Clarify the CLAUDE.md ↔ AGENTS.md split (CLAUDE.md is 3 lines) — *15 min.* **(open)**

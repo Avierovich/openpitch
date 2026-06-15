@@ -10,6 +10,9 @@
 
 > ⚠️ **Status: early development.** Product/spec docs are in place ([BRD](docs/BRD.md) · [FRD](docs/FRD.md) · [PRD](docs/PRD.md)); implementation is in progress.
 
+![OpenPitch dashboard](docs/demo/dashboard.png)
+<!-- ponytail: static screenshot; record a GIF of the in-agent MCP query before launch -->
+
 </div>
 
 ---
@@ -83,7 +86,7 @@ Ask your agent: *"What's Cognition's ARR, with sources and confidence?"* — it 
 - 📁 **Raw data** — [`data/companies/`](data/) — plain JSON, diffable, yours to use
 - 🤝 **A2A Agent Card** — generated at `dashboard/dist/.well-known/agent.json`
 
-> **Data status:** the committed seed is **illustrative, pending source verification** (see [LAUNCH-GATES](docs/LAUNCH-GATES.md)). The *software* is complete and runnable; launch-grade verified data is the remaining human-in-the-loop step.
+> **Data status:** the committed seed is **verified enough for software testing but not launch-grade** (see [LAUNCH-GATES](docs/LAUNCH-GATES.md)). The *software* is runnable end-to-end; the remaining launch risk is data quality, contradiction strength, and public demo polish.
 
 ## Product docs
 
@@ -91,6 +94,7 @@ Ask your agent: *"What's Cognition's ARR, with sources and confidence?"* — it 
 - **Trust model** — [methodology](docs/METHODOLOGY.md), [data policy](docs/DATA-POLICY.md), [corrections](docs/CORRECTIONS.md)
 - **Interfaces** — [MCP spec](docs/MCP-SPEC.md), [events spec](docs/EVENTS-SPEC.md), [FRD](docs/FRD.md)
 - **Go-to-market** — [growth plan](docs/GROWTH.md), [competitive analysis](docs/COMPETITIVE-ANALYSIS.md), [strategy deep dive](docs/STRATEGY-DEEP-DIVE.md)
+- **Operations + brand** — [operations](docs/OPERATIONS.md), [recent changes](docs/RECENT-CHANGES.md), [logo options](docs/brand/logo-options/README.md)
 
 ## How it works
 
@@ -152,12 +156,13 @@ OpenPitch is **transparently probabilistic**. Many figures are estimates derived
 - [x] Seed universe (global AI + MENA segment)
 - [x] Core data model + reconciliation engine (confidence, consensus, contradiction) — *tested*
 - [x] Source adapters: podcast, news, EDGAR, company-site — *tested*
-- [ ] Extraction stage (LLM claim extraction) — *the launch gate: real data + contradictions*
-- [ ] MCP server
-- [ ] Daily GitHub Actions pipeline
-- [ ] Static dashboard
-- [ ] Event feed + integration recipes
-- [ ] A2A agent interface (Agent Card) — delegate research agent-to-agent
+- [x] Extraction stage: batched LLM claim extraction + model rotation — *tested; data QA still required*
+- [x] MCP server — local read-only data tools
+- [x] Daily GitHub Actions pipeline — wired for LLM, Groq transcription, and SEC user-agent secrets
+- [x] Static dashboard + company pages — generated from committed data
+- [x] Event feed — JSONL feed and digest generated from publishes
+- [x] A2A agent discovery card — generated with dashboard
+- [x] Brand direction — selected logo option 5, **Terminal Proof**
 - [ ] MENA adapters (regional news, free-zone registries)
 - [ ] Rich-source expansion (GitHub, hiring, app-ranks) — *post-PMF scaling*
 - [ ] *v2:* implied-ARR model, intra-day funding fast-lane

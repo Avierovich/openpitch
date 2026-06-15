@@ -228,6 +228,17 @@ def run(
 
 
 @app.command()
+def discover() -> None:
+    """Find AI startups from funding news and add them to config/discovered.yaml (needs LLM key)."""
+    from .discover import discover as run_discover, merge_discovered
+    from .llm import get_provider
+
+    found = run_discover(llm=get_provider())
+    n = merge_discovered(found)
+    typer.echo(f"Discovered {len(found)} candidates; {n} new added to config/discovered.yaml")
+
+
+@app.command()
 def build_dashboard() -> None:
     """Render the static dashboard/company cards from committed data (FRD §9)."""
     from .dashboard import build

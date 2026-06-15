@@ -1,9 +1,9 @@
-# OpenPitch Data Quality Report - 2026-06-14
+# OpenPitch Data Quality Report - 2026-06-16
 
 ## Summary
 
 - Profiles generated: 62
-- Watchlist candidates: 99
+- Watchlist candidates: 108
 - Top-50 cards: 50
 - Profiles with at least one metric: 38
 - Critical issues: 51

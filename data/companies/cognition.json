@@ -7,7 +7,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 86.9,
-  "universe_rank": 4,
+  "universe_rank": 8,
   "metrics": {
     "valuation": {
       "metric": "valuation",
@@ -16,12 +16,16 @@
       "range": null,
       "as_of": "2026-05-27",
       "estimate_type": "reported",
-      "confidence": 0.5,
+      "confidence": 0.498,
       "supporting_claims": [
         "clm_f5e2bc3e7a"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 26000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-05-27"
+      },
       "history_ref": "history/cognition/valuation.jsonl"
     },
     "round_amount": {
@@ -31,12 +35,16 @@
       "range": null,
       "as_of": "2026-05-27",
       "estimate_type": "reported",
-      "confidence": 0.5,
+      "confidence": 0.498,
       "supporting_claims": [
         "clm_d8ccc7bb18"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-05-27"
+      },
       "history_ref": "history/cognition/round_amount.jsonl"
     },
     "arr": {
@@ -46,12 +54,16 @@
       "range": null,
       "as_of": "2026-05-20",
       "estimate_type": "reported",
-      "confidence": 0.384,
+      "confidence": 0.38,
       "supporting_claims": [
         "clm_a53961cd0f"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 492000000.0,
+        "change_pct": 0.0,
+        "since": "2026-05-20"
+      },
       "history_ref": "history/cognition/arr.jsonl"
     },
     "revenue_multiple": {
@@ -61,14 +73,18 @@
       "range": null,
       "as_of": "2026-05-27",
       "estimate_type": "reported",
-      "confidence": 0.196,
+      "confidence": 0.195,
       "supporting_claims": [
         "drv_ed2ac9a8a6"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 52.85,
+        "change_pct": 0.0,
+        "since": "2026-05-27"
+      },
       "history_ref": "history/cognition/revenue_multiple.jsonl"
     }
   },
-  "last_updated": "2026-06-14"
+  "last_updated": "2026-06-15"
 }

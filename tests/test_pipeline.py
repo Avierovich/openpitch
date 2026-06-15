@@ -83,3 +83,71 @@ def test_list_companies_falls_back_to_index(data_dir):
     # Remote-style consumer: only the manifest exists, no companies/ dir to glob.
     store.write_index(["alpha", "beta"])
     assert store.list_company_ids() == ["alpha", "beta"]
+
+
+def test_finalize_ranks_globally_across_incremental_runs(data_dir):
+    from openpitch.pipeline.run import _finalize, _reconcile_company
+
+    def claim_for(cid, val):
+        c = Claim(id=f"{cid}-val", company_id=cid, metric="valuation", value=val, raw_text="x",
+                  speaker=Speaker(role=SpeakerRole.JOURNALIST),
+                  source=Source(type=SourceType.NEWS, name="N", published_at=AS_OF),
+                  extracted_at=NOW, extractor_model="t", base_confidence=0.0)
+        c.base_confidence = round(base_confidence(c), 4)
+        return c
+
+    def mk(cid, val):
+        return _reconcile_company({"id": cid, "name": cid, "category": "x", "segment": "global"},
+                                  [claim_for(cid, val)], now=NOW, as_of=AS_OF)
+
+    _finalize([mk("alpha", 100_000_000_000)], now=NOW, as_of=AS_OF)
+    _finalize([mk("beta", 200_000_000_000)], now=NOW, as_of=AS_OF)  # separate, incremental run
+
+    ranks = sorted(c.universe_rank for c in store.read_all_companies())
+    assert ranks == [1, 2]                          # global + unique despite two runs
+    assert store.read_company("beta").universe_rank == 1  # higher valuation ranks first
+
+
+def test_dashboard_renders_top_50_watchlist_slots(data_dir):
+    c = Company(
+        id="openai", name="OpenAI", category="foundation-model", universe_rank=1,
+        last_updated=AS_OF, metrics={
+            "arr": ResolvedValue(
+                metric="arr", value=100, as_of=AS_OF,
+                estimate_type=EstimateType.REPORTED, confidence=0.5,
+            )
+        },
+    )
+    store.write_company(c)
+
+    from openpitch.pipeline.dashboard import DIST, build
+
+    build()
+    index = (DIST / "index.html").read_text()
+    assert "1 sourced profiles · 50 top-50 slots" in index
+    assert index.count('class="card') == 50
+    assert "ARR / revenue" in index
+    assert "pending sourced metrics" in index
+    assert '<option value="valuation" selected>Valuation</option>' in index
+    assert 'data-sort' in index
+    assert 'data-valuation="0.0"' in index
+    assert "View data quality" in index
+    assert (DIST / "quality.html").exists()
+    assert (data_dir / "quality" / "report.md").exists()
+
+
+def test_quality_report_flags_top50_gaps(data_dir):
+    c = Company(id="acme", name="Acme", category="foundation-model", last_updated=AS_OF)
+    store.write_company(c)
+
+    from openpitch.pipeline.quality import build_snapshot, render_markdown, write_report
+
+    snapshot = build_snapshot()
+    assert "Acme" in snapshot.top50_no_metrics
+    assert snapshot.critical_count >= 1
+
+    write_report()
+    report = (data_dir / "quality" / "report.md").read_text()
+    assert "# OpenPitch Data Quality Report" in report
+    assert "Acme" in report
+    assert "Top-50 Missing Valuation" in render_markdown(snapshot)

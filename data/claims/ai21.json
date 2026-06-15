@@ -1,0 +1,135 @@
+[
+  {
+    "id": "clm_272528b969",
+    "company_id": "ai21",
+    "metric": "valuation",
+    "value": 1400000000.0,
+    "unit": null,
+    "raw_text": "$1.4B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE95bzFYWENoTV9WMVJfR1VpTjhfNHdBY2lQVlM4RGVXY21RSVF1MUVBTEs3RzhsZXRzM2xzM3BZdUxDbXlJamFtYWRVb2tTTlFZ?oc=5",
+      "locator": null,
+      "published_at": "2025-11-28"
+    },
+    "extracted_at": "2026-06-14T09:27:16.547609",
+    "extractor_model": "llama-3.3-70b-versatile",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_cb922125fd",
+    "company_id": "ai21",
+    "metric": "arr",
+    "value": 57800000.0,
+    "unit": null,
+    "raw_text": "$57.8M ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE95bzFYWENoTV9WMVJfR1VpTjhfNHdBY2lQVlM4RGVXY21RSVF1MUVBTEs3RzhsZXRzM2xzM3BZdUxDbXlJamFtYWRVb2tTTlFZ?oc=5",
+      "locator": null,
+      "published_at": "2025-11-28"
+    },
+    "extracted_at": "2026-06-14T09:27:16.547609",
+    "extractor_model": "llama-3.3-70b-versatile",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_2e610c5736",
+    "company_id": "ai21",
+    "metric": "valuation",
+    "value": 3000000000.0,
+    "unit": null,
+    "raw_text": "up to $3 billion",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE01U1hBemM2MFFjcjdSbVYxYnZwNk5STUpFTHVnYThMdVRzMFJHTFcyMHk4bHVwZXdYV0ZkSkl0VVJMU01LV0dFc0JnZDNyYkg1UU1jUkhXOGhZTUtlLXpNb2hUa1YwODFGbFc5RQ?oc=5",
+      "locator": null,
+      "published_at": "2025-12-30"
+    },
+    "extracted_at": "2026-06-14T09:27:16.547609",
+    "extractor_model": "llama-3.3-70b-versatile",
+    "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
+    "id": "clm_c3e8349b7d",
+    "company_id": "ai21",
+    "metric": "valuation",
+    "value": 3000000000.0,
+    "unit": null,
+    "raw_text": "$3B",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSlBhNjFPc1pyNEJyZGEzZXlScjlwZ3J1azk1NHFFY2p5LU1scHBYazJtY2xOVW5ydTZXNHVQN1J2OFdsVmFuRXk5aUZFbXNUYl9vUnRMQllsVHZNRDExa3pPaGdMR2VjcWdieGo3Y3NpUmNqOXR2UEkxdGZ5MlRMTG0zbC1IejVVTEw4?oc=5",
+      "locator": null,
+      "published_at": "2025-12-30"
+    },
+    "extracted_at": "2026-06-14T09:27:16.547609",
+    "extractor_model": "llama-3.3-70b-versatile",
+    "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
+    "id": "drv_22a1803c29",
+    "company_id": "ai21",
+    "metric": "revenue_multiple",
+    "value": 24.22,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2025-11-28"
+    },
+    "extracted_at": "2026-06-14T09:27:16.547609",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.1294,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_272528b969",
+        "clm_cb922125fd"
+      ]
+    }
+  }
+]

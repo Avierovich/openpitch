@@ -1,0 +1,107 @@
+[
+  {
+    "id": "clm_c301750568",
+    "company_id": "elevenlabs",
+    "metric": "valuation",
+    "value": 11000000000.0,
+    "unit": "USD",
+    "raw_text": "raised $500 million at a valuation of $11 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Economic Times",
+      "url": "https://m.economictimes.com/tech/funding/voice-ai-firm-elevenlabs-tops-500-million-arr-announces-additional-funding/articleshow/130833329.cms",
+      "locator": null,
+      "published_at": "2026-05-05"
+    },
+    "extracted_at": "2026-06-15T00:00:00",
+    "extractor_model": "seed",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_5b478923ac",
+    "company_id": "elevenlabs",
+    "metric": "round_amount",
+    "value": 500000000.0,
+    "unit": "USD",
+    "raw_text": "announced additional $500 million in funding as part of Series D",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Economic Times",
+      "url": "https://m.economictimes.com/tech/funding/voice-ai-firm-elevenlabs-tops-500-million-arr-announces-additional-funding/articleshow/130833329.cms",
+      "locator": null,
+      "published_at": "2026-05-05"
+    },
+    "extracted_at": "2026-06-15T00:00:00",
+    "extractor_model": "seed",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_b85069b411",
+    "company_id": "elevenlabs",
+    "metric": "arr",
+    "value": 500000000.0,
+    "unit": "USD",
+    "raw_text": "ARR crossed $500 million in the first four months of 2026",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Economic Times",
+      "url": "https://m.economictimes.com/tech/funding/voice-ai-firm-elevenlabs-tops-500-million-arr-announces-additional-funding/articleshow/130833329.cms",
+      "locator": null,
+      "published_at": "2026-05-05"
+    },
+    "extracted_at": "2026-06-15T00:00:00",
+    "extractor_model": "seed",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "drv_f389b66ad5",
+    "company_id": "elevenlabs",
+    "metric": "revenue_multiple",
+    "value": 22.0,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-05-05"
+    },
+    "extracted_at": "2026-06-15T00:00:00",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.2282,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_c301750568",
+        "clm_b85069b411"
+      ]
+    }
+  }
+]

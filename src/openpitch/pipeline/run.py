@@ -4,6 +4,7 @@ Commands:
     openpitch seed             # build data/ from committed seed claims (offline, no key)
     openpitch run [--offline]  # live daily pass (collect→…→publish); needs LLM key + network
     openpitch build-dashboard  # render static company cards from committed data
+    openpitch quality-report   # write data/quality/report.md
 
 Each stage is fail-isolated: one company failing is logged, not fatal.
 """
@@ -12,6 +13,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import time
 from collections import defaultdict
 from datetime import date, datetime
 
@@ -102,12 +104,27 @@ def _reconcile_company(meta: dict, claims: list[Claim], *, now: datetime, as_of:
 
 
 def _finalize(pairs: list[tuple[Company, list[Claim]]], *, now: datetime, as_of: date) -> int:
-    """Score the universe, publish each company, write universe + digest."""
-    companies = [c for c, _ in pairs]
+    """Score the universe, publish each company, write universe + digest.
+
+    Scoring is GLOBAL: rank over the union of all committed companies plus this
+    run's, so incremental runs (e.g. `run --companies 2`) produce one consistent
+    ranking instead of duplicate ranks per batch.
+    """
+    new_by_id = {c.id: c for c, _ in pairs}
+    all_by_id = {c.id: c for c in store.read_all_companies()}
+    all_by_id.update(new_by_id)  # this run's freshly-reconciled objects win
+    everyone = list(all_by_id.values())
+
     prev = store.read_universe() or {}
-    universe = select_universe(companies, prev_ids=prev.get("selected"))
+    universe = select_universe(everyone, prev_ids=prev.get("selected"))  # mutates rank/score
     store.write_universe(universe)
-    store.write_index([c.id for c in companies])  # manifest for no-clone consumers
+    store.write_index(list(all_by_id.keys()))  # manifest for no-clone consumers
+
+    # Persist refreshed rank/score for companies NOT in this run (run companies
+    # are written by publish_company below, which also emits events).
+    for cid, c in all_by_id.items():
+        if cid not in new_by_id:
+            store.write_company(c)
 
     all_events = []
     for company, claims in pairs:
@@ -142,6 +159,11 @@ def seed() -> None:
 def run(
     offline: bool = typer.Option(False, help="Skip network sources; use seed only."),
     companies: int = typer.Option(0, help="Limit to the first N watchlist companies (0 = all)."),
+    ids: str = typer.Option("", help="Comma-separated company ids to run instead of the full watchlist."),
+    transcriptions: int = typer.Option(3, help="Maximum podcast audio transcriptions per company."),
+    max_source_items: int = typer.Option(15, help="Maximum source items to extract per company."),
+    skip_podcasts: bool = typer.Option(False, help="Skip podcast RSS sources for broad/fast runs."),
+    extract_sleep: float = typer.Option(0.0, help="Seconds to sleep after each extraction batch."),
 ) -> None:
     """Live daily pass: collect → transcribe → extract → derive → reconcile → publish."""
     if offline:
@@ -161,6 +183,9 @@ def run(
     llm = get_provider()
     keys = metric_keys()
     watchlist = load_watchlist()
+    if ids.strip():
+        wanted = {cid.strip() for cid in ids.split(",") if cid.strip()}
+        watchlist = [meta for meta in watchlist if meta["id"] in wanted]
     if companies > 0:
         watchlist = watchlist[:companies]
     pairs: list[tuple[Company, list[Claim]]] = []
@@ -170,12 +195,14 @@ def run(
                                aliases=meta.get("aliases", []), website=meta.get("domain"))
         items = []
         for adapter in ADAPTERS:
+            if skip_podcasts and adapter.__name__.endswith("podcast_rss"):
+                continue
             try:
                 items.extend(adapter.fetch(company_stub))
             except Exception as exc:  # noqa: BLE001
                 typer.echo(f"  ! {meta['id']}/{adapter.__name__}: {exc}")
         # Bound audio transcriptions per company (others fall back to show-notes text).
-        transcribe_budget = 3
+        transcribe_budget = max(0, transcriptions)
         text_items: list = []
         for it in items:
             if it.needs_transcription and it.audio_url and transcribe_budget > 0:
@@ -183,6 +210,8 @@ def run(
                 transcribe_budget -= 1
             if it.text:
                 text_items.append(it)
+        if max_source_items > 0:
+            text_items = text_items[:max_source_items]
         claims: list[Claim] = []
         # Batch many source items per LLM call (free-tier-quota lever, FRD §7).
         for chunk in _chunks(text_items, 15):
@@ -190,6 +219,8 @@ def run(
                 claims.extend(extract_claims_batch(chunk, company_stub, llm=llm, metric_keys=keys, now=now))
             except Exception as exc:  # noqa: BLE001
                 typer.echo(f"  ! extract {meta['id']}: {str(exc)[:120]}")
+            if extract_sleep > 0:
+                time.sleep(extract_sleep)
         if claims:
             pairs.append(_reconcile_company(meta, claims, now=now, as_of=as_of))
     n_events = _finalize(pairs, now=now, as_of=as_of)
@@ -203,6 +234,19 @@ def build_dashboard() -> None:
 
     out = build()
     typer.echo(f"Dashboard written to {out}")
+
+
+@app.command()
+def quality_report() -> None:
+    """Write a data-quality report for launch/dashboard review."""
+    from .quality import write_report
+
+    snapshot = write_report()
+    typer.echo(
+        "Quality report written to "
+        f"{data_dir() / 'quality' / 'report.md'} "
+        f"({snapshot.critical_count} critical, {snapshot.warning_count} warnings)."
+    )
 
 
 if __name__ == "__main__":

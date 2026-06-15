@@ -1,0 +1,129 @@
+[
+  {
+    "id": "clm_0aa76495ea",
+    "company_id": "liquid-ai",
+    "metric": "arr",
+    "value": 13200000.0,
+    "unit": null,
+    "raw_text": "$13.2M ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5MdjZ1RG9iYlBpTkVlblBTc1FpNjZXMHh3NGlwMEZoWkZGSVEwak11aHlMMndUUXYwZFIzc1ROcWNmcFpMX05aR2pvcDZ4WXM4RWc?oc=5",
+      "locator": null,
+      "published_at": "2025-11-24"
+    },
+    "extracted_at": "2026-06-14T09:27:16.547609",
+    "extractor_model": "llama-3.3-70b-versatile",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_8dd438f059",
+    "company_id": "liquid-ai",
+    "metric": "valuation",
+    "value": 2400000000.0,
+    "unit": null,
+    "raw_text": "$2.4B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5MdjZ1RG9iYlBpTkVlblBTc1FpNjZXMHh3NGlwMEZoWkZGSVEwak11aHlMMndUUXYwZFIzc1ROcWNmcFpMX05aR2pvcDZ4WXM4RWc?oc=5",
+      "locator": null,
+      "published_at": "2025-11-24"
+    },
+    "extracted_at": "2026-06-14T09:27:16.547609",
+    "extractor_model": "llama-3.3-70b-versatile",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_e86472ff05",
+    "company_id": "liquid-ai",
+    "metric": "latest_round",
+    "value": 250000000.0,
+    "unit": null,
+    "raw_text": "Liquid AI just raised $250M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdkx0TGcwcFRRNDVZTXNpZU5ic05RVk82aTdnMkxJVUJpTVJfODRkeVdzMy1XS2xyeXBBeVliYkRidTFvdTBHa1ZxMzJRQU90ZWFFUWNpVXdkT096UXFFZWZ1TUNYN0luVDRUSVRScm4wWi0zVVBIeHB2MGNNVFNyR1d3bTJpOE5jVEF2LWtQTzZpVmdaRzd0dnFCTUZ2UUZ1RUZrbDltdUEyZw?oc=5",
+      "locator": null,
+      "published_at": "2024-12-13"
+    },
+    "extracted_at": "2026-06-14T09:27:16.547609",
+    "extractor_model": "llama-3.3-70b-versatile",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_a49a56bdd8",
+    "company_id": "liquid-ai",
+    "metric": "total_funding",
+    "value": 18000000.0,
+    "unit": null,
+    "raw_text": "Paradigm-backed Liquid raises $18 million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdV9Ra1Zpc2kxQ1ROQkdJZ3hTWXhkOTVHTjdEOTBtdG1oQ2VuZ3pFem45MUNyWmNyaS1lYzk2VVl3ZFlqTF9IY21fUk83bUVIdVVUSW9Zd0d2azZUUWxtVUVXbXpnbEFTZ0NoN3k1WDFLQUNhWHc2eEtyNUZiaDJmdElOa2VKSW9ucGxCWE5IS01CRFpJR1E?oc=5",
+      "locator": null,
+      "published_at": "2026-04-28"
+    },
+    "extracted_at": "2026-06-14T09:27:16.547609",
+    "extractor_model": "llama-3.3-70b-versatile",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "drv_0dc53c0241",
+    "company_id": "liquid-ai",
+    "metric": "revenue_multiple",
+    "value": 181.82,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2025-11-24"
+    },
+    "extracted_at": "2026-06-14T09:27:16.547609",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.1294,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_8dd438f059",
+        "clm_0aa76495ea"
+      ]
+    }
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "id": "poolside",
+  "name": "Poolside",
+  "aliases": [],
+  "website": "poolside.ai",
+  "category": "coding-agent",
+  "segment": "global",
+  "in_universe": true,
+  "vc_attention_score": 79.1,
+  "universe_rank": 24,
+  "metrics": {
+    "valuation": {
+      "metric": "valuation",
+      "value": 3000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-11-28",
+      "estimate_type": "reported",
+      "confidence": 0.218,
+      "supporting_claims": [
+        "clm_17daaaa6a6"
+      ],
+      "contradiction": true,
+      "delta": null,
+      "history_ref": "history/poolside/valuation.jsonl"
+    },
+    "arr": {
+      "metric": "arr",
+      "value": 50000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-11-28",
+      "estimate_type": "reported",
+      "confidence": 0.072,
+      "supporting_claims": [
+        "clm_8cc327f9d3"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/poolside/arr.jsonl"
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 1000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-10-31",
+      "estimate_type": "consensus",
+      "confidence": 0.491,
+      "supporting_claims": [
+        "clm_0839e2c76e",
+        "clm_22aa85ee20",
+        "clm_bb6ec931a7"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/poolside/round_amount.jsonl"
+    },
+    "revenue_multiple": {
+      "metric": "revenue_multiple",
+      "value": 60.0,
+      "unit": "x",
+      "range": null,
+      "as_of": "2025-11-28",
+      "estimate_type": "reported",
+      "confidence": 0.025,
+      "supporting_claims": [
+        "drv_6060877777"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/poolside/revenue_multiple.jsonl"
+    }
+  },
+  "last_updated": "2026-06-14"
+}

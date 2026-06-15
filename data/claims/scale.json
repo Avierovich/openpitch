@@ -1,0 +1,84 @@
+[
+  {
+    "id": "clm_2e72a2e2ff",
+    "company_id": "scale",
+    "metric": "valuation",
+    "value": 29000000000.0,
+    "unit": "USD",
+    "raw_text": "Meta investment values Scale AI at over $29 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/metas-effort-to-revamp-ai-takes-shape-with-reported-14-3-billion-investment-in-scale-ai-bce2056d",
+      "locator": null,
+      "published_at": "2025-06-12"
+    },
+    "extracted_at": "2026-06-15T00:00:00",
+    "extractor_model": "seed",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_72dcfd9473",
+    "company_id": "scale",
+    "metric": "arr",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "generated $2B in revenue in 2025",
+    "qualifiers": [
+      "run_rate",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Sacra",
+      "url": "https://sacra.com/c/scale-ai/",
+      "locator": null,
+      "published_at": "2026-04-15"
+    },
+    "extracted_at": "2026-06-15T00:00:00",
+    "extractor_model": "seed",
+    "base_confidence": 0.4016,
+    "derivation": null
+  },
+  {
+    "id": "drv_7856c56f6f",
+    "company_id": "scale",
+    "metric": "revenue_multiple",
+    "value": 14.5,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-04-15"
+    },
+    "extracted_at": "2026-06-15T00:00:00",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.194,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_2e72a2e2ff",
+        "clm_72dcfd9473"
+      ]
+    }
+  }
+]

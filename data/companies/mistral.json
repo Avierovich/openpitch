@@ -7,7 +7,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 86.5,
-  "universe_rank": 5,
+  "universe_rank": 10,
   "metrics": {
     "valuation": {
       "metric": "valuation",
@@ -16,12 +16,16 @@
       "range": null,
       "as_of": "2026-06-12",
       "estimate_type": "reported",
-      "confidence": 0.282,
+      "confidence": 0.281,
       "supporting_claims": [
         "clm_aae9941553"
       ],
       "contradiction": true,
-      "delta": null,
+      "delta": {
+        "previous": 23000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-12"
+      },
       "history_ref": "history/mistral/valuation.jsonl"
     },
     "round_amount": {
@@ -31,12 +35,16 @@
       "range": null,
       "as_of": "2026-03-30",
       "estimate_type": "reported",
-      "confidence": 0.426,
+      "confidence": 0.425,
       "supporting_claims": [
         "clm_1239b2d841"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 830000000.0,
+        "change_pct": -0.0,
+        "since": "2026-03-30"
+      },
       "history_ref": "history/mistral/round_amount.jsonl"
     },
     "total_funding": {
@@ -51,7 +59,11 @@
         "clm_44b31caabf"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 3050000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-01"
+      },
       "history_ref": "history/mistral/total_funding.jsonl"
     },
     "arr": {
@@ -61,12 +73,16 @@
       "range": null,
       "as_of": "2026-04-01",
       "estimate_type": "reported",
-      "confidence": 0.217,
+      "confidence": 0.215,
       "supporting_claims": [
         "clm_45f910ac6d"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 400000000.0,
+        "change_pct": 0.0,
+        "since": "2026-04-01"
+      },
       "history_ref": "history/mistral/arr.jsonl"
     },
     "revenue_multiple": {
@@ -76,14 +92,18 @@
       "range": null,
       "as_of": "2026-04-01",
       "estimate_type": "reported",
-      "confidence": 0.105,
+      "confidence": 0.104,
       "supporting_claims": [
         "drv_49781dcebd"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 32.5,
+        "change_pct": 0.0,
+        "since": "2026-04-01"
+      },
       "history_ref": "history/mistral/revenue_multiple.jsonl"
     }
   },
-  "last_updated": "2026-06-14"
+  "last_updated": "2026-06-15"
 }

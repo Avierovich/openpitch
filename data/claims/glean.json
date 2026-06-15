@@ -1,0 +1,107 @@
+[
+  {
+    "id": "clm_6b797a8c92",
+    "company_id": "glean",
+    "metric": "valuation",
+    "value": 7200000000.0,
+    "unit": "USD",
+    "raw_text": "announces $150M in Series F funding at a $7.2B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "web",
+      "name": "Glean",
+      "url": "https://www.glean.com/blog/glean-series-f-announcement",
+      "locator": null,
+      "published_at": "2025-06-10"
+    },
+    "extracted_at": "2026-06-15T00:00:00",
+    "extractor_model": "seed",
+    "base_confidence": 0.5,
+    "derivation": null
+  },
+  {
+    "id": "clm_dd8de252e0",
+    "company_id": "glean",
+    "metric": "round_amount",
+    "value": 150000000.0,
+    "unit": "USD",
+    "raw_text": "raises $150M in Series F funding",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "web",
+      "name": "Glean",
+      "url": "https://www.glean.com/blog/glean-series-f-announcement",
+      "locator": null,
+      "published_at": "2025-06-10"
+    },
+    "extracted_at": "2026-06-15T00:00:00",
+    "extractor_model": "seed",
+    "base_confidence": 0.5,
+    "derivation": null
+  },
+  {
+    "id": "clm_6e40888138",
+    "company_id": "glean",
+    "metric": "arr",
+    "value": 300000000.0,
+    "unit": "USD",
+    "raw_text": "hit $300M in annual recurring revenue in May 2026",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Sacra",
+      "url": "https://sacra.com/c/glean/",
+      "locator": null,
+      "published_at": "2026-05-29"
+    },
+    "extracted_at": "2026-06-15T00:00:00",
+    "extractor_model": "seed",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "drv_7fc05075e6",
+    "company_id": "glean",
+    "metric": "revenue_multiple",
+    "value": 24.0,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-05-29"
+    },
+    "extracted_at": "2026-06-15T00:00:00",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.2173,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_6b797a8c92",
+        "clm_6e40888138"
+      ]
+    }
+  }
+]

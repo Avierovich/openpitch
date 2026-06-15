@@ -1,0 +1,85 @@
+[
+  {
+    "id": "clm_7579d59cf4",
+    "company_id": "harvey",
+    "metric": "valuation",
+    "value": 11000000000.0,
+    "unit": "USD",
+    "raw_text": "reportedly raising at $11B valuation",
+    "qualifiers": [
+      "reported"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/09/harvey-reportedly-raising-at-11b-valuation-just-months-after-it-hit-8b/",
+      "locator": null,
+      "published_at": "2026-02-09"
+    },
+    "extracted_at": "2026-06-15T00:00:00",
+    "extractor_model": "seed",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_1a7ff164fc",
+    "company_id": "harvey",
+    "metric": "arr",
+    "value": 190000000.0,
+    "unit": "USD",
+    "raw_text": "hit an annual recurring revenue rate of $190 million by the end of 2025",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/09/harvey-reportedly-raising-at-11b-valuation-just-months-after-it-hit-8b/",
+      "locator": null,
+      "published_at": "2026-02-09"
+    },
+    "extracted_at": "2026-06-15T00:00:00",
+    "extractor_model": "seed",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "drv_4dab761aa9",
+    "company_id": "harvey",
+    "metric": "revenue_multiple",
+    "value": 57.89,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-02-09"
+    },
+    "extracted_at": "2026-06-15T00:00:00",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.2282,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_7579d59cf4",
+        "clm_1a7ff164fc"
+      ]
+    }
+  }
+]

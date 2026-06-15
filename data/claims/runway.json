@@ -1,0 +1,107 @@
+[
+  {
+    "id": "clm_df05abd626",
+    "company_id": "runway",
+    "metric": "valuation",
+    "value": 5300000000.0,
+    "unit": "USD",
+    "raw_text": "raised $315M at a $5.3B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/10/ai-video-startup-runway-raises-315m-at-5-3b-valuation-eyes-more-capable-world-models/",
+      "locator": null,
+      "published_at": "2026-02-10"
+    },
+    "extracted_at": "2026-06-15T00:00:00",
+    "extractor_model": "seed",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_21acbf98b6",
+    "company_id": "runway",
+    "metric": "round_amount",
+    "value": 315000000.0,
+    "unit": "USD",
+    "raw_text": "raised a $315 million Series E round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/10/ai-video-startup-runway-raises-315m-at-5-3b-valuation-eyes-more-capable-world-models/",
+      "locator": null,
+      "published_at": "2026-02-10"
+    },
+    "extracted_at": "2026-06-15T00:00:00",
+    "extractor_model": "seed",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_c85c3414d0",
+    "company_id": "runway",
+    "metric": "arr",
+    "value": 90000000.0,
+    "unit": "USD",
+    "raw_text": "hit $90M in annualized revenue in June 2025",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Sacra",
+      "url": "https://sacra.com/c/runway/",
+      "locator": null,
+      "published_at": "2025-06-30"
+    },
+    "extracted_at": "2026-06-15T00:00:00",
+    "extractor_model": "seed",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "drv_77b24a2493",
+    "company_id": "runway",
+    "metric": "revenue_multiple",
+    "value": 58.89,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-02-10"
+    },
+    "extracted_at": "2026-06-15T00:00:00",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.2282,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_df05abd626",
+        "clm_c85c3414d0"
+      ]
+    }
+  }
+]

@@ -16,12 +16,16 @@
       "range": null,
       "as_of": "2026-05-28",
       "estimate_type": "reported",
-      "confidence": 0.501,
+      "confidence": 0.5,
       "supporting_claims": [
         "clm_5aa2b17d08"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 965000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-05-28"
+      },
       "history_ref": "history/anthropic/valuation.jsonl"
     },
     "round_amount": {
@@ -31,12 +35,16 @@
       "range": null,
       "as_of": "2026-05-28",
       "estimate_type": "reported",
-      "confidence": 0.501,
+      "confidence": 0.5,
       "supporting_claims": [
         "clm_8e46c3ae08"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 65000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-05-28"
+      },
       "history_ref": "history/anthropic/round_amount.jsonl"
     },
     "arr": {
@@ -46,12 +54,16 @@
       "range": null,
       "as_of": "2026-05-28",
       "estimate_type": "reported",
-      "confidence": 0.41,
+      "confidence": 0.407,
       "supporting_claims": [
         "clm_733be3c68d"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 47000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-05-28"
+      },
       "history_ref": "history/anthropic/arr.jsonl"
     },
     "revenue_multiple": {
@@ -61,14 +73,18 @@
       "range": null,
       "as_of": "2026-05-28",
       "estimate_type": "reported",
-      "confidence": 0.198,
+      "confidence": 0.196,
       "supporting_claims": [
         "drv_a61c036fee"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 20.53,
+        "change_pct": 0.0,
+        "since": "2026-05-28"
+      },
       "history_ref": "history/anthropic/revenue_multiple.jsonl"
     }
   },
-  "last_updated": "2026-06-14"
+  "last_updated": "2026-06-15"
 }

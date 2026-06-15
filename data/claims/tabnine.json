@@ -1,0 +1,129 @@
+[
+  {
+    "id": "clm_edd3d39213",
+    "company_id": "tabnine",
+    "metric": "round_amount",
+    "value": 25000000.0,
+    "unit": null,
+    "raw_text": "Code-generating AI platform Tabnine nabs $25M investment",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcGxRMzRYSzhHWFNDc3hyX2VCdTZ4MEN3NjN6Z0xNbE0td0d0UjNfdElVd05yVlNCTzVrWnl2bDc5REEwSWtGSGJyUFpNODdiTWdVMmY1ell1eFF5Q081dVhWSlYzNldiTTdQWm5UNS1hSU5CXzBlYUxiWHpmWnBWSnlPZVBxM1hnYXYxNWMxMk9NZ2ta?oc=5",
+      "locator": null,
+      "published_at": "2023-11-08"
+    },
+    "extracted_at": "2026-06-14T09:27:16.547609",
+    "extractor_model": "llama-3.3-70b-versatile",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_2c42c064d1",
+    "company_id": "tabnine",
+    "metric": "headcount_growth",
+    "value": -18.0,
+    "unit": null,
+    "raw_text": "Tabnine cuts 18% of workforce in restructuring effort",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CTech",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAxMndpRUJGbkZlY0VVOGlrMjFJYU1GQV9KTlhsTUNyQkF4b3ZOQi1CRldqY1lDLVZ4WGFBdlU1cUp2V052TjFkUUZPdENLNTlTMFV3UDdPckgwTFdEMFBvb0FmZDh0dUdJ?oc=5",
+      "locator": null,
+      "published_at": "2025-02-05"
+    },
+    "extracted_at": "2026-06-14T09:27:16.547609",
+    "extractor_model": "llama-3.3-70b-versatile",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_988aa6930c",
+    "company_id": "tabnine",
+    "metric": "arr",
+    "value": 5800000.0,
+    "unit": null,
+    "raw_text": "Tabnine Revenue 2022: $5.8M ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1zWm1UcDJ6UkNFTF95MWtOZ1JEN241eHhpMTNtdDR3cE1QVVpNWjlBcEYzTjlNQURrQ2J3cm5oVEtvXzJjVl9GeUpnMFVPVTg?oc=5",
+      "locator": null,
+      "published_at": "2025-06-05"
+    },
+    "extracted_at": "2026-06-14T09:27:16.547609",
+    "extractor_model": "llama-3.3-70b-versatile",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_3ef784d304",
+    "company_id": "tabnine",
+    "metric": "valuation",
+    "value": 17300000.0,
+    "unit": null,
+    "raw_text": "Tabnine Revenue 2022: $5.8M ARR, $17.3M Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1zWm1UcDJ6UkNFTF95MWtOZ1JEN241eHhpMTNtdDR3cE1QVVpNWjlBcEYzTjlNQURrQ2J3cm5oVEtvXzJjVl9GeUpnMFVPVTg?oc=5",
+      "locator": null,
+      "published_at": "2025-06-05"
+    },
+    "extracted_at": "2026-06-14T09:27:16.547609",
+    "extractor_model": "llama-3.3-70b-versatile",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "drv_73e6fd7e9e",
+    "company_id": "tabnine",
+    "metric": "revenue_multiple",
+    "value": 2.98,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2025-06-05"
+    },
+    "extracted_at": "2026-06-14T09:27:16.547609",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.1294,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_3ef784d304",
+        "clm_988aa6930c"
+      ]
+    }
+  }
+]

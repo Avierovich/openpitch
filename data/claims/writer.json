@@ -1,0 +1,129 @@
+[
+  {
+    "id": "clm_04b509532f",
+    "company_id": "writer",
+    "metric": "total_funding",
+    "value": 100000000.0,
+    "unit": null,
+    "raw_text": "Writer, Inc.  (CIK 0002044986). Filer(s): Writer, Inc.  (CIK 0002044986).",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "filing",
+      "name": "SEC EDGAR",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&filenum=0002044986-24-000002",
+      "locator": "0002044986-24-000002",
+      "published_at": "2024-11-21"
+    },
+    "extracted_at": "2026-06-14T09:47:43.361134",
+    "extractor_model": "llama-3.1-8b-instant",
+    "base_confidence": 0.475,
+    "derivation": null
+  },
+  {
+    "id": "clm_6962b93c53",
+    "company_id": "writer",
+    "metric": "latest_round",
+    "value": "Series A",
+    "unit": null,
+    "raw_text": "Writer, Inc.  (CIK 0002044986). Filer(s): Writer, Inc.  (CIK 0002044986).",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "filing",
+      "name": "SEC EDGAR",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&filenum=0002044986-24-000002",
+      "locator": "0002044986-24-000002",
+      "published_at": "2024-11-21"
+    },
+    "extracted_at": "2026-06-14T09:47:43.361134",
+    "extractor_model": "llama-3.1-8b-instant",
+    "base_confidence": 0.475,
+    "derivation": null
+  },
+  {
+    "id": "clm_c5540496ff",
+    "company_id": "writer",
+    "metric": "round_amount",
+    "value": 100000000.0,
+    "unit": null,
+    "raw_text": "Writer, Inc.  (CIK 0002044986). Filer(s): Writer, Inc.  (CIK 0002044986).",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "filing",
+      "name": "SEC EDGAR",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&filenum=0002044986-24-000002",
+      "locator": "0002044986-24-000002",
+      "published_at": "2024-11-21"
+    },
+    "extracted_at": "2026-06-14T09:47:43.361134",
+    "extractor_model": "llama-3.1-8b-instant",
+    "base_confidence": 0.475,
+    "derivation": null
+  },
+  {
+    "id": "clm_6f1ecc58c5",
+    "company_id": "writer",
+    "metric": "equity_sold_pct",
+    "value": 20.0,
+    "unit": null,
+    "raw_text": "Writer, Inc.  (CIK 0002044986). Filer(s): Writer, Inc.  (CIK 0002044986).",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "filing",
+      "name": "SEC EDGAR",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&filenum=0002044986-24-000002",
+      "locator": "0002044986-24-000002",
+      "published_at": "2024-11-21"
+    },
+    "extracted_at": "2026-06-14T09:47:43.361134",
+    "extractor_model": "llama-3.1-8b-instant",
+    "base_confidence": 0.475,
+    "derivation": null
+  },
+  {
+    "id": "drv_deea438f2f",
+    "company_id": "writer",
+    "metric": "valuation",
+    "value": 500000000.0,
+    "unit": "USD",
+    "raw_text": "post-money = round ÷ equity%",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:valuation",
+      "url": null,
+      "locator": null,
+      "published_at": "2024-11-21"
+    },
+    "extracted_at": "2026-06-14T09:47:43.361134",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.2076,
+    "derivation": {
+      "kind": "identity",
+      "formula": "post-money = round ÷ equity%",
+      "inputs": [
+        "clm_c5540496ff",
+        "clm_6f1ecc58c5"
+      ]
+    }
+  }
+]

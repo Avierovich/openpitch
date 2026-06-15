@@ -11,7 +11,7 @@
 |-----------|-------|---------|
 | 1. Project Structure | GREEN | Git (23 commits), `.gitignore` excludes `.env`, 13 root files, CLAUDE.md → AGENTS.md handoff, logical `src/` layout |
 | 2. Agent Architecture | GREEN | LLM calls confined to the pipeline (legit batch); **MCP server makes ZERO LLM calls — reasoning delegated to the user's own agent** (textbook AI-first) |
-| 3. Skill Usage | YELLOW | No `.claude/skills/` (it's a product, not a skill-pack) — but exposes agent-native MCP/A2A interfaces + reproducible scripts. One project skill would close the gap |
+| 3. Skill Usage | GREEN ✅ | *(was YELLOW)* — added `.claude/skills/run-openpitch/` prescriptive runbook; agent-native MCP/A2A interfaces + reproducible scripts |
 | 4. Scope & Complexity | GREEN | Does one thing; no heavy frontend (static HTML), no DB (git *is* the DB), no auth; scope guarded by explicit non-goals |
 | 5. Context Hygiene | GREEN | Thin CLAUDE.md + AGENTS.md coordination log; `docs/` uses progressive disclosure; specs separated by concern |
 | 6. Safety | GREEN | `.env` untracked + gitignored; conservative DATA-POLICY (robots/ToS, no auth-walled scraping); MIT license; read-only MCP; corrections workflow |
@@ -21,10 +21,12 @@
 
 ## Priority Recommendations
 
-1. **[HIGH]** Verify seed data + add a demo asset before launch (LAUNCH-GATES) — *small, but launch-blocking.*
-2. **[MEDIUM]** Fix the universe-ranking bug (re-score the *global* committed set in `_finalize`, not per-run — duplicate `rank: 1` observed) — *~1 hr.*
-3. **[MEDIUM]** Add a project skill `.claude/skills/run-openpitch/` (prescriptive pipeline runbook) to raise Dimension 3 to GREEN — *~1 hr.*
-4. **[LOW]** Clarify the CLAUDE.md ↔ AGENTS.md split (CLAUDE.md is 3 lines) — *15 min.*
+1. **[HIGH]** Verify seed data + add a demo asset before launch (LAUNCH-GATES) — *small, but launch-blocking.* **(open)**
+2. **[MEDIUM]** ~~Fix the universe-ranking bug (global re-score in `_finalize`)~~ — **✅ DONE 2026-06-14** (62 companies → 62 unique ranks).
+3. **[MEDIUM]** ~~Add `.claude/skills/run-openpitch/` runbook~~ — **✅ DONE 2026-06-14** (Dimension 3 now GREEN).
+4. **[LOW]** Clarify the CLAUDE.md ↔ AGENTS.md split (CLAUDE.md is 3 lines) — *15 min.* **(open)**
+
+> **Post-audit result:** with #2 and #3 closed, OpenPitch is **all-GREEN across 7 dimensions** (the HIGH/LOW items are launch-prep, not AI-first-architecture gaps).
 
 ## Detailed Findings
 

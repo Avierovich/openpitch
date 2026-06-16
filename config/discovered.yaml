@@ -1,226 +1,96 @@
 companies:
+- id: deepseek
+  name: DeepSeek
+  category: AI Research & Development
+  domain: deepseek.com
+  segment: global
 - id: prometheus
   name: Prometheus
-  category: Industrial AI
-  domain: Engineering/Design
-  segment: global
-- id: sarvam
-  name: Sarvam
-  category: Voice AI
-  domain: India
-  segment: global
-- id: maya
-  name: Maya
-  category: Voice AI
-  domain: India
-  segment: global
-- id: mimir
-  name: Mimir
-  category: E-commerce AI
-  domain: E-commerce operations
-  segment: global
-- id: anthropic
-  name: Anthropic
-  category: AI models
-  domain: Large Language Models (LLMs)
-  segment: global
-- id: collate
-  name: Collate
-  category: Life sciences automation AI
-  domain: Life sciences
-  segment: global
-- id: commure
-  name: Commure
-  category: Healthcare AI
-  domain: Healthcare
-  segment: global
-- id: supabase
-  name: Supabase
-  category: AI for developers
-  domain: Backend services
-  segment: global
-- id: viktor
-  name: Viktor
-  category: Workplace AI assistant
-  domain: Productivity software
-  segment: global
-- id: ineffable-intelligence
-  name: Ineffable Intelligence
-  category: Superintelligence AI
-  domain: AI research
-  segment: global
-- id: harvey
-  name: Harvey
-  category: Legal AI
-  domain: Legal technology
+  category: AI Robotics
+  domain: prometheus.ai
   segment: global
 - id: sarvam-ai
   name: Sarvam AI
-  category: AI
-  domain: null
+  category: AI Foundation Models
+  domain: sarvam.ai
   segment: global
-- id: newcore
-  name: NewCore
-  category: Cybersecurity
-  domain: null
-  segment: global
-- id: deepseek
-  name: DeepSeek
-  category: AI
-  domain: null
-  segment: global
-- id: ninjaone
-  name: NinjaOne
-  category: SaaS
-  domain: null
+- id: anthropic
+  name: Anthropic
+  category: AI Safety Research
+  domain: anthropic.com
   segment: global
 - id: cyera
   name: Cyera
-  category: Cybersecurity
-  domain: null
+  category: AI Cybersecurity
+  domain: cyera.io
   segment: global
-- id: fal
-  name: Fal
-  category: AI
-  domain: null
+- id: collate
+  name: Collate
+  category: AI Life Sciences
+  domain: collate.ai
+  segment: global
+- id: gray-swan
+  name: Gray Swan
+  category: AI Security
+  domain: grayswan.io
+  segment: global
+- id: newcore
+  name: NewCore
+  category: AI Agents Identity
+  domain: newcore.ai
+  segment: global
+- id: waniwani
+  name: Waniwani
+  category: AI Fintech
+  domain: waniwani.ai
+  segment: global
+- id: alta-ares
+  name: Alta Ares
+  category: AI Defense Drones
+  domain: alta-ares.com
+  segment: global
+- id: airis-labs
+  name: Airis Labs
+  category: Defense AI
+  domain: airislabs.com
+  segment: global
+- id: shield-ai
+  name: Shield AI
+  category: Defense AI Drones
+  domain: shield.ai
+  segment: global
+- id: anduril
+  name: Anduril
+  category: Defense Tech AI
+  domain: anduril.com
   segment: global
 - id: arcade
   name: Arcade
-  category: AI
-  domain: null
+  category: AI Agent Security
+  domain: arcade.dev
   segment: global
-- id: orbio-ai
-  name: Orbio AI
-  category: AI
-  domain: null
+- id: attotude
+  name: AttoTude
+  category: AI Infrastructure Connectivity
+  domain: attotude.com
   segment: global
-- id: sovra
-  name: Sovra
-  category: Fintech
-  domain: null
+- id: causa-prima
+  name: Causa Prima
+  category: AI Financial Processes
+  domain: causaprima.com
   segment: global
-- id: mercury
-  name: Mercury
-  category: Fintech
-  domain: null
-  segment: global
-- id: marloo
-  name: Marloo
-  category: Fintech
-  domain: null
-  segment: global
-- id: onsetto
-  name: Onsetto
-  category: Fintech
-  domain: null
-  segment: global
-- id: tenora
-  name: Tenora
-  category: Fintech
-  domain: null
-  segment: global
-- id: gradient-labs
-  name: Gradient Labs
-  category: AI/Fintech
-  domain: null
-  segment: global
-- id: round
-  name: Round
-  category: AI/Fintech
-  domain: null
-  segment: global
-- id: foodstories
-  name: Foodstories
-  category: Gourmet Retail
-  domain: null
-  segment: global
-- id: rep-ai
-  name: Rep AI
-  category: AI
-  domain: null
-  segment: global
-- id: brami-s
-  name: Brami’s
-  category: Food
-  domain: null
-  segment: global
-- id: mosh
-  name: Mosh
-  category: Food
-  domain: null
-  segment: global
-- id: radar
-  name: Radar
-  category: Retail Tech
-  domain: null
+- id: jedify
+  name: Jedify
+  category: Enterprise AI Platform
+  domain: jedify.com
   segment: global
 - id: mendo
   name: Mendo
-  category: AI
-  domain: null
+  category: Enterprise AI Adoption
+  domain: mendo.ai
   segment: global
-- id: kopa-ai
-  name: Kopa.ai
-  category: AI/E-commerce
-  domain: null
-  segment: global
-- id: swap
-  name: Swap
-  category: E-commerce
-  domain: null
-  segment: global
-- id: true-anomaly
-  name: True Anomaly
-  category: Defense/Space Security
-  domain: null
-  segment: global
-- id: adaptive-innovations
-  name: Adaptive Innovations
-  category: Healthcare
-  domain: null
-  segment: global
-- id: scotch
-  name: Scotch
-  category: Liquor Retail Tech
-  domain: null
-  segment: global
-- id: naratix
-  name: Naratix
-  category: E-commerce
-  domain: null
-  segment: global
-- id: helsing
-  name: Helsing
-  category: Defense Tech
-  domain: null
-  segment: global
-- id: retro-biosciences
-  name: Retro Biosciences
-  category: Biotech/Longevity
-  domain: null
-  segment: global
-- id: serif
-  name: Serif
-  category: Biotech
-  domain: null
-  segment: global
-- id: newlimit
-  name: NewLimit
-  category: Biotech/Anti-aging
-  domain: null
-  segment: global
-- id: mevo
-  name: Mevo
-  category: Healthtech
-  domain: null
-  segment: global
-- id: impower-health
-  name: Impower Health
-  category: Healthtech
-  domain: null
-  segment: global
-- id: ai-doctor-startup
-  name: AI doctor startup
-  category: AI/Healthtech
-  domain: null
+- id: hydra-host
+  name: Hydra Host
+  category: GPU Infrastructure AI
+  domain: hydrahost.ai
   segment: global

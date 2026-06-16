@@ -15,14 +15,13 @@ import yaml
 from ..paths import config_dir
 from .llm import LLMProvider
 
-# Multi-sector funding queries — discovery covers all high-growth startups, not just AI.
+# AI-enabled across verticals — AI-native plus AI-applied (AI fintech, AI health,
+# defense AI like Anduril). NOT generic non-AI startups.
 _QUERIES = [
-    'startup ("Series" OR "raises" OR "funding round") valuation',
-    'AI startup funding round',
-    'fintech startup funding round',
-    '("e-commerce" OR ecommerce OR retail) startup funding round',
-    '(defense OR "dual-use") tech startup funding',
-    '(healthtech OR biotech OR "health tech") startup funding',
+    'AI startup ("Series" OR raises OR "funding round") valuation',
+    '"AI" (fintech OR healthcare OR legal OR security) startup funding',
+    '(defense OR autonomous OR "dual-use") AI startup funding',
+    '("AI agents" OR "AI infrastructure" OR "applied AI" OR "enterprise AI") funding round',
 ]
 
 
@@ -32,10 +31,10 @@ def _feed(q: str) -> str:
 
 
 _SYS = (
-    "Extract private startups (ANY sector — AI, fintech, e-commerce, defense, healthtech, "
-    "SaaS, etc.) that recently raised funding from these headlines. Return ONLY real, "
-    "private companies — skip public companies, investors/VC firms, and generic mentions. "
-    "For each give name, a short sector category, and domain if obvious."
+    "Extract private companies that are AI-native or meaningfully AI-ENABLED (AI is core "
+    "to the product/value), across any vertical — including AI fintech, AI healthcare, and "
+    "defense/autonomous AI. Skip companies with no real AI angle, public companies, and "
+    "investors/VC firms. For each give name, a short category, and domain if obvious."
 )
 _SCHEMA = {
     "type": "object",

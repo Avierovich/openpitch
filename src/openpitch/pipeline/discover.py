@@ -15,15 +15,27 @@ import yaml
 from ..paths import config_dir
 from .llm import LLMProvider
 
-FEED = "https://news.google.com/rss/search?" + urllib.parse.urlencode({
-    "q": '("AI startup" OR "AI company") (raises OR funding OR Series OR valuation)',
-    "hl": "en-US", "gl": "US", "ceid": "US:en",
-})
+# Multi-sector funding queries — discovery covers all high-growth startups, not just AI.
+_QUERIES = [
+    'startup ("Series" OR "raises" OR "funding round") valuation',
+    'AI startup funding round',
+    'fintech startup funding round',
+    '("e-commerce" OR ecommerce OR retail) startup funding round',
+    '(defense OR "dual-use") tech startup funding',
+    '(healthtech OR biotech OR "health tech") startup funding',
+]
+
+
+def _feed(q: str) -> str:
+    return "https://news.google.com/rss/search?" + urllib.parse.urlencode(
+        {"q": q, "hl": "en-US", "gl": "US", "ceid": "US:en"})
+
 
 _SYS = (
-    "Extract AI startups that recently raised funding from these news headlines. "
-    "Return ONLY real, private AI companies — skip public companies, investors/VC firms, "
-    "and generic mentions. For each give name, a short category, and domain if obvious."
+    "Extract private startups (ANY sector — AI, fintech, e-commerce, defense, healthtech, "
+    "SaaS, etc.) that recently raised funding from these headlines. Return ONLY real, "
+    "private companies — skip public companies, investors/VC firms, and generic mentions. "
+    "For each give name, a short sector category, and domain if obvious."
 )
 _SCHEMA = {
     "type": "object",
@@ -39,12 +51,18 @@ def _slug(name: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
 
 
-def discover(*, llm: LLMProvider, limit: int = 40) -> list[dict]:
-    """One LLM call over recent AI-funding headlines → candidate companies."""
+def discover(*, llm: LLMProvider, per_query: int = 15) -> list[dict]:
+    """One LLM call over recent multi-sector funding headlines → candidate companies."""
     import feedparser
 
-    entries = feedparser.parse(FEED).entries[:limit]
-    text = "\n".join(f"{e.get('title', '')}. {e.get('summary', '')}" for e in entries)
+    seen, headlines = set(), []
+    for q in _QUERIES:
+        for e in feedparser.parse(_feed(q)).entries[:per_query]:
+            t = f"{e.get('title', '')}. {e.get('summary', '')}".strip()
+            if t and t not in seen:
+                seen.add(t)
+                headlines.append(t)
+    text = "\n".join(headlines)
     if not text.strip():
         return []
     data = llm.complete_json(_SYS, text, _SCHEMA) or {}

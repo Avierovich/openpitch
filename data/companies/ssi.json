@@ -15,15 +15,39 @@
       "unit": "USD",
       "range": null,
       "as_of": "2026-06-06",
-      "estimate_type": "reported",
-      "confidence": 0.367,
+      "estimate_type": "consensus",
+      "confidence": 0.438,
       "supporting_claims": [
-        "clm_4b98b708d4"
+        "clm_4b98b708d4",
+        "clm_5b81c1f51f"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 32000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-06"
+      },
       "history_ref": "history/ssi/valuation.jsonl"
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 2000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-05-01",
+      "estimate_type": "reported",
+      "confidence": 0.122,
+      "supporting_claims": [
+        "clm_82cb88cf42"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 2000000000.0,
+        "change_pct": 0.0,
+        "since": "2025-05-01"
+      },
+      "history_ref": "history/ssi/round_amount.jsonl"
     }
   },
-  "last_updated": "2026-06-14"
+  "last_updated": "2026-06-16"
 }

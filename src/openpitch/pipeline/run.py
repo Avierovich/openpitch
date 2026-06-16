@@ -228,6 +228,23 @@ def run(
 
 
 @app.command()
+def recompute() -> None:
+    """Re-resolve all committed companies from stored claims — re-apply engine logic, no network/LLM."""
+    as_of = date.today()
+    now = datetime.combine(as_of, datetime.min.time())
+    pairs = []
+    for c in store.read_all_companies():
+        claims = [cl for cl in store.read_claims(c.id) if cl.source.type.value != "derived"]
+        if not claims:
+            continue
+        meta = {"id": c.id, "name": c.name, "category": c.category, "segment": c.segment,
+                "domain": c.website, "aliases": c.aliases}
+        pairs.append(_reconcile_company(meta, claims, now=now, as_of=as_of))
+    n = _finalize(pairs, now=now, as_of=as_of)
+    typer.echo(f"Recomputed {len(pairs)} companies from committed claims; {n} events.")
+
+
+@app.command()
 def discover() -> None:
     """Find AI startups from funding news and add them to config/discovered.yaml (needs LLM key)."""
     from .discover import discover as run_discover, merge_discovered

@@ -4,12 +4,14 @@
     "company_id": "liquid-ai",
     "metric": "arr",
     "value": 13200000.0,
-    "unit": null,
-    "raw_text": "$13.2M ARR",
-    "qualifiers": [],
+    "unit": "USD",
+    "raw_text": "Liquid AI Revenue 2025: $13.2M ARR",
+    "qualifiers": [
+      "forward_looking"
+    ],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
@@ -18,9 +20,9 @@
       "locator": null,
       "published_at": "2025-11-24"
     },
-    "extracted_at": "2026-06-14T09:27:16.547609",
-    "extractor_model": "llama-3.3-70b-versatile",
-    "base_confidence": 0.375,
+    "extracted_at": "2026-06-16T16:50:00.765056",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.3675,
     "derivation": null
   },
   {
@@ -28,12 +30,14 @@
     "company_id": "liquid-ai",
     "metric": "valuation",
     "value": 2400000000.0,
-    "unit": null,
+    "unit": "USD",
     "raw_text": "$2.4B Valuation",
-    "qualifiers": [],
+    "qualifiers": [
+      "forward_looking"
+    ],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
@@ -42,17 +46,41 @@
       "locator": null,
       "published_at": "2025-11-24"
     },
-    "extracted_at": "2026-06-14T09:27:16.547609",
-    "extractor_model": "llama-3.3-70b-versatile",
-    "base_confidence": 0.375,
+    "extracted_at": "2026-06-16T16:50:00.765056",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.3675,
     "derivation": null
   },
   {
-    "id": "clm_e86472ff05",
+    "id": "clm_3427f01dc1",
     "company_id": "liquid-ai",
-    "metric": "latest_round",
+    "metric": "notable_customers",
+    "value": 1.0,
+    "unit": "count",
+    "raw_text": "Shopify partners with Liquid AI",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Digital Commerce 360",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZnA2akZoWG41VjZKZEpTLW1xWjh0UXFGNEpFVHZpeGlQTktMa3luTjNNT2IxUnF4NDEycHY0azNpSGwya1R4TEZ3Y3JwTlpQU1R4M2l0d3JHa19wZDc2M3k5aDFBZDY0Nkp2YmpqSGRUWE50TFRUN2ROcXU4V0Q4NEd4VHV4Ym91MEd4b2RwVE4tSzRMNUt4T0t4VdIBoAFBVV95cUxOWUhGUEwxU1ZtbjFVSEpaU3F0ekRnbmNNWXlyS2NjZVlLN042M2tCZzJLT3BGdktxUDMxV3NsQWdRbE16YVhmUDFFQTVlMzJkaWl1WDJoUmJlcThKYkZxdFh4NjZpTWlsTDlUVjdPZXBMREJ1SUhFazQ0V3h3N3g0QVB3R3lmMTE3TmN4djBtQjk4TTFuU3FlYVl3d001SG14?oc=5",
+      "locator": null,
+      "published_at": "2025-11-13"
+    },
+    "extracted_at": "2026-06-16T16:50:00.765056",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_839a3ea678",
+    "company_id": "liquid-ai",
+    "metric": "round_amount",
     "value": 250000000.0,
-    "unit": null,
+    "unit": "USD",
     "raw_text": "Liquid AI just raised $250M",
     "qualifiers": [],
     "speaker": {
@@ -66,18 +94,18 @@
       "locator": null,
       "published_at": "2024-12-13"
     },
-    "extracted_at": "2026-06-14T09:27:16.547609",
-    "extractor_model": "llama-3.3-70b-versatile",
+    "extracted_at": "2026-06-16T16:50:00.765056",
+    "extractor_model": "gemini-2.5-flash",
     "base_confidence": 0.525,
     "derivation": null
   },
   {
-    "id": "clm_a49a56bdd8",
+    "id": "clm_17ce625a5b",
     "company_id": "liquid-ai",
-    "metric": "total_funding",
-    "value": 18000000.0,
-    "unit": null,
-    "raw_text": "Paradigm-backed Liquid raises $18 million",
+    "metric": "round_amount",
+    "value": 250000000.0,
+    "unit": "USD",
+    "raw_text": "Liquid AI closes $250 mln early-stage funding round",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -85,13 +113,37 @@
     },
     "source": {
       "type": "news",
-      "name": "The Block",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdV9Ra1Zpc2kxQ1ROQkdJZ3hTWXhkOTVHTjdEOTBtdG1oQ2VuZ3pFem45MUNyWmNyaS1lYzk2VVl3ZFlqTF9IY21fUk83bUVIdVVUSW9Zd0d2azZUUWxtVUVXbXpnbEFTZ0NoN3k1WDFLQUNhWHc2eEtyNUZiaDJmdElOa2VKSW9ucGxCWE5IS01CRFpJR1E?oc=5",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNHhmV0NlVk9fd2daa3NUU29EMC1pd3VwczVVVXZaRzBCZ003ZmVtUE1vVXVvclA4YlFDY2plR3hpaVhCMGJkLTdmTkNQWVlOQVRaVnpvaTZEN0VlWEpjdkl0OE1tRk1EZVRidGttV3c2dDhhbzBzbHZfMFlrMC1abVNnZTJFVV9WMnNFRG5ib2VoVl9KV2pkaHdNMUJpVG9mMVJLYVJRU0JJTGxU?oc=5",
       "locator": null,
-      "published_at": "2026-04-28"
+      "published_at": "2024-12-13"
     },
-    "extracted_at": "2026-06-14T09:27:16.547609",
-    "extractor_model": "llama-3.3-70b-versatile",
+    "extracted_at": "2026-06-16T16:50:00.765056",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_ab451a616f",
+    "company_id": "liquid-ai",
+    "metric": "round_amount",
+    "value": 250000000.0,
+    "unit": "USD",
+    "raw_text": "Liquid AI raises $250M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOVA3VmI0b1V4U01VeGhCcWJzcjhnbDdRTFFYME1rVEZTUXQwUWJxaUlJRWZrMUt0SzU4R2VkWTdCUGFObGZzVFZGeFd1a1JGWlRNY3pjelIxX0RoYVlEczVqbFNhOUpNcGRZX2s3VUwtY2hrNVc0YzZvTWtCeG01RXFNdGc0QndKSGhWYWZmemxsSFRpRFBZMWp0cE9BLUFlemxz?oc=5",
+      "locator": null,
+      "published_at": "2024-12-13"
+    },
+    "extracted_at": "2026-06-16T16:50:00.765056",
+    "extractor_model": "gemini-2.5-flash",
     "base_confidence": 0.525,
     "derivation": null
   },
@@ -114,9 +166,9 @@
       "locator": null,
       "published_at": "2025-11-24"
     },
-    "extracted_at": "2026-06-14T09:27:16.547609",
+    "extracted_at": "2026-06-16T00:00:00",
     "extractor_model": "derive-engine",
-    "base_confidence": 0.1294,
+    "base_confidence": 0.1243,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",

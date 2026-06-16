@@ -16,7 +16,7 @@
       "range": null,
       "as_of": "2026-06-03",
       "estimate_type": "consensus",
-      "confidence": 0.885,
+      "confidence": 0.883,
       "supporting_claims": [
         "clm_ae283cdcee",
         "clm_647016e3fa",
@@ -26,9 +26,13 @@
         "clm_b6a52fa316"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 50000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-03"
+      },
       "history_ref": "history/qdrant/latest_round.jsonl"
     }
   },
-  "last_updated": "2026-06-14"
+  "last_updated": "2026-06-16"
 }

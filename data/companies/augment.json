@@ -7,7 +7,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 70.1,
-  "universe_rank": 33,
+  "universe_rank": 35,
   "metrics": {
     "arr": {
       "metric": "arr",
@@ -16,12 +16,16 @@
       "range": null,
       "as_of": "2025-10-04",
       "estimate_type": "reported",
-      "confidence": 0.046,
+      "confidence": 0.045,
       "supporting_claims": [
         "clm_2eb8e7ff30"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 20000000.0,
+        "change_pct": 0.0,
+        "since": "2025-10-04"
+      },
       "history_ref": "history/augment/arr.jsonl"
     },
     "total_funding": {
@@ -31,14 +35,18 @@
       "range": null,
       "as_of": "2025-10-04",
       "estimate_type": "reported",
-      "confidence": 0.265,
+      "confidence": 0.264,
       "supporting_claims": [
         "clm_f9216ed6b0"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 252000000.0,
+        "change_pct": 0.0,
+        "since": "2025-10-04"
+      },
       "history_ref": "history/augment/total_funding.jsonl"
     }
   },
-  "last_updated": "2026-06-14"
+  "last_updated": "2026-06-16"
 }

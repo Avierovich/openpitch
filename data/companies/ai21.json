@@ -6,22 +6,47 @@
   "category": "foundation-model",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 76.3,
-  "universe_rank": 27,
+  "vc_attention_score": 79.1,
+  "universe_rank": 26,
   "metrics": {
-    "valuation": {
-      "metric": "valuation",
-      "value": 1400000000.0,
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 300000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2025-11-28",
+      "as_of": "2026-01-01",
       "estimate_type": "reported",
-      "confidence": 0.218,
+      "confidence": 0.2,
       "supporting_claims": [
-        "clm_272528b969"
+        "clm_2d1c6a9187"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 300000000.0,
+        "change_pct": 0.0,
+        "since": "2026-01-01"
+      },
+      "history_ref": "history/ai21/round_amount.jsonl"
+    },
+    "valuation": {
+      "metric": "valuation",
+      "value": 3000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-12-31",
+      "estimate_type": "consensus",
+      "confidence": 0.362,
+      "supporting_claims": [
+        "clm_2e610c5736",
+        "clm_c3e8349b7d",
+        "clm_d631ee506b"
       ],
       "contradiction": true,
-      "delta": null,
+      "delta": {
+        "previous": 3000000000.0,
+        "change_pct": 0.0,
+        "since": "2025-12-31"
+      },
       "history_ref": "history/ai21/valuation.jsonl"
     },
     "arr": {
@@ -31,12 +56,16 @@
       "range": null,
       "as_of": "2025-11-28",
       "estimate_type": "reported",
-      "confidence": 0.072,
+      "confidence": 0.099,
       "supporting_claims": [
         "clm_cb922125fd"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 57800000.0,
+        "change_pct": 0.0,
+        "since": "2025-11-28"
+      },
       "history_ref": "history/ai21/arr.jsonl"
     },
     "revenue_multiple": {
@@ -46,14 +75,18 @@
       "range": null,
       "as_of": "2025-11-28",
       "estimate_type": "reported",
-      "confidence": 0.025,
+      "confidence": 0.048,
       "supporting_claims": [
         "drv_22a1803c29"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 24.22,
+        "change_pct": 0.0,
+        "since": "2025-11-28"
+      },
       "history_ref": "history/ai21/revenue_multiple.jsonl"
     }
   },
-  "last_updated": "2026-06-14"
+  "last_updated": "2026-06-16"
 }

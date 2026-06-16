@@ -7,7 +7,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 64.2,
-  "universe_rank": 34,
+  "universe_rank": 36,
   "metrics": {
     "latest_round": {
       "metric": "latest_round",
@@ -21,7 +21,11 @@
         "clm_192619b7f3"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 50000000.0,
+        "change_pct": 0.0,
+        "since": "2023-04-21"
+      },
       "history_ref": "history/weaviate/latest_round.jsonl"
     },
     "total_funding": {
@@ -36,9 +40,13 @@
         "clm_9d18bc389e"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 50000000.0,
+        "change_pct": 0.0,
+        "since": "2023-04-21"
+      },
       "history_ref": "history/weaviate/total_funding.jsonl"
     }
   },
-  "last_updated": "2026-06-14"
+  "last_updated": "2026-06-16"
 }

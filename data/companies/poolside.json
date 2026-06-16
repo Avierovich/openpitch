@@ -7,7 +7,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 79.1,
-  "universe_rank": 24,
+  "universe_rank": 28,
   "metrics": {
     "valuation": {
       "metric": "valuation",
@@ -16,12 +16,16 @@
       "range": null,
       "as_of": "2025-11-28",
       "estimate_type": "reported",
-      "confidence": 0.218,
+      "confidence": 0.217,
       "supporting_claims": [
         "clm_17daaaa6a6"
       ],
       "contradiction": true,
-      "delta": null,
+      "delta": {
+        "previous": 3000000000.0,
+        "change_pct": 0.0,
+        "since": "2025-11-28"
+      },
       "history_ref": "history/poolside/valuation.jsonl"
     },
     "arr": {
@@ -31,12 +35,16 @@
       "range": null,
       "as_of": "2025-11-28",
       "estimate_type": "reported",
-      "confidence": 0.072,
+      "confidence": 0.071,
       "supporting_claims": [
         "clm_8cc327f9d3"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 50000000.0,
+        "change_pct": 0.0,
+        "since": "2025-11-28"
+      },
       "history_ref": "history/poolside/arr.jsonl"
     },
     "round_amount": {
@@ -46,14 +54,18 @@
       "range": null,
       "as_of": "2025-10-31",
       "estimate_type": "consensus",
-      "confidence": 0.491,
+      "confidence": 0.489,
       "supporting_claims": [
         "clm_0839e2c76e",
         "clm_22aa85ee20",
         "clm_bb6ec931a7"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
+        "since": "2025-10-31"
+      },
       "history_ref": "history/poolside/round_amount.jsonl"
     },
     "revenue_multiple": {
@@ -63,14 +75,18 @@
       "range": null,
       "as_of": "2025-11-28",
       "estimate_type": "reported",
-      "confidence": 0.025,
+      "confidence": 0.024,
       "supporting_claims": [
         "drv_6060877777"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 60.0,
+        "change_pct": 0.0,
+        "since": "2025-11-28"
+      },
       "history_ref": "history/poolside/revenue_multiple.jsonl"
     }
   },
-  "last_updated": "2026-06-14"
+  "last_updated": "2026-06-16"
 }

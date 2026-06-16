@@ -7,7 +7,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 75.1,
-  "universe_rank": 29,
+  "universe_rank": 32,
   "metrics": {
     "arr": {
       "metric": "arr",
@@ -16,12 +16,16 @@
       "range": null,
       "as_of": "2025-11-28",
       "estimate_type": "reported",
-      "confidence": 0.072,
+      "confidence": 0.071,
       "supporting_claims": [
-        "clm_96b28a435c"
+        "clm_0d9de881c8"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 10900000.0,
+        "change_pct": 0.0,
+        "since": "2025-11-28"
+      },
       "history_ref": "history/reka/arr.jsonl"
     },
     "valuation": {
@@ -31,30 +35,43 @@
       "range": null,
       "as_of": "2025-11-28",
       "estimate_type": "consensus",
-      "confidence": 0.439,
+      "confidence": 0.595,
       "supporting_claims": [
-        "clm_a37cbf42a0",
-        "clm_e6af94eb2f",
-        "clm_cbaf08acaf"
+        "clm_b6d9a198a7",
+        "clm_bc2255ea1a",
+        "clm_53cb3bc646",
+        "clm_5a79988700",
+        "clm_2f9ffa23bd"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
+        "since": "2025-11-28"
+      },
       "history_ref": "history/reka/valuation.jsonl"
     },
-    "latest_round": {
-      "metric": "latest_round",
+    "round_amount": {
+      "metric": "round_amount",
       "value": 110000000.0,
-      "unit": "object",
+      "unit": "USD",
       "range": null,
-      "as_of": "2025-07-22",
-      "estimate_type": "reported",
-      "confidence": 0.153,
+      "as_of": "2025-07-25",
+      "estimate_type": "consensus",
+      "confidence": 0.484,
       "supporting_claims": [
-        "clm_244f827648"
+        "clm_5b231fca3e",
+        "clm_72dc1fa01d",
+        "clm_23cc7ee889",
+        "clm_717cfab265"
       ],
       "contradiction": false,
-      "delta": null,
-      "history_ref": "history/reka/latest_round.jsonl"
+      "delta": {
+        "previous": 110000000.0,
+        "change_pct": 0.0,
+        "since": "2025-07-25"
+      },
+      "history_ref": "history/reka/round_amount.jsonl"
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
@@ -63,14 +80,18 @@
       "range": null,
       "as_of": "2025-11-28",
       "estimate_type": "reported",
-      "confidence": 0.025,
+      "confidence": 0.024,
       "supporting_claims": [
-        "drv_6ce7a676e5"
+        "drv_3169f7b7cc"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 91.74,
+        "change_pct": 0.0,
+        "since": "2025-11-28"
+      },
       "history_ref": "history/reka/revenue_multiple.jsonl"
     }
   },
-  "last_updated": "2026-06-14"
+  "last_updated": "2026-06-16"
 }

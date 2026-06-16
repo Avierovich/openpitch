@@ -7,7 +7,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 60.4,
-  "universe_rank": 35,
+  "universe_rank": 37,
   "metrics": {
     "round_amount": {
       "metric": "round_amount",
@@ -21,7 +21,11 @@
         "clm_edd3d39213"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 25000000.0,
+        "change_pct": 0.0,
+        "since": "2023-11-08"
+      },
       "history_ref": "history/tabnine/round_amount.jsonl"
     },
     "headcount_growth": {
@@ -36,7 +40,11 @@
         "clm_2c42c064d1"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": -18.0,
+        "change_pct": 0.0,
+        "since": "2025-02-05"
+      },
       "history_ref": "history/tabnine/headcount_growth.jsonl"
     },
     "arr": {
@@ -46,12 +54,16 @@
       "range": null,
       "as_of": "2025-06-05",
       "estimate_type": "reported",
-      "confidence": 0.017,
+      "confidence": 0.016,
       "supporting_claims": [
         "clm_988aa6930c"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 5800000.0,
+        "change_pct": 0.0,
+        "since": "2025-06-05"
+      },
       "history_ref": "history/tabnine/arr.jsonl"
     },
     "valuation": {
@@ -61,12 +73,16 @@
       "range": null,
       "as_of": "2025-06-05",
       "estimate_type": "reported",
-      "confidence": 0.135,
+      "confidence": 0.134,
       "supporting_claims": [
         "clm_3ef784d304"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 17300000.0,
+        "change_pct": 0.0,
+        "since": "2025-06-05"
+      },
       "history_ref": "history/tabnine/valuation.jsonl"
     },
     "revenue_multiple": {
@@ -81,9 +97,13 @@
         "drv_73e6fd7e9e"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 2.98,
+        "change_pct": 0.0,
+        "since": "2025-06-05"
+      },
       "history_ref": "history/tabnine/revenue_multiple.jsonl"
     }
   },
-  "last_updated": "2026-06-14"
+  "last_updated": "2026-06-16"
 }

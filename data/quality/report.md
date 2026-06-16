@@ -5,14 +5,13 @@
 - Profiles generated: 62
 - Watchlist candidates: 108
 - Top-50 cards: 50
-- Profiles with at least one metric: 38
-- Critical issues: 51
-- Warnings: 108
+- Profiles with at least one metric: 40
+- Critical issues: 48
+- Warnings: 101
 
 ## Top-50 Companies With No Metrics
 
 - Anyscale
-- Baseten
 - Chroma
 - CrewAI
 - Crusoe
@@ -24,14 +23,11 @@
 - Lindy
 - LlamaIndex
 - Magic
-- Midjourney
-- Modal
 
 ## Top-50 Missing Valuation
 
 - Augment Code
 - Anyscale
-- Baseten
 - Chroma
 - CrewAI
 - Crusoe
@@ -43,8 +39,6 @@
 - Lindy
 - LlamaIndex
 - Magic
-- Midjourney
-- Modal
 
 ## Top-50 Missing ARR / Revenue
 
@@ -55,13 +49,14 @@
 - Fireworks AI
 - Skild AI
 - OpenEvidence
+- Baseten
+- Modal
 - Decagon
 - Physical Intelligence
 - d-Matrix
 - Windsurf (Codeium)
 - Writer
 - Anyscale
-- Baseten
 - Chroma
 - CrewAI
 - Crusoe
@@ -73,8 +68,6 @@
 - Lindy
 - LlamaIndex
 - Magic
-- Midjourney
-- Modal
 
 ## High-Priority Watchlist Candidates Not Profiled
 
@@ -125,7 +118,6 @@
 - OpenAI: round_amount
 - Anysphere (Cursor): arr
 - Thinking Machines Lab: valuation
-- Safe Superintelligence: valuation
 - VAST Data: arr
 - VAST Data: round_amount
 - Scale AI: valuation
@@ -139,9 +131,6 @@
 - Perplexity: valuation
 - Perplexity: arr
 - Perplexity: round_amount
-- Aleph Alpha: valuation
-- Aleph Alpha: total_funding
-- Fireworks AI: round_amount
 - Skild AI: total_funding
 - OpenEvidence: round_amount
 - ElevenLabs: valuation
@@ -152,6 +141,7 @@
 - Mercor: valuation
 - Mercor: arr
 - Mercor: round_amount
+- Together AI: arr
 - Glean: valuation
 - Glean: arr
 - Glean: round_amount
@@ -160,12 +150,12 @@
 - Runway: arr
 - Runway: round_amount
 - Decagon: round_amount
+- AI21 Labs: arr
+- AI21 Labs: round_amount
 - Poolside: arr
 - Physical Intelligence: total_funding
 - Liquid AI: valuation
 - Liquid AI: arr
-- Liquid AI: total_funding
-- AI21 Labs: arr
 - LangChain: arr
 - Reka AI: arr
 - Windsurf (Codeium): valuation

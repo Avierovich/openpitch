@@ -1,50 +1,28 @@
 [
   {
-    "id": "clm_272528b969",
+    "id": "clm_2d1c6a9187",
     "company_id": "ai21",
-    "metric": "valuation",
-    "value": 1400000000.0,
-    "unit": null,
-    "raw_text": "$1.4B Valuation",
-    "qualifiers": [],
+    "metric": "round_amount",
+    "value": 300000000.0,
+    "unit": "USD",
+    "raw_text": "reported $300 million round",
+    "qualifiers": [
+      "unconfirmed"
+    ],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "GetLatka",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE95bzFYWENoTV9WMVJfR1VpTjhfNHdBY2lQVlM4RGVXY21RSVF1MUVBTEs3RzhsZXRzM2xzM3BZdUxDbXlJamFtYWRVb2tTTlFZ?oc=5",
+      "name": "CTech",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jTWtXV1dFR2tHQVRRMkZlY2EwRVdFakdsQkg2V0RtUDNTZThNMV8zT2dZaHlLd3lLQWhSNVVvWDlGTWg1REhyeWNfRVhkMk50VnNGdjBGSVFuODNoMWpQdlRiOF9Xdlhj?oc=5",
       "locator": null,
-      "published_at": "2025-11-28"
+      "published_at": "2026-01-01"
     },
-    "extracted_at": "2026-06-14T09:27:16.547609",
-    "extractor_model": "llama-3.3-70b-versatile",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_cb922125fd",
-    "company_id": "ai21",
-    "metric": "arr",
-    "value": 57800000.0,
-    "unit": null,
-    "raw_text": "$57.8M ARR",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "GetLatka",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE95bzFYWENoTV9WMVJfR1VpTjhfNHdBY2lQVlM4RGVXY21RSVF1MUVBTEs3RzhsZXRzM2xzM3BZdUxDbXlJamFtYWRVb2tTTlFZ?oc=5",
-      "locator": null,
-      "published_at": "2025-11-28"
-    },
-    "extracted_at": "2026-06-14T09:27:16.547609",
-    "extractor_model": "llama-3.3-70b-versatile",
-    "base_confidence": 0.375,
+    "extracted_at": "2026-06-16T16:50:00.765056",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -52,7 +30,7 @@
     "company_id": "ai21",
     "metric": "valuation",
     "value": 3000000000.0,
-    "unit": null,
+    "unit": "USD",
     "raw_text": "up to $3 billion",
     "qualifiers": [
       "forward_looking",
@@ -60,7 +38,7 @@
     ],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
@@ -69,9 +47,9 @@
       "locator": null,
       "published_at": "2025-12-30"
     },
-    "extracted_at": "2026-06-14T09:27:16.547609",
-    "extractor_model": "llama-3.3-70b-versatile",
-    "base_confidence": 0.1575,
+    "extracted_at": "2026-06-16T16:50:00.765056",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -79,7 +57,7 @@
     "company_id": "ai21",
     "metric": "valuation",
     "value": 3000000000.0,
-    "unit": null,
+    "unit": "USD",
     "raw_text": "$3B",
     "qualifiers": [
       "forward_looking",
@@ -87,7 +65,7 @@
     ],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
@@ -96,9 +74,84 @@
       "locator": null,
       "published_at": "2025-12-30"
     },
-    "extracted_at": "2026-06-14T09:27:16.547609",
-    "extractor_model": "llama-3.3-70b-versatile",
-    "base_confidence": 0.1575,
+    "extracted_at": "2026-06-16T16:50:00.765056",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_cb922125fd",
+    "company_id": "ai21",
+    "metric": "arr",
+    "value": 57800000.0,
+    "unit": "USD",
+    "raw_text": "$57.8M ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE95bzFYWENoTV9WMVJfR1VpTjhfNHdBY2lQVlM4RGVXY21RSVF1MUVBTEs3RzhsZXRzM2xzM3BZdUxDbXlJamFtYWRVb2tTTlFZ?oc=5",
+      "locator": null,
+      "published_at": "2025-11-28"
+    },
+    "extracted_at": "2026-06-16T16:50:00.765056",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_272528b969",
+    "company_id": "ai21",
+    "metric": "valuation",
+    "value": 1400000000.0,
+    "unit": "USD",
+    "raw_text": "$1.4B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE95bzFYWENoTV9WMVJfR1VpTjhfNHdBY2lQVlM4RGVXY21RSVF1MUVBTEs3RzhsZXRzM2xzM3BZdUxDbXlJamFtYWRVb2tTTlFZ?oc=5",
+      "locator": null,
+      "published_at": "2025-11-28"
+    },
+    "extracted_at": "2026-06-16T16:50:00.765056",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_d631ee506b",
+    "company_id": "ai21",
+    "metric": "valuation",
+    "value": 3000000000.0,
+    "unit": "USD",
+    "raw_text": "$2–3 Billion",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Media Line",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeGo1T1ppYWJvSHZRSHZreUpfbkZKVmtJcjFBWkRfaDRpSVVoQ1hKM0FuQTRFaFFhR240ZXlPYkRMOFNERWdWLUdjMjByeW1qTGhMUF9JbDdXdUdMVkk2X0RVTkQ3c0VKZUZmMGktZUx6a29zQmRSeVNZVlNBV3djSUdIbzByU3I5bThYc3htRVJZaS1VNWd2enBJcUxzeDJRM0lNc0YweVlMbjVYZWdIeE9zRUs?oc=5",
+      "locator": null,
+      "published_at": "2025-12-31"
+    },
+    "extracted_at": "2026-06-16T16:50:00.765056",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -120,9 +173,9 @@
       "locator": null,
       "published_at": "2025-11-28"
     },
-    "extracted_at": "2026-06-14T09:27:16.547609",
+    "extracted_at": "2026-06-16T00:00:00",
     "extractor_model": "derive-engine",
-    "base_confidence": 0.1294,
+    "base_confidence": 0.2536,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",

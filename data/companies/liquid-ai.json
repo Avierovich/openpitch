@@ -7,7 +7,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 78.3,
-  "universe_rank": 25,
+  "universe_rank": 29,
   "metrics": {
     "arr": {
       "metric": "arr",
@@ -16,12 +16,16 @@
       "range": null,
       "as_of": "2025-11-24",
       "estimate_type": "reported",
-      "confidence": 0.07,
+      "confidence": 0.067,
       "supporting_claims": [
         "clm_0aa76495ea"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 13200000.0,
+        "change_pct": 0.0,
+        "since": "2025-11-24"
+      },
       "history_ref": "history/liquid-ai/arr.jsonl"
     },
     "valuation": {
@@ -31,43 +35,57 @@
       "range": null,
       "as_of": "2025-11-24",
       "estimate_type": "reported",
-      "confidence": 0.216,
+      "confidence": 0.21,
       "supporting_claims": [
         "clm_8dd438f059"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 2400000000.0,
+        "change_pct": 0.0,
+        "since": "2025-11-24"
+      },
       "history_ref": "history/liquid-ai/valuation.jsonl"
     },
-    "latest_round": {
-      "metric": "latest_round",
-      "value": 250000000.0,
-      "unit": "object",
+    "notable_customers": {
+      "metric": "notable_customers",
+      "value": 1.0,
+      "unit": "list",
       "range": null,
-      "as_of": "2024-12-13",
+      "as_of": "2025-11-13",
       "estimate_type": "reported",
-      "confidence": 0.117,
+      "confidence": 0.291,
       "supporting_claims": [
-        "clm_e86472ff05"
+        "clm_3427f01dc1"
       ],
       "contradiction": false,
-      "delta": null,
-      "history_ref": "history/liquid-ai/latest_round.jsonl"
+      "delta": {
+        "previous": 1.0,
+        "change_pct": 0.0,
+        "since": "2025-11-13"
+      },
+      "history_ref": "history/liquid-ai/notable_customers.jsonl"
     },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 18000000.0,
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 250000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2026-04-28",
-      "estimate_type": "reported",
-      "confidence": 0.492,
+      "as_of": "2024-12-13",
+      "estimate_type": "consensus",
+      "confidence": 0.31,
       "supporting_claims": [
-        "clm_a49a56bdd8"
+        "clm_839a3ea678",
+        "clm_17ce625a5b",
+        "clm_ab451a616f"
       ],
       "contradiction": false,
-      "delta": null,
-      "history_ref": "history/liquid-ai/total_funding.jsonl"
+      "delta": {
+        "previous": 250000000.0,
+        "change_pct": 0.0,
+        "since": "2024-12-13"
+      },
+      "history_ref": "history/liquid-ai/round_amount.jsonl"
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
@@ -76,14 +94,18 @@
       "range": null,
       "as_of": "2025-11-24",
       "estimate_type": "reported",
-      "confidence": 0.024,
+      "confidence": 0.023,
       "supporting_claims": [
         "drv_0dc53c0241"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 181.82,
+        "change_pct": -0.0,
+        "since": "2025-11-24"
+      },
       "history_ref": "history/liquid-ai/revenue_multiple.jsonl"
     }
   },
-  "last_updated": "2026-06-14"
+  "last_updated": "2026-06-16"
 }

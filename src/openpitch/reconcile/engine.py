@@ -21,6 +21,14 @@ CREDIBLE_FLOOR = 0.30        # claims below this don't widen the range (§5.1 st
 # fires on real, time-decayed data where single-source clusters sit well below 0.5.
 CONTRADICTION_ABS = 0.15
 CONTRADICTION_RATIO = 0.33
+# A contradiction is a SAME-PERIOD disagreement, not a stale figure vs a newer one.
+# Metrics like valuation/ARR grow via rounds, so two far-apart-in-time clusters are a
+# trajectory, not a conflict. Only flag rivals whose freshest claim is within this
+# window of the dominant cluster's freshest claim.
+CONTRADICTION_WINDOW_DAYS = 120
+# Metrics whose multiple values are sequential events (successive rounds, accumulating
+# totals), not competing claims — never a "discrepancy".
+SEQUENTIAL_METRICS = {"round_amount", "total_funding"}
 
 
 def _numeric(claims: list[Claim]) -> list[Claim]:
@@ -52,6 +60,11 @@ def _cluster(
 
 def _cluster_weight(cluster: list[tuple[Claim, float]]) -> float:
     return sum(conf for _, conf in cluster)
+
+
+def _cluster_date(cluster: list[tuple[Claim, float]]) -> date | None:
+    dates = [c.source.published_at for c, _ in cluster if c.source.published_at]
+    return max(dates) if dates else None
 
 
 def reconcile(
@@ -110,10 +123,20 @@ def reconcile(
 
     confidence = corroborate([w for _, w in dominant])
 
-    # Contradiction: a rival cluster carries serious weight, both absolutely and
-    # relative to the dominant cluster (§5.3).
+    # Contradiction: a rival cluster carries serious weight (absolute + relative to
+    # dominant) AND is contemporaneous with it — not just an older/newer data point (§5.3).
     floor = max(CONTRADICTION_ABS, CONTRADICTION_RATIO * total_w)
-    contradiction = any(_cluster_weight(c) >= floor for c in clusters[1:])
+    dom_date = _cluster_date(dominant)
+
+    def _same_period(c) -> bool:
+        cd = _cluster_date(c)
+        if dom_date is None or cd is None:
+            return True  # undated → can't rule out a real conflict
+        return abs((cd - dom_date).days) <= CONTRADICTION_WINDOW_DAYS
+
+    contradiction = metric not in SEQUENTIAL_METRICS and any(
+        _cluster_weight(c) >= floor and _same_period(c) for c in clusters[1:]
+    )
 
     # Freshest supporting date drives as_of.
     pub_dates = [c.source.published_at for c, _ in dominant if c.source.published_at]

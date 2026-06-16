@@ -7,7 +7,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 60.2,
-  "universe_rank": 36,
+  "universe_rank": 38,
   "metrics": {
     "valuation": {
       "metric": "valuation",
@@ -16,13 +16,17 @@
       "range": null,
       "as_of": "2025-10-18",
       "estimate_type": "reported",
-      "confidence": 0.471,
+      "confidence": 0.469,
       "supporting_claims": [
         "clm_c56ef5a20b",
         "clm_c56ef5a20b"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 16200000.0,
+        "change_pct": -0.0,
+        "since": "2025-10-18"
+      },
       "history_ref": "history/heygen/valuation.jsonl"
     },
     "total_funding": {
@@ -32,12 +36,16 @@
       "range": null,
       "as_of": "2024-06-24",
       "estimate_type": "reported",
-      "confidence": 0.196,
+      "confidence": 0.195,
       "supporting_claims": [
         "clm_dbb0244253"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 60000000.0,
+        "change_pct": 0.0,
+        "since": "2024-06-24"
+      },
       "history_ref": "history/heygen/total_funding.jsonl"
     },
     "latest_round": {
@@ -52,7 +60,11 @@
         "clm_a99e7e85a0"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 500000000.0,
+        "change_pct": -0.0,
+        "since": "2024-06-20"
+      },
       "history_ref": "history/heygen/latest_round.jsonl"
     },
     "arr": {
@@ -62,13 +74,17 @@
       "range": null,
       "as_of": "2025-10-18",
       "estimate_type": "reported",
-      "confidence": 0.138,
+      "confidence": 0.136,
       "supporting_claims": [
         "clm_db8e2f7a82",
         "clm_db8e2f7a82"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 100000000.0,
+        "change_pct": 0.0,
+        "since": "2025-10-18"
+      },
       "history_ref": "history/heygen/arr.jsonl"
     },
     "round_amount": {
@@ -83,7 +99,11 @@
         "clm_ccc678733f"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 60000000.0,
+        "change_pct": 0.0,
+        "since": "2024-06-24"
+      },
       "history_ref": "history/heygen/round_amount.jsonl"
     },
     "revenue_multiple": {
@@ -93,14 +113,18 @@
       "range": null,
       "as_of": "2025-10-18",
       "estimate_type": "reported",
-      "confidence": 0.035,
+      "confidence": 0.034,
       "supporting_claims": [
         "drv_6ebea6ad8f"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 5.0,
+        "change_pct": 0.0,
+        "since": "2025-10-18"
+      },
       "history_ref": "history/heygen/revenue_multiple.jsonl"
     }
   },
-  "last_updated": "2026-06-14"
+  "last_updated": "2026-06-16"
 }

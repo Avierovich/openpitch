@@ -6,24 +6,91 @@
   "category": "ai-infra",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 75.1,
-  "universe_rank": 30,
+  "vc_attention_score": 82.4,
+  "universe_rank": 19,
   "metrics": {
     "total_funding": {
       "metric": "total_funding",
       "value": 1000000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2026-03-06",
-      "estimate_type": "reported",
-      "confidence": 0.458,
+      "as_of": "2026-05-09",
+      "estimate_type": "consensus",
+      "confidence": 0.59,
       "supporting_claims": [
-        "clm_7db50733e9"
+        "clm_7db50733e9",
+        "clm_88261697c4",
+        "clm_c616a56811",
+        "clm_f85d8c6d7a"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-05-09"
+      },
       "history_ref": "history/together/total_funding.jsonl"
+    },
+    "valuation": {
+      "metric": "valuation",
+      "value": 7500000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-05-09",
+      "estimate_type": "consensus",
+      "confidence": 0.546,
+      "supporting_claims": [
+        "clm_f7ecf229d2",
+        "clm_b8ec11cc06",
+        "clm_49056f66a9",
+        "clm_2b7244eadf"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 7500000000.0,
+        "change_pct": 0.0,
+        "since": "2026-05-09"
+      },
+      "history_ref": "history/together/valuation.jsonl"
+    },
+    "arr": {
+      "metric": "arr",
+      "value": 44000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-11-28",
+      "estimate_type": "reported",
+      "confidence": 0.071,
+      "supporting_claims": [
+        "clm_e7ba8ab694"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 44000000.0,
+        "change_pct": 0.0,
+        "since": "2025-11-28"
+      },
+      "history_ref": "history/together/arr.jsonl"
+    },
+    "revenue_multiple": {
+      "metric": "revenue_multiple",
+      "value": 75.0,
+      "unit": "x",
+      "range": null,
+      "as_of": "2025-11-28",
+      "estimate_type": "reported",
+      "confidence": 0.024,
+      "supporting_claims": [
+        "drv_21d7b42f83"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 75.0,
+        "change_pct": 0.0,
+        "since": "2025-11-28"
+      },
+      "history_ref": "history/together/revenue_multiple.jsonl"
     }
   },
-  "last_updated": "2026-06-14"
+  "last_updated": "2026-06-16"
 }

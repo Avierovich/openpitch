@@ -7,7 +7,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 82.0,
-  "universe_rank": 20,
+  "universe_rank": 21,
   "metrics": {
     "valuation": {
       "metric": "valuation",
@@ -19,12 +19,16 @@
       },
       "as_of": "2026-06-12",
       "estimate_type": "reported",
-      "confidence": 0.373,
+      "confidence": 0.371,
       "supporting_claims": [
         "clm_2630590a52"
       ],
       "contradiction": true,
-      "delta": null,
+      "delta": {
+        "previous": 6800000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-12"
+      },
       "history_ref": "history/cohere/valuation.jsonl"
     },
     "arr": {
@@ -34,13 +38,17 @@
       "range": null,
       "as_of": "2026-02-13",
       "estimate_type": "consensus",
-      "confidence": 0.255,
+      "confidence": 0.251,
       "supporting_claims": [
         "clm_492ab414f1",
         "clm_e1888c6901"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 240000000.0,
+        "change_pct": 0.0,
+        "since": "2026-02-13"
+      },
       "history_ref": "history/cohere/arr.jsonl"
     },
     "total_funding": {
@@ -50,12 +58,16 @@
       "range": null,
       "as_of": "2026-06-12",
       "estimate_type": "reported",
-      "confidence": 0.374,
+      "confidence": 0.373,
       "supporting_claims": [
         "clm_66f29f3a8c"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 500000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-12"
+      },
       "history_ref": "history/cohere/total_funding.jsonl"
     },
     "revenue_multiple": {
@@ -65,14 +77,18 @@
       "range": null,
       "as_of": "2026-06-12",
       "estimate_type": "reported",
-      "confidence": 0.127,
+      "confidence": 0.125,
       "supporting_claims": [
         "drv_43ac23439e"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 28.33,
+        "change_pct": 0.0,
+        "since": "2026-06-12"
+      },
       "history_ref": "history/cohere/revenue_multiple.jsonl"
     }
   },
-  "last_updated": "2026-06-14"
+  "last_updated": "2026-06-16"
 }

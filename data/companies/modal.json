@@ -5,9 +5,63 @@
   "website": "modal.com",
   "category": "ai-infra",
   "segment": "global",
-  "in_universe": false,
-  "vc_attention_score": 0.0,
-  "universe_rank": 52,
-  "metrics": {},
-  "last_updated": "2026-06-14"
+  "in_universe": true,
+  "vc_attention_score": 80.7,
+  "universe_rank": 24,
+  "metrics": {
+    "valuation": {
+      "metric": "valuation",
+      "value": 4630861991.06,
+      "unit": "USD",
+      "range": {
+        "low": 4650000000.0,
+        "high": 4650000000.0
+      },
+      "as_of": "2026-05-24",
+      "estimate_type": "consensus",
+      "confidence": 0.952,
+      "supporting_claims": [
+        "clm_5a74a42567",
+        "clm_15c5b667c7",
+        "clm_ac517e9a67",
+        "clm_66882bfcf4",
+        "clm_9a83f22c65"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 4630861991.06,
+        "change_pct": 0.0,
+        "since": "2026-05-24"
+      },
+      "history_ref": "history/modal/valuation.jsonl"
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 355000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 355000000.0,
+        "high": 355000000.0
+      },
+      "as_of": "2026-05-26",
+      "estimate_type": "consensus",
+      "confidence": 0.97,
+      "supporting_claims": [
+        "clm_7d2611063c",
+        "clm_f4ca98c7d8",
+        "clm_902a35904a",
+        "clm_089e7fc284",
+        "clm_c16d878721",
+        "clm_cfd5de4060"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 355000000.0,
+        "change_pct": 0.0,
+        "since": "2026-05-26"
+      },
+      "history_ref": "history/modal/round_amount.jsonl"
+    }
+  },
+  "last_updated": "2026-06-16"
 }

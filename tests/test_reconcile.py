@@ -113,6 +113,14 @@ def test_contradiction_flagged():
     assert rv.value > 95          # dominant (podcast) cluster wins on summed weight
 
 
+def test_temporal_gap_is_not_a_contradiction():
+    # Far apart in value AND ~9 months apart -> trajectory (a raise), not a discrepancy.
+    old = claim("o", 13_000_000_000, stype=SourceType.NEWS, sname="Tracxn", published=date(2025, 9, 9))
+    new = claim("n", 23_000_000_000, stype=SourceType.NEWS, sname="TC", published=date(2026, 6, 12))
+    rv = reconcile("valuation", [old, new], as_of=date(2026, 6, 14), tau=365, tolerance=0.20)
+    assert rv.contradiction is False
+
+
 def test_confidence_never_certain():
     claims = [claim(f"c{i}", 100, stype=SourceType.FILING, sname=f"src{i}") for i in range(10)]
     rv = reconcile("arr", claims, as_of=RUN, tau=ARR_TAU, tolerance=ARR_TOL)

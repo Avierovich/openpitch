@@ -19,14 +19,18 @@
       },
       "as_of": "2026-01-14",
       "estimate_type": "consensus",
-      "confidence": 0.722,
+      "confidence": 0.719,
       "supporting_claims": [
         "clm_fce9997dd2",
         "clm_e19ee77782",
         "clm_837435beed"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 14000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-01-14"
+      },
       "history_ref": "history/skild/valuation.jsonl"
     },
     "latest_round": {
@@ -36,12 +40,16 @@
       "range": null,
       "as_of": "2026-01-14",
       "estimate_type": "reported",
-      "confidence": 0.347,
+      "confidence": 0.345,
       "supporting_claims": [
         "clm_78036325a9"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 1400000000.0,
+        "change_pct": 0.0,
+        "since": "2026-01-14"
+      },
       "history_ref": "history/skild/latest_round.jsonl"
     },
     "total_funding": {
@@ -51,14 +59,18 @@
       "range": null,
       "as_of": "2026-01-14",
       "estimate_type": "reported",
-      "confidence": 0.427,
+      "confidence": 0.426,
       "supporting_claims": [
         "clm_e4cb8e58d2"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 1400000000.0,
+        "change_pct": -0.0,
+        "since": "2026-01-14"
+      },
       "history_ref": "history/skild/total_funding.jsonl"
     }
   },
-  "last_updated": "2026-06-14"
+  "last_updated": "2026-06-16"
 }

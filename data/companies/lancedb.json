@@ -7,7 +7,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 57.0,
-  "universe_rank": 37,
+  "universe_rank": 39,
   "metrics": {
     "round_amount": {
       "metric": "round_amount",
@@ -16,12 +16,16 @@
       "range": null,
       "as_of": "2025-06-24",
       "estimate_type": "reported",
-      "confidence": 0.142,
+      "confidence": 0.141,
       "supporting_claims": [
         "clm_5aaa1360ae"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 30000000.0,
+        "change_pct": 0.0,
+        "since": "2025-06-24"
+      },
       "history_ref": "history/lancedb/round_amount.jsonl"
     },
     "notable_customers": {
@@ -31,12 +35,16 @@
       "range": null,
       "as_of": "2024-05-15",
       "estimate_type": "reported",
-      "confidence": 0.047,
+      "confidence": 0.046,
       "supporting_claims": [
         "clm_87c7153484"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 1.0,
+        "change_pct": 0.0,
+        "since": "2024-05-15"
+      },
       "history_ref": "history/lancedb/notable_customers.jsonl"
     },
     "arr": {
@@ -51,7 +59,11 @@
         "clm_bfc1d3c205"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 2300000.0,
+        "change_pct": 0.0,
+        "since": "2025-04-10"
+      },
       "history_ref": "history/lancedb/arr.jsonl"
     },
     "valuation": {
@@ -66,7 +78,11 @@
         "clm_407c55f19a"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 6800000.0,
+        "change_pct": 0.0,
+        "since": "2025-04-10"
+      },
       "history_ref": "history/lancedb/valuation.jsonl"
     },
     "revenue_multiple": {
@@ -81,9 +97,13 @@
         "drv_34070d666d"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 2.96,
+        "change_pct": 0.0,
+        "since": "2025-04-10"
+      },
       "history_ref": "history/lancedb/revenue_multiple.jsonl"
     }
   },
-  "last_updated": "2026-06-14"
+  "last_updated": "2026-06-16"
 }

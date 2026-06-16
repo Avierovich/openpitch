@@ -16,13 +16,17 @@
       "range": null,
       "as_of": "2026-05-04",
       "estimate_type": "consensus",
-      "confidence": 0.51,
+      "confidence": 0.508,
       "supporting_claims": [
         "clm_5e7814d1a3",
         "clm_083ea5dbc6"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 25015941307.52,
+        "change_pct": -0.0,
+        "since": "2026-05-04"
+      },
       "history_ref": "history/cerebras/valuation.jsonl"
     },
     "round_amount": {
@@ -32,15 +36,19 @@
       "range": null,
       "as_of": "2026-02-05",
       "estimate_type": "consensus",
-      "confidence": 0.4,
+      "confidence": 0.398,
       "supporting_claims": [
         "clm_adfd0da588",
         "clm_a8fdf04213"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 1041321633.68,
+        "change_pct": 0.0,
+        "since": "2026-02-05"
+      },
       "history_ref": "history/cerebras/round_amount.jsonl"
     }
   },
-  "last_updated": "2026-06-14"
+  "last_updated": "2026-06-16"
 }

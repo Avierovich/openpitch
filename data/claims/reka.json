@@ -1,12 +1,14 @@
 [
   {
-    "id": "clm_96b28a435c",
+    "id": "clm_0d9de881c8",
     "company_id": "reka",
     "metric": "arr",
     "value": 10900000.0,
     "unit": null,
     "raw_text": "$10.9M ARR",
-    "qualifiers": [],
+    "qualifiers": [
+      "2025"
+    ],
     "speaker": {
       "name": null,
       "role": "unknown"
@@ -18,19 +20,21 @@
       "locator": null,
       "published_at": "2025-11-28"
     },
-    "extracted_at": "2026-06-14T09:27:16.547609",
-    "extractor_model": "llama-3.3-70b-versatile",
+    "extracted_at": "2026-06-16T16:50:00.765056",
+    "extractor_model": "gemini-2.5-flash",
     "base_confidence": 0.375,
     "derivation": null
   },
   {
-    "id": "clm_a37cbf42a0",
+    "id": "clm_b6d9a198a7",
     "company_id": "reka",
     "metric": "valuation",
     "value": 1000000000.0,
     "unit": null,
     "raw_text": "$1B Valuation",
-    "qualifiers": [],
+    "qualifiers": [
+      "2025"
+    ],
     "speaker": {
       "name": null,
       "role": "unknown"
@@ -42,18 +46,18 @@
       "locator": null,
       "published_at": "2025-11-28"
     },
-    "extracted_at": "2026-06-14T09:27:16.547609",
-    "extractor_model": "llama-3.3-70b-versatile",
+    "extracted_at": "2026-06-16T16:50:00.765056",
+    "extractor_model": "gemini-2.5-flash",
     "base_confidence": 0.375,
     "derivation": null
   },
   {
-    "id": "clm_e6af94eb2f",
+    "id": "clm_bc2255ea1a",
     "company_id": "reka",
     "metric": "valuation",
     "value": 1000000000.0,
     "unit": null,
-    "raw_text": "This Tiny AI Startup Just Hit $1 Billion",
+    "raw_text": "Just Hit $1 Billion",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -66,18 +70,44 @@
       "locator": null,
       "published_at": "2025-07-22"
     },
-    "extracted_at": "2026-06-14T09:27:16.547609",
-    "extractor_model": "llama-3.3-70b-versatile",
+    "extracted_at": "2026-06-16T16:50:00.765056",
+    "extractor_model": "gemini-2.5-flash",
     "base_confidence": 0.375,
     "derivation": null
   },
   {
-    "id": "clm_cbaf08acaf",
+    "id": "clm_5b231fca3e",
+    "company_id": "reka",
+    "metric": "round_amount",
+    "value": 110000000.0,
+    "unit": null,
+    "raw_text": "raises $110M",
+    "qualifiers": [
+      "raised"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOb21DeC1hR0YwUE05RGpjYU14YlpOcHNrVUZ5R25MN1VhT0ZYd3dRaE5Kak9XV2ZNdkZFN080aGQ1VmxlcGlNcXJVb0E4Y0RSUTJwTUFIUUpobXpsOE9QOFpQQUtuWkxwRnFqMWJMNFRiR3YtV1FoaEN5N3hpXzNNckZXNGdqRVo0ZHNRejBGTlJUaDRWMFE?oc=5",
+      "locator": null,
+      "published_at": "2025-07-22"
+    },
+    "extracted_at": "2026-06-16T16:50:00.765056",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_53cb3bc646",
     "company_id": "reka",
     "metric": "valuation",
     "value": 1000000000.0,
     "unit": null,
-    "raw_text": "Multimodal AI startup Reka AI raises $110M at $1B valuation",
+    "raw_text": "$1B valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -90,18 +120,18 @@
       "locator": null,
       "published_at": "2025-07-22"
     },
-    "extracted_at": "2026-06-14T09:27:16.547609",
-    "extractor_model": "llama-3.3-70b-versatile",
+    "extracted_at": "2026-06-16T16:50:00.765056",
+    "extractor_model": "gemini-2.5-flash",
     "base_confidence": 0.375,
     "derivation": null
   },
   {
-    "id": "clm_244f827648",
+    "id": "clm_72dc1fa01d",
     "company_id": "reka",
-    "metric": "latest_round",
+    "metric": "round_amount",
     "value": 110000000.0,
     "unit": null,
-    "raw_text": "Multimodal AI startup Reka AI raises $110M at $1B valuation",
+    "raw_text": "in $110 Million Deal",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -109,18 +139,118 @@
     },
     "source": {
       "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOb21DeC1hR0YwUE05RGpjYU14YlpOcHNrVUZ5R25MN1VhT0ZYd3dRaE5Kak9XV2ZNdkZFN080aGQ1VmxlcGlNcXJVb0E4Y0RSUTJwTUFIUUpobXpsOE9QOFpQQUtuWkxwRnFqMWJMNFRiR3YtV1FoaEN5N3hpXzNNckZXNGdqRVo0ZHNRejBGTlJUaDRWMFE?oc=5",
+      "name": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSUJNUFFEckFHRERkSlFQdE9iSDdLalgtbkFxSFlyQlNEWmlvSVhjVHozbWl1bmMxa3pXSFFYVG5Zb0x6MEZSUFBBUXFmbXJCSE1DVkRKT0NaQkNWV1VFNngxbjhObFBxQzFzdjduQmdTQjJnU3JrbTNjSUtKWXR1blREclk2VEhUZ2RLZ19SaUZ6eURKWGtpQ1BpNE9WbGwzbk4tRXpLVUxOejVhX0FqSXhB?oc=5",
       "locator": null,
       "published_at": "2025-07-22"
     },
-    "extracted_at": "2026-06-14T09:27:16.547609",
-    "extractor_model": "llama-3.3-70b-versatile",
+    "extracted_at": "2026-06-16T16:50:00.765056",
+    "extractor_model": "gemini-2.5-flash",
     "base_confidence": 0.375,
     "derivation": null
   },
   {
-    "id": "drv_6ce7a676e5",
+    "id": "clm_23cc7ee889",
+    "company_id": "reka",
+    "metric": "round_amount",
+    "value": 110000000.0,
+    "unit": null,
+    "raw_text": "raises $110 million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMXo3NEszX1NDZ3BHcXRHNU9QTTVEeFFuMXgtSDRhQ294Uk1XUGRFRWNZcXJrR3ZLZnhvT3NZTHNGTTV6bEpid1hNTXphQ2xLaHJ2QUZTMEM5dGhnVHVWYnBTOXZHVXRHNE1wcXRrZjFIeVdEdlVMdEd0a21CYlRqMk9HY3pZbnNqVzZRTlU4N2JQazk3czRua1pRNzlLRmdIZm5veUJR?oc=5",
+      "locator": null,
+      "published_at": "2025-07-22"
+    },
+    "extracted_at": "2026-06-16T16:50:00.765056",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_5a79988700",
+    "company_id": "reka",
+    "metric": "valuation",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "valuation tops $1 billion",
+    "qualifiers": [
+      "tops"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMXo3NEszX1NDZ3BHcXRHNU9QTTVEeFFuMXgtSDRhQ294Uk1XUGRFRWNZcXJrR3ZLZnhvT3NZTHNGTTV6bEpid1hNTXphQ2xLaHJ2QUZTMEM5dGhnVHVWYnBTOXZHVXRHNE1wcXRrZjFIeVdEdlVMdEd0a21CYlRqMk9HY3pZbnNqVzZRTlU4N2JQazk3czRua1pRNzlLRmdIZm5veUJR?oc=5",
+      "locator": null,
+      "published_at": "2025-07-22"
+    },
+    "extracted_at": "2026-06-16T16:50:00.765056",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_717cfab265",
+    "company_id": "reka",
+    "metric": "round_amount",
+    "value": 110000000.0,
+    "unit": null,
+    "raw_text": "with $110M round",
+    "qualifiers": [
+      "round"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNk15SnRud0FhNEVHeDNXLU5rNUk2blhQZ3paMWVXazdVSFBVZFQ3b3JDYkZudk5OZ1pDcDlzQmhoejVCY1JSdnNaWG5KQjFfRk1ZUUdwWFZkWmEzRGlZb2t1Vk1MWkVzZWRXdzc1QkNwNFZuamZIdTBIOWZoZndhbERBZ0o?oc=5",
+      "locator": null,
+      "published_at": "2025-07-25"
+    },
+    "extracted_at": "2026-06-16T16:50:00.765056",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_2f9ffa23bd",
+    "company_id": "reka",
+    "metric": "valuation",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "Valued at $1 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOLUxoaGNjdmc4akFxak10SkpHSnVfWFVacnZYbVFqcE5mMERJbmtCZU81WXpTWkU5VG9rc2xwdEpKXzJkVGNYZ0hUcTZJSlY5UWtlMmJ3d3VSb2VWbFNKVjhlS0xMV3FNa3BDUW5FYU0xUVJKb29pRndobVBiUTY3VEhlSHNpdG56eUFrTTdYUUdRM0otOUNtbUNB?oc=5",
+      "locator": null,
+      "published_at": "2025-07-22"
+    },
+    "extracted_at": "2026-06-16T16:50:00.765056",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "drv_3169f7b7cc",
     "company_id": "reka",
     "metric": "revenue_multiple",
     "value": 91.74,
@@ -138,15 +268,15 @@
       "locator": null,
       "published_at": "2025-11-28"
     },
-    "extracted_at": "2026-06-14T09:27:16.547609",
+    "extracted_at": "2026-06-16T00:00:00",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1294,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_a37cbf42a0",
-        "clm_96b28a435c"
+        "clm_b6d9a198a7",
+        "clm_0d9de881c8"
       ]
     }
   }

@@ -7,7 +7,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 72.6,
-  "universe_rank": 32,
+  "universe_rank": 34,
   "metrics": {
     "total_funding": {
       "metric": "total_funding",
@@ -16,12 +16,16 @@
       "range": null,
       "as_of": "2024-11-21",
       "estimate_type": "reported",
-      "confidence": 0.218,
+      "confidence": 0.217,
       "supporting_claims": [
         "clm_04b509532f"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 100000000.0,
+        "change_pct": 0.0,
+        "since": "2024-11-21"
+      },
       "history_ref": "history/writer/total_funding.jsonl"
     },
     "round_amount": {
@@ -31,12 +35,16 @@
       "range": null,
       "as_of": "2024-11-21",
       "estimate_type": "reported",
-      "confidence": 0.1,
+      "confidence": 0.099,
       "supporting_claims": [
         "clm_c5540496ff"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 100000000.0,
+        "change_pct": -0.0,
+        "since": "2024-11-21"
+      },
       "history_ref": "history/writer/round_amount.jsonl"
     },
     "equity_sold_pct": {
@@ -46,12 +54,16 @@
       "range": null,
       "as_of": "2024-11-21",
       "estimate_type": "reported",
-      "confidence": 0.1,
+      "confidence": 0.099,
       "supporting_claims": [
         "clm_6f1ecc58c5"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 20.0,
+        "change_pct": 0.0,
+        "since": "2024-11-21"
+      },
       "history_ref": "history/writer/equity_sold_pct.jsonl"
     },
     "valuation": {
@@ -61,14 +73,18 @@
       "range": null,
       "as_of": "2024-11-21",
       "estimate_type": "reported",
-      "confidence": 0.044,
+      "confidence": 0.043,
       "supporting_claims": [
         "drv_deea438f2f"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 500000000.0,
+        "change_pct": 0.0,
+        "since": "2024-11-21"
+      },
       "history_ref": "history/writer/valuation.jsonl"
     }
   },
-  "last_updated": "2026-06-14"
+  "last_updated": "2026-06-16"
 }

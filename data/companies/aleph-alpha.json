@@ -9,36 +9,53 @@
   "vc_attention_score": 86.0,
   "universe_rank": 11,
   "metrics": {
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 600000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 600000000.0,
+        "high": 600000000.0
+      },
+      "as_of": "2026-04-26",
+      "estimate_type": "consensus",
+      "confidence": 0.703,
+      "supporting_claims": [
+        "clm_4c099ab1a8",
+        "clm_b2c055d7af"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 600000000.0,
+        "change_pct": 0.0,
+        "since": "2026-04-26"
+      },
+      "history_ref": "history/aleph-alpha/round_amount.jsonl"
+    },
     "valuation": {
       "metric": "valuation",
       "value": 20000000000.0,
       "unit": "USD",
-      "range": null,
-      "as_of": "2026-04-24",
-      "estimate_type": "reported",
-      "confidence": 0.457,
+      "range": {
+        "low": 20000000000.0,
+        "high": 20000000000.0
+      },
+      "as_of": "2026-04-26",
+      "estimate_type": "consensus",
+      "confidence": 0.838,
       "supporting_claims": [
-        "clm_d4e5d7bb02"
+        "clm_d4e5d7bb02",
+        "clm_a4ff17bb85",
+        "clm_24f03f0946"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 20000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-04-26"
+      },
       "history_ref": "history/aleph-alpha/valuation.jsonl"
-    },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 600000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-04-24",
-      "estimate_type": "reported",
-      "confidence": 0.49,
-      "supporting_claims": [
-        "clm_19c95d2001"
-      ],
-      "contradiction": false,
-      "delta": null,
-      "history_ref": "history/aleph-alpha/total_funding.jsonl"
     }
   },
-  "last_updated": "2026-06-14"
+  "last_updated": "2026-06-16"
 }

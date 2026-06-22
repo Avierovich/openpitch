@@ -1,0 +1,109 @@
+[
+  {
+    "id": "clm_081fc5d06a",
+    "company_id": "krea",
+    "metric": "arr",
+    "value": 5800000.0,
+    "unit": "USD",
+    "raw_text": "Krea Revenue 2025: $5.8M ARR",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA0QURGc1hXUzNQYmlVZU5lal9LR21XZnc1VGxlZTdKeWJNZjFmWVlUOFhXMzdLQVpJVVNXY1hEYTRVS0E4eXBJMnUwRnltMVk?oc=5",
+      "locator": null,
+      "published_at": "2025-07-23"
+    },
+    "extracted_at": "2026-06-20T22:06:34.303152",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.3675,
+    "derivation": null
+  },
+  {
+    "id": "clm_1d7a8d175b",
+    "company_id": "krea",
+    "metric": "valuation",
+    "value": 24000000.0,
+    "unit": "USD",
+    "raw_text": "$24M Valuation",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA0QURGc1hXUzNQYmlVZU5lal9LR21XZnc1VGxlZTdKeWJNZjFmWVlUOFhXMzdLQVpJVVNXY1hEYTRVS0E4eXBJMnUwRnltMVk?oc=5",
+      "locator": null,
+      "published_at": "2025-07-23"
+    },
+    "extracted_at": "2026-06-20T22:06:34.303152",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.3675,
+    "derivation": null
+  },
+  {
+    "id": "clm_e295566dd6",
+    "company_id": "krea",
+    "metric": "round_amount",
+    "value": 83000000.0,
+    "unit": "USD",
+    "raw_text": "Krea raises $83M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOHBxeHdVOFZhblN3V2NtbUpTSTJzZmx5NzkzQ0VGbjRhSFNxYno5dUtscVV0WjFqSm1MSWtTRGFNMGtMQWpzUkNCMFBqZ0lFdVcwMFpiX2VUZ1M1bVN6bW1nTHgyYm45X3RUa0tVeHVRWUcwWnh2a3ZQbnd0NDhwVlVUZXFfMWphZXVkX3lwbVRlMFpENG5ncWw1R2thekMwVG1NbXBSWEZvaU5wZ3FyemkzSDhvQ3dWYmp6OXl0VGpUVkM0ajNsdHlNRy1NVnpreG81MGY0M3JPUVBQb2c?oc=5",
+      "locator": null,
+      "published_at": "2025-04-07"
+    },
+    "extracted_at": "2026-06-20T22:06:34.303152",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "drv_374dcb7c94",
+    "company_id": "krea",
+    "metric": "revenue_multiple",
+    "value": 4.14,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2025-07-23"
+    },
+    "extracted_at": "2026-06-22T00:00:00",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.1243,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_1d7a8d175b",
+        "clm_081fc5d06a"
+      ]
+    }
+  }
+]

@@ -115,6 +115,26 @@ companies:
   - { id: braintrust,        name: Braintrust,             category: data-eval, domain: braintrust.dev }
   - { id: galileo,           name: Galileo,                category: data-eval, domain: galileo.ai }
 
+  # ── Validation-sourced additions — top-50-by-valuation gaps (docs/VALIDATION-TOP50.md) ──
+  - { id: databricks,        name: Databricks,             category: ai-infra, domain: databricks.com, note: "AI data/analytics, ~$134B" }
+  - { id: helsing,           name: Helsing,                category: defense-ai, domain: helsing.ai, note: "Germany defense AI" }
+  - { id: reflection-ai,     name: Reflection AI,          category: foundation-model, domain: reflection.ai }
+  - { id: moonshot,          name: Moonshot AI,            category: foundation-model, domain: moonshot.cn, note: "China, Kimi" }
+  - { id: applied-intuition, name: Applied Intuition,      category: robotics, domain: appliedintuition.com, note: "autonomous-vehicle AI" }
+  - { id: nscale,            name: Nscale,                 category: ai-infra, domain: nscale.com, note: "UK AI cloud" }
+  - { id: wayve,             name: Wayve,                  category: robotics, domain: wayve.ai, note: "UK autonomous driving" }
+  - { id: nuro,              name: Nuro,                   category: robotics, domain: nuro.ai }
+  - { id: neuralink,         name: Neuralink,              category: robotics, domain: neuralink.com, note: "BCI" }
+  - { id: sandboxaq,         name: SandboxAQ,              category: vertical-app, domain: sandboxaq.com }
+  - { id: legora,            name: Legora,                 category: vertical-app, domain: legora.com, note: "Sweden legal AI" }
+  - { id: world-labs,        name: World Labs,             category: foundation-model, domain: worldlabs.ai, note: "spatial intelligence" }
+  - { id: apptronik,         name: Apptronik,              category: robotics, domain: apptronik.com, note: "humanoid robotics" }
+  - { id: skydio,            name: Skydio,                 category: robotics, domain: skydio.com, note: "autonomous drones" }
+  - { id: ayar-labs,         name: Ayar Labs,              category: ai-infra, domain: ayarlabs.com, note: "optical interconnect for AI" }
+  - { id: yitu,              name: YITU Technology,        category: vertical-app, domain: yitutech.com, note: "China computer vision" }
+  - { id: waabi,             name: Waabi,                  category: robotics, domain: waabi.ai, note: "autonomous trucking" }
+  - { id: project-prometheus, name: Project Prometheus,    category: foundation-model, domain: "", note: "stealth; verify before publishing" }
+
 # ── MENA AI / tech segment ───────────────────────────────────────────────────
 # A dedicated regional set — the open, AI-native alternative to MAGNiTT/Wamda.
 # HONEST CAVEAT: MENA disclosure is lighter than the US (no EDGAR equivalent,
@@ -139,4 +159,7 @@ mena:
   - { id: huspy,       name: "Huspy",               category: vertical-app,     segment: mena, domain: huspy.com,     note: "UAE proptech/fintech" }
   - { id: bayzat,      name: "Bayzat",              category: vertical-app,     segment: mena, domain: bayzat.com,    note: "UAE HR/insurtech" }
   - { id: yassir,      name: "Yassir",              category: vertical-app,     segment: mena, domain: yassir.com,    note: "Algeria super app" }
+  # Validation-sourced additions — top-50-by-valuation gaps (docs/VALIDATION-TOP50.md)
+  - { id: humain,      name: "HUMAIN",              category: foundation-model, segment: mena, domain: humain.ai,    note: "Saudi PIF-backed AI, ~$100B" }
+  - { id: g42,         name: "G42",                 category: ai-infra,         segment: mena, domain: g42.ai,       note: "Abu Dhabi AI/cloud" }
 

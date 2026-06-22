@@ -65,6 +65,12 @@ Adapters should:
 
 OpenPitch should be boringly conservative here. A slower source is better than a legal or reputational problem.
 
+### SEC EDGAR
+
+SEC EDGAR access must use a contact-bearing user agent through `OPENPITCH_SEC_USER_AGENT`.
+
+Local `.env` and GitHub Actions secrets should hold the real value. Do not commit a personal email or API key into tracked files.
+
 ## 5. Source Quality Requirements
 
 Every claim should store:

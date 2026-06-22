@@ -7,11 +7,14 @@ Card to dist/.well-known/agent.json (FRD §8.7).
 
 from __future__ import annotations
 
+from html import escape
 import json
 from datetime import date
 
 from .. import store
+from ..config import load_metrics, load_scoring, load_watchlist
 from ..paths import REPO_ROOT
+from .quality import render_html, write_report
 
 DIST = REPO_ROOT / "dashboard" / "dist"
 
@@ -20,14 +23,43 @@ _CSS = """
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 -apple-system,Segoe UI,Roboto,sans-serif}
 a{color:#7fd1c1;text-decoration:none}.wrap{max-width:1000px;margin:0 auto;padding:32px 20px}
 h1{font-size:26px;margin:0 0 4px}.sub{color:var(--mut);margin:0 0 24px}
+.toolbar{display:flex;gap:10px;align-items:center;justify-content:space-between;margin:0 0 14px;flex-wrap:wrap}
+.toolbar label{color:var(--mut);font-size:13px}.toolbar select{background:#171c2e;color:var(--fg);border:1px solid #303852;border-radius:6px;padding:7px 10px}
+.quality{display:flex;gap:10px;align-items:center;justify-content:space-between;background:#141929;border:1px solid #303852;border-radius:8px;padding:10px 12px;margin:0 0 14px;color:var(--mut);font-size:13px}
+.quality strong{color:var(--fg)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
-.card{background:var(--card);border:1px solid #232a40;border-radius:12px;padding:16px}
+.card{display:block;background:var(--card);border:1px solid #232a40;border-radius:12px;padding:16px}
+.pending{border-style:dashed;background:#141929}
 .card h3{margin:0 0 2px;font-size:17px}.cat{color:var(--mut);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
 .m{display:flex;justify-content:space-between;border-top:1px solid #232a40;padding:7px 0;font-size:14px}
 .m .k{color:var(--mut)}.v{font-variant-numeric:tabular-nums}
 .tag{display:inline-block;background:#202840;color:var(--mut);border-radius:6px;padding:1px 7px;font-size:11px;margin-left:6px}
 .warn{color:var(--warn)}.conf{font-size:11px;color:var(--mut)}
 .src{font-size:12px;color:var(--mut)}.disc{background:#1c1530;border:1px solid #3a2a52;border-radius:10px;padding:12px;color:#cbb8e6;font-size:13px;margin:18px 0}
+"""
+
+_JS = """
+<script>
+const grid = document.querySelector('[data-grid]');
+const sort = document.querySelector('[data-sort]');
+const number = (card, key) => Number(card.dataset[key] || 0);
+const text = (card, key) => (card.dataset[key] || '').toLowerCase();
+function compareCards(mode, a, b) {
+  if (mode === 'name') return text(a, 'name').localeCompare(text(b, 'name'));
+  if (mode === 'category') return text(a, 'category').localeCompare(text(b, 'category')) || number(a, 'rank') - number(b, 'rank');
+  if (mode === 'funding') return number(b, 'funding') - number(a, 'funding') || number(a, 'rank') - number(b, 'rank');
+  if (mode === 'revenue') return number(b, 'revenue') - number(a, 'revenue') || number(a, 'rank') - number(b, 'rank');
+  if (mode === 'coverage') return number(b, 'coverage') - number(a, 'coverage') || number(a, 'rank') - number(b, 'rank');
+  return number(b, 'valuation') - number(a, 'valuation') || number(a, 'rank') - number(b, 'rank');
+}
+function applySort() {
+  [...grid.children].sort((a, b) => compareCards(sort.value, a, b)).forEach(card => grid.appendChild(card));
+}
+if (grid && sort) {
+  sort.addEventListener('change', applySort);
+  applySort();
+}
+</script>
 """
 
 
@@ -46,18 +78,78 @@ def _band(c: float) -> str:
     return "high" if c >= 0.75 else "medium" if c >= 0.5 else "low"
 
 
-def _company_card(c) -> str:
+def _metric_label(key: str) -> str:
+    defs = load_metrics()
+    return defs[key].label if key in defs else key.replace("_", " ").title()
+
+
+def _tier(rank: int | None) -> str:
+    if not rank:
+        return "Watchlist"
+    if rank <= 10:
+        return "Tier 1"
+    if rank <= 25:
+        return "Tier 2"
+    if rank <= 50:
+        return "Tier 3"
+    return "Watchlist"
+
+
+def _display_rank(rank: int) -> str:
+    return f"#{rank}" if rank <= 50 else "watchlist"
+
+
+def _metric_number(c, metric: str) -> float:
+    rv = c.metrics.get(metric)
+    return float(rv.value) if rv and isinstance(rv.value, (int, float)) else 0.0
+
+
+def _coverage(c) -> int:
+    return len(c.metrics)
+
+
+def _card_attrs(*, rank: int, name: str, category: str | None, valuation=0.0, funding=0.0, revenue=0.0, coverage=0) -> str:
+    return (
+        f'data-rank="{rank}" data-name="{escape(name, quote=True)}" '
+        f'data-category="{escape(category or "", quote=True)}" '
+        f'data-valuation="{valuation}" data-funding="{funding}" data-revenue="{revenue}" data-coverage="{coverage}"'
+    )
+
+
+def _company_card(c, display_rank: int | None = None) -> str:
+    rank = display_rank or c.universe_rank
     rows = ""
     for m, rv in c.metrics.items():
         warn = ' <span class="warn" title="public-source discrepancy">⚑</span>' if rv.contradiction else ""
         val = _money(rv.value) if rv.unit == "USD" else f"{rv.value:,.0f}" if isinstance(rv.value, (int, float)) else rv.value
-        rows += (f'<div class="m"><span class="k">{m}{warn}</span>'
+        rows += (f'<div class="m"><span class="k">{_metric_label(m)}{warn}</span>'
                  f'<span class="v">{val} <span class="conf">[{rv.estimate_type.value} · {_band(rv.confidence)}]</span></span></div>')
-    return (f'<a class="card" href="company/{c.id}.html"><div class="cat">{c.category or ""} · #{c.universe_rank}</div>'
-            f'<h3>{c.name}</h3>{rows}</a>')
+    if not rows:
+        rows = '<div class="m"><span class="k">Coverage status</span><span class="v">source checked; no metric claims yet</span></div>'
+    attrs = _card_attrs(
+        rank=rank or 9999, name=c.name, category=c.category,
+        valuation=_metric_number(c, "valuation"), funding=_metric_number(c, "total_funding"),
+        revenue=_metric_number(c, "arr"), coverage=_coverage(c),
+    )
+    return (f'<a class="card" {attrs} href="company/{escape(c.id, quote=True)}.html">'
+            f'<div class="cat">{_tier(rank)} · {escape(c.category or "")} · {_display_rank(rank or 0)}</div>'
+            f'<h3>{escape(c.name)}</h3>{rows}</a>')
 
 
-def _company_page(c) -> str:
+def _pending_card(meta: dict, display_rank: int) -> str:
+    domain = meta.get("domain")
+    site = f'<a href="https://{escape(domain, quote=True)}">{escape(domain)}</a>' if domain else "domain pending"
+    attrs = _card_attrs(rank=display_rank, name=meta["name"], category=meta.get("category"))
+    return (
+        f'<article class="card pending" {attrs}><div class="cat">{_tier(display_rank)} · {escape(meta.get("category") or "")} · #{display_rank}</div>'
+        f'<h3>{escape(meta["name"])}</h3>'
+        f'<div class="m"><span class="k">Coverage status</span><span class="v">pending sourced metrics</span></div>'
+        f'<div class="src">{site}</div></article>'
+    )
+
+
+def _company_page(c, display_rank: int | None = None) -> str:
+    rank = display_rank or c.universe_rank
     blocks = ""
     for m, rv in c.metrics.items():
         srcs = ""
@@ -67,10 +159,10 @@ def _company_page(c) -> str:
                 srcs += f'<div class="src">↳ {link} · {cl.source.type.value} · {cl.source.published_at or "n.d."} — "{cl.raw_text}"</div>'
         warn = ' <span class="warn">⚑ public-source discrepancy</span>' if rv.contradiction else ""
         val = _money(rv.value) if rv.unit == "USD" else (f"{rv.value:,.0f}" if isinstance(rv.value, (int, float)) else rv.value)
-        blocks += (f'<div class="card"><div class="m"><span class="k">{m}{warn}</span>'
+        blocks += (f'<div class="card"><div class="m"><span class="k">{_metric_label(m)}{warn}</span>'
                    f'<span class="v">{val} <span class="conf">[{rv.estimate_type.value} · conf {rv.confidence}]</span></span></div>{srcs}</div>')
     return _html(f"{c.name} — OpenPitch", f'<a href="../index.html">← all companies</a><h1>{c.name}</h1>'
-                 f'<p class="sub">{c.category or ""} · rank #{c.universe_rank} · VC-attention {c.vc_attention_score}</p>'
+                 f'<p class="sub">{_tier(rank)} · {c.category or ""} · rank {_display_rank(rank or 0)} · VC-attention {c.vc_attention_score}</p>'
                  f'<div class="grid">{blocks}</div>{_DISCLAIMER}')
 
 
@@ -80,7 +172,7 @@ _DISCLAIMER = ('<div class="disc">OpenPitch is public-source, probabilistic inte
 
 
 def _html(title: str, body: str) -> str:
-    return f"<!doctype html><html><head><meta charset=utf-8><title>{title}</title><style>{_CSS}</style></head><body><div class=wrap>{body}</div></body></html>"
+    return f"<!doctype html><html><head><meta charset=utf-8><title>{title}</title><style>{_CSS}</style></head><body><div class=wrap>{body}</div>{_JS}</body></html>"
 
 
 def _agent_card() -> dict:
@@ -100,18 +192,63 @@ def _agent_card() -> dict:
 
 
 def build() -> str:
-    companies = sorted(store.read_all_companies(), key=lambda c: c.universe_rank or 1e9)
+    quality = write_report()
+    # Fail loud rather than silently shipping an empty-looking dashboard. If a read
+    # comes up short (e.g. racing a concurrent `run` that's rewriting data/, or a
+    # corrupt file), abort instead of overwriting a good dashboard with a near-empty
+    # "all pending" one. Atomic writes (store.atomic_write_text) make this rare, but
+    # this is the last-resort guard the symptom demands.
+    company_ids = store.list_company_ids()
+    companies_raw = store.read_all_companies()
+    if len(companies_raw) < len(company_ids):
+        raise RuntimeError(
+            f"Aborting dashboard build: read {len(companies_raw)} of {len(company_ids)} "
+            "company files — data/ looks mid-write or corrupt. Re-run after writes settle."
+        )
+    prev_selected = (store.read_universe() or {}).get("selected", [])
+    loaded_in_universe = sum(1 for c in companies_raw if c.in_universe)
+    if prev_selected and loaded_in_universe < len(prev_selected) // 2:
+        raise RuntimeError(
+            f"Aborting dashboard build: only {loaded_in_universe} in-universe companies "
+            f"loaded but universe.json selects {len(prev_selected)} — likely a transient "
+            "partial read. Re-run."
+        )
+    companies = sorted(
+        companies_raw,
+        key=lambda c: (-_metric_number(c, "valuation"), c.universe_rank or 1e9, c.name),
+    )
+    universe_size = int(load_scoring().get("universe_size", 50))
+    sourced_ids = {c.id for c in companies}
+    display_companies = [(rank, c) for rank, c in enumerate(companies[:universe_size], start=1)]
+    next_rank = len(display_companies) + 1
+    pending = []
+    for meta in load_watchlist():
+        if next_rank > universe_size:
+            break
+        if meta["id"] in sourced_ids:
+            continue
+        pending.append((next_rank, meta))
+        next_rank += 1
+
     (DIST / "company").mkdir(parents=True, exist_ok=True)
     (DIST / ".well-known").mkdir(parents=True, exist_ok=True)
 
-    cards = "".join(_company_card(c) for c in companies)
+    cards = "".join(_company_card(c, rank) for rank, c in display_companies)
+    cards += "".join(_pending_card(meta, rank) for rank, meta in pending)
     index = _html(
         "OpenPitch — AI-startup intelligence",
         f'<h1>OpenPitch</h1><p class="sub">Free, open, sourced AI-startup intelligence · '
-        f'{len(companies)} companies · updated {date.today()}</p>{_DISCLAIMER}<div class="grid">{cards}</div>',
+        f'{len(display_companies)} sourced profiles · {len(display_companies) + len(pending)} top-50 slots · updated {date.today()}</p>'
+        f'{_DISCLAIMER}<div class="quality"><span><strong>{quality.critical_count}</strong> critical quality issues · '
+        f'<strong>{quality.warning_count}</strong> warnings</span><a href="quality.html">View data quality</a></div>'
+        f'<div class="toolbar"><label for="sort">Sort</label><select id="sort" data-sort>'
+        f'<option value="valuation" selected>Valuation</option><option value="revenue">Revenue (ARR)</option><option value="funding">Total funding</option>'
+        f'<option value="coverage">Source coverage</option><option value="category">Category</option><option value="name">Name</option>'
+        f'</select></div><div class="grid" data-grid>{cards}</div>',
     )
-    (DIST / "index.html").write_text(index)
-    for c in companies:
-        (DIST / "company" / f"{c.id}.html").write_text(_company_page(c))
-    (DIST / ".well-known" / "agent.json").write_text(json.dumps(_agent_card(), indent=2))
+    store.atomic_write_text(DIST / "index.html", index)
+    for rank, c in display_companies:
+        store.atomic_write_text(DIST / "company" / f"{c.id}.html", _company_page(c, rank))
+    store.atomic_write_text(DIST / ".well-known" / "agent.json", json.dumps(_agent_card(), indent=2))
+    store.atomic_write_text(DIST / "quality.html", render_html(quality))
     return str(DIST)

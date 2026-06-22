@@ -5,9 +5,49 @@
   "website": "crewai.com",
   "category": "ai-agents",
   "segment": "global",
-  "in_universe": true,
-  "vc_attention_score": 0.0,
-  "universe_rank": 42,
-  "metrics": {},
-  "last_updated": "2026-06-14"
+  "in_universe": false,
+  "vc_attention_score": 60.5,
+  "universe_rank": 100,
+  "metrics": {
+    "notable_customers": {
+      "metric": "notable_customers",
+      "value": 63.0,
+      "unit": "list",
+      "range": null,
+      "as_of": "2026-06-22",
+      "estimate_type": "reported",
+      "confidence": 0.5,
+      "supporting_claims": [
+        "clm_8e6d94888c"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 63.0,
+        "change_pct": 0.0,
+        "since": "2026-06-20"
+      },
+      "history_ref": "history/crewai/notable_customers.jsonl"
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 18000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2024-11-04",
+      "estimate_type": "consensus",
+      "confidence": 0.192,
+      "supporting_claims": [
+        "clm_5782769ccf",
+        "clm_8bd3cbed6d"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 18000000.0,
+        "change_pct": 0.0,
+        "since": "2024-11-04"
+      },
+      "history_ref": "history/crewai/round_amount.jsonl"
+    }
+  },
+  "last_updated": "2026-06-22"
 }

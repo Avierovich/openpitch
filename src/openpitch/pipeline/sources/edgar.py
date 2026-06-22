@@ -70,7 +70,7 @@ def fetch(company: Company, *, client=None, lookback_days: int = 400) -> list[Ra
 
     params = {"q": f'"{company.name}"', "forms": "D"}
     owns_client = client is None
-    client = client or httpx.Client(timeout=20.0)
+    client = client or httpx.Client(timeout=8.0)
     try:
         resp = client.get(EFTS_URL, params=params, headers=sec_headers())
         resp.raise_for_status()

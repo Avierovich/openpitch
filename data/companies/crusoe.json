@@ -6,8 +6,66 @@
   "category": "ai-infra",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 0.0,
-  "universe_rank": 43,
-  "metrics": {},
-  "last_updated": "2026-06-14"
+  "vc_attention_score": 83.4,
+  "universe_rank": 30,
+  "metrics": {
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 1375000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-10-24",
+      "estimate_type": "reported",
+      "confidence": 0.271,
+      "supporting_claims": [
+        "clm_afb216c2af"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1375000000.0,
+        "change_pct": 0.0,
+        "since": "2025-10-24"
+      },
+      "history_ref": "history/crusoe/round_amount.jsonl"
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 1375000000.0,
+      "unit": "object",
+      "range": null,
+      "as_of": "2025-10-24",
+      "estimate_type": "reported",
+      "confidence": 0.271,
+      "supporting_claims": [
+        "clm_a0c2067f05"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1375000000.0,
+        "change_pct": 0.0,
+        "since": "2025-10-24"
+      },
+      "history_ref": "history/crusoe/latest_round.jsonl"
+    },
+    "valuation": {
+      "metric": "valuation",
+      "value": 10000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-10-24",
+      "estimate_type": "reported",
+      "confidence": 0.271,
+      "supporting_claims": [
+        "clm_ab4447f79e"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 10000000000.0,
+        "change_pct": 0.0,
+        "since": "2025-10-24"
+      },
+      "history_ref": "history/crusoe/valuation.jsonl"
+    }
+  },
+  "last_updated": "2026-06-22"
 }

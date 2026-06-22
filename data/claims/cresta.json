@@ -1,0 +1,109 @@
+[
+  {
+    "id": "clm_4b16a6f686",
+    "company_id": "cresta",
+    "metric": "arr",
+    "value": 100000000.0,
+    "unit": "USD",
+    "raw_text": "Cresta hits $100M ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOHRDN0xwdUtuWWczUTIzaWZCem5NLVEzQ0RxZW9JXzFocnR0dWw1d2U2Tld4UU9LM19lZUlndTNtMkZiS3lQSExVajdzaFNJQ1pkS2hiMWVFMjZMVWhsVjZURnU2Z3ZYWE5VZGh5YU5ldUVnZk5CMVRLaGlLczRBNDc2ZkRZTEpUTzhSX0tqQW1Pa1NoYkFOTFJtdU9xSmxwdFZaZlBuM3J4bXJGQmc?oc=5",
+      "locator": null,
+      "published_at": "2026-04-30"
+    },
+    "extracted_at": "2026-06-20T22:06:34.303152",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_ebdb1b4780",
+    "company_id": "cresta",
+    "metric": "arr",
+    "value": 52000000.0,
+    "unit": "USD",
+    "raw_text": "Cresta Revenue 2025: $52M ARR",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9sNUZYeVVFVzFwUERLQmhma05nZS1JRml4WHZoTndaR0k3UlY3VjdqTU1oU3pSRWpQZ2JoT3RCQWRHMUpkaGdJRDYtaGFoUQ?oc=5",
+      "locator": null,
+      "published_at": "2025-11-28"
+    },
+    "extracted_at": "2026-06-20T22:06:34.303152",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.3675,
+    "derivation": null
+  },
+  {
+    "id": "clm_249e8e5a03",
+    "company_id": "cresta",
+    "metric": "valuation",
+    "value": 1600000000.0,
+    "unit": "USD",
+    "raw_text": "$1.6B Valuation",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9sNUZYeVVFVzFwUERLQmhma05nZS1JRml4WHZoTndaR0k3UlY3VjdqTU1oU3pSRWpQZ2JoT3RCQWRHMUpkaGdJRDYtaGFoUQ?oc=5",
+      "locator": null,
+      "published_at": "2025-11-28"
+    },
+    "extracted_at": "2026-06-20T22:06:34.303152",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.3675,
+    "derivation": null
+  },
+  {
+    "id": "drv_e6aa5def58",
+    "company_id": "cresta",
+    "metric": "revenue_multiple",
+    "value": 16.0,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-04-30"
+    },
+    "extracted_at": "2026-06-22T00:00:00",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.1775,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_249e8e5a03",
+        "clm_4b16a6f686"
+      ]
+    }
+  }
+]

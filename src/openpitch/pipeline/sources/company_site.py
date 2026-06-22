@@ -38,7 +38,7 @@ def fetch(company: Company, *, client=None) -> list[RawItem]:
         return []
     domain = company.website.replace("https://", "").replace("http://", "").strip("/")
     owns_client = client is None
-    client = client or httpx.Client(timeout=15.0, follow_redirects=True)
+    client = client or httpx.Client(timeout=6.0, follow_redirects=True)
     items: list[RawItem] = []
     try:
         for url in careers_candidates(domain):

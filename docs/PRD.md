@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **Date** | 2026-06-13 |
-| **Status** | Draft |
+| **Status** | Draft, implementation in progress |
 | **Companions** | [BRD](BRD.md), [FRD](FRD.md), [LAUNCH-GATES](LAUNCH-GATES.md) |
 
 ## 1. Product Thesis
@@ -44,6 +44,14 @@ Secondary users are investors, founders, journalists, and analysts who browse th
 - Methodology page explaining confidence, reconciliation, source policy, and corrections.
 - Correction workflow using GitHub issues and public evidence.
 - README with a working demo path and install instructions.
+- Human-readable metric labels in product surfaces; implementation keys like `arr` should render as `ARR / revenue`.
+- Top-50 company universe retained by rank tiers: Tier 1 ranks 1-10, Tier 2 ranks 11-25, Tier 3 ranks 26-50.
+
+Current implementation status:
+
+- Built: data model, reconciliation, derivation, source adapters, batched extraction, MCP tools, dashboard, event feed, daily workflow, Groq transcription, raw-GitHub data fetcher, and A2A agent card generation.
+- Partial: 5-company seed exists and is suitable for software testing, but v0.1 launch still requires a 10-company human-audited seed and selected contradiction assets.
+- Selected brand direction: **Terminal Proof** logo in `docs/brand/logo-options/05-terminal-proof.svg`.
 
 ### Should Ship
 
@@ -116,6 +124,7 @@ Acceptance criteria:
 - **No hidden data magic.** Users should understand how a number was produced.
 - **Local first.** MCP reads committed data locally; no hosted backend is required.
 - **Corrections improve trust.** Public correction history is a credibility asset.
+- **Ranked, not random.** The product retains a dynamic top-50 universe grouped by tiers; the seed dataset is only the proof subset.
 
 ## 7. Success Metrics
 
@@ -139,8 +148,8 @@ Acceptance criteria:
 
 ## 8. Open Questions
 
-- Which 10 companies form the v0.1 seed?
+- Which 5 additional companies complete the v0.1 seed beyond the current 5?
 - What exact threshold qualifies a contradiction as launch-worthy?
-- Should v0.1 include A2A discovery only as an Agent Card, or defer A2A entirely?
-- What minimum static dashboard is enough before a full dashboard build?
+- Should v0.1 expose A2A only as the generated Agent Card, or add a fuller A2A task endpoint later?
+- Is the current static dashboard sufficient for launch, or does it need filtering/search before launch?
 - Which source excerpts can be stored safely without republishing copyrighted text?

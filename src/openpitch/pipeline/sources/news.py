@@ -44,8 +44,17 @@ def parse_feed(parsed, company_id: str) -> list[RawItem]:
     return items
 
 
-def fetch(company: Company, *, limit: int = 10) -> list[RawItem]:
+def fetch(company: Company, *, client=None, limit: int = 10) -> list[RawItem]:
     import feedparser
+    import httpx
 
-    parsed = feedparser.parse(build_query_url(company.name))
-    return parse_feed(parsed, company.id)[:limit]  # Google News RSS is recency-ordered
+    owns_client = client is None
+    client = client or httpx.Client(timeout=8.0, follow_redirects=True)
+    try:
+        resp = client.get(build_query_url(company.name))
+        resp.raise_for_status()
+        parsed = feedparser.parse(resp.content)
+        return parse_feed(parsed, company.id)[:limit]  # Google News RSS is recency-ordered
+    finally:
+        if owns_client:
+            client.close()

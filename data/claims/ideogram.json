@@ -1,0 +1,109 @@
+[
+  {
+    "id": "clm_2b9cfe2f11",
+    "company_id": "ideogram",
+    "metric": "arr",
+    "value": 7000000.0,
+    "unit": "USD",
+    "raw_text": "$7M ARR",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5kc1JaalZJMFJzSm4xeVNLbV8zOWFZUnVGVC1WaWdyNk5iUVBPM0JDdF9JX2t0ZjQ3WWZFMVJUb0JBcWo4bkFYcS16b0V0aFRFeThuSw?oc=5",
+      "locator": null,
+      "published_at": "2025-09-18"
+    },
+    "extracted_at": "2026-06-20T22:06:34.303152",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.3675,
+    "derivation": null
+  },
+  {
+    "id": "clm_a60e4fd701",
+    "company_id": "ideogram",
+    "metric": "valuation",
+    "value": 21000000.0,
+    "unit": "USD",
+    "raw_text": "$21M Valuation",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5kc1JaalZJMFJzSm4xeVNLbV8zOWFZUnVGVC1WaWdyNk5iUVBPM0JDdF9JX2t0ZjQ3WWZFMVJUb0JBcWo4bkFYcS16b0V0aFRFeThuSw?oc=5",
+      "locator": null,
+      "published_at": "2025-09-18"
+    },
+    "extracted_at": "2026-06-20T22:06:34.303152",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.3675,
+    "derivation": null
+  },
+  {
+    "id": "clm_1751bdfb6b",
+    "company_id": "ideogram",
+    "metric": "round_amount",
+    "value": 80000000.0,
+    "unit": "USD",
+    "raw_text": "Ideogram Gen AI Raises $80 Million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Forbes",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOFNha1g4ZGxESFFkaUNELUxZT3Ytc1hmcXJwZmliQS1HZldYNTNwcXRza0ROUUd2NXhjbGJjNFdtZTB3MTl6QlA0bUMxSjR4dGE4U1NwNlFpZEV3OXZyNzFJWF9yU2JlOVBaTFdYNUxKeTJtS0dTTVFtVmVRVExwdG41aWozazRDT0EyVE5MbXVmTXpyU3JyeDJlTGJVcW5MdUswbng4WUNTTDlmb1ZUdE13azhIN3NVZkNrZkYweVBhcUU?oc=5",
+      "locator": null,
+      "published_at": "2024-03-01"
+    },
+    "extracted_at": "2026-06-20T22:06:34.303152",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "drv_33e8622099",
+    "company_id": "ideogram",
+    "metric": "revenue_multiple",
+    "value": 3.0,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2025-09-18"
+    },
+    "extracted_at": "2026-06-22T00:00:00",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.1243,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_a60e4fd701",
+        "clm_2b9cfe2f11"
+      ]
+    }
+  }
+]

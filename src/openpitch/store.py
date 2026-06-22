@@ -7,6 +7,8 @@ Everything round-trips through the Pydantic models in `models.py`.
 from __future__ import annotations
 
 import json
+import os
+import tempfile
 from pathlib import Path
 
 from . import paths
@@ -30,9 +32,31 @@ def _data_file(relpath: str) -> Path | None:
     return paths.resolve_remote(f"data/{relpath}")
 
 
-def _write_json(path: Path, obj) -> None:
+def atomic_write_text(path: Path, text: str) -> None:
+    """Write `text` so readers never observe a partial file.
+
+    `Path.write_text` truncates-then-writes, so a concurrent reader (e.g. a
+    dashboard build racing a `run` that rewrites company JSON) can catch the file
+    empty and crash with JSONDecodeError. Writing to a temp file in the same dir
+    and os.replace()-ing it in is atomic on POSIX: readers see the old complete
+    file or the new complete file, never an empty/torn one.
+    """
     _ensure(path.parent)
-    path.write_text(json.dumps(obj, indent=2, ensure_ascii=False, default=str) + "\n")
+    fd, tmp = tempfile.mkstemp(dir=path.parent, prefix=".tmp-", suffix=path.suffix or ".tmp")
+    try:
+        with os.fdopen(fd, "w") as f:
+            f.write(text)
+        os.replace(tmp, path)
+    except BaseException:
+        try:
+            os.unlink(tmp)
+        except OSError:
+            pass
+        raise
+
+
+def _write_json(path: Path, obj) -> None:
+    atomic_write_text(path, json.dumps(obj, indent=2, ensure_ascii=False, default=str) + "\n")
 
 
 def _read_json(path: Path | None):
@@ -158,6 +182,4 @@ def read_universe() -> dict | None:
 
 
 def write_digest(day: str, markdown: str) -> None:
-    path = data_dir() / "digest" / f"{day}.md"
-    _ensure(path.parent)
-    path.write_text(markdown)
+    atomic_write_text(data_dir() / "digest" / f"{day}.md", markdown)

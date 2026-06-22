@@ -68,11 +68,41 @@ EXTRACTION_SYSTEM = (
     "guess, or include forward-looking targets as facts. Normalize values to base units: "
     "money in absolute USD (e.g. '$100M' -> 100000000), counts as integers, percentages as "
     "plain numbers (e.g. '40%' -> 40). Map each to one of the allowed metric keys; if a "
-    "mention doesn't fit a key, omit it. Capture softening qualifiers (run_rate, rounded, "
+    "mention doesn't fit a key, omit it. "
+    "CRITICAL: revenue metrics (arr, mrr, acv) mean the company's OWN recurring revenue. "
+    "GMV, gross merchandise value, TPV, total payment/transaction volume, bookings, AUM, and "
+    "deposits are NOT revenue — never map a volume figure to arr/mrr/acv (a $6B GMV is not $6B ARR). "
+    "Capture softening qualifiers (run_rate, rounded, "
     "approximate, forward_looking, unconfirmed) and the speaker's role "
     "(founder, exec, investor, journalist, unknown). Quote the exact source phrase in raw_text. "
     "If no metric is stated, return an empty claims array."
 )
+
+# Deterministic backstop for the GMV-as-revenue mislabel (the LLM, esp. weaker
+# fallback models, sometimes ignores the prompt rule above). A revenue metric whose
+# quoted phrase names a transaction VOLUME but not recurring revenue is dropped.
+REVENUE_METRICS = {"arr", "mrr", "acv"}
+_VOLUME_TERMS = (
+    "gmv", "gross merchandise", "tpv", "total payment volume", "payment volume",
+    "transaction volume", "transactions processed", "gross transaction", "bookings",
+    "assets under management", "aum", "deposits", "throughput",
+)
+# Wording that genuinely denotes recurring revenue — rescues a claim that also
+# mentions volume. Note "revenue growth" is NOT here: a % growth doesn't validate an
+# absolute revenue figure, which is exactly the Foodics "$6B GMV and 29% revenue growth" trap.
+_RECURRING_TERMS = (
+    "arr", "annual recurring", "recurring revenue", "mrr", "acv", "run rate", "run-rate",
+    "in revenue", "revenue of", "revenue reached", "revenue hit", "revenue was", "revenue is",
+)
+
+
+def is_volume_mislabel(metric: str, raw_text: str) -> bool:
+    t = (raw_text or "").lower()
+    return (
+        metric in REVENUE_METRICS
+        and any(v in t for v in _VOLUME_TERMS)
+        and not any(r in t for r in _RECURRING_TERMS)
+    )
 
 
 def build_user_prompt(raw_item: RawItem, company_name: str, metric_keys: list[str]) -> str:
@@ -138,6 +168,8 @@ def extract_claims(
         metric = rc.get("metric")
         if metric not in metric_keys:
             continue  # never trust the model to invent metric keys
+        if is_volume_mislabel(metric, rc.get("raw_text", "")):
+            continue  # GMV/TPV/etc. mislabeled as revenue
         speaker = Speaker(name=None, role=_role(rc.get("speaker_role")))
         claim = Claim(
             id=_claim_id(company.id, metric, rc.get("value"), source.name, source.published_at),
@@ -183,6 +215,8 @@ def extract_claims_batch(
         idx = rc.get("item_index")
         if metric not in metric_keys or not isinstance(idx, int) or not (0 <= idx < len(items)):
             continue
+        if is_volume_mislabel(metric, rc.get("raw_text", "")):
+            continue  # GMV/TPV/etc. mislabeled as revenue
         it = items[idx]
         source = Source(
             type=it.source_type, name=it.source_name, url=it.url,

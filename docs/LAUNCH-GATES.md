@@ -10,16 +10,17 @@ The default bias is: **delay launch until the proof is credible.**
 
 | Gate | Required For Public Launch | Status |
 |---|---:|---|
-| Credible seed dataset | Yes | Not started |
-| Working MCP read path | Yes | Scaffolded |
-| Provenance on every metric | Yes | Not started |
-| Strong contradictions | Yes | Not started |
-| Correction workflow | Yes | Not started |
-| Methodology/data policy | Yes | Drafted/planned |
-| Static dashboard or company cards | Yes | Not started |
+| Credible seed dataset | Yes | Partial: 5-company seed, needs launch-grade audit and expansion to 10 |
+| Working MCP read path | Yes | Built and tested through pure tool functions |
+| Provenance on every metric | Yes | Partial: generated data carries claims/sources; every launch metric still needs human QA |
+| Strong contradictions | Yes | Partial: contradiction machinery exists; launch-grade examples still need selection |
+| Correction workflow | Yes | Drafted in docs; GitHub issue template still needed |
+| Methodology/data policy | Yes | Drafted |
+| Static dashboard or company cards | Yes | Built and deep-tested locally |
 | README demo asset | Yes | Not started |
-| Clean-machine install test | Yes | Not started |
+| Clean-machine install test | Yes | Partial until GitHub push + clean-machine clone/MCP test pass; then mark Fully complete |
 | MCP directory submissions | Before campaign | Not started |
+| Brand/logo | Before public launch | Selected: Terminal Proof (`docs/brand/logo-options/05-terminal-proof.svg`) |
 
 Update this table as the repo moves toward launch.
 
@@ -76,6 +77,13 @@ Required:
 - No MCP tool strips provenance from numeric answers.
 - No-data responses are explicit and non-hallucinatory.
 
+Current status:
+
+- Pure MCP tool logic passed deep testing against isolated generated data.
+- Editable local install and CLI entrypoints passed.
+- After the GitHub push, run the clean-machine clone/MCP test in `docs/OPERATIONS.md`. If it passes, update this gate to **Fully complete**.
+- Published package/`uvx openpitch-mcp` path remains a release-channel validation item if package publishing is used.
+
 Acceptance test:
 
 ```text
@@ -103,6 +111,7 @@ Required:
 - Demo does not require maintainer secrets.
 - Static dashboard or company cards open without local setup.
 - Methodology and correction links visible from README.
+- Primary logo selected: **Terminal Proof**.
 
 ## 6. Distribution Readiness
 

@@ -73,6 +73,26 @@ def test_extract_drops_unknown_metric():
     assert [c.metric for c in claims] == ["arr"]  # 'vibes' filtered out
 
 
+def test_extract_drops_gmv_mislabeled_as_arr():
+    # The Foodics trap: a GMV figure tagged arr, in a phrase that also says "revenue growth".
+    llm = MockLLM({"claims": [
+        {"metric": "arr", "value": 6_000_000_000, "raw_text": "reports $6 billion GMV and 29% revenue growth"},
+        {"metric": "arr", "value": 20_800_000, "raw_text": "Foodics 2024: $20.8M ARR"},
+    ]})
+    claims = extract_claims(raw(SourceType.NEWS, "MENAbytes"), ACME, llm=llm, metric_keys=METRICS, now=NOW)
+    vals = sorted(c.value for c in claims)
+    assert vals == [20_800_000]  # GMV claim dropped, genuine ARR kept
+
+
+def test_volume_mislabel_guard_unit():
+    from openpitch.pipeline.extract.extract import is_volume_mislabel
+    assert is_volume_mislabel("arr", "$6 billion GMV and 29% revenue growth")
+    assert is_volume_mislabel("mrr", "processed $2B in total payment volume")
+    assert not is_volume_mislabel("arr", "hit $200M ARR run rate")      # recurring rescues
+    assert not is_volume_mislabel("arr", "$50M revenue of recurring SaaS")
+    assert not is_volume_mislabel("valuation", "$6 billion GMV")        # non-revenue metric untouched
+
+
 def test_extract_confidence_reflects_source_quality():
     # Same value, but a founder-on-podcast claim should outrank an anonymous social post.
     pod = extract_claims(

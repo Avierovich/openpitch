@@ -1,0 +1,107 @@
+[
+  {
+    "id": "clm_a80c808a9f",
+    "company_id": "yitu",
+    "metric": "arr",
+    "value": 103000000.0,
+    "unit": null,
+    "raw_text": "$103M ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMTVphd21ybkZFUlZROW5WQzhUU2lTNWhvSDBJM0JtS2xHdTVwSEhjY3JzaXdfVE9NSXlYdF84SDEyaDF6YnpBYjBTQ2JkMXllSDF5ajFB?oc=5",
+      "locator": null,
+      "published_at": "2025-12-04"
+    },
+    "extracted_at": "2026-06-23T00:25:31.567079",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_5e547d806f",
+    "company_id": "yitu",
+    "metric": "valuation",
+    "value": 3500000000.0,
+    "unit": null,
+    "raw_text": "$3.5B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMTVphd21ybkZFUlZROW5WQzhUU2lTNWhvSDBJM0JtS2xHdTVwSEhjY3JzaXdfVE9NSXlYdF84SDEyaDF6YnpBYjBTQ2JkMXllSDF5ajFB?oc=5",
+      "locator": null,
+      "published_at": "2025-12-04"
+    },
+    "extracted_at": "2026-06-23T00:25:31.567079",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_568670cfcc",
+    "company_id": "yitu",
+    "metric": "headcount",
+    "value": 50.0,
+    "unit": null,
+    "raw_text": "plans to hire 50-60 researchers",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Straits Times",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdktOdVBOVnduYWx3d3JvTExtcVZOOE9VS2dmQXpuMC1zYmdZNE5mQWxTbXcxdjk0aVpoeEk4MGZ5UzJWUldfdEtuVEFJbEdBczZsVGlnMEFSb1czdHMxYldMTlA1cWl3ak50RDhKUlRYZkMwRzZBYjlqUGtGS3lDMVhmNk9GNFpMR05zd1ZQUW1PSkpsZ3JGU1VDbXZ3X0MtVXU0dEJXeWp5NzU1SmtBUm9TTGRraldLdWF5bGFqTWhYal9JbVd1QQ?oc=5",
+      "locator": null,
+      "published_at": "2018-01-23"
+    },
+    "extracted_at": "2026-06-23T00:25:31.567079",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.3375,
+    "derivation": null
+  },
+  {
+    "id": "drv_a14d5db8d5",
+    "company_id": "yitu",
+    "metric": "revenue_multiple",
+    "value": 33.98,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2025-12-04"
+    },
+    "extracted_at": "2026-06-23T00:25:31.567079",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.1294,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_5e547d806f",
+        "clm_a80c808a9f"
+      ]
+    }
+  }
+]

@@ -91,23 +91,108 @@ class GeminiLLM:
                         time.sleep(2 * (attempt + 1))  # per-minute backoff
                         continue
                     raise
-        raise last  # type: ignore[misc]
+        if last:
+            raise last
+        raise RuntimeError("All configured Gemini models are exhausted or unavailable.")
+
+
+class GroqLLM:
+    """Groq chat-completions JSON extractor.
+
+    Groq is useful for bulk sourcing runs when Gemini free quota is exhausted.
+    It uses Groq's OpenAI-compatible endpoint and asks for JSON-object output.
+    """
+
+    def __init__(self, api_key: str, model: str | None = None):
+        self.api_key = api_key
+        self.model = model or os.environ.get("OPENPITCH_GROQ_MODEL", "llama-3.3-70b-versatile")
+
+    def complete_json(self, system: str, user: str, schema: dict) -> Any:
+        import httpx
+
+        json_system = f"{system}\nRespond with a valid JSON object."
+        resp = httpx.post(
+            "https://api.groq.com/openai/v1/chat/completions",
+            headers={"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"},
+            json={
+                "model": self.model,
+                "temperature": 0,
+                "response_format": {"type": "json_object"},
+                "messages": [
+                    {"role": "system", "content": json_system},
+                    {"role": "user", "content": user},
+                ],
+            },
+            timeout=60.0,
+        )
+        if resp.status_code >= 400:
+            raise RuntimeError(f"Groq error {resp.status_code}: {resp.text[:500]}")
+        content = resp.json()["choices"][0]["message"]["content"]
+        return json.loads(content)
+
+
+def _is_quota(msg: str) -> bool:
+    return "429" in msg or "RESOURCE_EXHAUSTED" in msg or "exhausted" in msg.lower()
+
+
+class FallbackLLM:
+    """Try providers in order; on quota exhaustion fall through to the next.
+
+    This is what multiplies free capacity: each Gemini key has its own daily
+    quota (and rotates 3 models internally), and Groq's quota is separate again.
+    A run only stops extracting when EVERY provider is drained.
+    """
+
+    def __init__(self, providers: list[LLMProvider]):
+        self.providers = providers
+
+    @property
+    def model(self) -> str:
+        return self.providers[0].model
+
+    def complete_json(self, system: str, user: str, schema: dict) -> Any:
+        last: Exception | None = None
+        for p in self.providers:
+            try:
+                return p.complete_json(system, user, schema)
+            except Exception as exc:  # noqa: BLE001
+                last = exc
+                if _is_quota(str(exc)):
+                    continue  # this provider is spent — try the next
+                raise
+        raise last or RuntimeError("No LLM providers configured.")
 
 
 def get_provider() -> LLMProvider:
-    """Build the configured provider from the environment.
+    """Build the configured provider chain from the environment.
 
-    OPENPITCH_LLM selects the provider (default: gemini); LLM_API_KEY supplies the key.
+    OPENPITCH_LLM selects the primary provider (default: gemini). LLM_API_KEY may
+    be a comma-separated list of Gemini keys (each its own daily quota). When a
+    GROQ_API_KEY is also present it's appended as a final fallback, so a run keeps
+    going after Gemini's free quota is exhausted.
     """
     from ...paths import load_dotenv
     load_dotenv()  # pick up a local .env (gitignored) if present
 
     name = os.environ.get("OPENPITCH_LLM", "gemini").lower()
+    override = os.environ.get("OPENPITCH_LLM_MODELS")
+    models = [m.strip() for m in override.split(",") if m.strip()] if override else None
+    groq_key = os.environ.get("GROQ_API_KEY")
+
+    providers: list[LLMProvider] = []
     if name == "gemini":
-        key = os.environ.get("LLM_API_KEY")
-        if not key:
+        raw = os.environ.get("LLM_API_KEY")
+        if not raw:
             raise RuntimeError("LLM_API_KEY is not set (see README — a free Gemini key).")
-        override = os.environ.get("OPENPITCH_LLM_MODELS")
-        models = [m.strip() for m in override.split(",") if m.strip()] if override else None
-        return GeminiLLM(key, models=models)
-    raise ValueError(f"Unknown OPENPITCH_LLM provider: {name!r}")
+        for key in [k.strip() for k in raw.split(",") if k.strip()]:
+            providers.append(GeminiLLM(key, models=models))
+        if groq_key:
+            providers.append(GroqLLM(groq_key))  # separate free quota — final fallback
+    elif name == "groq":
+        if not groq_key:
+            raise RuntimeError("GROQ_API_KEY is not set.")
+        providers.append(GroqLLM(groq_key))
+    else:
+        raise ValueError(f"Unknown OPENPITCH_LLM provider: {name!r}")
+
+    return providers[0] if len(providers) == 1 else FallbackLLM(providers)

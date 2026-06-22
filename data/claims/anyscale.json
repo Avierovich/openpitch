@@ -1,1 +1,105 @@
-[]
+[
+  {
+    "id": "clm_9598186830",
+    "company_id": "anyscale",
+    "metric": "arr",
+    "value": 111900000.0,
+    "unit": "USD",
+    "raw_text": "Anyscale Revenue 2023: $111.9M ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqUW1CNktWMm84NWZSMnFXQnkyaUhsbWgwTmJNX19Md2w5NGVxUlhleEVNQkZLbmNaeXVON2xoVEppUF9UbElxUzA0RjVsTGplQ3ZLZEp3?oc=5",
+      "locator": null,
+      "published_at": "2025-11-28"
+    },
+    "extracted_at": "2026-06-20T22:02:31.667902",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_061ac6a6dc",
+    "company_id": "anyscale",
+    "metric": "valuation",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "$1B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqUW1CNktWMm84NWZSMnFXQnkyaUhsbWgwTmJNX19Md2w5NGVxUlhleEVNQkZLbmNaeXVON2xoVEppUF9UbElxUzA0RjVsTGplQ3ZLZEp3?oc=5",
+      "locator": null,
+      "published_at": "2025-11-28"
+    },
+    "extracted_at": "2026-06-20T22:02:31.667902",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_751fec6341",
+    "company_id": "anyscale",
+    "metric": "round_amount",
+    "value": 99000000.0,
+    "unit": "USD",
+    "raw_text": "AI Startup Anyscale Adds $99 Million to Andreessen Horowitz-Led Funding Round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMnlvRHZHMlo0WWRiSncwTW11T2NpV1BVNFE2azl0SDFhNWhsWEF3TDExUlJpWHo3WnVIR01ORm5RMVVRa1dNc2VlbGo5eVhvX2VzNDNrV0ZUdG1jSHJ1UU1EaE1GdjhLUjBoN3pnUzQ1aEFHMVg2MlI0c016RVJ4SFVWQVloOHpqRFdLSFhNUUQxM0lPUU10RnFZVzl4R1hGSjRnNnNRX09qRTIzR1poNTJ2eFRzLUk?oc=5",
+      "locator": null,
+      "published_at": "2022-08-23"
+    },
+    "extracted_at": "2026-06-20T22:02:31.667902",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "drv_396a0a157f",
+    "company_id": "anyscale",
+    "metric": "revenue_multiple",
+    "value": 8.94,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2025-11-28"
+    },
+    "extracted_at": "2026-06-22T00:00:00",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.2536,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_061ac6a6dc",
+        "clm_9598186830"
+      ]
+    }
+  }
+]

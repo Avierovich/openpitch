@@ -5,9 +5,86 @@
   "website": "anyscale.com",
   "category": "ai-infra",
   "segment": "global",
-  "in_universe": true,
-  "vc_attention_score": 0.0,
-  "universe_rank": 40,
-  "metrics": {},
-  "last_updated": "2026-06-14"
+  "in_universe": false,
+  "vc_attention_score": 75.1,
+  "universe_rank": 66,
+  "metrics": {
+    "arr": {
+      "metric": "arr",
+      "value": 111900000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-11-28",
+      "estimate_type": "reported",
+      "confidence": 0.094,
+      "supporting_claims": [
+        "clm_9598186830"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 111900000.0,
+        "change_pct": 0.0,
+        "since": "2025-11-28"
+      },
+      "history_ref": "history/anyscale/arr.jsonl"
+    },
+    "valuation": {
+      "metric": "valuation",
+      "value": 1000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-11-28",
+      "estimate_type": "reported",
+      "confidence": 0.299,
+      "supporting_claims": [
+        "clm_061ac6a6dc"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
+        "since": "2025-11-28"
+      },
+      "history_ref": "history/anyscale/valuation.jsonl"
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 99000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2022-08-23",
+      "estimate_type": "reported",
+      "confidence": 0.011,
+      "supporting_claims": [
+        "clm_751fec6341"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 99000000.0,
+        "change_pct": -0.0,
+        "since": "2022-08-23"
+      },
+      "history_ref": "history/anyscale/round_amount.jsonl"
+    },
+    "revenue_multiple": {
+      "metric": "revenue_multiple",
+      "value": 8.94,
+      "unit": "x",
+      "range": null,
+      "as_of": "2025-11-28",
+      "estimate_type": "reported",
+      "confidence": 0.046,
+      "supporting_claims": [
+        "drv_396a0a157f"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 8.94,
+        "change_pct": 0.0,
+        "since": "2025-11-28"
+      },
+      "history_ref": "history/anyscale/revenue_multiple.jsonl"
+    }
+  },
+  "last_updated": "2026-06-22"
 }

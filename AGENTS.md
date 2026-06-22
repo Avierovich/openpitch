@@ -167,6 +167,161 @@ Follow-up required:
 
 - Add repository secrets `GROQ_API_KEY` and `OPENPITCH_SEC_USER_AGENT` in GitHub before relying on the scheduled live pipeline.
 
+### 2026-06-14 - Brand selection and documentation sync
+
+Codex created five SVG logo options and Mohamed selected option 5, **Terminal Proof**, as the current OpenPitch logo direction.
+
+Files created by Codex:
+
+- `docs/brand/logo-options/01-signal-pitch.svg`
+- `docs/brand/logo-options/02-receipt-node.svg`
+- `docs/brand/logo-options/03-agent-bridge.svg`
+- `docs/brand/logo-options/04-git-radar.svg`
+- `docs/brand/logo-options/05-terminal-proof.svg`
+- `docs/brand/logo-options/README.md`
+- `docs/OPERATIONS.md`
+- `docs/RECENT-CHANGES.md`
+
+Files updated by Codex:
+
+- `README.md`
+- `docs/LAUNCH-GATES.md`
+- `docs/PRD.md`
+- `docs/FRD.md`
+- `docs/DATA-POLICY.md`
+- `docs/V0-SEED-DATASET.md`
+- `docs/GROWTH.md`
+
+Main content changes:
+
+- Updated project docs to reflect recent runtime work: MCP tools, static dashboard, event feed, batched extraction, Groq transcription, raw-GitHub data fetching, daily workflow env wiring, and SEC EDGAR fair-access headers.
+- Clarified that the 5-company seed is software-test-ready but not launch-grade.
+- Added operational guidance for local `.env`, GitHub secrets, pre-push safety, and generated-data separation.
+- Updated logo guidance to make Terminal Proof the selected direction.
+- Added a post-GitHub-push rule: once clean-machine clone install and MCP startup pass, update the install gate from partial to fully complete.
+- Updated dashboard behavior: metric labels must come from `config/metrics.yaml`, and company cards/pages display top-50 rank tiers.
+
+### 2026-06-14 - Dashboard top-50 sourcing, valuation sort, and Groq extraction
+
+Codex updated the dashboard/runtime so the hands-on demo retains the full top-50 view while distinguishing sourced metrics from source-checked profiles.
+
+Files modified by Codex:
+
+- `src/openpitch/pipeline/dashboard.py`
+- `src/openpitch/pipeline/run.py`
+- `src/openpitch/pipeline/llm/__init__.py`
+- `src/openpitch/pipeline/sources/company_site.py`
+- `src/openpitch/pipeline/sources/edgar.py`
+- `src/openpitch/pipeline/sources/news.py`
+- `src/openpitch/pipeline/sources/podcast_rss.py`
+- `tests/test_pipeline.py`
+- `docs/FRD.md`
+- `docs/RECENT-CHANGES.md`
+
+Main content changes:
+
+- Dashboard now defaults to valuation-descending order.
+- Dashboard adds a user sort control for valuation, total funding, source coverage, category, and name.
+- Dashboard still renders exactly 50 top-50 slots.
+- Pending cards are replaced by source-checked company profiles after a broad source run; profiles with no extracted metrics say `source checked; no metric claims yet`.
+- Added Groq claim extraction provider behind `OPENPITCH_LLM=groq`.
+- Added live-run controls: `--transcriptions`, `--max-source-items`, and `--skip-podcasts`.
+- Bounded HTTP source timeouts for EDGAR, news RSS, podcast RSS, and company-site fetches.
+
+Verification performed by Codex:
+
+- Ran `OPENPITCH_LLM=groq .venv/bin/openpitch run --companies 50 --transcriptions 0 --skip-podcasts --max-source-items 6`.
+- Result: `Run complete: 50 companies; 3 events.`
+- Rebuilt dashboard with `.venv/bin/openpitch build-dashboard`.
+- Browser verification at `http://localhost:8765/index.html`:
+  - 50 total cards.
+  - 50 sourced profile cards.
+  - 0 pending cards.
+  - 23 profiles with extracted metrics.
+  - 27 source-checked profiles without supported metric claims yet.
+  - Default sort selected: valuation.
+  - Sort-by-name interaction worked, then the page was reset to valuation sort.
+- Ran focused checks: `PYTHONPATH=src .venv/bin/python -m pytest tests/test_pipeline.py tests/test_adapters.py` (`16 passed`) and `ruff check` on touched pipeline/test files.
+
+Source reliability notes:
+
+- Several EDGAR searches returned SEC `500 Internal Server Error`; the pipeline continued through news/site extraction. Treat these as external-source reliability findings, not local test failures.
+- Podcast RSS was intentionally skipped for the broad run to avoid audio/transcription drag during hands-on testing.
+
+### 2026-06-14 - Corrected top-50 quality issue after hands-on review
+
+Mohamed flagged that the valuation-ranked dashboard missed obvious billion-dollar/high-ARR startups. Codex confirmed the root cause: the broad run used `--companies 50`, which meant the first 50 YAML watchlist rows, not the best 50 companies, and the run path was also overwriting prior sourced profiles with empty profiles when no claims extracted.
+
+Files modified by Codex:
+
+- `src/openpitch/pipeline/run.py`
+- `data/seed/claims.json`
+- `docs/RECENT-CHANGES.md`
+- `AGENTS.md`
+
+Main content changes:
+
+- Live runs now publish a company only when extraction produced claims; source-checked/no-claim runs no longer degrade existing profiles.
+- Added `--ids` for targeted live sourcing.
+- Added `--extract-sleep` to throttle extraction under provider rate limits.
+- Expanded the source-backed seed baseline with Perplexity, Glean, Harvey, ElevenLabs, Scale AI, Mercor, and Runway.
+
+Verification performed by Codex:
+
+- Ran `.venv/bin/python -m json.tool data/seed/claims.json`.
+- Ran `.venv/bin/openpitch seed`.
+- Ran `.venv/bin/openpitch build-dashboard`.
+- Ran `PYTHONPATH=src .venv/bin/python -m pytest` (`45 passed`, 1 warning).
+- Browser verification at `http://localhost:8765/index.html` showed valuation sort with top 20 including Anthropic, OpenAI, Anysphere, Thinking Machines, Safe Superintelligence, VAST Data, Scale AI, Cognition, Cerebras, Mistral, Perplexity, ElevenLabs, Harvey, Mercor, Glean, and Cohere.
+
+Important caution:
+
+- The seed baseline uses public source claims and should be audited before committing as canonical data.
+- The automated extractor still misses many obvious public metrics; improving source retrieval/extraction quality remains a launch blocker.
+
+### 2026-06-14 - Added data-quality gate and dashboard quality page
+
+Codex added a data-quality report so dashboard coverage problems are visible before launch or push review.
+
+Files modified by Codex:
+
+- `src/openpitch/pipeline/quality.py`
+- `src/openpitch/pipeline/dashboard.py`
+- `src/openpitch/pipeline/run.py`
+- `tests/test_pipeline.py`
+- `docs/FRD.md`
+- `docs/RECENT-CHANGES.md`
+- `AGENTS.md`
+
+Main content changes:
+
+- Added `openpitch quality-report`.
+- Writes `data/quality/report.md`.
+- Dashboard builds now write `dashboard/dist/quality.html`.
+- Dashboard overview now includes a quality banner with critical issue and warning counts.
+- Quality report flags:
+  - top-50 cards with no metrics;
+  - top-50 cards missing valuation;
+  - top-50 cards missing ARR / revenue;
+  - high-priority watchlist candidates not profiled;
+  - single-source core metrics.
+
+Verification performed by Codex:
+
+- Ran `.venv/bin/openpitch quality-report`.
+- Ran `.venv/bin/openpitch build-dashboard`.
+- Ran `PYTHONPATH=src .venv/bin/python -m pytest` (`46 passed`, 1 warning).
+- Browser verification at `http://localhost:8765/index.html` showed:
+  - 50 sourced profiles;
+  - valuation sort active;
+  - quality banner: `51 critical quality issues · 108 warnings`;
+  - top cards: Anthropic, OpenAI, Anysphere, Thinking Machines, Safe Superintelligence, VAST Data, Scale AI, Cognition, Cerebras, Mistral.
+
+Current quality status:
+
+- `data/quality/report.md` currently reports 51 critical issues and 108 warnings.
+- Treat these as launch blockers until the no-metric top-50 cards, missing valuation/ARR gaps, and unprofiled high-priority candidates are reduced intentionally.
+
 ## Claude Code Edits Log
 
 ### 2026-06-13 - Core engine implementation (committed)

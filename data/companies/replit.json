@@ -5,9 +5,53 @@
   "website": "replit.com",
   "category": "coding-agent",
   "segment": "global",
-  "in_universe": false,
-  "vc_attention_score": 0.0,
-  "universe_rank": 56,
-  "metrics": {},
-  "last_updated": "2026-06-14"
+  "in_universe": true,
+  "vc_attention_score": 83.1,
+  "universe_rank": 32,
+  "metrics": {
+    "valuation": {
+      "metric": "valuation",
+      "value": 9000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 3000000000.0,
+        "high": 9000000000.0
+      },
+      "as_of": "2026-03-11",
+      "estimate_type": "consensus",
+      "confidence": 0.54,
+      "supporting_claims": [
+        "clm_963c4c7bda",
+        "clm_ee5dea1ef5"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 9000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-03-11"
+      },
+      "history_ref": "history/replit/valuation.jsonl"
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 400000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-03-11",
+      "estimate_type": "consensus",
+      "confidence": 0.54,
+      "supporting_claims": [
+        "clm_05e2ed0692",
+        "clm_7f036c249d"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 400000000.0,
+        "change_pct": 0.0,
+        "since": "2026-03-11"
+      },
+      "history_ref": "history/replit/round_amount.jsonl"
+    }
+  },
+  "last_updated": "2026-06-22"
 }

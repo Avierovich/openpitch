@@ -1,0 +1,107 @@
+[
+  {
+    "id": "clm_39d6331074",
+    "company_id": "hebbia",
+    "metric": "round_amount",
+    "value": 130000000.0,
+    "unit": "USD",
+    "raw_text": "Hebbia raised $130M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb0h4bUFPLVBiSXpxd1dIZG5oYTRRTnRkczZ5SHVvTnA2XzZ2RjhCV3RYa2d6VXZzd2Ytb0RiYW50d2UxX0REYmRtRk1PVjE3ejF2d2x5VHpRcmQ2c3Q0Z3NxclNpNE5taXg3RnY2Qkd1cTR2ZXNOeEVYakVLR0R2dW1mdTRxb3ZKTGpwTU9xdFJYX2RZU0NXUmxObXFnMVJqYlkwSkE4bDB3VEZxWHZ3NURQVGk3TWZfdTA4?oc=5",
+      "locator": null,
+      "published_at": "2024-07-09"
+    },
+    "extracted_at": "2026-06-20T22:06:34.303152",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_388379a595",
+    "company_id": "hebbia",
+    "metric": "valuation",
+    "value": 700000000.0,
+    "unit": "USD",
+    "raw_text": "$700M valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb0h4bUFPLVBiSXpxd1dIZG5oYTRRTnRkczZ5SHVvTnA2XzZ2RjhCV3RYa2d6VXZzd2Ytb0RiYW50d2UxX0REYmRtRk1PVjE3ejF2d2x5VHpRcmQ2c3Q0Z3NxclNpNE5taXg3RnY2Qkd1cTR2ZXNOeEVYakVLR0R2dW1mdTRxb3ZKTGpwTU9xdFJYX2RZU0NXUmxObXFnMVJqYlkwSkE4bDB3VEZxWHZ3NURQVGk3TWZfdTA4?oc=5",
+      "locator": null,
+      "published_at": "2024-07-09"
+    },
+    "extracted_at": "2026-06-20T22:06:34.303152",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_84106a26e3",
+    "company_id": "hebbia",
+    "metric": "arr",
+    "value": 13000000.0,
+    "unit": "USD",
+    "raw_text": "$13 million of profitable revenue",
+    "qualifiers": [
+      "profitable"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb0h4bUFPLVBiSXpxd1dIZG5oYTRRTnRkczZ5SHVvTnA2XzZ2RjhCV3RYa2d6VXZzd2Ytb0RiYW50d2UxX0REYmRtRk1PVjE3ejF2d2x5VHpRcmQ2c3Q0Z3NxclNpNE5taXg3RnY2Qkd1cTR2ZXNOeEVYakVLR0R2dW1mdTRxb3ZKTGpwTU9xdFJYX2RZU0NXUmxObXFnMVJqYlkwSkE4bDB3VEZxWHZ3NURQVGk3TWZfdTA4?oc=5",
+      "locator": null,
+      "published_at": "2024-07-09"
+    },
+    "extracted_at": "2026-06-20T22:06:34.303152",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "drv_312030b15e",
+    "company_id": "hebbia",
+    "metric": "revenue_multiple",
+    "value": 53.85,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2024-07-09"
+    },
+    "extracted_at": "2026-06-22T00:00:00",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.2536,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_388379a595",
+        "clm_84106a26e3"
+      ]
+    }
+  }
+]

@@ -6,6 +6,15 @@ The first public dataset should prove OpenPitch's method before it tries to prov
 
 Target: **10 companies, 3+ sourced metrics each, 2-3 strong public-source discrepancies, and a working MCP/demo path.**
 
+Current status: **5 companies are committed and runnable for software testing.** They still need a launch-grade source audit, and five additional seed companies are needed before the public launch bar is met.
+
+The seed is not the universe. OpenPitch should still retain the dynamic top-50 watchlist, displayed by tiers:
+
+- Tier 1: ranks 1-10.
+- Tier 2: ranks 11-25.
+- Tier 3: ranks 26-50.
+- Watchlist: candidates outside the selected 50.
+
 ## Selection Criteria
 
 Pick companies that are:
@@ -22,12 +31,12 @@ The seed should include a mix of foundation models, coding agents, AI infrastruc
 
 | Priority | Company | Category | Why it belongs | Seed status |
 |---:|---|---|---|---|
-| 1 | OpenAI | foundation-model | Highest interest; many public sources | Candidate |
-| 2 | Anthropic | foundation-model | High interest; funding/valuation coverage | Candidate |
-| 3 | Mistral AI | foundation-model | Global AI leader; EU angle | Candidate |
+| 1 | OpenAI | foundation-model | Highest interest; many public sources | Committed; needs launch audit |
+| 2 | Anthropic | foundation-model | High interest; funding/valuation coverage | Committed; needs launch audit |
+| 3 | Mistral AI | foundation-model | Global AI leader; EU angle | Committed; needs launch audit |
 | 4 | Perplexity | enterprise-ai | Search/product metrics often discussed | Candidate |
-| 5 | Anysphere (Cursor) | coding-agent | Core audience cares; valuation/ARR interest | Candidate |
-| 6 | Cognition (Devin) | coding-agent | High buzz; public run-rate claims reported | Candidate |
+| 5 | Anysphere (Cursor) | coding-agent | Core audience cares; valuation/ARR interest | Committed; needs launch audit |
+| 6 | Cognition (Devin) | coding-agent | High buzz; public run-rate claims reported | Committed; needs launch audit |
 | 7 | Sierra | ai-agents | Strong ARR/funding interest | Candidate |
 | 8 | Harvey | vertical-app | Legal AI; funding and ARR interest | Candidate |
 | 9 | ElevenLabs | generative-media | Recognizable; funding and usage signals | Candidate |
@@ -44,7 +53,10 @@ Each seed company should have at least 3 of:
 - total funding;
 - ARR/revenue/run-rate;
 - headcount;
+- headcount growth;
 - notable customers/users;
+- net revenue retention, when public;
+- customer/user count;
 - growth rate;
 - revenue multiple if derivable.
 
@@ -79,12 +91,12 @@ Do not force contradictions. A weak contradiction is worse than none.
 
 | Company | Claims | Metrics | Provenance complete? | MCP works? | Card/dashboard ready? |
 |---|---:|---:|---|---|---|
-| OpenAI | 0 | 0 | No | No | No |
-| Anthropic | 0 | 0 | No | No | No |
-| Mistral AI | 0 | 0 | No | No | No |
+| OpenAI | Committed | Committed | Needs launch audit | Tested via MCP tools | Generated |
+| Anthropic | Committed | Committed | Needs launch audit | Tested via MCP tools | Generated |
+| Mistral AI | Committed | Committed | Needs launch audit | Tested via MCP tools | Generated |
 | Perplexity | 0 | 0 | No | No | No |
-| Anysphere (Cursor) | 0 | 0 | No | No | No |
-| Cognition (Devin) | 0 | 0 | No | No | No |
+| Anysphere (Cursor) | Committed | Committed | Needs launch audit | Tested via MCP tools | Generated |
+| Cognition (Devin) | Committed | Committed | Needs launch audit | Tested via MCP tools | Generated |
 | Sierra | 0 | 0 | No | No | No |
 | Harvey | 0 | 0 | No | No | No |
 | ElevenLabs | 0 | 0 | No | No | No |

@@ -64,18 +64,30 @@ def episodes_mentioning(parsed, company: Company, show_name: str) -> list[RawIte
     return items
 
 
-def fetch(company: Company, *, feeds: list[dict] | None = None, limit: int = 6) -> list[RawItem]:
+def fetch(company: Company, *, feeds: list[dict] | None = None, client=None, limit: int = 6) -> list[RawItem]:
     """Fetch the `limit` most-recent episodes (across feeds) that mention the company.
 
     The cap keeps a live run inside free-tier LLM quota — these shows mention the
     big labs constantly, so we take only the freshest mentions.
     """
     import feedparser
+    import httpx
 
     feeds = feeds if feeds is not None else load_feeds()
+    owns_client = client is None
+    client = client or httpx.Client(timeout=8.0, follow_redirects=True)
     items: list[RawItem] = []
-    for feed in feeds:
-        parsed = feedparser.parse(feed["feed_url"])
-        items.extend(episodes_mentioning(parsed, company, feed.get("name", "Podcast")))
-    items.sort(key=lambda it: it.published_at or date(1970, 1, 1), reverse=True)
-    return items[:limit]
+    try:
+        for feed in feeds:
+            try:
+                resp = client.get(feed["feed_url"])
+                resp.raise_for_status()
+            except Exception:  # noqa: BLE001 — one feed failing must not abort the company
+                continue
+            parsed = feedparser.parse(resp.content)
+            items.extend(episodes_mentioning(parsed, company, feed.get("name", "Podcast")))
+        items.sort(key=lambda it: it.published_at or date(1970, 1, 1), reverse=True)
+        return items[:limit]
+    finally:
+        if owns_client:
+            client.close()

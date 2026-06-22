@@ -6,8 +6,45 @@
   "category": "ai-agents",
   "segment": "global",
   "in_universe": false,
-  "vc_attention_score": 0.0,
-  "universe_rank": 58,
-  "metrics": {},
-  "last_updated": "2026-06-14"
+  "vc_attention_score": 75.0,
+  "universe_rank": 70,
+  "metrics": {
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 966659054.58,
+      "unit": "USD",
+      "range": {
+        "low": 950000000.0,
+        "high": 1000000000.0
+      },
+      "as_of": "2026-05-05",
+      "estimate_type": "consensus",
+      "confidence": 0.726,
+      "supporting_claims": [
+        "clm_713178e0a7",
+        "clm_2a622091ad",
+        "clm_bce12936bc"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/sierra/total_funding.jsonl"
+    },
+    "open_roles": {
+      "metric": "open_roles",
+      "value": 0.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-06-23",
+      "estimate_type": "reported",
+      "confidence": 0.438,
+      "supporting_claims": [
+        "clm_6825dce4cc",
+        "clm_6825dce4cc"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/sierra/open_roles.jsonl"
+    }
+  },
+  "last_updated": "2026-06-23"
 }

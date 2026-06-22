@@ -63,13 +63,13 @@ OpenPitch is a **git-native data pipeline + read interfaces**. There is no serve
 | Pipeline orchestration | Plain Python modules + a CLI (`typer`) | No heavy framework; easy to read and run locally |
 | HTTP | `httpx` | Async, modern |
 | Feeds | `feedparser` | Podcast/news RSS |
-| Filings | SEC EDGAR full-text search + Form D API | Free, official |
-| Transcription | published transcripts first; fallback `pywhispercpp` (whisper.cpp) | Runs free inside CI runner |
-| LLM (pipeline) | Provider-abstracted; default **free tier** (Gemini / Groq / OpenRouter free models) | Swappable; keeps cost $0 |
+| Filings | SEC EDGAR full-text search + Form D API with `OPENPITCH_SEC_USER_AGENT` | Free, official, fair-access compliant when configured |
+| Transcription | published transcripts first; Groq Whisper free tier; optional local fallback | Hosted-first path is faster; still bounded for free-tier use |
+| LLM (pipeline) | Provider-abstracted; default Gemini 2.5 Flash family with model rotation; Groq fallback via `OPENPITCH_LLM=groq` | Swappable; bounded for free-tier quota |
 | Structured output | JSON-schema-constrained LLM calls (Pydantic models) | Reliable extraction |
 | Storage | JSON + JSON Lines files in git | Zero-cost, diffable, transparent |
 | MCP server | Python `mcp` SDK (stdio) | Native to Claude Code/Codex |
-| Dashboard | Static site (Vite + vanilla/Preact + a small chart lib) built to `dist/`, served on GitHub Pages | Zero-cost, no backend |
+| Dashboard | Static generated HTML in `dashboard/dist/`, served on GitHub Pages | Zero-cost, no backend |
 | CI/Schedule | GitHub Actions (cron) | Free & unlimited for public repos |
 
 > **One open choice:** the MCP server could alternatively be TypeScript (most common MCP language). Default is Python for single-language simplicity. Confirm or override.
@@ -177,6 +177,8 @@ Canonical metric definitions (from BRD §4.1.1), each with unit, type, and a **d
 | `subscribers` | Customers/users | count | 150 | yes |
 | `nrr` | Net revenue retention | % | 240 | no |
 | `notable_customers` | Logos | list | 365 | no |
+
+Product surfaces should render human-readable labels from `config/metrics.yaml`. Raw keys such as `arr`, `total_funding`, or `headcount_growth` are implementation identifiers and should not appear as lowercase dashboard copy.
 
 ### 3.6 Source registry
 Tracks every source and its **learned reliability** (§5.4).
@@ -331,6 +333,18 @@ attention =  0.40 · norm(valuation)
 
 **Selection:** rank all candidates, take top 50. Track **entries/exits** vs previous run as their own signal (surfaced in the digest: *"X entered the top 50"*). Weights live in `config/scoring.yaml` so contributors can tune them. Candidate pool seeded from a maintained watchlist + anything appearing in collected funding news.
 
+**Display tiers:** keep the dynamic top 50 visible as tiers rather than collapsing the product to the current seed:
+- **Tier 1:** ranks 1-10, highest-priority launch/watch companies.
+- **Tier 2:** ranks 11-25, important monitored companies.
+- **Tier 3:** ranks 26-50, retained top-50 universe companies.
+- **Watchlist:** candidates outside the selected top 50.
+
+The 5-company seed is a software-test subset, not the final universe.
+
+Dashboard default ordering is valuation-descending. Users can sort the static
+dashboard by valuation, total funding, source coverage, category, or name
+without changing the underlying provenance data.
+
 ---
 
 ## 7. Pipeline Stages (the agent loop)
@@ -341,14 +355,27 @@ Each stage is an independent, resumable module. Orchestrated by `pipeline/run.py
 |---|---|---|---|---|
 | 1 | **Select universe** | watchlist + funding signals | `universe.json`, ranks | §6; logs entries/exits |
 | 2 | **Collect** | universe | raw items (transcripts, articles, filings) cached by hash | per-source adapters; respects robots.txt/ToS |
-| 3 | **Transcribe** | podcast audio w/o transcript | text | published transcript first; else whisper.cpp; bounded N/run |
-| 4 | **Extract** | raw text | Claims | LLM structured output; one call per item; dedup by hash |
+| 3 | **Transcribe** | podcast audio w/o transcript | text | published transcript first; else Groq Whisper; bounded N/run |
+| 4 | **Extract** | raw text | Claims | batched LLM structured output; model rotation on quota; dedup by hash |
 | 5 | **Reconcile** | claims | Resolved Values + history rows | §5 |
 | 6 | **Score sources** | confirm/contradict events | updated `registry.json` | §5.4 |
 | 7 | **Publish** | resolved values | `companies/*.json`, history JSONL, **`events/*.jsonl` + `events.xml`**, `digest/YYYY-MM-DD.md`, dashboard build | emits typed events (§8.5) for every material change |
 | 8 | **Commit** | all changes | git commit + push | commit message = digest summary |
 
 **Source adapters** implement a common interface (`fetch(company) -> list[RawItem]`) so adding a source = one file. v1 adapters: `podcast_rss`, `news`, `edgar`, `company_site`.
+
+Broad sourcing runs can be bounded for hands-on iteration:
+`openpitch run --companies 50 --transcriptions 0 --skip-podcasts --max-source-items 6`
+checks the top 50 against public sources without spending time on podcast audio.
+Companies whose sources were checked but produced no supported metric claim are
+still persisted as coverage profiles, clearly labeled as having no metric claims
+yet.
+
+**Quality gate:** `openpitch quality-report` writes `data/quality/report.md`.
+Dashboard builds also write `dashboard/dist/quality.html` and display a quality
+banner. The report flags top-50 no-metric cards, missing valuation, missing
+ARR/revenue, unprofiled high-priority watchlist candidates, and single-source
+core metrics. Treat critical issues as launch blockers.
 
 **MENA sourcing (honest reality).** The global freshness engine leans on SEC EDGAR + English podcasts + US tech press — **none of which map cleanly to MENA** (BRD §4.1; COMPETITIVE-ANALYSIS.md §6). The `edgar` adapter is US-only; English founder-podcast metric leaks are rarer. MENA coverage therefore needs **region-specific adapters** (roadmap):
 - `mena_news` — regional outlets (Wamda, Menabytes, Magnitt blog, Zawya) RSS/press.
@@ -484,10 +511,12 @@ A measured **<60s "first answer"** is tracked as a product metric; the README le
 ## 9. Dashboard (secondary interface)
 
 Static site built from the same JSON, deployed to GitHub Pages (BRD §4.1.3). Two views:
-- **Overview** — sortable/filterable grid of all 50 × key metrics; "What moved today" banner.
+- **Overview** — sortable grid of all 50 × key metrics; default sort is valuation, with controls for total funding, source coverage, category, and name.
 - **Detail (on select)** — full metric panel, per-metric history chart, provenance + confidence per figure, contradiction badges.
 
-Built in stage 7; no runtime backend.
+Built in stage 7; no runtime backend. The current implementation is static
+generated HTML in `src/openpitch/pipeline/dashboard.py` with a small client-side
+sort control and a linked data-quality page.
 
 ---
 
@@ -542,10 +571,13 @@ jobs:
     steps:
       - checkout
       - setup-python
-      - pip install -e .
-      - run: python -m pipeline.run --all      # stages 1–7
-        env: { LLM_API_KEY: ${{ secrets.LLM_API_KEY }} }
-      - run: python -m pipeline.run --build-dashboard
+      - pip install -e ".[pipeline]"
+      - run: openpitch run ${{ secrets.LLM_API_KEY == '' && '--offline' || '' }}
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          OPENPITCH_SEC_USER_AGENT: ${{ secrets.OPENPITCH_SEC_USER_AGENT }}
+      - run: openpitch build-dashboard
       - commit & push data/ + dist/            # git is the DB
       - deploy GitHub Pages
 ```
@@ -559,7 +591,7 @@ Concurrency-guarded so runs don't overlap; per-company failures logged, not fata
 |---|---|
 | **Zero cost** (NFR-03) | public-repo CI, Pages, local MCP, BYO agent, free-tier pipeline LLM, bounded volume + caching |
 | **Rate limits** | per-provider throttle + backoff; cap episodes/articles per run; incremental processing |
-| **Legal/ToS** (NFR-02) | robots.txt honored; official APIs (EDGAR) and published transcripts preferred; no auth-walled scraping |
+| **Legal/ToS** (NFR-02) | robots.txt honored; official APIs (EDGAR) and published transcripts preferred; SEC requests identify OpenPitch through `OPENPITCH_SEC_USER_AGENT`; no auth-walled scraping |
 | **Reproducibility** | deterministic given inputs; cached raw items committed or hashed; pinned deps |
 | **Extensibility** | new source = one adapter file; weights/metrics in `config/` |
 | **Auditability** | every figure → claims → sources; git history = full audit log |
@@ -575,7 +607,7 @@ Concurrency-guarded so runs don't overlap; per-company failures logged, not fata
 | 2 | Pipeline LLM provider | **Gemini Flash** (default, swappable via `pipeline/llm/`) | Long context for transcripts, generous free tier, native structured output; Groq/Ollama as escape hatches |
 | 3 | Implied ARR | **Not shipped in v1** | Cross-company revenue-per-employee is too noisy. v1 ships self-anchored estimates + qualitative growth-direction signals only; hard implied-ARR (versioned RPE bands, wide range, conf ≤ 0.4) deferred to v2 |
 | 4 | Watchlist seeding | **Hand-seed ~80 in `config/watchlist.yaml`**, scoring picks top 50 | Concrete starting universe; funding-news discovery grows it over time |
-| 5 | Dashboard framework | **Astro + interactive islands** (`uPlot` for charts) | Zero-JS-by-default static output for Pages, islands only where needed (grid, charts) |
+| 5 | Dashboard framework | **Static generated HTML + minimal client-side sort control** | Zero backend and low contributor complexity; revisit Astro/uPlot only when charts need it |
 
 **Note on Decision 3:** this is the one with credibility stakes. v1 must not present a fabricated dollar ARR derived from headcount — it would undermine the provenance pitch. "Reported + how fresh + growth direction" is the trustworthy v1 posture.
 

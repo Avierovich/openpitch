@@ -180,6 +180,21 @@ def run(
         for i in range(0, len(seq), n):
             yield seq[i : i + n]
 
+    def _interleave_by_type(items):
+        # ponytail: round-robin across source types so one flood (e.g. 100 EDGAR
+        # items for a private co) can't eat the whole max_source_items budget and
+        # starve the high-yield news/web items. Preserves per-type order.
+        from collections import OrderedDict
+        buckets: dict = OrderedDict()
+        for it in items:
+            buckets.setdefault(it.source_type, []).append(it)
+        out, queues = [], list(buckets.values())
+        while queues:
+            queues = [q for q in queues if q]
+            for q in queues:
+                out.append(q.pop(0))
+        return out
+
     llm = get_provider()
     keys = metric_keys()
     watchlist = load_watchlist()
@@ -211,7 +226,7 @@ def run(
             if it.text:
                 text_items.append(it)
         if max_source_items > 0:
-            text_items = text_items[:max_source_items]
+            text_items = _interleave_by_type(text_items)[:max_source_items]
         claims: list[Claim] = []
         # Batch many source items per LLM call (free-tier-quota lever, FRD §7).
         for chunk in _chunks(text_items, 15):

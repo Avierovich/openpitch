@@ -1,112 +1,63 @@
-# OpenPitch Data Quality Report - 2026-06-16
+# OpenPitch Data Quality Report - 2026-06-23
 
 ## Summary
 
-- Profiles generated: 62
-- Watchlist candidates: 108
+- Profiles generated: 121
+- Watchlist candidates: 137
 - Top-50 cards: 50
-- Profiles with at least one metric: 40
-- Critical issues: 48
-- Warnings: 101
+- Profiles with at least one metric: 108
+- Critical issues: 3
+- Warnings: 98
 
 ## Top-50 Companies With No Metrics
 
-- Anyscale
-- Chroma
-- CrewAI
-- Crusoe
-- Etched
-- Groq
-- Imbue
-- Lambda
-- Letta
-- Lindy
-- LlamaIndex
-- Magic
+None.
 
 ## Top-50 Missing Valuation
 
-- Augment Code
-- Anyscale
-- Chroma
-- CrewAI
-- Crusoe
-- Etched
-- Groq
-- Imbue
-- Lambda
-- Letta
-- Lindy
-- LlamaIndex
-- Magic
+None.
 
 ## Top-50 Missing ARR / Revenue
 
+- Databricks
+- Anduril
+- DeepSeek
 - Thinking Machines Lab
+- Figure AI
 - Safe Superintelligence
+- Moonshot AI
 - Cerebras Systems
+- Reflection AI
+- Surge AI
 - Aleph Alpha
+- Helsing
+- Applied Intuition
 - Fireworks AI
+- Nscale
 - Skild AI
 - OpenEvidence
+- Crusoe
+- Replit
+- Wayve
+- Legora
+- Suno
+- Abridge
+- Apptronik
 - Baseten
+- Etched
+- World Labs
 - Modal
 - Decagon
-- Physical Intelligence
-- d-Matrix
-- Windsurf (Codeium)
-- Writer
-- Anyscale
-- Chroma
-- CrewAI
-- Crusoe
-- Etched
-- Groq
-- Imbue
-- Lambda
-- Letta
-- Lindy
-- LlamaIndex
-- Magic
+- Tabby
+- Skydio
+- Luma AI
+- Synthesia
 
 ## High-Priority Watchlist Candidates Not Profiled
 
-- Pika
-- Luma AI
-- Suno
-- Udio
-- Synthesia
-- Captions
-- Ideogram
-- Krea
-- Cartesia
-- Black Forest Labs
 - Sana
-- EvenUp
-- Abridge
-- Ambience Healthcare
-- Hippocratic AI
-- Cresta
-- Hebbia
-- Figure AI
-- 1X Technologies
-- Surge AI
-- Braintrust
 - Galileo
-- AI71
-- Mozn
-- Lucidya
-- Intella
-- Tabby
-- Tamara
-- MNT-Halan
-- Lean Technologies
-- Tarabut
-- Unifonic
-- Foodics
-- Huspy
-- Bayzat
-- Yassir
+- Project Prometheus
 
 ## Single-Source Core Metrics
 
@@ -116,22 +67,34 @@
 - OpenAI: valuation
 - OpenAI: arr
 - OpenAI: round_amount
+- Databricks: valuation
+- Anduril: valuation
+- Anduril: round_amount
 - Anysphere (Cursor): arr
 - Thinking Machines Lab: valuation
+- Figure AI: round_amount
 - VAST Data: arr
 - VAST Data: round_amount
+- Moonshot AI: round_amount
 - Scale AI: valuation
 - Scale AI: arr
 - Cognition (Devin): valuation
 - Cognition (Devin): arr
 - Cognition (Devin): round_amount
+- Surge AI: valuation
+- Surge AI: round_amount
 - Mistral AI: arr
 - Mistral AI: total_funding
 - Mistral AI: round_amount
 - Perplexity: valuation
 - Perplexity: arr
 - Perplexity: round_amount
+- Applied Intuition: headcount
+- Nscale: total_funding
 - Skild AI: total_funding
+- Shield AI: arr
+- Shield AI: round_amount
+- Cyera: arr
 - OpenEvidence: round_amount
 - ElevenLabs: valuation
 - ElevenLabs: arr
@@ -141,37 +104,28 @@
 - Mercor: valuation
 - Mercor: arr
 - Mercor: round_amount
+- Crusoe: round_amount
+- Wayve: valuation
 - Together AI: arr
 - Glean: valuation
 - Glean: arr
 - Glean: round_amount
 - Cohere: total_funding
+- Legora: round_amount
+- Suno: round_amount
 - Runway: valuation
 - Runway: arr
 - Runway: round_amount
+- Abridge: valuation
+- Abridge: total_funding
+- Abridge: headcount
+- Apptronik: valuation
 - Decagon: round_amount
-- AI21 Labs: arr
-- AI21 Labs: round_amount
-- Poolside: arr
-- Physical Intelligence: total_funding
-- Liquid AI: valuation
-- Liquid AI: arr
-- LangChain: arr
-- Reka AI: arr
-- Windsurf (Codeium): valuation
-- Writer: valuation
-- Writer: total_funding
-- Writer: round_amount
-- Tabnine: valuation
-- Tabnine: arr
-- Tabnine: round_amount
-- HeyGen: arr
-- HeyGen: total_funding
-- HeyGen: round_amount
-- LanceDB: valuation
-- LanceDB: arr
-- Augment Code: arr
-- Augment Code: total_funding
+- Skydio: valuation
+- Skydio: total_funding
+- Luma AI: valuation
+- Luma AI: total_funding
+- Luma AI: headcount
 
 ## Review Rule
 

@@ -31,6 +31,8 @@ h1{font-size:26px;margin:0 0 4px}.sub{color:var(--mut);margin:0 0 24px}
 .card{display:block;background:var(--card);border:1px solid #232a40;border-radius:12px;padding:16px}
 .pending{border-style:dashed;background:#141929}
 .card h3{margin:0 0 2px;font-size:17px}.cat{color:var(--mut);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+.card h3 .name{color:var(--fg)}.card h3 .name:hover{color:#7fd1c1;text-decoration:underline}
+.more{display:inline-block;margin-top:10px;font-size:12px;color:var(--mut)}.more:hover{color:#7fd1c1}
 .m{display:flex;justify-content:space-between;border-top:1px solid #232a40;padding:7px 0;font-size:14px}
 .m .k{color:var(--mut)}.v{font-variant-numeric:tabular-nums}
 .tag{display:inline-block;background:#202840;color:var(--mut);border-radius:6px;padding:1px 7px;font-size:11px;margin-left:6px}
@@ -85,6 +87,14 @@ def _band(c: float) -> str:
 
 
 CURRENT_YEAR = date.today().year
+
+
+def _site_url(website: str | None) -> str:
+    """Normalize a stored domain (e.g. 'openai.com') to a full URL, or '' if none."""
+    w = (website or "").strip()
+    if not w:
+        return ""
+    return w if w.startswith(("http://", "https://")) else f"https://{w}"
 
 
 def _year_badge(as_of) -> str:
@@ -152,18 +162,31 @@ def _company_card(c, display_rank: int | None = None) -> str:
         valuation=_metric_number(c, "valuation"), funding=_metric_number(c, "total_funding"),
         revenue=_metric_number(c, "arr"), coverage=_coverage(c),
     )
-    return (f'<a class="card" {attrs} href="company/{escape(c.id, quote=True)}.html">'
+    name = escape(c.name)
+    site = _site_url(c.website)
+    name_html = (
+        f'<a class="name" href="{escape(site, quote=True)}" target="_blank" rel="noopener noreferrer">{name}</a>'
+        if site else name
+    )
+    return (f'<div class="card" {attrs}>'
             f'<div class="cat">{_tier(rank)} · {escape(c.category or "")} · {_display_rank(rank or 0)}</div>'
-            f'<h3>{escape(c.name)}</h3>{rows}</a>')
+            f'<h3>{name_html}</h3>{rows}'
+            f'<a class="more" href="company/{escape(c.id, quote=True)}.html">sources &amp; history →</a></div>')
 
 
 def _pending_card(meta: dict, display_rank: int) -> str:
     domain = meta.get("domain")
-    site = f'<a href="https://{escape(domain, quote=True)}">{escape(domain)}</a>' if domain else "domain pending"
+    url = _site_url(domain)
+    site = f'<a href="{escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">{escape(domain)}</a>' if url else "domain pending"
+    name = escape(meta["name"])
+    name_html = (
+        f'<a class="name" href="{escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">{name}</a>'
+        if url else name
+    )
     attrs = _card_attrs(rank=display_rank, name=meta["name"], category=meta.get("category"))
     return (
         f'<article class="card pending" {attrs}><div class="cat">{_tier(display_rank)} · {escape(meta.get("category") or "")} · #{display_rank}</div>'
-        f'<h3>{escape(meta["name"])}</h3>'
+        f'<h3>{name_html}</h3>'
         f'<div class="m"><span class="k">Coverage status</span><span class="v">pending sourced metrics</span></div>'
         f'<div class="src">{site}</div></article>'
     )

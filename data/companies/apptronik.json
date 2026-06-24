@@ -7,7 +7,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 80.9,
-  "universe_rank": 44,
+  "universe_rank": 41,
   "metrics": {
     "total_funding": {
       "metric": "total_funding",
@@ -19,14 +19,18 @@
       },
       "as_of": "2026-02-11",
       "estimate_type": "consensus",
-      "confidence": 0.823,
+      "confidence": 0.822,
       "supporting_claims": [
         "clm_3e026e14b4",
         "clm_4ca5263899",
         "clm_d2e880e60c"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 520000000.0,
+        "change_pct": 0.0,
+        "since": "2026-02-11"
+      },
       "history_ref": "history/apptronik/total_funding.jsonl"
     },
     "valuation": {
@@ -36,14 +40,18 @@
       "range": null,
       "as_of": "2026-02-11",
       "estimate_type": "reported",
-      "confidence": 0.366,
+      "confidence": 0.365,
       "supporting_claims": [
         "clm_fdaf30a89b"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 5000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-02-11"
+      },
       "history_ref": "history/apptronik/valuation.jsonl"
     }
   },
-  "last_updated": "2026-06-23"
+  "last_updated": "2026-06-24"
 }

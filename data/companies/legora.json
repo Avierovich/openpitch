@@ -19,14 +19,18 @@
       },
       "as_of": "2026-06-18",
       "estimate_type": "consensus",
-      "confidence": 0.687,
+      "confidence": 0.686,
       "supporting_claims": [
         "clm_557e79cf78",
         "clm_e41364f49e",
         "clm_e0305e0bdf"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 5433846871.89,
+        "change_pct": 0.0,
+        "since": "2026-06-18"
+      },
       "history_ref": "history/legora/valuation.jsonl"
     },
     "headcount_growth": {
@@ -36,12 +40,16 @@
       "range": null,
       "as_of": "2026-06-15",
       "estimate_type": "reported",
-      "confidence": 0.359,
+      "confidence": 0.357,
       "supporting_claims": [
         "clm_068f9bca75"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 100.0,
+        "change_pct": 0.0,
+        "since": "2026-06-15"
+      },
       "history_ref": "history/legora/headcount_growth.jsonl"
     },
     "round_amount": {
@@ -51,14 +59,18 @@
       "range": null,
       "as_of": "2026-02-17",
       "estimate_type": "reported",
-      "confidence": 0.266,
+      "confidence": 0.265,
       "supporting_claims": [
         "clm_f0b0cdda0e"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 400000000.0,
+        "change_pct": 0.0,
+        "since": "2026-02-17"
+      },
       "history_ref": "history/legora/round_amount.jsonl"
     }
   },
-  "last_updated": "2026-06-23"
+  "last_updated": "2026-06-24"
 }

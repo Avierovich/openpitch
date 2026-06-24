@@ -16,13 +16,17 @@
       "range": null,
       "as_of": "2026-03-09",
       "estimate_type": "consensus",
-      "confidence": 0.482,
+      "confidence": 0.481,
       "supporting_claims": [
         "clm_a8fb8dd68e",
         "clm_e4b046a189"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 2000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-03-09"
+      },
       "history_ref": "history/nscale/round_amount.jsonl"
     },
     "valuation": {
@@ -32,13 +36,17 @@
       "range": null,
       "as_of": "2026-03-09",
       "estimate_type": "consensus",
-      "confidence": 0.482,
+      "confidence": 0.481,
       "supporting_claims": [
         "clm_5cd62120f1",
         "clm_134a69db8a"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 14600000000.0,
+        "change_pct": 0.0,
+        "since": "2026-03-09"
+      },
       "history_ref": "history/nscale/valuation.jsonl"
     },
     "total_funding": {
@@ -48,14 +56,18 @@
       "range": null,
       "as_of": "2026-06-03",
       "estimate_type": "reported",
-      "confidence": 0.365,
+      "confidence": 0.364,
       "supporting_claims": [
         "clm_eda3b08ec1"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": -1.0,
+        "change_pct": 0.0,
+        "since": "2026-06-03"
+      },
       "history_ref": "history/nscale/total_funding.jsonl"
     }
   },
-  "last_updated": "2026-06-23"
+  "last_updated": "2026-06-24"
 }

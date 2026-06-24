@@ -67,6 +67,11 @@ def _cluster_date(cluster: list[tuple[Claim, float]]) -> date | None:
     return max(dates) if dates else None
 
 
+def _public_source_names(cluster: list[tuple[Claim, float]]) -> set[str]:
+    """Distinct PUBLIC (non-derived) source names backing a cluster."""
+    return {c.source.name for c, _ in cluster if c.source.type.value != "derived"}
+
+
 def reconcile(
     metric: str,
     claims: list[Claim],
@@ -134,8 +139,18 @@ def reconcile(
             return True  # undated → can't rule out a real conflict
         return abs((cd - dom_date).days) <= CONTRADICTION_WINDOW_DAYS
 
+    # A "public-source discrepancy" means independent PUBLIC sources disagree. A
+    # rival cluster only counts if it carries a public source the dominant cluster
+    # lacks — so a derived value vs a reported one, or one outlet disagreeing with
+    # itself, is NOT a contradiction.
+    dom_sources = _public_source_names(dominant)
+
+    def _independent(c) -> bool:
+        return bool(_public_source_names(c) - dom_sources)
+
     contradiction = metric not in SEQUENTIAL_METRICS and any(
-        _cluster_weight(c) >= floor and _same_period(c) for c in clusters[1:]
+        _cluster_weight(c) >= floor and _same_period(c) and _independent(c)
+        for c in clusters[1:]
     )
 
     # Freshest supporting date drives as_of.

@@ -51,13 +51,15 @@ def test_pipeline_contradiction_and_mcp(data_dir):
     claims = [
         _claim("arr", 60_000_000, stype=SourceType.NEWS, sname="TC"),
         _claim("arr", 61_000_000, stype=SourceType.NEWS, sname="BB"),
+        _claim("arr", 120_000_000, stype=SourceType.NEWS, sname="Reuters"),
         _claim("mrr", 10_000_000, stype=SourceType.PODCAST, sname="20VC", role=SpeakerRole.FOUNDER),
         _claim("valuation", 1_000_000_000, stype=SourceType.NEWS, sname="TC"),
     ]
     company, all_claims = _reconcile_company(meta, claims, now=NOW, as_of=AS_OF)
     events = publish_company(company, all_claims, now=NOW)
 
-    # Derived ARR (MRR×12 = 120M) contradicts reported ~60M -> flagged + event emitted.
+    # Independent Reuters $120M (+ MRR-derived $120M) contradicts the dominant ~60M
+    # cluster (TC/BB) -> flagged. A cross-source disagreement, not derived-only.
     assert company.metrics["arr"].contradiction is True
     assert any(e.type.value == "contradiction_flagged" for e in events)
     # Identity-derived revenue_multiple present.

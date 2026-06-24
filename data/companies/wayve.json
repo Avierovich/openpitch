@@ -19,13 +19,17 @@
       },
       "as_of": "2026-02-24",
       "estimate_type": "consensus",
-      "confidence": 0.693,
+      "confidence": 0.692,
       "supporting_claims": [
         "clm_2b28eede05",
         "clm_4b2433d218"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 1200000000.0,
+        "change_pct": 0.0,
+        "since": "2026-02-24"
+      },
       "history_ref": "history/wayve/total_funding.jsonl"
     },
     "valuation": {
@@ -35,14 +39,18 @@
       "range": null,
       "as_of": "2026-02-24",
       "estimate_type": "reported",
-      "confidence": 0.379,
+      "confidence": 0.378,
       "supporting_claims": [
         "clm_1042417d40"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 8600000000.0,
+        "change_pct": 0.0,
+        "since": "2026-02-24"
+      },
       "history_ref": "history/wayve/valuation.jsonl"
     }
   },
-  "last_updated": "2026-06-23"
+  "last_updated": "2026-06-24"
 }

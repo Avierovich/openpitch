@@ -71,8 +71,10 @@ def test_no_inputs_no_derivation():
 # ── the headline: derived value triangulates a reported one ──────────────────
 
 
-def test_derived_arr_contradicts_reported_arr():
+def test_derived_value_is_not_a_public_source_contradiction():
     # Reported ARR ~$60M (two news sources) vs MRR $10M -> derived ARR $120M.
+    # A derived value disagreeing with reported sources is NOT a public-source
+    # discrepancy — only one set of public sources is involved, so it must not flag.
     reported = [
         claim("n1", "arr", 60_000_000, stype=SourceType.NEWS, sname="TC", role=SpeakerRole.JOURNALIST),
         claim("n2", "arr", 61_000_000, stype=SourceType.NEWS, sname="Bloomberg", role=SpeakerRole.JOURNALIST),
@@ -80,7 +82,7 @@ def test_derived_arr_contradicts_reported_arr():
     derived = derive_claims([claim("m", "mrr", 10_000_000, base=0.6)], now=NOW, as_of=RUN)
     rv = reconcile("arr", reported + derived, as_of=RUN, tau=120, tolerance=0.15, unit="USD")
     assert rv is not None
-    assert rv.contradiction is True          # reported vs derived disagree
+    assert rv.contradiction is False         # derived-vs-reported is not a public-source discrepancy
     assert rv.value < 80_000_000             # reported cluster (stronger) wins
 
 

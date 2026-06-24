@@ -113,6 +113,28 @@ def test_contradiction_flagged():
     assert rv.value > 95          # dominant (podcast) cluster wins on summed weight
 
 
+def test_same_source_disagreement_is_not_a_contradiction():
+    # One outlet reporting two values ($3B and $9B) is not a public-source discrepancy.
+    claims = [
+        claim("a", 9_000_000_000, stype=SourceType.NEWS, sname="TechCrunch"),
+        claim("b", 9_000_000_000, stype=SourceType.NEWS, sname="Tech Funding News"),
+        claim("c", 3_000_000_000, stype=SourceType.NEWS, sname="TechCrunch"),
+    ]
+    rv = reconcile("valuation", claims, as_of=RUN, tau=365, tolerance=0.15)
+    assert rv.contradiction is False  # rival $3B is TechCrunch, already in the dominant cluster
+
+
+def test_cross_source_disagreement_is_a_contradiction():
+    claims = [
+        claim("a", 9_000_000_000, stype=SourceType.NEWS, sname="TechCrunch"),
+        claim("b", 9_000_000_000, stype=SourceType.NEWS, sname="Reuters"),
+        claim("c", 3_000_000_000, stype=SourceType.NEWS, sname="Bloomberg"),
+        claim("d", 3_000_000_000, stype=SourceType.NEWS, sname="WSJ"),
+    ]
+    rv = reconcile("valuation", claims, as_of=RUN, tau=365, tolerance=0.15)
+    assert rv.contradiction is True  # Bloomberg/WSJ are independent of the dominant cluster
+
+
 def test_temporal_gap_is_not_a_contradiction():
     # Far apart in value AND ~9 months apart -> trajectory (a raise), not a discrepancy.
     old = claim("o", 13_000_000_000, stype=SourceType.NEWS, sname="Tracxn", published=date(2025, 9, 9))

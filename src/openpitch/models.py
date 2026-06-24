@@ -146,6 +146,7 @@ class Company(BaseModel):
     category: str | None = None              # controlled MAIN category
     subcategory: str | None = None           # controlled sub (e.g. video/voice/world-model)
     specialty: str | None = None             # free-text nuance ("AI video for marketers")
+    summary: str | None = None               # 1-2 sentence plain-English business description
     segment: str | None = None       # global | mena
     in_universe: bool = True
     vc_attention_score: float | None = None

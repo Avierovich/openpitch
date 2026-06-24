@@ -95,7 +95,7 @@ def apply_taxonomy(meta: dict) -> dict:
     if not tax:
         return meta
     return {**meta, **{k: v for k, v in tax.items()
-                       if k in ("category", "subcategory", "specialty") and v}}
+                       if k in ("category", "subcategory", "specialty", "summary") and v}}
 
 
 @lru_cache(maxsize=1)

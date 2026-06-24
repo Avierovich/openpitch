@@ -33,6 +33,7 @@ h1{font-size:26px;margin:0 0 4px}.sub{color:var(--mut);margin:0 0 24px}
 .card h3{margin:0 0 2px;font-size:17px}.cat{color:var(--mut);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
 .card h3 .name{color:var(--fg)}.card h3 .name:hover{color:#7fd1c1;text-decoration:underline}
 .cat .sub{color:#7fd1c1}
+.desc{margin:2px 0 10px;color:var(--mut);font-size:13px;line-height:1.45}
 .more{display:inline-block;margin-top:10px;font-size:12px;color:var(--mut)}.more:hover{color:#7fd1c1}
 .m{display:flex;justify-content:space-between;border-top:1px solid #232a40;padding:7px 0;font-size:14px}
 .m .k{color:var(--mut)}.v{font-variant-numeric:tabular-nums}
@@ -203,9 +204,10 @@ def _company_card(c, display_rank: int | None = None) -> str:
         f'<a class="name" href="{escape(site, quote=True)}" target="_blank" rel="noopener noreferrer">{name}</a>'
         if site else name
     )
+    desc = f'<p class="desc">{escape(c.summary)}</p>' if c.summary else ""
     return (f'<div class="card" {attrs}{title}>'
             f'<div class="cat">{_tier(rank)} · {_taxon_label(c.category, c.subcategory)} · {_display_rank(rank or 0)}</div>'
-            f'<h3>{name_html}</h3>{rows}'
+            f'<h3>{name_html}</h3>{desc}{rows}'
             f'<a class="more" href="company/{escape(c.id, quote=True)}.html">sources &amp; history →</a></div>')
 
 
@@ -244,6 +246,7 @@ def _company_page(c, display_rank: int | None = None) -> str:
                    f'{_year_badge(rv.as_of)}</span></div>{srcs}</div>')
     return _html(f"{c.name} — OpenPitch", f'<a href="../index.html">← all companies</a><h1>{c.name}</h1>'
                  f'<p class="sub">{_tier(rank)} · {_taxon_label(c.category, c.subcategory)}{(" · " + escape(c.specialty)) if c.specialty else ""} · rank {_display_rank(rank or 0)} · VC-attention {c.vc_attention_score}</p>'
+                 f'{("<p class=" + chr(34) + "desc" + chr(34) + ">" + escape(c.summary) + "</p>") if c.summary else ""}'
                  f'<div class="grid">{blocks}</div>{_DISCLAIMER}')
 
 

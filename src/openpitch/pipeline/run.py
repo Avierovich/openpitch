@@ -99,6 +99,7 @@ def _reconcile_company(meta: dict, claims: list[Claim], *, now: datetime, as_of:
     company = Company(
         id=meta["id"], name=meta["name"], category=meta.get("category"),
         subcategory=meta.get("subcategory"), specialty=meta.get("specialty"),
+        summary=meta.get("summary"),
         segment=meta.get("segment"), website=meta.get("domain"),
         aliases=meta.get("aliases", []),
         in_universe=True, metrics=metrics, last_updated=as_of,
@@ -258,6 +259,7 @@ def recompute() -> None:
         from ..config import apply_taxonomy
         meta = apply_taxonomy({"id": c.id, "name": c.name, "category": c.category,
                                "subcategory": c.subcategory, "specialty": c.specialty,
+                               "summary": c.summary,
                                "segment": c.segment, "domain": c.website, "aliases": c.aliases})
         pairs.append(_reconcile_company(meta, claims, now=now, as_of=as_of))
     n = _finalize(pairs, now=now, as_of=as_of)
@@ -276,17 +278,17 @@ def discover() -> None:
 
 
 @app.command()
-def classify() -> None:
-    """Assign a controlled main category + subcategory + specialty to every company
-    (one LLM pass) and write config/taxonomy.yaml. Re-runnable (needs LLM key)."""
+def classify(all: bool = typer.Option(False, "--all", help="Re-classify everyone, not just new companies.")) -> None:
+    """Assign a controlled main category + subcategory + specialty + summary to every
+    company (one LLM pass) and write config/taxonomy.yaml. Re-runnable (needs LLM key)."""
     from ..config import load_taxonomy, load_watchlist
     from .classify import classify as run_classify, write_taxonomy
     from .llm import get_provider
 
-    # Classify the union of watchlist + already-profiled companies, skipping ones
-    # already in taxonomy.yaml (re-runs only fill the gaps / new arrivals).
+    # Classify the union of watchlist + already-profiled companies. "Done" = already
+    # has a summary (the newest field), so re-runs fill gaps / new arrivals; --all redoes all.
     load_taxonomy.cache_clear()
-    done = set(load_taxonomy().get("companies", {}).keys())
+    done = set() if all else {cid for cid, t in load_taxonomy().get("companies", {}).items() if t.get("summary")}
     seen, companies = set(), []
     for m in load_watchlist():
         cid = m.get("id")

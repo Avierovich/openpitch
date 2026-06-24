@@ -31,9 +31,10 @@ VOCAB: dict[str, list[str]] = {
 _SYS = (
     "You classify AI companies into a fixed two-level taxonomy. For EACH company pick the "
     "single best `category` from the allowed main categories, a `subcategory` from that "
-    "category's allowed list, and write a short free-text `specialty` (<=8 words) describing "
-    "what they specifically do. Use the company's current label and domain as hints. If a "
-    "company fits no main category well, use 'vertical-app' + 'other'. Return every company id."
+    "category's allowed list, a short `specialty` (<=8 words), and a `summary`: 1-2 plain-"
+    "English sentences explaining what the company actually does and for whom. Use the "
+    "company's current label and domain as hints. If a company fits no main category well, "
+    "use 'vertical-app' + 'other'. Return every company id."
 )
 
 
@@ -44,6 +45,7 @@ def _schema() -> dict:
             "type": "object", "required": ["id", "category", "subcategory"], "properties": {
                 "id": {"type": "string"}, "category": {"type": "string"},
                 "subcategory": {"type": "string"}, "specialty": {"type": "string"},
+                "summary": {"type": "string"},
             }}}},
         "required": ["companies"],
     }
@@ -70,6 +72,8 @@ def _coerce(rec: dict) -> dict | None:
     out = {"category": cat, "subcategory": sub}
     if rec.get("specialty"):
         out["specialty"] = str(rec["specialty"]).strip()[:80]
+    if rec.get("summary"):
+        out["summary"] = str(rec["summary"]).strip()[:300]
     return cid, out
 
 

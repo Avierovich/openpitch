@@ -43,8 +43,8 @@ def _sys() -> str:
         "to the product/value), across any vertical — including AI fintech, AI healthcare, and "
         "defense/autonomous AI. Skip companies with no real AI angle, public companies, and "
         "investors/VC firms. For each give name; domain if obvious; a `category` from this fixed "
-        f"list and a matching `subcategory` from its options ({vocab}); and a short free-text "
-        "`specialty` (<=8 words)."
+        f"list and a matching `subcategory` from its options ({vocab}); a short free-text "
+        "`specialty` (<=8 words); and a `summary` of 1-2 plain-English sentences on what the company does."
     )
 
 
@@ -54,7 +54,7 @@ _SCHEMA = {
         "type": "object", "required": ["name"], "properties": {
             "name": {"type": "string"}, "category": {"type": "string"},
             "subcategory": {"type": "string"}, "specialty": {"type": "string"},
-            "domain": {"type": "string"},
+            "summary": {"type": "string"}, "domain": {"type": "string"},
         }}}},
     "required": ["companies"],
 }
@@ -89,6 +89,7 @@ def discover(*, llm: LLMProvider, per_query: int = 15) -> list[dict]:
         sub = c.get("subcategory") if c.get("subcategory") in VOCAB.get(cat, []) else None
         out.append({"id": _slug(name), "name": name, "category": cat,
                     "subcategory": sub, "specialty": (c.get("specialty") or None),
+                    "summary": (c.get("summary") or None),
                     "domain": c.get("domain") or None, "segment": "global"})
     return out
 

@@ -57,7 +57,8 @@ def list_companies(filter: str | None = None, segment: str = "all",
         "companies": [
             {
                 "id": c.id, "name": c.name, "category": c.category,
-                "subcategory": c.subcategory, "specialty": c.specialty, "segment": c.segment,
+                "subcategory": c.subcategory, "specialty": c.specialty, "summary": c.summary,
+                "segment": c.segment,
                 "universe_rank": c.universe_rank, "vc_attention_score": c.vc_attention_score,
                 "last_updated": str(c.last_updated), "headline_metrics": _headline(c),
             }

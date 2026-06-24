@@ -75,6 +75,10 @@ def _money(v) -> str:
 
 
 def _band(c: float) -> str:
+    # "stale" (<0.05) distinguishes a figure decayed to near-zero trust from a
+    # merely-uncertain "low" one, so an old single-source number can't read as current.
+    if c < 0.05:
+        return "stale"
     return "high" if c >= 0.75 else "medium" if c >= 0.5 else "low"
 
 
@@ -122,8 +126,9 @@ def _company_card(c, display_rank: int | None = None) -> str:
     for m, rv in c.metrics.items():
         warn = ' <span class="warn" title="public-source discrepancy">⚑</span>' if rv.contradiction else ""
         val = _money(rv.value) if rv.unit == "USD" else f"{rv.value:,.0f}" if isinstance(rv.value, (int, float)) else rv.value
+        yr = f" · '{str(rv.as_of)[2:4]}" if rv.as_of else ""  # as-of year so stale figures don't read as current
         rows += (f'<div class="m"><span class="k">{_metric_label(m)}{warn}</span>'
-                 f'<span class="v">{val} <span class="conf">[{rv.estimate_type.value} · {_band(rv.confidence)}]</span></span></div>')
+                 f'<span class="v">{val} <span class="conf">[{rv.estimate_type.value} · {_band(rv.confidence)}{yr}]</span></span></div>')
     if not rows:
         rows = '<div class="m"><span class="k">Coverage status</span><span class="v">source checked; no metric claims yet</span></div>'
     attrs = _card_attrs(

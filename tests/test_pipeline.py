@@ -177,8 +177,12 @@ def test_quality_warnings_are_honest(data_dir):
     assert "Lab" not in s.top50_missing_arr   # frontier lab: missing ARR is reality, not a gap
     assert "App" in s.top50_missing_arr       # app layer: ARR expected -> a real warning
 
-    # a single FILING is authoritative; a single news source is under-corroborated
+    # a single FILING is authoritative; a single low-trust news source is not
     store.write_claims("lab", [_claim("valuation", 9e9, stype=SourceType.FILING, sname="EDGAR")])
-    store.write_claims("app", [_claim("valuation", 8e9, stype=SourceType.NEWS, sname="TC")])
+    store.write_claims("app", [_claim("valuation", 8e9, stype=SourceType.NEWS, sname="SiliconANGLE")])
     assert _under_corroborated("lab", "valuation") is False
     assert _under_corroborated("app", "valuation") is True
+
+    # a single TIER-1 outlet (Bloomberg) is credible on its own -> not a warning
+    store.write_claims("app", [_claim("valuation", 8e9, stype=SourceType.NEWS, sname="Bloomberg")])
+    assert _under_corroborated("app", "valuation") is False

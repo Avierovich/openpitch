@@ -86,9 +86,24 @@ def _claim_source_count(company_id: str, metric: str) -> int:
     return len(sources)
 
 
+# Tier-1 outlets whose single report of a funding figure is reliable on its own —
+# a lone story here is not a corroboration gap (same spirit as a lone filing).
+TRUSTED_OUTLETS = (
+    "bloomberg", "reuters", "cnbc", "wsj", "wall street journal", "techcrunch",
+    "the information", "forbes", "fortune", "axios", "financial times",
+    "business insider", "crunchbase", "new york times",
+)
+
+
+def _is_trusted_outlet(name: str) -> bool:
+    n = (name or "").lower()
+    return any(o in n for o in TRUSTED_OUTLETS)
+
+
 def _under_corroborated(company_id: str, metric: str) -> bool:
-    """A metric with <2 distinct public sources — UNLESS its lone source is a
-    filing (EDGAR), which is authoritative and doesn't need corroboration."""
+    """A metric with <2 distinct public sources — UNLESS its lone source is
+    authoritative: a filing (EDGAR), or a single tier-1 outlet (Bloomberg/Reuters/
+    TechCrunch/…), which doesn't need a second source to be credible."""
     distinct, types = set(), set()
     for claim in store.read_claims(company_id):
         if claim.metric == metric and claim.source.type.value != "derived":
@@ -96,7 +111,10 @@ def _under_corroborated(company_id: str, metric: str) -> bool:
             types.add(claim.source.type.value)
     if len(distinct) >= 2:
         return False
-    return "filing" not in types  # a single non-filing source is under-corroborated
+    if "filing" in types:
+        return False
+    lone_name = next(iter(distinct))[0] if distinct else ""
+    return not _is_trusted_outlet(lone_name)
 
 
 def build_snapshot(top_n: int = 50) -> QualitySnapshot:

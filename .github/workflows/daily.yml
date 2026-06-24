@@ -49,7 +49,8 @@ jobs:
         # OPENPITCH_SEC_USER_AGENT improve transcription and EDGAR reliability.
         # Falls back to the committed seed (offline) when no LLM key is configured.
         # Ingests the full watchlist INCLUDING anything `discover` just added.
-        run: openpitch run ${{ secrets.LLM_API_KEY == '' && '--offline' || '' }}
+        # Deeper item cap => more independent sources per metric => more corroboration.
+        run: openpitch run --max-source-items 25 ${{ secrets.LLM_API_KEY == '' && '--offline' || '' }}
 
       - name: Build dashboard
         run: openpitch build-dashboard

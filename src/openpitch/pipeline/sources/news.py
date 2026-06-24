@@ -15,10 +15,13 @@ from ...models import Company, SourceType
 
 GOOGLE_NEWS_RSS = "https://news.google.com/rss/search"
 QUERY_TERMS = "funding OR raises OR valuation OR ARR OR revenue OR Series"
+# A second, metric-specific angle surfaces DIFFERENT articles (and outlets) than the
+# broad funding query — more independent sources => more corroboration (WS2).
+METRIC_TERMS = '"revenue run rate" OR "annual recurring" OR "post-money" OR "raised at"'
 
 
-def build_query_url(name: str) -> str:
-    q = f'"{name}" ({QUERY_TERMS})'
+def build_query_url(name: str, terms: str = QUERY_TERMS) -> str:
+    q = f'"{name}" ({terms})'
     params = urllib.parse.urlencode({"q": q, "hl": "en-US", "gl": "US", "ceid": "US:en"})
     return f"{GOOGLE_NEWS_RSS}?{params}"
 
@@ -44,17 +47,28 @@ def parse_feed(parsed, company_id: str) -> list[RawItem]:
     return items
 
 
-def fetch(company: Company, *, client=None, limit: int = 10) -> list[RawItem]:
+def fetch(company: Company, *, client=None, limit: int = 15) -> list[RawItem]:
     import feedparser
     import httpx
 
     owns_client = client is None
     client = client or httpx.Client(timeout=8.0, follow_redirects=True)
+    items: list[RawItem] = []
+    seen: set[str] = set()
     try:
-        resp = client.get(build_query_url(company.name))
-        resp.raise_for_status()
-        parsed = feedparser.parse(resp.content)
-        return parse_feed(parsed, company.id)[:limit]  # Google News RSS is recency-ordered
+        # Broad funding query first, then the metric-specific angle for extra outlets.
+        for terms in (QUERY_TERMS, METRIC_TERMS):
+            try:
+                resp = client.get(build_query_url(company.name, terms))
+                resp.raise_for_status()
+            except Exception:  # noqa: BLE001 — one query failing must not abort the company
+                continue
+            for it in parse_feed(feedparser.parse(resp.content), company.id):
+                key = it.url or it.title or ""
+                if key and key not in seen:
+                    seen.add(key)
+                    items.append(it)
+        return items[:limit]  # Google News RSS is recency-ordered; dedup keeps both angles
     finally:
         if owns_client:
             client.close()

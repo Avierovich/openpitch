@@ -30,6 +30,15 @@ jobs:
       - name: Install
         run: pip install -e ".[pipeline]"
 
+      - name: Discover new AI startups (funding news + ranking lists)
+        # Grows the universe automatically so new companies don't need manual adds.
+        # Needs an LLM key; skipped (and the run falls back to seed) when absent.
+        if: ${{ secrets.LLM_API_KEY != '' }}
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: openpitch discover
+
       - name: Run pipeline (collect → … → publish)
         env:
           # Free-tier key, no billing attached → cannot be charged (FRD §8.6 / BRD §9.1)
@@ -39,6 +48,7 @@ jobs:
         # Live run needs LLM_API_KEY for extraction; GROQ_API_KEY and
         # OPENPITCH_SEC_USER_AGENT improve transcription and EDGAR reliability.
         # Falls back to the committed seed (offline) when no LLM key is configured.
+        # Ingests the full watchlist INCLUDING anything `discover` just added.
         run: openpitch run ${{ secrets.LLM_API_KEY == '' && '--offline' || '' }}
 
       - name: Build dashboard
@@ -48,8 +58,8 @@ jobs:
         run: |
           git config user.name  "openpitch-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/
-          git diff --cached --quiet || git commit -m "data: daily refresh"
+          git add data/ config/discovered.yaml
+          git diff --cached --quiet || git commit -m "data: daily refresh + discovery"
           git push
 
       # TODO: deploy dashboard/dist to GitHub Pages

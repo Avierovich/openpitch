@@ -17,11 +17,16 @@ from .llm import LLMProvider
 
 # AI-enabled across verticals — AI-native plus AI-applied (AI fintech, AI health,
 # defense AI like Anduril). NOT generic non-AI startups.
+# Mix of (a) fresh-funding queries that catch companies the day they raise, and
+# (b) ranking/listicle queries that backfill ESTABLISHED unicorns whose raise is
+# months old and so absent from today's news (e.g. Higgsfield's Jan-2026 round).
 _QUERIES = [
     'AI startup ("Series" OR raises OR "funding round") valuation',
     '"AI" (fintech OR healthcare OR legal OR security) startup funding',
     '(defense OR autonomous OR "dual-use") AI startup funding',
     '("AI agents" OR "AI infrastructure" OR "applied AI" OR "enterprise AI") funding round',
+    '("most valuable" OR "top" OR unicorn) AI startups valuation 2026',
+    '("generative" OR "AI video" OR "AI image" OR "AI voice") startup valuation',
 ]
 
 
@@ -74,12 +79,39 @@ def discover(*, llm: LLMProvider, per_query: int = 15) -> list[dict]:
     return out
 
 
+def _curated_ids() -> set[str]:
+    """Ids already in the hand-curated watchlist.yaml (companies + mena), [] if absent.
+
+    Read directly (not via load_watchlist, which merges discovered.yaml back in) so
+    discovery never re-adds a curated name — that was how Anthropic/Harvey dups crept
+    into discovered.yaml.
+    """
+    path = config_dir() / "watchlist.yaml"
+    if not path.exists():
+        return set()
+    data = yaml.safe_load(path.read_text()) or {}
+    return {c["id"] for grp in ("companies", "mena") for c in (data.get(grp) or []) if c.get("id")}
+
+
 def merge_discovered(found: list[dict]) -> int:
-    """Append new candidates to config/discovered.yaml (dedup by id). Returns count added."""
+    """Append genuinely-new candidates to config/discovered.yaml. Returns count added.
+
+    Dedups against BOTH discovered.yaml and the curated watchlist, and drops obvious
+    junk (no/blank name, single generic word with no domain).
+    """
     path = config_dir() / "discovered.yaml"
     data = (yaml.safe_load(path.read_text()) if path.exists() else None) or {"companies": []}
-    have = {c["id"] for c in data["companies"]}
-    new = [c for c in found if c["id"] not in have]
+    have = {c["id"] for c in data["companies"]} | _curated_ids()
+    new = []
+    for c in found:
+        cid = c.get("id", "")
+        if not cid or cid in have:
+            continue
+        # junk gate: a bare single-word name with no domain is usually a mis-extraction.
+        if not c.get("domain") and "-" not in cid and len(cid) <= 4:
+            continue
+        have.add(cid)
+        new.append(c)
     if new:
         data["companies"].extend(new)
         path.write_text(yaml.safe_dump(data, sort_keys=False, allow_unicode=True))

@@ -35,6 +35,8 @@ h1{font-size:26px;margin:0 0 4px}.sub{color:var(--mut);margin:0 0 24px}
 .m .k{color:var(--mut)}.v{font-variant-numeric:tabular-nums}
 .tag{display:inline-block;background:#202840;color:var(--mut);border-radius:6px;padding:1px 7px;font-size:11px;margin-left:6px}
 .warn{color:var(--warn)}.conf{font-size:11px;color:var(--mut)}
+.yr{font-size:11px;color:var(--mut);margin-left:5px;font-variant-numeric:tabular-nums}
+.yr.old{color:#1a1205;background:var(--warn);font-weight:700;border-radius:4px;padding:0 5px}
 .src{font-size:12px;color:var(--mut)}.disc{background:#1c1530;border:1px solid #3a2a52;border-radius:10px;padding:12px;color:#cbb8e6;font-size:13px;margin:18px 0}
 """
 
@@ -82,6 +84,20 @@ def _band(c: float) -> str:
     return "high" if c >= 0.75 else "medium" if c >= 0.5 else "low"
 
 
+CURRENT_YEAR = date.today().year
+
+
+def _year_badge(as_of) -> str:
+    """Show the data point's year; highlight it (amber) when older than the current
+    year — in startup valuations a figure from a prior year is materially stale."""
+    yr = str(as_of)[:4] if as_of else ""
+    if not (yr.isdigit()):
+        return ""
+    cls = "yr old" if int(yr) < CURRENT_YEAR else "yr"
+    title = f"as of {as_of} — older than {CURRENT_YEAR}" if int(yr) < CURRENT_YEAR else f"as of {as_of}"
+    return f'<span class="{cls}" title="{title}">{yr}</span>'
+
+
 def _metric_label(key: str) -> str:
     defs = load_metrics()
     return defs[key].label if key in defs else key.replace("_", " ").title()
@@ -126,9 +142,9 @@ def _company_card(c, display_rank: int | None = None) -> str:
     for m, rv in c.metrics.items():
         warn = ' <span class="warn" title="public-source discrepancy">⚑</span>' if rv.contradiction else ""
         val = _money(rv.value) if rv.unit == "USD" else f"{rv.value:,.0f}" if isinstance(rv.value, (int, float)) else rv.value
-        yr = f" · '{str(rv.as_of)[2:4]}" if rv.as_of else ""  # as-of year so stale figures don't read as current
         rows += (f'<div class="m"><span class="k">{_metric_label(m)}{warn}</span>'
-                 f'<span class="v">{val} <span class="conf">[{rv.estimate_type.value} · {_band(rv.confidence)}{yr}]</span></span></div>')
+                 f'<span class="v">{val} <span class="conf">[{rv.estimate_type.value} · {_band(rv.confidence)}]</span>'
+                 f'{_year_badge(rv.as_of)}</span></div>')
     if not rows:
         rows = '<div class="m"><span class="k">Coverage status</span><span class="v">source checked; no metric claims yet</span></div>'
     attrs = _card_attrs(
@@ -165,7 +181,8 @@ def _company_page(c, display_rank: int | None = None) -> str:
         warn = ' <span class="warn">⚑ public-source discrepancy</span>' if rv.contradiction else ""
         val = _money(rv.value) if rv.unit == "USD" else (f"{rv.value:,.0f}" if isinstance(rv.value, (int, float)) else rv.value)
         blocks += (f'<div class="card"><div class="m"><span class="k">{_metric_label(m)}{warn}</span>'
-                   f'<span class="v">{val} <span class="conf">[{rv.estimate_type.value} · conf {rv.confidence}]</span></span></div>{srcs}</div>')
+                   f'<span class="v">{val} <span class="conf">[{rv.estimate_type.value} · conf {rv.confidence}]</span>'
+                   f'{_year_badge(rv.as_of)}</span></div>{srcs}</div>')
     return _html(f"{c.name} — OpenPitch", f'<a href="../index.html">← all companies</a><h1>{c.name}</h1>'
                  f'<p class="sub">{_tier(rank)} · {c.category or ""} · rank {_display_rank(rank or 0)} · VC-attention {c.vc_attention_score}</p>'
                  f'<div class="grid">{blocks}</div>{_DISCLAIMER}')

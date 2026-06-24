@@ -110,7 +110,7 @@ def test_finalize_ranks_globally_across_incremental_runs(data_dir):
     assert store.read_company("beta").universe_rank == 1  # higher valuation ranks first
 
 
-def test_dashboard_renders_top_50_watchlist_slots(data_dir):
+def test_dashboard_renders_top_50_watchlist_slots(data_dir, monkeypatch):
     c = Company(
         id="openai", name="OpenAI", category="foundation-model", universe_rank=1,
         last_updated=AS_OF, metrics={
@@ -122,10 +122,14 @@ def test_dashboard_renders_top_50_watchlist_slots(data_dir):
     )
     store.write_company(c)
 
-    from openpitch.pipeline.dashboard import DIST, build
+    from openpitch.pipeline import dashboard
 
-    build()
-    index = (DIST / "index.html").read_text()
+    # Redirect output to a tmp dir — must NOT clobber the real dashboard/dist with
+    # this test's single-company data (that was the "1 sourced profile" bug).
+    dist = data_dir / "dist"
+    monkeypatch.setattr(dashboard, "DIST", dist)
+    dashboard.build()
+    index = (dist / "index.html").read_text()
     assert "1 sourced profiles · 50 top-50 slots" in index
     assert index.count('class="card') == 50
     assert "ARR / revenue" in index
@@ -134,7 +138,7 @@ def test_dashboard_renders_top_50_watchlist_slots(data_dir):
     assert 'data-sort' in index
     assert 'data-valuation="0.0"' in index
     assert "View data quality" in index
-    assert (DIST / "quality.html").exists()
+    assert (dist / "quality.html").exists()
     assert (data_dir / "quality" / "report.md").exists()
 
 

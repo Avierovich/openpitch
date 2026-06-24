@@ -268,11 +268,13 @@ def recompute() -> None:
 
 @app.command()
 def discover() -> None:
-    """Find AI startups from funding news and add them to config/discovered.yaml (needs LLM key)."""
-    from .discover import discover as run_discover, merge_discovered
+    """Find AI startups (funding news + per-sector knowledge backfill) and add new ones to
+    config/discovered.yaml (needs LLM key)."""
+    from .discover import backfill, discover as run_discover, merge_discovered
     from .llm import get_provider
 
-    found = run_discover(llm=get_provider())
+    llm = get_provider()
+    found = run_discover(llm=llm) + backfill(llm=llm)
     n = merge_discovered(found)
     typer.echo(f"Discovered {len(found)} candidates; {n} new added to config/discovered.yaml")
 

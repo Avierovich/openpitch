@@ -27,6 +27,8 @@ _QUERIES = [
     '("AI agents" OR "AI infrastructure" OR "applied AI" OR "enterprise AI") funding round',
     '("most valuable" OR "top" OR unicorn) AI startups valuation 2026',
     '("generative" OR "AI video" OR "AI image" OR "AI voice") startup valuation',
+    '("sales" OR "revenue operations" OR RevOps OR "data enrichment" OR CRM) AI startup funding',
+    '("AI chip" OR semiconductor OR "AI accelerator" OR inference hardware) startup funding',
 ]
 
 
@@ -39,10 +41,11 @@ def _sys() -> str:
     from .classify import VOCAB
     vocab = "; ".join(f"{m}: {', '.join(subs)}" for m, subs in VOCAB.items())
     return (
-        "Extract private companies that are AI-native or meaningfully AI-ENABLED (AI is core "
+        "Extract companies that are AI-native or meaningfully AI-ENABLED (AI is core "
         "to the product/value), across any vertical — including AI fintech, AI healthcare, and "
-        "defense/autonomous AI. Skip companies with no real AI angle, public companies, and "
-        "investors/VC firms. For each give name; domain if obvious; a `category` from this fixed "
+        "defense/autonomous AI. Skip companies with no real AI angle and investors/VC firms. "
+        "For each give name; domain if obvious; a `status` of exactly 'private', 'public', or "
+        "'acquired' (best estimate of the company's current standing); a `category` from this fixed "
         f"list and a matching `subcategory` from its options ({vocab}); a short free-text "
         "`specialty` (<=8 words); and a `summary` of 1-2 plain-English sentences on what the company does."
     )
@@ -53,6 +56,7 @@ _SCHEMA = {
     "properties": {"companies": {"type": "array", "items": {
         "type": "object", "required": ["name"], "properties": {
             "name": {"type": "string"}, "category": {"type": "string"},
+            "status": {"type": "string", "enum": ["private", "public", "acquired"]},
             "subcategory": {"type": "string"}, "specialty": {"type": "string"},
             "summary": {"type": "string"}, "domain": {"type": "string"},
         }}}},
@@ -64,33 +68,82 @@ def _slug(name: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
 
 
-def discover(*, llm: LLMProvider, per_query: int = 15) -> list[dict]:
-    """One LLM call over recent multi-sector funding headlines → candidate companies."""
+def discover(*, llm: LLMProvider, per_query: int = 15, max_chars: int = 24000) -> list[dict]:
+    """One LLM call over recent multi-sector funding headlines → candidate companies.
+
+    ponytail: payload bounded to max_chars (~6k tokens) so the single extraction call
+    stays under free-tier per-request limits (Groq fallback caps ~12k tokens); each
+    headline trimmed since the company name + raise sit at the front. Raise the cap or
+    page the LLM call only if a run measurably starves on candidates.
+    """
     import feedparser
 
-    seen, headlines = set(), []
+    seen, headlines, budget = set(), [], max_chars
     for q in _QUERIES:
         for e in feedparser.parse(_feed(q)).entries[:per_query]:
-            t = f"{e.get('title', '')}. {e.get('summary', '')}".strip()
-            if t and t not in seen:
+            t = f"{e.get('title', '')}. {e.get('summary', '')}".strip()[:280]
+            if t and t not in seen and budget - len(t) > 0:
                 seen.add(t)
                 headlines.append(t)
+                budget -= len(t) + 1
     text = "\n".join(headlines)
     if not text.strip():
         return []
+    return _normalize(llm.complete_json(_sys(), text, _SCHEMA))
+
+
+def _normalize(data: dict | None) -> list[dict]:
+    """LLM extraction dict -> candidate rows, forcing categories into the controlled VOCAB."""
     from .classify import VOCAB
-    data = llm.complete_json(_sys(), text, _SCHEMA) or {}
+
     out = []
-    for c in data.get("companies", []):
+    for c in (data or {}).get("companies", []):
         name = (c.get("name") or "").strip()
         if not name:
+            continue
+        # Scope: private companies only. The LLM is unreliable at OMITTING public/acquired
+        # names, so we have it LABEL status and drop here in code (unlabeled => assume private).
+        if (c.get("status") or "private").strip().lower() in ("public", "acquired"):
             continue
         cat = c.get("category") if c.get("category") in VOCAB else "vertical-app"
         sub = c.get("subcategory") if c.get("subcategory") in VOCAB.get(cat, []) else None
         out.append({"id": _slug(name), "name": name, "category": cat,
                     "subcategory": sub, "specialty": (c.get("specialty") or None),
                     "summary": (c.get("summary") or None),
-                    "domain": c.get("domain") or None, "segment": "global"})
+                    "domain": (c.get("domain") or "").strip().strip(",").strip() or None,
+                    "segment": "global"})
+    return out
+
+
+# Sectors OpenPitch wants RELIABLY covered. News discovery only catches a company the week
+# it's in a funding headline, so established names whose raise is months old (Clay, Apollo,
+# Gong, Cerebras...) never reappear. Backfill enumerates them from the LLM's own knowledge.
+_BACKFILL_SECTORS = [
+    "sales tech, RevOps, and go-to-market automation",
+    "data enrichment and sales intelligence",
+    "AI chips, semiconductors, and inference hardware",
+    "defense and autonomous systems",
+    "AI infrastructure, inference, and model serving",
+    "AI developer tools and coding agents",
+    "vertical AI for legal, healthcare, and finance",
+    "generative media — AI video, image, voice, and music",
+]
+
+
+def backfill(*, llm: LLMProvider, per_sector: int = 12) -> list[dict]:
+    """Knowledge-backfill: ask the LLM to enumerate established PRIVATE companies per sector,
+    so names absent from this week's news still enter systematically. Same VOCAB normalization
+    and the same downstream corroboration as news discovery — a candidate with no real funding
+    source never becomes a profile, so a stale/wrong enumeration is harmless until corroborated.
+
+    ponytail: LLM enumeration over a fixed sector list (no flaky article scraping). Add a sector
+    when coverage misses one; swap to a real registry only if hallucinated names become a problem.
+    """
+    out = []
+    for sector in _BACKFILL_SECTORS:
+        prompt = (f"List up to {per_sector} of the most notable PRIVATE, still-independent "
+                  f"(not public, not acquired) companies in: {sector}.")
+        out.extend(_normalize(llm.complete_json(_sys(), prompt, _SCHEMA)))
     return out
 
 
@@ -138,4 +191,10 @@ if __name__ == "__main__":  # ponytail: dedup self-check, no network
     os.environ["OPENPITCH_CONFIG_DIR"] = tempfile.mkdtemp()
     assert merge_discovered([{"id": "factory", "name": "Factory"}]) == 1
     assert merge_discovered([{"id": "factory", "name": "Factory"}]) == 0
+    # _normalize forces an out-of-vocab category back into the controlled list,
+    # keeps private (incl. unlabeled), and drops public/acquired.
+    row = _normalize({"companies": [{"name": "Clay", "category": "made-up"}]})[0]
+    assert row["id"] == "clay" and row["category"] == "vertical-app"
+    assert _normalize({"companies": [{"name": "ZoomInfo", "status": "public"}]}) == []
+    assert _normalize({"companies": [{"name": "Clearbit", "status": "acquired"}]}) == []
     print("ok")

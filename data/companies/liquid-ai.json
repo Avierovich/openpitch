@@ -9,25 +9,6 @@
   "vc_attention_score": 78.3,
   "universe_rank": 60,
   "metrics": {
-    "arr": {
-      "metric": "arr",
-      "value": 13200000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-11-24",
-      "estimate_type": "reported",
-      "confidence": 0.063,
-      "supporting_claims": [
-        "clm_0aa76495ea"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 13200000.0,
-        "change_pct": 0.0,
-        "since": "2025-11-24"
-      },
-      "history_ref": "history/liquid-ai/arr.jsonl"
-    },
     "valuation": {
       "metric": "valuation",
       "value": 2400000000.0,
@@ -45,7 +26,10 @@
         "change_pct": 0.0,
         "since": "2025-11-24"
       },
-      "history_ref": "history/liquid-ai/valuation.jsonl"
+      "history_ref": "history/liquid-ai/valuation.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "notable_customers": {
       "metric": "notable_customers",
@@ -64,7 +48,10 @@
         "change_pct": 0.0,
         "since": "2025-11-13"
       },
-      "history_ref": "history/liquid-ai/notable_customers.jsonl"
+      "history_ref": "history/liquid-ai/notable_customers.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "round_amount": {
       "metric": "round_amount",
@@ -85,7 +72,10 @@
         "change_pct": 0.0,
         "since": "2024-12-13"
       },
-      "history_ref": "history/liquid-ai/round_amount.jsonl"
+      "history_ref": "history/liquid-ai/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
@@ -104,7 +94,10 @@
         "change_pct": 0.0,
         "since": "2025-11-24"
       },
-      "history_ref": "history/liquid-ai/revenue_multiple.jsonl"
+      "history_ref": "history/liquid-ai/revenue_multiple.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
   "last_updated": "2026-06-24"

@@ -143,6 +143,38 @@ def test_temporal_gap_is_not_a_contradiction():
     assert rv.contradiction is False
 
 
+def test_forward_looking_revenue_target_is_dropped():
+    # "$1B ARR by the end of 2026" is a projection, not current revenue (the Replit trap).
+    target = claim("t", 1_000_000_000, stype=SourceType.PODCAST, sname="20VC",
+                   role=SpeakerRole.FOUNDER, qualifiers=["forward_looking"])
+    assert reconcile("arr", [target], as_of=RUN, tau=ARR_TAU, tolerance=ARR_TOL) is None
+
+
+def test_forward_looking_valuation_is_kept():
+    # For valuation, forward_looking == "in talks" — recency is the edge, keep it.
+    rumored = claim("r", 30_000_000_000, stype=SourceType.NEWS, sname="Bloomberg",
+                    qualifiers=["forward_looking"])
+    rv = reconcile("valuation", [rumored], as_of=RUN, tau=365, tolerance=0.15)
+    assert rv is not None and abs(rv.value - 30_000_000_000) < 1
+
+
+def test_unconfirmed_headline_surfaces_confirmed_anchor():
+    # Real Fireworks shape: several fresh "in talks" reports dominate an older confirmed
+    # round -> headline stays the fresh figure, confirmed surfaced as the anchor.
+    rumored = [
+        claim(f"u{i}", 15_000_000_000, stype=SourceType.NEWS, sname=f"Outlet{i}",
+              qualifiers=["unconfirmed"], published=date(2026, 5, 26))
+        for i in range(3)
+    ]
+    confirmed = claim("c", 4_000_000_000, stype=SourceType.NEWS, sname="WSJ",
+                      published=date(2026, 1, 8))
+    rv = reconcile("valuation", rumored + [confirmed], as_of=date(2026, 6, 1), tau=365, tolerance=0.15)
+    assert rv.unconfirmed is True
+    assert abs(rv.value - 15_000_000_000) < 1            # headline stays the fresh figure
+    assert rv.confirmed_value == 4_000_000_000           # confirmed anchor surfaced
+    assert rv.confirmed_as_of == date(2026, 1, 8)
+
+
 def test_confidence_never_certain():
     claims = [claim(f"c{i}", 100, stype=SourceType.FILING, sname=f"src{i}") for i in range(10)]
     rv = reconcile("arr", claims, as_of=RUN, tau=ARR_TAU, tolerance=ARR_TOL)

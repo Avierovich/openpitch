@@ -26,8 +26,15 @@
         "clm_bc769acd63"
       ],
       "contradiction": false,
-      "delta": null,
-      "history_ref": "history/bland/total_funding.jsonl"
+      "delta": {
+        "previous": 50000000.0,
+        "change_pct": -0.0,
+        "since": "2026-06-17"
+      },
+      "history_ref": "history/bland/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "latest_round": {
       "metric": "latest_round",
@@ -46,8 +53,15 @@
         "clm_cbb35b7de3"
       ],
       "contradiction": false,
-      "delta": null,
-      "history_ref": "history/bland/latest_round.jsonl"
+      "delta": {
+        "previous": 50000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-17"
+      },
+      "history_ref": "history/bland/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
   "last_updated": "2026-06-24"

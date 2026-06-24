@@ -25,8 +25,15 @@
         "clm_1685179e90"
       ],
       "contradiction": false,
-      "delta": null,
-      "history_ref": "history/prometheus/total_funding.jsonl"
+      "delta": {
+        "previous": 12000000000.0,
+        "change_pct": -0.0,
+        "since": "2026-06-12"
+      },
+      "history_ref": "history/prometheus/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "valuation": {
       "metric": "valuation",
@@ -43,8 +50,15 @@
         "clm_a02bdcb810"
       ],
       "contradiction": true,
-      "delta": null,
-      "history_ref": "history/prometheus/valuation.jsonl"
+      "delta": {
+        "previous": 4000000000.0,
+        "change_pct": -0.0,
+        "since": "2026-06-12"
+      },
+      "history_ref": "history/prometheus/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
   "last_updated": "2026-06-24"

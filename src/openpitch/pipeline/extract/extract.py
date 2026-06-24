@@ -73,7 +73,11 @@ EXTRACTION_SYSTEM = (
     "GMV, gross merchandise value, TPV, total payment/transaction volume, bookings, AUM, and "
     "deposits are NOT revenue — never map a volume figure to arr/mrr/acv (a $6B GMV is not $6B ARR). "
     "Capture softening qualifiers (run_rate, rounded, "
-    "approximate, forward_looking, unconfirmed) and the speaker's role "
+    "approximate, forward_looking, unconfirmed) and the speaker's role. "
+    "Qualifier rules: a valuation described as 'in talks', 'rumored', 'reportedly raising', "
+    "'seeking', or 'could be valued at' -> add 'unconfirmed'. A revenue/ARR figure that is a "
+    "future TARGET ('on track to reach', 'targeting', 'by 2027', 'aiming for') -> add "
+    "'forward_looking' (it is a projection, not current revenue). Capture the speaker's role "
     "(founder, exec, investor, journalist, unknown). Quote the exact source phrase in raw_text. "
     "If no metric is stated, return an empty claims array."
 )

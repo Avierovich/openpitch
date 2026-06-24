@@ -26,7 +26,10 @@
         "change_pct": 0.0,
         "since": "2026-01-01"
       },
-      "history_ref": "history/ai21/round_amount.jsonl"
+      "history_ref": "history/ai21/round_amount.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "valuation": {
       "metric": "valuation",
@@ -47,7 +50,10 @@
         "change_pct": 0.0,
         "since": "2025-12-31"
       },
-      "history_ref": "history/ai21/valuation.jsonl"
+      "history_ref": "history/ai21/valuation.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": 1400000000.0,
+      "confirmed_as_of": "2025-11-28"
     },
     "arr": {
       "metric": "arr",
@@ -66,7 +72,10 @@
         "change_pct": -0.0,
         "since": "2025-11-28"
       },
-      "history_ref": "history/ai21/arr.jsonl"
+      "history_ref": "history/ai21/arr.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
@@ -85,7 +94,10 @@
         "change_pct": 0.0,
         "since": "2025-11-28"
       },
-      "history_ref": "history/ai21/revenue_multiple.jsonl"
+      "history_ref": "history/ai21/revenue_multiple.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
   "last_updated": "2026-06-24"

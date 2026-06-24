@@ -26,7 +26,10 @@
         "change_pct": -0.0,
         "since": "2026-03-26"
       },
-      "history_ref": "history/shield-ai/round_amount.jsonl"
+      "history_ref": "history/shield-ai/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "valuation": {
       "metric": "valuation",
@@ -50,26 +53,10 @@
         "change_pct": 0.0,
         "since": "2026-03-26"
       },
-      "history_ref": "history/shield-ai/valuation.jsonl"
-    },
-    "arr": {
-      "metric": "arr",
-      "value": 540000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-03-26",
-      "estimate_type": "reported",
-      "confidence": 0.248,
-      "supporting_claims": [
-        "clm_f5ec5d7369"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 540000000.0,
-        "change_pct": 0.0,
-        "since": "2026-03-26"
-      },
-      "history_ref": "history/shield-ai/arr.jsonl"
+      "history_ref": "history/shield-ai/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
@@ -88,7 +75,10 @@
         "change_pct": -0.0,
         "since": "2026-03-26"
       },
-      "history_ref": "history/shield-ai/revenue_multiple.jsonl"
+      "history_ref": "history/shield-ai/revenue_multiple.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
   "last_updated": "2026-06-24"

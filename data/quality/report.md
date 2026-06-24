@@ -20,6 +20,7 @@ None.
 ## Top-50 Missing ARR / Revenue
 
 - OpenEvidence
+- Replit
 - Suno
 - Abridge
 - Luma AI
@@ -58,7 +59,6 @@ None.
 - ElevenLabs: round_amount
 - Mercor: arr
 - Crusoe: round_amount
-- Replit: arr
 - Replit: total_funding
 - Together AI: arr
 - Hadrian: round_amount

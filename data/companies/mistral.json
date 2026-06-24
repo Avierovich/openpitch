@@ -26,7 +26,10 @@
         "change_pct": 0.0,
         "since": "2026-06-12"
       },
-      "history_ref": "history/mistral/valuation.jsonl"
+      "history_ref": "history/mistral/valuation.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": 13000000000.0,
+      "confirmed_as_of": "2025-09-09"
     },
     "round_amount": {
       "metric": "round_amount",
@@ -45,7 +48,10 @@
         "change_pct": 0.0,
         "since": "2026-03-30"
       },
-      "history_ref": "history/mistral/round_amount.jsonl"
+      "history_ref": "history/mistral/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "total_funding": {
       "metric": "total_funding",
@@ -64,7 +70,10 @@
         "change_pct": 0.0,
         "since": "2026-06-01"
       },
-      "history_ref": "history/mistral/total_funding.jsonl"
+      "history_ref": "history/mistral/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "arr": {
       "metric": "arr",
@@ -83,7 +92,10 @@
         "change_pct": 0.0,
         "since": "2026-04-01"
       },
-      "history_ref": "history/mistral/arr.jsonl"
+      "history_ref": "history/mistral/arr.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
@@ -102,7 +114,10 @@
         "change_pct": 0.0,
         "since": "2026-04-01"
       },
-      "history_ref": "history/mistral/revenue_multiple.jsonl"
+      "history_ref": "history/mistral/revenue_multiple.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
   "last_updated": "2026-06-24"

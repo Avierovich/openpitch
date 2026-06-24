@@ -27,8 +27,15 @@
         "clm_be63a44f14"
       ],
       "contradiction": false,
-      "delta": null,
-      "history_ref": "history/prem/latest_round.jsonl"
+      "delta": {
+        "previous": 100000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-18"
+      },
+      "history_ref": "history/prem/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "valuation": {
       "metric": "valuation",
@@ -42,8 +49,15 @@
         "clm_14dd8d8006"
       ],
       "contradiction": false,
-      "delta": null,
-      "history_ref": "history/prem/valuation.jsonl"
+      "delta": {
+        "previous": 500000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-18"
+      },
+      "history_ref": "history/prem/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
   "last_updated": "2026-06-24"

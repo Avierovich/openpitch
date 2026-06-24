@@ -127,6 +127,12 @@ class ResolvedValue(BaseModel):
     contradiction: bool = False
     delta: Delta | None = None
     history_ref: str | None = None
+    # Recency is the edge: the headline `value` is the freshest figure even when it's
+    # an "in talks"/rumored mark. These differentiate it from the last CONFIRMED number
+    # so the dashboard can show e.g. "$15B in talks · $4B confirmed '26".
+    unconfirmed: bool = False
+    confirmed_value: float | None = None
+    confirmed_as_of: date | None = None
 
 
 # ── Company profile (FRD §3.3) ───────────────────────────────────────────────

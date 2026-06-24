@@ -9,25 +9,6 @@
   "vc_attention_score": 61.6,
   "universe_rank": 110,
   "metrics": {
-    "arr": {
-      "metric": "arr",
-      "value": 5800000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-07-23",
-      "estimate_type": "reported",
-      "confidence": 0.022,
-      "supporting_claims": [
-        "clm_081fc5d06a"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 5800000.0,
-        "change_pct": 0.0,
-        "since": "2025-07-23"
-      },
-      "history_ref": "history/krea/arr.jsonl"
-    },
     "valuation": {
       "metric": "valuation",
       "value": 24000000.0,
@@ -45,7 +26,10 @@
         "change_pct": 0.0,
         "since": "2025-07-23"
       },
-      "history_ref": "history/krea/valuation.jsonl"
+      "history_ref": "history/krea/valuation.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "round_amount": {
       "metric": "round_amount",
@@ -64,7 +48,10 @@
         "change_pct": 0.0,
         "since": "2025-04-07"
       },
-      "history_ref": "history/krea/round_amount.jsonl"
+      "history_ref": "history/krea/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
@@ -83,7 +70,10 @@
         "change_pct": 0.0,
         "since": "2025-07-23"
       },
-      "history_ref": "history/krea/revenue_multiple.jsonl"
+      "history_ref": "history/krea/revenue_multiple.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
   "last_updated": "2026-06-24"

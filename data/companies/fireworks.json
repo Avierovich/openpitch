@@ -30,7 +30,10 @@
         "change_pct": 0.0,
         "since": "2026-05-27"
       },
-      "history_ref": "history/fireworks/valuation.jsonl"
+      "history_ref": "history/fireworks/valuation.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": 4000000000.0,
+      "confirmed_as_of": "2026-01-08"
     },
     "round_amount": {
       "metric": "round_amount",
@@ -51,7 +54,10 @@
         "change_pct": 0.0,
         "since": "2025-11-06"
       },
-      "history_ref": "history/fireworks/round_amount.jsonl"
+      "history_ref": "history/fireworks/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "open_roles": {
       "metric": "open_roles",
@@ -70,7 +76,10 @@
         "change_pct": 0.0,
         "since": "2026-06-16"
       },
-      "history_ref": "history/fireworks/open_roles.jsonl"
+      "history_ref": "history/fireworks/open_roles.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
   "last_updated": "2026-06-24"

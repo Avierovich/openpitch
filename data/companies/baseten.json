@@ -29,7 +29,10 @@
         "change_pct": 0.0,
         "since": "2026-01-26"
       },
-      "history_ref": "history/baseten/valuation.jsonl"
+      "history_ref": "history/baseten/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "round_amount": {
       "metric": "round_amount",
@@ -49,7 +52,10 @@
         "change_pct": -0.0,
         "since": "2026-01-23"
       },
-      "history_ref": "history/baseten/round_amount.jsonl"
+      "history_ref": "history/baseten/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "revenue_growth": {
       "metric": "revenue_growth",
@@ -68,7 +74,10 @@
         "change_pct": 0.0,
         "since": "2026-05-01"
       },
-      "history_ref": "history/baseten/revenue_growth.jsonl"
+      "history_ref": "history/baseten/revenue_growth.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
   "last_updated": "2026-06-24"

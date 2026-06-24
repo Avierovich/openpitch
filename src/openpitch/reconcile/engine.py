@@ -29,6 +29,19 @@ CONTRADICTION_WINDOW_DAYS = 120
 # Metrics whose multiple values are sequential events (successive rounds, accumulating
 # totals), not competing claims — never a "discrepancy".
 SEQUENTIAL_METRICS = {"round_amount", "total_funding"}
+# Qualifiers that mark a figure as not-yet-closed (a rumored/in-talks raise).
+UNCONFIRMED_QUALIFIERS = {"unconfirmed", "rumored", "in_talks", "forward_looking"}
+# Revenue metrics: a forward_looking figure is a future TARGET ("$1B ARR by 2027"),
+# not current revenue — it must never become the headline value (the Replit trap).
+REVENUE_METRICS = {"arr", "mrr", "acv", "revenue"}
+
+
+def _is_unconfirmed(claim: Claim) -> bool:
+    return bool(UNCONFIRMED_QUALIFIERS & set(claim.qualifiers or []))
+
+
+def _is_forward_looking(claim: Claim) -> bool:
+    return "forward_looking" in (claim.qualifiers or [])
 
 
 def _numeric(claims: list[Claim]) -> list[Claim]:
@@ -91,6 +104,10 @@ def reconcile(
     """
     reliabilities = reliabilities or {}
     numeric = _numeric(claims)
+    # Revenue metrics: drop forward-looking TARGETS ("$1B ARR by 2027") — they are
+    # projections, not the current figure, and must never headline (the Replit trap).
+    if metric in REVENUE_METRICS:
+        numeric = [c for c in numeric if not _is_forward_looking(c)]
     if not numeric:
         return None
 
@@ -157,6 +174,19 @@ def reconcile(
     pub_dates = [c.source.published_at for c, _ in dominant if c.source.published_at]
     resolved_as_of = max(pub_dates) if pub_dates else as_of
 
+    # Confirmed anchor: if the headline (freshest) figure is an unconfirmed/in-talks
+    # mark, also surface the latest CONFIRMED figure so recency and credibility coexist
+    # (dashboard shows "$15B in talks · $4B confirmed '26"). Recency stays the headline.
+    headline_unconfirmed = _cluster_weight([sc for sc in dominant if _is_unconfirmed(sc[0])]) > total_w / 2
+    confirmed_value = confirmed_as_of = None
+    if headline_unconfirmed:
+        confirmed = [c for c in numeric if not _is_unconfirmed(c)]
+        if confirmed:
+            latest = max(confirmed, key=lambda c: c.source.published_at or date.min)
+            if abs(float(latest.value) - value) / max(abs(value), 1e-9) > 0.05:
+                confirmed_value = round(float(latest.value), 2)
+                confirmed_as_of = latest.source.published_at
+
     delta = None
     if previous is not None and isinstance(previous.value, (int, float)):
         prev_val = float(previous.value)
@@ -179,4 +209,7 @@ def reconcile(
         contradiction=contradiction,
         delta=delta,
         history_ref=history_ref,
+        unconfirmed=headline_unconfirmed,
+        confirmed_value=confirmed_value,
+        confirmed_as_of=confirmed_as_of,
     )

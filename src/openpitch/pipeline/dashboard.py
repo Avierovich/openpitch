@@ -37,6 +37,8 @@ h1{font-size:26px;margin:0 0 4px}.sub{color:var(--mut);margin:0 0 24px}
 .m .k{color:var(--mut)}.v{font-variant-numeric:tabular-nums}
 .tag{display:inline-block;background:#202840;color:var(--mut);border-radius:6px;padding:1px 7px;font-size:11px;margin-left:6px}
 .warn{color:var(--warn)}.conf{font-size:11px;color:var(--mut)}
+.rumor{font-size:10px;color:#e3b341;border:1px solid #5c4a1a;border-radius:4px;padding:0 4px;vertical-align:middle}
+.confirmed{font-size:11px;color:#7fd1c1}
 .yr{font-size:11px;color:var(--mut);margin-left:5px;font-variant-numeric:tabular-nums}
 .yr.old{color:#1a1205;background:var(--warn);font-weight:700;border-radius:4px;padding:0 5px}
 .src{font-size:12px;color:var(--mut)}.disc{background:#1c1530;border:1px solid #3a2a52;border-radius:10px;padding:12px;color:#cbb8e6;font-size:13px;margin:18px 0}
@@ -87,6 +89,19 @@ def _band(c: float) -> str:
 
 
 CURRENT_YEAR = date.today().year
+
+
+def _status_html(rv) -> str:
+    """Differentiate a fresh 'in talks' mark from the last confirmed figure, so
+    recency (the headline) and credibility (the confirmed anchor) both show."""
+    out = ""
+    if getattr(rv, "unconfirmed", False):
+        out += ' <span class="rumor" title="reported in talks / not yet closed">in talks</span>'
+    cv = getattr(rv, "confirmed_value", None)
+    if cv:
+        cy = f" '{str(rv.confirmed_as_of)[2:4]}" if getattr(rv, "confirmed_as_of", None) else ""
+        out += f' <span class="confirmed">· {_money(cv)} confirmed{cy}</span>'
+    return out
 
 
 def _site_url(website: str | None) -> str:
@@ -153,7 +168,7 @@ def _company_card(c, display_rank: int | None = None) -> str:
         warn = ' <span class="warn" title="public-source discrepancy">⚑</span>' if rv.contradiction else ""
         val = _money(rv.value) if rv.unit == "USD" else f"{rv.value:,.0f}" if isinstance(rv.value, (int, float)) else rv.value
         rows += (f'<div class="m"><span class="k">{_metric_label(m)}{warn}</span>'
-                 f'<span class="v">{val} <span class="conf">[{rv.estimate_type.value} · {_band(rv.confidence)}]</span>'
+                 f'<span class="v">{val}{_status_html(rv)} <span class="conf">[{rv.estimate_type.value} · {_band(rv.confidence)}]</span>'
                  f'{_year_badge(rv.as_of)}</span></div>')
     if not rows:
         rows = '<div class="m"><span class="k">Coverage status</span><span class="v">source checked; no metric claims yet</span></div>'
@@ -204,7 +219,7 @@ def _company_page(c, display_rank: int | None = None) -> str:
         warn = ' <span class="warn">⚑ public-source discrepancy</span>' if rv.contradiction else ""
         val = _money(rv.value) if rv.unit == "USD" else (f"{rv.value:,.0f}" if isinstance(rv.value, (int, float)) else rv.value)
         blocks += (f'<div class="card"><div class="m"><span class="k">{_metric_label(m)}{warn}</span>'
-                   f'<span class="v">{val} <span class="conf">[{rv.estimate_type.value} · conf {rv.confidence}]</span>'
+                   f'<span class="v">{val}{_status_html(rv)} <span class="conf">[{rv.estimate_type.value} · conf {rv.confidence}]</span>'
                    f'{_year_badge(rv.as_of)}</span></div>{srcs}</div>')
     return _html(f"{c.name} — OpenPitch", f'<a href="../index.html">← all companies</a><h1>{c.name}</h1>'
                  f'<p class="sub">{_tier(rank)} · {c.category or ""} · rank {_display_rank(rank or 0)} · VC-attention {c.vc_attention_score}</p>'

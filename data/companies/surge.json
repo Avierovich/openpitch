@@ -21,8 +21,15 @@
         "clm_74d50c5dfc"
       ],
       "contradiction": false,
-      "delta": null,
-      "history_ref": "history/surge/headcount.jsonl"
+      "delta": {
+        "previous": 100.0,
+        "change_pct": 0.0,
+        "since": "2025-12-07"
+      },
+      "history_ref": "history/surge/headcount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "arr": {
       "metric": "arr",
@@ -36,8 +43,15 @@
         "clm_9758043e98"
       ],
       "contradiction": false,
-      "delta": null,
-      "history_ref": "history/surge/arr.jsonl"
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
+        "since": "2025-07-21"
+      },
+      "history_ref": "history/surge/arr.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
   "last_updated": "2026-06-24"

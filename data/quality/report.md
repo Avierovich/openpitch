@@ -6,8 +6,8 @@
 - Watchlist candidates: 162
 - Top-50 cards: 50
 - Profiles with at least one metric: 127
-- Critical issues: 3
-- Warnings: 52
+- Critical issues: 19
+- Warnings: 53
 
 ## Top-50 Companies With No Metrics
 
@@ -21,6 +21,7 @@ None.
 
 - OpenEvidence
 - Replit
+- Hadrian
 - Suno
 - Abridge
 - Luma AI
@@ -30,6 +31,22 @@ None.
 - Sana
 - Galileo
 - Project Prometheus
+- Waniwani
+- AttoTude
+- Causa Prima
+- Jedify
+- Mendo
+- Upscale AI
+- Lama AI
+- Mitigata
+- Stepful
+- Cadence
+- AethexAI
+- Reflection
+- Higgsfield
+- Kling AI
+- Vapi
+- Superpal
 
 ## Single-Source Core Metrics
 

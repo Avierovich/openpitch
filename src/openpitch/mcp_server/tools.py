@@ -43,7 +43,8 @@ def list_companies(filter: str | None = None, segment: str = "all",
         comps = [c for c in comps if (c.segment or "global") == segment]
     if filter:
         f = filter.lower()
-        comps = [c for c in comps if f in c.name.lower() or f in (c.category or "").lower()]
+        comps = [c for c in comps if f in c.name.lower() or f in (c.category or "").lower()
+                 or f in (c.subcategory or "").lower() or f in (c.specialty or "").lower()]
     keyers = {
         "universe_rank": lambda c: (c.universe_rank is None, c.universe_rank or 1e9),
         "name": lambda c: c.name.lower(),
@@ -55,7 +56,8 @@ def list_companies(filter: str | None = None, segment: str = "all",
         "status": "ok",
         "companies": [
             {
-                "id": c.id, "name": c.name, "category": c.category, "segment": c.segment,
+                "id": c.id, "name": c.name, "category": c.category,
+                "subcategory": c.subcategory, "specialty": c.specialty, "segment": c.segment,
                 "universe_rank": c.universe_rank, "vc_attention_score": c.vc_attention_score,
                 "last_updated": str(c.last_updated), "headline_metrics": _headline(c),
             }
@@ -162,8 +164,9 @@ def search(query: str) -> dict:
     q = query.lower()
     hits = []
     for c in store.read_all_companies():
-        hay = " ".join([c.name, c.category or "", c.segment or "", *(c.aliases or []),
-                        *c.metrics.keys()]).lower()
+        hay = " ".join([c.name, c.category or "", c.subcategory or "", c.specialty or "",
+                        c.segment or "", *(c.aliases or []), *c.metrics.keys()]).lower()
         if any(tok in hay for tok in q.split()):
-            hits.append({"id": c.id, "name": c.name, "category": c.category})
+            hits.append({"id": c.id, "name": c.name, "category": c.category,
+                         "subcategory": c.subcategory})
     return {"status": "ok", "query": query, "results": hits}

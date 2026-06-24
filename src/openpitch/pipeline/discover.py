@@ -35,17 +35,26 @@ def _feed(q: str) -> str:
         {"q": q, "hl": "en-US", "gl": "US", "ceid": "US:en"})
 
 
-_SYS = (
-    "Extract private companies that are AI-native or meaningfully AI-ENABLED (AI is core "
-    "to the product/value), across any vertical — including AI fintech, AI healthcare, and "
-    "defense/autonomous AI. Skip companies with no real AI angle, public companies, and "
-    "investors/VC firms. For each give name, a short category, and domain if obvious."
-)
+def _sys() -> str:
+    from .classify import VOCAB
+    vocab = "; ".join(f"{m}: {', '.join(subs)}" for m, subs in VOCAB.items())
+    return (
+        "Extract private companies that are AI-native or meaningfully AI-ENABLED (AI is core "
+        "to the product/value), across any vertical — including AI fintech, AI healthcare, and "
+        "defense/autonomous AI. Skip companies with no real AI angle, public companies, and "
+        "investors/VC firms. For each give name; domain if obvious; a `category` from this fixed "
+        f"list and a matching `subcategory` from its options ({vocab}); and a short free-text "
+        "`specialty` (<=8 words)."
+    )
+
+
 _SCHEMA = {
     "type": "object",
     "properties": {"companies": {"type": "array", "items": {
         "type": "object", "required": ["name"], "properties": {
-            "name": {"type": "string"}, "category": {"type": "string"}, "domain": {"type": "string"},
+            "name": {"type": "string"}, "category": {"type": "string"},
+            "subcategory": {"type": "string"}, "specialty": {"type": "string"},
+            "domain": {"type": "string"},
         }}}},
     "required": ["companies"],
 }
@@ -69,13 +78,18 @@ def discover(*, llm: LLMProvider, per_query: int = 15) -> list[dict]:
     text = "\n".join(headlines)
     if not text.strip():
         return []
-    data = llm.complete_json(_SYS, text, _SCHEMA) or {}
+    from .classify import VOCAB
+    data = llm.complete_json(_sys(), text, _SCHEMA) or {}
     out = []
     for c in data.get("companies", []):
         name = (c.get("name") or "").strip()
-        if name:
-            out.append({"id": _slug(name), "name": name, "category": c.get("category") or "ai",
-                        "domain": c.get("domain") or None, "segment": "global"})
+        if not name:
+            continue
+        cat = c.get("category") if c.get("category") in VOCAB else "vertical-app"
+        sub = c.get("subcategory") if c.get("subcategory") in VOCAB.get(cat, []) else None
+        out.append({"id": _slug(name), "name": name, "category": cat,
+                    "subcategory": sub, "specialty": (c.get("specialty") or None),
+                    "domain": c.get("domain") or None, "segment": "global"})
     return out
 
 

@@ -186,3 +186,21 @@ def test_quality_warnings_are_honest(data_dir):
     # a single TIER-1 outlet (Bloomberg) is credible on its own -> not a warning
     store.write_claims("app", [_claim("valuation", 8e9, stype=SourceType.NEWS, sname="Bloomberg")])
     assert _under_corroborated("app", "valuation") is False
+
+
+def test_apply_taxonomy_overlays_by_id(tmp_path, monkeypatch):
+    import yaml
+    from openpitch import config
+    monkeypatch.setenv("OPENPITCH_CONFIG_DIR", str(tmp_path))
+    (tmp_path / "taxonomy.yaml").write_text(yaml.safe_dump({
+        "vocab": {"generative-media": ["voice", "video"]},
+        "companies": {"acme": {"category": "generative-media", "subcategory": "voice",
+                               "specialty": "voice cloning"}},
+    }))
+    config.load_taxonomy.cache_clear()
+    out = config.apply_taxonomy({"id": "acme", "name": "Acme", "category": "ai", "domain": "acme.ai"})
+    assert out["category"] == "generative-media"      # classified main wins
+    assert out["subcategory"] == "voice" and out["specialty"] == "voice cloning"
+    # unknown id -> unchanged
+    assert config.apply_taxonomy({"id": "ghost", "category": "x"}) == {"id": "ghost", "category": "x"}
+    config.load_taxonomy.cache_clear()

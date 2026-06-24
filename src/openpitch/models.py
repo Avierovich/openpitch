@@ -143,7 +143,9 @@ class Company(BaseModel):
     name: str
     aliases: list[str] = Field(default_factory=list)
     website: str | None = None
-    category: str | None = None
+    category: str | None = None              # controlled MAIN category
+    subcategory: str | None = None           # controlled sub (e.g. video/voice/world-model)
+    specialty: str | None = None             # free-text nuance ("AI video for marketers")
     segment: str | None = None       # global | mena
     in_universe: bool = True
     vc_attention_score: float | None = None

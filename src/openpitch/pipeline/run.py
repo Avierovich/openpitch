@@ -63,9 +63,11 @@ def _load_seed(now: datetime) -> dict[str, tuple[dict, list[Claim]]]:
     payload = json.loads(path.read_text())
     groups: dict[str, tuple[dict, list[Claim]]] = {}
     for entry in payload.get("companies", []):
+        from ..config import apply_taxonomy
         meta = {k: entry[k] for k in ("id", "name") if k in entry}
         meta.update({"category": entry.get("category"), "domain": entry.get("domain"),
                      "aliases": entry.get("aliases", []), "segment": entry.get("segment", "global")})
+        meta = apply_taxonomy(meta)
         claims = [_claim_from_seed({**c, "company_id": entry["id"]}, now) for c in entry.get("claims", [])]
         groups[entry["id"]] = (meta, claims)
     return groups
@@ -96,6 +98,7 @@ def _reconcile_company(meta: dict, claims: list[Claim], *, now: datetime, as_of:
 
     company = Company(
         id=meta["id"], name=meta["name"], category=meta.get("category"),
+        subcategory=meta.get("subcategory"), specialty=meta.get("specialty"),
         segment=meta.get("segment"), website=meta.get("domain"),
         aliases=meta.get("aliases", []),
         in_universe=True, metrics=metrics, last_updated=as_of,
@@ -252,8 +255,10 @@ def recompute() -> None:
         claims = [cl for cl in store.read_claims(c.id) if cl.source.type.value != "derived"]
         if not claims:
             continue
-        meta = {"id": c.id, "name": c.name, "category": c.category, "segment": c.segment,
-                "domain": c.website, "aliases": c.aliases}
+        from ..config import apply_taxonomy
+        meta = apply_taxonomy({"id": c.id, "name": c.name, "category": c.category,
+                               "subcategory": c.subcategory, "specialty": c.specialty,
+                               "segment": c.segment, "domain": c.website, "aliases": c.aliases})
         pairs.append(_reconcile_company(meta, claims, now=now, as_of=as_of))
     n = _finalize(pairs, now=now, as_of=as_of)
     typer.echo(f"Recomputed {len(pairs)} companies from committed claims; {n} events.")
@@ -268,6 +273,34 @@ def discover() -> None:
     found = run_discover(llm=get_provider())
     n = merge_discovered(found)
     typer.echo(f"Discovered {len(found)} candidates; {n} new added to config/discovered.yaml")
+
+
+@app.command()
+def classify() -> None:
+    """Assign a controlled main category + subcategory + specialty to every company
+    (one LLM pass) and write config/taxonomy.yaml. Re-runnable (needs LLM key)."""
+    from ..config import load_taxonomy, load_watchlist
+    from .classify import classify as run_classify, write_taxonomy
+    from .llm import get_provider
+
+    # Classify the union of watchlist + already-profiled companies, skipping ones
+    # already in taxonomy.yaml (re-runs only fill the gaps / new arrivals).
+    load_taxonomy.cache_clear()
+    done = set(load_taxonomy().get("companies", {}).keys())
+    seen, companies = set(), []
+    for m in load_watchlist():
+        cid = m.get("id")
+        if cid and cid not in seen and cid not in done:
+            seen.add(cid)
+            companies.append({"id": cid, "name": m.get("name", cid),
+                              "category": m.get("category"), "domain": m.get("domain")})
+    if not companies:
+        typer.echo("All companies already classified; nothing to do.")
+        return
+    classified = run_classify(companies, llm=get_provider())
+    n = write_taxonomy(classified)
+    load_taxonomy.cache_clear()
+    typer.echo(f"Classified {n}/{len(companies)} companies; wrote config/taxonomy.yaml")
 
 
 @app.command()

@@ -32,6 +32,7 @@ h1{font-size:26px;margin:0 0 4px}.sub{color:var(--mut);margin:0 0 24px}
 .pending{border-style:dashed;background:#141929}
 .card h3{margin:0 0 2px;font-size:17px}.cat{color:var(--mut);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
 .card h3 .name{color:var(--fg)}.card h3 .name:hover{color:#7fd1c1;text-decoration:underline}
+.cat .sub{color:#7fd1c1}
 .more{display:inline-block;margin-top:10px;font-size:12px;color:var(--mut)}.more:hover{color:#7fd1c1}
 .m{display:flex;justify-content:space-between;border-top:1px solid #232a40;padding:7px 0;font-size:14px}
 .m .k{color:var(--mut)}.v{font-variant-numeric:tabular-nums}
@@ -58,11 +59,21 @@ function compareCards(mode, a, b) {
   if (mode === 'coverage') return number(b, 'coverage') - number(a, 'coverage') || number(a, 'rank') - number(b, 'rank');
   return number(b, 'valuation') - number(a, 'valuation') || number(a, 'rank') - number(b, 'rank');
 }
+const filter = document.querySelector('[data-filter]');
+function applyFilter() {
+  const v = filter ? filter.value : '';
+  [...grid.children].forEach(card => {
+    const cat = text(card, 'category'), sub = text(card, 'subcategory');
+    card.style.display = (!v || v === cat || v === cat + '/' + sub) ? '' : 'none';
+  });
+}
 function applySort() {
   [...grid.children].sort((a, b) => compareCards(sort.value, a, b)).forEach(card => grid.appendChild(card));
+  applyFilter();
 }
 if (grid && sort) {
   sort.addEventListener('change', applySort);
+  if (filter) filter.addEventListener('change', applyFilter);
   applySort();
 }
 </script>
@@ -153,12 +164,20 @@ def _coverage(c) -> int:
     return len(c.metrics)
 
 
-def _card_attrs(*, rank: int, name: str, category: str | None, valuation=0.0, funding=0.0, revenue=0.0, coverage=0) -> str:
+def _card_attrs(*, rank: int, name: str, category: str | None, subcategory: str | None = None,
+                valuation=0.0, funding=0.0, revenue=0.0, coverage=0) -> str:
     return (
         f'data-rank="{rank}" data-name="{escape(name, quote=True)}" '
         f'data-category="{escape(category or "", quote=True)}" '
+        f'data-subcategory="{escape(subcategory or "", quote=True)}" '
         f'data-valuation="{valuation}" data-funding="{funding}" data-revenue="{revenue}" data-coverage="{coverage}"'
     )
+
+
+def _taxon_label(category: str | None, subcategory: str | None) -> str:
+    """'generative-media · video' — the differentiating two-level label."""
+    main = escape(category or "")
+    return f'{main} · <span class="sub">{escape(subcategory)}</span>' if subcategory else main
 
 
 def _company_card(c, display_rank: int | None = None) -> str:
@@ -173,18 +192,19 @@ def _company_card(c, display_rank: int | None = None) -> str:
     if not rows:
         rows = '<div class="m"><span class="k">Coverage status</span><span class="v">source checked; no metric claims yet</span></div>'
     attrs = _card_attrs(
-        rank=rank or 9999, name=c.name, category=c.category,
+        rank=rank or 9999, name=c.name, category=c.category, subcategory=c.subcategory,
         valuation=_metric_number(c, "valuation"), funding=_metric_number(c, "total_funding"),
         revenue=_metric_number(c, "arr"), coverage=_coverage(c),
     )
     name = escape(c.name)
     site = _site_url(c.website)
+    title = f' title="{escape(c.specialty, quote=True)}"' if c.specialty else ""
     name_html = (
         f'<a class="name" href="{escape(site, quote=True)}" target="_blank" rel="noopener noreferrer">{name}</a>'
         if site else name
     )
-    return (f'<div class="card" {attrs}>'
-            f'<div class="cat">{_tier(rank)} · {escape(c.category or "")} · {_display_rank(rank or 0)}</div>'
+    return (f'<div class="card" {attrs}{title}>'
+            f'<div class="cat">{_tier(rank)} · {_taxon_label(c.category, c.subcategory)} · {_display_rank(rank or 0)}</div>'
             f'<h3>{name_html}</h3>{rows}'
             f'<a class="more" href="company/{escape(c.id, quote=True)}.html">sources &amp; history →</a></div>')
 
@@ -198,9 +218,10 @@ def _pending_card(meta: dict, display_rank: int) -> str:
         f'<a class="name" href="{escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">{name}</a>'
         if url else name
     )
-    attrs = _card_attrs(rank=display_rank, name=meta["name"], category=meta.get("category"))
+    attrs = _card_attrs(rank=display_rank, name=meta["name"], category=meta.get("category"),
+                        subcategory=meta.get("subcategory"))
     return (
-        f'<article class="card pending" {attrs}><div class="cat">{_tier(display_rank)} · {escape(meta.get("category") or "")} · #{display_rank}</div>'
+        f'<article class="card pending" {attrs}><div class="cat">{_tier(display_rank)} · {_taxon_label(meta.get("category"), meta.get("subcategory"))} · #{display_rank}</div>'
         f'<h3>{name_html}</h3>'
         f'<div class="m"><span class="k">Coverage status</span><span class="v">pending sourced metrics</span></div>'
         f'<div class="src">{site}</div></article>'
@@ -222,7 +243,7 @@ def _company_page(c, display_rank: int | None = None) -> str:
                    f'<span class="v">{val}{_status_html(rv)} <span class="conf">[{rv.estimate_type.value} · conf {rv.confidence}]</span>'
                    f'{_year_badge(rv.as_of)}</span></div>{srcs}</div>')
     return _html(f"{c.name} — OpenPitch", f'<a href="../index.html">← all companies</a><h1>{c.name}</h1>'
-                 f'<p class="sub">{_tier(rank)} · {c.category or ""} · rank {_display_rank(rank or 0)} · VC-attention {c.vc_attention_score}</p>'
+                 f'<p class="sub">{_tier(rank)} · {_taxon_label(c.category, c.subcategory)}{(" · " + escape(c.specialty)) if c.specialty else ""} · rank {_display_rank(rank or 0)} · VC-attention {c.vc_attention_score}</p>'
                  f'<div class="grid">{blocks}</div>{_DISCLAIMER}')
 
 
@@ -295,6 +316,22 @@ def build() -> str:
 
     cards = "".join(_company_card(c, rank) for rank, c in display_companies)
     cards += "".join(_pending_card(meta, rank) for rank, meta in pending)
+
+    # Filter dropdown options, grouped main → subcategories, from what's on the page.
+    taxa: dict[str, set] = {}
+    for _, c in display_companies:
+        if c.category:
+            taxa.setdefault(c.category, set()).add(c.subcategory or "")
+    for _, meta in pending:
+        if meta.get("category"):
+            taxa.setdefault(meta["category"], set()).add(meta.get("subcategory") or "")
+    opts = ['<option value="">All categories</option>']
+    for main in sorted(taxa):
+        opts.append(f'<optgroup label="{escape(main)}"><option value="{escape(main, quote=True)}">{escape(main)} — all</option>')
+        for sub in sorted(s for s in taxa[main] if s):
+            opts.append(f'<option value="{escape(main + "/" + sub, quote=True)}">↳ {escape(sub)}</option>')
+        opts.append("</optgroup>")
+    filter_html = (f'<label for="filter">Filter</label><select id="filter" data-filter>{"".join(opts)}</select>')
     index = _html(
         "OpenPitch — AI-startup intelligence",
         f'<h1>OpenPitch</h1><p class="sub">Free, open, sourced AI-startup intelligence · '
@@ -304,7 +341,7 @@ def build() -> str:
         f'<div class="toolbar"><label for="sort">Sort</label><select id="sort" data-sort>'
         f'<option value="valuation" selected>Valuation</option><option value="revenue">Revenue (ARR)</option><option value="funding">Total funding</option>'
         f'<option value="coverage">Source coverage</option><option value="category">Category</option><option value="name">Name</option>'
-        f'</select></div><div class="grid" data-grid>{cards}</div>',
+        f'</select>{filter_html}</div><div class="grid" data-grid>{cards}</div>',
     )
     store.atomic_write_text(DIST / "index.html", index)
     for rank, c in display_companies:

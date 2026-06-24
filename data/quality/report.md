@@ -7,7 +7,7 @@
 - Top-50 cards: 50
 - Profiles with at least one metric: 127
 - Critical issues: 3
-- Warnings: 98
+- Warnings: 74
 
 ## Top-50 Companies With No Metrics
 
@@ -19,38 +19,10 @@ None.
 
 ## Top-50 Missing ARR / Revenue
 
-- Databricks
-- Anduril
-- DeepSeek
-- Thinking Machines Lab
-- Figure AI
-- Safe Superintelligence
-- Moonshot AI
-- Cerebras Systems
-- Reflection AI
-- Surge AI
-- Aleph Alpha
-- Helsing
-- Applied Intuition
-- Fireworks AI
-- Nscale
-- Skild AI
 - OpenEvidence
-- Crusoe
-- Replit
-- Wayve
-- Hadrian
-- Legora
 - Suno
 - Abridge
-- Apptronik
-- Baseten
-- Etched
-- World Labs
-- Modal
-- Decagon
-- Tabby
-- Skydio
+- Luma AI
 
 ## High-Priority Watchlist Candidates Not Profiled
 
@@ -80,8 +52,6 @@ None.
 - Cognition (Devin): valuation
 - Cognition (Devin): arr
 - Cognition (Devin): round_amount
-- Surge AI: valuation
-- Surge AI: round_amount
 - Mistral AI: arr
 - Mistral AI: total_funding
 - Mistral AI: round_amount
@@ -97,7 +67,6 @@ None.
 - Lovable: round_amount
 - Lovable: headcount
 - Cyera: arr
-- OpenEvidence: round_amount
 - ElevenLabs: valuation
 - ElevenLabs: arr
 - ElevenLabs: round_amount
@@ -107,6 +76,8 @@ None.
 - Mercor: arr
 - Mercor: round_amount
 - Crusoe: round_amount
+- Replit: arr
+- Replit: total_funding
 - Wayve: valuation
 - Together AI: arr
 - Hadrian: round_amount
@@ -114,7 +85,7 @@ None.
 - Glean: arr
 - Glean: round_amount
 - Cohere: total_funding
-- Legora: round_amount
+- Legora: total_funding
 - Suno: round_amount
 - Runway: valuation
 - Runway: arr
@@ -123,9 +94,14 @@ None.
 - Abridge: total_funding
 - Abridge: headcount
 - Apptronik: valuation
+- Decagon: arr
+- Decagon: total_funding
 - Decagon: round_amount
 - Skydio: valuation
 - Skydio: total_funding
+- Luma AI: valuation
+- Luma AI: total_funding
+- Luma AI: headcount
 
 ## Review Rule
 

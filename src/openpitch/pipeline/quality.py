@@ -27,6 +27,17 @@ HIGH_PRIORITY_CATEGORIES = {
     "generative-media",
     "robotics",
 }
+# Categories where ARR is the expected headline metric and usually disclosed.
+# Frontier labs, infra/chips, robotics and defense rarely publish ARR, so a
+# missing ARR there is reality — not a fixable quality gap — and shouldn't warn.
+ARR_EXPECTED_CATEGORIES = {
+    "vertical-app",
+    "enterprise-ai",
+    "ai-agents",
+    "coding-agent",
+    "data-eval",
+    "generative-media",
+}
 
 
 @dataclass(frozen=True)
@@ -75,6 +86,19 @@ def _claim_source_count(company_id: str, metric: str) -> int:
     return len(sources)
 
 
+def _under_corroborated(company_id: str, metric: str) -> bool:
+    """A metric with <2 distinct public sources — UNLESS its lone source is a
+    filing (EDGAR), which is authoritative and doesn't need corroboration."""
+    distinct, types = set(), set()
+    for claim in store.read_claims(company_id):
+        if claim.metric == metric and claim.source.type.value != "derived":
+            distinct.add((claim.source.name, claim.source.url))
+            types.add(claim.source.type.value)
+    if len(distinct) >= 2:
+        return False
+    return "filing" not in types  # a single non-filing source is under-corroborated
+
+
 def build_snapshot(top_n: int = 50) -> QualitySnapshot:
     companies = _ranked_companies()
     top = companies[:top_n]
@@ -82,7 +106,12 @@ def build_snapshot(top_n: int = 50) -> QualitySnapshot:
     watchlist = load_watchlist()
 
     top50_missing_valuation = [c.name for c in top if "valuation" not in c.metrics]
-    top50_missing_arr = [c.name for c in top if "arr" not in c.metrics]
+    # Only flag missing ARR where ARR is the expected, usually-disclosed headline
+    # metric — not for frontier/infra/robotics/defense where it's rarely public.
+    top50_missing_arr = [
+        c.name for c in top
+        if "arr" not in c.metrics and (c.category or "") in ARR_EXPECTED_CATEGORIES
+    ]
     top50_no_metrics = [c.name for c in top if not c.metrics]
     unprofiled_high_priority = [
         meta["name"]
@@ -93,7 +122,7 @@ def build_snapshot(top_n: int = 50) -> QualitySnapshot:
     single_source_metrics = []
     for c in top:
         for metric in CORE_METRICS:
-            if metric in c.metrics and _claim_source_count(c.id, metric) <= 1:
+            if metric in c.metrics and _under_corroborated(c.id, metric):
                 single_source_metrics.append(f"{c.name}: {metric}")
 
     return QualitySnapshot(

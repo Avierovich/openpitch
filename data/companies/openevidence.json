@@ -17,12 +17,13 @@
         "low": 12000000000.0,
         "high": 12000000000.0
       },
-      "as_of": "2026-02-08",
+      "as_of": "2026-01-29",
       "estimate_type": "consensus",
-      "confidence": 0.581,
+      "confidence": 0.691,
       "supporting_claims": [
         "clm_a4bc5091ca",
-        "clm_3d056f7689"
+        "clm_8eff67f617",
+        "clm_545750c14f"
       ],
       "contradiction": false,
       "delta": {
@@ -36,11 +37,15 @@
       "metric": "round_amount",
       "value": 250000000.0,
       "unit": "USD",
-      "range": null,
+      "range": {
+        "low": 250000000.0,
+        "high": 250000000.0
+      },
       "as_of": "2026-01-21",
-      "estimate_type": "reported",
-      "confidence": 0.344,
+      "estimate_type": "consensus",
+      "confidence": 0.57,
       "supporting_claims": [
+        "clm_8136d48df1",
         "clm_a966db1573"
       ],
       "contradiction": false,

@@ -157,3 +157,28 @@ def test_quality_report_flags_top50_gaps(data_dir):
     assert "# OpenPitch Data Quality Report" in report
     assert "Acme" in report
     assert "Top-50 Missing Valuation" in render_markdown(snapshot)
+
+
+def test_quality_warnings_are_honest(data_dir):
+    from openpitch.pipeline.quality import build_snapshot, _under_corroborated
+
+    def val(v):
+        return ResolvedValue(metric="valuation", value=v, as_of=AS_OF,
+                             estimate_type=EstimateType.REPORTED, confidence=0.5)
+
+    lab = Company(id="lab", name="Lab", category="foundation-model", universe_rank=1,
+                  in_universe=True, last_updated=AS_OF, metrics={"valuation": val(9e9)})
+    app = Company(id="app", name="App", category="vertical-app", universe_rank=2,
+                  in_universe=True, last_updated=AS_OF, metrics={"valuation": val(8e9)})
+    store.write_company(lab)
+    store.write_company(app)
+
+    s = build_snapshot()
+    assert "Lab" not in s.top50_missing_arr   # frontier lab: missing ARR is reality, not a gap
+    assert "App" in s.top50_missing_arr       # app layer: ARR expected -> a real warning
+
+    # a single FILING is authoritative; a single news source is under-corroborated
+    store.write_claims("lab", [_claim("valuation", 9e9, stype=SourceType.FILING, sname="EDGAR")])
+    store.write_claims("app", [_claim("valuation", 8e9, stype=SourceType.NEWS, sname="TC")])
+    assert _under_corroborated("lab", "valuation") is False
+    assert _under_corroborated("app", "valuation") is True

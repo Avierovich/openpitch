@@ -6,12 +6,12 @@
   "category": "vertical-app",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 81.2,
-  "universe_rank": 39,
+  "vc_attention_score": 81.3,
+  "universe_rank": 38,
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 5433846871.89,
+      "value": 5480802415.06,
       "unit": "USD",
       "range": {
         "low": 5600000000.0,
@@ -19,57 +19,83 @@
       },
       "as_of": "2026-06-18",
       "estimate_type": "consensus",
-      "confidence": 0.686,
+      "confidence": 0.839,
       "supporting_claims": [
-        "clm_557e79cf78",
-        "clm_e41364f49e",
-        "clm_e0305e0bdf"
+        "clm_58b5fd5263",
+        "clm_f547d0fb1d",
+        "clm_e0305e0bdf",
+        "clm_45a9476a5a",
+        "clm_e41364f49e"
       ],
       "contradiction": false,
       "delta": {
         "previous": 5433846871.89,
-        "change_pct": 0.0,
+        "change_pct": 0.9,
         "since": "2026-06-18"
       },
       "history_ref": "history/legora/valuation.jsonl"
     },
-    "headcount_growth": {
-      "metric": "headcount_growth",
-      "value": 100.0,
-      "unit": "pct",
-      "range": null,
-      "as_of": "2026-06-15",
-      "estimate_type": "reported",
-      "confidence": 0.357,
-      "supporting_claims": [
-        "clm_068f9bca75"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 100.0,
-        "change_pct": 0.0,
-        "since": "2026-06-15"
-      },
-      "history_ref": "history/legora/headcount_growth.jsonl"
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 400000000.0,
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 866000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2026-02-17",
+      "as_of": "2026-06-06",
       "estimate_type": "reported",
-      "confidence": 0.265,
+      "confidence": 0.293,
       "supporting_claims": [
-        "clm_f0b0cdda0e"
+        "clm_dbb84c6f69"
       ],
       "contradiction": false,
-      "delta": {
-        "previous": 400000000.0,
-        "change_pct": 0.0,
-        "since": "2026-02-17"
-      },
-      "history_ref": "history/legora/round_amount.jsonl"
+      "delta": null,
+      "history_ref": "history/legora/total_funding.jsonl"
+    },
+    "arr": {
+      "metric": "arr",
+      "value": 100000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-06-06",
+      "estimate_type": "reported",
+      "confidence": 0.412,
+      "supporting_claims": [
+        "clm_87405bfbf9",
+        "clm_5c671c6b93"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/legora/arr.jsonl"
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 550000000.0,
+      "unit": "object",
+      "range": null,
+      "as_of": "2026-05-11",
+      "estimate_type": "consensus",
+      "confidence": 0.431,
+      "supporting_claims": [
+        "clm_367b828a60",
+        "clm_5e70ec605d"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/legora/latest_round.jsonl"
+    },
+    "revenue_multiple": {
+      "metric": "revenue_multiple",
+      "value": 56.0,
+      "unit": "x",
+      "range": null,
+      "as_of": "2026-06-06",
+      "estimate_type": "reported",
+      "confidence": 0.089,
+      "supporting_claims": [
+        "drv_badf4ee3f8"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/legora/revenue_multiple.jsonl"
     }
   },
   "last_updated": "2026-06-24"

@@ -4,12 +4,12 @@
     "company_id": "replit",
     "metric": "valuation",
     "value": 9000000000.0,
-    "unit": "USD",
-    "raw_text": "Replit snags $9B valuation",
+    "unit": null,
+    "raw_text": "Replit snags $9B valuation 6 months after hitting $3B",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
       "type": "news",
@@ -18,46 +18,168 @@
       "locator": null,
       "published_at": "2026-03-11"
     },
-    "extracted_at": "2026-06-22T18:58:39.955256",
-    "extractor_model": "gemini-2.5-flash",
-    "base_confidence": 0.525,
+    "extracted_at": "2026-06-24T16:24:02.071996",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
-    "id": "clm_ec433f4ce7",
+    "id": "clm_a9014567b8",
+    "company_id": "replit",
+    "metric": "total_funding",
+    "value": 922000000.0,
+    "unit": null,
+    "raw_text": "Under his leadership, Replit has raised a total of $922 million in funding",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "20VC (Harry Stebbings)",
+      "url": "https://thetwentyminutevc.libsyn.com/20product-replit-ceo-on-why-coding-models-are-plateauing-why-the-saas-apocalypse-is-justified-will-incumbents-be-replaced-why-ides-are-dead-and-do-pms-survive-the-next-3-5-years-with-amjad-masad",
+      "locator": null,
+      "published_at": "2026-04-25"
+    },
+    "extracted_at": "2026-06-24T16:24:02.071996",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.3,
+    "derivation": null
+  },
+  {
+    "id": "clm_93b29be54b",
     "company_id": "replit",
     "metric": "valuation",
-    "value": 3000000000.0,
-    "unit": "USD",
-    "raw_text": "hitting $3B",
+    "value": 9000000000.0,
+    "unit": null,
+    "raw_text": "recently raising at a whopping $9 billion valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYUlDUWk1MmE4UzJUSmpvQXlUWlZNeTVnMl9ybGdrakdvT0lDMUxWZ3VFcEFoVzRDMEtOU0hxM3RBVUVCWS1id3g3aFBGUHVIUDZBSDJGc0tiVllaVVVYcjFjZW00TVUwWTlPSVhHU3YxYjdxUkxFdXlEOUhIR2VmNHl4MjF5aE5nNU9RSi1abw?oc=5",
+      "type": "podcast",
+      "name": "20VC (Harry Stebbings)",
+      "url": "https://thetwentyminutevc.libsyn.com/20product-replit-ceo-on-why-coding-models-are-plateauing-why-the-saas-apocalypse-is-justified-will-incumbents-be-replaced-why-ides-are-dead-and-do-pms-survive-the-next-3-5-years-with-amjad-masad",
       "locator": null,
-      "published_at": "2026-03-11"
+      "published_at": "2026-04-25"
     },
-    "extracted_at": "2026-06-22T18:58:39.955256",
-    "extractor_model": "gemini-2.5-flash",
-    "base_confidence": 0.525,
+    "extracted_at": "2026-06-24T16:24:02.071996",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.3,
     "derivation": null
   },
   {
-    "id": "clm_05e2ed0692",
+    "id": "clm_84cbd23d59",
     "company_id": "replit",
-    "metric": "round_amount",
+    "metric": "subscribers",
+    "value": 50000000.0,
+    "unit": null,
+    "raw_text": "Replit has over 50 million registered users",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "20VC (Harry Stebbings)",
+      "url": "https://thetwentyminutevc.libsyn.com/20product-replit-ceo-on-why-coding-models-are-plateauing-why-the-saas-apocalypse-is-justified-will-incumbents-be-replaced-why-ides-are-dead-and-do-pms-survive-the-next-3-5-years-with-amjad-masad",
+      "locator": null,
+      "published_at": "2026-04-25"
+    },
+    "extracted_at": "2026-06-24T16:24:02.071996",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.3,
+    "derivation": null
+  },
+  {
+    "id": "clm_5f3fed8e9b",
+    "company_id": "replit",
+    "metric": "notable_customers",
+    "value": 0.85,
+    "unit": null,
+    "raw_text": "is used by employees at 85% of Fortune 500 companies",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "20VC (Harry Stebbings)",
+      "url": "https://thetwentyminutevc.libsyn.com/20product-replit-ceo-on-why-coding-models-are-plateauing-why-the-saas-apocalypse-is-justified-will-incumbents-be-replaced-why-ides-are-dead-and-do-pms-survive-the-next-3-5-years-with-amjad-masad",
+      "locator": null,
+      "published_at": "2026-04-25"
+    },
+    "extracted_at": "2026-06-24T16:24:02.071996",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.3,
+    "derivation": null
+  },
+  {
+    "id": "clm_648d917000",
+    "company_id": "replit",
+    "metric": "revenue_growth",
+    "value": 900.0,
+    "unit": null,
+    "raw_text": "Replit's revenue jumped from $10 million to $100 million in nine months",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "20VC (Harry Stebbings)",
+      "url": "https://thetwentyminutevc.libsyn.com/20product-replit-ceo-on-why-coding-models-are-plateauing-why-the-saas-apocalypse-is-justified-will-incumbents-be-replaced-why-ides-are-dead-and-do-pms-survive-the-next-3-5-years-with-amjad-masad",
+      "locator": null,
+      "published_at": "2026-04-25"
+    },
+    "extracted_at": "2026-06-24T16:24:02.071996",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.3,
+    "derivation": null
+  },
+  {
+    "id": "clm_6ef72588ea",
+    "company_id": "replit",
+    "metric": "arr",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "the company is on track to reach $1BN in ARR by the end of 2026",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "20VC (Harry Stebbings)",
+      "url": "https://thetwentyminutevc.libsyn.com/20product-replit-ceo-on-why-coding-models-are-plateauing-why-the-saas-apocalypse-is-justified-will-incumbents-be-replaced-why-ides-are-dead-and-do-pms-survive-the-next-3-5-years-with-amjad-masad",
+      "locator": null,
+      "published_at": "2026-04-25"
+    },
+    "extracted_at": "2026-06-24T16:24:02.071996",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.21,
+    "derivation": null
+  },
+  {
+    "id": "clm_b54455f7de",
+    "company_id": "replit",
+    "metric": "latest_round",
     "value": 400000000.0,
-    "unit": "USD",
+    "unit": null,
     "raw_text": "Georgian Leads $400M Series D Investment in Replit",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
       "type": "news",
@@ -66,61 +188,64 @@
       "locator": null,
       "published_at": "2026-03-11"
     },
-    "extracted_at": "2026-06-22T18:58:39.955256",
-    "extractor_model": "gemini-2.5-flash",
-    "base_confidence": 0.525,
+    "extracted_at": "2026-06-24T16:24:02.071996",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
-    "id": "clm_7f036c249d",
-    "company_id": "replit",
-    "metric": "round_amount",
-    "value": 400000000.0,
-    "unit": "USD",
-    "raw_text": "Replit to raise $400M",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeXl3cEsybEdwdW55VGlYOFlOdklRaDJLd0x5SkVlbml0VVJycm1JMTFTS2FPSElQa0F5X1JhTWRiRkJWcUMtZTFlYm4zVzQ3WlliTENQbFVyVEU3ZEdxUnUtU3VpYlZZVFFha0RlY1hQd0xQYk5OU0hYYVg2Z0NrVjF6bHV3WjQtd3k3Y1JzaU9vVWZjUUt2UUE4cWY5MjdGZnZ3Wlo4bktqNTQ?oc=5",
-      "locator": null,
-      "published_at": "2026-01-16"
-    },
-    "extracted_at": "2026-06-22T18:58:39.955256",
-    "extractor_model": "gemini-2.5-flash",
-    "base_confidence": 0.3675,
-    "derivation": null
-  },
-  {
-    "id": "clm_ee5dea1ef5",
+    "id": "clm_02a9215f11",
     "company_id": "replit",
     "metric": "valuation",
     "value": 9000000000.0,
-    "unit": "USD",
-    "raw_text": "at $9B valuation",
-    "qualifiers": [
-      "forward_looking"
-    ],
+    "unit": null,
+    "raw_text": "AI Coding Startup Replit Nears Funding at $9 Billion Valuation",
+    "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
       "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeXl3cEsybEdwdW55VGlYOFlOdklRaDJLd0x5SkVlbml0VVJycm1JMTFTS2FPSElQa0F5X1JhTWRiRkJWcUMtZTFlYm4zVzQ3WlliTENQbFVyVEU3ZEdxUnUtU3VpYlZZVFFha0RlY1hQd0xQYk5OU0hYYVg2Z0NrVjF6bHV3WjQtd3k3Y1JzaU9vVWZjUUt2UUE4cWY5MjdGZnZ3Wlo4bktqNTQ?oc=5",
+      "name": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVVFCUzVFMnhiay01U2xFWk8yOWNDVmZBWXp5R3diaWtVZTNTQUMwUDd0eTBYbWV0YWxSSEFXaW1CVFc4b0tDNjFmV0ExNDZEemtsMFpXaXVzdVNwMVV2VlEzNGF2RzhDQ2F1emNNZHJ0Z0V2QXVNcFM4elEzQ1NfUzRncjhNVndyeE8weVhCc0NjN1A5TVN4d0NOQUxxWVpXc1JqX3k4QU9sRzdzb1ZHam13?oc=5",
       "locator": null,
-      "published_at": "2026-01-16"
+      "published_at": "2026-01-15"
     },
-    "extracted_at": "2026-06-22T18:58:39.955256",
-    "extractor_model": "gemini-2.5-flash",
-    "base_confidence": 0.3675,
+    "extracted_at": "2026-06-24T16:24:02.071996",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
+  },
+  {
+    "id": "drv_e153df02e8",
+    "company_id": "replit",
+    "metric": "revenue_multiple",
+    "value": 9.0,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-04-25"
+    },
+    "extracted_at": "2026-06-24T16:24:02.071996",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.0725,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_963c4c7bda",
+        "clm_6ef72588ea"
+      ]
+    }
   }
 ]

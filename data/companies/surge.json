@@ -5,47 +5,39 @@
   "website": "surgehq.ai",
   "category": "data-eval",
   "segment": "global",
-  "in_universe": true,
-  "vc_attention_score": 86.8,
-  "universe_rank": 16,
+  "in_universe": false,
+  "vc_attention_score": 0.0,
+  "universe_rank": 137,
   "metrics": {
-    "valuation": {
-      "metric": "valuation",
-      "value": 25000000000.0,
-      "unit": "USD",
+    "headcount": {
+      "metric": "headcount",
+      "value": 100.0,
+      "unit": "count",
       "range": null,
-      "as_of": "2025-07-30",
+      "as_of": "2025-12-07",
       "estimate_type": "reported",
-      "confidence": 0.213,
+      "confidence": 0.199,
       "supporting_claims": [
-        "clm_34d23b6693"
+        "clm_74d50c5dfc"
       ],
       "contradiction": false,
-      "delta": {
-        "previous": 25000000000.0,
-        "change_pct": 0.0,
-        "since": "2025-07-30"
-      },
-      "history_ref": "history/surge/valuation.jsonl"
+      "delta": null,
+      "history_ref": "history/surge/headcount.jsonl"
     },
-    "round_amount": {
-      "metric": "round_amount",
+    "arr": {
+      "metric": "arr",
       "value": 1000000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2025-07-01",
+      "as_of": "2025-07-21",
       "estimate_type": "reported",
-      "confidence": 0.118,
+      "confidence": 0.036,
       "supporting_claims": [
-        "clm_c5df16e986"
+        "clm_9758043e98"
       ],
       "contradiction": false,
-      "delta": {
-        "previous": 1000000000.0,
-        "change_pct": 0.0,
-        "since": "2025-07-01"
-      },
-      "history_ref": "history/surge/round_amount.jsonl"
+      "delta": null,
+      "history_ref": "history/surge/arr.jsonl"
     }
   },
   "last_updated": "2026-06-24"

@@ -7,22 +7,20 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 83.1,
-  "universe_rank": 33,
+  "universe_rank": 32,
   "metrics": {
     "valuation": {
       "metric": "valuation",
       "value": 9000000000.0,
       "unit": "USD",
-      "range": {
-        "low": 3000000000.0,
-        "high": 9000000000.0
-      },
-      "as_of": "2026-03-11",
+      "range": null,
+      "as_of": "2026-04-25",
       "estimate_type": "consensus",
-      "confidence": 0.538,
+      "confidence": 0.594,
       "supporting_claims": [
         "clm_963c4c7bda",
-        "clm_ee5dea1ef5"
+        "clm_93b29be54b",
+        "clm_02a9215f11"
       ],
       "contradiction": false,
       "delta": {
@@ -32,25 +30,110 @@
       },
       "history_ref": "history/replit/valuation.jsonl"
     },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 400000000.0,
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 922000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2026-03-11",
-      "estimate_type": "consensus",
-      "confidence": 0.538,
+      "as_of": "2026-04-25",
+      "estimate_type": "reported",
+      "confidence": 0.276,
       "supporting_claims": [
-        "clm_05e2ed0692",
-        "clm_7f036c249d"
+        "clm_a9014567b8"
       ],
       "contradiction": false,
-      "delta": {
-        "previous": 400000000.0,
-        "change_pct": 0.0,
-        "since": "2026-03-11"
-      },
-      "history_ref": "history/replit/round_amount.jsonl"
+      "delta": null,
+      "history_ref": "history/replit/total_funding.jsonl"
+    },
+    "subscribers": {
+      "metric": "subscribers",
+      "value": 50000000.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-04-25",
+      "estimate_type": "reported",
+      "confidence": 0.201,
+      "supporting_claims": [
+        "clm_84cbd23d59"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/replit/subscribers.jsonl"
+    },
+    "notable_customers": {
+      "metric": "notable_customers",
+      "value": 0.85,
+      "unit": "list",
+      "range": null,
+      "as_of": "2026-04-25",
+      "estimate_type": "reported",
+      "confidence": 0.255,
+      "supporting_claims": [
+        "clm_5f3fed8e9b"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/replit/notable_customers.jsonl"
+    },
+    "revenue_growth": {
+      "metric": "revenue_growth",
+      "value": 900.0,
+      "unit": "pct",
+      "range": null,
+      "as_of": "2026-04-25",
+      "estimate_type": "reported",
+      "confidence": 0.182,
+      "supporting_claims": [
+        "clm_648d917000"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/replit/revenue_growth.jsonl"
+    },
+    "arr": {
+      "metric": "arr",
+      "value": 1000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-04-25",
+      "estimate_type": "reported",
+      "confidence": 0.127,
+      "supporting_claims": [
+        "clm_6ef72588ea"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/replit/arr.jsonl"
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 400000000.0,
+      "unit": "object",
+      "range": null,
+      "as_of": "2026-03-11",
+      "estimate_type": "reported",
+      "confidence": 0.281,
+      "supporting_claims": [
+        "clm_b54455f7de"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/replit/latest_round.jsonl"
+    },
+    "revenue_multiple": {
+      "metric": "revenue_multiple",
+      "value": 9.0,
+      "unit": "x",
+      "range": null,
+      "as_of": "2026-04-25",
+      "estimate_type": "reported",
+      "confidence": 0.044,
+      "supporting_claims": [
+        "drv_e153df02e8"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/replit/revenue_multiple.jsonl"
     }
   },
   "last_updated": "2026-06-24"

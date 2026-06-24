@@ -1,0 +1,51 @@
+{
+  "id": "prometheus",
+  "name": "Prometheus",
+  "aliases": [],
+  "website": "prometheus.ai",
+  "category": "AI Robotics",
+  "segment": "global",
+  "in_universe": false,
+  "vc_attention_score": 80.1,
+  "universe_rank": 53,
+  "metrics": {
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 12000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 10000000000.0,
+        "high": 12000000000.0
+      },
+      "as_of": "2026-06-12",
+      "estimate_type": "consensus",
+      "confidence": 0.601,
+      "supporting_claims": [
+        "clm_3fe25aace6",
+        "clm_1685179e90"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/prometheus/total_funding.jsonl"
+    },
+    "valuation": {
+      "metric": "valuation",
+      "value": 4000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 4000000000.0,
+        "high": 41000000000.0
+      },
+      "as_of": "2026-06-12",
+      "estimate_type": "reported",
+      "confidence": 0.363,
+      "supporting_claims": [
+        "clm_a02bdcb810"
+      ],
+      "contradiction": true,
+      "delta": null,
+      "history_ref": "history/prometheus/valuation.jsonl"
+    }
+  },
+  "last_updated": "2026-06-24"
+}

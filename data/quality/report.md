@@ -2,10 +2,10 @@
 
 ## Summary
 
-- Profiles generated: 121
-- Watchlist candidates: 137
+- Profiles generated: 140
+- Watchlist candidates: 162
 - Top-50 cards: 50
-- Profiles with at least one metric: 108
+- Profiles with at least one metric: 127
 - Critical issues: 3
 - Warnings: 98
 
@@ -39,6 +39,7 @@ None.
 - Crusoe
 - Replit
 - Wayve
+- Hadrian
 - Legora
 - Suno
 - Abridge
@@ -50,8 +51,6 @@ None.
 - Decagon
 - Tabby
 - Skydio
-- Luma AI
-- Synthesia
 
 ## High-Priority Watchlist Candidates Not Profiled
 
@@ -94,6 +93,9 @@ None.
 - Skild AI: total_funding
 - Shield AI: arr
 - Shield AI: round_amount
+- Lovable: valuation
+- Lovable: round_amount
+- Lovable: headcount
 - Cyera: arr
 - OpenEvidence: round_amount
 - ElevenLabs: valuation
@@ -107,6 +109,7 @@ None.
 - Crusoe: round_amount
 - Wayve: valuation
 - Together AI: arr
+- Hadrian: round_amount
 - Glean: valuation
 - Glean: arr
 - Glean: round_amount
@@ -123,9 +126,6 @@ None.
 - Decagon: round_amount
 - Skydio: valuation
 - Skydio: total_funding
-- Luma AI: valuation
-- Luma AI: total_funding
-- Luma AI: headcount
 
 ## Review Rule
 

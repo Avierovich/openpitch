@@ -9,11 +9,43 @@ from __future__ import annotations
 
 import re
 import urllib.parse
+from functools import lru_cache
 
 import yaml
 
 from ..paths import config_dir
 from .llm import LLMProvider
+
+# Corporate suffixes/filler stripped before matching a candidate against SEC names,
+# so "ZoomInfo" matches "ZOOMINFO TECHNOLOGIES INC.".
+_CORP_NOISE = {"inc", "corp", "corporation", "co", "ltd", "limited", "llc", "plc", "lp",
+               "holdings", "holding", "technologies", "technology", "labs", "ai", "group",
+               "the", "company", "sa", "nv", "ag", "se"}
+
+
+def _norm_name(name: str) -> str:
+    toks = [t for t in re.sub(r"[^a-z0-9 ]+", " ", (name or "").lower()).split()
+            if t not in _CORP_NOISE]
+    return "".join(toks)
+
+
+@lru_cache(maxsize=1)
+def _public_company_names() -> frozenset:
+    """Normalized names of US exchange-listed (public) companies, from SEC's free
+    company_tickers.json (no key). Empty set on any failure — fail-open so a network
+    blip never blocks discovery; the LLM `status` label remains as a softer backstop.
+    """
+    import httpx
+
+    from .sources.edgar import sec_headers
+    try:
+        r = httpx.get("https://www.sec.gov/files/company_tickers.json",
+                      headers=sec_headers(), timeout=10.0)
+        r.raise_for_status()
+        return frozenset(n for v in r.json().values()
+                         if (n := _norm_name(v.get("title", ""))))
+    except Exception:  # noqa: BLE001 — best-effort; never block discovery on this
+        return frozenset()
 
 # AI-enabled across verticals — AI-native plus AI-applied (AI fintech, AI health,
 # defense AI like Anduril). NOT generic non-AI startups.
@@ -164,12 +196,14 @@ def _curated_ids() -> set[str]:
 def merge_discovered(found: list[dict]) -> int:
     """Append genuinely-new candidates to config/discovered.yaml. Returns count added.
 
-    Dedups against BOTH discovered.yaml and the curated watchlist, and drops obvious
-    junk (no/blank name, single generic word with no domain).
+    Dedups against BOTH discovered.yaml and the curated watchlist, drops obvious junk
+    (no/blank name, single generic word with no domain), and drops US-listed PUBLIC
+    companies (out of scope) via an authoritative SEC company_tickers.json match.
     """
     path = config_dir() / "discovered.yaml"
     data = (yaml.safe_load(path.read_text()) if path.exists() else None) or {"companies": []}
     have = {c["id"] for c in data["companies"]} | _curated_ids()
+    public = _public_company_names()  # one network fetch per run; {} if unavailable
     new = []
     for c in found:
         cid = c.get("id", "")
@@ -177,6 +211,11 @@ def merge_discovered(found: list[dict]) -> int:
             continue
         # junk gate: a bare single-word name with no domain is usually a mis-extraction.
         if not c.get("domain") and "-" not in cid and len(cid) <= 4:
+            continue
+        # scope gate: SEC-listed name => public, out of scope (catches ZoomInfo/Palantir
+        # that the LLM `status` label misses). ponytail: exact normalized-name match, so a
+        # private startup sharing a public co's exact core name is a rare false drop.
+        if (nm := _norm_name(c.get("name", ""))) and nm in public:
             continue
         have.add(cid)
         new.append(c)
@@ -197,4 +236,10 @@ if __name__ == "__main__":  # ponytail: dedup self-check, no network
     assert row["id"] == "clay" and row["category"] == "vertical-app"
     assert _normalize({"companies": [{"name": "ZoomInfo", "status": "public"}]}) == []
     assert _normalize({"companies": [{"name": "Clearbit", "status": "acquired"}]}) == []
+    # SEC name normalization strips corporate noise so candidate <-> filing names match.
+    assert _norm_name("ZOOMINFO TECHNOLOGIES INC.") == _norm_name("ZoomInfo") == "zoominfo"
+    # Public-gate: a SEC-listed name is dropped even when the LLM mislabels it private.
+    globals()["_public_company_names"] = lambda: frozenset({"zoominfo"})
+    assert merge_discovered([{"id": "zoominfo", "name": "ZoomInfo", "domain": "zoominfo.com"}]) == 0
+    assert merge_discovered([{"id": "clay", "name": "Clay", "domain": "clay.com"}]) == 1
     print("ok")

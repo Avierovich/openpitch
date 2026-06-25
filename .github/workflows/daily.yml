@@ -39,6 +39,15 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: openpitch discover
 
+      - name: Classify new companies (taxonomy + summaries)
+        # Assigns main/subcategory + business summary to any newly-discovered companies
+        # so the dashboard's two-level taxonomy stays populated. Only fills gaps.
+        if: ${{ secrets.LLM_API_KEY != '' }}
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: openpitch classify
+
       - name: Run pipeline (collect → … → publish)
         env:
           # Free-tier key, no billing attached → cannot be charged (FRD §8.6 / BRD §9.1)
@@ -59,8 +68,25 @@ jobs:
         run: |
           git config user.name  "openpitch-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/ config/discovered.yaml
+          git add data/ config/discovered.yaml config/taxonomy.yaml
           git diff --cached --quiet || git commit -m "data: daily refresh + discovery"
           git push
 
-      # TODO: deploy dashboard/dist to GitHub Pages
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard/dist
+
+  deploy-pages:
+    needs: refresh
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

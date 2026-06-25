@@ -16,7 +16,6 @@ from __future__ import annotations
 import json
 import re
 import sys
-from pathlib import Path
 from statistics import median
 
 from openpitch import store
@@ -159,7 +158,7 @@ def render(r) -> str:
     L.append(f"- **Median |rank delta|:** {md:.0f} positions · **Median valuation error:** {me*100:.0f}%.")
     L.append(f"- **Valuation discrepancies >{int(VAL_DISCREPANCY*100)}%:** {len(r['val_flags'])}.\n")
 
-    L.append(f"## Missing from dashboard — ABSENT entirely (coverage gaps → add to watchlist)\n")
+    L.append("## Missing from dashboard — ABSENT entirely (coverage gaps → add to watchlist)\n")
     if r["missing_absent"]:
         for e in sorted(r["missing_absent"], key=lambda e: e.get("rank") or 999):
             src = e.get("source", {})

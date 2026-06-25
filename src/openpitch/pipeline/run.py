@@ -168,6 +168,7 @@ def run(
     max_source_items: int = typer.Option(15, help="Maximum source items to extract per company."),
     skip_podcasts: bool = typer.Option(False, help="Skip podcast RSS sources for broad/fast runs."),
     extract_sleep: float = typer.Option(0.0, help="Seconds to sleep after each extraction batch."),
+    no_cache: bool = typer.Option(False, "--no-cache", help="Re-extract every item, ignoring the extraction cache."),
 ) -> None:
     """Live daily pass: collect → transcribe → extract → derive → reconcile → publish."""
     if offline:
@@ -175,6 +176,7 @@ def run(
     now = datetime.now()
     as_of = now.date()
     from ..config import load_watchlist
+    from . import extract_cache
     from .extract import extract_claims_batch
     from .llm import get_provider
     from .sources import ADAPTERS
@@ -207,6 +209,8 @@ def run(
         watchlist = [meta for meta in watchlist if meta["id"] in wanted]
     if companies > 0:
         watchlist = watchlist[:companies]
+    cache = {} if no_cache else extract_cache.load()
+    cached_total = 0
     pairs: list[tuple[Company, list[Claim]]] = []
     for meta in watchlist:
         typer.echo(f"· {meta['id']}")
@@ -231,19 +235,26 @@ def run(
                 text_items.append(it)
         if max_source_items > 0:
             text_items = _interleave_by_type(text_items)[:max_source_items]
-        claims: list[Claim] = []
+        # Reuse cached claims for unchanged source items; only extract the rest (quota saver).
+        reused, to_extract = extract_cache.split(text_items, meta["id"], cache)
+        cached_total += len(text_items) - len(to_extract)
+        new_claims: list[Claim] = []
         # Batch many source items per LLM call (free-tier-quota lever, FRD §7).
-        for chunk in _chunks(text_items, 15):
+        for chunk in _chunks(to_extract, 15):
             try:
-                claims.extend(extract_claims_batch(chunk, company_stub, llm=llm, metric_keys=keys, now=now))
+                new_claims.extend(extract_claims_batch(chunk, company_stub, llm=llm, metric_keys=keys, now=now))
             except Exception as exc:  # noqa: BLE001
                 typer.echo(f"  ! extract {meta['id']}: {str(exc)[:120]}")
             if extract_sleep > 0:
                 time.sleep(extract_sleep)
+        extract_cache.record(cache, meta["id"], to_extract, new_claims)
+        claims = reused + new_claims
         if claims:
             pairs.append(_reconcile_company(meta, claims, now=now, as_of=as_of))
+    if not no_cache:
+        extract_cache.save(cache)
     n_events = _finalize(pairs, now=now, as_of=as_of)
-    typer.echo(f"Run complete: {len(pairs)} companies; {n_events} events.")
+    typer.echo(f"Run complete: {len(pairs)} companies; {n_events} events; {cached_total} items from cache.")
 
 
 @app.command()

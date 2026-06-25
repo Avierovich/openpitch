@@ -12,7 +12,7 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 def remote_base() -> str:
     """Public repo raw base for no-clone installs (override via OPENPITCH_REMOTE)."""
     return os.environ.get(
-        "OPENPITCH_REMOTE", "https://raw.githubusercontent.com/OWNER/openpitch/main"
+        "OPENPITCH_REMOTE", "https://raw.githubusercontent.com/Avierovich/openpitch/main"
     ).rstrip("/")
 
 

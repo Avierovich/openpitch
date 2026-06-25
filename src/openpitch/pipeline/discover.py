@@ -226,7 +226,8 @@ def merge_discovered(found: list[dict]) -> int:
 
 
 if __name__ == "__main__":  # ponytail: dedup self-check, no network
-    import tempfile, os
+    import tempfile
+    import os
     os.environ["OPENPITCH_CONFIG_DIR"] = tempfile.mkdtemp()
     assert merge_discovered([{"id": "factory", "name": "Factory"}]) == 1
     assert merge_discovered([{"id": "factory", "name": "Factory"}]) == 0

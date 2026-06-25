@@ -1,0 +1,59 @@
+name: Data correction
+description: Report a wrong, stale, or mis-sourced figure (the most valuable contribution).
+title: "[data] <company> — <metric>"
+labels: ["data-correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for improving the data. A **public source URL is required** — OpenPitch only
+        publishes figures it can attribute. No login-walled or paywalled sources.
+  - type: input
+    id: company
+    attributes:
+      label: Company
+      placeholder: e.g. Anthropic (or the id "anthropic")
+    validations:
+      required: true
+  - type: dropdown
+    id: metric
+    attributes:
+      label: Metric
+      options:
+        - valuation
+        - arr
+        - total_funding
+        - round_amount
+        - headcount
+        - other (describe below)
+    validations:
+      required: true
+  - type: input
+    id: current
+    attributes:
+      label: Current value on OpenPitch (if any)
+      placeholder: e.g. "$15B (in talks)"
+  - type: input
+    id: correct
+    attributes:
+      label: Correct value
+      placeholder: e.g. "$4B post-money, Series C, Oct 2025"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Public source URL
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Source publication date
+      placeholder: 2026-01-15
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      placeholder: Anything else — conflicting reports, confirmed vs rumored, etc.

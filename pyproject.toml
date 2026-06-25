@@ -1,12 +1,22 @@
 [project]
 name = "openpitch"
-version = "0.0.1"
+version = "0.1.0"
 description = "Open, real-time, fully-sourced intelligence on top AI startups — MCP-native, zero-cost."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [{ name = "Mohamed Abdulhadi" }]
 keywords = ["ai", "startups", "vc", "mcp", "pitchbook", "intelligence"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
 
 dependencies = [
     "pydantic>=2.6",
@@ -16,6 +26,12 @@ dependencies = [
     "typer>=0.12",
     "mcp>=1.2",               # MCP server is core so `uvx openpitch-mcp` works out of the box
 ]
+
+[project.urls]
+Homepage = "https://github.com/Avierovich/openpitch"
+Repository = "https://github.com/Avierovich/openpitch"
+Issues = "https://github.com/Avierovich/openpitch/issues"
+Changelog = "https://github.com/Avierovich/openpitch/blob/main/CHANGELOG.md"
 
 [project.optional-dependencies]
 # Pipeline-only deps (not needed by consumers running the MCP server)
@@ -38,3 +54,6 @@ packages = ["src/openpitch"]
 [tool.ruff]
 line-length = 100
 target-version = "py311"
+# One-off generator scripts use a deliberately terse semicolon style; they're not
+# package code, so keep them out of the lint gate.
+extend-exclude = ["scripts/build_*.py"]

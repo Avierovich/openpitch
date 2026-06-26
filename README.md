@@ -8,7 +8,14 @@
 
 `MCP-native` · `zero-cost` · `fully-sourced` · `updated daily`
 
-> ⚠️ **Status: early development.** Product/spec docs are in place ([BRD](docs/BRD.md) · [FRD](docs/FRD.md) · [PRD](docs/PRD.md)); implementation is in progress.
+[![CI](https://github.com/Avierovich/openpitch/actions/workflows/ci.yml/badge.svg)](https://github.com/Avierovich/openpitch/actions/workflows/ci.yml)
+[![PyPI](https://img.shields.io/pypi/v/openpitch.svg)](https://pypi.org/project/openpitch/)
+[![Python](https://img.shields.io/pypi/pyversions/openpitch.svg)](https://pypi.org/project/openpitch/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+> **Status: v0.1.0 — functional.** The pipeline, reconciliation engine, MCP server, and
+> dashboard all work end-to-end ([BRD](docs/BRD.md) · [FRD](docs/FRD.md) · [PRD](docs/PRD.md)).
+> Coverage and source breadth keep growing via the daily run.
 
 ![OpenPitch dashboard](docs/demo/dashboard.png)
 <!-- ponytail: static screenshot; record a GIF of the in-agent MCP query before launch -->
@@ -59,13 +66,26 @@ Every number carries **its source, a confidence score, and a tracked history** o
 
 **No API key. No signup. No cost.** The data is already built and committed; the MCP server just reads it, and *your* agent does the reasoning.
 
-**Run it now from source** (until the package is published):
+**Fastest — zero install** (reads the committed data from the public repo, no clone):
 
 ```bash
-git clone <repo> && cd openpitch
+uvx openpitch-mcp
+```
+
+**Or install the package:**
+
+```bash
+pip install openpitch          # the MCP server (mcp is a core dependency)
+openpitch-mcp                  # start the read-only server
+```
+
+**Or run from a clone** (for the pipeline / to rebuild data):
+
+```bash
+git clone https://github.com/Avierovich/openpitch && cd openpitch
 python -m venv .venv && source .venv/bin/activate
-pip install -e ".[mcp]"
-openpitch seed          # build the data/ database from the committed seed (offline, no key)
+pip install -e ".[pipeline]"   # core + pipeline LLM deps
+openpitch seed                 # build the data/ database from the committed seed (offline, no key)
 ```
 
 Then point your agent at the local server:

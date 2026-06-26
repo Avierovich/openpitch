@@ -16,16 +16,23 @@ from .llm import LLMProvider
 
 # Controlled two-level vocabulary. Edit freely — the classifier is told to pick from it.
 VOCAB: dict[str, list[str]] = {
-    "foundation-model": ["llm", "world-model", "reasoning", "multimodal", "open-source", "sovereign"],
-    "generative-media": ["video", "image", "voice", "music", "3d-spatial", "avatar"],
-    "ai-infra": ["chips", "inference", "gpu-cloud", "vector-db", "data-platform", "mlops", "networking"],
+    "foundation-model": ["llm", "world-model", "reasoning", "multimodal", "open-source", "sovereign", "bio"],
+    "generative-media": ["video", "image", "voice", "music", "3d-spatial", "avatar", "gaming"],
+    "ai-infra": ["chips", "inference", "gpu-cloud", "vector-db", "data-platform", "mlops",
+                 "networking", "observability", "orchestration", "fine-tuning"],
     "coding-agent": ["code-generation", "code-review", "dev-environment"],
-    "ai-agents": ["general", "agent-security", "agent-infra", "browser"],
+    "ai-agents": ["general", "agent-security", "agent-infra", "browser", "voice", "computer-use", "customer-support"],
     "enterprise-ai": ["search", "knowledge", "productivity", "sales-cx", "support"],
-    "vertical-app": ["legal", "healthcare", "finance", "security", "education", "marketing", "hr", "other"],
-    "robotics": ["humanoid", "autonomous-driving", "drones", "manipulation", "industrial", "surgical"],
+    "vertical-app": ["legal", "healthcare", "finance", "security", "education", "marketing", "hr",
+                     "agriculture", "construction", "logistics", "government", "manufacturing",
+                     "accounting", "retail", "insurance", "other"],
+    "robotics": ["humanoid", "autonomous-driving", "drones", "manipulation", "industrial",
+                 "surgical", "agriculture", "logistics", "space"],
     "defense-ai": ["autonomy", "maritime", "air", "c2", "sensing"],
     "data-eval": ["labeling", "evaluation", "rlhf", "synthetic-data"],
+    # Tier-1 additions: deep-tech science AI and consumer AI — the two structural blind spots.
+    "science": ["drug-discovery", "materials", "climate-energy", "geospatial"],
+    "consumer-ai": ["companion", "assistant", "devices", "ai-brands"],
 }
 
 _SYS = (

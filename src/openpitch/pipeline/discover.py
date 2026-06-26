@@ -63,6 +63,11 @@ _QUERIES = [
     '("AI chip" OR semiconductor OR "AI accelerator" OR inference hardware) startup funding',
     'AI fintech (payments OR banking OR lending OR treasury OR insurtech) startup funding',
     '("AI health insurance" OR "digital health" OR "AI healthcare") startup funding',
+    '("AI drug discovery" OR "protein design" OR techbio OR "AI biology" OR "AI biotech") startup funding',
+    '("AI materials" OR "AI chemistry" OR "AI for science" OR "climate AI" OR "energy AI") startup funding',
+    '("voice AI" OR "voice agent" OR "AI call center" OR "conversational AI") startup funding',
+    '("AI companion" OR "consumer AI" OR "AI wearable" OR "AI device" OR "AI assistant") startup funding',
+    '(agtech OR proptech OR "supply chain AI" OR "logistics AI" OR "construction AI") startup funding',
 ]
 # European startup news skews toward EU-region outlets, so we also read a GB-region feed
 # (Sifted/TechEU/etc.) — catches Alan, Airwallex-class names absent from the US feed.
@@ -174,6 +179,15 @@ _BACKFILL_SECTORS = [
     "AI health insurance, digital health, and care navigation (e.g. Alan-style)",
     "AI fintech — payments, banking, lending, treasury, and insurtech",
     "European AI startups across verticals (UK, France, Germany, Nordics)",
+    "AI drug discovery, protein design, and techbio (e.g. Xaira, Isomorphic, EvolutionaryScale, Recursion)",
+    "AI for materials science, chemistry, and scientific discovery",
+    "AI for climate, energy, grid, and weather",
+    "geospatial, earth-observation, and space AI",
+    "voice AI agents and call-center / conversational automation",
+    "consumer AI — companions, assistants, and AI devices/wearables",
+    "AI for agriculture (agtech), construction/proptech, and logistics/supply chain",
+    "AI for government, manufacturing, retail, and back-office/accounting",
+    "AI developer infrastructure — observability, evals, orchestration, and fine-tuning",
 ]
 
 

@@ -26,6 +26,8 @@ HIGH_PRIORITY_CATEGORIES = {
     "data-eval",
     "generative-media",
     "robotics",
+    "science",
+    "consumer-ai",
 }
 # Categories where ARR is the expected headline metric and usually disclosed.
 # Frontier labs, infra/chips, robotics and defense rarely publish ARR, so a
@@ -37,6 +39,7 @@ ARR_EXPECTED_CATEGORIES = {
     "coding-agent",
     "data-eval",
     "generative-media",
+    "consumer-ai",
 }
 
 

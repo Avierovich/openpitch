@@ -11,6 +11,25 @@ Read it before editing, especially when Codex and Claude Code are both active.
 - No runtime code changes were made by Codex during the competitive-research/doc pass.
 - OpenPitch's trust model remains: public sources, provenance, confidence, auditability, and conservative ToS posture.
 
+## Current State (2026-06-26)
+
+Authoritative snapshot — the dated logs below are historical and may be stale.
+
+- **v0.1.0, functional end-to-end.** 64 tests passing; `ruff check .` clean.
+- **Two-level taxonomy:** controlled main category + subcategory + free-text specialty +
+  business summary (`pipeline/classify.py` VOCAB: 12 mains / 81 subs incl. `science` and
+  `consumer-ai`). `config/taxonomy.yaml` is the generated overlay; `openpitch classify` (re)builds it.
+- **Discovery:** news (US + EU/`gl=GB` feeds) + per-sector knowledge backfill (20 sectors),
+  public/acquired filtered out, fail-isolated against 503s. `discovered.yaml` ~248 candidates.
+- **Reconciliation:** recency stays the headline; an unconfirmed "in talks" valuation also
+  surfaces `confirmed_value`; forward-looking revenue targets dropped; contradictions require
+  independent public sources.
+- **MCP:** 8 read-only tools, now declaring read-only/non-destructive annotations; exposes
+  subcategory/specialty/summary.
+- **P0 (local) done:** CI + release (PyPI Trusted Publishing) + Pages workflows; CONTRIBUTING/
+  SECURITY/CoC/CHANGELOG + issue/PR templates; extraction cache (`data/cache/seen.json`);
+  metadata → `Avierovich/openpitch`. Pending: the GitHub/PyPI push + account config.
+
 ## Codex Edits Log
 
 ### 2026-06-13 - Product/strategy documentation expansion
@@ -319,7 +338,7 @@ Verification performed by Codex:
 
 Current quality status:
 
-- `data/quality/report.md` currently reports 51 critical issues and 108 warnings.
+- (Historical, 2026-06-13) `data/quality/report.md` reported 51 critical issues and 108 warnings; the quality model and coverage have since changed materially — see Current State above.
 - Treat these as launch blockers until the no-metric top-50 cards, missing valuation/ARR gaps, and unprofiled high-priority candidates are reduced intentionally.
 
 ## Claude Code Edits Log

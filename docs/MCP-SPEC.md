@@ -6,12 +6,17 @@ This document defines the read-only MCP interface for OpenPitch v0.1. The MCP se
 
 ## Principles
 
-- Read-only.
+- Read-only. All 8 tools declare MCP annotations `readOnlyHint=true`, `destructiveHint=false`,
+  `idempotentHint=true`, `openWorldHint=false`, so clients know they are safe to call freely.
 - Local-first.
 - No user API key.
 - Every numeric answer includes provenance.
 - No-data responses must be explicit.
 - Tool outputs should be stable enough for agents to reason over.
+
+Company objects (in `list_companies` / `get_company`) carry the two-level taxonomy:
+`category` (controlled main), `subcategory` (controlled), `specialty` (short tag), and
+`summary` (1–2 sentence business description).
 
 ## Shared Response Rules
 
@@ -26,7 +31,10 @@ Any response containing a metric value must include:
 - `supporting_claims`;
 - source summaries;
 - `contradiction`;
-- `history_ref` when available.
+- `history_ref` when available;
+- `unconfirmed`, with `confirmed_value` / `confirmed_as_of` when the headline figure is an
+  "in talks"/rumored mark and a more recent confirmed figure exists (recency stays the headline;
+  the confirmed number is the anchor).
 
 If data is missing, return:
 

@@ -4,8 +4,8 @@
 
 | | |
 |---|---|
-| **Date** | 2026-06-13 |
-| **Status** | Draft, implementation in progress |
+| **Date** | 2026-06-13 (status updated 2026-06-26) |
+| **Status** | v0.1.0 — functional end-to-end (pipeline, reconcile, MCP, dashboard, discovery) |
 | **Companions** | [BRD](BRD.md), [FRD](FRD.md), [LAUNCH-GATES](LAUNCH-GATES.md) |
 
 ## 1. Product Thesis

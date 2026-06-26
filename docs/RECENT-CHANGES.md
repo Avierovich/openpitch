@@ -1,5 +1,28 @@
 # Recent Changes
 
+## 2026-06-26 Snapshot
+
+- **Two-level taxonomy** added: controlled main category + subcategory + free-text specialty
+  + a 1–2 sentence business summary, auto-classified (`pipeline/classify.py`, `openpitch classify`)
+  and overlaid via `config/taxonomy.yaml`. Vocab covers 12 mains / 81 subs incl. `science`
+  (drug-discovery, materials, climate-energy, geospatial) and `consumer-ai`.
+- **Discovery broadened + hardened:** US + European (`gl=GB`) news feeds, 20 knowledge-backfill
+  sectors (AI fintech, health-insurance, biotech, materials, climate, voice agents, consumer,
+  agtech/proptech/logistics, dev-infra, …); public/acquired companies filtered out; fail-isolated
+  per sector against transient 503s. Daily CI runs discover + classify.
+- **Reconciliation:** unconfirmed "in talks" valuations keep recency as the headline but also
+  surface `confirmed_value`/`confirmed_as_of`; forward-looking revenue targets no longer become
+  current ARR; contradictions require independent public sources; GMV-as-ARR guard.
+- **Dashboard:** company name links to official site; per-metric as-of year (pre-current-year
+  highlighted); "in talks · confirmed" rendering; main·sub taxonomy label + summary + a category
+  filter. Reliable build (atomic writes + fail-loud guard; the recurring stale-build bug fixed).
+- **MCP:** 8 tools now declare read-only annotations; expose subcategory/specialty/summary.
+- **Validation harness** (`scripts/validate_top50.py`) diffs the dashboard top-50 vs a reference.
+- **P0 launch hardening (local):** CI + release (PyPI Trusted Publishing) + Pages workflows;
+  CONTRIBUTING/SECURITY/CODE_OF_CONDUCT/CHANGELOG + issue/PR templates; extraction cache
+  (`data/cache/seen.json`); pyproject 0.1.0 + metadata; remote → `Avierovich/openpitch`.
+- 64 tests passing; `ruff check .` clean.
+
 ## 2026-06-14 Snapshot
 
 This file summarizes the product changes made during the latest build/test pass so future agents and contributors do not have to reconstruct the state from chat history.

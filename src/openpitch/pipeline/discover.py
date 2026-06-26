@@ -61,12 +61,23 @@ _QUERIES = [
     '("generative" OR "AI video" OR "AI image" OR "AI voice") startup valuation',
     '("sales" OR "revenue operations" OR RevOps OR "data enrichment" OR CRM) AI startup funding',
     '("AI chip" OR semiconductor OR "AI accelerator" OR inference hardware) startup funding',
+    'AI fintech (payments OR banking OR lending OR treasury OR insurtech) startup funding',
+    '("AI health insurance" OR "digital health" OR "AI healthcare") startup funding',
 ]
+# European startup news skews toward EU-region outlets, so we also read a GB-region feed
+# (Sifted/TechEU/etc.) — catches Alan, Airwallex-class names absent from the US feed.
+_EU_QUERIES = [
+    'AI startup funding (Europe OR UK OR France OR Germany OR Nordics) valuation',
+    'European AI (fintech OR "health insurance" OR healthcare) startup raises',
+    '("most valuable" OR top OR unicorn) European AI startups valuation',
+]
+_REGIONS = {"US": ("US", "US:en"), "EU": ("GB", "GB:en")}
 
 
-def _feed(q: str) -> str:
+def _feed(q: str, region: str = "US") -> str:
+    gl, ceid = _REGIONS.get(region, _REGIONS["US"])
     return "https://news.google.com/rss/search?" + urllib.parse.urlencode(
-        {"q": q, "hl": "en-US", "gl": "US", "ceid": "US:en"})
+        {"q": q, "hl": "en-US", "gl": gl, "ceid": ceid})
 
 
 def _sys() -> str:
@@ -111,8 +122,9 @@ def discover(*, llm: LLMProvider, per_query: int = 15, max_chars: int = 24000) -
     import feedparser
 
     seen, headlines, budget = set(), [], max_chars
-    for q in _QUERIES:
-        for e in feedparser.parse(_feed(q)).entries[:per_query]:
+    feeds = [(q, "US") for q in _QUERIES] + [(q, "EU") for q in _EU_QUERIES]
+    for q, region in feeds:
+        for e in feedparser.parse(_feed(q, region)).entries[:per_query]:
             t = f"{e.get('title', '')}. {e.get('summary', '')}".strip()[:280]
             if t and t not in seen and budget - len(t) > 0:
                 seen.add(t)
@@ -159,6 +171,9 @@ _BACKFILL_SECTORS = [
     "AI developer tools and coding agents",
     "vertical AI for legal, healthcare, and finance",
     "generative media — AI video, image, voice, and music",
+    "AI health insurance, digital health, and care navigation (e.g. Alan-style)",
+    "AI fintech — payments, banking, lending, treasury, and insurtech",
+    "European AI startups across verticals (UK, France, Germany, Nordics)",
 ]
 
 
@@ -175,7 +190,10 @@ def backfill(*, llm: LLMProvider, per_sector: int = 12) -> list[dict]:
     for sector in _BACKFILL_SECTORS:
         prompt = (f"List up to {per_sector} of the most notable PRIVATE, still-independent "
                   f"(not public, not acquired) companies in: {sector}.")
-        out.extend(_normalize(llm.complete_json(_sys(), prompt, _SCHEMA)))
+        try:
+            out.extend(_normalize(llm.complete_json(_sys(), prompt, _SCHEMA)))
+        except Exception:  # noqa: BLE001 — a transient 503/quota on one sector must not abort the rest
+            continue
     return out
 
 

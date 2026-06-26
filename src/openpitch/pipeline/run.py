@@ -285,7 +285,12 @@ def discover() -> None:
     from .llm import get_provider
 
     llm = get_provider()
-    found = run_discover(llm=llm) + backfill(llm=llm)
+    found = []
+    for label, fn in (("news", run_discover), ("backfill", backfill)):
+        try:
+            found += fn(llm=llm)
+        except Exception as exc:  # noqa: BLE001 — partial discovery still merges what it found
+            typer.echo(f"  ! discover/{label}: {str(exc)[:120]}")
     n = merge_discovered(found)
     typer.echo(f"Discovered {len(found)} candidates; {n} new added to config/discovered.yaml")
 

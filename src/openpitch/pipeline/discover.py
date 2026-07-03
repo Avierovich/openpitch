@@ -76,7 +76,15 @@ _EU_QUERIES = [
     'European AI (fintech OR "health insurance" OR healthcare) startup raises',
     '("most valuable" OR top OR unicorn) European AI startups valuation',
 ]
-_REGIONS = {"US": ("US", "US:en"), "EU": ("GB", "GB:en")}
+# China is a top-tier AI bloc but its companies rarely hit the US/EU feeds. Read an HK
+# English-region feed (Google News is blocked in the mainland) for China-AI coverage —
+# catches Zhipu, MiniMax, Baichuan, 01.AI, StepFun, etc. absent from the Western feeds.
+_CN_QUERIES = [
+    'Chinese AI startup funding valuation',
+    'China ("large language model" OR LLM OR "AI chip" OR "autonomous driving") startup funding',
+    '("most valuable" OR top OR unicorn) Chinese AI startups valuation',
+]
+_REGIONS = {"US": ("US", "US:en"), "EU": ("GB", "GB:en"), "CN": ("HK", "HK:en")}
 
 
 def _feed(q: str, region: str = "US") -> str:
@@ -127,7 +135,8 @@ def discover(*, llm: LLMProvider, per_query: int = 15, max_chars: int = 24000) -
     import feedparser
 
     seen, headlines, budget = set(), [], max_chars
-    feeds = [(q, "US") for q in _QUERIES] + [(q, "EU") for q in _EU_QUERIES]
+    feeds = ([(q, "US") for q in _QUERIES] + [(q, "EU") for q in _EU_QUERIES]
+             + [(q, "CN") for q in _CN_QUERIES])
     for q, region in feeds:
         for e in feedparser.parse(_feed(q, region)).entries[:per_query]:
             t = f"{e.get('title', '')}. {e.get('summary', '')}".strip()[:280]
@@ -188,6 +197,9 @@ _BACKFILL_SECTORS = [
     "AI for agriculture (agtech), construction/proptech, and logistics/supply chain",
     "AI for government, manufacturing, retail, and back-office/accounting",
     "AI developer infrastructure — observability, evals, orchestration, and fine-tuning",
+    "Chinese AI startups — foundation models / LLMs, AI chips, autonomous driving, and "
+    "robotics (e.g. Zhipu/Z.ai, MiniMax, Baichuan, 01.AI, StepFun, Moonshot, Biren, "
+    "Moore Threads, Unitree, Manus, Infinigence)",
 ]
 
 

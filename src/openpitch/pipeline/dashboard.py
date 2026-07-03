@@ -237,14 +237,19 @@ def _company_page(c, display_rank: int | None = None) -> str:
         srcs = ""
         for cl in store.read_claims(c.id):
             if cl.metric == m and cl.source.type.value != "derived":
-                link = f'<a href="{cl.source.url}">{cl.source.name}</a>' if cl.source.url else cl.source.name
-                srcs += f'<div class="src">↳ {link} · {cl.source.type.value} · {cl.source.published_at or "n.d."} — "{cl.raw_text}"</div>'
+                # Escape everything crawled/LLM-produced (name, url, raw_text) — this page
+                # ships to public Pages, and a crafted article must not inject markup.
+                sname = escape(cl.source.name)
+                url = cl.source.url or ""
+                link = (f'<a href="{escape(url, quote=True)}">{sname}</a>'
+                        if url.startswith(("http://", "https://")) else sname)
+                srcs += f'<div class="src">↳ {link} · {cl.source.type.value} · {cl.source.published_at or "n.d."} — "{escape(cl.raw_text)}"</div>'
         warn = ' <span class="warn">⚑ public-source discrepancy</span>' if rv.contradiction else ""
         val = _money(rv.value) if rv.unit == "USD" else (f"{rv.value:,.0f}" if isinstance(rv.value, (int, float)) else rv.value)
         blocks += (f'<div class="card"><div class="m"><span class="k">{_metric_label(m)}{warn}</span>'
                    f'<span class="v">{val}{_status_html(rv)} <span class="conf">[{rv.estimate_type.value} · conf {rv.confidence}]</span>'
                    f'{_year_badge(rv.as_of)}</span></div>{srcs}</div>')
-    return _html(f"{c.name} — OpenPitch", f'<a href="../index.html">← all companies</a><h1>{c.name}</h1>'
+    return _html(f"{escape(c.name)} — OpenPitch", f'<a href="../index.html">← all companies</a><h1>{escape(c.name)}</h1>'
                  f'<p class="sub">{_tier(rank)} · {_taxon_label(c.category, c.subcategory)}{(" · " + escape(c.specialty)) if c.specialty else ""} · rank {_display_rank(rank or 0)} · VC-attention {c.vc_attention_score}</p>'
                  f'{("<p class=" + chr(34) + "desc" + chr(34) + ">" + escape(c.summary) + "</p>") if c.summary else ""}'
                  f'<div class="grid">{blocks}</div>{_DISCLAIMER}')

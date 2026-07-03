@@ -57,5 +57,9 @@ def record(cache: dict, company_id: str, to_extract, new_claims) -> dict:
         if h:
             by_hash.setdefault(h, []).append(cl.model_dump(mode="json"))
     for it in to_extract:
-        cache[_key(company_id, it.content_hash)] = by_hash.get(it.content_hash, [])
+        # Claims are matched back to items by URL, so a url-less item can't prove its
+        # claims were captured — don't cache it (it re-extracts next run) rather than
+        # risk marking it seen-with-[] and silently losing what it yielded.
+        if it.url:
+            cache[_key(company_id, it.content_hash)] = by_hash.get(it.content_hash, [])
     return cache

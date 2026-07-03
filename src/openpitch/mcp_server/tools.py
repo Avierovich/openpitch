@@ -71,7 +71,10 @@ def get_company(id: str, include_sources: bool = True) -> dict:
     c = store.read_company(id)
     if not c:
         return _not_found(id)
-    return {"status": "ok", "company": c.model_dump(mode="json")}
+    out = {"status": "ok", "company": c.model_dump(mode="json")}
+    if include_sources:
+        out["sources"] = {m: _sources_for(id, m) for m in c.metrics}
+    return out
 
 
 def _sources_for(company_id: str, metric: str) -> list[dict]:

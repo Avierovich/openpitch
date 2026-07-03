@@ -56,3 +56,13 @@ def test_cache_is_keyed_by_company():
     # a different company fetching the same article must NOT reuse acme's claims
     reused, to_extract = extract_cache.split([it], "beta", cache)
     assert reused == [] and to_extract == [it]
+
+
+def test_urlless_items_are_not_cached_as_seen():
+    # Claims match back to items by URL; a url-less item can't prove its claims were
+    # captured, so it must re-extract next run instead of being cached as empty.
+    cache = {}
+    it = _item(None, "podcast transcript with no url")
+    extract_cache.record(cache, "acme", [it], [_claim(None, 100)])
+    reused, to_extract = extract_cache.split([it], "acme", cache)
+    assert reused == [] and to_extract == [it]

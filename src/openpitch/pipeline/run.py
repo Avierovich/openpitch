@@ -249,6 +249,13 @@ def run(
                 time.sleep(extract_sleep)
         extract_cache.record(cache, meta["id"], to_extract, new_claims)
         claims = reused + new_claims
+        # Merge previously-stored claims so coverage never regresses when a source
+        # ages out of its feed window (publish overwrites claims/<id>.json with this
+        # run's set). Claim ids are content-stable, so dupes collapse; freshness is
+        # handled by confidence decay, not by dropping old evidence.
+        have = {c.id for c in claims}
+        claims += [c for c in store.read_claims(meta["id"])
+                   if c.id not in have and c.source.type.value != "derived"]
         if claims:
             pairs.append(_reconcile_company(meta, claims, now=now, as_of=as_of))
     if not no_cache:

@@ -48,6 +48,10 @@ def _derived(
     pub = max(pubs) if pubs else as_of
     ids = [c.id for c in inputs]
     cid = "drv_" + hashlib.sha256(f"{metric}|{formula}|{ids}".encode()).hexdigest()[:10]
+    # Propagate not-yet-closed qualifiers: a value derived from a rumored/in-talks
+    # input is itself unconfirmed — the derivation must not launder that away.
+    quals = sorted({q for c in inputs for q in (c.qualifiers or [])}
+                   & {"unconfirmed", "rumored", "in_talks"})
     return Claim(
         id=cid,
         company_id=inputs[0].company_id,
@@ -55,6 +59,7 @@ def _derived(
         value=round(value, 2),
         unit=unit,
         raw_text=formula,
+        qualifiers=quals,
         speaker=Speaker(role=SpeakerRole.UNKNOWN),
         source=Source(type=SourceType.DERIVED, name=f"derived:{metric}", published_at=pub),
         extracted_at=now,
@@ -69,6 +74,9 @@ def derive_claims(
 ) -> list[Claim]:
     """Apply hard financial identities to produce derived claims (v1-safe)."""
     now = now or datetime.now()
+    # Never derive from projections: "targeting $10M MRR by 2027" must not become an
+    # untagged current-ARR claim (the Replit trap via the derivation side door).
+    claims = [c for c in claims if "forward_looking" not in (c.qualifiers or [])]
     b = _best_by_metric(claims)
     out: list[Claim] = []
 

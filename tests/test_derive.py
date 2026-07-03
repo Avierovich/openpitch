@@ -19,16 +19,33 @@ NOW = datetime(2026, 6, 13, 4, 0, 0)
 
 
 def claim(cid, metric, value, *, stype=SourceType.PODCAST, sname="20VC",
-          role=SpeakerRole.FOUNDER, base=0.6, published=RUN) -> Claim:
+          role=SpeakerRole.FOUNDER, base=0.6, published=RUN, qualifiers=()) -> Claim:
     return Claim(
         id=cid, company_id="acme", metric=metric, value=value, raw_text="…",
-        speaker=Speaker(role=role),
+        qualifiers=list(qualifiers), speaker=Speaker(role=role),
         source=Source(type=stype, name=sname, published_at=published),
         extracted_at=NOW, extractor_model="test", base_confidence=base,
     )
 
 
 # ── hard identities ──────────────────────────────────────────────────────────
+
+
+def test_no_derivation_from_forward_looking_inputs():
+    # "targeting $10M MRR by 2027" must not become an untagged current-ARR claim.
+    derived = derive_claims([claim("m", "mrr", 10_000_000, qualifiers=["forward_looking"])],
+                            now=NOW, as_of=RUN)
+    assert derived == []
+
+
+def test_derivation_propagates_unconfirmed():
+    # revenue_multiple derived from a rumored valuation must stay tagged unconfirmed.
+    derived = derive_claims([
+        claim("v", "valuation", 1_000_000_000, qualifiers=["unconfirmed"]),
+        claim("a", "arr", 50_000_000),
+    ], now=NOW, as_of=RUN)
+    mult = [c for c in derived if c.metric == "revenue_multiple"]
+    assert len(mult) == 1 and "unconfirmed" in mult[0].qualifiers
 
 
 def test_arr_from_mrr():

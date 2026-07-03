@@ -93,6 +93,41 @@ def _feed(q: str, region: str = "US") -> str:
         {"q": q, "hl": "en-US", "gl": gl, "ceid": ceid})
 
 
+# TradedVC (vc.traded.co) is a Beehiiv funding-digest newsletter with no RSS, but it
+# publishes a public sitemap and robots.txt allows `*` — its post slugs are dense raise
+# headlines (".../p/...moonshot-ai-raise-200m-blitzy-at-1-4b-45b-deepseek-val"). We read
+# ONLY the public sitemap (DATA-POLICY: no auth-walled/ToS scraping; the auth-walled X /
+# LinkedIn pages carry the same rounds and are deliberately NOT used).
+_TRADED_SITEMAP = "https://vc.traded.co/sitemap.xml"
+
+
+def _slug_to_headline(loc: str) -> str:
+    """'.../p/2b-moonshot-ai-raise-200m-blitzy-at-1-4b' -> '2b moonshot ai raise 200m blitzy at 1 4b'.
+    Amounts get lightly mangled (1.4b -> '1 4b'); fine for DISCOVERY — this surfaces the
+    company name, and every metric is still corroborated downstream before it becomes a value.
+    """
+    return urllib.parse.unquote(loc.rstrip("/").rsplit("/p/", 1)[-1]).replace("-", " ").strip()
+
+
+def _traded_headlines(limit: int = 25) -> list[str]:
+    """Recent TradedVC post slugs as headlines, newest first. Fail-open: [] on any error."""
+    import urllib.request
+    import xml.etree.ElementTree as ET
+
+    try:
+        req = urllib.request.Request(_TRADED_SITEMAP, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=15) as r:  # noqa: S310 (fixed https URL)
+            root = ET.fromstring(r.read())
+    except Exception:
+        return []
+    ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    posts = [(u.findtext("s:lastmod", "", ns), u.findtext("s:loc", "", ns))
+             for u in root.findall("s:url", ns)]
+    posts = [(m, loc) for m, loc in posts if "/p/" in loc]
+    posts.sort(reverse=True)  # lastmod ISO strings sort chronologically
+    return [_slug_to_headline(loc) for _, loc in posts[:limit]]
+
+
 def _sys() -> str:
     from .classify import VOCAB
     vocab = "; ".join(f"{m}: {', '.join(subs)}" for m, subs in VOCAB.items())
@@ -137,13 +172,16 @@ def discover(*, llm: LLMProvider, per_query: int = 15, max_chars: int = 24000) -
     seen, headlines, budget = set(), [], max_chars
     feeds = ([(q, "US") for q in _QUERIES] + [(q, "EU") for q in _EU_QUERIES]
              + [(q, "CN") for q in _CN_QUERIES])
-    for q, region in feeds:
-        for e in feedparser.parse(_feed(q, region)).entries[:per_query]:
-            t = f"{e.get('title', '')}. {e.get('summary', '')}".strip()[:280]
-            if t and t not in seen and budget - len(t) > 0:
-                seen.add(t)
-                headlines.append(t)
-                budget -= len(t) + 1
+    # TradedVC digests first — they're the densest, earliest raise headlines (recency edge).
+    items = _traded_headlines() + [
+        f"{e.get('title', '')}. {e.get('summary', '')}".strip()
+        for q, region in feeds for e in feedparser.parse(_feed(q, region)).entries[:per_query]]
+    for t in items:
+        t = t[:280]
+        if t and t not in seen and budget - len(t) > 0:
+            seen.add(t)
+            headlines.append(t)
+            budget -= len(t) + 1
     text = "\n".join(headlines)
     if not text.strip():
         return []
@@ -283,6 +321,8 @@ if __name__ == "__main__":  # ponytail: dedup self-check, no network
     assert _normalize({"companies": [{"name": "Clearbit", "status": "acquired"}]}) == []
     # SEC name normalization strips corporate noise so candidate <-> filing names match.
     assert _norm_name("ZOOMINFO TECHNOLOGIES INC.") == _norm_name("ZoomInfo") == "zoominfo"
+    # TradedVC slug -> headline: strip the /p/ prefix and de-hyphenate into a raise headline.
+    assert _slug_to_headline("https://vc.traded.co/p/2b-moonshot-ai-raise-200m") == "2b moonshot ai raise 200m"
     # Public-gate: a SEC-listed name is dropped even when the LLM mislabels it private.
     globals()["_public_company_names"] = lambda: frozenset({"zoominfo"})
     assert merge_discovered([{"id": "zoominfo", "name": "ZoomInfo", "domain": "zoominfo.com"}]) == 0

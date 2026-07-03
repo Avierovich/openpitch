@@ -208,4 +208,4 @@ s.addText("Free · open-source · MCP & A2A native · every number sourced.",{x:
 s.addText("github.com/<owner>/openpitch   ·   MIT",{x:0.5,y:6.2,w:12.3,h:0.4,fontFace:H,fontSize:12,color:MUT});
 foot(s,12);
 
-p.writeFile({ fileName: "/Users/mohamedibnomer/openpitch/docs/OpenPitch-Pitch-Deck.pptx" }).then(f=>console.log("wrote",f));
+p.writeFile({ fileName: require("path").join(__dirname, "..", "docs", "OpenPitch-Pitch-Deck.pptx") }).then(f=>console.log("wrote",f));

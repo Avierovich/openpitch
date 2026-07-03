@@ -2,7 +2,9 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.worksheet.datavalidation import DataValidation
 
-OUT = "/Users/mohamedibnomer/openpitch/docs/OpenPitch-PM-Workbook.xlsx"
+from pathlib import Path
+
+OUT = str(Path(__file__).resolve().parent.parent / "docs" / "OpenPitch-PM-Workbook.xlsx")
 
 NAVY = "1F2A44"; ACCENT = "2E7D6F"; LIGHT = "EAF2EF"; ZEBRA = "F6F8FA"
 HDR = Font(name="Arial", bold=True, color="FFFFFF", size=11)

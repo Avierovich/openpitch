@@ -211,7 +211,7 @@ Frozen snapshots. No freshness, no agent interface. **Threat: LOW.**
 
 1. **Low barriers to entry.** Crunchbase-MCP, Octagon-style MCP listings, Exa/Tavily research apps, and Apify prove anyone can stand up an agent/company-research workflow quickly. *Wrapping data or search is commodity.* Our non-commodity parts are the **reconciliation/confidence/contradiction layer + curated multi-source mining + active maintenance + trust** — lean on those, never on "we have startup data in an MCP."
 2. **A strong open incumbent could pivot.** OpenBB owns "open + agent-native financial data" with massive distribution. The danger isn't them today; it's them (or a funded clone) aiming at private/startup data. **Mitigation: speed + niche depth + interoperate (be an OpenBB provider, not only a rival).**
-3. **Distribution, not features, is where we're behind.** Every meaningful free competitor that matters (OpenBB, AI Funding Tracker) has an audience; we have none yet. Features we win; reach we must build (→ GROWTH.md).
+3. **Distribution, not features, is where we're behind.** Every meaningful free competitor that matters (OpenBB, AI Funding Tracker) has an audience; we have none yet. Features we win; reach we must build (see the distribution plan).
 
 ---
 

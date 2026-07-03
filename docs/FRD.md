@@ -525,7 +525,7 @@ sort control and a linked data-quality page.
 ```
 openpitch/
 ├── README.md                  # the pitch + MCP install snippet + dashboard link
-├── docs/                      # BRD, FRD, COMPETITIVE-ANALYSIS, GROWTH, competitive-matrix.xlsx, integrations/
+├── docs/                      # BRD, FRD, COMPETITIVE-ANALYSIS, competitive-matrix.xlsx, ...
 ├── scripts/                   # build_competitive_matrix.py (regenerates the xlsx)
 ├── schemas/                   # versioned JSON Schema (events, resolved values)
 ├── config/

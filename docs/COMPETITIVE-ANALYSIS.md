@@ -121,5 +121,5 @@ OpenPitch is **not** a replacement for PitchBook, CB Insights, Crunchbase, Harmo
 1. **Lead with the wedge, not the comparison.** Marketing leads with "free, fresh, in your agent, with receipts," not a feature-for-feature war.
 2. **Embrace "complementary."** Reduces backlash risk and is defensible.
 3. **MENA is a differentiator AND a credibility risk** — under-deliver loudly-honestly rather than over-promise. Lower-confidence MENA data, clearly labeled, still beats nothing.
-4. **The contradiction-finder is the one feature no incumbent has** — it's both the marketing hook (per GROWTH.md) and a genuine product edge. Protect and emphasize it.
+4. **The contradiction-finder is the one feature no incumbent has** — it's both the marketing hook and a genuine product edge. Protect and emphasize it.
 5. **Our moat is not data — it's openness + transparency + agent-nativeness.** Anyone can see our data; few will rebuild the trust/provenance model and the agent-native distribution.

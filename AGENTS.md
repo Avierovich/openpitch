@@ -50,7 +50,7 @@ Files created by Codex:
 Files modified by Codex:
 
 - `README.md`
-- `docs/GROWTH.md`
+- `docs/GROWTH.md` *(local-only distribution playbook; untracked pre-launch)*
 
 Main content changes:
 
@@ -209,7 +209,7 @@ Files updated by Codex:
 - `docs/FRD.md`
 - `docs/DATA-POLICY.md`
 - `docs/V0-SEED-DATASET.md`
-- `docs/GROWTH.md`
+- `docs/GROWTH.md` *(local-only distribution playbook; untracked pre-launch)*
 
 Main content changes:
 
@@ -368,7 +368,8 @@ per EVENTS-SPEC), MCP server (per MCP-SPEC), dashboard, A2A.
 
 Strategy/competitive docs authored by Claude Code earlier (also committed):
 `COMPETITIVE-ANALYSIS.md`, `OSS-LANDSCAPE.md`, `OSS-DEEP-DIVE.md`,
-`STRATEGY-DEEP-DIVE.md`, `GROWTH.md` (later enriched by Codex).
+`STRATEGY-DEEP-DIVE.md`, and `GROWTH.md` (later enriched by Codex; GROWTH is
+now local-only — untracked before the public push).
 
 ## Dirty Files Not Attributed To Codex In This Log
 

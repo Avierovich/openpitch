@@ -113,7 +113,7 @@ Ask your agent: *"What's Cognition's ARR, with sources and confidence?"* — it 
 - **Build scope** — [PRD](docs/PRD.md), [v0 seed dataset](docs/V0-SEED-DATASET.md), [launch gates](docs/LAUNCH-GATES.md)
 - **Trust model** — [methodology](docs/METHODOLOGY.md), [data policy](docs/DATA-POLICY.md), [corrections](docs/CORRECTIONS.md)
 - **Interfaces** — [MCP spec](docs/MCP-SPEC.md), [events spec](docs/EVENTS-SPEC.md), [FRD](docs/FRD.md)
-- **Go-to-market** — [growth plan](docs/GROWTH.md), [competitive analysis](docs/COMPETITIVE-ANALYSIS.md), [strategy deep dive](docs/STRATEGY-DEEP-DIVE.md)
+- **Go-to-market** — [competitive analysis](docs/COMPETITIVE-ANALYSIS.md), [strategy deep dive](docs/STRATEGY-DEEP-DIVE.md)
 - **Operations + brand** — [operations](docs/OPERATIONS.md), [recent changes](docs/RECENT-CHANGES.md), [logo options](docs/brand/logo-options/README.md)
 
 ## How it works
@@ -172,7 +172,7 @@ OpenPitch is **transparently probabilistic**. Many figures are estimates derived
 ## Roadmap
 
 - [x] Business + technical specs ([BRD](docs/BRD.md) · [FRD](docs/FRD.md))
-- [x] Competitive analysis: [incumbents](docs/COMPETITIVE-ANALYSIS.md) · [matrix xlsx](docs/competitive-matrix.xlsx) · [OSS landscape](docs/OSS-LANDSCAPE.md) · [**free/open deep-dive**](docs/OSS-DEEP-DIVE.md) · [strategy & viability](docs/STRATEGY-DEEP-DIVE.md) · [growth plan](docs/GROWTH.md)
+- [x] Competitive analysis: [incumbents](docs/COMPETITIVE-ANALYSIS.md) · [matrix xlsx](docs/competitive-matrix.xlsx) · [OSS landscape](docs/OSS-LANDSCAPE.md) · [**free/open deep-dive**](docs/OSS-DEEP-DIVE.md) · [strategy & viability](docs/STRATEGY-DEEP-DIVE.md)
 - [x] Seed universe (global AI + MENA segment)
 - [x] Core data model + reconciliation engine (confidence, consensus, contradiction) — *tested*
 - [x] Source adapters: podcast, news, EDGAR, company-site — *tested*

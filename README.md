@@ -139,7 +139,7 @@ OpenPitch emits typed, confidence-scored **events** when something material chan
 | A press/PR workflow | funding/valuation events, confidence ≥ 0.8 | your "time to call the company" trigger |
 | Investor outbound | universe entries, growth thresholds | your targeting signal |
 
-Events ship on MCP, a raw `events/feed.jsonl`, and RSS/Atom. Schemas are versioned. See [`docs/integrations/`](docs/).
+Events ship on MCP and a raw `events/feed.jsonl`. Schemas are versioned. See the [events spec](docs/EVENTS-SPEC.md).
 
 ## How we compare
 
@@ -193,7 +193,7 @@ Contributions welcome — especially **new source adapters** (one file each) and
 
 ## License
 
-MIT *(to be confirmed)*
+[MIT](LICENSE)
 
 ---
 

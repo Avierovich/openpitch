@@ -17,8 +17,9 @@
 > dashboard all work end-to-end ([BRD](docs/BRD.md) · [FRD](docs/FRD.md) · [PRD](docs/PRD.md)).
 > Coverage and source breadth keep growing via the daily run.
 
-![OpenPitch dashboard](docs/demo/dashboard.png)
-<!-- ponytail: static screenshot; record a GIF of the in-agent MCP query before launch -->
+![Ask your agent — get a sourced, confidence-scored answer](docs/demo/openpitch-demo.gif)
+
+[**Browse the live dashboard →**](https://avierovich.github.io/openpitch/)
 
 </div>
 

@@ -83,6 +83,22 @@ def _reconcile_company(meta: dict, claims: list[Claim], *, now: datetime, as_of:
     for c in all_claims:
         by_metric[c.metric].append(c)
 
+    # Plausibility floor for valuation claims. Post-money >= the round raised is an
+    # identity; vs cumulative funding it is not (down rounds exist), so only drop
+    # below a deep-distress fraction of total raised. Kills scraped junk like a lone
+    # "$5.6M Valuation" next to $250M raised — which would otherwise headline.
+    # ponytail: 0.25 is a heuristic floor; make it config if a real sub-25% distress
+    # case ever shows up in the universe.
+    def _vals(metric):
+        return [float(c.value) for c in by_metric.get(metric, [])
+                if isinstance(c.value, (int, float))]
+
+    floors = [*_vals("round_amount"), *(0.25 * v for v in _vals("total_funding"))]
+    if floors and by_metric.get("valuation"):
+        floor = max(floors)
+        by_metric["valuation"] = [c for c in by_metric["valuation"]
+                                  if not (isinstance(c.value, (int, float)) and float(c.value) < floor)]
+
     metrics = {}
     for metric, cl in by_metric.items():
         md = defs.get(metric)

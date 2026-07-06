@@ -285,3 +285,32 @@ def test_quality_flags_funded_but_no_valuation(data_dir):
     assert "Tiny" not in snap.funded_no_valuation
     assert "Healthy" not in snap.funded_no_valuation
     assert snap.critical_count >= 1
+
+
+def test_valuation_below_round_amount_is_dropped(data_dir):
+    # Post-money >= round by definition: a lone junk "$5.6M valuation" claim must not
+    # survive next to a $250M round (the GetLatka/Augment case).
+    claims = [
+        _claim("round_amount", 250e6, stype=SourceType.NEWS, sname="TechCrunch"),
+        _claim("valuation", 5.6e6, stype=SourceType.WEB, sname="GetLatka"),
+    ]
+    company, _ = _reconcile_company({"id": "acme", "name": "Acme"}, claims, now=NOW, as_of=AS_OF)
+    assert "valuation" not in company.metrics
+    # a plausible valuation alongside the junk one survives (junk dropped, real kept)
+    claims.append(_claim("valuation", 1e9, stype=SourceType.NEWS, sname="Reuters"))
+    company, _ = _reconcile_company({"id": "acme", "name": "Acme"}, claims, now=NOW, as_of=AS_OF)
+    assert company.metrics["valuation"].value == 1e9
+
+
+def test_valuation_junk_dropped_against_total_funding_floor(data_dir):
+    # No round_amount claim, but $252M total raised: a "$5.6M valuation" scrape is
+    # junk (2% of capital raised); a genuine down-round at 60% of raised survives.
+    claims = [
+        _claim("total_funding", 252e6, stype=SourceType.WEB, sname="GetLatka"),
+        _claim("valuation", 5.6e6, stype=SourceType.WEB, sname="GetLatka"),
+    ]
+    company, _ = _reconcile_company({"id": "acme", "name": "Acme"}, claims, now=NOW, as_of=AS_OF)
+    assert "valuation" not in company.metrics
+    claims[1] = _claim("valuation", 150e6, stype=SourceType.NEWS, sname="Reuters")
+    company, _ = _reconcile_company({"id": "acme", "name": "Acme"}, claims, now=NOW, as_of=AS_OF)
+    assert company.metrics["valuation"].value == 150e6

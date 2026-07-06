@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 81.3,
-  "universe_rank": 41,
+  "universe_rank": 45,
   "metrics": {
     "round_amount": {
       "metric": "round_amount",
@@ -126,6 +126,24 @@
         "since": "2026-06-17"
       },
       "history_ref": "history/sandboxaq/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 150000000.0,
+      "unit": "object",
+      "range": null,
+      "as_of": "2025-04-09",
+      "estimate_type": "reported",
+      "confidence": 0.152,
+      "supporting_claims": [
+        "clm_1371b18bf2"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/sandboxaq/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null

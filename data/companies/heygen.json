@@ -10,8 +10,53 @@
   "segment": "global",
   "in_universe": false,
   "vc_attention_score": 72.6,
-  "universe_rank": 86,
+  "universe_rank": 90,
   "metrics": {
+    "arr": {
+      "metric": "arr",
+      "value": 200000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-06-25",
+      "estimate_type": "reported",
+      "confidence": 0.342,
+      "supporting_claims": [
+        "clm_c18d4e12ea"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 100000000.0,
+        "change_pct": 100.0,
+        "since": "2025-10-18"
+      },
+      "history_ref": "history/heygen/arr.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 60000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2024-06-24",
+      "estimate_type": "consensus",
+      "confidence": 0.253,
+      "supporting_claims": [
+        "clm_dbb0244253",
+        "clm_465950426f"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 60000000.0,
+        "change_pct": 0.0,
+        "since": "2024-06-24"
+      },
+      "history_ref": "history/heygen/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "valuation": {
       "metric": "valuation",
       "value": 500000000.0,
@@ -34,28 +79,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 60000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2024-06-24",
-      "estimate_type": "reported",
-      "confidence": 0.19,
-      "supporting_claims": [
-        "clm_dbb0244253"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 60000000.0,
-        "change_pct": 0.0,
-        "since": "2024-06-24"
-      },
-      "history_ref": "history/heygen/total_funding.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "latest_round": {
       "metric": "latest_round",
       "value": 500000000.0,
@@ -74,29 +97,6 @@
         "since": "2024-06-20"
       },
       "history_ref": "history/heygen/latest_round.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "arr": {
-      "metric": "arr",
-      "value": 100000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-10-18",
-      "estimate_type": "reported",
-      "confidence": 0.116,
-      "supporting_claims": [
-        "clm_db8e2f7a82",
-        "clm_db8e2f7a82"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 100000000.0,
-        "change_pct": 0.0,
-        "since": "2025-10-18"
-      },
-      "history_ref": "history/heygen/arr.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null

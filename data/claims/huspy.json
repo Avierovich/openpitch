@@ -1,29 +1,5 @@
 [
   {
-    "id": "clm_19f5eb5f0e",
-    "company_id": "huspy",
-    "metric": "total_funding",
-    "value": 96000000.0,
-    "unit": null,
-    "raw_text": "Our $59 million Series B was led by Balderton Capital and other participating investors, following our $37 million Series A",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "huspy.com",
-      "url": "https://huspy.com/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-07-06T14:21:02.340110",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
     "id": "clm_1e3f2d884a",
     "company_id": "huspy",
     "metric": "round_amount",
@@ -48,6 +24,30 @@
     "derivation": null
   },
   {
+    "id": "clm_0d8edcaee9",
+    "company_id": "huspy",
+    "metric": "subscribers",
+    "value": 8000.0,
+    "unit": null,
+    "raw_text": "Trusted by 8000+ UAE home buyers",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "huspy.com",
+      "url": "https://huspy.com",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-07-06T14:21:02.340110",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
     "id": "clm_f4b0cd10d3",
     "company_id": "huspy",
     "metric": "round_amount",
@@ -69,6 +69,30 @@
     "extracted_at": "2026-07-06T14:21:02.340110",
     "extractor_model": "gemini-2.5-flash-lite",
     "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_19f5eb5f0e",
+    "company_id": "huspy",
+    "metric": "total_funding",
+    "value": 96000000.0,
+    "unit": null,
+    "raw_text": "Our $59 million Series B was led by Balderton Capital and other participating investors, following our $37 million Series A",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "huspy.com",
+      "url": "https://huspy.com/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-07-06T14:21:02.340110",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.25,
     "derivation": null
   },
   {
@@ -336,27 +360,51 @@
     "derivation": null
   },
   {
-    "id": "clm_0d8edcaee9",
+    "id": "clm_bd5b01bf2d",
     "company_id": "huspy",
-    "metric": "subscribers",
-    "value": 8000.0,
+    "metric": "round_amount",
+    "value": 37000000.0,
     "unit": null,
-    "raw_text": "Trusted by 8000+ UAE home buyers",
+    "raw_text": "UAE PropTech start-up Huspy raises $37m to fuel expansion",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
-      "type": "web",
-      "name": "huspy.com",
-      "url": "https://huspy.com",
+      "type": "news",
+      "name": "thenationalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWE5MdURnQmdSdnVtOENFVEM4Q2dTOXUxSDJvX0FmNGxxbEFkUksyTld1cjFTajVCOEpVVWtxVTFNd1ZnM0ZpeEs1OWF4VmoyOExod3FpWG9nODRUSU5GOWhnRzFfcFVldUUwQTNEcmtGTlU3N0pMOE56RGlHb29FTWtYc24wX2xkazBWTG1vVy1Oa2JtR3Z4MUVBNjM0UWh0anNENWZrVGcwTWNuQlBQcVkxbEMwcGRjOFdr?oc=5",
       "locator": null,
-      "published_at": null
+      "published_at": "2022-06-21"
     },
     "extracted_at": "2026-07-06T14:21:02.340110",
     "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.25,
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_db0b7e602f",
+    "company_id": "huspy",
+    "metric": "latest_round",
+    "value": "Series A",
+    "unit": null,
+    "raw_text": "UAE PropTech start-up Huspy raises $37m to fuel expansion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "thenationalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWE5MdURnQmdSdnVtOENFVEM4Q2dTOXUxSDJvX0FmNGxxbEFkUksyTld1cjFTajVCOEpVVWtxVTFNd1ZnM0ZpeEs1OWF4VmoyOExod3FpWG9nODRUSU5GOWhnRzFfcFVldUUwQTNEcmtGTlU3N0pMOE56RGlHb29FTWtYc24wX2xkazBWTG1vVy1Oa2JtR3Z4MUVBNjM0UWh0anNENWZrVGcwTWNuQlBQcVkxbEMwcGRjOFdr?oc=5",
+      "locator": null,
+      "published_at": "2022-06-21"
+    },
+    "extracted_at": "2026-07-06T14:21:02.340110",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -384,30 +432,6 @@
     "derivation": null
   },
   {
-    "id": "clm_bd5b01bf2d",
-    "company_id": "huspy",
-    "metric": "round_amount",
-    "value": 37000000.0,
-    "unit": null,
-    "raw_text": "UAE PropTech start-up Huspy raises $37m to fuel expansion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWE5MdURnQmdSdnVtOENFVEM4Q2dTOXUxSDJvX0FmNGxxbEFkUksyTld1cjFTajVCOEpVVWtxVTFNd1ZnM0ZpeEs1OWF4VmoyOExod3FpWG9nODRUSU5GOWhnRzFfcFVldUUwQTNEcmtGTlU3N0pMOE56RGlHb29FTWtYc24wX2xkazBWTG1vVy1Oa2JtR3Z4MUVBNjM0UWh0anNENWZrVGcwTWNuQlBQcVkxbEMwcGRjOFdr?oc=5",
-      "locator": null,
-      "published_at": "2022-06-21"
-    },
-    "extracted_at": "2026-07-06T14:21:02.340110",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_0081646b87",
     "company_id": "huspy",
     "metric": "round_amount",
@@ -425,30 +449,6 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNmViM1FoOW8yN3FrdmxaOUJmWm5YbUJvRUM5WVdNay1EQTZZakt1YTJ4OFFxVWdINzdVVExMUHZvOXM0ZE1zb1lFamF5UWJ4M1dWWTlsYmVsbHRQUDBXMkxkbHo3SG9WWGFEc3ByVkFvZ0ZiYnhIUG95THpqRWJNbkVyOGl5NERKR0dDdWxVTW1CQUVBM2R5ZXFza01EdV9sYW0w?oc=5",
       "locator": null,
       "published_at": "2025-07-08"
-    },
-    "extracted_at": "2026-07-06T14:21:02.340110",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_db0b7e602f",
-    "company_id": "huspy",
-    "metric": "latest_round",
-    "value": "Series A",
-    "unit": null,
-    "raw_text": "UAE PropTech start-up Huspy raises $37m to fuel expansion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWE5MdURnQmdSdnVtOENFVEM4Q2dTOXUxSDJvX0FmNGxxbEFkUksyTld1cjFTajVCOEpVVWtxVTFNd1ZnM0ZpeEs1OWF4VmoyOExod3FpWG9nODRUSU5GOWhnRzFfcFVldUUwQTNEcmtGTlU3N0pMOE56RGlHb29FTWtYc24wX2xkazBWTG1vVy1Oa2JtR3Z4MUVBNjM0UWh0anNENWZrVGcwTWNuQlBQcVkxbEMwcGRjOFdr?oc=5",
-      "locator": null,
-      "published_at": "2022-06-21"
     },
     "extracted_at": "2026-07-06T14:21:02.340110",
     "extractor_model": "gemini-2.5-flash-lite",

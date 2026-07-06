@@ -10,30 +10,8 @@
   "segment": "mena",
   "in_universe": false,
   "vc_attention_score": 66.6,
-  "universe_rank": 97,
+  "universe_rank": 106,
   "metrics": {
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 96000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-07-06",
-      "estimate_type": "reported",
-      "confidence": 0.25,
-      "supporting_claims": [
-        "clm_19f5eb5f0e"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 96000000.0,
-        "change_pct": 0.0,
-        "since": "2026-07-06"
-      },
-      "history_ref": "history/huspy/total_funding.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "round_amount": {
       "metric": "round_amount",
       "value": 59000000.0,
@@ -58,7 +36,7 @@
       "contradiction": false,
       "delta": {
         "previous": 59000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2025-07-14"
       },
       "history_ref": "history/huspy/round_amount.jsonl",
@@ -84,6 +62,28 @@
         "since": "2026-07-06"
       },
       "history_ref": "history/huspy/subscribers.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 96000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-07-06",
+      "estimate_type": "reported",
+      "confidence": 0.25,
+      "supporting_claims": [
+        "clm_19f5eb5f0e"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 96000000.0,
+        "change_pct": 0.0,
+        "since": "2026-07-06"
+      },
+      "history_ref": "history/huspy/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null

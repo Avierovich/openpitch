@@ -10,8 +10,30 @@
   "segment": "global",
   "in_universe": false,
   "vc_attention_score": 61.7,
-  "universe_rank": 114,
+  "universe_rank": 123,
   "metrics": {
+    "headcount_growth": {
+      "metric": "headcount_growth",
+      "value": -18.0,
+      "unit": "pct",
+      "range": null,
+      "as_of": "2025-02-05",
+      "estimate_type": "reported",
+      "confidence": 0.019,
+      "supporting_claims": [
+        "clm_2c42c064d1"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": -18.0,
+        "change_pct": 0.0,
+        "since": "2025-02-05"
+      },
+      "history_ref": "history/tabnine/headcount_growth.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "round_amount": {
       "metric": "round_amount",
       "value": 25000000.0,
@@ -30,28 +52,6 @@
         "since": "2023-11-08"
       },
       "history_ref": "history/tabnine/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "headcount_growth": {
-      "metric": "headcount_growth",
-      "value": -18.0,
-      "unit": "pct",
-      "range": null,
-      "as_of": "2025-02-05",
-      "estimate_type": "reported",
-      "confidence": 0.021,
-      "supporting_claims": [
-        "clm_2c42c064d1"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": -18.0,
-        "change_pct": 0.0,
-        "since": "2025-02-05"
-      },
-      "history_ref": "history/tabnine/headcount_growth.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null

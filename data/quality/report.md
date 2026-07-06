@@ -2,13 +2,13 @@
 
 ## Summary
 
-- Profiles generated: 140
-- Watchlist candidates: 367
+- Profiles generated: 151
+- Watchlist candidates: 419
 - Top-50 cards: 50
-- Profiles with at least one metric: 127
-- Critical issues: 19
-- Warnings: 46
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 223
+- Profiles with at least one metric: 139
+- Critical issues: 23
+- Warnings: 48
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 265
 
 ## Top-50 Companies With No Metrics
 
@@ -31,7 +31,6 @@ None.
 
 - Sana
 - Galileo
-- Project Prometheus
 
 ## Funded But No Valuation (critical — ingestion gap)
 
@@ -40,8 +39,10 @@ None.
 - Augment Code
 - Foodics
 - AI71
+- Aidoc
 - Ambience Healthcare
 - Arcade
+- Auterion
 - Captions
 - Cartesia
 - HUMAIN
@@ -49,16 +50,22 @@ None.
 - Ideogram
 - Krea
 - Lean Technologies
+- Mindsay
 - Pika
+- RunPod
+- Unconventional AI
 - Yassir
 
 ## Single-Source Core Metrics
 
 - OpenAI: arr
+- xAI: round_amount
 - Databricks: valuation
 - Anduril: round_amount
 - Anysphere (Cursor): arr
 - Thinking Machines Lab: valuation
+- Project Prometheus: valuation
+- Project Prometheus: total_funding
 - VAST Data: arr
 - VAST Data: round_amount
 - Scale AI: valuation
@@ -67,8 +74,6 @@ None.
 - Cognition (Devin): arr
 - Cognition (Devin): round_amount
 - Mistral AI: arr
-- Mistral AI: total_funding
-- Mistral AI: round_amount
 - Perplexity: valuation
 - Perplexity: arr
 - Applied Intuition: headcount
@@ -78,14 +83,16 @@ None.
 - ElevenLabs: valuation
 - ElevenLabs: arr
 - ElevenLabs: round_amount
+- Physical Intelligence: total_funding
+- Physical Intelligence: round_amount
 - Mercor: arr
 - Crusoe: round_amount
+- Saronic: round_amount
 - Replit: total_funding
 - Together AI: arr
 - Hadrian: round_amount
 - Glean: arr
 - Glean: round_amount
-- Cohere: total_funding
 - SandboxAQ: arr
 - Legora: total_funding
 - Suno: round_amount
@@ -93,7 +100,6 @@ None.
 - Abridge: valuation
 - Abridge: total_funding
 - Abridge: headcount
-- Modal: total_funding
 
 ## Review Rule
 

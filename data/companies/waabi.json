@@ -10,30 +10,8 @@
   "segment": "global",
   "in_universe": false,
   "vc_attention_score": 79.1,
-  "universe_rank": 66,
+  "universe_rank": 69,
   "metrics": {
-    "valuation": {
-      "metric": "valuation",
-      "value": 3000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-12-10",
-      "estimate_type": "reported",
-      "confidence": 0.127,
-      "supporting_claims": [
-        "clm_2000de3836"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 3000000000.0,
-        "change_pct": 0.0,
-        "since": "2025-12-10"
-      },
-      "history_ref": "history/waabi/valuation.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "total_funding": {
       "metric": "total_funding",
       "value": 1000000000.0,
@@ -47,8 +25,8 @@
       "confidence": 0.97,
       "supporting_claims": [
         "clm_96123ee376",
-        "clm_90d8bbc3e8",
         "clm_65b8240e8a",
+        "clm_90d8bbc3e8",
         "clm_3dc38fc356",
         "clm_ed80983f23",
         "clm_2c7fec8128",
@@ -95,6 +73,28 @@
       },
       "history_ref": "history/waabi/latest_round.jsonl",
       "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "valuation": {
+      "metric": "valuation",
+      "value": 3000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-12-10",
+      "estimate_type": "reported",
+      "confidence": 0.127,
+      "supporting_claims": [
+        "clm_2000de3836"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 3000000000.0,
+        "change_pct": 0.0,
+        "since": "2025-12-10"
+      },
+      "history_ref": "history/waabi/valuation.jsonl",
+      "unconfirmed": true,
       "confirmed_value": null,
       "confirmed_as_of": null
     }

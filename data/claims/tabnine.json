@@ -1,5 +1,31 @@
 [
   {
+    "id": "clm_2c42c064d1",
+    "company_id": "tabnine",
+    "metric": "headcount_growth",
+    "value": -18.0,
+    "unit": null,
+    "raw_text": "Tabnine cuts 18% of workforce in restructuring effort",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CTech",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAxMndpRUJGbkZlY0VVOGlrMjFJYU1GQV9KTlhsTUNyQkF4b3ZOQi1CRldqY1lDLVZ4WGFBdlU1cUp2V052TjFkUUZPdENLNTlTMFV3UDdPckgwTFdEMFBvb0FmZDh0dUdJ?oc=5",
+      "locator": null,
+      "published_at": "2025-02-05"
+    },
+    "extracted_at": "2026-07-06T14:31:09.058208",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.3375,
+    "derivation": null
+  },
+  {
     "id": "clm_edd3d39213",
     "company_id": "tabnine",
     "metric": "round_amount",
@@ -17,30 +43,6 @@
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcGxRMzRYSzhHWFNDc3hyX2VCdTZ4MEN3NjN6Z0xNbE0td0d0UjNfdElVd05yVlNCTzVrWnl2bDc5REEwSWtGSGJyUFpNODdiTWdVMmY1ell1eFF5Q081dVhWSlYzNldiTTdQWm5UNS1hSU5CXzBlYUxiWHpmWnBWSnlPZVBxM1hnYXYxNWMxMk9NZ2ta?oc=5",
       "locator": null,
       "published_at": "2023-11-08"
-    },
-    "extracted_at": "2026-06-14T09:27:16.547609",
-    "extractor_model": "llama-3.3-70b-versatile",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_2c42c064d1",
-    "company_id": "tabnine",
-    "metric": "headcount_growth",
-    "value": -18.0,
-    "unit": null,
-    "raw_text": "Tabnine cuts 18% of workforce in restructuring effort",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "CTech",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAxMndpRUJGbkZlY0VVOGlrMjFJYU1GQV9KTlhsTUNyQkF4b3ZOQi1CRldqY1lDLVZ4WGFBdlU1cUp2V052TjFkUUZPdENLNTlTMFV3UDdPckgwTFdEMFBvb0FmZDh0dUdJ?oc=5",
-      "locator": null,
-      "published_at": "2025-02-05"
     },
     "extracted_at": "2026-06-14T09:27:16.547609",
     "extractor_model": "llama-3.3-70b-versatile",
@@ -114,7 +116,7 @@
       "locator": null,
       "published_at": "2025-06-05"
     },
-    "extracted_at": "2026-07-06T00:00:00",
+    "extracted_at": "2026-07-06T14:31:09.058208",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1294,
     "derivation": {

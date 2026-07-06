@@ -81,4 +81,4 @@ If the clone install, `openpitch seed`, and agent MCP startup all pass, update:
 - `docs/LAUNCH-GATES.md` clean-machine install status to **Fully complete**.
 - `README.md` install language from "run it now from source" to "install from GitHub/source" with the real repo URL.
 
-Keep `uvx --from openpitch openpitch-mcp` labeled as a future release-channel path until the package is actually published and tested.
+Keep `uvx openpitch-mcp` labeled as a future release-channel path until the package is actually published and tested.

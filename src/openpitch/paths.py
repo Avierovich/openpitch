@@ -23,7 +23,7 @@ def cache_root() -> Path:
 def resolve_remote(relpath: str) -> Path | None:
     """Fetch a repo-relative file from the public repo into a TTL cache.
 
-    Lets `uvx --from openpitch openpitch-mcp` read committed data/config with NO clone. Returns a
+    Lets `uvx openpitch-mcp` read committed data/config with NO clone. Returns a
     cached local Path, or None if unavailable. Falls back to a stale cache on
     network failure (better than nothing).
     """

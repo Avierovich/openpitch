@@ -170,7 +170,7 @@ You picked **ease of implementation, rich data sources, A2A.** All three are *go
 
 ### 7.1 Ease of implementation — make it the headline wedge
 This is your most winnable, most concrete differentiator (CB Insights = sales calls; Crunchbase-MCP = needs a paid key; we = 60 seconds, no key).
-- **One-line install** (`uvx --from openpitch openpitch-mcp`), zero config, zero key.
+- **One-line install** (`uvx openpitch-mcp`), zero config, zero key.
 - **Multiple zero-effort surfaces:** MCP (one line) · A2A endpoint · raw JSON URL · RSS. Meet builders wherever they are.
 - **"Working in your agent in under 60 seconds"** as a literal, measured promise + a README GIF proving it.
 - Ship copy-paste **integration recipes** (already planned) per persona.

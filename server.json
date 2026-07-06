@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.avierovich/openpitch",
+  "title": "OpenPitch",
+  "description": "Open, real-time intelligence on AI startups — valuations, ARR, funding — every figure sourced, dated, and confidence-scored, with public-source contradiction flags. Free PitchBook alternative; read-only, no API key.",
+  "version": "0.1.1",
+  "websiteUrl": "https://avierovich.github.io/openpitch/",
+  "repository": {
+    "url": "https://github.com/Avierovich/openpitch",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "openpitch-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

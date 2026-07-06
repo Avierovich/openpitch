@@ -13,7 +13,7 @@
 [![Python](https://img.shields.io/pypi/pyversions/openpitch.svg)](https://pypi.org/project/openpitch/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-> **Status: v0.1.0 — functional.** The pipeline, reconciliation engine, MCP server, and
+> **Status: v0.1.1 — functional.** The pipeline, reconciliation engine, MCP server, and
 > dashboard all work end-to-end ([BRD](docs/BRD.md) · [FRD](docs/FRD.md) · [PRD](docs/PRD.md)).
 > Coverage and source breadth keep growing via the daily run.
 
@@ -70,7 +70,7 @@ Every number carries **its source, a confidence score, and a tracked history** o
 **Fastest — zero install** (reads the committed data from the public repo, no clone):
 
 ```bash
-uvx --from openpitch openpitch-mcp
+uvx openpitch-mcp
 ```
 
 **Or install the package:**
@@ -95,7 +95,7 @@ Then point your agent at the local server:
 // MCP config (Claude Code / Codex) — zero-install via uvx:
 {
   "mcpServers": {
-    "openpitch": { "command": "uvx", "args": ["--from", "openpitch", "openpitch-mcp"] }
+    "openpitch": { "command": "uvx", "args": ["openpitch-mcp"] }
   }
 }
 // (or "command": "openpitch-mcp" if you pip-installed the package)
@@ -201,4 +201,6 @@ Contributions welcome — especially **new source adapters** (one file each) and
 
 <div align="center">
 <sub>Built in the open. Free forever. If a number looks wrong, open an issue — provenance means you can check our work.</sub>
+
+<!-- mcp-name: io.github.avierovich/openpitch -->
 </div>

@@ -24,7 +24,11 @@
         "clm_e0d0987181"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 10000000.0,
+        "change_pct": 0.0,
+        "since": "2025-10-20"
+      },
       "history_ref": "history/limitless-labs/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -54,7 +58,7 @@
       "contradiction": false,
       "delta": {
         "previous": 20000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-06-22"
       },
       "history_ref": "history/limitless-labs/round_amount.jsonl",
@@ -63,5 +67,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-06"
+  "last_updated": "2026-07-07"
 }

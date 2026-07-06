@@ -14,7 +14,7 @@
   "metrics": {
     "round_amount": {
       "metric": "round_amount",
-      "value": 481973867.88,
+      "value": 482003351.98,
       "unit": "USD",
       "range": null,
       "as_of": "2025-04-07",
@@ -28,7 +28,7 @@
       "contradiction": false,
       "delta": {
         "previous": 481973867.88,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2025-04-07"
       },
       "history_ref": "history/sandboxaq/round_amount.jsonl",
@@ -43,7 +43,7 @@
       "range": null,
       "as_of": "2025-11-28",
       "estimate_type": "consensus",
-      "confidence": 0.549,
+      "confidence": 0.548,
       "supporting_claims": [
         "clm_20c3017d2e",
         "clm_1c5b517098",
@@ -68,7 +68,7 @@
       "value": 0.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-07-06",
+      "as_of": "2026-07-07",
       "estimate_type": "reported",
       "confidence": 0.25,
       "supporting_claims": [
@@ -88,7 +88,7 @@
       "range": null,
       "as_of": "2025-11-28",
       "estimate_type": "reported",
-      "confidence": 0.084,
+      "confidence": 0.083,
       "supporting_claims": [
         "clm_6ab8987fa1"
       ],
@@ -137,12 +137,16 @@
       "range": null,
       "as_of": "2025-04-09",
       "estimate_type": "reported",
-      "confidence": 0.152,
+      "confidence": 0.151,
       "supporting_claims": [
         "clm_1371b18bf2"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 150000000.0,
+        "change_pct": 0.0,
+        "since": "2025-04-09"
+      },
       "history_ref": "history/sandboxaq/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -155,7 +159,7 @@
       "range": null,
       "as_of": "2025-11-28",
       "estimate_type": "reported",
-      "confidence": 0.041,
+      "confidence": 0.04,
       "supporting_claims": [
         "drv_2847451d9a"
       ],
@@ -171,5 +175,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-06"
+  "last_updated": "2026-07-07"
 }

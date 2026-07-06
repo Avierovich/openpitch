@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": false,
   "vc_attention_score": 68.2,
-  "universe_rank": 101,
+  "universe_rank": 100,
   "metrics": {
     "round_amount": {
       "metric": "round_amount",
@@ -19,19 +19,23 @@
       "range": null,
       "as_of": "2026-04-30",
       "estimate_type": "consensus",
-      "confidence": 0.642,
+      "confidence": 0.641,
       "supporting_claims": [
         "clm_1966c4f56e",
         "clm_bf3a0cfa93",
         "clm_4eef0a87dc"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 150000000.0,
+        "change_pct": 0.0,
+        "since": "2026-04-30"
+      },
       "history_ref": "history/aidoc/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-06"
+  "last_updated": "2026-07-07"
 }

@@ -41,6 +41,12 @@ ARR_EXPECTED_CATEGORIES = {
     "generative-media",
     "consumer-ai",
 }
+# A company that raised this much has a public post-money valuation somewhere; missing
+# it is an ingestion failure (the Sierra case: $15.8B company ranked #75 on funding
+# alone), not reality. Checked over ALL profiles — Sierra sat OUTSIDE the top 50,
+# which is exactly why a top-50-scoped check could never catch this class.
+FUNDING_VALUATION_FLOOR = 100_000_000
+ROUND_VALUATION_FLOOR = 50_000_000
 
 
 @dataclass(frozen=True)
@@ -55,10 +61,12 @@ class QualitySnapshot:
     top50_no_metrics: list[str]
     unprofiled_high_priority: list[str]
     single_source_metrics: list[str]
+    funded_no_valuation: list[str]
 
     @property
     def critical_count(self) -> int:
-        return len(self.top50_no_metrics) + len(self.unprofiled_high_priority)
+        return (len(self.top50_no_metrics) + len(self.unprofiled_high_priority)
+                + len(self.funded_no_valuation))
 
     @property
     def warning_count(self) -> int:
@@ -146,6 +154,15 @@ def build_snapshot(top_n: int = 50) -> QualitySnapshot:
             if metric in c.metrics and _under_corroborated(c.id, metric):
                 single_source_metrics.append(f"{c.name}: {metric}")
 
+    # ALL profiles, not top-N: the failure this catches is precisely a big company
+    # ranked too LOW because its valuation is missing.
+    funded_no_valuation = [
+        c.name for c in companies
+        if "valuation" not in c.metrics
+        and (_metric_number(c, "total_funding") >= FUNDING_VALUATION_FLOOR
+             or _metric_number(c, "round_amount") >= ROUND_VALUATION_FLOOR)
+    ]
+
     return QualitySnapshot(
         generated_at=date.today(),
         total_profiles=len(companies),
@@ -157,6 +174,7 @@ def build_snapshot(top_n: int = 50) -> QualitySnapshot:
         top50_no_metrics=top50_no_metrics,
         unprofiled_high_priority=unprofiled_high_priority,
         single_source_metrics=single_source_metrics,
+        funded_no_valuation=funded_no_valuation,
     )
 
 
@@ -188,6 +206,7 @@ def render_markdown(snapshot: QualitySnapshot) -> str:
     lines += _section("Top-50 Missing Valuation", snapshot.top50_missing_valuation)
     lines += _section("Top-50 Missing ARR / Revenue", snapshot.top50_missing_arr)
     lines += _section("High-Priority Watchlist Candidates Not Profiled", snapshot.unprofiled_high_priority)
+    lines += _section("Funded But No Valuation (critical — ingestion gap)", snapshot.funded_no_valuation)
     lines += _section("Single-Source Core Metrics", snapshot.single_source_metrics)
     lines += [
         "## Review Rule",
@@ -234,6 +253,7 @@ def render_html(snapshot: QualitySnapshot) -> str:
   <h2>Top-50 Missing Valuation</h2>{list_html(snapshot.top50_missing_valuation)}
   <h2>Top-50 Missing ARR / Revenue</h2>{list_html(snapshot.top50_missing_arr)}
   <h2>High-Priority Watchlist Candidates Not Profiled</h2>{list_html(snapshot.unprofiled_high_priority)}
+  <h2>Funded But No Valuation (critical)</h2>{list_html(snapshot.funded_no_valuation)}
   <h2>Single-Source Core Metrics</h2>{list_html(snapshot.single_source_metrics)}
 </div></body></html>"""
 

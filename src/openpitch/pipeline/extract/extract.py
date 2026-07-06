@@ -79,6 +79,9 @@ EXTRACTION_SYSTEM = (
     "future TARGET ('on track to reach', 'targeting', 'by 2027', 'aiming for') -> add "
     "'forward_looking' (it is a projection, not current revenue). Capture the speaker's role "
     "(founder, exec, investor, journalist, unknown). Quote the exact source phrase in raw_text. "
+    "When company context (website, category, description) is provided, extract only for that "
+    "specific company — different entities can share a name; omit metrics about same-named "
+    "other organizations. "
     "If no metric is stated, return an empty claims array."
 )
 
@@ -119,14 +122,25 @@ def build_user_prompt(raw_item: RawItem, company_name: str, metric_keys: list[st
     )
 
 
-def build_batch_prompt(items: list[RawItem], company_name: str, metric_keys: list[str], *, per_item_chars: int = 1500) -> str:
+def build_batch_prompt(items: list[RawItem], company, metric_keys: list[str], *, per_item_chars: int = 1500) -> str:
     blocks = []
     for i, it in enumerate(items):
         blocks.append(
             f"[{i}] ({it.source_type.value}) {it.title or ''}\n{(it.text or '')[:per_item_chars]}"
         )
+    # Company context disambiguates same-named entities (Sierra the AI company vs
+    # Sierra Space / Sierra Leone) — without it the LLM can only guess from the name.
+    about = "; ".join(p for p in (
+        f"website {company.website}" if getattr(company, "website", None) else None,
+        getattr(company, "category", None),
+        getattr(company, "summary", None),
+    ) if p)
+    context = (f"About this company: {about}\n"
+               "Only extract metrics about THIS company; other organizations may share "
+               "the name — skip those.\n") if about else ""
     return (
-        f"Company: {company_name}\n"
+        f"Company: {company.name}\n"
+        f"{context}"
         f"Allowed metric keys: {', '.join(metric_keys)}\n"
         f"Extract metrics about THIS company from the numbered sources below. "
         f"Tag every claim with the item_index it came from.\n\n"
@@ -201,16 +215,19 @@ def extract_claims_batch(
     llm: LLMProvider,
     metric_keys: list[str],
     now: datetime | None = None,
+    per_item_chars: int = 1500,
 ) -> list[Claim]:
     """Extract Claims from MANY RawItems in a single LLM call (quota-efficient).
 
     Each returned claim references the item_index it came from, so provenance is
     attached to the right source. Unknown metric keys / bad indices are dropped.
+    `per_item_chars` bounds each item's text in the prompt — gap-fill passes full
+    article bodies with a larger budget (a valuation sentence can sit mid-article).
     """
     now = now or datetime.now()
     if not items:
         return []
-    prompt = build_batch_prompt(items, company.name, metric_keys)
+    prompt = build_batch_prompt(items, company, metric_keys, per_item_chars=per_item_chars)
     data = llm.complete_json(EXTRACTION_SYSTEM, prompt, BATCH_EXTRACTION_SCHEMA) or {}
 
     claims: list[Claim] = []

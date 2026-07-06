@@ -204,3 +204,84 @@ def test_apply_taxonomy_overlays_by_id(tmp_path, monkeypatch):
     # unknown id -> unchanged
     assert config.apply_taxonomy({"id": "ghost", "category": "x"}) == {"id": "ghost", "category": "x"}
     config.load_taxonomy.cache_clear()
+
+
+# ── gap-fill: targeted valuation hunt (the Sierra fix) ───────────────────────
+
+
+def _gap_fill_setup(monkeypatch, bodies_return):
+    """Monkeypatch the article source; return (meta, stub, funding_claims)."""
+    from openpitch.pipeline.sources import article, base
+    from openpitch.models import SourceType as ST
+
+    cand = base.RawItem(
+        company_id="sierra", source_type=ST.NEWS, source_name="TechCrunch",
+        title="Sierra hits $15.8B valuation", url="https://tc.com/a",
+        content_hash="cafe0123deadbeef",
+    )
+    monkeypatch.setattr(article, "fetch_candidates", lambda company, **kw: [cand])
+    monkeypatch.setattr(article, "fetch_bodies",
+                        lambda items, **kw: bodies_return(items))
+    meta = {"id": "sierra", "name": "Sierra", "domain": "sierra.ai"}
+    stub = Company(id="sierra", name="Sierra", website="sierra.ai", last_updated=AS_OF)
+    funding = [_claim("total_funding", 950e6, stype=SourceType.NEWS, sname="CNBC")]
+    return meta, stub, funding, cand
+
+
+def test_gap_fill_adds_valuation_and_records_cache(data_dir, monkeypatch):
+    from openpitch.pipeline.llm import MockLLM
+    from openpitch.pipeline.run import _gap_fill
+
+    def bodies(items):
+        for it in items:
+            it.text = f"{it.title}. The round values Sierra at $15.8 billion post-money."
+        return items
+
+    meta, stub, funding, cand = _gap_fill_setup(monkeypatch, bodies)
+    llm = MockLLM({"claims": [{"item_index": 0, "metric": "valuation", "value": 15.8e9,
+                               "raw_text": "values Sierra at $15.8 billion"}]})
+    cache = {}
+    extra = _gap_fill(meta, stub, funding, metric="valuation", llm=llm,
+                      keys=["valuation", "total_funding"], cache=cache, now=NOW)
+    assert len(extra) == 1 and extra[0].metric == "valuation" and extra[0].value == 15.8e9
+    assert f"sierra:{cand.content_hash}" in cache  # recorded for future runs
+
+
+def test_gap_fill_reuses_cache_without_fetch(data_dir, monkeypatch):
+    from openpitch.pipeline.llm import MockLLM
+    from openpitch.pipeline.run import _gap_fill
+
+    fetched = []
+
+    def bodies(items):
+        fetched.extend(items)
+        return []
+
+    meta, stub, funding, cand = _gap_fill_setup(monkeypatch, bodies)
+    cached_claim = _claim("valuation", 15.8e9, stype=SourceType.NEWS, sname="TechCrunch")
+    cached_claim.source.url = "https://tc.com/a"
+    cache = {f"sierra:{cand.content_hash}": [cached_claim.model_dump(mode="json")]}
+    extra = _gap_fill(meta, stub, funding, metric="valuation",
+                      llm=MockLLM({"claims": []}),
+                      keys=["valuation"], cache=cache, now=NOW)
+    assert fetched == []                      # cache hit -> no article fetch
+    assert len(extra) == 1 and extra[0].value == 15.8e9
+
+
+def test_quality_flags_funded_but_no_valuation(data_dir):
+    from openpitch.pipeline import quality
+
+    def co(cid, **metrics):
+        rvs = {m: ResolvedValue(metric=m, value=v, as_of=AS_OF,
+                                estimate_type=EstimateType.REPORTED, confidence=0.5)
+               for m, v in metrics.items()}
+        store.write_company(Company(id=cid, name=cid.title(), last_updated=AS_OF, metrics=rvs))
+
+    co("sierra", total_funding=950e6)                       # must flag (the failure)
+    co("tiny", total_funding=50e6)                          # below floor -> silent
+    co("healthy", total_funding=950e6, valuation=15.8e9)    # has valuation -> silent
+    snap = quality.build_snapshot()
+    assert "Sierra" in snap.funded_no_valuation
+    assert "Tiny" not in snap.funded_no_valuation
+    assert "Healthy" not in snap.funded_no_valuation
+    assert snap.critical_count >= 1

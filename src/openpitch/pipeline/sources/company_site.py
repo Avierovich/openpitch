@@ -15,6 +15,9 @@ from .base import RawItem
 from ...models import Company, SourceType
 
 CAREERS_PATHS = ("/careers", "/jobs", "/about", "/company")
+# Script/style BODIES must go before tag-stripping, or their JS/CSS text survives
+# as garbage prose and crowds real content out of the char budget.
+_SCRIPT_RE = re.compile(r"<(script|style)\b[^>]*>.*?</\1\s*>", re.I | re.S)
 _TAG_RE = re.compile(r"<[^>]+>")
 _WS_RE = re.compile(r"\s+")
 
@@ -25,8 +28,9 @@ def careers_candidates(domain: str) -> list[str]:
 
 
 def extract_text(html: str, *, limit: int = 4000) -> str:
-    """Pure: strip tags/whitespace to plain text, truncated for the extractor."""
-    text = _TAG_RE.sub(" ", html)
+    """Pure: strip script/style blocks, then tags/whitespace, truncated for the extractor."""
+    text = _SCRIPT_RE.sub(" ", html)
+    text = _TAG_RE.sub(" ", text)
     text = _WS_RE.sub(" ", text).strip()
     return text[:limit]
 

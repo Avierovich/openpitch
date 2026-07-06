@@ -153,3 +153,112 @@ def test_company_site_helpers():
     cands = careers_candidates("acme.ai")
     assert "https://acme.ai/careers" in cands
     assert extract_text("<h1>We are <b>hiring</b></h1>") == "We are hiring"
+
+
+# ── news signal ranking (the anti-headline-lottery, Sierra failure) ──────────
+
+SIERRA = Company(id="sierra", name="Sierra", website="sierra.ai", last_updated="2026-07-03")
+
+
+def test_news_entity_mismatch_cases():
+    # demote: name is part of a larger proper-noun entity (a different company/place)
+    assert news.entity_mismatch("Sierra Space wins NASA contract", "Sierra")
+    assert news.entity_mismatch("Sierra Space Raises $290M At $5.3B Valuation", "Sierra")
+    assert news.entity_mismatch("American Sierra Gold Corp. Announces results", "Sierra")
+    assert news.entity_mismatch("Sierra Nevada Ballet's summer series begins", "Sierra")
+    assert news.entity_mismatch("Sierra Leone receives $50M in IMF funding", "Sierra")
+    # keep: the name stands alone (allowlist, connectors incl. Title Case, possessive,
+    # punctuation, end-of-string, lowercase verb)
+    assert not news.entity_mismatch("Sierra AI hits $100M ARR", "Sierra")
+    assert not news.entity_mismatch("Sierra raises $350M at a $10B valuation", "Sierra")
+    assert not news.entity_mismatch("Sierra Raises $350M At $10B Valuation", "Sierra")
+    assert not news.entity_mismatch("Bret Taylor's Sierra valued at $10B", "Sierra")
+    assert not news.entity_mismatch("Sierra's valuation doubles", "Sierra")
+    assert not news.entity_mismatch("Sierra, the AI agent startup, expands", "Sierra")
+    # one standalone occurrence rescues a text that also has a compound one
+    assert not news.entity_mismatch("Unlike Sierra Space, Sierra is an AI startup", "Sierra")
+    # aliases extend the allowlist
+    assert not news.entity_mismatch("Anysphere Cursor hits $500M ARR", "Anysphere", ["Cursor"])
+
+
+def _feed_xml(titles: list[str]) -> str:
+    items = "".join(
+        f"<item><title>{t}</title><link>https://example.com/{i}</link></item>"
+        for i, t in enumerate(titles)
+    )
+    return f'<?xml version="1.0"?><rss version="2.0"><channel>{items}</channel></rss>'
+
+
+def test_news_signal_rank_promotes_valuation_headline():
+    # 17 generic raise-echoes ahead of the ONE headline stating the valuation —
+    # recency order would drop it at limit=15; ranking must surface it first.
+    titles = [f"Sierra raises $950M round, say sources ({i})" for i in range(17)]
+    titles.append("Sierra hits $15.8B valuation in latest round")
+    parsed = feedparser.parse(_feed_xml(titles))
+    items = news.parse_feed(parsed, "sierra")
+    ranked = news.rank_items(items, SIERRA)
+    assert "15.8B valuation" in ranked[0].title
+    assert any("15.8B valuation" in (it.title or "") for it in ranked[:15])
+
+
+def test_news_rank_demotes_compound_entities():
+    parsed = feedparser.parse(_feed_xml([
+        "Sierra Space raises $290M at $5.3B valuation",
+        "Sierra raises $350M at a $10B valuation",
+    ]))
+    items = news.parse_feed(parsed, "sierra")
+    ranked = news.rank_items(items, SIERRA)
+    assert ranked[0].title.startswith("Sierra raises")
+
+
+def test_news_text_drops_google_stub_summary():
+    # Google News summaries are anchor-tag stubs echoing the title — text collapses
+    # to title-only; a REAL description (extra facts) is still appended.
+    rss = """<?xml version="1.0"?><rss version="2.0"><channel>
+      <item><title>Sierra raises $950M</title>
+        <description>&lt;a href="https://news.google.com/x"&gt;Sierra raises $950M&lt;/a&gt;</description>
+        <link>https://news.google.com/a</link></item>
+    </channel></rss>"""
+    it = news.parse_feed(feedparser.parse(rss), "sierra")[0]
+    assert it.text == "Sierra raises $950M"
+
+
+def test_company_site_extract_text_strips_script_and_style():
+    html = ('<html><head><style>.x{color:red}</style>'
+            '<script>var junk = "slick theme css";</script></head>'
+            '<body><p>Sierra was valued at $4.5 billion.</p></body></html>')
+    text = extract_text(html)
+    assert "valued at $4.5 billion" in text
+    assert "junk" not in text and "color:red" not in text
+
+
+# ── article source (gap-fill, Bing-based) ────────────────────────────────────
+
+
+def test_article_publisher_url_unwraps_apiclick():
+    from openpitch.pipeline.sources import article
+    wrapped = ("http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid="
+               "&url=https%3a%2f%2ftechcrunch.com%2fsierra-raise&cc=us")
+    assert article.publisher_url(wrapped) == "https://techcrunch.com/sierra-raise"
+    assert article.publisher_url("https://techcrunch.com/direct") == "https://techcrunch.com/direct"
+    assert article.publisher_url("http://www.bing.com/news/apiclick.aspx?ref=x") is None
+    assert article.publisher_url(None) is None
+
+
+def test_article_parse_feed_filters_mismatch_and_hashes_url_title():
+    import hashlib
+    from openpitch.pipeline.sources import article
+    rss = """<?xml version="1.0"?><rss version="2.0"><channel>
+      <item><title>Sierra hits $15.8B valuation</title>
+        <link>http://www.bing.com/news/apiclick.aspx?url=https%3a%2f%2ftc.com%2fa</link>
+        <description>Bret Taylor's AI startup...</description></item>
+      <item><title>Sierra Space wins NASA contract</title>
+        <link>http://www.bing.com/news/apiclick.aspx?url=https%3a%2f%2fsn.com%2fb</link></item>
+    </channel></rss>"""
+    items = article.parse_feed(feedparser.parse(rss), SIERRA)
+    assert len(items) == 1 and items[0].url == "https://tc.com/a"
+    expected = hashlib.sha256("https://tc.com/a|Sierra hits $15.8B valuation".encode()).hexdigest()[:16]
+    assert items[0].content_hash == expected
+    # hash is url|title — body churn must NOT change it (cache stability)
+    items[0].text = "totally different body"
+    assert items[0].finalize().content_hash == expected

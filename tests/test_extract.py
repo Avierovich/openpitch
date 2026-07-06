@@ -173,3 +173,36 @@ def test_extract_then_reconcile_consensus():
     assert rv.estimate_type.value == "consensus"
     assert 100_000_000 <= rv.value <= 105_000_000
     assert rv.range is not None
+
+
+# ── batch prompt: company context + per-item budget (gap-fill support) ───────
+
+
+def test_batch_prompt_includes_company_context():
+    from openpitch.pipeline.extract import build_batch_prompt
+    sierra = Company(id="sierra", name="Sierra", website="sierra.ai",
+                     category="ai-agents", summary="AI agents for customer service.",
+                     last_updated="2026-07-03")
+    prompt = build_batch_prompt([raw(SourceType.NEWS, "TechCrunch")], sierra, METRICS)
+    assert "website sierra.ai" in prompt and "ai-agents" in prompt
+    assert "share the name" in prompt
+    # no context fields -> no context block
+    bare = build_batch_prompt([raw(SourceType.NEWS, "TechCrunch")], ACME, METRICS)
+    assert "share the name" not in bare
+
+
+def test_batch_per_item_chars_passthrough():
+    from openpitch.pipeline.extract import extract_claims_batch
+    long_item = raw(SourceType.NEWS, "TechCrunch")
+    long_item.text = ("filler " * 400) + "valued at $15.8 billion"  # ~2800 chars, tail matters
+    seen = {}
+
+    def capture(user):
+        seen["prompt"] = user
+        return {"claims": []}
+
+    extract_claims_batch([long_item], ACME, llm=MockLLM(capture), metric_keys=METRICS,
+                         now=NOW, per_item_chars=6000)
+    assert "valued at $15.8 billion" in seen["prompt"]
+    extract_claims_batch([long_item], ACME, llm=MockLLM(capture), metric_keys=METRICS, now=NOW)
+    assert "valued at $15.8 billion" not in seen["prompt"]  # default 1500 truncates

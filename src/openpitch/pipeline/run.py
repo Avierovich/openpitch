@@ -107,6 +107,28 @@ def _reconcile_company(meta: dict, claims: list[Claim], *, now: datetime, as_of:
     return company, all_claims
 
 
+def _gap_fill(meta: dict, company_stub: Company, claims: list[Claim], *, metric: str,
+              llm, keys: list[str], cache: dict, now: datetime) -> list[Claim]:
+    """Targeted article-body hunt for one missing headline metric (see sources/article.py).
+
+    Cache-checked BEFORE fetching bodies, so repeat runs skip both the article GETs and
+    the LLM call. Metric-parameterized: adding an ARR hunt later is one trigger line.
+    """
+    from . import extract_cache
+    from .extract import extract_claims_batch
+    from .sources import article
+
+    terms = {"valuation": article.VALUATION_TERMS}[metric]
+    cands = article.fetch_candidates(company_stub, terms=terms)
+    reused, to_fetch = extract_cache.split(cands, meta["id"], cache)
+    filled = article.fetch_bodies(to_fetch)
+    new = (extract_claims_batch(filled, company_stub, llm=llm, metric_keys=keys,
+                                now=now, per_item_chars=article.BODY_CAP) if filled else [])
+    extract_cache.record(cache, meta["id"], filled, new)
+    have = {c.id for c in claims}
+    return [c for c in reused + new if c.id not in have]
+
+
 def _finalize(pairs: list[tuple[Company, list[Claim]]], *, now: datetime, as_of: date) -> int:
     """Score the universe, publish each company, write universe + digest.
 
@@ -169,6 +191,8 @@ def run(
     skip_podcasts: bool = typer.Option(False, help="Skip podcast RSS sources for broad/fast runs."),
     extract_sleep: float = typer.Option(0.0, help="Seconds to sleep after each extraction batch."),
     no_cache: bool = typer.Option(False, "--no-cache", help="Re-extract every item, ignoring the extraction cache."),
+    gap_fill: bool = typer.Option(True, "--gap-fill/--no-gap-fill",
+                                  help="Second-pass article hunt when funding is known but valuation is missing."),
 ) -> None:
     """Live daily pass: collect → transcribe → extract → derive → reconcile → publish."""
     if offline:
@@ -215,7 +239,8 @@ def run(
     for meta in watchlist:
         typer.echo(f"· {meta['id']}")
         company_stub = Company(id=meta["id"], name=meta["name"], last_updated=as_of,
-                               aliases=meta.get("aliases", []), website=meta.get("domain"))
+                               aliases=meta.get("aliases", []), website=meta.get("domain"),
+                               category=meta.get("category"), summary=meta.get("summary"))
         items = []
         for adapter in ADAPTERS:
             if skip_podcasts and adapter.__name__.endswith("podcast_rss"):
@@ -256,8 +281,24 @@ def run(
         have = {c.id for c in claims}
         claims += [c for c in store.read_claims(meta["id"])
                    if c.id not in have and c.source.type.value != "derived"]
-        if claims:
-            pairs.append(_reconcile_company(meta, claims, now=now, as_of=as_of))
+        if not claims:
+            continue
+        company, all_claims = _reconcile_company(meta, claims, now=now, as_of=as_of)
+        # Gap-fill: funding known but valuation missing => the headlines didn't carry
+        # it (the Sierra failure). Hunt a few article BODIES via a targeted query and
+        # re-reconcile. Trigger is evidence-based so it covers every company, current
+        # and future, with no per-name config. Best-effort: failure never kills the run.
+        if (gap_fill and "valuation" not in company.metrics
+                and ("total_funding" in company.metrics or "round_amount" in company.metrics)):
+            try:
+                extra = _gap_fill(meta, company_stub, claims, metric="valuation",
+                                  llm=llm, keys=keys, cache=cache, now=now)
+                if extra:
+                    claims += extra
+                    company, all_claims = _reconcile_company(meta, claims, now=now, as_of=as_of)
+            except Exception as exc:  # noqa: BLE001 — gap-fill is best-effort
+                typer.echo(f"  ! gap-fill {meta['id']}: {str(exc)[:120]}")
+        pairs.append((company, all_claims))
     if not no_cache:
         extract_cache.save(cache)
     n_events = _finalize(pairs, now=now, as_of=as_of)

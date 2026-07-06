@@ -14,8 +14,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > **Status: v0.1.2 — functional.** The pipeline, reconciliation engine, MCP server, and
-> dashboard all work end-to-end ([BRD](docs/BRD.md) · [FRD](docs/FRD.md) · [PRD](docs/PRD.md)).
-> Coverage and source breadth keep growing via the daily run.
+> dashboard all work end-to-end. Coverage and source breadth keep growing via the daily run.
 
 ![Ask your agent — get a sourced, confidence-scored answer](docs/demo/openpitch-demo.gif)
 
@@ -31,21 +30,22 @@ PitchBook and CB Insights cost **$20k+/year** — and for fast-moving AI startup
 
 Meanwhile, the real numbers are **already public**: founders state ARR on podcasts weeks before any database, funding hits SEC filings, hiring velocity reveals growth. They're just scattered, unstructured, and contradictory — exactly the problem an AI agent is built to solve.
 
-**OpenPitch's bet is latency, not coverage.** For ~50 top AI companies, a *fresh, fully-sourced, confidence-scored* number beats a *verified-but-stale* one. We don't claim certainty — we show you the receipts.
+**OpenPitch's bet is latency, not coverage.** For the AI companies that matter, a *fresh, fully-sourced, confidence-scored* number beats a *verified-but-stale* one. We don't claim certainty — we show you the receipts.
 
 ## What you get
 
 Ask your coding agent, get an answer with receipts:
 
 ```
-> what's Mistral's latest ARR and who led their last round?
+> what's Sierra's valuation, with sources?
 
-  Mistral AI
-  ARR        ~€30M (implied, medium confidence) · as of 2026-05
-  Last round $640M Series B · led by General Catalyst
-  ↳ source: founder on 20VC ep.1042 · SEC filing · The Information
-  ↳ ARR moved €18M → €30M (+67%) since 2026-01
+  Sierra — AI agents for customer service (sierra.ai)
+  Valuation  $15.4B  [consensus · confidence 0.96] · as of 2026-05
+  ↳ 10 public sources · Reuters · CNBC · The Information · qz.com
+  ↳ $950M round closed May 2026 — led by Tiger Global and GV
 ```
+
+*(A real answer from the committed data — check it against the [live dashboard](https://avierovich.github.io/openpitch/).)*
 
 Every number carries **its source, a confidence score, and a tracked history** of how it changed.
 
@@ -58,7 +58,7 @@ Every number carries **its source, a confidence score, and a tracked history** o
 - 🧠 **Learns which sources to trust** — sources that prove right over time earn more weight.
 - 🕒 **Version-tracked** — the git history *is* the audit log. See exactly how a company's reported ARR evolved.
 - 📡 **Composable** — emits typed events other agents subscribe to (newsletters, press alerts, investor outbound).
-- 🤝 **Agent-to-agent (A2A)** — not just an MCP *tool* but an A2A *agent* your agents can delegate research to.
+- 🤝 **A2A-discoverable** — ships an A2A agent card so agent ecosystems can find and describe it.
 - 🧯 **Grounding** — give your AI a sourced, confidence-scored fact base so it stops making up AI-company numbers.
 - ⚡ **60-second install** — no key, no signup; works in your agent in under a minute.
 - 💸 **Genuinely free** — runs entirely on free tiers. No cost to run, no cost to use.
@@ -108,15 +108,13 @@ Ask your agent: *"What's Cognition's ARR, with sources and confidence?"* — it 
 - 📁 **Raw data** — [`data/companies/`](data/) — plain JSON, diffable, yours to use
 - 🤝 **A2A Agent Card** — generated at `dashboard/dist/.well-known/agent.json`
 
-> **Data status:** the committed seed is **verified enough for software testing but not launch-grade** (see [LAUNCH-GATES](docs/LAUNCH-GATES.md)). The *software* is runnable end-to-end; the remaining launch risk is data quality, contradiction strength, and public demo polish.
+> **Data status:** live, refreshed daily by CI. Figures are **probabilistic, public-source intelligence** — every number carries its source, confidence score, and date, and open quality items are [tracked in public](https://avierovich.github.io/openpitch/quality.html). See the [methodology](docs/METHODOLOGY.md) and the [correction workflow](docs/CORRECTIONS.md).
 
-## Product docs
+## Docs
 
-- **Build scope** — [PRD](docs/PRD.md), [v0 seed dataset](docs/V0-SEED-DATASET.md), [launch gates](docs/LAUNCH-GATES.md)
-- **Trust model** — [methodology](docs/METHODOLOGY.md), [data policy](docs/DATA-POLICY.md), [corrections](docs/CORRECTIONS.md)
-- **Interfaces** — [MCP spec](docs/MCP-SPEC.md), [events spec](docs/EVENTS-SPEC.md), [FRD](docs/FRD.md)
-- **Go-to-market** — [competitive analysis](docs/COMPETITIVE-ANALYSIS.md), [strategy deep dive](docs/STRATEGY-DEEP-DIVE.md)
-- **Operations + brand** — [operations](docs/OPERATIONS.md), [recent changes](docs/RECENT-CHANGES.md), [logo options](docs/brand/logo-options/README.md)
+- **Trust model** — [methodology](docs/METHODOLOGY.md) · [data policy](docs/DATA-POLICY.md) · [corrections](docs/CORRECTIONS.md)
+- **Interfaces** — [MCP spec](docs/MCP-SPEC.md) · [events spec](docs/EVENTS-SPEC.md)
+- **Architecture** — [full design doc](docs/FRD.md) · more product docs in [`docs/`](docs/)
 
 ## How it works
 
@@ -125,7 +123,7 @@ Ask your agent: *"What's Cognition's ARR, with sources and confidence?"* — it 
   ──────────           ───────────────────────────────────         ──────────
   Podcasts ─┐          1. select top-50 (VC-attention score)        ┌─ MCP server (local, BYO agent)
   News ─────┤    ───▶  2. collect · 3. transcribe · 4. extract ───▶ ├─ static dashboard
-  SEC EDGAR ┤          5. reconcile · 6. score sources              ├─ event feed (JSONL / RSS)
+  SEC EDGAR ┤          5. reconcile · 6. score sources              ├─ event feed (JSONL)
   Web ──────┘          7. publish → git commit (the database)       └─ "what moved today" digest
 ```
 
@@ -161,7 +159,7 @@ OpenPitch is **complementary to the incumbents, not a rip-and-replace.** We win 
 
 ## Coverage
 
-**Global AI startups** — ~50, **dynamically selected** by VC attention (valuation + funding activity + investor quality — *not* ARR, to avoid circularity). The list moves as attention shifts; companies entering/leaving the top-50 is itself a tracked signal.
+**Global AI startups** — **140+ profiled** across 12 sectors (including Chinese AI labs and European names Western trackers miss), with a **top 50 dynamically ranked** by VC attention (valuation + funding activity — *not* ARR, to avoid circularity). The list moves as attention shifts; companies entering/leaving the top 50 is itself a tracked signal, and auto-discovery grows the universe daily.
 
 **MENA AI/tech segment** — a dedicated regional set (an open, AI-native alternative to MAGNiTT/Wamda). Honest caveat: MENA disclosure is lighter than the US, so this segment launches with lower confidence/coverage, clearly labeled.
 
@@ -173,9 +171,7 @@ OpenPitch is **transparently probabilistic**. Many figures are estimates derived
 
 ## Roadmap
 
-- [x] Business + technical specs ([BRD](docs/BRD.md) · [FRD](docs/FRD.md))
-- [x] Competitive analysis: [incumbents](docs/COMPETITIVE-ANALYSIS.md) · [matrix xlsx](docs/competitive-matrix.xlsx) · [OSS landscape](docs/OSS-LANDSCAPE.md) · [**free/open deep-dive**](docs/OSS-DEEP-DIVE.md) · [strategy & viability](docs/STRATEGY-DEEP-DIVE.md)
-- [x] Seed universe (global AI + MENA segment)
+- [x] Seed universe (global AI + MENA segment) + auto-discovery (news, funding digests, 21-sector backfill, China feed)
 - [x] Core data model + reconciliation engine (confidence, consensus, contradiction) — *tested*
 - [x] Source adapters: podcast, news, EDGAR, company-site — *tested*
 - [x] Extraction stage: batched LLM claim extraction + model rotation — *tested; data QA still required*
@@ -184,7 +180,6 @@ OpenPitch is **transparently probabilistic**. Many figures are estimates derived
 - [x] Static dashboard + company pages — generated from committed data
 - [x] Event feed — JSONL feed and digest generated from publishes
 - [x] A2A agent discovery card — generated with dashboard
-- [x] Brand direction — selected logo option 5, **Terminal Proof**
 - [ ] MENA adapters (regional news, free-zone registries)
 - [ ] Rich-source expansion (GitHub, hiring, app-ranks) — *post-PMF scaling*
 - [ ] *v2:* implied-ARR model, intra-day funding fast-lane

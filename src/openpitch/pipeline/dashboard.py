@@ -256,8 +256,8 @@ def _company_page(c, display_rank: int | None = None) -> str:
 
 
 _DISCLAIMER = ('<div class="disc">OpenPitch is public-source, probabilistic intelligence — '
-               'every figure carries its source and confidence. Not audited data, not investment advice. '
-               'Seed figures are illustrative pending verification. See methodology &amp; corrections.</div>')
+               'every figure carries its source, confidence, and date, refreshed daily. '
+               'Not audited data, not investment advice. See methodology &amp; corrections.</div>')
 
 
 def _html(title: str, body: str) -> str:
@@ -343,9 +343,9 @@ def build() -> str:
     index = _html(
         "OpenPitch — AI-startup intelligence",
         f'<h1>OpenPitch</h1><p class="sub">Free, open, sourced AI-startup intelligence · '
-        f'{len(display_companies)} sourced profiles · {len(display_companies) + len(pending)} top-50 slots · updated {date.today()}</p>'
-        f'{_DISCLAIMER}<div class="quality"><span><strong>{quality.critical_count}</strong> critical quality issues · '
-        f'<strong>{quality.warning_count}</strong> warnings</span><a href="quality.html">View data quality</a></div>'
+        f'{quality.total_profiles} companies profiled · top {len(display_companies) + len(pending)} ranked below · updated {date.today()}</p>'
+        f'{_DISCLAIMER}<div class="quality"><span>Data-quality report: <strong>{quality.critical_count + quality.warning_count}</strong> '
+        f'open items tracked in public</span><a href="quality.html">View data quality</a></div>'
         f'<div class="toolbar"><label for="sort">Sort</label><select id="sort" data-sort>'
         f'<option value="valuation" selected>Valuation</option><option value="revenue">Revenue (ARR)</option><option value="funding">Total funding</option>'
         f'<option value="coverage">Source coverage</option><option value="category">Category</option><option value="name">Name</option>'

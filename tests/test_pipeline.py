@@ -130,7 +130,7 @@ def test_dashboard_renders_top_50_watchlist_slots(data_dir, monkeypatch):
     monkeypatch.setattr(dashboard, "DIST", dist)
     dashboard.build()
     index = (dist / "index.html").read_text()
-    assert "1 sourced profiles · 50 top-50 slots" in index
+    assert "1 companies profiled · top 50 ranked below" in index
     assert index.count('class="card') == 50
     assert "ARR / revenue" in index
     assert "pending sourced metrics" in index

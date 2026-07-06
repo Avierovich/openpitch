@@ -62,6 +62,7 @@ class QualitySnapshot:
     unprofiled_high_priority: list[str]
     single_source_metrics: list[str]
     funded_no_valuation: list[str]
+    discovery_backlog: int
 
     @property
     def critical_count(self) -> int:
@@ -142,11 +143,20 @@ def build_snapshot(top_n: int = 50) -> QualitySnapshot:
         if "arr" not in c.metrics and (c.category or "") in ARR_EXPECTED_CATEGORIES
     ]
     top50_no_metrics = [c.name for c in top if not c.metrics]
+    # Critical = an unprofiled CURATED commitment. Auto-discovered candidates are a
+    # funnel state, not a defect — counting them as critical made the report scream
+    # "231 critical" the moment discovery broadened, which misreads as data errors.
     unprofiled_high_priority = [
         meta["name"]
         for meta in watchlist
-        if meta["id"] not in profiled_ids and meta.get("category") in HIGH_PRIORITY_CATEGORIES
+        if meta["id"] not in profiled_ids
+        and meta.get("category") in HIGH_PRIORITY_CATEGORIES
+        and not meta.get("discovered")
     ]
+    discovery_backlog = sum(
+        1 for meta in watchlist
+        if meta["id"] not in profiled_ids and meta.get("discovered")
+    )
 
     single_source_metrics = []
     for c in top:
@@ -175,6 +185,7 @@ def build_snapshot(top_n: int = 50) -> QualitySnapshot:
         unprofiled_high_priority=unprofiled_high_priority,
         single_source_metrics=single_source_metrics,
         funded_no_valuation=funded_no_valuation,
+        discovery_backlog=discovery_backlog,
     )
 
 
@@ -200,12 +211,14 @@ def render_markdown(snapshot: QualitySnapshot) -> str:
         f"- Profiles with at least one metric: {snapshot.profiles_with_metrics}",
         f"- Critical issues: {snapshot.critical_count}",
         f"- Warnings: {snapshot.warning_count}",
+        f"- Discovery backlog (auto-discovered, awaiting first pipeline run): {snapshot.discovery_backlog}",
         "",
     ]
     lines += _section("Top-50 Companies With No Metrics", snapshot.top50_no_metrics)
     lines += _section("Top-50 Missing Valuation", snapshot.top50_missing_valuation)
     lines += _section("Top-50 Missing ARR / Revenue", snapshot.top50_missing_arr)
-    lines += _section("High-Priority Watchlist Candidates Not Profiled", snapshot.unprofiled_high_priority)
+    lines += _section("Curated High-Priority Watchlist Companies Not Profiled (critical)",
+                      snapshot.unprofiled_high_priority)
     lines += _section("Funded But No Valuation (critical — ingestion gap)", snapshot.funded_no_valuation)
     lines += _section("Single-Source Core Metrics", snapshot.single_source_metrics)
     lines += [
@@ -248,11 +261,12 @@ def render_html(snapshot: QualitySnapshot) -> str:
     <div class="stat"><div class="n">{snapshot.top50_size}</div><div class="k">Top-50 Cards</div></div>
     <div class="stat"><div class="n">{snapshot.critical_count}</div><div class="k">Critical Issues</div></div>
     <div class="stat"><div class="n">{snapshot.warning_count}</div><div class="k">Warnings</div></div>
+    <div class="stat"><div class="n">{snapshot.discovery_backlog}</div><div class="k">Discovery Backlog</div></div>
   </div>
   <h2>Top-50 Companies With No Metrics</h2>{list_html(snapshot.top50_no_metrics)}
   <h2>Top-50 Missing Valuation</h2>{list_html(snapshot.top50_missing_valuation)}
   <h2>Top-50 Missing ARR / Revenue</h2>{list_html(snapshot.top50_missing_arr)}
-  <h2>High-Priority Watchlist Candidates Not Profiled</h2>{list_html(snapshot.unprofiled_high_priority)}
+  <h2>Curated High-Priority Watchlist Companies Not Profiled</h2>{list_html(snapshot.unprofiled_high_priority)}
   <h2>Funded But No Valuation (critical)</h2>{list_html(snapshot.funded_no_valuation)}
   <h2>Single-Source Core Metrics</h2>{list_html(snapshot.single_source_metrics)}
 </div></body></html>"""

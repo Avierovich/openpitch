@@ -314,3 +314,17 @@ def test_valuation_junk_dropped_against_total_funding_floor(data_dir):
     claims[1] = _claim("valuation", 150e6, stype=SourceType.NEWS, sname="Reuters")
     company, _ = _reconcile_company({"id": "acme", "name": "Acme"}, claims, now=NOW, as_of=AS_OF)
     assert company.metrics["valuation"].value == 150e6
+
+
+def test_quality_discovery_backlog_is_not_critical(data_dir, monkeypatch):
+    # An auto-discovered candidate awaiting its first run is funnel state, not a
+    # defect; only unprofiled CURATED high-priority companies are critical.
+    from openpitch.pipeline import quality
+    watchlist = [
+        {"id": "curated-gap", "name": "Curated Gap", "category": "ai-infra"},
+        {"id": "fresh-find", "name": "Fresh Find", "category": "ai-infra", "discovered": True},
+    ]
+    monkeypatch.setattr(quality, "load_watchlist", lambda: watchlist)
+    snap = quality.build_snapshot()
+    assert snap.unprofiled_high_priority == ["Curated Gap"]
+    assert snap.discovery_backlog == 1

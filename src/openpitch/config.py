@@ -63,12 +63,14 @@ def load_watchlist() -> list[dict]:
     for c in raw.get("mena", []):
         out.append({**c, "segment": c.get("segment", "mena")})
     # Auto-discovered companies (config/discovered.yaml) — curated file stays untouched.
+    # Tagged `discovered` so downstream (e.g. quality) can tell a curated commitment
+    # from a funnel candidate awaiting its first corroboration run.
     disc = config_dir() / "discovered.yaml"
     if disc.exists():
         have = {c["id"] for c in out}
         for c in (yaml.safe_load(disc.read_text()) or {}).get("companies", []):
             if c.get("id") and c["id"] not in have:
-                out.append({**c, "segment": c.get("segment", "global")})
+                out.append({**c, "segment": c.get("segment", "global"), "discovered": True})
     return [apply_taxonomy(c) for c in out]
 
 

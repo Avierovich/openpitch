@@ -202,7 +202,7 @@ s=slide();
 s.addText("›_",{x:0.5,y:1.4,w:1.5,h:0.8,fontFace:H,fontSize:36,bold:true,color:TEAL});
 s.addText("The open intelligence layer\nany agent can build on.",{x:0.5,y:2.0,w:12.3,h:1.8,fontFace:H,fontSize:40,bold:true,color:MINT,lineSpacingMultiple:1.05});
 panel(s,0.5,4.1,12.3,1.1,PANEL);
-s.addText([{text:"Claude Code:  ",options:{color:MUT}},{text:"claude mcp add openpitch -- uvx openpitch-mcp",options:{color:MINT}}],
+s.addText([{text:"Claude Code:  ",options:{color:MUT}},{text:"claude mcp add openpitch -- uvx --from openpitch openpitch-mcp",options:{color:MINT}}],
  {x:0.75,y:4.35,w:11.8,h:0.6,fontFace:H,fontSize:16});
 s.addText("Free · open-source · MCP & A2A native · every number sourced.",{x:0.5,y:5.5,w:12.3,h:0.5,fontFace:B,fontSize:16,italic:true,color:FG});
 s.addText("github.com/<owner>/openpitch   ·   MIT",{x:0.5,y:6.2,w:12.3,h:0.4,fontFace:H,fontSize:12,color:MUT});

@@ -82,7 +82,7 @@ Current status:
 - Pure MCP tool logic passed deep testing against isolated generated data.
 - Editable local install and CLI entrypoints passed.
 - After the GitHub push, run the clean-machine clone/MCP test in `docs/OPERATIONS.md`. If it passes, update this gate to **Fully complete**.
-- Published package/`uvx openpitch-mcp` path remains a release-channel validation item if package publishing is used.
+- Published package/`uvx --from openpitch openpitch-mcp` path remains a release-channel validation item if package publishing is used.
 
 Acceptance test:
 

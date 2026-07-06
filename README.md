@@ -69,7 +69,7 @@ Every number carries **its source, a confidence score, and a tracked history** o
 **Fastest — zero install** (reads the committed data from the public repo, no clone):
 
 ```bash
-uvx openpitch-mcp
+uvx --from openpitch openpitch-mcp
 ```
 
 **Or install the package:**
@@ -91,18 +91,19 @@ openpitch seed                 # build the data/ database from the committed see
 Then point your agent at the local server:
 
 ```jsonc
-// MCP config (Claude Code / Codex). Published path will be: {"command":"uvx","args":["openpitch-mcp"]}
+// MCP config (Claude Code / Codex) — zero-install via uvx:
 {
   "mcpServers": {
-    "openpitch": { "command": "openpitch-mcp" }
+    "openpitch": { "command": "uvx", "args": ["--from", "openpitch", "openpitch-mcp"] }
   }
 }
+// (or "command": "openpitch-mcp" if you pip-installed the package)
 ```
 
 Ask your agent: *"What's Cognition's ARR, with sources and confidence?"* — it calls `get_metric`/`get_provenance` and answers from committed data (and will flag the public-source discrepancy).
 
 ### Or just browse the data
-- 🌐 **Dashboard** — `openpitch build-dashboard` → open `dashboard/dist/index.html` (sourced company cards; GitHub Pages at release)
+- 🌐 **Live dashboard** — [avierovich.github.io/openpitch](https://avierovich.github.io/openpitch/) (sourced company cards, refreshed daily) — or build locally: `openpitch build-dashboard`
 - 📁 **Raw data** — [`data/companies/`](data/) — plain JSON, diffable, yours to use
 - 🤝 **A2A Agent Card** — generated at `dashboard/dist/.well-known/agent.json`
 

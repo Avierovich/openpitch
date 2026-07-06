@@ -37,7 +37,7 @@ An AI builder who wants OpenPitch in their agent today must clone the repo, set 
 
 ### Must-Have (P0)
 - **P0-1 PyPI package** — `openpitch` published; `openpitch-mcp` console entry point resolves via `uvx`/`pipx`. `mcp` is a core dep (done).
-  - *Given* a clean machine with `uv`, *when* the user runs `uvx openpitch-mcp`, *then* the server starts and lists all 8 tools.
+  - *Given* a clean machine with `uv`, *when* the user runs `uvx --from openpitch openpitch-mcp`, *then* the server starts and lists all 8 tools.
 - **P0-2 Remote data fetch** — server reads committed data/config from the public repo when absent locally, cached with TTL (done in `paths.resolve_remote` + `store`/`config`).
   - *Given* no local `data/`, *when* a tool is called, *then* it fetches from `OPENPITCH_REMOTE` and returns a correct sourced answer.
 - **P0-3 No-data integrity** — unreachable source or missing metric returns an explicit `not_found`/`data_unavailable` status, never a fabricated value (MCP-SPEC).

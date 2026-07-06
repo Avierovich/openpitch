@@ -501,7 +501,7 @@ Frictionless adoption is an explicit requirement (BR-25), not a nicety. Target: 
 
 | Surface | Effort for adopter |
 |---|---|
-| MCP server | one line in agent config (`uvx openpitch-mcp`) |
+| MCP server | one line in agent config (`uvx --from openpitch openpitch-mcp`) |
 | A2A agent | point an agent at the Agent Card URL |
 | Raw JSON | fetch `data/companies/*.json` from raw GitHub |
 | RSS/Atom events | subscribe — works with no-code tools |

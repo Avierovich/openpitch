@@ -8,10 +8,101 @@
   "specialty": "AI cybersecurity",
   "summary": "SandboxAQ is a company that uses AI to develop cybersecurity solutions for businesses and organizations.",
   "segment": "global",
-  "in_universe": false,
-  "vc_attention_score": 72.6,
-  "universe_rank": 83,
+  "in_universe": true,
+  "vc_attention_score": 81.3,
+  "universe_rank": 41,
   "metrics": {
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 481973867.88,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-04-07",
+      "estimate_type": "consensus",
+      "confidence": 0.374,
+      "supporting_claims": [
+        "clm_7706869126",
+        "clm_cdafef326d",
+        "clm_1880a11089"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 481973867.88,
+        "change_pct": -0.0,
+        "since": "2025-04-07"
+      },
+      "history_ref": "history/sandboxaq/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "valuation": {
+      "metric": "valuation",
+      "value": 5487970188.05,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-11-28",
+      "estimate_type": "consensus",
+      "confidence": 0.549,
+      "supporting_claims": [
+        "clm_20c3017d2e",
+        "clm_1c5b517098",
+        "clm_a44b502c5f",
+        "clm_e9f4a4bd8f",
+        "clm_cfd4ee59d5",
+        "clm_791c967569"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 5487970188.05,
+        "change_pct": 0.0,
+        "since": "2025-11-28"
+      },
+      "history_ref": "history/sandboxaq/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "open_roles": {
+      "metric": "open_roles",
+      "value": 0.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-07-06",
+      "estimate_type": "reported",
+      "confidence": 0.25,
+      "supporting_claims": [
+        "clm_b2c37443fa"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/sandboxaq/open_roles.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "arr": {
+      "metric": "arr",
+      "value": 17800000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-11-28",
+      "estimate_type": "reported",
+      "confidence": 0.084,
+      "supporting_claims": [
+        "clm_6ab8987fa1"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 17800000.0,
+        "change_pct": 0.0,
+        "since": "2025-11-28"
+      },
+      "history_ref": "history/sandboxaq/arr.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "total_funding": {
       "metric": "total_funding",
       "value": 500000000.0,
@@ -22,7 +113,7 @@
       },
       "as_of": "2026-06-17",
       "estimate_type": "consensus",
-      "confidence": 0.752,
+      "confidence": 0.744,
       "supporting_claims": [
         "clm_771f3a6861",
         "clm_c340599b4d",
@@ -31,14 +122,36 @@
       "contradiction": false,
       "delta": {
         "previous": 500000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-06-17"
       },
       "history_ref": "history/sandboxaq/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "revenue_multiple": {
+      "metric": "revenue_multiple",
+      "value": 314.61,
+      "unit": "x",
+      "range": null,
+      "as_of": "2025-11-28",
+      "estimate_type": "reported",
+      "confidence": 0.041,
+      "supporting_claims": [
+        "drv_2847451d9a"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 314.61,
+        "change_pct": 0.0,
+        "since": "2025-11-28"
+      },
+      "history_ref": "history/sandboxaq/revenue_multiple.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-06-24"
+  "last_updated": "2026-07-06"
 }

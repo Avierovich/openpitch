@@ -74,36 +74,5 @@
     "extractor_model": "gemini-2.5-flash",
     "base_confidence": 0.525,
     "derivation": null
-  },
-  {
-    "id": "drv_374dcb7c94",
-    "company_id": "krea",
-    "metric": "revenue_multiple",
-    "value": 4.14,
-    "unit": "x",
-    "raw_text": "revenue_multiple = valuation ÷ ARR",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "derived",
-      "name": "derived:revenue_multiple",
-      "url": null,
-      "locator": null,
-      "published_at": "2025-07-23"
-    },
-    "extracted_at": "2026-06-24T00:00:00",
-    "extractor_model": "derive-engine",
-    "base_confidence": 0.1243,
-    "derivation": {
-      "kind": "identity",
-      "formula": "revenue_multiple = valuation ÷ ARR",
-      "inputs": [
-        "clm_1d7a8d175b",
-        "clm_081fc5d06a"
-      ]
-    }
   }
 ]

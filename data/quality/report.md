@@ -1,13 +1,13 @@
-# OpenPitch Data Quality Report - 2026-06-24
+# OpenPitch Data Quality Report - 2026-07-06
 
 ## Summary
 
 - Profiles generated: 140
-- Watchlist candidates: 162
+- Watchlist candidates: 367
 - Top-50 cards: 50
 - Profiles with at least one metric: 127
-- Critical issues: 19
-- Warnings: 53
+- Critical issues: 231
+- Warnings: 46
 
 ## Top-50 Companies With No Metrics
 
@@ -19,12 +19,12 @@ None.
 
 ## Top-50 Missing ARR / Revenue
 
+- Sierra
 - OpenEvidence
 - Replit
 - Hadrian
 - Suno
 - Abridge
-- Luma AI
 
 ## High-Priority Watchlist Candidates Not Profiled
 
@@ -47,6 +47,221 @@ None.
 - Kling AI
 - Vapi
 - Superpal
+- Taktile
+- XCures
+- CNTXT AI
+- Suno AI
+- Kinoa
+- Assort Health
+- General Intuition
+- Unconventional AI
+- Virtue AI
+- Patronus AI
+- TensorX
+- Blitzy
+- Airwallex
+- Orthogonal
+- Revora
+- AlphaSense
+- Gong
+- Clari
+- Outreach
+- Salesloft
+- Apollo.io
+- Highspot
+- 6sense
+- Drift
+- Qualified
+- Cognism
+- Regie.ai
+- Lavender
+- Lusha
+- Seamless.ai
+- Hunter.io
+- LeadIQ
+- RocketReach
+- Bombora
+- Demandbase
+- Graphcore
+- Tenstorrent
+- SambaNova Systems
+- Mythic
+- Lightmatter
+- Untether AI
+- Rain AI
+- Hailo
+- Esperanto Technologies
+- Ghost Robotics
+- Xwing
+- Reliable Robotics
+- Figure AI
+- Cognata
+- Hugging Face
+- Lambda Labs
+- Together AI
+- Weights & Biases
+- OctoML
+- Cursor
+- CodiumAI
+- MutableAI
+- Magic
+- Cognition AI
+- Harvey AI
+- Evisort
+- Ironclad
+- PathAI
+- Insitro
+- Viz.ai
+- Hippocratic AI
+- Quantexa
+- Vise
+- Figure Technologies
+- Mistral AI
+- Stability AI
+- DeepL
+- Einride
+- Cognite
+- Celonis
+- Seismic
+- Mutiny
+- LeanData
+- Clearbit
+- UpLead
+- G2
+- Perseus
+- Enflame Technology
+- Inferix
+- Aetina Corporation
+- Hangar
+- Motional
+- Auterion
+- SkyGrid
+- Kodiak Robotics
+- MosaicML
+- Lamini
+- Arcee.ai
+- Pika Labs
+- Synthesys
+- DeepMotion
+- Leonardo.Ai
+- Kaiber AI
+- Descript
+- Babylon Health
+- Tractable
+- CausaLens
+- Mirakl
+- Alan
+- Sorare
+- Rimilia
+- Luminance
+- Nord Quantitative
+- Duality Technologies
+- RunPod
+- Runlayer
+- Calendly
+- Observe.ai
+- Xant
+- Groove
+- Datanyze
+- InsideView
+- Slintel
+- Apollo
+- Hunter
+- Enlyft
+- Vainu
+- Kneron
+- Luminari
+- Syntiant
+- Flex Logix
+- ProteanTecs
+- Axonne
+- Zipline
+- Vic.ai
+- Flirtey
+- Habana Labs
+- Modzy
+- Fiddler AI
+- Pulumi
+- Spell
+- Iguazio
+- Kite
+- Codex
+- Repl.it
+- DeepCode
+- CodeSee
+- Functionize
+- Dataloop
+- Numeraire
+- K Health
+- Eigen Technologies
+- Axiom Law
+- Medopad
+- Digital Asset
+- LawGeex
+- Health Fidelity
+- Ayasdi
+- Leverton
+- Lumen5
+- DeepDream Generator
+- Amper Music
+- Wibbitz
+- Raw Shorts
+- AIVA
+- Prisma
+- Respeecher
+- D-ID
+- Hour One
+- Reface
+- Collective Health
+- Accolade
+- Castlight Health
+- Grand Rounds
+- Doctoralia
+- Medigo
+- Zocdoc
+- Amino
+- HealthJoy
+- Rightway
+- Stripe
+- Plaid
+- Brex
+- Chime
+- Credit Karma
+- N26
+- Revolut
+- Ramp
+- TripActions
+- Hasty
+- Vizlib
+- Recursion
+- Isomorphic
+- Evolutionary Scale
+- X-Chem
+- Valence Discovery
+- ProteinQure
+- Schrödinger
+- Outpace Bio
+- Abacus Insights
+- Healx
+
+## Funded But No Valuation (critical — ingestion gap)
+
+- Unifonic
+- G42
+- Augment Code
+- Foodics
+- AI71
+- Ambience Healthcare
+- Arcade
+- Captions
+- Cartesia
+- HUMAIN
+- Huspy
+- Ideogram
+- Krea
+- Lean Technologies
+- Pika
+- Yassir
 
 ## Single-Source Core Metrics
 
@@ -79,24 +294,17 @@ None.
 - Replit: total_funding
 - Together AI: arr
 - Hadrian: round_amount
-- Glean: valuation
 - Glean: arr
 - Glean: round_amount
 - Cohere: total_funding
+- SandboxAQ: arr
 - Legora: total_funding
 - Suno: round_amount
 - Runway: arr
 - Abridge: valuation
 - Abridge: total_funding
 - Abridge: headcount
-- Decagon: arr
-- Decagon: total_funding
-- Decagon: round_amount
-- Skydio: valuation
-- Skydio: total_funding
-- Luma AI: valuation
-- Luma AI: total_funding
-- Luma AI: headcount
+- Modal: total_funding
 
 ## Review Rule
 

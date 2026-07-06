@@ -146,36 +146,5 @@
     "extractor_model": "gemini-2.5-flash",
     "base_confidence": 0.525,
     "derivation": null
-  },
-  {
-    "id": "drv_0dc53c0241",
-    "company_id": "liquid-ai",
-    "metric": "revenue_multiple",
-    "value": 181.82,
-    "unit": "x",
-    "raw_text": "revenue_multiple = valuation ÷ ARR",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "derived",
-      "name": "derived:revenue_multiple",
-      "url": null,
-      "locator": null,
-      "published_at": "2025-11-24"
-    },
-    "extracted_at": "2026-06-24T00:00:00",
-    "extractor_model": "derive-engine",
-    "base_confidence": 0.1243,
-    "derivation": {
-      "kind": "identity",
-      "formula": "revenue_multiple = valuation ÷ ARR",
-      "inputs": [
-        "clm_8dd438f059",
-        "clm_0aa76495ea"
-      ]
-    }
   }
 ]

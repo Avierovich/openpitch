@@ -9,37 +9,120 @@
   "summary": "Ayar Labs is a company that uses AI to design and develop AI-optimized chips and hardware.",
   "segment": "global",
   "in_universe": false,
-  "vc_attention_score": 72.6,
-  "universe_rank": 80,
+  "vc_attention_score": 79.9,
+  "universe_rank": 58,
   "metrics": {
+    "valuation": {
+      "metric": "valuation",
+      "value": 3750000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 3750000000.0,
+        "high": 3750000000.0
+      },
+      "as_of": "2026-07-03",
+      "estimate_type": "consensus",
+      "confidence": 0.926,
+      "supporting_claims": [
+        "clm_927ee877e6",
+        "clm_0fad567db1",
+        "clm_824e171bfa",
+        "clm_04311833a9",
+        "clm_c2e04c2cfb"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 3750000000.0,
+        "change_pct": -0.0,
+        "since": "2026-07-03"
+      },
+      "history_ref": "history/ayar-labs/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "round_amount": {
       "metric": "round_amount",
       "value": 500000000.0,
       "unit": "USD",
-      "range": null,
-      "as_of": "2026-04-15",
+      "range": {
+        "low": 500000000.0,
+        "high": 500000000.0
+      },
+      "as_of": "2026-07-03",
       "estimate_type": "consensus",
-      "confidence": 0.905,
+      "confidence": 0.97,
       "supporting_claims": [
+        "clm_34aa8d973e",
+        "clm_d170209d90",
+        "clm_ab15f17541",
+        "clm_409417d5db",
+        "clm_6f738bdd21",
+        "clm_ef12125c41",
         "clm_e85f86b402",
-        "clm_6ef4d6e669",
         "clm_3e0fe6973d",
-        "clm_daf1fb7f97",
         "clm_69aced2dd5",
         "clm_84b1d3eae4",
+        "clm_c4aa9bc13a",
+        "clm_6ef4d6e669",
+        "clm_daf1fb7f97",
         "clm_05d8a8b745"
       ],
       "contradiction": false,
       "delta": {
         "previous": 500000000.0,
         "change_pct": 0.0,
-        "since": "2026-04-15"
+        "since": "2026-07-03"
       },
       "history_ref": "history/ayar-labs/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 870000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-07-06",
+      "estimate_type": "reported",
+      "confidence": 0.25,
+      "supporting_claims": [
+        "clm_5b439c29b5"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 870000000.0,
+        "change_pct": 0.0,
+        "since": "2026-07-06"
+      },
+      "history_ref": "history/ayar-labs/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "headcount": {
+      "metric": "headcount",
+      "value": 200.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-07-06",
+      "estimate_type": "reported",
+      "confidence": 0.25,
+      "supporting_claims": [
+        "clm_d16a4dd4a8"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 200.0,
+        "change_pct": 0.0,
+        "since": "2026-07-06"
+      },
+      "history_ref": "history/ayar-labs/headcount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-06-24"
+  "last_updated": "2026-07-06"
 }

@@ -8,10 +8,87 @@
   "specialty": "AI autonomous vehicles",
   "summary": "Nuro is a company that uses AI to develop autonomous vehicles and driving systems.",
   "segment": "global",
-  "in_universe": false,
-  "vc_attention_score": 72.6,
-  "universe_rank": 81,
+  "in_universe": true,
+  "vc_attention_score": 81.6,
+  "universe_rank": 40,
   "metrics": {
+    "valuation": {
+      "metric": "valuation",
+      "value": 6000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-08-22",
+      "estimate_type": "consensus",
+      "confidence": 0.783,
+      "supporting_claims": [
+        "clm_09582a7080",
+        "clm_dd378c25f8",
+        "clm_a05ef24f81",
+        "clm_28409668a1",
+        "clm_70b5ca4056",
+        "clm_68e04f411c",
+        "clm_24688aa38c",
+        "clm_e7f059635c",
+        "clm_54dfa81919"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 6000000000.0,
+        "change_pct": 0.0,
+        "since": "2025-08-22"
+      },
+      "history_ref": "history/nuro/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 203000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-08-21",
+      "estimate_type": "consensus",
+      "confidence": 0.531,
+      "supporting_claims": [
+        "clm_044b6b3956",
+        "clm_38276c8f48",
+        "clm_c84f683b3f",
+        "clm_033bef9fa0"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 203000000.0,
+        "change_pct": 0.0,
+        "since": "2025-08-21"
+      },
+      "history_ref": "history/nuro/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "open_roles": {
+      "metric": "open_roles",
+      "value": 1.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-07-06",
+      "estimate_type": "reported",
+      "confidence": 0.25,
+      "supporting_claims": [
+        "clm_dacce4a60d"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1.0,
+        "change_pct": 0.0,
+        "since": "2026-07-06"
+      },
+      "history_ref": "history/nuro/open_roles.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "total_funding": {
       "metric": "total_funding",
       "value": 500000000.0,
@@ -22,7 +99,7 @@
       },
       "as_of": "2026-06-04",
       "estimate_type": "consensus",
-      "confidence": 0.744,
+      "confidence": 0.737,
       "supporting_claims": [
         "clm_f7bffa5a17",
         "clm_35f53d0752",
@@ -38,29 +115,7 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 203000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-08-21",
-      "estimate_type": "reported",
-      "confidence": 0.162,
-      "supporting_claims": [
-        "clm_c84f683b3f"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 203000000.0,
-        "change_pct": 0.0,
-        "since": "2025-08-21"
-      },
-      "history_ref": "history/nuro/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-06-24"
+  "last_updated": "2026-07-06"
 }

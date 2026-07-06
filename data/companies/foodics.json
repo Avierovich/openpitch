@@ -10,8 +10,53 @@
   "segment": "mena",
   "in_universe": false,
   "vc_attention_score": 68.7,
-  "universe_rank": 90,
+  "universe_rank": 93,
   "metrics": {
+    "revenue_growth": {
+      "metric": "revenue_growth",
+      "value": 29.0,
+      "unit": "pct",
+      "range": null,
+      "as_of": "2025-07-29",
+      "estimate_type": "reported",
+      "confidence": 0.03,
+      "supporting_claims": [
+        "clm_8a4c7afb15"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 29.0,
+        "change_pct": 0.0,
+        "since": "2025-07-29"
+      },
+      "history_ref": "history/foodics/revenue_growth.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 170000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2022-04-22",
+      "estimate_type": "consensus",
+      "confidence": 0.016,
+      "supporting_claims": [
+        "clm_fa522e1304",
+        "clm_755c65f8fe"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 170000000.0,
+        "change_pct": 0.0,
+        "since": "2022-04-22"
+      },
+      "history_ref": "history/foodics/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "total_funding": {
       "metric": "total_funding",
       "value": 170000000.0,
@@ -19,7 +64,7 @@
       "range": null,
       "as_of": "2025-07-29",
       "estimate_type": "consensus",
-      "confidence": 0.274,
+      "confidence": 0.27,
       "supporting_claims": [
         "clm_9c9b966c23",
         "clm_a6fd4723f8"
@@ -37,18 +82,18 @@
     },
     "arr": {
       "metric": "arr",
-      "value": 20800000.0,
+      "value": 20.8,
       "unit": "USD",
       "range": null,
       "as_of": "2024-12-20",
       "estimate_type": "reported",
-      "confidence": 0.004,
+      "confidence": 0.005,
       "supporting_claims": [
-        "clm_e8444cb47e"
+        "clm_d88443f97d"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 20800000.0,
+        "previous": 20.8,
         "change_pct": 0.0,
         "since": "2024-12-20"
       },
@@ -56,29 +101,7 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "revenue_growth": {
-      "metric": "revenue_growth",
-      "value": 29.0,
-      "unit": "pct",
-      "range": null,
-      "as_of": "2025-07-29",
-      "estimate_type": "reported",
-      "confidence": 0.024,
-      "supporting_claims": [
-        "clm_8a4c7afb15"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 29.0,
-        "change_pct": 0.0,
-        "since": "2025-07-29"
-      },
-      "history_ref": "history/foodics/revenue_growth.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-06-24"
+  "last_updated": "2026-07-06"
 }

@@ -9,8 +9,8 @@
   "summary": "Pika offers an AI platform for generating and editing video content from text prompts and images, empowering creators.",
   "segment": "global",
   "in_universe": false,
-  "vc_attention_score": 65.9,
-  "universe_rank": 95,
+  "vc_attention_score": 64.6,
+  "universe_rank": 105,
   "metrics": {
     "round_amount": {
       "metric": "round_amount",
@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2024-06-07",
       "estimate_type": "consensus",
-      "confidence": 0.131,
+      "confidence": 0.127,
       "supporting_claims": [
         "clm_6de2dbfa67",
         "clm_ad6f514f79"
@@ -27,14 +27,36 @@
       "contradiction": false,
       "delta": {
         "previous": 80000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2024-06-07"
       },
       "history_ref": "history/pika/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 55000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2023-11-28",
+      "estimate_type": "reported",
+      "confidence": 0.143,
+      "supporting_claims": [
+        "clm_eca27f5d53"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 55000000.0,
+        "change_pct": 0.0,
+        "since": "2023-11-28"
+      },
+      "history_ref": "history/pika/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-06-24"
+  "last_updated": "2026-07-06"
 }

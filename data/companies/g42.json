@@ -10,7 +10,7 @@
   "segment": "mena",
   "in_universe": false,
   "vc_attention_score": 66.8,
-  "universe_rank": 92,
+  "universe_rank": 96,
   "metrics": {
     "revenue_growth": {
       "metric": "revenue_growth",
@@ -18,9 +18,10 @@
       "unit": "pct",
       "range": null,
       "as_of": "2026-05-13",
-      "estimate_type": "reported",
-      "confidence": 0.264,
+      "estimate_type": "consensus",
+      "confidence": 0.429,
       "supporting_claims": [
+        "clm_3dcee6990d",
         "clm_66a57b7873"
       ],
       "contradiction": false,
@@ -34,6 +35,28 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 100000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-09-04",
+      "estimate_type": "reported",
+      "confidence": 0.346,
+      "supporting_claims": [
+        "clm_77c1517dd4"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 100000000.0,
+        "change_pct": -0.0,
+        "since": "2025-09-04"
+      },
+      "history_ref": "history/g42/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "round_amount": {
       "metric": "round_amount",
       "value": 100000000.0,
@@ -41,7 +64,7 @@
       "range": null,
       "as_of": "2025-09-04",
       "estimate_type": "reported",
-      "confidence": 0.168,
+      "confidence": 0.163,
       "supporting_claims": [
         "clm_10971872b1"
       ],
@@ -79,5 +102,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-06-24"
+  "last_updated": "2026-07-06"
 }

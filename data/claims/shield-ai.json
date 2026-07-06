@@ -123,36 +123,5 @@
     "extractor_model": "gemini-2.5-flash",
     "base_confidence": 0.525,
     "derivation": null
-  },
-  {
-    "id": "drv_4b1bcce2b2",
-    "company_id": "shield-ai",
-    "metric": "revenue_multiple",
-    "value": 23.52,
-    "unit": "x",
-    "raw_text": "revenue_multiple = valuation ÷ ARR",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "derived",
-      "name": "derived:revenue_multiple",
-      "url": null,
-      "locator": null,
-      "published_at": "2026-03-26"
-    },
-    "extracted_at": "2026-06-24T00:00:00",
-    "extractor_model": "derive-engine",
-    "base_confidence": 0.3623,
-    "derivation": {
-      "kind": "identity",
-      "formula": "revenue_multiple = valuation ÷ ARR",
-      "inputs": [
-        "clm_f45dbc07be",
-        "clm_f5ec5d7369"
-      ]
-    }
   }
 ]

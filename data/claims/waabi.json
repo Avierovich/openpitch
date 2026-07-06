@@ -1,5 +1,31 @@
 [
   {
+    "id": "clm_2000de3836",
+    "company_id": "waabi",
+    "metric": "valuation",
+    "value": 3000000000.0,
+    "unit": null,
+    "raw_text": "Waabi said to be in talks to raise US$750M at US$3B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Logic",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZFc2YjJneWI3czFSQVIwWUNhLWNyd01qQ293U0hydnFTdFJvSDFWRnA2SGYyVGxoZTRsbVR2eWM0ZzZVMU5uNldfalBrNENFVXVHTzhkVnFwOXFZQzYwY3hPN1pRWllkY0JnN0lxUnk0X0ZPU2NXTzlCV3pmMWUyZm85MzQyeTEyZ0ZnalZjZ19wcDQ?oc=5",
+      "locator": null,
+      "published_at": "2025-12-10"
+    },
+    "extracted_at": "2026-07-06T14:21:02.340110",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
     "id": "clm_96123ee376",
     "company_id": "waabi",
     "metric": "total_funding",
@@ -18,31 +44,7 @@
       "locator": null,
       "published_at": "2026-01-28"
     },
-    "extracted_at": "2026-06-23T00:25:31.567079",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_65b8240e8a",
-    "company_id": "waabi",
-    "metric": "total_funding",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "Self-driving startup Waabi raises up to $1 billion and partners with Uber to deploy 25,000 robotaxis",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Fortune",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeUtZUDdyenRBb3BEQlk0QV9IcnA5bzhoNERDYnFxQVdNZWZhNHFDOWF3c21rUTBxQmxIS1IzcVF1M1V0ckZYZVBBM2lUZk5BS3BhS3IxbkJoVzJwSnpSWFhKbWluLUxRdVhrbWY3cXhKUFQzeW1lVkF3MzlJNU9BSy12NGpRQWhmWW5PaExHSDFSSm5HVTZZTExXd1JrTzkwRkFvZ2JOV2sxVDYzaEE?oc=5",
-      "locator": null,
-      "published_at": "2026-01-28"
-    },
-    "extracted_at": "2026-06-23T00:25:31.567079",
+    "extracted_at": "2026-07-06T14:21:02.340110",
     "extractor_model": "gemini-2.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -66,7 +68,391 @@
       "locator": null,
       "published_at": "2026-01-30"
     },
-    "extracted_at": "2026-06-23T00:25:31.567079",
+    "extracted_at": "2026-07-06T14:21:02.340110",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_90d8bbc3e8",
+    "company_id": "waabi",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "Waabi secures $1 Billion in new funding to lead Physical AI revolution",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "founder"
+    },
+    "source": {
+      "type": "web",
+      "name": "waabi.ai",
+      "url": "https://waabi.ai/company",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-07-06T14:21:02.340110",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.5,
+    "derivation": null
+  },
+  {
+    "id": "clm_65b8240e8a",
+    "company_id": "waabi",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "Self-driving startup Waabi raises up to $1 billion and partners with Uber to deploy 25,000 robotaxis",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Fortune",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeUtZUDdyenRBb3BEQlk0QV9IcnA5bzhoNERDYnFxQVdNZWZhNHFDOWF3c21rUTBxQmxIS1IzcVF1M1V0ckZYZVBBM2lUZk5BS3BhS3IxbkJoVzJwSnpSWFhKbWluLUxRdVhrbWY3cXhKUFQzeW1lVkF3MzlJNU9BSy12NGpRQWhmWW5PaExHSDFSSm5HVTZZTExXd1JrTzkwRkFvZ2JOV2sxVDYzaEE?oc=5",
+      "locator": null,
+      "published_at": "2026-01-28"
+    },
+    "extracted_at": "2026-07-06T14:21:02.340110",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_3dc38fc356",
+    "company_id": "waabi",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "Self-driving truck company Waabi raises $1B to expand into robotaxis",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XRm04NUdGQVdZdnlCV1h3dkx3RWppSDdqajJETGxIX1R5Nk4wcW9mOC1DX3ZyVXpHSDJfcUhBMTJyMUJPNzFMbW95ZDdkelFXWDlSRURYMGFJNWNhbVVNM2pBZlIydw?oc=5",
+      "locator": null,
+      "published_at": "2026-01-28"
+    },
+    "extracted_at": "2026-07-06T14:21:02.340110",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_ed80983f23",
+    "company_id": "waabi",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "Waabi raises $1B to advance autonomous trucks and robotaxis",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Robot Report",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTF93YndQZEVyaHZLV25OaGdQWUFLQkp0MjNoczl0VUFLNTc4MHVGOGV3MFdFTm5GRDNxdWNuNFRjaWc1SElPdjVBaTN2aTZ1NnNVUXpwVFJJWFNRNUU0TlhyVzR4TzZyd3pnVFFUOER0Zl9waHBWTE9IRDZjcXRlZ0VwMG1NOTVWVWY5Q0t4Q2h5aGMw?oc=5",
+      "locator": null,
+      "published_at": "2026-01-28"
+    },
+    "extracted_at": "2026-07-06T14:21:02.340110",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_e395df6307",
+    "company_id": "waabi",
+    "metric": "total_funding",
+    "value": 750000000.0,
+    "unit": null,
+    "raw_text": "Waabi raises $750M as Uber separately commits up to $250M for robotaxi partnership",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVGYtSWc5X1AtRjktanhUdk1sNm5oZEZOaGlSaGRkcS1idFBFWEJPVUFKckVRZm1rV2NCRUhXMHZhT3dNSS1qZGw4WVlMOFpWVkFhbURZa2Nnc2hLWTFHeU5NQUZmUGtnMnBRY1FjbmcxR2doTEc1ckR4LURQcUlfVWZUUF9ad1dPdVM4RkozNmlJU04zZHU5QVRMMGFQNmI4WkM3aWlYQQ?oc=5",
+      "locator": null,
+      "published_at": "2026-01-28"
+    },
+    "extracted_at": "2026-07-06T14:21:02.340110",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_2c7fec8128",
+    "company_id": "waabi",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "Self-Driving Tech Startup Waabi Raises $1 Billion, Expands to Robotaxis",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbmd3YjV6S2pSX19QRDdkY2FlX3VyOHBTNHQ4SHpXcGhmZnBKbjRlbXNjYjdHaXNnNXRQbGo2VFBMQlRqYUo1eEpJbXozOUgyUjhDX09TNmhxR1ZodHJCSEJCSTRUWTk4cXBJYzgxNTI3Tm9PeDhCeDRaM1M5dWx0UERCcEk5STgwVVhMZDdKVGFuMEROaXJJM2loN0hsSDRkX1VvOE9XYzIwal9zcW1lTndQSzVWMFdKWjR3aVVmMHhodw?oc=5",
+      "locator": null,
+      "published_at": "2026-01-28"
+    },
+    "extracted_at": "2026-07-06T14:21:02.340110",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_ec0e603e5d",
+    "company_id": "waabi",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "Waabi raises $1 billion: 25,000 robotaxis planned for Uber",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "trendingtopics.eu",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTGhSenVzNmFlemV0VlJiMmwxckNKTGJTdElKSENxNnBZMXBPcUZvMFNVVW1NLTAtRWktT0gwY2cxU2o5WEFpQTVyN0lmMVZXVXF2Q1Q0RXhuclpxajgxdzVwOVJjRjZ2aGxYQkNEdTRpaDJkYUlEWjRFQUFoQjhrMW5EbWUyX3QwdmN0OXdMMA?oc=5",
+      "locator": null,
+      "published_at": "2026-01-28"
+    },
+    "extracted_at": "2026-07-06T14:21:02.340110",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_3b02f709f1",
+    "company_id": "waabi",
+    "metric": "total_funding",
+    "value": 750000000.0,
+    "unit": null,
+    "raw_text": "Waabi hauls in $750M Series C to become Canada’s newest autonomous vehicle unicorn",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "FreightWaves",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ialltWlNGeGE0RURfbVFhZHZQZTROVEZneFFPdHJxQjlhaHZibW5HVk5sVkpHbndmQTlpREplSVM2b0NuYlZneXdtbThlSW1DcEFCVkxxTmdOVUIxdmpNLUhUbTRFNlo0SmFHU253?oc=5",
+      "locator": null,
+      "published_at": "2026-01-28"
+    },
+    "extracted_at": "2026-07-06T14:21:02.340110",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_3679eab95d",
+    "company_id": "waabi",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "Waabi expands to Uber robotaxis in US$1bn funding round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Automotive World",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQb0FWM19GZnZXaHBlMm9fSnBuektYS2pWTUZVdHIxS2t0S0d4dXM1U3lyMWJmVjF4UFFiekY4R3hLM3hKSjc1emZKZ2FBSTBWR2JLUlE0VENLVlZiWno4N1l5dTFaYWhwejA3UzMtQ3pHZTVBUmFqRzVOSzRxOXliVjFaQjgwRy1oNDdhbUh4Z0ptcjQxUmdv?oc=5",
+      "locator": null,
+      "published_at": "2026-01-28"
+    },
+    "extracted_at": "2026-07-06T14:21:02.340110",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_c0a506ba27",
+    "company_id": "waabi",
+    "metric": "total_funding",
+    "value": 750000000.0,
+    "unit": null,
+    "raw_text": "Waabi raises US$750M as it moves self-driving AI into Uber robotaxis",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Logic",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9mLWtfOE1lWDcxQVZMZGVHQ3UzUTdfUkplMnYyLTRRTjNsVzdHREVua0h3V0VLRmVBR3RzVzhjVmlLMUFfMlF3dnFCVTl3ZlRSTjJDQ2NHOHE4ZnJwS2ZQVXJRTjZDS3ZmdG5yb3BQNWZoVEk?oc=5",
+      "locator": null,
+      "published_at": "2026-01-28"
+    },
+    "extracted_at": "2026-07-06T14:21:02.340110",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_f74687a61a",
+    "company_id": "waabi",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "Canada’s Waabi Raises $1B, Partners with Uber for Robotaxis",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "AI Insider",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNT2NuWUs3MmtQTFRHVTktUjM3WTU5aWFlNHNLU3VTMXVSMWZ2bEdUNHdSN3hrS01ZbDA4ZUw1eWtxeGFFYnJIU0k5cU0tN2R1eHJqSVdqRWk1Mk5SVzZ4Q0NrME43WlpOTElvVkdvbTRseFZqLUxVTnVSamNxS3RrSVdabjJNdkYwWVBrbnBiZmoxMmZDa0xuSEFn?oc=5",
+      "locator": null,
+      "published_at": "2026-01-30"
+    },
+    "extracted_at": "2026-07-06T14:21:02.340110",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_ff6c2e46f6",
+    "company_id": "waabi",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "Waabi: $1 Billion Raised To Expand Physical AI Platform And Launch Robotaxis With Uber",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Pulse 2.0",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1Vlo1YlpyS2dSV2doRG4wOXN3bWFFUkR5R0lodXI3djd5SXFnaGFEUWxSb2VFcGEyaDRaUWFFSmdYZDI1LWF6N1FYU0prVGJTUTZ2SkJR0gFbQVVfeXFMUGVnYTZSYWhDWFM5WUVpVkQwbE8tbzJpUHNteXpSZ0Zna2h5ZjcyR3EtUjhDNXZtODZrbEJHeGdJV3VwZGppTERSMGQxNFpTWVZiZzlTZ3VkYi1ncw?oc=5",
+      "locator": null,
+      "published_at": "2026-01-30"
+    },
+    "extracted_at": "2026-07-06T14:21:02.340110",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_3779cd55dc",
+    "company_id": "waabi",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "Waabi raises $1B USD in funding to accelerate development of autonomous trucks and robotaxis",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Canadian Manufacturing",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPM2JGQWpSeFN4M0E1ai1talI1MC05Q0lOVXRadEE3bUZPUFRiV3J6NTcxOFdJY1lNSGhvNmtMUTlCSk1ubmNObjV1OWZiVzVUWXFUY29mbXJHQ0lsZzBjX1NBQnlmRExobjF5RER5UkhYM05DWUNhRWljeF9HR3NjQ2VqdnJvV0ZGNU9sZ3RnWGtVTGJVWmpjZC1jZE5EbGNDU0VoaVhKOWN4MmxlTHFhSEo5dW1NNmtuZ21UR3I0ajY5NWZ0aXJWRW0ycUFJQ1F6Y0E?oc=5",
+      "locator": null,
+      "published_at": "2026-01-28"
+    },
+    "extracted_at": "2026-07-06T14:21:02.340110",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_a1acd7e597",
+    "company_id": "waabi",
+    "metric": "latest_round",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "Canada’s Waabi Raises $1B, Partners with Uber for Robotaxis",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "AI Insider",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNT2NuWUs3MmtQTFRHVTktUjM3WTU5aWFlNHNLU3VTMXVSMWZ2bEdUNHdSN3hrS01ZbDA4ZUw1eWtxeGFFYnJIU0k5cU0tN2R1eHJqSVdqRWk1Mk5SVzZ4Q0NrME43WlpOTElvVkdvbTRseFZqLUxVTnVSamNxS3RrSVdabjJNdkYwWVBrbnBiZmoxMmZDa0xuSEFn?oc=5",
+      "locator": null,
+      "published_at": "2026-01-30"
+    },
+    "extracted_at": "2026-07-06T14:21:02.340110",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_03fff3128f",
+    "company_id": "waabi",
+    "metric": "latest_round",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "Waabi: $1 Billion Raised To Expand Physical AI Platform And Launch Robotaxis With Uber",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Pulse 2.0",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1Vlo1YlpyS2dSV2doRG4wOXN3bWFFUkR5R0lodXI3djd5SXFnaGFEUWxSb2VFcGEyaDRaUWFFSmdYZDI1LWF6N1FYU0prVGJTUTZ2SkJR0gFbQVVfeXFMUGVnYTZSYWhDWFM5WUVpVkQwbE8tbzJpUHNteXpSZ0Zna2h5ZjcyR3EtUjhDNXZtODZrbEJHeGdJV3VwZGppTERSMGQxNFpTWVZiZzlTZ3VkYi1ncw?oc=5",
+      "locator": null,
+      "published_at": "2026-01-30"
+    },
+    "extracted_at": "2026-07-06T14:21:02.340110",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_d3d4e03d73",
+    "company_id": "waabi",
+    "metric": "latest_round",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "Waabi raises $1B USD in funding to accelerate development of autonomous trucks and robotaxis",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Canadian Manufacturing",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPM2JGQWpSeFN4M0E1ai1talI1MC05Q0lOVXRadEE3bUZPUFRiV3J6NTcxOFdJY1lNSGhvNmtMUTlCSk1ubmNObjV1OWZiVzVUWXFUY29mbXJHQ0lsZzBjX1NBQnlmRExobjF5RER5UkhYM05DWUNhRWljeF9HR3NjQ2VqdnJvV0ZGNU9sZ3RnWGtVTGJVWmpjZC1jZE5EbGNDU0VoaVhKOWN4MmxlTHFhSEo5dW1NNmtuZ21UR3I0ajY5NWZ0aXJWRW0ycUFJQ1F6Y0E?oc=5",
+      "locator": null,
+      "published_at": "2026-01-28"
+    },
+    "extracted_at": "2026-07-06T14:21:02.340110",
     "extractor_model": "gemini-2.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -96,30 +482,6 @@
     "derivation": null
   },
   {
-    "id": "clm_e395df6307",
-    "company_id": "waabi",
-    "metric": "total_funding",
-    "value": 750000000.0,
-    "unit": null,
-    "raw_text": "Waabi raises $750M as Uber separately commits up to $250M for robotaxi partnership",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVGYtSWc5X1AtRjktanhUdk1sNm5oZEZOaGlSaGRkcS1idFBFWEJPVUFKckVRZm1rV2NCRUhXMHZhT3dNSS1qZGw4WVlMOFpWVkFhbURZa2Nnc2hLWTFHeU5NQUZmUGtnMnBRY1FjbmcxR2doTEc1ckR4LURQcUlfVWZUUF9ad1dPdVM4RkozNmlJU04zZHU5QVRMMGFQNmI4WkM3aWlYQQ?oc=5",
-      "locator": null,
-      "published_at": "2026-01-28"
-    },
-    "extracted_at": "2026-06-23T00:25:31.567079",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_7cab6a98e5",
     "company_id": "waabi",
     "metric": "total_funding",
@@ -135,78 +497,6 @@
       "type": "news",
       "name": "GlobeNewswire",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNUTZUdEgxWVd5RHNhWXRVSmZ5Tkg4UlZvV0dfamxaUjFiY3c4QW9qZHNLN01zYmpRcGROTlBwdlc0dTZoekUxNHlfSEhDd1pMNURKTDcwSFhXME1WRGxUTklLaDB4OENqT1JOYm5TWDBjSnRUbjNMUlVDT3hEQnpyU09Qb0doQXVraURxZFA1TjVjbHd5b2tva3lpWVNYRUNOYlBqN2c3U2JGZzduSi1VTlE0X1FWazYzWm9lS0RueWVkSEZ4WVBiSDQ1SDg1b0xkWXE5akZPc3AwTnloblE?oc=5",
-      "locator": null,
-      "published_at": "2026-01-28"
-    },
-    "extracted_at": "2026-06-23T00:25:31.567079",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_ed80983f23",
-    "company_id": "waabi",
-    "metric": "total_funding",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "Waabi raises $1B to advance autonomous trucks and robotaxis",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Robot Report",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTF93YndQZEVyaHZLV25OaGdQWUFLQkp0MjNoczl0VUFLNTc4MHVGOGV3MFdFTm5GRDNxdWNuNFRjaWc1SElPdjVBaTN2aTZ1NnNVUXpwVFJJWFNRNUU0TlhyVzR4TzZyd3pnVFFUOER0Zl9waHBWTE9IRDZjcXRlZ0VwMG1NOTVWVWY5Q0t4Q2h5aGMw?oc=5",
-      "locator": null,
-      "published_at": "2026-01-28"
-    },
-    "extracted_at": "2026-06-23T00:25:31.567079",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_3dc38fc356",
-    "company_id": "waabi",
-    "metric": "total_funding",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "Self-driving truck company Waabi raises $1B to expand into robotaxis",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Axios",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XRm04NUdGQVdZdnlCV1h3dkx3RWppSDdqajJETGxIX1R5Nk4wcW9mOC1DX3ZyVXpHSDJfcUhBMTJyMUJPNzFMbW95ZDdkelFXWDlSRURYMGFJNWNhbVVNM2pBZlIydw?oc=5",
-      "locator": null,
-      "published_at": "2026-01-28"
-    },
-    "extracted_at": "2026-06-23T00:25:31.567079",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_2c7fec8128",
-    "company_id": "waabi",
-    "metric": "total_funding",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "Self-Driving Tech Startup Waabi Raises $1 Billion, Expands to Robotaxis",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbmd3YjV6S2pSX19QRDdkY2FlX3VyOHBTNHQ4SHpXcGhmZnBKbjRlbXNjYjdHaXNnNXRQbGo2VFBMQlRqYUo1eEpJbXozOUgyUjhDX09TNmhxR1ZodHJCSEJCSTRUWTk4cXBJYzgxNTI3Tm9PeDhCeDRaM1M5dWx0UERCcEk5STgwVVhMZDdKVGFuMEROaXJJM2loN0hsSDRkX1VvOE9XYzIwal9zcW1lTndQSzVWMFdKWjR3aVVmMHhodw?oc=5",
       "locator": null,
       "published_at": "2026-01-28"
     },

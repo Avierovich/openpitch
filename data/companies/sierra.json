@@ -8,10 +8,69 @@
   "specialty": "AI agents for task automation.",
   "summary": "Sierra AI develops autonomous agents designed to perform a wide range of tasks by interacting with digital environments.",
   "segment": "global",
-  "in_universe": false,
-  "vc_attention_score": 75.0,
-  "universe_rank": 75,
+  "in_universe": true,
+  "vc_attention_score": 85.0,
+  "universe_rank": 20,
   "metrics": {
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 950000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 950000000.0,
+        "high": 950000000.0
+      },
+      "as_of": "2026-05-05",
+      "estimate_type": "consensus",
+      "confidence": 0.946,
+      "supporting_claims": [
+        "clm_b202eb28c1",
+        "clm_9514602ed2",
+        "clm_c585d29f9d",
+        "clm_f2ab00b89a",
+        "clm_654a0ceb65"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 950000000.0,
+        "change_pct": 0.0,
+        "since": "2026-05-05"
+      },
+      "history_ref": "history/sierra/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "valuation": {
+      "metric": "valuation",
+      "value": 15438559372.99,
+      "unit": "USD",
+      "range": {
+        "low": 15000000000.0,
+        "high": 16000000000.0
+      },
+      "as_of": "2026-05-05",
+      "estimate_type": "consensus",
+      "confidence": 0.962,
+      "supporting_claims": [
+        "clm_7a2d77572c",
+        "clm_4bfed7babb",
+        "clm_654f357f88",
+        "clm_5a0b6eca6a",
+        "clm_1da4157e92",
+        "clm_0f6b0c2bab"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 15438559372.99,
+        "change_pct": 0.0,
+        "since": "2026-05-05"
+      },
+      "history_ref": "history/sierra/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "total_funding": {
       "metric": "total_funding",
       "value": 966659054.58,
@@ -22,7 +81,7 @@
       },
       "as_of": "2026-05-05",
       "estimate_type": "consensus",
-      "confidence": 0.725,
+      "confidence": 0.718,
       "supporting_claims": [
         "clm_713178e0a7",
         "clm_2a622091ad",
@@ -44,7 +103,7 @@
       "value": 0.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-06-24",
+      "as_of": "2026-07-06",
       "estimate_type": "reported",
       "confidence": 0.438,
       "supporting_claims": [
@@ -59,5 +118,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-06-24"
+  "last_updated": "2026-07-06"
 }

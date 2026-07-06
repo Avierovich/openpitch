@@ -9,18 +9,20 @@
   "summary": "Braintrust is a company that uses AI to help with data labeling and annotation for various applications.",
   "segment": "global",
   "in_universe": false,
-  "vc_attention_score": 65.9,
-  "universe_rank": 94,
+  "vc_attention_score": 74.3,
+  "universe_rank": 81,
   "metrics": {
     "round_amount": {
       "metric": "round_amount",
       "value": 80000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2026-02-18",
+      "as_of": "2026-02-19",
       "estimate_type": "consensus",
-      "confidence": 0.603,
+      "confidence": 0.773,
       "supporting_claims": [
+        "clm_051d478d11",
+        "clm_662a4df722",
         "clm_44c6c19edd",
         "clm_20491012d9",
         "clm_d54cb8f4a1"
@@ -29,13 +31,57 @@
       "delta": {
         "previous": 80000000.0,
         "change_pct": 0.0,
-        "since": "2026-02-18"
+        "since": "2026-02-19"
       },
       "history_ref": "history/braintrust/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 80000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-02-17",
+      "estimate_type": "reported",
+      "confidence": 0.31,
+      "supporting_claims": [
+        "clm_787cb28059"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 80000000.0,
+        "change_pct": 0.0,
+        "since": "2026-02-17"
+      },
+      "history_ref": "history/braintrust/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "valuation": {
+      "metric": "valuation",
+      "value": 800000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-02-17",
+      "estimate_type": "reported",
+      "confidence": 0.256,
+      "supporting_claims": [
+        "clm_0301b18c48"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 800000000.0,
+        "change_pct": 0.0,
+        "since": "2026-02-17"
+      },
+      "history_ref": "history/braintrust/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-06-24"
+  "last_updated": "2026-07-06"
 }

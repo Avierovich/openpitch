@@ -9,28 +9,52 @@
   "summary": "Cartesia is a company that uses AI to create and edit videos for various applications.",
   "segment": "global",
   "in_universe": false,
-  "vc_attention_score": 65.1,
-  "universe_rank": 99,
+  "vc_attention_score": 66.8,
+  "universe_rank": 95,
   "metrics": {
     "round_amount": {
       "metric": "round_amount",
       "value": 64000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2025-03-14",
+      "as_of": "2025-03-18",
       "estimate_type": "consensus",
-      "confidence": 0.27,
+      "confidence": 0.457,
       "supporting_claims": [
         "clm_58c7b54a86",
+        "clm_855690f232",
+        "clm_3e4c82eb97",
         "clm_8f1aa1cdc1"
       ],
       "contradiction": false,
       "delta": {
         "previous": 64000000.0,
-        "change_pct": 0.0,
-        "since": "2025-03-14"
+        "change_pct": -0.0,
+        "since": "2025-03-18"
       },
       "history_ref": "history/cartesia/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 100000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-10-30",
+      "estimate_type": "reported",
+      "confidence": 0.373,
+      "supporting_claims": [
+        "clm_86be6e8f60"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 100000000.0,
+        "change_pct": -0.0,
+        "since": "2025-10-30"
+      },
+      "history_ref": "history/cartesia/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -42,7 +66,7 @@
       "range": null,
       "as_of": "2025-03-14",
       "estimate_type": "consensus",
-      "confidence": 0.27,
+      "confidence": 0.262,
       "supporting_claims": [
         "clm_77462af576",
         "clm_b554309562"
@@ -59,5 +83,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-06-24"
+  "last_updated": "2026-07-06"
 }

@@ -9,9 +9,31 @@
   "summary": "Huspy is a company that uses AI to create a platform for mortgage services and transactions.",
   "segment": "mena",
   "in_universe": false,
-  "vc_attention_score": 64.8,
-  "universe_rank": 102,
+  "vc_attention_score": 66.6,
+  "universe_rank": 97,
   "metrics": {
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 96000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-07-06",
+      "estimate_type": "reported",
+      "confidence": 0.25,
+      "supporting_claims": [
+        "clm_19f5eb5f0e"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 96000000.0,
+        "change_pct": 0.0,
+        "since": "2026-07-06"
+      },
+      "history_ref": "history/huspy/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "round_amount": {
       "metric": "round_amount",
       "value": 59000000.0,
@@ -19,14 +41,19 @@
       "range": null,
       "as_of": "2025-07-14",
       "estimate_type": "consensus",
-      "confidence": 0.606,
+      "confidence": 0.908,
       "supporting_claims": [
         "clm_1e3f2d884a",
-        "clm_5af645a94e",
         "clm_f4b0cd10d3",
+        "clm_78ecf0facd",
+        "clm_5af645a94e",
+        "clm_78ecf0facd",
         "clm_11f4e94204",
+        "clm_06f45cd59f",
         "clm_0df8727a45",
-        "clm_1b6cc065eb"
+        "clm_1b6cc065eb",
+        "clm_60ef1d9fc3",
+        "clm_0081646b87"
       ],
       "contradiction": false,
       "delta": {
@@ -38,7 +65,29 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "subscribers": {
+      "metric": "subscribers",
+      "value": 8000.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-07-06",
+      "estimate_type": "reported",
+      "confidence": 0.25,
+      "supporting_claims": [
+        "clm_0d8edcaee9"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 8000.0,
+        "change_pct": 0.0,
+        "since": "2026-07-06"
+      },
+      "history_ref": "history/huspy/subscribers.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-06-24"
+  "last_updated": "2026-07-06"
 }

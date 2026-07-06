@@ -10,7 +10,7 @@
   "segment": "mena",
   "in_universe": false,
   "vc_attention_score": 70.4,
-  "universe_rank": 87,
+  "universe_rank": 90,
   "metrics": {
     "arr": {
       "metric": "arr",
@@ -41,7 +41,7 @@
       "range": null,
       "as_of": "2024-11-30",
       "estimate_type": "reported",
-      "confidence": 0.172,
+      "confidence": 0.169,
       "supporting_claims": [
         "clm_f45ec4bc08"
       ],
@@ -55,7 +55,31 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 125000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2021-09-17",
+      "estimate_type": "consensus",
+      "confidence": 0.009,
+      "supporting_claims": [
+        "clm_0e32bdbabb",
+        "clm_79593efe00",
+        "clm_497691686e"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 125000000.0,
+        "change_pct": 0.0,
+        "since": "2021-09-17"
+      },
+      "history_ref": "history/unifonic/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-06-24"
+  "last_updated": "2026-07-06"
 }

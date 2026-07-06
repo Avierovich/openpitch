@@ -10,8 +10,32 @@
   "segment": "mena",
   "in_universe": false,
   "vc_attention_score": 65.3,
-  "universe_rank": 98,
+  "universe_rank": 102,
   "metrics": {
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 33000000.0,
+      "unit": "object",
+      "range": null,
+      "as_of": "2025-03-27",
+      "estimate_type": "consensus",
+      "confidence": 0.157,
+      "supporting_claims": [
+        "clm_15781145bd",
+        "clm_9cc8c400ed",
+        "clm_8959402f05"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 33000000.0,
+        "change_pct": 0.0,
+        "since": "2025-03-27"
+      },
+      "history_ref": "history/lean/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "round_amount": {
       "metric": "round_amount",
       "value": 67500000.0,
@@ -19,16 +43,19 @@
       "range": null,
       "as_of": "2025-03-26",
       "estimate_type": "consensus",
-      "confidence": 0.236,
+      "confidence": 0.499,
       "supporting_claims": [
         "clm_b2a3f43a9d",
         "clm_1eb8ae663f",
-        "clm_91b376a5d7"
+        "clm_91b376a5d7",
+        "clm_488114891a",
+        "clm_2e35a3f357",
+        "clm_ddfc8fbd3d"
       ],
       "contradiction": false,
       "delta": {
         "previous": 67500000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2025-03-26"
       },
       "history_ref": "history/lean/round_amount.jsonl",
@@ -43,7 +70,7 @@
       "range": null,
       "as_of": "2025-03-26",
       "estimate_type": "consensus",
-      "confidence": 0.335,
+      "confidence": 0.33,
       "supporting_claims": [
         "clm_9da08eb823",
         "clm_937d4a1aea"
@@ -58,7 +85,29 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "open_roles": {
+      "metric": "open_roles",
+      "value": 7.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-07-06",
+      "estimate_type": "reported",
+      "confidence": 0.25,
+      "supporting_claims": [
+        "clm_a628baaa26"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 7.0,
+        "change_pct": 0.0,
+        "since": "2026-07-06"
+      },
+      "history_ref": "history/lean/open_roles.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-06-24"
+  "last_updated": "2026-07-06"
 }

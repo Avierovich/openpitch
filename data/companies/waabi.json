@@ -9,9 +9,31 @@
   "summary": "Waabi is a company that uses AI to develop autonomous vehicles and driving systems.",
   "segment": "global",
   "in_universe": false,
-  "vc_attention_score": 75.1,
-  "universe_rank": 73,
+  "vc_attention_score": 79.1,
+  "universe_rank": 66,
   "metrics": {
+    "valuation": {
+      "metric": "valuation",
+      "value": 3000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-12-10",
+      "estimate_type": "reported",
+      "confidence": 0.127,
+      "supporting_claims": [
+        "clm_2000de3836"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 3000000000.0,
+        "change_pct": 0.0,
+        "since": "2025-12-10"
+      },
+      "history_ref": "history/waabi/valuation.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "total_funding": {
       "metric": "total_funding",
       "value": 1000000000.0,
@@ -20,17 +42,23 @@
         "low": 750000000.0,
         "high": 1000000000.0
       },
-      "as_of": "2026-01-29",
+      "as_of": "2026-01-30",
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
         "clm_96123ee376",
+        "clm_90d8bbc3e8",
         "clm_65b8240e8a",
-        "clm_69b956265d",
-        "clm_7cab6a98e5",
-        "clm_ed80983f23",
         "clm_3dc38fc356",
-        "clm_2c7fec8128"
+        "clm_ed80983f23",
+        "clm_2c7fec8128",
+        "clm_ec0e603e5d",
+        "clm_3679eab95d",
+        "clm_f74687a61a",
+        "clm_ff6c2e46f6",
+        "clm_3779cd55dc",
+        "clm_69b956265d",
+        "clm_7cab6a98e5"
       ],
       "contradiction": false,
       "delta": {
@@ -42,7 +70,34 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 1000000000.0,
+      "unit": "object",
+      "range": {
+        "low": 1000000000.0,
+        "high": 1000000000.0
+      },
+      "as_of": "2026-01-30",
+      "estimate_type": "consensus",
+      "confidence": 0.714,
+      "supporting_claims": [
+        "clm_a1acd7e597",
+        "clm_03fff3128f",
+        "clm_d3d4e03d73"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": -0.0,
+        "since": "2026-01-30"
+      },
+      "history_ref": "history/waabi/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-06-24"
+  "last_updated": "2026-07-06"
 }

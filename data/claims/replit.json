@@ -216,36 +216,5 @@
     "extractor_model": "gemini-2.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
-  },
-  {
-    "id": "drv_e153df02e8",
-    "company_id": "replit",
-    "metric": "revenue_multiple",
-    "value": 9.0,
-    "unit": "x",
-    "raw_text": "revenue_multiple = valuation ÷ ARR",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "derived",
-      "name": "derived:revenue_multiple",
-      "url": null,
-      "locator": null,
-      "published_at": "2026-04-25"
-    },
-    "extracted_at": "2026-06-24T00:00:00",
-    "extractor_model": "derive-engine",
-    "base_confidence": 0.0725,
-    "derivation": {
-      "kind": "identity",
-      "formula": "revenue_multiple = valuation ÷ ARR",
-      "inputs": [
-        "clm_963c4c7bda",
-        "clm_6ef72588ea"
-      ]
-    }
   }
 ]

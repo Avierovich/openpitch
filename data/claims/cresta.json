@@ -74,36 +74,5 @@
     "extractor_model": "gemini-2.5-flash",
     "base_confidence": 0.3675,
     "derivation": null
-  },
-  {
-    "id": "drv_e6aa5def58",
-    "company_id": "cresta",
-    "metric": "revenue_multiple",
-    "value": 16.0,
-    "unit": "x",
-    "raw_text": "revenue_multiple = valuation ÷ ARR",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "derived",
-      "name": "derived:revenue_multiple",
-      "url": null,
-      "locator": null,
-      "published_at": "2026-04-30"
-    },
-    "extracted_at": "2026-06-24T00:00:00",
-    "extractor_model": "derive-engine",
-    "base_confidence": 0.1775,
-    "derivation": {
-      "kind": "identity",
-      "formula": "revenue_multiple = valuation ÷ ARR",
-      "inputs": [
-        "clm_249e8e5a03",
-        "clm_4b16a6f686"
-      ]
-    }
   }
 ]

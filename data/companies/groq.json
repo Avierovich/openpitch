@@ -8,10 +8,111 @@
   "specialty": "AI inference acceleration hardware.",
   "summary": "Groq designs and produces specialized processors (LPUs) optimized for high-speed AI inference, enabling near real-time performance.",
   "segment": "global",
-  "in_universe": false,
-  "vc_attention_score": 73.5,
-  "universe_rank": 78,
+  "in_universe": true,
+  "vc_attention_score": 82.1,
+  "universe_rank": 38,
   "metrics": {
+    "valuation": {
+      "metric": "valuation",
+      "value": 6900000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-09-18",
+      "estimate_type": "consensus",
+      "confidence": 0.884,
+      "supporting_claims": [
+        "clm_c36c834dbb",
+        "clm_8f04554948",
+        "clm_9b3e147842",
+        "clm_c7d9b2af89",
+        "clm_573d2242bb",
+        "clm_8f04554948",
+        "clm_72480a119a",
+        "clm_8daeb8e517"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 6900000000.0,
+        "change_pct": -0.0,
+        "since": "2025-09-18"
+      },
+      "history_ref": "history/groq/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "notable_customers": {
+      "metric": "notable_customers",
+      "value": 1.0,
+      "unit": "list",
+      "range": null,
+      "as_of": "2026-07-06",
+      "estimate_type": "reported",
+      "confidence": 0.25,
+      "supporting_claims": [
+        "clm_21227f7dfb"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1.0,
+        "change_pct": 0.0,
+        "since": "2026-07-06"
+      },
+      "history_ref": "history/groq/notable_customers.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 750000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-09-18",
+      "estimate_type": "consensus",
+      "confidence": 0.555,
+      "supporting_claims": [
+        "clm_5ae13fb3b3",
+        "clm_ef459f153e",
+        "clm_2149b90110"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 750000000.0,
+        "change_pct": 0.0,
+        "since": "2025-09-18"
+      },
+      "history_ref": "history/groq/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 650000000.0,
+      "unit": "object",
+      "range": {
+        "low": 650000000.0,
+        "high": 650000000.0
+      },
+      "as_of": "2026-06-22",
+      "estimate_type": "consensus",
+      "confidence": 0.684,
+      "supporting_claims": [
+        "clm_767b9daa11",
+        "clm_1e465b3553"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 650000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-22"
+      },
+      "history_ref": "history/groq/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "total_funding": {
       "metric": "total_funding",
       "value": 650000000.0,
@@ -22,7 +123,7 @@
       },
       "as_of": "2026-06-22",
       "estimate_type": "consensus",
-      "confidence": 0.9,
+      "confidence": 0.895,
       "supporting_claims": [
         "clm_11516e9b77",
         "clm_f6a557ddab",
@@ -42,5 +143,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-06-24"
+  "last_updated": "2026-07-06"
 }

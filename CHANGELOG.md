@@ -6,6 +6,11 @@ All notable changes to OpenPitch are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.1.2] — 2026-07-07
+
+### Fixed
+- MCP Registry ownership markers use the case-exact namespace (io.github.Avierovich).
+
 ## [0.1.1] — 2026-07-07
 
 ### Added

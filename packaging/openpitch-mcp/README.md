@@ -10,4 +10,4 @@ uvx openpitch-mcp
 All functionality lives in the [`openpitch`](https://pypi.org/project/openpitch/) package;
 this wrapper just makes the zero-install command work.
 
-<!-- mcp-name: io.github.avierovich/openpitch -->
+<!-- mcp-name: io.github.Avierovich/openpitch -->

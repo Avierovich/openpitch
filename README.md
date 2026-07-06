@@ -13,7 +13,7 @@
 [![Python](https://img.shields.io/pypi/pyversions/openpitch.svg)](https://pypi.org/project/openpitch/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-> **Status: v0.1.1 — functional.** The pipeline, reconciliation engine, MCP server, and
+> **Status: v0.1.2 — functional.** The pipeline, reconciliation engine, MCP server, and
 > dashboard all work end-to-end ([BRD](docs/BRD.md) · [FRD](docs/FRD.md) · [PRD](docs/PRD.md)).
 > Coverage and source breadth keep growing via the daily run.
 
@@ -202,5 +202,5 @@ Contributions welcome — especially **new source adapters** (one file each) and
 <div align="center">
 <sub>Built in the open. Free forever. If a number looks wrong, open an issue — provenance means you can check our work.</sub>
 
-<!-- mcp-name: io.github.avierovich/openpitch -->
+<!-- mcp-name: io.github.Avierovich/openpitch -->
 </div>

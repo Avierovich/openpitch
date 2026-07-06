@@ -20,6 +20,14 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    # Secrets mapped once at job level; steps test the env var — the `secrets`
+    # context is not valid inside step `if:` expressions (GitHub rejects the
+    # whole workflow file at parse time).
+    env:
+      # Free-tier key, no billing attached → cannot be charged (FRD §8.6 / BRD §9.1)
+      LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      OPENPITCH_SEC_USER_AGENT: ${{ secrets.OPENPITCH_SEC_USER_AGENT }}
     steps:
       - uses: actions/checkout@v4
 
@@ -33,33 +41,22 @@ jobs:
       - name: Discover new AI startups (funding news + ranking lists)
         # Grows the universe automatically so new companies don't need manual adds.
         # Needs an LLM key; skipped (and the run falls back to seed) when absent.
-        if: ${{ secrets.LLM_API_KEY != '' }}
-        env:
-          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        if: ${{ env.LLM_API_KEY != '' }}
         run: openpitch discover
 
       - name: Classify new companies (taxonomy + summaries)
         # Assigns main/subcategory + business summary to any newly-discovered companies
         # so the dashboard's two-level taxonomy stays populated. Only fills gaps.
-        if: ${{ secrets.LLM_API_KEY != '' }}
-        env:
-          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        if: ${{ env.LLM_API_KEY != '' }}
         run: openpitch classify
 
       - name: Run pipeline (collect → … → publish)
-        env:
-          # Free-tier key, no billing attached → cannot be charged (FRD §8.6 / BRD §9.1)
-          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          OPENPITCH_SEC_USER_AGENT: ${{ secrets.OPENPITCH_SEC_USER_AGENT }}
         # Live run needs LLM_API_KEY for extraction; GROQ_API_KEY and
         # OPENPITCH_SEC_USER_AGENT improve transcription and EDGAR reliability.
         # Falls back to the committed seed (offline) when no LLM key is configured.
         # Ingests the full watchlist INCLUDING anything `discover` just added.
         # Deeper item cap => more independent sources per metric => more corroboration.
-        run: openpitch run --max-source-items 25 ${{ secrets.LLM_API_KEY == '' && '--offline' || '' }}
+        run: openpitch run --max-source-items 25 $([ -z "$LLM_API_KEY" ] && echo --offline)
 
       - name: Build dashboard
         run: openpitch build-dashboard

@@ -188,6 +188,15 @@ OpenPitch is **transparently probabilistic**. Many figures are estimates derived
 
 Contributions welcome — especially **new source adapters** (one file each) and **watchlist curation**. See the [FRD](docs/FRD.md) for architecture.
 
+## Who built this
+
+OpenPitch is built and run by [Mohamed Abdulhadi](https://www.linkedin.com/in/mohamedibnomer),
+a product manager — working with AI agents (Claude Code) that wrote much of the code and now
+operate the daily pipeline and its public data corrections. That's not a footnote; it's the
+product demonstrating itself: an agent-native database, built and maintained agent-natively,
+with every commit and correction in the open. Questions, feedback, or collaboration —
+[connect on LinkedIn](https://www.linkedin.com/in/mohamedibnomer) or open an issue.
+
 ## License
 
 [MIT](LICENSE)

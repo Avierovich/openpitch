@@ -13,7 +13,7 @@
 [![Python](https://img.shields.io/pypi/pyversions/openpitch.svg)](https://pypi.org/project/openpitch/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-> **Status: v0.1.2 — functional.** The pipeline, reconciliation engine, MCP server, and
+> **Status: v0.1.3 — functional.** The pipeline, reconciliation engine, MCP server, and
 > dashboard all work end-to-end. Coverage and source breadth keep growing via the daily run.
 
 ![Ask your agent — get a sourced, confidence-scored answer](docs/demo/openpitch-demo.gif)

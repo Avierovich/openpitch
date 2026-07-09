@@ -143,28 +143,66 @@ def compare_companies(ids: list[str], metrics: list[str]) -> dict:
     return {"status": "ok", "comparison": rows}
 
 
+def _slim_event(e: dict) -> dict:
+    """Compact an event for the stream tools: keep the delta + outlet names, drop the
+    heavy per-source URL blobs (Google News redirects dominate the payload). Full source
+    URLs are one `get_provenance` call away on any specific company/metric."""
+    slim = {k: v for k, v in e.items() if k not in ("sources", "schema_version")}
+    slim["sources"] = [s.get("name") for s in (e.get("sources") or []) if s.get("name")]
+    return slim
+
+
+def _cap(rows: list, limit: int) -> tuple[list, int, bool]:
+    """Newest-first slice to `limit`; return (rows, total, truncated). The event feed is
+    stored oldest-first, so an agent wants the tail — and a named cap beats the client's
+    silent truncation when the full feed overflows the tool-result limit."""
+    total = len(rows)
+    return rows[: max(0, limit)], total, total > max(0, limit)
+
+
 def get_events(since: str | None = None, type: str | None = None,
-               company_id: str | None = None, min_confidence: float = 0.0) -> dict:
+               company_id: str | None = None, min_confidence: float = 0.0,
+               limit: int = 50) -> dict:
     evs = store.read_events(since=since)
     if type:
         evs = [e for e in evs if e.get("type") == type]
     if company_id:
         evs = [e for e in evs if e.get("company_id") == company_id]
     evs = [e for e in evs if (e.get("confidence") or 0) >= min_confidence]
-    return {"status": "ok", "events": evs}
+    evs.sort(key=lambda e: str(e.get("detected_at", "")), reverse=True)  # newest first
+    evs, total, truncated = _cap(evs, limit)
+    return {"status": "ok", "events": [_slim_event(e) for e in evs],
+            "total": total, "truncated": truncated}
+
+
+def _default_since(days: int = 30) -> str | None:
+    """A rolling window anchored to the FRESHEST event date (not a live clock, so the
+    payload is deterministic/offline-safe). None if the feed is empty."""
+    from datetime import date, timedelta
+    dates = [str(e.get("detected_at", ""))[:10] for e in store.read_events()]
+    dates = [d for d in dates if d]
+    if not dates:
+        return None
+    return (date.fromisoformat(max(dates)) - timedelta(days=days)).isoformat()
 
 
 def what_moved(since: str | None = None, min_confidence: float = 0.0,
-               include_contradictions: bool = True) -> dict:
-    evs = get_events(since=since, min_confidence=min_confidence)["events"]
+               include_contradictions: bool = True, limit: int = 50) -> dict:
+    # "what moved" means recent: default to a 30-day window so the first call is bounded.
+    effective_since = since or _default_since()
+    evs = store.read_events(since=effective_since)
+    evs = [e for e in evs if (e.get("confidence") or 0) >= min_confidence]
     if not include_contradictions:
         evs = [e for e in evs if e.get("type") != "contradiction_flagged"]
+    evs.sort(key=lambda e: str(e.get("detected_at", "")), reverse=True)
+    evs, total, truncated = _cap(evs, limit)
     uni = store.read_universe() or {}
-    return {"status": "ok", "events": evs,
+    return {"status": "ok", "since": effective_since, "events": [_slim_event(e) for e in evs],
+            "total": total, "truncated": truncated,
             "universe_entries": uni.get("entries", []), "universe_exits": uni.get("exits", [])}
 
 
-def search(query: str) -> dict:
+def search(query: str, limit: int = 25) -> dict:
     q = query.lower()
     hits = []
     for c in store.read_all_companies():
@@ -173,4 +211,6 @@ def search(query: str) -> dict:
         if any(tok in hay for tok in q.split()):
             hits.append({"id": c.id, "name": c.name, "category": c.category,
                          "subcategory": c.subcategory})
-    return {"status": "ok", "query": query, "results": hits}
+    results, total, truncated = _cap(hits, limit)
+    return {"status": "ok", "query": query, "results": results,
+            "total": total, "truncated": truncated}

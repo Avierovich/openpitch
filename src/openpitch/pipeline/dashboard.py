@@ -44,6 +44,13 @@ h1{font-size:26px;margin:0 0 4px}.sub{color:var(--mut);margin:0 0 24px}
 .yr{font-size:11px;color:var(--mut);margin-left:5px;font-variant-numeric:tabular-nums}
 .yr.old{color:#1a1205;background:var(--warn);font-weight:700;border-radius:4px;padding:0 5px}
 .src{font-size:12px;color:var(--mut)}.disc{background:#1c1530;border:1px solid #3a2a52;border-radius:10px;padding:12px;color:#cbb8e6;font-size:13px;margin:18px 0}
+.rangebar,.spark{vertical-align:middle;margin-left:6px}
+.maplink{margin-left:auto;font-size:13px}
+.map{display:flex;flex-direction:column;gap:8px;margin:18px 0}
+.maprow{display:grid;grid-template-columns:minmax(160px,240px) 1fr;gap:12px;align-items:center}
+.maplabel{color:var(--mut);font-size:13px}
+.maptrack{background:#141929;border:1px solid #232a40;border-radius:6px;height:20px;overflow:hidden}
+.mapbar{background:var(--acc);height:100%;min-width:2px}
 """
 
 _JS = """
@@ -86,7 +93,7 @@ def _money(v) -> str:
         v = float(v)
     except (TypeError, ValueError):
         return str(v)
-    for unit, d in (("B", 1e9), ("M", 1e6), ("K", 1e3)):
+    for unit, d in (("T", 1e12), ("B", 1e9), ("M", 1e6), ("K", 1e3)):
         if abs(v) >= d:
             return f"${v / d:.1f}{unit}"
     return f"{v:,.0f}"
@@ -114,6 +121,54 @@ def _status_html(rv) -> str:
         cy = f" '{str(rv.confirmed_as_of)[2:4]}" if getattr(rv, "confirmed_as_of", None) else ""
         out += f' <span class="confirmed">· {_money(cv)} confirmed{cy}</span>'
     return out
+
+
+_BAND_FILL = {"high": "#2e7d6f", "medium": "#5a6b8c", "low": "#6b5a3a", "stale": "#3a3a44"}
+
+
+def _range_bar(rv) -> str:
+    """Tiny low—consensus—high SVG bar: makes the probabilistic RANGE visible (the
+    differentiator), not just the point estimate. Empty unless a real spread exists."""
+    r = getattr(rv, "range", None)
+    if not r or not isinstance(getattr(r, "low", None), (int, float)) \
+            or not isinstance(getattr(r, "high", None), (int, float)):
+        return ""
+    lo, hi = float(r.low), float(r.high)
+    val = float(rv.value) if isinstance(rv.value, (int, float)) else None
+    if hi <= lo or val is None:
+        return ""
+    w = 120
+    x = round(max(0.0, min(1.0, (val - lo) / (hi - lo))) * w, 1)
+    fill = _BAND_FILL.get(_band(rv.confidence), "#5a6b8c")
+    tip = f"range {_money(lo)}–{_money(hi)} · consensus {_money(val)} · as of {rv.as_of}"
+    return (f'<svg class="rangebar" width="{w}" height="8" viewBox="0 0 {w} 8" role="img" '
+            f'aria-label="{escape(tip, quote=True)}"><title>{escape(tip)}</title>'
+            f'<rect x="0" y="3" width="{w}" height="2" rx="1" fill="{fill}" opacity="0.5"/>'
+            f'<rect x="{x - 1}" y="0" width="2" height="8" rx="1" fill="{fill}"/></svg>')
+
+
+def _sparkline(company_id: str, metric: str) -> str:
+    """Value-over-time polyline from committed history — makes freshness / the
+    git-as-audit-log claim visible. Empty unless ≥2 tracked points."""
+    # One point per distinct date (history can repeat a value); newest wins per day.
+    by_day = {str(r.get("as_of", "")): r.get("value")
+              for r in store.read_history(company_id, metric)
+              if isinstance(r.get("value"), (int, float)) and r.get("as_of")}
+    pts = sorted(by_day.items())
+    vals = [v for _, v in pts]
+    # Skip a flat/degenerate series — a single tracked value on one date is not a
+    # trajectory, and a flat line reads as "broken" rather than "stable".
+    if len(pts) < 2 or max(vals) == min(vals):
+        return ""
+    lo, span = min(vals), (max(vals) - min(vals)) or 1
+    w, h, n = 120, 24, len(pts)
+    coords = " ".join(f"{round(i / (n - 1) * w, 1)},{round(h - 2 - (v - lo) / span * (h - 4), 1)}"
+                      for i, (_, v) in enumerate(pts))
+    trend = "#7fd1c1" if vals[-1] >= vals[0] else "#e3b341"
+    tip = f"{metric}: {_money(vals[0])} ({pts[0][0]}) → {_money(vals[-1])} ({pts[-1][0]})"
+    return (f'<svg class="spark" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" '
+            f'aria-label="{escape(tip, quote=True)}"><title>{escape(tip)}</title>'
+            f'<polyline fill="none" stroke="{trend}" stroke-width="1.5" points="{coords}"/></svg>')
 
 
 def _site_url(website: str | None) -> str:
@@ -189,7 +244,7 @@ def _company_card(c, display_rank: int | None = None) -> str:
         val = _money(rv.value) if rv.unit == "USD" else f"{rv.value:,.0f}" if isinstance(rv.value, (int, float)) else rv.value
         rows += (f'<div class="m"><span class="k">{_metric_label(m)}{warn}</span>'
                  f'<span class="v">{val}{_status_html(rv)} <span class="conf">[{rv.estimate_type.value} · {_band(rv.confidence)}]</span>'
-                 f'{_year_badge(rv.as_of)}</span></div>')
+                 f'{_year_badge(rv.as_of)}{_range_bar(rv)}</span></div>')
     if not rows:
         rows = '<div class="m"><span class="k">Coverage status</span><span class="v">source checked; no metric claims yet</span></div>'
     attrs = _card_attrs(
@@ -248,7 +303,7 @@ def _company_page(c, display_rank: int | None = None) -> str:
         val = _money(rv.value) if rv.unit == "USD" else (f"{rv.value:,.0f}" if isinstance(rv.value, (int, float)) else rv.value)
         blocks += (f'<div class="card"><div class="m"><span class="k">{_metric_label(m)}{warn}</span>'
                    f'<span class="v">{val}{_status_html(rv)} <span class="conf">[{rv.estimate_type.value} · conf {rv.confidence}]</span>'
-                   f'{_year_badge(rv.as_of)}</span></div>{srcs}</div>')
+                   f'{_year_badge(rv.as_of)}{_range_bar(rv)}{_sparkline(c.id, m)}</span></div>{srcs}</div>')
     return _html(f"{escape(c.name)} — OpenPitch", f'<a href="../index.html">← all companies</a><h1>{escape(c.name)}</h1>'
                  f'<p class="sub">{_tier(rank)} · {_taxon_label(c.category, c.subcategory)}{(" · " + escape(c.specialty)) if c.specialty else ""} · rank {_display_rank(rank or 0)} · VC-attention {c.vc_attention_score}</p>'
                  f'{("<p class=" + chr(34) + "desc" + chr(34) + ">" + escape(c.summary) + "</p>") if c.summary else ""}'
@@ -278,6 +333,43 @@ def _agent_card() -> dict:
         "capabilities": {"streaming": False},
         "provenance": "Every numeric answer includes sources and confidence.",
     }
+
+
+def _market_map(companies) -> str:
+    """Total tracked valuation by sector — the VC 'market map'. Hand-rolled SVG-free bars
+    (pure CSS widths), dependency-free. Sums only companies with a resolved valuation."""
+    from statistics import median
+    agg: dict[str, dict] = {}
+    for c in companies:
+        v = _metric_number(c, "valuation")
+        if v <= 0:
+            continue
+        d = agg.setdefault(c.category or "other", {"val": 0.0, "n": 0, "conf": []})
+        d["val"] += v
+        d["n"] += 1
+        rv = c.metrics.get("valuation")
+        if rv:
+            d["conf"].append(rv.confidence)
+    rows = sorted(agg.items(), key=lambda kv: -kv[1]["val"])
+    if not rows:
+        body = "<p>No resolved valuations yet.</p>"
+    else:
+        maxv = rows[0][1]["val"] or 1
+        bars = ""
+        for cat, d in rows:
+            w = round(d["val"] / maxv * 100, 1)
+            mc = median(d["conf"]) if d["conf"] else 0.0
+            label = f'{escape(cat)} · {_money(d["val"])} · {d["n"]} cos'
+            bars += (f'<div class="maprow"><div class="maplabel">{label}</div>'
+                     f'<div class="maptrack"><div class="mapbar" style="width:{w}%" '
+                     f'title="median confidence {mc:.2f}"></div></div></div>')
+        body = f'<div class="map">{bars}</div>'
+    return _html(
+        "OpenPitch — AI market map",
+        f'<a href="index.html">← all companies</a><h1>Market map</h1>'
+        f'<p class="sub">Total tracked valuation by sector · updated {date.today()}</p>'
+        f'{body}<p class="src">Sums only companies with a resolved valuation; each figure is '
+        f'an OpenPitch consensus estimate, not an official market total.</p>{_DISCLAIMER}')
 
 
 def build() -> str:
@@ -349,9 +441,11 @@ def build() -> str:
         f'<div class="toolbar"><label for="sort">Sort</label><select id="sort" data-sort>'
         f'<option value="valuation" selected>Valuation</option><option value="revenue">Revenue (ARR)</option><option value="funding">Total funding</option>'
         f'<option value="coverage">Source coverage</option><option value="category">Category</option><option value="name">Name</option>'
-        f'</select>{filter_html}</div><div class="grid" data-grid>{cards}</div>',
+        f'</select>{filter_html}<a class="maplink" href="market.html">Market map →</a></div>'
+        f'<div class="grid" data-grid>{cards}</div>',
     )
     store.atomic_write_text(DIST / "index.html", index)
+    store.atomic_write_text(DIST / "market.html", _market_map(companies))
     for rank, c in display_companies:
         store.atomic_write_text(DIST / "company" / f"{c.id}.html", _company_page(c, rank))
     store.atomic_write_text(DIST / ".well-known" / "agent.json", json.dumps(_agent_card(), indent=2))

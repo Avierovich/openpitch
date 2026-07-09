@@ -50,20 +50,34 @@ def build_server():
 
     @mcp.tool(annotations=_READONLY)
     def what_moved(since: str | None = None, min_confidence: float = 0.0,
-                   include_contradictions: bool = True) -> dict:
-        """Material changes, contradictions, and universe entries/exits since a date."""
-        return tools.what_moved(since, min_confidence, include_contradictions)
+                   include_contradictions: bool = True, limit: int = 50) -> dict:
+        """Material changes, contradictions, and universe entries/exits.
+
+        Newest-first, capped at `limit` (default 50). If `since` is omitted, defaults to a
+        30-day window (echoed back as `since`). Narrow with `since`/`min_confidence` when
+        `truncated` is true; `total` is the pre-cap count.
+        """
+        return tools.what_moved(since, min_confidence, include_contradictions, limit)
 
     @mcp.tool(annotations=_READONLY)
     def get_events(since: str | None = None, type: str | None = None,
-                   company_id: str | None = None, min_confidence: float = 0.0) -> dict:
-        """Filtered event stream (the push layer)."""
-        return tools.get_events(since, type, company_id, min_confidence)
+                   company_id: str | None = None, min_confidence: float = 0.0,
+                   limit: int = 50) -> dict:
+        """Filtered event stream (the push layer).
+
+        Newest-first, capped at `limit` (default 50). Narrow with `since` (YYYY-MM-DD),
+        `type`, `company_id`, or `min_confidence` when `truncated` is true; `total` is the
+        pre-cap count.
+        """
+        return tools.get_events(since, type, company_id, min_confidence, limit)
 
     @mcp.tool(annotations=_READONLY)
-    def search(query: str) -> dict:
-        """Lexical search over companies, aliases, categories, and metric keys."""
-        return tools.search(query)
+    def search(query: str, limit: int = 25) -> dict:
+        """Lexical search over companies, aliases, categories, and metric keys.
+
+        Capped at `limit` (default 25); `total`/`truncated` report if more matched.
+        """
+        return tools.search(query, limit)
 
     return mcp
 

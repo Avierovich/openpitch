@@ -2,7 +2,8 @@
 
 from __future__ import annotations
 
-from datetime import date, datetime
+import json
+from datetime import date, datetime, timedelta
 
 import pytest
 
@@ -328,3 +329,62 @@ def test_quality_discovery_backlog_is_not_critical(data_dir, monkeypatch):
     snap = quality.build_snapshot()
     assert snap.unprofiled_high_priority == ["Curated Gap"]
     assert snap.discovery_backlog == 1
+
+
+# ── MCP discovery-tool payload caps (v0.1.3) ─────────────────────────────────
+
+
+def _event(day: str, conf: float = 0.9):
+    from openpitch.models import Event, EventType
+    return Event(id=f"evt_{day}", type=EventType.METRIC_UPDATE, company_id="acme",
+                 company_name="Acme", summary=f"moved on {day}", confidence=conf,
+                 detected_at=datetime.fromisoformat(f"{day}T00:00:00"))
+
+
+def test_get_events_caps_newest_first_and_signals_truncation(data_dir):
+    from openpitch.mcp_server import tools
+    # 60 events across 60 days (Jan-Feb 2026); feed is stored oldest-first.
+    days = [date(2026, 1, 1) + timedelta(days=i) for i in range(60)]
+    store.append_events([_event(d.isoformat()) for d in days])
+    r = tools.get_events(limit=50)
+    assert r["total"] == 60 and r["truncated"] is True
+    assert len(r["events"]) == 50
+    # newest-first: first row is the latest day, and it's within the returned window
+    assert r["events"][0]["summary"].endswith(days[-1].isoformat())
+    assert r["events"][0]["detected_at"] >= r["events"][-1]["detected_at"]
+
+
+def test_get_events_slims_source_urls(data_dir):
+    # The heavy per-source URL blobs (Google News redirects) must not ride along in the
+    # stream tools — keep outlet names, drop urls (get_provenance has the full detail).
+    from openpitch.mcp_server import tools
+    from openpitch.models import Event, EventType, Source, SourceType
+    store.append_events([Event(
+        id="evt_x", type=EventType.METRIC_UPDATE, company_id="acme", company_name="Acme",
+        summary="moved", confidence=0.9, detected_at=datetime(2026, 6, 1),
+        sources=[Source(type=SourceType.NEWS, name="Reuters",
+                        url="https://news.google.com/rss/articles/" + "Z" * 900)])])
+    ev = tools.get_events()["events"][0]
+    assert ev["sources"] == ["Reuters"]
+    assert "google.com" not in json.dumps(ev)
+
+
+def test_what_moved_defaults_to_30day_window_and_echoes_since(data_dir):
+    from openpitch.mcp_server import tools
+    old = date(2026, 1, 1)
+    recent = date(2026, 3, 1)  # 59 days later
+    store.append_events([_event(old.isoformat()), _event(recent.isoformat())])
+    r = tools.what_moved()  # no since -> 30-day window anchored to the freshest event
+    assert r["since"] == (recent - timedelta(days=30)).isoformat()
+    ids = {e["id"] for e in r["events"]}
+    assert "evt_2026-03-01" in ids and "evt_2026-01-01" not in ids  # old one excluded
+
+
+def test_search_caps_results(data_dir, monkeypatch):
+    from openpitch.mcp_server import tools
+    from openpitch.models import Company
+
+    comps = [Company(id=f"ai{i}", name=f"AI Co {i}", last_updated=AS_OF) for i in range(40)]
+    monkeypatch.setattr(tools.store, "read_all_companies", lambda: comps)
+    r = tools.search("ai", limit=25)
+    assert r["total"] == 40 and r["truncated"] is True and len(r["results"]) == 25

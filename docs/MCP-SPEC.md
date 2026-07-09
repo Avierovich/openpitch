@@ -205,13 +205,18 @@ Side-by-side metric table with confidence and `as_of`.
 {
   "since": "2026-06-01",
   "min_confidence": 0.5,
-  "include_contradictions": true
+  "include_contradictions": true,
+  "limit": 50
 }
 ```
 
 ### Returns
 
-Metric deltas, new rounds, universe entries/exits, and contradictions since the requested date.
+Metric deltas, new rounds, universe entries/exits, and contradictions. Events are
+**newest-first** and capped at `limit` (default 50). If `since` is omitted it defaults to a
+30-day window anchored to the freshest event date, **echoed back** as `since`. The response
+carries `total` (pre-cap count) and `truncated` (bool) — narrow via `since`/`min_confidence`
+when `truncated` is true.
 
 ## Tool: `get_events`
 
@@ -222,13 +227,16 @@ Metric deltas, new rounds, universe entries/exits, and contradictions since the 
   "since": "2026-06-01",
   "type": "valuation_update",
   "company_id": "anthropic",
-  "min_confidence": 0.8
+  "min_confidence": 0.8,
+  "limit": 50
 }
 ```
 
 ### Returns
 
-Filtered events matching `schemas/event.schema.json`.
+Filtered events matching `schemas/event.schema.json`, **newest-first**, capped at `limit`
+(default 50), with `total` and `truncated`. Narrow via `since`/`type`/`company_id`/
+`min_confidence` when `truncated` is true.
 
 ## Tool: `search`
 
@@ -236,13 +244,14 @@ Filtered events matching `schemas/event.schema.json`.
 
 ```json
 {
-  "query": "coding agents with ARR over 100M"
+  "query": "coding agents with ARR over 100M",
+  "limit": 25
 }
 ```
 
 ### v0.1 Behavior
 
-`search` may be simple lexical search over company names, aliases, categories, source names, and metric keys. It should not promise semantic ranking until implemented.
+`search` may be simple lexical search over company names, aliases, categories, source names, and metric keys. It should not promise semantic ranking until implemented. Results are capped at `limit` (default 25) with `total`/`truncated` reported.
 
 ## Error Behavior
 

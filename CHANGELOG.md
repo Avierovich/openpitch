@@ -6,6 +6,24 @@ All notable changes to OpenPitch are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.1.3] — 2026-07-09
+
+### Fixed
+- **MCP discovery tools no longer overflow the client's tool-result limit.** `what_moved`
+  and `get_events` returned the entire event feed (unbounded, oldest-first) and `search`
+  returned all hits — a large payload the client truncated, forcing agents to guess
+  filters. Now: newest-first, a `limit` param (defaults 50/50/25), `total`/`truncated`
+  fields, `what_moved` defaults to a 30-day window (echoed back), and events are slimmed to
+  outlet names (full source URLs remain one `get_provenance` call away). Payload for the
+  live feed dropped ~45K → ~14K chars. (Found via an independent third-party install.)
+
+### Added
+- **Dashboard visualizations** (hand-rolled inline SVG, zero new dependency): low—consensus—high
+  **range bars** on ranged metrics (the probabilistic spread, made visible); **history
+  sparklines** on company pages (value-over-time, only when there's real movement); and a new
+  **sector market-map page** (`market.html`) — total tracked valuation by sector.
+- `_money` now renders a trillion (`$X.XT`) tier.
+
 ## [0.1.2] — 2026-07-07
 
 ### Fixed

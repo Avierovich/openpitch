@@ -87,3 +87,55 @@ def test_build_aborts_when_universe_undercount(tmp_path, monkeypatch):
 
     with pytest.raises(RuntimeError, match="universe.json selects 50"):
         dashboard.build()
+
+
+# ── visualizations (v0.1.3): pure SVG/aggregate helpers ──────────────────────
+
+
+def _rv(value, *, low=None, high=None, conf=0.8):
+    from datetime import date
+    from openpitch.models import EstimateType, Range, ResolvedValue
+    rng = Range(low=low, high=high) if low is not None else None
+    return ResolvedValue(metric="valuation", value=value, unit="USD", range=rng,
+                         as_of=date(2026, 5, 1), estimate_type=EstimateType.CONSENSUS,
+                         confidence=conf)
+
+
+def test_range_bar_only_with_a_real_spread():
+    # a genuine low<high spread renders a bar with the range in the label
+    svg = dashboard._range_bar(_rv(15.4e9, low=15e9, high=16e9))
+    assert 'class="rangebar"' in svg and "$15.0B" in svg and "$16.0B" in svg
+    # no range, or a collapsed range, renders nothing
+    assert dashboard._range_bar(_rv(15.4e9)) == ""
+    assert dashboard._range_bar(_rv(15e9, low=15e9, high=15e9)) == ""
+
+
+def test_sparkline_needs_real_movement(monkeypatch):
+    # ≥2 distinct-date points that actually move -> a polyline
+    monkeypatch.setattr(dashboard.store, "read_history", lambda cid, m: [
+        {"as_of": "2026-03-01", "value": 11e9}, {"as_of": "2026-05-01", "value": 3e9}])
+    assert 'class="spark"' in dashboard._sparkline("pi", "valuation")
+    # a flat series (or one point) is not a trajectory -> nothing (no "broken" flat line)
+    monkeypatch.setattr(dashboard.store, "read_history", lambda cid, m: [
+        {"as_of": "2026-03-01", "value": 5e9}, {"as_of": "2026-05-01", "value": 5e9}])
+    assert dashboard._sparkline("x", "valuation") == ""
+    monkeypatch.setattr(dashboard.store, "read_history", lambda cid, m: [
+        {"as_of": "2026-05-01", "value": 5e9}])
+    assert dashboard._sparkline("x", "valuation") == ""
+
+
+def test_market_map_aggregates_valuation_by_sector():
+    from datetime import date
+    from openpitch.models import Company
+    def co(cid, cat, val):
+        return Company(id=cid, name=cid.title(), category=cat, last_updated=date(2026, 5, 1),
+                       metrics={"valuation": _rv(val)})
+    html = dashboard._market_map([
+        co("a", "foundation-model", 900e9), co("b", "foundation-model", 100e9),
+        co("c", "ai-infra", 200e9), co("d", "robotics", 0),  # 0 valuation excluded
+    ])
+    # sectors aggregate and sort desc; foundation-model (1.0T, 2 cos) leads ai-infra
+    assert "foundation-model · $1.0T · 2 cos" in html
+    assert "ai-infra · $200.0B · 1 cos" in html
+    assert html.index("foundation-model") < html.index("ai-infra")
+    assert "robotics" not in html  # no resolved valuation -> not summed

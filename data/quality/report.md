@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-07-09
+# OpenPitch Data Quality Report - 2026-07-12
 
 ## Summary
 
-- Profiles generated: 151
-- Watchlist candidates: 419
+- Profiles generated: 160
+- Watchlist candidates: 539
 - Top-50 cards: 50
-- Profiles with at least one metric: 139
-- Critical issues: 23
-- Warnings: 48
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 265
+- Profiles with at least one metric: 153
+- Critical issues: 28
+- Warnings: 37
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 376
 
 ## Top-50 Companies With No Metrics
 
@@ -25,7 +25,6 @@ None.
 - Replit
 - Hadrian
 - Suno
-- Abridge
 
 ## Curated High-Priority Watchlist Companies Not Profiled (critical)
 
@@ -45,6 +44,7 @@ None.
 - Auterion
 - Captions
 - Cartesia
+- Cognism
 - HUMAIN
 - Huspy
 - Ideogram
@@ -52,41 +52,39 @@ None.
 - Lean Technologies
 - Mindsay
 - Pika
+- Pinecone
+- Qdrant
 - RunPod
+- Sorare
 - Unconventional AI
+- Weaviate
 - Yassir
 
 ## Single-Source Core Metrics
 
 - OpenAI: arr
-- xAI: round_amount
 - Databricks: valuation
 - Anduril: round_amount
-- Anysphere (Cursor): arr
-- Thinking Machines Lab: valuation
+- Thinking Machines Lab: round_amount
 - Project Prometheus: valuation
 - Project Prometheus: total_funding
 - VAST Data: arr
-- VAST Data: round_amount
 - Scale AI: valuation
 - Scale AI: arr
 - Cognition (Devin): valuation
-- Cognition (Devin): arr
-- Cognition (Devin): round_amount
-- Mistral AI: arr
+- Cerebras Systems: total_funding
 - Perplexity: valuation
 - Perplexity: arr
 - Applied Intuition: headcount
+- Mistral AI: arr
 - Shield AI: round_amount
 - Lovable: round_amount
 - Lovable: headcount
-- ElevenLabs: valuation
+- Poolside: arr
 - ElevenLabs: arr
-- ElevenLabs: round_amount
 - Physical Intelligence: total_funding
 - Physical Intelligence: round_amount
 - Mercor: arr
-- Crusoe: round_amount
 - Saronic: round_amount
 - Replit: total_funding
 - Together AI: arr
@@ -96,10 +94,6 @@ None.
 - SandboxAQ: arr
 - Legora: total_funding
 - Suno: round_amount
-- Runway: arr
-- Abridge: valuation
-- Abridge: total_funding
-- Abridge: headcount
 
 ## Review Rule
 

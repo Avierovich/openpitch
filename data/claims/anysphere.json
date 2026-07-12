@@ -1,5 +1,101 @@
 [
   {
+    "id": "clm_b9c75ebd29",
+    "company_id": "anysphere",
+    "metric": "arr",
+    "value": 4000000000.0,
+    "unit": null,
+    "raw_text": "AI Programming Tool Cursor's Annualized Revenue Reaches $4 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY01haklTT3IteUxlTWM2UXZLd1hGM3ctTHp0bVdlV0x5Vkxlb3lmOFFiLWE0Q1J3TGdiS2tFVGxhWVg2VmFmOGpuOENXM2JKOE9GOUFkbUkwaFVlM05TLWxZN0otNy1ySlF1b0ZyNlNOWUQ5Q09tVW9SMzlrdzRveldZLWxYeF9fc045WU5BVTB0N1pDOUVfcFpXMUtMTGp3RkRLNHZfUQ?oc=5",
+      "locator": null,
+      "published_at": "2026-06-16"
+    },
+    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_aa3b541312",
+    "company_id": "anysphere",
+    "metric": "valuation",
+    "value": 60000000000.0,
+    "unit": null,
+    "raw_text": "SpaceX Plans to Acquire Cursor for $60 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY01haklTT3IteUxlTWM2UXZLd1hGM3ctTHp0bVdlV0x5Vkxlb3lmOFFiLWE0Q1J3TGdiS2tFVGxhWVg2VmFmOGpuOENXM2JKOE9GOUFkbUkwaFVlM05TLWxZN0otNy1ySlF1b0ZyNlNOWUQ5Q09tVW9SMzlrdzRveldZLWxYeF9fc045WU5BVTB0N1pDOUVfcFpXMUtMTGp3RkRLNHZfUQ?oc=5",
+      "locator": null,
+      "published_at": "2026-06-16"
+    },
+    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_a8951cd774",
+    "company_id": "anysphere",
+    "metric": "valuation",
+    "value": 60000000000.0,
+    "unit": null,
+    "raw_text": "SpaceX is buying Cursor for $60B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbGdtaWt3X1hzTmpIZExkWi1KSE9TVE1acjBWRWplNVRWTUZCMTZBYkJ1TzhocXdCYkd1eEtrYThnbEpMM1d2U3JxdWNweHU1OFlGZXd6LU5DaTU3VVFBLTFTWk52UjRGZVUyUmlZeGJQUmxMUGNwNnFnZ29aWXgxT0xLY1M3d0VfYktXT1dITUwxNUpsbUt3?oc=5",
+      "locator": null,
+      "published_at": "2026-06-16"
+    },
+    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_aae9ddfb08",
+    "company_id": "anysphere",
+    "metric": "open_roles",
+    "value": 8.0,
+    "unit": null,
+    "raw_text": "Account Executive - Commercial Sales · Full-time · Singapore Apply → Account Executive, Commercial Sales · Full-time · New York Apply → Account Executive, Commercial Sales · Full-time · London Apply → Account Executive, Commercial - San Francisco Sales · Full-time · San Francisco Apply → Account Executive, Commercial Expansion - San Francisco Sales · Full-time · San Francisco Apply → Account Executive, Geo Enterprise - ANZ Sales · Full-time · Australia Apply → Account Executive, Geo Enterprise - New York Sales · Full-time · New Yo",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "cursor.com",
+      "url": "https://cursor.com/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
     "id": "clm_2a3c0b1ffe",
     "company_id": "anysphere",
     "metric": "valuation",
@@ -76,10 +172,10 @@
     "derivation": null
   },
   {
-    "id": "drv_5a2d84b82e",
+    "id": "drv_b4aba4e71e",
     "company_id": "anysphere",
     "metric": "revenue_multiple",
-    "value": 25.0,
+    "value": 15.0,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -92,17 +188,17 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-04-17"
+      "published_at": "2026-06-16"
     },
-    "extracted_at": "2026-07-07T00:00:00",
+    "extracted_at": "2026-07-12T07:44:16.543146",
     "extractor_model": "derive-engine",
-    "base_confidence": 0.2282,
+    "base_confidence": 0.2536,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_2a3c0b1ffe",
-        "clm_cbd0eab1e1"
+        "clm_aa3b541312",
+        "clm_b9c75ebd29"
       ]
     }
   }

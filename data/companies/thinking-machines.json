@@ -9,24 +9,44 @@
   "summary": "Thinking Machines Lab focuses on developing AI solutions, including large language models, to address complex societal and development challenges.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 89.3,
-  "universe_rank": 8,
+  "vc_attention_score": 89.2,
+  "universe_rank": 9,
   "metrics": {
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 0.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-07-17",
+      "estimate_type": "reported",
+      "confidence": 0.112,
+      "supporting_claims": [
+        "clm_25c22c71be"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/thinking-machines/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "valuation": {
       "metric": "valuation",
       "value": 50000000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2025-11-14",
-      "estimate_type": "reported",
-      "confidence": 0.165,
+      "as_of": "2026-06-05",
+      "estimate_type": "consensus",
+      "confidence": 0.449,
       "supporting_claims": [
+        "clm_51dd180844",
+        "clm_b909ae8b89",
         "clm_e090999817"
       ],
       "contradiction": false,
       "delta": {
         "previous": 50000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2025-11-14"
       },
       "history_ref": "history/thinking-machines/valuation.jsonl",
@@ -35,5 +55,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-07"
+  "last_updated": "2026-07-12"
 }

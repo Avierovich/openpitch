@@ -10,8 +10,31 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 83.4,
-  "universe_rank": 34,
+  "universe_rank": 37,
   "metrics": {
+    "valuation": {
+      "metric": "valuation",
+      "value": 10000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-10-24",
+      "estimate_type": "consensus",
+      "confidence": 0.393,
+      "supporting_claims": [
+        "clm_e53e1eac53",
+        "clm_ab4447f79e"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 10000000000.0,
+        "change_pct": 0.0,
+        "since": "2025-10-24"
+      },
+      "history_ref": "history/crusoe/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "round_amount": {
       "metric": "round_amount",
       "value": 1375000000.0,
@@ -19,7 +42,7 @@
       "range": null,
       "as_of": "2025-10-24",
       "estimate_type": "reported",
-      "confidence": 0.26,
+      "confidence": 0.257,
       "supporting_claims": [
         "clm_afb216c2af"
       ],
@@ -41,7 +64,7 @@
       "range": null,
       "as_of": "2025-10-24",
       "estimate_type": "reported",
-      "confidence": 0.26,
+      "confidence": 0.257,
       "supporting_claims": [
         "clm_a0c2067f05"
       ],
@@ -55,29 +78,7 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "valuation": {
-      "metric": "valuation",
-      "value": 10000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-10-24",
-      "estimate_type": "reported",
-      "confidence": 0.26,
-      "supporting_claims": [
-        "clm_ab4447f79e"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 10000000000.0,
-        "change_pct": 0.0,
-        "since": "2025-10-24"
-      },
-      "history_ref": "history/crusoe/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-07"
+  "last_updated": "2026-07-12"
 }

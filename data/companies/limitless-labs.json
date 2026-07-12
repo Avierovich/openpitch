@@ -10,8 +10,42 @@
   "segment": "global",
   "in_universe": false,
   "vc_attention_score": 60.9,
-  "universe_rank": 124,
+  "universe_rank": 137,
   "metrics": {
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 20000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 20000000.0,
+        "high": 20000000.0
+      },
+      "as_of": "2026-06-22",
+      "estimate_type": "consensus",
+      "confidence": 0.97,
+      "supporting_claims": [
+        "clm_39a8da39b7",
+        "clm_af51aa59c6",
+        "clm_10df5125c5",
+        "clm_0d49bc96b5",
+        "clm_c8649a03a2",
+        "clm_750696d5a1",
+        "clm_b8cb797a87",
+        "clm_895625eae6",
+        "clm_4a2616cbc9",
+        "clm_63d9748ef6"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 20000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-22"
+      },
+      "history_ref": "history/limitless-labs/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "latest_round": {
       "metric": "latest_round",
       "value": 10000000.0,
@@ -19,7 +53,7 @@
       "range": null,
       "as_of": "2025-10-20",
       "estimate_type": "reported",
-      "confidence": 0.184,
+      "confidence": 0.181,
       "supporting_claims": [
         "clm_e0d0987181"
       ],
@@ -33,39 +67,7 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 20000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 20000000.0,
-        "high": 20000000.0
-      },
-      "as_of": "2026-06-22",
-      "estimate_type": "consensus",
-      "confidence": 0.97,
-      "supporting_claims": [
-        "clm_10df5125c5",
-        "clm_0d49bc96b5",
-        "clm_c8649a03a2",
-        "clm_750696d5a1",
-        "clm_b8cb797a87",
-        "clm_895625eae6",
-        "clm_4a2616cbc9",
-        "clm_63d9748ef6"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 20000000.0,
-        "change_pct": -0.0,
-        "since": "2026-06-22"
-      },
-      "history_ref": "history/limitless-labs/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-07"
+  "last_updated": "2026-07-12"
 }

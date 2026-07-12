@@ -3,14 +3,51 @@
   "name": "Unstructured",
   "aliases": [],
   "website": "unstructured.io",
-  "category": "vector-data",
-  "subcategory": null,
-  "specialty": null,
-  "summary": null,
+  "category": "ai-infra",
+  "subcategory": "data-platform",
+  "specialty": "Data parsing for AI.",
+  "summary": "Unstructured provides tools to efficiently parse and preprocess unstructured data, making it ready for use in AI and machine learning workflows.",
   "segment": "global",
   "in_universe": false,
   "vc_attention_score": 0.0,
-  "universe_rank": 151,
-  "metrics": {},
-  "last_updated": "2026-06-14"
+  "universe_rank": 160,
+  "metrics": {
+    "open_roles": {
+      "metric": "open_roles",
+      "value": 12.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-07-12",
+      "estimate_type": "reported",
+      "confidence": 0.25,
+      "supporting_claims": [
+        "clm_40ffec72d6"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/unstructured/open_roles.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "notable_customers": {
+      "metric": "notable_customers",
+      "value": 0.87,
+      "unit": "list",
+      "range": null,
+      "as_of": "2026-07-12",
+      "estimate_type": "reported",
+      "confidence": 0.25,
+      "supporting_claims": [
+        "clm_8857c23a2e"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/unstructured/notable_customers.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    }
+  },
+  "last_updated": "2026-07-12"
 }

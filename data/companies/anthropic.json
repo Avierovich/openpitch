@@ -22,9 +22,10 @@
       },
       "as_of": "2026-06-14",
       "estimate_type": "consensus",
-      "confidence": 0.625,
+      "confidence": 0.698,
       "supporting_claims": [
         "clm_b506604679",
+        "clm_7b85d3255e",
         "clm_733be3c68d"
       ],
       "contradiction": false,
@@ -40,27 +41,29 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 970222390878.45,
+      "value": 973235052074.23,
       "unit": "USD",
       "range": {
         "low": 65000000000.0,
         "high": 1000000000000.0
       },
-      "as_of": "2026-06-14",
+      "as_of": "2026-07-08",
       "estimate_type": "consensus",
-      "confidence": 0.954,
+      "confidence": 0.97,
       "supporting_claims": [
         "clm_a1aa600568",
         "clm_f58aa62a72",
         "clm_aae07090a5",
         "clm_58ef87660d",
+        "clm_499f943f2c",
         "clm_5aa2b17d08",
+        "clm_52a327f5bc",
         "clm_8a9ea9c54e"
       ],
       "contradiction": false,
       "delta": {
         "previous": 970222390878.45,
-        "change_pct": -0.0,
+        "change_pct": 0.3,
         "since": "2026-06-14"
       },
       "history_ref": "history/anthropic/valuation.jsonl",
@@ -78,7 +81,7 @@
       },
       "as_of": "2026-05-29",
       "estimate_type": "consensus",
-      "confidence": 0.767,
+      "confidence": 0.761,
       "supporting_claims": [
         "clm_fb6995e76a",
         "clm_02cdf0bd4b",
@@ -95,37 +98,19 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "open_roles": {
-      "metric": "open_roles",
-      "value": 57.0,
-      "unit": "count",
-      "range": null,
-      "as_of": "2026-07-07",
-      "estimate_type": "reported",
-      "confidence": 0.25,
-      "supporting_claims": [
-        "clm_f264cc23a8"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 57.0,
-        "change_pct": 0.0,
-        "since": "2026-07-06"
-      },
-      "history_ref": "history/anthropic/open_roles.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "total_funding": {
       "metric": "total_funding",
       "value": 65000000000.0,
       "unit": "USD",
-      "range": null,
-      "as_of": "2026-05-28",
-      "estimate_type": "reported",
-      "confidence": 0.497,
+      "range": {
+        "low": 65000000000.0,
+        "high": 65000000000.0
+      },
+      "as_of": "2026-05-29",
+      "estimate_type": "consensus",
+      "confidence": 0.672,
       "supporting_claims": [
+        "clm_4072f300ea",
         "clm_fdf2a3fbc1"
       ],
       "contradiction": false,
@@ -139,6 +124,29 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "open_roles": {
+      "metric": "open_roles",
+      "value": 61.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-07-12",
+      "estimate_type": "reported",
+      "confidence": 0.438,
+      "supporting_claims": [
+        "clm_f264cc23a8",
+        "clm_02d1638c8f"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 57.0,
+        "change_pct": 7.0,
+        "since": "2026-07-06"
+      },
+      "history_ref": "history/anthropic/open_roles.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "revenue_multiple": {
       "metric": "revenue_multiple",
       "value": 20.53,
@@ -146,7 +154,7 @@
       "range": null,
       "as_of": "2026-06-14",
       "estimate_type": "reported",
-      "confidence": 0.209,
+      "confidence": 0.201,
       "supporting_claims": [
         "drv_cd564feb3a"
       ],
@@ -162,5 +170,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-07"
+  "last_updated": "2026-07-12"
 }

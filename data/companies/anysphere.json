@@ -9,47 +9,24 @@
   "summary": "Anysphere (Cursor) offers an AI-native code editor designed to enhance developer productivity through integrated AI assistance.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 89.5,
-  "universe_rank": 6,
+  "vc_attention_score": 89.8,
+  "universe_rank": 7,
   "metrics": {
-    "valuation": {
-      "metric": "valuation",
-      "value": 53756423428.66,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-04-18",
-      "estimate_type": "consensus",
-      "confidence": 0.567,
-      "supporting_claims": [
-        "clm_2a3c0b1ffe",
-        "clm_96d64be7f5"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 53756423428.66,
-        "change_pct": 0.0,
-        "since": "2026-04-18"
-      },
-      "history_ref": "history/anysphere/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "arr": {
       "metric": "arr",
-      "value": 2000000000.0,
+      "value": 4000000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2026-02-20",
+      "as_of": "2026-06-16",
       "estimate_type": "reported",
-      "confidence": 0.151,
+      "confidence": 0.423,
       "supporting_claims": [
-        "clm_cbd0eab1e1"
+        "clm_b9c75ebd29"
       ],
       "contradiction": false,
       "delta": {
         "previous": 2000000000.0,
-        "change_pct": 0.0,
+        "change_pct": 100.0,
         "since": "2026-02-20"
       },
       "history_ref": "history/anysphere/arr.jsonl",
@@ -57,21 +34,67 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "valuation": {
+      "metric": "valuation",
+      "value": 57474096052.21,
+      "unit": "USD",
+      "range": {
+        "low": 50000000000.0,
+        "high": 60000000000.0
+      },
+      "as_of": "2026-06-16",
+      "estimate_type": "consensus",
+      "confidence": 0.885,
+      "supporting_claims": [
+        "clm_2a3c0b1ffe",
+        "clm_aa3b541312",
+        "clm_a8951cd774",
+        "clm_96d64be7f5"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 53756423428.66,
+        "change_pct": 6.9,
+        "since": "2026-04-18"
+      },
+      "history_ref": "history/anysphere/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "open_roles": {
+      "metric": "open_roles",
+      "value": 8.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-07-12",
+      "estimate_type": "reported",
+      "confidence": 0.25,
+      "supporting_claims": [
+        "clm_aae9ddfb08"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/anysphere/open_roles.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 25.0,
+      "value": 15.0,
       "unit": "x",
       "range": null,
-      "as_of": "2026-04-17",
+      "as_of": "2026-06-16",
       "estimate_type": "reported",
-      "confidence": 0.116,
+      "confidence": 0.204,
       "supporting_claims": [
-        "drv_5a2d84b82e"
+        "drv_b4aba4e71e"
       ],
       "contradiction": false,
       "delta": {
         "previous": 25.0,
-        "change_pct": 0.0,
+        "change_pct": -40.0,
         "since": "2026-04-17"
       },
       "history_ref": "history/anysphere/revenue_multiple.jsonl",
@@ -80,5 +103,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-07"
+  "last_updated": "2026-07-12"
 }

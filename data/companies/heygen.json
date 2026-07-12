@@ -9,31 +9,9 @@
   "summary": "HeyGen offers an AI-powered video generation platform that allows users to create marketing and corporate videos with talking avatars.",
   "segment": "global",
   "in_universe": false,
-  "vc_attention_score": 72.6,
-  "universe_rank": 90,
+  "vc_attention_score": 72.4,
+  "universe_rank": 97,
   "metrics": {
-    "arr": {
-      "metric": "arr",
-      "value": 200000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-06-25",
-      "estimate_type": "reported",
-      "confidence": 0.339,
-      "supporting_claims": [
-        "clm_c18d4e12ea"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 200000000.0,
-        "change_pct": 0.0,
-        "since": "2026-06-25"
-      },
-      "history_ref": "history/heygen/arr.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "total_funding": {
       "metric": "total_funding",
       "value": 60000000.0,
@@ -41,7 +19,7 @@
       "range": null,
       "as_of": "2024-06-24",
       "estimate_type": "consensus",
-      "confidence": 0.253,
+      "confidence": 0.251,
       "supporting_claims": [
         "clm_dbb0244253",
         "clm_465950426f"
@@ -59,22 +37,73 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 500000000.0,
+      "value": 478278824.21,
       "unit": "USD",
       "range": null,
       "as_of": "2024-06-20",
-      "estimate_type": "reported",
-      "confidence": 0.068,
+      "estimate_type": "consensus",
+      "confidence": 0.102,
       "supporting_claims": [
+        "clm_9ab4744446",
         "clm_5bf69856e3"
       ],
       "contradiction": false,
       "delta": {
         "previous": 500000000.0,
-        "change_pct": 0.0,
+        "change_pct": -4.3,
         "since": "2024-06-20"
       },
       "history_ref": "history/heygen/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "arr": {
+      "metric": "arr",
+      "value": 200000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 200000000.0,
+        "high": 200000000.0
+      },
+      "as_of": "2026-06-25",
+      "estimate_type": "consensus",
+      "confidence": 0.693,
+      "supporting_claims": [
+        "clm_f387dd4186",
+        "clm_512893b04b",
+        "clm_c18d4e12ea"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 200000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-25"
+      },
+      "history_ref": "history/heygen/arr.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 60000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2024-06-24",
+      "estimate_type": "consensus",
+      "confidence": 0.112,
+      "supporting_claims": [
+        "clm_414b066338",
+        "clm_ccc678733f"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 60000000.0,
+        "change_pct": 0.0,
+        "since": "2024-06-24"
+      },
+      "history_ref": "history/heygen/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -86,7 +115,7 @@
       "range": null,
       "as_of": "2024-06-20",
       "estimate_type": "reported",
-      "confidence": 0.068,
+      "confidence": 0.067,
       "supporting_claims": [
         "clm_a99e7e85a0"
       ],
@@ -101,28 +130,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 60000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2024-06-24",
-      "estimate_type": "reported",
-      "confidence": 0.069,
-      "supporting_claims": [
-        "clm_ccc678733f"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 60000000.0,
-        "change_pct": 0.0,
-        "since": "2024-06-24"
-      },
-      "history_ref": "history/heygen/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "revenue_multiple": {
       "metric": "revenue_multiple",
       "value": 5.0,
@@ -130,14 +137,14 @@
       "range": null,
       "as_of": "2025-10-18",
       "estimate_type": "reported",
-      "confidence": 0.029,
+      "confidence": 0.027,
       "supporting_claims": [
         "drv_6ebea6ad8f"
       ],
       "contradiction": false,
       "delta": {
         "previous": 5.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2025-10-18"
       },
       "history_ref": "history/heygen/revenue_multiple.jsonl",
@@ -146,5 +153,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-07"
+  "last_updated": "2026-07-12"
 }

@@ -9,9 +9,31 @@
   "summary": "Qdrant is an open-source vector similarity search engine and database, optimized for fast and accurate retrieval of similar items.",
   "segment": "global",
   "in_universe": false,
-  "vc_attention_score": 0.0,
-  "universe_rank": 144,
+  "vc_attention_score": 64.2,
+  "universe_rank": 125,
   "metrics": {
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 50000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 50000000.0,
+        "high": 50000000.0
+      },
+      "as_of": "2026-03-12",
+      "estimate_type": "consensus",
+      "confidence": 0.61,
+      "supporting_claims": [
+        "clm_1c10d13972",
+        "clm_bb01fcc757"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/qdrant/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "latest_round": {
       "metric": "latest_round",
       "value": 50000000.0,
@@ -19,7 +41,7 @@
       "range": null,
       "as_of": "2026-06-03",
       "estimate_type": "consensus",
-      "confidence": 0.866,
+      "confidence": 0.861,
       "supporting_claims": [
         "clm_ae283cdcee",
         "clm_647016e3fa",
@@ -40,5 +62,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-07"
+  "last_updated": "2026-07-12"
 }

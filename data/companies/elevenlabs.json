@@ -10,23 +10,29 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 83.8,
-  "universe_rank": 31,
+  "universe_rank": 34,
   "metrics": {
     "valuation": {
       "metric": "valuation",
       "value": 11000000000.0,
       "unit": "USD",
-      "range": null,
-      "as_of": "2026-05-05",
-      "estimate_type": "reported",
-      "confidence": 0.442,
+      "range": {
+        "low": 11000000000.0,
+        "high": 11000000000.0
+      },
+      "as_of": "2026-06-21",
+      "estimate_type": "consensus",
+      "confidence": 0.876,
       "supporting_claims": [
+        "clm_2fee44c79d",
+        "clm_fd616403f2",
+        "clm_e687f69293",
         "clm_c301750568"
       ],
       "contradiction": false,
       "delta": {
         "previous": 11000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-05-05"
       },
       "history_ref": "history/elevenlabs/valuation.jsonl",
@@ -38,11 +44,16 @@
       "metric": "round_amount",
       "value": 500000000.0,
       "unit": "USD",
-      "range": null,
+      "range": {
+        "low": 500000000.0,
+        "high": 500000000.0
+      },
       "as_of": "2026-05-05",
-      "estimate_type": "reported",
-      "confidence": 0.442,
+      "estimate_type": "consensus",
+      "confidence": 0.755,
       "supporting_claims": [
+        "clm_227fd5cc6e",
+        "clm_da3421c8da",
         "clm_5b478923ac"
       ],
       "contradiction": false,
@@ -63,7 +74,7 @@
       "range": null,
       "as_of": "2026-05-05",
       "estimate_type": "reported",
-      "confidence": 0.28,
+      "confidence": 0.268,
       "supporting_claims": [
         "clm_b85069b411"
       ],
@@ -85,9 +96,9 @@
       "range": null,
       "as_of": "2026-05-05",
       "estimate_type": "reported",
-      "confidence": 0.135,
+      "confidence": 0.129,
       "supporting_claims": [
-        "drv_f389b66ad5"
+        "drv_0432f09038"
       ],
       "contradiction": false,
       "delta": {
@@ -101,5 +112,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-07"
+  "last_updated": "2026-07-12"
 }

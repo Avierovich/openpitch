@@ -10,17 +10,36 @@
   "segment": "global",
   "in_universe": false,
   "vc_attention_score": 64.2,
-  "universe_rank": 116,
+  "universe_rank": 126,
   "metrics": {
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 50000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2023-04-20",
+      "estimate_type": "reported",
+      "confidence": 0.015,
+      "supporting_claims": [
+        "clm_e4fba9ca6d"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/weaviate/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "latest_round": {
       "metric": "latest_round",
       "value": 50000000.0,
       "unit": "object",
       "range": null,
       "as_of": "2023-04-21",
-      "estimate_type": "reported",
-      "confidence": 0.014,
+      "estimate_type": "consensus",
+      "confidence": 0.027,
       "supporting_claims": [
+        "clm_4cfd74e23f",
         "clm_192619b7f3"
       ],
       "contradiction": false,
@@ -41,7 +60,7 @@
       "range": null,
       "as_of": "2023-04-21",
       "estimate_type": "reported",
-      "confidence": 0.068,
+      "confidence": 0.067,
       "supporting_claims": [
         "clm_9d18bc389e"
       ],
@@ -57,5 +76,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-07"
+  "last_updated": "2026-07-12"
 }

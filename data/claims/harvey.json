@@ -216,54 +216,6 @@
     "derivation": null
   },
   {
-    "id": "clm_e6177dd0c9",
-    "company_id": "harvey",
-    "metric": "round_amount",
-    "value": 200000000.0,
-    "unit": "USD",
-    "raw_text": "Harvey Raises $200M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "The SaaS News",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sZ1pmVVdRdmpHd0ExWERfdV83VzNGOFNUQWMtc0RmSDhsQ3IyelZUSnFaVXFhRThMS01TYlJodGF2NENkTE1zbk8yQXpQOVBuQTduNUJQVktwa0Z2R3VGbzhaS3AwWGdsUk1LQ2lJOE1vb2RhVVRIRw?oc=5",
-      "locator": null,
-      "published_at": "2026-03-29"
-    },
-    "extracted_at": "2026-07-06T14:18:05.027477",
-    "extractor_model": "gemini-2.5-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_72246a7c84",
-    "company_id": "harvey",
-    "metric": "valuation",
-    "value": 11000000000.0,
-    "unit": "USD",
-    "raw_text": "at $11B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "The SaaS News",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sZ1pmVVdRdmpHd0ExWERfdV83VzNGOFNUQWMtc0RmSDhsQ3IyelZUSnFaVXFhRThMS01TYlJodGF2NENkTE1zbk8yQXpQOVBuQTduNUJQVktwa0Z2R3VGbzhaS3AwWGdsUk1LQ2lJOE1vb2RhVVRIRw?oc=5",
-      "locator": null,
-      "published_at": "2026-03-29"
-    },
-    "extracted_at": "2026-07-06T14:18:05.027477",
-    "extractor_model": "gemini-2.5-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_1a7eb37fee",
     "company_id": "harvey",
     "metric": "round_amount",
@@ -305,6 +257,54 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRmtVemp4ZVduZ0NXdHhiLU96eW54WWtWQnNSQjVicmtaRzdRcV9OMEp1R2ZRTGdSdGRKYTBybWhQdlh2ZF9hbDljeHpXM0dmc1VtVEdVZ2RXdUZFTWI3VXE0M25QUGp0bnlrNjQ1Z0MzWWk2TEtBcER5REM2ODlLQ2hCUXo4TkVvYUxMbW11QkVBNlFzeHRZejRMMFNBSGZZT2txb2RjbF90OTJ4ZWc?oc=5",
       "locator": null,
       "published_at": "2026-03-26"
+    },
+    "extracted_at": "2026-07-06T14:18:05.027477",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_e6177dd0c9",
+    "company_id": "harvey",
+    "metric": "round_amount",
+    "value": 200000000.0,
+    "unit": "USD",
+    "raw_text": "Harvey Raises $200M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The SaaS News",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sZ1pmVVdRdmpHd0ExWERfdV83VzNGOFNUQWMtc0RmSDhsQ3IyelZUSnFaVXFhRThMS01TYlJodGF2NENkTE1zbk8yQXpQOVBuQTduNUJQVktwa0Z2R3VGbzhaS3AwWGdsUk1LQ2lJOE1vb2RhVVRIRw?oc=5",
+      "locator": null,
+      "published_at": "2026-03-29"
+    },
+    "extracted_at": "2026-07-06T14:18:05.027477",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_72246a7c84",
+    "company_id": "harvey",
+    "metric": "valuation",
+    "value": 11000000000.0,
+    "unit": "USD",
+    "raw_text": "at $11B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The SaaS News",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sZ1pmVVdRdmpHd0ExWERfdV83VzNGOFNUQWMtc0RmSDhsQ3IyelZUSnFaVXFhRThMS01TYlJodGF2NENkTE1zbk8yQXpQOVBuQTduNUJQVktwa0Z2R3VGbzhaS3AwWGdsUk1LQ2lJOE1vb2RhVVRIRw?oc=5",
+      "locator": null,
+      "published_at": "2026-03-29"
     },
     "extracted_at": "2026-07-06T14:18:05.027477",
     "extractor_model": "gemini-2.5-flash",
@@ -478,7 +478,7 @@
       "locator": null,
       "published_at": "2026-03-25"
     },
-    "extracted_at": "2026-07-07T00:00:00",
+    "extracted_at": "2026-07-12T07:44:16.543146",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {

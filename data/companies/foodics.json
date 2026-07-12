@@ -10,7 +10,7 @@
   "segment": "mena",
   "in_universe": false,
   "vc_attention_score": 68.7,
-  "universe_rank": 98,
+  "universe_rank": 104,
   "metrics": {
     "revenue_growth": {
       "metric": "revenue_growth",
@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2025-07-29",
       "estimate_type": "reported",
-      "confidence": 0.03,
+      "confidence": 0.029,
       "supporting_claims": [
         "clm_8a4c7afb15"
       ],
@@ -49,33 +49,10 @@
       "contradiction": false,
       "delta": {
         "previous": 170000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2022-04-22"
       },
       "history_ref": "history/foodics/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 170000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-07-29",
-      "estimate_type": "consensus",
-      "confidence": 0.269,
-      "supporting_claims": [
-        "clm_9c9b966c23",
-        "clm_a6fd4723f8"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 170000000.0,
-        "change_pct": 0.0,
-        "since": "2025-07-29"
-      },
-      "history_ref": "history/foodics/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -101,7 +78,30 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 170000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-07-29",
+      "estimate_type": "consensus",
+      "confidence": 0.268,
+      "supporting_claims": [
+        "clm_9c9b966c23",
+        "clm_a6fd4723f8"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 170000000.0,
+        "change_pct": -0.0,
+        "since": "2025-07-29"
+      },
+      "history_ref": "history/foodics/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-07"
+  "last_updated": "2026-07-12"
 }

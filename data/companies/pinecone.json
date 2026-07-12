@@ -3,14 +3,33 @@
   "name": "Pinecone",
   "aliases": [],
   "website": "pinecone.io",
-  "category": "vector-data",
-  "subcategory": null,
-  "specialty": null,
-  "summary": null,
+  "category": "ai-infra",
+  "subcategory": "vector-db",
+  "specialty": "Managed vector database.",
+  "summary": "Pinecone offers a fully managed vector database service designed for efficiently storing and searching high-dimensional vector embeddings used in AI applications.",
   "segment": "global",
   "in_universe": false,
-  "vc_attention_score": 0.0,
-  "universe_rank": 143,
-  "metrics": {},
-  "last_updated": "2026-06-14"
+  "vc_attention_score": 66.7,
+  "universe_rank": 113,
+  "metrics": {
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 100000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2023-04-27",
+      "estimate_type": "reported",
+      "confidence": 0.021,
+      "supporting_claims": [
+        "clm_13d9f4aea7"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/pinecone/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    }
+  },
+  "last_updated": "2026-07-12"
 }

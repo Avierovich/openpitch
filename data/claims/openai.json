@@ -1,5 +1,31 @@
 [
   {
+    "id": "clm_a66aa37416",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 852000000000.0,
+    "unit": null,
+    "raw_text": "OpenAI valued at $852 billion in latest funding round ahead of IPO",
+    "qualifiers": [
+      "latest_round"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRzNXdU5zTi1jdkFOQWZKcmY5Z2FqQXdkWkRNanJvZXVibWRxdE9mMDZncUV0WGlMSm9yclUxakZRTWFsU1ZJV3VqRmtzQ053RmxFZEpHZ2o2RGxpQ1FrRkhGWEhmT0dDT2hEZTJFUjhOYkd0TmlvakN1elNDSTFhczdNcnhSUGpXa1kwOW0yeDJhSnA5eUR0V2taNGtXMDVHVXZNN3RFTTdvenI0YTJLU050LVZOODBIWjNFMnJkMVM0Uy1PS3dTSmpycDVPdw?oc=5",
+      "locator": null,
+      "published_at": "2026-03-31"
+    },
+    "extracted_at": "2026-07-06T14:31:09.058208",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_d9b945e8b0",
     "company_id": "openai",
     "metric": "valuation",
@@ -52,32 +78,6 @@
     "derivation": null
   },
   {
-    "id": "clm_a66aa37416",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 852000000000.0,
-    "unit": null,
-    "raw_text": "OpenAI valued at $852 billion in latest funding round ahead of IPO",
-    "qualifiers": [
-      "latest_round"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRzNXdU5zTi1jdkFOQWZKcmY5Z2FqQXdkWkRNanJvZXVibWRxdE9mMDZncUV0WGlMSm9yclUxakZRTWFsU1ZJV3VqRmtzQ053RmxFZEpHZ2o2RGxpQ1FrRkhGWEhmT0dDT2hEZTJFUjhOYkd0TmlvakN1elNDSTFhczdNcnhSUGpXa1kwOW0yeDJhSnA5eUR0V2taNGtXMDVHVXZNN3RFTTdvenI0YTJLU050LVZOODBIWjNFMnJkMVM0Uy1PS3dTSmpycDVPdw?oc=5",
-      "locator": null,
-      "published_at": "2026-03-31"
-    },
-    "extracted_at": "2026-07-06T14:31:09.058208",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_9af43f7e6e",
     "company_id": "openai",
     "metric": "valuation",
@@ -100,6 +100,54 @@
     },
     "extracted_at": "2026-07-06T14:31:09.058208",
     "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_575fed5cdd",
+    "company_id": "openai",
+    "metric": "round_amount",
+    "value": 122000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI raises $122B funding",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "EdTech Innovation Hub",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVGlndGY2RWMwSlpjWUo5d3MwSmE5Q0VLVDN6Sm1OZkNnYV85NUp3WmR4WVlHelZNaHZyZmp6a1NPb0pIa0txek1qdzdnbEFDWUpqZkt2X3kxaVJwekJkQW1YN3pvU0thM01lTEVPcXBiUndwYkM3RTZUdnpDMnNPTFZnS1RqdmdXNHZ3YnVuZlUwSnEwR0Eyd01saGtOOEhPTjU0azMyUHpDakRxRHc?oc=5",
+      "locator": null,
+      "published_at": "2026-04-01"
+    },
+    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_d1f6163d4b",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 852000000000.0,
+    "unit": "USD",
+    "raw_text": "at $852B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "EdTech Innovation Hub",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVGlndGY2RWMwSlpjWUo5d3MwSmE5Q0VLVDN6Sm1OZkNnYV85NUp3WmR4WVlHelZNaHZyZmp6a1NPb0pIa0txek1qdzdnbEFDWUpqZkt2X3kxaVJwekJkQW1YN3pvU0thM01lTEVPcXBiUndwYkM3RTZUdnpDMnNPTFZnS1RqdmdXNHZ3YnVuZlUwSnEwR0Eyd01saGtOOEhPTjU0azMyUHpDakRxRHc?oc=5",
+      "locator": null,
+      "published_at": "2026-04-01"
+    },
+    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extractor_model": "gemini-2.5-flash",
     "base_confidence": 0.525,
     "derivation": null
   },
@@ -178,7 +226,7 @@
     "derivation": null
   },
   {
-    "id": "drv_7fef669dc0",
+    "id": "drv_9606bb7a9f",
     "company_id": "openai",
     "metric": "revenue_multiple",
     "value": 35.5,
@@ -194,16 +242,16 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-05-11"
+      "published_at": "2026-04-15"
     },
-    "extracted_at": "2026-07-07T00:00:00",
+    "extracted_at": "2026-07-12T07:44:16.543146",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_d9b945e8b0",
+        "clm_a66aa37416",
         "clm_f377d1d724"
       ]
     }

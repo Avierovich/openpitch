@@ -10,8 +10,34 @@
   "segment": "global",
   "in_universe": false,
   "vc_attention_score": 66.7,
-  "universe_rank": 105,
+  "universe_rank": 114,
   "metrics": {
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 100000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 100000000.0,
+        "high": 100000000.0
+      },
+      "as_of": "2026-06-29",
+      "estimate_type": "consensus",
+      "confidence": 0.754,
+      "supporting_claims": [
+        "clm_7211ab029d",
+        "clm_61e7e9a2ff"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 100000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-29"
+      },
+      "history_ref": "history/runpod/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "total_funding": {
       "metric": "total_funding",
       "value": 100000000.0,
@@ -22,7 +48,7 @@
       },
       "as_of": "2026-06-25",
       "estimate_type": "consensus",
-      "confidence": 0.766,
+      "confidence": 0.762,
       "supporting_claims": [
         "clm_264fcbeb83",
         "clm_697b879672"
@@ -37,33 +63,7 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 100000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 100000000.0,
-        "high": 100000000.0
-      },
-      "as_of": "2026-06-29",
-      "estimate_type": "consensus",
-      "confidence": 0.761,
-      "supporting_claims": [
-        "clm_7211ab029d",
-        "clm_61e7e9a2ff"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 100000000.0,
-        "change_pct": -0.0,
-        "since": "2026-06-29"
-      },
-      "history_ref": "history/runpod/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-07"
+  "last_updated": "2026-07-12"
 }

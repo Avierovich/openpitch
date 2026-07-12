@@ -9,9 +9,57 @@
   "summary": "Liquid AI develops adaptable and context-aware AI models designed to dynamically learn and adjust to new information and environments.",
   "segment": "global",
   "in_universe": false,
-  "vc_attention_score": 78.3,
-  "universe_rank": 70,
+  "vc_attention_score": 78.2,
+  "universe_rank": 72,
   "metrics": {
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 250000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2024-12-13",
+      "estimate_type": "consensus",
+      "confidence": 0.45,
+      "supporting_claims": [
+        "clm_77f30468f5",
+        "clm_17ce625a5b",
+        "clm_839a3ea678",
+        "clm_ab451a616f"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 250000000.0,
+        "change_pct": 0.0,
+        "since": "2024-12-13"
+      },
+      "history_ref": "history/liquid-ai/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 250000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2024-12-16",
+      "estimate_type": "consensus",
+      "confidence": 0.312,
+      "supporting_claims": [
+        "clm_bdae008d37",
+        "clm_6f41fdb50c"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 18000000.0,
+        "change_pct": 1288.9,
+        "since": "2026-04-28"
+      },
+      "history_ref": "history/liquid-ai/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "valuation": {
       "metric": "valuation",
       "value": 2400000000.0,
@@ -19,7 +67,7 @@
       "range": null,
       "as_of": "2025-11-24",
       "estimate_type": "reported",
-      "confidence": 0.198,
+      "confidence": 0.196,
       "supporting_claims": [
         "clm_8dd438f059"
       ],
@@ -41,7 +89,7 @@
       "range": null,
       "as_of": "2025-11-13",
       "estimate_type": "reported",
-      "confidence": 0.275,
+      "confidence": 0.271,
       "supporting_claims": [
         "clm_3427f01dc1"
       ],
@@ -55,31 +103,7 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 250000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2024-12-13",
-      "estimate_type": "consensus",
-      "confidence": 0.295,
-      "supporting_claims": [
-        "clm_839a3ea678",
-        "clm_17ce625a5b",
-        "clm_ab451a616f"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 250000000.0,
-        "change_pct": 0.0,
-        "since": "2024-12-13"
-      },
-      "history_ref": "history/liquid-ai/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-07"
+  "last_updated": "2026-07-12"
 }

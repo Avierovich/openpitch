@@ -10,8 +10,26 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 86.7,
-  "universe_rank": 16,
+  "universe_rank": 17,
   "metrics": {
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 100000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2023-08-10",
+      "estimate_type": "reported",
+      "confidence": 0.097,
+      "supporting_claims": [
+        "clm_a91a9ff1fc"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/cerebras/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "valuation": {
       "metric": "valuation",
       "value": 25015941307.52,
@@ -19,7 +37,7 @@
       "range": null,
       "as_of": "2026-05-04",
       "estimate_type": "consensus",
-      "confidence": 0.484,
+      "confidence": 0.479,
       "supporting_claims": [
         "clm_5e7814d1a3",
         "clm_083ea5dbc6"
@@ -42,7 +60,7 @@
       "range": null,
       "as_of": "2026-02-05",
       "estimate_type": "consensus",
-      "confidence": 0.378,
+      "confidence": 0.374,
       "supporting_claims": [
         "clm_adfd0da588",
         "clm_a8fdf04213"
@@ -59,5 +77,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-07"
+  "last_updated": "2026-07-12"
 }

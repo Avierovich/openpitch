@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": false,
   "vc_attention_score": 80.6,
-  "universe_rank": 54,
+  "universe_rank": 56,
   "metrics": {
     "valuation": {
       "metric": "valuation",
@@ -22,7 +22,7 @@
       },
       "as_of": "2026-05-24",
       "estimate_type": "consensus",
-      "confidence": 0.959,
+      "confidence": 0.957,
       "supporting_claims": [
         "clm_5a74a42567",
         "clm_66882bfcf4",
@@ -47,7 +47,7 @@
       "value": 466000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2026-07-07",
+      "as_of": "2026-07-12",
       "estimate_type": "reported",
       "confidence": 0.425,
       "supporting_claims": [
@@ -94,7 +94,29 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 87000000.0,
+      "unit": "object",
+      "range": null,
+      "as_of": "2025-10-01",
+      "estimate_type": "reported",
+      "confidence": 0.172,
+      "supporting_claims": [
+        "clm_debbb9865d"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 87000000.0,
+        "change_pct": 0.0,
+        "since": "2025-10-01"
+      },
+      "history_ref": "history/modal/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-07"
+  "last_updated": "2026-07-12"
 }

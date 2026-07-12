@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2026-05-27",
       "estimate_type": "consensus",
-      "confidence": 0.775,
+      "confidence": 0.771,
       "supporting_claims": [
         "clm_6075e9f8c4",
         "clm_8af1996394",
@@ -39,6 +39,29 @@
       "confirmed_value": 4000000000.0,
       "confirmed_as_of": "2026-01-08"
     },
+    "open_roles": {
+      "metric": "open_roles",
+      "value": 34.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-07-12",
+      "estimate_type": "reported",
+      "confidence": 0.438,
+      "supporting_claims": [
+        "clm_20d72b9b6c",
+        "clm_31f2f5739e"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 32.0,
+        "change_pct": 6.2,
+        "since": "2026-06-16"
+      },
+      "history_ref": "history/fireworks/open_roles.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "round_amount": {
       "metric": "round_amount",
       "value": 250000000.0,
@@ -46,7 +69,7 @@
       "range": null,
       "as_of": "2025-11-06",
       "estimate_type": "consensus",
-      "confidence": 0.468,
+      "confidence": 0.463,
       "supporting_claims": [
         "clm_14262fd0ba",
         "clm_4131aaef21",
@@ -55,36 +78,14 @@
       "contradiction": false,
       "delta": {
         "previous": 250000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2025-11-06"
       },
       "history_ref": "history/fireworks/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "open_roles": {
-      "metric": "open_roles",
-      "value": 32.0,
-      "unit": "count",
-      "range": null,
-      "as_of": "2026-07-07",
-      "estimate_type": "reported",
-      "confidence": 0.25,
-      "supporting_claims": [
-        "clm_20d72b9b6c"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 32.0,
-        "change_pct": 0.0,
-        "since": "2026-06-16"
-      },
-      "history_ref": "history/fireworks/open_roles.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-07"
+  "last_updated": "2026-07-12"
 }

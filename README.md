@@ -1,3 +1,5 @@
+
+
 <div align="center">
 
 # 🪧 OpenPitch
@@ -105,7 +107,7 @@ Ask your agent: *"What's Cognition's ARR, with sources and confidence?"* — it 
 
 ### Or just browse the data
 - 🌐 **Live dashboard** — [avierovich.github.io/openpitch](https://avierovich.github.io/openpitch/) (sourced company cards, refreshed daily) — or build locally: `openpitch build-dashboard`
-- 📁 **Raw data** — [`data/companies/`](data/) — plain JSON, diffable, yours to use
+- 📁 **Raw data** — [`data/companies/`](data/companies/) — plain JSON, diffable, yours to use
 - 🤝 **A2A Agent Card** — generated at `dashboard/dist/.well-known/agent.json`
 
 > **Data status:** live, refreshed daily by CI. Figures are **probabilistic, public-source intelligence** — every number carries its source, confidence score, and date, and open quality items are [tracked in public](https://avierovich.github.io/openpitch/quality.html). See the [methodology](docs/METHODOLOGY.md) and the [correction workflow](docs/CORRECTIONS.md).

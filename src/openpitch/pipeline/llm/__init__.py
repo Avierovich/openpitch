@@ -37,7 +37,13 @@ class MockLLM:
 
 # Default free-tier model rotation: each model has its OWN daily free quota, so
 # rotating multiplies free capacity. Ordered best-first.
-DEFAULT_MODELS = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-2.5-flash-lite"]
+#
+# Google retires models on a rolling schedule, so this list is perishable — the
+# whole 2.x rotation aged out (2.0-flash shut down 2026-06-01 and silently froze
+# the daily pipeline for 37 days; 2.5-flash/-lite retire by 2026-10-16). The
+# retirement handling below is what makes a stale entry survivable; refresh this
+# list when a model here nears its shutdown date.
+DEFAULT_MODELS = ["gemini-3.6-flash", "gemini-3.7-flash", "gemini-3.5-flash-lite"]
 
 
 class GeminiLLM:
@@ -84,6 +90,12 @@ class GeminiLLM:
                     msg = str(exc)
                     rate = "429" in msg or "RESOURCE_EXHAUSTED" in msg or "503" in msg
                     daily = "PerDay" in msg or "per day" in msg.lower()
+                    # A retired/unknown model 404s forever, so retrying or failing
+                    # the run is useless — treat it like an exhausted model and
+                    # rotate on. Without this a single retirement kills every run.
+                    if _is_retired(msg):
+                        self._exhausted.add(m)
+                        break
                     if rate and daily:
                         self._exhausted.add(m)  # rotate to next model
                         break
@@ -135,6 +147,22 @@ def _is_quota(msg: str) -> bool:
     return "429" in msg or "RESOURCE_EXHAUSTED" in msg or "exhausted" in msg.lower()
 
 
+def _is_retired(msg: str) -> bool:
+    """True for a model Google has shut down (or a name it doesn't know).
+
+    These 404 permanently, so the only useful response is to move on — to the
+    next model, then to the next provider. Kept deliberately broad: the exact
+    wording of the 404 has changed across retirements.
+    """
+    low = msg.lower()
+    return ("404" in msg or "not_found" in low or "not found" in low) and (
+        "no longer available" in low
+        or "not found" in low
+        or "is not supported" in low
+        or "not_found" in low
+    )
+
+
 class FallbackLLM:
     """Try providers in order; on quota exhaustion fall through to the next.
 
@@ -157,8 +185,11 @@ class FallbackLLM:
                 return p.complete_json(system, user, schema)
             except Exception as exc:  # noqa: BLE001
                 last = exc
-                if _is_quota(str(exc)):
-                    continue  # this provider is spent — try the next
+                # Spent OR entirely retired => this provider is useless for this
+                # run; fall through to the next one (e.g. Gemini -> Groq) rather
+                # than failing the whole pipeline.
+                if _is_quota(str(exc)) or _is_retired(str(exc)):
+                    continue
                 raise
         raise last or RuntimeError("No LLM providers configured.")
 

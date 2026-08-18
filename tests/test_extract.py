@@ -206,3 +206,53 @@ def test_batch_per_item_chars_passthrough():
     assert "valued at $15.8 billion" in seen["prompt"]
     extract_claims_batch([long_item], ACME, llm=MockLLM(capture), metric_keys=METRICS, now=NOW)
     assert "valued at $15.8 billion" not in seen["prompt"]  # default 1500 truncates
+
+
+# The exact error that silently froze the daily pipeline for 37 days (2026-07-12
+# → 08-18): Google retired gemini-2.0-flash mid-rotation and the 404 propagated
+# out of the run instead of rotating past the dead model.
+RETIRED_404 = (
+    "404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model "
+    "models/gemini-2.0-flash is no longer available. Please update your code to use "
+    "models/gemini-3.6-flash for the latest features and improvements.', "
+    "'status': 'NOT_FOUND'}}"
+)
+
+
+def test_gemini_rotates_past_a_retired_model():
+    """A retired model must degrade to the next model, never kill the run."""
+    from openpitch.pipeline.llm import GeminiLLM
+
+    class _Models:
+        def generate_content(self, model, contents, config):
+            if model == "dead-model":
+                raise RuntimeError(RETIRED_404)
+            class R:
+                text = '{"claims": []}'
+            return R()
+
+    class _Client:
+        models = _Models()
+
+    g = GeminiLLM.__new__(GeminiLLM)
+    g.client = _Client()
+    g.models = ["dead-model", "live-model"]
+    g._exhausted = set()
+    assert g.complete_json("s", "u", {}) == {"claims": []}   # did not raise
+    assert "dead-model" in g._exhausted
+    assert g.model == "live-model"
+
+
+def test_fallback_switches_provider_when_every_model_is_retired():
+    """If the whole Gemini rotation is retired, fall through to the next provider
+    (Groq) instead of failing — same bug, one layer up."""
+    from openpitch.pipeline.llm import FallbackLLM, MockLLM
+
+    class _AllRetired:
+        model = "dead-model"
+
+        def complete_json(self, system, user, schema):
+            raise RuntimeError(RETIRED_404)
+
+    llm = FallbackLLM([_AllRetired(), MockLLM({"claims": []})])
+    assert llm.complete_json("s", "u", {}) == {"claims": []}

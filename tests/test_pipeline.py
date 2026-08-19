@@ -398,9 +398,12 @@ def test_run_publishes_when_the_runtime_budget_is_hit(data_dir, monkeypatch):
     """
     from typer.testing import CliRunner
     import openpitch.config as config_mod
+    import openpitch.pipeline.llm as llm_mod
     import openpitch.pipeline.sources as sources_mod
     from openpitch.pipeline import run as run_mod
 
+    # No LLM key in CI: run() builds a provider before the loop, so stub it out.
+    monkeypatch.setattr(llm_mod, "get_provider", lambda: llm_mod.MockLLM({"claims": []}))
     # load_watchlist is imported inside run(), so patch it at its source module.
     monkeypatch.setattr(config_mod, "load_watchlist",
                         lambda: [{"id": f"co{i}", "name": f"Co {i}"} for i in range(5)])

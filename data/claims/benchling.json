@@ -1,0 +1,131 @@
+[
+  {
+    "id": "clm_7c59fc4223",
+    "company_id": "benchling",
+    "metric": "arr",
+    "value": 200000000.0,
+    "unit": "USD",
+    "raw_text": "$200M ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBZQ2RjQ0E3U0Z6TVBSSEtEWkN2WnB5RGpVXy1iMEszbnBGM1BndWJNNnlMRjZlNVJyckRnNERrSGFmaUV5c0NYVllyd2JqcnN1Z1lxMk5FMA?oc=5",
+      "locator": null,
+      "published_at": "2025-11-28"
+    },
+    "extracted_at": "2026-08-19T12:30:22.754661",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_b8c186c215",
+    "company_id": "benchling",
+    "metric": "valuation",
+    "value": 6100000000.0,
+    "unit": "USD",
+    "raw_text": "$6.1B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBZQ2RjQ0E3U0Z6TVBSSEtEWkN2WnB5RGpVXy1iMEszbnBGM1BndWJNNnlMRjZlNVJyckRnNERrSGFmaUV5c0NYVllyd2JqcnN1Z1lxMk5FMA?oc=5",
+      "locator": null,
+      "published_at": "2025-11-28"
+    },
+    "extracted_at": "2026-08-19T12:30:22.754661",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_fc5152858f",
+    "company_id": "benchling",
+    "metric": "latest_round",
+    "value": 50000000.0,
+    "unit": "USD",
+    "raw_text": "$50M Series D",
+    "qualifiers": [
+      "series_d"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Lab Manager",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWFRfbUhLRjFaOGN4bUYwTzhOQ0FaTzJnTmNlaFVLUDh4SWdYRlV4UmQzbFMtRDhNbTdDZXE1Tjk5YU52U2otQWdVMUd3SFpWZENIZnl3MjRjQTh1N2lwV1hDN3lGSmxSb0xnTzFZNmJ6TEpQSGpoZ0Exako2dk9vMW9sMHJpaTlWNnJBelg5cFpsQnp0M3o5RHdKVQ?oc=5",
+      "locator": null,
+      "published_at": "2020-06-02"
+    },
+    "extracted_at": "2026-08-19T12:30:22.754661",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_29d445c618",
+    "company_id": "benchling",
+    "metric": "latest_round",
+    "value": 14500000.0,
+    "unit": "USD",
+    "raw_text": "$14.5M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "SynBioBeta",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOblpqWlBJelI4eDFQdlBEckxMdEtOMDZuTnkwTmFhTVkxQkdpTzgtSHZRQS1VQTBKeGV1QWtScmxveTRiSVBkNXpGcFdyMXJINkRFRzZGYm03elVhRjdmUU04b0gzOWpJR0xDVnpKajl5d2RaZGctLWRidXhSdFVlRy1GcnMtdm1pOHI2Zi0yMnZjVWJPSU1IcGZHUDdTMG83Y3BGUVdSNVl2V0VuY0RiVERNeTFiZw?oc=5",
+      "locator": null,
+      "published_at": "2018-06-21"
+    },
+    "extracted_at": "2026-08-19T12:30:22.754661",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "drv_f81e518ec8",
+    "company_id": "benchling",
+    "metric": "revenue_multiple",
+    "value": 30.5,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2025-11-28"
+    },
+    "extracted_at": "2026-08-19T12:30:22.754661",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.1294,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_b8c186c215",
+        "clm_7c59fc4223"
+      ]
+    }
+  }
+]

@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-07-12
+# OpenPitch Data Quality Report - 2026-08-19
 
 ## Summary
 
-- Profiles generated: 160
-- Watchlist candidates: 539
+- Profiles generated: 215
+- Watchlist candidates: 619
 - Top-50 cards: 50
-- Profiles with at least one metric: 153
-- Critical issues: 28
-- Warnings: 37
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 376
+- Profiles with at least one metric: 207
+- Critical issues: 38
+- Warnings: 40
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 401
 
 ## Top-50 Companies With No Metrics
 
@@ -21,10 +21,13 @@ None.
 ## Top-50 Missing ARR / Revenue
 
 - Sierra
+- Bright Health
+- Celonis
 - OpenEvidence
+- Airwallex
 - Replit
+- Chainalysis
 - Hadrian
-- Suno
 
 ## Curated High-Priority Watchlist Companies Not Profiled (critical)
 
@@ -35,13 +38,23 @@ None.
 
 - Unifonic
 - G42
+- Carbon Robotics
+- AnyVision
 - Augment Code
+- Causaly
+- Bland AI
 - Foodics
 - AI71
 - Aidoc
 - Ambience Healthcare
+- Aqemia
 - Arcade
+- AssemblyAI
+- AttoTude
 - Auterion
+- Built Robotics
+- Cadence
+- Capella Space
 - Captions
 - Cartesia
 - Cognism
@@ -76,7 +89,10 @@ None.
 - Perplexity: valuation
 - Perplexity: arr
 - Applied Intuition: headcount
+- Bright Health: valuation
 - Mistral AI: arr
+- Celonis: round_amount
+- Celonis: headcount
 - Shield AI: round_amount
 - Lovable: round_amount
 - Lovable: headcount
@@ -91,9 +107,6 @@ None.
 - Hadrian: round_amount
 - Glean: arr
 - Glean: round_amount
-- SandboxAQ: arr
-- Legora: total_funding
-- Suno: round_amount
 
 ## Review Rule
 

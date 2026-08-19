@@ -1,0 +1,86 @@
+[
+  {
+    "id": "clm_662f824fa1",
+    "company_id": "abacus-insights",
+    "metric": "arr",
+    "value": 5700000.0,
+    "unit": "USD",
+    "raw_text": "$5.7M Est. ARR",
+    "qualifiers": [
+      "run_rate",
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVEplVDdOUmtGWDVyb3RFeDZsZ3prNlBfQ1BvZWs1X3pQYWNpU2FURUt4Q3pCeU1vUkFDckZQRzRqTl95MUxTN0FxdHF1V3lodWVmaEx4UVpHUQ?oc=5",
+      "locator": null,
+      "published_at": "2024-12-23"
+    },
+    "extracted_at": "2026-08-19T12:30:22.754661",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4252,
+    "derivation": null
+  },
+  {
+    "id": "clm_1532b435bd",
+    "company_id": "abacus-insights",
+    "metric": "valuation",
+    "value": 65000000.0,
+    "unit": "USD",
+    "raw_text": "$65M Valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVEplVDdOUmtGWDVyb3RFeDZsZ3prNlBfQ1BvZWs1X3pQYWNpU2FURUt4Q3pCeU1vUkFDckZQRzRqTl95MUxTN0FxdHF1V3lodWVmaEx4UVpHUQ?oc=5",
+      "locator": null,
+      "published_at": "2024-12-23"
+    },
+    "extracted_at": "2026-08-19T12:30:22.754661",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "drv_506713883b",
+    "company_id": "abacus-insights",
+    "metric": "revenue_multiple",
+    "value": 11.4,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2024-12-23"
+    },
+    "extracted_at": "2026-08-19T12:30:22.754661",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.1848,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_1532b435bd",
+        "clm_662f824fa1"
+      ]
+    }
+  }
+]

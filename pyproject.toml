@@ -38,7 +38,12 @@ Changelog = "https://github.com/Avierovich/openpitch/blob/main/CHANGELOG.md"
 pipeline = [
     "google-genai>=0.3",      # default pipeline LLM (swappable)
 ]
-dev = ["ruff>=0.4", "mypy>=1.9", "pytest>=8.0", "openpyxl>=3.1"]
+# ruff is PINNED to a minor range on purpose: it is a CI gate, and each ruff
+# release can add default rules that fail an unchanged codebase. An unpinned
+# `ruff>=0.4` did exactly that — CI went red on 67 pre-existing findings (mostly
+# naive-datetime) that this repo uses deliberately for determinism. Bump this
+# range knowingly, with the lint fixes in the same commit.
+dev = ["ruff>=0.15,<0.16", "mypy>=1.9", "pytest>=8.0", "openpyxl>=3.1"]
 
 [project.scripts]
 openpitch = "openpitch.pipeline.run:app"          # CLI: run the pipeline

@@ -20,6 +20,11 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    # Two independent guards, because this job silently ate itself for 37 days:
+    # the pipeline stops collecting at its own budget (--max-runtime-minutes) and
+    # still publishes, and this timeout is the backstop if a step hangs outside
+    # that loop. Both sit under the 6h hosted-runner ceiling.
+    timeout-minutes: 300
     # Secrets mapped once at job level; steps test the env var — the `secrets`
     # context is not valid inside step `if:` expressions (GitHub rejects the
     # whole workflow file at parse time).
@@ -56,7 +61,13 @@ jobs:
         # Falls back to the committed seed (offline) when no LLM key is configured.
         # Ingests the full watchlist INCLUDING anything `discover` just added.
         # Deeper item cap => more independent sources per metric => more corroboration.
-        run: openpitch run --max-source-items 25 $([ -z "$LLM_API_KEY" ] && echo --offline)
+        # --max-runtime-minutes keeps the collect loop inside the runner's life so the
+        # run ALWAYS reaches publish; whatever it doesn't reach refreshes tomorrow
+        # (extraction is cached, so the next run resumes cheaply rather than redoing it).
+        # --transcriptions 1: audio fetch+upload dominated the runtime at 3/company.
+        run: >
+          openpitch run --max-source-items 25 --transcriptions 1 --max-runtime-minutes 240
+          $([ -z "$LLM_API_KEY" ] && echo --offline)
 
       - name: Build dashboard
         run: openpitch build-dashboard

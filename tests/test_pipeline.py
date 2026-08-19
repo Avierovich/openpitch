@@ -388,3 +388,39 @@ def test_search_caps_results(data_dir, monkeypatch):
     monkeypatch.setattr(tools.store, "read_all_companies", lambda: comps)
     r = tools.search("ai", limit=25)
     assert r["total"] == 40 and r["truncated"] is True and len(r["results"]) == 25
+
+
+def test_run_publishes_when_the_runtime_budget_is_hit(data_dir, monkeypatch):
+    """An over-budget run must still publish what it finished.
+
+    Regression: the daily job wrote data only after the whole watchlist, so a run
+    killed by the runner published NOTHING — it did that for 37 days straight.
+    """
+    from typer.testing import CliRunner
+    import openpitch.config as config_mod
+    import openpitch.pipeline.sources as sources_mod
+    from openpitch.pipeline import run as run_mod
+
+    # load_watchlist is imported inside run(), so patch it at its source module.
+    monkeypatch.setattr(config_mod, "load_watchlist",
+                        lambda: [{"id": f"co{i}", "name": f"Co {i}"} for i in range(5)])
+    monkeypatch.setattr(sources_mod, "ADAPTERS", [])          # no network
+    monkeypatch.setattr(run_mod.store, "read_claims",
+                        lambda cid: [_claim("arr", 1e6, stype=SourceType.NEWS, sname="X")])
+    monkeypatch.setattr(run_mod, "_reconcile_company",
+                        lambda meta, claims, **kw: (
+                            Company(id=meta["id"], name=meta["name"], last_updated=AS_OF), []))
+    finalized = {}
+    def _fake_finalize(pairs, **kw):
+        finalized["n"] = len(pairs)
+        return 0
+    monkeypatch.setattr(run_mod, "_finalize", _fake_finalize)
+
+    # Clock: deadline calc, first check (under budget), then over budget forever.
+    ticks = iter([0.0, 0.0] + [10_000.0] * 50)
+    monkeypatch.setattr(run_mod.time, "monotonic", lambda: next(ticks))
+
+    res = CliRunner().invoke(run_mod.app, ["run", "--max-runtime-minutes", "1", "--no-gap-fill"])
+    assert res.exit_code == 0, res.output
+    assert "runtime budget" in res.output      # stopped early…
+    assert finalized.get("n") == 1             # …and still published the finished work

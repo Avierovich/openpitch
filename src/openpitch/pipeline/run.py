@@ -209,6 +209,8 @@ def run(
     no_cache: bool = typer.Option(False, "--no-cache", help="Re-extract every item, ignoring the extraction cache."),
     gap_fill: bool = typer.Option(True, "--gap-fill/--no-gap-fill",
                                   help="Second-pass article hunt when funding is known but valuation is missing."),
+    max_runtime_minutes: int = typer.Option(
+        0, help="Stop collecting after N minutes and publish what finished (0 = no limit)."),
 ) -> None:
     """Live daily pass: collect → transcribe → extract → derive → reconcile → publish."""
     if offline:
@@ -252,7 +254,17 @@ def run(
     cache = {} if no_cache else extract_cache.load()
     cached_total = 0
     pairs: list[tuple[Company, list[Claim]]] = []
+    # A hosted runner kills a too-long job, and this loop only persists anything in
+    # _finalize() at the very end — so an over-budget run used to throw away hours of
+    # work and publish NOTHING (the daily job did exactly that for 37 days straight).
+    # Stop collecting at the budget and publish what finished; the next run resumes
+    # cheaply because extracted items are cached.
+    deadline = time.monotonic() + max_runtime_minutes * 60 if max_runtime_minutes > 0 else None
     for meta in watchlist:
+        if deadline and time.monotonic() > deadline:
+            typer.echo(f"! runtime budget ({max_runtime_minutes}m) reached — publishing "
+                       f"{len(pairs)} of {len(watchlist)} companies; the rest refresh next run.")
+            break
         typer.echo(f"· {meta['id']}")
         company_stub = Company(id=meta["id"], name=meta["name"], last_updated=as_of,
                                aliases=meta.get("aliases", []), website=meta.get("domain"),

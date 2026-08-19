@@ -20,11 +20,12 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    # Two independent guards, because this job silently ate itself for 37 days:
-    # the pipeline stops collecting at its own budget (--max-runtime-minutes) and
-    # still publishes, and this timeout is the backstop if a step hangs outside
-    # that loop. Both sit under the 6h hosted-runner ceiling.
-    timeout-minutes: 300
+    # The binding constraint is NOT the 6h job ceiling — this runner dies somewhere
+    # between 1h and 3h into the pipeline step (observed: repeated "lost communication
+    # with the server" / cancelled runs). So the collect budget below must sit under
+    # the runner's real survival time, not under the ceiling; a 240m budget never
+    # fired because the runner died at ~80m first. Publish early and often instead.
+    timeout-minutes: 120
     # Secrets mapped once at job level; steps test the env var — the `secrets`
     # context is not valid inside step `if:` expressions (GitHub rejects the
     # whole workflow file at parse time).
@@ -61,12 +62,13 @@ jobs:
         # Falls back to the committed seed (offline) when no LLM key is configured.
         # Ingests the full watchlist INCLUDING anything `discover` just added.
         # Deeper item cap => more independent sources per metric => more corroboration.
-        # --max-runtime-minutes keeps the collect loop inside the runner's life so the
-        # run ALWAYS reaches publish; whatever it doesn't reach refreshes tomorrow
-        # (extraction is cached, so the next run resumes cheaply rather than redoing it).
+        # 45m of collecting comfortably beats the ~80m+ point where the runner dies, so
+        # the run ALWAYS reaches publish. A budgeted run takes the STALEST companies
+        # first, so consecutive days rotate through the whole universe instead of
+        # redoing the same head; extraction is cached, so repeats are cheap.
         # --transcriptions 1: audio fetch+upload dominated the runtime at 3/company.
         run: >
-          openpitch run --max-source-items 25 --transcriptions 1 --max-runtime-minutes 240
+          openpitch run --max-source-items 25 --transcriptions 1 --max-runtime-minutes 45
           $([ -z "$LLM_API_KEY" ] && echo --offline)
 
       - name: Build dashboard

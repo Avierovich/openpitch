@@ -427,3 +427,33 @@ def test_run_publishes_when_the_runtime_budget_is_hit(data_dir, monkeypatch):
     assert res.exit_code == 0, res.output
     assert "runtime budget" in res.output      # stopped early…
     assert finalized.get("n") == 1             # …and still published the finished work
+
+
+def test_budgeted_run_takes_the_stalest_companies_first(data_dir, monkeypatch):
+    """A budgeted run can't finish the watchlist, so it must rotate.
+
+    Without this, every run refreshes the same head of the list and the tail is
+    never touched — the budget would quietly freeze most of the universe.
+    """
+    from typer.testing import CliRunner
+    import openpitch.config as config_mod
+    import openpitch.pipeline.llm as llm_mod
+    import openpitch.pipeline.sources as sources_mod
+    from openpitch.pipeline import run as run_mod
+
+    # fresh was refreshed today; stale a year ago; unseen has no committed profile.
+    store.write_company(Company(id="fresh", name="Fresh", last_updated=date(2026, 8, 19)))
+    store.write_company(Company(id="stale", name="Stale", last_updated=date(2025, 8, 19)))
+    monkeypatch.setattr(config_mod, "load_watchlist", lambda: [
+        {"id": "fresh", "name": "Fresh"}, {"id": "stale", "name": "Stale"},
+        {"id": "unseen", "name": "Unseen"}])
+    monkeypatch.setattr(llm_mod, "get_provider", lambda: llm_mod.MockLLM({"claims": []}))
+    monkeypatch.setattr(sources_mod, "ADAPTERS", [])
+    monkeypatch.setattr(run_mod.store, "read_claims",
+                        lambda cid: [_claim("arr", 1e6, stype=SourceType.NEWS, sname="X")])
+    monkeypatch.setattr(run_mod, "_finalize", lambda pairs, **kw: 0)
+
+    res = CliRunner().invoke(run_mod.app, ["run", "--max-runtime-minutes", "60", "--no-gap-fill"])
+    assert res.exit_code == 0, res.output
+    order = [ln[2:] for ln in res.output.splitlines() if ln.startswith("· ")]
+    assert order == ["unseen", "stale", "fresh"]   # never-run, then oldest, then newest

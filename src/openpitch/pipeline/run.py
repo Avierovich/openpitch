@@ -251,6 +251,15 @@ def run(
         watchlist = [meta for meta in watchlist if meta["id"] in wanted]
     if companies > 0:
         watchlist = watchlist[:companies]
+    if max_runtime_minutes > 0 and not ids.strip():
+        # A budgeted run can't reach the whole watchlist, and processing it in a fixed
+        # order would refresh the same head every day and never touch the tail. Take the
+        # stalest first, so consecutive runs rotate through the universe and every
+        # company keeps getting refreshed. Unknown/never-run companies sort first.
+        def _staleness(meta: dict):
+            c = store.read_company(meta["id"])
+            return (str(c.last_updated) if c and c.last_updated else "", meta["id"])
+        watchlist = sorted(watchlist, key=_staleness)
     cache = {} if no_cache else extract_cache.load()
     cached_total = 0
     pairs: list[tuple[Company, list[Claim]]] = []

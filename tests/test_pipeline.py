@@ -429,11 +429,12 @@ def test_run_publishes_when_the_runtime_budget_is_hit(data_dir, monkeypatch):
     assert finalized.get("n") == 1             # …and still published the finished work
 
 
-def test_budgeted_run_takes_the_stalest_companies_first(data_dir, monkeypatch):
-    """A budgeted run can't finish the watchlist, so it must rotate.
+def test_budgeted_run_prioritises_dashboard_companies_then_stalest(data_dir, monkeypatch):
+    """Order for a budgeted run: visible (in-universe) companies first, then the tail.
 
-    Without this, every run refreshes the same head of the list and the tail is
-    never touched — the budget would quietly freeze most of the universe.
+    Two regressions this guards: (a) fixed order refreshes the same head forever and
+    freezes the tail; (b) pure stalest-first lets never-profiled discoveries outrank
+    the top-50, starving exactly what the public dashboard shows.
     """
     from typer.testing import CliRunner
     import openpitch.config as config_mod
@@ -441,12 +442,15 @@ def test_budgeted_run_takes_the_stalest_companies_first(data_dir, monkeypatch):
     import openpitch.pipeline.sources as sources_mod
     from openpitch.pipeline import run as run_mod
 
-    # fresh was refreshed today; stale a year ago; unseen has no committed profile.
-    store.write_company(Company(id="fresh", name="Fresh", last_updated=date(2026, 8, 19)))
-    store.write_company(Company(id="stale", name="Stale", last_updated=date(2025, 8, 19)))
+    store.write_company(Company(id="shown_fresh", name="A", in_universe=True,
+                                last_updated=date(2026, 8, 19)))
+    store.write_company(Company(id="shown_stale", name="B", in_universe=True,
+                                last_updated=date(2026, 7, 12)))
+    store.write_company(Company(id="tail", name="C", in_universe=False,
+                                last_updated=date(2025, 1, 1)))
     monkeypatch.setattr(config_mod, "load_watchlist", lambda: [
-        {"id": "fresh", "name": "Fresh"}, {"id": "stale", "name": "Stale"},
-        {"id": "unseen", "name": "Unseen"}])
+        {"id": "shown_fresh", "name": "A"}, {"id": "shown_stale", "name": "B"},
+        {"id": "tail", "name": "C"}, {"id": "never_seen", "name": "D"}])
     monkeypatch.setattr(llm_mod, "get_provider", lambda: llm_mod.MockLLM({"claims": []}))
     monkeypatch.setattr(sources_mod, "ADAPTERS", [])
     monkeypatch.setattr(run_mod.store, "read_claims",
@@ -455,5 +459,7 @@ def test_budgeted_run_takes_the_stalest_companies_first(data_dir, monkeypatch):
 
     res = CliRunner().invoke(run_mod.app, ["run", "--max-runtime-minutes", "60", "--no-gap-fill"])
     assert res.exit_code == 0, res.output
-    order = [ln[2:] for ln in res.output.splitlines() if ln.startswith("· ")]
-    assert order == ["unseen", "stale", "fresh"]   # never-run, then oldest, then newest
+    order = [ln[2:] for ln in res.output.splitlines() if ln.startswith("\u00b7 ")]
+    # dashboard companies lead (stalest of them first), then the unshown tail
+    assert order[:2] == ["shown_stale", "shown_fresh"]
+    assert set(order[2:]) == {"never_seen", "tail"}

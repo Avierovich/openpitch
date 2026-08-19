@@ -252,14 +252,20 @@ def run(
     if companies > 0:
         watchlist = watchlist[:companies]
     if max_runtime_minutes > 0 and not ids.strip():
-        # A budgeted run can't reach the whole watchlist, and processing it in a fixed
-        # order would refresh the same head every day and never touch the tail. Take the
-        # stalest first, so consecutive runs rotate through the universe and every
-        # company keeps getting refreshed. Unknown/never-run companies sort first.
-        def _staleness(meta: dict):
+        # A budgeted run can't reach the whole watchlist, so order matters twice over.
+        # Fixed order would refresh the same head daily and freeze the tail. But pure
+        # stalest-first is also wrong: never-profiled discoveries (currently the large
+        # majority) would outrank the top-50, starving exactly the companies the public
+        # dashboard shows. So: dashboard companies first (stalest of them leading), then
+        # everything else stalest-first. Freshness where it is visible; the tail still
+        # rotates on the remaining budget.
+        def _priority(meta: dict):
             c = store.read_company(meta["id"])
-            return (str(c.last_updated) if c and c.last_updated else "", meta["id"])
-        watchlist = sorted(watchlist, key=_staleness)
+            in_universe = bool(c and c.in_universe)
+            return (0 if in_universe else 1,
+                    str(c.last_updated) if c and c.last_updated else "",
+                    meta["id"])
+        watchlist = sorted(watchlist, key=_priority)
     cache = {} if no_cache else extract_cache.load()
     cached_total = 0
     pairs: list[tuple[Company, list[Claim]]] = []

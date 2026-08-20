@@ -9,24 +9,69 @@
   "summary": "Lovable provides AI-powered coding tools, including code generation and review capabilities.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 84.1,
-  "universe_rank": 32,
+  "vc_attention_score": 84.4,
+  "universe_rank": 29,
   "metrics": {
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 400000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 400000000.0,
+        "high": 400000000.0
+      },
+      "as_of": "2026-08-18",
+      "estimate_type": "consensus",
+      "confidence": 0.97,
+      "supporting_claims": [
+        "clm_b063360724",
+        "clm_13b3281ef4",
+        "clm_f8f6a06719",
+        "clm_239b276a33",
+        "clm_a43fbb3c39",
+        "clm_244dededf7",
+        "clm_552e57325e",
+        "clm_fd8303b6c5",
+        "clm_a58eb1de89",
+        "clm_70ba37f022",
+        "clm_115e42677a"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/lovable/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "valuation": {
       "metric": "valuation",
-      "value": 12000000000.0,
+      "value": 13180113798.18,
       "unit": "USD",
-      "range": null,
-      "as_of": "2026-06-05",
-      "estimate_type": "reported",
-      "confidence": 0.474,
+      "range": {
+        "low": 12000000000.0,
+        "high": 13300000000.0
+      },
+      "as_of": "2026-08-18",
+      "estimate_type": "consensus",
+      "confidence": 0.97,
       "supporting_claims": [
-        "clm_1480ebe5e9"
+        "clm_1480ebe5e9",
+        "clm_408c632421",
+        "clm_841ecb7b2c",
+        "clm_b1024af8de",
+        "clm_b18ed3796f",
+        "clm_e871d25ddc",
+        "clm_320282ca30",
+        "clm_1a8232d7dd",
+        "clm_1e2dcde037",
+        "clm_8b0395a408",
+        "clm_dfc2a689bf",
+        "clm_bf4125f4a4"
       ],
       "contradiction": false,
       "delta": {
         "previous": 12000000000.0,
-        "change_pct": 0.0,
+        "change_pct": 9.8,
         "since": "2026-06-05"
       },
       "history_ref": "history/lovable/valuation.jsonl",
@@ -36,25 +81,70 @@
     },
     "arr": {
       "metric": "arr",
-      "value": 400000000.0,
+      "value": 500000000.0,
       "unit": "USD",
-      "range": {
-        "low": 400000000.0,
-        "high": 500000000.0
-      },
-      "as_of": "2026-06-13",
-      "estimate_type": "reported",
-      "confidence": 0.412,
+      "range": null,
+      "as_of": "2026-08-12",
+      "estimate_type": "consensus",
+      "confidence": 0.538,
       "supporting_claims": [
-        "clm_bc108147cc"
+        "clm_6d7179c122",
+        "clm_d507a6647e"
       ],
       "contradiction": true,
       "delta": {
         "previous": 400000000.0,
-        "change_pct": 0.0,
+        "change_pct": 25.0,
         "since": "2026-06-13"
       },
       "history_ref": "history/lovable/arr.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 3.0,
+      "unit": "object",
+      "range": {
+        "low": 3.0,
+        "high": 3.0
+      },
+      "as_of": "2026-08-12",
+      "estimate_type": "consensus",
+      "confidence": 0.599,
+      "supporting_claims": [
+        "clm_cb11f113bd",
+        "clm_b1d39d62f3"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/lovable/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 400000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 330000000.0,
+        "high": 400000000.0
+      },
+      "as_of": "2026-08-12",
+      "estimate_type": "reported",
+      "confidence": 0.514,
+      "supporting_claims": [
+        "clm_34d5088b5e"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 330000000.0,
+        "change_pct": 21.2,
+        "since": "2025-12-18"
+      },
+      "history_ref": "history/lovable/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -66,14 +156,14 @@
       "range": null,
       "as_of": "2026-06-13",
       "estimate_type": "reported",
-      "confidence": 0.447,
+      "confidence": 0.36,
       "supporting_claims": [
         "clm_5d2e19603f"
       ],
       "contradiction": false,
       "delta": {
         "previous": 200.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-06-13"
       },
       "history_ref": "history/lovable/headcount.jsonl",
@@ -81,43 +171,21 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 330000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-12-18",
-      "estimate_type": "reported",
-      "confidence": 0.341,
-      "supporting_claims": [
-        "clm_cebbfd57a4"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 330000000.0,
-        "change_pct": 0.0,
-        "since": "2025-12-18"
-      },
-      "history_ref": "history/lovable/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 24.0,
+      "value": 26.6,
       "unit": "x",
       "range": null,
-      "as_of": "2026-06-09",
+      "as_of": "2026-08-12",
       "estimate_type": "reported",
-      "confidence": 0.193,
+      "confidence": 0.237,
       "supporting_claims": [
-        "drv_d1fc69eb7c"
+        "drv_3f4e84b453"
       ],
       "contradiction": false,
       "delta": {
         "previous": 24.0,
-        "change_pct": 0.0,
+        "change_pct": 10.8,
         "since": "2026-06-09"
       },
       "history_ref": "history/lovable/revenue_multiple.jsonl",
@@ -126,5 +194,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-08-20"
 }

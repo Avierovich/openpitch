@@ -96,12 +96,12 @@
     "derivation": null
   },
   {
-    "id": "clm_3d1db76fc2",
+    "id": "clm_ac5796a1b3",
     "company_id": "glean",
-    "metric": "valuation",
-    "value": 4600000000.0,
+    "metric": "latest_round",
+    "value": 150000000.0,
     "unit": "USD",
-    "raw_text": "Glean, aiming to be \"Google for work,\" valued at $4.6 billion in new funding round",
+    "raw_text": "$150 Million Series F Raised",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -109,10 +109,34 @@
     },
     "source": {
       "type": "news",
-      "name": "Fortune",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUlYyTFBDTks3NUxtZWtTaTJtZWFFRER0VDJDazlyYWFlNHZhaXlWaTI1SDhtX1pJVjBodGcyQ21wT3NMUzF6WkVfRVZmYnRiRHZLNFpBOUV6Nm9CTmVUSm1YRWxWZ2IyLTZud3k4MG1VOWUtVUtNeFM0OXp2NWNHMXREemkyTUxsTWR0UHJwSWExMERnQnZPSGo1MzRwNDZsZVhlSVJVN0lJTFU?oc=5",
+      "name": "Pulse 2.0",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNlZfRVcxNDJTNUE0SV9lNU4zQWZFOXo4U2l4T29uMjI0ZFR4eVljd2RxTmNIZzN6a2JWMHhXcm1vRDhqTTJZLVUyWXYxYmdVZzRDdHU5ZmJ2em5LVURuSjBsY2E5ZjlnQTc5WTBOdFYzZDBPR2lDSDFSVE5va0Y1ZzRmUGtGUDdEdkJSa2FCUGk0Z3Itck9BQUFXeFdOM2ZxWGl3cGVraEZCUEhnZy1FSFZTZ0trS0xYeEJfZnA2ZHfSAcYBQVVfeXFMTUJjWHBVbzlTNVZyT2FraUYwUXkwWXZqTWowajdDYTJIOGNtYWJfNFoxSXY4OFEwTVFpbEtuMDhxY3ZnYU9mRnB4cU1TZnFYUGtlZWg5NW10Q2l3d3ZCTW5HTUJlR0dDdHRMNENRNTZGT1pxUnhfZ3dLbkxVSWhxa18yYnJPcTcwbWpRUl9qR3piblFEUTM1ZDY2RG9kRTFJWmZlUGNXVDV6Y2pBNUhUeFRYMnRkcklZTmV2dkJ4QnZHZ3I3M3Z3?oc=5",
       "locator": null,
-      "published_at": "2024-09-10"
+      "published_at": "2025-06-11"
+    },
+    "extracted_at": "2026-07-06T14:18:05.027477",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_1365693e31",
+    "company_id": "glean",
+    "metric": "valuation",
+    "value": 7200000000.0,
+    "unit": "USD",
+    "raw_text": "$7.2 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Pulse 2.0",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNlZfRVcxNDJTNUE0SV9lNU4zQWZFOXo4U2l4T29uMjI0ZFR4eVljd2RxTmNIZzN6a2JWMHhXcm1vRDhqTTJZLVUyWXYxYmdVZzRDdHU5ZmJ2em5LVURuSjBsY2E5ZjlnQTc5WTBOdFYzZDBPR2lDSDFSVE5va0Y1ZzRmUGtGUDdEdkJSa2FCUGk0Z3Itck9BQUFXeFdOM2ZxWGl3cGVraEZCUEhnZy1FSFZTZ0trS0xYeEJfZnA2ZHfSAcYBQVVfeXFMTUJjWHBVbzlTNVZyT2FraUYwUXkwWXZqTWowajdDYTJIOGNtYWJfNFoxSXY4OFEwTVFpbEtuMDhxY3ZnYU9mRnB4cU1TZnFYUGtlZWg5NW10Q2l3d3ZCTW5HTUJlR0dDdHRMNENRNTZGT1pxUnhfZ3dLbkxVSWhxa18yYnJPcTcwbWpRUl9qR3piblFEUTM1ZDY2RG9kRTFJWmZlUGNXVDV6Y2pBNUhUeFRYMnRkcklZTmV2dkJ4QnZHZ3I3M3Z3?oc=5",
+      "locator": null,
+      "published_at": "2025-06-11"
     },
     "extracted_at": "2026-07-06T14:18:05.027477",
     "extractor_model": "gemini-2.5-flash",
@@ -168,36 +192,60 @@
     "derivation": null
   },
   {
-    "id": "clm_ac5796a1b3",
+    "id": "clm_38d9c49e8d",
     "company_id": "glean",
-    "metric": "latest_round",
-    "value": 150000000.0,
+    "metric": "round_amount",
+    "value": 260000000.0,
     "unit": "USD",
-    "raw_text": "$150 Million Series F Raised",
+    "raw_text": "raises $260M",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
       "type": "news",
-      "name": "Pulse 2.0",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNlZfRVcxNDJTNUE0SV9lNU4zQWZFOXo4U2l4T29uMjI0ZFR4eVljd2RxTmNIZzN6a2JWMHhXcm1vRDhqTTJZLVUyWXYxYmdVZzRDdHU5ZmJ2em5LVURuSjBsY2E5ZjlnQTc5WTBOdFYzZDBPR2lDSDFSVE5va0Y1ZzRmUGtGUDdEdkJSa2FCUGk0Z3Itck9BQUFXeFdOM2ZxWGl3cGVraEZCUEhnZy1FSFZTZ0trS0xYeEJfZnA2ZHfSAcYBQVVfeXFMTUJjWHBVbzlTNVZyT2FraUYwUXkwWXZqTWowajdDYTJIOGNtYWJfNFoxSXY4OFEwTVFpbEtuMDhxY3ZnYU9mRnB4cU1TZnFYUGtlZWg5NW10Q2l3d3ZCTW5HTUJlR0dDdHRMNENRNTZGT1pxUnhfZ3dLbkxVSWhxa18yYnJPcTcwbWpRUl9qR3piblFEUTM1ZDY2RG9kRTFJWmZlUGNXVDV6Y2pBNUhUeFRYMnRkcklZTmV2dkJ4QnZHZ3I3M3Z3?oc=5",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY0JraHhfVURoeWFEbFU3WDVMc1h2UmFGMFVPR3c1cXIySkdieEJsdzgyc0t6THhiVDExVEpvang1SjZtQnNQb1VmTURybmJQVGZiMGhrNm52clFTeS1DS1RMN2p4Z1ZRMFlTMWgtVDZSQm5HY3BNMGNaOGphMDRYUFg4ZGQ0QQ?oc=5",
       "locator": null,
-      "published_at": "2025-06-11"
+      "published_at": "2024-09-10"
     },
-    "extracted_at": "2026-07-06T14:18:05.027477",
-    "extractor_model": "gemini-2.5-flash",
-    "base_confidence": 0.525,
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
-    "id": "clm_1365693e31",
+    "id": "clm_2965839c1d",
     "company_id": "glean",
     "metric": "valuation",
-    "value": 7200000000.0,
+    "value": 4600000000.0,
     "unit": "USD",
-    "raw_text": "$7.2 Billion Valuation",
+    "raw_text": "$4.6B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY0JraHhfVURoeWFEbFU3WDVMc1h2UmFGMFVPR3c1cXIySkdieEJsdzgyc0t6THhiVDExVEpvang1SjZtQnNQb1VmTURybmJQVGZiMGhrNm52clFTeS1DS1RMN2p4Z1ZRMFlTMWgtVDZSQm5HY3BNMGNaOGphMDRYUFg4ZGQ0QQ?oc=5",
+      "locator": null,
+      "published_at": "2024-09-10"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_3d1db76fc2",
+    "company_id": "glean",
+    "metric": "valuation",
+    "value": 4600000000.0,
+    "unit": "USD",
+    "raw_text": "Glean, aiming to be \"Google for work,\" valued at $4.6 billion in new funding round",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -205,10 +253,10 @@
     },
     "source": {
       "type": "news",
-      "name": "Pulse 2.0",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNlZfRVcxNDJTNUE0SV9lNU4zQWZFOXo4U2l4T29uMjI0ZFR4eVljd2RxTmNIZzN6a2JWMHhXcm1vRDhqTTJZLVUyWXYxYmdVZzRDdHU5ZmJ2em5LVURuSjBsY2E5ZjlnQTc5WTBOdFYzZDBPR2lDSDFSVE5va0Y1ZzRmUGtGUDdEdkJSa2FCUGk0Z3Itck9BQUFXeFdOM2ZxWGl3cGVraEZCUEhnZy1FSFZTZ0trS0xYeEJfZnA2ZHfSAcYBQVVfeXFMTUJjWHBVbzlTNVZyT2FraUYwUXkwWXZqTWowajdDYTJIOGNtYWJfNFoxSXY4OFEwTVFpbEtuMDhxY3ZnYU9mRnB4cU1TZnFYUGtlZWg5NW10Q2l3d3ZCTW5HTUJlR0dDdHRMNENRNTZGT1pxUnhfZ3dLbkxVSWhxa18yYnJPcTcwbWpRUl9qR3piblFEUTM1ZDY2RG9kRTFJWmZlUGNXVDV6Y2pBNUhUeFRYMnRkcklZTmV2dkJ4QnZHZ3I3M3Z3?oc=5",
+      "name": "Fortune",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUlYyTFBDTks3NUxtZWtTaTJtZWFFRER0VDJDazlyYWFlNHZhaXlWaTI1SDhtX1pJVjBodGcyQ21wT3NMUzF6WkVfRVZmYnRiRHZLNFpBOUV6Nm9CTmVUSm1YRWxWZ2IyLTZud3k4MG1VOWUtVUtNeFM0OXp2NWNHMXREemkyTUxsTWR0UHJwSWExMERnQnZPSGo1MzRwNDZsZVhlSVJVN0lJTFU?oc=5",
       "locator": null,
-      "published_at": "2025-06-11"
+      "published_at": "2024-09-10"
     },
     "extracted_at": "2026-07-06T14:18:05.027477",
     "extractor_model": "gemini-2.5-flash",
@@ -428,7 +476,7 @@
       "locator": null,
       "published_at": "2026-05-29"
     },
-    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {

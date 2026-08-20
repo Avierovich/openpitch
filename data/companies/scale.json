@@ -10,17 +10,40 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 87.3,
-  "universe_rank": 15,
+  "universe_rank": 16,
   "metrics": {
+    "arr": {
+      "metric": "arr",
+      "value": 1500000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-08-06",
+      "estimate_type": "reported",
+      "confidence": 0.267,
+      "supporting_claims": [
+        "clm_a66030b533"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 2000000000.0,
+        "change_pct": -25.0,
+        "since": "2026-04-15"
+      },
+      "history_ref": "history/scale/arr.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "valuation": {
       "metric": "valuation",
       "value": 29000000000.0,
       "unit": "USD",
       "range": null,
       "as_of": "2025-06-12",
-      "estimate_type": "reported",
-      "confidence": 0.178,
+      "estimate_type": "consensus",
+      "confidence": 0.37,
       "supporting_claims": [
+        "clm_03c45c7ac6",
         "clm_2e72a2e2ff"
       ],
       "contradiction": false,
@@ -34,24 +57,20 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "arr": {
-      "metric": "arr",
-      "value": 2000000000.0,
-      "unit": "USD",
+    "headcount": {
+      "metric": "headcount",
+      "value": 1000.0,
+      "unit": "count",
       "range": null,
-      "as_of": "2026-04-15",
+      "as_of": "2026-08-20",
       "estimate_type": "reported",
-      "confidence": 0.193,
+      "confidence": 0.25,
       "supporting_claims": [
-        "clm_72dcfd9473"
+        "clm_275088b251"
       ],
       "contradiction": false,
-      "delta": {
-        "previous": 2000000000.0,
-        "change_pct": -0.0,
-        "since": "2026-04-15"
-      },
-      "history_ref": "history/scale/arr.jsonl",
+      "delta": null,
+      "history_ref": "history/scale/headcount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -63,14 +82,14 @@
       "range": null,
       "as_of": "2026-04-15",
       "estimate_type": "reported",
-      "confidence": 0.093,
+      "confidence": 0.067,
       "supporting_claims": [
         "drv_7856c56f6f"
       ],
       "contradiction": false,
       "delta": {
         "previous": 14.5,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-04-15"
       },
       "history_ref": "history/scale/revenue_multiple.jsonl",
@@ -79,5 +98,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-08-20"
 }

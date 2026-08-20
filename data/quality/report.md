@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-08-19
+# OpenPitch Data Quality Report - 2026-08-20
 
 ## Summary
 
-- Profiles generated: 215
-- Watchlist candidates: 619
+- Profiles generated: 225
+- Watchlist candidates: 666
 - Top-50 cards: 50
-- Profiles with at least one metric: 207
-- Critical issues: 38
-- Warnings: 40
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 401
+- Profiles with at least one metric: 217
+- Critical issues: 41
+- Warnings: 34
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 438
 
 ## Top-50 Companies With No Metrics
 
@@ -20,7 +20,6 @@ None.
 
 ## Top-50 Missing ARR / Revenue
 
-- Sierra
 - Bright Health
 - Celonis
 - OpenEvidence
@@ -39,6 +38,7 @@ None.
 - Unifonic
 - G42
 - Carbon Robotics
+- Amelia
 - AnyVision
 - Augment Code
 - Causaly
@@ -50,8 +50,10 @@ None.
 - Aqemia
 - Arcade
 - AssemblyAI
+- Attio
 - AttoTude
 - Auterion
+- Bright Machines
 - Built Robotics
 - Cadence
 - Capella Space
@@ -75,38 +77,33 @@ None.
 
 ## Single-Source Core Metrics
 
-- OpenAI: arr
-- Databricks: valuation
 - Anduril: round_amount
+- Anduril Industries: round_amount
 - Thinking Machines Lab: round_amount
-- Project Prometheus: valuation
-- Project Prometheus: total_funding
-- VAST Data: arr
-- Scale AI: valuation
-- Scale AI: arr
-- Cognition (Devin): valuation
-- Cerebras Systems: total_funding
-- Perplexity: valuation
-- Perplexity: arr
-- Applied Intuition: headcount
-- Bright Health: valuation
+- Figure AI: total_funding
+- Safe Superintelligence: headcount
+- Scale AI: headcount
+- Reflection AI: total_funding
 - Mistral AI: arr
+- Perplexity: arr
+- Fireworks AI: arr
+- Fireworks AI: total_funding
+- Fireworks AI: headcount
+- Sierra: arr
+- Applied Intuition: round_amount
+- Skild AI: round_amount
+- Lovable: headcount
 - Celonis: round_amount
 - Celonis: headcount
-- Shield AI: round_amount
-- Lovable: round_amount
-- Lovable: headcount
 - Poolside: arr
+- Cyera: headcount
+- OpenEvidence: total_funding
 - ElevenLabs: arr
 - Physical Intelligence: total_funding
-- Physical Intelligence: round_amount
-- Mercor: arr
 - Saronic: round_amount
 - Replit: total_funding
 - Together AI: arr
-- Hadrian: round_amount
 - Glean: arr
-- Glean: round_amount
 
 ## Review Rule
 

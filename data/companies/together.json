@@ -9,36 +9,48 @@
   "summary": "Together AI offers a decentralized cloud platform providing GPU resources optimized for training and deploying large-scale AI models.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 82.5,
-  "universe_rank": 47,
+  "vc_attention_score": 82.6,
+  "universe_rank": 46,
   "metrics": {
     "round_amount": {
       "metric": "round_amount",
-      "value": 1000000000.0,
+      "value": 800000000.0,
       "unit": "USD",
-      "range": null,
-      "as_of": "2026-07-12",
-      "estimate_type": "reported",
-      "confidence": 0.278,
+      "range": {
+        "low": 800000000.0,
+        "high": 800000000.0
+      },
+      "as_of": "2026-07-01",
+      "estimate_type": "consensus",
+      "confidence": 0.88,
       "supporting_claims": [
-        "clm_60aa98ea17",
-        "clm_60aa98ea17"
+        "clm_3581aedf72",
+        "clm_aa36aba360",
+        "clm_7133b5e74d",
+        "clm_22f09128cb"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": -20.0,
+        "since": "2026-07-12"
+      },
       "history_ref": "history/together/round_amount.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": 800000000.0,
+      "unconfirmed": false,
+      "confirmed_value": null,
       "confirmed_as_of": null
     },
     "valuation": {
       "metric": "valuation",
-      "value": 7664306083.87,
+      "value": 8014744420.06,
       "unit": "USD",
-      "range": null,
-      "as_of": "2026-05-09",
+      "range": {
+        "low": 8300000000.0,
+        "high": 8300000000.0
+      },
+      "as_of": "2026-07-01",
       "estimate_type": "consensus",
-      "confidence": 0.739,
+      "confidence": 0.955,
       "supporting_claims": [
         "clm_6ff4cf78d4",
         "clm_6ff4cf78d4",
@@ -46,18 +58,21 @@
         "clm_b8ec11cc06",
         "clm_49056f66a9",
         "clm_2b7244eadf",
+        "clm_f697be49fe",
+        "clm_d00af9045f",
+        "clm_3e104cf11e",
         "clm_77453f3da1"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 7500000000.0,
-        "change_pct": 2.2,
+        "previous": 7664306083.87,
+        "change_pct": 4.6,
         "since": "2026-05-09"
       },
       "history_ref": "history/together/valuation.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": 3300000000.0,
-      "confirmed_as_of": "2025-11-28"
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "total_funding": {
       "metric": "total_funding",
@@ -66,7 +81,7 @@
       "range": null,
       "as_of": "2026-05-09",
       "estimate_type": "consensus",
-      "confidence": 0.576,
+      "confidence": 0.554,
       "supporting_claims": [
         "clm_7db50733e9",
         "clm_88261697c4",
@@ -91,7 +106,7 @@
       "range": null,
       "as_of": "2025-11-28",
       "estimate_type": "reported",
-      "confidence": 0.057,
+      "confidence": 0.041,
       "supporting_claims": [
         "clm_e7ba8ab694"
       ],
@@ -108,19 +123,19 @@
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 75.0,
+      "value": 188.64,
       "unit": "x",
       "range": null,
-      "as_of": "2025-11-28",
+      "as_of": "2026-07-01",
       "estimate_type": "reported",
-      "confidence": 0.02,
+      "confidence": 0.119,
       "supporting_claims": [
-        "drv_21d7b42f83"
+        "drv_35cada1899"
       ],
       "contradiction": false,
       "delta": {
         "previous": 75.0,
-        "change_pct": 0.0,
+        "change_pct": 151.5,
         "since": "2025-11-28"
       },
       "history_ref": "history/together/revenue_multiple.jsonl",
@@ -129,5 +144,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-08-20"
 }

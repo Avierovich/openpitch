@@ -9,9 +9,69 @@
   "summary": "DeepSeek is a company that uses AI to develop large language models for various applications.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 89.2,
-  "universe_rank": 8,
+  "vc_attention_score": 90.6,
+  "universe_rank": 6,
   "metrics": {
+    "valuation": {
+      "metric": "valuation",
+      "value": 72417227955.08,
+      "unit": "USD",
+      "range": {
+        "low": 70900000000.0,
+        "high": 490000000000.0
+      },
+      "as_of": "2026-07-18",
+      "estimate_type": "consensus",
+      "confidence": 0.757,
+      "supporting_claims": [
+        "clm_aaea8403cf",
+        "clm_67c516deaa",
+        "clm_7a310f301b",
+        "clm_4501decfd4"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 50000000000.0,
+        "change_pct": 44.8,
+        "since": "2026-06-17"
+      },
+      "history_ref": "history/deepseek/valuation.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": 490000000000.0,
+      "confirmed_as_of": "2026-07-17"
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 7267334159.78,
+      "unit": "USD",
+      "range": {
+        "low": 7000000000.0,
+        "high": 70000000000.0
+      },
+      "as_of": "2026-08-12",
+      "estimate_type": "consensus",
+      "confidence": 0.97,
+      "supporting_claims": [
+        "clm_5231bdf809",
+        "clm_616d7f8f3c",
+        "clm_9986e0ea4b",
+        "clm_f20b5c9b56",
+        "clm_8f64663e7f",
+        "clm_1d0eef5fce",
+        "clm_8ccefb9401",
+        "clm_6719d2acab"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 7199621279.21,
+        "change_pct": 0.9,
+        "since": "2026-06-17"
+      },
+      "history_ref": "history/deepseek/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "total_funding": {
       "metric": "total_funding",
       "value": 7400000000.0,
@@ -22,7 +82,7 @@
       },
       "as_of": "2026-06-16",
       "estimate_type": "consensus",
-      "confidence": 0.757,
+      "confidence": 0.73,
       "supporting_claims": [
         "clm_98973fd778",
         "clm_f3a3dd444b"
@@ -37,66 +97,7 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 7199621279.21,
-      "unit": "USD",
-      "range": {
-        "low": 7000000000.0,
-        "high": 7400000000.0
-      },
-      "as_of": "2026-06-17",
-      "estimate_type": "consensus",
-      "confidence": 0.935,
-      "supporting_claims": [
-        "clm_5231bdf809",
-        "clm_616d7f8f3c",
-        "clm_9986e0ea4b",
-        "clm_1d0eef5fce",
-        "clm_8ccefb9401",
-        "clm_6719d2acab"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 7199621279.21,
-        "change_pct": -0.0,
-        "since": "2026-06-17"
-      },
-      "history_ref": "history/deepseek/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "valuation": {
-      "metric": "valuation",
-      "value": 50000000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 50000000000.0,
-        "high": 50000000000.0
-      },
-      "as_of": "2026-06-17",
-      "estimate_type": "consensus",
-      "confidence": 0.914,
-      "supporting_claims": [
-        "clm_141b04dd5a",
-        "clm_9b4c819c04",
-        "clm_ce7f187903",
-        "clm_9f6fa499ef",
-        "clm_0706896a50"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 50000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-06-17"
-      },
-      "history_ref": "history/deepseek/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-08-20"
 }

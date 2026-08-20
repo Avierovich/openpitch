@@ -10,8 +10,33 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 88.3,
-  "universe_rank": 10,
+  "universe_rank": 11,
   "metrics": {
+    "valuation": {
+      "metric": "valuation",
+      "value": 39000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-09-16",
+      "estimate_type": "consensus",
+      "confidence": 0.453,
+      "supporting_claims": [
+        "clm_bd4cd2e26e",
+        "clm_c87d1c4931",
+        "clm_07cc9d489b",
+        "clm_bcdf15d881"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 39000000000.0,
+        "change_pct": 0.0,
+        "since": "2025-09-16"
+      },
+      "history_ref": "history/figure/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "round_amount": {
       "metric": "round_amount",
       "value": 700000000.0,
@@ -19,7 +44,7 @@
       "range": null,
       "as_of": "2026-05-21",
       "estimate_type": "reported",
-      "confidence": 0.325,
+      "confidence": 0.292,
       "supporting_claims": [
         "clm_44a717b09a"
       ],
@@ -34,29 +59,24 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "valuation": {
-      "metric": "valuation",
-      "value": 39000000000.0,
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 1000000000.0,
       "unit": "USD",
       "range": null,
       "as_of": "2025-09-16",
-      "estimate_type": "consensus",
-      "confidence": 0.303,
+      "estimate_type": "reported",
+      "confidence": 0.33,
       "supporting_claims": [
-        "clm_07cc9d489b",
-        "clm_bcdf15d881"
+        "clm_7e98f0f671"
       ],
       "contradiction": false,
-      "delta": {
-        "previous": 39000000000.0,
-        "change_pct": 0.0,
-        "since": "2025-09-16"
-      },
-      "history_ref": "history/figure/valuation.jsonl",
+      "delta": null,
+      "history_ref": "history/figure/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-08-20"
 }

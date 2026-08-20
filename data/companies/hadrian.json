@@ -9,56 +9,117 @@
   "summary": "Hadrian develops AI-powered manufacturing solutions, improving production efficiency and product quality.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 82.4,
+  "vc_attention_score": 82.5,
   "universe_rank": 48,
   "metrics": {
-    "valuation": {
-      "metric": "valuation",
-      "value": 7500000000.0,
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 1370000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2026-06-23",
+      "as_of": "2026-08-06",
+      "estimate_type": "reported",
+      "confidence": 0.368,
+      "supporting_claims": [
+        "clm_8c87a29863"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/hadrian/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "valuation": {
+      "metric": "valuation",
+      "value": 7817399927.9,
+      "unit": "USD",
+      "range": {
+        "low": 7870000000.0,
+        "high": 8000000000.0
+      },
+      "as_of": "2026-08-14",
       "estimate_type": "consensus",
-      "confidence": 0.659,
+      "confidence": 0.97,
       "supporting_claims": [
         "clm_941135f0b6",
         "clm_2887159408",
         "clm_9d04f146a2",
-        "clm_3785f6c375"
+        "clm_3785f6c375",
+        "clm_8ec56f48d8",
+        "clm_46ec951765",
+        "clm_beefaf2755",
+        "clm_eb0e801d84",
+        "clm_0d58e05f59",
+        "clm_ebd7e7057a",
+        "clm_822f0288d4",
+        "clm_1d44ca344e"
       ],
       "contradiction": false,
       "delta": {
         "previous": 7500000000.0,
-        "change_pct": 0.0,
+        "change_pct": 4.2,
         "since": "2026-06-23"
       },
       "history_ref": "history/hadrian/valuation.jsonl",
-      "unconfirmed": true,
+      "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     },
     "round_amount": {
       "metric": "round_amount",
-      "value": 1000000000.0,
+      "value": 1374365155.21,
       "unit": "USD",
-      "range": null,
-      "as_of": "2026-06-24",
-      "estimate_type": "reported",
-      "confidence": 0.214,
+      "range": {
+        "low": 1370000000.0,
+        "high": 1400000000.0
+      },
+      "as_of": "2026-08-14",
+      "estimate_type": "consensus",
+      "confidence": 0.957,
       "supporting_claims": [
-        "clm_ed6f3aa401"
+        "clm_af6ac76a00",
+        "clm_a15f75a4c2",
+        "clm_0a7a8bcf7c",
+        "clm_8ce76547ad",
+        "clm_cacfc1bd91",
+        "clm_5f10f53284",
+        "clm_eef1fa0f42"
       ],
       "contradiction": false,
       "delta": {
         "previous": 1000000000.0,
-        "change_pct": 0.0,
+        "change_pct": 37.4,
         "since": "2026-06-24"
       },
       "history_ref": "history/hadrian/round_amount.jsonl",
-      "unconfirmed": true,
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 4.0,
+      "unit": "object",
+      "range": {
+        "low": 4.0,
+        "high": 4.0
+      },
+      "as_of": "2026-08-14",
+      "estimate_type": "consensus",
+      "confidence": 0.743,
+      "supporting_claims": [
+        "clm_ac08522c86",
+        "clm_b91d2d39b1",
+        "clm_d2641be46f"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/hadrian/latest_round.jsonl",
+      "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-08-20"
 }

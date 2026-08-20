@@ -9,9 +9,35 @@
   "summary": "Anduril creates autonomous systems for defense applications, using AI to enhance situational awareness and response times.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 89.9,
-  "universe_rank": 6,
+  "vc_attention_score": 91.8,
+  "universe_rank": 5,
   "metrics": {
+    "valuation": {
+      "metric": "valuation",
+      "value": 100000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-07-26",
+      "estimate_type": "consensus",
+      "confidence": 0.76,
+      "supporting_claims": [
+        "clm_6966bb7b74",
+        "clm_60dc13e9f2",
+        "clm_f5aedcded5",
+        "clm_7d80b2389a",
+        "clm_dc3d23e5db"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 60000000000.0,
+        "change_pct": 66.7,
+        "since": "2026-05-13"
+      },
+      "history_ref": "history/anduril/valuation.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": 60000000000.0,
+      "confirmed_as_of": "2026-05-13"
+    },
     "round_amount": {
       "metric": "round_amount",
       "value": 5000000000.0,
@@ -19,7 +45,7 @@
       "range": null,
       "as_of": "2026-05-13",
       "estimate_type": "reported",
-      "confidence": 0.318,
+      "confidence": 0.286,
       "supporting_claims": [
         "clm_5a30a4d901"
       ],
@@ -33,29 +59,7 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "valuation": {
-      "metric": "valuation",
-      "value": 60000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-05-13",
-      "estimate_type": "reported",
-      "confidence": 0.379,
-      "supporting_claims": [
-        "clm_00f7b11cf7"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 60000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-05-13"
-      },
-      "history_ref": "history/anduril/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-08-20"
 }

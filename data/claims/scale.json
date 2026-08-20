@@ -1,5 +1,79 @@
 [
   {
+    "id": "clm_a66030b533",
+    "company_id": "scale",
+    "metric": "arr",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "Scale AI Hits $1.5B ARR After the Meta Deal Left It for Dead",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "20VC (Harry Stebbings)",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-airtable-sold-for-1285bn-leo-achenbrenners-situational-awareness-blows-up-moonshot-ai-raises-35b-at-35b-anthropic-model-breaches-three-companies-security-big-tech-earnings-why-palantir-beat-the-rest",
+      "locator": null,
+      "published_at": "2026-08-06"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3,
+    "derivation": null
+  },
+  {
+    "id": "clm_03c45c7ac6",
+    "company_id": "scale",
+    "metric": "valuation",
+    "value": 29000000000.0,
+    "unit": "USD",
+    "raw_text": "Valuation $29B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "scale.com",
+      "url": "https://scale.com/about",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_275088b251",
+    "company_id": "scale",
+    "metric": "headcount",
+    "value": 1000.0,
+    "unit": "people",
+    "raw_text": "Employees 1,000+",
+    "qualifiers": [
+      "greater_than"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "scale.com",
+      "url": "https://scale.com/about",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
     "id": "clm_2e72a2e2ff",
     "company_id": "scale",
     "metric": "valuation",
@@ -69,7 +143,7 @@
       "locator": null,
       "published_at": "2026-04-15"
     },
-    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "derive-engine",
     "base_confidence": 0.194,
     "derivation": {

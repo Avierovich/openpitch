@@ -9,9 +9,93 @@
   "summary": "Databricks is a company that uses AI to create a data platform for businesses and organizations.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 92.8,
+  "vc_attention_score": 94.1,
   "universe_rank": 4,
   "metrics": {
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 5000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 5000000000.0,
+        "high": 5000000000.0
+      },
+      "as_of": "2026-08-14",
+      "estimate_type": "consensus",
+      "confidence": 0.97,
+      "supporting_claims": [
+        "clm_dd358898d5",
+        "clm_7b1940eca6",
+        "clm_0c81e0bfe0",
+        "clm_eec4e55c3b",
+        "clm_463bfcaa4a",
+        "clm_9ae619c146"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/databricks/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "valuation": {
+      "metric": "valuation",
+      "value": 190000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 134000000000.0,
+        "high": 190000000000.0
+      },
+      "as_of": "2026-08-14",
+      "estimate_type": "consensus",
+      "confidence": 0.97,
+      "supporting_claims": [
+        "clm_aa49621cbe",
+        "clm_2201682ef3",
+        "clm_5d811b752c",
+        "clm_ef30a95979",
+        "clm_4306adb73d",
+        "clm_1cca8f8bbf",
+        "clm_3fa9b9b4b8"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 134000000000.0,
+        "change_pct": 41.8,
+        "since": "2026-06-20"
+      },
+      "history_ref": "history/databricks/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "arr": {
+      "metric": "arr",
+      "value": 7000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 7000000000.0,
+        "high": 7000000000.0
+      },
+      "as_of": "2026-08-14",
+      "estimate_type": "consensus",
+      "confidence": 0.97,
+      "supporting_claims": [
+        "clm_6eb11d243d",
+        "clm_45e6e79641",
+        "clm_6e5df8955c",
+        "clm_4e1a3f0fac",
+        "clm_fd6eabef29",
+        "clm_1fa279d24f",
+        "clm_c8b1cad372"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/databricks/arr.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "revenue_growth": {
       "metric": "revenue_growth",
       "value": 80.0,
@@ -19,7 +103,7 @@
       "range": null,
       "as_of": "2026-06-16",
       "estimate_type": "reported",
-      "confidence": 0.254,
+      "confidence": 0.183,
       "supporting_claims": [
         "clm_45db87797a"
       ],
@@ -34,28 +118,24 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "valuation": {
-      "metric": "valuation",
-      "value": 134000000000.0,
-      "unit": "USD",
+    "revenue_multiple": {
+      "metric": "revenue_multiple",
+      "value": 27.14,
+      "unit": "x",
       "range": null,
-      "as_of": "2026-06-20",
+      "as_of": "2026-08-14",
       "estimate_type": "reported",
-      "confidence": 0.494,
+      "confidence": 0.217,
       "supporting_claims": [
-        "clm_2a42b0d67e"
+        "drv_b4c6f652fa"
       ],
       "contradiction": false,
-      "delta": {
-        "previous": 134000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-06-20"
-      },
-      "history_ref": "history/databricks/valuation.jsonl",
+      "delta": null,
+      "history_ref": "history/databricks/revenue_multiple.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-08-20"
 }

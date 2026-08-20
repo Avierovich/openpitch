@@ -21,11 +21,15 @@
       "estimate_type": "consensus",
       "confidence": 0.015,
       "supporting_claims": [
-        "clm_b27ab9ead5",
-        "clm_1fbc6df56e"
+        "clm_1fbc6df56e",
+        "clm_b27ab9ead5"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 8600000000.0,
+        "change_pct": 0.0,
+        "since": "2022-05-13"
+      },
       "history_ref": "history/chainalysis/valuation.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -45,12 +49,16 @@
         "clm_ba3d61ea7e"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 100000000.0,
+        "change_pct": 0.0,
+        "since": "2021-06-24"
+      },
       "history_ref": "history/chainalysis/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-19"
+  "last_updated": "2026-08-20"
 }

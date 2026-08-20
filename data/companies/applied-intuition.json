@@ -10,8 +10,26 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 84.9,
-  "universe_rank": 23,
+  "universe_rank": 25,
   "metrics": {
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 600000000.0,
+      "unit": "object",
+      "range": null,
+      "as_of": "2025-06-17",
+      "estimate_type": "reported",
+      "confidence": 0.116,
+      "supporting_claims": [
+        "clm_f81e68e01f"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/applied-intuition/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "valuation": {
       "metric": "valuation",
       "value": 15000000000.0,
@@ -22,8 +40,12 @@
       },
       "as_of": "2026-03-16",
       "estimate_type": "consensus",
-      "confidence": 0.761,
+      "confidence": 0.825,
       "supporting_claims": [
+        "clm_f459f57517",
+        "clm_d0b9595450",
+        "clm_a5f85d0485",
+        "clm_14e424138b",
         "clm_c9c74bd610",
         "clm_539f837dd5",
         "clm_13acae818e"
@@ -44,10 +66,11 @@
       "value": 1000.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-07-12",
+      "as_of": "2026-08-20",
       "estimate_type": "reported",
-      "confidence": 0.25,
+      "confidence": 0.438,
       "supporting_claims": [
+        "clm_da8f3aa7bb",
         "clm_da8f3aa7bb"
       ],
       "contradiction": false,
@@ -60,7 +83,25 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 600000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-06-18",
+      "estimate_type": "reported",
+      "confidence": 0.116,
+      "supporting_claims": [
+        "clm_e1912a8bb4"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/applied-intuition/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-08-20"
 }

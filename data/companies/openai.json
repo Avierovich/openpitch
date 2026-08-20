@@ -22,7 +22,7 @@
       },
       "as_of": "2026-05-11",
       "estimate_type": "consensus",
-      "confidence": 0.926,
+      "confidence": 0.896,
       "supporting_claims": [
         "clm_a66aa37416",
         "clm_d9b945e8b0",
@@ -33,10 +33,32 @@
       "contradiction": false,
       "delta": {
         "previous": 852000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-05-11"
       },
       "history_ref": "history/openai/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "arr": {
+      "metric": "arr",
+      "value": 24000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-04-15",
+      "estimate_type": "reported",
+      "confidence": 0.164,
+      "supporting_claims": [
+        "clm_f377d1d724"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 24000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-04-15"
+      },
+      "history_ref": "history/openai/arr.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -51,7 +73,7 @@
       },
       "as_of": "2026-05-11",
       "estimate_type": "consensus",
-      "confidence": 0.854,
+      "confidence": 0.81,
       "supporting_claims": [
         "clm_a2a0b3b943",
         "clm_575fed5cdd",
@@ -68,28 +90,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "arr": {
-      "metric": "arr",
-      "value": 24000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-04-15",
-      "estimate_type": "reported",
-      "confidence": 0.227,
-      "supporting_claims": [
-        "clm_f377d1d724"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 24000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-04-15"
-      },
-      "history_ref": "history/openai/arr.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "revenue_multiple": {
       "metric": "revenue_multiple",
       "value": 35.5,
@@ -97,7 +97,7 @@
       "range": null,
       "as_of": "2026-04-15",
       "estimate_type": "reported",
-      "confidence": 0.11,
+      "confidence": 0.079,
       "supporting_claims": [
         "drv_9606bb7a9f"
       ],
@@ -105,7 +105,7 @@
       "delta": {
         "previous": 35.5,
         "change_pct": 0.0,
-        "since": "2026-05-11"
+        "since": "2026-04-15"
       },
       "history_ref": "history/openai/revenue_multiple.jsonl",
       "unconfirmed": false,
@@ -113,5 +113,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-08-20"
 }

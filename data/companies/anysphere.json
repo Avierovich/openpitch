@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 89.8,
-  "universe_rank": 7,
+  "universe_rank": 8,
   "metrics": {
     "arr": {
       "metric": "arr",
@@ -19,15 +19,15 @@
       "range": null,
       "as_of": "2026-06-16",
       "estimate_type": "reported",
-      "confidence": 0.423,
+      "confidence": 0.305,
       "supporting_claims": [
         "clm_b9c75ebd29"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 2000000000.0,
-        "change_pct": 100.0,
-        "since": "2026-02-20"
+        "previous": 4000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-16"
       },
       "history_ref": "history/anysphere/arr.jsonl",
       "unconfirmed": false,
@@ -44,7 +44,7 @@
       },
       "as_of": "2026-06-16",
       "estimate_type": "consensus",
-      "confidence": 0.885,
+      "confidence": 0.847,
       "supporting_claims": [
         "clm_2a3c0b1ffe",
         "clm_aa3b541312",
@@ -53,9 +53,9 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 53756423428.66,
-        "change_pct": 6.9,
-        "since": "2026-04-18"
+        "previous": 57474096052.21,
+        "change_pct": 0.0,
+        "since": "2026-06-16"
       },
       "history_ref": "history/anysphere/valuation.jsonl",
       "unconfirmed": false,
@@ -67,14 +67,18 @@
       "value": 8.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-07-12",
+      "as_of": "2026-08-20",
       "estimate_type": "reported",
       "confidence": 0.25,
       "supporting_claims": [
         "clm_aae9ddfb08"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 8.0,
+        "change_pct": 0.0,
+        "since": "2026-07-12"
+      },
       "history_ref": "history/anysphere/open_roles.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -87,15 +91,15 @@
       "range": null,
       "as_of": "2026-06-16",
       "estimate_type": "reported",
-      "confidence": 0.204,
+      "confidence": 0.148,
       "supporting_claims": [
         "drv_b4aba4e71e"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 25.0,
-        "change_pct": -40.0,
-        "since": "2026-04-17"
+        "previous": 15.0,
+        "change_pct": 0.0,
+        "since": "2026-06-16"
       },
       "history_ref": "history/anysphere/revenue_multiple.jsonl",
       "unconfirmed": false,
@@ -103,5 +107,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-08-20"
 }

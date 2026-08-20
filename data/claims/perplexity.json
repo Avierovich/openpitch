@@ -1,5 +1,105 @@
 [
   {
+    "id": "clm_5ebd563604",
+    "company_id": "perplexity",
+    "metric": "round_amount",
+    "value": 500000000.0,
+    "unit": "USD",
+    "raw_text": "Perplexity AI in late-stage talks to raise $500m at $14bn valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRi1zRjFMWFRpZHF4QTl1ckl3ZjVyQ2F1THZPMG1xUVByUW1CX0NIM2k3bVo0SlFEclRtekVET2FMcUtMVWlCM1M0NmRPdlFoQW9Od0NZVXB1ZGVsQ3U5WTNYR2tHZGZ6bzZOQWd4QTREWERzR2ctNGxjSkNXWE16aWxxbw?oc=5",
+      "locator": null,
+      "published_at": "2025-05-13"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_42d1232ba5",
+    "company_id": "perplexity",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": "USD",
+    "raw_text": "raise $500m at $14bn valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRi1zRjFMWFRpZHF4QTl1ckl3ZjVyQ2F1THZPMG1xUVByUW1CX0NIM2k3bVo0SlFEclRtekVET2FMcUtMVWlCM1M0NmRPdlFoQW9Od0NZVXB1ZGVsQ3U5WTNYR2tHZGZ6bzZOQWd4QTREWERzR2ctNGxjSkNXWE16aWxxbw?oc=5",
+      "locator": null,
+      "published_at": "2025-05-13"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_e1bfc0ee51",
+    "company_id": "perplexity",
+    "metric": "valuation",
+    "value": 9000000000.0,
+    "unit": "USD",
+    "raw_text": "$9B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "AI Funding Tracker",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9aNk0tb3ZfU1hnNlFxNG9zSm5ub2QzZDNSYTl0ZXY5dldlYmR6NmNHekZuS1BqQVR5YTJNNHlDMzNmUFgyQWVTcjdXQ0YtZ0xBMVk3MVItMXFxMnB0dFI0VVhZaVdvTU1vMm5tOVdyV2MwaW56bmZPOA?oc=5",
+      "locator": null,
+      "published_at": "2026-02-19"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_c986d5bf1c",
+    "company_id": "perplexity",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": "USD",
+    "raw_text": "$20 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPS1BFQkxuaFg5N2ZZNURSUWUxQ1g2WFY4TWpDRlBGYzJMQVJUZFRuQXBVeUk1eEFJbGtYaFc5bFh0VHhXUGJZU21qZ0dEV3ZjaXRiNHpXZ0dRdFAyY1NJQVdMc0tMUVU3V0lBSGdzRmE1cTdkRVBUME9yRkw3Vm4zTnFXVm9nQWRaOWprWTdLdU5RWUN4NUpSSkoxa1kzaUp0T3FwSHNnNjBFaHJPOXoyMFVyTTQ?oc=5",
+      "locator": null,
+      "published_at": "2025-09-10"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_c03543c5e6",
     "company_id": "perplexity",
     "metric": "valuation",
@@ -74,10 +174,10 @@
     "derivation": null
   },
   {
-    "id": "drv_7b6b1809c8",
+    "id": "drv_f236f8dac3",
     "company_id": "perplexity",
     "metric": "revenue_multiple",
-    "value": 40.0,
+    "value": 18.0,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -92,14 +192,14 @@
       "locator": null,
       "published_at": "2026-04-15"
     },
-    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_c03543c5e6",
+        "clm_e1bfc0ee51",
         "clm_cf9c983ffe"
       ]
     }

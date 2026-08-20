@@ -12,18 +12,64 @@
   "vc_attention_score": 83.4,
   "universe_rank": 41,
   "metrics": {
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 3.0,
+      "unit": "object",
+      "range": null,
+      "as_of": "2026-07-25",
+      "estimate_type": "reported",
+      "confidence": 0.559,
+      "supporting_claims": [
+        "clm_c3657789fe"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/mercor/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 350000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-07-25",
+      "estimate_type": "consensus",
+      "confidence": 0.661,
+      "supporting_claims": [
+        "clm_74ed32197e",
+        "clm_5cff99b176"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 350000000.0,
+        "change_pct": -0.0,
+        "since": "2025-10-27"
+      },
+      "history_ref": "history/mercor/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "valuation": {
       "metric": "valuation",
       "value": 10000000000.0,
       "unit": "USD",
-      "range": null,
-      "as_of": "2025-10-27",
-      "estimate_type": "reported",
-      "confidence": 0.259,
+      "range": {
+        "low": 10000000000.0,
+        "high": 20000000000.0
+      },
+      "as_of": "2026-07-25",
+      "estimate_type": "consensus",
+      "confidence": 0.746,
       "supporting_claims": [
+        "clm_40aca5439c",
+        "clm_0051c9db8a",
         "clm_95d889f621"
       ],
-      "contradiction": false,
+      "contradiction": true,
       "delta": {
         "previous": 10000000000.0,
         "change_pct": 0.0,
@@ -34,43 +80,21 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 350000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-10-27",
-      "estimate_type": "reported",
-      "confidence": 0.259,
-      "supporting_claims": [
-        "clm_5cff99b176"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 350000000.0,
-        "change_pct": 0.0,
-        "since": "2025-10-27"
-      },
-      "history_ref": "history/mercor/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "arr": {
       "metric": "arr",
-      "value": 500000000.0,
+      "value": 2000000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2025-10-27",
+      "as_of": "2026-07-25",
       "estimate_type": "reported",
-      "confidence": 0.055,
+      "confidence": 0.483,
       "supporting_claims": [
-        "clm_7e48a2f7f6"
+        "clm_e47d35c808"
       ],
       "contradiction": false,
       "delta": {
         "previous": 500000000.0,
-        "change_pct": 0.0,
+        "change_pct": 300.0,
         "since": "2025-10-27"
       },
       "history_ref": "history/mercor/arr.jsonl",
@@ -80,19 +104,19 @@
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 20.0,
+      "value": 5.0,
       "unit": "x",
       "range": null,
-      "as_of": "2025-10-27",
+      "as_of": "2026-07-25",
       "estimate_type": "reported",
-      "confidence": 0.027,
+      "confidence": 0.267,
       "supporting_claims": [
-        "drv_389d2b29b6"
+        "drv_cd507bff2e"
       ],
       "contradiction": false,
       "delta": {
         "previous": 20.0,
-        "change_pct": 0.0,
+        "change_pct": -75.0,
         "since": "2025-10-27"
       },
       "history_ref": "history/mercor/revenue_multiple.jsonl",
@@ -101,5 +125,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-08-20"
 }

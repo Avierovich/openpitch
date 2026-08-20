@@ -17,14 +17,16 @@
       "value": 10000000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2025-10-24",
+      "as_of": "2026-04-14",
       "estimate_type": "consensus",
-      "confidence": 0.393,
+      "confidence": 0.688,
       "supporting_claims": [
         "clm_e53e1eac53",
+        "clm_b34976e082",
+        "clm_08c45f799d",
         "clm_ab4447f79e"
       ],
-      "contradiction": false,
+      "contradiction": true,
       "delta": {
         "previous": 10000000000.0,
         "change_pct": 0.0,
@@ -42,7 +44,7 @@
       "range": null,
       "as_of": "2025-10-24",
       "estimate_type": "reported",
-      "confidence": 0.257,
+      "confidence": 0.231,
       "supporting_claims": [
         "clm_afb216c2af"
       ],
@@ -57,28 +59,46 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "revenue_growth": {
+      "metric": "revenue_growth",
+      "value": 4.0,
+      "unit": "pct",
+      "range": null,
+      "as_of": "2026-04-14",
+      "estimate_type": "reported",
+      "confidence": 0.126,
+      "supporting_claims": [
+        "clm_f6b7a66c37"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/crusoe/revenue_growth.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "latest_round": {
       "metric": "latest_round",
-      "value": 1375000000.0,
+      "value": 3000000000.0,
       "unit": "object",
       "range": null,
-      "as_of": "2025-10-24",
+      "as_of": "2026-07-02",
       "estimate_type": "reported",
-      "confidence": 0.257,
+      "confidence": 0.275,
       "supporting_claims": [
-        "clm_a0c2067f05"
+        "clm_0a84fb9aef"
       ],
       "contradiction": false,
       "delta": {
         "previous": 1375000000.0,
-        "change_pct": 0.0,
+        "change_pct": 118.2,
         "since": "2025-10-24"
       },
       "history_ref": "history/crusoe/latest_round.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
+      "unconfirmed": true,
+      "confirmed_value": 1375000000.0,
+      "confirmed_as_of": "2025-10-24"
     }
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-08-20"
 }

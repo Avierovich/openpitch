@@ -22,7 +22,7 @@
       },
       "as_of": "2026-02-24",
       "estimate_type": "consensus",
-      "confidence": 0.68,
+      "confidence": 0.654,
       "supporting_claims": [
         "clm_2b28eede05",
         "clm_4b2433d218"
@@ -40,19 +40,24 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 8600000000.0,
+      "value": 8640110606.16,
       "unit": "USD",
-      "range": null,
-      "as_of": "2026-02-24",
-      "estimate_type": "reported",
-      "confidence": 0.36,
+      "range": {
+        "low": 8500000000.0,
+        "high": 8600000000.0
+      },
+      "as_of": "2026-06-30",
+      "estimate_type": "consensus",
+      "confidence": 0.679,
       "supporting_claims": [
-        "clm_1042417d40"
+        "clm_5d5b78f601",
+        "clm_1042417d40",
+        "clm_9cbc59e18c"
       ],
       "contradiction": false,
       "delta": {
         "previous": 8600000000.0,
-        "change_pct": 0.0,
+        "change_pct": 0.5,
         "since": "2026-02-24"
       },
       "history_ref": "history/wayve/valuation.jsonl",
@@ -61,5 +66,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-08-20"
 }

@@ -10,14 +10,14 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 83.8,
-  "universe_rank": 39,
+  "universe_rank": 36,
   "metrics": {
     "total_funding": {
       "metric": "total_funding",
       "value": 320000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-20",
       "estimate_type": "reported",
       "confidence": 0.438,
       "supporting_claims": [
@@ -25,7 +25,11 @@
         "clm_1ec790a241"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 320000000.0,
+        "change_pct": 0.0,
+        "since": "2026-08-19"
+      },
       "history_ref": "history/airwallex/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -33,7 +37,7 @@
     },
     "round_amount": {
       "metric": "round_amount",
-      "value": 321264331.84,
+      "value": 321879873.95,
       "unit": "USD",
       "range": {
         "low": 320000000.0,
@@ -41,16 +45,22 @@
       },
       "as_of": "2026-06-26",
       "estimate_type": "consensus",
-      "confidence": 0.934,
+      "confidence": 0.97,
       "supporting_claims": [
         "clm_88f13c6330",
-        "clm_1f085103e3",
         "clm_79f60bb415",
         "clm_5956327adc",
-        "clm_23c44f3aa4"
+        "clm_aaea3f339b",
+        "clm_1f085103e3",
+        "clm_23c44f3aa4",
+        "clm_0d15841ef8"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 321264331.84,
+        "change_pct": 0.2,
+        "since": "2026-06-26"
+      },
       "history_ref": "history/airwallex/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -66,20 +76,25 @@
       },
       "as_of": "2026-06-26",
       "estimate_type": "consensus",
-      "confidence": 0.91,
+      "confidence": 0.95,
       "supporting_claims": [
         "clm_82c0cafbae",
-        "clm_f4444756db",
         "clm_ebea985687",
-        "clm_6a9ad45bea"
+        "clm_6a9ad45bea",
+        "clm_03f0f91d4d",
+        "clm_f4444756db"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 11000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-26"
+      },
       "history_ref": "history/airwallex/valuation.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-19"
+  "last_updated": "2026-08-20"
 }

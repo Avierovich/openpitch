@@ -10,30 +10,8 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 84.3,
-  "universe_rank": 30,
+  "universe_rank": 31,
   "metrics": {
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 2000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-03-26",
-      "estimate_type": "reported",
-      "confidence": 0.558,
-      "supporting_claims": [
-        "clm_3184593c7e"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 2000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-03-26"
-      },
-      "history_ref": "history/shield-ai/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "valuation": {
       "metric": "valuation",
       "value": 12700000000.0,
@@ -42,10 +20,12 @@
         "low": 12700000000.0,
         "high": 12700000000.0
       },
-      "as_of": "2026-03-26",
+      "as_of": "2026-07-30",
       "estimate_type": "consensus",
-      "confidence": 0.881,
+      "confidence": 0.939,
       "supporting_claims": [
+        "clm_7dce082913",
+        "clm_f88e0f22bf",
         "clm_f45dbc07be",
         "clm_43c08c5eca",
         "clm_6f81d5e173"
@@ -60,7 +40,50 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 2000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 1500000000.0,
+        "high": 2000000000.0
+      },
+      "as_of": "2026-03-26",
+      "estimate_type": "reported",
+      "confidence": 0.501,
+      "supporting_claims": [
+        "clm_3184593c7e"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 2000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-03-26"
+      },
+      "history_ref": "history/shield-ai/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 7.0,
+      "unit": "object",
+      "range": null,
+      "as_of": "2026-07-30",
+      "estimate_type": "reported",
+      "confidence": 0.496,
+      "supporting_claims": [
+        "clm_c7560cd3a6"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/shield-ai/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-08-20"
 }

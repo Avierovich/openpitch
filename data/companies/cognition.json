@@ -9,8 +9,8 @@
   "summary": "Cognition (Devin) is an autonomous AI software engineer capable of performing complex development tasks from planning to execution.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 86.9,
-  "universe_rank": 16,
+  "vc_attention_score": 88.4,
+  "universe_rank": 10,
   "metrics": {
     "arr": {
       "metric": "arr",
@@ -19,14 +19,14 @@
       "range": null,
       "as_of": "2026-05-20",
       "estimate_type": "reported",
-      "confidence": 0.304,
+      "confidence": 0.22,
       "supporting_claims": [
         "clm_a53961cd0f"
       ],
       "contradiction": false,
       "delta": {
         "previous": 492000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-05-20"
       },
       "history_ref": "history/cognition/arr.jsonl",
@@ -38,11 +38,15 @@
       "metric": "round_amount",
       "value": 1000000000.0,
       "unit": "USD",
-      "range": null,
-      "as_of": "2026-05-27",
-      "estimate_type": "reported",
-      "confidence": 0.463,
+      "range": {
+        "low": 1000000000.0,
+        "high": 1000000000.0
+      },
+      "as_of": "2026-08-13",
+      "estimate_type": "consensus",
+      "confidence": 0.717,
       "supporting_claims": [
+        "clm_c0fd71a836",
         "clm_d8ccc7bb18"
       ],
       "contradiction": false,
@@ -58,25 +62,29 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 26000000000.0,
+      "value": 40000000000.0,
       "unit": "USD",
-      "range": null,
-      "as_of": "2026-05-27",
-      "estimate_type": "reported",
-      "confidence": 0.463,
+      "range": {
+        "low": 26000000000.0,
+        "high": 40000000000.0
+      },
+      "as_of": "2026-08-13",
+      "estimate_type": "consensus",
+      "confidence": 0.522,
       "supporting_claims": [
-        "clm_f5e2bc3e7a"
+        "clm_110aecb842",
+        "clm_5ec046106d"
       ],
-      "contradiction": false,
+      "contradiction": true,
       "delta": {
         "previous": 26000000000.0,
-        "change_pct": 0.0,
+        "change_pct": 53.8,
         "since": "2026-05-27"
       },
       "history_ref": "history/cognition/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
+      "unconfirmed": true,
+      "confirmed_value": 26000000000.0,
+      "confirmed_as_of": "2026-05-27"
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
@@ -85,7 +93,7 @@
       "range": null,
       "as_of": "2026-05-27",
       "estimate_type": "reported",
-      "confidence": 0.156,
+      "confidence": 0.112,
       "supporting_claims": [
         "drv_ed2ac9a8a6"
       ],
@@ -101,5 +109,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-08-20"
 }

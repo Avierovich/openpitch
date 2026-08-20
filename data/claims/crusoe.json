@@ -26,6 +26,32 @@
     "derivation": null
   },
   {
+    "id": "clm_4b00294cef",
+    "company_id": "crusoe",
+    "metric": "round_amount",
+    "value": 3000000000.0,
+    "unit": null,
+    "raw_text": "Crusoe Reportedly in Talks to Raise $3 Billion at About $30 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "TheEnergyMag",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdzI3TFRSSG92S0kwY2k4MnRzYlQ1RDVYeDN6bGdfY2lkVksyTEsyQmd1MjVRTXhUdHlhLUtmaTdzdW84SG9tTFptQW1BZHdySVlGNjM5SzVkMk4yRVBJT0oycWFnejZZd0RXMERmS25XT0c1R29mRlphbmVPMDhKTXduOWk?oc=5",
+      "locator": null,
+      "published_at": "2026-07-06"
+    },
+    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
     "id": "clm_e53e1eac53",
     "company_id": "crusoe",
     "metric": "valuation",
@@ -50,29 +76,129 @@
     "derivation": null
   },
   {
-    "id": "clm_4b00294cef",
+    "id": "clm_f6b7a66c37",
     "company_id": "crusoe",
-    "metric": "round_amount",
+    "metric": "revenue_growth",
+    "value": 4.0,
+    "unit": null,
+    "raw_text": "Crusoe expects $1B revenues in 2025, up nearly 4x YoY, reaches $10B valuation",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX0VsUkFOLXBKTndxWnFYMWtPTU90NmNKRW84U2JZR0FrNlc1clgyMDRhS1ZVa0k2TnIyY0V2d2RPS3JxMkhvUk8xUUpmcF9JS0VhaTR5TC1oVW90QlFEREhLb0RHenJheWFRb2JhUFkzSWdWZC1NX2RRbEo5UTNZbHNiOS1DSUYyZFUzcUs3ZGFFS1M4SndzY0swWGVXS3c5VXFqUnFvc1h2MDQ?oc=5",
+      "locator": null,
+      "published_at": "2026-04-14"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3675,
+    "derivation": null
+  },
+  {
+    "id": "clm_b34976e082",
+    "company_id": "crusoe",
+    "metric": "valuation",
+    "value": 10000000000.0,
+    "unit": null,
+    "raw_text": "Crusoe expects $1B revenues in 2025, up nearly 4x YoY, reaches $10B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX0VsUkFOLXBKTndxWnFYMWtPTU90NmNKRW84U2JZR0FrNlc1clgyMDRhS1ZVa0k2TnIyY0V2d2RPS3JxMkhvUk8xUUpmcF9JS0VhaTR5TC1oVW90QlFEREhLb0RHenJheWFRb2JhUFkzSWdWZC1NX2RRbEo5UTNZbHNiOS1DSUYyZFUzcUs3ZGFFS1M4SndzY0swWGVXS3c5VXFqUnFvc1h2MDQ?oc=5",
+      "locator": null,
+      "published_at": "2026-04-14"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_0a84fb9aef",
+    "company_id": "crusoe",
+    "metric": "latest_round",
     "value": 3000000000.0,
     "unit": null,
-    "raw_text": "Crusoe Reportedly in Talks to Raise $3 Billion at About $30 Billion Valuation",
+    "raw_text": "Crusoe in talks to raise ~$3B at a ~$30B valuation",
     "qualifiers": [
       "unconfirmed"
     ],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "TheEnergyMag",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdzI3TFRSSG92S0kwY2k4MnRzYlQ1RDVYeDN6bGdfY2lkVksyTEsyQmd1MjVRTXhUdHlhLUtmaTdzdW84SG9tTFptQW1BZHdySVlGNjM5SzVkMk4yRVBJT0oycWFnejZZd0RXMERmS25XT0c1R29mRlphbmVPMDhKTXduOWk?oc=5",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTUZMcFZ4ZTlFZGFIOGhVSVJpMjEzTjFFd05wdGhuV3NNYTJwN29VZ1NwUWFhRUNCSHh5ekVjOV9NaUVzSEtTYnR4Y1NYbERFeGNfM3otdThDREUxZVZsdWRBTmpiWE9xWVFKLU1vd2w2SHZmRUYtblYybUM0eGhId0dYT3otVFk?oc=5",
       "locator": null,
-      "published_at": "2026-07-06"
+      "published_at": "2026-07-02"
     },
-    "extracted_at": "2026-07-12T07:44:16.543146",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.225,
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_c2e2e7507e",
+    "company_id": "crusoe",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": null,
+    "raw_text": "Crusoe in talks to raise ~$3B at a ~$30B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTUZMcFZ4ZTlFZGFIOGhVSVJpMjEzTjFFd05wdGhuV3NNYTJwN29VZ1NwUWFhRUNCSHh5ekVjOV9NaUVzSEtTYnR4Y1NYbERFeGNfM3otdThDREUxZVZsdWRBTmpiWE9xWVFKLU1vd2w2SHZmRUYtblYybUM0eGhId0dYT3otVFk?oc=5",
+      "locator": null,
+      "published_at": "2026-07-02"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_08c45f799d",
+    "company_id": "crusoe",
+    "metric": "valuation",
+    "value": 10000000000.0,
+    "unit": null,
+    "raw_text": "Crusoe raising Series E at $10B+ valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMFVfc2N6T0FXWWlyNDJmS2tkRU1LRHp1ellDRFBwV215YmREek1kVHUwbVdUa1laVXpiUlZwN05pLXVMeExDTkhadklGc0FvTGxQZ3dvMjgzcTVwenBSeURWRzdmMmtWVzg3bjZxMDlQTFprSkFRa09tdzZ4YW5OYnZWUkJ3RVBPVGxUR0l3?oc=5",
+      "locator": null,
+      "published_at": "2025-10-23"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {

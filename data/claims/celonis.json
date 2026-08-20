@@ -1,5 +1,80 @@
 [
   {
+    "id": "clm_bb916ad4d6",
+    "company_id": "celonis",
+    "metric": "headcount",
+    "value": 3000.0,
+    "unit": "employees",
+    "raw_text": "Employees 3,000+",
+    "qualifiers": [
+      "rounded",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "celonis.com",
+      "url": "https://celonis.com/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-08-19T12:30:22.754661",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1913,
+    "derivation": null
+  },
+  {
+    "id": "clm_538b6cd945",
+    "company_id": "celonis",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "raises $1bn",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Arab News",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9HaXV0MmZwamI3ZTJWT05qOFZxdmdLSUNVLW9ZUmdhQkh3NGtzOFBUQ194ck1jMjNGR29kSVU3S0tiWHowS0xudTBYS2E5Y2tWYTVZ?oc=5",
+      "locator": null,
+      "published_at": "2022-08-24"
+    },
+    "extracted_at": "2026-08-19T12:30:22.754661",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_12e0450ab9",
+    "company_id": "celonis",
+    "metric": "valuation",
+    "value": 13000000000.0,
+    "unit": "USD",
+    "raw_text": "$13B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSHZXdUpSTW15RC1tdWQ1UnFuM291MkRERnI0RkpUd2ZwUGI0bHZXTFlEcVlyOFp1Z2V1UXFBVGhMOVowd19LWFJ0VHFmYUxKT0FmYTZpQzNYUjdmZjVJVXQ4aHI0RGtuUTVrVUFGTkVIYm96WldZZkFUdVJUNWotQ0toYzhvZmV1bkJnZTJsdXdLbGkyb1Y0NVdyclE?oc=5",
+      "locator": null,
+      "published_at": "2022-10-16"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_2557a67a3a",
     "company_id": "celonis",
     "metric": "total_funding",
@@ -48,33 +123,6 @@
     "derivation": null
   },
   {
-    "id": "clm_bb916ad4d6",
-    "company_id": "celonis",
-    "metric": "headcount",
-    "value": 3000.0,
-    "unit": "employees",
-    "raw_text": "Employees 3,000+",
-    "qualifiers": [
-      "rounded",
-      "approximate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "celonis.com",
-      "url": "https://celonis.com/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-08-19T12:30:22.754661",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1913,
-    "derivation": null
-  },
-  {
     "id": "clm_fde51f2842",
     "company_id": "celonis",
     "metric": "round_amount",
@@ -116,30 +164,6 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeHJib1UyOXdvcXNKamsybEFxeTBmdzJIalVsZHBtZEpNNW5obTFjTXd0dnRZc2IySXFyNkZ3eXNhZm10c05hXzdlZkIxb1dpeWNTNTdUa1FuVS1QLVRCZkZOazVxVjdtSUxxU3dfNS1GcEhTUnN3d3RsZzV3WEVTNDQ2aXh1SlRpbVhJWmdlMm96ZmRJTlNuVUkxb0JxdUl1MEJQb1Z4NTFRNk1kYUllN2lmdng3ZzFubUlsYXUtWF8?oc=5",
       "locator": null,
       "published_at": "2018-06-26"
-    },
-    "extracted_at": "2026-08-19T12:30:22.754661",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_538b6cd945",
-    "company_id": "celonis",
-    "metric": "total_funding",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "raises $1bn",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Arab News",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9HaXV0MmZwamI3ZTJWT05qOFZxdmdLSUNVLW9ZUmdhQkh3NGtzOFBUQ194ck1jMjNGR29kSVU3S0tiWHowS0xudTBYS2E5Y2tWYTVZ?oc=5",
-      "locator": null,
-      "published_at": "2022-08-24"
     },
     "extracted_at": "2026-08-19T12:30:22.754661",
     "extractor_model": "gemini-3.5-flash-lite",

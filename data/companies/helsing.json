@@ -10,36 +10,8 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 85.5,
-  "universe_rank": 21,
+  "universe_rank": 22,
   "metrics": {
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 1200000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 1200000000.0,
-        "high": 1200000000.0
-      },
-      "as_of": "2026-05-19",
-      "estimate_type": "consensus",
-      "confidence": 0.735,
-      "supporting_claims": [
-        "clm_14de5b4295",
-        "clm_8a102f1d9d",
-        "clm_986652396e",
-        "clm_3e7d702f0f"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1200000000.0,
-        "change_pct": 0.0,
-        "since": "2026-05-19"
-      },
-      "history_ref": "history/helsing/round_amount.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "valuation": {
       "metric": "valuation",
       "value": 18000000000.0,
@@ -48,10 +20,20 @@
         "low": 18000000000.0,
         "high": 18000000000.0
       },
-      "as_of": "2026-05-11",
+      "as_of": "2026-07-13",
       "estimate_type": "consensus",
-      "confidence": 0.611,
+      "confidence": 0.97,
       "supporting_claims": [
+        "clm_071e5d69da",
+        "clm_dcfeaf9d1a",
+        "clm_fbaf07ce45",
+        "clm_1016c0ec31",
+        "clm_71d4e52a19",
+        "clm_ab578673d7",
+        "clm_c24834e9c5",
+        "clm_75d551ee10",
+        "clm_993c6525c5",
+        "clm_06f52c8aed",
         "clm_91101d3bef",
         "clm_0c9c02ddc9",
         "clm_d9635fb062"
@@ -59,14 +41,90 @@
       "contradiction": false,
       "delta": {
         "previous": 18000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-05-11"
       },
       "history_ref": "history/helsing/valuation.jsonl",
-      "unconfirmed": true,
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 1800000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 1200000000.0,
+        "high": 1800000000.0
+      },
+      "as_of": "2026-07-13",
+      "estimate_type": "consensus",
+      "confidence": 0.97,
+      "supporting_claims": [
+        "clm_6789a4c79d",
+        "clm_db065a5617",
+        "clm_6b9da1b239",
+        "clm_8fd9fabef3",
+        "clm_c7e1099edf",
+        "clm_1fbe570ac8"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/helsing/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 1800000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 1800000000.0,
+        "high": 1800000000.0
+      },
+      "as_of": "2026-07-13",
+      "estimate_type": "consensus",
+      "confidence": 0.854,
+      "supporting_claims": [
+        "clm_6f01bec325",
+        "clm_b4c5e8f18f",
+        "clm_77c45f7ea1"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1200000000.0,
+        "change_pct": 50.0,
+        "since": "2026-05-19"
+      },
+      "history_ref": "history/helsing/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 5.0,
+      "unit": "object",
+      "range": {
+        "low": 5.0,
+        "high": 5.0
+      },
+      "as_of": "2026-07-13",
+      "estimate_type": "consensus",
+      "confidence": 0.71,
+      "supporting_claims": [
+        "clm_96aac3627d",
+        "clm_c9eb8b7497",
+        "clm_94fb93c32f"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/helsing/latest_round.jsonl",
+      "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-08-20"
 }

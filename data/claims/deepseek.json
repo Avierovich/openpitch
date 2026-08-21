@@ -148,32 +148,6 @@
     "derivation": null
   },
   {
-    "id": "clm_ec2c8fc702",
-    "company_id": "deepseek",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": null,
-    "raw_text": "DeepSeek reportedly valued at over $50B after 1st funding round",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "dailysabah.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNanFLZ2FhMlRpSkNyMU44TWtsX3VmUm1oTXNhbl8xRDRkSlhlRC1RZldURV9UOFp4YW9zMUhoWG40Q1lOYXc0bUwyOEI1TkdNWHhtNjJjanNWbkdyTURzbGl1N0hUcHhiTWd3ZDUtWXBDOXpvYTFCRENUeXpmdTBzMWk2VjRpRnZMRTR4SEpkNWdqX1NoRWJCazN3MFY1YklIbUpKWUpn?oc=5",
-      "locator": null,
-      "published_at": "2026-06-17"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_67c516deaa",
     "company_id": "deepseek",
     "metric": "valuation",
@@ -197,6 +171,32 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_aaea8403cf",
+    "company_id": "deepseek",
+    "metric": "valuation",
+    "value": 70900000000.0,
+    "unit": null,
+    "raw_text": "DeepSeek Eyes New Funding Round Just One Month After Last, Kicks Off IPO Prep Targeting $70.9 Billion Valuation",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPSkhoWFRVajYxZ3B6c3oyZ3J6TjJFMkZnVlQ0aDBYc01ld003NXUxTFVVSU1tazRDdmFscmtLUmM1QlF5aXZtQWF0X2dKLVVIVjJ5eUZGOV9YakdNTUtfTE45NVNFSVhCUTJZOUZIZXR4U0dDQkE?oc=5",
+      "locator": null,
+      "published_at": "2026-07-14"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3675,
     "derivation": null
   },
   {
@@ -248,14 +248,15 @@
     "derivation": null
   },
   {
-    "id": "clm_aaea8403cf",
+    "id": "clm_6c08a8269c",
     "company_id": "deepseek",
     "metric": "valuation",
-    "value": 70900000000.0,
+    "value": 50000000000.0,
     "unit": null,
-    "raw_text": "DeepSeek Eyes New Funding Round Just One Month After Last, Kicks Off IPO Prep Targeting $70.9 Billion Valuation",
+    "raw_text": "DeepSeek reportedly valued at over $50B",
     "qualifiers": [
-      "forward_looking"
+      "unconfirmed",
+      "rounded"
     ],
     "speaker": {
       "name": null,
@@ -263,14 +264,40 @@
     },
     "source": {
       "type": "news",
-      "name": "finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPSkhoWFRVajYxZ3B6c3oyZ3J6TjJFMkZnVlQ0aDBYc01ld003NXUxTFVVSU1tazRDdmFscmtLUmM1QlF5aXZtQWF0X2dKLVVIVjJ5eUZGOV9YakdNTUtfTE45NVNFSVhCUTJZOUZIZXR4U0dDQkE?oc=5",
+      "name": "Daily Sabah",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNanFLZ2FhMlRpSkNyMU44TWtsX3VmUm1oTXNhbl8xRDRkSlhlRC1RZldURV9UOFp4YW9zMUhoWG40Q1lOYXc0bUwyOEI1TkdNWHhtNjJjanNWbkdyTURzbGl1N0hUcHhiTWd3ZDUtWXBDOXpvYTFCRENUeXpmdTBzMWk2VjRpRnZMRTR4SEpkNWdqX1NoRWJCazN3MFY1YklIbUpKWUpn?oc=5",
       "locator": null,
-      "published_at": "2026-07-14"
+      "published_at": "2026-06-17"
+    },
+    "extracted_at": "2026-08-21T05:50:03.226228",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2835,
+    "derivation": null
+  },
+  {
+    "id": "clm_ec2c8fc702",
+    "company_id": "deepseek",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": null,
+    "raw_text": "DeepSeek reportedly valued at over $50B after 1st funding round",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "dailysabah.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNanFLZ2FhMlRpSkNyMU44TWtsX3VmUm1oTXNhbl8xRDRkSlhlRC1RZldURV9UOFp4YW9zMUhoWG40Q1lOYXc0bUwyOEI1TkdNWHhtNjJjanNWbkdyTURzbGl1N0hUcHhiTWd3ZDUtWXBDOXpvYTFCRENUeXpmdTBzMWk2VjRpRnZMRTR4SEpkNWdqX1NoRWJCazN3MFY1YklIbUpKWUpn?oc=5",
+      "locator": null,
+      "published_at": "2026-06-17"
     },
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3675,
+    "base_confidence": 0.315,
     "derivation": null
   },
   {

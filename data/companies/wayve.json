@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 82.9,
-  "universe_rank": 44,
+  "universe_rank": 45,
   "metrics": {
     "total_funding": {
       "metric": "total_funding",
@@ -40,7 +40,7 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 8640110606.16,
+      "value": 8629723622.34,
       "unit": "USD",
       "range": {
         "low": 8500000000.0,
@@ -48,17 +48,18 @@
       },
       "as_of": "2026-06-30",
       "estimate_type": "consensus",
-      "confidence": 0.679,
+      "confidence": 0.783,
       "supporting_claims": [
         "clm_5d5b78f601",
+        "clm_e2b3e394d6",
         "clm_1042417d40",
         "clm_9cbc59e18c"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 8600000000.0,
-        "change_pct": 0.5,
-        "since": "2026-02-24"
+        "previous": 8640110606.16,
+        "change_pct": -0.1,
+        "since": "2026-06-30"
       },
       "history_ref": "history/wayve/valuation.jsonl",
       "unconfirmed": false,
@@ -66,5 +67,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-20"
+  "last_updated": "2026-08-21"
 }

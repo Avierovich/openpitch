@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 82.5,
-  "universe_rank": 48,
+  "universe_rank": 49,
   "metrics": {
     "total_funding": {
       "metric": "total_funding",
@@ -19,12 +19,16 @@
       "range": null,
       "as_of": "2026-08-06",
       "estimate_type": "reported",
-      "confidence": 0.368,
+      "confidence": 0.367,
       "supporting_claims": [
         "clm_8c87a29863"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 1370000000.0,
+        "change_pct": 0.0,
+        "since": "2026-08-06"
+      },
       "history_ref": "history/hadrian/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -50,16 +54,16 @@
         "clm_46ec951765",
         "clm_beefaf2755",
         "clm_eb0e801d84",
-        "clm_0d58e05f59",
         "clm_ebd7e7057a",
+        "clm_0d58e05f59",
         "clm_822f0288d4",
         "clm_1d44ca344e"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 7500000000.0,
-        "change_pct": 4.2,
-        "since": "2026-06-23"
+        "previous": 7817399927.9,
+        "change_pct": 0.0,
+        "since": "2026-08-14"
       },
       "history_ref": "history/hadrian/valuation.jsonl",
       "unconfirmed": false,
@@ -88,9 +92,9 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 1000000000.0,
-        "change_pct": 37.4,
-        "since": "2026-06-24"
+        "previous": 1374365155.21,
+        "change_pct": 0.0,
+        "since": "2026-08-14"
       },
       "history_ref": "history/hadrian/round_amount.jsonl",
       "unconfirmed": false,
@@ -107,19 +111,23 @@
       },
       "as_of": "2026-08-14",
       "estimate_type": "consensus",
-      "confidence": 0.743,
+      "confidence": 0.741,
       "supporting_claims": [
         "clm_ac08522c86",
         "clm_b91d2d39b1",
         "clm_d2641be46f"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 4.0,
+        "change_pct": 0.0,
+        "since": "2026-08-14"
+      },
       "history_ref": "history/hadrian/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-20"
+  "last_updated": "2026-08-21"
 }

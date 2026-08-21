@@ -27,6 +27,33 @@
     "derivation": null
   },
   {
+    "id": "clm_a177e1740d",
+    "company_id": "poolside",
+    "metric": "valuation",
+    "value": 3000000000.0,
+    "unit": null,
+    "raw_text": "$3 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBpeFhoelRsQ2hUckIzYkUwNTZkWjM5Y1IwVGQ1UFdKb2U2dGJlNzRuOHRab1BBNmpiUWdra2tLM1NlR3pXZnZISTNwZGQ2RnMtWGt0TW93VS0xaGtnWTV3TUt5T1VqWXhteGkzVlNIZkNjU1U0WVktVG1VQnBkQQ?oc=5",
+      "locator": null,
+      "published_at": "2024-09-12"
+    },
+    "extracted_at": "2026-08-21T05:50:03.226228",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
     "id": "clm_a449ce5ebe",
     "company_id": "poolside",
     "metric": "round_amount",
@@ -290,7 +317,7 @@
       "locator": null,
       "published_at": "2025-11-28"
     },
-    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extracted_at": "2026-08-21T05:50:03.226228",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1294,
     "derivation": {

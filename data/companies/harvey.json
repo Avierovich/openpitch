@@ -10,30 +10,8 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 83.8,
-  "universe_rank": 38,
+  "universe_rank": 39,
   "metrics": {
-    "arr": {
-      "metric": "arr",
-      "value": 190000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-02-09",
-      "estimate_type": "reported",
-      "confidence": 0.095,
-      "supporting_claims": [
-        "clm_1a7ff164fc"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 190000000.0,
-        "change_pct": 0.0,
-        "since": "2026-02-09"
-      },
-      "history_ref": "history/harvey/arr.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "valuation": {
       "metric": "valuation",
       "value": 11000000000.0,
@@ -60,7 +38,7 @@
       "delta": {
         "previous": 11000000000.0,
         "change_pct": 0.0,
-        "since": "2026-03-29"
+        "since": "2026-08-11"
       },
       "history_ref": "history/harvey/valuation.jsonl",
       "unconfirmed": false,
@@ -77,7 +55,7 @@
       },
       "as_of": "2026-03-29",
       "estimate_type": "consensus",
-      "confidence": 0.728,
+      "confidence": 0.727,
       "supporting_claims": [
         "clm_1a7eb37fee",
         "clm_e6177dd0c9",
@@ -86,10 +64,32 @@
       "contradiction": false,
       "delta": {
         "previous": 200000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-03-29"
       },
       "history_ref": "history/harvey/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "arr": {
+      "metric": "arr",
+      "value": 190000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-02-09",
+      "estimate_type": "reported",
+      "confidence": 0.095,
+      "supporting_claims": [
+        "clm_1a7ff164fc"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 190000000.0,
+        "change_pct": -0.0,
+        "since": "2026-02-09"
+      },
+      "history_ref": "history/harvey/arr.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -117,5 +117,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-20"
+  "last_updated": "2026-08-21"
 }

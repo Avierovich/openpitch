@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 83.8,
-  "universe_rank": 37,
+  "universe_rank": 38,
   "metrics": {
     "valuation": {
       "metric": "valuation",
@@ -22,7 +22,7 @@
       },
       "as_of": "2026-06-21",
       "estimate_type": "consensus",
-      "confidence": 0.914,
+      "confidence": 0.913,
       "supporting_claims": [
         "clm_fd616403f2",
         "clm_dcd4b90871",
@@ -52,7 +52,7 @@
       },
       "as_of": "2026-05-05",
       "estimate_type": "consensus",
-      "confidence": 0.707,
+      "confidence": 0.706,
       "supporting_claims": [
         "clm_da3421c8da",
         "clm_227fd5cc6e",
@@ -69,24 +69,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "open_roles": {
-      "metric": "open_roles",
-      "value": 254.0,
-      "unit": "count",
-      "range": null,
-      "as_of": "2026-08-20",
-      "estimate_type": "reported",
-      "confidence": 0.25,
-      "supporting_claims": [
-        "clm_e75eee09a9"
-      ],
-      "contradiction": false,
-      "delta": null,
-      "history_ref": "history/elevenlabs/open_roles.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "latest_round": {
       "metric": "latest_round",
       "value": 500000000.0,
@@ -94,7 +76,7 @@
       "range": null,
       "as_of": "2026-02-04",
       "estimate_type": "reported",
-      "confidence": 0.219,
+      "confidence": 0.218,
       "supporting_claims": [
         "clm_420da59804"
       ],
@@ -109,6 +91,28 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "open_roles": {
+      "metric": "open_roles",
+      "value": 254.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-08-21",
+      "estimate_type": "reported",
+      "confidence": 0.25,
+      "supporting_claims": [
+        "clm_e75eee09a9"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 254.0,
+        "change_pct": 0.0,
+        "since": "2026-08-20"
+      },
+      "history_ref": "history/elevenlabs/open_roles.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "arr": {
       "metric": "arr",
       "value": 500000000.0,
@@ -116,14 +120,14 @@
       "range": null,
       "as_of": "2026-05-05",
       "estimate_type": "reported",
-      "confidence": 0.194,
+      "confidence": 0.192,
       "supporting_claims": [
         "clm_b85069b411"
       ],
       "contradiction": false,
       "delta": {
         "previous": 500000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-05-05"
       },
       "history_ref": "history/elevenlabs/arr.jsonl",
@@ -138,7 +142,7 @@
       "range": null,
       "as_of": "2026-05-05",
       "estimate_type": "reported",
-      "confidence": 0.094,
+      "confidence": 0.093,
       "supporting_claims": [
         "drv_f1adb7495d"
       ],
@@ -154,5 +158,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-20"
+  "last_updated": "2026-08-21"
 }

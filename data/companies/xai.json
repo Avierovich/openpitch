@@ -9,30 +9,49 @@
   "summary": "xAI aims to build AI that can understand the universe, focusing on foundational models for scientific discovery and exploration.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 94.4,
+  "vc_attention_score": 94.5,
   "universe_rank": 3,
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 205722916202.1,
+      "value": 213529876505.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2025-11-18",
+      "as_of": "2026-01-06",
       "estimate_type": "consensus",
-      "confidence": 0.58,
+      "confidence": 0.697,
       "supporting_claims": [
+        "clm_6f038503a8",
         "clm_3769f513df",
         "clm_9c362f7877",
-        "clm_6f038503a8",
-        "clm_7d863f7cd0"
+        "clm_7d863f7cd0",
+        "clm_9ead6329f9"
       ],
       "contradiction": false,
       "delta": {
         "previous": 205722916202.1,
-        "change_pct": 0.0,
+        "change_pct": 3.8,
         "since": "2025-11-18"
       },
       "history_ref": "history/xai/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 20000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-01-06",
+      "estimate_type": "reported",
+      "confidence": 0.385,
+      "supporting_claims": [
+        "clm_2c4cef03e7"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/xai/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -44,7 +63,7 @@
       "range": null,
       "as_of": "2026-04-23",
       "estimate_type": "reported",
-      "confidence": 0.217,
+      "confidence": 0.216,
       "supporting_claims": [
         "clm_e412f5e0d6"
       ],
@@ -60,5 +79,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-20"
+  "last_updated": "2026-08-21"
 }

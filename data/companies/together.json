@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 82.6,
-  "universe_rank": 46,
+  "universe_rank": 47,
   "metrics": {
     "round_amount": {
       "metric": "round_amount",
@@ -24,16 +24,16 @@
       "estimate_type": "consensus",
       "confidence": 0.88,
       "supporting_claims": [
-        "clm_3581aedf72",
         "clm_aa36aba360",
         "clm_7133b5e74d",
+        "clm_3581aedf72",
         "clm_22f09128cb"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 1000000000.0,
-        "change_pct": -20.0,
-        "since": "2026-07-12"
+        "previous": 800000000.0,
+        "change_pct": 0.0,
+        "since": "2026-07-01"
       },
       "history_ref": "history/together/round_amount.jsonl",
       "unconfirmed": false,
@@ -42,7 +42,7 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 8014744420.06,
+      "value": 8014654101.61,
       "unit": "USD",
       "range": {
         "low": 8300000000.0,
@@ -58,16 +58,16 @@
         "clm_b8ec11cc06",
         "clm_49056f66a9",
         "clm_2b7244eadf",
-        "clm_f697be49fe",
         "clm_d00af9045f",
         "clm_3e104cf11e",
+        "clm_f697be49fe",
         "clm_77453f3da1"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 7664306083.87,
-        "change_pct": 4.6,
-        "since": "2026-05-09"
+        "previous": 8014744420.06,
+        "change_pct": -0.0,
+        "since": "2026-07-01"
       },
       "history_ref": "history/together/valuation.jsonl",
       "unconfirmed": false,
@@ -91,7 +91,7 @@
       "contradiction": false,
       "delta": {
         "previous": 1000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-05-09"
       },
       "history_ref": "history/together/total_funding.jsonl",
@@ -128,15 +128,15 @@
       "range": null,
       "as_of": "2026-07-01",
       "estimate_type": "reported",
-      "confidence": 0.119,
+      "confidence": 0.118,
       "supporting_claims": [
-        "drv_35cada1899"
+        "drv_e48f6673a9"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 75.0,
-        "change_pct": 151.5,
-        "since": "2025-11-28"
+        "previous": 188.64,
+        "change_pct": 0.0,
+        "since": "2026-07-01"
       },
       "history_ref": "history/together/revenue_multiple.jsonl",
       "unconfirmed": false,
@@ -144,5 +144,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-20"
+  "last_updated": "2026-08-21"
 }

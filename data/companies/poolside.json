@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 84.1,
-  "universe_rank": 34,
+  "universe_rank": 35,
   "metrics": {
     "valuation": {
       "metric": "valuation",
@@ -42,7 +42,7 @@
       "range": null,
       "as_of": "2025-10-31",
       "estimate_type": "consensus",
-      "confidence": 0.505,
+      "confidence": 0.504,
       "supporting_claims": [
         "clm_c7c99054ff",
         "clm_0839e2c76e",
@@ -72,7 +72,11 @@
         "clm_029a15fc5d"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 2.0,
+        "change_pct": 0.0,
+        "since": "2024-10-02"
+      },
       "history_ref": "history/poolside/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -123,5 +127,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-20"
+  "last_updated": "2026-08-21"
 }

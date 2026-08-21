@@ -1,12 +1,12 @@
-# OpenPitch Data Quality Report - 2026-08-20
+# OpenPitch Data Quality Report - 2026-08-21
 
 ## Summary
 
-- Profiles generated: 225
-- Watchlist candidates: 666
+- Profiles generated: 239
+- Watchlist candidates: 680
 - Top-50 cards: 50
-- Profiles with at least one metric: 217
-- Critical issues: 41
+- Profiles with at least one metric: 231
+- Critical issues: 46
 - Warnings: 34
 - Discovery backlog (auto-discovered, awaiting first pipeline run): 438
 
@@ -20,6 +20,7 @@ None.
 
 ## Top-50 Missing ARR / Revenue
 
+- Checkout.com
 - Bright Health
 - Celonis
 - OpenEvidence
@@ -53,12 +54,17 @@ None.
 - Attio
 - AttoTude
 - Auterion
+- Baichuan AI
 - Bright Machines
 - Built Robotics
 - Cadence
 - Capella Space
 - Captions
 - Cartesia
+- Character.AI
+- Chemify
+- Climavision
+- Coder
 - Cognism
 - HUMAIN
 - Huspy
@@ -77,29 +83,28 @@ None.
 
 ## Single-Source Core Metrics
 
+- xAI: total_funding
 - Anduril: round_amount
 - Anduril Industries: round_amount
-- Thinking Machines Lab: round_amount
+- Checkout.com: valuation
+- Checkout.com: total_funding
 - Figure AI: total_funding
 - Safe Superintelligence: headcount
 - Scale AI: headcount
 - Reflection AI: total_funding
-- Mistral AI: arr
 - Perplexity: arr
 - Fireworks AI: arr
 - Fireworks AI: total_funding
 - Fireworks AI: headcount
 - Sierra: arr
-- Applied Intuition: round_amount
-- Skild AI: round_amount
 - Lovable: headcount
-- Celonis: round_amount
 - Celonis: headcount
 - Poolside: arr
 - Cyera: headcount
 - OpenEvidence: total_funding
 - ElevenLabs: arr
 - Physical Intelligence: total_funding
+- Crusoe: total_funding
 - Saronic: round_amount
 - Replit: total_funding
 - Together AI: arr

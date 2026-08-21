@@ -10,14 +10,14 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 84.4,
-  "universe_rank": 30,
+  "universe_rank": 31,
   "metrics": {
     "headcount": {
       "metric": "headcount",
       "value": 3000.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-08-20",
+      "as_of": "2026-08-21",
       "estimate_type": "reported",
       "confidence": 0.191,
       "supporting_claims": [
@@ -34,6 +34,28 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 1000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2021-10-05",
+      "estimate_type": "reported",
+      "confidence": 0.004,
+      "supporting_claims": [
+        "clm_344f876c8b"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 50000000.0,
+        "change_pct": 1900.0,
+        "since": "2018-06-26"
+      },
+      "history_ref": "history/celonis/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "total_funding": {
       "metric": "total_funding",
       "value": 1000000000.0,
@@ -41,7 +63,7 @@
       "range": null,
       "as_of": "2022-08-24",
       "estimate_type": "consensus",
-      "confidence": 0.138,
+      "confidence": 0.137,
       "supporting_claims": [
         "clm_538b6cd945",
         "clm_2557a67a3a"
@@ -72,36 +94,14 @@
       "contradiction": false,
       "delta": {
         "previous": 13000000000.0,
-        "change_pct": -0.0,
-        "since": "2022-08-23"
+        "change_pct": 0.0,
+        "since": "2022-10-16"
       },
       "history_ref": "history/celonis/valuation.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 50000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2018-06-26",
-      "estimate_type": "reported",
-      "confidence": 0.0,
-      "supporting_claims": [
-        "clm_fde51f2842"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 50000000.0,
-        "change_pct": 0.0,
-        "since": "2018-06-26"
-      },
-      "history_ref": "history/celonis/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-20"
+  "last_updated": "2026-08-21"
 }

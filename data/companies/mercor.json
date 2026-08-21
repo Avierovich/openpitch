@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 83.4,
-  "universe_rank": 41,
+  "universe_rank": 42,
   "metrics": {
     "latest_round": {
       "metric": "latest_round",
@@ -18,13 +18,18 @@
       "unit": "object",
       "range": null,
       "as_of": "2026-07-25",
-      "estimate_type": "reported",
-      "confidence": 0.559,
+      "estimate_type": "consensus",
+      "confidence": 0.668,
       "supporting_claims": [
-        "clm_c3657789fe"
+        "clm_c3657789fe",
+        "clm_3da23f4b07"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 3.0,
+        "change_pct": 0.0,
+        "since": "2026-07-25"
+      },
       "history_ref": "history/mercor/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -37,7 +42,7 @@
       "range": null,
       "as_of": "2026-07-25",
       "estimate_type": "consensus",
-      "confidence": 0.661,
+      "confidence": 0.66,
       "supporting_claims": [
         "clm_74ed32197e",
         "clm_5cff99b176"
@@ -46,7 +51,7 @@
       "delta": {
         "previous": 350000000.0,
         "change_pct": -0.0,
-        "since": "2025-10-27"
+        "since": "2026-07-25"
       },
       "history_ref": "history/mercor/round_amount.jsonl",
       "unconfirmed": false,
@@ -63,7 +68,7 @@
       },
       "as_of": "2026-07-25",
       "estimate_type": "consensus",
-      "confidence": 0.746,
+      "confidence": 0.745,
       "supporting_claims": [
         "clm_40aca5439c",
         "clm_0051c9db8a",
@@ -73,7 +78,7 @@
       "delta": {
         "previous": 10000000000.0,
         "change_pct": 0.0,
-        "since": "2025-10-27"
+        "since": "2026-07-25"
       },
       "history_ref": "history/mercor/valuation.jsonl",
       "unconfirmed": false,
@@ -87,15 +92,15 @@
       "range": null,
       "as_of": "2026-07-25",
       "estimate_type": "reported",
-      "confidence": 0.483,
+      "confidence": 0.479,
       "supporting_claims": [
         "clm_e47d35c808"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 500000000.0,
-        "change_pct": 300.0,
-        "since": "2025-10-27"
+        "previous": 2000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-07-25"
       },
       "history_ref": "history/mercor/arr.jsonl",
       "unconfirmed": false,
@@ -109,15 +114,15 @@
       "range": null,
       "as_of": "2026-07-25",
       "estimate_type": "reported",
-      "confidence": 0.267,
+      "confidence": 0.264,
       "supporting_claims": [
         "drv_cd507bff2e"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 20.0,
-        "change_pct": -75.0,
-        "since": "2025-10-27"
+        "previous": 5.0,
+        "change_pct": 0.0,
+        "since": "2026-07-25"
       },
       "history_ref": "history/mercor/revenue_multiple.jsonl",
       "unconfirmed": false,
@@ -125,5 +130,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-20"
+  "last_updated": "2026-08-21"
 }

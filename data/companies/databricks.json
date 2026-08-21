@@ -26,13 +26,17 @@
       "supporting_claims": [
         "clm_dd358898d5",
         "clm_7b1940eca6",
-        "clm_0c81e0bfe0",
         "clm_eec4e55c3b",
+        "clm_0c81e0bfe0",
         "clm_463bfcaa4a",
         "clm_9ae619c146"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 5000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-08-14"
+      },
       "history_ref": "history/databricks/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -52,17 +56,17 @@
       "supporting_claims": [
         "clm_aa49621cbe",
         "clm_2201682ef3",
-        "clm_5d811b752c",
         "clm_ef30a95979",
-        "clm_4306adb73d",
+        "clm_5d811b752c",
         "clm_1cca8f8bbf",
+        "clm_4306adb73d",
         "clm_3fa9b9b4b8"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 134000000000.0,
-        "change_pct": 41.8,
-        "since": "2026-06-20"
+        "previous": 190000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-08-14"
       },
       "history_ref": "history/databricks/valuation.jsonl",
       "unconfirmed": false,
@@ -83,14 +87,18 @@
       "supporting_claims": [
         "clm_6eb11d243d",
         "clm_45e6e79641",
-        "clm_6e5df8955c",
         "clm_4e1a3f0fac",
-        "clm_fd6eabef29",
+        "clm_6e5df8955c",
         "clm_1fa279d24f",
+        "clm_fd6eabef29",
         "clm_c8b1cad372"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 7000000000.0,
+        "change_pct": -0.0,
+        "since": "2026-08-14"
+      },
       "history_ref": "history/databricks/arr.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -103,7 +111,7 @@
       "range": null,
       "as_of": "2026-06-16",
       "estimate_type": "reported",
-      "confidence": 0.183,
+      "confidence": 0.182,
       "supporting_claims": [
         "clm_45db87797a"
       ],
@@ -125,17 +133,21 @@
       "range": null,
       "as_of": "2026-08-14",
       "estimate_type": "reported",
-      "confidence": 0.217,
+      "confidence": 0.215,
       "supporting_claims": [
         "drv_b4c6f652fa"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 27.14,
+        "change_pct": -0.0,
+        "since": "2026-08-14"
+      },
       "history_ref": "history/databricks/revenue_multiple.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-20"
+  "last_updated": "2026-08-21"
 }

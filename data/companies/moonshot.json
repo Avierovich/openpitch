@@ -9,8 +9,8 @@
   "summary": "Moonshot is a company that uses AI to develop large language models for various applications.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 87.7,
-  "universe_rank": 13,
+  "vc_attention_score": 87.8,
+  "universe_rank": 14,
   "metrics": {
     "latest_round": {
       "metric": "latest_round",
@@ -28,11 +28,15 @@
         "clm_183f1296b5",
         "clm_0424231d23",
         "clm_fb260a2919",
-        "clm_ae728f29c3",
-        "clm_044d1b18b8"
+        "clm_044d1b18b8",
+        "clm_ae728f29c3"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 3500000000.0,
+        "change_pct": 0.0,
+        "since": "2026-08-07"
+      },
       "history_ref": "history/moonshot/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -40,7 +44,7 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 32893352069.63,
+      "value": 33083430834.57,
       "unit": "USD",
       "range": {
         "low": 20000000000.0,
@@ -50,6 +54,7 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
+        "clm_9e78645bae",
         "clm_66706febd6",
         "clm_7be716e5b8",
         "clm_85f223da3c",
@@ -60,13 +65,15 @@
         "clm_4ffc037f6b",
         "clm_8e436b4a23",
         "clm_11f18bfd54",
+        "clm_f61325f567",
+        "clm_ac6fd5f4fc",
         "clm_8a4c2dc727"
       ],
-      "contradiction": true,
+      "contradiction": false,
       "delta": {
-        "previous": 30000000000.0,
-        "change_pct": 9.6,
-        "since": "2026-06-12"
+        "previous": 32893352069.63,
+        "change_pct": 0.6,
+        "since": "2026-08-07"
       },
       "history_ref": "history/moonshot/valuation.jsonl",
       "unconfirmed": false,
@@ -80,12 +87,16 @@
       "range": null,
       "as_of": "2026-06-29",
       "estimate_type": "reported",
-      "confidence": 0.34,
+      "confidence": 0.338,
       "supporting_claims": [
         "clm_a61484dfed"
       ],
       "contradiction": true,
-      "delta": null,
+      "delta": {
+        "previous": 300000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-29"
+      },
       "history_ref": "history/moonshot/arr.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -93,20 +104,25 @@
     },
     "total_funding": {
       "metric": "total_funding",
-      "value": 2000000000.0,
+      "value": 3500000000.0,
       "unit": "USD",
       "range": {
         "low": 2000000000.0,
         "high": 3900000000.0
       },
-      "as_of": "2026-05-07",
-      "estimate_type": "reported",
-      "confidence": 0.455,
+      "as_of": "2026-07-29",
+      "estimate_type": "consensus",
+      "confidence": 0.759,
       "supporting_claims": [
-        "clm_4575d261ba"
+        "clm_da056e95ee",
+        "clm_182894d9c5"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 2000000000.0,
+        "change_pct": 75.0,
+        "since": "2026-05-07"
+      },
       "history_ref": "history/moonshot/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -114,19 +130,22 @@
     },
     "round_amount": {
       "metric": "round_amount",
-      "value": 2000000000.0,
+      "value": 3500000000.0,
       "unit": "USD",
-      "range": null,
-      "as_of": "2026-05-07",
+      "range": {
+        "low": 2000000000.0,
+        "high": 3500000000.0
+      },
+      "as_of": "2026-07-29",
       "estimate_type": "reported",
-      "confidence": 0.394,
+      "confidence": 0.493,
       "supporting_claims": [
-        "clm_567e3e4c30"
+        "clm_401c0e9aad"
       ],
       "contradiction": false,
       "delta": {
         "previous": 2000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 75.0,
         "since": "2026-05-07"
       },
       "history_ref": "history/moonshot/round_amount.jsonl",
@@ -141,17 +160,21 @@
       "range": null,
       "as_of": "2026-05-07",
       "estimate_type": "reported",
-      "confidence": 0.106,
+      "confidence": 0.105,
       "supporting_claims": [
         "drv_667f60eb9a"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 100.0,
+        "change_pct": 0.0,
+        "since": "2026-05-07"
+      },
       "history_ref": "history/moonshot/revenue_multiple.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-20"
+  "last_updated": "2026-08-21"
 }

@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 87.3,
-  "universe_rank": 16,
+  "universe_rank": 17,
   "metrics": {
     "arr": {
       "metric": "arr",
@@ -19,15 +19,15 @@
       "range": null,
       "as_of": "2026-08-06",
       "estimate_type": "reported",
-      "confidence": 0.267,
+      "confidence": 0.265,
       "supporting_claims": [
         "clm_a66030b533"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 2000000000.0,
-        "change_pct": -25.0,
-        "since": "2026-04-15"
+        "previous": 1500000000.0,
+        "change_pct": 0.0,
+        "since": "2026-08-06"
       },
       "history_ref": "history/scale/arr.jsonl",
       "unconfirmed": false,
@@ -62,14 +62,18 @@
       "value": 1000.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-08-20",
+      "as_of": "2026-08-21",
       "estimate_type": "reported",
       "confidence": 0.25,
       "supporting_claims": [
         "clm_275088b251"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 1000.0,
+        "change_pct": 0.0,
+        "since": "2026-08-20"
+      },
       "history_ref": "history/scale/headcount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -98,5 +102,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-20"
+  "last_updated": "2026-08-21"
 }

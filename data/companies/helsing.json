@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 85.5,
-  "universe_rank": 22,
+  "universe_rank": 23,
   "metrics": {
     "valuation": {
       "metric": "valuation",
@@ -42,7 +42,7 @@
       "delta": {
         "previous": 18000000000.0,
         "change_pct": -0.0,
-        "since": "2026-05-11"
+        "since": "2026-07-13"
       },
       "history_ref": "history/helsing/valuation.jsonl",
       "unconfirmed": false,
@@ -69,7 +69,11 @@
         "clm_1fbe570ac8"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 1800000000.0,
+        "change_pct": -0.0,
+        "since": "2026-07-13"
+      },
       "history_ref": "history/helsing/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -85,7 +89,7 @@
       },
       "as_of": "2026-07-13",
       "estimate_type": "consensus",
-      "confidence": 0.854,
+      "confidence": 0.853,
       "supporting_claims": [
         "clm_6f01bec325",
         "clm_b4c5e8f18f",
@@ -93,9 +97,9 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 1200000000.0,
-        "change_pct": 50.0,
-        "since": "2026-05-19"
+        "previous": 1800000000.0,
+        "change_pct": 0.0,
+        "since": "2026-07-13"
       },
       "history_ref": "history/helsing/round_amount.jsonl",
       "unconfirmed": false,
@@ -112,19 +116,23 @@
       },
       "as_of": "2026-07-13",
       "estimate_type": "consensus",
-      "confidence": 0.71,
+      "confidence": 0.709,
       "supporting_claims": [
         "clm_96aac3627d",
         "clm_c9eb8b7497",
         "clm_94fb93c32f"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 5.0,
+        "change_pct": 0.0,
+        "since": "2026-07-13"
+      },
       "history_ref": "history/helsing/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-20"
+  "last_updated": "2026-08-21"
 }

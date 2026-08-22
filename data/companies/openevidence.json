@@ -41,7 +41,7 @@
       "range": null,
       "as_of": "2026-01-29",
       "estimate_type": "consensus",
-      "confidence": 0.733,
+      "confidence": 0.732,
       "supporting_claims": [
         "clm_b56abd4e38",
         "clm_a4bc5091ca",
@@ -59,29 +59,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 250000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-01-21",
-      "estimate_type": "consensus",
-      "confidence": 0.501,
-      "supporting_claims": [
-        "clm_8136d48df1",
-        "clm_a966db1573"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 250000000.0,
-        "change_pct": -0.0,
-        "since": "2026-01-21"
-      },
-      "history_ref": "history/openevidence/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "subscribers": {
       "metric": "subscribers",
       "value": 40.0,
@@ -89,7 +66,7 @@
       "range": null,
       "as_of": "2025-09-05",
       "estimate_type": "reported",
-      "confidence": 0.029,
+      "confidence": 0.04,
       "supporting_claims": [
         "clm_744bfbd2af"
       ],
@@ -100,10 +77,33 @@
         "since": "2025-09-05"
       },
       "history_ref": "history/openevidence/subscribers.jsonl",
-      "unconfirmed": true,
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 250000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-01-21",
+      "estimate_type": "consensus",
+      "confidence": 0.5,
+      "supporting_claims": [
+        "clm_8136d48df1",
+        "clm_a966db1573"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 250000000.0,
+        "change_pct": 0.0,
+        "since": "2026-01-21"
+      },
+      "history_ref": "history/openevidence/round_amount.jsonl",
+      "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-21"
+  "last_updated": "2026-08-22"
 }

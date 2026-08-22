@@ -19,8 +19,9 @@
       "range": null,
       "as_of": "2022-05-13",
       "estimate_type": "consensus",
-      "confidence": 0.014,
+      "confidence": 0.022,
       "supporting_claims": [
+        "clm_69567187ec",
         "clm_1fbc6df56e",
         "clm_b27ab9ead5"
       ],
@@ -51,14 +52,32 @@
       "contradiction": false,
       "delta": {
         "previous": 100000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2021-06-24"
       },
       "history_ref": "history/chainalysis/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 170000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2022-05-13",
+      "estimate_type": "reported",
+      "confidence": 0.007,
+      "supporting_claims": [
+        "clm_507dff2375"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/chainalysis/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-21"
+  "last_updated": "2026-08-22"
 }

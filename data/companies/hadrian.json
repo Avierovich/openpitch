@@ -16,12 +16,16 @@
       "metric": "total_funding",
       "value": 1370000000.0,
       "unit": "USD",
-      "range": null,
+      "range": {
+        "low": 1370000000.0,
+        "high": 1370000000.0
+      },
       "as_of": "2026-08-06",
-      "estimate_type": "reported",
-      "confidence": 0.367,
+      "estimate_type": "consensus",
+      "confidence": 0.692,
       "supporting_claims": [
-        "clm_8c87a29863"
+        "clm_8c87a29863",
+        "clm_40f23ab1e4"
       ],
       "contradiction": false,
       "delta": {
@@ -36,7 +40,7 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 7817399927.9,
+      "value": 7848672537.04,
       "unit": "USD",
       "range": {
         "low": 7870000000.0,
@@ -57,12 +61,14 @@
         "clm_ebd7e7057a",
         "clm_0d58e05f59",
         "clm_822f0288d4",
-        "clm_1d44ca344e"
+        "clm_1d44ca344e",
+        "clm_2a7c366cfb",
+        "clm_a0d839a231"
       ],
       "contradiction": false,
       "delta": {
         "previous": 7817399927.9,
-        "change_pct": 0.0,
+        "change_pct": 0.4,
         "since": "2026-08-14"
       },
       "history_ref": "history/hadrian/valuation.jsonl",
@@ -80,7 +86,7 @@
       },
       "as_of": "2026-08-14",
       "estimate_type": "consensus",
-      "confidence": 0.957,
+      "confidence": 0.956,
       "supporting_claims": [
         "clm_af6ac76a00",
         "clm_a15f75a4c2",
@@ -111,11 +117,11 @@
       },
       "as_of": "2026-08-14",
       "estimate_type": "consensus",
-      "confidence": 0.741,
+      "confidence": 0.74,
       "supporting_claims": [
         "clm_ac08522c86",
-        "clm_b91d2d39b1",
-        "clm_d2641be46f"
+        "clm_d2641be46f",
+        "clm_b91d2d39b1"
       ],
       "contradiction": false,
       "delta": {
@@ -129,5 +135,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-21"
+  "last_updated": "2026-08-22"
 }

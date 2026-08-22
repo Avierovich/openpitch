@@ -1,32 +1,5 @@
 [
   {
-    "id": "clm_97f2c900ec",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 500000000000.0,
-    "unit": "USD",
-    "raw_text": "OpenAI Eyes $500 Billion Valuation in Employee Share Sale Talks",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Techeconomy",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBFTExPdjhBb1I1dzVyWVRVb2VVS0xhWU9Cblc1OUZOeE1UbkRoLTZ2LVdna1dRRVd2bm0zMnZjTUE1Vm9TNG4ySWxXcVowYW1ONGdiZGNuS1ZaSmU5S3NkeEo1am9QOFU?oc=5",
-      "locator": null,
-      "published_at": "2025-08-06"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
     "id": "clm_2f8e926ce6",
     "company_id": "openai",
     "metric": "arr",
@@ -77,6 +50,107 @@
     "extracted_at": "2026-08-21T05:50:03.226228",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_84a35c327c",
+    "company_id": "openai",
+    "metric": "total_funding",
+    "value": 110000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI raises $110 billion from Amazon, Nvidia, Softbank",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUGFoZ0dRWXViaUxLY3piaVA5MVhQNXVNYW9NbnRqLUNYSWtoR0cxa3Y1dVdfNHJOODVmQ0J4N0JaaU1maVNwMk96TXJvbHJydkkxWEpXdzRGTHNsSnctcG45U0Y4WjNsSDVydDRsMlFwZlp3WkotWGQxN2E5RDM4a0ZZbi1fVDV4MjVheFpDSGJNTlpkOFhfeUh1R3hfQXVOQkhUcndINk40eDZWZzNxQXpvNEotOEJqaDl1QXUwMU95ZFJNeEVzZFNxM3p2Rm1Vc0RHaHBRR0poSHJFak5ZTdIB5gFBVV95cUxOWVp5ZkQtR3I2SF9jWDRoUnVPQmxLSm41TlE3N242a1IydUZMUFhkaU9qLWlGY2VaMGlSZS1LOUZCSGZILWxqbW5jUHpKLTh1SEFNRkctbDd3b0pfb2Q4dU9hWHpwSDloc0tnb24wcXBtTk13ZU5nVGF1WU5uRkE2QjVHbVBXUlhseGhFMmR5RFRVdU1VYTZhRkdlVTZQT2xnQnFrZ2pNQU5aVTZfODM2eVlpZ0RDUmNhT3pxT1Q1N0J1RE5TaDFXMU92OUdJMktQNS05a2ZkVHBPMkRDVFdSSDRCMGJzQQ?oc=5",
+      "locator": null,
+      "published_at": "2026-02-27"
+    },
+    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_27233b0c1e",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 840000000000.0,
+    "unit": "USD",
+    "raw_text": "post-money valuation of $840 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUGFoZ0dRWXViaUxLY3piaVA5MVhQNXVNYW9NbnRqLUNYSWtoR0cxa3Y1dVdfNHJOODVmQ0J4N0JaaU1maVNwMk96TXJvbHJydkkxWEpXdzRGTHNsSnctcG45U0Y4WjNsSDVydDRsMlFwZlp3WkotWGQxN2E5RDM4a0ZZbi1fVDV4MjVheFpDSGJNTlpkOFhfeUh1R3hfQXVOQkhUcndINk40eDZWZzNxQXpvNEotOEJqaDl1QXUwMU95ZFJNeEVzZFNxM3p2Rm1Vc0RHaHBRR0poSHJFak5ZTdIB5gFBVV95cUxOWVp5ZkQtR3I2SF9jWDRoUnVPQmxLSm41TlE3N242a1IydUZMUFhkaU9qLWlGY2VaMGlSZS1LOUZCSGZILWxqbW5jUHpKLTh1SEFNRkctbDd3b0pfb2Q4dU9hWHpwSDloc0tnb24wcXBtTk13ZU5nVGF1WU5uRkE2QjVHbVBXUlhseGhFMmR5RFRVdU1VYTZhRkdlVTZQT2xnQnFrZ2pNQU5aVTZfODM2eVlpZ0RDUmNhT3pxT1Q1N0J1RE5TaDFXMU92OUdJMktQNS05a2ZkVHBPMkRDVFdSSDRCMGJzQQ?oc=5",
+      "locator": null,
+      "published_at": "2026-02-27"
+    },
+    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_67e0e17b2d",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI’s Revenue Run Rate Tops $40 Billion",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb205UG5jQmltLXVzbFdMNXJlRUl0Q1JHMFItQ3NQQ19aZ2tNNUxUY2ZrTHFZSWVxd2gydjFnOU5MRnIyamNEUGV2WGhrOUpqbnotRlNRS1hST3pSLUwwaDBwQXo2RnZpcjVlUUJhNGlQakNxc3VUTWhtcHVHTmswWE5VQXYtUmJ3V0MxZ3BhbzVuTDROSmRn?oc=5",
+      "locator": null,
+      "published_at": "2026-08-13"
+    },
+    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_97f2c900ec",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 500000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI Eyes $500 Billion Valuation in Employee Share Sale Talks",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Techeconomy",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBFTExPdjhBb1I1dzVyWVRVb2VVS0xhWU9Cblc1OUZOeE1UbkRoLTZ2LVdna1dRRVd2bm0zMnZjTUE1Vm9TNG4ySWxXcVowYW1ONGdiZGNuS1ZaSmU5S3NkeEo1am9QOFU?oc=5",
+      "locator": null,
+      "published_at": "2025-08-06"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -333,10 +407,10 @@
     "derivation": null
   },
   {
-    "id": "drv_9606bb7a9f",
+    "id": "drv_fb19a53f35",
     "company_id": "openai",
     "metric": "revenue_multiple",
-    "value": 35.5,
+    "value": 21.0,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -349,17 +423,17 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-04-15"
+      "published_at": "2026-08-13"
     },
-    "extracted_at": "2026-08-21T05:50:03.226228",
+    "extracted_at": "2026-08-22T05:47:44.406970",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_a66aa37416",
-        "clm_f377d1d724"
+        "clm_27233b0c1e",
+        "clm_67e0e17b2d"
       ]
     }
   }

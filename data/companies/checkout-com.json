@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 88.4,
-  "universe_rank": 11,
+  "universe_rank": 10,
   "metrics": {
     "valuation": {
       "metric": "valuation",
@@ -24,7 +24,11 @@
         "clm_38fb3aad29"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 40000000000.0,
+        "change_pct": 0.0,
+        "since": "2022-01-12"
+      },
       "history_ref": "history/checkout-com/valuation.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -42,12 +46,16 @@
         "clm_f811084f21"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
+        "since": "2022-01-12"
+      },
       "history_ref": "history/checkout-com/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-21"
+  "last_updated": "2026-08-22"
 }

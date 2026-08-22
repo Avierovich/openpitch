@@ -1,5 +1,77 @@
 [
   {
+    "id": "clm_e1bfc0ee51",
+    "company_id": "perplexity",
+    "metric": "valuation",
+    "value": 9000000000.0,
+    "unit": "USD",
+    "raw_text": "$9B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "AI Funding Tracker",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9aNk0tb3ZfU1hnNlFxNG9zSm5ub2QzZDNSYTl0ZXY5dldlYmR6NmNHekZuS1BqQVR5YTJNNHlDMzNmUFgyQWVTcjdXQ0YtZ0xBMVk3MVItMXFxMnB0dFI0VVhZaVdvTU1vMm5tOVdyV2MwaW56bmZPOA?oc=5",
+      "locator": null,
+      "published_at": "2026-02-19"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_23191e01c4",
+    "company_id": "perplexity",
+    "metric": "round_amount",
+    "value": 70000000.0,
+    "unit": "USD",
+    "raw_text": "$70 Million Funding Round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Techeconomy",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOUhQRmFtSW14Q1RIX0RPb1pBUFU2RWE0TzRwNWkzQUNySnZ5WTN2bjhXbVNOc1ZqRjMyMzczS0g0YW5wWEs0d3ZPajVRMUpiemVac1hVY2VsTnZFdzQxN0xmMGNpWk5WV0Z1UFRFT1lQUkZEWkpKUWcxR0pOYks2bUNmUGJLVmJtSVY0OTJEcHZ2ZU93WlE?oc=5",
+      "locator": null,
+      "published_at": "2024-01-05"
+    },
+    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_82ab27c57a",
+    "company_id": "perplexity",
+    "metric": "valuation",
+    "value": 520000000.0,
+    "unit": "USD",
+    "raw_text": "Valued at $520 Million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Techeconomy",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOUhQRmFtSW14Q1RIX0RPb1pBUFU2RWE0TzRwNWkzQUNySnZ5WTN2bjhXbVNOc1ZqRjMyMzczS0g0YW5wWEs0d3ZPajVRMUpiemVac1hVY2VsTnZFdzQxN0xmMGNpWk5WV0Z1UFRFT1lQUkZEWkpKUWcxR0pOYks2bUNmUGJLVmJtSVY0OTJEcHZ2ZU93WlE?oc=5",
+      "locator": null,
+      "published_at": "2024-01-05"
+    },
+    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_5ebd563604",
     "company_id": "perplexity",
     "metric": "round_amount",
@@ -49,30 +121,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_e1bfc0ee51",
-    "company_id": "perplexity",
-    "metric": "valuation",
-    "value": 9000000000.0,
-    "unit": "USD",
-    "raw_text": "$9B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "AI Funding Tracker",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9aNk0tb3ZfU1hnNlFxNG9zSm5ub2QzZDNSYTl0ZXY5dldlYmR6NmNHekZuS1BqQVR5YTJNNHlDMzNmUFgyQWVTcjdXQ0YtZ0xBMVk3MVItMXFxMnB0dFI0VVhZaVdvTU1vMm5tOVdyV2MwaW56bmZPOA?oc=5",
-      "locator": null,
-      "published_at": "2026-02-19"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -192,7 +240,7 @@
       "locator": null,
       "published_at": "2026-04-15"
     },
-    "extracted_at": "2026-08-21T05:50:03.226228",
+    "extracted_at": "2026-08-22T05:47:44.406970",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {

@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-08-21
+# OpenPitch Data Quality Report - 2026-08-22
 
 ## Summary
 
-- Profiles generated: 239
-- Watchlist candidates: 680
+- Profiles generated: 243
+- Watchlist candidates: 713
 - Top-50 cards: 50
-- Profiles with at least one metric: 231
+- Profiles with at least one metric: 235
 - Critical issues: 46
-- Warnings: 34
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 438
+- Warnings: 38
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 467
 
 ## Top-50 Companies With No Metrics
 
@@ -83,6 +83,7 @@ None.
 
 ## Single-Source Core Metrics
 
+- OpenAI: total_funding
 - xAI: total_funding
 - Anduril: round_amount
 - Anduril Industries: round_amount
@@ -100,13 +101,16 @@ None.
 - Lovable: headcount
 - Celonis: headcount
 - Poolside: arr
+- Poolside: total_funding
 - Cyera: headcount
 - OpenEvidence: total_funding
 - ElevenLabs: arr
 - Physical Intelligence: total_funding
 - Crusoe: total_funding
-- Saronic: round_amount
+- Saronic: total_funding
 - Replit: total_funding
+- Wayve: round_amount
+- Chainalysis: round_amount
 - Together AI: arr
 - Glean: arr
 

@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2026-06-05",
       "estimate_type": "consensus",
-      "confidence": 0.558,
+      "confidence": 0.557,
       "supporting_claims": [
         "clm_51dd180844",
         "clm_b50d45a205",
@@ -51,12 +51,16 @@
         "clm_e80106aede"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 50000000000.0,
+        "change_pct": 0.0,
+        "since": "2025-11-14"
+      },
       "history_ref": "history/thinking-machines/round_amount.jsonl",
       "unconfirmed": true,
       "confirmed_value": 0.0,
       "confirmed_as_of": "2025-07-17"
     }
   },
-  "last_updated": "2026-08-21"
+  "last_updated": "2026-08-22"
 }

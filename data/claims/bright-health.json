@@ -123,12 +123,12 @@
     "derivation": null
   },
   {
-    "id": "clm_f9e0b80e31",
+    "id": "clm_e8e6c16a59",
     "company_id": "bright-health",
-    "metric": "round_amount",
-    "value": 750000000.0,
+    "metric": "latest_round",
+    "value": 924000000.0,
     "unit": "USD",
-    "raw_text": "Bright Health banks $750M investment from Cigna Ventures, New Enterprise Associates",
+    "raw_text": "Bright Health raises $924M, making it the largest IPO ever in Minnesota",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -136,12 +136,12 @@
     },
     "source": {
       "type": "news",
-      "name": "Fierce Healthcare",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSUg2UUVDakxURHZyNGc0N2IwUnRPVW9lQ1RHM3A1ajBwRDh6VWZEdEdkcmF0NkdDbTJqX1JiUDdock80VWVsQnFucnUxQ2lKVmVpU01WQ1VoVGZPd0hXaGNjRUVnMmZMTVNmbFE3OVJvRUxmSVlZd1VpSFV2SWw5dXo1Y3hwTWRHNWQ4aHNXMlVzX2VSZzU4NzlScDFybVdIeEVkcFFjMUtIcng3WnFvNmRrUDRWWVdtWk1RZQ?oc=5",
+      "name": "Star Tribune",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbVBjaW5tREItOEtxVlliNDlxWjY1QXdYYlc5MGFSWVAtVjZ1UWhJNm90ZHlHV3paVzV3bkdmckNxaXZ5T1BLc3piV1otbDJfNW5odWdTXzY5dE1IeGpjLWlnMURwNHpyYmpUdWpLNmV2NFlncW1QYUFkZkdGTTZBTVBtLS0xeVVxRjJwcm1zMHJXQ2hFSDh0bm5EbUEyR1k3T00wLUZwUWxnQjg?oc=5",
       "locator": null,
-      "published_at": "2021-12-08"
+      "published_at": "2021-06-24"
     },
-    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extracted_at": "2026-08-21T05:50:03.226228",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -171,6 +171,30 @@
     "derivation": null
   },
   {
+    "id": "clm_f9e0b80e31",
+    "company_id": "bright-health",
+    "metric": "round_amount",
+    "value": 750000000.0,
+    "unit": "USD",
+    "raw_text": "Bright Health banks $750M investment from Cigna Ventures, New Enterprise Associates",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Fierce Healthcare",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSUg2UUVDakxURHZyNGc0N2IwUnRPVW9lQ1RHM3A1ajBwRDh6VWZEdEdkcmF0NkdDbTJqX1JiUDdock80VWVsQnFucnUxQ2lKVmVpU01WQ1VoVGZPd0hXaGNjRUVnMmZMTVNmbFE3OVJvRUxmSVlZd1VpSFV2SWw5dXo1Y3hwTWRHNWQ4aHNXMlVzX2VSZzU4NzlScDFybVdIeEVkcFFjMUtIcng3WnFvNmRrUDRWWVdtWk1RZQ?oc=5",
+      "locator": null,
+      "published_at": "2021-12-08"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_6bff285d68",
     "company_id": "bright-health",
     "metric": "total_funding",
@@ -192,30 +216,6 @@
     "extracted_at": "2026-08-19T12:30:22.754661",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_e8e6c16a59",
-    "company_id": "bright-health",
-    "metric": "latest_round",
-    "value": 924000000.0,
-    "unit": "USD",
-    "raw_text": "Bright Health raises $924M, making it the largest IPO ever in Minnesota",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Star Tribune",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbVBjaW5tREItOEtxVlliNDlxWjY1QXdYYlc5MGFSWVAtVjZ1UWhJNm90ZHlHV3paVzV3bkdmckNxaXZ5T1BLc3piV1otbDJfNW5odWdTXzY5dE1IeGpjLWlnMURwNHpyYmpUdWpLNmV2NFlncW1QYUFkZkdGTTZBTVBtLS0xeVVxRjJwcm1zMHJXQ2hFSDh0bm5EbUEyR1k3T00wLUZwUWxnQjg?oc=5",
-      "locator": null,
-      "published_at": "2021-06-24"
-    },
-    "extracted_at": "2026-08-21T05:50:03.226228",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {

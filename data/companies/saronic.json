@@ -12,27 +12,47 @@
   "vc_attention_score": 83.1,
   "universe_rank": 43,
   "metrics": {
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 1750000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-04-14",
+      "estimate_type": "reported",
+      "confidence": 0.439,
+      "supporting_claims": [
+        "clm_893674d7a5"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/saronic/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "valuation": {
       "metric": "valuation",
-      "value": 9163779739.94,
+      "value": 9201541182.03,
       "unit": "USD",
       "range": {
         "low": 9000000000.0,
         "high": 9250000000.0
       },
-      "as_of": "2026-04-01",
+      "as_of": "2026-04-14",
       "estimate_type": "consensus",
-      "confidence": 0.673,
+      "confidence": 0.866,
       "supporting_claims": [
         "clm_8d4ea07e6d",
+        "clm_710774e431",
+        "clm_f9544a669d",
         "clm_7e3abcb8f3",
         "clm_fd27b8b3de"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 9250000000.0,
-        "change_pct": -0.9,
-        "since": "2026-03-31"
+        "previous": 9163779739.94,
+        "change_pct": 0.4,
+        "since": "2026-04-01"
       },
       "history_ref": "history/saronic/valuation.jsonl",
       "unconfirmed": false,
@@ -43,11 +63,15 @@
       "metric": "round_amount",
       "value": 1750000000.0,
       "unit": "USD",
-      "range": null,
+      "range": {
+        "low": 1750000000.0,
+        "high": 1750000000.0
+      },
       "as_of": "2026-03-31",
-      "estimate_type": "reported",
-      "confidence": 0.355,
+      "estimate_type": "consensus",
+      "confidence": 0.582,
       "supporting_claims": [
+        "clm_49dc794396",
         "clm_729da3aee9"
       ],
       "contradiction": false,
@@ -60,7 +84,25 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 4.0,
+      "unit": "object",
+      "range": null,
+      "as_of": "2026-03-31",
+      "estimate_type": "reported",
+      "confidence": 0.354,
+      "supporting_claims": [
+        "clm_0eaf580807"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/saronic/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-21"
+  "last_updated": "2026-08-22"
 }

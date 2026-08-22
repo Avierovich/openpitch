@@ -12,19 +12,38 @@
   "vc_attention_score": 84.1,
   "universe_rank": 35,
   "metrics": {
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 1000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-08-21",
+      "estimate_type": "reported",
+      "confidence": 0.524,
+      "supporting_claims": [
+        "clm_1f7c31f48e"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/poolside/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "valuation": {
       "metric": "valuation",
       "value": 12000000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2025-10-31",
+      "as_of": "2026-08-21",
       "estimate_type": "consensus",
-      "confidence": 0.25,
+      "confidence": 0.642,
       "supporting_claims": [
+        "clm_d0e77da386",
         "clm_46b45f7c75",
         "clm_0d217fba60"
       ],
-      "contradiction": true,
+      "contradiction": false,
       "delta": {
         "previous": 12000000000.0,
         "change_pct": 0.0,
@@ -42,7 +61,7 @@
       "range": null,
       "as_of": "2025-10-31",
       "estimate_type": "consensus",
-      "confidence": 0.504,
+      "confidence": 0.503,
       "supporting_claims": [
         "clm_c7c99054ff",
         "clm_0839e2c76e",
@@ -106,19 +125,19 @@
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 60.0,
+      "value": 240.0,
       "unit": "x",
       "range": null,
-      "as_of": "2025-11-28",
+      "as_of": "2026-08-21",
       "estimate_type": "reported",
-      "confidence": 0.014,
+      "confidence": 0.18,
       "supporting_claims": [
-        "drv_6060877777"
+        "drv_fb74474681"
       ],
       "contradiction": false,
       "delta": {
         "previous": 60.0,
-        "change_pct": 0.0,
+        "change_pct": 300.0,
         "since": "2025-11-28"
       },
       "history_ref": "history/poolside/revenue_multiple.jsonl",
@@ -127,5 +146,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-21"
+  "last_updated": "2026-08-22"
 }

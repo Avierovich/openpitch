@@ -96,6 +96,30 @@
     "derivation": null
   },
   {
+    "id": "clm_3d1db76fc2",
+    "company_id": "glean",
+    "metric": "valuation",
+    "value": 4600000000.0,
+    "unit": "USD",
+    "raw_text": "Glean, aiming to be \"Google for work,\" valued at $4.6 billion in new funding round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Fortune",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUlYyTFBDTks3NUxtZWtTaTJtZWFFRER0VDJDazlyYWFlNHZhaXlWaTI1SDhtX1pJVjBodGcyQ21wT3NMUzF6WkVfRVZmYnRiRHZLNFpBOUV6Nm9CTmVUSm1YRWxWZ2IyLTZud3k4MG1VOWUtVUtNeFM0OXp2NWNHMXREemkyTUxsTWR0UHJwSWExMERnQnZPSGo1MzRwNDZsZVhlSVJVN0lJTFU?oc=5",
+      "locator": null,
+      "published_at": "2024-09-10"
+    },
+    "extracted_at": "2026-07-06T14:18:05.027477",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_ac5796a1b3",
     "company_id": "glean",
     "metric": "latest_round",
@@ -237,30 +261,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_3d1db76fc2",
-    "company_id": "glean",
-    "metric": "valuation",
-    "value": 4600000000.0,
-    "unit": "USD",
-    "raw_text": "Glean, aiming to be \"Google for work,\" valued at $4.6 billion in new funding round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Fortune",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUlYyTFBDTks3NUxtZWtTaTJtZWFFRER0VDJDazlyYWFlNHZhaXlWaTI1SDhtX1pJVjBodGcyQ21wT3NMUzF6WkVfRVZmYnRiRHZLNFpBOUV6Nm9CTmVUSm1YRWxWZ2IyLTZud3k4MG1VOWUtVUtNeFM0OXp2NWNHMXREemkyTUxsTWR0UHJwSWExMERnQnZPSGo1MzRwNDZsZVhlSVJVN0lJTFU?oc=5",
-      "locator": null,
-      "published_at": "2024-09-10"
-    },
-    "extracted_at": "2026-07-06T14:18:05.027477",
-    "extractor_model": "gemini-2.5-flash",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -476,7 +476,7 @@
       "locator": null,
       "published_at": "2026-05-29"
     },
-    "extracted_at": "2026-08-21T05:50:03.226228",
+    "extracted_at": "2026-08-22T05:47:44.406970",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {

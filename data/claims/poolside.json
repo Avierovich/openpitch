@@ -1,5 +1,53 @@
 [
   {
+    "id": "clm_1f7c31f48e",
+    "company_id": "poolside",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "raises $1B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ3FnOFBtcW1NRG9xVmI3N3BFQVo3UWNWUUJGQkNsWVVqQ2tjbFgtV0tRUUQ5dG8wc1FTRWFZbE4wQllkMnQ3dks3Y3NWemNoMF9JaVdWV2h4V0F3d3hfcXh6TTMwVkNMMVlFTENUT2JlU294Z1dyQ0xHSjF5WFlPOEJucmRlck9vVzlTS2RfOUx6a3VoZ1VEUjlHRFY3UE9yNDdyYkIyTUludEtHQVE?oc=5",
+      "locator": null,
+      "published_at": "2026-08-21"
+    },
+    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_d0e77da386",
+    "company_id": "poolside",
+    "metric": "valuation",
+    "value": 12000000000.0,
+    "unit": "USD",
+    "raw_text": "$12B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ3FnOFBtcW1NRG9xVmI3N3BFQVo3UWNWUUJGQkNsWVVqQ2tjbFgtV0tRUUQ5dG8wc1FTRWFZbE4wQllkMnQ3dks3Y3NWemNoMF9JaVdWV2h4V0F3d3hfcXh6TTMwVkNMMVlFTENUT2JlU294Z1dyQ0xHSjF5WFlPOEJucmRlck9vVzlTS2RfOUx6a3VoZ1VEUjlHRFY3UE9yNDdyYkIyTUludEtHQVE?oc=5",
+      "locator": null,
+      "published_at": "2026-08-21"
+    },
+    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_161bc77681",
     "company_id": "poolside",
     "metric": "valuation",
@@ -299,10 +347,10 @@
     "derivation": null
   },
   {
-    "id": "drv_6060877777",
+    "id": "drv_fb74474681",
     "company_id": "poolside",
     "metric": "revenue_multiple",
-    "value": 60.0,
+    "value": 240.0,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -315,16 +363,16 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2025-11-28"
+      "published_at": "2026-08-21"
     },
-    "extracted_at": "2026-08-21T05:50:03.226228",
+    "extracted_at": "2026-08-22T05:47:44.406970",
     "extractor_model": "derive-engine",
-    "base_confidence": 0.1294,
+    "base_confidence": 0.1811,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_17daaaa6a6",
+        "clm_d0e77da386",
         "clm_8cc327f9d3"
       ]
     }

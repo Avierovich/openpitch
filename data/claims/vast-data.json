@@ -168,6 +168,30 @@
     "derivation": null
   },
   {
+    "id": "clm_7de5a9213f",
+    "company_id": "vast-data",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": null,
+    "raw_text": "VAST Data valued at $30 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The American Bazaar",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa2wxQ1dqZ3dOR0VleXZ2dGRMZlF5R0phRjhBbE9xelEwWDRMNU5Jem1mTk9rbzFuU3FxbmFfX3cxMXl4ZlAwSE1lYVlJeWZienlLOGc2MXJWMjh3OE4xUlc1UVpKZk93ZjhrSDY1NjlWVFpJanFQV1R6UjNSOVF6RU9rMVZQSnlvNjlfUnptOWRFRzZzWU83V05YOVZpX2tkZFhhSTc4WEtaUjlCVmc?oc=5",
+      "locator": null,
+      "published_at": "2026-04-22"
+    },
+    "extracted_at": "2026-08-21T05:50:03.226228",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_d32880da7b",
     "company_id": "vast-data",
     "metric": "round_amount",
@@ -211,30 +235,6 @@
       "published_at": "2026-04-23"
     },
     "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_7de5a9213f",
-    "company_id": "vast-data",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": null,
-    "raw_text": "VAST Data valued at $30 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "The American Bazaar",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa2wxQ1dqZ3dOR0VleXZ2dGRMZlF5R0phRjhBbE9xelEwWDRMNU5Jem1mTk9rbzFuU3FxbmFfX3cxMXl4ZlAwSE1lYVlJeWZienlLOGc2MXJWMjh3OE4xUlc1UVpKZk93ZjhrSDY1NjlWVFpJanFQV1R6UjNSOVF6RU9rMVZQSnlvNjlfUnptOWRFRzZzWU83V05YOVZpX2tkZFhhSTc4WEtaUjlCVmc?oc=5",
-      "locator": null,
-      "published_at": "2026-04-22"
-    },
-    "extracted_at": "2026-08-21T05:50:03.226228",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -450,7 +450,7 @@
       "locator": null,
       "published_at": "2026-03-11"
     },
-    "extracted_at": "2026-08-21T05:50:03.226228",
+    "extracted_at": "2026-08-22T05:47:44.406970",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

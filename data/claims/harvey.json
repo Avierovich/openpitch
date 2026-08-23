@@ -48,6 +48,33 @@
     "derivation": null
   },
   {
+    "id": "clm_38e8650db4",
+    "company_id": "harvey",
+    "metric": "valuation",
+    "value": 11000000000.0,
+    "unit": "USD",
+    "raw_text": "$11B legal AI company Harvey",
+    "qualifiers": [
+      "rounded",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "This Week in Startups",
+      "url": "https://4a885955-6823-4b22-a3e1-a526c25516a5.libsyn.com/open-source-is-going-to-win-it-all-harvey-proves-it-e2328",
+      "locator": null,
+      "published_at": "2026-08-21"
+    },
+    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3213,
+    "derivation": null
+  },
+  {
     "id": "clm_67aa086bdd",
     "company_id": "harvey",
     "metric": "valuation",
@@ -261,33 +288,6 @@
     "extracted_at": "2026-07-06T14:18:05.027477",
     "extractor_model": "gemini-2.5-flash",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_38e8650db4",
-    "company_id": "harvey",
-    "metric": "valuation",
-    "value": 11000000000.0,
-    "unit": "USD",
-    "raw_text": "$11B legal AI company Harvey",
-    "qualifiers": [
-      "rounded",
-      "approximate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "This Week in Startups",
-      "url": "https://4a885955-6823-4b22-a3e1-a526c25516a5.libsyn.com/open-source-is-going-to-win-it-all-harvey-proves-it-e2328",
-      "locator": null,
-      "published_at": "2026-08-21"
-    },
-    "extracted_at": "2026-08-22T05:47:44.406970",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3213,
     "derivation": null
   },
   {
@@ -635,7 +635,7 @@
       "locator": null,
       "published_at": "2026-03-25"
     },
-    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extracted_at": "2026-08-23T05:59:54.335804",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {

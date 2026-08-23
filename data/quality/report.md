@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-08-22
+# OpenPitch Data Quality Report - 2026-08-23
 
 ## Summary
 
-- Profiles generated: 243
-- Watchlist candidates: 713
+- Profiles generated: 246
+- Watchlist candidates: 718
 - Top-50 cards: 50
-- Profiles with at least one metric: 235
-- Critical issues: 46
-- Warnings: 38
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 467
+- Profiles with at least one metric: 238
+- Critical issues: 47
+- Warnings: 37
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 469
 
 ## Top-50 Companies With No Metrics
 
@@ -58,6 +58,7 @@ None.
 - Bright Machines
 - Built Robotics
 - Cadence
+- Callosum
 - Capella Space
 - Captions
 - Cartesia
@@ -87,12 +88,11 @@ None.
 - xAI: total_funding
 - Anduril: round_amount
 - Anduril Industries: round_amount
-- Checkout.com: valuation
 - Checkout.com: total_funding
+- Checkout.com: round_amount
 - Figure AI: total_funding
 - Safe Superintelligence: headcount
 - Scale AI: headcount
-- Reflection AI: total_funding
 - Perplexity: arr
 - Fireworks AI: arr
 - Fireworks AI: total_funding

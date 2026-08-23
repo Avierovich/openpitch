@@ -9,25 +9,29 @@
   "summary": "Cerebras Systems creates specialized wafer-scale processors and systems for accelerating AI and deep learning computation.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 86.7,
-  "universe_rank": 18,
+  "vc_attention_score": 86.6,
+  "universe_rank": 19,
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 25015941307.52,
+      "value": 24247470813.23,
       "unit": "USD",
-      "range": null,
+      "range": {
+        "low": 23000000000.0,
+        "high": 51800000000.0
+      },
       "as_of": "2026-05-04",
       "estimate_type": "consensus",
-      "confidence": 0.435,
+      "confidence": 0.606,
       "supporting_claims": [
+        "clm_a5f578c6df",
         "clm_5e7814d1a3",
         "clm_083ea5dbc6"
       ],
       "contradiction": true,
       "delta": {
         "previous": 25015941307.52,
-        "change_pct": -0.0,
+        "change_pct": -3.1,
         "since": "2026-05-04"
       },
       "history_ref": "history/cerebras/valuation.jsonl",
@@ -42,7 +46,7 @@
       "range": null,
       "as_of": "2026-08-14",
       "estimate_type": "reported",
-      "confidence": 0.351,
+      "confidence": 0.348,
       "supporting_claims": [
         "clm_feefdc3941"
       ],
@@ -89,7 +93,7 @@
       },
       "as_of": "2026-08-12",
       "estimate_type": "consensus",
-      "confidence": 0.719,
+      "confidence": 0.715,
       "supporting_claims": [
         "clm_e32790969d",
         "clm_e794c66901",
@@ -106,6 +110,31 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 1041321633.68,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-02-05",
+      "estimate_type": "consensus",
+      "confidence": 0.638,
+      "supporting_claims": [
+        "clm_440804d702",
+        "clm_adfd0da588",
+        "clm_18c4a30a9d",
+        "clm_a8fdf04213"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1041321633.68,
+        "change_pct": 0.0,
+        "since": "2026-02-05"
+      },
+      "history_ref": "history/cerebras/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "revenue_growth": {
       "metric": "revenue_growth",
       "value": 97.96,
@@ -116,7 +145,7 @@
       },
       "as_of": "2026-08-14",
       "estimate_type": "reported",
-      "confidence": 0.575,
+      "confidence": 0.571,
       "supporting_claims": [
         "clm_a217a997b0",
         "clm_5498625f57"
@@ -131,30 +160,7 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 1041321633.68,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-02-05",
-      "estimate_type": "consensus",
-      "confidence": 0.338,
-      "supporting_claims": [
-        "clm_adfd0da588",
-        "clm_a8fdf04213"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1041321633.68,
-        "change_pct": 0.0,
-        "since": "2026-02-05"
-      },
-      "history_ref": "history/cerebras/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-22"
+  "last_updated": "2026-08-23"
 }

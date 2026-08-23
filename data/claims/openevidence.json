@@ -48,6 +48,110 @@
     "derivation": null
   },
   {
+    "id": "clm_f628fbf172",
+    "company_id": "openevidence",
+    "metric": "round_amount",
+    "value": 200000000.0,
+    "unit": "USD",
+    "raw_text": "OpenEvidence eyes $200M raise",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSl9IQnNPVUxpNE9qbllqYTdBRjkzWmNqMWRQRkNINUdST05VcWc3djRNUFBiM0tES0wzRnJMRWc3SUJXZWdTVTExOEdUNlZoaHhTcmNKZ3JnVGV5aHJWQkFJTk95M0lxajlyaXA5NXVteDVYeFhpVllIWVBkRVVCcGJtdUtTTGdKUzdsbXhrN0pIUGtVUWc?oc=5",
+      "locator": null,
+      "published_at": "2026-07-21"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_554eef5f9f",
+    "company_id": "openevidence",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": "USD",
+    "raw_text": "$20B valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSl9IQnNPVUxpNE9qbllqYTdBRjkzWmNqMWRQRkNINUdST05VcWc3djRNUFBiM0tES0wzRnJMRWc3SUJXZWdTVTExOEdUNlZoaHhTcmNKZ3JnVGV5aHJWQkFJTk95M0lxajlyaXA5NXVteDVYeFhpVllIWVBkRVVCcGJtdUtTTGdKUzdsbXhrN0pIUGtVUWc?oc=5",
+      "locator": null,
+      "published_at": "2026-07-21"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_c8c2c3c791",
+    "company_id": "openevidence",
+    "metric": "valuation",
+    "value": 12000000000.0,
+    "unit": "USD",
+    "raw_text": "$12B",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSl9IQnNPVUxpNE9qbllqYTdBRjkzWmNqMWRQRkNINUdST05VcWc3djRNUFBiM0tES0wzRnJMRWc3SUJXZWdTVTExOEdUNlZoaHhTcmNKZ3JnVGV5aHJWQkFJTk95M0lxajlyaXA5NXVteDVYeFhpVllIWVBkRVVCcGJtdUtTTGdKUzdsbXhrN0pIUGtVUWc?oc=5",
+      "locator": null,
+      "published_at": "2026-07-21"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_744bfbd2af",
+    "company_id": "openevidence",
+    "metric": "subscribers",
+    "value": 40.0,
+    "unit": "percent",
+    "raw_text": "adopted by 40% of American doctors",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "No Priors",
+      "url": null,
+      "locator": null,
+      "published_at": "2025-09-05"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.42,
+    "derivation": null
+  },
+  {
     "id": "clm_b56abd4e38",
     "company_id": "openevidence",
     "metric": "valuation",
@@ -69,30 +173,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_744bfbd2af",
-    "company_id": "openevidence",
-    "metric": "subscribers",
-    "value": 40.0,
-    "unit": null,
-    "raw_text": "adopted by 40% of American doctors",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "No Priors",
-      "url": null,
-      "locator": null,
-      "published_at": "2025-09-05"
-    },
-    "extracted_at": "2026-08-22T05:47:44.406970",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.42,
     "derivation": null
   },
   {

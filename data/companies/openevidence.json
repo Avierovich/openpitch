@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2026-06-03",
       "estimate_type": "reported",
-      "confidence": 0.471,
+      "confidence": 0.47,
       "supporting_claims": [
         "clm_7b39ced9b3"
       ],
@@ -39,10 +39,11 @@
       "value": 12000000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2026-01-29",
+      "as_of": "2026-07-21",
       "estimate_type": "consensus",
-      "confidence": 0.732,
+      "confidence": 0.808,
       "supporting_claims": [
+        "clm_c8c2c3c791",
         "clm_b56abd4e38",
         "clm_a4bc5091ca",
         "clm_8eff67f617",
@@ -55,6 +56,29 @@
         "since": "2026-01-29"
       },
       "history_ref": "history/openevidence/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 250000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-01-21",
+      "estimate_type": "consensus",
+      "confidence": 0.499,
+      "supporting_claims": [
+        "clm_8136d48df1",
+        "clm_a966db1573"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 250000000.0,
+        "change_pct": 0.0,
+        "since": "2026-01-21"
+      },
+      "history_ref": "history/openevidence/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -80,30 +104,7 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 250000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-01-21",
-      "estimate_type": "consensus",
-      "confidence": 0.5,
-      "supporting_claims": [
-        "clm_8136d48df1",
-        "clm_a966db1573"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 250000000.0,
-        "change_pct": 0.0,
-        "since": "2026-01-21"
-      },
-      "history_ref": "history/openevidence/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-22"
+  "last_updated": "2026-08-23"
 }

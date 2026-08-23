@@ -55,7 +55,7 @@
       "range": null,
       "as_of": "2026-06-02",
       "estimate_type": "reported",
-      "confidence": 0.134,
+      "confidence": 0.133,
       "supporting_claims": [
         "clm_d35e24cf73"
       ],
@@ -103,14 +103,14 @@
       "range": null,
       "as_of": "2026-01-08",
       "estimate_type": "reported",
-      "confidence": 0.202,
+      "confidence": 0.201,
       "supporting_claims": [
         "clm_31e1898d5e"
       ],
       "contradiction": false,
       "delta": {
         "previous": 400000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-01-08"
       },
       "history_ref": "history/cyera/latest_round.jsonl",
@@ -120,19 +120,19 @@
     },
     "headcount": {
       "metric": "headcount",
-      "value": 550.0,
+      "value": 100.0,
       "unit": "count",
       "range": null,
       "as_of": "2025-05-09",
       "estimate_type": "reported",
-      "confidence": 0.031,
+      "confidence": 0.022,
       "supporting_claims": [
-        "clm_b7295b2927"
+        "clm_4ac8eef288"
       ],
       "contradiction": false,
       "delta": {
         "previous": 550.0,
-        "change_pct": 0.0,
+        "change_pct": -81.8,
         "since": "2025-05-09"
       },
       "history_ref": "history/cyera/headcount.jsonl",
@@ -147,7 +147,7 @@
       "range": null,
       "as_of": "2026-06-02",
       "estimate_type": "reported",
-      "confidence": 0.115,
+      "confidence": 0.114,
       "supporting_claims": [
         "clm_5c256d86b4"
       ],
@@ -167,12 +167,12 @@
       "value": 600000000.0,
       "unit": "USD",
       "range": {
-        "low": 300000000.0,
+        "low": 600000000.0,
         "high": 600000000.0
       },
       "as_of": "2026-06-11",
       "estimate_type": "consensus",
-      "confidence": 0.947,
+      "confidence": 0.946,
       "supporting_claims": [
         "clm_6f3323cf0f",
         "clm_25d74c8ecd",
@@ -195,5 +195,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-22"
+  "last_updated": "2026-08-23"
 }

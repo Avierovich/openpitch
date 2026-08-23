@@ -1,32 +1,5 @@
 [
   {
-    "id": "clm_d5139b88e6",
-    "company_id": "bright-health",
-    "metric": "valuation",
-    "value": 14000000000.0,
-    "unit": null,
-    "raw_text": "over $14bn valuation",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Private Equity Insights",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMWJFWEVGOXN1YUpGMTJ6MGo2b3J3QkhjRzBCZVRrRGl5REphZDJQRS1COFNKVVY0aDFnczJQV2lDdnpkLU1rb0dkR1g5ak1tSTNoNUJSd2NyYmNwZU9feGMxR19zUThFN2lIRGlLZ2FDMVFiZ0lzRjZiaS1MQ3hXM2NJSmFUMzZjYWxqNG5YVzNrZjRGVlljcTc4S3gyR0lUZ3pxWTFYQmlTa3FFY1E0UjMyNA?oc=5",
-      "locator": null,
-      "published_at": "2025-01-20"
-    },
-    "extracted_at": "2026-08-19T12:30:22.754661",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
     "id": "clm_1900ac697c",
     "company_id": "bright-health",
     "metric": "latest_round",
@@ -192,6 +165,84 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_728fbacb0a",
+    "company_id": "bright-health",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": "USD",
+    "raw_text": "aims for over $14 bln valuation in U.S. IPO",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUDI2QS1JbUg3V0lKdndxRGRoOWhaOU11bWtKd2lUZjhwa1N5b1o3dFVCUVV2VlU4d1JmREFoTTdaakZsTVNVbGo1Szd6RGt4V3VyNXpLVWxXeE1vdlBFeTFTRU9VM0c3X18ycHI3ZnRweFQwQi1pZUs2WjJ1MUpuXzU3NEtZMTExQUl4eHRrTjdRRzBENnEwcUlWSzYwc0VnbmNTOXpfNWw4WWtESlVzUDBITFc?oc=5",
+      "locator": null,
+      "published_at": "2021-06-15"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_589d17fc97",
+    "company_id": "bright-health",
+    "metric": "round_amount",
+    "value": 175000000.0,
+    "unit": "USD",
+    "raw_text": "raises $175M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Business Journals",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQM0Fab1U1Y0M0dlFabEo2M21mcHNJYVZqMndWZkpCc0VDYWhYNWJWYmx6ZmZweGRtVC1yYi1yTUVTbkJQSko1NGJPRjJFSlE5al9sUE1fSmJLVW1xb3JLOTlHWEdRTmlRYTkzcTM3U3JMSjRZWTAzaTgzdGNfQTVaQk8xcGNqakZpRTY2ZktCaERPa1l5TTdnYXJhd21uZktlME9v?oc=5",
+      "locator": null,
+      "published_at": "2022-10-11"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_d5139b88e6",
+    "company_id": "bright-health",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": null,
+    "raw_text": "over $14bn valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Private Equity Insights",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMWJFWEVGOXN1YUpGMTJ6MGo2b3J3QkhjRzBCZVRrRGl5REphZDJQRS1COFNKVVY0aDFnczJQV2lDdnpkLU1rb0dkR1g5ak1tSTNoNUJSd2NyYmNwZU9feGMxR19zUThFN2lIRGlLZ2FDMVFiZ0lzRjZiaS1MQ3hXM2NJSmFUMzZjYWxqNG5YVzNrZjRGVlljcTc4S3gyR0lUZ3pxWTFYQmlTa3FFY1E0UjMyNA?oc=5",
+      "locator": null,
+      "published_at": "2025-01-20"
+    },
+    "extracted_at": "2026-08-19T12:30:22.754661",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {

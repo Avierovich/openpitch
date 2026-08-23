@@ -14,27 +14,26 @@
   "metrics": {
     "round_amount": {
       "metric": "round_amount",
-      "value": 150000000.0,
+      "value": 300000000.0,
       "unit": "USD",
       "range": {
         "low": 1500000000.0,
         "high": 1500000000.0
       },
-      "as_of": "2026-01-20",
+      "as_of": "2026-01-23",
       "estimate_type": "consensus",
-      "confidence": 0.603,
+      "confidence": 0.686,
       "supporting_claims": [
-        "clm_3cfb0dd5f3",
-        "clm_3fc3cd69f9",
-        "clm_8ecc819b72",
-        "clm_ba410cb3be",
-        "clm_44442708d8"
+        "clm_50bbcdb292",
+        "clm_95713e4e5a",
+        "clm_2856f5848e",
+        "clm_11bfccd93f"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 1000000000.0,
-        "change_pct": -85.0,
-        "since": "2026-06-19"
+        "previous": 150000000.0,
+        "change_pct": 100.0,
+        "since": "2026-01-20"
       },
       "history_ref": "history/baseten/round_amount.jsonl",
       "unconfirmed": false,
@@ -51,7 +50,7 @@
       },
       "as_of": "2026-06-23",
       "estimate_type": "consensus",
-      "confidence": 0.872,
+      "confidence": 0.871,
       "supporting_claims": [
         "clm_80aec71da2",
         "clm_f336413e1c",
@@ -79,14 +78,14 @@
       "range": null,
       "as_of": "2026-06-23",
       "estimate_type": "reported",
-      "confidence": 0.445,
+      "confidence": 0.444,
       "supporting_claims": [
         "clm_b3b2cac8f3"
       ],
       "contradiction": false,
       "delta": {
         "previous": 6.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-06-23"
       },
       "history_ref": "history/baseten/latest_round.jsonl",
@@ -96,26 +95,26 @@
     },
     "revenue_growth": {
       "metric": "revenue_growth",
-      "value": 3000.0,
+      "value": 30.0,
       "unit": "pct",
       "range": null,
       "as_of": "2026-05-01",
       "estimate_type": "reported",
-      "confidence": 0.14,
+      "confidence": 0.232,
       "supporting_claims": [
-        "clm_2c91a25347"
+        "clm_adcef28feb"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 30.0,
-        "change_pct": 9900.0,
+        "previous": 3000.0,
+        "change_pct": -99.0,
         "since": "2026-05-01"
       },
       "history_ref": "history/baseten/revenue_growth.jsonl",
-      "unconfirmed": true,
+      "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-22"
+  "last_updated": "2026-08-23"
 }

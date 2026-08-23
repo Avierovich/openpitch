@@ -1,5 +1,31 @@
 [
   {
+    "id": "clm_2943c34710",
+    "company_id": "anysphere",
+    "metric": "valuation",
+    "value": 10000000000.0,
+    "unit": "USD",
+    "raw_text": "Cursor Eyes Massive $10B Valuation In Funding Round",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bitcoin World",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWXzVrQ3U5WnhSdHhuajRscUlQWlBKR1BaN3hRSmtPZFYxZ1hpMnJlSjhXVHdVbExTNm4tdTZ4cjJNUkRQaHNNdXBwcV9QbVRRMTNLR1FDRVFpbzRMVWFfZ2psSVdzRUhi?oc=5",
+      "locator": null,
+      "published_at": "2025-03-08"
+    },
+    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_b9c75ebd29",
     "company_id": "anysphere",
     "metric": "arr",
@@ -48,29 +74,27 @@
     "derivation": null
   },
   {
-    "id": "clm_2943c34710",
+    "id": "clm_9b3ac7d0b9",
     "company_id": "anysphere",
-    "metric": "valuation",
-    "value": 10000000000.0,
+    "metric": "round_amount",
+    "value": 900000000.0,
     "unit": "USD",
-    "raw_text": "Cursor Eyes Massive $10B Valuation In Funding Round",
-    "qualifiers": [
-      "unconfirmed"
-    ],
+    "raw_text": "Raises $900 Million",
+    "qualifiers": [],
     "speaker": {
       "name": null,
       "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "Bitcoin World",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWXzVrQ3U5WnhSdHhuajRscUlQWlBKR1BaN3hRSmtPZFYxZ1hpMnJlSjhXVHdVbExTNm4tdTZ4cjJNUkRQaHNNdXBwcV9QbVRRMTNLR1FDRVFpbzRMVWFfZ2psSVdzRUhi?oc=5",
+      "name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY3VjT2hyb0JPUkJock1Ib1pqRnRjaTZ6OG9LSWp4a254UnNkZjVvUmN2R1REUzhfT0hmWXh4Sl9ONHZyTVZtUHR5RGxHalZTRkJtVE1qbTE0UFBEUllaeTBzSEx0UGlfT2toNHZNWWVxZUtnd184MThRejljakNTLWRvMEY5d3NUbWt0UnlJUHNlbGNRWVhTQ29IQ3pZb29Vd3dieGlHbzZ1SmFwODJyX25FcDNxdjNQZ0E?oc=5",
       "locator": null,
-      "published_at": "2025-03-08"
+      "published_at": "2025-06-05"
     },
-    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extracted_at": "2026-08-23T05:59:54.335804",
     "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.315,
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -216,7 +240,7 @@
       "locator": null,
       "published_at": "2026-06-16"
     },
-    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extracted_at": "2026-08-23T05:59:54.335804",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

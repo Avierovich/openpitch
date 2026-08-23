@@ -123,6 +123,32 @@
     "derivation": null
   },
   {
+    "id": "clm_5b7b617325",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": "USD",
+    "raw_text": "securing a $14B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVlBud01fVjVkSWtib3lBNUNnSGtyOUdTRUdLZmM0VGtRQ0pnTzB4ZW9qdXRkVFdaUWxMTmw5SVNSOVBPV0hWRUl3NHBEMXBnck5Xc0Ixc0dmaE9vdFFUcDYxYlFFaC1aSjg5T1NTQ3lyLUl3NHM0TWRjdkNpZTBaZDU5cXBhM1k?oc=5",
+      "locator": null,
+      "published_at": "2025-09-03"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
     "id": "clm_02ceb3afde",
     "company_id": "mistral",
     "metric": "valuation",
@@ -149,6 +175,32 @@
     "derivation": null
   },
   {
+    "id": "clm_b18a2e2321",
+    "company_id": "mistral",
+    "metric": "total_funding",
+    "value": 100000000.0,
+    "unit": "USD",
+    "raw_text": "$100M+ seed financing",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "No Priors",
+      "url": null,
+      "locator": null,
+      "published_at": "2023-11-09"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.294,
+    "derivation": null
+  },
+  {
     "id": "clm_f5ac8ef2ee",
     "company_id": "mistral",
     "metric": "arr",
@@ -170,58 +222,6 @@
     "extracted_at": "2026-08-21T05:50:03.226228",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_b18a2e2321",
-    "company_id": "mistral",
-    "metric": "total_funding",
-    "value": 100000000.0,
-    "unit": "USD",
-    "raw_text": "$100M+ seed financing",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "No Priors",
-      "url": null,
-      "locator": null,
-      "published_at": "2023-11-09"
-    },
-    "extracted_at": "2026-08-22T05:47:44.406970",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.294,
-    "derivation": null
-  },
-  {
-    "id": "clm_5b7b617325",
-    "company_id": "mistral",
-    "metric": "valuation",
-    "value": 14000000000.0,
-    "unit": "USD",
-    "raw_text": "securing a $14B valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVlBud01fVjVkSWtib3lBNUNnSGtyOUdTRUdLZmM0VGtRQ0pnTzB4ZW9qdXRkVFdaUWxMTmw5SVNSOVBPV0hWRUl3NHBEMXBnck5Xc0Ixc0dmaE9vdFFUcDYxYlFFaC1aSjg5T1NTQ3lyLUl3NHM0TWRjdkNpZTBaZDU5cXBhM1k?oc=5",
-      "locator": null,
-      "published_at": "2025-09-03"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
     "derivation": null
   },
   {
@@ -499,7 +499,7 @@
       "locator": null,
       "published_at": "2026-02-11"
     },
-    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extracted_at": "2026-08-23T05:59:54.335804",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

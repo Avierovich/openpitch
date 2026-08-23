@@ -9,9 +9,46 @@
   "summary": "Fireworks AI provides a platform for highly optimized inference of large language models, enabling fast and cost-effective AI deployment.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 85.2,
+  "vc_attention_score": 85.3,
   "universe_rank": 24,
   "metrics": {
+    "valuation": {
+      "metric": "valuation",
+      "value": 16602835295.82,
+      "unit": "USD",
+      "range": {
+        "low": 17000000000.0,
+        "high": 17500000000.0
+      },
+      "as_of": "2026-07-21",
+      "estimate_type": "consensus",
+      "confidence": 0.97,
+      "supporting_claims": [
+        "clm_6075e9f8c4",
+        "clm_6a8e9cbe17",
+        "clm_8af1996394",
+        "clm_9f83fa2051",
+        "clm_99441596c4",
+        "clm_cdbc219b90",
+        "clm_c43350efaa",
+        "clm_fbee27f765",
+        "clm_b021dfc009",
+        "clm_a4d61bdb57",
+        "clm_85caa9db52",
+        "clm_80a9ece394",
+        "clm_e05fafcd2b"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 16319387654.29,
+        "change_pct": 1.7,
+        "since": "2026-07-20"
+      },
+      "history_ref": "history/fireworks/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "total_funding": {
       "metric": "total_funding",
       "value": 1500000000.0,
@@ -34,41 +71,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "valuation": {
-      "metric": "valuation",
-      "value": 16319387654.29,
-      "unit": "USD",
-      "range": {
-        "low": 17000000000.0,
-        "high": 17500000000.0
-      },
-      "as_of": "2026-07-20",
-      "estimate_type": "consensus",
-      "confidence": 0.97,
-      "supporting_claims": [
-        "clm_6075e9f8c4",
-        "clm_6a8e9cbe17",
-        "clm_8af1996394",
-        "clm_9f83fa2051",
-        "clm_99441596c4",
-        "clm_cdbc219b90",
-        "clm_c43350efaa",
-        "clm_fbee27f765",
-        "clm_a4d61bdb57",
-        "clm_b021dfc009",
-        "clm_e05fafcd2b"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 16170438775.24,
-        "change_pct": 0.9,
-        "since": "2026-07-20"
-      },
-      "history_ref": "history/fireworks/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "headcount": {
       "metric": "headcount",
       "value": 200.0,
@@ -76,7 +78,7 @@
       "range": null,
       "as_of": "2026-07-20",
       "estimate_type": "reported",
-      "confidence": 0.35,
+      "confidence": 0.348,
       "supporting_claims": [
         "clm_0d1ff77229"
       ],
@@ -98,64 +100,17 @@
       "range": null,
       "as_of": "2026-07-20",
       "estimate_type": "reported",
-      "confidence": 0.319,
+      "confidence": 0.316,
       "supporting_claims": [
         "clm_4a3e2def68"
       ],
       "contradiction": false,
       "delta": {
         "previous": 1000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-07-20"
       },
       "history_ref": "history/fireworks/arr.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "latest_round": {
-      "metric": "latest_round",
-      "value": 1500000000.0,
-      "unit": "object",
-      "range": null,
-      "as_of": "2026-07-16",
-      "estimate_type": "reported",
-      "confidence": 0.474,
-      "supporting_claims": [
-        "clm_8946ffa7c1"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1500000000.0,
-        "change_pct": 0.0,
-        "since": "2026-07-16"
-      },
-      "history_ref": "history/fireworks/latest_round.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 250000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-11-06",
-      "estimate_type": "consensus",
-      "confidence": 0.557,
-      "supporting_claims": [
-        "clm_24c55552a3",
-        "clm_14262fd0ba",
-        "clm_4131aaef21",
-        "clm_d673d3f27f"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 250000000.0,
-        "change_pct": -0.0,
-        "since": "2025-11-06"
-      },
-      "history_ref": "history/fireworks/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -165,7 +120,7 @@
       "value": 62.83,
       "unit": "count",
       "range": null,
-      "as_of": "2026-08-22",
+      "as_of": "2026-08-23",
       "estimate_type": "reported",
       "confidence": 0.512,
       "supporting_claims": [
@@ -183,6 +138,57 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 4.0,
+      "unit": "object",
+      "range": {
+        "low": 4.0,
+        "high": 1500000000.0
+      },
+      "as_of": "2026-07-21",
+      "estimate_type": "reported",
+      "confidence": 0.48,
+      "supporting_claims": [
+        "clm_b58301e14c"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 1500000000.0,
+        "change_pct": -100.0,
+        "since": "2026-07-16"
+      },
+      "history_ref": "history/fireworks/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 1500000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 1500000000.0,
+        "high": 1500000000.0
+      },
+      "as_of": "2026-07-21",
+      "estimate_type": "consensus",
+      "confidence": 0.726,
+      "supporting_claims": [
+        "clm_8d19df115e",
+        "clm_db6464301b"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 250000000.0,
+        "change_pct": 500.0,
+        "since": "2025-11-06"
+      },
+      "history_ref": "history/fireworks/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "revenue_multiple": {
       "metric": "revenue_multiple",
       "value": 17.5,
@@ -190,7 +196,7 @@
       "range": null,
       "as_of": "2026-07-20",
       "estimate_type": "reported",
-      "confidence": 0.154,
+      "confidence": 0.153,
       "supporting_claims": [
         "drv_5a9ba39364"
       ],
@@ -206,5 +212,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-22"
+  "last_updated": "2026-08-23"
 }

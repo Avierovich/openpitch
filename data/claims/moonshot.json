@@ -264,6 +264,33 @@
     "derivation": null
   },
   {
+    "id": "clm_d8401766a5",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "Moonshot chases $50bn valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1fRm5mUWduSEdyTjJYalhmNWF1dkpVMUdnTTlnT2Jmd1NtbWVDTEp5MjJ6dWhWd0tvVFl2WF82cTRYUkFNUTdSY3VELWdxbjRlMGhDNzdQQTVUaVNaSWtaWi1PVEF4bXY4Q0VyNF9Td2xuNTBENlgwaw?oc=5",
+      "locator": null,
+      "published_at": "2026-07-22"
+    },
+    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
     "id": "clm_10755bbab2",
     "company_id": "moonshot",
     "metric": "valuation",
@@ -336,33 +363,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_debe537c59",
-    "company_id": "moonshot",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": "USD",
-    "raw_text": "$50 Billion Valuation",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "marketscreener.com",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOemdrWWV1eFlqeVhGb0VkZk1yTEp5VEw0VFYzZXdiNGtkZDFHVlg5bk0zMTVPTEtHZDlaZkNacTEya2dpUnJISGtOckNzOTZWenFLVERrclBIM2Exb0lTSXJEWXlCWmloVHA4LW1HN0VheHRob3FQXzRoNkpUbkJGOWFJZHFubGxFakhyM2g1V2dnMlRWQ1BIVUoyMmVKMEp3QUNVYTl4bjZJSmNzS1c0R1ZGWlRiNWo5YTV3Vm03VlR6M1Fhc01ndzRhdDUxVW5raVFj?oc=5",
-      "locator": null,
-      "published_at": "2026-08-06"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -563,12 +563,38 @@
     "derivation": null
   },
   {
-    "id": "clm_d8401766a5",
+    "id": "clm_33e016e715",
     "company_id": "moonshot",
     "metric": "valuation",
     "value": 50000000000.0,
     "unit": "USD",
-    "raw_text": "Moonshot chases $50bn valuation",
+    "raw_text": "$50 billion valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "qz.com",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ScEY1eG5BS2tja281dzA4al9aRHZOaGdORURDZlZoYmJuTkZ5aF9GLVNGM0k4WUlEeGtRM3NXX2lBcENxTkw0Q2VpakJqYTQ4a0FKTlVhRHJvSFJHTkhLUzFKS3prYXgzM1FZbmtMRkxSRVZyWThwTGp3?oc=5",
+      "locator": null,
+      "published_at": "2026-07-21"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_7be716e5b8",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "US$30 billion valuation",
     "qualifiers": [
       "unconfirmed",
       "forward_looking"
@@ -579,12 +605,39 @@
     },
     "source": {
       "type": "news",
-      "name": "The Next Web",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1fRm5mUWduSEdyTjJYalhmNWF1dkpVMUdnTTlnT2Jmd1NtbWVDTEp5MjJ6dWhWd0tvVFl2WF82cTRYUkFNUTdSY3VELWdxbjRlMGhDNzdQQTVUaVNaSWtaWi1PVEF4bXY4Q0VyNF9Td2xuNTBENlgwaw?oc=5",
+      "name": "South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZVJ0cTc4Wk9TMUprT2lCSEdIN0tYYXloa0hVTThmZkxMMUdCQnR2LWNiZG1KUDZyVTBSYVNZVzJ2Q0xNbDNYYVc5YTlwWXl2S2MwVnM4OFdhaUNzd2RtMTBhYVJmUXpQdFZ5bE9mNkVySFhtMW1GcEpJakt2STlkRWNiUW9wY01JTjZBV1hUVTJSV1JuWGhhaFV3M3NZYURiNW93dWlvdnMwWmct0gGsAUFVX3lxTE1ibDBkQ0JRRW9vaWtuLVQ3S0F6R2RnYVJWdV9oZjNtSXlqUzdyXzhEMm5BTWswQTBhX2dkU1Y1c05KOTVwRnA3V0VtSXlZYVFvTG5Uc0x2SnREQTlmV0tYQ3Z1SUpkWlBUS2pZMUpBdVFtcndVZ2loS1dkUDVuZ3dVb2s4S2ZoN1pseDFVY0dlNHZGWkRKbGxhNlJHNHB6eEJFQXROZzZ0MkhmUmc?oc=5",
       "locator": null,
-      "published_at": "2026-07-22"
+      "published_at": "2026-06-08"
     },
-    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_debe537c59",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "$50 Billion Valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "marketscreener.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOemdrWWV1eFlqeVhGb0VkZk1yTEp5VEw0VFYzZXdiNGtkZDFHVlg5bk0zMTVPTEtHZDlaZkNacTEya2dpUnJISGtOckNzOTZWenFLVERrclBIM2Exb0lTSXJEWXlCWmloVHA4LW1HN0VheHRob3FQXzRoNkpUbkJGOWFJZHFubGxFakhyM2g1V2dnMlRWQ1BIVUoyMmVKMEp3QUNVYTl4bjZJSmNzS1c0R1ZGWlRiNWo5YTV3Vm03VlR6M1Fhc01ndzRhdDUxVW5raVFj?oc=5",
+      "locator": null,
+      "published_at": "2026-08-06"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
     "derivation": null
@@ -736,32 +789,6 @@
     "derivation": null
   },
   {
-    "id": "clm_33e016e715",
-    "company_id": "moonshot",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": "USD",
-    "raw_text": "$50 billion valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "qz.com",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ScEY1eG5BS2tja281dzA4al9aRHZOaGdORURDZlZoYmJuTkZ5aF9GLVNGM0k4WUlEeGtRM3NXX2lBcENxTkw0Q2VpakJqYTQ4a0FKTlVhRHJvSFJHTkhLUzFKS3prYXgzM1FZbmtMRkxSRVZyWThwTGp3?oc=5",
-      "locator": null,
-      "published_at": "2026-07-21"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_17bb1a2c45",
     "company_id": "moonshot",
     "metric": "valuation",
@@ -805,32 +832,6 @@
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNDl0QkhfRnlHSFJ2QmdGUVE4QURVX3Y4eWcwSmp0Zm5Ta3RxWVJCMU9Qak1xTFM4UzZ0b3RxN0VLaHhkcVZxNHBIaVl5SnB1U004VG5RbnF6d1hfaXMwNzd1MU54aUNMQVZtWFdlbWtwM1pxSnNSdzZ2WnVVT2ItMlcxeno2NEtmY19QSjgtMjZJd2YwMHE4UWFDNlpwWDF0X2FwN2VsOV9EdXowcmJaQVlWb0o?oc=5",
       "locator": null,
       "published_at": "2026-06-07"
-    },
-    "extracted_at": "2026-06-22T18:58:39.955256",
-    "extractor_model": "gemini-2.5-flash",
-    "base_confidence": 0.3675,
-    "derivation": null
-  },
-  {
-    "id": "clm_7be716e5b8",
-    "company_id": "moonshot",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "Moonshot AI eyes US$30 billion valuation",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZVJ0cTc4Wk9TMUprT2lCSEdIN0tYYXloa0hVTThmZkxMMUdCQnR2LWNiZG1KUDZyVTBSYVNZVzJ2Q0xNbDNYYVc5YTlwWXl2S2MwVnM4OFdhaUNzd2RtMTBhYVJmUXpQdFZ5bE9mNkVySFhtMW1GcEpJakt2STlkRWNiUW9wY01JTjZBV1hUVTJSV1JuWGhhaFV3M3NZYURiNW93dWlvdnMwWmct?oc=5",
-      "locator": null,
-      "published_at": "2026-06-08"
     },
     "extracted_at": "2026-06-22T18:58:39.955256",
     "extractor_model": "gemini-2.5-flash",
@@ -982,7 +983,7 @@
       "locator": null,
       "published_at": "2026-05-07"
     },
-    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extracted_at": "2026-08-23T05:59:54.335804",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

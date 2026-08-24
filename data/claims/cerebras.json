@@ -1,5 +1,53 @@
 [
   {
+    "id": "clm_18c4a30a9d",
+    "company_id": "cerebras",
+    "metric": "round_amount",
+    "value": 1100000000.0,
+    "unit": "USD",
+    "raw_text": "raises $1.1B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GamesBeat",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRWJBQ1RBRE1zSkNibjlKdlREdGdDX3ctMU9jTGpuQlJraDFNZlQwSUV1eVRuLXdqZXNtMTQtQnlCT2d1OVZxRjdtbmhfalVVSE1WQkI3ZzBoVXV5aWlYQmZPSHYwX0g4Skt6YnhZYWlwRmEwbVJqVC13QWZSS0FoTzA3d2o1bWM1UjNORjB6a2tSa1lkWkQwa3ZB?oc=5",
+      "locator": null,
+      "published_at": "2025-09-30"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_bc05bae238",
+    "company_id": "cerebras",
+    "metric": "valuation",
+    "value": 8100000000.0,
+    "unit": "USD",
+    "raw_text": "at $8.1B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GamesBeat",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRWJBQ1RBRE1zSkNibjlKdlREdGdDX3ctMU9jTGpuQlJraDFNZlQwSUV1eVRuLXdqZXNtMTQtQnlCT2d1OVZxRjdtbmhfalVVSE1WQkI3ZzBoVXV5aWlYQmZPSHYwX0g4Skt6YnhZYWlwRmEwbVJqVC13QWZSS0FoTzA3d2o1bWM1UjNORjB6a2tSa1lkWkQwa3ZB?oc=5",
+      "locator": null,
+      "published_at": "2025-09-30"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_f476585a17",
     "company_id": "cerebras",
     "metric": "valuation",
@@ -93,54 +141,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_18c4a30a9d",
-    "company_id": "cerebras",
-    "metric": "round_amount",
-    "value": 1100000000.0,
-    "unit": "USD",
-    "raw_text": "raises $1.1B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "GamesBeat",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRWJBQ1RBRE1zSkNibjlKdlREdGdDX3ctMU9jTGpuQlJraDFNZlQwSUV1eVRuLXdqZXNtMTQtQnlCT2d1OVZxRjdtbmhfalVVSE1WQkI3ZzBoVXV5aWlYQmZPSHYwX0g4Skt6YnhZYWlwRmEwbVJqVC13QWZSS0FoTzA3d2o1bWM1UjNORjB6a2tSa1lkWkQwa3ZB?oc=5",
-      "locator": null,
-      "published_at": "2025-09-30"
-    },
-    "extracted_at": "2026-08-23T05:59:54.335804",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_bc05bae238",
-    "company_id": "cerebras",
-    "metric": "valuation",
-    "value": 8100000000.0,
-    "unit": "USD",
-    "raw_text": "at $8.1B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "GamesBeat",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRWJBQ1RBRE1zSkNibjlKdlREdGdDX3ctMU9jTGpuQlJraDFNZlQwSUV1eVRuLXdqZXNtMTQtQnlCT2d1OVZxRjdtbmhfalVVSE1WQkI3ZzBoVXV5aWlYQmZPSHYwX0g4Skt6YnhZYWlwRmEwbVJqVC13QWZSS0FoTzA3d2o1bWM1UjNORjB6a2tSa1lkWkQwa3ZB?oc=5",
-      "locator": null,
-      "published_at": "2025-09-30"
-    },
-    "extracted_at": "2026-08-23T05:59:54.335804",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -474,7 +474,7 @@
       "locator": null,
       "published_at": "2026-08-12"
     },
-    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extracted_at": "2026-08-24T06:11:52.835308",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

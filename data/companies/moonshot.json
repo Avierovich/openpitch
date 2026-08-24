@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 87.8,
-  "universe_rank": 14,
+  "universe_rank": 13,
   "metrics": {
     "latest_round": {
       "metric": "latest_round",
@@ -26,9 +26,9 @@
       "supporting_claims": [
         "clm_b3a424eb0c",
         "clm_183f1296b5",
+        "clm_044d1b18b8",
         "clm_0424231d23",
         "clm_fb260a2919",
-        "clm_044d1b18b8",
         "clm_ae728f29c3"
       ],
       "contradiction": false,
@@ -65,14 +65,14 @@
         "clm_4ffc037f6b",
         "clm_8e436b4a23",
         "clm_f61325f567",
-        "clm_11f18bfd54",
         "clm_ac6fd5f4fc",
+        "clm_11f18bfd54",
         "clm_8a4c2dc727"
       ],
-      "contradiction": false,
+      "contradiction": true,
       "delta": {
-        "previous": 33083430834.57,
-        "change_pct": 0.2,
+        "previous": 33150064163.98,
+        "change_pct": -0.0,
         "since": "2026-08-07"
       },
       "history_ref": "history/moonshot/valuation.jsonl",
@@ -87,7 +87,7 @@
       "range": null,
       "as_of": "2026-06-29",
       "estimate_type": "reported",
-      "confidence": 0.332,
+      "confidence": 0.329,
       "supporting_claims": [
         "clm_a61484dfed"
       ],
@@ -130,22 +130,23 @@
     },
     "round_amount": {
       "metric": "round_amount",
-      "value": 3500000000.0,
+      "value": 2000000000.0,
       "unit": "USD",
       "range": {
         "low": 2000000000.0,
         "high": 3500000000.0
       },
-      "as_of": "2026-07-29",
-      "estimate_type": "reported",
-      "confidence": 0.49,
+      "as_of": "2026-05-08",
+      "estimate_type": "consensus",
+      "confidence": 0.628,
       "supporting_claims": [
-        "clm_401c0e9aad"
+        "clm_49ee0b4bb3",
+        "clm_567e3e4c30"
       ],
       "contradiction": false,
       "delta": {
         "previous": 3500000000.0,
-        "change_pct": 0.0,
+        "change_pct": -42.9,
         "since": "2026-07-29"
       },
       "history_ref": "history/moonshot/round_amount.jsonl",
@@ -160,7 +161,7 @@
       "range": null,
       "as_of": "2026-05-07",
       "estimate_type": "reported",
-      "confidence": 0.103,
+      "confidence": 0.102,
       "supporting_claims": [
         "drv_667f60eb9a"
       ],
@@ -176,5 +177,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-23"
+  "last_updated": "2026-08-24"
 }

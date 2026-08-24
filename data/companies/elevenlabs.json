@@ -17,11 +17,12 @@
       "value": 500000000.0,
       "unit": "object",
       "range": null,
-      "as_of": "2026-02-04",
-      "estimate_type": "reported",
-      "confidence": 0.217,
+      "as_of": "2026-02-05",
+      "estimate_type": "consensus",
+      "confidence": 0.454,
       "supporting_claims": [
-        "clm_420da59804"
+        "clm_420da59804",
+        "clm_645864d166"
       ],
       "contradiction": false,
       "delta": {
@@ -44,9 +45,10 @@
       },
       "as_of": "2026-06-21",
       "estimate_type": "consensus",
-      "confidence": 0.911,
+      "confidence": 0.938,
       "supporting_claims": [
         "clm_4d20254cdb",
+        "clm_93c05008e4",
         "clm_dcd4b90871",
         "clm_fd616403f2",
         "clm_2fee44c79d",
@@ -78,7 +80,7 @@
       "contradiction": false,
       "delta": {
         "previous": 180000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2025-01-30"
       },
       "history_ref": "history/elevenlabs/total_funding.jsonl",
@@ -96,7 +98,7 @@
       },
       "as_of": "2026-05-05",
       "estimate_type": "consensus",
-      "confidence": 0.704,
+      "confidence": 0.702,
       "supporting_claims": [
         "clm_da3421c8da",
         "clm_227fd5cc6e",
@@ -118,7 +120,7 @@
       "value": 254.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-08-23",
+      "as_of": "2026-08-24",
       "estimate_type": "reported",
       "confidence": 0.25,
       "supporting_claims": [
@@ -142,7 +144,7 @@
       "range": null,
       "as_of": "2026-05-05",
       "estimate_type": "reported",
-      "confidence": 0.189,
+      "confidence": 0.187,
       "supporting_claims": [
         "clm_b85069b411"
       ],
@@ -164,7 +166,7 @@
       "range": null,
       "as_of": "2026-05-05",
       "estimate_type": "reported",
-      "confidence": 0.091,
+      "confidence": 0.09,
       "supporting_claims": [
         "drv_04e63b286d"
       ],
@@ -180,5 +182,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-23"
+  "last_updated": "2026-08-24"
 }

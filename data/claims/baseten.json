@@ -100,6 +100,54 @@
     "derivation": null
   },
   {
+    "id": "clm_95713e4e5a",
+    "company_id": "baseten",
+    "metric": "round_amount",
+    "value": 300000000.0,
+    "unit": null,
+    "raw_text": "Raises $300 Million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNakdMN2xLSHJXa3ZaOWFHc3g2MDJuaDNLMHNsRjVSLUFTajg3ZnY1WHIxZlhpZVp6Xzc4dEhZTHlHQ2RHaDlxUGY1bGVqU1lKNzdURHRwYUdCWHBGTGhqU1oyTkdId0tPemZPZGNsZ3gwYnNFbF9RNlVwNzdEdnNMb29CZzdYbHk1cVpCMktQUnFEWjNGeTRtQU0wNHEzcVRQT0R4MmhVdVlVVVZzYm1BTHFCVVJhdUVsdjNqWHZB?oc=5",
+      "locator": null,
+      "published_at": "2026-01-20"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_9a01d07210",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 5000000000.0,
+    "unit": null,
+    "raw_text": "$5 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNakdMN2xLSHJXa3ZaOWFHc3g2MDJuaDNLMHNsRjVSLUFTajg3ZnY1WHIxZlhpZVp6Xzc4dEhZTHlHQ2RHaDlxUGY1bGVqU1lKNzdURHRwYUdCWHBGTGhqU1oyTkdId0tPemZPZGNsZ3gwYnNFbF9RNlVwNzdEdnNMb29CZzdYbHk1cVpCMktQUnFEWjNGeTRtQU0wNHEzcVRQT0R4MmhVdVlVVVZzYm1BTHFCVVJhdUVsdjNqWHZB?oc=5",
+      "locator": null,
+      "published_at": "2026-01-20"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_0df3bf0061",
     "company_id": "baseten",
     "metric": "round_amount",
@@ -224,7 +272,7 @@
     "company_id": "baseten",
     "metric": "revenue_growth",
     "value": 30.0,
-    "unit": null,
+    "unit": "multiplier",
     "raw_text": "Baseten’s 30x growth",
     "qualifiers": [],
     "speaker": {
@@ -238,57 +286,9 @@
       "locator": null,
       "published_at": "2026-05-01"
     },
-    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extracted_at": "2026-08-24T06:11:52.835308",
     "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.6,
-    "derivation": null
-  },
-  {
-    "id": "clm_95713e4e5a",
-    "company_id": "baseten",
-    "metric": "round_amount",
-    "value": 300000000.0,
-    "unit": null,
-    "raw_text": "Raises $300 Million",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNakdMN2xLSHJXa3ZaOWFHc3g2MDJuaDNLMHNsRjVSLUFTajg3ZnY1WHIxZlhpZVp6Xzc4dEhZTHlHQ2RHaDlxUGY1bGVqU1lKNzdURHRwYUdCWHBGTGhqU1oyTkdId0tPemZPZGNsZ3gwYnNFbF9RNlVwNzdEdnNMb29CZzdYbHk1cVpCMktQUnFEWjNGeTRtQU0wNHEzcVRQT0R4MmhVdVlVVVZzYm1BTHFCVVJhdUVsdjNqWHZB?oc=5",
-      "locator": null,
-      "published_at": "2026-01-20"
-    },
-    "extracted_at": "2026-08-23T05:59:54.335804",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_9a01d07210",
-    "company_id": "baseten",
-    "metric": "valuation",
-    "value": 5000000000.0,
-    "unit": null,
-    "raw_text": "$5 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNakdMN2xLSHJXa3ZaOWFHc3g2MDJuaDNLMHNsRjVSLUFTajg3ZnY1WHIxZlhpZVp6Xzc4dEhZTHlHQ2RHaDlxUGY1bGVqU1lKNzdURHRwYUdCWHBGTGhqU1oyTkdId0tPemZPZGNsZ3gwYnNFbF9RNlVwNzdEdnNMb29CZzdYbHk1cVpCMktQUnFEWjNGeTRtQU0wNHEzcVRQT0R4MmhVdVlVVVZzYm1BTHFCVVJhdUVsdjNqWHZB?oc=5",
-      "locator": null,
-      "published_at": "2026-01-20"
-    },
-    "extracted_at": "2026-08-23T05:59:54.335804",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {

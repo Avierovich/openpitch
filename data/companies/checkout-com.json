@@ -9,24 +9,47 @@
   "summary": "Checkout.com provides a global payments solution for businesses, enabling them to accept payments online. Their platform offers technology and services to manage payment processing and fraud prevention.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 88.4,
-  "universe_rank": 10,
+  "vc_attention_score": 84.1,
+  "universe_rank": 32,
   "metrics": {
-    "valuation": {
-      "metric": "valuation",
-      "value": 40000000000.0,
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 450000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2022-01-12",
+      "as_of": "2021-01-12",
       "estimate_type": "reported",
-      "confidence": 0.005,
+      "confidence": 0.002,
       "supporting_claims": [
-        "clm_38fb3aad29"
+        "clm_b800eb6c5c"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 450000000.0,
+        "change_pct": 0.0,
+        "since": "2021-01-12"
+      },
+      "history_ref": "history/checkout-com/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "valuation": {
+      "metric": "valuation",
+      "value": 12029892403.53,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-09-25",
+      "estimate_type": "consensus",
+      "confidence": 0.191,
+      "supporting_claims": [
+        "clm_d97a8da844",
+        "clm_77097e6d47"
       ],
       "contradiction": false,
       "delta": {
         "previous": 40000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -69.9,
         "since": "2022-01-12"
       },
       "history_ref": "history/checkout-com/valuation.jsonl",
@@ -55,25 +78,7 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 450000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2021-01-12",
-      "estimate_type": "reported",
-      "confidence": 0.002,
-      "supporting_claims": [
-        "clm_b800eb6c5c"
-      ],
-      "contradiction": false,
-      "delta": null,
-      "history_ref": "history/checkout-com/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-23"
+  "last_updated": "2026-08-24"
 }

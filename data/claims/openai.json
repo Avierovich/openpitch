@@ -79,6 +79,32 @@
     "derivation": null
   },
   {
+    "id": "clm_e25e11eb2e",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI’s Annualized Revenue Tops $40 Billion",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRFBTR1VKWUlRMkNjY2g4YUU1M2Ruc0lIQWdEUklmb2x0VmhPbEgweWdweDBwWGNPX0FDZFhHcEtuWW41NnQ2cDRVV0lUX3JtS0FmV3NoTVZuQW5BN2ZSMGViVG9Xd0JJN3pScHA3b0UzSzBFUUVBWDZRV2lVMVpwU1ozUlRrMkNadTNKVTg3SGl2MGduajJnakVLb2hkQWlxSG9xaW1Cc18?oc=5",
+      "locator": null,
+      "published_at": "2026-08-13"
+    },
+    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
     "id": "clm_791ef4577f",
     "company_id": "openai",
     "metric": "arr",
@@ -425,7 +451,7 @@
       "locator": null,
       "published_at": "2026-08-13"
     },
-    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extracted_at": "2026-08-24T06:11:52.835308",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {

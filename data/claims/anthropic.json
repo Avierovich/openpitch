@@ -171,33 +171,6 @@
     "derivation": null
   },
   {
-    "id": "clm_256fad4a07",
-    "company_id": "anthropic",
-    "metric": "valuation",
-    "value": 2000000000000.0,
-    "unit": "USD",
-    "raw_text": "anticipate a $2 trillion Anthropic IPO",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "investor"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "The AI Daily Brief",
-      "url": "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Companies-Still-Havent-Delivered-on-Their-Biggest-Promises-e3nhjtc",
-      "locator": null,
-      "published_at": "2026-08-17"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2016,
-    "derivation": null
-  },
-  {
     "id": "clm_037cb88bfb",
     "company_id": "anthropic",
     "metric": "valuation",
@@ -243,6 +216,81 @@
     "extracted_at": "2026-07-06T14:31:09.058208",
     "extractor_model": "gemini-2.5-flash-lite",
     "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_256fad4a07",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 2000000000000.0,
+    "unit": "USD",
+    "raw_text": "anticipate a $2 trillion Anthropic IPO",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "investor"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "The AI Daily Brief",
+      "url": "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Companies-Still-Havent-Delivered-on-Their-Biggest-Promises-e3nhjtc",
+      "locator": null,
+      "published_at": "2026-08-17"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2016,
+    "derivation": null
+  },
+  {
+    "id": "clm_f55b5b4eca",
+    "company_id": "anthropic",
+    "metric": "round_amount",
+    "value": 65000000000.0,
+    "unit": "USD",
+    "raw_text": "Anthropic Raises $65B in Series H Funding",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Sovereign Wealth Fund Institute | SWFI",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZGZ1T3AxQTFRUkhHTUZZUXVMTklDNjFDbG9SRUVra1hoRUREbkRZNWVBcmwyQlgzamxVYVlTMHk0R1FaVWZDT2RacWpKVkdieEw1N1FRbkM0YWJDd2JjYTMzN0d0T0NlNVFrV19zS3BvbkNUVnN4ZDJtM0VtLVc1TGxLTC1idm1HV3p5Znp1a3MyZmQ5NmxuRVhza2RYRU1YenRQbF8tMFF0WFdxeFRv?oc=5",
+      "locator": null,
+      "published_at": "2026-05-29"
+    },
+    "extracted_at": "2026-08-21T05:50:03.226228",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_8bdf295605",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 965000000000.0,
+    "unit": "USD",
+    "raw_text": "$965B Post-Money Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Sovereign Wealth Fund Institute | SWFI",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZGZ1T3AxQTFRUkhHTUZZUXVMTklDNjFDbG9SRUVra1hoRUREbkRZNWVBcmwyQlgzamxVYVlTMHk0R1FaVWZDT2RacWpKVkdieEw1N1FRbkM0YWJDd2JjYTMzN0d0T0NlNVFrV19zS3BvbkNUVnN4ZDJtM0VtLVc1TGxLTC1idm1HV3p5Znp1a3MyZmQ5NmxuRVhza2RYRU1YenRQbF8tMFF0WFdxeFRv?oc=5",
+      "locator": null,
+      "published_at": "2026-05-29"
+    },
+    "extracted_at": "2026-08-21T05:50:03.226228",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -327,36 +375,12 @@
     "derivation": null
   },
   {
-    "id": "clm_f55b5b4eca",
-    "company_id": "anthropic",
-    "metric": "round_amount",
-    "value": 65000000000.0,
-    "unit": "USD",
-    "raw_text": "Anthropic Raises $65B in Series H Funding",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Sovereign Wealth Fund Institute | SWFI",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZGZ1T3AxQTFRUkhHTUZZUXVMTklDNjFDbG9SRUVra1hoRUREbkRZNWVBcmwyQlgzamxVYVlTMHk0R1FaVWZDT2RacWpKVkdieEw1N1FRbkM0YWJDd2JjYTMzN0d0T0NlNVFrV19zS3BvbkNUVnN4ZDJtM0VtLVc1TGxLTC1idm1HV3p5Znp1a3MyZmQ5NmxuRVhza2RYRU1YenRQbF8tMFF0WFdxeFRv?oc=5",
-      "locator": null,
-      "published_at": "2026-05-29"
-    },
-    "extracted_at": "2026-08-21T05:50:03.226228",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_8bdf295605",
+    "id": "clm_8a2cb93702",
     "company_id": "anthropic",
     "metric": "valuation",
     "value": 965000000000.0,
     "unit": "USD",
-    "raw_text": "$965B Post-Money Valuation",
+    "raw_text": "$965B Valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -364,13 +388,13 @@
     },
     "source": {
       "type": "news",
-      "name": "Sovereign Wealth Fund Institute | SWFI",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZGZ1T3AxQTFRUkhHTUZZUXVMTklDNjFDbG9SRUVra1hoRUREbkRZNWVBcmwyQlgzamxVYVlTMHk0R1FaVWZDT2RacWpKVkdieEw1N1FRbkM0YWJDd2JjYTMzN0d0T0NlNVFrV19zS3BvbkNUVnN4ZDJtM0VtLVc1TGxLTC1idm1HV3p5Znp1a3MyZmQ5NmxuRVhza2RYRU1YenRQbF8tMFF0WFdxeFRv?oc=5",
+      "name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02cVBCZkF5cGZpcTc1SUNiU2hFd2xFTHM4Z0tMMmxrRC1LMWhGRnNEckxmbVFrZ1BPN3dFZFdHT3VuMFJuLVVyVGhnbGxWSDNOLTVKZzlHc3dMNC1OSkNTNjBBVkJmY1N1bUE?oc=5",
       "locator": null,
-      "published_at": "2026-05-29"
+      "published_at": "2026-08-19"
     },
-    "extracted_at": "2026-08-21T05:50:03.226228",
-    "extractor_model": "gemini-3.7-flash",
+    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "gemini-3.6-flash",
     "base_confidence": 0.525,
     "derivation": null
   },
@@ -859,7 +883,7 @@
       "locator": null,
       "published_at": "2026-06-14"
     },
-    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extracted_at": "2026-08-24T06:11:52.835308",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

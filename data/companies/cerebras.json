@@ -10,8 +10,33 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 86.6,
-  "universe_rank": 19,
+  "universe_rank": 18,
   "metrics": {
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 1041321633.68,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-02-05",
+      "estimate_type": "consensus",
+      "confidence": 0.637,
+      "supporting_claims": [
+        "clm_440804d702",
+        "clm_adfd0da588",
+        "clm_18c4a30a9d",
+        "clm_a8fdf04213"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1041321633.68,
+        "change_pct": 0.0,
+        "since": "2026-02-05"
+      },
+      "history_ref": "history/cerebras/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "valuation": {
       "metric": "valuation",
       "value": 24247470813.23,
@@ -22,7 +47,7 @@
       },
       "as_of": "2026-05-04",
       "estimate_type": "consensus",
-      "confidence": 0.606,
+      "confidence": 0.605,
       "supporting_claims": [
         "clm_a5f578c6df",
         "clm_5e7814d1a3",
@@ -30,8 +55,8 @@
       ],
       "contradiction": true,
       "delta": {
-        "previous": 25015941307.52,
-        "change_pct": -3.1,
+        "previous": 24247470813.23,
+        "change_pct": -0.0,
         "since": "2026-05-04"
       },
       "history_ref": "history/cerebras/valuation.jsonl",
@@ -46,7 +71,7 @@
       "range": null,
       "as_of": "2026-08-14",
       "estimate_type": "reported",
-      "confidence": 0.348,
+      "confidence": 0.345,
       "supporting_claims": [
         "clm_feefdc3941"
       ],
@@ -68,14 +93,14 @@
       "range": null,
       "as_of": "2026-02-05",
       "estimate_type": "reported",
-      "confidence": 0.286,
+      "confidence": 0.285,
       "supporting_claims": [
         "clm_56476fa9d4"
       ],
       "contradiction": false,
       "delta": {
         "previous": 1000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-02-05"
       },
       "history_ref": "history/cerebras/total_funding.jsonl",
@@ -93,7 +118,7 @@
       },
       "as_of": "2026-08-12",
       "estimate_type": "consensus",
-      "confidence": 0.715,
+      "confidence": 0.712,
       "supporting_claims": [
         "clm_e32790969d",
         "clm_e794c66901",
@@ -110,31 +135,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 1041321633.68,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-02-05",
-      "estimate_type": "consensus",
-      "confidence": 0.638,
-      "supporting_claims": [
-        "clm_440804d702",
-        "clm_adfd0da588",
-        "clm_18c4a30a9d",
-        "clm_a8fdf04213"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1041321633.68,
-        "change_pct": 0.0,
-        "since": "2026-02-05"
-      },
-      "history_ref": "history/cerebras/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "revenue_growth": {
       "metric": "revenue_growth",
       "value": 97.96,
@@ -145,7 +145,7 @@
       },
       "as_of": "2026-08-14",
       "estimate_type": "reported",
-      "confidence": 0.571,
+      "confidence": 0.567,
       "supporting_claims": [
         "clm_a217a997b0",
         "clm_5498625f57"
@@ -162,5 +162,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-23"
+  "last_updated": "2026-08-24"
 }

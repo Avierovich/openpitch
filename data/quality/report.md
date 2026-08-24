@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-08-23
+# OpenPitch Data Quality Report - 2026-08-24
 
 ## Summary
 
-- Profiles generated: 246
-- Watchlist candidates: 718
+- Profiles generated: 250
+- Watchlist candidates: 728
 - Top-50 cards: 50
-- Profiles with at least one metric: 238
+- Profiles with at least one metric: 242
 - Critical issues: 47
-- Warnings: 37
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 469
+- Warnings: 35
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 475
 
 ## Top-50 Companies With No Metrics
 
@@ -20,12 +20,11 @@ None.
 
 ## Top-50 Missing ARR / Revenue
 
-- Checkout.com
 - Bright Health
 - Celonis
+- Checkout.com
 - OpenEvidence
 - Airwallex
-- Replit
 - Chainalysis
 - Hadrian
 
@@ -86,10 +85,8 @@ None.
 
 - OpenAI: total_funding
 - xAI: total_funding
+- Databricks: round_amount
 - Anduril: round_amount
-- Anduril Industries: round_amount
-- Checkout.com: total_funding
-- Checkout.com: round_amount
 - Figure AI: total_funding
 - Safe Superintelligence: headcount
 - Scale AI: headcount
@@ -100,6 +97,8 @@ None.
 - Sierra: arr
 - Lovable: headcount
 - Celonis: headcount
+- Checkout.com: total_funding
+- Checkout.com: round_amount
 - Poolside: arr
 - Poolside: total_funding
 - Cyera: headcount
@@ -107,7 +106,6 @@ None.
 - ElevenLabs: arr
 - Physical Intelligence: total_funding
 - Crusoe: total_funding
-- Saronic: total_funding
 - Replit: total_funding
 - Wayve: round_amount
 - Chainalysis: round_amount

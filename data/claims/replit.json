@@ -52,6 +52,84 @@
     "derivation": null
   },
   {
+    "id": "clm_4cfbba430a",
+    "company_id": "replit",
+    "metric": "headcount_growth",
+    "value": -50.0,
+    "unit": null,
+    "raw_text": "50% Staff Layoff",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5BZTZiVmNLTnZfUVhCSGVVd05VRzNmQnBVbVlicVhiUTc0aDZnLWMtNUJNMEtud3ppR3dfbzhYeTRnSWtBYUdQVVMxX0F2cFJRWHpn?oc=5",
+      "locator": null,
+      "published_at": "2026-01-16"
+    },
+    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_8fdb18ff29",
+    "company_id": "replit",
+    "metric": "arr",
+    "value": 100000000.0,
+    "unit": "USD",
+    "raw_text": "ARR Tops $100M",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5BZTZiVmNLTnZfUVhCSGVVd05VRzNmQnBVbVlicVhiUTc0aDZnLWMtNUJNMEtud3ppR3dfbzhYeTRnSWtBYUdQVVMxX0F2cFJRWHpn?oc=5",
+      "locator": null,
+      "published_at": "2026-01-16"
+    },
+    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_e16d76fcea",
+    "company_id": "replit",
+    "metric": "valuation",
+    "value": 60000000000.0,
+    "unit": "USD",
+    "raw_text": "Company Valuation Hits $60B",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5BZTZiVmNLTnZfUVhCSGVVd05VRzNmQnBVbVlicVhiUTc0aDZnLWMtNUJNMEtud3ppR3dfbzhYeTRnSWtBYUdQVVMxX0F2cFJRWHpn?oc=5",
+      "locator": null,
+      "published_at": "2026-01-16"
+    },
+    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
     "id": "clm_963c4c7bda",
     "company_id": "replit",
     "metric": "valuation",
@@ -268,5 +346,36 @@
     "extractor_model": "gemini-2.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
+  },
+  {
+    "id": "drv_372d52a8d3",
+    "company_id": "replit",
+    "metric": "revenue_multiple",
+    "value": 600.0,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-01-16"
+    },
+    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.2054,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_e16d76fcea",
+        "clm_8fdb18ff29"
+      ]
+    }
   }
 ]

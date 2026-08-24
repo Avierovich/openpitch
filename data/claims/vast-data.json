@@ -240,6 +240,54 @@
     "derivation": null
   },
   {
+    "id": "clm_e252ea651f",
+    "company_id": "vast-data",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "Raises $1 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNenVWSlVRVUlnSVl1Y2FWbE50YTFVc2JLd1d5MkFfdDdNSEkyVHd1QU5EZ2JfdGdXLVAzSTV3NFdLeDBWWTlkeWpjOVFzTFF0TDlYb05qcGVJWkpCdmZaQ0JBNFdnQTJyVHluR3dZQkNuQ3N5LUFmakthVnYwT1pSR1RET3RVR0R1MWd2bFRyT04ycm5TWmhvUXBOZzNxY2N2NkZxQWhIX1FMV0tvQ3pMX1FuaWh3aXViNDRqanRsQTI?oc=5",
+      "locator": null,
+      "published_at": "2026-04-22"
+    },
+    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_0b0d076194",
+    "company_id": "vast-data",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "Valuation to $30 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNenVWSlVRVUlnSVl1Y2FWbE50YTFVc2JLd1d5MkFfdDdNSEkyVHd1QU5EZ2JfdGdXLVAzSTV3NFdLeDBWWTlkeWpjOVFzTFF0TDlYb05qcGVJWkpCdmZaQ0JBNFdnQTJyVHluR3dZQkNuQ3N5LUFmakthVnYwT1pSR1RET3RVR0R1MWd2bFRyT04ycm5TWmhvUXBOZzNxY2N2NkZxQWhIX1FMV0tvQ3pMX1FuaWh3aXViNDRqanRsQTI?oc=5",
+      "locator": null,
+      "published_at": "2026-04-22"
+    },
+    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_521d68b43f",
     "company_id": "vast-data",
     "metric": "valuation",
@@ -432,7 +480,7 @@
     "derivation": null
   },
   {
-    "id": "drv_6bcc334cf2",
+    "id": "drv_76df36798f",
     "company_id": "vast-data",
     "metric": "revenue_multiple",
     "value": 15.0,
@@ -448,16 +496,16 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-03-11"
+      "published_at": "2026-04-22"
     },
-    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extracted_at": "2026-08-24T06:11:52.835308",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_ba38a2a82e",
+        "clm_0b0d076194",
         "clm_4502ed577a"
       ]
     }

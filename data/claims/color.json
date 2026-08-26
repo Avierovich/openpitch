@@ -1,0 +1,83 @@
+[
+  {
+    "id": "clm_2b21f2bf83",
+    "company_id": "color",
+    "metric": "arr",
+    "value": 219500000.0,
+    "unit": "USD",
+    "raw_text": "Color Revenue 2024: $219.5M ARR",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9kNjh6bjl4LXZTZ2ljWWNjOVRFZmpCLTNydFRkQkFZUHlWVGd1ekQ2MWE2aEpaR0JQUVc5MURMdWNXU0JhVkNtYjBwV0xuYUNQMHc?oc=5",
+      "locator": null,
+      "published_at": "2025-11-22"
+    },
+    "extracted_at": "2026-08-26T05:56:52.356025",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_615c19e98c",
+    "company_id": "color",
+    "metric": "valuation",
+    "value": 4600000000.0,
+    "unit": "USD",
+    "raw_text": "$4.6B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9kNjh6bjl4LXZTZ2ljWWNjOVRFZmpCLTNydFRkQkFZUHlWVGd1ekQ2MWE2aEpaR0JQUVc5MURMdWNXU0JhVkNtYjBwV0xuYUNQMHc?oc=5",
+      "locator": null,
+      "published_at": "2025-11-22"
+    },
+    "extracted_at": "2026-08-26T05:56:52.356025",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "drv_6f649c386f",
+    "company_id": "color",
+    "metric": "revenue_multiple",
+    "value": 20.96,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2025-11-22"
+    },
+    "extracted_at": "2026-08-26T05:56:52.356025",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.2282,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_615c19e98c",
+        "clm_2b21f2bf83"
+      ]
+    }
+  }
+]

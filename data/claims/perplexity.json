@@ -1,5 +1,32 @@
 [
   {
+    "id": "clm_679cf68660",
+    "company_id": "perplexity",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "Valuation Seen Topping $30 Billion",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5WVGZ2NmgzYVJ4Sk1uM1I2QnNsQVdzYUh5WWllR1laUm5fcUdYZEQ0YlRfaDI4MlZfbVZ4am5meFhZTWJPS1V4MUlsZjZLV1RUWXY4cS1LNTV0NFljZDM5SzR5Q3VvMVFSLThHa2lFcWFoaFB0Y0E?oc=5",
+      "locator": null,
+      "published_at": "2026-08-24"
+    },
+    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
     "id": "clm_5ebd563604",
     "company_id": "perplexity",
     "metric": "round_amount",
@@ -52,6 +79,57 @@
     "derivation": null
   },
   {
+    "id": "clm_fc24151cdd",
+    "company_id": "perplexity",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "Over $30 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPR3c4YjNWWHBSeUVXSDJBbTgzM3czX1FleEQtaUJXWERQVlE0VlB4SVhZR3JGd3JhYm52dU1ZQWtIeUZRRGV2aV9hbW5taFh3VFo1Rnptd1lBZXF4b085S0stY0tfSml2YWFsOWp6V1FFeDdQOEhSalVzZVQtSDZ3TXZRZmxzSTg3QWdITFpJOVBGVkEzVlZF?oc=5",
+      "locator": null,
+      "published_at": "2026-08-25"
+    },
+    "extracted_at": "2026-08-26T05:56:52.356025",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2677,
+    "derivation": null
+  },
+  {
+    "id": "clm_4090891398",
+    "company_id": "perplexity",
+    "metric": "arr",
+    "value": 750000000.0,
+    "unit": "USD",
+    "raw_text": "Revenue Explodes to $750 Million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPR3c4YjNWWHBSeUVXSDJBbTgzM3czX1FleEQtaUJXWERQVlE0VlB4SVhZR3JGd3JhYm52dU1ZQWtIeUZRRGV2aV9hbW5taFh3VFo1Rnptd1lBZXF4b085S0stY0tfSml2YWFsOWp6V1FFeDdQOEhSalVzZVQtSDZ3TXZRZmxzSTg3QWdITFpJOVBGVkEzVlZF?oc=5",
+      "locator": null,
+      "published_at": "2026-08-25"
+    },
+    "extracted_at": "2026-08-26T05:56:52.356025",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_23191e01c4",
     "company_id": "perplexity",
     "metric": "round_amount",
@@ -97,33 +175,6 @@
     "extracted_at": "2026-08-22T05:47:44.406970",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_679cf68660",
-    "company_id": "perplexity",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "Valuation Seen Topping $30 Billion",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5WVGZ2NmgzYVJ4Sk1uM1I2QnNsQVdzYUh5WWllR1laUm5fcUdYZEQ0YlRfaDI4MlZfbVZ4am5meFhZTWJPS1V4MUlsZjZLV1RUWXY4cS1LNTV0NFljZDM5SzR5Q3VvMVFSLThHa2lFcWFoaFB0Y0E?oc=5",
-      "locator": null,
-      "published_at": "2026-08-24"
-    },
-    "extracted_at": "2026-08-24T06:11:52.835308",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -249,10 +300,10 @@
     "derivation": null
   },
   {
-    "id": "drv_719566e114",
+    "id": "drv_c079e31595",
     "company_id": "perplexity",
     "metric": "revenue_multiple",
-    "value": 1.04,
+    "value": 0.69,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -265,17 +316,17 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-04-15"
+      "published_at": "2026-08-25"
     },
-    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extracted_at": "2026-08-26T05:56:52.356025",
     "extractor_model": "derive-engine",
-    "base_confidence": 0.2282,
+    "base_confidence": 0.2536,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
         "clm_82ab27c57a",
-        "clm_cf9c983ffe"
+        "clm_4090891398"
       ]
     }
   }

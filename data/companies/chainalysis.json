@@ -10,8 +10,31 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 82.9,
-  "universe_rank": 46,
+  "universe_rank": 48,
   "metrics": {
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 170000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-03-31",
+      "estimate_type": "consensus",
+      "confidence": 0.135,
+      "supporting_claims": [
+        "clm_507dff2375",
+        "clm_c6e079f5e4"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 170000000.0,
+        "change_pct": -0.0,
+        "since": "2022-05-13"
+      },
+      "history_ref": "history/chainalysis/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "valuation": {
       "metric": "valuation",
       "value": 8600000000.0,
@@ -38,50 +61,26 @@
     },
     "latest_round": {
       "metric": "latest_round",
-      "value": 100000000.0,
+      "value": 6.0,
       "unit": "object",
       "range": null,
-      "as_of": "2021-06-24",
+      "as_of": "2025-03-31",
       "estimate_type": "reported",
-      "confidence": 0.006,
+      "confidence": 0.129,
       "supporting_claims": [
-        "clm_9f43877226",
-        "clm_b835105507",
-        "clm_ba3d61ea7e"
+        "clm_61b6d6593b"
       ],
       "contradiction": false,
       "delta": {
         "previous": 100000000.0,
-        "change_pct": 0.0,
+        "change_pct": -100.0,
         "since": "2021-06-24"
       },
       "history_ref": "history/chainalysis/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 170000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2022-05-13",
-      "estimate_type": "reported",
-      "confidence": 0.007,
-      "supporting_claims": [
-        "clm_507dff2375"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 170000000.0,
-        "change_pct": 0.0,
-        "since": "2022-05-13"
-      },
-      "history_ref": "history/chainalysis/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-24"
+  "last_updated": "2026-08-26"
 }

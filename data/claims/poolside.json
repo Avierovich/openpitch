@@ -48,6 +48,30 @@
     "derivation": null
   },
   {
+    "id": "clm_580c276693",
+    "company_id": "poolside",
+    "metric": "valuation",
+    "value": 12000000000.0,
+    "unit": "USD",
+    "raw_text": "$12B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "NewsBytes",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQR3hOSjZnSVJjY2NDeTUzU25OdXMxdFk5MlZ0bTlqUEppMUxlaUhSdTNJNmNoaUhEYWhZOFZKSTJJOE9YbzRwZG9heTdPLUgxZUVXUk5SSVFWQ0pnNm9kUThoSG9ESk1Kc1QxNWY4ZWVKWGtVT3ZHd3RhakdtMFg3V0l1a3BLMkZkZ2tNcnJZLTRxTFdvNTlrakk4ZzU4TlZFa3ZDSmRmUU0yM1k?oc=5",
+      "locator": null,
+      "published_at": "2026-08-24"
+    },
+    "extracted_at": "2026-08-26T05:56:52.356025",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_feda0c4f4e",
     "company_id": "poolside",
     "metric": "round_amount",
@@ -389,7 +413,7 @@
       "locator": null,
       "published_at": "2026-08-21"
     },
-    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extracted_at": "2026-08-26T05:56:52.356025",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

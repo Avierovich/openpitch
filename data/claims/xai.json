@@ -1,31 +1,5 @@
 [
   {
-    "id": "clm_7d863f7cd0",
-    "company_id": "xai",
-    "metric": "valuation",
-    "value": 230000000000.0,
-    "unit": null,
-    "raw_text": "Musk’s xAI in advanced talks to raise $15 billion at $230 billion valuation, WSJ reports",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOHRJaUExRGJfSTU0dk5kM2NCRzVKcTFqWTE4QUgySHY1Sy1vaUU2c3V6RFpQcU1HMExQNXFtcGdiZ2txZVNHUHp5WmhSTG84SlU2X2tDSlFNYnJHOEpuYkg2OXBxd3EzY2RaMV9PTkw3ZmxBOHZzN1ByMTZMTFhqZ1VzWloybVUySU1YdFdtZXVOVmd0UnhzYUpQd0dqYzNsTjM3Z3hwenNmZ0M2S25kUkQtcG1QMUdVc3p4WQ?oc=5",
-      "locator": null,
-      "published_at": "2025-11-18"
-    },
-    "extracted_at": "2026-07-06T14:31:09.058208",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_2c4cef03e7",
     "company_id": "xai",
     "metric": "total_funding",
@@ -74,6 +48,32 @@
     "derivation": null
   },
   {
+    "id": "clm_7d863f7cd0",
+    "company_id": "xai",
+    "metric": "valuation",
+    "value": 230000000000.0,
+    "unit": null,
+    "raw_text": "Musk’s xAI in advanced talks to raise $15 billion at $230 billion valuation, WSJ reports",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOHRJaUExRGJfSTU0dk5kM2NCRzVKcTFqWTE4QUgySHY1Sy1vaUU2c3V6RFpQcU1HMExQNXFtcGdiZ2txZVNHUHp5WmhSTG84SlU2X2tDSlFNYnJHOEpuYkg2OXBxd3EzY2RaMV9PTkw3ZmxBOHZzN1ByMTZMTFhqZ1VzWloybVUySU1YdFdtZXVOVmd0UnhzYUpQd0dqYzNsTjM3Z3hwenNmZ0M2S25kUkQtcG1QMUdVc3p4WQ?oc=5",
+      "locator": null,
+      "published_at": "2025-11-18"
+    },
+    "extracted_at": "2026-07-06T14:31:09.058208",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_6a33842ee9",
     "company_id": "xai",
     "metric": "valuation",
@@ -95,6 +95,33 @@
     "extracted_at": "2026-07-06T14:31:09.058208",
     "extractor_model": "gemini-2.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_f685650b05",
+    "company_id": "xai",
+    "metric": "arr",
+    "value": 500000000000.0,
+    "unit": "USD",
+    "raw_text": "up to $500 billion in revenue by the end of next year",
+    "qualifiers": [
+      "forward_looking",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOa3ZXX0IwSXZFWmNuaEQ5X0hWUjREdmlTUUVIZ0UxY0pzcnIyZUVkNWNoZDZITzBKOGJMa1lyVUlvT0dZbTBYREhtZHhLUW9lTGM4Qmx1ZHVkMDZnRjlLb0NreWNsYkhOZ1ViRWJpeERNWm5ia3dMc01vQkNjUTJCWDJhdkpmWjduZ3ZDTUdDWE1xSTdrdWg2ZUVHdF9pVk9TM2JRU1Iyc2pYRElRdDV4dDhZLUFsVDRWejlmWXFtUGZMY2xNaG9XcFUyLVZ4N185OUN1NlNWQUVjMi1YMjlwWmsybmQwVUVqVV9meHJhMWhvNF9RM2VEVFlJejhJM2FzYWlOQjFIZmQyNjZRMXNOZWllbmJ4VDhJcFh4VDM0VElRU1Nyb1AyZ3Nuc1NDZkZkeVBINWpuUlNYRzFpMVJDbWItUQ?oc=5",
+      "locator": null,
+      "published_at": "2026-08-13"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4462,
     "derivation": null
   },
   {
@@ -143,33 +170,6 @@
     "extracted_at": "2026-07-06T14:31:09.058208",
     "extractor_model": "gemini-2.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_f685650b05",
-    "company_id": "xai",
-    "metric": "arr",
-    "value": 500000000000.0,
-    "unit": "USD",
-    "raw_text": "up to $500 billion in revenue by the end of next year",
-    "qualifiers": [
-      "forward_looking",
-      "approximate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "exec"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tom's Hardware",
-      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOa3ZXX0IwSXZFWmNuaEQ5X0hWUjREdmlTUUVIZ0UxY0pzcnIyZUVkNWNoZDZITzBKOGJMa1lyVUlvT0dZbTBYREhtZHhLUW9lTGM4Qmx1ZHVkMDZnRjlLb0NreWNsYkhOZ1ViRWJpeERNWm5ia3dMc01vQkNjUTJCWDJhdkpmWjduZ3ZDTUdDWE1xSTdrdWg2ZUVHdF9pVk9TM2JRU1Iyc2pYRElRdDV4dDhZLUFsVDRWejlmWXFtUGZMY2xNaG9XcFUyLVZ4N185OUN1NlNWQUVjMi1YMjlwWmsybmQwVUVqVV9meHJhMWhvNF9RM2VEVFlJejhJM2FzYWlOQjFIZmQyNjZRMXNOZWllbmJ4VDhJcFh4VDM0VElRU1Nyb1AyZ3Nuc1NDZkZkeVBINWpuUlNYRzFpMVJDbWItUQ?oc=5",
-      "locator": null,
-      "published_at": "2026-08-13"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4462,
     "derivation": null
   },
   {

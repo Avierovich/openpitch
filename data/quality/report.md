@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-08-24
+# OpenPitch Data Quality Report - 2026-08-26
 
 ## Summary
 
-- Profiles generated: 250
-- Watchlist candidates: 728
+- Profiles generated: 269
+- Watchlist candidates: 763
 - Top-50 cards: 50
-- Profiles with at least one metric: 242
-- Critical issues: 47
-- Warnings: 35
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 475
+- Profiles with at least one metric: 261
+- Critical issues: 52
+- Warnings: 34
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 491
 
 ## Top-50 Companies With No Metrics
 
@@ -20,13 +20,14 @@ None.
 
 ## Top-50 Missing ARR / Revenue
 
+- Cognition AI
 - Bright Health
 - Celonis
 - Checkout.com
 - OpenEvidence
 - Airwallex
+- Chime
 - Chainalysis
-- Hadrian
 
 ## Curated High-Priority Watchlist Companies Not Profiled (critical)
 
@@ -39,6 +40,7 @@ None.
 - G42
 - Carbon Robotics
 - Amelia
+- Conversica
 - AnyVision
 - Augment Code
 - Causaly
@@ -46,7 +48,9 @@ None.
 - Foodics
 - AI71
 - Aidoc
+- Aisera
 - Ambience Healthcare
+- Antora Energy
 - Aqemia
 - Arcade
 - AssemblyAI
@@ -65,7 +69,9 @@ None.
 - Chemify
 - Climavision
 - Coder
+- Cognigy
 - Cognism
+- Collective Health
 - HUMAIN
 - Huspy
 - Ideogram
@@ -90,7 +96,6 @@ None.
 - Figure AI: total_funding
 - Safe Superintelligence: headcount
 - Scale AI: headcount
-- Perplexity: arr
 - Fireworks AI: arr
 - Fireworks AI: total_funding
 - Fireworks AI: headcount
@@ -104,13 +109,12 @@ None.
 - Cyera: headcount
 - OpenEvidence: total_funding
 - ElevenLabs: arr
+- ElevenLabs: headcount
 - Physical Intelligence: total_funding
 - Crusoe: total_funding
 - Replit: total_funding
 - Wayve: round_amount
-- Chainalysis: round_amount
 - Together AI: arr
-- Glean: arr
 
 ## Review Rule
 

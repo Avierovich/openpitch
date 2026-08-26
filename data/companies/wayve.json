@@ -10,34 +10,8 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 82.9,
-  "universe_rank": 45,
+  "universe_rank": 47,
   "metrics": {
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 1200000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 1200000000.0,
-        "high": 1200000000.0
-      },
-      "as_of": "2026-02-24",
-      "estimate_type": "consensus",
-      "confidence": 0.652,
-      "supporting_claims": [
-        "clm_2b28eede05",
-        "clm_4b2433d218"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1200000000.0,
-        "change_pct": 0.0,
-        "since": "2026-02-24"
-      },
-      "history_ref": "history/wayve/total_funding.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "round_amount": {
       "metric": "round_amount",
       "value": 1200000000.0,
@@ -45,7 +19,7 @@
       "range": null,
       "as_of": "2026-04-15",
       "estimate_type": "reported",
-      "confidence": 0.367,
+      "confidence": 0.365,
       "supporting_claims": [
         "clm_4df3cf40a3"
       ],
@@ -70,7 +44,7 @@
       },
       "as_of": "2026-06-30",
       "estimate_type": "consensus",
-      "confidence": 0.86,
+      "confidence": 0.858,
       "supporting_claims": [
         "clm_5d5b78f601",
         "clm_a19557916e",
@@ -88,7 +62,33 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 1200000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 1200000000.0,
+        "high": 1200000000.0
+      },
+      "as_of": "2026-02-24",
+      "estimate_type": "consensus",
+      "confidence": 0.65,
+      "supporting_claims": [
+        "clm_2b28eede05",
+        "clm_4b2433d218"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1200000000.0,
+        "change_pct": 0.0,
+        "since": "2026-02-24"
+      },
+      "history_ref": "history/wayve/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-24"
+  "last_updated": "2026-08-26"
 }

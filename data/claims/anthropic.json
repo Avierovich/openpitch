@@ -1,14 +1,37 @@
 [
   {
-    "id": "clm_b27ba0a66e",
+    "id": "clm_f60f66d09d",
     "company_id": "anthropic",
-    "metric": "valuation",
-    "value": 965000000000.0,
+    "metric": "arr",
+    "value": 47000000000.0,
     "unit": "USD",
-    "raw_text": "Aiming for a $965 Billion Valuation",
+    "raw_text": "Anthropic’s Revenue Could Soar From $47 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Sahm",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNMk40UTVBWV9wS2lkczVxZW93anhESm93RU5qbXdsSmpqSGtrVlMxLWlDbXc1b3VWNmtoQVc1alc3SW5vVXQyd09sMGZmYVJZVF9FaUR0VDZlaVIzZ0xYaUMzMVppQmlzUG05eWdUcFM5NGh4SnRoUE1QOVo5NkhnZUc4N1h5SEdfSC1ObXc2dlpTRVJwbnk1UjdHME5pbE80M0t4ZmxIVEQtZXgtLUJyRUUzRnI2ekhXTWRYZ0xmaGtQRl8zRW55ZFA5RXhSeFZ1T0dfdW5rdjY0a2tvT0lzdy1uenZQeEZRZlNpOHh4UDNsd29FaFI4Nk1FM1JYWXBWbEFwRjB3dWhJX0FIMWx4X3gtRWRJNlEw?oc=5",
+      "locator": null,
+      "published_at": "2026-08-14"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_88e77cbf27",
+    "company_id": "anthropic",
+    "metric": "arr",
+    "value": 200000000000.0,
+    "unit": "USD",
+    "raw_text": "to $200 Billion by 2028",
     "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
+      "forward_looking"
     ],
     "speaker": {
       "name": null,
@@ -16,14 +39,14 @@
     },
     "source": {
       "type": "news",
-      "name": "GuruFocus",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOLTI4UEVPWF96a2ZOUlZpVjlXby02VnJ0VzBhT0t4NUpnWWMyYVhiUnFBZWJnY2hXUkl4U2hUZU9IbTg1Um1JRmZsM091NUpNU01GNGV2cEl6YTFWTm50U1hDXzZlMUtlY0pvQUF4U2lXaXBweVBGQUxvWHA4NzVPYktMTlZnZzJVR00wSHpMZUY0dlF5M054cHNfZVVITnc?oc=5",
+      "name": "Sahm",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNMk40UTVBWV9wS2lkczVxZW93anhESm93RU5qbXdsSmpqSGtrVlMxLWlDbXc1b3VWNmtoQVc1alc3SW5vVXQyd09sMGZmYVJZVF9FaUR0VDZlaVIzZ0xYaUMzMVppQmlzUG05eWdUcFM5NGh4SnRoUE1QOVo5NkhnZUc4N1h5SEdfSC1ObXc2dlpTRVJwbnk1UjdHME5pbE80M0t4ZmxIVEQtZXgtLUJyRUUzRnI2ekhXTWRYZ0xmaGtQRl8zRW55ZFA5RXhSeFZ1T0dfdW5rdjY0a2tvT0lzdy1uenZQeEZRZlNpOHh4UDNsd29FaFI4Nk1FM1JYWXBWbEFwRjB3dWhJX0FIMWx4X3gtRWRJNlEw?oc=5",
       "locator": null,
-      "published_at": "2026-08-19"
+      "published_at": "2026-08-14"
     },
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
+    "base_confidence": 0.3675,
     "derivation": null
   },
   {
@@ -219,33 +242,6 @@
     "derivation": null
   },
   {
-    "id": "clm_256fad4a07",
-    "company_id": "anthropic",
-    "metric": "valuation",
-    "value": 2000000000000.0,
-    "unit": "USD",
-    "raw_text": "anticipate a $2 trillion Anthropic IPO",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "investor"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "The AI Daily Brief",
-      "url": "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Companies-Still-Havent-Delivered-on-Their-Biggest-Promises-e3nhjtc",
-      "locator": null,
-      "published_at": "2026-08-17"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2016,
-    "derivation": null
-  },
-  {
     "id": "clm_f55b5b4eca",
     "company_id": "anthropic",
     "metric": "round_amount",
@@ -291,6 +287,86 @@
     "extracted_at": "2026-08-21T05:50:03.226228",
     "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_256fad4a07",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 2000000000000.0,
+    "unit": "USD",
+    "raw_text": "anticipate a $2 trillion Anthropic IPO",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "investor"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "The AI Daily Brief",
+      "url": "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Companies-Still-Havent-Delivered-on-Their-Biggest-Promises-e3nhjtc",
+      "locator": null,
+      "published_at": "2026-08-17"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2016,
+    "derivation": null
+  },
+  {
+    "id": "clm_6311d189f6",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 2000000000000.0,
+    "unit": "USD",
+    "raw_text": "targets $100B IPO, $2T valuation",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ZREdOMWRENWQxRUdXMG5zUVVhOWV5Nmwta1R5cU1pOEg0TklVX1VjQW94MWJaUDU4RnJYQWpkTE1xVENEZllUNlpyYVo5YjdJa1BieExpYlJDLUF5QUR3cnByNVJaZ3RXNHFzb0FjLXF1TE9wOXlZQVpR0gGOAUFVX3lxTE5Bb1NiQXJuQ18wbDBxTHhLdEVUTHVkTGlUenhNY3hCdXFfSWNsNjB5V2x0ZlpmN3VvN3ZmdFZ1bGsxSWd0S2o2OTBzOWM5N2dsSl9qNEUySWJUaGVmMTBZeDZmaExKdlJFQTJOeDAtZW9tX0xDZzc5aldYSTRMNzBWbGc4RmkyVTJqd29zbWc?oc=5",
+      "locator": null,
+      "published_at": "2026-08-26"
+    },
+    "extracted_at": "2026-08-26T05:56:52.356025",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.3675,
+    "derivation": null
+  },
+  {
+    "id": "clm_b27ba0a66e",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 965000000000.0,
+    "unit": "USD",
+    "raw_text": "Aiming for a $965 Billion Valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GuruFocus",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOLTI4UEVPWF96a2ZOUlZpVjlXby02VnJ0VzBhT0t4NUpnWWMyYVhiUnFBZWJnY2hXUkl4U2hUZU9IbTg1Um1JRmZsM091NUpNU01GNGV2cEl6YTFWTm50U1hDXzZlMUtlY0pvQUF4U2lXaXBweVBGQUxvWHA4NzVPYktMTlZnZzJVR00wSHpMZUY0dlF5M054cHNfZVVITnc?oc=5",
+      "locator": null,
+      "published_at": "2026-08-19"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -516,56 +592,6 @@
     "extracted_at": "2026-08-22T05:47:44.406970",
     "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_f60f66d09d",
-    "company_id": "anthropic",
-    "metric": "arr",
-    "value": 47000000000.0,
-    "unit": "USD",
-    "raw_text": "Anthropic’s Revenue Could Soar From $47 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Sahm",
-      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNMk40UTVBWV9wS2lkczVxZW93anhESm93RU5qbXdsSmpqSGtrVlMxLWlDbXc1b3VWNmtoQVc1alc3SW5vVXQyd09sMGZmYVJZVF9FaUR0VDZlaVIzZ0xYaUMzMVppQmlzUG05eWdUcFM5NGh4SnRoUE1QOVo5NkhnZUc4N1h5SEdfSC1ObXc2dlpTRVJwbnk1UjdHME5pbE80M0t4ZmxIVEQtZXgtLUJyRUUzRnI2ekhXTWRYZ0xmaGtQRl8zRW55ZFA5RXhSeFZ1T0dfdW5rdjY0a2tvT0lzdy1uenZQeEZRZlNpOHh4UDNsd29FaFI4Nk1FM1JYWXBWbEFwRjB3dWhJX0FIMWx4X3gtRWRJNlEw?oc=5",
-      "locator": null,
-      "published_at": "2026-08-14"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_88e77cbf27",
-    "company_id": "anthropic",
-    "metric": "arr",
-    "value": 200000000000.0,
-    "unit": "USD",
-    "raw_text": "to $200 Billion by 2028",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Sahm",
-      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNMk40UTVBWV9wS2lkczVxZW93anhESm93RU5qbXdsSmpqSGtrVlMxLWlDbXc1b3VWNmtoQVc1alc3SW5vVXQyd09sMGZmYVJZVF9FaUR0VDZlaVIzZ0xYaUMzMVppQmlzUG05eWdUcFM5NGh4SnRoUE1QOVo5NkhnZUc4N1h5SEdfSC1ObXc2dlpTRVJwbnk1UjdHME5pbE80M0t4ZmxIVEQtZXgtLUJyRUUzRnI2ekhXTWRYZ0xmaGtQRl8zRW55ZFA5RXhSeFZ1T0dfdW5rdjY0a2tvT0lzdy1uenZQeEZRZlNpOHh4UDNsd29FaFI4Nk1FM1JYWXBWbEFwRjB3dWhJX0FIMWx4X3gtRWRJNlEw?oc=5",
-      "locator": null,
-      "published_at": "2026-08-14"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3675,
     "derivation": null
   },
   {
@@ -865,7 +891,7 @@
     "derivation": null
   },
   {
-    "id": "drv_cd564feb3a",
+    "id": "drv_292af76a2d",
     "company_id": "anthropic",
     "metric": "revenue_multiple",
     "value": 20.53,
@@ -881,9 +907,9 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-06-14"
+      "published_at": "2026-08-14"
     },
-    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extracted_at": "2026-08-26T05:56:52.356025",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
@@ -891,7 +917,7 @@
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
         "clm_f58aa62a72",
-        "clm_b506604679"
+        "clm_f60f66d09d"
       ]
     }
   }

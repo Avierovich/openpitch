@@ -10,11 +10,11 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 86.8,
-  "universe_rank": 17,
+  "universe_rank": 18,
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 25500684931.08,
+      "value": 25393097560.92,
       "unit": "USD",
       "range": {
         "low": 25000000000.0,
@@ -22,13 +22,18 @@
       },
       "as_of": "2026-05-28",
       "estimate_type": "consensus",
-      "confidence": 0.652,
+      "confidence": 0.728,
       "supporting_claims": [
         "clm_2dc7377b37",
+        "clm_40be601010",
         "clm_ceecc5eb06"
       ],
       "contradiction": true,
-      "delta": null,
+      "delta": {
+        "previous": 25500684931.08,
+        "change_pct": -0.4,
+        "since": "2026-05-28"
+      },
       "history_ref": "history/cognition-ai/valuation.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -44,19 +49,23 @@
       },
       "as_of": "2026-08-12",
       "estimate_type": "consensus",
-      "confidence": 0.757,
+      "confidence": 0.756,
       "supporting_claims": [
-        "clm_fa77f7d622",
         "clm_e2749197af",
-        "clm_2ba88c6ae0"
+        "clm_2ba88c6ae0",
+        "clm_fa77f7d622"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-08-12"
+      },
       "history_ref": "history/cognition-ai/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-26"
+  "last_updated": "2026-08-27"
 }

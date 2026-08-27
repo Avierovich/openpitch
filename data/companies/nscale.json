@@ -12,15 +12,46 @@
   "vc_attention_score": 84.8,
   "universe_rank": 27,
   "metrics": {
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 2000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-03-10",
+      "estimate_type": "consensus",
+      "confidence": 0.824,
+      "supporting_claims": [
+        "clm_c5dee97e0c",
+        "clm_11d9ee113c",
+        "clm_26cb18a1d3",
+        "clm_9815e842d6",
+        "clm_a8fb8dd68e",
+        "clm_e4b046a189"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 2000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-03-10"
+      },
+      "history_ref": "history/nscale/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "valuation": {
       "metric": "valuation",
       "value": 14600000000.0,
       "unit": "USD",
-      "range": null,
-      "as_of": "2026-03-23",
+      "range": {
+        "low": 14600000000.0,
+        "high": 14600000000.0
+      },
+      "as_of": "2026-05-05",
       "estimate_type": "consensus",
-      "confidence": 0.827,
+      "confidence": 0.886,
       "supporting_claims": [
+        "clm_b09ece551d",
         "clm_2f0403b605",
         "clm_5cd62120f1",
         "clm_2eef84d917",
@@ -39,33 +70,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 2000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-03-10",
-      "estimate_type": "consensus",
-      "confidence": 0.825,
-      "supporting_claims": [
-        "clm_11d9ee113c",
-        "clm_26cb18a1d3",
-        "clm_9815e842d6",
-        "clm_c5dee97e0c",
-        "clm_a8fb8dd68e",
-        "clm_e4b046a189"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 2000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-03-10"
-      },
-      "history_ref": "history/nscale/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "latest_round": {
       "metric": "latest_round",
       "value": 3.0,
@@ -73,7 +77,7 @@
       "range": null,
       "as_of": "2026-03-10",
       "estimate_type": "reported",
-      "confidence": 0.236,
+      "confidence": 0.235,
       "supporting_claims": [
         "clm_939ffd90de"
       ],
@@ -111,5 +115,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-26"
+  "last_updated": "2026-08-27"
 }

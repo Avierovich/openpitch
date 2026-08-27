@@ -12,57 +12,6 @@
   "vc_attention_score": 82.9,
   "universe_rank": 47,
   "metrics": {
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 1200000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-04-15",
-      "estimate_type": "reported",
-      "confidence": 0.365,
-      "supporting_claims": [
-        "clm_4df3cf40a3"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1200000000.0,
-        "change_pct": 0.0,
-        "since": "2026-04-15"
-      },
-      "history_ref": "history/wayve/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "valuation": {
-      "metric": "valuation",
-      "value": 8622946330.67,
-      "unit": "USD",
-      "range": {
-        "low": 8500000000.0,
-        "high": 8600000000.0
-      },
-      "as_of": "2026-06-30",
-      "estimate_type": "consensus",
-      "confidence": 0.858,
-      "supporting_claims": [
-        "clm_5d5b78f601",
-        "clm_a19557916e",
-        "clm_e2b3e394d6",
-        "clm_1042417d40",
-        "clm_9cbc59e18c"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 8622946330.67,
-        "change_pct": 0.0,
-        "since": "2026-06-30"
-      },
-      "history_ref": "history/wayve/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "total_funding": {
       "metric": "total_funding",
       "value": 1200000000.0,
@@ -88,7 +37,58 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 1200000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-04-15",
+      "estimate_type": "reported",
+      "confidence": 0.364,
+      "supporting_claims": [
+        "clm_4df3cf40a3"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1200000000.0,
+        "change_pct": 0.0,
+        "since": "2026-04-15"
+      },
+      "history_ref": "history/wayve/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "valuation": {
+      "metric": "valuation",
+      "value": 8622946330.67,
+      "unit": "USD",
+      "range": {
+        "low": 8500000000.0,
+        "high": 8600000000.0
+      },
+      "as_of": "2026-06-30",
+      "estimate_type": "consensus",
+      "confidence": 0.857,
+      "supporting_claims": [
+        "clm_5d5b78f601",
+        "clm_a19557916e",
+        "clm_e2b3e394d6",
+        "clm_1042417d40",
+        "clm_9cbc59e18c"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 8622946330.67,
+        "change_pct": 0.0,
+        "since": "2026-06-30"
+      },
+      "history_ref": "history/wayve/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-26"
+  "last_updated": "2026-08-27"
 }

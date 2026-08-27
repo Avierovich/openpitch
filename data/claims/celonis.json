@@ -27,6 +27,105 @@
     "derivation": null
   },
   {
+    "id": "clm_1bea91a08f",
+    "company_id": "celonis",
+    "metric": "valuation",
+    "value": 13000000000.0,
+    "unit": "USD",
+    "raw_text": "$13B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Startuprad Io",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONzZNRDlCbFp0OWZyMENBQlVwdy1qYjFHM2plZEVDTFBpTlR6SnBxcDFBb29PakVNVk5rX3NWcWlDcUU0SmlKb1lFcmdKX01KdlpYUDlnNlRQSVdMUjFkbklQVzhQMFVXYnZLZzRfdmNyZEtzUnhkLWhYb2Z5SkhFOGYxMS1ndDNZU3RnaVRNSGRWWkc2RmRiUERUa194a0ZpMkZsMlRCUl9ZNUVwSFBOdUpvQmpjVGMtTHRBTQ?oc=5",
+      "locator": null,
+      "published_at": "2026-08-17"
+    },
+    "extracted_at": "2026-08-27T17:02:21.670041",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_4a9d9165ee",
+    "company_id": "celonis",
+    "metric": "arr",
+    "value": 771000000.0,
+    "unit": "USD",
+    "raw_text": "$771M Est. ARR",
+    "qualifiers": [
+      "run_rate",
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5qXzVXbjRSZ3czaHF5Y2VhVnBKNHVqN1pQNVRqakZ5WGdwM3M4cHM1SGRLb3JZbnlkMXdYMFZIUHhIMTIxX2UtVDBIS0R2bkE?oc=5",
+      "locator": null,
+      "published_at": "2026-07-03"
+    },
+    "extracted_at": "2026-08-27T17:02:21.670041",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4252,
+    "derivation": null
+  },
+  {
+    "id": "clm_e18945a753",
+    "company_id": "celonis",
+    "metric": "valuation",
+    "value": 13000000000.0,
+    "unit": "USD",
+    "raw_text": "$13B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5qXzVXbjRSZ3czaHF5Y2VhVnBKNHVqN1pQNVRqakZ5WGdwM3M4cHM1SGRLb3JZbnlkMXdYMFZIUHhIMTIxX2UtVDBIS0R2bkE?oc=5",
+      "locator": null,
+      "published_at": "2026-07-03"
+    },
+    "extracted_at": "2026-08-27T17:02:21.670041",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_f0638776aa",
+    "company_id": "celonis",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "$1 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQa0VLOXV1dm9tazRLNG8zcUFNMmhhSldKdE0welFPaDd6R1A4WmJlbmV3MXZGTlFFcmpRRUI0cFJMMi1qRjNqLUZMOVZBemZqb0k0SzZuZjhrLUZjVFVrZjI4TnlVUURsNG9sdDlKV1d4SVdJNTZwRXR4d3gyQmNZTXc3ZkV6UnF5QlkxQ3AxUGplZnVJLUMzOG9hRDBqTWg3UmJqNjNSaEFReHJEVWxGeDBGRVpLaXQwTHNmNHlhLTVwZlFsSTdsUWpWNzZybW5kbUl5aEhUQ0RkQUVTQlU5bFdBRXlqYjJIM0dsc0xpQzZaanJRM2gtNHpfQ1I?oc=5",
+      "locator": null,
+      "published_at": "2022-08-23"
+    },
+    "extracted_at": "2026-08-27T17:02:21.670041",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_abdd22d911",
     "company_id": "celonis",
     "metric": "valuation",
@@ -265,5 +364,36 @@
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
+  },
+  {
+    "id": "drv_1742c64d7c",
+    "company_id": "celonis",
+    "metric": "revenue_multiple",
+    "value": 16.86,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-08-17"
+    },
+    "extracted_at": "2026-08-27T17:02:21.670041",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.2054,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_1bea91a08f",
+        "clm_4a9d9165ee"
+      ]
+    }
   }
 ]

@@ -267,16 +267,16 @@
     "derivation": null
   },
   {
-    "id": "clm_239b276a33",
+    "id": "clm_2e02ce7ac9",
     "company_id": "lovable",
-    "metric": "total_funding",
+    "metric": "latest_round",
     "value": 400000000.0,
-    "unit": null,
-    "raw_text": "Lovable raises $400 million",
+    "unit": "USD",
+    "raw_text": "Lovable raises $400M",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
@@ -285,9 +285,9 @@
       "locator": null,
       "published_at": "2026-08-17"
     },
-    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extracted_at": "2026-08-22T05:47:44.406970",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -295,12 +295,12 @@
     "company_id": "lovable",
     "metric": "valuation",
     "value": 13300000000.0,
-    "unit": null,
-    "raw_text": "$13.3 billion valuation",
+    "unit": "USD",
+    "raw_text": "$13.3B valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
@@ -309,9 +309,9 @@
       "locator": null,
       "published_at": "2026-08-17"
     },
-    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extracted_at": "2026-08-22T05:47:44.406970",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -435,54 +435,6 @@
     "derivation": null
   },
   {
-    "id": "clm_70ba37f022",
-    "company_id": "lovable",
-    "metric": "total_funding",
-    "value": 400000000.0,
-    "unit": null,
-    "raw_text": "Lovable Raises $400M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Law360",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQnRUSTd1bnRtMXV0MjZNNTNQOXlYRnNWcm9PVXdpUzhTT2JTU2c0VE56QjFNOTBrRWpzaHJ0a1dicE8waFVicU9QR1B1OGZ5ZFhUSVNsMlB2NmVBTTZ6VU5XT2EzMTdleDVBb3JGd2ZOVXZtM29WekVjclpaTlk2NU4ySG9TY0xfb0NiSjZOb0VCanRQOEkySG9iUTPSAVZBVV95cUxOVE9pX29rVURJQzYzMGMtVF9pNXRZNVhEcnpKNWF5aWZLaDBvaWtReXRNdDFNNENwNUdMNmJneGluQ1NSSjA0MXZJXzVMUXkxOVdiaU1yUQ?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_8b0395a408",
-    "company_id": "lovable",
-    "metric": "valuation",
-    "value": 13300000000.0,
-    "unit": null,
-    "raw_text": "$13.3B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Law360",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQnRUSTd1bnRtMXV0MjZNNTNQOXlYRnNWcm9PVXdpUzhTT2JTU2c0VE56QjFNOTBrRWpzaHJ0a1dicE8waFVicU9QR1B1OGZ5ZFhUSVNsMlB2NmVBTTZ6VU5XT2EzMTdleDVBb3JGd2ZOVXZtM29WekVjclpaTlk2NU4ySG9TY0xfb0NiSjZOb0VCanRQOEkySG9iUTPSAVZBVV95cUxOVE9pX29rVURJQzYzMGMtVF9pNXRZNVhEcnpKNWF5aWZLaDBvaWtReXRNdDFNNENwNUdMNmJneGluQ1NSSjA0MXZJXzVMUXkxOVdiaU1yUQ?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_b82f2b5892",
     "company_id": "lovable",
     "metric": "round_amount",
@@ -579,54 +531,6 @@
     "derivation": null
   },
   {
-    "id": "clm_e404856477",
-    "company_id": "lovable",
-    "metric": "round_amount",
-    "value": 400000000.0,
-    "unit": "USD",
-    "raw_text": "Lovable raises $400M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNEdrQUJ5dGJoMTRTemF5X2g3Qll1dUxCTUJGNzVRZHlRb3ZMQWVCMXdOZjEtazlYVDc0ak5Oc3RGNkhJUkhuZE5kaERvMDUtTzZKcENLY24tbUJuZ1A1ZF9hMHFnWWdmTVU4SW1OSUtRU0J5LVJyUjZpVHl4MG5ZUV9iSQ?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-08-26T05:56:52.356025",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_fb23ef3840",
-    "company_id": "lovable",
-    "metric": "valuation",
-    "value": 13300000000.0,
-    "unit": "USD",
-    "raw_text": "$13.3B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNEdrQUJ5dGJoMTRTemF5X2g3Qll1dUxCTUJGNzVRZHlRb3ZMQWVCMXdOZjEtazlYVDc0ak5Oc3RGNkhJUkhuZE5kaERvMDUtTzZKcENLY24tbUJuZ1A1ZF9hMHFnWWdmTVU4SW1OSUtRU0J5LVJyUjZpVHl4MG5ZUV9iSQ?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-08-26T05:56:52.356025",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_1061da8ee1",
     "company_id": "lovable",
     "metric": "round_amount",
@@ -666,6 +570,174 @@
       "type": "news",
       "name": "TradingView",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVE43WWtzbm9FaXcybGZDSWh0ckxaMVM0VmhEcHEwTGpSV3JtMWNZdFBSS0FZR0JHbERWSkY1ZVhYZUs1UzZ5ZHptcHN6SW84WVhFX3JYN3NKV253U21ydFBKc3F0Ul9scm84N1E4SjVlUXBUYzZPTFkzVzFUdlFzZUlKRnNLN2kxbU1xN0NyMDBxTEFvc1NEbklIWWJxWUU0N2JmVlJZS205NUl0OXhmZk9fYXJncC1uRjNHQk8zZ2xqeUZnTDg3dW1FMG1qY0FibzV0aFhlX0J6Zw?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-08-26T05:56:52.356025",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_99792263c3",
+    "company_id": "lovable",
+    "metric": "round_amount",
+    "value": 400000000.0,
+    "unit": null,
+    "raw_text": "Raises $400 Million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Межа. Новини України.",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUdEZiRFRmUHJBMnlFWHpGX0U1QXlkY0tRcVQ4LWZSVTVPVTQtdzNnVmNDbjlTbGpEQ1JYU3lxdVNueWNzYVdFTmFQRm8wT3NSYnZiMkg3aWVOc3ZrSERIaW9aSFB0UzVz?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_80a731e6c0",
+    "company_id": "lovable",
+    "metric": "valuation",
+    "value": 13300000000.0,
+    "unit": null,
+    "raw_text": "Valuation to $13.3 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Межа. Новини України.",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUdEZiRFRmUHJBMnlFWHpGX0U1QXlkY0tRcVQ4LWZSVTVPVTQtdzNnVmNDbjlTbGpEQ1JYU3lxdVNueWNzYVdFTmFQRm8wT3NSYnZiMkg3aWVOc3ZrSERIaW9aSFB0UzVz?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_239b276a33",
+    "company_id": "lovable",
+    "metric": "total_funding",
+    "value": 400000000.0,
+    "unit": null,
+    "raw_text": "Lovable raises $400 million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "EdTech Innovation Hub",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNDJXSVhDYlJVaHE2OFpLTVZrbjY0LVNlbUlXdkhkeWtHQzF5dThnZXRuOVdKX1FEcjFfRGJMQWZMS3ItOURyaEYtdVFTYWxTT0VVMXBJcVRXcGdRZlQ5eGczcHE4NWlmQTE1Mlg1R1o3RHpHYVdJT2FWVVlvcjBXNG9LYmFVZmRQOEVXb2czUkxxelNHejhiTXFfVWk2ZUR4UmxyUVE1MlRPV3VOSGRkNFV0OENiMjNOS2NaSjd3?oc=5",
+      "locator": null,
+      "published_at": "2026-08-17"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_70ba37f022",
+    "company_id": "lovable",
+    "metric": "total_funding",
+    "value": 400000000.0,
+    "unit": null,
+    "raw_text": "Lovable Raises $400M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Law360",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQnRUSTd1bnRtMXV0MjZNNTNQOXlYRnNWcm9PVXdpUzhTT2JTU2c0VE56QjFNOTBrRWpzaHJ0a1dicE8waFVicU9QR1B1OGZ5ZFhUSVNsMlB2NmVBTTZ6VU5XT2EzMTdleDVBb3JGd2ZOVXZtM29WekVjclpaTlk2NU4ySG9TY0xfb0NiSjZOb0VCanRQOEkySG9iUTPSAVZBVV95cUxOVE9pX29rVURJQzYzMGMtVF9pNXRZNVhEcnpKNWF5aWZLaDBvaWtReXRNdDFNNENwNUdMNmJneGluQ1NSSjA0MXZJXzVMUXkxOVdiaU1yUQ?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_8b0395a408",
+    "company_id": "lovable",
+    "metric": "valuation",
+    "value": 13300000000.0,
+    "unit": null,
+    "raw_text": "$13.3B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Law360",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQnRUSTd1bnRtMXV0MjZNNTNQOXlYRnNWcm9PVXdpUzhTT2JTU2c0VE56QjFNOTBrRWpzaHJ0a1dicE8waFVicU9QR1B1OGZ5ZFhUSVNsMlB2NmVBTTZ6VU5XT2EzMTdleDVBb3JGd2ZOVXZtM29WekVjclpaTlk2NU4ySG9TY0xfb0NiSjZOb0VCanRQOEkySG9iUTPSAVZBVV95cUxOVE9pX29rVURJQzYzMGMtVF9pNXRZNVhEcnpKNWF5aWZLaDBvaWtReXRNdDFNNENwNUdMNmJneGluQ1NSSjA0MXZJXzVMUXkxOVdiaU1yUQ?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_e404856477",
+    "company_id": "lovable",
+    "metric": "round_amount",
+    "value": 400000000.0,
+    "unit": "USD",
+    "raw_text": "Lovable raises $400M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNEdrQUJ5dGJoMTRTemF5X2g3Qll1dUxCTUJGNzVRZHlRb3ZMQWVCMXdOZjEtazlYVDc0ak5Oc3RGNkhJUkhuZE5kaERvMDUtTzZKcENLY24tbUJuZ1A1ZF9hMHFnWWdmTVU4SW1OSUtRU0J5LVJyUjZpVHl4MG5ZUV9iSQ?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-08-26T05:56:52.356025",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_fb23ef3840",
+    "company_id": "lovable",
+    "metric": "valuation",
+    "value": 13300000000.0,
+    "unit": "USD",
+    "raw_text": "$13.3B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNEdrQUJ5dGJoMTRTemF5X2g3Qll1dUxCTUJGNzVRZHlRb3ZMQWVCMXdOZjEtazlYVDc0ak5Oc3RGNkhJUkhuZE5kaERvMDUtTzZKcENLY24tbUJuZ1A1ZF9hMHFnWWdmTVU4SW1OSUtRU0J5LVJyUjZpVHl4MG5ZUV9iSQ?oc=5",
       "locator": null,
       "published_at": "2026-08-12"
     },
@@ -795,54 +867,6 @@
     "derivation": null
   },
   {
-    "id": "clm_99792263c3",
-    "company_id": "lovable",
-    "metric": "round_amount",
-    "value": 400000000.0,
-    "unit": null,
-    "raw_text": "Raises $400 Million",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Межа. Новини України.",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUdEZiRFRmUHJBMnlFWHpGX0U1QXlkY0tRcVQ4LWZSVTVPVTQtdzNnVmNDbjlTbGpEQ1JYU3lxdVNueWNzYVdFTmFQRm8wT3NSYnZiMkg3aWVOc3ZrSERIaW9aSFB0UzVz?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-08-23T05:59:54.335804",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_80a731e6c0",
-    "company_id": "lovable",
-    "metric": "valuation",
-    "value": 13300000000.0,
-    "unit": null,
-    "raw_text": "Valuation to $13.3 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Межа. Новини України.",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUdEZiRFRmUHJBMnlFWHpGX0U1QXlkY0tRcVQ4LWZSVTVPVTQtdzNnVmNDbjlTbGpEQ1JYU3lxdVNueWNzYVdFTmFQRm8wT3NSYnZiMkg3aWVOc3ZrSERIaW9aSFB0UzVz?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-08-23T05:59:54.335804",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_34d5088b5e",
     "company_id": "lovable",
     "metric": "round_amount",
@@ -886,30 +910,6 @@
       "published_at": "2026-08-12"
     },
     "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_2e02ce7ac9",
-    "company_id": "lovable",
-    "metric": "latest_round",
-    "value": 400000000.0,
-    "unit": "USD",
-    "raw_text": "Lovable raises $400M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "EdTech Innovation Hub",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNDJXSVhDYlJVaHE2OFpLTVZrbjY0LVNlbUlXdkhkeWtHQzF5dThnZXRuOVdKX1FEcjFfRGJMQWZMS3ItOURyaEYtdVFTYWxTT0VVMXBJcVRXcGdRZlQ5eGczcHE4NWlmQTE1Mlg1R1o3RHpHYVdJT2FWVVlvcjBXNG9LYmFVZmRQOEVXb2czUkxxelNHejhiTXFfVWk2ZUR4UmxyUVE1MlRPV3VOSGRkNFV0OENiMjNOS2NaSjd3?oc=5",
-      "locator": null,
-      "published_at": "2026-08-17"
-    },
-    "extracted_at": "2026-08-22T05:47:44.406970",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -1197,7 +1197,7 @@
       "locator": null,
       "published_at": "2026-08-12"
     },
-    "extracted_at": "2026-08-26T05:56:52.356025",
+    "extracted_at": "2026-08-27T17:02:21.670041",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

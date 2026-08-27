@@ -1,5 +1,81 @@
 [
   {
+    "id": "clm_6c9ebea3df",
+    "company_id": "nscale",
+    "metric": "arr",
+    "value": 51000000000.0,
+    "unit": null,
+    "raw_text": "$51 billion contracted revenue",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Investing.com Canada",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWWZSb1hVZ0VlZmVkTFlCdURIWUtrMk95Y29wc3JkMDRtZzh2RGJWTkRRM1VvVTJYaFVhNlN2cG5ZalVlWERydFhET2NkeDE5TXBJREJTUDJJbzRxR3ZSN1R6SV9Db1I3eFN3NWdhSVU0dmhpbG5ZQXJsZHg3cjVKaS1vUXJvR09Ed0xzbGNGcWZoSFVVRjRLcG4zOU5KNWRUdjBhSzhlaGNTNWFsRUZobU16anVoc1gtT3gzRHlJYjZjMlVtakxpRjB4QURyeHM?oc=5",
+      "locator": null,
+      "published_at": "2026-08-06"
+    },
+    "extracted_at": "2026-08-26T05:56:52.356025",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3675,
+    "derivation": null
+  },
+  {
+    "id": "clm_c5dee97e0c",
+    "company_id": "nscale",
+    "metric": "round_amount",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "Raises $2 Billion in Series C",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZ1M5RVcwXzQxNWs5SDlYbnlRMjNWcFZHeHFNbjVJYTFSaWN6ZUl2MGFVVXFuUWFBTFRMcV90Y3daQ0NpWTEwMjV2aXV4Q29WeFNUN21taU5kTkpOZ05vVldLMHc2cGhDR3Nuakl5aGtKa2NYbFlNRTdhbnktZWpqcVZFMWJGeV9hZmxzV3V0ZTZEeHFfZlBOSVZIXzhaOEFJWjhldGVURVBBOE1TdFdmTlZmZWlZdHVfTXhlUjFuUDFxdw?oc=5",
+      "locator": null,
+      "published_at": "2026-03-09"
+    },
+    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_b09ece551d",
+    "company_id": "nscale",
+    "metric": "valuation",
+    "value": 14600000000.0,
+    "unit": "USD",
+    "raw_text": "$14.6B valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMWtMNmozMnBidEpscU9QcldSV2xVVHhueWFWbXllc1NvUTl4MWZlZEtjSXV1bmlfUUxBZGU0UkpFQjF5Y0pFMi1nRVFmMzRkY2lPQnZKRTRpeEV2SVpYNjhFUGhrSFhHWEJCOHpFM1ZUVEVoMGJKOGZBd01Ub1pidXVLcUtBT2s?oc=5",
+      "locator": null,
+      "published_at": "2026-05-05"
+    },
+    "extracted_at": "2026-08-27T17:02:21.670041",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
     "id": "clm_2f0403b605",
     "company_id": "nscale",
     "metric": "valuation",
@@ -69,32 +145,6 @@
     "extracted_at": "2026-08-26T05:56:52.356025",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_6c9ebea3df",
-    "company_id": "nscale",
-    "metric": "arr",
-    "value": 51000000000.0,
-    "unit": null,
-    "raw_text": "$51 billion contracted revenue",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Investing.com Canada",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWWZSb1hVZ0VlZmVkTFlCdURIWUtrMk95Y29wc3JkMDRtZzh2RGJWTkRRM1VvVTJYaFVhNlN2cG5ZalVlWERydFhET2NkeDE5TXBJREJTUDJJbzRxR3ZSN1R6SV9Db1I3eFN3NWdhSVU0dmhpbG5ZQXJsZHg3cjVKaS1vUXJvR09Ed0xzbGNGcWZoSFVVRjRLcG4zOU5KNWRUdjBhSzhlaGNTNWFsRUZobU16anVoc1gtT3gzRHlJYjZjMlVtakxpRjB4QURyeHM?oc=5",
-      "locator": null,
-      "published_at": "2026-08-06"
-    },
-    "extracted_at": "2026-08-26T05:56:52.356025",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3675,
     "derivation": null
   },
   {
@@ -239,30 +289,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_c5dee97e0c",
-    "company_id": "nscale",
-    "metric": "round_amount",
-    "value": 2000000000.0,
-    "unit": "USD",
-    "raw_text": "Raises $2 Billion in Series C",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZ1M5RVcwXzQxNWs5SDlYbnlRMjNWcFZHeHFNbjVJYTFSaWN6ZUl2MGFVVXFuUWFBTFRMcV90Y3daQ0NpWTEwMjV2aXV4Q29WeFNUN21taU5kTkpOZ05vVldLMHc2cGhDR3Nuakl5aGtKa2NYbFlNRTdhbnktZWpqcVZFMWJGeV9hZmxzV3V0ZTZEeHFfZlBOSVZIXzhaOEFJWjhldGVURVBBOE1TdFdmTlZmZWlZdHVfTXhlUjFuUDFxdw?oc=5",
-      "locator": null,
-      "published_at": "2026-03-09"
-    },
-    "extracted_at": "2026-08-22T05:47:44.406970",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {

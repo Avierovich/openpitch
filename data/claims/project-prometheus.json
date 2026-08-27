@@ -100,6 +100,33 @@
     "derivation": null
   },
   {
+    "id": "clm_0db447274f",
+    "company_id": "project-prometheus",
+    "metric": "valuation",
+    "value": 38000000000.0,
+    "unit": null,
+    "raw_text": "$38B Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Techloy",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNR2UxMVNnWENQOU1fRTRnbU9XMFkwQ0ZSSXk2cXpISkM1VlctNmdRSzdqakdxbEhCYXpDUjV4Mk5sNnVTVnVyeUx5ajBJSjlxVF9Ea0lBTjF6OExMSk92MmxhZEN2aVlKakltOFdtam42OW8xRlVHeS1NYkpSdTdYMlhKNHc0Ml9qYW9fZ0V1VGxPNWJocUktS2xB?oc=5",
+      "locator": null,
+      "published_at": "2026-04-21"
+    },
+    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
     "id": "clm_b3b2eb81c5",
     "company_id": "project-prometheus",
     "metric": "valuation",
@@ -148,15 +175,14 @@
     "derivation": null
   },
   {
-    "id": "clm_0db447274f",
+    "id": "clm_dbf86b40b1",
     "company_id": "project-prometheus",
-    "metric": "valuation",
-    "value": 38000000000.0,
-    "unit": null,
-    "raw_text": "$38B Valuation",
+    "metric": "total_funding",
+    "value": 10000000000.0,
+    "unit": "USD",
+    "raw_text": "$10b funding",
     "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
+      "unconfirmed"
     ],
     "speaker": {
       "name": null,
@@ -164,14 +190,40 @@
     },
     "source": {
       "type": "news",
-      "name": "Techloy",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNR2UxMVNnWENQOU1fRTRnbU9XMFkwQ0ZSSXk2cXpISkM1VlctNmdRSzdqakdxbEhCYXpDUjV4Mk5sNnVTVnVyeUx5ajBJSjlxVF9Ea0lBTjF6OExMSk92MmxhZEN2aVlKakltOFdtam42OW8xRlVHeS1NYkpSdTdYMlhKNHc0Ml9qYW9fZ0V1VGxPNWJocUktS2xB?oc=5",
+      "name": "Tech in Asia",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSHVKSWFfZGJPZExwbFVtdEJKVU9kU3VoTVEySlRaVEthYjRlc3lTV1d5RE5hUS1VRUxIM1d5c3UtVVVfN25lOFJXQWVMSFNiOW9vUVlLV2pxbDh1TllvTzdBOEpidndMcVRaUXZCM19aN0MwV1RvYWtPMXRXXzRJN29WWGZkNkVLQ1UyRnd3?oc=5",
       "locator": null,
       "published_at": "2026-04-21"
     },
-    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_b2bd6ad025",
+    "company_id": "project-prometheus",
+    "metric": "valuation",
+    "value": 38000000000.0,
+    "unit": "USD",
+    "raw_text": "$38b valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech in Asia",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSHVKSWFfZGJPZExwbFVtdEJKVU9kU3VoTVEySlRaVEthYjRlc3lTV1d5RE5hUS1VRUxIM1d5c3UtVVVfN25lOFJXQWVMSFNiOW9vUVlLV2pxbDh1TllvTzdBOEpidndMcVRaUXZCM19aN0MwV1RvYWtPMXRXXzRJN29WWGZkNkVLQ1UyRnd3?oc=5",
+      "locator": null,
+      "published_at": "2026-04-21"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -220,58 +272,6 @@
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ZRXVFNmFsYzkwUlBoOWl4ZDlBVjkxeEJCVFU0d1BpdEszY05GM0RrWHVsZlNzclNhLTFScjYyX0FjZkhfZVA2Q25fd3g0MzFhWVpPUHFwR1FxNl9oMHczeQ?oc=5",
       "locator": null,
       "published_at": "2026-04-20"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_dbf86b40b1",
-    "company_id": "project-prometheus",
-    "metric": "total_funding",
-    "value": 10000000000.0,
-    "unit": "USD",
-    "raw_text": "$10b funding",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech in Asia",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSHVKSWFfZGJPZExwbFVtdEJKVU9kU3VoTVEySlRaVEthYjRlc3lTV1d5RE5hUS1VRUxIM1d5c3UtVVVfN25lOFJXQWVMSFNiOW9vUVlLV2pxbDh1TllvTzdBOEpidndMcVRaUXZCM19aN0MwV1RvYWtPMXRXXzRJN29WWGZkNkVLQ1UyRnd3?oc=5",
-      "locator": null,
-      "published_at": "2026-04-21"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_b2bd6ad025",
-    "company_id": "project-prometheus",
-    "metric": "valuation",
-    "value": 38000000000.0,
-    "unit": "USD",
-    "raw_text": "$38b valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech in Asia",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSHVKSWFfZGJPZExwbFVtdEJKVU9kU3VoTVEySlRaVEthYjRlc3lTV1d5RE5hUS1VRUxIM1d5c3UtVVVfN25lOFJXQWVMSFNiOW9vUVlLV2pxbDh1TllvTzdBOEpidndMcVRaUXZCM19aN0MwV1RvYWtPMXRXXzRJN29WWGZkNkVLQ1UyRnd3?oc=5",
-      "locator": null,
-      "published_at": "2026-04-21"
     },
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",

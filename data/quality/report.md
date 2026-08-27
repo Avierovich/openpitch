@@ -1,4 +1,4 @@
-# OpenPitch Data Quality Report - 2026-08-26
+# OpenPitch Data Quality Report - 2026-08-27
 
 ## Summary
 
@@ -22,7 +22,6 @@ None.
 
 - Cognition AI
 - Bright Health
-- Celonis
 - Checkout.com
 - OpenEvidence
 - Airwallex
@@ -101,6 +100,7 @@ None.
 - Fireworks AI: headcount
 - Sierra: arr
 - Lovable: headcount
+- Celonis: arr
 - Celonis: headcount
 - Checkout.com: total_funding
 - Checkout.com: round_amount

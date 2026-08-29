@@ -277,6 +277,30 @@
     "derivation": null
   },
   {
+    "id": "clm_26ec1ada19",
+    "company_id": "harvey",
+    "metric": "valuation",
+    "value": 15500000000.0,
+    "unit": "USD",
+    "raw_text": "Harvey raises at a $15.5bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbkpvX1A4MlVuYlJiX281REIyTmtRR2V0bTFTT3Y1U2RfU1UtSHFheGptZEYzT2FHRUxaZTFOeFJPMkNLZG1ubEJ2dGs0di1mdkstRW1RMkFSdjI5Ukd4UlhXc2xvLWEwU3drRUtPMGdUQmwyQ0JLYlNReEN5WkJQMmdjcnA2V1Y4Zjh3?oc=5",
+      "locator": null,
+      "published_at": "2026-08-07"
+    },
+    "extracted_at": "2026-08-29T11:59:18.797257",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_09d5ca7451",
     "company_id": "harvey",
     "metric": "valuation",
@@ -641,10 +665,10 @@
     "derivation": null
   },
   {
-    "id": "drv_3ee4e7d384",
+    "id": "drv_2841dbf7d9",
     "company_id": "harvey",
     "metric": "revenue_multiple",
-    "value": 57.89,
+    "value": 81.58,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -657,16 +681,16 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-03-25"
+      "published_at": "2026-08-07"
     },
-    "extracted_at": "2026-08-27T17:02:21.670041",
+    "extracted_at": "2026-08-29T11:59:18.797257",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_09d5ca7451",
+        "clm_26ec1ada19",
         "clm_1a7ff164fc"
       ]
     }

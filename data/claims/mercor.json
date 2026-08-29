@@ -1,5 +1,31 @@
 [
   {
+    "id": "clm_7ff93371f6",
+    "company_id": "mercor",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": "USD",
+    "raw_text": "NVIDIA Moves to Back Mercor at $20BN and Perplexity at $30BN",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "20VC (Harry Stebbings)",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-bonanza-buys-poolside-invests-in-mercor-and-perplexity-anthropics-30trn-revenue-assumption-openai-confirms-ipo-why-customer-service-defence-and-robotics-are-overinflated",
+      "locator": null,
+      "published_at": "2026-08-27"
+    },
+    "extracted_at": "2026-08-27T17:02:21.670041",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.18,
+    "derivation": null
+  },
+  {
     "id": "clm_c3657789fe",
     "company_id": "mercor",
     "metric": "latest_round",
@@ -149,32 +175,6 @@
     "derivation": null
   },
   {
-    "id": "clm_7ff93371f6",
-    "company_id": "mercor",
-    "metric": "valuation",
-    "value": 20000000000.0,
-    "unit": "USD",
-    "raw_text": "NVIDIA Moves to Back Mercor at $20BN and Perplexity at $30BN",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "20VC (Harry Stebbings)",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-bonanza-buys-poolside-invests-in-mercor-and-perplexity-anthropics-30trn-revenue-assumption-openai-confirms-ipo-why-customer-service-defence-and-robotics-are-overinflated",
-      "locator": null,
-      "published_at": "2026-08-27"
-    },
-    "extracted_at": "2026-08-27T17:02:21.670041",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.18,
-    "derivation": null
-  },
-  {
     "id": "clm_0051c9db8a",
     "company_id": "mercor",
     "metric": "valuation",
@@ -184,7 +184,7 @@
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "exec"
     },
     "source": {
       "type": "web",
@@ -193,9 +193,9 @@
       "locator": null,
       "published_at": null
     },
-    "extracted_at": "2026-08-27T17:02:21.670041",
+    "extracted_at": "2026-08-29T11:59:18.797257",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
+    "base_confidence": 0.5,
     "derivation": null
   },
   {
@@ -203,12 +203,12 @@
     "company_id": "mercor",
     "metric": "latest_round",
     "value": 3.0,
-    "unit": "round",
+    "unit": "Series",
     "raw_text": "Series C",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "exec"
     },
     "source": {
       "type": "web",
@@ -217,9 +217,9 @@
       "locator": null,
       "published_at": null
     },
-    "extracted_at": "2026-08-27T17:02:21.670041",
+    "extracted_at": "2026-08-29T11:59:18.797257",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
+    "base_confidence": 0.5,
     "derivation": null
   },
   {
@@ -315,7 +315,7 @@
       "locator": null,
       "published_at": "2026-07-25"
     },
-    "extracted_at": "2026-08-27T17:02:21.670041",
+    "extracted_at": "2026-08-29T11:59:18.797257",
     "extractor_model": "derive-engine",
     "base_confidence": 0.3312,
     "derivation": {

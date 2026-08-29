@@ -1,5 +1,53 @@
 [
   {
+    "id": "clm_2f0403b605",
+    "company_id": "nscale",
+    "metric": "valuation",
+    "value": 14600000000.0,
+    "unit": null,
+    "raw_text": "$14.6bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWmtTQmVMTVdmVnFUQzQ3UDdNNTBRTVJmS3lPRUhvZlZuTFpLTWxLUmpkMDEtTXpYdGluazRsOURqOFZ5Rmx1ZWhDNGlFcDJ4WWdqelV3cW1HdktFTDg4R0R0RVJ0Z1hFUHdlUE9LcVFGdzBBWGtiR2Z4UTBfdVY1Sk1ubEo?oc=5",
+      "locator": null,
+      "published_at": "2026-03-10"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_11d9ee113c",
+    "company_id": "nscale",
+    "metric": "round_amount",
+    "value": 2000000000.0,
+    "unit": null,
+    "raw_text": "$2bn Series C",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWmtTQmVMTVdmVnFUQzQ3UDdNNTBRTVJmS3lPRUhvZlZuTFpLTWxLUmpkMDEtTXpYdGluazRsOURqOFZ5Rmx1ZWhDNGlFcDJ4WWdqelV3cW1HdktFTDg4R0R0RVJ0Z1hFUHdlUE9LcVFGdzBBWGtiR2Z4UTBfdVY1Sk1ubEo?oc=5",
+      "locator": null,
+      "published_at": "2026-03-10"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_6c9ebea3df",
     "company_id": "nscale",
     "metric": "arr",
@@ -23,6 +71,78 @@
     "extracted_at": "2026-08-26T05:56:52.356025",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.3675,
+    "derivation": null
+  },
+  {
+    "id": "clm_41c8c8088a",
+    "company_id": "nscale",
+    "metric": "round_amount",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "raises $2bn in Series C funding",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "BeBeez International",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOV1NlLTY5ZkcyVWV3X19sVUF4Ml85eWQwdEdydEhRMUZxbnAxbHZnNW9vMmp4dGstOHdkczJpcFk4WEFHZTFHTkR4b0dnekxJZ3NYMG52NXQyY1V5ZEIzZ0F5MURfbmtzeDh5VWdud1dXNy1keHc2MmtFZnF6QkVSSWpVY2FDbzJWQ0llVnBkaWc?oc=5",
+      "locator": null,
+      "published_at": "2026-03-09"
+    },
+    "extracted_at": "2026-08-29T11:59:18.797257",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_42bd34b020",
+    "company_id": "nscale",
+    "metric": "latest_round",
+    "value": 3.0,
+    "unit": "Series",
+    "raw_text": "Series C",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "BeBeez International",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOV1NlLTY5ZkcyVWV3X19sVUF4Ml85eWQwdEdydEhRMUZxbnAxbHZnNW9vMmp4dGstOHdkczJpcFk4WEFHZTFHTkR4b0dnekxJZ3NYMG52NXQyY1V5ZEIzZ0F5MURfbmtzeDh5VWdud1dXNy1keHc2MmtFZnF6QkVSSWpVY2FDbzJWQ0llVnBkaWc?oc=5",
+      "locator": null,
+      "published_at": "2026-03-09"
+    },
+    "extracted_at": "2026-08-29T11:59:18.797257",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_70f4f74b18",
+    "company_id": "nscale",
+    "metric": "valuation",
+    "value": 14600000000.0,
+    "unit": "USD",
+    "raw_text": "$14.6bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "BeBeez International",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOV1NlLTY5ZkcyVWV3X19sVUF4Ml85eWQwdEdydEhRMUZxbnAxbHZnNW9vMmp4dGstOHdkczJpcFk4WEFHZTFHTkR4b0dnekxJZ3NYMG52NXQyY1V5ZEIzZ0F5MURfbmtzeDh5VWdud1dXNy1keHc2MmtFZnF6QkVSSWpVY2FDbzJWQ0llVnBkaWc?oc=5",
+      "locator": null,
+      "published_at": "2026-03-09"
+    },
+    "extracted_at": "2026-08-29T11:59:18.797257",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -73,54 +193,6 @@
     "extracted_at": "2026-08-27T17:02:21.670041",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_2f0403b605",
-    "company_id": "nscale",
-    "metric": "valuation",
-    "value": 14600000000.0,
-    "unit": null,
-    "raw_text": "$14.6bn valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWmtTQmVMTVdmVnFUQzQ3UDdNNTBRTVJmS3lPRUhvZlZuTFpLTWxLUmpkMDEtTXpYdGluazRsOURqOFZ5Rmx1ZWhDNGlFcDJ4WWdqelV3cW1HdktFTDg4R0R0RVJ0Z1hFUHdlUE9LcVFGdzBBWGtiR2Z4UTBfdVY1Sk1ubEo?oc=5",
-      "locator": null,
-      "published_at": "2026-03-10"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_11d9ee113c",
-    "company_id": "nscale",
-    "metric": "round_amount",
-    "value": 2000000000.0,
-    "unit": null,
-    "raw_text": "$2bn Series C",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWmtTQmVMTVdmVnFUQzQ3UDdNNTBRTVJmS3lPRUhvZlZuTFpLTWxLUmpkMDEtTXpYdGluazRsOURqOFZ5Rmx1ZWhDNGlFcDJ4WWdqelV3cW1HdktFTDg4R0R0RVJ0Z1hFUHdlUE9LcVFGdzBBWGtiR2Z4UTBfdVY1Sk1ubEo?oc=5",
-      "locator": null,
-      "published_at": "2026-03-10"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
     "derivation": null
   },
   {

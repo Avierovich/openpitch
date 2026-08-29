@@ -10,8 +10,37 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 84.1,
-  "universe_rank": 36,
+  "universe_rank": 37,
   "metrics": {
+    "valuation": {
+      "metric": "valuation",
+      "value": 12000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 12000000000.0,
+        "high": 12000000000.0
+      },
+      "as_of": "2026-08-27",
+      "estimate_type": "consensus",
+      "confidence": 0.855,
+      "supporting_claims": [
+        "clm_64d0679833",
+        "clm_580c276693",
+        "clm_d0e77da386",
+        "clm_46b45f7c75",
+        "clm_0d217fba60"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 12000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-08-27"
+      },
+      "history_ref": "history/poolside/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "total_funding": {
       "metric": "total_funding",
       "value": 1000000000.0,
@@ -19,7 +48,7 @@
       "range": null,
       "as_of": "2026-08-21",
       "estimate_type": "reported",
-      "confidence": 0.521,
+      "confidence": 0.519,
       "supporting_claims": [
         "clm_1f7c31f48e"
       ],
@@ -34,35 +63,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "valuation": {
-      "metric": "valuation",
-      "value": 12000000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 12000000000.0,
-        "high": 12000000000.0
-      },
-      "as_of": "2026-08-27",
-      "estimate_type": "consensus",
-      "confidence": 0.857,
-      "supporting_claims": [
-        "clm_d0e77da386",
-        "clm_580c276693",
-        "clm_64d0679833",
-        "clm_46b45f7c75",
-        "clm_0d217fba60"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 12000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-08-24"
-      },
-      "history_ref": "history/poolside/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "round_amount": {
       "metric": "round_amount",
       "value": 1000000000.0,
@@ -70,7 +70,7 @@
       "range": null,
       "as_of": "2025-10-31",
       "estimate_type": "consensus",
-      "confidence": 0.498,
+      "confidence": 0.496,
       "supporting_claims": [
         "clm_c7c99054ff",
         "clm_0839e2c76e",
@@ -80,7 +80,7 @@
       "contradiction": false,
       "delta": {
         "previous": 1000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2025-10-31"
       },
       "history_ref": "history/poolside/round_amount.jsonl",
@@ -117,7 +117,7 @@
       "range": null,
       "as_of": "2025-11-28",
       "estimate_type": "reported",
-      "confidence": 0.039,
+      "confidence": 0.038,
       "supporting_claims": [
         "clm_8cc327f9d3"
       ],
@@ -137,11 +137,11 @@
       "value": 240.0,
       "unit": "x",
       "range": null,
-      "as_of": "2026-08-21",
+      "as_of": "2026-08-24",
       "estimate_type": "reported",
-      "confidence": 0.172,
+      "confidence": 0.174,
       "supporting_claims": [
-        "drv_fb74474681"
+        "drv_783bd5902c"
       ],
       "contradiction": false,
       "delta": {
@@ -155,5 +155,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-27"
+  "last_updated": "2026-08-29"
 }

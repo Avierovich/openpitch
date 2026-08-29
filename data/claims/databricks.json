@@ -74,80 +74,6 @@
     "derivation": null
   },
   {
-    "id": "clm_4e1a3f0fac",
-    "company_id": "databricks",
-    "metric": "arr",
-    "value": 7000000000.0,
-    "unit": "USD",
-    "raw_text": "Databricks crosses $7 billion revenue run-rate",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "ET CIO",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPQVd4empNUm81VTA0VlRkcVdZSVpaal9wT1UtWGZRUnF0d1dRVllhcU1LSmJweDNkbGZ4Ui1Obnd0RUYzZzZ5QmRFQXRPQnNCMDBtUGxSVENESlB2b2N1XzJBX3p3LUUyMG4zYlJlXzEzeHNlSlZUVG1fYjQxenUtdTQ5OXhhWkZNQ2VTQ2FRM0tyS1V2XzBBYUllSFZzVjJRM2hVUzVha0tXN1pqLU5SLVJmeGRfQ09idUpCbHIzaWxXNWdtLURvWVM1dlVBUl9IZENyRjAwQ1pxOVI1U0ZqeHVxYjdZMmw2NGdR?oc=5",
-      "locator": null,
-      "published_at": "2026-08-14"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_eec4e55c3b",
-    "company_id": "databricks",
-    "metric": "total_funding",
-    "value": 5000000000.0,
-    "unit": "USD",
-    "raw_text": "raises $5 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "ET CIO",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPQVd4empNUm81VTA0VlRkcVdZSVpaal9wT1UtWGZRUnF0d1dRVllhcU1LSmJweDNkbGZ4Ui1Obnd0RUYzZzZ5QmRFQXRPQnNCMDBtUGxSVENESlB2b2N1XzJBX3p3LUUyMG4zYlJlXzEzeHNlSlZUVG1fYjQxenUtdTQ5OXhhWkZNQ2VTQ2FRM0tyS1V2XzBBYUllSFZzVjJRM2hVUzVha0tXN1pqLU5SLVJmeGRfQ09idUpCbHIzaWxXNWdtLURvWVM1dlVBUl9IZENyRjAwQ1pxOVI1U0ZqeHVxYjdZMmw2NGdR?oc=5",
-      "locator": null,
-      "published_at": "2026-08-14"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_ef30a95979",
-    "company_id": "databricks",
-    "metric": "valuation",
-    "value": 190000000000.0,
-    "unit": "USD",
-    "raw_text": "$190 billion valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "ET CIO",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPQVd4empNUm81VTA0VlRkcVdZSVpaal9wT1UtWGZRUnF0d1dRVllhcU1LSmJweDNkbGZ4Ui1Obnd0RUYzZzZ5QmRFQXRPQnNCMDBtUGxSVENESlB2b2N1XzJBX3p3LUUyMG4zYlJlXzEzeHNlSlZUVG1fYjQxenUtdTQ5OXhhWkZNQ2VTQ2FRM0tyS1V2XzBBYUllSFZzVjJRM2hVUzVha0tXN1pqLU5SLVJmeGRfQ09idUpCbHIzaWxXNWdtLURvWVM1dlVBUl9IZENyRjAwQ1pxOVI1U0ZqeHVxYjdZMmw2NGdR?oc=5",
-      "locator": null,
-      "published_at": "2026-08-14"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_0c81e0bfe0",
     "company_id": "databricks",
     "metric": "total_funding",
@@ -219,6 +145,204 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_68e905118a",
+    "company_id": "databricks",
+    "metric": "round_amount",
+    "value": 5000000000.0,
+    "unit": "USD",
+    "raw_text": "$5B round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSlhnOTl5TGhxejdnQjcxaWJycFZyMWczZEoxdnhnVGh2VGJuQmlNRTRWQlpzY2QwUTJQS3cxSklZMGFUWFBDdTZoMnoyMWlFbzU3OE9HcWNWMXF0Wjl3c3c2cmgwX2ZqVHJJY1NxY3cySTFneE4tN3JGSjRaaXBOXzNYMzFud2lGUE1OUkk2cmI3TS0wZmpmZEVkMUJCSlFjT0VJN3ZudWZHTUo3ejk2QTY3X0xVUkttTFFicVl3Q3pGWUczazBn?oc=5",
+      "locator": null,
+      "published_at": "2026-08-13"
+    },
+    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_b2209219ed",
+    "company_id": "databricks",
+    "metric": "valuation",
+    "value": 190000000000.0,
+    "unit": "USD",
+    "raw_text": "$190B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSlhnOTl5TGhxejdnQjcxaWJycFZyMWczZEoxdnhnVGh2VGJuQmlNRTRWQlpzY2QwUTJQS3cxSklZMGFUWFBDdTZoMnoyMWlFbzU3OE9HcWNWMXF0Wjl3c3c2cmgwX2ZqVHJJY1NxY3cySTFneE4tN3JGSjRaaXBOXzNYMzFud2lGUE1OUkk2cmI3TS0wZmpmZEVkMUJCSlFjT0VJN3ZudWZHTUo3ejk2QTY3X0xVUkttTFFicVl3Q3pGWUczazBn?oc=5",
+      "locator": null,
+      "published_at": "2026-08-13"
+    },
+    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_05cacbaeff",
+    "company_id": "databricks",
+    "metric": "arr",
+    "value": 7000000000.0,
+    "unit": "USD",
+    "raw_text": "$7B run-rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSlhnOTl5TGhxejdnQjcxaWJycFZyMWczZEoxdnhnVGh2VGJuQmlNRTRWQlpzY2QwUTJQS3cxSklZMGFUWFBDdTZoMnoyMWlFbzU3OE9HcWNWMXF0Wjl3c3c2cmgwX2ZqVHJJY1NxY3cySTFneE4tN3JGSjRaaXBOXzNYMzFud2lGUE1OUkk2cmI3TS0wZmpmZEVkMUJCSlFjT0VJN3ZudWZHTUo3ejk2QTY3X0xVUkttTFFicVl3Q3pGWUczazBn?oc=5",
+      "locator": null,
+      "published_at": "2026-08-13"
+    },
+    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_1fa279d24f",
+    "company_id": "databricks",
+    "metric": "arr",
+    "value": 7000000000.0,
+    "unit": "USD",
+    "raw_text": "Databricks hits $7 billion revenue run rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Constellation Research",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaEJBcks2ejByUXAtUWlsZWRhZ3hEOGhwY3B5YVBfU2R1X3JscUhjSHpqVXI2RGtjRExHSk14RG1EWGtUa1hBOTh3VnZWQzhHY05laVFLQkxPRy1WcWhZSmdWSUxMVDV0YUNJajhkN1Y3MjVfaXlkZ3hreXZ0NWVRYm53RU5aLW1vNXBoM2ZWcU1PbDJZYjdxdlFXMTA3aFBIa2k2NXNScmJFYkdrUUpwcG5B?oc=5",
+      "locator": null,
+      "published_at": "2026-08-13"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_1cca8f8bbf",
+    "company_id": "databricks",
+    "metric": "valuation",
+    "value": 190000000000.0,
+    "unit": "USD",
+    "raw_text": "$190 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Constellation Research",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaEJBcks2ejByUXAtUWlsZWRhZ3hEOGhwY3B5YVBfU2R1X3JscUhjSHpqVXI2RGtjRExHSk14RG1EWGtUa1hBOTh3VnZWQzhHY05laVFLQkxPRy1WcWhZSmdWSUxMVDV0YUNJajhkN1Y3MjVfaXlkZ3hreXZ0NWVRYm53RU5aLW1vNXBoM2ZWcU1PbDJZYjdxdlFXMTA3aFBIa2k2NXNScmJFYkdrUUpwcG5B?oc=5",
+      "locator": null,
+      "published_at": "2026-08-13"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_4e1a3f0fac",
+    "company_id": "databricks",
+    "metric": "arr",
+    "value": 7000000000.0,
+    "unit": "USD",
+    "raw_text": "Databricks crosses $7 billion revenue run-rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "ET CIO",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPQVd4empNUm81VTA0VlRkcVdZSVpaal9wT1UtWGZRUnF0d1dRVllhcU1LSmJweDNkbGZ4Ui1Obnd0RUYzZzZ5QmRFQXRPQnNCMDBtUGxSVENESlB2b2N1XzJBX3p3LUUyMG4zYlJlXzEzeHNlSlZUVG1fYjQxenUtdTQ5OXhhWkZNQ2VTQ2FRM0tyS1V2XzBBYUllSFZzVjJRM2hVUzVha0tXN1pqLU5SLVJmeGRfQ09idUpCbHIzaWxXNWdtLURvWVM1dlVBUl9IZENyRjAwQ1pxOVI1U0ZqeHVxYjdZMmw2NGdR?oc=5",
+      "locator": null,
+      "published_at": "2026-08-14"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_eec4e55c3b",
+    "company_id": "databricks",
+    "metric": "total_funding",
+    "value": 5000000000.0,
+    "unit": "USD",
+    "raw_text": "raises $5 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "ET CIO",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPQVd4empNUm81VTA0VlRkcVdZSVpaal9wT1UtWGZRUnF0d1dRVllhcU1LSmJweDNkbGZ4Ui1Obnd0RUYzZzZ5QmRFQXRPQnNCMDBtUGxSVENESlB2b2N1XzJBX3p3LUUyMG4zYlJlXzEzeHNlSlZUVG1fYjQxenUtdTQ5OXhhWkZNQ2VTQ2FRM0tyS1V2XzBBYUllSFZzVjJRM2hVUzVha0tXN1pqLU5SLVJmeGRfQ09idUpCbHIzaWxXNWdtLURvWVM1dlVBUl9IZENyRjAwQ1pxOVI1U0ZqeHVxYjdZMmw2NGdR?oc=5",
+      "locator": null,
+      "published_at": "2026-08-14"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_ef30a95979",
+    "company_id": "databricks",
+    "metric": "valuation",
+    "value": 190000000000.0,
+    "unit": "USD",
+    "raw_text": "$190 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "ET CIO",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPQVd4empNUm81VTA0VlRkcVdZSVpaal9wT1UtWGZRUnF0d1dRVllhcU1LSmJweDNkbGZ4Ui1Obnd0RUYzZzZ5QmRFQXRPQnNCMDBtUGxSVENESlB2b2N1XzJBX3p3LUUyMG4zYlJlXzEzeHNlSlZUVG1fYjQxenUtdTQ5OXhhWkZNQ2VTQ2FRM0tyS1V2XzBBYUllSFZzVjJRM2hVUzVha0tXN1pqLU5SLVJmeGRfQ09idUpCbHIzaWxXNWdtLURvWVM1dlVBUl9IZENyRjAwQ1pxOVI1U0ZqeHVxYjdZMmw2NGdR?oc=5",
+      "locator": null,
+      "published_at": "2026-08-14"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -370,130 +494,6 @@
     "derivation": null
   },
   {
-    "id": "clm_68e905118a",
-    "company_id": "databricks",
-    "metric": "round_amount",
-    "value": 5000000000.0,
-    "unit": "USD",
-    "raw_text": "$5B round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSlhnOTl5TGhxejdnQjcxaWJycFZyMWczZEoxdnhnVGh2VGJuQmlNRTRWQlpzY2QwUTJQS3cxSklZMGFUWFBDdTZoMnoyMWlFbzU3OE9HcWNWMXF0Wjl3c3c2cmgwX2ZqVHJJY1NxY3cySTFneE4tN3JGSjRaaXBOXzNYMzFud2lGUE1OUkk2cmI3TS0wZmpmZEVkMUJCSlFjT0VJN3ZudWZHTUo3ejk2QTY3X0xVUkttTFFicVl3Q3pGWUczazBn?oc=5",
-      "locator": null,
-      "published_at": "2026-08-13"
-    },
-    "extracted_at": "2026-08-24T06:11:52.835308",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_b2209219ed",
-    "company_id": "databricks",
-    "metric": "valuation",
-    "value": 190000000000.0,
-    "unit": "USD",
-    "raw_text": "$190B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSlhnOTl5TGhxejdnQjcxaWJycFZyMWczZEoxdnhnVGh2VGJuQmlNRTRWQlpzY2QwUTJQS3cxSklZMGFUWFBDdTZoMnoyMWlFbzU3OE9HcWNWMXF0Wjl3c3c2cmgwX2ZqVHJJY1NxY3cySTFneE4tN3JGSjRaaXBOXzNYMzFud2lGUE1OUkk2cmI3TS0wZmpmZEVkMUJCSlFjT0VJN3ZudWZHTUo3ejk2QTY3X0xVUkttTFFicVl3Q3pGWUczazBn?oc=5",
-      "locator": null,
-      "published_at": "2026-08-13"
-    },
-    "extracted_at": "2026-08-24T06:11:52.835308",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_05cacbaeff",
-    "company_id": "databricks",
-    "metric": "arr",
-    "value": 7000000000.0,
-    "unit": "USD",
-    "raw_text": "$7B run-rate",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSlhnOTl5TGhxejdnQjcxaWJycFZyMWczZEoxdnhnVGh2VGJuQmlNRTRWQlpzY2QwUTJQS3cxSklZMGFUWFBDdTZoMnoyMWlFbzU3OE9HcWNWMXF0Wjl3c3c2cmgwX2ZqVHJJY1NxY3cySTFneE4tN3JGSjRaaXBOXzNYMzFud2lGUE1OUkk2cmI3TS0wZmpmZEVkMUJCSlFjT0VJN3ZudWZHTUo3ejk2QTY3X0xVUkttTFFicVl3Q3pGWUczazBn?oc=5",
-      "locator": null,
-      "published_at": "2026-08-13"
-    },
-    "extracted_at": "2026-08-24T06:11:52.835308",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_1fa279d24f",
-    "company_id": "databricks",
-    "metric": "arr",
-    "value": 7000000000.0,
-    "unit": "USD",
-    "raw_text": "Databricks hits $7 billion revenue run rate",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Constellation Research",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaEJBcks2ejByUXAtUWlsZWRhZ3hEOGhwY3B5YVBfU2R1X3JscUhjSHpqVXI2RGtjRExHSk14RG1EWGtUa1hBOTh3VnZWQzhHY05laVFLQkxPRy1WcWhZSmdWSUxMVDV0YUNJajhkN1Y3MjVfaXlkZ3hreXZ0NWVRYm53RU5aLW1vNXBoM2ZWcU1PbDJZYjdxdlFXMTA3aFBIa2k2NXNScmJFYkdrUUpwcG5B?oc=5",
-      "locator": null,
-      "published_at": "2026-08-13"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_1cca8f8bbf",
-    "company_id": "databricks",
-    "metric": "valuation",
-    "value": 190000000000.0,
-    "unit": "USD",
-    "raw_text": "$190 billion valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Constellation Research",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaEJBcks2ejByUXAtUWlsZWRhZ3hEOGhwY3B5YVBfU2R1X3JscUhjSHpqVXI2RGtjRExHSk14RG1EWGtUa1hBOTh3VnZWQzhHY05laVFLQkxPRy1WcWhZSmdWSUxMVDV0YUNJajhkN1Y3MjVfaXlkZ3hreXZ0NWVRYm53RU5aLW1vNXBoM2ZWcU1PbDJZYjdxdlFXMTA3aFBIa2k2NXNScmJFYkdrUUpwcG5B?oc=5",
-      "locator": null,
-      "published_at": "2026-08-13"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_fd6eabef29",
     "company_id": "databricks",
     "metric": "arr",
@@ -636,7 +636,7 @@
       "locator": null,
       "published_at": "2026-08-13"
     },
-    "extracted_at": "2026-08-27T17:02:21.670041",
+    "extracted_at": "2026-08-29T11:59:18.797257",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {

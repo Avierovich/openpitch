@@ -18,7 +18,7 @@
       "unit": "USD",
       "range": {
         "low": 11000000000.0,
-        "high": 11000000000.0
+        "high": 15500000000.0
       },
       "as_of": "2026-08-21",
       "estimate_type": "consensus",
@@ -40,7 +40,7 @@
       "contradiction": false,
       "delta": {
         "previous": 11000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-08-21"
       },
       "history_ref": "history/harvey/valuation.jsonl",
@@ -58,7 +58,7 @@
       },
       "as_of": "2026-03-29",
       "estimate_type": "consensus",
-      "confidence": 0.719,
+      "confidence": 0.717,
       "supporting_claims": [
         "clm_1a7eb37fee",
         "clm_e6177dd0c9",
@@ -67,7 +67,7 @@
       "contradiction": false,
       "delta": {
         "previous": 200000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-03-29"
       },
       "history_ref": "history/harvey/round_amount.jsonl",
@@ -82,14 +82,14 @@
       "range": null,
       "as_of": "2026-02-09",
       "estimate_type": "reported",
-      "confidence": 0.09,
+      "confidence": 0.089,
       "supporting_claims": [
         "clm_1a7ff164fc"
       ],
       "contradiction": false,
       "delta": {
         "previous": 190000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-02-09"
       },
       "history_ref": "history/harvey/arr.jsonl",
@@ -99,19 +99,19 @@
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 57.89,
+      "value": 81.58,
       "unit": "x",
       "range": null,
-      "as_of": "2026-03-25",
+      "as_of": "2026-08-07",
       "estimate_type": "reported",
-      "confidence": 0.063,
+      "confidence": 0.19,
       "supporting_claims": [
-        "drv_3ee4e7d384"
+        "drv_2841dbf7d9"
       ],
       "contradiction": false,
       "delta": {
         "previous": 57.89,
-        "change_pct": 0.0,
+        "change_pct": 40.9,
         "since": "2026-03-25"
       },
       "history_ref": "history/harvey/revenue_multiple.jsonl",
@@ -120,5 +120,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-27"
+  "last_updated": "2026-08-29"
 }

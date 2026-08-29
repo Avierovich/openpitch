@@ -22,7 +22,7 @@
       },
       "as_of": "2026-04-21",
       "estimate_type": "consensus",
-      "confidence": 0.777,
+      "confidence": 0.776,
       "supporting_claims": [
         "clm_baac1e6419",
         "clm_ace6101b80",
@@ -32,7 +32,7 @@
       "contradiction": false,
       "delta": {
         "previous": 10000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-04-21"
       },
       "history_ref": "history/project-prometheus/total_funding.jsonl",
@@ -42,7 +42,7 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 38694375181.24,
+      "value": 38577766050.19,
       "unit": "USD",
       "range": {
         "low": 38000000000.0,
@@ -50,11 +50,12 @@
       },
       "as_of": "2026-06-11",
       "estimate_type": "consensus",
-      "confidence": 0.888,
+      "confidence": 0.928,
       "supporting_claims": [
         "clm_6c7333dd3f",
         "clm_0db447274f",
         "clm_b3b2eb81c5",
+        "clm_f14f514ddc",
         "clm_b2bd6ad025",
         "clm_e93a4a5434",
         "clm_bf5e5f4930",
@@ -63,14 +64,14 @@
       "contradiction": false,
       "delta": {
         "previous": 38694375181.24,
-        "change_pct": -0.0,
+        "change_pct": -0.3,
         "since": "2026-06-11"
       },
       "history_ref": "history/project-prometheus/valuation.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": 41000000000.0,
-      "confirmed_as_of": "2026-06-11"
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-27"
+  "last_updated": "2026-08-29"
 }

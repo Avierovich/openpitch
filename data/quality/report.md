@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-08-27
+# OpenPitch Data Quality Report - 2026-08-29
 
 ## Summary
 
 - Profiles generated: 269
-- Watchlist candidates: 763
+- Watchlist candidates: 781
 - Top-50 cards: 50
 - Profiles with at least one metric: 261
 - Critical issues: 52
 - Warnings: 34
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 491
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 509
 
 ## Top-50 Companies With No Metrics
 
@@ -21,11 +21,11 @@ None.
 ## Top-50 Missing ARR / Revenue
 
 - Cognition AI
+- Chime
 - Bright Health
 - Checkout.com
 - OpenEvidence
 - Airwallex
-- Chime
 - Chainalysis
 
 ## Curated High-Priority Watchlist Companies Not Profiled (critical)

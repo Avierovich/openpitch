@@ -10,14 +10,14 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 84.4,
-  "universe_rank": 31,
+  "universe_rank": 32,
   "metrics": {
     "headcount": {
       "metric": "headcount",
       "value": 3000.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-08-27",
+      "as_of": "2026-08-29",
       "estimate_type": "reported",
       "confidence": 0.191,
       "supporting_claims": [
@@ -34,9 +34,31 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "arr": {
+      "metric": "arr",
+      "value": 771000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-07-03",
+      "estimate_type": "reported",
+      "confidence": 0.264,
+      "supporting_claims": [
+        "clm_4a9d9165ee"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 771000000.0,
+        "change_pct": 0.0,
+        "since": "2026-07-03"
+      },
+      "history_ref": "history/celonis/arr.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "valuation": {
       "metric": "valuation",
-      "value": 12994421641.65,
+      "value": 12994482035.05,
       "unit": "USD",
       "range": {
         "low": 13000000000.0,
@@ -47,8 +69,9 @@
       "confidence": 0.743,
       "supporting_claims": [
         "clm_93f95c055d",
-        "clm_1bea91a08f",
         "clm_e18945a753",
+        "clm_6c6795bd99",
+        "clm_1bea91a08f",
         "clm_abdd22d911",
         "clm_0b81e88e78",
         "clm_12e0450ab9",
@@ -56,29 +79,11 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 12867841595.32,
-        "change_pct": 1.0,
-        "since": "2022-10-16"
+        "previous": 12994421641.65,
+        "change_pct": 0.0,
+        "since": "2026-08-17"
       },
       "history_ref": "history/celonis/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "arr": {
-      "metric": "arr",
-      "value": 771000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-07-03",
-      "estimate_type": "reported",
-      "confidence": 0.269,
-      "supporting_claims": [
-        "clm_4a9d9165ee"
-      ],
-      "contradiction": false,
-      "delta": null,
-      "history_ref": "history/celonis/arr.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -99,7 +104,7 @@
       "contradiction": false,
       "delta": {
         "previous": 1000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2022-08-24"
       },
       "history_ref": "history/celonis/total_funding.jsonl",
@@ -134,19 +139,23 @@
       "value": 16.86,
       "unit": "x",
       "range": null,
-      "as_of": "2026-08-17",
+      "as_of": "2026-07-03",
       "estimate_type": "reported",
-      "confidence": 0.189,
+      "confidence": 0.128,
       "supporting_claims": [
-        "drv_1742c64d7c"
+        "drv_115791d1aa"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 16.86,
+        "change_pct": 0.0,
+        "since": "2026-08-17"
+      },
       "history_ref": "history/celonis/revenue_multiple.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-27"
+  "last_updated": "2026-08-29"
 }

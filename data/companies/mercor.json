@@ -12,14 +12,44 @@
   "vc_attention_score": 83.4,
   "universe_rank": 44,
   "metrics": {
+    "valuation": {
+      "metric": "valuation",
+      "value": 10000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 10000000000.0,
+        "high": 20000000000.0
+      },
+      "as_of": "2026-07-25",
+      "estimate_type": "consensus",
+      "confidence": 0.824,
+      "supporting_claims": [
+        "clm_40aca5439c",
+        "clm_0051c9db8a",
+        "clm_95d889f621"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 10000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-07-25"
+      },
+      "history_ref": "history/mercor/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "latest_round": {
       "metric": "latest_round",
       "value": 3.0,
       "unit": "object",
-      "range": null,
+      "range": {
+        "low": 3.0,
+        "high": 3.0
+      },
       "as_of": "2026-07-25",
       "estimate_type": "consensus",
-      "confidence": 0.661,
+      "confidence": 0.773,
       "supporting_claims": [
         "clm_c3657789fe",
         "clm_3da23f4b07"
@@ -42,7 +72,7 @@
       "range": null,
       "as_of": "2026-07-25",
       "estimate_type": "consensus",
-      "confidence": 0.651,
+      "confidence": 0.648,
       "supporting_claims": [
         "clm_74ed32197e",
         "clm_5cff99b176"
@@ -58,33 +88,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "valuation": {
-      "metric": "valuation",
-      "value": 10000000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 10000000000.0,
-        "high": 20000000000.0
-      },
-      "as_of": "2026-07-25",
-      "estimate_type": "consensus",
-      "confidence": 0.738,
-      "supporting_claims": [
-        "clm_40aca5439c",
-        "clm_0051c9db8a",
-        "clm_95d889f621"
-      ],
-      "contradiction": true,
-      "delta": {
-        "previous": 10000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-07-25"
-      },
-      "history_ref": "history/mercor/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "arr": {
       "metric": "arr",
       "value": 2000000000.0,
@@ -92,7 +95,7 @@
       "range": null,
       "as_of": "2026-07-25",
       "estimate_type": "reported",
-      "confidence": 0.456,
+      "confidence": 0.448,
       "supporting_claims": [
         "clm_e47d35c808"
       ],
@@ -114,7 +117,7 @@
       "range": null,
       "as_of": "2026-07-25",
       "estimate_type": "reported",
-      "confidence": 0.252,
+      "confidence": 0.247,
       "supporting_claims": [
         "drv_cd507bff2e"
       ],
@@ -130,5 +133,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-27"
+  "last_updated": "2026-08-29"
 }

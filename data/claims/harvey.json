@@ -155,30 +155,6 @@
     "derivation": null
   },
   {
-    "id": "clm_67aa086bdd",
-    "company_id": "harvey",
-    "metric": "valuation",
-    "value": 11000000000.0,
-    "unit": "USD",
-    "raw_text": ":Harvey: Raises at $11 Billion Valuation to Scale Agents Across Law Firms and Enterprises",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Harvey",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPU01mbjBVRUczY3BYT18yYUlVaWljNTBWbVJwWkZCUkFTNVFEXzNzQ3hJZGpZdkFjeE9aeVhFX2JZM2x5OEcyMURSNFVrZUtzQWlTSUl3WW1UOEJWOWU2eUlQU3pWb3lud1lRem9uckhodjlJN3ZPWWlkcS0wUkdhMndKenNTbTVBQi1fTl9TTEFGS0N1WWdDZkk1Z0dJWXpxcldSMXdIMmxXQWY4Uk1FQXFZaWxZNlNFNE9N?oc=5",
-      "locator": null,
-      "published_at": "2026-03-25"
-    },
-    "extracted_at": "2026-07-06T14:18:05.027477",
-    "extractor_model": "gemini-2.5-flash",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_fa8e506ccd",
     "company_id": "harvey",
     "metric": "valuation",
@@ -202,6 +178,54 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_26ec1ada19",
+    "company_id": "harvey",
+    "metric": "valuation",
+    "value": 15500000000.0,
+    "unit": "USD",
+    "raw_text": "Harvey raises at a $15.5bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbkpvX1A4MlVuYlJiX281REIyTmtRR2V0bTFTT3Y1U2RfU1UtSHFheGptZEYzT2FHRUxaZTFOeFJPMkNLZG1ubEJ2dGs0di1mdkstRW1RMkFSdjI5Ukd4UlhXc2xvLWEwU3drRUtPMGdUQmwyQ0JLYlNReEN5WkJQMmdjcnA2V1Y4Zjh3?oc=5",
+      "locator": null,
+      "published_at": "2026-08-07"
+    },
+    "extracted_at": "2026-08-29T11:59:18.797257",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_67aa086bdd",
+    "company_id": "harvey",
+    "metric": "valuation",
+    "value": 11000000000.0,
+    "unit": "USD",
+    "raw_text": ":Harvey: Raises at $11 Billion Valuation to Scale Agents Across Law Firms and Enterprises",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Harvey",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPU01mbjBVRUczY3BYT18yYUlVaWljNTBWbVJwWkZCUkFTNVFEXzNzQ3hJZGpZdkFjeE9aeVhFX2JZM2x5OEcyMURSNFVrZUtzQWlTSUl3WW1UOEJWOWU2eUlQU3pWb3lud1lRem9uckhodjlJN3ZPWWlkcS0wUkdhMndKenNTbTVBQi1fTl9TTEFGS0N1WWdDZkk1Z0dJWXpxcldSMXdIMmxXQWY4Uk1FQXFZaWxZNlNFNE9N?oc=5",
+      "locator": null,
+      "published_at": "2026-03-25"
+    },
+    "extracted_at": "2026-07-06T14:18:05.027477",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -274,30 +298,6 @@
     "extracted_at": "2026-07-06T14:18:05.027477",
     "extractor_model": "gemini-2.5-flash",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_26ec1ada19",
-    "company_id": "harvey",
-    "metric": "valuation",
-    "value": 15500000000.0,
-    "unit": "USD",
-    "raw_text": "Harvey raises at a $15.5bn valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Next Web",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbkpvX1A4MlVuYlJiX281REIyTmtRR2V0bTFTT3Y1U2RfU1UtSHFheGptZEYzT2FHRUxaZTFOeFJPMkNLZG1ubEJ2dGs0di1mdkstRW1RMkFSdjI5Ukd4UlhXc2xvLWEwU3drRUtPMGdUQmwyQ0JLYlNReEN5WkJQMmdjcnA2V1Y4Zjh3?oc=5",
-      "locator": null,
-      "published_at": "2026-08-07"
-    },
-    "extracted_at": "2026-08-29T11:59:18.797257",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -683,7 +683,7 @@
       "locator": null,
       "published_at": "2026-08-07"
     },
-    "extracted_at": "2026-08-29T11:59:18.797257",
+    "extracted_at": "2026-08-31T12:11:11.881256",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {

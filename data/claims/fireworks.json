@@ -1,11 +1,11 @@
 [
   {
-    "id": "clm_85caa9db52",
+    "id": "clm_8946ffa7c1",
     "company_id": "fireworks",
-    "metric": "valuation",
-    "value": 17500000000.0,
+    "metric": "latest_round",
+    "value": 1500000000.0,
     "unit": "USD",
-    "raw_text": "Fireworks AI Hits $17.5B Valuation",
+    "raw_text": "$1.5 billion Series D",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -13,12 +13,60 @@
     },
     "source": {
       "type": "news",
-      "name": "dars.gov.et",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUHhGcUJ0aUZsdklkVkJLVGUycU9jYm9tMkFaVTE2TXA5V3VyU2tqeUM0S1VvbnJNbUREZVA0Tks1elhyeF8wRXpNNU1xVXh1RUVjNnh1bC1tVU5uSmlIWURTaDdGX2lsSk0zTjE1NUdRZnZHUElDb1c4MFJOeVFtRXlMMTFxOHZXWGxFMnFCSGs3WXpLS1FiMThvUGZPdy1LZEtHTmdGa2lIRWpEdWhuUUNFMnFQVjUxRHk1ZXFNM3lwdU1HcWc?oc=5",
+      "name": "qz.com",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc0xUNGkxMHF2NHpDc19SRzNWZDU0RkM4MkRfVjhmbHUwdDdRcTVuWGhLWnI1WFFDX21NU0dWNm5ZQklsdElwMkcyZmxJOFVyd3JHN1R4aktjOEk4QnZRZlBoRWpVQkFVLXJiWGhVak1uLUZRVDl0WmdEbGtMbW1oNA?oc=5",
       "locator": null,
       "published_at": "2026-07-16"
     },
-    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_8d19df115e",
+    "company_id": "fireworks",
+    "metric": "round_amount",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "raises $1.5 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "qz.com",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc0xUNGkxMHF2NHpDc19SRzNWZDU0RkM4MkRfVjhmbHUwdDdRcTVuWGhLWnI1WFFDX21NU0dWNm5ZQklsdElwMkcyZmxJOFVyd3JHN1R4aktjOEk4QnZRZlBoRWpVQkFVLXJiWGhVak1uLUZRVDl0WmdEbGtMbW1oNA?oc=5",
+      "locator": null,
+      "published_at": "2026-07-16"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_a4d61bdb57",
+    "company_id": "fireworks",
+    "metric": "valuation",
+    "value": 17500000000.0,
+    "unit": "USD",
+    "raw_text": "$17.5 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "qz.com",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc0xUNGkxMHF2NHpDc19SRzNWZDU0RkM4MkRfVjhmbHUwdDdRcTVuWGhLWnI1WFFDX21NU0dWNm5ZQklsdElwMkcyZmxJOFVyd3JHN1R4aktjOEk4QnZRZlBoRWpVQkFVLXJiWGhVak1uLUZRVDl0WmdEbGtMbW1oNA?oc=5",
+      "locator": null,
+      "published_at": "2026-07-16"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -146,75 +194,27 @@
     "derivation": null
   },
   {
-    "id": "clm_8946ffa7c1",
+    "id": "clm_53955508f4",
     "company_id": "fireworks",
-    "metric": "latest_round",
-    "value": 1500000000.0,
-    "unit": "USD",
-    "raw_text": "$1.5 billion Series D",
+    "metric": "open_roles",
+    "value": 67.0,
+    "unit": "count",
+    "raw_text": "Showing 67 positions",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
-      "type": "news",
-      "name": "qz.com",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc0xUNGkxMHF2NHpDc19SRzNWZDU0RkM4MkRfVjhmbHUwdDdRcTVuWGhLWnI1WFFDX21NU0dWNm5ZQklsdElwMkcyZmxJOFVyd3JHN1R4aktjOEk4QnZRZlBoRWpVQkFVLXJiWGhVak1uLUZRVDl0WmdEbGtMbW1oNA?oc=5",
+      "type": "web",
+      "name": "fireworks.ai",
+      "url": "https://fireworks.ai/careers",
       "locator": null,
-      "published_at": "2026-07-16"
+      "published_at": null
     },
-    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extracted_at": "2026-08-29T11:59:18.797257",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_8d19df115e",
-    "company_id": "fireworks",
-    "metric": "round_amount",
-    "value": 1500000000.0,
-    "unit": "USD",
-    "raw_text": "raises $1.5 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "qz.com",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc0xUNGkxMHF2NHpDc19SRzNWZDU0RkM4MkRfVjhmbHUwdDdRcTVuWGhLWnI1WFFDX21NU0dWNm5ZQklsdElwMkcyZmxJOFVyd3JHN1R4aktjOEk4QnZRZlBoRWpVQkFVLXJiWGhVak1uLUZRVDl0WmdEbGtMbW1oNA?oc=5",
-      "locator": null,
-      "published_at": "2026-07-16"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_a4d61bdb57",
-    "company_id": "fireworks",
-    "metric": "valuation",
-    "value": 17500000000.0,
-    "unit": "USD",
-    "raw_text": "$17.5 billion valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "qz.com",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc0xUNGkxMHF2NHpDc19SRzNWZDU0RkM4MkRfVjhmbHUwdDdRcTVuWGhLWnI1WFFDX21NU0dWNm5ZQklsdElwMkcyZmxJOFVyd3JHN1R4aktjOEk4QnZRZlBoRWpVQkFVLXJiWGhVak1uLUZRVDl0WmdEbGtMbW1oNA?oc=5",
-      "locator": null,
-      "published_at": "2026-07-16"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
+    "base_confidence": 0.25,
     "derivation": null
   },
   {
@@ -362,27 +362,27 @@
     "derivation": null
   },
   {
-    "id": "clm_53955508f4",
+    "id": "clm_85caa9db52",
     "company_id": "fireworks",
-    "metric": "open_roles",
-    "value": 67.0,
-    "unit": "count",
-    "raw_text": "Showing 67 positions",
+    "metric": "valuation",
+    "value": 17500000000.0,
+    "unit": "USD",
+    "raw_text": "Fireworks AI Hits $17.5B Valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
-      "type": "web",
-      "name": "fireworks.ai",
-      "url": "https://fireworks.ai/careers",
+      "type": "news",
+      "name": "dars.gov.et",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUHhGcUJ0aUZsdklkVkJLVGUycU9jYm9tMkFaVTE2TXA5V3VyU2tqeUM0S1VvbnJNbUREZVA0Tks1elhyeF8wRXpNNU1xVXh1RUVjNnh1bC1tVU5uSmlIWURTaDdGX2lsSk0zTjE1NUdRZnZHUElDb1c4MFJOeVFtRXlMMTFxOHZXWGxFMnFCSGs3WXpLS1FiMThvUGZPdy1LZEtHTmdGa2lIRWpEdWhuUUNFMnFQVjUxRHk1ZXFNM3lwdU1HcWc?oc=5",
       "locator": null,
-      "published_at": null
+      "published_at": "2026-07-16"
     },
-    "extracted_at": "2026-08-29T11:59:18.797257",
+    "extracted_at": "2026-08-23T05:59:54.335804",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -905,7 +905,7 @@
     "derivation": null
   },
   {
-    "id": "drv_95d982067e",
+    "id": "drv_5a9ba39364",
     "company_id": "fireworks",
     "metric": "revenue_multiple",
     "value": 17.5,
@@ -923,14 +923,14 @@
       "locator": null,
       "published_at": "2026-07-20"
     },
-    "extracted_at": "2026-08-29T11:59:18.797257",
+    "extracted_at": "2026-08-31T12:11:11.881256",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2029,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_85caa9db52",
+        "clm_a4d61bdb57",
         "clm_4a3e2def68"
       ]
     }

@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-08-29
+# OpenPitch Data Quality Report - 2026-08-31
 
 ## Summary
 
 - Profiles generated: 269
-- Watchlist candidates: 781
+- Watchlist candidates: 797
 - Top-50 cards: 50
 - Profiles with at least one metric: 261
 - Critical issues: 52
-- Warnings: 34
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 509
+- Warnings: 36
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 525
 
 ## Top-50 Companies With No Metrics
 
@@ -93,8 +93,10 @@ None.
 - Databricks: round_amount
 - Anduril: round_amount
 - Figure AI: total_funding
+- Figure AI: headcount
 - Safe Superintelligence: headcount
 - Scale AI: headcount
+- Cognition AI: total_funding
 - Fireworks AI: arr
 - Fireworks AI: total_funding
 - Fireworks AI: headcount
@@ -103,7 +105,6 @@ None.
 - Celonis: arr
 - Celonis: headcount
 - Checkout.com: total_funding
-- Checkout.com: round_amount
 - Poolside: arr
 - Poolside: total_funding
 - Cyera: headcount
@@ -115,6 +116,7 @@ None.
 - Replit: total_funding
 - Wayve: round_amount
 - Together AI: arr
+- Biren Technology: total_funding
 
 ## Review Rule
 

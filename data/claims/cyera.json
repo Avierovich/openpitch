@@ -124,30 +124,6 @@
     "derivation": null
   },
   {
-    "id": "clm_b7295b2927",
-    "company_id": "cyera",
-    "metric": "headcount",
-    "value": 550.0,
-    "unit": null,
-    "raw_text": "scaling Cyera from 100 to 550 employees in under two years",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "exec"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "The Logan Bartlett Show",
-      "url": null,
-      "locator": null,
-      "published_at": "2025-05-09"
-    },
-    "extracted_at": "2026-08-29T11:59:18.797257",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.6,
-    "derivation": null
-  },
-  {
     "id": "clm_706a506c16",
     "company_id": "cyera",
     "metric": "total_funding",
@@ -193,6 +169,30 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_b7295b2927",
+    "company_id": "cyera",
+    "metric": "headcount",
+    "value": 550.0,
+    "unit": "employees",
+    "raw_text": "scaling Cyera from 100 to 550 employees in under two years",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "The Logan Bartlett Show",
+      "url": null,
+      "locator": null,
+      "published_at": "2025-05-09"
+    },
+    "extracted_at": "2026-08-31T12:11:11.881256",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.42,
     "derivation": null
   },
   {
@@ -844,7 +844,7 @@
       "locator": null,
       "published_at": "2026-06-02"
     },
-    "extracted_at": "2026-08-29T11:59:18.797257",
+    "extracted_at": "2026-08-31T12:11:11.881256",
     "extractor_model": "derive-engine",
     "base_confidence": 0.0776,
     "derivation": {

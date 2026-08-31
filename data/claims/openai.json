@@ -53,6 +53,102 @@
     "derivation": null
   },
   {
+    "id": "clm_8fabc82371",
+    "company_id": "openai",
+    "metric": "round_amount",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI raises $40B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTjJfVWhBaXN5LWE5LVA2YlJvVFpfNXZBTkxwbFdoRjc1bzV0a29IM1FaRkFTSTFiVEx2TndTMmVUcFVIbXBtaEZ5cTgwd3hBRmhULVhPNDg0NmtxZWgxcHNNQ01XMUhrVzZlYXNoZUZBQmxxV3dDQWFzR3RvN2VCV1pnZ0VPSEVw?oc=5",
+      "locator": null,
+      "published_at": "2025-03-31"
+    },
+    "extracted_at": "2026-08-31T12:11:11.881256",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_806a2e92ba",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 300000000000.0,
+    "unit": "USD",
+    "raw_text": "$300B post-money valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTjJfVWhBaXN5LWE5LVA2YlJvVFpfNXZBTkxwbFdoRjc1bzV0a29IM1FaRkFTSTFiVEx2TndTMmVUcFVIbXBtaEZ5cTgwd3hBRmhULVhPNDg0NmtxZWgxcHNNQ01XMUhrVzZlYXNoZUZBQmxxV3dDQWFzR3RvN2VCV1pnZ0VPSEVw?oc=5",
+      "locator": null,
+      "published_at": "2025-03-31"
+    },
+    "extracted_at": "2026-08-31T12:11:11.881256",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_e7d6600152",
+    "company_id": "openai",
+    "metric": "round_amount",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI bags $40B in funding",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQR2ZOcWNmVjI3cDhHV0lyclJteWZoWWV5ZVh6WGVvd3JGSUZzd2owYVdNYl9jSWxwWkdfbWJkYk9xNFU2aDBENnZFS3h5dkVFaUhlZlVQaEx0THlMOEJRdmxBRUl6YldMakFsTUNLTkZtT2stY1lEVXBfUkZnMFpnYWN1cFNtVzlGckktUVZuSlltdGNhRm5TV0FTZDhvUQ?oc=5",
+      "locator": null,
+      "published_at": "2025-03-31"
+    },
+    "extracted_at": "2026-08-31T12:11:11.881256",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_2136d90b56",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 300000000000.0,
+    "unit": "USD",
+    "raw_text": "$300B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQR2ZOcWNmVjI3cDhHV0lyclJteWZoWWV5ZVh6WGVvd3JGSUZzd2owYVdNYl9jSWxwWkdfbWJkYk9xNFU2aDBENnZFS3h5dkVFaUhlZlVQaEx0THlMOEJRdmxBRUl6YldMakFsTUNLTkZtT2stY1lEVXBfUkZnMFpnYWN1cFNtVzlGckktUVZuSlltdGNhRm5TV0FTZDhvUQ?oc=5",
+      "locator": null,
+      "published_at": "2025-03-31"
+    },
+    "extracted_at": "2026-08-31T12:11:11.881256",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_791ef4577f",
     "company_id": "openai",
     "metric": "arr",
@@ -433,10 +529,10 @@
     "derivation": null
   },
   {
-    "id": "drv_fb19a53f35",
+    "id": "drv_e62a4a6605",
     "company_id": "openai",
     "metric": "revenue_multiple",
-    "value": 21.0,
+    "value": 7.5,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -451,14 +547,14 @@
       "locator": null,
       "published_at": "2026-08-13"
     },
-    "extracted_at": "2026-08-29T11:59:18.797257",
+    "extracted_at": "2026-08-31T12:11:11.881256",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_27233b0c1e",
+        "clm_806a2e92ba",
         "clm_67e0e17b2d"
       ]
     }

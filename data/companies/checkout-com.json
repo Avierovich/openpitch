@@ -12,28 +12,6 @@
   "vc_attention_score": 84.1,
   "universe_rank": 34,
   "metrics": {
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 450000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2021-01-12",
-      "estimate_type": "reported",
-      "confidence": 0.002,
-      "supporting_claims": [
-        "clm_b800eb6c5c"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 450000000.0,
-        "change_pct": 0.0,
-        "since": "2021-01-12"
-      },
-      "history_ref": "history/checkout-com/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "valuation": {
       "metric": "valuation",
       "value": 12029892403.53,
@@ -41,7 +19,7 @@
       "range": null,
       "as_of": "2025-09-25",
       "estimate_type": "consensus",
-      "confidence": 0.189,
+      "confidence": 0.188,
       "supporting_claims": [
         "clm_d97a8da844",
         "clm_77097e6d47"
@@ -78,7 +56,29 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 1000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2022-01-12",
+      "estimate_type": "reported",
+      "confidence": 0.005,
+      "supporting_claims": [
+        "clm_4767129f40"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 450000000.0,
+        "change_pct": 122.2,
+        "since": "2021-01-12"
+      },
+      "history_ref": "history/checkout-com/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-29"
+  "last_updated": "2026-08-31"
 }

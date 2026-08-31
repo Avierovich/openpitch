@@ -1,53 +1,5 @@
 [
   {
-    "id": "clm_b800eb6c5c",
-    "company_id": "checkout-com",
-    "metric": "round_amount",
-    "value": 450000000.0,
-    "unit": "USD",
-    "raw_text": "Closes $450 Million Series C",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "PYMNTS.com",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaW5zc3dNcnVIRUlCbkNJLTJtakNfaFE1ak96M2ZldEhSNVhFb01YdVhWcDdEV3ZKdjhnc2YxUURXQzY0UjZyUC0wM19yVjFFRGhLdDB6VFBUS2sydl9YbDN2X2pnb3ZPYUhKYzRkTTVCYmVXc1NkbEdEaFFCY2Z3R25kU3ctYU1ZWnh3M0xZYktYRUF3WHN2LTBmZmNtUHBreXZPajNLckEzQUdpaHpwOW1pVVdhdUdncWc?oc=5",
-      "locator": null,
-      "published_at": "2021-01-12"
-    },
-    "extracted_at": "2026-08-23T05:59:54.335804",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_77097e6d47",
-    "company_id": "checkout-com",
-    "metric": "valuation",
-    "value": 15000000000.0,
-    "unit": "USD",
-    "raw_text": "$15 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "PYMNTS.com",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaW5zc3dNcnVIRUlCbkNJLTJtakNfaFE1ak96M2ZldEhSNVhFb01YdVhWcDdEV3ZKdjhnc2YxUURXQzY0UjZyUC0wM19yVjFFRGhLdDB6VFBUS2sydl9YbDN2X2pnb3ZPYUhKYzRkTTVCYmVXc1NkbEdEaFFCY2Z3R25kU3ctYU1ZWnh3M0xZYktYRUF3WHN2LTBmZmNtUHBreXZPajNLckEzQUdpaHpwOW1pVVdhdUdncWc?oc=5",
-      "locator": null,
-      "published_at": "2021-01-12"
-    },
-    "extracted_at": "2026-08-23T05:59:54.335804",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_38fb3aad29",
     "company_id": "checkout-com",
     "metric": "valuation",
@@ -92,6 +44,102 @@
     },
     "extracted_at": "2026-08-21T05:50:03.226228",
     "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_c52f749873",
+    "company_id": "checkout-com",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "at $40bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "FinTech Futures",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVWQ4ekNtdzJIc2VjVGY3bGpVSG1OUFlxNGE5bzJDY3c0dUJBeFVXWl92YjMwV2NWWTVCYWxfU3c3ODhkQ0V6blBRRkVubml3MTJlSHdIaEZXcXRJZDRRYW85bGE4XzRjTWNDX3Z2SXNhQjA3bnY0MkhJZFpKQ3R3ZXVsMGJFMW10WmFKeGRtdzlELUtTVjA2MG5YeUN1aUVWNGYzSEFMUXQ3dmJZR04wU280bV9FY0tNTFQ1YTZMM1VFNmNrZ2tVcEp6MUR6NHVLQ1p6MQ?oc=5",
+      "locator": null,
+      "published_at": "2022-01-12"
+    },
+    "extracted_at": "2026-08-31T12:11:11.881256",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_4767129f40",
+    "company_id": "checkout-com",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "secured bumper $1bn Series D round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "FinTech Futures",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVWQ4ekNtdzJIc2VjVGY3bGpVSG1OUFlxNGE5bzJDY3c0dUJBeFVXWl92YjMwV2NWWTVCYWxfU3c3ODhkQ0V6blBRRkVubml3MTJlSHdIaEZXcXRJZDRRYW85bGE4XzRjTWNDX3Z2SXNhQjA3bnY0MkhJZFpKQ3R3ZXVsMGJFMW10WmFKeGRtdzlELUtTVjA2MG5YeUN1aUVWNGYzSEFMUXQ3dmJZR04wU280bV9FY0tNTFQ1YTZMM1VFNmNrZ2tVcEp6MUR6NHVLQ1p6MQ?oc=5",
+      "locator": null,
+      "published_at": "2022-01-12"
+    },
+    "extracted_at": "2026-08-31T12:11:11.881256",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_b800eb6c5c",
+    "company_id": "checkout-com",
+    "metric": "round_amount",
+    "value": 450000000.0,
+    "unit": "USD",
+    "raw_text": "Closes $450 Million Series C",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaW5zc3dNcnVIRUlCbkNJLTJtakNfaFE1ak96M2ZldEhSNVhFb01YdVhWcDdEV3ZKdjhnc2YxUURXQzY0UjZyUC0wM19yVjFFRGhLdDB6VFBUS2sydl9YbDN2X2pnb3ZPYUhKYzRkTTVCYmVXc1NkbEdEaFFCY2Z3R25kU3ctYU1ZWnh3M0xZYktYRUF3WHN2LTBmZmNtUHBreXZPajNLckEzQUdpaHpwOW1pVVdhdUdncWc?oc=5",
+      "locator": null,
+      "published_at": "2021-01-12"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_77097e6d47",
+    "company_id": "checkout-com",
+    "metric": "valuation",
+    "value": 15000000000.0,
+    "unit": "USD",
+    "raw_text": "$15 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaW5zc3dNcnVIRUlCbkNJLTJtakNfaFE1ak96M2ZldEhSNVhFb01YdVhWcDdEV3ZKdjhnc2YxUURXQzY0UjZyUC0wM19yVjFFRGhLdDB6VFBUS2sydl9YbDN2X2pnb3ZPYUhKYzRkTTVCYmVXc1NkbEdEaFFCY2Z3R25kU3ctYU1ZWnh3M0xZYktYRUF3WHN2LTBmZmNtUHBreXZPajNLckEzQUdpaHpwOW1pVVdhdUdncWc?oc=5",
+      "locator": null,
+      "published_at": "2021-01-12"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.525,
     "derivation": null
   },

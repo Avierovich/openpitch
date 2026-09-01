@@ -17,7 +17,7 @@
       "value": 320000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2026-08-31",
+      "as_of": "2026-09-01",
       "estimate_type": "reported",
       "confidence": 0.438,
       "supporting_claims": [
@@ -37,7 +37,7 @@
     },
     "round_amount": {
       "metric": "round_amount",
-      "value": 321879873.95,
+      "value": 321684759.94,
       "unit": "USD",
       "range": {
         "low": 320000000.0,
@@ -45,12 +45,13 @@
       },
       "as_of": "2026-06-26",
       "estimate_type": "consensus",
-      "confidence": 0.969,
+      "confidence": 0.97,
       "supporting_claims": [
         "clm_88f13c6330",
         "clm_1f085103e3",
         "clm_79f60bb415",
         "clm_5956327adc",
+        "clm_3aa6902581",
         "clm_aaea3f339b",
         "clm_23c44f3aa4",
         "clm_0d15841ef8"
@@ -58,7 +59,7 @@
       "contradiction": false,
       "delta": {
         "previous": 321879873.95,
-        "change_pct": 0.0,
+        "change_pct": -0.1,
         "since": "2026-06-26"
       },
       "history_ref": "history/airwallex/round_amount.jsonl",
@@ -76,12 +77,13 @@
       },
       "as_of": "2026-06-26",
       "estimate_type": "consensus",
-      "confidence": 0.944,
+      "confidence": 0.961,
       "supporting_claims": [
         "clm_82c0cafbae",
         "clm_f4444756db",
         "clm_ebea985687",
         "clm_6a9ad45bea",
+        "clm_4f3428430e",
         "clm_03f0f91d4d"
       ],
       "contradiction": false,
@@ -96,5 +98,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-31"
+  "last_updated": "2026-09-01"
 }

@@ -16,28 +16,32 @@
       "metric": "valuation",
       "value": 100000000000.0,
       "unit": "USD",
-      "range": null,
+      "range": {
+        "low": 60000000000.0,
+        "high": 61000000000.0
+      },
       "as_of": "2026-07-26",
       "estimate_type": "consensus",
-      "confidence": 0.863,
+      "confidence": 0.892,
       "supporting_claims": [
-        "clm_60dc13e9f2",
         "clm_6966bb7b74",
+        "clm_102b71cb2f",
+        "clm_60dc13e9f2",
         "clm_f5aedcded5",
         "clm_4442ec8897",
         "clm_dc3d23e5db",
         "clm_a92183a2c1",
         "clm_7d80b2389a"
       ],
-      "contradiction": false,
+      "contradiction": true,
       "delta": {
         "previous": 100000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-07-26"
       },
       "history_ref": "history/anduril/valuation.jsonl",
       "unconfirmed": true,
-      "confirmed_value": 60000000000.0,
+      "confirmed_value": 61000000000.0,
       "confirmed_as_of": "2026-05-13"
     },
     "round_amount": {
@@ -46,9 +50,10 @@
       "unit": "USD",
       "range": null,
       "as_of": "2026-05-13",
-      "estimate_type": "reported",
-      "confidence": 0.277,
+      "estimate_type": "consensus",
+      "confidence": 0.557,
       "supporting_claims": [
+        "clm_9fae556c64",
         "clm_5a30a4d901"
       ],
       "contradiction": false,
@@ -63,5 +68,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-31"
+  "last_updated": "2026-09-01"
 }

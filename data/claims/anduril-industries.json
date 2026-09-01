@@ -1,33 +1,5 @@
 [
   {
-    "id": "clm_f8713cd7ff",
-    "company_id": "anduril-industries",
-    "metric": "valuation",
-    "value": 100000000000.0,
-    "unit": "usd",
-    "raw_text": "$100 billion valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "approximate",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQi1vbktDeWx4OVF5U01jenY1R21ZSUxPeGtSU0xBYVBndjA1VFBlU2ZvRG4yb1p6bXJPLWpUcVNYQzk3OGR0d1diSHVhOGVSU1RiT0N5U0p6LU1qMjZ4eXEyNXc3UGJhYzhwOC1xVV9pRHVmMkNDX2NCMDQ0V0hudndUd0NfZURXaHRNUXpXWEczTmtRZXd3TldIS0VQaU9EcmR1ZTQtajNjRWVOc0s5dFlXMlh2SS1wUEZNYkNGMUNkRFlPeVNCbzVIeGZiWThpVjlYZ3R3?oc=5",
-      "locator": null,
-      "published_at": "2026-07-24"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1874,
-    "derivation": null
-  },
-  {
     "id": "clm_34af6fe563",
     "company_id": "anduril-industries",
     "metric": "valuation",
@@ -104,6 +76,62 @@
     "extracted_at": "2026-08-24T06:11:52.835308",
     "extractor_model": "gemini-3.6-flash",
     "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_9b08fd5763",
+    "company_id": "anduril-industries",
+    "metric": "valuation",
+    "value": 100000000000.0,
+    "unit": "USD",
+    "raw_text": "$100 billion valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "rounded",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQi1vbktDeWx4OVF5U01jenY1R21ZSUxPeGtSU0xBYVBndjA1VFBlU2ZvRG4yb1p6bXJPLWpUcVNYQzk3OGR0d1diSHVhOGVSU1RiT0N5U0p6LU1qMjZ4eXEyNXc3UGJhYzhwOC1xVV9pRHVmMkNDX2NCMDQ0V0hudndUd0NfZURXaHRNUXpXWEczTmtRZXd3TldIS0VQaU9EcmR1ZTQtajNjRWVOc0s5dFlXMlh2SS1wUEZNYkNGMUNkRFlPeVNCbzVIeGZiWThpVjlYZ3R3?oc=5",
+      "locator": null,
+      "published_at": "2026-07-24"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.241,
+    "derivation": null
+  },
+  {
+    "id": "clm_f8713cd7ff",
+    "company_id": "anduril-industries",
+    "metric": "valuation",
+    "value": 100000000000.0,
+    "unit": "usd",
+    "raw_text": "$100 billion valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "approximate",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQi1vbktDeWx4OVF5U01jenY1R21ZSUxPeGtSU0xBYVBndjA1VFBlU2ZvRG4yb1p6bXJPLWpUcVNYQzk3OGR0d1diSHVhOGVSU1RiT0N5U0p6LU1qMjZ4eXEyNXc3UGJhYzhwOC1xVV9pRHVmMkNDX2NCMDQ0V0hudndUd0NfZURXaHRNUXpXWEczTmtRZXd3TldIS0VQaU9EcmR1ZTQtajNjRWVOc0s5dFlXMlh2SS1wUEZNYkNGMUNkRFlPeVNCbzVIeGZiWThpVjlYZ3R3?oc=5",
+      "locator": null,
+      "published_at": "2026-07-24"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1874,
     "derivation": null
   },
   {

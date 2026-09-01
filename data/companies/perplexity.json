@@ -22,11 +22,12 @@
       },
       "as_of": "2026-08-27",
       "estimate_type": "consensus",
-      "confidence": 0.497,
+      "confidence": 0.603,
       "supporting_claims": [
         "clm_fc24151cdd",
         "clm_69e70108ab",
-        "clm_679cf68660"
+        "clm_679cf68660",
+        "clm_2c18904f88"
       ],
       "contradiction": false,
       "delta": {
@@ -43,12 +44,16 @@
       "metric": "arr",
       "value": 750000000.0,
       "unit": "USD",
-      "range": null,
+      "range": {
+        "low": 750000000.0,
+        "high": 750000000.0
+      },
       "as_of": "2026-08-25",
       "estimate_type": "reported",
-      "confidence": 0.508,
+      "confidence": 0.743,
       "supporting_claims": [
-        "clm_4090891398"
+        "clm_4090891398",
+        "clm_511b8807fc"
       ],
       "contradiction": false,
       "delta": {
@@ -63,19 +68,20 @@
     },
     "round_amount": {
       "metric": "round_amount",
-      "value": 200000000.0,
+      "value": 500000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2025-09-10",
-      "estimate_type": "reported",
-      "confidence": 0.2,
+      "as_of": "2025-05-13",
+      "estimate_type": "consensus",
+      "confidence": 0.215,
       "supporting_claims": [
-        "clm_66d923e90e"
+        "clm_5ebd563604",
+        "clm_9b21463707"
       ],
       "contradiction": false,
       "delta": {
         "previous": 200000000.0,
-        "change_pct": 0.0,
+        "change_pct": 150.0,
         "since": "2025-09-10"
       },
       "history_ref": "history/perplexity/round_amount.jsonl",
@@ -85,19 +91,19 @@
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 0.69,
+      "value": 18.67,
       "unit": "x",
       "range": null,
       "as_of": "2026-08-25",
       "estimate_type": "reported",
-      "confidence": 0.245,
+      "confidence": 0.239,
       "supporting_claims": [
-        "drv_c079e31595"
+        "drv_c1d9eed720"
       ],
       "contradiction": false,
       "delta": {
         "previous": 0.69,
-        "change_pct": 0.0,
+        "change_pct": 2605.8,
         "since": "2026-08-25"
       },
       "history_ref": "history/perplexity/revenue_multiple.jsonl",
@@ -106,5 +112,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-29"
+  "last_updated": "2026-09-01"
 }

@@ -12,12 +12,68 @@
   "vc_attention_score": 84.4,
   "universe_rank": 32,
   "metrics": {
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 1000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2022-08-24",
+      "estimate_type": "consensus",
+      "confidence": 0.196,
+      "supporting_claims": [
+        "clm_2557a67a3a",
+        "clm_f0638776aa",
+        "clm_538b6cd945"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
+        "since": "2022-08-24"
+      },
+      "history_ref": "history/celonis/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "valuation": {
+      "metric": "valuation",
+      "value": 12994482035.05,
+      "unit": "USD",
+      "range": {
+        "low": 13000000000.0,
+        "high": 13000000000.0
+      },
+      "as_of": "2026-08-17",
+      "estimate_type": "consensus",
+      "confidence": 0.739,
+      "supporting_claims": [
+        "clm_93f95c055d",
+        "clm_2a8fd8cab3",
+        "clm_e18945a753",
+        "clm_6c6795bd99",
+        "clm_1bea91a08f",
+        "clm_abdd22d911",
+        "clm_0b81e88e78",
+        "clm_12e0450ab9"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 12994482035.05,
+        "change_pct": -0.0,
+        "since": "2026-08-17"
+      },
+      "history_ref": "history/celonis/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "headcount": {
       "metric": "headcount",
       "value": 3000.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-08-31",
+      "as_of": "2026-09-01",
       "estimate_type": "reported",
       "confidence": 0.191,
       "supporting_claims": [
@@ -34,38 +90,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "valuation": {
-      "metric": "valuation",
-      "value": 12994482035.05,
-      "unit": "USD",
-      "range": {
-        "low": 13000000000.0,
-        "high": 13000000000.0
-      },
-      "as_of": "2026-08-17",
-      "estimate_type": "consensus",
-      "confidence": 0.74,
-      "supporting_claims": [
-        "clm_93f95c055d",
-        "clm_6c6795bd99",
-        "clm_e18945a753",
-        "clm_1bea91a08f",
-        "clm_abdd22d911",
-        "clm_0b81e88e78",
-        "clm_12e0450ab9",
-        "clm_2a8fd8cab3"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 12994482035.05,
-        "change_pct": -0.0,
-        "since": "2026-08-17"
-      },
-      "history_ref": "history/celonis/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "arr": {
       "metric": "arr",
       "value": 771000000.0,
@@ -73,7 +97,7 @@
       "range": null,
       "as_of": "2026-07-03",
       "estimate_type": "reported",
-      "confidence": 0.26,
+      "confidence": 0.258,
       "supporting_claims": [
         "clm_4a9d9165ee"
       ],
@@ -84,30 +108,6 @@
         "since": "2026-07-03"
       },
       "history_ref": "history/celonis/arr.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 1000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2022-08-24",
-      "estimate_type": "consensus",
-      "confidence": 0.196,
-      "supporting_claims": [
-        "clm_f0638776aa",
-        "clm_538b6cd945",
-        "clm_2557a67a3a"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1000000000.0,
-        "change_pct": 0.0,
-        "since": "2022-08-24"
-      },
-      "history_ref": "history/celonis/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -141,9 +141,9 @@
       "range": null,
       "as_of": "2026-07-03",
       "estimate_type": "reported",
-      "confidence": 0.126,
+      "confidence": 0.125,
       "supporting_claims": [
-        "drv_9b660f1f0f"
+        "drv_c1dc8aa18c"
       ],
       "contradiction": false,
       "delta": {
@@ -157,5 +157,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-31"
+  "last_updated": "2026-09-01"
 }

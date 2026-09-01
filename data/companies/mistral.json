@@ -12,6 +12,28 @@
   "vc_attention_score": 86.3,
   "universe_rank": 21,
   "metrics": {
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 3050000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-06-01",
+      "estimate_type": "reported",
+      "confidence": 0.393,
+      "supporting_claims": [
+        "clm_44b31caabf"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 3050000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-01"
+      },
+      "history_ref": "history/mistral/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "valuation": {
       "metric": "valuation",
       "value": 22134268657.59,
@@ -19,7 +41,7 @@
       "range": null,
       "as_of": "2026-07-12",
       "estimate_type": "consensus",
-      "confidence": 0.633,
+      "confidence": 0.632,
       "supporting_claims": [
         "clm_e9ac195bd5",
         "clm_1be1653d4c",
@@ -35,7 +57,7 @@
       },
       "history_ref": "history/mistral/valuation.jsonl",
       "unconfirmed": true,
-      "confirmed_value": 13700000000.0,
+      "confirmed_value": 14000000000.0,
       "confirmed_as_of": "2025-09-09"
     },
     "round_amount": {
@@ -45,7 +67,7 @@
       "range": null,
       "as_of": "2026-03-30",
       "estimate_type": "reported",
-      "confidence": 0.344,
+      "confidence": 0.343,
       "supporting_claims": [
         "clm_1239b2d841"
       ],
@@ -60,24 +82,20 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 3050000000.0,
-      "unit": "USD",
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 3.0,
+      "unit": "object",
       "range": null,
-      "as_of": "2026-06-01",
+      "as_of": "2025-09-09",
       "estimate_type": "reported",
-      "confidence": 0.394,
+      "confidence": 0.141,
       "supporting_claims": [
-        "clm_44b31caabf"
+        "clm_c7f2944486"
       ],
       "contradiction": false,
-      "delta": {
-        "previous": 3050000000.0,
-        "change_pct": 0.0,
-        "since": "2026-06-01"
-      },
-      "history_ref": "history/mistral/total_funding.jsonl",
+      "delta": null,
+      "history_ref": "history/mistral/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -89,7 +107,7 @@
       "range": null,
       "as_of": "2026-04-01",
       "estimate_type": "consensus",
-      "confidence": 0.2,
+      "confidence": 0.199,
       "supporting_claims": [
         "clm_f5ac8ef2ee",
         "clm_45f910ac6d"
@@ -112,7 +130,7 @@
       "range": null,
       "as_of": "2026-02-11",
       "estimate_type": "reported",
-      "confidence": 0.048,
+      "confidence": 0.047,
       "supporting_claims": [
         "drv_f00eedbe63"
       ],
@@ -128,5 +146,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-31"
+  "last_updated": "2026-09-01"
 }

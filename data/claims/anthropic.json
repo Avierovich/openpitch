@@ -1,53 +1,5 @@
 [
   {
-    "id": "clm_b506604679",
-    "company_id": "anthropic",
-    "metric": "arr",
-    "value": 47000000000.0,
-    "unit": "USD",
-    "raw_text": "$47B ARR",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "StartupHub.ai",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSEpEaTlGRU1KY0YwaTBrakxKcldLbFFDa2hEQlp0dVAtcnEwZFZoQ0FXWG1YRkhxa1JHNXRTZ296NlBXT0lSdlVqRmotVnM4RzhpRzRwS2RFdGVFWGsxMVZRX1lweW1OZ2dBNzJEX2FyYTFvcWpfQlRjM3lCNE5KaWg0VUNpTmZzaEhjazdmVDdLZGU0U0IwcWZidmppXzlWOUE0d3VzakhoWHhq?oc=5",
-      "locator": null,
-      "published_at": "2026-06-14"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_f58aa62a72",
-    "company_id": "anthropic",
-    "metric": "valuation",
-    "value": 965000000000.0,
-    "unit": "USD",
-    "raw_text": "$965B Valuation in 2026",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "StartupHub.ai",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSEpEaTlGRU1KY0YwaTBrakxKcldLbFFDa2hEQlp0dVAtcnEwZFZoQ0FXWG1YRkhxa1JHNXRTZ296NlBXT0lSdlVqRmotVnM4RzhpRzRwS2RFdGVFWGsxMVZRX1lweW1OZ2dBNzJEX2FyYTFvcWpfQlRjM3lCNE5KaWg0VUNpTmZzaEhjazdmVDdLZGU0U0IwcWZidmppXzlWOUE0d3VzakhoWHhq?oc=5",
-      "locator": null,
-      "published_at": "2026-06-14"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_aae07090a5",
     "company_id": "anthropic",
     "metric": "valuation",
@@ -144,6 +96,32 @@
     "derivation": null
   },
   {
+    "id": "clm_a1aa600568",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 950000000000.0,
+    "unit": null,
+    "raw_text": "Anthropic in Talks to Raise Funding at a $950 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVXlYUDFLdEJoaFFQTktLaFJiUkNtY3dLa3NMc2ktVmE5ODM4alJtd0lQd0VaSVM0UHBtNk03V3VobnBUM3lveV9oTnA5TXdBRTJTQ2M3cnplNlFaZEJtZ2tqa3pPWU1oenE5Q3E4LTEzUGRkVmd3ZTROVlFueC1RZ29qdGVSM1hGMDk2ZnJFWmNlQ3ZJ?oc=5",
+      "locator": null,
+      "published_at": "2026-05-12"
+    },
+    "extracted_at": "2026-07-06T14:31:09.058208",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_58ef87660d",
     "company_id": "anthropic",
     "metric": "valuation",
@@ -236,6 +214,135 @@
     },
     "extracted_at": "2026-08-21T05:50:03.226228",
     "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_cb6452796e",
+    "company_id": "anthropic",
+    "metric": "arr",
+    "value": 200000000000.0,
+    "unit": "USD",
+    "raw_text": "revenue surging to $200 billion by 2028",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTDlOeWFjb0FENEZLUXpBcDFIVXpoaDVjS20zbFJOaWw1dDltNlc1Q3FiTGhWWFc5LTZQNXFnZWNVVjJxSHJ4WG9aZHV1X1UtbGNsZU50aVpqQy0zTDQzZDQzenhyNlEtZGVYTmI3SXROazIxclQzNEQwa2hfcEJyUlJfUVVSQmI1VmZEMjdXUFJGQjREb29TSkRQay1ZenVjVExDOA?oc=5",
+      "locator": null,
+      "published_at": "2026-08-17"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_f09f9b2fc8",
+    "company_id": "anthropic",
+    "metric": "arr",
+    "value": 47000000000.0,
+    "unit": "USD",
+    "raw_text": "$47B ARR",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "startuphub.ai",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSEpEaTlGRU1KY0YwaTBrakxKcldLbFFDa2hEQlp0dVAtcnEwZFZoQ0FXWG1YRkhxa1JHNXRTZ296NlBXT0lSdlVqRmotVnM4RzhpRzRwS2RFdGVFWGsxMVZRX1lweW1OZ2dBNzJEX2FyYTFvcWpfQlRjM3lCNE5KaWg0VUNpTmZzaEhjazdmVDdLZGU0U0IwcWZidmppXzlWOUE0d3VzakhoWHhq?oc=5",
+      "locator": null,
+      "published_at": "2026-06-14"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_ab3b624118",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 965000000000.0,
+    "unit": "USD",
+    "raw_text": "$965B Valuation in 2026",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "startuphub.ai",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSEpEaTlGRU1KY0YwaTBrakxKcldLbFFDa2hEQlp0dVAtcnEwZFZoQ0FXWG1YRkhxa1JHNXRTZ296NlBXT0lSdlVqRmotVnM4RzhpRzRwS2RFdGVFWGsxMVZRX1lweW1OZ2dBNzJEX2FyYTFvcWpfQlRjM3lCNE5KaWg0VUNpTmZzaEhjazdmVDdLZGU0U0IwcWZidmppXzlWOUE0d3VzakhoWHhq?oc=5",
+      "locator": null,
+      "published_at": "2026-06-14"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_b506604679",
+    "company_id": "anthropic",
+    "metric": "arr",
+    "value": 47000000000.0,
+    "unit": "USD",
+    "raw_text": "$47B ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "StartupHub.ai",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSEpEaTlGRU1KY0YwaTBrakxKcldLbFFDa2hEQlp0dVAtcnEwZFZoQ0FXWG1YRkhxa1JHNXRTZ296NlBXT0lSdlVqRmotVnM4RzhpRzRwS2RFdGVFWGsxMVZRX1lweW1OZ2dBNzJEX2FyYTFvcWpfQlRjM3lCNE5KaWg0VUNpTmZzaEhjazdmVDdLZGU0U0IwcWZidmppXzlWOUE0d3VzakhoWHhq?oc=5",
+      "locator": null,
+      "published_at": "2026-06-14"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_f58aa62a72",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 965000000000.0,
+    "unit": "USD",
+    "raw_text": "$965B Valuation in 2026",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "StartupHub.ai",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSEpEaTlGRU1KY0YwaTBrakxKcldLbFFDa2hEQlp0dVAtcnEwZFZoQ0FXWG1YRkhxa1JHNXRTZ296NlBXT0lSdlVqRmotVnM4RzhpRzRwS2RFdGVFWGsxMVZRX1lweW1OZ2dBNzJEX2FyYTFvcWpfQlRjM3lCNE5KaWg0VUNpTmZzaEhjazdmVDdLZGU0U0IwcWZidmppXzlWOUE0d3VzakhoWHhq?oc=5",
+      "locator": null,
+      "published_at": "2026-06-14"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
   },
@@ -863,32 +970,6 @@
     "derivation": null
   },
   {
-    "id": "clm_a1aa600568",
-    "company_id": "anthropic",
-    "metric": "valuation",
-    "value": 950000000000.0,
-    "unit": null,
-    "raw_text": "Anthropic in Talks to Raise Funding at a $950 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVXlYUDFLdEJoaFFQTktLaFJiUkNtY3dLa3NMc2ktVmE5ODM4alJtd0lQd0VaSVM0UHBtNk03V3VobnBUM3lveV9oTnA5TXdBRTJTQ2M3cnplNlFaZEJtZ2tqa3pPWU1oenE5Q3E4LTEzUGRkVmd3ZTROVlFueC1RZ29qdGVSM1hGMDk2ZnJFWmNlQ3ZJ?oc=5",
-      "locator": null,
-      "published_at": "2026-05-12"
-    },
-    "extracted_at": "2026-07-06T14:31:09.058208",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_5aa2b17d08",
     "company_id": "anthropic",
     "metric": "valuation",
@@ -963,7 +1044,7 @@
     "derivation": null
   },
   {
-    "id": "drv_cd564feb3a",
+    "id": "drv_cf74d3a929",
     "company_id": "anthropic",
     "metric": "revenue_multiple",
     "value": 20.53,
@@ -981,14 +1062,14 @@
       "locator": null,
       "published_at": "2026-06-14"
     },
-    "extracted_at": "2026-08-31T12:11:11.881256",
+    "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_f58aa62a72",
+        "clm_8bdf295605",
         "clm_b506604679"
       ]
     }

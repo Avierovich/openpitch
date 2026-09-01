@@ -22,11 +22,13 @@
       },
       "as_of": "2026-07-02",
       "estimate_type": "consensus",
-      "confidence": 0.96,
+      "confidence": 0.97,
       "supporting_claims": [
+        "clm_087d30b382",
+        "clm_284be5d100",
+        "clm_55a420f71f",
         "clm_aa36aba360",
         "clm_7133b5e74d",
-        "clm_087d30b382",
         "clm_27725d7e9c",
         "clm_3581aedf72",
         "clm_22f09128cb"
@@ -44,7 +46,7 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 8107892270.68,
+      "value": 8113056401.71,
       "unit": "USD",
       "range": {
         "low": 8300000000.0,
@@ -54,24 +56,27 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
+        "clm_c66285a55f",
         "clm_6ff4cf78d4",
         "clm_6ff4cf78d4",
         "clm_f7ecf229d2",
         "clm_b8ec11cc06",
         "clm_49056f66a9",
         "clm_2b7244eadf",
-        "clm_d00af9045f",
-        "clm_e4d602d9cb",
-        "clm_3e104cf11e",
         "clm_2d13a742dc",
+        "clm_e4d602d9cb",
+        "clm_5280ea2157",
+        "clm_f3788ec9a3",
+        "clm_d00af9045f",
+        "clm_3e104cf11e",
         "clm_3f54e789cf",
         "clm_f697be49fe",
         "clm_77453f3da1"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 8081861851.1,
-        "change_pct": 0.3,
+        "previous": 8107892270.68,
+        "change_pct": 0.1,
         "since": "2026-07-02"
       },
       "history_ref": "history/together/valuation.jsonl",
@@ -96,7 +101,7 @@
       "contradiction": false,
       "delta": {
         "previous": 1000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-05-09"
       },
       "history_ref": "history/together/total_funding.jsonl",
@@ -111,7 +116,7 @@
       "range": null,
       "as_of": "2025-11-28",
       "estimate_type": "reported",
-      "confidence": 0.038,
+      "confidence": 0.037,
       "supporting_claims": [
         "clm_e7ba8ab694"
       ],
@@ -133,15 +138,15 @@
       "range": null,
       "as_of": "2026-07-01",
       "estimate_type": "reported",
-      "confidence": 0.109,
+      "confidence": 0.108,
       "supporting_claims": [
-        "drv_e48f6673a9"
+        "drv_6622912d5a"
       ],
       "contradiction": false,
       "delta": {
         "previous": 188.64,
         "change_pct": 0.0,
-        "since": "2026-07-02"
+        "since": "2026-07-01"
       },
       "history_ref": "history/together/revenue_multiple.jsonl",
       "unconfirmed": false,
@@ -149,5 +154,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-31"
+  "last_updated": "2026-09-01"
 }

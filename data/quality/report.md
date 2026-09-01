@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-08-31
+# OpenPitch Data Quality Report - 2026-09-01
 
 ## Summary
 
-- Profiles generated: 269
-- Watchlist candidates: 797
+- Profiles generated: 288
+- Watchlist candidates: 814
 - Top-50 cards: 50
-- Profiles with at least one metric: 261
-- Critical issues: 52
-- Warnings: 36
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 525
+- Profiles with at least one metric: 279
+- Critical issues: 56
+- Warnings: 33
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 523
 
 ## Top-50 Companies With No Metrics
 
@@ -42,6 +42,7 @@ None.
 - Conversica
 - AnyVision
 - Augment Code
+- Augment Code
 - Causaly
 - Bland AI
 - Foodics
@@ -56,7 +57,10 @@ None.
 - Attio
 - AttoTude
 - Auterion
+- Axelera AI
 - Baichuan AI
+- Basecamp Research
+- BigHat Biosciences
 - Bright Machines
 - Built Robotics
 - Cadence
@@ -88,19 +92,17 @@ None.
 
 ## Single-Source Core Metrics
 
-- OpenAI: total_funding
 - xAI: total_funding
 - Databricks: round_amount
-- Anduril: round_amount
 - Figure AI: total_funding
 - Figure AI: headcount
 - Safe Superintelligence: headcount
 - Scale AI: headcount
-- Cognition AI: total_funding
 - Fireworks AI: arr
 - Fireworks AI: total_funding
 - Fireworks AI: headcount
 - Sierra: arr
+- Applied Intuition: headcount
 - Lovable: headcount
 - Celonis: arr
 - Celonis: headcount
@@ -112,7 +114,6 @@ None.
 - ElevenLabs: arr
 - ElevenLabs: headcount
 - Physical Intelligence: total_funding
-- Crusoe: total_funding
 - Replit: total_funding
 - Wayve: round_amount
 - Together AI: arr

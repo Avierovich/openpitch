@@ -20,10 +20,11 @@
         "low": 40000000000.0,
         "high": 40000000000.0
       },
-      "as_of": "2026-08-13",
+      "as_of": "2026-08-20",
       "estimate_type": "consensus",
-      "confidence": 0.648,
+      "confidence": 0.861,
       "supporting_claims": [
+        "clm_926dee2cd7",
         "clm_67e0e17b2d",
         "clm_e25e11eb2e"
       ],
@@ -40,7 +41,7 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 850536885895.54,
+      "value": 846326905333.49,
       "unit": "USD",
       "range": {
         "low": 840000000000.0,
@@ -48,9 +49,13 @@
       },
       "as_of": "2026-08-20",
       "estimate_type": "consensus",
-      "confidence": 0.962,
+      "confidence": 0.97,
       "supporting_claims": [
+        "clm_09d42baaaa",
+        "clm_05d72f55ed",
         "clm_27233b0c1e",
+        "clm_caeec8d1e6",
+        "clm_9757e8d476",
         "clm_94b4e77d59",
         "clm_a66aa37416",
         "clm_d9b945e8b0",
@@ -60,11 +65,38 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 850536885895.53,
-        "change_pct": 0.0,
+        "previous": 850536885895.54,
+        "change_pct": -0.5,
         "since": "2026-08-20"
       },
       "history_ref": "history/openai/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 114117736298.52,
+      "unit": "USD",
+      "range": {
+        "low": 110000000000.0,
+        "high": 122000000000.0
+      },
+      "as_of": "2026-03-31",
+      "estimate_type": "consensus",
+      "confidence": 0.798,
+      "supporting_claims": [
+        "clm_933bad6408",
+        "clm_84a35c327c",
+        "clm_6c05bb0d3f"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 110000000000.0,
+        "change_pct": 3.7,
+        "since": "2026-02-27"
+      },
+      "history_ref": "history/openai/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -74,12 +106,12 @@
       "value": 122000000000.0,
       "unit": "USD",
       "range": {
-        "low": 122000000000.0,
+        "low": 7000000000.0,
         "high": 122000000000.0
       },
       "as_of": "2026-05-11",
       "estimate_type": "consensus",
-      "confidence": 0.797,
+      "confidence": 0.795,
       "supporting_claims": [
         "clm_a2a0b3b943",
         "clm_575fed5cdd",
@@ -88,7 +120,7 @@
       "contradiction": false,
       "delta": {
         "previous": 122000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-05-11"
       },
       "history_ref": "history/openai/round_amount.jsonl",
@@ -96,43 +128,21 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 110000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-02-27",
-      "estimate_type": "reported",
-      "confidence": 0.407,
-      "supporting_claims": [
-        "clm_84a35c327c"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 110000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-02-27"
-      },
-      "history_ref": "history/openai/total_funding.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 7.5,
+      "value": 21.3,
       "unit": "x",
       "range": null,
-      "as_of": "2026-08-13",
+      "as_of": "2026-08-20",
       "estimate_type": "reported",
-      "confidence": 0.196,
+      "confidence": 0.421,
       "supporting_claims": [
-        "drv_e62a4a6605"
+        "drv_7fc32de45e"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 21.0,
-        "change_pct": -64.3,
+        "previous": 7.5,
+        "change_pct": 184.0,
         "since": "2026-08-13"
       },
       "history_ref": "history/openai/revenue_multiple.jsonl",
@@ -141,5 +151,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-08-31"
+  "last_updated": "2026-09-01"
 }

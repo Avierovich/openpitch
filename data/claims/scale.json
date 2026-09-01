@@ -28,7 +28,7 @@
     "company_id": "scale",
     "metric": "valuation",
     "value": 29000000000.0,
-    "unit": null,
+    "unit": "USD",
     "raw_text": "Valuation $29B",
     "qualifiers": [],
     "speaker": {
@@ -42,7 +42,7 @@
       "locator": null,
       "published_at": null
     },
-    "extracted_at": "2026-08-27T17:02:21.670041",
+    "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.25,
     "derivation": null
@@ -52,9 +52,10 @@
     "company_id": "scale",
     "metric": "headcount",
     "value": 1000.0,
-    "unit": null,
+    "unit": "count",
     "raw_text": "Employees 1,000+",
     "qualifiers": [
+      "rounded",
       "approximate"
     ],
     "speaker": {
@@ -68,9 +69,9 @@
       "locator": null,
       "published_at": null
     },
-    "extracted_at": "2026-08-27T17:02:21.670041",
+    "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2125,
+    "base_confidence": 0.1913,
     "derivation": null
   },
   {
@@ -143,7 +144,7 @@
       "locator": null,
       "published_at": "2026-04-15"
     },
-    "extracted_at": "2026-08-31T12:11:11.881256",
+    "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "derive-engine",
     "base_confidence": 0.194,
     "derivation": {

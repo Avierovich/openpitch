@@ -224,9 +224,11 @@
     "company_id": "baseten",
     "metric": "revenue_growth",
     "value": 30.0,
-    "unit": "multiplier",
+    "unit": null,
     "raw_text": "Baseten’s 30x growth",
-    "qualifiers": [],
+    "qualifiers": [
+      "forward_looking"
+    ],
     "speaker": {
       "name": null,
       "role": "founder"
@@ -238,9 +240,61 @@
       "locator": null,
       "published_at": "2026-05-01"
     },
-    "extracted_at": "2026-08-31T12:11:11.881256",
+    "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.6,
+    "base_confidence": 0.42,
+    "derivation": null
+  },
+  {
+    "id": "clm_a1d628a9bc",
+    "company_id": "baseten",
+    "metric": "latest_round",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "Baseten Raises $1.5B",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "startuphub.ai",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZjNpcWl1QXpFUld3V3FHMVdTRldteVRXbFZ3REJxVDFfazNUd2dETmRjaTdYOTR5VnZldXBCYmVaeVdvYkhUaHhZdXA1UlhxUlh4MHdBRzA5NWl6NXIweEZwNGtPc2hRTlhNOExyeGdKcmtSejUwN19sbmRTZzFDVVRZOVpBVzlqYUFPTlQ0aGQ4RnVfSjVMWUp3?oc=5",
+      "locator": null,
+      "published_at": "2026-06-22"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_7b1005455b",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 13000000000.0,
+    "unit": "USD",
+    "raw_text": "Reaches $13B Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "startuphub.ai",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZjNpcWl1QXpFUld3V3FHMVdTRldteVRXbFZ3REJxVDFfazNUd2dETmRjaTdYOTR5VnZldXBCYmVaeVdvYkhUaHhZdXA1UlhxUlh4MHdBRzA5NWl6NXIweEZwNGtPc2hRTlhNOExyeGdKcmtSejUwN19sbmRTZzFDVVRZOVpBVzlqYUFPTlQ0aGQ4RnVfSjVMWUp3?oc=5",
+      "locator": null,
+      "published_at": "2026-06-22"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
     "derivation": null
   },
   {

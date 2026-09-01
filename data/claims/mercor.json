@@ -148,54 +148,6 @@
     "derivation": null
   },
   {
-    "id": "clm_0051c9db8a",
-    "company_id": "mercor",
-    "metric": "valuation",
-    "value": 10000000000.0,
-    "unit": "USD",
-    "raw_text": "$10 billion valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "exec"
-    },
-    "source": {
-      "type": "web",
-      "name": "mercor.com",
-      "url": "https://mercor.com/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-08-29T11:59:18.797257",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.5,
-    "derivation": null
-  },
-  {
-    "id": "clm_3da23f4b07",
-    "company_id": "mercor",
-    "metric": "latest_round",
-    "value": 3.0,
-    "unit": "Series",
-    "raw_text": "Series C",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "exec"
-    },
-    "source": {
-      "type": "web",
-      "name": "mercor.com",
-      "url": "https://mercor.com/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-08-29T11:59:18.797257",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.5,
-    "derivation": null
-  },
-  {
     "id": "clm_0fbf02cca5",
     "company_id": "mercor",
     "metric": "valuation",
@@ -220,6 +172,85 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_0051c9db8a",
+    "company_id": "mercor",
+    "metric": "valuation",
+    "value": 10000000000.0,
+    "unit": "USD",
+    "raw_text": "$10 billion valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "web",
+      "name": "mercor.com",
+      "url": "https://mercor.com/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.45,
+    "derivation": null
+  },
+  {
+    "id": "clm_3da23f4b07",
+    "company_id": "mercor",
+    "metric": "latest_round",
+    "value": 3.0,
+    "unit": "round",
+    "raw_text": "Series C company",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "web",
+      "name": "mercor.com",
+      "url": "https://mercor.com/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.45,
+    "derivation": null
+  },
+  {
+    "id": "clm_217155eb33",
+    "company_id": "mercor",
+    "metric": "valuation",
+    "value": 10000000000.0,
+    "unit": "USD",
+    "raw_text": "Mercor Eyes $10B Valuation in Series C Talks",
+    "qualifiers": [
+      "unconfirmed",
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "startuphub.ai",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUkRlajZKVmRBZlZ6bDVGRlAyUE1sblNiTG55V2YyNDQtWHFJeEo5U0Nsd1JuRkNGdVBCTC1rQ3J2bGRBb1BFcU9VYnZ5ZFk1cEFlQ21rS0p4aUIteHVkek5oMEFXNGZPeEV4SjVfS19iTnBFZVAxNjVoYXFhS2ZkNTJnMFg5VnBQYnRKVXpINUpWaF84TElwZUF2VDI?oc=5",
+      "locator": null,
+      "published_at": "2025-09-11"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2835,
     "derivation": null
   },
   {
@@ -315,7 +346,7 @@
       "locator": null,
       "published_at": "2026-07-25"
     },
-    "extracted_at": "2026-08-31T12:11:11.881256",
+    "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "derive-engine",
     "base_confidence": 0.3312,
     "derivation": {

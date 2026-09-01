@@ -157,6 +157,105 @@
     "derivation": null
   },
   {
+    "id": "clm_2c18904f88",
+    "company_id": "perplexity",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "at Over $30 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZjMtZExfeUhfcmZaMkJNVnhGZF96dmh0cklYU0o3NHlwSXdabnhIelBIS21tc1YwNDM1OGdzazVqZEVzOW1uZWJscl9meGFWRlE2aU80MGZWRkpYNDFBQm9BTnk2bzMzWXRwSVdPR2otdGlZdS1HcHBPZ2luZXRmMUpJcmVRTUZxWlRYUHBDOEN2cWJ6c053?oc=5",
+      "locator": null,
+      "published_at": "2026-08-24"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_511b8807fc",
+    "company_id": "perplexity",
+    "metric": "arr",
+    "value": 750000000.0,
+    "unit": "USD",
+    "raw_text": "$750 Million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZjMtZExfeUhfcmZaMkJNVnhGZF96dmh0cklYU0o3NHlwSXdabnhIelBIS21tc1YwNDM1OGdzazVqZEVzOW1uZWJscl9meGFWRlE2aU80MGZWRkpYNDFBQm9BTnk2bzMzWXRwSVdPR2otdGlZdS1HcHBPZ2luZXRmMUpJcmVRTUZxWlRYUHBDOEN2cWJ6c053?oc=5",
+      "locator": null,
+      "published_at": "2026-08-24"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_9b21463707",
+    "company_id": "perplexity",
+    "metric": "round_amount",
+    "value": 500000000.0,
+    "unit": "USD",
+    "raw_text": "raise $500 million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Way1hNkFLYzJnZWlBcmJ3cnM1QVFiMmJHeXpNT2szUEQtSHJyOTVCcmthUHZFQVRUSDNKUWlMZGFobEJxb1JvbV9IVkhNWmJjNlg5Ni1mb2NsaXJZelhYRUtvc2UtSnZDeFNDcWtacXRJdE9nTnc?oc=5",
+      "locator": null,
+      "published_at": "2025-05-12"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_dc17350ecc",
+    "company_id": "perplexity",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": "USD",
+    "raw_text": "$14 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Way1hNkFLYzJnZWlBcmJ3cnM1QVFiMmJHeXpNT2szUEQtSHJyOTVCcmthUHZFQVRUSDNKUWlMZGFobEJxb1JvbV9IVkhNWmJjNlg5Ni1mb2NsaXJZelhYRUtvc2UtSnZDeFNDcWtacXRJdE9nTnc?oc=5",
+      "locator": null,
+      "published_at": "2025-05-12"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_23191e01c4",
     "company_id": "perplexity",
     "metric": "round_amount",
@@ -327,10 +426,10 @@
     "derivation": null
   },
   {
-    "id": "drv_c079e31595",
+    "id": "drv_c1d9eed720",
     "company_id": "perplexity",
     "metric": "revenue_multiple",
-    "value": 0.69,
+    "value": 18.67,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -345,14 +444,14 @@
       "locator": null,
       "published_at": "2026-08-25"
     },
-    "extracted_at": "2026-08-29T11:59:18.797257",
+    "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_82ab27c57a",
+        "clm_dc17350ecc",
         "clm_4090891398"
       ]
     }

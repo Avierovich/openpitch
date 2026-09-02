@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-09-01
+# OpenPitch Data Quality Report - 2026-09-02
 
 ## Summary
 
 - Profiles generated: 288
-- Watchlist candidates: 814
+- Watchlist candidates: 828
 - Top-50 cards: 50
 - Profiles with at least one metric: 279
 - Critical issues: 56
-- Warnings: 33
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 523
+- Warnings: 35
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 537
 
 ## Top-50 Companies With No Metrics
 
@@ -111,8 +111,10 @@ None.
 - Poolside: total_funding
 - Cyera: headcount
 - OpenEvidence: total_funding
+- Baseten: arr
 - ElevenLabs: arr
 - ElevenLabs: headcount
+- Airwallex: total_funding
 - Physical Intelligence: total_funding
 - Replit: total_funding
 - Wayve: round_amount

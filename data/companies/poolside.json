@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 84.1,
-  "universe_rank": 37,
+  "universe_rank": 39,
   "metrics": {
     "valuation": {
       "metric": "valuation",
@@ -22,7 +22,7 @@
       },
       "as_of": "2026-08-27",
       "estimate_type": "consensus",
-      "confidence": 0.851,
+      "confidence": 0.849,
       "supporting_claims": [
         "clm_64d0679833",
         "clm_46b45f7c75",
@@ -48,7 +48,7 @@
       "range": null,
       "as_of": "2025-10-31",
       "estimate_type": "consensus",
-      "confidence": 0.492,
+      "confidence": 0.49,
       "supporting_claims": [
         "clm_c7c99054ff",
         "clm_0839e2c76e",
@@ -58,7 +58,7 @@
       "contradiction": false,
       "delta": {
         "previous": 1000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2025-10-31"
       },
       "history_ref": "history/poolside/round_amount.jsonl",
@@ -72,19 +72,22 @@
       "unit": "USD",
       "range": null,
       "as_of": "2026-08-21",
-      "estimate_type": "reported",
-      "confidence": 0.517,
+      "estimate_type": "consensus",
+      "confidence": 0.758,
       "supporting_claims": [
+        "clm_c864fe201f",
+        "clm_1bd0fdb3c6",
+        "clm_bf65e16ba2",
         "clm_1f7c31f48e"
       ],
       "contradiction": false,
       "delta": {
         "previous": 1000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-08-21"
       },
       "history_ref": "history/poolside/total_funding.jsonl",
-      "unconfirmed": false,
+      "unconfirmed": true,
       "confirmed_value": null,
       "confirmed_as_of": null
     },
@@ -139,7 +142,7 @@
       "range": null,
       "as_of": "2026-08-24",
       "estimate_type": "reported",
-      "confidence": 0.169,
+      "confidence": 0.167,
       "supporting_claims": [
         "drv_783bd5902c"
       ],
@@ -155,5 +158,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-01"
+  "last_updated": "2026-09-03"
 }

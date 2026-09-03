@@ -25,10 +25,10 @@
       "confidence": 0.97,
       "supporting_claims": [
         "clm_b3a424eb0c",
-        "clm_183f1296b5",
         "clm_fb260a2919",
-        "clm_0424231d23",
         "clm_044d1b18b8",
+        "clm_183f1296b5",
+        "clm_0424231d23",
         "clm_ae728f29c3"
       ],
       "contradiction": false,
@@ -44,7 +44,7 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 33150064163.98,
+      "value": 33278514349.04,
       "unit": "USD",
       "range": {
         "low": 20000000000.0,
@@ -55,6 +55,7 @@
       "confidence": 0.97,
       "supporting_claims": [
         "clm_9e78645bae",
+        "clm_df9dd3a2a7",
         "clm_7be716e5b8",
         "clm_66706febd6",
         "clm_85f223da3c",
@@ -63,41 +64,21 @@
         "clm_12c7436640",
         "clm_4841726055",
         "clm_4ffc037f6b",
+        "clm_ac6fd5f4fc",
+        "clm_09ef38246a",
+        "clm_4bfba58275",
         "clm_8e436b4a23",
         "clm_f61325f567",
-        "clm_ac6fd5f4fc",
         "clm_11f18bfd54",
         "clm_8a4c2dc727"
       ],
       "contradiction": true,
       "delta": {
         "previous": 33150064163.98,
-        "change_pct": -0.0,
+        "change_pct": 0.4,
         "since": "2026-08-07"
       },
       "history_ref": "history/moonshot/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "arr": {
-      "metric": "arr",
-      "value": 300000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-06-29",
-      "estimate_type": "reported",
-      "confidence": 0.308,
-      "supporting_claims": [
-        "clm_a61484dfed"
-      ],
-      "contradiction": true,
-      "delta": {
-        "previous": 300000000.0,
-        "change_pct": 0.0,
-        "since": "2026-06-29"
-      },
-      "history_ref": "history/moonshot/arr.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -112,10 +93,12 @@
       },
       "as_of": "2026-07-29",
       "estimate_type": "consensus",
-      "confidence": 0.751,
+      "confidence": 0.937,
       "supporting_claims": [
-        "clm_da056e95ee",
-        "clm_182894d9c5"
+        "clm_182894d9c5",
+        "clm_e33f8bc73a",
+        "clm_b74a9756f0",
+        "clm_da056e95ee"
       ],
       "contradiction": false,
       "delta": {
@@ -136,11 +119,12 @@
         "low": 2000000000.0,
         "high": 3500000000.0
       },
-      "as_of": "2026-05-08",
+      "as_of": "2026-06-08",
       "estimate_type": "consensus",
-      "confidence": 0.618,
+      "confidence": 0.726,
       "supporting_claims": [
         "clm_49ee0b4bb3",
+        "clm_4ca88df3ac",
         "clm_567e3e4c30"
       ],
       "contradiction": false,
@@ -154,21 +138,43 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "arr": {
+      "metric": "arr",
+      "value": 300000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-06-29",
+      "estimate_type": "reported",
+      "confidence": 0.303,
+      "supporting_claims": [
+        "clm_a61484dfed"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 300000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-29"
+      },
+      "history_ref": "history/moonshot/arr.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 100.0,
+      "value": 175.0,
       "unit": "x",
       "range": null,
-      "as_of": "2026-05-07",
+      "as_of": "2026-07-29",
       "estimate_type": "reported",
-      "confidence": 0.096,
+      "confidence": 0.188,
       "supporting_claims": [
-        "drv_667f60eb9a"
+        "drv_a34a30f59b"
       ],
       "contradiction": false,
       "delta": {
         "previous": 100.0,
-        "change_pct": 0.0,
+        "change_pct": 75.0,
         "since": "2026-05-07"
       },
       "history_ref": "history/moonshot/revenue_multiple.jsonl",
@@ -177,5 +183,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-01"
+  "last_updated": "2026-09-03"
 }

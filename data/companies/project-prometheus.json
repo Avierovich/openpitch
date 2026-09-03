@@ -22,17 +22,17 @@
       },
       "as_of": "2026-04-21",
       "estimate_type": "consensus",
-      "confidence": 0.774,
+      "confidence": 0.773,
       "supporting_claims": [
         "clm_baac1e6419",
-        "clm_ec9486d32c",
         "clm_ace6101b80",
+        "clm_ec9486d32c",
         "clm_dbf86b40b1"
       ],
       "contradiction": false,
       "delta": {
         "previous": 10000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-04-21"
       },
       "history_ref": "history/project-prometheus/total_funding.jsonl",
@@ -42,37 +42,65 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 38525010543.67,
+      "value": 38538305837.75,
       "unit": "USD",
       "range": {
         "low": 38000000000.0,
         "high": 41000000000.0
       },
-      "as_of": "2026-06-11",
+      "as_of": "2026-06-12",
       "estimate_type": "consensus",
-      "confidence": 0.942,
+      "confidence": 0.97,
       "supporting_claims": [
         "clm_6c7333dd3f",
+        "clm_b3b2eb81c5",
+        "clm_0ce9b75cc5",
+        "clm_2fc818701c",
+        "clm_cfe6796b5b",
+        "clm_c290864eef",
+        "clm_f4829a142b",
         "clm_e93a4a5434",
         "clm_0db447274f",
         "clm_d588914c73",
-        "clm_b3b2eb81c5",
         "clm_f14f514ddc",
         "clm_b2bd6ad025",
         "clm_bf5e5f4930",
+        "clm_fa4956ab8b",
         "clm_9fe9666a15"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 38577766050.19,
-        "change_pct": -0.1,
+        "previous": 38525010543.67,
+        "change_pct": 0.0,
         "since": "2026-06-11"
       },
       "history_ref": "history/project-prometheus/valuation.jsonl",
       "unconfirmed": true,
       "confirmed_value": 41000000000.0,
       "confirmed_as_of": "2026-06-11"
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 10000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-04-24",
+      "estimate_type": "consensus",
+      "confidence": 0.563,
+      "supporting_claims": [
+        "clm_d16d4957eb",
+        "clm_7de07e1912",
+        "clm_27eaa3016a",
+        "clm_714de21e2e",
+        "clm_78598bb8bb"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/project-prometheus/round_amount.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-01"
+  "last_updated": "2026-09-03"
 }

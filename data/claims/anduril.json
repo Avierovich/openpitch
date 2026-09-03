@@ -1,32 +1,5 @@
 [
   {
-    "id": "clm_6966bb7b74",
-    "company_id": "anduril",
-    "metric": "valuation",
-    "value": 100000000000.0,
-    "unit": "USD",
-    "raw_text": "$100B valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdmZ5R1dwZEVtU0dtblNNZDRRM1JfMElXZEVFcXJxSWkycjBjM2dCSUV2eDhaT2gyOWtSMU1WQmNHbE5JSTRmSU9mcG5odWdMUm1rTDFFbjF5RnJQZW5QZEtITXdvVlBzdnBRRXNQQVNtT0ZtcFgtSDlhSmpUTTdhcU1zQWlsa1lzdkEwUld3ZUJxMWpZczg0eXZJTXdUN2tvN2lWR0RrNDhsTWpVeldaOENqQU1QRzcxRzZqdnphd3dtWTB2?oc=5",
-      "locator": null,
-      "published_at": "2026-07-24"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2835,
-    "derivation": null
-  },
-  {
     "id": "clm_f5aedcded5",
     "company_id": "anduril",
     "metric": "valuation",
@@ -52,6 +25,131 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.241,
+    "derivation": null
+  },
+  {
+    "id": "clm_f5aedcded5",
+    "company_id": "anduril",
+    "metric": "valuation",
+    "value": 100000000000.0,
+    "unit": "USD",
+    "raw_text": "Anduril reportedly in talks to raise funding at $100B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPN1I4Yld6S2hLLWQ2VWJTOGpZYUd2OTQtTWRNNXR3T3didXBmbTdodkNyYXF2WTlmMlVIV3FHMWQ0LTR4MFJLajdoRGFVNElmYWJZMy1PVVJ6ZE5RWS13MUlGQlhpY09iOEd0TXZZZEZESFpYN24taHNKbERzMjRhSHFrYVV6bElIY2tUblRKN2NJUC1oSER0V0Z0bTFCYV91?oc=5",
+      "locator": null,
+      "published_at": "2026-07-24"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_5947c7f468",
+    "company_id": "anduril",
+    "metric": "valuation",
+    "value": 61000000000.0,
+    "unit": "USD",
+    "raw_text": "Anduril doubles valuation to $61B in new $5B funding round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWHRNQ0I1MEhvdTdWNk04Qlo0bU1aWGtPUU9WUWhlVll3MF9Gb05aWm1yM08xbDhSV3VyeExmdU5jTWgyT1VQbThueU80Tm9UZDFyLTF3R2I5bGg1Q3ZXS0dZbi1wbUhaM3pBU1VNd1hRMDJiZDQzS1B4Um1pd2FIMXNtbVNub2U2ekhJclRjVEs?oc=5",
+      "locator": null,
+      "published_at": "2026-05-13"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_c5acda90f7",
+    "company_id": "anduril",
+    "metric": "round_amount",
+    "value": 5000000000.0,
+    "unit": "USD",
+    "raw_text": "new $5B funding round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWHRNQ0I1MEhvdTdWNk04Qlo0bU1aWGtPUU9WUWhlVll3MF9Gb05aWm1yM08xbDhSV3VyeExmdU5jTWgyT1VQbThueU80Tm9UZDFyLTF3R2I5bGg1Q3ZXS0dZbi1wbUhaM3pBU1VNd1hRMDJiZDQzS1B4Um1pd2FIMXNtbVNub2U2ekhJclRjVEs?oc=5",
+      "locator": null,
+      "published_at": "2026-05-13"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_7fddcf8a67",
+    "company_id": "anduril",
+    "metric": "valuation",
+    "value": 61000000000.0,
+    "unit": "USD",
+    "raw_text": "Anduril’s valuation rises to $61 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Table.Briefings",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNLVYzTmdRRjZqQUdJbDRxYjlEZ01NbVBWeHh4RVVwbXNkV28wRVRycjB3M0F4RFVXWjZZQWJLaUR2Q3UyOU44U2FNUU9KcFdNa2p0TGhLaElrLWFUODhQR2JOUFV0TE1GTF9FM2d5eGg1c0txOHo4VjZFdjlDcHBLcTliZ2dMeW1KLXNFcWVRdVBkTm9Wdm9CbVZxdGJ4cU5UZFlRdUtZT1VPanBNVzZ5V1B0bVRWQzVESmVpNzRB?oc=5",
+      "locator": null,
+      "published_at": "2026-05-15"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_6966bb7b74",
+    "company_id": "anduril",
+    "metric": "valuation",
+    "value": 100000000000.0,
+    "unit": "USD",
+    "raw_text": "$100B valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdmZ5R1dwZEVtU0dtblNNZDRRM1JfMElXZEVFcXJxSWkycjBjM2dCSUV2eDhaT2gyOWtSMU1WQmNHbE5JSTRmSU9mcG5odWdMUm1rTDFFbjF5RnJQZW5QZEtITXdvVlBzdnBRRXNQQVNtT0ZtcFgtSDlhSmpUTTdhcU1zQWlsa1lzdkEwUld3ZUJxMWpZczg0eXZJTXdUN2tvN2lWR0RrNDhsTWpVeldaOENqQU1QRzcxRzZqdnphd3dtWTB2?oc=5",
+      "locator": null,
+      "published_at": "2026-07-24"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2835,
     "derivation": null
   },
   {

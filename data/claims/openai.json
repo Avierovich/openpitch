@@ -1,5 +1,236 @@
 [
   {
+    "id": "clm_2f8e926ce6",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "$40bn Revenue Run Rate",
+    "qualifiers": [
+      "run_rate",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tekedia",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYmhJdlJSMHVaQ3FuMnB1ZXBUaXRiaThycEFHYW9GRkEtTEZrczFsbk1aVGtyeWRicHRzZmZoVGhjZ1BodDVRZWpsb3RkelVLSVFLeGdxM1BjTmRWclh4TzR3SkVoeWxYbGJLQ0p6QmpvS2xBX3FDUXgyOW1RN0ZEalVUOGZUM2VzNmNTUEYwT0Vhc1RjQzliN3dGUC1hdGNWWjRnVmlrMjByN0cwZWZhYkgwNzBabXlBcFVBSHdMV2NVXzJ2a3h6YUdXZUU?oc=5",
+      "locator": null,
+      "published_at": "2026-08-20"
+    },
+    "extracted_at": "2026-08-21T05:50:03.226228",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_94b4e77d59",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 852000000000.0,
+    "unit": "USD",
+    "raw_text": "$852bn Valuation",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tekedia",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYmhJdlJSMHVaQ3FuMnB1ZXBUaXRiaThycEFHYW9GRkEtTEZrczFsbk1aVGtyeWRicHRzZmZoVGhjZ1BodDVRZWpsb3RkelVLSVFLeGdxM1BjTmRWclh4TzR3SkVoeWxYbGJLQ0p6QmpvS2xBX3FDUXgyOW1RN0ZEalVUOGZUM2VzNmNTUEYwT0Vhc1RjQzliN3dGUC1hdGNWWjRnVmlrMjByN0cwZWZhYkgwNzBabXlBcFVBSHdMV2NVXzJ2a3h6YUdXZUU?oc=5",
+      "locator": null,
+      "published_at": "2026-08-20"
+    },
+    "extracted_at": "2026-08-21T05:50:03.226228",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_d8a06f055f",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 157000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI Hits $157B 'Post-Money' Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Law360",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaG9RSkNlN3pjc1JWS25NZm1IaklMVXdvdWNfYmRnQlh2MDRwd0xNOHk1RVdmdFRuU2xha2VNdUJLWG5EaWxRY3ZBWUV3ZnVtSTBrZzFMOHhWVEJja3p3bUhjejNvWldta2RuVWhrdC1kYzNaZWxvX3FOb1o0ektGVXB3TDBJa0k1Z2FiT0c3U01ONDI0UjQwcW5aS3bSAVZBVV95cUxPNnJucFNTeHNhQ1hXVy1IS3F0TlJUQS1DREVSOWhfNHNONWdSMkxVck4yNG96a0JFTkp0a0lnMEJrM1hHdy0yajc3NldKRDJ0ZjJVRTRPQQ?oc=5",
+      "locator": null,
+      "published_at": "2024-10-03"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_f08eca4bba",
+    "company_id": "openai",
+    "metric": "total_funding",
+    "value": 6600000000.0,
+    "unit": "USD",
+    "raw_text": "$6.6B Funding",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Law360",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaG9RSkNlN3pjc1JWS25NZm1IaklMVXdvdWNfYmRnQlh2MDRwd0xNOHk1RVdmdFRuU2xha2VNdUJLWG5EaWxRY3ZBWUV3ZnVtSTBrZzFMOHhWVEJja3p3bUhjejNvWldta2RuVWhrdC1kYzNaZWxvX3FOb1o0ektGVXB3TDBJa0k1Z2FiT0c3U01ONDI0UjQwcW5aS3bSAVZBVV95cUxPNnJucFNTeHNhQ1hXVy1IS3F0TlJUQS1DREVSOWhfNHNONWdSMkxVck4yNG96a0JFTkp0a0lnMEJrM1hHdy0yajc3NldKRDJ0ZjJVRTRPQQ?oc=5",
+      "locator": null,
+      "published_at": "2024-10-03"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_0a26ed6043",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "hits $1 billion annualized revenue run rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE84TTNSWnpWUm4yMnJ5Wkk5aHg1clFxY1A1OHkxcVRiZ25SY01oWk1rN1QtMlVFQ2NpTWZMejVzS2dfaldqcEFiSEhIVUhESHJUZnNZQXRRaUZzUFBWenZVRlFrcnQzV0JwTE94Mm1KckIyQdIBd0FVX3lxTE5QU1lUNWNXX0FrZFFxSnVycUZMSjFVM1pkbWJQMmloVk5PRVE0bWp5a3BzSm1HaVJ1ZFV3MlNBU3pKaFl4WE9DZUhWLWVBTkZvTUlPVU80SXBEWk4wUHFZQmVUanpXTHpfMU80bWtXdHJUMTVJQVBN?oc=5",
+      "locator": null,
+      "published_at": "2026-08-31"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3375,
+    "derivation": null
+  },
+  {
+    "id": "clm_63a2c3d039",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "hits a $1 billion run rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "The AI Daily Brief",
+      "url": "https://podcasters.spotify.com/pod/show/nlw/episodes/OpenClaw-2-0-Shows-Where-AI-Agents-Are-Going-Next-e3o74t6",
+      "locator": null,
+      "published_at": "2026-09-01"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.27,
+    "derivation": null
+  },
+  {
+    "id": "clm_e28c12bdb7",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "hits $1 billion annualized revenue run rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPM0hKQjN1ekFIRWlQcEVJazFubmJLMXlnTHZ6T1drTTFQcldkUTJsV0FMVXJMX2YwYThaaXQxYnNiTGhYQTlIcF9VdWZrd1lSWXExdkZGU1I3NXZ2ZVNPUk5ySHd3d0VJUTNieDA5S0NwY0l0eG84NVdGelkzT2tqNjd3RE1EdHpSWlNuU1RlSUJmZW1HNVU3M3FYTU9zSm1uS1B5OExKUkxZY2k5OURHdFczblVhQm9pd0NjZnVR?oc=5",
+      "locator": null,
+      "published_at": "2026-08-31"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3375,
+    "derivation": null
+  },
+  {
+    "id": "clm_116b326b03",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "hit $1B in annualized revenue",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaWoyVmlnSW9iYW1vMjFIZk1hdW52aXBORlU4S3M5a3UxZmdoNUFmZVFuMVdld2xHOGo2NFZqMjhISVZuSDJtcmQ2U180WlJtMG04Wkh4V0VMbDF3dkpzdmh5NVpmZEhWSTI0bThXWlM2OTBiVDFSSk5kU2dSMHRVOGc3cm8yUkVWUlhnUXgxN3AwM1VWcE1KaWZqRXlRekRncTFDOThmaFQ?oc=5",
+      "locator": null,
+      "published_at": "2026-08-31"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3375,
+    "derivation": null
+  },
+  {
+    "id": "clm_5ee1e45ed3",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "Hits $1 Billion in Annualized Revenue Run Rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeUNBaW1GY2lfNllwMnhqeXFLUnZKVDNSN0t5RXk0UTR5WlNuc3phU0hOcmkzY0EyZGEwSzVOaHNuajRfMWJVOWhjMHpiNWVzUFdzREtxSTJVNENVTFlETjVod1ZMSjFhTTljQXpWc2FLbS1GU3FVX09TTDFVT29NQlJpU2h4SkU5YS1WUk5lZFl3ekhiYkxsdlVHSUVvSHVFOGc?oc=5",
+      "locator": null,
+      "published_at": "2026-08-31"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3375,
+    "derivation": null
+  },
+  {
     "id": "clm_926dee2cd7",
     "company_id": "openai",
     "metric": "arr",
@@ -193,59 +424,6 @@
     "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_2f8e926ce6",
-    "company_id": "openai",
-    "metric": "arr",
-    "value": 40000000000.0,
-    "unit": "USD",
-    "raw_text": "$40bn Revenue Run Rate",
-    "qualifiers": [
-      "run_rate",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "exec"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tekedia",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYmhJdlJSMHVaQ3FuMnB1ZXBUaXRiaThycEFHYW9GRkEtTEZrczFsbk1aVGtyeWRicHRzZmZoVGhjZ1BodDVRZWpsb3RkelVLSVFLeGdxM1BjTmRWclh4TzR3SkVoeWxYbGJLQ0p6QmpvS2xBX3FDUXgyOW1RN0ZEalVUOGZUM2VzNmNTUEYwT0Vhc1RjQzliN3dGUC1hdGNWWjRnVmlrMjByN0cwZWZhYkgwNzBabXlBcFVBSHdMV2NVXzJ2a3h6YUdXZUU?oc=5",
-      "locator": null,
-      "published_at": "2026-08-20"
-    },
-    "extracted_at": "2026-08-21T05:50:03.226228",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_94b4e77d59",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 852000000000.0,
-    "unit": "USD",
-    "raw_text": "$852bn Valuation",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "exec"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tekedia",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYmhJdlJSMHVaQ3FuMnB1ZXBUaXRiaThycEFHYW9GRkEtTEZrczFsbk1aVGtyeWRicHRzZmZoVGhjZ1BodDVRZWpsb3RkelVLSVFLeGdxM1BjTmRWclh4TzR3SkVoeWxYbGJLQ0p6QmpvS2xBX3FDUXgyOW1RN0ZEalVUOGZUM2VzNmNTUEYwT0Vhc1RjQzliN3dGUC1hdGNWWjRnVmlrMjByN0cwZWZhYkgwNzBabXlBcFVBSHdMV2NVXzJ2a3h6YUdXZUU?oc=5",
-      "locator": null,
-      "published_at": "2026-08-20"
-    },
-    "extracted_at": "2026-08-21T05:50:03.226228",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -743,7 +921,7 @@
       "locator": null,
       "published_at": "2026-08-20"
     },
-    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "derive-engine",
     "base_confidence": 0.4658,
     "derivation": {

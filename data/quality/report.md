@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-09-02
+# OpenPitch Data Quality Report - 2026-09-03
 
 ## Summary
 
-- Profiles generated: 288
-- Watchlist candidates: 828
+- Profiles generated: 294
+- Watchlist candidates: 857
 - Top-50 cards: 50
-- Profiles with at least one metric: 279
-- Critical issues: 56
-- Warnings: 35
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 537
+- Profiles with at least one metric: 285
+- Critical issues: 60
+- Warnings: 32
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 560
 
 ## Top-50 Companies With No Metrics
 
@@ -47,6 +47,8 @@ None.
 - Bland AI
 - Foodics
 - AI71
+- AIR Security
+- Aera Therapeutics
 - Aidoc
 - Aisera
 - Ambience Healthcare
@@ -67,9 +69,11 @@ None.
 - Callosum
 - Capella Space
 - Captions
+- CareBridge
 - Cartesia
 - Character.AI
 - Chemify
+- Clari
 - Climavision
 - Coder
 - Cognigy
@@ -94,7 +98,6 @@ None.
 
 - xAI: total_funding
 - Databricks: round_amount
-- Figure AI: total_funding
 - Figure AI: headcount
 - Safe Superintelligence: headcount
 - Scale AI: headcount
@@ -102,22 +105,20 @@ None.
 - Fireworks AI: total_funding
 - Fireworks AI: headcount
 - Sierra: arr
-- Applied Intuition: headcount
 - Lovable: headcount
 - Celonis: arr
 - Celonis: headcount
+- Baseten: arr
 - Checkout.com: total_funding
 - Poolside: arr
-- Poolside: total_funding
 - Cyera: headcount
 - OpenEvidence: total_funding
-- Baseten: arr
 - ElevenLabs: arr
 - ElevenLabs: headcount
 - Airwallex: total_funding
 - Physical Intelligence: total_funding
 - Replit: total_funding
-- Wayve: round_amount
+- Chainalysis: total_funding
 - Together AI: arr
 - Biren Technology: total_funding
 

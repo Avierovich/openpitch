@@ -9,51 +9,53 @@
   "summary": "Mercor is a company that uses AI to help with data annotation and labeling for various applications.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 83.4,
-  "universe_rank": 44,
+  "vc_attention_score": 85.9,
+  "universe_rank": 23,
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 10000000000.0,
+      "value": 20000000000.0,
       "unit": "USD",
       "range": {
         "low": 10000000000.0,
         "high": 20000000000.0
       },
-      "as_of": "2026-07-25",
+      "as_of": "2026-08-27",
       "estimate_type": "consensus",
-      "confidence": 0.825,
+      "confidence": 0.854,
       "supporting_claims": [
-        "clm_40aca5439c",
-        "clm_0051c9db8a",
-        "clm_217155eb33",
-        "clm_95d889f621"
+        "clm_7ff93371f6",
+        "clm_c74eb17484",
+        "clm_0fbf02cca5",
+        "clm_2b1ca172e7",
+        "clm_44cf949b56",
+        "clm_96fd068bf2",
+        "clm_bccd2712cd",
+        "clm_837400b9c5"
       ],
       "contradiction": true,
       "delta": {
         "previous": 10000000000.0,
-        "change_pct": 0.0,
+        "change_pct": 100.0,
         "since": "2026-07-25"
       },
       "history_ref": "history/mercor/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
+      "unconfirmed": true,
+      "confirmed_value": 10000000000.0,
+      "confirmed_as_of": "2026-07-25"
     },
     "latest_round": {
       "metric": "latest_round",
       "value": 3.0,
       "unit": "object",
-      "range": {
-        "low": 3.0,
-        "high": 3.0
-      },
+      "range": null,
       "as_of": "2026-07-25",
       "estimate_type": "consensus",
-      "confidence": 0.747,
+      "confidence": 0.709,
       "supporting_claims": [
         "clm_c3657789fe",
-        "clm_3da23f4b07"
+        "clm_3da23f4b07",
+        "clm_37e1d95fde"
       ],
       "contradiction": false,
       "delta": {
@@ -73,9 +75,10 @@
       "range": null,
       "as_of": "2026-07-25",
       "estimate_type": "consensus",
-      "confidence": 0.644,
+      "confidence": 0.699,
       "supporting_claims": [
         "clm_74ed32197e",
+        "clm_cb01f75c9f",
         "clm_5cff99b176"
       ],
       "contradiction": false,
@@ -96,7 +99,7 @@
       "range": null,
       "as_of": "2026-07-25",
       "estimate_type": "reported",
-      "confidence": 0.437,
+      "confidence": 0.43,
       "supporting_claims": [
         "clm_e47d35c808"
       ],
@@ -118,7 +121,7 @@
       "range": null,
       "as_of": "2026-07-25",
       "estimate_type": "reported",
-      "confidence": 0.241,
+      "confidence": 0.237,
       "supporting_claims": [
         "drv_cd507bff2e"
       ],
@@ -134,5 +137,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-01"
+  "last_updated": "2026-09-03"
 }

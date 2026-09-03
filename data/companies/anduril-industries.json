@@ -22,8 +22,11 @@
       },
       "as_of": "2026-05-14",
       "estimate_type": "consensus",
-      "confidence": 0.769,
+      "confidence": 0.946,
       "supporting_claims": [
+        "clm_cd86f727ab",
+        "clm_e4f5b93406",
+        "clm_7b516d38cf",
         "clm_d3099ab43c",
         "clm_44dc46b5ee",
         "clm_71cd2b1b65"
@@ -31,10 +34,65 @@
       "contradiction": true,
       "delta": {
         "previous": 61000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-05-14"
       },
       "history_ref": "history/anduril-industries/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 5000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 5000000000.0,
+        "high": 5000000000.0
+      },
+      "as_of": "2026-05-14",
+      "estimate_type": "consensus",
+      "confidence": 0.908,
+      "supporting_claims": [
+        "clm_a9bff12c77",
+        "clm_3301f13c8e",
+        "clm_1eeef0fdba",
+        "clm_2cf2e81a12"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 5000000000.0,
+        "change_pct": -0.0,
+        "since": "2026-05-13"
+      },
+      "history_ref": "history/anduril-industries/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 8.0,
+      "unit": "object",
+      "range": {
+        "low": 8.0,
+        "high": 5000000000.0
+      },
+      "as_of": "2026-05-21",
+      "estimate_type": "consensus",
+      "confidence": 0.771,
+      "supporting_claims": [
+        "clm_5bd3f5f14f",
+        "clm_b760717069",
+        "clm_ef6e15cd2a"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 8.0,
+        "change_pct": 0.0,
+        "since": "2026-05-14"
+      },
+      "history_ref": "history/anduril-industries/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -49,7 +107,7 @@
       },
       "as_of": "2026-05-14",
       "estimate_type": "consensus",
-      "confidence": 0.624,
+      "confidence": 0.623,
       "supporting_claims": [
         "clm_ef7833d1b2",
         "clm_2bf7810011"
@@ -57,61 +115,14 @@
       "contradiction": false,
       "delta": {
         "previous": 5000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-05-14"
       },
       "history_ref": "history/anduril-industries/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "latest_round": {
-      "metric": "latest_round",
-      "value": 8.0,
-      "unit": "object",
-      "range": {
-        "low": 8.0,
-        "high": 5000000000.0
-      },
-      "as_of": "2026-05-14",
-      "estimate_type": "reported",
-      "confidence": 0.387,
-      "supporting_claims": [
-        "clm_ef6e15cd2a"
-      ],
-      "contradiction": true,
-      "delta": {
-        "previous": 8.0,
-        "change_pct": 0.0,
-        "since": "2026-05-14"
-      },
-      "history_ref": "history/anduril-industries/latest_round.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 5000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-05-13",
-      "estimate_type": "reported",
-      "confidence": 0.45,
-      "supporting_claims": [
-        "clm_2cf2e81a12"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 5000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-05-13"
-      },
-      "history_ref": "history/anduril-industries/total_funding.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-02"
+  "last_updated": "2026-09-03"
 }

@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 84.4,
-  "universe_rank": 31,
+  "universe_rank": 32,
   "metrics": {
     "total_funding": {
       "metric": "total_funding",
@@ -25,9 +25,9 @@
       "confidence": 0.97,
       "supporting_claims": [
         "clm_b063360724",
-        "clm_13b3281ef4",
         "clm_f8f6a06719",
         "clm_239b276a33",
+        "clm_13b3281ef4",
         "clm_a58eb1de89",
         "clm_244dededf7",
         "clm_d8bed84e1e",
@@ -40,7 +40,7 @@
       "contradiction": false,
       "delta": {
         "previous": 400000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-08-18"
       },
       "history_ref": "history/lovable/total_funding.jsonl",
@@ -50,7 +50,7 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 13205822738.93,
+      "value": 13220742722.03,
       "unit": "USD",
       "range": {
         "low": 12000000000.0,
@@ -63,14 +63,19 @@
         "clm_bee4e74405",
         "clm_1480ebe5e9",
         "clm_408c632421",
-        "clm_841ecb7b2c",
         "clm_b1024af8de",
         "clm_b18ed3796f",
+        "clm_b4b9a49db2",
+        "clm_bc845fd9c0",
+        "clm_e5e501f780",
+        "clm_53b046e2b9",
+        "clm_048b462bfc",
+        "clm_17687f4f81",
+        "clm_841ecb7b2c",
         "clm_b1349748be",
         "clm_1e2dcde037",
         "clm_320282ca30",
         "clm_5e3c945f03",
-        "clm_b4b9a49db2",
         "clm_26e6c1032f",
         "clm_1f30ded7a9",
         "clm_1bed1ffeaa",
@@ -86,8 +91,8 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 13238109520.16,
-        "change_pct": -0.2,
+        "previous": 13205822738.93,
+        "change_pct": 0.1,
         "since": "2026-08-18"
       },
       "history_ref": "history/lovable/valuation.jsonl",
@@ -105,7 +110,7 @@
       },
       "as_of": "2026-08-12",
       "estimate_type": "consensus",
-      "confidence": 0.72,
+      "confidence": 0.712,
       "supporting_claims": [
         "clm_6d7179c122",
         "clm_a57c1bd117",
@@ -134,9 +139,13 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
+        "clm_4bc2ac8c81",
+        "clm_20063a5cde",
+        "clm_4e46a6db0c",
+        "clm_00bc6bd6ca",
+        "clm_46e9c24f4e",
         "clm_f1a5617fa7",
         "clm_b82f2b5892",
-        "clm_4bc2ac8c81",
         "clm_1061da8ee1",
         "clm_99792263c3",
         "clm_e404856477",
@@ -146,7 +155,7 @@
       "contradiction": false,
       "delta": {
         "previous": 400000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-08-12"
       },
       "history_ref": "history/lovable/round_amount.jsonl",
@@ -164,7 +173,7 @@
       },
       "as_of": "2026-08-17",
       "estimate_type": "consensus",
-      "confidence": 0.875,
+      "confidence": 0.873,
       "supporting_claims": [
         "clm_2d2fd7bd74",
         "clm_dfd9b94ae9",
@@ -173,7 +182,7 @@
       "contradiction": true,
       "delta": {
         "previous": 400000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-08-17"
       },
       "history_ref": "history/lovable/latest_round.jsonl",
@@ -188,7 +197,7 @@
       "range": null,
       "as_of": "2026-06-13",
       "estimate_type": "reported",
-      "confidence": 0.337,
+      "confidence": 0.333,
       "supporting_claims": [
         "clm_5d2e19603f"
       ],
@@ -210,14 +219,14 @@
       "range": null,
       "as_of": "2026-08-13",
       "estimate_type": "reported",
-      "confidence": 0.216,
+      "confidence": 0.213,
       "supporting_claims": [
         "drv_0cf98696be"
       ],
       "contradiction": false,
       "delta": {
         "previous": 26.6,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-08-12"
       },
       "history_ref": "history/lovable/revenue_multiple.jsonl",
@@ -226,5 +235,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-01"
+  "last_updated": "2026-09-03"
 }

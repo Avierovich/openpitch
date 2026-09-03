@@ -10,32 +10,8 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 84.6,
-  "universe_rank": 29,
+  "universe_rank": 30,
   "metrics": {
-    "valuation": {
-      "metric": "valuation",
-      "value": 14000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-01-20",
-      "estimate_type": "consensus",
-      "confidence": 0.087,
-      "supporting_claims": [
-        "clm_d5139b88e6",
-        "clm_728fbacb0a",
-        "clm_dd03672cf0"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 14000000000.0,
-        "change_pct": -0.0,
-        "since": "2025-01-20"
-      },
-      "history_ref": "history/bright-health/valuation.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "latest_round": {
       "metric": "latest_round",
       "value": 924000000.0,
@@ -85,26 +61,53 @@
     },
     "total_funding": {
       "metric": "total_funding",
-      "value": 175000000.0,
+      "value": 750000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2022-10-21",
-      "estimate_type": "reported",
-      "confidence": 0.076,
+      "as_of": "2021-12-08",
+      "estimate_type": "consensus",
+      "confidence": 0.158,
       "supporting_claims": [
-        "clm_9064993efb"
+        "clm_0ec9118e0e",
+        "clm_6e0f332016",
+        "clm_6bff285d68",
+        "clm_3c1b356fab"
       ],
       "contradiction": false,
       "delta": {
         "previous": 175000000.0,
-        "change_pct": 0.0,
+        "change_pct": 328.6,
         "since": "2022-10-21"
       },
       "history_ref": "history/bright-health/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "valuation": {
+      "metric": "valuation",
+      "value": 14000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-01-20",
+      "estimate_type": "consensus",
+      "confidence": 0.087,
+      "supporting_claims": [
+        "clm_d5139b88e6",
+        "clm_728fbacb0a",
+        "clm_dd03672cf0"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 14000000000.0,
+        "change_pct": 0.0,
+        "since": "2025-01-20"
+      },
+      "history_ref": "history/bright-health/valuation.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-01"
+  "last_updated": "2026-09-03"
 }

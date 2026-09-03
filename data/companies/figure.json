@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2025-09-16",
       "estimate_type": "consensus",
-      "confidence": 0.468,
+      "confidence": 0.466,
       "supporting_claims": [
         "clm_bd4cd2e26e",
         "clm_c87d1c4931",
@@ -34,6 +34,28 @@
         "since": "2025-09-16"
       },
       "history_ref": "history/figure/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 1000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-09-16",
+      "estimate_type": "reported",
+      "confidence": 0.324,
+      "supporting_claims": [
+        "clm_7e98f0f671"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
+        "since": "2025-09-16"
+      },
+      "history_ref": "history/figure/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -60,28 +82,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 1000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-09-16",
-      "estimate_type": "reported",
-      "confidence": 0.325,
-      "supporting_claims": [
-        "clm_7e98f0f671"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1000000000.0,
-        "change_pct": 0.0,
-        "since": "2025-09-16"
-      },
-      "history_ref": "history/figure/total_funding.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "round_amount": {
       "metric": "round_amount",
       "value": 700000000.0,
@@ -89,7 +89,7 @@
       "range": null,
       "as_of": "2026-05-21",
       "estimate_type": "reported",
-      "confidence": 0.283,
+      "confidence": 0.281,
       "supporting_claims": [
         "clm_44a717b09a"
       ],
@@ -118,7 +118,7 @@
       "contradiction": false,
       "delta": {
         "previous": 1500000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2025-02-16"
       },
       "history_ref": "history/figure/latest_round.jsonl",
@@ -127,5 +127,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-01"
+  "last_updated": "2026-09-03"
 }

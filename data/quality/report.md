@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-09-03
+# OpenPitch Data Quality Report - 2026-09-04
 
 ## Summary
 
-- Profiles generated: 294
-- Watchlist candidates: 857
+- Profiles generated: 298
+- Watchlist candidates: 881
 - Top-50 cards: 50
-- Profiles with at least one metric: 285
+- Profiles with at least one metric: 289
 - Critical issues: 60
-- Warnings: 32
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 560
+- Warnings: 29
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 580
 
 ## Top-50 Companies With No Metrics
 
@@ -112,13 +112,10 @@ None.
 - Checkout.com: total_funding
 - Poolside: arr
 - Cyera: headcount
-- OpenEvidence: total_funding
 - ElevenLabs: arr
 - ElevenLabs: headcount
 - Airwallex: total_funding
-- Physical Intelligence: total_funding
 - Replit: total_funding
-- Chainalysis: total_funding
 - Together AI: arr
 - Biren Technology: total_funding
 

@@ -27,30 +27,6 @@
     "derivation": null
   },
   {
-    "id": "clm_abdd22d911",
-    "company_id": "celonis",
-    "metric": "valuation",
-    "value": 13000000000.0,
-    "unit": "USD",
-    "raw_text": "Celonis valued at $13 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Business Journals",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMmRIZy1PZXUtQ3pPeHpqSW4zNG9icnh3WHhqeUpvMFI3STd6OGpUenY5MjY3M3hEN2lKMXkyc1c4UkhNNUdOV3VKSjNRZ2ItUzRpVWdvV1N3eDhPdzg4TjdYU2VZYzQ5VFNMQ3oyVXZmMHFNdlc5S2dCNXFjbzVvTy1fVVlwU09FTzJxR3dsUmJ6N3dHODR1ZjJGODBNUE93dmJOaQ?oc=5",
-      "locator": null,
-      "published_at": "2022-08-29"
-    },
-    "extracted_at": "2026-08-23T05:59:54.335804",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_4a9d9165ee",
     "company_id": "celonis",
     "metric": "arr",
@@ -122,6 +98,54 @@
     },
     "extracted_at": "2026-08-27T17:02:21.670041",
     "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_c4c9b3614e",
+    "company_id": "celonis",
+    "metric": "valuation",
+    "value": 13000000000.0,
+    "unit": "USD",
+    "raw_text": "Celonis valued at $13 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "bizjournals.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMmRIZy1PZXUtQ3pPeHpqSW4zNG9icnh3WHhqeUpvMFI3STd6OGpUenY5MjY3M3hEN2lKMXkyc1c4UkhNNUdOV3VKSjNRZ2ItUzRpVWdvV1N3eDhPdzg4TjdYU2VZYzQ5VFNMQ3oyVXZmMHFNdlc5S2dCNXFjbzVvTy1fVVlwU09FTzJxR3dsUmJ6N3dHODR1ZjJGODBNUE93dmJOaQ?oc=5",
+      "locator": null,
+      "published_at": "2022-08-29"
+    },
+    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_abdd22d911",
+    "company_id": "celonis",
+    "metric": "valuation",
+    "value": 13000000000.0,
+    "unit": "USD",
+    "raw_text": "Celonis valued at $13 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Business Journals",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMmRIZy1PZXUtQ3pPeHpqSW4zNG9icnh3WHhqeUpvMFI3STd6OGpUenY5MjY3M3hEN2lKMXkyc1c4UkhNNUdOV3VKSjNRZ2ItUzRpVWdvV1N3eDhPdzg4TjdYU2VZYzQ5VFNMQ3oyVXZmMHFNdlc5S2dCNXFjbzVvTy1fVVlwU09FTzJxR3dsUmJ6N3dHODR1ZjJGODBNUE93dmJOaQ?oc=5",
+      "locator": null,
+      "published_at": "2022-08-29"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.525,
     "derivation": null
   },
@@ -438,7 +462,7 @@
     "derivation": null
   },
   {
-    "id": "drv_5bd6129f33",
+    "id": "drv_115791d1aa",
     "company_id": "celonis",
     "metric": "revenue_multiple",
     "value": 16.86,
@@ -456,14 +480,14 @@
       "locator": null,
       "published_at": "2026-07-03"
     },
-    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2054,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_abdd22d911",
+        "clm_e18945a753",
         "clm_4a9d9165ee"
       ]
     }

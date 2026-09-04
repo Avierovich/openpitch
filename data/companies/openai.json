@@ -9,7 +9,7 @@
   "summary": "OpenAI develops advanced AI models like GPT-4, offering them through APIs and products for developers and businesses to build AI-powered applications.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 99.5,
+  "vc_attention_score": 99.6,
   "universe_rank": 2,
   "metrics": {
     "arr": {
@@ -22,19 +22,19 @@
       },
       "as_of": "2026-09-01",
       "estimate_type": "consensus",
-      "confidence": 0.851,
+      "confidence": 0.848,
       "supporting_claims": [
-        "clm_0a26ed6043",
         "clm_63a2c3d039",
+        "clm_0a26ed6043",
         "clm_e28c12bdb7",
         "clm_116b326b03",
         "clm_5ee1e45ed3"
       ],
       "contradiction": true,
       "delta": {
-        "previous": 40000000000.0,
-        "change_pct": -97.5,
-        "since": "2026-08-20"
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-09-01"
       },
       "history_ref": "history/openai/arr.jsonl",
       "unconfirmed": false,
@@ -43,7 +43,7 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 846326905333.49,
+      "value": 856707878553.34,
       "unit": "USD",
       "range": {
         "low": 840000000000.0,
@@ -63,42 +63,16 @@
         "clm_d9b945e8b0",
         "clm_9af43f7e6e",
         "clm_d1f6163d4b",
-        "clm_cf3cc7994a"
+        "clm_cf3cc7994a",
+        "clm_d04bab179d"
       ],
       "contradiction": false,
       "delta": {
         "previous": 846326905333.49,
-        "change_pct": 0.0,
+        "change_pct": 1.2,
         "since": "2026-08-20"
       },
       "history_ref": "history/openai/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 114117736298.52,
-      "unit": "USD",
-      "range": {
-        "low": 110000000000.0,
-        "high": 122000000000.0
-      },
-      "as_of": "2026-03-31",
-      "estimate_type": "consensus",
-      "confidence": 0.797,
-      "supporting_claims": [
-        "clm_933bad6408",
-        "clm_84a35c327c",
-        "clm_6c05bb0d3f"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 114117736298.52,
-        "change_pct": -0.0,
-        "since": "2026-03-31"
-      },
-      "history_ref": "history/openai/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -113,7 +87,7 @@
       },
       "as_of": "2026-05-11",
       "estimate_type": "consensus",
-      "confidence": 0.793,
+      "confidence": 0.792,
       "supporting_claims": [
         "clm_a2a0b3b943",
         "clm_575fed5cdd",
@@ -130,6 +104,33 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 114117736298.52,
+      "unit": "USD",
+      "range": {
+        "low": 110000000000.0,
+        "high": 122000000000.0
+      },
+      "as_of": "2026-03-31",
+      "estimate_type": "consensus",
+      "confidence": 0.796,
+      "supporting_claims": [
+        "clm_933bad6408",
+        "clm_84a35c327c",
+        "clm_6c05bb0d3f"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 114117736298.52,
+        "change_pct": -0.0,
+        "since": "2026-03-31"
+      },
+      "history_ref": "history/openai/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "revenue_multiple": {
       "metric": "revenue_multiple",
       "value": 21.3,
@@ -137,7 +138,7 @@
       "range": null,
       "as_of": "2026-08-20",
       "estimate_type": "reported",
-      "confidence": 0.415,
+      "confidence": 0.411,
       "supporting_claims": [
         "drv_7fc32de45e"
       ],
@@ -153,5 +154,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-03"
+  "last_updated": "2026-09-04"
 }

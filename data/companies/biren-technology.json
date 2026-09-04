@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2026-07-06",
       "estimate_type": "consensus",
-      "confidence": 0.549,
+      "confidence": 0.548,
       "supporting_claims": [
         "clm_c32a4d29b5",
         "clm_6f74ab9ab5"
@@ -45,12 +45,12 @@
       },
       "as_of": "2026-08-31",
       "estimate_type": "consensus",
-      "confidence": 0.846,
+      "confidence": 0.843,
       "supporting_claims": [
         "clm_869bad3358",
         "clm_4188030894",
-        "clm_532d5cd338",
-        "clm_dfb11aadbe"
+        "clm_dfb11aadbe",
+        "clm_532d5cd338"
       ],
       "contradiction": false,
       "delta": {
@@ -59,6 +59,28 @@
         "since": "2026-08-31"
       },
       "history_ref": "history/biren-technology/revenue_growth.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "valuation": {
+      "metric": "valuation",
+      "value": 8000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-04-28",
+      "estimate_type": "reported",
+      "confidence": 0.369,
+      "supporting_claims": [
+        "clm_5733848ace"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 8000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-04-28"
+      },
+      "history_ref": "history/biren-technology/valuation.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -92,39 +114,21 @@
       "range": null,
       "as_of": "2026-04-21",
       "estimate_type": "reported",
-      "confidence": 0.363,
+      "confidence": 0.362,
       "supporting_claims": [
         "clm_d0dbef7086"
       ],
       "contradiction": true,
-      "delta": null,
-      "history_ref": "history/biren-technology/latest_round.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "valuation": {
-      "metric": "valuation",
-      "value": 8000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-04-28",
-      "estimate_type": "reported",
-      "confidence": 0.37,
-      "supporting_claims": [
-        "clm_5733848ace"
-      ],
-      "contradiction": false,
       "delta": {
-        "previous": 8000000000.0,
+        "previous": 2000000000.0,
         "change_pct": 0.0,
-        "since": "2026-04-28"
+        "since": "2026-04-21"
       },
-      "history_ref": "history/biren-technology/valuation.jsonl",
+      "history_ref": "history/biren-technology/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-03"
+  "last_updated": "2026-09-04"
 }

@@ -25,8 +25,8 @@
       "confidence": 0.773,
       "supporting_claims": [
         "clm_baac1e6419",
-        "clm_ace6101b80",
         "clm_ec9486d32c",
+        "clm_ace6101b80",
         "clm_dbf86b40b1"
       ],
       "contradiction": false,
@@ -42,7 +42,7 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 38538305837.75,
+      "value": 38468943500.72,
       "unit": "USD",
       "range": {
         "low": 38000000000.0,
@@ -53,26 +53,28 @@
       "confidence": 0.97,
       "supporting_claims": [
         "clm_6c7333dd3f",
+        "clm_e93a4a5434",
+        "clm_d588914c73",
+        "clm_0db447274f",
+        "clm_f7570a406d",
+        "clm_6089df640d",
         "clm_b3b2eb81c5",
         "clm_0ce9b75cc5",
         "clm_2fc818701c",
         "clm_cfe6796b5b",
         "clm_c290864eef",
         "clm_f4829a142b",
-        "clm_e93a4a5434",
-        "clm_0db447274f",
-        "clm_d588914c73",
         "clm_f14f514ddc",
         "clm_b2bd6ad025",
         "clm_bf5e5f4930",
-        "clm_fa4956ab8b",
-        "clm_9fe9666a15"
+        "clm_9fe9666a15",
+        "clm_fa4956ab8b"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 38525010543.67,
-        "change_pct": 0.0,
-        "since": "2026-06-11"
+        "previous": 38538305837.75,
+        "change_pct": -0.2,
+        "since": "2026-06-12"
       },
       "history_ref": "history/project-prometheus/valuation.jsonl",
       "unconfirmed": true,
@@ -86,21 +88,47 @@
       "range": null,
       "as_of": "2026-04-24",
       "estimate_type": "consensus",
-      "confidence": 0.563,
+      "confidence": 0.562,
       "supporting_claims": [
-        "clm_d16d4957eb",
         "clm_7de07e1912",
+        "clm_d16d4957eb",
         "clm_27eaa3016a",
         "clm_714de21e2e",
         "clm_78598bb8bb"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 10000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-04-24"
+      },
       "history_ref": "history/project-prometheus/round_amount.jsonl",
       "unconfirmed": true,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 10000000000.0,
+      "unit": "object",
+      "range": {
+        "low": 10000000000.0,
+        "high": 10000000000.0
+      },
+      "as_of": "2026-04-24",
+      "estimate_type": "consensus",
+      "confidence": 0.594,
+      "supporting_claims": [
+        "clm_e4783d4a69",
+        "clm_405b686728"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/project-prometheus/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-03"
+  "last_updated": "2026-09-04"
 }

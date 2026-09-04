@@ -1,11 +1,11 @@
 [
   {
-    "id": "clm_507dff2375",
+    "id": "clm_cc9b28ee8d",
     "company_id": "chainalysis",
     "metric": "round_amount",
-    "value": 170000000.0,
+    "value": 100000000.0,
     "unit": "USD",
-    "raw_text": "US$170 Million Series F",
+    "raw_text": "raises $100 mln",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -13,23 +13,23 @@
     },
     "source": {
       "type": "news",
-      "name": "Fintech Singapore",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdlN2WXRGUXJGdUdzY21obWxXOFZlVlRuZnV6MVdGSE1YYUhBWWkwMDllRzdTU2dZM3NpV0JkcmhqOUlKY285N1RucUp2YUotMWxxZXFUS3g1NGcxazdXVDJkR1lrelVZMEF6Wk0ydm9NRUxvMUd5WlFGMlFGTHRtLVlhckx3M3d3cmZrbzhpbDc3eURHUlhjeXJzQjBQZkJvNDdSSm52a1BEdC1nSUR4bU9IQnRJUF9SRVBkMW1HZw?oc=5",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbkJ0cWVOV0NqYUU5YVh4T3JDNmQ1X2VnZjRTRzI1Ul9NZVBPNjRCX3JRQXIyN1Q2d1l3V1hEWEpaaUVMakUtaDBpUnc4eWgxSVBBbWZIbHVaWWpFZjZVb0RoWGYzMWY4dVNsQ3EtaFJwY1ozOFIzUzRkb1NPYmpaZVV4S0N4anc1UzB6aUZ3QkhXX1ZsRDNiQTlDOUNrNk5jNXdnSTRuTUN1TnlQejVoWGNjc0xlajZuVHc?oc=5",
       "locator": null,
-      "published_at": "2022-05-13"
+      "published_at": "2021-03-26"
     },
-    "extracted_at": "2026-08-22T05:47:44.406970",
-    "extractor_model": "gemini-3.7-flash",
+    "extracted_at": "2026-08-26T05:56:52.356025",
+    "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
   },
   {
-    "id": "clm_69567187ec",
+    "id": "clm_94794e3e40",
     "company_id": "chainalysis",
     "metric": "valuation",
-    "value": 8600000000.0,
+    "value": 2000000000.0,
     "unit": "USD",
-    "raw_text": "Doubling Its Valuation to US$8.6 Billion",
+    "raw_text": "$2 bln valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -37,13 +37,13 @@
     },
     "source": {
       "type": "news",
-      "name": "Fintech Singapore",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdlN2WXRGUXJGdUdzY21obWxXOFZlVlRuZnV6MVdGSE1YYUhBWWkwMDllRzdTU2dZM3NpV0JkcmhqOUlKY285N1RucUp2YUotMWxxZXFUS3g1NGcxazdXVDJkR1lrelVZMEF6Wk0ydm9NRUxvMUd5WlFGMlFGTHRtLVlhckx3M3d3cmZrbzhpbDc3eURHUlhjeXJzQjBQZkJvNDdSSm52a1BEdC1nSUR4bU9IQnRJUF9SRVBkMW1HZw?oc=5",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbkJ0cWVOV0NqYUU5YVh4T3JDNmQ1X2VnZjRTRzI1Ul9NZVBPNjRCX3JRQXIyN1Q2d1l3V1hEWEpaaUVMakUtaDBpUnc4eWgxSVBBbWZIbHVaWWpFZjZVb0RoWGYzMWY4dVNsQ3EtaFJwY1ozOFIzUzRkb1NPYmpaZVV4S0N4anc1UzB6aUZ3QkhXX1ZsRDNiQTlDOUNrNk5jNXdnSTRuTUN1TnlQejVoWGNjc0xlajZuVHc?oc=5",
       "locator": null,
-      "published_at": "2022-05-13"
+      "published_at": "2021-03-26"
     },
-    "extracted_at": "2026-08-22T05:47:44.406970",
-    "extractor_model": "gemini-3.7-flash",
+    "extracted_at": "2026-08-26T05:56:52.356025",
+    "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
   },
@@ -92,6 +92,126 @@
     },
     "extracted_at": "2026-08-26T05:56:52.356025",
     "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_0573240d7d",
+    "company_id": "chainalysis",
+    "metric": "total_funding",
+    "value": 100000000.0,
+    "unit": "USD",
+    "raw_text": "Crypto Sleuthing Firm Chainalysis Raises $100M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVzFvcUVyTlpjZGJGamNVc2dUQjhNRGd2QVd3bUxPMGxEYXFNY1RPWjlzM0k4dGdQOWV6ZjNfbVFfMlgwUzU3TlBfRjN0czAxWFI4dUYzUnpqT3JlMnVCTlJUeWVDYzNJanc1YTg5VzloYTVmSE9aVWtEQzdCNllITU0xYTA4OXBMYlFuRTRnQlY0cTNPRUdPQm1YTHhuREhIMEZFZkJNOGtNYmV2RGM4RjFVUEZ5bDU1?oc=5",
+      "locator": null,
+      "published_at": "2021-06-24"
+    },
+    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_3c1bf43baa",
+    "company_id": "chainalysis",
+    "metric": "round_amount",
+    "value": 100000000.0,
+    "unit": "USD",
+    "raw_text": "Raises $100M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVzFvcUVyTlpjZGJGamNVc2dUQjhNRGd2QVd3bUxPMGxEYXFNY1RPWjlzM0k4dGdQOWV6ZjNfbVFfMlgwUzU3TlBfRjN0czAxWFI4dUYzUnpqT3JlMnVCTlJUeWVDYzNJanc1YTg5VzloYTVmSE9aVWtEQzdCNllITU0xYTA4OXBMYlFuRTRnQlY0cTNPRUdPQm1YTHhuREhIMEZFZkJNOGtNYmV2RGM4RjFVUEZ5bDU1?oc=5",
+      "locator": null,
+      "published_at": "2021-06-24"
+    },
+    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_a29e39f73b",
+    "company_id": "chainalysis",
+    "metric": "valuation",
+    "value": 4200000000.0,
+    "unit": "USD",
+    "raw_text": "$4.2B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVzFvcUVyTlpjZGJGamNVc2dUQjhNRGd2QVd3bUxPMGxEYXFNY1RPWjlzM0k4dGdQOWV6ZjNfbVFfMlgwUzU3TlBfRjN0czAxWFI4dUYzUnpqT3JlMnVCTlJUeWVDYzNJanc1YTg5VzloYTVmSE9aVWtEQzdCNllITU0xYTA4OXBMYlFuRTRnQlY0cTNPRUdPQm1YTHhuREhIMEZFZkJNOGtNYmV2RGM4RjFVUEZ5bDU1?oc=5",
+      "locator": null,
+      "published_at": "2021-06-24"
+    },
+    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_507dff2375",
+    "company_id": "chainalysis",
+    "metric": "round_amount",
+    "value": 170000000.0,
+    "unit": "USD",
+    "raw_text": "US$170 Million Series F",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Fintech Singapore",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdlN2WXRGUXJGdUdzY21obWxXOFZlVlRuZnV6MVdGSE1YYUhBWWkwMDllRzdTU2dZM3NpV0JkcmhqOUlKY285N1RucUp2YUotMWxxZXFUS3g1NGcxazdXVDJkR1lrelVZMEF6Wk0ydm9NRUxvMUd5WlFGMlFGTHRtLVlhckx3M3d3cmZrbzhpbDc3eURHUlhjeXJzQjBQZkJvNDdSSm52a1BEdC1nSUR4bU9IQnRJUF9SRVBkMW1HZw?oc=5",
+      "locator": null,
+      "published_at": "2022-05-13"
+    },
+    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_69567187ec",
+    "company_id": "chainalysis",
+    "metric": "valuation",
+    "value": 8600000000.0,
+    "unit": "USD",
+    "raw_text": "Doubling Its Valuation to US$8.6 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Fintech Singapore",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdlN2WXRGUXJGdUdzY21obWxXOFZlVlRuZnV6MVdGSE1YYUhBWWkwMDllRzdTU2dZM3NpV0JkcmhqOUlKY285N1RucUp2YUotMWxxZXFUS3g1NGcxazdXVDJkR1lrelVZMEF6Wk0ydm9NRUxvMUd5WlFGMlFGTHRtLVlhckx3M3d3cmZrbzhpbDc3eURHUlhjeXJzQjBQZkJvNDdSSm52a1BEdC1nSUR4bU9IQnRJUF9SRVBkMW1HZw?oc=5",
+      "locator": null,
+      "published_at": "2022-05-13"
+    },
+    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.525,
     "derivation": null
   },
@@ -237,54 +357,6 @@
       "published_at": "2022-05-11"
     },
     "extracted_at": "2026-08-19T12:30:22.754661",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_cc9b28ee8d",
-    "company_id": "chainalysis",
-    "metric": "round_amount",
-    "value": 100000000.0,
-    "unit": "USD",
-    "raw_text": "raises $100 mln",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbkJ0cWVOV0NqYUU5YVh4T3JDNmQ1X2VnZjRTRzI1Ul9NZVBPNjRCX3JRQXIyN1Q2d1l3V1hEWEpaaUVMakUtaDBpUnc4eWgxSVBBbWZIbHVaWWpFZjZVb0RoWGYzMWY4dVNsQ3EtaFJwY1ozOFIzUzRkb1NPYmpaZVV4S0N4anc1UzB6aUZ3QkhXX1ZsRDNiQTlDOUNrNk5jNXdnSTRuTUN1TnlQejVoWGNjc0xlajZuVHc?oc=5",
-      "locator": null,
-      "published_at": "2021-03-26"
-    },
-    "extracted_at": "2026-08-26T05:56:52.356025",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_94794e3e40",
-    "company_id": "chainalysis",
-    "metric": "valuation",
-    "value": 2000000000.0,
-    "unit": "USD",
-    "raw_text": "$2 bln valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbkJ0cWVOV0NqYUU5YVh4T3JDNmQ1X2VnZjRTRzI1Ul9NZVBPNjRCX3JRQXIyN1Q2d1l3V1hEWEpaaUVMakUtaDBpUnc4eWgxSVBBbWZIbHVaWWpFZjZVb0RoWGYzMWY4dVNsQ3EtaFJwY1ozOFIzUzRkb1NPYmpaZVV4S0N4anc1UzB6aUZ3QkhXX1ZsRDNiQTlDOUNrNk5jNXdnSTRuTUN1TnlQejVoWGNjc0xlajZuVHc?oc=5",
-      "locator": null,
-      "published_at": "2021-03-26"
-    },
-    "extracted_at": "2026-08-26T05:56:52.356025",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null

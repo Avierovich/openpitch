@@ -21,8 +21,8 @@
       "estimate_type": "consensus",
       "confidence": 0.136,
       "supporting_claims": [
-        "clm_507dff2375",
         "clm_c6e079f5e4",
+        "clm_507dff2375",
         "clm_b77c208deb"
       ],
       "contradiction": false,
@@ -85,22 +85,26 @@
     },
     "total_funding": {
       "metric": "total_funding",
-      "value": 16000000.0,
+      "value": 100000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2018-04-05",
+      "as_of": "2021-06-24",
       "estimate_type": "reported",
-      "confidence": 0.008,
+      "confidence": 0.028,
       "supporting_claims": [
-        "clm_f4566d01d4"
+        "clm_0573240d7d"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 16000000.0,
+        "change_pct": 525.0,
+        "since": "2018-04-05"
+      },
       "history_ref": "history/chainalysis/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-03"
+  "last_updated": "2026-09-04"
 }

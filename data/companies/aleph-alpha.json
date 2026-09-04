@@ -17,71 +17,19 @@
       "value": 80000.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-09-03",
+      "as_of": "2026-09-04",
       "estimate_type": "reported",
       "confidence": 0.25,
       "supporting_claims": [
         "clm_6dbac39a5d"
       ],
       "contradiction": false,
-      "delta": null,
-      "history_ref": "history/aleph-alpha/subscribers.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 600000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 600000000.0,
-        "high": 600000000.0
-      },
-      "as_of": "2026-04-26",
-      "estimate_type": "consensus",
-      "confidence": 0.599,
-      "supporting_claims": [
-        "clm_4c099ab1a8",
-        "clm_b2c055d7af"
-      ],
-      "contradiction": false,
       "delta": {
-        "previous": 600000000.0,
+        "previous": 80000.0,
         "change_pct": 0.0,
-        "since": "2026-04-26"
+        "since": "2026-09-03"
       },
-      "history_ref": "history/aleph-alpha/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "valuation": {
-      "metric": "valuation",
-      "value": 20000000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 20000000000.0,
-        "high": 20000000000.0
-      },
-      "as_of": "2026-04-27",
-      "estimate_type": "consensus",
-      "confidence": 0.848,
-      "supporting_claims": [
-        "clm_bbdfbc71aa",
-        "clm_dba790de37",
-        "clm_c4bf84a376",
-        "clm_d4e5d7bb02",
-        "clm_a4ff17bb85",
-        "clm_24f03f0946"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 20000000000.0,
-        "change_pct": -0.0,
-        "since": "2026-04-26"
-      },
-      "history_ref": "history/aleph-alpha/valuation.jsonl",
+      "history_ref": "history/aleph-alpha/subscribers.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -100,15 +48,71 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 500000000.0,
-        "change_pct": 20.0,
-        "since": "2023-11-06"
+        "previous": 600000000.0,
+        "change_pct": 0.0,
+        "since": "2026-04-24"
       },
       "history_ref": "history/aleph-alpha/total_funding.jsonl",
       "unconfirmed": true,
       "confirmed_value": 500000000.0,
       "confirmed_as_of": "2024-07-26"
+    },
+    "valuation": {
+      "metric": "valuation",
+      "value": 20000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 20000000000.0,
+        "high": 20000000000.0
+      },
+      "as_of": "2026-04-27",
+      "estimate_type": "consensus",
+      "confidence": 0.847,
+      "supporting_claims": [
+        "clm_c4bf84a376",
+        "clm_bbdfbc71aa",
+        "clm_dba790de37",
+        "clm_d4e5d7bb02",
+        "clm_a4ff17bb85",
+        "clm_24f03f0946"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 20000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-04-27"
+      },
+      "history_ref": "history/aleph-alpha/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 600000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 600000000.0,
+        "high": 600000000.0
+      },
+      "as_of": "2026-04-26",
+      "estimate_type": "consensus",
+      "confidence": 0.598,
+      "supporting_claims": [
+        "clm_4c099ab1a8",
+        "clm_b2c055d7af"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 600000000.0,
+        "change_pct": -0.0,
+        "since": "2026-04-26"
+      },
+      "history_ref": "history/aleph-alpha/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-03"
+  "last_updated": "2026-09-04"
 }

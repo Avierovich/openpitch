@@ -148,6 +148,56 @@
     "derivation": null
   },
   {
+    "id": "clm_0051c9db8a",
+    "company_id": "mercor",
+    "metric": "valuation",
+    "value": 10000000000.0,
+    "unit": "USD",
+    "raw_text": "$10 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "web",
+      "name": "mercor.com",
+      "url": "https://mercor.com/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.5,
+    "derivation": null
+  },
+  {
+    "id": "clm_3da23f4b07",
+    "company_id": "mercor",
+    "metric": "latest_round",
+    "value": 3.0,
+    "unit": null,
+    "raw_text": "Series C",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "web",
+      "name": "mercor.com",
+      "url": "https://mercor.com/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.45,
+    "derivation": null
+  },
+  {
     "id": "clm_0fbf02cca5",
     "company_id": "mercor",
     "metric": "valuation",
@@ -172,54 +222,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_0051c9db8a",
-    "company_id": "mercor",
-    "metric": "valuation",
-    "value": 10000000000.0,
-    "unit": "USD",
-    "raw_text": "$10 billion valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "mercor.com",
-      "url": "https://mercor.com/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_3da23f4b07",
-    "company_id": "mercor",
-    "metric": "latest_round",
-    "value": 3.0,
-    "unit": "Series C",
-    "raw_text": "Series C company",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "mercor.com",
-      "url": "https://mercor.com/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
     "derivation": null
   },
   {
@@ -544,7 +546,7 @@
       "locator": null,
       "published_at": "2026-07-25"
     },
-    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "derive-engine",
     "base_confidence": 0.3312,
     "derivation": {

@@ -53,6 +53,80 @@
     "derivation": null
   },
   {
+    "id": "clm_8fabc82371",
+    "company_id": "openai",
+    "metric": "round_amount",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI raises $40B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTjJfVWhBaXN5LWE5LVA2YlJvVFpfNXZBTkxwbFdoRjc1bzV0a29IM1FaRkFTSTFiVEx2TndTMmVUcFVIbXBtaEZ5cTgwd3hBRmhULVhPNDg0NmtxZWgxcHNNQ01XMUhrVzZlYXNoZUZBQmxxV3dDQWFzR3RvN2VCV1pnZ0VPSEVw?oc=5",
+      "locator": null,
+      "published_at": "2025-03-31"
+    },
+    "extracted_at": "2026-08-31T12:11:11.881256",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_806a2e92ba",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 300000000000.0,
+    "unit": "USD",
+    "raw_text": "$300B post-money valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTjJfVWhBaXN5LWE5LVA2YlJvVFpfNXZBTkxwbFdoRjc1bzV0a29IM1FaRkFTSTFiVEx2TndTMmVUcFVIbXBtaEZ5cTgwd3hBRmhULVhPNDg0NmtxZWgxcHNNQ01XMUhrVzZlYXNoZUZBQmxxV3dDQWFzR3RvN2VCV1pnZ0VPSEVw?oc=5",
+      "locator": null,
+      "published_at": "2025-03-31"
+    },
+    "extracted_at": "2026-08-31T12:11:11.881256",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_63a2c3d039",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "hits a $1 billion run rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "The AI Daily Brief",
+      "url": "https://podcasters.spotify.com/pod/show/nlw/episodes/OpenClaw-2-0-Shows-Where-AI-Agents-Are-Going-Next-e3o74t6",
+      "locator": null,
+      "published_at": "2026-09-01"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.27,
+    "derivation": null
+  },
+  {
     "id": "clm_d8a06f055f",
     "company_id": "openai",
     "metric": "valuation",
@@ -101,6 +175,33 @@
     "derivation": null
   },
   {
+    "id": "clm_d04bab179d",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1000000000000.0,
+    "unit": null,
+    "raw_text": "$1 Trillion IPO Valuation for OpenAI",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaG0zU2RnSjVxLUN1M0U1bkVFeGFmTGRIVnNnUDZCWGNxbk9NalRqY3p3bDczbHJkZURNYnJlWTI0N1gwbDdkbEJBYUJUME1KOG5Hb3FvZk5sb3lNRWFyVjdzTWFrQUlPTVgxN2NzNjIzcWVDbDdISExmM2FvTlMwR2RaOUg4cWxiTmRxWTNUYTJFYjc5WXBzLWFB?oc=5",
+      "locator": null,
+      "published_at": "2026-08-13"
+    },
+    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_0a26ed6043",
     "company_id": "openai",
     "metric": "arr",
@@ -124,32 +225,6 @@
     "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.3375,
-    "derivation": null
-  },
-  {
-    "id": "clm_63a2c3d039",
-    "company_id": "openai",
-    "metric": "arr",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "hits a $1 billion run rate",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "The AI Daily Brief",
-      "url": "https://podcasters.spotify.com/pod/show/nlw/episodes/OpenClaw-2-0-Shows-Where-AI-Agents-Are-Going-Next-e3o74t6",
-      "locator": null,
-      "published_at": "2026-09-01"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.27,
     "derivation": null
   },
   {
@@ -424,54 +499,6 @@
     "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_8fabc82371",
-    "company_id": "openai",
-    "metric": "round_amount",
-    "value": 40000000000.0,
-    "unit": "USD",
-    "raw_text": "OpenAI raises $40B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTjJfVWhBaXN5LWE5LVA2YlJvVFpfNXZBTkxwbFdoRjc1bzV0a29IM1FaRkFTSTFiVEx2TndTMmVUcFVIbXBtaEZ5cTgwd3hBRmhULVhPNDg0NmtxZWgxcHNNQ01XMUhrVzZlYXNoZUZBQmxxV3dDQWFzR3RvN2VCV1pnZ0VPSEVw?oc=5",
-      "locator": null,
-      "published_at": "2025-03-31"
-    },
-    "extracted_at": "2026-08-31T12:11:11.881256",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_806a2e92ba",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 300000000000.0,
-    "unit": "USD",
-    "raw_text": "$300B post-money valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTjJfVWhBaXN5LWE5LVA2YlJvVFpfNXZBTkxwbFdoRjc1bzV0a29IM1FaRkFTSTFiVEx2TndTMmVUcFVIbXBtaEZ5cTgwd3hBRmhULVhPNDg0NmtxZWgxcHNNQ01XMUhrVzZlYXNoZUZBQmxxV3dDQWFzR3RvN2VCV1pnZ0VPSEVw?oc=5",
-      "locator": null,
-      "published_at": "2025-03-31"
-    },
-    "extracted_at": "2026-08-31T12:11:11.881256",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -921,7 +948,7 @@
       "locator": null,
       "published_at": "2026-08-20"
     },
-    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "derive-engine",
     "base_confidence": 0.4658,
     "derivation": {

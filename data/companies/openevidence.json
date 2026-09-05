@@ -10,8 +10,33 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 84.1,
-  "universe_rank": 39,
+  "universe_rank": 41,
   "metrics": {
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 100000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 100000000.0,
+        "high": 250000000.0
+      },
+      "as_of": "2026-06-03",
+      "estimate_type": "reported",
+      "confidence": 0.462,
+      "supporting_claims": [
+        "clm_7b39ced9b3"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 100000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-03"
+      },
+      "history_ref": "history/openevidence/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "valuation": {
       "metric": "valuation",
       "value": 12000000000.0,
@@ -37,7 +62,7 @@
       "contradiction": false,
       "delta": {
         "previous": 12000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-07-21"
       },
       "history_ref": "history/openevidence/valuation.jsonl",
@@ -52,7 +77,7 @@
       "range": null,
       "as_of": "2026-01-21",
       "estimate_type": "consensus",
-      "confidence": 0.831,
+      "confidence": 0.83,
       "supporting_claims": [
         "clm_03b395541e",
         "clm_f181636643",
@@ -64,7 +89,7 @@
       "contradiction": false,
       "delta": {
         "previous": 250000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-01-21"
       },
       "history_ref": "history/openevidence/round_amount.jsonl",
@@ -93,32 +118,7 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 100000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 100000000.0,
-        "high": 250000000.0
-      },
-      "as_of": "2026-06-03",
-      "estimate_type": "reported",
-      "confidence": 0.462,
-      "supporting_claims": [
-        "clm_7b39ced9b3"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 100000000.0,
-        "change_pct": 0.0,
-        "since": "2026-06-03"
-      },
-      "history_ref": "history/openevidence/total_funding.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-04"
+  "last_updated": "2026-09-05"
 }

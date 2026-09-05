@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 88.3,
-  "universe_rank": 12,
+  "universe_rank": 13,
   "metrics": {
     "total_funding": {
       "metric": "total_funding",
@@ -22,7 +22,7 @@
       },
       "as_of": "2026-04-21",
       "estimate_type": "consensus",
-      "confidence": 0.773,
+      "confidence": 0.772,
       "supporting_claims": [
         "clm_baac1e6419",
         "clm_ec9486d32c",
@@ -32,7 +32,7 @@
       "contradiction": false,
       "delta": {
         "previous": 10000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-04-21"
       },
       "history_ref": "history/project-prometheus/total_funding.jsonl",
@@ -42,7 +42,7 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 38468943500.72,
+      "value": 38452845928.72,
       "unit": "USD",
       "range": {
         "low": 38000000000.0,
@@ -56,9 +56,10 @@
         "clm_e93a4a5434",
         "clm_d588914c73",
         "clm_0db447274f",
+        "clm_b3b2eb81c5",
+        "clm_1c76074e33",
         "clm_f7570a406d",
         "clm_6089df640d",
-        "clm_b3b2eb81c5",
         "clm_0ce9b75cc5",
         "clm_2fc818701c",
         "clm_cfe6796b5b",
@@ -72,8 +73,8 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 38538305837.75,
-        "change_pct": -0.2,
+        "previous": 38468943500.72,
+        "change_pct": -0.0,
         "since": "2026-06-12"
       },
       "history_ref": "history/project-prometheus/valuation.jsonl",
@@ -88,7 +89,7 @@
       "range": null,
       "as_of": "2026-04-24",
       "estimate_type": "consensus",
-      "confidence": 0.562,
+      "confidence": 0.561,
       "supporting_claims": [
         "clm_7de07e1912",
         "clm_d16d4957eb",
@@ -117,18 +118,22 @@
       },
       "as_of": "2026-04-24",
       "estimate_type": "consensus",
-      "confidence": 0.594,
+      "confidence": 0.593,
       "supporting_claims": [
         "clm_e4783d4a69",
         "clm_405b686728"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 10000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-04-24"
+      },
       "history_ref": "history/project-prometheus/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-04"
+  "last_updated": "2026-09-05"
 }

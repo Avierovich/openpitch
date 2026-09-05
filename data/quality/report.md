@@ -1,13 +1,13 @@
-# OpenPitch Data Quality Report - 2026-09-04
+# OpenPitch Data Quality Report - 2026-09-05
 
 ## Summary
 
-- Profiles generated: 298
-- Watchlist candidates: 881
+- Profiles generated: 313
+- Watchlist candidates: 896
 - Top-50 cards: 50
-- Profiles with at least one metric: 289
-- Critical issues: 60
-- Warnings: 29
+- Profiles with at least one metric: 304
+- Critical issues: 63
+- Warnings: 26
 - Discovery backlog (auto-discovered, awaiting first pipeline run): 580
 
 ## Top-50 Companies With No Metrics
@@ -20,6 +20,7 @@ None.
 
 ## Top-50 Missing ARR / Revenue
 
+- Anysphere (Cursor)
 - Cognition AI
 - Chime
 - Bright Health
@@ -59,6 +60,7 @@ None.
 - Attio
 - AttoTude
 - Auterion
+- Autograph
 - Axelera AI
 - Baichuan AI
 - Basecamp Research
@@ -78,7 +80,9 @@ None.
 - Coder
 - Cognigy
 - Cognism
+- Cohere Health
 - Collective Health
+- Commonwealth Fusion Systems
 - HUMAIN
 - Huspy
 - Ideogram
@@ -96,10 +100,8 @@ None.
 
 ## Single-Source Core Metrics
 
-- xAI: total_funding
 - Databricks: round_amount
 - Figure AI: headcount
-- Safe Superintelligence: headcount
 - Scale AI: headcount
 - Fireworks AI: arr
 - Fireworks AI: total_funding
@@ -116,8 +118,6 @@ None.
 - ElevenLabs: headcount
 - Airwallex: total_funding
 - Replit: total_funding
-- Together AI: arr
-- Biren Technology: total_funding
 
 ## Review Rule
 

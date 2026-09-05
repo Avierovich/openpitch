@@ -266,6 +266,56 @@
     "derivation": null
   },
   {
+    "id": "clm_6075e9f8c4",
+    "company_id": "fireworks",
+    "metric": "valuation",
+    "value": 15000000000.0,
+    "unit": null,
+    "raw_text": "Fireworks AI in Talks for Funding at $15 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWlQzUV9rQm5JZFctVkVNX0VuZjk5bW1seUNmYjlCU2JUWlJqbnhCWWdfblhLM29ObVAwTHRCbW9EU01zbTA5MVlGMk1zR3QtVGQ3Y1pSaW83YS1ySFdJRko2VlhmX0EzamJxS3IwdTRuQm5fQW1wM1FqT2Q3RnVNTmhxeFByTFVtUGJ4QlkyT3JuNERLbHBhNi0zU3FaNVcxb0VhcUlYNzNWYnZB?oc=5",
+      "locator": null,
+      "published_at": "2026-05-26"
+    },
+    "extracted_at": "2026-07-06T14:31:09.058208",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_683bd1c4f9",
+    "company_id": "fireworks",
+    "metric": "open_roles",
+    "value": 69.0,
+    "unit": null,
+    "raw_text": "Showing 69 positions",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fireworks.ai",
+      "url": "https://fireworks.ai/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
     "id": "clm_24c55552a3",
     "company_id": "fireworks",
     "metric": "round_amount",
@@ -781,32 +831,6 @@
     "derivation": null
   },
   {
-    "id": "clm_6075e9f8c4",
-    "company_id": "fireworks",
-    "metric": "valuation",
-    "value": 15000000000.0,
-    "unit": null,
-    "raw_text": "Fireworks AI in Talks for Funding at $15 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWlQzUV9rQm5JZFctVkVNX0VuZjk5bW1seUNmYjlCU2JUWlJqbnhCWWdfblhLM29ObVAwTHRCbW9EU01zbTA5MVlGMk1zR3QtVGQ3Y1pSaW83YS1ySFdJRko2VlhmX0EzamJxS3IwdTRuQm5fQW1wM1FqT2Q3RnVNTmhxeFByTFVtUGJ4QlkyT3JuNERLbHBhNi0zU3FaNVcxb0VhcUlYNzNWYnZB?oc=5",
-      "locator": null,
-      "published_at": "2026-05-26"
-    },
-    "extracted_at": "2026-07-06T14:31:09.058208",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_d5731c74f5",
     "company_id": "fireworks",
     "metric": "open_roles",
@@ -1169,7 +1193,7 @@
       "locator": null,
       "published_at": "2026-07-20"
     },
-    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extracted_at": "2026-09-05T09:07:28.177448",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2029,
     "derivation": {

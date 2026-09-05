@@ -10,32 +10,8 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 83.8,
-  "universe_rank": 44,
+  "universe_rank": 46,
   "metrics": {
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 1000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-03-30",
-      "estimate_type": "consensus",
-      "confidence": 0.418,
-      "supporting_claims": [
-        "clm_4ed99c328b",
-        "clm_528f395cd9",
-        "clm_1f18f056e2"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1000000000.0,
-        "change_pct": -0.0,
-        "since": "2026-03-28"
-      },
-      "history_ref": "history/physical-intelligence/round_amount.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": 600000000.0,
-      "confirmed_as_of": "2025-11-25"
-    },
     "valuation": {
       "metric": "valuation",
       "value": 11000000000.0,
@@ -46,10 +22,10 @@
       },
       "as_of": "2026-03-31",
       "estimate_type": "consensus",
-      "confidence": 0.751,
+      "confidence": 0.75,
       "supporting_claims": [
-        "clm_95bf905bea",
         "clm_a52fc1f535",
+        "clm_95bf905bea",
         "clm_e85879a848",
         "clm_d565f71f79",
         "clm_8811380977",
@@ -58,7 +34,7 @@
       "contradiction": true,
       "delta": {
         "previous": 11000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-03-31"
       },
       "history_ref": "history/physical-intelligence/valuation.jsonl",
@@ -88,6 +64,30 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 1000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-03-30",
+      "estimate_type": "consensus",
+      "confidence": 0.417,
+      "supporting_claims": [
+        "clm_4ed99c328b",
+        "clm_528f395cd9",
+        "clm_1f18f056e2"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-03-30"
+      },
+      "history_ref": "history/physical-intelligence/round_amount.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": 600000000.0,
+      "confirmed_as_of": "2025-11-25"
+    },
     "latest_round": {
       "metric": "latest_round",
       "value": 1.0,
@@ -98,7 +98,7 @@
       },
       "as_of": "2026-03-27",
       "estimate_type": "consensus",
-      "confidence": 0.561,
+      "confidence": 0.56,
       "supporting_claims": [
         "clm_27efd5a5ed",
         "clm_2db503624c"
@@ -115,5 +115,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-04"
+  "last_updated": "2026-09-05"
 }

@@ -99,6 +99,30 @@
     "derivation": null
   },
   {
+    "id": "clm_e195aa4d20",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": null,
+    "raw_text": "AI firm Mistral valued at $14 billion as chip giant ASML takes major stake",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa0NVaVo0Wll0MG9iU0lXcmhLanB1eUJ5X2dVREJfbEk2M0Uya3ZnTVJzVFNQLUNqYXdVZHlyeG1LeE55RTI1QW5HTXNXSkFvZVhOeWxxR0h5aE9tLVRvZHhheDZNLU5RWTN2RE93M19iUjhoeGk5bXFWbmdQWUlYcjEzaUJYMkFKYTllM1JCdzIzVDBncjFSc0kwQ3JDdkdk0gGmAUFVX3lxTFBscDh2aFVsT0FqUHNLNzJJNlB3R3lNallpNnRhRllYOUNrRk90aVNtR1BBdTJnUnNGN0ozY2ZOX05WQW91QVk5ZHByOUdaM09xY0NEVzRjNVh6M3VGSWxINC03dGZoMXZ5MGxQS0dvb2YtbEJOUDliMlNRT2VBOVRETFZ2LWFrZkkyUFR1R1dCd09BUTVZcVhleTkwMWk5QWk5M2FnaGc?oc=5",
+      "locator": null,
+      "published_at": "2025-09-09"
+    },
+    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_02ceb3afde",
     "company_id": "mistral",
     "metric": "valuation",
@@ -149,6 +173,32 @@
     "derivation": null
   },
   {
+    "id": "clm_e9ac195bd5",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": "EUR",
+    "raw_text": "€20B Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "AI Insider",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNFpGS1p1UkVBQTZfdERrdklmTmlYUm1yRzVoUHlCVGJsN1JNV0hEMWx2bmgwMnBnNVhFOHVKT2FzUUJqY2lLRG5lbEZIV1pzOWVGS3B2UEJEOUdVSWhjdk1iZHJfaW1DMzllTndkTkxqSlp6MHdiWVVJUk1RUXVRUjczakpteGRkdmk1dmN6RTUtTkZfNnZKbWp6RHBXYWx1MFlJT3daMzFuZUxBOHVUUS1PLTd1dDFC?oc=5",
+      "locator": null,
+      "published_at": "2026-06-15"
+    },
+    "extracted_at": "2026-08-27T17:02:21.670041",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_a5c6c421b8",
     "company_id": "mistral",
     "metric": "valuation",
@@ -173,6 +223,32 @@
     "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
+    "id": "clm_b18a2e2321",
+    "company_id": "mistral",
+    "metric": "total_funding",
+    "value": 100000000.0,
+    "unit": "USD",
+    "raw_text": "$100M+ seed financing",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "No Priors",
+      "url": null,
+      "locator": null,
+      "published_at": "2023-11-09"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.294,
     "derivation": null
   },
   {
@@ -221,32 +297,6 @@
     "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_b18a2e2321",
-    "company_id": "mistral",
-    "metric": "total_funding",
-    "value": 100000000.0,
-    "unit": "USD",
-    "raw_text": "$100M+ seed financing",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "No Priors",
-      "url": null,
-      "locator": null,
-      "published_at": "2023-11-09"
-    },
-    "extracted_at": "2026-09-04T09:41:05.539009",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.378,
     "derivation": null
   },
   {
@@ -579,30 +629,6 @@
     "derivation": null
   },
   {
-    "id": "clm_e195aa4d20",
-    "company_id": "mistral",
-    "metric": "valuation",
-    "value": 14000000000.0,
-    "unit": null,
-    "raw_text": "AI firm Mistral valued at $14 billion as chip giant ASML takes major stake",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa0NVaVo0Wll0MG9iU0lXcmhLanB1eUJ5X2dVREJfbEk2M0Uya3ZnTVJzVFNQLUNqYXdVZHlyeG1LeE55RTI1QW5HTXNXSkFvZVhOeWxxR0h5aE9tLVRvZHhheDZNLU5RWTN2RE93M19iUjhoeGk5bXFWbmdQWUlYcjEzaUJYMkFKYTllM1JCdzIzVDBncjFSc0kwQ3JDdkdk0gGmAUFVX3lxTFBscDh2aFVsT0FqUHNLNzJJNlB3R3lNallpNnRhRllYOUNrRk90aVNtR1BBdTJnUnNGN0ozY2ZOX05WQW91QVk5ZHByOUdaM09xY0NEVzRjNVh6M3VGSWxINC03dGZoMXZ5MGxQS0dvb2YtbEJOUDliMlNRT2VBOVRETFZ2LWFrZkkyUFR1R1dCd09BUTVZcVhleTkwMWk5QWk5M2FnaGc?oc=5",
-      "locator": null,
-      "published_at": "2025-09-09"
-    },
-    "extracted_at": "2026-07-12T07:44:16.543146",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_5b7b617325",
     "company_id": "mistral",
     "metric": "valuation",
@@ -698,32 +724,6 @@
     "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_e9ac195bd5",
-    "company_id": "mistral",
-    "metric": "valuation",
-    "value": 20000000000.0,
-    "unit": "EUR",
-    "raw_text": "€20B Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "AI Insider",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNFpGS1p1UkVBQTZfdERrdklmTmlYUm1yRzVoUHlCVGJsN1JNV0hEMWx2bmgwMnBnNVhFOHVKT2FzUUJqY2lLRG5lbEZIV1pzOWVGS3B2UEJEOUdVSWhjdk1iZHJfaW1DMzllTndkTkxqSlp6MHdiWVVJUk1RUXVRUjczakpteGRkdmk1dmN6RTUtTkZfNnZKbWp6RHBXYWx1MFlJT3daMzFuZUxBOHVUUS1PLTd1dDFC?oc=5",
-      "locator": null,
-      "published_at": "2026-06-15"
-    },
-    "extracted_at": "2026-08-27T17:02:21.670041",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -1001,7 +1001,7 @@
       "locator": null,
       "published_at": "2026-02-11"
     },
-    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extracted_at": "2026-09-05T09:07:28.177448",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

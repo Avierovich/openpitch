@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 83.1,
-  "universe_rank": 45,
+  "universe_rank": 47,
   "metrics": {
     "total_funding": {
       "metric": "total_funding",
@@ -83,16 +83,16 @@
       },
       "as_of": "2026-04-01",
       "estimate_type": "consensus",
-      "confidence": 0.715,
+      "confidence": 0.714,
       "supporting_claims": [
-        "clm_a016200df2",
         "clm_49dc794396",
+        "clm_a016200df2",
         "clm_729da3aee9"
       ],
       "contradiction": false,
       "delta": {
         "previous": 1750000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-04-01"
       },
       "history_ref": "history/saronic/round_amount.jsonl",
@@ -110,11 +110,11 @@
       },
       "as_of": "2026-04-01",
       "estimate_type": "consensus",
-      "confidence": 0.715,
+      "confidence": 0.714,
       "supporting_claims": [
+        "clm_0eaf580807",
         "clm_31599b095f",
-        "clm_0e895c5c9e",
-        "clm_0eaf580807"
+        "clm_0e895c5c9e"
       ],
       "contradiction": false,
       "delta": {
@@ -128,5 +128,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-04"
+  "last_updated": "2026-09-05"
 }

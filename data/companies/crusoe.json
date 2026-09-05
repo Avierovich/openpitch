@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 87.4,
-  "universe_rank": 15,
+  "universe_rank": 16,
   "metrics": {
     "revenue_growth": {
       "metric": "revenue_growth",
@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2026-04-14",
       "estimate_type": "reported",
-      "confidence": 0.112,
+      "confidence": 0.111,
       "supporting_claims": [
         "clm_f6b7a66c37"
       ],
@@ -49,6 +49,10 @@
         "clm_09a506c64e",
         "clm_324ed43ba1",
         "clm_74cd995b9d",
+        "clm_d6bb16dc83",
+        "clm_923dafc85e",
+        "clm_964d9ab8c2",
+        "clm_73d31d71b1",
         "clm_bedc4a2106",
         "clm_372efe3658",
         "clm_703d3d8b1c",
@@ -59,9 +63,9 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 10000000000.0,
-        "change_pct": 200.0,
-        "since": "2026-04-14"
+        "previous": 30000000000.0,
+        "change_pct": -0.0,
+        "since": "2026-09-04"
       },
       "history_ref": "history/crusoe/valuation.jsonl",
       "unconfirmed": false,
@@ -78,10 +82,12 @@
       },
       "as_of": "2026-09-04",
       "estimate_type": "consensus",
-      "confidence": 0.926,
+      "confidence": 0.97,
       "supporting_claims": [
         "clm_f84199c056",
         "clm_b96899e681",
+        "clm_3d161a0609",
+        "clm_7032429eac",
         "clm_53760ab6df",
         "clm_c1e2960033",
         "clm_57e3f03351",
@@ -90,8 +96,8 @@
       "contradiction": false,
       "delta": {
         "previous": 3000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-07-06"
+        "change_pct": -0.0,
+        "since": "2026-09-04"
       },
       "history_ref": "history/crusoe/round_amount.jsonl",
       "unconfirmed": false,
@@ -108,18 +114,20 @@
       },
       "as_of": "2026-09-04",
       "estimate_type": "consensus",
-      "confidence": 0.949,
+      "confidence": 0.97,
       "supporting_claims": [
         "clm_bcc37a7741",
+        "clm_093f57bfa6",
+        "clm_6cce75c216",
         "clm_b3697d2cfa",
         "clm_e992f4242f",
         "clm_3de3a62455"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 1375000000.0,
-        "change_pct": 118.2,
-        "since": "2025-12-29"
+        "previous": 3000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-09-04"
       },
       "history_ref": "history/crusoe/total_funding.jsonl",
       "unconfirmed": false,
@@ -133,15 +141,15 @@
       "range": null,
       "as_of": "2026-09-04",
       "estimate_type": "reported",
-      "confidence": 0.525,
+      "confidence": 0.524,
       "supporting_claims": [
         "clm_e6f525de45"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 3000000000.0,
-        "change_pct": -100.0,
-        "since": "2026-07-02"
+        "previous": 6.0,
+        "change_pct": 0.0,
+        "since": "2026-09-04"
       },
       "history_ref": "history/crusoe/latest_round.jsonl",
       "unconfirmed": false,
@@ -149,5 +157,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-04"
+  "last_updated": "2026-09-05"
 }

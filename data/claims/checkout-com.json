@@ -1,53 +1,5 @@
 [
   {
-    "id": "clm_c52f749873",
-    "company_id": "checkout-com",
-    "metric": "valuation",
-    "value": 40000000000.0,
-    "unit": "USD",
-    "raw_text": "at $40bn valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "FinTech Futures",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVWQ4ekNtdzJIc2VjVGY3bGpVSG1OUFlxNGE5bzJDY3c0dUJBeFVXWl92YjMwV2NWWTVCYWxfU3c3ODhkQ0V6blBRRkVubml3MTJlSHdIaEZXcXRJZDRRYW85bGE4XzRjTWNDX3Z2SXNhQjA3bnY0MkhJZFpKQ3R3ZXVsMGJFMW10WmFKeGRtdzlELUtTVjA2MG5YeUN1aUVWNGYzSEFMUXQ3dmJZR04wU280bV9FY0tNTFQ1YTZMM1VFNmNrZ2tVcEp6MUR6NHVLQ1p6MQ?oc=5",
-      "locator": null,
-      "published_at": "2022-01-12"
-    },
-    "extracted_at": "2026-08-31T12:11:11.881256",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_4767129f40",
-    "company_id": "checkout-com",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "secured bumper $1bn Series D round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "FinTech Futures",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVWQ4ekNtdzJIc2VjVGY3bGpVSG1OUFlxNGE5bzJDY3c0dUJBeFVXWl92YjMwV2NWWTVCYWxfU3c3ODhkQ0V6blBRRkVubml3MTJlSHdIaEZXcXRJZDRRYW85bGE4XzRjTWNDX3Z2SXNhQjA3bnY0MkhJZFpKQ3R3ZXVsMGJFMW10WmFKeGRtdzlELUtTVjA2MG5YeUN1aUVWNGYzSEFMUXQ3dmJZR04wU280bV9FY0tNTFQ1YTZMM1VFNmNrZ2tVcEp6MUR6NHVLQ1p6MQ?oc=5",
-      "locator": null,
-      "published_at": "2022-01-12"
-    },
-    "extracted_at": "2026-08-31T12:11:11.881256",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_35b5ae8f89",
     "company_id": "checkout-com",
     "metric": "round_amount",
@@ -163,6 +115,152 @@
       "published_at": "2020-06-22"
     },
     "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_23ace66a16",
+    "company_id": "checkout-com",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "$1bn",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "fintechfutures.com",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVWQ4ekNtdzJIc2VjVGY3bGpVSG1OUFlxNGE5bzJDY3c0dUJBeFVXWl92YjMwV2NWWTVCYWxfU3c3ODhkQ0V6blBRRkVubml3MTJlSHdIaEZXcXRJZDRRYW85bGE4XzRjTWNDX3Z2SXNhQjA3bnY0MkhJZFpKQ3R3ZXVsMGJFMW10WmFKeGRtdzlELUtTVjA2MG5YeUN1aUVWNGYzSEFMUXQ3dmJZR04wU280bV9FY0tNTFQ1YTZMM1VFNmNrZ2tVcEp6MUR6NHVLQ1p6MQ?oc=5",
+      "locator": null,
+      "published_at": "2022-01-12"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_4b8e41603e",
+    "company_id": "checkout-com",
+    "metric": "latest_round",
+    "value": 4.0,
+    "unit": null,
+    "raw_text": "Series D",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "fintechfutures.com",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVWQ4ekNtdzJIc2VjVGY3bGpVSG1OUFlxNGE5bzJDY3c0dUJBeFVXWl92YjMwV2NWWTVCYWxfU3c3ODhkQ0V6blBRRkVubml3MTJlSHdIaEZXcXRJZDRRYW85bGE4XzRjTWNDX3Z2SXNhQjA3bnY0MkhJZFpKQ3R3ZXVsMGJFMW10WmFKeGRtdzlELUtTVjA2MG5YeUN1aUVWNGYzSEFMUXQ3dmJZR04wU280bV9FY0tNTFQ1YTZMM1VFNmNrZ2tVcEp6MUR6NHVLQ1p6MQ?oc=5",
+      "locator": null,
+      "published_at": "2022-01-12"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_ab45fbe1c4",
+    "company_id": "checkout-com",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": null,
+    "raw_text": "$40bn",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "fintechfutures.com",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVWQ4ekNtdzJIc2VjVGY3bGpVSG1OUFlxNGE5bzJDY3c0dUJBeFVXWl92YjMwV2NWWTVCYWxfU3c3ODhkQ0V6blBRRkVubml3MTJlSHdIaEZXcXRJZDRRYW85bGE4XzRjTWNDX3Z2SXNhQjA3bnY0MkhJZFpKQ3R3ZXVsMGJFMW10WmFKeGRtdzlELUtTVjA2MG5YeUN1aUVWNGYzSEFMUXQ3dmJZR04wU280bV9FY0tNTFQ1YTZMM1VFNmNrZ2tVcEp6MUR6NHVLQ1p6MQ?oc=5",
+      "locator": null,
+      "published_at": "2022-01-12"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_c18fa2b110",
+    "company_id": "checkout-com",
+    "metric": "valuation",
+    "value": 12000000000.0,
+    "unit": null,
+    "raw_text": "$12bn",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "sifted.eu",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Sa2Fsa09tZG9ydVliUWhnUTNJR1BRMU8yb09kWWpaSXRSbzdieVMwWjFZc2l3OXFraTlGclBoX0RhVTdtSTdFdDh4aDJrSHdjcFJlTUlhTkVERlNvQkxudE1wWWkwbWZNb3BUbFRiNkkxY1Vx?oc=5",
+      "locator": null,
+      "published_at": "2025-09-26"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_c52f749873",
+    "company_id": "checkout-com",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "at $40bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "FinTech Futures",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVWQ4ekNtdzJIc2VjVGY3bGpVSG1OUFlxNGE5bzJDY3c0dUJBeFVXWl92YjMwV2NWWTVCYWxfU3c3ODhkQ0V6blBRRkVubml3MTJlSHdIaEZXcXRJZDRRYW85bGE4XzRjTWNDX3Z2SXNhQjA3bnY0MkhJZFpKQ3R3ZXVsMGJFMW10WmFKeGRtdzlELUtTVjA2MG5YeUN1aUVWNGYzSEFMUXQ3dmJZR04wU280bV9FY0tNTFQ1YTZMM1VFNmNrZ2tVcEp6MUR6NHVLQ1p6MQ?oc=5",
+      "locator": null,
+      "published_at": "2022-01-12"
+    },
+    "extracted_at": "2026-08-31T12:11:11.881256",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_4767129f40",
+    "company_id": "checkout-com",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "secured bumper $1bn Series D round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "FinTech Futures",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVWQ4ekNtdzJIc2VjVGY3bGpVSG1OUFlxNGE5bzJDY3c0dUJBeFVXWl92YjMwV2NWWTVCYWxfU3c3ODhkQ0V6blBRRkVubml3MTJlSHdIaEZXcXRJZDRRYW85bGE4XzRjTWNDX3Z2SXNhQjA3bnY0MkhJZFpKQ3R3ZXVsMGJFMW10WmFKeGRtdzlELUtTVjA2MG5YeUN1aUVWNGYzSEFMUXQ3dmJZR04wU280bV9FY0tNTFQ1YTZMM1VFNmNrZ2tVcEp6MUR6NHVLQ1p6MQ?oc=5",
+      "locator": null,
+      "published_at": "2022-01-12"
+    },
+    "extracted_at": "2026-08-31T12:11:11.881256",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null

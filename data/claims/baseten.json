@@ -172,16 +172,64 @@
     "derivation": null
   },
   {
+    "id": "clm_50bbcdb292",
+    "company_id": "baseten",
+    "metric": "round_amount",
+    "value": 300000000.0,
+    "unit": null,
+    "raw_text": "raises $300m",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech in Asia",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNHpUYXoyUm00NXVESU5IdlA3X25HWmpxV2JySFg1bWJjTldwelZienI3NlFlT0JmMTRUWFB0UTVwT0dMZkRfX2ZCc1JaOFBKU0tQTjBCVkQzMWdYZDdkV19FZ19UYy1jVWttd3JMX085azFhMzZXQjFMVlRCdjZyeXJ5LWEwSzZPSkQySGpB?oc=5",
+      "locator": null,
+      "published_at": "2026-01-21"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_ebed39b07b",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 5000000000.0,
+    "unit": null,
+    "raw_text": "valued at $5b",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech in Asia",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNHpUYXoyUm00NXVESU5IdlA3X25HWmpxV2JySFg1bWJjTldwelZienI3NlFlT0JmMTRUWFB0UTVwT0dMZkRfX2ZCc1JaOFBKU0tQTjBCVkQzMWdYZDdkV19FZ19UYy1jVWttd3JMX085azFhMzZXQjFMVlRCdjZyeXJ5LWEwSzZPSkQySGpB?oc=5",
+      "locator": null,
+      "published_at": "2026-01-21"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_adcef28feb",
     "company_id": "baseten",
     "metric": "revenue_growth",
     "value": 30.0,
-    "unit": null,
+    "unit": "x",
     "raw_text": "Baseten’s 30x growth",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "founder"
+      "role": "unknown"
     },
     "source": {
       "type": "podcast",
@@ -190,9 +238,9 @@
       "locator": null,
       "published_at": "2026-05-01"
     },
-    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extracted_at": "2026-09-05T09:07:28.177448",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.6,
+    "base_confidence": 0.3,
     "derivation": null
   },
   {
@@ -577,54 +625,6 @@
     "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_50bbcdb292",
-    "company_id": "baseten",
-    "metric": "round_amount",
-    "value": 300000000.0,
-    "unit": null,
-    "raw_text": "raises $300m",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech in Asia",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNHpUYXoyUm00NXVESU5IdlA3X25HWmpxV2JySFg1bWJjTldwelZienI3NlFlT0JmMTRUWFB0UTVwT0dMZkRfX2ZCc1JaOFBKU0tQTjBCVkQzMWdYZDdkV19FZ19UYy1jVWttd3JMX085azFhMzZXQjFMVlRCdjZyeXJ5LWEwSzZPSkQySGpB?oc=5",
-      "locator": null,
-      "published_at": "2026-01-21"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_ebed39b07b",
-    "company_id": "baseten",
-    "metric": "valuation",
-    "value": 5000000000.0,
-    "unit": null,
-    "raw_text": "valued at $5b",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech in Asia",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNHpUYXoyUm00NXVESU5IdlA3X25HWmpxV2JySFg1bWJjTldwelZienI3NlFlT0JmMTRUWFB0UTVwT0dMZkRfX2ZCc1JaOFBKU0tQTjBCVkQzMWdYZDdkV19FZ19UYy1jVWttd3JMX085azFhMzZXQjFMVlRCdjZyeXJ5LWEwSzZPSkQySGpB?oc=5",
-      "locator": null,
-      "published_at": "2026-01-21"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -1368,7 +1368,7 @@
       "locator": null,
       "published_at": "2026-06-23"
     },
-    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extracted_at": "2026-09-05T09:07:28.177448",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

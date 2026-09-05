@@ -1,58 +1,5 @@
 [
   {
-    "id": "clm_2f8e926ce6",
-    "company_id": "openai",
-    "metric": "arr",
-    "value": 40000000000.0,
-    "unit": "USD",
-    "raw_text": "$40bn Revenue Run Rate",
-    "qualifiers": [
-      "run_rate",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "exec"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tekedia",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYmhJdlJSMHVaQ3FuMnB1ZXBUaXRiaThycEFHYW9GRkEtTEZrczFsbk1aVGtyeWRicHRzZmZoVGhjZ1BodDVRZWpsb3RkelVLSVFLeGdxM1BjTmRWclh4TzR3SkVoeWxYbGJLQ0p6QmpvS2xBX3FDUXgyOW1RN0ZEalVUOGZUM2VzNmNTUEYwT0Vhc1RjQzliN3dGUC1hdGNWWjRnVmlrMjByN0cwZWZhYkgwNzBabXlBcFVBSHdMV2NVXzJ2a3h6YUdXZUU?oc=5",
-      "locator": null,
-      "published_at": "2026-08-20"
-    },
-    "extracted_at": "2026-08-21T05:50:03.226228",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_94b4e77d59",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 852000000000.0,
-    "unit": "USD",
-    "raw_text": "$852bn Valuation",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "exec"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tekedia",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYmhJdlJSMHVaQ3FuMnB1ZXBUaXRiaThycEFHYW9GRkEtTEZrczFsbk1aVGtyeWRicHRzZmZoVGhjZ1BodDVRZWpsb3RkelVLSVFLeGdxM1BjTmRWclh4TzR3SkVoeWxYbGJLQ0p6QmpvS2xBX3FDUXgyOW1RN0ZEalVUOGZUM2VzNmNTUEYwT0Vhc1RjQzliN3dGUC1hdGNWWjRnVmlrMjByN0cwZWZhYkgwNzBabXlBcFVBSHdMV2NVXzJ2a3h6YUdXZUU?oc=5",
-      "locator": null,
-      "published_at": "2026-08-20"
-    },
-    "extracted_at": "2026-08-21T05:50:03.226228",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_8fabc82371",
     "company_id": "openai",
     "metric": "round_amount",
@@ -124,6 +71,111 @@
     "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.27,
+    "derivation": null
+  },
+  {
+    "id": "clm_0a26ed6043",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "hits $1 billion annualized revenue run rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE84TTNSWnpWUm4yMnJ5Wkk5aHg1clFxY1A1OHkxcVRiZ25SY01oWk1rN1QtMlVFQ2NpTWZMejVzS2dfaldqcEFiSEhIVUhESHJUZnNZQXRRaUZzUFBWenZVRlFrcnQzV0JwTE94Mm1KckIyQdIBd0FVX3lxTE5QU1lUNWNXX0FrZFFxSnVycUZMSjFVM1pkbWJQMmloVk5PRVE0bWp5a3BzSm1HaVJ1ZFV3MlNBU3pKaFl4WE9DZUhWLWVBTkZvTUlPVU80SXBEWk4wUHFZQmVUanpXTHpfMU80bWtXdHJUMTVJQVBN?oc=5",
+      "locator": null,
+      "published_at": "2026-08-31"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3375,
+    "derivation": null
+  },
+  {
+    "id": "clm_e28c12bdb7",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "hits $1 billion annualized revenue run rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPM0hKQjN1ekFIRWlQcEVJazFubmJLMXlnTHZ6T1drTTFQcldkUTJsV0FMVXJMX2YwYThaaXQxYnNiTGhYQTlIcF9VdWZrd1lSWXExdkZGU1I3NXZ2ZVNPUk5ySHd3d0VJUTNieDA5S0NwY0l0eG84NVdGelkzT2tqNjd3RE1EdHpSWlNuU1RlSUJmZW1HNVU3M3FYTU9zSm1uS1B5OExKUkxZY2k5OURHdFczblVhQm9pd0NjZnVR?oc=5",
+      "locator": null,
+      "published_at": "2026-08-31"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3375,
+    "derivation": null
+  },
+  {
+    "id": "clm_2f8e926ce6",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "$40bn Revenue Run Rate",
+    "qualifiers": [
+      "run_rate",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tekedia",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYmhJdlJSMHVaQ3FuMnB1ZXBUaXRiaThycEFHYW9GRkEtTEZrczFsbk1aVGtyeWRicHRzZmZoVGhjZ1BodDVRZWpsb3RkelVLSVFLeGdxM1BjTmRWclh4TzR3SkVoeWxYbGJLQ0p6QmpvS2xBX3FDUXgyOW1RN0ZEalVUOGZUM2VzNmNTUEYwT0Vhc1RjQzliN3dGUC1hdGNWWjRnVmlrMjByN0cwZWZhYkgwNzBabXlBcFVBSHdMV2NVXzJ2a3h6YUdXZUU?oc=5",
+      "locator": null,
+      "published_at": "2026-08-20"
+    },
+    "extracted_at": "2026-08-21T05:50:03.226228",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_94b4e77d59",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 852000000000.0,
+    "unit": "USD",
+    "raw_text": "$852bn Valuation",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tekedia",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYmhJdlJSMHVaQ3FuMnB1ZXBUaXRiaThycEFHYW9GRkEtTEZrczFsbk1aVGtyeWRicHRzZmZoVGhjZ1BodDVRZWpsb3RkelVLSVFLeGdxM1BjTmRWclh4TzR3SkVoeWxYbGJLQ0p6QmpvS2xBX3FDUXgyOW1RN0ZEalVUOGZUM2VzNmNTUEYwT0Vhc1RjQzliN3dGUC1hdGNWWjRnVmlrMjByN0cwZWZhYkgwNzBabXlBcFVBSHdMV2NVXzJ2a3h6YUdXZUU?oc=5",
+      "locator": null,
+      "published_at": "2026-08-20"
+    },
+    "extracted_at": "2026-08-21T05:50:03.226228",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -199,58 +251,6 @@
     "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_0a26ed6043",
-    "company_id": "openai",
-    "metric": "arr",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "hits $1 billion annualized revenue run rate",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE84TTNSWnpWUm4yMnJ5Wkk5aHg1clFxY1A1OHkxcVRiZ25SY01oWk1rN1QtMlVFQ2NpTWZMejVzS2dfaldqcEFiSEhIVUhESHJUZnNZQXRRaUZzUFBWenZVRlFrcnQzV0JwTE94Mm1KckIyQdIBd0FVX3lxTE5QU1lUNWNXX0FrZFFxSnVycUZMSjFVM1pkbWJQMmloVk5PRVE0bWp5a3BzSm1HaVJ1ZFV3MlNBU3pKaFl4WE9DZUhWLWVBTkZvTUlPVU80SXBEWk4wUHFZQmVUanpXTHpfMU80bWtXdHJUMTVJQVBN?oc=5",
-      "locator": null,
-      "published_at": "2026-08-31"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3375,
-    "derivation": null
-  },
-  {
-    "id": "clm_e28c12bdb7",
-    "company_id": "openai",
-    "metric": "arr",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "hits $1 billion annualized revenue run rate",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPM0hKQjN1ekFIRWlQcEVJazFubmJLMXlnTHZ6T1drTTFQcldkUTJsV0FMVXJMX2YwYThaaXQxYnNiTGhYQTlIcF9VdWZrd1lSWXExdkZGU1I3NXZ2ZVNPUk5ySHd3d0VJUTNieDA5S0NwY0l0eG84NVdGelkzT2tqNjd3RE1EdHpSWlNuU1RlSUJmZW1HNVU3M3FYTU9zSm1uS1B5OExKUkxZY2k5OURHdFczblVhQm9pd0NjZnVR?oc=5",
-      "locator": null,
-      "published_at": "2026-08-31"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3375,
     "derivation": null
   },
   {
@@ -948,7 +948,7 @@
       "locator": null,
       "published_at": "2026-08-20"
     },
-    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extracted_at": "2026-09-05T09:07:28.177448",
     "extractor_model": "derive-engine",
     "base_confidence": 0.4658,
     "derivation": {

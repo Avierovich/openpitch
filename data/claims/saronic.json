@@ -72,6 +72,78 @@
     "derivation": null
   },
   {
+    "id": "clm_49dc794396",
+    "company_id": "saronic",
+    "metric": "round_amount",
+    "value": 1750000000.0,
+    "unit": "USD",
+    "raw_text": "Closes $1.75B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "aap.com.au",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PQWE5OVVoV00ycWJGd2I4MVRhS2hQN2prTWI2dzJZNGc2bTFkdFB5ZHFWaVdzaXZIMlF2dkE1Qml2S0ZSbGJkODFVTF9neUlqQU5HLXZ5dDBoQkt4N3JEYjQwcw?oc=5",
+      "locator": null,
+      "published_at": "2026-03-31"
+    },
+    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_0eaf580807",
+    "company_id": "saronic",
+    "metric": "latest_round",
+    "value": 4.0,
+    "unit": "series",
+    "raw_text": "Series D",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "aap.com.au",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PQWE5OVVoV00ycWJGd2I4MVRhS2hQN2prTWI2dzJZNGc2bTFkdFB5ZHFWaVdzaXZIMlF2dkE1Qml2S0ZSbGJkODFVTF9neUlqQU5HLXZ5dDBoQkt4N3JEYjQwcw?oc=5",
+      "locator": null,
+      "published_at": "2026-03-31"
+    },
+    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_f9544a669d",
+    "company_id": "saronic",
+    "metric": "valuation",
+    "value": 9250000000.0,
+    "unit": "USD",
+    "raw_text": "$9.25B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "aap.com.au",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PQWE5OVVoV00ycWJGd2I4MVRhS2hQN2prTWI2dzJZNGc2bTFkdFB5ZHFWaVdzaXZIMlF2dkE1Qml2S0ZSbGJkODFVTF9neUlqQU5HLXZ5dDBoQkt4N3JEYjQwcw?oc=5",
+      "locator": null,
+      "published_at": "2026-03-31"
+    },
+    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_4588fac630",
     "company_id": "saronic",
     "metric": "round_amount",
@@ -165,6 +237,32 @@
     "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_8d4ea07e6d",
+    "company_id": "saronic",
+    "metric": "valuation",
+    "value": 9000000000.0,
+    "unit": null,
+    "raw_text": "$9 billion valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Washington Technology",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcmJlOXZKUjRMZWtIemM2NEhYVUJ6bms1RTlIUXQtSzhBSjBYaVpjUTdlNHlrVFQ5ZVZVUGFpdHhJUGFhV0paRXptSFRCV0FVTEdPZllTTXNBN1NRUEhGOURDczBpUkN4TkZaeDB5Y0Q1Mm5Qa3hVQWs5WUt4b0k2MjVNaEIwV3ZMeVlMZWZpTS1XNjNGRm0ycTdqSy1lTWVnekhPUG1JaC1INW9TX2QwV2NXcjVaeDI5WE9ud0xfMXA3MWdrcU05cmRn?oc=5",
+      "locator": null,
+      "published_at": "2026-04-01"
+    },
+    "extracted_at": "2026-08-21T05:50:03.226228",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -408,78 +506,6 @@
     "derivation": null
   },
   {
-    "id": "clm_49dc794396",
-    "company_id": "saronic",
-    "metric": "round_amount",
-    "value": 1750000000.0,
-    "unit": "USD",
-    "raw_text": "Closes $1.75B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "aap.com.au",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PQWE5OVVoV00ycWJGd2I4MVRhS2hQN2prTWI2dzJZNGc2bTFkdFB5ZHFWaVdzaXZIMlF2dkE1Qml2S0ZSbGJkODFVTF9neUlqQU5HLXZ5dDBoQkt4N3JEYjQwcw?oc=5",
-      "locator": null,
-      "published_at": "2026-03-31"
-    },
-    "extracted_at": "2026-08-22T05:47:44.406970",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_0eaf580807",
-    "company_id": "saronic",
-    "metric": "latest_round",
-    "value": 4.0,
-    "unit": "series",
-    "raw_text": "Series D",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "aap.com.au",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PQWE5OVVoV00ycWJGd2I4MVRhS2hQN2prTWI2dzJZNGc2bTFkdFB5ZHFWaVdzaXZIMlF2dkE1Qml2S0ZSbGJkODFVTF9neUlqQU5HLXZ5dDBoQkt4N3JEYjQwcw?oc=5",
-      "locator": null,
-      "published_at": "2026-03-31"
-    },
-    "extracted_at": "2026-08-22T05:47:44.406970",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_f9544a669d",
-    "company_id": "saronic",
-    "metric": "valuation",
-    "value": 9250000000.0,
-    "unit": "USD",
-    "raw_text": "$9.25B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "aap.com.au",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PQWE5OVVoV00ycWJGd2I4MVRhS2hQN2prTWI2dzJZNGc2bTFkdFB5ZHFWaVdzaXZIMlF2dkE1Qml2S0ZSbGJkODFVTF9neUlqQU5HLXZ5dDBoQkt4N3JEYjQwcw?oc=5",
-      "locator": null,
-      "published_at": "2026-03-31"
-    },
-    "extracted_at": "2026-08-22T05:47:44.406970",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_08431f8a5e",
     "company_id": "saronic",
     "metric": "valuation",
@@ -621,32 +647,6 @@
     "extracted_at": "2026-07-06T14:31:09.058208",
     "extractor_model": "gemini-2.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_8d4ea07e6d",
-    "company_id": "saronic",
-    "metric": "valuation",
-    "value": 9000000000.0,
-    "unit": null,
-    "raw_text": "$9 billion valuation",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Washington Technology",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcmJlOXZKUjRMZWtIemM2NEhYVUJ6bms1RTlIUXQtSzhBSjBYaVpjUTdlNHlrVFQ5ZVZVUGFpdHhJUGFhV0paRXptSFRCV0FVTEdPZllTTXNBN1NRUEhGOURDczBpUkN4TkZaeDB5Y0Q1Mm5Qa3hVQWs5WUt4b0k2MjVNaEIwV3ZMeVlMZWZpTS1XNjNGRm0ycTdqSy1lTWVnekhPUG1JaC1INW9TX2QwV2NXcjVaeDI5WE9ud0xfMXA3MWdrcU05cmRn?oc=5",
-      "locator": null,
-      "published_at": "2026-04-01"
-    },
-    "extracted_at": "2026-08-21T05:50:03.226228",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
     "derivation": null
   }
 ]

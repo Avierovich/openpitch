@@ -130,33 +130,6 @@
     "derivation": null
   },
   {
-    "id": "clm_7de07e1912",
-    "company_id": "project-prometheus",
-    "metric": "round_amount",
-    "value": 10000000000.0,
-    "unit": "USD",
-    "raw_text": "Targets $10 Billion",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Analytics Insight",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQLWhmckdoU2pZa1RNTmJRMzBadUNYRkxmc0hwcG95eWJvVEhUY1lzQjhLSDVwbXg2YmVlLU5CQXQtRFdSb3JjR25jVlR5dE9sazFzQ3ZnQ09ybUhkdnBhNGI1U3VJamJMYUY1OTVhSGJlNmRabVRxUkxzUFJfZXdOOHBvTTV0WWd6bmpPRmNSZk1GdXNPMTZmNEdaVnlXcHZ5VUJ4cDhnZHBkcWdsUEg3LUZjdjVoTWNmTTNrazUwLVpudDBMcnA1blZoa3FDdHBuaHQ40gHgAUFVX3lxTE9BaktzN3hJVmdrdVVrTXpjREdLaDlNNFpHSkpLM3kwRWpfZGJrTWxhd3lMaGtFaTQ3N3VaZm1mVU82RFRwTjViNnVNYnFJQUxhd0J2U2RyM0l0clo5cjlsV2JjbmJTeWFyRjVQdUo4Q1BOVE90bldDaEpCZ1JkTGRPalhNd3R6ZFJaczRWRjloVElfaXM4TDZwNlBlM0dJNDJSekRQOG01RUhQMTlRVkgtUWFUMGp5emYtS2lPbUZyelZzbjJKRnNRQTlhN1BIRjBlV2hDVXI2LXRucmR6RldU?oc=5",
-      "locator": null,
-      "published_at": "2026-04-24"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
     "id": "clm_8e48249e30",
     "company_id": "project-prometheus",
     "metric": "total_funding",
@@ -227,6 +200,108 @@
       "published_at": "2026-04-21"
     },
     "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_b3b2eb81c5",
+    "company_id": "project-prometheus",
+    "metric": "valuation",
+    "value": 38000000000.0,
+    "unit": null,
+    "raw_text": "Jeff Bezos’ Project Prometheus valued at $38 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Digest",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcnBjcXJnWm9Dd2tyYWhndWNNbnRmeGZnNGRmZXAtUUc4dHUycGdKOHlnNlBkbUdKOUhuNzlWTkxjOXRxYlFtX1daSGRPalVBXzFLVmRKQ25odUZhQnVxV0FycHEydkl2NHV3UlYtWVVyZHdmbm5EQkFJNlZXNjdOYnF5c2o5WXF5LUo4RURsVmF5bnh1SGI1M1IzN25ZbmJiNTFOZjhsZkE5X0VhUEstajRLZTZkUjBCRTNaWElUOA?oc=5",
+      "locator": null,
+      "published_at": "2026-04-21"
+    },
+    "extracted_at": "2026-07-06T14:31:09.058208",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_ace6101b80",
+    "company_id": "project-prometheus",
+    "metric": "total_funding",
+    "value": 10000000000.0,
+    "unit": null,
+    "raw_text": "after raising $10 billion funding",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Digest",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcnBjcXJnWm9Dd2tyYWhndWNNbnRmeGZnNGRmZXAtUUc4dHUycGdKOHlnNlBkbUdKOUhuNzlWTkxjOXRxYlFtX1daSGRPalVBXzFLVmRKQ25odUZhQnVxV0FycHEydkl2NHV3UlYtWVVyZHdmbm5EQkFJNlZXNjdOYnF5c2o5WXF5LUo4RURsVmF5bnh1SGI1M1IzN25ZbmJiNTFOZjhsZkE5X0VhUEstajRLZTZkUjBCRTNaWElUOA?oc=5",
+      "locator": null,
+      "published_at": "2026-04-21"
+    },
+    "extracted_at": "2026-07-06T14:31:09.058208",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_1c76074e33",
+    "company_id": "project-prometheus",
+    "metric": "valuation",
+    "value": 38000000000.0,
+    "unit": "USD",
+    "raw_text": "nears $38 billion valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSlZLWm1USllhejFqRWVxWWdJQlRFWjdiMHBpSDdnR2EydHlSN1dTQWo1NVJnV0J3M3dxenFmWk5FSkstejRIRUMtbjJlM1lscmNHbnNVeE5LWF9CLUw1c2Y5b3hZMEJoTEJXaDE4UVZyWWZyT3JSVG9qcHdJNUNjcmhsZDZ5S3d3d3Y2R21mdmVrU2oyR3Vz?oc=5",
+      "locator": null,
+      "published_at": "2026-04-20"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_7de07e1912",
+    "company_id": "project-prometheus",
+    "metric": "round_amount",
+    "value": 10000000000.0,
+    "unit": "USD",
+    "raw_text": "Targets $10 Billion",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Analytics Insight",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQLWhmckdoU2pZa1RNTmJRMzBadUNYRkxmc0hwcG95eWJvVEhUY1lzQjhLSDVwbXg2YmVlLU5CQXQtRFdSb3JjR25jVlR5dE9sazFzQ3ZnQ09ybUhkdnBhNGI1U3VJamJMYUY1OTVhSGJlNmRabVRxUkxzUFJfZXdOOHBvTTV0WWd6bmpPRmNSZk1GdXNPMTZmNEdaVnlXcHZ5VUJ4cDhnZHBkcWdsUEg3LUZjdjVoTWNmTTNrazUwLVpudDBMcnA1blZoa3FDdHBuaHQ40gHgAUFVX3lxTE9BaktzN3hJVmdrdVVrTXpjREdLaDlNNFpHSkpLM3kwRWpfZGJrTWxhd3lMaGtFaTQ3N3VaZm1mVU82RFRwTjViNnVNYnFJQUxhd0J2U2RyM0l0clo5cjlsV2JjbmJTeWFyRjVQdUo4Q1BOVE90bldDaEpCZ1JkTGRPalhNd3R6ZFJaczRWRjloVElfaXM4TDZwNlBlM0dJNDJSekRQOG01RUhQMTlRVkgtUWFUMGp5emYtS2lPbUZyelZzbjJKRnNRQTlhN1BIRjBlV2hDVXI2LXRucmR6RldU?oc=5",
+      "locator": null,
+      "published_at": "2026-04-24"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
     "derivation": null
@@ -327,54 +402,6 @@
     },
     "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_b3b2eb81c5",
-    "company_id": "project-prometheus",
-    "metric": "valuation",
-    "value": 38000000000.0,
-    "unit": null,
-    "raw_text": "Jeff Bezos’ Project Prometheus valued at $38 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech Digest",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcnBjcXJnWm9Dd2tyYWhndWNNbnRmeGZnNGRmZXAtUUc4dHUycGdKOHlnNlBkbUdKOUhuNzlWTkxjOXRxYlFtX1daSGRPalVBXzFLVmRKQ25odUZhQnVxV0FycHEydkl2NHV3UlYtWVVyZHdmbm5EQkFJNlZXNjdOYnF5c2o5WXF5LUo4RURsVmF5bnh1SGI1M1IzN25ZbmJiNTFOZjhsZkE5X0VhUEstajRLZTZkUjBCRTNaWElUOA?oc=5",
-      "locator": null,
-      "published_at": "2026-04-21"
-    },
-    "extracted_at": "2026-07-06T14:31:09.058208",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_ace6101b80",
-    "company_id": "project-prometheus",
-    "metric": "total_funding",
-    "value": 10000000000.0,
-    "unit": null,
-    "raw_text": "after raising $10 billion funding",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech Digest",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcnBjcXJnWm9Dd2tyYWhndWNNbnRmeGZnNGRmZXAtUUc4dHUycGdKOHlnNlBkbUdKOUhuNzlWTkxjOXRxYlFtX1daSGRPalVBXzFLVmRKQ25odUZhQnVxV0FycHEydkl2NHV3UlYtWVVyZHdmbm5EQkFJNlZXNjdOYnF5c2o5WXF5LUo4RURsVmF5bnh1SGI1M1IzN25ZbmJiNTFOZjhsZkE5X0VhUEstajRLZTZkUjBCRTNaWElUOA?oc=5",
-      "locator": null,
-      "published_at": "2026-04-21"
-    },
-    "extracted_at": "2026-07-06T14:31:09.058208",
-    "extractor_model": "gemini-2.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
   },

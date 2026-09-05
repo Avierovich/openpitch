@@ -10,14 +10,14 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 84.4,
-  "universe_rank": 34,
+  "universe_rank": 36,
   "metrics": {
     "headcount": {
       "metric": "headcount",
       "value": 3000.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-09-04",
+      "as_of": "2026-09-05",
       "estimate_type": "reported",
       "confidence": 0.191,
       "supporting_claims": [
@@ -34,6 +34,40 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "valuation": {
+      "metric": "valuation",
+      "value": 12994584016.87,
+      "unit": "USD",
+      "range": {
+        "low": 13000000000.0,
+        "high": 13000000000.0
+      },
+      "as_of": "2026-08-17",
+      "estimate_type": "consensus",
+      "confidence": 0.739,
+      "supporting_claims": [
+        "clm_93f95c055d",
+        "clm_c4c9b3614e",
+        "clm_e18945a753",
+        "clm_abdd22d911",
+        "clm_a763c890a1",
+        "clm_2a8fd8cab3",
+        "clm_6c6795bd99",
+        "clm_1bea91a08f",
+        "clm_0b81e88e78",
+        "clm_12e0450ab9"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 12994584016.87,
+        "change_pct": 0.0,
+        "since": "2026-08-17"
+      },
+      "history_ref": "history/celonis/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "arr": {
       "metric": "arr",
       "value": 771000000.0,
@@ -41,7 +75,7 @@
       "range": null,
       "as_of": "2026-07-03",
       "estimate_type": "reported",
-      "confidence": 0.252,
+      "confidence": 0.249,
       "supporting_claims": [
         "clm_4a9d9165ee"
       ],
@@ -56,36 +90,42 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "valuation": {
-      "metric": "valuation",
-      "value": 12994584016.87,
-      "unit": "USD",
-      "range": {
-        "low": 13000000000.0,
-        "high": 13000000000.0
-      },
-      "as_of": "2026-08-17",
-      "estimate_type": "consensus",
-      "confidence": 0.74,
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 4.0,
+      "unit": "object",
+      "range": null,
+      "as_of": "2022-09-06",
+      "estimate_type": "reported",
+      "confidence": 0.007,
       "supporting_claims": [
-        "clm_93f95c055d",
-        "clm_e18945a753",
-        "clm_c4c9b3614e",
-        "clm_abdd22d911",
-        "clm_a763c890a1",
-        "clm_2a8fd8cab3",
-        "clm_6c6795bd99",
-        "clm_1bea91a08f",
-        "clm_0b81e88e78",
-        "clm_12e0450ab9"
+        "clm_8310c532cf"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/celonis/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 400000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2022-09-06",
+      "estimate_type": "reported",
+      "confidence": 0.007,
+      "supporting_claims": [
+        "clm_d45e9714b9"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 12994533082.47,
-        "change_pct": 0.0,
-        "since": "2026-08-17"
+        "previous": 1000000000.0,
+        "change_pct": -60.0,
+        "since": "2021-10-05"
       },
-      "history_ref": "history/celonis/valuation.jsonl",
+      "history_ref": "history/celonis/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -114,28 +154,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 1000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2021-10-05",
-      "estimate_type": "reported",
-      "confidence": 0.004,
-      "supporting_claims": [
-        "clm_344f876c8b"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1000000000.0,
-        "change_pct": 0.0,
-        "since": "2021-10-05"
-      },
-      "history_ref": "history/celonis/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "revenue_multiple": {
       "metric": "revenue_multiple",
       "value": 16.86,
@@ -143,9 +161,9 @@
       "range": null,
       "as_of": "2026-07-03",
       "estimate_type": "reported",
-      "confidence": 0.122,
+      "confidence": 0.12,
       "supporting_claims": [
-        "drv_115791d1aa"
+        "drv_80e5ee347f"
       ],
       "contradiction": false,
       "delta": {
@@ -159,5 +177,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-04"
+  "last_updated": "2026-09-05"
 }

@@ -27,6 +27,30 @@
     "derivation": null
   },
   {
+    "id": "clm_c4c9b3614e",
+    "company_id": "celonis",
+    "metric": "valuation",
+    "value": 13000000000.0,
+    "unit": "USD",
+    "raw_text": "Celonis valued at $13 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "bizjournals.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMmRIZy1PZXUtQ3pPeHpqSW4zNG9icnh3WHhqeUpvMFI3STd6OGpUenY5MjY3M3hEN2lKMXkyc1c4UkhNNUdOV3VKSjNRZ2ItUzRpVWdvV1N3eDhPdzg4TjdYU2VZYzQ5VFNMQ3oyVXZmMHFNdlc5S2dCNXFjbzVvTy1fVVlwU09FTzJxR3dsUmJ6N3dHODR1ZjJGODBNUE93dmJOaQ?oc=5",
+      "locator": null,
+      "published_at": "2022-08-29"
+    },
+    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_4a9d9165ee",
     "company_id": "celonis",
     "metric": "arr",
@@ -78,6 +102,54 @@
     "derivation": null
   },
   {
+    "id": "clm_8310c532cf",
+    "company_id": "celonis",
+    "metric": "latest_round",
+    "value": 4.0,
+    "unit": null,
+    "raw_text": "Series D",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "lw.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWWthNEZYV3ZybGhHS0xwc2h1TUlENWJsR2dTYTJUeE0wd0xVaHpobHN1TExCZmo1Z2dGZWpSNmNtdnpscS1aMHMwRnc1VnpSUmx1X3A5X1FtdC0xMVloaTNORzhuNlF6VlUtdHg0Z1JOZWx5eHJGRGhFMnV5S0hmZ2d5WklmMWVjelJQYkRMb2VGOFNsZFJ3MXFsc2FGdVZWbXFhZQ?oc=5",
+      "locator": null,
+      "published_at": "2022-09-06"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_d45e9714b9",
+    "company_id": "celonis",
+    "metric": "round_amount",
+    "value": 400000000.0,
+    "unit": "USD",
+    "raw_text": "US$400 Million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "lw.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWWthNEZYV3ZybGhHS0xwc2h1TUlENWJsR2dTYTJUeE0wd0xVaHpobHN1TExCZmo1Z2dGZWpSNmNtdnpscS1aMHMwRnc1VnpSUmx1X3A5X1FtdC0xMVloaTNORzhuNlF6VlUtdHg0Z1JOZWx5eHJGRGhFMnV5S0hmZ2d5WklmMWVjelJQYkRMb2VGOFNsZFJ3MXFsc2FGdVZWbXFhZQ?oc=5",
+      "locator": null,
+      "published_at": "2022-09-06"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_f0638776aa",
     "company_id": "celonis",
     "metric": "total_funding",
@@ -97,30 +169,6 @@
       "published_at": "2022-08-23"
     },
     "extracted_at": "2026-08-27T17:02:21.670041",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_c4c9b3614e",
-    "company_id": "celonis",
-    "metric": "valuation",
-    "value": 13000000000.0,
-    "unit": "USD",
-    "raw_text": "Celonis valued at $13 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "bizjournals.com",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMmRIZy1PZXUtQ3pPeHpqSW4zNG9icnh3WHhqeUpvMFI3STd6OGpUenY5MjY3M3hEN2lKMXkyc1c4UkhNNUdOV3VKSjNRZ2ItUzRpVWdvV1N3eDhPdzg4TjdYU2VZYzQ5VFNMQ3oyVXZmMHFNdlc5S2dCNXFjbzVvTy1fVVlwU09FTzJxR3dsUmJ6N3dHODR1ZjJGODBNUE93dmJOaQ?oc=5",
-      "locator": null,
-      "published_at": "2022-08-29"
-    },
-    "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -462,7 +510,7 @@
     "derivation": null
   },
   {
-    "id": "drv_115791d1aa",
+    "id": "drv_80e5ee347f",
     "company_id": "celonis",
     "metric": "revenue_multiple",
     "value": 16.86,
@@ -480,14 +528,14 @@
       "locator": null,
       "published_at": "2026-07-03"
     },
-    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extracted_at": "2026-09-05T09:07:28.177448",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2054,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_e18945a753",
+        "clm_c4c9b3614e",
         "clm_4a9d9165ee"
       ]
     }

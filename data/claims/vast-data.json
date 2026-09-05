@@ -168,51 +168,51 @@
     "derivation": null
   },
   {
-    "id": "clm_d32880da7b",
+    "id": "clm_13dd2d942a",
     "company_id": "vast-data",
     "metric": "round_amount",
     "value": 1000000000.0,
-    "unit": null,
+    "unit": "USD",
     "raw_text": "$1b raise",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "exec"
     },
     "source": {
       "type": "news",
-      "name": "The Jerusalem Post",
+      "name": "jpost.com",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRWTdsZng0bDZfbVUta0xOM1NvVlpSZ3hFR0FYZS1mS1k2eEhXdlZsWFhjanhVa01SdVN3blF6ZzQ5a2VUUXJvbDFpS2tHSFBvMm5WQnM5VWdtdnlXUlVPb3BCbkVzZ1FwN0M2VQ?oc=5",
       "locator": null,
       "published_at": "2026-04-23"
     },
-    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
+    "base_confidence": 0.75,
     "derivation": null
   },
   {
-    "id": "clm_fdc09c21ab",
+    "id": "clm_fd7b693245",
     "company_id": "vast-data",
     "metric": "valuation",
     "value": 30000000000.0,
-    "unit": null,
+    "unit": "USD",
     "raw_text": "$30b valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "exec"
     },
     "source": {
       "type": "news",
-      "name": "The Jerusalem Post",
+      "name": "jpost.com",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRWTdsZng0bDZfbVUta0xOM1NvVlpSZ3hFR0FYZS1mS1k2eEhXdlZsWFhjanhVa01SdVN3blF6ZzQ5a2VUUXJvbDFpS2tHSFBvMm5WQnM5VWdtdnlXUlVPb3BCbkVzZ1FwN0M2VQ?oc=5",
       "locator": null,
       "published_at": "2026-04-23"
     },
-    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
+    "base_confidence": 0.75,
     "derivation": null
   },
   {
@@ -284,6 +284,54 @@
     },
     "extracted_at": "2026-07-12T07:44:16.543146",
     "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_d32880da7b",
+    "company_id": "vast-data",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "$1b raise",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRWTdsZng0bDZfbVUta0xOM1NvVlpSZ3hFR0FYZS1mS1k2eEhXdlZsWFhjanhVa01SdVN3blF6ZzQ5a2VUUXJvbDFpS2tHSFBvMm5WQnM5VWdtdnlXUlVPb3BCbkVzZ1FwN0M2VQ?oc=5",
+      "locator": null,
+      "published_at": "2026-04-23"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_fdc09c21ab",
+    "company_id": "vast-data",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": null,
+    "raw_text": "$30b valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRWTdsZng0bDZfbVUta0xOM1NvVlpSZ3hFR0FYZS1mS1k2eEhXdlZsWFhjanhVa01SdVN3blF6ZzQ5a2VUUXJvbDFpS2tHSFBvMm5WQnM5VWdtdnlXUlVPb3BCbkVzZ1FwN0M2VQ?oc=5",
+      "locator": null,
+      "published_at": "2026-04-23"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
   },
@@ -866,54 +914,6 @@
     "derivation": null
   },
   {
-    "id": "clm_13dd2d942a",
-    "company_id": "vast-data",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "$1b raise",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "exec"
-    },
-    "source": {
-      "type": "news",
-      "name": "jpost.com",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRWTdsZng0bDZfbVUta0xOM1NvVlpSZ3hFR0FYZS1mS1k2eEhXdlZsWFhjanhVa01SdVN3blF6ZzQ5a2VUUXJvbDFpS2tHSFBvMm5WQnM5VWdtdnlXUlVPb3BCbkVzZ1FwN0M2VQ?oc=5",
-      "locator": null,
-      "published_at": "2026-04-23"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.75,
-    "derivation": null
-  },
-  {
-    "id": "clm_fd7b693245",
-    "company_id": "vast-data",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "$30b valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "exec"
-    },
-    "source": {
-      "type": "news",
-      "name": "jpost.com",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRWTdsZng0bDZfbVUta0xOM1NvVlpSZ3hFR0FYZS1mS1k2eEhXdlZsWFhjanhVa01SdVN3blF6ZzQ5a2VUUXJvbDFpS2tHSFBvMm5WQnM5VWdtdnlXUlVPb3BCbkVzZ1FwN0M2VQ?oc=5",
-      "locator": null,
-      "published_at": "2026-04-23"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.75,
-    "derivation": null
-  },
-  {
     "id": "clm_e252ea651f",
     "company_id": "vast-data",
     "metric": "total_funding",
@@ -1124,7 +1124,7 @@
       "locator": null,
       "published_at": "2026-04-23"
     },
-    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extracted_at": "2026-09-05T09:07:28.177448",
     "extractor_model": "derive-engine",
     "base_confidence": 0.3623,
     "derivation": {

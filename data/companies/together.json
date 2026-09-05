@@ -8,9 +8,9 @@
   "specialty": "Decentralized GPU cloud for AI.",
   "summary": "Together AI offers a decentralized cloud platform providing GPU resources optimized for training and deploying large-scale AI models.",
   "segment": "global",
-  "in_universe": true,
+  "in_universe": false,
   "vc_attention_score": 82.7,
-  "universe_rank": 49,
+  "universe_rank": 51,
   "metrics": {
     "round_amount": {
       "metric": "round_amount",
@@ -36,7 +36,7 @@
       "contradiction": false,
       "delta": {
         "previous": 800000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-07-02"
       },
       "history_ref": "history/together/round_amount.jsonl",
@@ -46,13 +46,13 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 8143953645.16,
+      "value": 8183291309.93,
       "unit": "USD",
       "range": {
         "low": 8300000000.0,
         "high": 8300000000.0
       },
-      "as_of": "2026-07-04",
+      "as_of": "2026-07-30",
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
@@ -64,8 +64,12 @@
         "clm_49056f66a9",
         "clm_2b7244eadf",
         "clm_2d13a742dc",
-        "clm_d00af9045f",
         "clm_e4d602d9cb",
+        "clm_d00af9045f",
+        "clm_b9837b9745",
+        "clm_b9837b9745",
+        "clm_61f03baeaf",
+        "clm_add11fa497",
         "clm_f3788ec9a3",
         "clm_3e104cf11e",
         "clm_65a3dd24e8",
@@ -77,8 +81,8 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 8144033112.58,
-        "change_pct": -0.0,
+        "previous": 8143953645.16,
+        "change_pct": 0.5,
         "since": "2026-07-04"
       },
       "history_ref": "history/together/valuation.jsonl",
@@ -94,11 +98,15 @@
         "low": 800000000.0,
         "high": 800000000.0
       },
-      "as_of": "2026-07-04",
+      "as_of": "2026-07-30",
       "estimate_type": "consensus",
-      "confidence": 0.824,
+      "confidence": 0.97,
       "supporting_claims": [
         "clm_1dbfb25d17",
+        "clm_9496aaf91a",
+        "clm_9496aaf91a",
+        "clm_52b35f283f",
+        "clm_e3b600539e",
         "clm_4e1a08a7f6",
         "clm_4d0b679414"
       ],
@@ -142,7 +150,7 @@
       "range": null,
       "as_of": "2026-07-01",
       "estimate_type": "reported",
-      "confidence": 0.105,
+      "confidence": 0.104,
       "supporting_claims": [
         "drv_6622912d5a"
       ],
@@ -158,5 +166,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-04"
+  "last_updated": "2026-09-05"
 }

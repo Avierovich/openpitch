@@ -99,30 +99,6 @@
     "derivation": null
   },
   {
-    "id": "clm_e195aa4d20",
-    "company_id": "mistral",
-    "metric": "valuation",
-    "value": 14000000000.0,
-    "unit": null,
-    "raw_text": "AI firm Mistral valued at $14 billion as chip giant ASML takes major stake",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa0NVaVo0Wll0MG9iU0lXcmhLanB1eUJ5X2dVREJfbEk2M0Uya3ZnTVJzVFNQLUNqYXdVZHlyeG1LeE55RTI1QW5HTXNXSkFvZVhOeWxxR0h5aE9tLVRvZHhheDZNLU5RWTN2RE93M19iUjhoeGk5bXFWbmdQWUlYcjEzaUJYMkFKYTllM1JCdzIzVDBncjFSc0kwQ3JDdkdk0gGmAUFVX3lxTFBscDh2aFVsT0FqUHNLNzJJNlB3R3lNallpNnRhRllYOUNrRk90aVNtR1BBdTJnUnNGN0ozY2ZOX05WQW91QVk5ZHByOUdaM09xY0NEVzRjNVh6M3VGSWxINC03dGZoMXZ5MGxQS0dvb2YtbEJOUDliMlNRT2VBOVRETFZ2LWFrZkkyUFR1R1dCd09BUTVZcVhleTkwMWk5QWk5M2FnaGc?oc=5",
-      "locator": null,
-      "published_at": "2025-09-09"
-    },
-    "extracted_at": "2026-07-12T07:44:16.543146",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_02ceb3afde",
     "company_id": "mistral",
     "metric": "valuation",
@@ -233,7 +209,7 @@
     "unit": "USD",
     "raw_text": "$100M+ seed financing",
     "qualifiers": [
-      "forward_looking"
+      "approximate"
     ],
     "speaker": {
       "name": null,
@@ -246,9 +222,60 @@
       "locator": null,
       "published_at": "2023-11-09"
     },
-    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extracted_at": "2026-09-07T10:15:07.048991",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.294,
+    "base_confidence": 0.357,
+    "derivation": null
+  },
+  {
+    "id": "clm_55e43fad86",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": "EUR",
+    "raw_text": "€20B valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWmR3UFFZVGZQejh4a0Q4VmNUN3lmczZLNUtzTkNEdzRldU9KSTdxNGFZbTdRakI2czNhQTdhd3RjN0syZUF2Q0x3MGRfZnJDSFpyWUdFNEZ3SXVUUHZIX3FTOGtmWGxlaEpfWWdsUENTMmRGOG9Td1l6d19xTS1LVC1pX2JPdGc1RUZRNlRTdk1KV3dF?oc=5",
+      "locator": null,
+      "published_at": "2026-06-12"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_e195aa4d20",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": null,
+    "raw_text": "AI firm Mistral valued at $14 billion as chip giant ASML takes major stake",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa0NVaVo0Wll0MG9iU0lXcmhLanB1eUJ5X2dVREJfbEk2M0Uya3ZnTVJzVFNQLUNqYXdVZHlyeG1LeE55RTI1QW5HTXNXSkFvZVhOeWxxR0h5aE9tLVRvZHhheDZNLU5RWTN2RE93M19iUjhoeGk5bXFWbmdQWUlYcjEzaUJYMkFKYTllM1JCdzIzVDBncjFSc0kwQ3JDdkdk0gGmAUFVX3lxTFBscDh2aFVsT0FqUHNLNzJJNlB3R3lNallpNnRhRllYOUNrRk90aVNtR1BBdTJnUnNGN0ozY2ZOX05WQW91QVk5ZHByOUdaM09xY0NEVzRjNVh6M3VGSWxINC03dGZoMXZ5MGxQS0dvb2YtbEJOUDliMlNRT2VBOVRETFZ2LWFrZkkyUFR1R1dCd09BUTVZcVhleTkwMWk5QWk5M2FnaGc?oc=5",
+      "locator": null,
+      "published_at": "2025-09-09"
+    },
+    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -1001,7 +1028,7 @@
       "locator": null,
       "published_at": "2026-02-11"
     },
-    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extracted_at": "2026-09-07T10:15:07.048991",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

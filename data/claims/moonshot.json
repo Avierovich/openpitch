@@ -172,11 +172,11 @@
     "company_id": "moonshot",
     "metric": "valuation",
     "value": 50000000000.0,
-    "unit": null,
-    "raw_text": "chasing a $50bn valuation",
+    "unit": "USD",
+    "raw_text": "Moonshot chases $50bn valuation",
     "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
+      "unconfirmed",
+      "forward_looking"
     ],
     "speaker": {
       "name": null,
@@ -189,7 +189,7 @@
       "locator": null,
       "published_at": "2026-07-22"
     },
-    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extracted_at": "2026-08-22T05:47:44.406970",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
     "derivation": null
@@ -387,33 +387,6 @@
     "derivation": null
   },
   {
-    "id": "clm_68e4bf89e4",
-    "company_id": "moonshot",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": "USD",
-    "raw_text": "$50B valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUURwdHFka19Iekt0VldpMmVEQzFWZk9qMEhzek5MaHZjWlhoOXRxQm9mYXpaclFzNFhySkpUNjJPTnlwRk5CSDEyUDRoZVlqeHBJNVh5bmJTeTRHUWxsblNyMTRVcDJOdERkQ0t0M05jOVY3cEZoelJCTXl4US1FR1U0ZEdpZ0ZhOWxEeWxxRDgxRUo3U244MmpZdXpKWVFncTI4Q0Mwbm5DSlE?oc=5",
-      "locator": null,
-      "published_at": "2026-07-23"
-    },
-    "extracted_at": "2026-08-31T12:11:11.881256",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
     "id": "clm_4575d261ba",
     "company_id": "moonshot",
     "metric": "total_funding",
@@ -607,6 +580,87 @@
     "extracted_at": "2026-09-05T09:07:28.177448",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_cf9a820756",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": null,
+    "raw_text": "Moonshot AI eyes $50B valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWjdYUWFzWGo1c19GakpybWtFS1lIbHVlaTZnTVRTQWNrMWpWRDBteVBfSEcwTnFRSDhlUWhYa3B4Skt4dUFLX2R3aGVtbmhISFUyU052YmpEd0gzTWpQRlNIbkJlckR5R21sdk5uSnI3c2gwOHdsSnZYOF9LQjhaWnRlcXY2S3ZmNE9iRFptdm9CT3ZFVzZVd2VnSHFKRGJoVmtQQUhSTG9HX19rRnpMU1J2Q1RwRGli?oc=5",
+      "locator": null,
+      "published_at": "2026-09-04"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_cccb8e4c50",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": null,
+    "raw_text": "Moonshot AI seeks $50B valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "nypost.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYWRvLWx2YnpfLTVLOExPdVljamVJaERZOE9KSjJfSnZyeEJjNlR2ejF1NTBOTmFscTMxeTFJM0hWR0JYbk9MRVJYeklJeXpRdTNiMzFfcE8yZHBjOHVXYnpuUU5yTFVnMjFTTEI1SlMyNkZTdFZVejBZbHlYZU1hcFVxSzVPTFFvY2FKd3Y0M1V1Skd2SjdkSkZ3WVBTQXdLU3p0Z2ZyX0h3bUsxSEhua3h0bXZIOGs3WmxnbHFBdTQ?oc=5",
+      "locator": null,
+      "published_at": "2026-07-21"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_68e4bf89e4",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "$50B valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUURwdHFka19Iekt0VldpMmVEQzFWZk9qMEhzek5MaHZjWlhoOXRxQm9mYXpaclFzNFhySkpUNjJPTnlwRk5CSDEyUDRoZVlqeHBJNVh5bmJTeTRHUWxsblNyMTRVcDJOdERkQ0t0M05jOVY3cEZoelJCTXl4US1FR1U0ZEdpZ0ZhOWxEeWxxRDgxRUo3U244MmpZdXpKWVFncTI4Q0Mwbm5DSlE?oc=5",
+      "locator": null,
+      "published_at": "2026-07-23"
+    },
+    "extracted_at": "2026-08-31T12:11:11.881256",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -1456,7 +1510,7 @@
       "locator": null,
       "published_at": "2026-05-07"
     },
-    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extracted_at": "2026-09-07T10:15:07.048991",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 89.3,
-  "universe_rank": 10,
+  "universe_rank": 12,
   "metrics": {
     "valuation": {
       "metric": "valuation",
@@ -19,10 +19,11 @@
       "range": null,
       "as_of": "2026-06-05",
       "estimate_type": "consensus",
-      "confidence": 0.723,
+      "confidence": 0.767,
       "supporting_claims": [
-        "clm_52909847e2",
         "clm_51dd180844",
+        "clm_252640b20c",
+        "clm_52909847e2",
         "clm_37b99e1416",
         "clm_ca87b674bb",
         "clm_b50d45a205",
@@ -35,7 +36,7 @@
       "contradiction": false,
       "delta": {
         "previous": 50000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-06-05"
       },
       "history_ref": "history/thinking-machines/valuation.jsonl",
@@ -50,7 +51,7 @@
       "range": null,
       "as_of": "2026-09-04",
       "estimate_type": "consensus",
-      "confidence": 0.823,
+      "confidence": 0.821,
       "supporting_claims": [
         "clm_80c775812e",
         "clm_21a425b57f",
@@ -63,8 +64,8 @@
       "contradiction": false,
       "delta": {
         "previous": 1000000000.0,
-        "change_pct": -0.0,
-        "since": "2026-09-03"
+        "change_pct": 0.0,
+        "since": "2026-09-04"
       },
       "history_ref": "history/thinking-machines/round_amount.jsonl",
       "unconfirmed": true,
@@ -72,5 +73,5 @@
       "confirmed_as_of": "2025-07-17"
     }
   },
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-07"
 }

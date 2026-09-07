@@ -1,0 +1,132 @@
+[
+  {
+    "id": "clm_898f7a6fe2",
+    "company_id": "dataloop",
+    "metric": "arr",
+    "value": 3500000.0,
+    "unit": "USD",
+    "raw_text": "$3.5M Est. ARR",
+    "qualifiers": [
+      "approximate",
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA1WUlzOS1tbGpvQlJYcFNVSUhZOW9ncTI3cnZ6NHZraDltRklEZmNiUjluZl9xNEpuNUxVWkUxa2N5T012VWpnOHZQTkcwRHlPdmxPWg?oc=5",
+      "locator": null,
+      "published_at": "2024-10-17"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4016,
+    "derivation": null
+  },
+  {
+    "id": "clm_99040b4508",
+    "company_id": "dataloop",
+    "metric": "total_funding",
+    "value": 16000000.0,
+    "unit": "USD",
+    "raw_text": "$16M Raised",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA1WUlzOS1tbGpvQlJYcFNVSUhZOW9ncTI3cnZ6NHZraDltRklEZmNiUjluZl9xNEpuNUxVWkUxa2N5T012VWpnOHZQTkcwRHlPdmxPWg?oc=5",
+      "locator": null,
+      "published_at": "2024-10-17"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_9af7f2fba9",
+    "company_id": "dataloop",
+    "metric": "round_amount",
+    "value": 11000000.0,
+    "unit": "USD",
+    "raw_text": "raise $11 million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "businessinsider.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYnVTdmp0aG5oamN0TEQzVTVTOXhVZU5XcFpkZVhwS0YtUFAtOS10REQ4b0xtOEdWWkVmUkNaQXpic3dJZHNaWlBnN3YwWDVZY3I5cGw5dDBtSDBSWW9DUjNVMUp3ejJ0V0ZqenlrQzdvYVJuaUJwenFVeWN6U3E1ZzNhbVk2NHBuSTk5dk5CdVFiMEN4LWI2aXFuelpabVlqWTdtX3pqMjU?oc=5",
+      "locator": null,
+      "published_at": "2020-10-14"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_89d01889f0",
+    "company_id": "dataloop",
+    "metric": "valuation",
+    "value": 120000000.0,
+    "unit": "USD",
+    "raw_text": "$120 million all-cash deal",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "calcalistech.com",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wd0RIcm9KVHd4NGkyS1ZzMkd1RXpuN3UtTDQ5cW8tdXIxSXEzQ3dnODZ1TlZ1bkdkZGJGTkh0WEtzWmZkUUw1ZmZWU01TR0h0QmJmclRjSHJUR3dYcWQ1czRUYlRWa00?oc=5",
+      "locator": null,
+      "published_at": "2025-12-17"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "drv_093d662998",
+    "company_id": "dataloop",
+    "metric": "revenue_multiple",
+    "value": 34.29,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2025-12-17"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.194,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_89d01889f0",
+        "clm_898f7a6fe2"
+      ]
+    }
+  }
+]

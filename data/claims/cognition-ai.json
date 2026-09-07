@@ -54,6 +54,32 @@
     "derivation": null
   },
   {
+    "id": "clm_d9df30ee74",
+    "company_id": "cognition-ai",
+    "metric": "valuation",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "valuation nears $1 billion",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tNVYzckRLa3FlSER0bFZzX1d1dWhPd0UtbENGbnczeGZmUlV5eXFsMVVnS3hEbUluSWtpaWU2MXhLN1AySFVza0xxdEJhUUlBWVNUcVFwNmJoUWprcWVBMTIwYXBFTjR3VFpmSU9ZbThzNkkyeVE?oc=5",
+      "locator": null,
+      "published_at": "2026-09-02"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
     "id": "clm_cbc34779e4",
     "company_id": "cognition-ai",
     "metric": "latest_round",
@@ -162,12 +188,12 @@
     "derivation": null
   },
   {
-    "id": "clm_fa77f7d622",
+    "id": "clm_8f6f6e1af8",
     "company_id": "cognition-ai",
-    "metric": "round_amount",
-    "value": 1000000000.0,
+    "metric": "valuation",
+    "value": 40000000000.0,
     "unit": "USD",
-    "raw_text": "Cognition eyes $1b raise",
+    "raw_text": "Valuation Up to $40 Billion",
     "qualifiers": [
       "unconfirmed"
     ],
@@ -177,67 +203,14 @@
     },
     "source": {
       "type": "news",
-      "name": "Tech in Asia",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNVFmSFNzcFk1RXJRZUFvWVI3Qm1ZcW0tMTNzUjRwb3VIbGFBLTUwaVZVTFBiNzk3OEduYzczWUNSek1VUzh0OURYUElDbl92WWdRM1d1UXFxOVpYNHZVbU5kZ3ZEUFJBWE1Ma01MUWVQU0lOdjZIcEI0VThxMVFGQUkzY2ZsZkE?oc=5",
+      "name": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3RXNPS2dsTXQ5OXJDTEJkd2J5dTZnUlVaNmlyZUZ6N2dxWDV1VGNVcUI1TWFhVjlkUUhzbEEzSERpTENMSHU5Uy01YnR5MmtiVjB6RkJXSS1ISlJCNWF0LTFxaDlqVmROcnZnMk9nbE1GZG5PTUE?oc=5",
       "locator": null,
       "published_at": "2026-08-12"
     },
     "extracted_at": "2026-08-26T05:56:52.356025",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_8f893ec914",
-    "company_id": "cognition-ai",
-    "metric": "valuation",
-    "value": 40000000000.0,
-    "unit": "USD",
-    "raw_text": "$40b valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech in Asia",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNVFmSFNzcFk1RXJRZUFvWVI3Qm1ZcW0tMTNzUjRwb3VIbGFBLTUwaVZVTFBiNzk3OEduYzczWUNSek1VUzh0OURYUElDbl92WWdRM1d1UXFxOVpYNHZVbU5kZ3ZEUFJBWE1Ma01MUWVQU0lOdjZIcEI0VThxMVFGQUkzY2ZsZkE?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-08-26T05:56:52.356025",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_d62389b5c4",
-    "company_id": "cognition-ai",
-    "metric": "valuation",
-    "value": 40000000000.0,
-    "unit": "usd",
-    "raw_text": "reportedly already in talks to raise at $40B valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUnA3d0xTM0VYNFVqQTZlTE1VLURVTGVsWmdqZ1BtcXRsOGVhTGY4LUlfZGtFNm5iWVB1OTNvSFBlTkt2V3FGVWU5bUVKTmFsMVd4V0lCOTlrQWFpNzZ5amVJMFpNMEYtRmhXV2NwaTg5b09MbFZ3dWhveVJ1N0Q1WWN1MGpPOVJDdFBpVGVtTmpvZ1lER2V2bklJNmJsb1VsdjBFYQ?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-09-04T09:41:05.539009",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -361,29 +334,82 @@
     "derivation": null
   },
   {
-    "id": "clm_d9df30ee74",
+    "id": "clm_fa77f7d622",
     "company_id": "cognition-ai",
-    "metric": "valuation",
+    "metric": "round_amount",
     "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "valuation nears $1 billion",
+    "unit": "USD",
+    "raw_text": "Cognition eyes $1b raise",
     "qualifiers": [
       "unconfirmed"
     ],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tNVYzckRLa3FlSER0bFZzX1d1dWhPd0UtbENGbnczeGZmUlV5eXFsMVVnS3hEbUluSWtpaWU2MXhLN1AySFVza0xxdEJhUUlBWVNUcVFwNmJoUWprcWVBMTIwYXBFTjR3VFpmSU9ZbThzNkkyeVE?oc=5",
+      "name": "Tech in Asia",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNVFmSFNzcFk1RXJRZUFvWVI3Qm1ZcW0tMTNzUjRwb3VIbGFBLTUwaVZVTFBiNzk3OEduYzczWUNSek1VUzh0OURYUElDbl92WWdRM1d1UXFxOVpYNHZVbU5kZ3ZEUFJBWE1Ma01MUWVQU0lOdjZIcEI0VThxMVFGQUkzY2ZsZkE?oc=5",
       "locator": null,
-      "published_at": "2026-09-02"
+      "published_at": "2026-08-12"
     },
-    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extracted_at": "2026-08-26T05:56:52.356025",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_8f893ec914",
+    "company_id": "cognition-ai",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "$40b valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech in Asia",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNVFmSFNzcFk1RXJRZUFvWVI3Qm1ZcW0tMTNzUjRwb3VIbGFBLTUwaVZVTFBiNzk3OEduYzczWUNSek1VUzh0OURYUElDbl92WWdRM1d1UXFxOVpYNHZVbU5kZ3ZEUFJBWE1Ma01MUWVQU0lOdjZIcEI0VThxMVFGQUkzY2ZsZkE?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-08-26T05:56:52.356025",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_d62389b5c4",
+    "company_id": "cognition-ai",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": "usd",
+    "raw_text": "reportedly already in talks to raise at $40B valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUnA3d0xTM0VYNFVqQTZlTE1VLURVTGVsWmdqZ1BtcXRsOGVhTGY4LUlfZGtFNm5iWVB1OTNvSFBlTkt2V3FGVWU5bUVKTmFsMVd4V0lCOTlrQWFpNzZ5amVJMFpNMEYtRmhXV2NwaTg5b09MbFZ3dWhveVJ1N0Q1WWN1MGpPOVJDdFBpVGVtTmpvZ1lER2V2bklJNmJsb1VsdjBFYQ?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -464,32 +490,6 @@
     "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.3675,
-    "derivation": null
-  },
-  {
-    "id": "clm_8f6f6e1af8",
-    "company_id": "cognition-ai",
-    "metric": "valuation",
-    "value": 40000000000.0,
-    "unit": "USD",
-    "raw_text": "Valuation Up to $40 Billion",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3RXNPS2dsTXQ5OXJDTEJkd2J5dTZnUlVaNmlyZUZ6N2dxWDV1VGNVcUI1TWFhVjlkUUhzbEEzSERpTENMSHU5Uy01YnR5MmtiVjB6RkJXSS1ISlJCNWF0LTFxaDlqVmROcnZnMk9nbE1GZG5PTUE?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-08-26T05:56:52.356025",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {

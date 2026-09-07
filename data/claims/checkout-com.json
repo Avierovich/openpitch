@@ -1,5 +1,53 @@
 [
   {
+    "id": "clm_38fb3aad29",
+    "company_id": "checkout-com",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "soars to $40B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUZndGxabHI4SlZUcXBPdkQ1QmV1RGdNcjVHRm1nWDkzWk94OE0wMkJuYTRFY2RJU3hEYXE1ZXp1dmpaUkl1RXBLQjFNeERKU3NPbGF6RmJmMzNpY2RkM2htcndNWTNJa3hzLS1vNXF6LVVUeWVfNEFUYnk3RmRXNHVuMFpzQ19RcDhjbE1KYUpUOEFIRjhDT0NWcjdLTFg3OTFWQkJR?oc=5",
+      "locator": null,
+      "published_at": "2022-01-12"
+    },
+    "extracted_at": "2026-08-21T05:50:03.226228",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_f811084f21",
+    "company_id": "checkout-com",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "$1B funding round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUZndGxabHI4SlZUcXBPdkQ1QmV1RGdNcjVHRm1nWDkzWk94OE0wMkJuYTRFY2RJU3hEYXE1ZXp1dmpaUkl1RXBLQjFNeERKU3NPbGF6RmJmMzNpY2RkM2htcndNWTNJa3hzLS1vNXF6LVVUeWVfNEFUYnk3RmRXNHVuMFpzQ19RcDhjbE1KYUpUOEFIRjhDT0NWcjdLTFg3OTFWQkJR?oc=5",
+      "locator": null,
+      "published_at": "2022-01-12"
+    },
+    "extracted_at": "2026-08-21T05:50:03.226228",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_35b5ae8f89",
     "company_id": "checkout-com",
     "metric": "round_amount",
@@ -69,6 +117,56 @@
     "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_f551112663",
+    "company_id": "checkout-com",
+    "metric": "valuation",
+    "value": 12000000000.0,
+    "unit": null,
+    "raw_text": "$12 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMTlUcXVSYVFHd09icEZoVkdhQ0JQN3lhSlRzLTZzYmVjRWRULWxURzNQYmljMlFLQjJVVGNUal9ocW9tUjA4bEZiTzRKRGkyX0owTHJBZ3AyOEMxbUNGYXl1OEZRM2NrWHhrb1lCc3dTcnBnb0U3OWJOMnF0VHI3VDBFWE9sTEQ1ejBPRWtTdEY4UmNreWh2NTNTUGJTOWtLejk5Vmh2bDBjQ2hsNWpkTUp6Zw?oc=5",
+      "locator": null,
+      "published_at": "2025-09-25"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_2c2490cf6f",
+    "company_id": "checkout-com",
+    "metric": "valuation",
+    "value": 12000000000.0,
+    "unit": null,
+    "raw_text": "$12 Billion Valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "forbes.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNM2xLeG5kdjRPYWliWlZYTEVManZ3SGtOeWFYWEtNNTFlazZBZDBzODVNVWlSSF92ekdadmpDaVJ6dWNMYzlWbU9yUXFDdE1JOF9OQmhxNndVR0tRWHBfSGlMcWdYSmVvQ0EzNnk0Y29PT2FqZDhuRlU2VzExTUF5czVLak5mS3dSZlBUVkJ4MzJvR3hyaWw0VkNCa2cxaUt0OGZwZE5YSE1GQU9JOW1hNFlzNFl6b1ktMjRQVzVYaFdfam5fYklKNWxaM2RMWVBYLWFJ?oc=5",
+      "locator": null,
+      "published_at": "2025-09-26"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -362,30 +460,6 @@
     "derivation": null
   },
   {
-    "id": "clm_f551112663",
-    "company_id": "checkout-com",
-    "metric": "valuation",
-    "value": 12000000000.0,
-    "unit": null,
-    "raw_text": "$12 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMTlUcXVSYVFHd09icEZoVkdhQ0JQN3lhSlRzLTZzYmVjRWRULWxURzNQYmljMlFLQjJVVGNUal9ocW9tUjA4bEZiTzRKRGkyX0owTHJBZ3AyOEMxbUNGYXl1OEZRM2NrWHhrb1lCc3dTcnBnb0U3OWJOMnF0VHI3VDBFWE9sTEQ1ejBPRWtTdEY4UmNreWh2NTNTUGJTOWtLejk5Vmh2bDBjQ2hsNWpkTUp6Zw?oc=5",
-      "locator": null,
-      "published_at": "2025-09-25"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_57db6e323a",
     "company_id": "checkout-com",
     "metric": "valuation",
@@ -433,54 +507,6 @@
     "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_38fb3aad29",
-    "company_id": "checkout-com",
-    "metric": "valuation",
-    "value": 40000000000.0,
-    "unit": "USD",
-    "raw_text": "soars to $40B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUZndGxabHI4SlZUcXBPdkQ1QmV1RGdNcjVHRm1nWDkzWk94OE0wMkJuYTRFY2RJU3hEYXE1ZXp1dmpaUkl1RXBLQjFNeERKU3NPbGF6RmJmMzNpY2RkM2htcndNWTNJa3hzLS1vNXF6LVVUeWVfNEFUYnk3RmRXNHVuMFpzQ19RcDhjbE1KYUpUOEFIRjhDT0NWcjdLTFg3OTFWQkJR?oc=5",
-      "locator": null,
-      "published_at": "2022-01-12"
-    },
-    "extracted_at": "2026-08-21T05:50:03.226228",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_f811084f21",
-    "company_id": "checkout-com",
-    "metric": "total_funding",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "$1B funding round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUZndGxabHI4SlZUcXBPdkQ1QmV1RGdNcjVHRm1nWDkzWk94OE0wMkJuYTRFY2RJU3hEYXE1ZXp1dmpaUkl1RXBLQjFNeERKU3NPbGF6RmJmMzNpY2RkM2htcndNWTNJa3hzLS1vNXF6LVVUeWVfNEFUYnk3RmRXNHVuMFpzQ19RcDhjbE1KYUpUOEFIRjhDT0NWcjdLTFg3OTFWQkJR?oc=5",
-      "locator": null,
-      "published_at": "2022-01-12"
-    },
-    "extracted_at": "2026-08-21T05:50:03.226228",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {

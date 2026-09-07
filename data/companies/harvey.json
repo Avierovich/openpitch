@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 83.8,
-  "universe_rank": 45,
+  "universe_rank": 47,
   "metrics": {
     "valuation": {
       "metric": "valuation",
@@ -25,23 +25,22 @@
       "confidence": 0.97,
       "supporting_claims": [
         "clm_38e8650db4",
-        "clm_67aa086bdd",
+        "clm_5a736506bf",
         "clm_63310c35c1",
         "clm_de667e2540",
+        "clm_281db18dc9",
+        "clm_67aa086bdd",
         "clm_09d5ca7451",
         "clm_67aa086bdd",
         "clm_d2936b953e",
         "clm_d4a1969be2",
-        "clm_281db18dc9",
-        "clm_5a736506bf",
-        "clm_5a736506bf",
         "clm_db3101e870",
         "clm_3621704ebc",
         "clm_72246a7c84",
         "clm_1fea736900",
         "clm_7579d59cf4"
       ],
-      "contradiction": false,
+      "contradiction": true,
       "delta": {
         "previous": 11000000000.0,
         "change_pct": 0.0,
@@ -62,7 +61,7 @@
       },
       "as_of": "2026-03-29",
       "estimate_type": "consensus",
-      "confidence": 0.778,
+      "confidence": 0.776,
       "supporting_claims": [
         "clm_60e4dc3ed6",
         "clm_1a7eb37fee",
@@ -72,7 +71,7 @@
       "contradiction": false,
       "delta": {
         "previous": 200000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-03-29"
       },
       "history_ref": "history/harvey/round_amount.jsonl",
@@ -87,7 +86,7 @@
       "range": null,
       "as_of": "2026-02-09",
       "estimate_type": "reported",
-      "confidence": 0.083,
+      "confidence": 0.082,
       "supporting_claims": [
         "clm_1a7ff164fc"
       ],
@@ -104,20 +103,20 @@
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 110.0,
+      "value": 155.0,
       "unit": "x",
       "range": null,
-      "as_of": "2026-03-25",
+      "as_of": "2026-08-07",
       "estimate_type": "reported",
-      "confidence": 0.065,
+      "confidence": 0.196,
       "supporting_claims": [
-        "drv_eda953e400"
+        "drv_6478ca5265"
       ],
       "contradiction": false,
       "delta": {
         "previous": 110.0,
-        "change_pct": 0.0,
-        "since": "2026-03-26"
+        "change_pct": 40.9,
+        "since": "2026-03-25"
       },
       "history_ref": "history/harvey/revenue_multiple.jsonl",
       "unconfirmed": false,
@@ -125,5 +124,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-07"
 }

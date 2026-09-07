@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-09-05
+# OpenPitch Data Quality Report - 2026-09-07
 
 ## Summary
 
-- Profiles generated: 313
-- Watchlist candidates: 896
+- Profiles generated: 343
+- Watchlist candidates: 923
 - Top-50 cards: 50
-- Profiles with at least one metric: 304
-- Critical issues: 63
-- Warnings: 26
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 580
+- Profiles with at least one metric: 334
+- Critical issues: 66
+- Warnings: 25
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 577
 
 ## Top-50 Companies With No Metrics
 
@@ -20,14 +20,13 @@ None.
 
 ## Top-50 Missing ARR / Revenue
 
-- Anysphere (Cursor)
+- Cursor
 - Cognition AI
 - Chime
 - Bright Health
 - Checkout.com
 - OpenEvidence
 - Airwallex
-- Chainalysis
 
 ## Curated High-Priority Watchlist Companies Not Profiled (critical)
 
@@ -52,6 +51,7 @@ None.
 - Aera Therapeutics
 - Aidoc
 - Aisera
+- Altana Technologies
 - Ambience Healthcare
 - Antora Energy
 - Aqemia
@@ -83,6 +83,8 @@ None.
 - Cohere Health
 - Collective Health
 - Commonwealth Fusion Systems
+- Deep Genomics
+- DeepInfra
 - HUMAIN
 - Huspy
 - Ideogram
@@ -101,6 +103,7 @@ None.
 ## Single-Source Core Metrics
 
 - Databricks: round_amount
+- Anysphere (Cursor): arr
 - Figure AI: headcount
 - Scale AI: headcount
 - Fireworks AI: arr
@@ -114,7 +117,6 @@ None.
 - Checkout.com: total_funding
 - Poolside: arr
 - Cyera: headcount
-- ElevenLabs: arr
 - ElevenLabs: headcount
 - Airwallex: total_funding
 - Replit: total_funding

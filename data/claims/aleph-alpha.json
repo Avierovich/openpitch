@@ -1,5 +1,29 @@
 [
   {
+    "id": "clm_31d1648365",
+    "company_id": "aleph-alpha",
+    "metric": "round_amount",
+    "value": 500000000.0,
+    "unit": null,
+    "raw_text": "SAP backs Aleph Alpha’s $500m series B round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "ERP Today",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sTzdnM1FFaE8teGxIbDRnY05aMEpvdkFFRnhqTWY1cUc0VFltZGlUeVRVY1hIY2U3NFJ5ZFNERXJkV2RsSFlmMGxJVklwa3JELVpTZkZYRTJnWnlpb2MwdkdNc0ZkRXhyOEtmakFB?oc=5",
+      "locator": null,
+      "published_at": "2023-11-08"
+    },
+    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_bbdfbc71aa",
     "company_id": "aleph-alpha",
     "metric": "valuation",
@@ -23,6 +47,32 @@
     "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_0bf42c578b",
+    "company_id": "aleph-alpha",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": "USD",
+    "raw_text": "$20bn",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "pitchbook.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZFlYajVxUUJiYXJVdV9LUFVKWnVreWJNTFF6aUxRaHRHY1AtcEUzX05lMjAtZHVKbWVDYzZ4amREaGpCX0FXR2tBaW1sWTdkdV9NVjBfY29NWngzcXUtbVZlX3JBUkxGWGstUnhzYkF2aENTZ2VtN0sxdExDWHJtWVJmRjFxMElwaGd0em53VFcxaFk?oc=5",
+      "locator": null,
+      "published_at": "2026-04-24"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -297,30 +347,6 @@
     "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_31d1648365",
-    "company_id": "aleph-alpha",
-    "metric": "round_amount",
-    "value": 500000000.0,
-    "unit": null,
-    "raw_text": "SAP backs Aleph Alpha’s $500m series B round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "ERP Today",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sTzdnM1FFaE8teGxIbDRnY05aMEpvdkFFRnhqTWY1cUc0VFltZGlUeVRVY1hIY2U3NFJ5ZFNERXJkV2RsSFlmMGxJVklwa3JELVpTZkZYRTJnWnlpb2MwdkdNc0ZkRXhyOEtmakFB?oc=5",
-      "locator": null,
-      "published_at": "2023-11-08"
-    },
-    "extracted_at": "2026-07-12T07:44:16.543146",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.375,
     "derivation": null
   },
   {

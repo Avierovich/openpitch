@@ -75,6 +75,54 @@
     "derivation": null
   },
   {
+    "id": "clm_7c141bf4b7",
+    "company_id": "scale",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "Scale AI secures $1B funding",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "fortune.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRkRYeHZiSEE2UmQ1VHNOSFo1dDRvWjQ0UGRCYkdaRmxBSEdsRXd6VzQzTXRxNDEzYy1rbEVFUGl5NWVxZURoWTIxaEdPSGlqNkJtbWVnYjZWeDFUSDM0S2ctTjdVaWgzS1kyazlZdXpkckVxbjlvcmRoUkQ5YkdsVm1YWjhYNUVtZ2R0dDhnalVUUnRv?oc=5",
+      "locator": null,
+      "published_at": "2024-05-21"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_ddf160787a",
+    "company_id": "scale",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": "USD",
+    "raw_text": "$14B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "fortune.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRkRYeHZiSEE2UmQ1VHNOSFo1dDRvWjQ0UGRCYkdaRmxBSEdsRXd6VzQzTXRxNDEzYy1rbEVFUGl5NWVxZURoWTIxaEdPSGlqNkJtbWVnYjZWeDFUSDM0S2ctTjdVaWgzS1kyazlZdXpkckVxbjlvcmRoUkQ5YkdsVm1YWjhYNUVtZ2R0dDhnalVUUnRv?oc=5",
+      "locator": null,
+      "published_at": "2024-05-21"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_2e72a2e2ff",
     "company_id": "scale",
     "metric": "valuation",
@@ -126,10 +174,10 @@
     "derivation": null
   },
   {
-    "id": "drv_7856c56f6f",
+    "id": "drv_837312df95",
     "company_id": "scale",
     "metric": "revenue_multiple",
-    "value": 14.5,
+    "value": 7.0,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -144,14 +192,14 @@
       "locator": null,
       "published_at": "2026-04-15"
     },
-    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extracted_at": "2026-09-07T10:15:07.048991",
     "extractor_model": "derive-engine",
     "base_confidence": 0.194,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_2e72a2e2ff",
+        "clm_ddf160787a",
         "clm_72dcfd9473"
       ]
     }

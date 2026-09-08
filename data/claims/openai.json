@@ -1,5 +1,53 @@
 [
   {
+    "id": "clm_933bad6408",
+    "company_id": "openai",
+    "metric": "total_funding",
+    "value": 110000000000.0,
+    "unit": "USD",
+    "raw_text": "$110B Raise",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "news.crunchbase.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZUJJdS02aE8xYTB1VEVTNWlvdENXVzdvOXNhRDNoZkw2aWpPaUNBU01EM043WFAzclg4N1MySHFEdVY4N1ZDZDBzdWlpSVhUUDY3czhvekpQVGR3bXd3SnJNQ3JHZGNzRHFPdFd4NXJjMndUY1B6cEJqT2tkOS1nckdHaFY?oc=5",
+      "locator": null,
+      "published_at": "2026-02-27"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_05d72f55ed",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 840000000000.0,
+    "unit": "USD",
+    "raw_text": "$840B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "news.crunchbase.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZUJJdS02aE8xYTB1VEVTNWlvdENXVzdvOXNhRDNoZkw2aWpPaUNBU01EM043WFAzclg4N1MySHFEdVY4N1ZDZDBzdWlpSVhUUDY3czhvekpQVGR3bXd3SnJNQ3JHZGNzRHFPdFd4NXJjMndUY1B6cEJqT2tkOS1nckdHaFY?oc=5",
+      "locator": null,
+      "published_at": "2026-02-27"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_84a35c327c",
     "company_id": "openai",
     "metric": "total_funding",
@@ -45,6 +93,33 @@
     "extracted_at": "2026-08-22T05:47:44.406970",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_791ef4577f",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI’s Annualized Revenue Tops $40 Billion Ahead of IPO",
+    "qualifiers": [
+      "run_rate",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRFBTR1VKWUlRMkNjY2g4YUU1M2Ruc0lIQWdEUklmb2x0VmhPbEgweWdweDBwWGNPX0FDZFhHcEtuWW41NnQ2cDRVV0lUX3JtS0FmV3NoTVZuQW5BN2ZSMGViVG9Xd0JJN3pScHA3b0UzSzBFUUVBWDZRV2lVMVpwU1ozUlRrMkNadTNKVTg3SGl2MGduajJnakVLb2hkQWlxSG9xaW1Cc18?oc=5",
+      "locator": null,
+      "published_at": "2026-08-13"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3307,
     "derivation": null
   },
   {
@@ -430,54 +505,6 @@
     "derivation": null
   },
   {
-    "id": "clm_933bad6408",
-    "company_id": "openai",
-    "metric": "total_funding",
-    "value": 110000000000.0,
-    "unit": "USD",
-    "raw_text": "$110B Raise",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "news.crunchbase.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZUJJdS02aE8xYTB1VEVTNWlvdENXVzdvOXNhRDNoZkw2aWpPaUNBU01EM043WFAzclg4N1MySHFEdVY4N1ZDZDBzdWlpSVhUUDY3czhvekpQVGR3bXd3SnJNQ3JHZGNzRHFPdFd4NXJjMndUY1B6cEJqT2tkOS1nckdHaFY?oc=5",
-      "locator": null,
-      "published_at": "2026-02-27"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_05d72f55ed",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 840000000000.0,
-    "unit": "USD",
-    "raw_text": "$840B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "news.crunchbase.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZUJJdS02aE8xYTB1VEVTNWlvdENXVzdvOXNhRDNoZkw2aWpPaUNBU01EM043WFAzclg4N1MySHFEdVY4N1ZDZDBzdWlpSVhUUDY3czhvekpQVGR3bXd3SnJNQ3JHZGNzRHFPdFd4NXJjMndUY1B6cEJqT2tkOS1nckdHaFY?oc=5",
-      "locator": null,
-      "published_at": "2026-02-27"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_6c05bb0d3f",
     "company_id": "openai",
     "metric": "total_funding",
@@ -621,33 +648,6 @@
     "extracted_at": "2026-08-31T12:11:11.881256",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_791ef4577f",
-    "company_id": "openai",
-    "metric": "arr",
-    "value": 40000000000.0,
-    "unit": "USD",
-    "raw_text": "OpenAI’s Annualized Revenue Tops $40 Billion Ahead of IPO",
-    "qualifiers": [
-      "run_rate",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRFBTR1VKWUlRMkNjY2g4YUU1M2Ruc0lIQWdEUklmb2x0VmhPbEgweWdweDBwWGNPX0FDZFhHcEtuWW41NnQ2cDRVV0lUX3JtS0FmV3NoTVZuQW5BN2ZSMGViVG9Xd0JJN3pScHA3b0UzSzBFUUVBWDZRV2lVMVpwU1ozUlRrMkNadTNKVTg3SGl2MGduajJnakVLb2hkQWlxSG9xaW1Cc18?oc=5",
-      "locator": null,
-      "published_at": "2026-08-13"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3307,
     "derivation": null
   },
   {
@@ -974,7 +974,7 @@
       "locator": null,
       "published_at": "2026-08-20"
     },
-    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "derive-engine",
     "base_confidence": 0.4658,
     "derivation": {

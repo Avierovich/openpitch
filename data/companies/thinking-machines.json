@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2026-06-05",
       "estimate_type": "consensus",
-      "confidence": 0.767,
+      "confidence": 0.766,
       "supporting_claims": [
         "clm_51dd180844",
         "clm_252640b20c",
@@ -48,10 +48,13 @@
       "metric": "round_amount",
       "value": 1000000000.0,
       "unit": "USD",
-      "range": null,
-      "as_of": "2026-09-04",
+      "range": {
+        "low": 1000000000.0,
+        "high": 30000000000.0
+      },
+      "as_of": "2026-09-07",
       "estimate_type": "consensus",
-      "confidence": 0.821,
+      "confidence": 0.877,
       "supporting_claims": [
         "clm_80c775812e",
         "clm_21a425b57f",
@@ -59,6 +62,7 @@
         "clm_da28ed0c33",
         "clm_3727a05e75",
         "clm_bf36fad9ec",
+        "clm_3e9568dc1d",
         "clm_7874de7184"
       ],
       "contradiction": false,
@@ -69,9 +73,9 @@
       },
       "history_ref": "history/thinking-machines/round_amount.jsonl",
       "unconfirmed": true,
-      "confirmed_value": 0.0,
-      "confirmed_as_of": "2025-07-17"
+      "confirmed_value": 30000000000.0,
+      "confirmed_as_of": "2026-09-07"
     }
   },
-  "last_updated": "2026-09-07"
+  "last_updated": "2026-09-08"
 }

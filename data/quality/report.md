@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-09-07
+# OpenPitch Data Quality Report - 2026-09-08
 
 ## Summary
 
-- Profiles generated: 343
-- Watchlist candidates: 923
+- Profiles generated: 353
+- Watchlist candidates: 928
 - Top-50 cards: 50
-- Profiles with at least one metric: 334
-- Critical issues: 66
-- Warnings: 25
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 577
+- Profiles with at least one metric: 344
+- Critical issues: 68
+- Warnings: 26
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 572
 
 ## Top-50 Companies With No Metrics
 
@@ -22,6 +22,7 @@ None.
 
 - Cursor
 - Cognition AI
+- Devoted Health
 - Chime
 - Bright Health
 - Checkout.com
@@ -85,6 +86,8 @@ None.
 - Commonwealth Fusion Systems
 - Deep Genomics
 - DeepInfra
+- Demandbase
+- Descript
 - HUMAIN
 - Huspy
 - Ideogram
@@ -103,7 +106,8 @@ None.
 ## Single-Source Core Metrics
 
 - Databricks: round_amount
-- Anysphere (Cursor): arr
+- Devin: total_funding
+- Devin: round_amount
 - Figure AI: headcount
 - Scale AI: headcount
 - Fireworks AI: arr
@@ -119,7 +123,6 @@ None.
 - Cyera: headcount
 - ElevenLabs: headcount
 - Airwallex: total_funding
-- Replit: total_funding
 
 ## Review Rule
 

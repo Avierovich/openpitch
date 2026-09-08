@@ -48,108 +48,84 @@
     "derivation": null
   },
   {
-    "id": "clm_172456c061",
-    "company_id": "helsing",
-    "metric": "total_funding",
-    "value": 1800000000.0,
-    "unit": null,
-    "raw_text": "Helsing Raises $1.8B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "tectonicdefense.com",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBYdEE1Yzl1MkRkeGlkNkRXRHVpakhJbmNMOTBlY29wTGJ5UHA5bXBSdWRMTVlNZ0RDNlFJMGwzZl8ybm9nUmR1WnRqUG12YmpoSkg5ZzR6cXlMaXR1ZXdFM0tURTM3S2VDSUEtRVpxTmRlYUZSUHNNVw?oc=5",
-      "locator": null,
-      "published_at": "2026-07-13"
-    },
-    "extracted_at": "2026-09-04T09:41:05.539009",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_d29a7a23f7",
+    "id": "clm_fbaf07ce45",
     "company_id": "helsing",
     "metric": "valuation",
     "value": 18000000000.0,
-    "unit": null,
+    "unit": "USD",
     "raw_text": "$18B Valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "tectonicdefense.com",
+      "name": "Tectonic Defense",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBYdEE1Yzl1MkRkeGlkNkRXRHVpakhJbmNMOTBlY29wTGJ5UHA5bXBSdWRMTVlNZ0RDNlFJMGwzZl8ybm9nUmR1WnRqUG12YmpoSkg5ZzR6cXlMaXR1ZXdFM0tURTM3S2VDSUEtRVpxTmRlYUZSUHNNVw?oc=5",
       "locator": null,
       "published_at": "2026-07-13"
     },
-    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_db065a5617",
+    "company_id": "helsing",
+    "metric": "total_funding",
+    "value": 1800000000.0,
+    "unit": "USD",
+    "raw_text": "Raises $1.8B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tectonic Defense",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBYdEE1Yzl1MkRkeGlkNkRXRHVpakhJbmNMOTBlY29wTGJ5UHA5bXBSdWRMTVlNZ0RDNlFJMGwzZl8ybm9nUmR1WnRqUG12YmpoSkg5ZzR6cXlMaXR1ZXdFM0tURTM3S2VDSUEtRVpxTmRlYUZSUHNNVw?oc=5",
+      "locator": null,
+      "published_at": "2026-07-13"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_00cfd67c6e",
+    "company_id": "helsing",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": null,
+    "raw_text": "$18bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "airforce-technology.com",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8yMEtaSU9kZkZGV2JxQnJlV2t4Sk9pbmFMTzJtQjZkUTFvM2stR2FQMzZCYlc1akxCTnR0RG9JMVJTc1JzeEkxS3RpcE5KQWo4akcxc2NzY2k3bVBWdUNweUNCOFo3Z0x0N3RPekl4aHM1ZWE0U1RNNXlfaVIzdw?oc=5",
+      "locator": null,
+      "published_at": "2026-07-13"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
   },
   {
-    "id": "clm_1016c0ec31",
-    "company_id": "helsing",
-    "metric": "valuation",
-    "value": 18000000000.0,
-    "unit": "USD",
-    "raw_text": "$18bn valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Airforce Technology",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8yMEtaSU9kZkZGV2JxQnJlV2t4Sk9pbmFMTzJtQjZkUTFvM2stR2FQMzZCYlc1akxCTnR0RG9JMVJTc1JzeEkxS3RpcE5KQWo4akcxc2NzY2k3bVBWdUNweUNCOFo3Z0x0N3RPekl4aHM1ZWE0U1RNNXlfaVIzdw?oc=5",
-      "locator": null,
-      "published_at": "2026-07-13"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_b4c5e8f18f",
+    "id": "clm_9b398a8878",
     "company_id": "helsing",
     "metric": "round_amount",
     "value": 1800000000.0,
-    "unit": "USD",
-    "raw_text": "$1.8bn",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Airforce Technology",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8yMEtaSU9kZkZGV2JxQnJlV2t4Sk9pbmFMTzJtQjZkUTFvM2stR2FQMzZCYlc1akxCTnR0RG9JMVJTc1JzeEkxS3RpcE5KQWo4akcxc2NzY2k3bVBWdUNweUNCOFo3Z0x0N3RPekl4aHM1ZWE0U1RNNXlfaVIzdw?oc=5",
-      "locator": null,
-      "published_at": "2026-07-13"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_c9eb8b7497",
-    "company_id": "helsing",
-    "metric": "latest_round",
-    "value": 5.0,
     "unit": null,
-    "raw_text": "Series E",
+    "raw_text": "$1.8bn Series E",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -157,12 +133,12 @@
     },
     "source": {
       "type": "news",
-      "name": "Airforce Technology",
+      "name": "airforce-technology.com",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8yMEtaSU9kZkZGV2JxQnJlV2t4Sk9pbmFMTzJtQjZkUTFvM2stR2FQMzZCYlc1akxCTnR0RG9JMVJTc1JzeEkxS3RpcE5KQWo4akcxc2NzY2k3bVBWdUNweUNCOFo3Z0x0N3RPekl4aHM1ZWE0U1RNNXlfaVIzdw?oc=5",
       "locator": null,
       "published_at": "2026-07-13"
     },
-    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -434,36 +410,12 @@
     "derivation": null
   },
   {
-    "id": "clm_4a253ec3ec",
-    "company_id": "helsing",
-    "metric": "total_funding",
-    "value": 1800000000.0,
-    "unit": "USD",
-    "raw_text": "Raises $1.8 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSDlRZFJmX29vZFhPWTI1Q0h4SklqM0JULXllTWtyV3M3amYzUk10X0pPbGlXYXZNZXJaLXNUS1lJZ1dRd3dfbnhvSHU1dmpjNE5oLUJYN3l4ZmZIdlJudmplNnJfQUN5YkRxQWtaRUlGZU1LYlN5MXcwaEw3aTAzanhZVXk2LXRyVVlKNHdzdkktRHFsRjdFQkRsMkwydGszanZmWVFIemtzT3lKeXpB?oc=5",
-      "locator": null,
-      "published_at": "2026-07-13"
-    },
-    "extracted_at": "2026-08-29T11:59:18.797257",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_bcbd83d8c9",
+    "id": "clm_09a78b83f8",
     "company_id": "helsing",
     "metric": "valuation",
-    "value": 18000000000.0,
-    "unit": "USD",
-    "raw_text": "$18 Billion Valuation",
+    "value": 5400000000.0,
+    "unit": null,
+    "raw_text": "$5.4B Valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -471,12 +423,12 @@
     },
     "source": {
       "type": "news",
-      "name": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSDlRZFJmX29vZFhPWTI1Q0h4SklqM0JULXllTWtyV3M3amYzUk10X0pPbGlXYXZNZXJaLXNUS1lJZ1dRd3dfbnhvSHU1dmpjNE5oLUJYN3l4ZmZIdlJudmplNnJfQUN5YkRxQWtaRUlGZU1LYlN5MXcwaEw3aTAzanhZVXk2LXRyVVlKNHdzdkktRHFsRjdFQkRsMkwydGszanZmWVFIemtzT3lKeXpB?oc=5",
+      "name": "news.crunchbase.com",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5CdWFVNDdFTFFrMVNWZjdyajJNenZZeDliX2t6a08xZVc4aGpwWHlHalJzc1ZjUS1CcXpYcUFnLVM0bk9hSlpYQWxYaWhaaC1pa2JKYXI0dlZEb0I3QmhGSXM5TjMxbXZDRTEzaVg2YUtTVlNsYS1r?oc=5",
       "locator": null,
-      "published_at": "2026-07-13"
+      "published_at": "2024-07-11"
     },
-    "extracted_at": "2026-08-29T11:59:18.797257",
+    "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -530,36 +482,12 @@
     "derivation": null
   },
   {
-    "id": "clm_fbaf07ce45",
-    "company_id": "helsing",
-    "metric": "valuation",
-    "value": 18000000000.0,
-    "unit": "USD",
-    "raw_text": "$18B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tectonic Defense",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBYdEE1Yzl1MkRkeGlkNkRXRHVpakhJbmNMOTBlY29wTGJ5UHA5bXBSdWRMTVlNZ0RDNlFJMGwzZl8ybm9nUmR1WnRqUG12YmpoSkg5ZzR6cXlMaXR1ZXdFM0tURTM3S2VDSUEtRVpxTmRlYUZSUHNNVw?oc=5",
-      "locator": null,
-      "published_at": "2026-07-13"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_db065a5617",
+    "id": "clm_072ecc2518",
     "company_id": "helsing",
     "metric": "total_funding",
     "value": 1800000000.0,
     "unit": "USD",
-    "raw_text": "Raises $1.8B",
+    "raw_text": "Raises $1.8 Billion",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -567,23 +495,47 @@
     },
     "source": {
       "type": "news",
-      "name": "Tectonic Defense",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBYdEE1Yzl1MkRkeGlkNkRXRHVpakhJbmNMOTBlY29wTGJ5UHA5bXBSdWRMTVlNZ0RDNlFJMGwzZl8ybm9nUmR1WnRqUG12YmpoSkg5ZzR6cXlMaXR1ZXdFM0tURTM3S2VDSUEtRVpxTmRlYUZSUHNNVw?oc=5",
+      "name": "tradingview.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSDlRZFJmX29vZFhPWTI1Q0h4SklqM0JULXllTWtyV3M3amYzUk10X0pPbGlXYXZNZXJaLXNUS1lJZ1dRd3dfbnhvSHU1dmpjNE5oLUJYN3l4ZmZIdlJudmplNnJfQUN5YkRxQWtaRUlGZU1LYlN5MXcwaEw3aTAzanhZVXk2LXRyVVlKNHdzdkktRHFsRjdFQkRsMkwydGszanZmWVFIemtzT3lKeXpB?oc=5",
       "locator": null,
       "published_at": "2026-07-13"
     },
-    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
   },
   {
-    "id": "clm_00cfd67c6e",
+    "id": "clm_8e185a54a4",
     "company_id": "helsing",
     "metric": "valuation",
     "value": 18000000000.0,
+    "unit": "USD",
+    "raw_text": "$18 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "tradingview.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSDlRZFJmX29vZFhPWTI1Q0h4SklqM0JULXllTWtyV3M3amYzUk10X0pPbGlXYXZNZXJaLXNUS1lJZ1dRd3dfbnhvSHU1dmpjNE5oLUJYN3l4ZmZIdlJudmplNnJfQUN5YkRxQWtaRUlGZU1LYlN5MXcwaEw3aTAzanhZVXk2LXRyVVlKNHdzdkktRHFsRjdFQkRsMkwydGszanZmWVFIemtzT3lKeXpB?oc=5",
+      "locator": null,
+      "published_at": "2026-07-13"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_172456c061",
+    "company_id": "helsing",
+    "metric": "total_funding",
+    "value": 1800000000.0,
     "unit": null,
-    "raw_text": "$18bn valuation",
+    "raw_text": "Helsing Raises $1.8B",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -591,23 +543,23 @@
     },
     "source": {
       "type": "news",
-      "name": "airforce-technology.com",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8yMEtaSU9kZkZGV2JxQnJlV2t4Sk9pbmFMTzJtQjZkUTFvM2stR2FQMzZCYlc1akxCTnR0RG9JMVJTc1JzeEkxS3RpcE5KQWo4akcxc2NzY2k3bVBWdUNweUNCOFo3Z0x0N3RPekl4aHM1ZWE0U1RNNXlfaVIzdw?oc=5",
+      "name": "tectonicdefense.com",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBYdEE1Yzl1MkRkeGlkNkRXRHVpakhJbmNMOTBlY29wTGJ5UHA5bXBSdWRMTVlNZ0RDNlFJMGwzZl8ybm9nUmR1WnRqUG12YmpoSkg5ZzR6cXlMaXR1ZXdFM0tURTM3S2VDSUEtRVpxTmRlYUZSUHNNVw?oc=5",
       "locator": null,
       "published_at": "2026-07-13"
     },
-    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
   },
   {
-    "id": "clm_9b398a8878",
+    "id": "clm_d29a7a23f7",
     "company_id": "helsing",
-    "metric": "round_amount",
-    "value": 1800000000.0,
+    "metric": "valuation",
+    "value": 18000000000.0,
     "unit": null,
-    "raw_text": "$1.8bn Series E",
+    "raw_text": "$18B Valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -615,12 +567,132 @@
     },
     "source": {
       "type": "news",
-      "name": "airforce-technology.com",
+      "name": "tectonicdefense.com",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBYdEE1Yzl1MkRkeGlkNkRXRHVpakhJbmNMOTBlY29wTGJ5UHA5bXBSdWRMTVlNZ0RDNlFJMGwzZl8ybm9nUmR1WnRqUG12YmpoSkg5ZzR6cXlMaXR1ZXdFM0tURTM3S2VDSUEtRVpxTmRlYUZSUHNNVw?oc=5",
+      "locator": null,
+      "published_at": "2026-07-13"
+    },
+    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_1016c0ec31",
+    "company_id": "helsing",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": "USD",
+    "raw_text": "$18bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Airforce Technology",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8yMEtaSU9kZkZGV2JxQnJlV2t4Sk9pbmFMTzJtQjZkUTFvM2stR2FQMzZCYlc1akxCTnR0RG9JMVJTc1JzeEkxS3RpcE5KQWo4akcxc2NzY2k3bVBWdUNweUNCOFo3Z0x0N3RPekl4aHM1ZWE0U1RNNXlfaVIzdw?oc=5",
       "locator": null,
       "published_at": "2026-07-13"
     },
-    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_b4c5e8f18f",
+    "company_id": "helsing",
+    "metric": "round_amount",
+    "value": 1800000000.0,
+    "unit": "USD",
+    "raw_text": "$1.8bn",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Airforce Technology",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8yMEtaSU9kZkZGV2JxQnJlV2t4Sk9pbmFMTzJtQjZkUTFvM2stR2FQMzZCYlc1akxCTnR0RG9JMVJTc1JzeEkxS3RpcE5KQWo4akcxc2NzY2k3bVBWdUNweUNCOFo3Z0x0N3RPekl4aHM1ZWE0U1RNNXlfaVIzdw?oc=5",
+      "locator": null,
+      "published_at": "2026-07-13"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_c9eb8b7497",
+    "company_id": "helsing",
+    "metric": "latest_round",
+    "value": 5.0,
+    "unit": null,
+    "raw_text": "Series E",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Airforce Technology",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8yMEtaSU9kZkZGV2JxQnJlV2t4Sk9pbmFMTzJtQjZkUTFvM2stR2FQMzZCYlc1akxCTnR0RG9JMVJTc1JzeEkxS3RpcE5KQWo4akcxc2NzY2k3bVBWdUNweUNCOFo3Z0x0N3RPekl4aHM1ZWE0U1RNNXlfaVIzdw?oc=5",
+      "locator": null,
+      "published_at": "2026-07-13"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_4a253ec3ec",
+    "company_id": "helsing",
+    "metric": "total_funding",
+    "value": 1800000000.0,
+    "unit": "USD",
+    "raw_text": "Raises $1.8 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSDlRZFJmX29vZFhPWTI1Q0h4SklqM0JULXllTWtyV3M3amYzUk10X0pPbGlXYXZNZXJaLXNUS1lJZ1dRd3dfbnhvSHU1dmpjNE5oLUJYN3l4ZmZIdlJudmplNnJfQUN5YkRxQWtaRUlGZU1LYlN5MXcwaEw3aTAzanhZVXk2LXRyVVlKNHdzdkktRHFsRjdFQkRsMkwydGszanZmWVFIemtzT3lKeXpB?oc=5",
+      "locator": null,
+      "published_at": "2026-07-13"
+    },
+    "extracted_at": "2026-08-29T11:59:18.797257",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_bcbd83d8c9",
+    "company_id": "helsing",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": "USD",
+    "raw_text": "$18 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSDlRZFJmX29vZFhPWTI1Q0h4SklqM0JULXllTWtyV3M3amYzUk10X0pPbGlXYXZNZXJaLXNUS1lJZ1dRd3dfbnhvSHU1dmpjNE5oLUJYN3l4ZmZIdlJudmplNnJfQUN5YkRxQWtaRUlGZU1LYlN5MXcwaEw3aTAzanhZVXk2LXRyVVlKNHdzdkktRHFsRjdFQkRsMkwydGszanZmWVFIemtzT3lKeXpB?oc=5",
+      "locator": null,
+      "published_at": "2026-07-13"
+    },
+    "extracted_at": "2026-08-29T11:59:18.797257",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -914,30 +986,6 @@
     "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_09a78b83f8",
-    "company_id": "helsing",
-    "metric": "valuation",
-    "value": 5400000000.0,
-    "unit": null,
-    "raw_text": "$5.4B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "news.crunchbase.com",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5CdWFVNDdFTFFrMVNWZjdyajJNenZZeDliX2t6a08xZVc4aGpwWHlHalJzc1ZjUS1CcXpYcUFnLVM0bk9hSlpYQWxYaWhaaC1pa2JKYXI0dlZEb0I3QmhGSXM5TjMxbXZDRTEzaVg2YUtTVlNsYS1r?oc=5",
-      "locator": null,
-      "published_at": "2024-07-11"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
     "derivation": null
   },
   {

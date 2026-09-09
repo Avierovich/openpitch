@@ -22,7 +22,7 @@
       },
       "as_of": "2026-04-26",
       "estimate_type": "consensus",
-      "confidence": 0.593,
+      "confidence": 0.591,
       "supporting_claims": [
         "clm_4c099ab1a8",
         "clm_b2c055d7af"
@@ -34,6 +34,46 @@
         "since": "2026-04-26"
       },
       "history_ref": "history/aleph-alpha/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "subscribers": {
+      "metric": "subscribers",
+      "value": 80000.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-09-09",
+      "estimate_type": "reported",
+      "confidence": 0.25,
+      "supporting_claims": [
+        "clm_6dbac39a5d"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 80000.0,
+        "change_pct": 0.0,
+        "since": "2026-09-03"
+      },
+      "history_ref": "history/aleph-alpha/subscribers.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 2.0,
+      "unit": "object",
+      "range": null,
+      "as_of": "2023-11-06",
+      "estimate_type": "reported",
+      "confidence": 0.022,
+      "supporting_claims": [
+        "clm_7404df9fbe"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/aleph-alpha/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -71,7 +111,7 @@
       },
       "as_of": "2026-04-27",
       "estimate_type": "consensus",
-      "confidence": 0.877,
+      "confidence": 0.876,
       "supporting_claims": [
         "clm_bbdfbc71aa",
         "clm_0bf42c578b",
@@ -91,29 +131,7 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "subscribers": {
-      "metric": "subscribers",
-      "value": 80000.0,
-      "unit": "count",
-      "range": null,
-      "as_of": "2026-09-08",
-      "estimate_type": "reported",
-      "confidence": 0.25,
-      "supporting_claims": [
-        "clm_6dbac39a5d"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 80000.0,
-        "change_pct": 0.0,
-        "since": "2026-09-03"
-      },
-      "history_ref": "history/aleph-alpha/subscribers.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-08"
+  "last_updated": "2026-09-09"
 }

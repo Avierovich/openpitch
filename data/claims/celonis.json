@@ -1,5 +1,56 @@
 [
   {
+    "id": "clm_bb916ad4d6",
+    "company_id": "celonis",
+    "metric": "headcount",
+    "value": 3000.0,
+    "unit": "employees",
+    "raw_text": "Employees 3,000+",
+    "qualifiers": [
+      "rounded",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "celonis.com",
+      "url": "https://celonis.com/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-08-19T12:30:22.754661",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1913,
+    "derivation": null
+  },
+  {
+    "id": "clm_12e0450ab9",
+    "company_id": "celonis",
+    "metric": "valuation",
+    "value": 13000000000.0,
+    "unit": "USD",
+    "raw_text": "$13B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSHZXdUpSTW15RC1tdWQ1UnFuM291MkRERnI0RkpUd2ZwUGI0bHZXTFlEcVlyOFp1Z2V1UXFBVGhMOVowd19LWFJ0VHFmYUxKT0FmYTZpQzNYUjdmZjVJVXQ4aHI0RGtuUTVrVUFGTkVIYm96WldZZkFUdVJUNWotQ0toYzhvZmV1bkJnZTJsdXdLbGkyb1Y0NVdyclE?oc=5",
+      "locator": null,
+      "published_at": "2022-10-16"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_2557a67a3a",
     "company_id": "celonis",
     "metric": "total_funding",
@@ -45,33 +96,6 @@
     "extracted_at": "2026-08-19T12:30:22.754661",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_bb916ad4d6",
-    "company_id": "celonis",
-    "metric": "headcount",
-    "value": 3000.0,
-    "unit": "employees",
-    "raw_text": "Employees 3,000+",
-    "qualifiers": [
-      "rounded",
-      "approximate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "celonis.com",
-      "url": "https://celonis.com/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-08-19T12:30:22.754661",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1913,
     "derivation": null
   },
   {
@@ -654,31 +678,7 @@
     "derivation": null
   },
   {
-    "id": "clm_12e0450ab9",
-    "company_id": "celonis",
-    "metric": "valuation",
-    "value": 13000000000.0,
-    "unit": "USD",
-    "raw_text": "$13B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSHZXdUpSTW15RC1tdWQ1UnFuM291MkRERnI0RkpUd2ZwUGI0bHZXTFlEcVlyOFp1Z2V1UXFBVGhMOVowd19LWFJ0VHFmYUxKT0FmYTZpQzNYUjdmZjVJVXQ4aHI0RGtuUTVrVUFGTkVIYm96WldZZkFUdVJUNWotQ0toYzhvZmV1bkJnZTJsdXdLbGkyb1Y0NVdyclE?oc=5",
-      "locator": null,
-      "published_at": "2022-10-16"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "drv_c1dc8aa18c",
+    "id": "drv_323c43f428",
     "company_id": "celonis",
     "metric": "revenue_multiple",
     "value": 16.86,
@@ -696,14 +696,14 @@
       "locator": null,
       "published_at": "2026-07-03"
     },
-    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extracted_at": "2026-09-09T09:51:11.595604",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2054,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_2a8fd8cab3",
+        "clm_12e0450ab9",
         "clm_4a9d9165ee"
       ]
     }

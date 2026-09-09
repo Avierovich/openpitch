@@ -10,27 +10,30 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 90.6,
-  "universe_rank": 6,
+  "universe_rank": 5,
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 72897369435.5,
+      "value": 72943902965.37,
       "unit": "USD",
       "range": null,
       "as_of": "2026-07-18",
       "estimate_type": "consensus",
-      "confidence": 0.686,
+      "confidence": 0.878,
       "supporting_claims": [
         "clm_aff2cf13b5",
+        "clm_728081a323",
         "clm_93952d7e80",
+        "clm_8ec8e30863",
+        "clm_11c1af281d",
         "clm_9531c75902",
         "clm_309fb95e7d",
         "clm_a0c09a5ff6"
       ],
       "contradiction": true,
       "delta": {
-        "previous": 72504115208.27,
-        "change_pct": 0.5,
+        "previous": 72897369435.5,
+        "change_pct": 0.1,
         "since": "2026-07-18"
       },
       "history_ref": "history/deepseek-ai/valuation.jsonl",
@@ -65,5 +68,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-08"
+  "last_updated": "2026-09-09"
 }

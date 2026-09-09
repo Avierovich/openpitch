@@ -12,37 +12,9 @@
   "vc_attention_score": 88.3,
   "universe_rank": 16,
   "metrics": {
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 10000000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 10000000000.0,
-        "high": 12000000000.0
-      },
-      "as_of": "2026-04-21",
-      "estimate_type": "consensus",
-      "confidence": 0.77,
-      "supporting_claims": [
-        "clm_ec9486d32c",
-        "clm_baac1e6419",
-        "clm_ace6101b80",
-        "clm_dbf86b40b1"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 10000000000.0,
-        "change_pct": -0.0,
-        "since": "2026-04-21"
-      },
-      "history_ref": "history/project-prometheus/total_funding.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": 12000000000.0,
-      "confirmed_as_of": "2026-06-11"
-    },
     "valuation": {
       "metric": "valuation",
-      "value": 38452845928.72,
+      "value": 38431454668.11,
       "unit": "USD",
       "range": {
         "low": 38000000000.0,
@@ -52,11 +24,12 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
-        "clm_e93a4a5434",
         "clm_d588914c73",
         "clm_0db447274f",
-        "clm_6c7333dd3f",
         "clm_b3b2eb81c5",
+        "clm_f9e09d429c",
+        "clm_e93a4a5434",
+        "clm_6c7333dd3f",
         "clm_1c76074e33",
         "clm_f7570a406d",
         "clm_6089df640d",
@@ -74,12 +47,41 @@
       "contradiction": false,
       "delta": {
         "previous": 38452845928.72,
-        "change_pct": 0.0,
+        "change_pct": -0.1,
         "since": "2026-06-12"
       },
       "history_ref": "history/project-prometheus/valuation.jsonl",
       "unconfirmed": true,
       "confirmed_value": 41000000000.0,
+      "confirmed_as_of": "2026-06-11"
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 10000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 10000000000.0,
+        "high": 12000000000.0
+      },
+      "as_of": "2026-04-24",
+      "estimate_type": "consensus",
+      "confidence": 0.83,
+      "supporting_claims": [
+        "clm_ace6101b80",
+        "clm_8d6009e913",
+        "clm_ec9486d32c",
+        "clm_baac1e6419",
+        "clm_dbf86b40b1"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 10000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-04-21"
+      },
+      "history_ref": "history/project-prometheus/total_funding.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": 12000000000.0,
       "confirmed_as_of": "2026-06-11"
     },
     "round_amount": {
@@ -89,7 +91,7 @@
       "range": null,
       "as_of": "2026-04-24",
       "estimate_type": "consensus",
-      "confidence": 0.558,
+      "confidence": 0.557,
       "supporting_claims": [
         "clm_7de07e1912",
         "clm_d16d4957eb",
@@ -118,7 +120,7 @@
       },
       "as_of": "2026-04-24",
       "estimate_type": "consensus",
-      "confidence": 0.589,
+      "confidence": 0.588,
       "supporting_claims": [
         "clm_e4783d4a69",
         "clm_405b686728"
@@ -126,7 +128,7 @@
       "contradiction": false,
       "delta": {
         "previous": 10000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-04-24"
       },
       "history_ref": "history/project-prometheus/latest_round.jsonl",
@@ -135,5 +137,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-08"
+  "last_updated": "2026-09-09"
 }

@@ -1,5 +1,101 @@
 [
   {
+    "id": "clm_31d1648365",
+    "company_id": "aleph-alpha",
+    "metric": "round_amount",
+    "value": 500000000.0,
+    "unit": null,
+    "raw_text": "SAP backs Aleph Alpha’s $500m series B round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "ERP Today",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sTzdnM1FFaE8teGxIbDRnY05aMEpvdkFFRnhqTWY1cUc0VFltZGlUeVRVY1hIY2U3NFJ5ZFNERXJkV2RsSFlmMGxJVklwa3JELVpTZkZYRTJnWnlpb2MwdkdNc0ZkRXhyOEtmakFB?oc=5",
+      "locator": null,
+      "published_at": "2023-11-08"
+    },
+    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_6dbac39a5d",
+    "company_id": "aleph-alpha",
+    "metric": "subscribers",
+    "value": 80000.0,
+    "unit": null,
+    "raw_text": "80.000 Nutzern",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "aleph-alpha.com",
+      "url": "https://aleph-alpha.com",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_828a25c817",
+    "company_id": "aleph-alpha",
+    "metric": "round_amount",
+    "value": 500000000.0,
+    "unit": "USD",
+    "raw_text": "$500M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR2dyeVVDdk1YS0dYdGM3OEdrWExMMm90R2I5M2tSU1p0TFJSNUlZS3IzOWRIZzVqeVVhSzNyNTRXSnF6ZjVfMGtOdWF2aEhmLW5Semhyb0RsTjBnVzVLeDFwazJLd1ExM2VGWTE0MXItZ21UM1F4NUVoRS1pWU9oVTEteDFzZDhxSDZtWldQdmVJUldYcTQ2SXVuQjkzby1tOWFSZm9teDZFYlFQMnJHVjJrajJGRGVFNUt4cmRYaw?oc=5",
+      "locator": null,
+      "published_at": "2023-11-06"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_7404df9fbe",
+    "company_id": "aleph-alpha",
+    "metric": "latest_round",
+    "value": 2.0,
+    "unit": null,
+    "raw_text": "Series B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR2dyeVVDdk1YS0dYdGM3OEdrWExMMm90R2I5M2tSU1p0TFJSNUlZS3IzOWRIZzVqeVVhSzNyNTRXSnF6ZjVfMGtOdWF2aEhmLW5Semhyb0RsTjBnVzVLeDFwazJLd1ExM2VGWTE0MXItZ21UM1F4NUVoRS1pWU9oVTEteDFzZDhxSDZtWldQdmVJUldYcTQ2SXVuQjkzby1tOWFSZm9teDZFYlFQMnJHVjJrajJGRGVFNUt4cmRYaw?oc=5",
+      "locator": null,
+      "published_at": "2023-11-06"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_8dc9b1d435",
     "company_id": "aleph-alpha",
     "metric": "round_amount",
@@ -96,30 +192,6 @@
     "derivation": null
   },
   {
-    "id": "clm_31d1648365",
-    "company_id": "aleph-alpha",
-    "metric": "round_amount",
-    "value": 500000000.0,
-    "unit": null,
-    "raw_text": "SAP backs Aleph Alpha’s $500m series B round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "ERP Today",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sTzdnM1FFaE8teGxIbDRnY05aMEpvdkFFRnhqTWY1cUc0VFltZGlUeVRVY1hIY2U3NFJ5ZFNERXJkV2RsSFlmMGxJVklwa3JELVpTZkZYRTJnWnlpb2MwdkdNc0ZkRXhyOEtmakFB?oc=5",
-      "locator": null,
-      "published_at": "2023-11-08"
-    },
-    "extracted_at": "2026-07-12T07:44:16.543146",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_bbdfbc71aa",
     "company_id": "aleph-alpha",
     "metric": "valuation",
@@ -169,30 +241,6 @@
     "extracted_at": "2026-09-07T10:15:07.048991",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_6dbac39a5d",
-    "company_id": "aleph-alpha",
-    "metric": "subscribers",
-    "value": 80000.0,
-    "unit": "users",
-    "raw_text": "Die Einführung eines KI-Assistenten in einer Behörde hilft 80.000 Nutzern",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "aleph-alpha.com",
-      "url": "https://aleph-alpha.com",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
     "derivation": null
   },
   {

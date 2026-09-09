@@ -24,9 +24,9 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
-        "clm_7b1940eca6",
         "clm_0c81e0bfe0",
         "clm_463bfcaa4a",
+        "clm_7b1940eca6",
         "clm_9ae619c146",
         "clm_eec4e55c3b",
         "clm_dd358898d5"
@@ -34,7 +34,7 @@
       "contradiction": false,
       "delta": {
         "previous": 5000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-08-14"
       },
       "history_ref": "history/databricks/total_funding.jsonl",
@@ -54,10 +54,11 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
-        "clm_2201682ef3",
         "clm_5d811b752c",
         "clm_4306adb73d",
         "clm_1cca8f8bbf",
+        "clm_b19e542d57",
+        "clm_2201682ef3",
         "clm_3fa9b9b4b8",
         "clm_0e305357ff",
         "clm_b2209219ed",
@@ -67,7 +68,7 @@
       "contradiction": false,
       "delta": {
         "previous": 190000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-08-14"
       },
       "history_ref": "history/databricks/valuation.jsonl",
@@ -87,10 +88,11 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
-        "clm_45e6e79641",
         "clm_6e5df8955c",
         "clm_fd6eabef29",
         "clm_1fa279d24f",
+        "clm_1dfbbc8cb9",
+        "clm_45e6e79641",
         "clm_c8b1cad372",
         "clm_d2fca435ff",
         "clm_05cacbaeff",
@@ -108,6 +110,32 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 5000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 5000000000.0,
+        "high": 5000000000.0
+      },
+      "as_of": "2026-08-13",
+      "estimate_type": "consensus",
+      "confidence": 0.737,
+      "supporting_claims": [
+        "clm_5d1175975e",
+        "clm_68e905118a"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 5000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-08-13"
+      },
+      "history_ref": "history/databricks/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "revenue_growth": {
       "metric": "revenue_growth",
       "value": 80.0,
@@ -115,7 +143,7 @@
       "range": null,
       "as_of": "2026-08-13",
       "estimate_type": "consensus",
-      "confidence": 0.411,
+      "confidence": 0.408,
       "supporting_claims": [
         "clm_5ddcbd568a",
         "clm_45db87797a"
@@ -138,7 +166,7 @@
       "range": null,
       "as_of": "2025-12-16",
       "estimate_type": "reported",
-      "confidence": 0.109,
+      "confidence": 0.108,
       "supporting_claims": [
         "clm_be3aaeb230"
       ],
@@ -153,38 +181,16 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 5000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-08-13",
-      "estimate_type": "reported",
-      "confidence": 0.489,
-      "supporting_claims": [
-        "clm_68e905118a"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 5000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-08-13"
-      },
-      "history_ref": "history/databricks/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "revenue_multiple": {
       "metric": "revenue_multiple",
       "value": 27.14,
       "unit": "x",
       "range": null,
-      "as_of": "2026-08-13",
+      "as_of": "2026-08-14",
       "estimate_type": "reported",
       "confidence": 0.184,
       "supporting_claims": [
-        "drv_bc907107ce"
+        "drv_738619a7d5"
       ],
       "contradiction": false,
       "delta": {
@@ -198,5 +204,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-08"
+  "last_updated": "2026-09-09"
 }

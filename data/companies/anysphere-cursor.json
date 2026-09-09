@@ -12,29 +12,6 @@
   "vc_attention_score": 89.9,
   "universe_rank": 9,
   "metrics": {
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 900000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-06-09",
-      "estimate_type": "consensus",
-      "confidence": 0.268,
-      "supporting_claims": [
-        "clm_08af273dc1",
-        "clm_80a6f04add"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 900000000.0,
-        "change_pct": 0.0,
-        "since": "2025-06-09"
-      },
-      "history_ref": "history/anysphere-cursor/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "valuation": {
       "metric": "valuation",
       "value": 60000000000.0,
@@ -49,19 +26,65 @@
       "supporting_claims": [
         "clm_bc5debeea5",
         "clm_e4dd2a2283",
-        "clm_4c2f621f86",
-        "clm_2a1e29dc04",
         "clm_33f18b1e40",
         "clm_b72bf21995",
+        "clm_4c2f621f86",
+        "clm_2a1e29dc04",
         "clm_8aa5606336"
       ],
       "contradiction": false,
       "delta": {
         "previous": 60000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-08-18"
       },
       "history_ref": "history/anysphere-cursor/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 900000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-06-09",
+      "estimate_type": "consensus",
+      "confidence": 0.267,
+      "supporting_claims": [
+        "clm_80a6f04add",
+        "clm_08af273dc1"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 900000000.0,
+        "change_pct": 0.0,
+        "since": "2025-06-09"
+      },
+      "history_ref": "history/anysphere-cursor/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "arr": {
+      "metric": "arr",
+      "value": 4000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-06-16",
+      "estimate_type": "consensus",
+      "confidence": 0.287,
+      "supporting_claims": [
+        "clm_ebc093f62f",
+        "clm_0d4fcaf1cf"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 4000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-16"
+      },
+      "history_ref": "history/anysphere-cursor/arr.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -78,50 +101,31 @@
         "clm_7fa74fffd6"
       ],
       "contradiction": false,
-      "delta": null,
-      "history_ref": "history/anysphere-cursor/total_funding.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "arr": {
-      "metric": "arr",
-      "value": 4000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-06-16",
-      "estimate_type": "consensus",
-      "confidence": 0.289,
-      "supporting_claims": [
-        "clm_ebc093f62f",
-        "clm_0d4fcaf1cf"
-      ],
-      "contradiction": false,
       "delta": {
-        "previous": 4000000000.0,
-        "change_pct": -0.0,
-        "since": "2026-06-16"
+        "previous": 900000000.0,
+        "change_pct": 0.0,
+        "since": "2025-06-09"
       },
-      "history_ref": "history/anysphere-cursor/arr.jsonl",
+      "history_ref": "history/anysphere-cursor/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 2.25,
+      "value": 2.48,
       "unit": "x",
       "range": null,
       "as_of": "2026-06-16",
       "estimate_type": "reported",
-      "confidence": 0.09,
+      "confidence": 0.089,
       "supporting_claims": [
-        "drv_65071e14b5"
+        "drv_ea2631f4c2"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 2.48,
-        "change_pct": -9.3,
+        "previous": 2.25,
+        "change_pct": 10.2,
         "since": "2026-06-16"
       },
       "history_ref": "history/anysphere-cursor/revenue_multiple.jsonl",
@@ -130,5 +134,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-08"
+  "last_updated": "2026-09-09"
 }

@@ -194,30 +194,6 @@
     "derivation": null
   },
   {
-    "id": "clm_683bd1c4f9",
-    "company_id": "fireworks",
-    "metric": "open_roles",
-    "value": 69.0,
-    "unit": null,
-    "raw_text": "Showing 69 positions",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "fireworks.ai",
-      "url": "https://fireworks.ai/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-09-05T09:07:28.177448",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
     "id": "clm_db6464301b",
     "company_id": "fireworks",
     "metric": "round_amount",
@@ -287,6 +263,126 @@
     "extracted_at": "2026-08-23T05:59:54.335804",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_05d7a6291b",
+    "company_id": "fireworks",
+    "metric": "latest_round",
+    "value": 3.0,
+    "unit": "round",
+    "raw_text": "Series C",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "pulse2.com",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNckhyUXExUXJuTlNTbXRBWDhmM21QNDRPNFlhN2s2dXlKVTFhbDgyQ2tXdU00VmJ1aUJpbW40a3RYTkpSY09GRm9USW5xZUM1R3NpWTVFU1JENWd2N21uaUZ5R0tRMFNNbFlDY1lIMk1CanpjWm84aE1wVkg2QUp0djRtTXNJWDdhZ3JpS3F3aXlOeFVLSkh4ZWNRNE5jVnVQZWNGcVhTU1ZTRk1ZOVhab3FzcmJlTGtmdjcwMmM3ZzFjWGRMT3MxUVM3RXRMUdIB0wFBVV95cUxNUkxBanpPSC1SVHdVOVNQNTBzQUNub1l6MHlaVm81ZkFPNUUxbU9YdGppRG5iMUpVTUJJVTFIX2dzTGV2S1A3VlJYOFFudTdmRHZuX29RU0xXaWNaLXBUMUwxN09ERWpVUERZSXhYOHZtRFNzWEc5bFJ5eVhBTVNZbzd3Yk9GcEMyaS1WT3F3OHpmd1I2bmtablN2MktxTnNmV0lBdVdUV1FodlNkbGFfUXB3VVB3b0tBOENhbHN6S1FkUDdMY3d6ZmhHQUNjQ1l3T1hZ?oc=5",
+      "locator": null,
+      "published_at": "2025-10-29"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_d3e0e022c9",
+    "company_id": "fireworks",
+    "metric": "round_amount",
+    "value": 250000000.0,
+    "unit": "USD",
+    "raw_text": "$250 Million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "pulse2.com",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNckhyUXExUXJuTlNTbXRBWDhmM21QNDRPNFlhN2s2dXlKVTFhbDgyQ2tXdU00VmJ1aUJpbW40a3RYTkpSY09GRm9USW5xZUM1R3NpWTVFU1JENWd2N21uaUZ5R0tRMFNNbFlDY1lIMk1CanpjWm84aE1wVkg2QUp0djRtTXNJWDdhZ3JpS3F3aXlOeFVLSkh4ZWNRNE5jVnVQZWNGcVhTU1ZTRk1ZOVhab3FzcmJlTGtmdjcwMmM3ZzFjWGRMT3MxUVM3RXRMUdIB0wFBVV95cUxNUkxBanpPSC1SVHdVOVNQNTBzQUNub1l6MHlaVm81ZkFPNUUxbU9YdGppRG5iMUpVTUJJVTFIX2dzTGV2S1A3VlJYOFFudTdmRHZuX29RU0xXaWNaLXBUMUwxN09ERWpVUERZSXhYOHZtRFNzWEc5bFJ5eVhBTVNZbzd3Yk9GcEMyaS1WT3F3OHpmd1I2bmtablN2MktxTnNmV0lBdVdUV1FodlNkbGFfUXB3VVB3b0tBOENhbHN6S1FkUDdMY3d6ZmhHQUNjQ1l3T1hZ?oc=5",
+      "locator": null,
+      "published_at": "2025-10-29"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_decc2f02bf",
+    "company_id": "fireworks",
+    "metric": "valuation",
+    "value": 4000000000.0,
+    "unit": "USD",
+    "raw_text": "$4 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "pulse2.com",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNckhyUXExUXJuTlNTbXRBWDhmM21QNDRPNFlhN2s2dXlKVTFhbDgyQ2tXdU00VmJ1aUJpbW40a3RYTkpSY09GRm9USW5xZUM1R3NpWTVFU1JENWd2N21uaUZ5R0tRMFNNbFlDY1lIMk1CanpjWm84aE1wVkg2QUp0djRtTXNJWDdhZ3JpS3F3aXlOeFVLSkh4ZWNRNE5jVnVQZWNGcVhTU1ZTRk1ZOVhab3FzcmJlTGtmdjcwMmM3ZzFjWGRMT3MxUVM3RXRMUdIB0wFBVV95cUxNUkxBanpPSC1SVHdVOVNQNTBzQUNub1l6MHlaVm81ZkFPNUUxbU9YdGppRG5iMUpVTUJJVTFIX2dzTGV2S1A3VlJYOFFudTdmRHZuX29RU0xXaWNaLXBUMUwxN09ERWpVUERZSXhYOHZtRFNzWEc5bFJ5eVhBTVNZbzd3Yk9GcEMyaS1WT3F3OHpmd1I2bmtablN2MktxTnNmV0lBdVdUV1FodlNkbGFfUXB3VVB3b0tBOENhbHN6S1FkUDdMY3d6ZmhHQUNjQ1l3T1hZ?oc=5",
+      "locator": null,
+      "published_at": "2025-10-29"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_d4d2e93468",
+    "company_id": "fireworks",
+    "metric": "open_roles",
+    "value": 71.0,
+    "unit": null,
+    "raw_text": "Showing 71 positions",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fireworks.ai",
+      "url": "https://fireworks.ai/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_683bd1c4f9",
+    "company_id": "fireworks",
+    "metric": "open_roles",
+    "value": 69.0,
+    "unit": null,
+    "raw_text": "Showing 69 positions",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fireworks.ai",
+      "url": "https://fireworks.ai/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
     "derivation": null
   },
   {
@@ -560,78 +656,6 @@
     "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_05d7a6291b",
-    "company_id": "fireworks",
-    "metric": "latest_round",
-    "value": 3.0,
-    "unit": "round",
-    "raw_text": "Series C",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "pulse2.com",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNckhyUXExUXJuTlNTbXRBWDhmM21QNDRPNFlhN2s2dXlKVTFhbDgyQ2tXdU00VmJ1aUJpbW40a3RYTkpSY09GRm9USW5xZUM1R3NpWTVFU1JENWd2N21uaUZ5R0tRMFNNbFlDY1lIMk1CanpjWm84aE1wVkg2QUp0djRtTXNJWDdhZ3JpS3F3aXlOeFVLSkh4ZWNRNE5jVnVQZWNGcVhTU1ZTRk1ZOVhab3FzcmJlTGtmdjcwMmM3ZzFjWGRMT3MxUVM3RXRMUdIB0wFBVV95cUxNUkxBanpPSC1SVHdVOVNQNTBzQUNub1l6MHlaVm81ZkFPNUUxbU9YdGppRG5iMUpVTUJJVTFIX2dzTGV2S1A3VlJYOFFudTdmRHZuX29RU0xXaWNaLXBUMUwxN09ERWpVUERZSXhYOHZtRFNzWEc5bFJ5eVhBTVNZbzd3Yk9GcEMyaS1WT3F3OHpmd1I2bmtablN2MktxTnNmV0lBdVdUV1FodlNkbGFfUXB3VVB3b0tBOENhbHN6S1FkUDdMY3d6ZmhHQUNjQ1l3T1hZ?oc=5",
-      "locator": null,
-      "published_at": "2025-10-29"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_d3e0e022c9",
-    "company_id": "fireworks",
-    "metric": "round_amount",
-    "value": 250000000.0,
-    "unit": "USD",
-    "raw_text": "$250 Million",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "pulse2.com",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNckhyUXExUXJuTlNTbXRBWDhmM21QNDRPNFlhN2s2dXlKVTFhbDgyQ2tXdU00VmJ1aUJpbW40a3RYTkpSY09GRm9USW5xZUM1R3NpWTVFU1JENWd2N21uaUZ5R0tRMFNNbFlDY1lIMk1CanpjWm84aE1wVkg2QUp0djRtTXNJWDdhZ3JpS3F3aXlOeFVLSkh4ZWNRNE5jVnVQZWNGcVhTU1ZTRk1ZOVhab3FzcmJlTGtmdjcwMmM3ZzFjWGRMT3MxUVM3RXRMUdIB0wFBVV95cUxNUkxBanpPSC1SVHdVOVNQNTBzQUNub1l6MHlaVm81ZkFPNUUxbU9YdGppRG5iMUpVTUJJVTFIX2dzTGV2S1A3VlJYOFFudTdmRHZuX29RU0xXaWNaLXBUMUwxN09ERWpVUERZSXhYOHZtRFNzWEc5bFJ5eVhBTVNZbzd3Yk9GcEMyaS1WT3F3OHpmd1I2bmtablN2MktxTnNmV0lBdVdUV1FodlNkbGFfUXB3VVB3b0tBOENhbHN6S1FkUDdMY3d6ZmhHQUNjQ1l3T1hZ?oc=5",
-      "locator": null,
-      "published_at": "2025-10-29"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_decc2f02bf",
-    "company_id": "fireworks",
-    "metric": "valuation",
-    "value": 4000000000.0,
-    "unit": "USD",
-    "raw_text": "$4 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "pulse2.com",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNckhyUXExUXJuTlNTbXRBWDhmM21QNDRPNFlhN2s2dXlKVTFhbDgyQ2tXdU00VmJ1aUJpbW40a3RYTkpSY09GRm9USW5xZUM1R3NpWTVFU1JENWd2N21uaUZ5R0tRMFNNbFlDY1lIMk1CanpjWm84aE1wVkg2QUp0djRtTXNJWDdhZ3JpS3F3aXlOeFVLSkh4ZWNRNE5jVnVQZWNGcVhTU1ZTRk1ZOVhab3FzcmJlTGtmdjcwMmM3ZzFjWGRMT3MxUVM3RXRMUdIB0wFBVV95cUxNUkxBanpPSC1SVHdVOVNQNTBzQUNub1l6MHlaVm81ZkFPNUUxbU9YdGppRG5iMUpVTUJJVTFIX2dzTGV2S1A3VlJYOFFudTdmRHZuX29RU0xXaWNaLXBUMUwxN09ERWpVUERZSXhYOHZtRFNzWEc5bFJ5eVhBTVNZbzd3Yk9GcEMyaS1WT3F3OHpmd1I2bmtablN2MktxTnNmV0lBdVdUV1FodlNkbGFfUXB3VVB3b0tBOENhbHN6S1FkUDdMY3d6ZmhHQUNjQ1l3T1hZ?oc=5",
-      "locator": null,
-      "published_at": "2025-10-29"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -1219,7 +1243,7 @@
       "locator": null,
       "published_at": "2026-07-20"
     },
-    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extracted_at": "2026-09-09T09:51:11.595604",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2029,
     "derivation": {

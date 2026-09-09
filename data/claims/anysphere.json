@@ -1,53 +1,5 @@
 [
   {
-    "id": "clm_32d2c910e2",
-    "company_id": "anysphere",
-    "metric": "round_amount",
-    "value": 900000000.0,
-    "unit": null,
-    "raw_text": "Anysphere Raises $900M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "news.crunchbase.com",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BMk1BdWN5djhrNWZwaE9ZbE1XQmREcldZOTNYOUs1NzRDb0pJTXFSUE5yMmlSRGx5d3poY0c0SkQtTk5ac3UyMWxYZ0hjZ19DcDhuSFpzQTBWNnA2RnhfektMSWUzUm1mTmtET2FDM0hDWkVBcUdwbU9zZw?oc=5",
-      "locator": null,
-      "published_at": "2025-06-09"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_577cc7bef2",
-    "company_id": "anysphere",
-    "metric": "valuation",
-    "value": 9900000000.0,
-    "unit": null,
-    "raw_text": "at $9.9B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "news.crunchbase.com",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BMk1BdWN5djhrNWZwaE9ZbE1XQmREcldZOTNYOUs1NzRDb0pJTXFSUE5yMmlSRGx5d3poY0c0SkQtTk5ac3UyMWxYZ0hjZ19DcDhuSFpzQTBWNnA2RnhfektMSWUzUm1mTmtET2FDM0hDWkVBcUdwbU9zZw?oc=5",
-      "locator": null,
-      "published_at": "2025-06-09"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_b9c75ebd29",
     "company_id": "anysphere",
     "metric": "arr",
@@ -96,6 +48,32 @@
     "derivation": null
   },
   {
+    "id": "clm_177ef2c203",
+    "company_id": "anysphere",
+    "metric": "valuation",
+    "value": 60000000000.0,
+    "unit": "USD",
+    "raw_text": "SpaceX To Acquire Cursor In Stock Deal Valuing AI Coding Startup At $60 Billion",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "pulse2.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWUVDNS1LMFh4WEtYakFJSXh6RGQ2dFo4dEFMUk93Qml5UzRVeUlRQUlicUZtNlFQYmxMbWNuZUY5QmlCd29sbGJDUkJxRDRaRWZYSlJYa3RzM3A2SmRZd0Y2SU1EM0dfYXRGWVpCVXBmMXg5NHBmaHd0Si1rWldVbXhvTFZ5WjJKM3JVeW1SUkpMU2JVaU85cTMtZjdWSlXSAaQBQVVfeXFMTlNrajBkWjNqdV9yZ01HM3RTU1ppdWR3OTM0MlZXZXg3RUVyOGlHVzc0b1gwalg0LTc1Y3hvQnlucndQTnFXYXJvMGdsOWd2S3gta25RaUtUODlBYzdSX19Zdk16b1BvcDlzek1QV1NaV0JyR3N6VHVscWNlbkxHNVR4MUM3azBQMDFnbmhxMUdwQ0VtT01ESG80di1Ua0JfeGU4WGY?oc=5",
+      "locator": null,
+      "published_at": "2026-06-16"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_a8951cd774",
     "company_id": "anysphere",
     "metric": "valuation",
@@ -117,6 +95,106 @@
     "extracted_at": "2026-07-12T07:44:16.543146",
     "extractor_model": "gemini-2.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_836cc25487",
+    "company_id": "anysphere",
+    "metric": "round_amount",
+    "value": 100000000.0,
+    "unit": "USD",
+    "raw_text": "raised another $100M",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaDRFSHNRY1pVa0NyR1VGVmt4MXZkVmdKaUw4bEh0RWJqcHRTay1Na2dzcjJod0M5THhIeHVrd0tpX0JlOENUVnVLcExFcTFKZ3JHSEhIV3ZIelViTjVFYmdmVEh1dmxVZXBzbVF6TVNNZ1hGdGhMN1VGdTdydFFmRkM1ajNSRWJPdWw2NF92S3Fxblh1Uk14UlhuREg1NWwwOUV5Uk9qcEhSMC1pQnh3VlF4a2RHeHVma3JTRUE5SzVqOHZtbUtEdGpDcHpQX3VIbU5sbW1kU0lVc2dU?oc=5",
+      "locator": null,
+      "published_at": "2024-12-19"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_becc914621",
+    "company_id": "anysphere",
+    "metric": "valuation",
+    "value": 2600000000.0,
+    "unit": "USD",
+    "raw_text": "$2.6B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaDRFSHNRY1pVa0NyR1VGVmt4MXZkVmdKaUw4bEh0RWJqcHRTay1Na2dzcjJod0M5THhIeHVrd0tpX0JlOENUVnVLcExFcTFKZ3JHSEhIV3ZIelViTjVFYmdmVEh1dmxVZXBzbVF6TVNNZ1hGdGhMN1VGdTdydFFmRkM1ajNSRWJPdWw2NF92S3Fxblh1Uk14UlhuREg1NWwwOUV5Uk9qcEhSMC1pQnh3VlF4a2RHeHVma3JTRUE5SzVqOHZtbUtEdGpDcHpQX3VIbU5sbW1kU0lVc2dU?oc=5",
+      "locator": null,
+      "published_at": "2024-12-19"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_32d2c910e2",
+    "company_id": "anysphere",
+    "metric": "round_amount",
+    "value": 900000000.0,
+    "unit": null,
+    "raw_text": "Anysphere Raises $900M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "news.crunchbase.com",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BMk1BdWN5djhrNWZwaE9ZbE1XQmREcldZOTNYOUs1NzRDb0pJTXFSUE5yMmlSRGx5d3poY0c0SkQtTk5ac3UyMWxYZ0hjZ19DcDhuSFpzQTBWNnA2RnhfektMSWUzUm1mTmtET2FDM0hDWkVBcUdwbU9zZw?oc=5",
+      "locator": null,
+      "published_at": "2025-06-09"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_577cc7bef2",
+    "company_id": "anysphere",
+    "metric": "valuation",
+    "value": 9900000000.0,
+    "unit": null,
+    "raw_text": "at $9.9B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "news.crunchbase.com",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BMk1BdWN5djhrNWZwaE9ZbE1XQmREcldZOTNYOUs1NzRDb0pJTXFSUE5yMmlSRGx5d3poY0c0SkQtTk5ac3UyMWxYZ0hjZ19DcDhuSFpzQTBWNnA2RnhfektMSWUzUm1mTmtET2FDM0hDWkVBcUdwbU9zZw?oc=5",
+      "locator": null,
+      "published_at": "2025-06-09"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -193,32 +271,6 @@
     "extracted_at": "2026-09-07T10:15:07.048991",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_177ef2c203",
-    "company_id": "anysphere",
-    "metric": "valuation",
-    "value": 60000000000.0,
-    "unit": "USD",
-    "raw_text": "SpaceX To Acquire Cursor In Stock Deal Valuing AI Coding Startup At $60 Billion",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "pulse2.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWUVDNS1LMFh4WEtYakFJSXh6RGQ2dFo4dEFMUk93Qml5UzRVeUlRQUlicUZtNlFQYmxMbWNuZUY5QmlCd29sbGJDUkJxRDRaRWZYSlJYa3RzM3A2SmRZd0Y2SU1EM0dfYXRGWVpCVXBmMXg5NHBmaHd0Si1rWldVbXhvTFZ5WjJKM3JVeW1SUkpMU2JVaU85cTMtZjdWSlXSAaQBQVVfeXFMTlNrajBkWjNqdV9yZ01HM3RTU1ppdWR3OTM0MlZXZXg3RUVyOGlHVzc0b1gwalg0LTc1Y3hvQnlucndQTnFXYXJvMGdsOWd2S3gta25RaUtUODlBYzdSX19Zdk16b1BvcDlzek1QV1NaV0JyR3N6VHVscWNlbkxHNVR4MUM3azBQMDFnbmhxMUdwQ0VtT01ESG80di1Ua0JfeGU4WGY?oc=5",
-      "locator": null,
-      "published_at": "2026-06-16"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -466,7 +518,7 @@
       "locator": null,
       "published_at": "2026-06-16"
     },
-    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extracted_at": "2026-09-09T09:51:11.595604",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

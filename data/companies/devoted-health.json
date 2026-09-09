@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 86.8,
-  "universe_rank": 26,
+  "universe_rank": 25,
   "metrics": {
     "valuation": {
       "metric": "valuation",
@@ -19,12 +19,16 @@
       "range": null,
       "as_of": "2026-08-21",
       "estimate_type": "reported",
-      "confidence": 0.3,
+      "confidence": 0.299,
       "supporting_claims": [
         "clm_cb34b0e0cf"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 25000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-08-21"
+      },
       "history_ref": "history/devoted-health/valuation.jsonl",
       "unconfirmed": true,
       "confirmed_value": null,
@@ -42,7 +46,11 @@
         "clm_bed2b7852b"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 175000000.0,
+        "change_pct": 0.0,
+        "since": "2023-12-29"
+      },
       "history_ref": "history/devoted-health/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -60,12 +68,16 @@
         "clm_9b5a7effd2"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 5.0,
+        "change_pct": 0.0,
+        "since": "2023-12-29"
+      },
       "history_ref": "history/devoted-health/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-08"
+  "last_updated": "2026-09-09"
 }

@@ -149,30 +149,6 @@
     "derivation": null
   },
   {
-    "id": "clm_a2d6101ad5",
-    "company_id": "anthropic",
-    "metric": "open_roles",
-    "value": 63.0,
-    "unit": null,
-    "raw_text": "63 Open Roles",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "anthropic.com",
-      "url": "https://anthropic.com/jobs",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-09-07T10:15:07.048991",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
     "id": "clm_037cb88bfb",
     "company_id": "anthropic",
     "metric": "valuation",
@@ -340,6 +316,30 @@
     "extracted_at": "2026-08-21T05:50:03.226228",
     "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_a2d6101ad5",
+    "company_id": "anthropic",
+    "metric": "open_roles",
+    "value": 63.0,
+    "unit": null,
+    "raw_text": "63 Open Roles",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "anthropic.com",
+      "url": "https://anthropic.com/jobs",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
     "derivation": null
   },
   {
@@ -1363,7 +1363,7 @@
       "locator": null,
       "published_at": "2026-06-14"
     },
-    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extracted_at": "2026-09-09T09:51:11.595604",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

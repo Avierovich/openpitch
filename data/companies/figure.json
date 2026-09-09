@@ -14,14 +14,16 @@
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 39176643959.82,
+      "value": 39124036831.3,
       "unit": "USD",
       "range": null,
       "as_of": "2025-09-16",
       "estimate_type": "consensus",
-      "confidence": 0.51,
+      "confidence": 0.638,
       "supporting_claims": [
         "clm_bd4cd2e26e",
+        "clm_09a19dc0e1",
+        "clm_a0a545814e",
         "clm_c87d1c4931",
         "clm_07cc9d489b",
         "clm_bcdf15d881",
@@ -32,7 +34,7 @@
       "contradiction": false,
       "delta": {
         "previous": 39176643959.82,
-        "change_pct": -0.0,
+        "change_pct": -0.1,
         "since": "2025-09-16"
       },
       "history_ref": "history/figure/valuation.jsonl",
@@ -46,9 +48,10 @@
       "unit": "USD",
       "range": null,
       "as_of": "2025-09-16",
-      "estimate_type": "reported",
-      "confidence": 0.322,
+      "estimate_type": "consensus",
+      "confidence": 0.477,
       "supporting_claims": [
+        "clm_55992f10c2",
         "clm_7e98f0f671"
       ],
       "contradiction": false,
@@ -129,5 +132,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-08"
+  "last_updated": "2026-09-09"
 }

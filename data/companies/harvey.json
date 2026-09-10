@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2026-02-09",
       "estimate_type": "reported",
-      "confidence": 0.081,
+      "confidence": 0.08,
       "supporting_claims": [
         "clm_1a7ff164fc"
       ],
@@ -64,13 +64,40 @@
         "clm_1fea736900",
         "clm_7579d59cf4"
       ],
-      "contradiction": false,
+      "contradiction": true,
       "delta": {
         "previous": 11000000000.0,
         "change_pct": 0.0,
         "since": "2026-08-21"
       },
       "history_ref": "history/harvey/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 550000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 550000000.0,
+        "high": 550000000.0
+      },
+      "as_of": "2026-09-09",
+      "estimate_type": "consensus",
+      "confidence": 0.955,
+      "supporting_claims": [
+        "clm_40a7650ab2",
+        "clm_069ba21114",
+        "clm_0c77b8942d",
+        "clm_e31eddc81c",
+        "clm_aecc6b63ea",
+        "clm_5565d6b5ad",
+        "clm_1d7d38e636"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/harvey/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -85,7 +112,7 @@
       },
       "as_of": "2026-03-29",
       "estimate_type": "consensus",
-      "confidence": 0.774,
+      "confidence": 0.773,
       "supporting_claims": [
         "clm_1a7eb37fee",
         "clm_60e4dc3ed6",
@@ -95,7 +122,7 @@
       "contradiction": false,
       "delta": {
         "previous": 200000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-03-29"
       },
       "history_ref": "history/harvey/round_amount.jsonl",
@@ -110,7 +137,7 @@
       "range": null,
       "as_of": "2026-08-07",
       "estimate_type": "reported",
-      "confidence": 0.193,
+      "confidence": 0.191,
       "supporting_claims": [
         "drv_6478ca5265"
       ],
@@ -126,5 +153,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-09"
+  "last_updated": "2026-09-10"
 }

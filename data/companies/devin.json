@@ -9,12 +9,12 @@
   "summary": "Devin is an autonomous software engineering agent capable of planning, writing, debugging, and deploying code independently.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 88.9,
+  "vc_attention_score": 89.0,
   "universe_rank": 13,
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 45241678227.7,
+      "value": 46143206160.33,
       "unit": "USD",
       "range": {
         "low": 25000000000.0,
@@ -30,14 +30,18 @@
         "clm_9847df1e3b",
         "clm_565fe5c95c",
         "clm_3fc3c4a358",
+        "clm_c76a864f16",
         "clm_43b37636cf",
-        "clm_c76a864f16"
+        "clm_5f2446e257",
+        "clm_2fd5922763",
+        "clm_43b37636cf",
+        "clm_5a2e83ea2e"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 42945156892.35,
-        "change_pct": 5.3,
-        "since": "2026-09-02"
+        "previous": 45241678227.7,
+        "change_pct": 2.0,
+        "since": "2026-09-09"
       },
       "history_ref": "history/devin/valuation.jsonl",
       "unconfirmed": false,
@@ -51,7 +55,7 @@
       "range": null,
       "as_of": "2025-07-18",
       "estimate_type": "reported",
-      "confidence": 0.017,
+      "confidence": 0.016,
       "supporting_claims": [
         "clm_60bff67397"
       ],
@@ -62,6 +66,60 @@
         "since": "2025-07-18"
       },
       "history_ref": "history/devin/arr.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 2000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 1000000000.0,
+        "high": 2000000000.0
+      },
+      "as_of": "2026-09-09",
+      "estimate_type": "consensus",
+      "confidence": 0.892,
+      "supporting_claims": [
+        "clm_703cda8563",
+        "clm_6c323274d8",
+        "clm_066b993098"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 2000000000.0,
+        "change_pct": -0.0,
+        "since": "2026-09-09"
+      },
+      "history_ref": "history/devin/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 2000000000.0,
+      "unit": "object",
+      "range": {
+        "low": 5.0,
+        "high": 2000000000.0
+      },
+      "as_of": "2026-09-09",
+      "estimate_type": "consensus",
+      "confidence": 0.74,
+      "supporting_claims": [
+        "clm_f7b180e95c",
+        "clm_4753ebced3",
+        "clm_e3ed71f0fd"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 5.0,
+        "change_pct": 39999999900.0,
+        "since": "2026-09-09"
+      },
+      "history_ref": "history/devin/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -88,59 +146,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 2000000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 1000000000.0,
-        "high": 2000000000.0
-      },
-      "as_of": "2026-09-09",
-      "estimate_type": "consensus",
-      "confidence": 0.893,
-      "supporting_claims": [
-        "clm_703cda8563",
-        "clm_066b993098",
-        "clm_6c323274d8"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 175000000.0,
-        "change_pct": 1042.9,
-        "since": "2024-04-25"
-      },
-      "history_ref": "history/devin/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "latest_round": {
-      "metric": "latest_round",
-      "value": 5.0,
-      "unit": "object",
-      "range": {
-        "low": 5.0,
-        "high": 1000000000.0
-      },
-      "as_of": "2026-09-09",
-      "estimate_type": "consensus",
-      "confidence": 0.774,
-      "supporting_claims": [
-        "clm_79f7f37333",
-        "clm_f9c02c9ffc"
-      ],
-      "contradiction": true,
-      "delta": {
-        "previous": 1000000000.0,
-        "change_pct": -100.0,
-        "since": "2026-05-27"
-      },
-      "history_ref": "history/devin/latest_round.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "revenue_multiple": {
       "metric": "revenue_multiple",
       "value": 587.5,
@@ -148,7 +153,7 @@
       "range": null,
       "as_of": "2026-09-02",
       "estimate_type": "reported",
-      "confidence": 0.246,
+      "confidence": 0.244,
       "supporting_claims": [
         "drv_23c76acbe0"
       ],
@@ -164,5 +169,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-09"
+  "last_updated": "2026-09-10"
 }

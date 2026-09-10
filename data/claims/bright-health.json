@@ -48,27 +48,27 @@
     "derivation": null
   },
   {
-    "id": "clm_a9a883dbe9",
+    "id": "clm_2d01f47ebc",
     "company_id": "bright-health",
-    "metric": "round_amount",
+    "metric": "latest_round",
     "value": 160000000.0,
-    "unit": "USD",
-    "raw_text": "Bright Health Raises $160M in Latest Funding Round",
+    "unit": null,
+    "raw_text": "Raises $160M in Latest Funding Round",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
       "type": "news",
-      "name": "tcbmag.com",
+      "name": "Twin Cities Business",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Xa0JlMk5KbFlsNV9kRmhZNHBmRTdmSW50TDhGTkQyM09LMGpmUmVWUFUyRGtBOFhXNkhZWF96T0h1Z3hCSFdXaEQ4UUtLODZJMmc2R2hWNFlBOUc1M0FyMTNINVhBbEdGYTg4RW0zaURBZTJUblpROQ?oc=5",
       "locator": null,
       "published_at": "2017-06-01"
     },
-    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extracted_at": "2026-08-19T12:30:22.754661",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -96,27 +96,30 @@
     "derivation": null
   },
   {
-    "id": "clm_e8e6c16a59",
+    "id": "clm_728fbacb0a",
     "company_id": "bright-health",
-    "metric": "latest_round",
-    "value": 924000000.0,
+    "metric": "valuation",
+    "value": 14000000000.0,
     "unit": "USD",
-    "raw_text": "Bright Health raises $924M, making it the largest IPO ever in Minnesota",
-    "qualifiers": [],
+    "raw_text": "aims for over $14 bln valuation in U.S. IPO",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
     "speaker": {
       "name": null,
       "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "Star Tribune",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbVBjaW5tREItOEtxVlliNDlxWjY1QXdYYlc5MGFSWVAtVjZ1UWhJNm90ZHlHV3paVzV3bkdmckNxaXZ5T1BLc3piV1otbDJfNW5odWdTXzY5dE1IeGpjLWlnMURwNHpyYmpUdWpLNmV2NFlncW1QYUFkZkdGTTZBTVBtLS0xeVVxRjJwcm1zMHJXQ2hFSDh0bm5EbUEyR1k3T00wLUZwUWxnQjg?oc=5",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUDI2QS1JbUg3V0lKdndxRGRoOWhaOU11bWtKd2lUZjhwa1N5b1o3dFVCUVV2VlU4d1JmREFoTTdaakZsTVNVbGo1Szd6RGt4V3VyNXpLVWxXeE1vdlBFeTFTRU9VM0c3X18ycHI3ZnRweFQwQi1pZUs2WjJ1MUpuXzU3NEtZMTExQUl4eHRrTjdRRzBENnEwcUlWSzYwc0VnbmNTOXpfNWw4WWtESlVzUDBITFc?oc=5",
       "locator": null,
-      "published_at": "2021-06-24"
+      "published_at": "2021-06-15"
     },
-    "extracted_at": "2026-08-21T05:50:03.226228",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -192,6 +195,78 @@
     "derivation": null
   },
   {
+    "id": "clm_2edb72f132",
+    "company_id": "bright-health",
+    "metric": "total_funding",
+    "value": 924000000.0,
+    "unit": "USD",
+    "raw_text": "Bright Health raises $924M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "startribune.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbVBjaW5tREItOEtxVlliNDlxWjY1QXdYYlc5MGFSWVAtVjZ1UWhJNm90ZHlHV3paVzV3bkdmckNxaXZ5T1BLc3piV1otbDJfNW5odWdTXzY5dE1IeGpjLWlnMURwNHpyYmpUdWpLNmV2NFlncW1QYUFkZkdGTTZBTVBtLS0xeVVxRjJwcm1zMHJXQ2hFSDh0bm5EbUEyR1k3T00wLUZwUWxnQjg?oc=5",
+      "locator": null,
+      "published_at": "2021-06-24"
+    },
+    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_a9a883dbe9",
+    "company_id": "bright-health",
+    "metric": "round_amount",
+    "value": 160000000.0,
+    "unit": "USD",
+    "raw_text": "Bright Health Raises $160M in Latest Funding Round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "tcbmag.com",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Xa0JlMk5KbFlsNV9kRmhZNHBmRTdmSW50TDhGTkQyM09LMGpmUmVWUFUyRGtBOFhXNkhZWF96T0h1Z3hCSFdXaEQ4UUtLODZJMmc2R2hWNFlBOUc1M0FyMTNINVhBbEdGYTg4RW0zaURBZTJUblpROQ?oc=5",
+      "locator": null,
+      "published_at": "2017-06-01"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_e8e6c16a59",
+    "company_id": "bright-health",
+    "metric": "latest_round",
+    "value": 924000000.0,
+    "unit": "USD",
+    "raw_text": "Bright Health raises $924M, making it the largest IPO ever in Minnesota",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Star Tribune",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbVBjaW5tREItOEtxVlliNDlxWjY1QXdYYlc5MGFSWVAtVjZ1UWhJNm90ZHlHV3paVzV3bkdmckNxaXZ5T1BLc3piV1otbDJfNW5odWdTXzY5dE1IeGpjLWlnMURwNHpyYmpUdWpLNmV2NFlncW1QYUFkZkdGTTZBTVBtLS0xeVVxRjJwcm1zMHJXQ2hFSDh0bm5EbUEyR1k3T00wLUZwUWxnQjg?oc=5",
+      "locator": null,
+      "published_at": "2021-06-24"
+    },
+    "extracted_at": "2026-08-21T05:50:03.226228",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_ee5000545f",
     "company_id": "bright-health",
     "metric": "valuation",
@@ -217,57 +292,6 @@
     "extracted_at": "2026-09-09T09:51:11.595604",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.1984,
-    "derivation": null
-  },
-  {
-    "id": "clm_2d01f47ebc",
-    "company_id": "bright-health",
-    "metric": "latest_round",
-    "value": 160000000.0,
-    "unit": null,
-    "raw_text": "Raises $160M in Latest Funding Round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Twin Cities Business",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Xa0JlMk5KbFlsNV9kRmhZNHBmRTdmSW50TDhGTkQyM09LMGpmUmVWUFUyRGtBOFhXNkhZWF96T0h1Z3hCSFdXaEQ4UUtLODZJMmc2R2hWNFlBOUc1M0FyMTNINVhBbEdGYTg4RW0zaURBZTJUblpROQ?oc=5",
-      "locator": null,
-      "published_at": "2017-06-01"
-    },
-    "extracted_at": "2026-08-19T12:30:22.754661",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_728fbacb0a",
-    "company_id": "bright-health",
-    "metric": "valuation",
-    "value": 14000000000.0,
-    "unit": "USD",
-    "raw_text": "aims for over $14 bln valuation in U.S. IPO",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUDI2QS1JbUg3V0lKdndxRGRoOWhaOU11bWtKd2lUZjhwa1N5b1o3dFVCUVV2VlU4d1JmREFoTTdaakZsTVNVbGo1Szd6RGt4V3VyNXpLVWxXeE1vdlBFeTFTRU9VM0c3X18ycHI3ZnRweFQwQi1pZUs2WjJ1MUpuXzU3NEtZMTExQUl4eHRrTjdRRzBENnEwcUlWSzYwc0VnbmNTOXpfNWw4WWtESlVzUDBITFc?oc=5",
-      "locator": null,
-      "published_at": "2021-06-15"
-    },
-    "extracted_at": "2026-08-23T05:59:54.335804",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {

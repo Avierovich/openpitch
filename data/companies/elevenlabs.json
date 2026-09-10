@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2026-08-31",
       "estimate_type": "consensus",
-      "confidence": 0.455,
+      "confidence": 0.452,
       "supporting_claims": [
         "clm_c90153c1e7",
         "clm_b85069b411"
@@ -27,7 +27,7 @@
       "contradiction": false,
       "delta": {
         "previous": 500000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-08-31"
       },
       "history_ref": "history/elevenlabs/arr.jsonl",
@@ -48,12 +48,13 @@
       "confidence": 0.97,
       "supporting_claims": [
         "clm_32f7920304",
+        "clm_7d05266b93",
         "clm_3e0f8c5300",
         "clm_0d33bdbfb8",
-        "clm_fd616403f2",
         "clm_dcd4b90871",
         "clm_4d20254cdb",
-        "clm_7d05266b93",
+        "clm_ff6a5a99af",
+        "clm_fd616403f2",
         "clm_77dcf80099",
         "clm_93c05008e4",
         "clm_c59b42bfba",
@@ -78,6 +79,34 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 500000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-05-05",
+      "estimate_type": "consensus",
+      "confidence": 0.887,
+      "supporting_claims": [
+        "clm_834f74ca34",
+        "clm_52a1e675ab",
+        "clm_c291b2c9ab",
+        "clm_da3421c8da",
+        "clm_e45ca86752",
+        "clm_227fd5cc6e",
+        "clm_5b478923ac"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 500000000.0,
+        "change_pct": -0.0,
+        "since": "2026-05-05"
+      },
+      "history_ref": "history/elevenlabs/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "latest_round": {
       "metric": "latest_round",
       "value": 500000000.0,
@@ -85,10 +114,11 @@
       "range": null,
       "as_of": "2026-02-06",
       "estimate_type": "consensus",
-      "confidence": 0.799,
+      "confidence": 0.857,
       "supporting_claims": [
         "clm_03b8c8b9e0",
         "clm_420da59804",
+        "clm_206dd73dd5",
         "clm_645864d166",
         "clm_499adc12cf",
         "clm_5ef4eab156"
@@ -104,33 +134,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 500000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-05-05",
-      "estimate_type": "consensus",
-      "confidence": 0.842,
-      "supporting_claims": [
-        "clm_52a1e675ab",
-        "clm_da3421c8da",
-        "clm_834f74ca34",
-        "clm_e45ca86752",
-        "clm_227fd5cc6e",
-        "clm_5b478923ac"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 500000000.0,
-        "change_pct": 0.0,
-        "since": "2026-05-05"
-      },
-      "history_ref": "history/elevenlabs/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "total_funding": {
       "metric": "total_funding",
       "value": 500000000.0,
@@ -138,7 +141,7 @@
       "range": null,
       "as_of": "2026-02-04",
       "estimate_type": "reported",
-      "confidence": 0.39,
+      "confidence": 0.389,
       "supporting_claims": [
         "clm_88ccbfb04a"
       ],
@@ -158,7 +161,7 @@
       "value": 246.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-09-09",
+      "as_of": "2026-09-10",
       "estimate_type": "reported",
       "confidence": 0.25,
       "supporting_claims": [
@@ -180,7 +183,7 @@
       "value": 254.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-09-09",
+      "as_of": "2026-09-10",
       "estimate_type": "reported",
       "confidence": 0.25,
       "supporting_claims": [
@@ -210,8 +213,8 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 6.6,
-        "change_pct": 233.3,
+        "previous": 22.0,
+        "change_pct": 0.0,
         "since": "2026-05-05"
       },
       "history_ref": "history/elevenlabs/revenue_multiple.jsonl",
@@ -220,5 +223,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-09"
+  "last_updated": "2026-09-10"
 }

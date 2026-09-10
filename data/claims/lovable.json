@@ -75,12 +75,60 @@
     "derivation": null
   },
   {
-    "id": "clm_bc845fd9c0",
+    "id": "clm_b3281c4bfc",
     "company_id": "lovable",
     "metric": "valuation",
     "value": 13300000000.0,
     "unit": "USD",
-    "raw_text": "valuation to $13.3B",
+    "raw_text": "Lovable confirms new $13.3B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUzR4alhoN3YzcnZnTjIyOWJ5ZlZLOVp1Q1RvbTZ0NmVZS3dRUkNWbnNGSXhmWWZubVAydWtRdzZCc1oxenUwZUp4RFFnb2tfUk1iT21hV0hodS1CSjA1WXFBTmVoQU1YNDhESTNoUjZaNC1xRFpKdDZ2NkcyUTRub0NtV3FQWDBIb1RDTzNpeDVJeFlqREE?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_20213046c6",
+    "company_id": "lovable",
+    "metric": "round_amount",
+    "value": 400000000.0,
+    "unit": "USD",
+    "raw_text": "raises another $400M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUzR4alhoN3YzcnZnTjIyOWJ5ZlZLOVp1Q1RvbTZ0NmVZS3dRUkNWbnNGSXhmWWZubVAydWtRdzZCc1oxenUwZUp4RFFnb2tfUk1iT21hV0hodS1CSjA1WXFBTmVoQU1YNDhESTNoUjZaNC1xRFpKdDZ2NkcyUTRub0NtV3FQWDBIb1RDTzNpeDVJeFlqREE?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_1a8232d7dd",
+    "company_id": "lovable",
+    "metric": "valuation",
+    "value": 13300000000.0,
+    "unit": null,
+    "raw_text": "$13.3B",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -88,22 +136,22 @@
     },
     "source": {
       "type": "news",
-      "name": "siliconangle.com",
+      "name": "SiliconANGLE",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUFdYR0FrenJ4YmFSYW9MOV91cFJ4RnFXalh0UG8zaThyVUJaU0k5UzRYMzBaN2QzUV9ZSEJsU2RoRHc5WWpQalVPWEN1NjhOcGp1SG94Ykh1Q0dDX3hJczZWUFltd2lFRmwtN3Y4RFJiRzlncTJsQjV1bXdGbFpkWUwxUGtBM1dVYnZYYWF3TFZBdGtUaGFSeFJHdGJYbDN3?oc=5",
       "locator": null,
       "published_at": "2026-08-12"
     },
-    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
   },
   {
-    "id": "clm_20063a5cde",
+    "id": "clm_552e57325e",
     "company_id": "lovable",
-    "metric": "round_amount",
+    "metric": "total_funding",
     "value": 400000000.0,
-    "unit": "USD",
+    "unit": null,
     "raw_text": "$400M raise",
     "qualifiers": [],
     "speaker": {
@@ -112,12 +160,12 @@
     },
     "source": {
       "type": "news",
-      "name": "siliconangle.com",
+      "name": "SiliconANGLE",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUFdYR0FrenJ4YmFSYW9MOV91cFJ4RnFXalh0UG8zaThyVUJaU0k5UzRYMzBaN2QzUV9ZSEJsU2RoRHc5WWpQalVPWEN1NjhOcGp1SG94Ykh1Q0dDX3hJczZWUFltd2lFRmwtN3Y4RFJiRzlncTJsQjV1bXdGbFpkWUwxUGtBM1dVYnZYYWF3TFZBdGtUaGFSeFJHdGJYbDN3?oc=5",
       "locator": null,
       "published_at": "2026-08-12"
     },
-    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -214,6 +262,54 @@
       "published_at": "2026-08-13"
     },
     "extracted_at": "2026-08-29T11:59:18.797257",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_87a4b4d3ab",
+    "company_id": "lovable",
+    "metric": "round_amount",
+    "value": 330000000.0,
+    "unit": "USD",
+    "raw_text": "Lovable raises $330M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPa3JVSnNCTXgtWHdObmdIVEctNHlRMGZEZ1NhM3lDeEhlbFJrd29NYzk1Nng5eFl6X2JtZnYxSE5ySnVoNkU4TktzSVQ1WXVUNlFfVmROS1lKVWc5Q2k4cWNEekppUVowbkNqbWp6R2dWanMwaGl5ME9Ua3VueGxweVdvdG0wdHFFTDVsLU9Wcm54ejJ3cVdNcmxn?oc=5",
+      "locator": null,
+      "published_at": "2025-12-18"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_96e78a583e",
+    "company_id": "lovable",
+    "metric": "valuation",
+    "value": 6600000000.0,
+    "unit": "USD",
+    "raw_text": "$6.6B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPa3JVSnNCTXgtWHdObmdIVEctNHlRMGZEZ1NhM3lDeEhlbFJrd29NYzk1Nng5eFl6X2JtZnYxSE5ySnVoNkU4TktzSVQ1WXVUNlFfVmROS1lKVWc5Q2k4cWNEekppUVowbkNqbWp6R2dWanMwaGl5ME9Ua3VueGxweVdvdG0wdHFFTDVsLU9Wcm54ejJ3cVdNcmxn?oc=5",
+      "locator": null,
+      "published_at": "2025-12-18"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -363,54 +459,6 @@
     "derivation": null
   },
   {
-    "id": "clm_70ba37f022",
-    "company_id": "lovable",
-    "metric": "total_funding",
-    "value": 400000000.0,
-    "unit": null,
-    "raw_text": "Lovable Raises $400M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Law360",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQnRUSTd1bnRtMXV0MjZNNTNQOXlYRnNWcm9PVXdpUzhTT2JTU2c0VE56QjFNOTBrRWpzaHJ0a1dicE8waFVicU9QR1B1OGZ5ZFhUSVNsMlB2NmVBTTZ6VU5XT2EzMTdleDVBb3JGd2ZOVXZtM29WekVjclpaTlk2NU4ySG9TY0xfb0NiSjZOb0VCanRQOEkySG9iUTPSAVZBVV95cUxOVE9pX29rVURJQzYzMGMtVF9pNXRZNVhEcnpKNWF5aWZLaDBvaWtReXRNdDFNNENwNUdMNmJneGluQ1NSSjA0MXZJXzVMUXkxOVdiaU1yUQ?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_8b0395a408",
-    "company_id": "lovable",
-    "metric": "valuation",
-    "value": 13300000000.0,
-    "unit": null,
-    "raw_text": "$13.3B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Law360",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQnRUSTd1bnRtMXV0MjZNNTNQOXlYRnNWcm9PVXdpUzhTT2JTU2c0VE56QjFNOTBrRWpzaHJ0a1dicE8waFVicU9QR1B1OGZ5ZFhUSVNsMlB2NmVBTTZ6VU5XT2EzMTdleDVBb3JGd2ZOVXZtM29WekVjclpaTlk2NU4ySG9TY0xfb0NiSjZOb0VCanRQOEkySG9iUTPSAVZBVV95cUxOVE9pX29rVURJQzYzMGMtVF9pNXRZNVhEcnpKNWF5aWZLaDBvaWtReXRNdDFNNENwNUdMNmJneGluQ1NSSjA0MXZJXzVMUXkxOVdiaU1yUQ?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_262b6537e3",
     "company_id": "lovable",
     "metric": "round_amount",
@@ -459,6 +507,150 @@
     "derivation": null
   },
   {
+    "id": "clm_edc6d14232",
+    "company_id": "lovable",
+    "metric": "round_amount",
+    "value": 400000000.0,
+    "unit": null,
+    "raw_text": "$400M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "law360.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQnRUSTd1bnRtMXV0MjZNNTNQOXlYRnNWcm9PVXdpUzhTT2JTU2c0VE56QjFNOTBrRWpzaHJ0a1dicE8waFVicU9QR1B1OGZ5ZFhUSVNsMlB2NmVBTTZ6VU5XT2EzMTdleDVBb3JGd2ZOVXZtM29WekVjclpaTlk2NU4ySG9TY0xfb0NiSjZOb0VCanRQOEkySG9iUTPSAVZBVV95cUxOVE9pX29rVURJQzYzMGMtVF9pNXRZNVhEcnpKNWF5aWZLaDBvaWtReXRNdDFNNENwNUdMNmJneGluQ1NSSjA0MXZJXzVMUXkxOVdiaU1yUQ?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_2e4908071c",
+    "company_id": "lovable",
+    "metric": "valuation",
+    "value": 13300000000.0,
+    "unit": null,
+    "raw_text": "$13.3B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "law360.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQnRUSTd1bnRtMXV0MjZNNTNQOXlYRnNWcm9PVXdpUzhTT2JTU2c0VE56QjFNOTBrRWpzaHJ0a1dicE8waFVicU9QR1B1OGZ5ZFhUSVNsMlB2NmVBTTZ6VU5XT2EzMTdleDVBb3JGd2ZOVXZtM29WekVjclpaTlk2NU4ySG9TY0xfb0NiSjZOb0VCanRQOEkySG9iUTPSAVZBVV95cUxOVE9pX29rVURJQzYzMGMtVF9pNXRZNVhEcnpKNWF5aWZLaDBvaWtReXRNdDFNNENwNUdMNmJneGluQ1NSSjA0MXZJXzVMUXkxOVdiaU1yUQ?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_bc845fd9c0",
+    "company_id": "lovable",
+    "metric": "valuation",
+    "value": 13300000000.0,
+    "unit": "USD",
+    "raw_text": "valuation to $13.3B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUFdYR0FrenJ4YmFSYW9MOV91cFJ4RnFXalh0UG8zaThyVUJaU0k5UzRYMzBaN2QzUV9ZSEJsU2RoRHc5WWpQalVPWEN1NjhOcGp1SG94Ykh1Q0dDX3hJczZWUFltd2lFRmwtN3Y4RFJiRzlncTJsQjV1bXdGbFpkWUwxUGtBM1dVYnZYYWF3TFZBdGtUaGFSeFJHdGJYbDN3?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_20063a5cde",
+    "company_id": "lovable",
+    "metric": "round_amount",
+    "value": 400000000.0,
+    "unit": "USD",
+    "raw_text": "$400M raise",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUFdYR0FrenJ4YmFSYW9MOV91cFJ4RnFXalh0UG8zaThyVUJaU0k5UzRYMzBaN2QzUV9ZSEJsU2RoRHc5WWpQalVPWEN1NjhOcGp1SG94Ykh1Q0dDX3hJczZWUFltd2lFRmwtN3Y4RFJiRzlncTJsQjV1bXdGbFpkWUwxUGtBM1dVYnZYYWF3TFZBdGtUaGFSeFJHdGJYbDN3?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_70ba37f022",
+    "company_id": "lovable",
+    "metric": "total_funding",
+    "value": 400000000.0,
+    "unit": null,
+    "raw_text": "Lovable Raises $400M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Law360",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQnRUSTd1bnRtMXV0MjZNNTNQOXlYRnNWcm9PVXdpUzhTT2JTU2c0VE56QjFNOTBrRWpzaHJ0a1dicE8waFVicU9QR1B1OGZ5ZFhUSVNsMlB2NmVBTTZ6VU5XT2EzMTdleDVBb3JGd2ZOVXZtM29WekVjclpaTlk2NU4ySG9TY0xfb0NiSjZOb0VCanRQOEkySG9iUTPSAVZBVV95cUxOVE9pX29rVURJQzYzMGMtVF9pNXRZNVhEcnpKNWF5aWZLaDBvaWtReXRNdDFNNENwNUdMNmJneGluQ1NSSjA0MXZJXzVMUXkxOVdiaU1yUQ?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_8b0395a408",
+    "company_id": "lovable",
+    "metric": "valuation",
+    "value": 13300000000.0,
+    "unit": null,
+    "raw_text": "$13.3B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Law360",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQnRUSTd1bnRtMXV0MjZNNTNQOXlYRnNWcm9PVXdpUzhTT2JTU2c0VE56QjFNOTBrRWpzaHJ0a1dicE8waFVicU9QR1B1OGZ5ZFhUSVNsMlB2NmVBTTZ6VU5XT2EzMTdleDVBb3JGd2ZOVXZtM29WekVjclpaTlk2NU4ySG9TY0xfb0NiSjZOb0VCanRQOEkySG9iUTPSAVZBVV95cUxOVE9pX29rVURJQzYzMGMtVF9pNXRZNVhEcnpKNWF5aWZLaDBvaWtReXRNdDFNNENwNUdMNmJneGluQ1NSSjA0MXZJXzVMUXkxOVdiaU1yUQ?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_b82f2b5892",
     "company_id": "lovable",
     "metric": "round_amount",
@@ -502,102 +694,6 @@
       "published_at": "2026-08-12"
     },
     "extracted_at": "2026-08-24T06:11:52.835308",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_b3281c4bfc",
-    "company_id": "lovable",
-    "metric": "valuation",
-    "value": 13300000000.0,
-    "unit": "USD",
-    "raw_text": "Lovable confirms new $13.3B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUzR4alhoN3YzcnZnTjIyOWJ5ZlZLOVp1Q1RvbTZ0NmVZS3dRUkNWbnNGSXhmWWZubVAydWtRdzZCc1oxenUwZUp4RFFnb2tfUk1iT21hV0hodS1CSjA1WXFBTmVoQU1YNDhESTNoUjZaNC1xRFpKdDZ2NkcyUTRub0NtV3FQWDBIb1RDTzNpeDVJeFlqREE?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_20213046c6",
-    "company_id": "lovable",
-    "metric": "round_amount",
-    "value": 400000000.0,
-    "unit": "USD",
-    "raw_text": "raises another $400M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUzR4alhoN3YzcnZnTjIyOWJ5ZlZLOVp1Q1RvbTZ0NmVZS3dRUkNWbnNGSXhmWWZubVAydWtRdzZCc1oxenUwZUp4RFFnb2tfUk1iT21hV0hodS1CSjA1WXFBTmVoQU1YNDhESTNoUjZaNC1xRFpKdDZ2NkcyUTRub0NtV3FQWDBIb1RDTzNpeDVJeFlqREE?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_87a4b4d3ab",
-    "company_id": "lovable",
-    "metric": "round_amount",
-    "value": 330000000.0,
-    "unit": "USD",
-    "raw_text": "Lovable raises $330M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPa3JVSnNCTXgtWHdObmdIVEctNHlRMGZEZ1NhM3lDeEhlbFJrd29NYzk1Nng5eFl6X2JtZnYxSE5ySnVoNkU4TktzSVQ1WXVUNlFfVmROS1lKVWc5Q2k4cWNEekppUVowbkNqbWp6R2dWanMwaGl5ME9Ua3VueGxweVdvdG0wdHFFTDVsLU9Wcm54ejJ3cVdNcmxn?oc=5",
-      "locator": null,
-      "published_at": "2025-12-18"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_96e78a583e",
-    "company_id": "lovable",
-    "metric": "valuation",
-    "value": 6600000000.0,
-    "unit": "USD",
-    "raw_text": "$6.6B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPa3JVSnNCTXgtWHdObmdIVEctNHlRMGZEZ1NhM3lDeEhlbFJrd29NYzk1Nng5eFl6X2JtZnYxSE5ySnVoNkU4TktzSVQ1WXVUNlFfVmROS1lKVWc5Q2k4cWNEekppUVowbkNqbWp6R2dWanMwaGl5ME9Ua3VueGxweVdvdG0wdHFFTDVsLU9Wcm54ejJ3cVdNcmxn?oc=5",
-      "locator": null,
-      "published_at": "2025-12-18"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -1855,54 +1951,6 @@
     "derivation": null
   },
   {
-    "id": "clm_1a8232d7dd",
-    "company_id": "lovable",
-    "metric": "valuation",
-    "value": 13300000000.0,
-    "unit": null,
-    "raw_text": "$13.3B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUFdYR0FrenJ4YmFSYW9MOV91cFJ4RnFXalh0UG8zaThyVUJaU0k5UzRYMzBaN2QzUV9ZSEJsU2RoRHc5WWpQalVPWEN1NjhOcGp1SG94Ykh1Q0dDX3hJczZWUFltd2lFRmwtN3Y4RFJiRzlncTJsQjV1bXdGbFpkWUwxUGtBM1dVYnZYYWF3TFZBdGtUaGFSeFJHdGJYbDN3?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_552e57325e",
-    "company_id": "lovable",
-    "metric": "total_funding",
-    "value": 400000000.0,
-    "unit": null,
-    "raw_text": "$400M raise",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUFdYR0FrenJ4YmFSYW9MOV91cFJ4RnFXalh0UG8zaThyVUJaU0k5UzRYMzBaN2QzUV9ZSEJsU2RoRHc5WWpQalVPWEN1NjhOcGp1SG94Ykh1Q0dDX3hJczZWUFltd2lFRmwtN3Y4RFJiRzlncTJsQjV1bXdGbFpkWUwxUGtBM1dVYnZYYWF3TFZBdGtUaGFSeFJHdGJYbDN3?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_1480ebe5e9",
     "company_id": "lovable",
     "metric": "valuation",
@@ -2047,7 +2095,7 @@
     "derivation": null
   },
   {
-    "id": "drv_0cf98696be",
+    "id": "drv_bdeb7a3561",
     "company_id": "lovable",
     "metric": "revenue_multiple",
     "value": 26.6,
@@ -2063,16 +2111,16 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-08-13"
+      "published_at": "2026-08-12"
     },
-    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extracted_at": "2026-09-10T09:49:02.856855",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_b1349748be",
+        "clm_b3281c4bfc",
         "clm_a57c1bd117"
       ]
     }

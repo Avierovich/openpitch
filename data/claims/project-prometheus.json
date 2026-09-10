@@ -1,5 +1,57 @@
 [
   {
+    "id": "clm_8d6009e913",
+    "company_id": "project-prometheus",
+    "metric": "total_funding",
+    "value": 10000000000.0,
+    "unit": "USD",
+    "raw_text": "$10 Billion Funding Round",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "pulse2.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWkJPc2NGb1VBQmpUVHhKUlZSTndNNHZIWGRreW9QY0o5Z2l0N2NfWUg3WENlTWpoWHJtR09fLWFGdmlCYlplaU5CR1M1aWZGcXJqRGhoN0lRV0Y1akVmeV85QTRjeDBJbm1QbHlMMkJRczNDempSdDlsYWFDbXlvN1JjTVVjTUk1RmstckJHSjBvcWwyUXVXMXNnWGpwa0o1YkoyMDc0dUnSAa4BQVVfeXFMTllPMDJoM0ZvN3BVXzlJRVpfZ0lVM0pFY2w0Vk1sYW5mc1lkQUl6UGR5R2VTZHNQSUhYMHZJYUJLTVBRYkcxZEpGbzc3Q1RPTDNONmlkQU00WVZMR2lGMUI3dkttUFlFaHhiVTdORHgwMThWZnRTTzFFNUxRaDV3QXh5alJHUW5UeXAxcTg5NGpKZDZtUDVJdUMyZF9reGIwQ0ZZQm5ybVhwanBjalZB?oc=5",
+      "locator": null,
+      "published_at": "2026-04-24"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_f9e09d429c",
+    "company_id": "project-prometheus",
+    "metric": "valuation",
+    "value": 38000000000.0,
+    "unit": "USD",
+    "raw_text": "$38 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "pulse2.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWkJPc2NGb1VBQmpUVHhKUlZSTndNNHZIWGRreW9QY0o5Z2l0N2NfWUg3WENlTWpoWHJtR09fLWFGdmlCYlplaU5CR1M1aWZGcXJqRGhoN0lRV0Y1akVmeV85QTRjeDBJbm1QbHlMMkJRczNDempSdDlsYWFDbXlvN1JjTVVjTUk1RmstckJHSjBvcWwyUXVXMXNnWGpwa0o1YkoyMDc0dUnSAa4BQVVfeXFMTllPMDJoM0ZvN3BVXzlJRVpfZ0lVM0pFY2w0Vk1sYW5mc1lkQUl6UGR5R2VTZHNQSUhYMHZJYUJLTVBRYkcxZEpGbzc3Q1RPTDNONmlkQU00WVZMR2lGMUI3dkttUFlFaHhiVTdORHgwMThWZnRTTzFFNUxRaDV3QXh5alJHUW5UeXAxcTg5NGpKZDZtUDVJdUMyZF9reGIwQ0ZZQm5ybVhwanBjalZB?oc=5",
+      "locator": null,
+      "published_at": "2026-04-24"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_d588914c73",
     "company_id": "project-prometheus",
     "metric": "valuation",
@@ -149,55 +201,27 @@
     "derivation": null
   },
   {
-    "id": "clm_8d6009e913",
-    "company_id": "project-prometheus",
-    "metric": "total_funding",
-    "value": 10000000000.0,
-    "unit": "USD",
-    "raw_text": "$10 Billion Funding Round",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "pulse2.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWkJPc2NGb1VBQmpUVHhKUlZSTndNNHZIWGRreW9QY0o5Z2l0N2NfWUg3WENlTWpoWHJtR09fLWFGdmlCYlplaU5CR1M1aWZGcXJqRGhoN0lRV0Y1akVmeV85QTRjeDBJbm1QbHlMMkJRczNDempSdDlsYWFDbXlvN1JjTVVjTUk1RmstckJHSjBvcWwyUXVXMXNnWGpwa0o1YkoyMDc0dUnSAa4BQVVfeXFMTllPMDJoM0ZvN3BVXzlJRVpfZ0lVM0pFY2w0Vk1sYW5mc1lkQUl6UGR5R2VTZHNQSUhYMHZJYUJLTVBRYkcxZEpGbzc3Q1RPTDNONmlkQU00WVZMR2lGMUI3dkttUFlFaHhiVTdORHgwMThWZnRTTzFFNUxRaDV3QXh5alJHUW5UeXAxcTg5NGpKZDZtUDVJdUMyZF9reGIwQ0ZZQm5ybVhwanBjalZB?oc=5",
-      "locator": null,
-      "published_at": "2026-04-24"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_f9e09d429c",
+    "id": "clm_f14f514ddc",
     "company_id": "project-prometheus",
     "metric": "valuation",
     "value": 38000000000.0,
     "unit": "USD",
-    "raw_text": "$38 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
+    "raw_text": "Valued at $38 Billion",
+    "qualifiers": [],
     "speaker": {
       "name": null,
       "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "pulse2.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWkJPc2NGb1VBQmpUVHhKUlZSTndNNHZIWGRreW9QY0o5Z2l0N2NfWUg3WENlTWpoWHJtR09fLWFGdmlCYlplaU5CR1M1aWZGcXJqRGhoN0lRV0Y1akVmeV85QTRjeDBJbm1QbHlMMkJRczNDempSdDlsYWFDbXlvN1JjTVVjTUk1RmstckJHSjBvcWwyUXVXMXNnWGpwa0o1YkoyMDc0dUnSAa4BQVVfeXFMTllPMDJoM0ZvN3BVXzlJRVpfZ0lVM0pFY2w0Vk1sYW5mc1lkQUl6UGR5R2VTZHNQSUhYMHZJYUJLTVBRYkcxZEpGbzc3Q1RPTDNONmlkQU00WVZMR2lGMUI3dkttUFlFaHhiVTdORHgwMThWZnRTTzFFNUxRaDV3QXh5alJHUW5UeXAxcTg5NGpKZDZtUDVJdUMyZF9reGIwQ0ZZQm5ybVhwanBjalZB?oc=5",
+      "name": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9sczAwcWlhMHRIRXN1TWFsdEZ0WWx1Z2szeEdPRDY1Mk9kVl9rS29TOUhLVU9nZU9mRmE4aDlFb0w0TV9JM0U1cjVrMDVUdE5wLWhVdjRENEhIWW5NZzc0TA?oc=5",
       "locator": null,
-      "published_at": "2026-04-24"
+      "published_at": "2026-04-22"
     },
-    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extracted_at": "2026-08-29T11:59:18.797257",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -745,30 +769,6 @@
     "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_f14f514ddc",
-    "company_id": "project-prometheus",
-    "metric": "valuation",
-    "value": 38000000000.0,
-    "unit": "USD",
-    "raw_text": "Valued at $38 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9sczAwcWlhMHRIRXN1TWFsdEZ0WWx1Z2szeEdPRDY1Mk9kVl9rS29TOUhLVU9nZU9mRmE4aDlFb0w0TV9JM0U1cjVrMDVUdE5wLWhVdjRENEhIWW5NZzc0TA?oc=5",
-      "locator": null,
-      "published_at": "2026-04-22"
-    },
-    "extracted_at": "2026-08-29T11:59:18.797257",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {

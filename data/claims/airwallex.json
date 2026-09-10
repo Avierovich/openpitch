@@ -1,53 +1,5 @@
 [
   {
-    "id": "clm_3aa6902581",
-    "company_id": "airwallex",
-    "metric": "round_amount",
-    "value": 320000000.0,
-    "unit": "USD",
-    "raw_text": "secures $320 million in new funding round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUkhLN3lTN2Izd3kxOThvekxQREpBSW5Hb3huTmhHeHFtUEpFM0lIZkFFbHRRVFdSSVQ5elRSZEpKRU5ZY1BFUzdKbVpuWUhmNUdlVFVrZllHYWZRSXJGMWJHY2ZmejBkUTVNNHVlWlRuejgtZklvaUZMRGF1WDBqcnJWcTJkaC1IekJHekZkZkNHdklZRzFlcFpjU1V0cjNPOTNCNldacm55RFU4YS1Yb1hLdk15c0NCb0xfSzVDQ2hoMDMzZ3ZmS3hCaw?oc=5",
-      "locator": null,
-      "published_at": "2026-06-25"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_4f3428430e",
-    "company_id": "airwallex",
-    "metric": "valuation",
-    "value": 11000000000.0,
-    "unit": "USD",
-    "raw_text": "at $11 billion valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUkhLN3lTN2Izd3kxOThvekxQREpBSW5Hb3huTmhHeHFtUEpFM0lIZkFFbHRRVFdSSVQ5elRSZEpKRU5ZY1BFUzdKbVpuWUhmNUdlVFVrZllHYWZRSXJGMWJHY2ZmejBkUTVNNHVlWlRuejgtZklvaUZMRGF1WDBqcnJWcTJkaC1IekJHekZkZkNHdklZRzFlcFpjU1V0cjNPOTNCNldacm55RFU4YS1Yb1hLdk15c0NCb0xfSzVDQ2hoMDMzZ3ZmS3hCaw?oc=5",
-      "locator": null,
-      "published_at": "2026-06-25"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_1ec790a241",
     "company_id": "airwallex",
     "metric": "total_funding",
@@ -333,6 +285,102 @@
     "extracted_at": "2026-08-19T12:30:22.754661",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_96948be375",
+    "company_id": "airwallex",
+    "metric": "valuation",
+    "value": 11000000000.0,
+    "unit": "USD",
+    "raw_text": "hits $11 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "cnbc.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOVVvVG8zNGdHSzQ0Uk80ck9kenJ6THA2NFMzUk9oekwxR2I4eDEzV1dxd3d1djFMUHA0eEtHXzRQZjRaMndTM29QMW4xMU9kUXBSdmptcjVnMndLNDY5MmVtY1k5Z2hxaUZFUGh0NGlqbXpvb28tNVZzNWZFVm9pMXMxVFJKYWttT1J0bk5ad0VRdU1kV2hYWjRONNIBoAFBVV95cUxQdl9hbUxkTDg3d2Jibk12NHVwZXBsbXBuSnRzaWFYN3daZEYta1pkV1pDdmRKX3kwQl9tTXlzUzZBNGcyTno5UHRCRmtFblVQeEJHZURHc21hOC1sSGQ2dUhSQkRwc0d6Wk55ZDhlRi1vUmFsT2c3Sl90ZWhuTVhFNXhVZ0tYWWRjV0pBdzdMZXZXT3k1WUlsRUJuenRtUVJZ?oc=5",
+      "locator": null,
+      "published_at": "2026-06-26"
+    },
+    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extractor_model": "gemini-3.6-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_144d3a921f",
+    "company_id": "airwallex",
+    "metric": "round_amount",
+    "value": 320000000.0,
+    "unit": "USD",
+    "raw_text": "$320 million raise",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "cnbc.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOVVvVG8zNGdHSzQ0Uk80ck9kenJ6THA2NFMzUk9oekwxR2I4eDEzV1dxd3d1djFMUHA0eEtHXzRQZjRaMndTM29QMW4xMU9kUXBSdmptcjVnMndLNDY5MmVtY1k5Z2hxaUZFUGh0NGlqbXpvb28tNVZzNWZFVm9pMXMxVFJKYWttT1J0bk5ad0VRdU1kV2hYWjRONNIBoAFBVV95cUxQdl9hbUxkTDg3d2Jibk12NHVwZXBsbXBuSnRzaWFYN3daZEYta1pkV1pDdmRKX3kwQl9tTXlzUzZBNGcyTno5UHRCRmtFblVQeEJHZURHc21hOC1sSGQ2dUhSQkRwc0d6Wk55ZDhlRi1vUmFsT2c3Sl90ZWhuTVhFNXhVZ0tYWWRjV0pBdzdMZXZXT3k1WUlsRUJuenRtUVJZ?oc=5",
+      "locator": null,
+      "published_at": "2026-06-26"
+    },
+    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extractor_model": "gemini-3.6-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_3aa6902581",
+    "company_id": "airwallex",
+    "metric": "round_amount",
+    "value": 320000000.0,
+    "unit": "USD",
+    "raw_text": "secures $320 million in new funding round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUkhLN3lTN2Izd3kxOThvekxQREpBSW5Hb3huTmhHeHFtUEpFM0lIZkFFbHRRVFdSSVQ5elRSZEpKRU5ZY1BFUzdKbVpuWUhmNUdlVFVrZllHYWZRSXJGMWJHY2ZmejBkUTVNNHVlWlRuejgtZklvaUZMRGF1WDBqcnJWcTJkaC1IekJHekZkZkNHdklZRzFlcFpjU1V0cjNPOTNCNldacm55RFU4YS1Yb1hLdk15c0NCb0xfSzVDQ2hoMDMzZ3ZmS3hCaw?oc=5",
+      "locator": null,
+      "published_at": "2026-06-25"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_4f3428430e",
+    "company_id": "airwallex",
+    "metric": "valuation",
+    "value": 11000000000.0,
+    "unit": "USD",
+    "raw_text": "at $11 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUkhLN3lTN2Izd3kxOThvekxQREpBSW5Hb3huTmhHeHFtUEpFM0lIZkFFbHRRVFdSSVQ5elRSZEpKRU5ZY1BFUzdKbVpuWUhmNUdlVFVrZllHYWZRSXJGMWJHY2ZmejBkUTVNNHVlWlRuejgtZklvaUZMRGF1WDBqcnJWcTJkaC1IekJHekZkZkNHdklZRzFlcFpjU1V0cjNPOTNCNldacm55RFU4YS1Yb1hLdk15c0NCb0xfSzVDQ2hoMDMzZ3ZmS3hCaw?oc=5",
+      "locator": null,
+      "published_at": "2026-06-25"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {

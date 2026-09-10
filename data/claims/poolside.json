@@ -26,6 +26,32 @@
     "derivation": null
   },
   {
+    "id": "clm_317a8ac0e7",
+    "company_id": "poolside",
+    "metric": "valuation",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "Poolside is raising $400M+ at a $2B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUWdaR0xXYmRBemRXaFpicmpGb0NpVnF2elcwSzhoeUhoRGFaRDJORTROU3VHTmhFZFozbGw1QUNDaXJlTkR4S09IcktYTEJQb2tGaFhuLUNEMkkwdmVsTmd2M1RkYWtjbWowYTB1emlwaGx5VUhoVk9hWnkwWFZUSk56MFpZWWphdmRfTmdwVUNwZTllZjl3RjVrNVR4ZXpfVS1OdnhRY0RlZw?oc=5",
+      "locator": null,
+      "published_at": "2024-06-20"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_161bc77681",
     "company_id": "poolside",
     "metric": "valuation",
@@ -77,56 +103,6 @@
     "derivation": null
   },
   {
-    "id": "clm_94244b8903",
-    "company_id": "poolside",
-    "metric": "round_amount",
-    "value": 500000000.0,
-    "unit": null,
-    "raw_text": "raises $500M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "siliconangle.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSlNNZUlxYS1QU01Gcnozb2lKY0luVnc1dUt4ODhRRmFwdFB3TnpTYWVOWHNvcXpCdHk2Ym5RSVUwSVUzNldKTGN5VjNrN0lCVm9faUFhLVQ1UmhfTko2ckFneTFDMzZTSHhldW03OHlGQjk5QnBxQnJGempRcDYwdXZVVnlEQlllUVFDV3NZXy0zOXYyRzJZSzZjRDlEZw?oc=5",
-      "locator": null,
-      "published_at": "2024-10-02"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_317a8ac0e7",
-    "company_id": "poolside",
-    "metric": "valuation",
-    "value": 2000000000.0,
-    "unit": "USD",
-    "raw_text": "Poolside is raising $400M+ at a $2B valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUWdaR0xXYmRBemRXaFpicmpGb0NpVnF2elcwSzhoeUhoRGFaRDJORTROU3VHTmhFZFozbGw1QUNDaXJlTkR4S09IcktYTEJQb2tGaFhuLUNEMkkwdmVsTmd2M1RkYWtjbWowYTB1emlwaGx5VUhoVk9hWnkwWFZUSk56MFpZWWphdmRfTmdwVUNwZTllZjl3RjVrNVR4ZXpfVS1OdnhRY0RlZw?oc=5",
-      "locator": null,
-      "published_at": "2024-06-20"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_cf54d3f40f",
     "company_id": "poolside",
     "metric": "total_funding",
@@ -146,6 +122,30 @@
       "published_at": "2024-10-02"
     },
     "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_94244b8903",
+    "company_id": "poolside",
+    "metric": "round_amount",
+    "value": 500000000.0,
+    "unit": null,
+    "raw_text": "raises $500M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSlNNZUlxYS1QU01Gcnozb2lKY0luVnc1dUt4ODhRRmFwdFB3TnpTYWVOWHNvcXpCdHk2Ym5RSVUwSVUzNldKTGN5VjNrN0lCVm9faUFhLVQ1UmhfTko2ckFneTFDMzZTSHhldW03OHlGQjk5QnBxQnJGempRcDYwdXZVVnlEQlllUVFDV3NZXy0zOXYyRzJZSzZjRDlEZw?oc=5",
+      "locator": null,
+      "published_at": "2024-10-02"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -740,7 +740,7 @@
       "locator": null,
       "published_at": "2026-08-24"
     },
-    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extracted_at": "2026-09-10T09:49:02.856855",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

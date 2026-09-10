@@ -105,54 +105,6 @@
     "derivation": null
   },
   {
-    "id": "clm_a5e8394d12",
-    "company_id": "perplexity",
-    "metric": "round_amount",
-    "value": 200000000.0,
-    "unit": null,
-    "raw_text": "Raises $200M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Techeconomy",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5TZllCQ2xDdS1ZV2I1ZUgyYWs1dDJRckkzbE9yaXdEZ2xPNHI0dXEybTJ2Q3E5eFBDdWNWV0xmU3N4b1Z1aF9wY0RlcHFndjE4YzgtZGh2VnlVczB3MkZxTlQtYlFiN3IyS0twSFNjVQ?oc=5",
-      "locator": null,
-      "published_at": "2025-09-11"
-    },
-    "extracted_at": "2026-09-07T10:15:07.048991",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_b83bc8b53d",
-    "company_id": "perplexity",
-    "metric": "valuation",
-    "value": 20000000000.0,
-    "unit": null,
-    "raw_text": "$20B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Techeconomy",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5TZllCQ2xDdS1ZV2I1ZUgyYWs1dDJRckkzbE9yaXdEZ2xPNHI0dXEybTJ2Q3E5eFBDdWNWV0xmU3N4b1Z1aF9wY0RlcHFndjE4YzgtZGh2VnlVczB3MkZxTlQtYlFiN3IyS0twSFNjVQ?oc=5",
-      "locator": null,
-      "published_at": "2025-09-11"
-    },
-    "extracted_at": "2026-09-07T10:15:07.048991",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_8f44124db8",
     "company_id": "perplexity",
     "metric": "round_amount",
@@ -257,58 +209,6 @@
     "derivation": null
   },
   {
-    "id": "clm_7f49cc37a8",
-    "company_id": "perplexity",
-    "metric": "round_amount",
-    "value": 500000000.0,
-    "unit": "USD",
-    "raw_text": "$500M funding round",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "siliconangle.com",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR1hxZ2I2T3lOdV9wbVlsYm9HTjlfa3Y2MnJ6N1IxOHZoRjRFcnp5NkRzb2t5Q0NFNmpWaTgzV3I5bkVmT2VZQ3JQTE5NVXN6Z0FsNGRYeENIYmtSS19QSTVVazRhSThiZFJtQ1prSWhwWTBOZjIxRmp1aXpWaVk0S0xLWDF6bXdwS1NiWmVxSUVmMWZuQUxhc3JKWTI?oc=5",
-      "locator": null,
-      "published_at": "2025-05-12"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_c98ad1a640",
-    "company_id": "perplexity",
-    "metric": "valuation",
-    "value": 14000000000.0,
-    "unit": "USD",
-    "raw_text": "$14B valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "siliconangle.com",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR1hxZ2I2T3lOdV9wbVlsYm9HTjlfa3Y2MnJ6N1IxOHZoRjRFcnp5NkRzb2t5Q0NFNmpWaTgzV3I5bkVmT2VZQ3JQTE5NVXN6Z0FsNGRYeENIYmtSS19QSTVVazRhSThiZFJtQ1prSWhwWTBOZjIxRmp1aXpWaVk0S0xLWDF6bXdwS1NiWmVxSUVmMWZuQUxhc3JKWTI?oc=5",
-      "locator": null,
-      "published_at": "2025-05-12"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_8064137e77",
     "company_id": "perplexity",
     "metric": "valuation",
@@ -404,6 +304,106 @@
       "published_at": "2025-03-21"
     },
     "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_a5e8394d12",
+    "company_id": "perplexity",
+    "metric": "round_amount",
+    "value": 200000000.0,
+    "unit": null,
+    "raw_text": "Raises $200M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Techeconomy",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5TZllCQ2xDdS1ZV2I1ZUgyYWs1dDJRckkzbE9yaXdEZ2xPNHI0dXEybTJ2Q3E5eFBDdWNWV0xmU3N4b1Z1aF9wY0RlcHFndjE4YzgtZGh2VnlVczB3MkZxTlQtYlFiN3IyS0twSFNjVQ?oc=5",
+      "locator": null,
+      "published_at": "2025-09-11"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_b83bc8b53d",
+    "company_id": "perplexity",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": null,
+    "raw_text": "$20B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Techeconomy",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5TZllCQ2xDdS1ZV2I1ZUgyYWs1dDJRckkzbE9yaXdEZ2xPNHI0dXEybTJ2Q3E5eFBDdWNWV0xmU3N4b1Z1aF9wY0RlcHFndjE4YzgtZGh2VnlVczB3MkZxTlQtYlFiN3IyS0twSFNjVQ?oc=5",
+      "locator": null,
+      "published_at": "2025-09-11"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_7f49cc37a8",
+    "company_id": "perplexity",
+    "metric": "round_amount",
+    "value": 500000000.0,
+    "unit": "USD",
+    "raw_text": "$500M funding round",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR1hxZ2I2T3lOdV9wbVlsYm9HTjlfa3Y2MnJ6N1IxOHZoRjRFcnp5NkRzb2t5Q0NFNmpWaTgzV3I5bkVmT2VZQ3JQTE5NVXN6Z0FsNGRYeENIYmtSS19QSTVVazRhSThiZFJtQ1prSWhwWTBOZjIxRmp1aXpWaVk0S0xLWDF6bXdwS1NiWmVxSUVmMWZuQUxhc3JKWTI?oc=5",
+      "locator": null,
+      "published_at": "2025-05-12"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_c98ad1a640",
+    "company_id": "perplexity",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": "USD",
+    "raw_text": "$14B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR1hxZ2I2T3lOdV9wbVlsYm9HTjlfa3Y2MnJ6N1IxOHZoRjRFcnp5NkRzb2t5Q0NFNmpWaTgzV3I5bkVmT2VZQ3JQTE5NVXN6Z0FsNGRYeENIYmtSS19QSTVVazRhSThiZFJtQ1prSWhwWTBOZjIxRmp1aXpWaVk0S0xLWDF6bXdwS1NiWmVxSUVmMWZuQUxhc3JKWTI?oc=5",
+      "locator": null,
+      "published_at": "2025-05-12"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
     "derivation": null
@@ -976,7 +976,7 @@
       "locator": null,
       "published_at": "2026-08-25"
     },
-    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extracted_at": "2026-09-10T09:49:02.856855",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

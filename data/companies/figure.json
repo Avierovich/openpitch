@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 88.4,
-  "universe_rank": 15,
+  "universe_rank": 16,
   "metrics": {
     "valuation": {
       "metric": "valuation",
@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2025-09-16",
       "estimate_type": "consensus",
-      "confidence": 0.638,
+      "confidence": 0.636,
       "supporting_claims": [
         "clm_bd4cd2e26e",
         "clm_09a19dc0e1",
@@ -33,12 +33,52 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 39176643959.82,
-        "change_pct": -0.1,
+        "previous": 39124036831.3,
+        "change_pct": -0.0,
         "since": "2025-09-16"
       },
       "history_ref": "history/figure/valuation.jsonl",
       "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 700000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-05-21",
+      "estimate_type": "reported",
+      "confidence": 0.276,
+      "supporting_claims": [
+        "clm_44a717b09a"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 700000000.0,
+        "change_pct": 0.0,
+        "since": "2026-05-21"
+      },
+      "history_ref": "history/figure/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "revenue_multiple": {
+      "metric": "revenue_multiple",
+      "value": 15.0,
+      "unit": "x",
+      "range": null,
+      "as_of": "2025-02-14",
+      "estimate_type": "reported",
+      "confidence": 0.003,
+      "supporting_claims": [
+        "clm_b3ceb86d88"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/figure/revenue_multiple.jsonl",
+      "unconfirmed": true,
       "confirmed_value": null,
       "confirmed_as_of": null
     },
@@ -61,28 +101,6 @@
         "since": "2025-09-16"
       },
       "history_ref": "history/figure/total_funding.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 700000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-05-21",
-      "estimate_type": "reported",
-      "confidence": 0.277,
-      "supporting_claims": [
-        "clm_44a717b09a"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 700000000.0,
-        "change_pct": 0.0,
-        "since": "2026-05-21"
-      },
-      "history_ref": "history/figure/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -132,5 +150,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-09"
+  "last_updated": "2026-09-10"
 }

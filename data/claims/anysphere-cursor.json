@@ -1,32 +1,5 @@
 [
   {
-    "id": "clm_7d366ec39d",
-    "company_id": "anysphere-cursor",
-    "metric": "valuation",
-    "value": 400000000.0,
-    "unit": "USD",
-    "raw_text": "at least a $400 million valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNGdlTGNsZF8wY2ZxcnBYOERuV2lHclFlOUtrcFZVYnRHVWNmV0c0TEF3TWdjc2FoQzN6MDJadnIzNHYzdjltZXF0VWhySVNwYjhMNnJhalZ3aFlkT2lFb0hTTi1udGdKQi1CZTYxNFlqS2xubXZPb2M0VS11bzRnejZmLTFfTVQ3VV81R3ZrQ3pTRXVUd1JjTDZtWnM?oc=5",
-      "locator": null,
-      "published_at": "2024-07-15"
-    },
-    "extracted_at": "2026-09-05T09:07:28.177448",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
     "id": "clm_80a6f04add",
     "company_id": "anysphere-cursor",
     "metric": "round_amount",
@@ -72,6 +45,85 @@
     "extracted_at": "2026-09-05T09:07:28.177448",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_8b9cf206ad",
+    "company_id": "anysphere-cursor",
+    "metric": "round_amount",
+    "value": 100000000.0,
+    "unit": "USD",
+    "raw_text": "$100M",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaDRFSHNRY1pVa0NyR1VGVmt4MXZkVmdKaUw4bEh0RWJqcHRTay1Na2dzcjJod0M5THhIeHVrd0tpX0JlOENUVnVLcExFcTFKZ3JHSEhIV3ZIelViTjVFYmdmVEh1dmxVZXBzbVF6TVNNZ1hGdGhMN1VGdTdydFFmRkM1ajNSRWJPdWw2NF92S3Fxblh1Uk14UlhuREg1NWwwOUV5Uk9qcEhSMC1pQnh3VlF4a2RHeHVma3JTRUE5SzVqOHZtbUtEdGpDcHpQX3VIbU5sbW1kU0lVc2dU?oc=5",
+      "locator": null,
+      "published_at": "2024-12-19"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_85cf93fcbe",
+    "company_id": "anysphere-cursor",
+    "metric": "valuation",
+    "value": 2600000000.0,
+    "unit": "USD",
+    "raw_text": "$2.6B",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaDRFSHNRY1pVa0NyR1VGVmt4MXZkVmdKaUw4bEh0RWJqcHRTay1Na2dzcjJod0M5THhIeHVrd0tpX0JlOENUVnVLcExFcTFKZ3JHSEhIV3ZIelViTjVFYmdmVEh1dmxVZXBzbVF6TVNNZ1hGdGhMN1VGdTdydFFmRkM1ajNSRWJPdWw2NF92S3Fxblh1Uk14UlhuREg1NWwwOUV5Uk9qcEhSMC1pQnh3VlF4a2RHeHVma3JTRUE5SzVqOHZtbUtEdGpDcHpQX3VIbU5sbW1kU0lVc2dU?oc=5",
+      "locator": null,
+      "published_at": "2024-12-19"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_7d366ec39d",
+    "company_id": "anysphere-cursor",
+    "metric": "valuation",
+    "value": 400000000.0,
+    "unit": "USD",
+    "raw_text": "at least a $400 million valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNGdlTGNsZF8wY2ZxcnBYOERuV2lHclFlOUtrcFZVYnRHVWNmV0c0TEF3TWdjc2FoQzN6MDJadnIzNHYzdjltZXF0VWhySVNwYjhMNnJhalZ3aFlkT2lFb0hTTi1udGdKQi1CZTYxNFlqS2xubXZPb2M0VS11bzRnejZmLTFfTVQ3VV81R3ZrQ3pTRXVUd1JjTDZtWnM?oc=5",
+      "locator": null,
+      "published_at": "2024-07-15"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -171,51 +223,31 @@
     "derivation": null
   },
   {
-    "id": "clm_ebc093f62f",
+    "id": "clm_0d4fcaf1cf",
     "company_id": "anysphere-cursor",
     "metric": "arr",
     "value": 4000000000.0,
-    "unit": null,
-    "raw_text": "Annualized Revenue Reaches $4 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY01haklTT3IteUxlTWM2UXZLd1hGM3ctTHp0bVdlV0x5Vkxlb3lmOFFiLWE0Q1J3TGdiS2tFVGxhWVg2VmFmOGpuOENXM2JKOE9GOUFkbUkwaFVlM05TLWxZN0otNy1ySlF1b0ZyNlNOWUQ5Q09tVW9SMzlrdzRveldZLWxYeF9fc045WU5BVTB0N1pDOUVfcFpXMUtMTGp3RkRLNHZfUQ?oc=5",
-      "locator": null,
-      "published_at": "2026-06-16"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_bc5debeea5",
-    "company_id": "anysphere-cursor",
-    "metric": "valuation",
-    "value": 60000000000.0,
     "unit": "USD",
-    "raw_text": "$60B Deal",
-    "qualifiers": [],
+    "raw_text": "Annualized Revenue Reaches $4 Billion",
+    "qualifiers": [
+      "run_rate",
+      "rounded",
+      "unconfirmed"
+    ],
     "speaker": {
       "name": null,
       "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQUV9CV0plTXBfMnpjbkNuUWszNlJwSlJCdHk0MjlzNWstNElRSlhGZzhUX1pqRTFOVnNveUQ1MnUtVDJtTUVCWG9IZUJUc3hTWXFEM2FjaVhZRzJNWTh1RE5EY2NsUTJ4OFE1M2tXUDRuQ1JxSWQtSGNiZ082Z0h0Rkh2dHd4aXc5YWlwOF9yMUxZZGx5SkxXWlBLcHpvMUxmYWtNUFVyTWxXR0tSb0ZNMGwxdUt5V1MydWRUSHRuUUtETVZvblluelNpYTFWRTQ0UHBEdWhQbTdoTFBwa1psM1prc2pzZk40Nm4yZkNMMTBLWUFpSmxNMmwzbHlIVzFqelE?oc=5",
+      "name": "tradingkey.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY01haklTT3IteUxlTWM2UXZLd1hGM3ctTHp0bVdlV0x5Vkxlb3lmOFFiLWE0Q1J3TGdiS2tFVGxhWVg2VmFmOGpuOENXM2JKOE9GOUFkbUkwaFVlM05TLWxZN0otNy1ySlF1b0ZyNlNOWUQ5Q09tVW9SMzlrdzRveldZLWxYeF9fc045WU5BVTB0N1pDOUVfcFpXMUtMTGp3RkRLNHZfUQ?oc=5",
       "locator": null,
-      "published_at": "2026-08-18"
+      "published_at": "2026-06-16"
     },
-    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extracted_at": "2026-09-07T10:15:07.048991",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
+    "base_confidence": 0.2551,
     "derivation": null
   },
   {
@@ -293,55 +325,51 @@
     "derivation": null
   },
   {
-    "id": "clm_8b9cf206ad",
+    "id": "clm_ebc093f62f",
     "company_id": "anysphere-cursor",
-    "metric": "round_amount",
-    "value": 100000000.0,
-    "unit": "USD",
-    "raw_text": "$100M",
-    "qualifiers": [
-      "unconfirmed"
-    ],
+    "metric": "arr",
+    "value": 4000000000.0,
+    "unit": null,
+    "raw_text": "Annualized Revenue Reaches $4 Billion",
+    "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
       "type": "news",
-      "name": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaDRFSHNRY1pVa0NyR1VGVmt4MXZkVmdKaUw4bEh0RWJqcHRTay1Na2dzcjJod0M5THhIeHVrd0tpX0JlOENUVnVLcExFcTFKZ3JHSEhIV3ZIelViTjVFYmdmVEh1dmxVZXBzbVF6TVNNZ1hGdGhMN1VGdTdydFFmRkM1ajNSRWJPdWw2NF92S3Fxblh1Uk14UlhuREg1NWwwOUV5Uk9qcEhSMC1pQnh3VlF4a2RHeHVma3JTRUE5SzVqOHZtbUtEdGpDcHpQX3VIbU5sbW1kU0lVc2dU?oc=5",
+      "name": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY01haklTT3IteUxlTWM2UXZLd1hGM3ctTHp0bVdlV0x5Vkxlb3lmOFFiLWE0Q1J3TGdiS2tFVGxhWVg2VmFmOGpuOENXM2JKOE9GOUFkbUkwaFVlM05TLWxZN0otNy1ySlF1b0ZyNlNOWUQ5Q09tVW9SMzlrdzRveldZLWxYeF9fc045WU5BVTB0N1pDOUVfcFpXMUtMTGp3RkRLNHZfUQ?oc=5",
       "locator": null,
-      "published_at": "2024-12-19"
+      "published_at": "2026-06-16"
     },
-    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
-    "id": "clm_85cf93fcbe",
+    "id": "clm_bc5debeea5",
     "company_id": "anysphere-cursor",
     "metric": "valuation",
-    "value": 2600000000.0,
+    "value": 60000000000.0,
     "unit": "USD",
-    "raw_text": "$2.6B",
-    "qualifiers": [
-      "unconfirmed"
-    ],
+    "raw_text": "$60B Deal",
+    "qualifiers": [],
     "speaker": {
       "name": null,
       "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaDRFSHNRY1pVa0NyR1VGVmt4MXZkVmdKaUw4bEh0RWJqcHRTay1Na2dzcjJod0M5THhIeHVrd0tpX0JlOENUVnVLcExFcTFKZ3JHSEhIV3ZIelViTjVFYmdmVEh1dmxVZXBzbVF6TVNNZ1hGdGhMN1VGdTdydFFmRkM1ajNSRWJPdWw2NF92S3Fxblh1Uk14UlhuREg1NWwwOUV5Uk9qcEhSMC1pQnh3VlF4a2RHeHVma3JTRUE5SzVqOHZtbUtEdGpDcHpQX3VIbU5sbW1kU0lVc2dU?oc=5",
+      "name": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQUV9CV0plTXBfMnpjbkNuUWszNlJwSlJCdHk0MjlzNWstNElRSlhGZzhUX1pqRTFOVnNveUQ1MnUtVDJtTUVCWG9IZUJUc3hTWXFEM2FjaVhZRzJNWTh1RE5EY2NsUTJ4OFE1M2tXUDRuQ1JxSWQtSGNiZ082Z0h0Rkh2dHd4aXc5YWlwOF9yMUxZZGx5SkxXWlBLcHpvMUxmYWtNUFVyTWxXR0tSb0ZNMGwxdUt5V1MydWRUSHRuUUtETVZvblluelNpYTFWRTQ0UHBEdWhQbTdoTFBwa1psM1prc2pzZk40Nm4yZkNMMTBLWUFpSmxNMmwzbHlIVzFqelE?oc=5",
       "locator": null,
-      "published_at": "2024-12-19"
+      "published_at": "2026-08-18"
     },
-    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extracted_at": "2026-09-05T09:07:28.177448",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -518,34 +546,6 @@
     "derivation": null
   },
   {
-    "id": "clm_0d4fcaf1cf",
-    "company_id": "anysphere-cursor",
-    "metric": "arr",
-    "value": 4000000000.0,
-    "unit": "USD",
-    "raw_text": "Annualized Revenue Reaches $4 Billion",
-    "qualifiers": [
-      "run_rate",
-      "rounded",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "tradingkey.com",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY01haklTT3IteUxlTWM2UXZLd1hGM3ctTHp0bVdlV0x5Vkxlb3lmOFFiLWE0Q1J3TGdiS2tFVGxhWVg2VmFmOGpuOENXM2JKOE9GOUFkbUkwaFVlM05TLWxZN0otNy1ySlF1b0ZyNlNOWUQ5Q09tVW9SMzlrdzRveldZLWxYeF9fc045WU5BVTB0N1pDOUVfcFpXMUtMTGp3RkRLNHZfUQ?oc=5",
-      "locator": null,
-      "published_at": "2026-06-16"
-    },
-    "extracted_at": "2026-09-07T10:15:07.048991",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2551,
-    "derivation": null
-  },
-  {
     "id": "clm_cc4a714f07",
     "company_id": "anysphere-cursor",
     "metric": "valuation",
@@ -612,7 +612,7 @@
       "locator": null,
       "published_at": "2026-06-16"
     },
-    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extracted_at": "2026-09-10T09:49:02.856855",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

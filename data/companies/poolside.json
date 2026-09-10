@@ -22,7 +22,7 @@
       },
       "as_of": "2026-08-27",
       "estimate_type": "consensus",
-      "confidence": 0.922,
+      "confidence": 0.921,
       "supporting_claims": [
         "clm_64d0679833",
         "clm_580c276693",
@@ -34,35 +34,10 @@
       "contradiction": false,
       "delta": {
         "previous": 12000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-08-27"
       },
       "history_ref": "history/poolside/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 1000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-10-31",
-      "estimate_type": "consensus",
-      "confidence": 0.484,
-      "supporting_claims": [
-        "clm_c7c99054ff",
-        "clm_0839e2c76e",
-        "clm_22aa85ee20",
-        "clm_bb6ec931a7"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1000000000.0,
-        "change_pct": 0.0,
-        "since": "2025-10-31"
-      },
-      "history_ref": "history/poolside/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -74,7 +49,7 @@
       "range": null,
       "as_of": "2026-08-21",
       "estimate_type": "consensus",
-      "confidence": 0.755,
+      "confidence": 0.754,
       "supporting_claims": [
         "clm_c864fe201f",
         "clm_1bd0fdb3c6",
@@ -89,6 +64,31 @@
       },
       "history_ref": "history/poolside/total_funding.jsonl",
       "unconfirmed": true,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 1000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-10-31",
+      "estimate_type": "consensus",
+      "confidence": 0.483,
+      "supporting_claims": [
+        "clm_c7c99054ff",
+        "clm_0839e2c76e",
+        "clm_22aa85ee20",
+        "clm_bb6ec931a7"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
+        "since": "2025-10-31"
+      },
+      "history_ref": "history/poolside/round_amount.jsonl",
+      "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     },
@@ -143,7 +143,7 @@
       "range": null,
       "as_of": "2026-08-24",
       "estimate_type": "reported",
-      "confidence": 0.158,
+      "confidence": 0.157,
       "supporting_claims": [
         "drv_783bd5902c"
       ],
@@ -159,5 +159,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-09"
+  "last_updated": "2026-09-10"
 }

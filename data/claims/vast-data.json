@@ -120,7 +120,31 @@
     "derivation": null
   },
   {
-    "id": "clm_2a2a87262b",
+    "id": "clm_cd433268d7",
+    "company_id": "vast-data",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "Vast Data Raised $1 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "storagenewsletter.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd2pqMjhEeVJjYWdXNWVKbzNDNS1zQ2R2M2J0SDFvRGc1YWZCMzV6czlrb0sxV0h4VFVzaEl2M2VSY212R0FmQ1ZVX0k3b25WTWhEWEJZeXJibDVsQVkxVDdtUXc3djRQY05NOUIzYUhPWVdnTWJablBRbjBELXJ5cXYyY1NIbFROMU5RdjRGTlBmZGZxTThSZXhzZ3VfNVdlVFN0V0hNUlRxdw?oc=5",
+      "locator": null,
+      "published_at": "2026-03-13"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_0a2a593aa0",
     "company_id": "vast-data",
     "metric": "valuation",
     "value": 30000000000.0,
@@ -133,34 +157,10 @@
     },
     "source": {
       "type": "news",
-      "name": "pulse2.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUlZYYUJmR29GTElkNlBGZ045TlFZbllxdXVqUkRuOUFTYjVEa3hWZDROU3VjN0JscV9ya0hMRWZkWjJoNERCc0NtTkNnU0NZN3p1TjRLMUZrcHlVUVVhWGlCeXpocFFPcXVReHNFUHNsb0xmYkVGTzZLR2N2Y3ZrSUs1TEpueUpVZ0VTQ256Wkl4QVpNM3VnNVpIRHAxa2pIOWI4WVpMYXJZeEt3ekVrV9IBtgFBVV95cUxOUDIyUmF2Z1N4cG85SXRVWUhxcXl4VTFjUW93Ty05OUFNRUh3ajh3SERFZ1JWZGhFVjZ5bWU0ZUtuUTVjS2JaNXBYc1BseE5LZVdqZEg3TEIyVUZpZ2dqYlM4RHdsOVRsVmJKYmFBSUltdEU5RWpZWVM1ZzVwU01rd3M4VFFzNHVzRnNVaGtFeWc3VHQxT0hIVFJWeDRibGtXd3Q0aVI4WVZVNy00cEw2MDh4YnB3dw?oc=5",
+      "name": "storagenewsletter.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd2pqMjhEeVJjYWdXNWVKbzNDNS1zQ2R2M2J0SDFvRGc1YWZCMzV6czlrb0sxV0h4VFVzaEl2M2VSY212R0FmQ1ZVX0k3b25WTWhEWEJZeXJibDVsQVkxVDdtUXc3djRQY05NOUIzYUhPWVdnTWJablBRbjBELXJ5cXYyY1NIbFROMU5RdjRGTlBmZGZxTThSZXhzZ3VfNVdlVFN0V0hNUlRxdw?oc=5",
       "locator": null,
-      "published_at": "2026-04-22"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_265fd93fe2",
-    "company_id": "vast-data",
-    "metric": "latest_round",
-    "value": 6.0,
-    "unit": "Series",
-    "raw_text": "Series F",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "pulse2.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUlZYYUJmR29GTElkNlBGZ045TlFZbllxdXVqUkRuOUFTYjVEa3hWZDROU3VjN0JscV9ya0hMRWZkWjJoNERCc0NtTkNnU0NZN3p1TjRLMUZrcHlVUVVhWGlCeXpocFFPcXVReHNFUHNsb0xmYkVGTzZLR2N2Y3ZrSUs1TEpueUpVZ0VTQ256Wkl4QVpNM3VnNVpIRHAxa2pIOWI4WVpMYXJZeEt3ekVrV9IBtgFBVV95cUxOUDIyUmF2Z1N4cG85SXRVWUhxcXl4VTFjUW93Ty05OUFNRUh3ajh3SERFZ1JWZGhFVjZ5bWU0ZUtuUTVjS2JaNXBYc1BseE5LZVdqZEg3TEIyVUZpZ2dqYlM4RHdsOVRsVmJKYmFBSUltdEU5RWpZWVM1ZzVwU01rd3M4VFFzNHVzRnNVaGtFeWc3VHQxT0hIVFJWeDRibGtXd3Q0aVI4WVZVNy00cEw2MDh4YnB3dw?oc=5",
-      "locator": null,
-      "published_at": "2026-04-22"
+      "published_at": "2026-03-13"
     },
     "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
@@ -216,6 +216,126 @@
     "derivation": null
   },
   {
+    "id": "clm_7de5a9213f",
+    "company_id": "vast-data",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": null,
+    "raw_text": "VAST Data valued at $30 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The American Bazaar",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa2wxQ1dqZ3dOR0VleXZ2dGRMZlF5R0phRjhBbE9xelEwWDRMNU5Jem1mTk9rbzFuU3FxbmFfX3cxMXl4ZlAwSE1lYVlJeWZienlLOGc2MXJWMjh3OE4xUlc1UVpKZk93ZjhrSDY1NjlWVFpJanFQV1R6UjNSOVF6RU9rMVZQSnlvNjlfUnptOWRFRzZzWU83V05YOVZpX2tkZFhhSTc4WEtaUjlCVmc?oc=5",
+      "locator": null,
+      "published_at": "2026-04-22"
+    },
+    "extracted_at": "2026-08-21T05:50:03.226228",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_8da55507ee",
+    "company_id": "vast-data",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": null,
+    "raw_text": "tripling AI tech company's valuation to $30 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Retail Technology Innovation Hub",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcjRGVlZEdUJsbDBVRzV1alJHTmxTWUdmeXJwTUtEMFhaVldCUndiS1YyVmVTSVZpbFB2c09vVElmUVhtbEpVeTZnaTVRUTB6YkRNbDVWLUYyZWVpYnJ6WnEwOFJPWWREVE9zUFlfUkpkY0RwN1RvM1p0Mkt5eEJpbXhwTi02ZEhsdFA1dWlDOVVqRU42MDdzRnc1WWRUZU5tamtMNHhYOWxMZ1R6dFZwLUJncVBGVHBwSzJVeXFFS0VUNWl4bTdFeUNwQTRnVFdqS2U0d1dPQW1iUQ?oc=5",
+      "locator": null,
+      "published_at": "2026-04-23"
+    },
+    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_e40e19afc6",
+    "company_id": "vast-data",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "$1 billion Series F fund raise",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Retail Technology Innovation Hub",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcjRGVlZEdUJsbDBVRzV1alJHTmxTWUdmeXJwTUtEMFhaVldCUndiS1YyVmVTSVZpbFB2c09vVElmUVhtbEpVeTZnaTVRUTB6YkRNbDVWLUYyZWVpYnJ6WnEwOFJPWWREVE9zUFlfUkpkY0RwN1RvM1p0Mkt5eEJpbXhwTi02ZEhsdFA1dWlDOVVqRU42MDdzRnc1WWRUZU5tamtMNHhYOWxMZ1R6dFZwLUJncVBGVHBwSzJVeXFFS0VUNWl4bTdFeUNwQTRnVFdqS2U0d1dPQW1iUQ?oc=5",
+      "locator": null,
+      "published_at": "2026-04-23"
+    },
+    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_2a2a87262b",
+    "company_id": "vast-data",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "$30 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "pulse2.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUlZYYUJmR29GTElkNlBGZ045TlFZbllxdXVqUkRuOUFTYjVEa3hWZDROU3VjN0JscV9ya0hMRWZkWjJoNERCc0NtTkNnU0NZN3p1TjRLMUZrcHlVUVVhWGlCeXpocFFPcXVReHNFUHNsb0xmYkVGTzZLR2N2Y3ZrSUs1TEpueUpVZ0VTQ256Wkl4QVpNM3VnNVpIRHAxa2pIOWI4WVpMYXJZeEt3ekVrV9IBtgFBVV95cUxOUDIyUmF2Z1N4cG85SXRVWUhxcXl4VTFjUW93Ty05OUFNRUh3ajh3SERFZ1JWZGhFVjZ5bWU0ZUtuUTVjS2JaNXBYc1BseE5LZVdqZEg3TEIyVUZpZ2dqYlM4RHdsOVRsVmJKYmFBSUltdEU5RWpZWVM1ZzVwU01rd3M4VFFzNHVzRnNVaGtFeWc3VHQxT0hIVFJWeDRibGtXd3Q0aVI4WVZVNy00cEw2MDh4YnB3dw?oc=5",
+      "locator": null,
+      "published_at": "2026-04-22"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_265fd93fe2",
+    "company_id": "vast-data",
+    "metric": "latest_round",
+    "value": 6.0,
+    "unit": "Series",
+    "raw_text": "Series F",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "pulse2.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUlZYYUJmR29GTElkNlBGZ045TlFZbllxdXVqUkRuOUFTYjVEa3hWZDROU3VjN0JscV9ya0hMRWZkWjJoNERCc0NtTkNnU0NZN3p1TjRLMUZrcHlVUVVhWGlCeXpocFFPcXVReHNFUHNsb0xmYkVGTzZLR2N2Y3ZrSUs1TEpueUpVZ0VTQ256Wkl4QVpNM3VnNVpIRHAxa2pIOWI4WVpMYXJZeEt3ekVrV9IBtgFBVV95cUxOUDIyUmF2Z1N4cG85SXRVWUhxcXl4VTFjUW93Ty05OUFNRUh3ajh3SERFZ1JWZGhFVjZ5bWU0ZUtuUTVjS2JaNXBYc1BseE5LZVdqZEg3TEIyVUZpZ2dqYlM4RHdsOVRsVmJKYmFBSUltdEU5RWpZWVM1ZzVwU01rd3M4VFFzNHVzRnNVaGtFeWc3VHQxT0hIVFJWeDRibGtXd3Q0aVI4WVZVNy00cEw2MDh4YnB3dw?oc=5",
+      "locator": null,
+      "published_at": "2026-04-22"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_d32880da7b",
     "company_id": "vast-data",
     "metric": "round_amount",
@@ -259,30 +379,6 @@
       "published_at": "2026-04-23"
     },
     "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_7de5a9213f",
-    "company_id": "vast-data",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": null,
-    "raw_text": "VAST Data valued at $30 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "The American Bazaar",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa2wxQ1dqZ3dOR0VleXZ2dGRMZlF5R0phRjhBbE9xelEwWDRMNU5Jem1mTk9rbzFuU3FxbmFfX3cxMXl4ZlAwSE1lYVlJeWZienlLOGc2MXJWMjh3OE4xUlc1UVpKZk93ZjhrSDY1NjlWVFpJanFQV1R6UjNSOVF6RU9rMVZQSnlvNjlfUnptOWRFRzZzWU83V05YOVZpX2tkZFhhSTc4WEtaUjlCVmc?oc=5",
-      "locator": null,
-      "published_at": "2026-04-22"
-    },
-    "extracted_at": "2026-08-21T05:50:03.226228",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -456,54 +552,6 @@
     "derivation": null
   },
   {
-    "id": "clm_8da55507ee",
-    "company_id": "vast-data",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": null,
-    "raw_text": "tripling AI tech company's valuation to $30 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Retail Technology Innovation Hub",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcjRGVlZEdUJsbDBVRzV1alJHTmxTWUdmeXJwTUtEMFhaVldCUndiS1YyVmVTSVZpbFB2c09vVElmUVhtbEpVeTZnaTVRUTB6YkRNbDVWLUYyZWVpYnJ6WnEwOFJPWWREVE9zUFlfUkpkY0RwN1RvM1p0Mkt5eEJpbXhwTi02ZEhsdFA1dWlDOVVqRU42MDdzRnc1WWRUZU5tamtMNHhYOWxMZ1R6dFZwLUJncVBGVHBwSzJVeXFFS0VUNWl4bTdFeUNwQTRnVFdqS2U0d1dPQW1iUQ?oc=5",
-      "locator": null,
-      "published_at": "2026-04-23"
-    },
-    "extracted_at": "2026-07-12T07:44:16.543146",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_e40e19afc6",
-    "company_id": "vast-data",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "$1 billion Series F fund raise",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Retail Technology Innovation Hub",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcjRGVlZEdUJsbDBVRzV1alJHTmxTWUdmeXJwTUtEMFhaVldCUndiS1YyVmVTSVZpbFB2c09vVElmUVhtbEpVeTZnaTVRUTB6YkRNbDVWLUYyZWVpYnJ6WnEwOFJPWWREVE9zUFlfUkpkY0RwN1RvM1p0Mkt5eEJpbXhwTi02ZEhsdFA1dWlDOVVqRU42MDdzRnc1WWRUZU5tamtMNHhYOWxMZ1R6dFZwLUJncVBGVHBwSzJVeXFFS0VUNWl4bTdFeUNwQTRnVFdqS2U0d1dPQW1iUQ?oc=5",
-      "locator": null,
-      "published_at": "2026-04-23"
-    },
-    "extracted_at": "2026-07-12T07:44:16.543146",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_50a42f97da",
     "company_id": "vast-data",
     "metric": "total_funding",
@@ -547,54 +595,6 @@
       "published_at": "2026-04-22"
     },
     "extracted_at": "2026-09-04T09:41:05.539009",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_cd433268d7",
-    "company_id": "vast-data",
-    "metric": "total_funding",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "Vast Data Raised $1 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "storagenewsletter.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd2pqMjhEeVJjYWdXNWVKbzNDNS1zQ2R2M2J0SDFvRGc1YWZCMzV6czlrb0sxV0h4VFVzaEl2M2VSY212R0FmQ1ZVX0k3b25WTWhEWEJZeXJibDVsQVkxVDdtUXc3djRQY05NOUIzYUhPWVdnTWJablBRbjBELXJ5cXYyY1NIbFROMU5RdjRGTlBmZGZxTThSZXhzZ3VfNVdlVFN0V0hNUlRxdw?oc=5",
-      "locator": null,
-      "published_at": "2026-03-13"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_0a2a593aa0",
-    "company_id": "vast-data",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "$30 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "storagenewsletter.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd2pqMjhEeVJjYWdXNWVKbzNDNS1zQ2R2M2J0SDFvRGc1YWZCMzV6czlrb0sxV0h4VFVzaEl2M2VSY212R0FmQ1ZVX0k3b25WTWhEWEJZeXJibDVsQVkxVDdtUXc3djRQY05NOUIzYUhPWVdnTWJablBRbjBELXJ5cXYyY1NIbFROMU5RdjRGTlBmZGZxTThSZXhzZ3VfNVdlVFN0V0hNUlRxdw?oc=5",
-      "locator": null,
-      "published_at": "2026-03-13"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -1172,7 +1172,7 @@
       "locator": null,
       "published_at": "2026-04-23"
     },
-    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extracted_at": "2026-09-11T09:45:35.269135",
     "extractor_model": "derive-engine",
     "base_confidence": 0.3623,
     "derivation": {

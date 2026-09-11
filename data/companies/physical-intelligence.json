@@ -12,30 +12,6 @@
   "vc_attention_score": 83.8,
   "universe_rank": 50,
   "metrics": {
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 1000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-03-30",
-      "estimate_type": "consensus",
-      "confidence": 0.412,
-      "supporting_claims": [
-        "clm_4ed99c328b",
-        "clm_528f395cd9",
-        "clm_1f18f056e2"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1000000000.0,
-        "change_pct": -0.0,
-        "since": "2026-03-30"
-      },
-      "history_ref": "history/physical-intelligence/round_amount.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": 600000000.0,
-      "confirmed_as_of": "2025-11-25"
-    },
     "valuation": {
       "metric": "valuation",
       "value": 11000000000.0,
@@ -46,10 +22,11 @@
       },
       "as_of": "2026-03-31",
       "estimate_type": "consensus",
-      "confidence": 0.744,
+      "confidence": 0.779,
       "supporting_claims": [
         "clm_a52fc1f535",
         "clm_d565f71f79",
+        "clm_f9d881b7fa",
         "clm_95bf905bea",
         "clm_e85879a848",
         "clm_8811380977",
@@ -58,7 +35,7 @@
       "contradiction": true,
       "delta": {
         "previous": 11000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-03-31"
       },
       "history_ref": "history/physical-intelligence/valuation.jsonl",
@@ -66,21 +43,49 @@
       "confirmed_value": 3000000000.0,
       "confirmed_as_of": "2026-05-28"
     },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 600000000.0,
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 1000000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2025-11-25",
-      "estimate_type": "reported",
-      "confidence": 0.353,
+      "as_of": "2026-03-30",
+      "estimate_type": "consensus",
+      "confidence": 0.494,
       "supporting_claims": [
-        "clm_2b6d77f27a"
+        "clm_4b8da5691f",
+        "clm_4ed99c328b",
+        "clm_528f395cd9",
+        "clm_1f18f056e2"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-03-30"
+      },
+      "history_ref": "history/physical-intelligence/round_amount.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": 600000000.0,
+      "confirmed_as_of": "2025-11-25"
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 1000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 600000000.0,
+        "high": 1000000000.0
+      },
+      "as_of": "2026-01-31",
+      "estimate_type": "reported",
+      "confidence": 0.387,
+      "supporting_claims": [
+        "clm_1d9c8f4302"
       ],
       "contradiction": false,
       "delta": {
         "previous": 600000000.0,
-        "change_pct": 0.0,
+        "change_pct": 66.7,
         "since": "2025-11-25"
       },
       "history_ref": "history/physical-intelligence/total_funding.jsonl",
@@ -98,7 +103,7 @@
       },
       "as_of": "2026-03-27",
       "estimate_type": "consensus",
-      "confidence": 0.554,
+      "confidence": 0.553,
       "supporting_claims": [
         "clm_27efd5a5ed",
         "clm_2db503624c"
@@ -115,5 +120,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-10"
+  "last_updated": "2026-09-11"
 }

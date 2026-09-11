@@ -10,22 +10,23 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 90.6,
-  "universe_rank": 5,
+  "universe_rank": 6,
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 72943902965.37,
+      "value": 73042313056.85,
       "unit": "USD",
       "range": null,
       "as_of": "2026-07-18",
       "estimate_type": "consensus",
-      "confidence": 0.877,
+      "confidence": 0.9,
       "supporting_claims": [
         "clm_aff2cf13b5",
         "clm_93952d7e80",
         "clm_728081a323",
-        "clm_8ec8e30863",
         "clm_9531c75902",
+        "clm_acf70adcaf",
+        "clm_8ec8e30863",
         "clm_11c1af281d",
         "clm_309fb95e7d",
         "clm_a0c09a5ff6"
@@ -33,7 +34,7 @@
       "contradiction": true,
       "delta": {
         "previous": 72943902965.37,
-        "change_pct": -0.0,
+        "change_pct": 0.1,
         "since": "2026-07-18"
       },
       "history_ref": "history/deepseek-ai/valuation.jsonl",
@@ -51,7 +52,7 @@
       },
       "as_of": "2026-07-01",
       "estimate_type": "consensus",
-      "confidence": 0.721,
+      "confidence": 0.72,
       "supporting_claims": [
         "clm_b31a75a06a",
         "clm_8ad48210b7"
@@ -66,7 +67,25 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 7000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-06-03",
+      "estimate_type": "reported",
+      "confidence": 0.168,
+      "supporting_claims": [
+        "clm_2c0ab77b59"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/deepseek-ai/round_amount.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-10"
+  "last_updated": "2026-09-11"
 }

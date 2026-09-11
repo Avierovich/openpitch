@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-09-10
+# OpenPitch Data Quality Report - 2026-09-11
 
 ## Summary
 
-- Profiles generated: 368
-- Watchlist candidates: 943
+- Profiles generated: 370
+- Watchlist candidates: 950
 - Top-50 cards: 50
-- Profiles with at least one metric: 359
+- Profiles with at least one metric: 361
 - Critical issues: 69
 - Warnings: 27
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 572
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 577
 
 ## Top-50 Companies With No Metrics
 
@@ -106,8 +106,7 @@ None.
 
 ## Single-Source Core Metrics
 
-- Thinking Machines Lab: total_funding
-- Devin: total_funding
+- Deepseek AI: round_amount
 - Figure AI: headcount
 - Scale AI: headcount
 - Chime: round_amount
@@ -119,6 +118,7 @@ None.
 - Lovable: headcount
 - Celonis: arr
 - Celonis: headcount
+- Shield AI: total_funding
 - Baseten: arr
 - Checkout.com: total_funding
 - Poolside: arr

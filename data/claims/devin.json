@@ -76,75 +76,199 @@
     "derivation": null
   },
   {
-    "id": "clm_703cda8563",
-    "company_id": "devin",
-    "metric": "round_amount",
-    "value": 2000000000.0,
-    "unit": "USD",
-    "raw_text": "Cognition raises $2B Series E",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSW1SZEZUS255V1hpWjZJNElsN3N6VnR2NnN1bTRvS204Qy1Ja2piSFRyOHRNY1BJcFBZWE1mY2p2emZoa3RkSURXdlpBcE44UVgwa25mT25CbENBSWpDMVdZNEFoLTNOcEhWeUFaMG5ZeW1Za0xxOVdKeC1JY09COGY4a3g4alhIeXd0cVo1Z2U5VDg5QjJvbHZ3?oc=5",
-      "locator": null,
-      "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_79f7f37333",
-    "company_id": "devin",
-    "metric": "latest_round",
-    "value": 5.0,
-    "unit": null,
-    "raw_text": "Series E",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSW1SZEZUS255V1hpWjZJNElsN3N6VnR2NnN1bTRvS204Qy1Ja2piSFRyOHRNY1BJcFBZWE1mY2p2emZoa3RkSURXdlpBcE44UVgwa25mT25CbENBSWpDMVdZNEFoLTNOcEhWeUFaMG5ZeW1Za0xxOVdKeC1JY09COGY4a3g4alhIeXd0cVo1Z2U5VDg5QjJvbHZ3?oc=5",
-      "locator": null,
-      "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_3fc3c4a358",
+    "id": "clm_5f2446e257",
     "company_id": "devin",
     "metric": "valuation",
     "value": 48000000000.0,
-    "unit": "USD",
-    "raw_text": "$48B valuation",
+    "unit": null,
+    "raw_text": "Cognition Reaches $48B Valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
       "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSW1SZEZUS255V1hpWjZJNElsN3N6VnR2NnN1bTRvS204Qy1Ja2piSFRyOHRNY1BJcFBZWE1mY2p2emZoa3RkSURXdlpBcE44UVgwa25mT25CbENBSWpDMVdZNEFoLTNOcEhWeUFaMG5ZeW1Za0xxOVdKeC1JY09COGY4a3g4alhIeXd0cVo1Z2U5VDg5QjJvbHZ3?oc=5",
+      "name": "quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdnJnYy1ETXdfVHJPbnhpNmx1T0F0NHNGd1hod29aQkxscmxJQVJYYzRmZ1c3NFk5QXdlN0tMaVBmRmtvMk4yZVNMQlN6d0pnVmZkbGFXSlE3YVFKUmxZLUVZTTBSQkUteXRXdFRWMEpTa21mbkJuNi1KbE1LSDJzREw2RWc?oc=5",
       "locator": null,
       "published_at": "2026-09-09"
     },
-    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extracted_at": "2026-09-10T09:49:02.856855",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_27313308e7",
+    "company_id": "devin",
+    "metric": "arr",
+    "value": 900000000.0,
+    "unit": null,
+    "raw_text": "Revenue Nears $900M",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdnJnYy1ETXdfVHJPbnhpNmx1T0F0NHNGd1hod29aQkxscmxJQVJYYzRmZ1c3NFk5QXdlN0tMaVBmRmtvMk4yZVNMQlN6d0pnVmZkbGFXSlE3YVFKUmxZLUVZTTBSQkUteXRXdFRWMEpTa21mbkJuNi1KbE1LSDJzREw2RWc?oc=5",
+      "locator": null,
+      "published_at": "2026-09-09"
+    },
+    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2625,
+    "derivation": null
+  },
+  {
+    "id": "clm_4753ebced3",
+    "company_id": "devin",
+    "metric": "latest_round",
+    "value": 2000000000.0,
+    "unit": null,
+    "raw_text": "raises $2bn",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Silicon Republic",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTzJOd0pKR0Y3bDhJdjJaRWhzeHcydjN1ajVvQVpVei1zMDcxUy1KV21mZzE4UTU3Mk1oTG9BQzBfVmdPSDRHY3BVQXJzT2J6UzRGRkJveEhCR3Y2M1cycnZpWWJ6R0hNQ3JlM2dqN0tWYUl4WHBsRG81SzRMNkJfZDd0N1JNbkd6VVkzS3ZzR2QwN0JfTjVz?oc=5",
+      "locator": null,
+      "published_at": "2026-09-09"
+    },
+    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_43b37636cf",
+    "company_id": "devin",
+    "metric": "valuation",
+    "value": 48000000000.0,
+    "unit": null,
+    "raw_text": "$48bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Silicon Republic",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTzJOd0pKR0Y3bDhJdjJaRWhzeHcydjN1ajVvQVpVei1zMDcxUy1KV21mZzE4UTU3Mk1oTG9BQzBfVmdPSDRHY3BVQXJzT2J6UzRGRkJveEhCR3Y2M1cycnZpWWJ6R0hNQ3JlM2dqN0tWYUl4WHBsRG81SzRMNkJfZDd0N1JNbkd6VVkzS3ZzR2QwN0JfTjVz?oc=5",
+      "locator": null,
+      "published_at": "2026-09-09"
+    },
+    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_f7b180e95c",
+    "company_id": "devin",
+    "metric": "latest_round",
+    "value": 2000000000.0,
+    "unit": null,
+    "raw_text": "raises $2 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The American Bazaar",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQLWJwVkZwRHNYWUxtVEtoak5DVjN1NEQ4dnU4YWRTemtMUFpmNkxDLWUtOWhqMVdXM0ZsNzhidTdmZzBtdU5zNzlNTjJJNU1uVlNJcUFvbFE5c0dhNEdzb3Uzb0sybGhJd0d0RHQ0RlJEdFk1OThzZVJRXzYybXk0aU9JSkwzRDVlQVhfZWNIUEN4UG9Ld3VYZlNSRVBZSWp5LUxQRU93X2ZoSVhfbV9vdzFWTzBQOWRncFE?oc=5",
+      "locator": null,
+      "published_at": "2026-09-09"
+    },
+    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_2fd5922763",
+    "company_id": "devin",
+    "metric": "valuation",
+    "value": 48000000000.0,
+    "unit": null,
+    "raw_text": "hits $48 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The American Bazaar",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQLWJwVkZwRHNYWUxtVEtoak5DVjN1NEQ4dnU4YWRTemtMUFpmNkxDLWUtOWhqMVdXM0ZsNzhidTdmZzBtdU5zNzlNTjJJNU1uVlNJcUFvbFE5c0dhNEdzb3Uzb0sybGhJd0d0RHQ0RlJEdFk1OThzZVJRXzYybXk0aU9JSkwzRDVlQVhfZWNIUEN4UG9Ld3VYZlNSRVBZSWp5LUxQRU93X2ZoSVhfbV9vdzFWTzBQOWRncFE?oc=5",
+      "locator": null,
+      "published_at": "2026-09-09"
+    },
+    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_e3ed71f0fd",
+    "company_id": "devin",
+    "metric": "latest_round",
+    "value": 2000000000.0,
+    "unit": null,
+    "raw_text": "raises over $2B",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYVJTUTZESDllYTUyc1VNQjRGRGFwQlRKcVJoWVdYbW9TNWxpVlExOExiLUpWMHhIcTBkekkwbUlmdWJUMkc3RjJjVUNuUkdHWXloZTZMc3FvcGs5RFBlZ2N2aUNzeWlzcHpKekk4Rno4dDJrTWVpUHpiVmY4SzB2c0tZTi1qNXBINFNTckxtWkFITWJpb3JUREVXWWJ0ZmdDN29VOC1tMFd2SzdrcXBXaFhfVTNnbVJUS1Ridk5Ob0hZLVFSMWc?oc=5",
+      "locator": null,
+      "published_at": "2026-09-09"
+    },
+    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3375,
+    "derivation": null
+  },
+  {
+    "id": "clm_5a2e83ea2e",
+    "company_id": "devin",
+    "metric": "valuation",
+    "value": 48000000000.0,
+    "unit": null,
+    "raw_text": "at $48B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYVJTUTZESDllYTUyc1VNQjRGRGFwQlRKcVJoWVdYbW9TNWxpVlExOExiLUpWMHhIcTBkekkwbUlmdWJUMkc3RjJjVUNuUkdHWXloZTZMc3FvcGs5RFBlZ2N2aUNzeWlzcHpKekk4Rno4dDJrTWVpUHpiVmY4SzB2c0tZTi1qNXBINFNTckxtWkFITWJpb3JUREVXWWJ0ZmdDN29VOC1tMFd2SzdrcXBXaFhfVTNnbVJUS1Ridk5Ob0hZLVFSMWc?oc=5",
+      "locator": null,
+      "published_at": "2026-09-09"
+    },
+    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -246,250 +370,6 @@
     "derivation": null
   },
   {
-    "id": "clm_066b993098",
-    "company_id": "devin",
-    "metric": "round_amount",
-    "value": 2000000000.0,
-    "unit": "USD",
-    "raw_text": "raises $2bn",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Silicon Republic",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPblc0cVRoVENPTGVzem5Hek1PZE5NeTRjaUpSaEhhQV9JYVZsbTRFeFNtcnM4VWFDTlhwUmE2elBVWE9nSjltTGRyNFNxendwRTFmQ1k2TGNTcmhRVFo1bjNBaVBuZkFJWndZYmxuU1hpX1hTeWpfcHhibExwTGpDbk80ZHhjZlFJektHZzdTQmwxeXg1ZFE?oc=5",
-      "locator": null,
-      "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_43b37636cf",
-    "company_id": "devin",
-    "metric": "valuation",
-    "value": 48000000000.0,
-    "unit": "USD",
-    "raw_text": "$48bn valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Silicon Republic",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPblc0cVRoVENPTGVzem5Hek1PZE5NeTRjaUpSaEhhQV9JYVZsbTRFeFNtcnM4VWFDTlhwUmE2elBVWE9nSjltTGRyNFNxendwRTFmQ1k2TGNTcmhRVFo1bjNBaVBuZkFJWndZYmxuU1hpX1hTeWpfcHhibExwTGpDbk80ZHhjZlFJektHZzdTQmwxeXg1ZFE?oc=5",
-      "locator": null,
-      "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_5f2446e257",
-    "company_id": "devin",
-    "metric": "valuation",
-    "value": 48000000000.0,
-    "unit": null,
-    "raw_text": "Cognition Reaches $48B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "quasa.io",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdnJnYy1ETXdfVHJPbnhpNmx1T0F0NHNGd1hod29aQkxscmxJQVJYYzRmZ1c3NFk5QXdlN0tMaVBmRmtvMk4yZVNMQlN6d0pnVmZkbGFXSlE3YVFKUmxZLUVZTTBSQkUteXRXdFRWMEpTa21mbkJuNi1KbE1LSDJzREw2RWc?oc=5",
-      "locator": null,
-      "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-10T09:49:02.856855",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_27313308e7",
-    "company_id": "devin",
-    "metric": "arr",
-    "value": 900000000.0,
-    "unit": null,
-    "raw_text": "Revenue Nears $900M",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "quasa.io",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdnJnYy1ETXdfVHJPbnhpNmx1T0F0NHNGd1hod29aQkxscmxJQVJYYzRmZ1c3NFk5QXdlN0tMaVBmRmtvMk4yZVNMQlN6d0pnVmZkbGFXSlE3YVFKUmxZLUVZTTBSQkUteXRXdFRWMEpTa21mbkJuNi1KbE1LSDJzREw2RWc?oc=5",
-      "locator": null,
-      "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-10T09:49:02.856855",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2625,
-    "derivation": null
-  },
-  {
-    "id": "clm_f7b180e95c",
-    "company_id": "devin",
-    "metric": "latest_round",
-    "value": 2000000000.0,
-    "unit": null,
-    "raw_text": "raises $2 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "The American Bazaar",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQLWJwVkZwRHNYWUxtVEtoak5DVjN1NEQ4dnU4YWRTemtMUFpmNkxDLWUtOWhqMVdXM0ZsNzhidTdmZzBtdU5zNzlNTjJJNU1uVlNJcUFvbFE5c0dhNEdzb3Uzb0sybGhJd0d0RHQ0RlJEdFk1OThzZVJRXzYybXk0aU9JSkwzRDVlQVhfZWNIUEN4UG9Ld3VYZlNSRVBZSWp5LUxQRU93X2ZoSVhfbV9vdzFWTzBQOWRncFE?oc=5",
-      "locator": null,
-      "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-10T09:49:02.856855",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_2fd5922763",
-    "company_id": "devin",
-    "metric": "valuation",
-    "value": 48000000000.0,
-    "unit": null,
-    "raw_text": "hits $48 billion valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "The American Bazaar",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQLWJwVkZwRHNYWUxtVEtoak5DVjN1NEQ4dnU4YWRTemtMUFpmNkxDLWUtOWhqMVdXM0ZsNzhidTdmZzBtdU5zNzlNTjJJNU1uVlNJcUFvbFE5c0dhNEdzb3Uzb0sybGhJd0d0RHQ0RlJEdFk1OThzZVJRXzYybXk0aU9JSkwzRDVlQVhfZWNIUEN4UG9Ld3VYZlNSRVBZSWp5LUxQRU93X2ZoSVhfbV9vdzFWTzBQOWRncFE?oc=5",
-      "locator": null,
-      "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-10T09:49:02.856855",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_4753ebced3",
-    "company_id": "devin",
-    "metric": "latest_round",
-    "value": 2000000000.0,
-    "unit": null,
-    "raw_text": "raises $2bn",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Silicon Republic",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTzJOd0pKR0Y3bDhJdjJaRWhzeHcydjN1ajVvQVpVei1zMDcxUy1KV21mZzE4UTU3Mk1oTG9BQzBfVmdPSDRHY3BVQXJzT2J6UzRGRkJveEhCR3Y2M1cycnZpWWJ6R0hNQ3JlM2dqN0tWYUl4WHBsRG81SzRMNkJfZDd0N1JNbkd6VVkzS3ZzR2QwN0JfTjVz?oc=5",
-      "locator": null,
-      "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-10T09:49:02.856855",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_43b37636cf",
-    "company_id": "devin",
-    "metric": "valuation",
-    "value": 48000000000.0,
-    "unit": null,
-    "raw_text": "$48bn valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Silicon Republic",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTzJOd0pKR0Y3bDhJdjJaRWhzeHcydjN1ajVvQVpVei1zMDcxUy1KV21mZzE4UTU3Mk1oTG9BQzBfVmdPSDRHY3BVQXJzT2J6UzRGRkJveEhCR3Y2M1cycnZpWWJ6R0hNQ3JlM2dqN0tWYUl4WHBsRG81SzRMNkJfZDd0N1JNbkd6VVkzS3ZzR2QwN0JfTjVz?oc=5",
-      "locator": null,
-      "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-10T09:49:02.856855",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_e3ed71f0fd",
-    "company_id": "devin",
-    "metric": "latest_round",
-    "value": 2000000000.0,
-    "unit": null,
-    "raw_text": "raises over $2B",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYVJTUTZESDllYTUyc1VNQjRGRGFwQlRKcVJoWVdYbW9TNWxpVlExOExiLUpWMHhIcTBkekkwbUlmdWJUMkc3RjJjVUNuUkdHWXloZTZMc3FvcGs5RFBlZ2N2aUNzeWlzcHpKekk4Rno4dDJrTWVpUHpiVmY4SzB2c0tZTi1qNXBINFNTckxtWkFITWJpb3JUREVXWWJ0ZmdDN29VOC1tMFd2SzdrcXBXaFhfVTNnbVJUS1Ridk5Ob0hZLVFSMWc?oc=5",
-      "locator": null,
-      "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-10T09:49:02.856855",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3375,
-    "derivation": null
-  },
-  {
-    "id": "clm_5a2e83ea2e",
-    "company_id": "devin",
-    "metric": "valuation",
-    "value": 48000000000.0,
-    "unit": null,
-    "raw_text": "at $48B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYVJTUTZESDllYTUyc1VNQjRGRGFwQlRKcVJoWVdYbW9TNWxpVlExOExiLUpWMHhIcTBkekkwbUlmdWJUMkc3RjJjVUNuUkdHWXloZTZMc3FvcGs5RFBlZ2N2aUNzeWlzcHpKekk4Rno4dDJrTWVpUHpiVmY4SzB2c0tZTi1qNXBINFNTckxtWkFITWJpb3JUREVXWWJ0ZmdDN29VOC1tMFd2SzdrcXBXaFhfVTNnbVJUS1Ridk5Ob0hZLVFSMWc?oc=5",
-      "locator": null,
-      "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-10T09:49:02.856855",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_5ab815de56",
     "company_id": "devin",
     "metric": "valuation",
@@ -513,6 +393,178 @@
     "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_eba9fb9a21",
+    "company_id": "devin",
+    "metric": "total_funding",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "Cognition raises $2B Series E at $48B valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "app.dealroom.co",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSW1SZEZUS255V1hpWjZJNElsN3N6VnR2NnN1bTRvS204Qy1Ja2piSFRyOHRNY1BJcFBZWE1mY2p2emZoa3RkSURXdlpBcE44UVgwa25mT25CbENBSWpDMVdZNEFoLTNOcEhWeUFaMG5ZeW1Za0xxOVdKeC1JY09COGY4a3g4alhIeXd0cVo1Z2U5VDg5QjJvbHZ3?oc=5",
+      "locator": null,
+      "published_at": "2026-09-08"
+    },
+    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_f442537888",
+    "company_id": "devin",
+    "metric": "latest_round",
+    "value": 5.0,
+    "unit": "round",
+    "raw_text": "Series E",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "app.dealroom.co",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSW1SZEZUS255V1hpWjZJNElsN3N6VnR2NnN1bTRvS204Qy1Ja2piSFRyOHRNY1BJcFBZWE1mY2p2emZoa3RkSURXdlpBcE44UVgwa25mT25CbENBSWpDMVdZNEFoLTNOcEhWeUFaMG5ZeW1Za0xxOVdKeC1JY09COGY4a3g4alhIeXd0cVo1Z2U5VDg5QjJvbHZ3?oc=5",
+      "locator": null,
+      "published_at": "2026-09-08"
+    },
+    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_573cd4ad09",
+    "company_id": "devin",
+    "metric": "valuation",
+    "value": 48000000000.0,
+    "unit": "USD",
+    "raw_text": "$48B valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "app.dealroom.co",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSW1SZEZUS255V1hpWjZJNElsN3N6VnR2NnN1bTRvS204Qy1Ja2piSFRyOHRNY1BJcFBZWE1mY2p2emZoa3RkSURXdlpBcE44UVgwa25mT25CbENBSWpDMVdZNEFoLTNOcEhWeUFaMG5ZeW1Za0xxOVdKeC1JY09COGY4a3g4alhIeXd0cVo1Z2U5VDg5QjJvbHZ3?oc=5",
+      "locator": null,
+      "published_at": "2026-09-08"
+    },
+    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_703cda8563",
+    "company_id": "devin",
+    "metric": "round_amount",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "Cognition raises $2B Series E",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSW1SZEZUS255V1hpWjZJNElsN3N6VnR2NnN1bTRvS204Qy1Ja2piSFRyOHRNY1BJcFBZWE1mY2p2emZoa3RkSURXdlpBcE44UVgwa25mT25CbENBSWpDMVdZNEFoLTNOcEhWeUFaMG5ZeW1Za0xxOVdKeC1JY09COGY4a3g4alhIeXd0cVo1Z2U5VDg5QjJvbHZ3?oc=5",
+      "locator": null,
+      "published_at": "2026-09-09"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_79f7f37333",
+    "company_id": "devin",
+    "metric": "latest_round",
+    "value": 5.0,
+    "unit": null,
+    "raw_text": "Series E",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSW1SZEZUS255V1hpWjZJNElsN3N6VnR2NnN1bTRvS204Qy1Ja2piSFRyOHRNY1BJcFBZWE1mY2p2emZoa3RkSURXdlpBcE44UVgwa25mT25CbENBSWpDMVdZNEFoLTNOcEhWeUFaMG5ZeW1Za0xxOVdKeC1JY09COGY4a3g4alhIeXd0cVo1Z2U5VDg5QjJvbHZ3?oc=5",
+      "locator": null,
+      "published_at": "2026-09-09"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_3fc3c4a358",
+    "company_id": "devin",
+    "metric": "valuation",
+    "value": 48000000000.0,
+    "unit": "USD",
+    "raw_text": "$48B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSW1SZEZUS255V1hpWjZJNElsN3N6VnR2NnN1bTRvS204Qy1Ja2piSFRyOHRNY1BJcFBZWE1mY2p2emZoa3RkSURXdlpBcE44UVgwa25mT25CbENBSWpDMVdZNEFoLTNOcEhWeUFaMG5ZeW1Za0xxOVdKeC1JY09COGY4a3g4alhIeXd0cVo1Z2U5VDg5QjJvbHZ3?oc=5",
+      "locator": null,
+      "published_at": "2026-09-09"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_066b993098",
+    "company_id": "devin",
+    "metric": "round_amount",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "raises $2bn",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Silicon Republic",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPblc0cVRoVENPTGVzem5Hek1PZE5NeTRjaUpSaEhhQV9JYVZsbTRFeFNtcnM4VWFDTlhwUmE2elBVWE9nSjltTGRyNFNxendwRTFmQ1k2TGNTcmhRVFo1bjNBaVBuZkFJWndZYmxuU1hpX1hTeWpfcHhibExwTGpDbk80ZHhjZlFJektHZzdTQmwxeXg1ZFE?oc=5",
+      "locator": null,
+      "published_at": "2026-09-09"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -900,7 +952,7 @@
       "locator": null,
       "published_at": "2026-09-02"
     },
-    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extracted_at": "2026-09-11T09:45:35.269135",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2608,
     "derivation": {

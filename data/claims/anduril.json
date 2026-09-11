@@ -1,13 +1,14 @@
 [
   {
-    "id": "clm_4743be0302",
+    "id": "clm_6966bb7b74",
     "company_id": "anduril",
     "metric": "valuation",
     "value": 100000000000.0,
     "unit": "USD",
-    "raw_text": "Anduril reportedly in talks to raise funding at $100B valuation",
+    "raw_text": "$100B valuation",
     "qualifiers": [
-      "unconfirmed"
+      "unconfirmed",
+      "rounded"
     ],
     "speaker": {
       "name": null,
@@ -15,14 +16,14 @@
     },
     "source": {
       "type": "news",
-      "name": "techcrunch.com",
+      "name": "TechCrunch",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdmZ5R1dwZEVtU0dtblNNZDRRM1JfMElXZEVFcXJxSWkycjBjM2dCSUV2eDhaT2gyOWtSMU1WQmNHbE5JSTRmSU9mcG5odWdMUm1rTDFFbjF5RnJQZW5QZEtITXdvVlBzdnBRRXNQQVNtT0ZtcFgtSDlhSmpUTTdhcU1zQWlsa1lzdkEwUld3ZUJxMWpZczg0eXZJTXdUN2tvN2lWR0RrNDhsTWpVeldaOENqQU1QRzcxRzZqdnphd3dtWTB2?oc=5",
       "locator": null,
       "published_at": "2026-07-24"
     },
-    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
+    "base_confidence": 0.2835,
     "derivation": null
   },
   {
@@ -51,6 +52,86 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.241,
+    "derivation": null
+  },
+  {
+    "id": "clm_f5aedcded5",
+    "company_id": "anduril",
+    "metric": "valuation",
+    "value": 100000000000.0,
+    "unit": "USD",
+    "raw_text": "$100 billion valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "approximate",
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYmI1N2pucmlJZGwwb3dseWlXZ3N6NEIzVnlfd250QktZbW5zRG41cTFnVXZyUlZXeWI5ZVVWa0FkY1lTNnhCMERtTW1ZY1ZFNWFxUU5RcHJaaGJwSFQ3VWxNZ3gyRHRMTTJaanpCZjg4UnlUQUtKNEUtZFB4ZkdsWVR5X3ZRUHV2QjJXN3o0QVRNQ0REelM4Uy1zWUU?oc=5",
+      "locator": null,
+      "published_at": "2026-07-24"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.241,
+    "derivation": null
+  },
+  {
+    "id": "clm_a0dd1f2536",
+    "company_id": "anduril",
+    "metric": "valuation",
+    "value": 100000000000.0,
+    "unit": "USD",
+    "raw_text": "Anduril is in talks to raise money at a $100 billion valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNU3d6Tkt0Q0FEbEZ6UjMwYWcyMWRscVJoQXdWdjFUa3B5YzBIUUJvYldYWUtFcndVS1NlcjFfVnhCS3RycG04dlpGU0R5OUFyeFRybmxiaWZpV3VwUEl0cXJ3bHczRG5GUlhVV29LVlNlYVpUUjJPUV9NTERwVHBnbG93Nm05eEY0ZUM4dFd4ZzBGSVlqUHhNcEdoaWNUenVsWXB4MFRMcHRicmJCUTdPS3J5NW1ZVF8wcDExdzFuaFo0QnhzR3c0V1lyMjBtT294a2lVX082d1ppX2RaekpzRC1SV2FnbG1Gb043WmdB?oc=5",
+      "locator": null,
+      "published_at": "2026-07-24"
+    },
+    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_4743be0302",
+    "company_id": "anduril",
+    "metric": "valuation",
+    "value": 100000000000.0,
+    "unit": "USD",
+    "raw_text": "Anduril reportedly in talks to raise funding at $100B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdmZ5R1dwZEVtU0dtblNNZDRRM1JfMElXZEVFcXJxSWkycjBjM2dCSUV2eDhaT2gyOWtSMU1WQmNHbE5JSTRmSU9mcG5odWdMUm1rTDFFbjF5RnJQZW5QZEtITXdvVlBzdnBRRXNQQVNtT0ZtcFgtSDlhSmpUTTdhcU1zQWlsa1lzdkEwUld3ZUJxMWpZczg0eXZJTXdUN2tvN2lWR0RrNDhsTWpVeldaOENqQU1QRzcxRzZqdnphd3dtWTB2?oc=5",
+      "locator": null,
+      "published_at": "2026-07-24"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -202,61 +283,6 @@
     "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_6966bb7b74",
-    "company_id": "anduril",
-    "metric": "valuation",
-    "value": 100000000000.0,
-    "unit": "USD",
-    "raw_text": "$100B valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdmZ5R1dwZEVtU0dtblNNZDRRM1JfMElXZEVFcXJxSWkycjBjM2dCSUV2eDhaT2gyOWtSMU1WQmNHbE5JSTRmSU9mcG5odWdMUm1rTDFFbjF5RnJQZW5QZEtITXdvVlBzdnBRRXNQQVNtT0ZtcFgtSDlhSmpUTTdhcU1zQWlsa1lzdkEwUld3ZUJxMWpZczg0eXZJTXdUN2tvN2lWR0RrNDhsTWpVeldaOENqQU1QRzcxRzZqdnphd3dtWTB2?oc=5",
-      "locator": null,
-      "published_at": "2026-07-24"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2835,
-    "derivation": null
-  },
-  {
-    "id": "clm_f5aedcded5",
-    "company_id": "anduril",
-    "metric": "valuation",
-    "value": 100000000000.0,
-    "unit": "USD",
-    "raw_text": "$100 billion valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "approximate",
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYmI1N2pucmlJZGwwb3dseWlXZ3N6NEIzVnlfd250QktZbW5zRG41cTFnVXZyUlZXeWI5ZVVWa0FkY1lTNnhCMERtTW1ZY1ZFNWFxUU5RcHJaaGJwSFQ3VWxNZ3gyRHRMTTJaanpCZjg4UnlUQUtKNEUtZFB4ZkdsWVR5X3ZRUHV2QjJXN3o0QVRNQ0REelM4Uy1zWUU?oc=5",
-      "locator": null,
-      "published_at": "2026-07-24"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.241,
     "derivation": null
   },
   {

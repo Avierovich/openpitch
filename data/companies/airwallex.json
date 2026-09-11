@@ -10,14 +10,14 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 83.8,
-  "universe_rank": 47,
+  "universe_rank": 48,
   "metrics": {
     "total_funding": {
       "metric": "total_funding",
       "value": 320000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2026-09-10",
+      "as_of": "2026-09-11",
       "estimate_type": "reported",
       "confidence": 0.25,
       "supporting_claims": [
@@ -46,15 +46,15 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
-        "clm_fb528fb95d",
         "clm_88f13c6330",
+        "clm_5fab434528",
         "clm_79f60bb415",
         "clm_5956327adc",
+        "clm_fb528fb95d",
         "clm_144d3a921f",
         "clm_3aa6902581",
         "clm_df753616b2",
         "clm_0fa9ce1652",
-        "clm_5fab434528",
         "clm_7c0be7c766",
         "clm_7ca510f156",
         "clm_05ab6258c1",
@@ -68,34 +68,11 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 321863980.1,
-        "change_pct": -0.0,
+        "previous": 321751768.61,
+        "change_pct": 0.0,
         "since": "2026-06-27"
       },
       "history_ref": "history/airwallex/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "latest_round": {
-      "metric": "latest_round",
-      "value": 7.0,
-      "unit": "object",
-      "range": null,
-      "as_of": "2025-12-10",
-      "estimate_type": "consensus",
-      "confidence": 0.433,
-      "supporting_claims": [
-        "clm_ea44586ed0",
-        "clm_2db8452630"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 7.0,
-        "change_pct": 0.0,
-        "since": "2025-12-10"
-      },
-      "history_ref": "history/airwallex/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -112,15 +89,15 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
-        "clm_e315d72973",
         "clm_82c0cafbae",
+        "clm_22a738d791",
         "clm_ebea985687",
         "clm_6a9ad45bea",
+        "clm_e315d72973",
         "clm_96948be375",
         "clm_4f3428430e",
         "clm_851449f9b9",
         "clm_9aff5a1885",
-        "clm_22a738d791",
         "clm_6a91a9b7d0",
         "clm_3cba5a8a41",
         "clm_7224a6897f",
@@ -137,7 +114,30 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 7.0,
+      "unit": "object",
+      "range": null,
+      "as_of": "2025-12-10",
+      "estimate_type": "consensus",
+      "confidence": 0.432,
+      "supporting_claims": [
+        "clm_ea44586ed0",
+        "clm_2db8452630"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 7.0,
+        "change_pct": 0.0,
+        "since": "2025-12-10"
+      },
+      "history_ref": "history/airwallex/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-10"
+  "last_updated": "2026-09-11"
 }

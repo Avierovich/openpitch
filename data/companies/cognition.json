@@ -9,8 +9,8 @@
   "summary": "Cognition (Devin) is an autonomous AI software engineer capable of performing complex development tasks from planning to execution.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 88.9,
-  "universe_rank": 15,
+  "vc_attention_score": 89.0,
+  "universe_rank": 14,
   "metrics": {
     "round_amount": {
       "metric": "round_amount",
@@ -42,13 +42,13 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 45280070341.69,
+      "value": 45991399547.05,
       "unit": "USD",
       "range": {
         "low": 25000000000.0,
         "high": 48000000000.0
       },
-      "as_of": "2026-09-09",
+      "as_of": "2026-09-10",
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
@@ -58,13 +58,16 @@
         "clm_460f16a780",
         "clm_74705f76b0",
         "clm_625cca201a",
+        "clm_ec41a2313c",
+        "clm_5f89f047fc",
+        "clm_6deb29faac",
         "clm_3cd6da783e",
         "clm_33f9103995"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 43939007774.98,
-        "change_pct": 3.1,
+        "previous": 45280070341.69,
+        "change_pct": 1.6,
         "since": "2026-09-09"
       },
       "history_ref": "history/cognition/valuation.jsonl",
@@ -79,7 +82,7 @@
       "range": null,
       "as_of": "2026-05-20",
       "estimate_type": "reported",
-      "confidence": 0.184,
+      "confidence": 0.183,
       "supporting_claims": [
         "clm_a53961cd0f"
       ],
@@ -104,13 +107,19 @@
       },
       "as_of": "2026-09-09",
       "estimate_type": "consensus",
-      "confidence": 0.774,
+      "confidence": 0.911,
       "supporting_claims": [
+        "clm_ce851bbb26",
+        "clm_d23c560766",
         "clm_e74210fb2b",
         "clm_7380c3c672"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 2000000000.0,
+        "change_pct": -0.0,
+        "since": "2026-09-09"
+      },
       "history_ref": "history/cognition/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -139,5 +148,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-10"
+  "last_updated": "2026-09-11"
 }

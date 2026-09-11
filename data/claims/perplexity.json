@@ -105,6 +105,59 @@
     "derivation": null
   },
   {
+    "id": "clm_317a1be3f3",
+    "company_id": "perplexity",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": null,
+    "raw_text": "Over $30 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "webull.com",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBta0hiRmVkWWhlYWVkNDJDVVRVRi1tRFc0Rmp6UllQbWl4dmtXN0QzRDhobWhoUE4ySG8xazFfZ1lXTUhKU2ZFX3kzajk4ZkFrVVN0b3RxR00?oc=5",
+      "locator": null,
+      "published_at": "2026-08-23"
+    },
+    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2677,
+    "derivation": null
+  },
+  {
+    "id": "clm_3a6666656d",
+    "company_id": "perplexity",
+    "metric": "arr",
+    "value": 750000000.0,
+    "unit": null,
+    "raw_text": "Revenue Explodes to $750 Million",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "webull.com",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBta0hiRmVkWWhlYWVkNDJDVVRVRi1tRFc0Rmp6UllQbWl4dmtXN0QzRDhobWhoUE4ySG8xazFfZ1lXTUhKU2ZFX3kzajk4ZkFrVVN0b3RxR00?oc=5",
+      "locator": null,
+      "published_at": "2026-08-23"
+    },
+    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
     "id": "clm_8f44124db8",
     "company_id": "perplexity",
     "metric": "round_amount",
@@ -976,7 +1029,7 @@
       "locator": null,
       "published_at": "2026-08-25"
     },
-    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extracted_at": "2026-09-11T09:45:35.269135",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

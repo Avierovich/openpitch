@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 87.8,
-  "universe_rank": 18,
+  "universe_rank": 19,
   "metrics": {
     "latest_round": {
       "metric": "latest_round",
@@ -55,8 +55,8 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
-        "clm_84ed6e38cf",
         "clm_4dc677a0a0",
+        "clm_84ed6e38cf",
         "clm_df9dd3a2a7",
         "clm_7be716e5b8",
         "clm_9e78645bae",
@@ -67,24 +67,47 @@
         "clm_12c7436640",
         "clm_4841726055",
         "clm_4ffc037f6b",
-        "clm_f61325f567",
+        "clm_61f9de6680",
         "clm_11f18bfd54",
         "clm_4bfba58275",
         "clm_8e436b4a23",
+        "clm_c3faf6bdb5",
+        "clm_f61325f567",
         "clm_ac6fd5f4fc",
         "clm_dcb1f2b0b6",
-        "clm_c3faf6bdb5",
-        "clm_61f9de6680",
         "clm_8a4c2dc727",
         "clm_09ef38246a"
       ],
       "contradiction": true,
       "delta": {
-        "previous": 33355328895.14,
-        "change_pct": -0.3,
+        "previous": 33244665507.66,
+        "change_pct": -0.0,
         "since": "2026-09-04"
       },
       "history_ref": "history/moonshot/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "arr": {
+      "metric": "arr",
+      "value": 200000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-05-07",
+      "estimate_type": "consensus",
+      "confidence": 0.329,
+      "supporting_claims": [
+        "clm_348cf6bfec",
+        "clm_4cdb16be52"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 200000000.0,
+        "change_pct": 0.0,
+        "since": "2026-05-07"
+      },
+      "history_ref": "history/moonshot/arr.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -101,10 +124,10 @@
       "estimate_type": "consensus",
       "confidence": 0.967,
       "supporting_claims": [
-        "clm_da056e95ee",
-        "clm_b74a9756f0",
-        "clm_182894d9c5",
         "clm_52f6bab356",
+        "clm_b74a9756f0",
+        "clm_da056e95ee",
+        "clm_182894d9c5",
         "clm_e33f8bc73a"
       ],
       "contradiction": false,
@@ -114,29 +137,6 @@
         "since": "2026-07-29"
       },
       "history_ref": "history/moonshot/total_funding.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "arr": {
-      "metric": "arr",
-      "value": 200000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-05-07",
-      "estimate_type": "consensus",
-      "confidence": 0.331,
-      "supporting_claims": [
-        "clm_4cdb16be52",
-        "clm_348cf6bfec"
-      ],
-      "contradiction": true,
-      "delta": {
-        "previous": 300000000.0,
-        "change_pct": -33.3,
-        "since": "2026-06-29"
-      },
-      "history_ref": "history/moonshot/arr.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -151,7 +151,7 @@
       },
       "as_of": "2026-07-30",
       "estimate_type": "consensus",
-      "confidence": 0.848,
+      "confidence": 0.847,
       "supporting_claims": [
         "clm_0cc06da7e3",
         "clm_e6dd35f5b7",
@@ -170,20 +170,20 @@
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 175.0,
+      "value": 100.0,
       "unit": "x",
       "range": null,
-      "as_of": "2026-07-29",
+      "as_of": "2026-05-07",
       "estimate_type": "reported",
-      "confidence": 0.176,
+      "confidence": 0.087,
       "supporting_claims": [
-        "drv_e15bcff0e2"
+        "drv_667f60eb9a"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 100.0,
-        "change_pct": 75.0,
-        "since": "2026-05-07"
+        "previous": 175.0,
+        "change_pct": -42.9,
+        "since": "2026-07-29"
       },
       "history_ref": "history/moonshot/revenue_multiple.jsonl",
       "unconfirmed": false,
@@ -191,5 +191,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-11"
+  "last_updated": "2026-09-12"
 }

@@ -27,6 +27,30 @@
     "derivation": null
   },
   {
+    "id": "clm_7e06d636ec",
+    "company_id": "celonis",
+    "metric": "round_amount",
+    "value": 400000000.0,
+    "unit": "USD",
+    "raw_text": "US$400 Million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Latham & Watkins LLP",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWWthNEZYV3ZybGhHS0xwc2h1TUlENWJsR2dTYTJUeE0wd0xVaHpobHN1TExCZmo1Z2dGZWpSNmNtdnpscS1aMHMwRnc1VnpSUmx1X3A5X1FtdC0xMVloaTNORzhuNlF6VlUtdHg0Z1JOZWx5eHJGRGhFMnV5S0hmZ2d5WklmMWVjelJQYkRMb2VGOFNsZFJ3MXFsc2FGdVZWbXFhZQ?oc=5",
+      "locator": null,
+      "published_at": "2022-09-06"
+    },
+    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_2b1330ceae",
     "company_id": "celonis",
     "metric": "valuation",
@@ -94,30 +118,6 @@
       "published_at": "2022-10-16"
     },
     "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_7e06d636ec",
-    "company_id": "celonis",
-    "metric": "round_amount",
-    "value": 400000000.0,
-    "unit": "USD",
-    "raw_text": "US$400 Million",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Latham & Watkins LLP",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWWthNEZYV3ZybGhHS0xwc2h1TUlENWJsR2dTYTJUeE0wd0xVaHpobHN1TExCZmo1Z2dGZWpSNmNtdnpscS1aMHMwRnc1VnpSUmx1X3A5X1FtdC0xMVloaTNORzhuNlF6VlUtdHg0Z1JOZWx5eHJGRGhFMnV5S0hmZ2d5WklmMWVjelJQYkRMb2VGOFNsZFJ3MXFsc2FGdVZWbXFhZQ?oc=5",
-      "locator": null,
-      "published_at": "2022-09-06"
-    },
-    "extracted_at": "2026-09-10T09:49:02.856855",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -744,7 +744,7 @@
       "locator": null,
       "published_at": "2026-07-03"
     },
-    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extracted_at": "2026-09-12T09:20:27.932122",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2054,
     "derivation": {

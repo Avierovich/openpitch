@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-09-11
+# OpenPitch Data Quality Report - 2026-09-12
 
 ## Summary
 
-- Profiles generated: 370
-- Watchlist candidates: 950
+- Profiles generated: 381
+- Watchlist candidates: 956
 - Top-50 cards: 50
-- Profiles with at least one metric: 361
-- Critical issues: 69
-- Warnings: 27
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 577
+- Profiles with at least one metric: 372
+- Critical issues: 71
+- Warnings: 26
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 572
 
 ## Top-50 Companies With No Metrics
 
@@ -20,7 +20,6 @@ None.
 
 ## Top-50 Missing ARR / Revenue
 
-- Cursor
 - Cognition AI
 - Devoted Health
 - Chime
@@ -72,6 +71,7 @@ None.
 - Callosum
 - Capella Space
 - Captions
+- Carbon Health
 - CareBridge
 - Cartesia
 - Character.AI
@@ -89,6 +89,7 @@ None.
 - DeepInfra
 - Demandbase
 - Descript
+- Enfabrica
 - HUMAIN
 - Huspy
 - Ideogram
@@ -106,15 +107,15 @@ None.
 
 ## Single-Source Core Metrics
 
-- Deepseek AI: round_amount
+- Enflame Technology: valuation
 - Figure AI: headcount
 - Scale AI: headcount
+- Mercor: headcount
 - Chime: round_amount
 - Fireworks AI: arr
 - Fireworks AI: total_funding
 - Fireworks AI: headcount
 - Sierra: arr
-- Applied Intuition: headcount
 - Lovable: headcount
 - Celonis: arr
 - Celonis: headcount

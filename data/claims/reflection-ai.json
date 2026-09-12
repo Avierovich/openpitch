@@ -54,13 +54,14 @@
     "derivation": null
   },
   {
-    "id": "clm_60a917bbbe",
+    "id": "clm_f0aba26aef",
     "company_id": "reflection-ai",
     "metric": "valuation",
     "value": 25000000000.0,
     "unit": "USD",
-    "raw_text": "$25bn Valuation",
+    "raw_text": "$25B valuation",
     "qualifiers": [
+      "forward_looking",
       "unconfirmed"
     ],
     "speaker": {
@@ -69,40 +70,14 @@
     },
     "source": {
       "type": "news",
-      "name": "tekedia.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTzE3Q3hDT1NzUllFcmVNUUh2aWw1N0xvUUFDWGs5QVRDb3ZTTDRvNEJnQlljSzU5YzFEUjRrcWFGNDAydzZ1dUEwUlJoUHBNd2h3OXJaNE1xN09LX2puemg1NkdYY0ptb1g0VWN5cU1FUXNCZWFMNmhEaERtdTB5Sks4ZVAxYnlHSDd5T0puQjZrWXVRc3FiZVRKQ2dHeWsyd1F2T2d6OG1FUQ?oc=5",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPXzc1ZUVZVWdFeWJ0TU1NckEyOG5wb3NoazAtZndvUVFfYXQyNTMwTzhfTnQ4S1N4ajJXck9SLUxsajZ5Z2FQcGd5bEo4bkZYbk9BT1hlb3B0bFdNckJjV2RoN05qUFBRM3JmN3l2YlZLNkljeUxMQXFMeURMOXlDN1Z4Yy1oaE0wV1d2cHBtM21WQ1N3NllGUENUdVQ0MWdTcktYRzhqQldSZw?oc=5",
       "locator": null,
       "published_at": "2026-03-27"
     },
-    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_5fb6673f1f",
-    "company_id": "reflection-ai",
-    "metric": "round_amount",
-    "value": 2500000000.0,
-    "unit": "USD",
-    "raw_text": "$2.5bn Raise",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "tekedia.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTzE3Q3hDT1NzUllFcmVNUUh2aWw1N0xvUUFDWGs5QVRDb3ZTTDRvNEJnQlljSzU5YzFEUjRrcWFGNDAydzZ1dUEwUlJoUHBNd2h3OXJaNE1xN09LX2puemg1NkdYY0ptb1g0VWN5cU1FUXNCZWFMNmhEaERtdTB5Sks4ZVAxYnlHSDd5T0puQjZrWXVRc3FiZVRKQ2dHeWsyd1F2T2d6OG1FUQ?oc=5",
-      "locator": null,
-      "published_at": "2026-03-27"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -238,6 +213,112 @@
     "derivation": null
   },
   {
+    "id": "clm_1d9ff3dca5",
+    "company_id": "reflection-ai",
+    "metric": "valuation",
+    "value": 25000000000.0,
+    "unit": "USD",
+    "raw_text": "Reflection eyes $2.5B raise at $25B valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techfundingnews.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdmpDVnRhRDM1UlA5dVNaeVF6SjZCYWctNzJVLXBXR2djcmoyYUZWbm95S2V0al94VXVEMDl5U21zVThSc3ZMSmExRlg3Yk5OMldPcVBhenlZOExrSzF1ZkQtNnR2Rm1MVHVSZmRTNTVRRnBEN3VjdnBkSjdycFQxNVRmcFF4dw?oc=5",
+      "locator": null,
+      "published_at": "2026-03-27"
+    },
+    "extracted_at": "2026-09-12T09:20:27.932122",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_ddc57b3d6e",
+    "company_id": "reflection-ai",
+    "metric": "round_amount",
+    "value": 2500000000.0,
+    "unit": "USD",
+    "raw_text": "Reflection eyes $2.5B raise",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techfundingnews.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdmpDVnRhRDM1UlA5dVNaeVF6SjZCYWctNzJVLXBXR2djcmoyYUZWbm95S2V0al94VXVEMDl5U21zVThSc3ZMSmExRlg3Yk5OMldPcVBhenlZOExrSzF1ZkQtNnR2Rm1MVHVSZmRTNTVRRnBEN3VjdnBkSjdycFQxNVRmcFF4dw?oc=5",
+      "locator": null,
+      "published_at": "2026-03-27"
+    },
+    "extracted_at": "2026-09-12T09:20:27.932122",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_60a917bbbe",
+    "company_id": "reflection-ai",
+    "metric": "valuation",
+    "value": 25000000000.0,
+    "unit": "USD",
+    "raw_text": "$25bn Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "tekedia.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTzE3Q3hDT1NzUllFcmVNUUh2aWw1N0xvUUFDWGs5QVRDb3ZTTDRvNEJnQlljSzU5YzFEUjRrcWFGNDAydzZ1dUEwUlJoUHBNd2h3OXJaNE1xN09LX2puemg1NkdYY0ptb1g0VWN5cU1FUXNCZWFMNmhEaERtdTB5Sks4ZVAxYnlHSDd5T0puQjZrWXVRc3FiZVRKQ2dHeWsyd1F2T2d6OG1FUQ?oc=5",
+      "locator": null,
+      "published_at": "2026-03-27"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_5fb6673f1f",
+    "company_id": "reflection-ai",
+    "metric": "round_amount",
+    "value": 2500000000.0,
+    "unit": "USD",
+    "raw_text": "$2.5bn Raise",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "tekedia.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTzE3Q3hDT1NzUllFcmVNUUh2aWw1N0xvUUFDWGs5QVRDb3ZTTDRvNEJnQlljSzU5YzFEUjRrcWFGNDAydzZ1dUEwUlJoUHBNd2h3OXJaNE1xN09LX2puemg1NkdYY0ptb1g0VWN5cU1FUXNCZWFMNmhEaERtdTB5Sks4ZVAxYnlHSDd5T0puQjZrWXVRc3FiZVRKQ2dHeWsyd1F2T2d6OG1FUQ?oc=5",
+      "locator": null,
+      "published_at": "2026-03-27"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_a1b2197e3b",
     "company_id": "reflection-ai",
     "metric": "valuation",
@@ -260,33 +341,6 @@
       "published_at": "2026-03-27"
     },
     "extracted_at": "2026-09-11T09:45:35.269135",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_f0aba26aef",
-    "company_id": "reflection-ai",
-    "metric": "valuation",
-    "value": 25000000000.0,
-    "unit": "USD",
-    "raw_text": "$25B valuation",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPXzc1ZUVZVWdFeWJ0TU1NckEyOG5wb3NoazAtZndvUVFfYXQyNTMwTzhfTnQ4S1N4ajJXck9SLUxsajZ5Z2FQcGd5bEo4bkZYbk9BT1hlb3B0bFdNckJjV2RoN05qUFBRM3JmN3l2YlZLNkljeUxMQXFMeURMOXlDN1Z4Yy1oaE0wV1d2cHBtM21WQ1N3NllGUENUdVQ0MWdTcktYRzhqQldSZw?oc=5",
-      "locator": null,
-      "published_at": "2026-03-27"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
     "derivation": null

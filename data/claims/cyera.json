@@ -1,58 +1,5 @@
 [
   {
-    "id": "clm_17cb71f8b1",
-    "company_id": "cyera",
-    "metric": "valuation",
-    "value": 12000000000.0,
-    "unit": null,
-    "raw_text": "Cyera eyes $12B valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOU1RETm45aWtxYVBtekdYMGFSMGRYSXdhQk1fUWNROVBxNnFvVVZlWWdjQzd0My1qV1FtTGQ1YkFvX0x3V0JIYXcwNGlDWWd4TURoQ1hhMHpEbEgtYjZYdVVFa24tOWl1VUxvaTBOaUFzMzM5TzM3bHliX2RaSjlzZ1c2YVBBZ21Rc2JNMEVZM0g2M19TbjZCM2taYjZ2bk52S2NPcnl1WQ?oc=5",
-      "locator": null,
-      "published_at": "2026-06-02"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_bbdf879ccd",
-    "company_id": "cyera",
-    "metric": "revenue_multiple",
-    "value": 80.0,
-    "unit": null,
-    "raw_text": "80x ARR multiple",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOU1RETm45aWtxYVBtekdYMGFSMGRYSXdhQk1fUWNROVBxNnFvVVZlWWdjQzd0My1qV1FtTGQ1YkFvX0x3V0JIYXcwNGlDWWd4TURoQ1hhMHpEbEgtYjZYdVVFa24tOWl1VUxvaTBOaUFzMzM5TzM3bHliX2RaSjlzZ1c2YVBBZ21Rc2JNMEVZM0g2M19TbjZCM2taYjZ2bk52S2NPcnl1WQ?oc=5",
-      "locator": null,
-      "published_at": "2026-06-02"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_197972eb0f",
     "company_id": "cyera",
     "metric": "valuation",
@@ -306,7 +253,7 @@
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "founder"
+      "role": "unknown"
     },
     "source": {
       "type": "podcast",
@@ -315,9 +262,9 @@
       "locator": null,
       "published_at": "2025-05-09"
     },
-    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extracted_at": "2026-09-12T09:20:27.932122",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.6,
+    "base_confidence": 0.3,
     "derivation": null
   },
   {
@@ -330,7 +277,7 @@
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "founder"
+      "role": "unknown"
     },
     "source": {
       "type": "podcast",
@@ -339,9 +286,62 @@
       "locator": null,
       "published_at": "2025-05-09"
     },
-    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extracted_at": "2026-09-12T09:20:27.932122",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.6,
+    "base_confidence": 0.3,
+    "derivation": null
+  },
+  {
+    "id": "clm_17cb71f8b1",
+    "company_id": "cyera",
+    "metric": "valuation",
+    "value": 12000000000.0,
+    "unit": null,
+    "raw_text": "Cyera eyes $12B valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOU1RETm45aWtxYVBtekdYMGFSMGRYSXdhQk1fUWNROVBxNnFvVVZlWWdjQzd0My1qV1FtTGQ1YkFvX0x3V0JIYXcwNGlDWWd4TURoQ1hhMHpEbEgtYjZYdVVFa24tOWl1VUxvaTBOaUFzMzM5TzM3bHliX2RaSjlzZ1c2YVBBZ21Rc2JNMEVZM0g2M19TbjZCM2taYjZ2bk52S2NPcnl1WQ?oc=5",
+      "locator": null,
+      "published_at": "2026-06-02"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_bbdf879ccd",
+    "company_id": "cyera",
+    "metric": "revenue_multiple",
+    "value": 80.0,
+    "unit": null,
+    "raw_text": "80x ARR multiple",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOU1RETm45aWtxYVBtekdYMGFSMGRYSXdhQk1fUWNROVBxNnFvVVZlWWdjQzd0My1qV1FtTGQ1YkFvX0x3V0JIYXcwNGlDWWd4TURoQ1hhMHpEbEgtYjZYdVVFa24tOWl1VUxvaTBOaUFzMzM5TzM3bHliX2RaSjlzZ1c2YVBBZ21Rc2JNMEVZM0g2M19TbjZCM2taYjZ2bk52S2NPcnl1WQ?oc=5",
+      "locator": null,
+      "published_at": "2026-06-02"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -1406,7 +1406,7 @@
       "locator": null,
       "published_at": "2026-06-10"
     },
-    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extracted_at": "2026-09-12T09:20:27.932122",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1087,
     "derivation": {

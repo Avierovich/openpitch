@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 85.6,
-  "universe_rank": 32,
+  "universe_rank": 33,
   "metrics": {
     "valuation": {
       "metric": "valuation",
@@ -29,6 +29,8 @@
         "clm_1016c0ec31",
         "clm_dcfeaf9d1a",
         "clm_71d4e52a19",
+        "clm_ab578673d7",
+        "clm_0b713509b4",
         "clm_75d551ee10",
         "clm_bcbd83d8c9",
         "clm_2a041022bc",
@@ -37,8 +39,6 @@
         "clm_e2870c6586",
         "clm_6d87f441e5",
         "clm_e2151af4e7",
-        "clm_ab578673d7",
-        "clm_0b713509b4",
         "clm_00cfd67c6e",
         "clm_5613ca85d2",
         "clm_a6c2e11638",
@@ -62,7 +62,7 @@
       "contradiction": false,
       "delta": {
         "previous": 18000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-07-13"
       },
       "history_ref": "history/helsing/valuation.jsonl",
@@ -98,7 +98,7 @@
       "contradiction": false,
       "delta": {
         "previous": 1800000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-07-13"
       },
       "history_ref": "history/helsing/total_funding.jsonl",
@@ -120,9 +120,9 @@
       "supporting_claims": [
         "clm_b4c5e8f18f",
         "clm_6f01bec325",
+        "clm_ee4c79c5d6",
         "clm_3ee9144020",
         "clm_b7ddff36e6",
-        "clm_ee4c79c5d6",
         "clm_9b398a8878",
         "clm_73260409b6",
         "clm_e3582a4da8",
@@ -151,7 +151,7 @@
       },
       "as_of": "2026-07-13",
       "estimate_type": "consensus",
-      "confidence": 0.824,
+      "confidence": 0.823,
       "supporting_claims": [
         "clm_c9eb8b7497",
         "clm_96aac3627d",
@@ -170,5 +170,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-11"
+  "last_updated": "2026-09-12"
 }

@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 85.9,
-  "universe_rank": 30,
+  "universe_rank": 31,
   "metrics": {
     "valuation": {
       "metric": "valuation",
@@ -22,11 +22,12 @@
       },
       "as_of": "2026-08-27",
       "estimate_type": "consensus",
-      "confidence": 0.876,
+      "confidence": 0.928,
       "supporting_claims": [
         "clm_7ff93371f6",
         "clm_c74eb17484",
         "clm_0fbf02cca5",
+        "clm_49376ad18c",
         "clm_29493e2a4a",
         "clm_2b1ca172e7",
         "clm_44cf949b56",
@@ -37,13 +38,13 @@
       "contradiction": true,
       "delta": {
         "previous": 20000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-08-27"
       },
       "history_ref": "history/mercor/valuation.jsonl",
       "unconfirmed": true,
-      "confirmed_value": 10000000000.0,
-      "confirmed_as_of": "2026-07-25"
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "latest_round": {
       "metric": "latest_round",
@@ -52,7 +53,7 @@
       "range": null,
       "as_of": "2026-07-25",
       "estimate_type": "consensus",
-      "confidence": 0.7,
+      "confidence": 0.699,
       "supporting_claims": [
         "clm_c3657789fe",
         "clm_3da23f4b07",
@@ -61,7 +62,7 @@
       "contradiction": false,
       "delta": {
         "previous": 3.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-07-25"
       },
       "history_ref": "history/mercor/latest_round.jsonl",
@@ -76,7 +77,7 @@
       "range": null,
       "as_of": "2026-07-25",
       "estimate_type": "consensus",
-      "confidence": 0.737,
+      "confidence": 0.735,
       "supporting_claims": [
         "clm_74ed32197e",
         "clm_e192f35cb7",
@@ -101,7 +102,7 @@
       "range": null,
       "as_of": "2026-07-25",
       "estimate_type": "reported",
-      "confidence": 0.402,
+      "confidence": 0.399,
       "supporting_claims": [
         "clm_e47d35c808"
       ],
@@ -116,6 +117,24 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "headcount": {
+      "metric": "headcount",
+      "value": 442000.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-09-12",
+      "estimate_type": "reported",
+      "confidence": 0.25,
+      "supporting_claims": [
+        "clm_a52f0b9b70"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/mercor/headcount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "revenue_multiple": {
       "metric": "revenue_multiple",
       "value": 5.0,
@@ -123,7 +142,7 @@
       "range": null,
       "as_of": "2026-07-25",
       "estimate_type": "reported",
-      "confidence": 0.222,
+      "confidence": 0.22,
       "supporting_claims": [
         "drv_cd507bff2e"
       ],
@@ -139,5 +158,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-11"
+  "last_updated": "2026-09-12"
 }

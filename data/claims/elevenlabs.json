@@ -96,6 +96,54 @@
     "derivation": null
   },
   {
+    "id": "clm_fd616403f2",
+    "company_id": "elevenlabs",
+    "metric": "valuation",
+    "value": 11000000000.0,
+    "unit": null,
+    "raw_text": "ElevenLabs Secures $500M Series D, Valued At $11B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Quantum Zeitgeist",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9OMlpKdFlGcjhWREpCV1RkMnBPdTI5QkdqX29yZVg4eDZmUGV0bmlsbEp3THJoUWt3b2VOMzlrczhYSTF2WnpmQkthVS1nMGMyRDJDRjQzTS1PdF94U0M2ZmdiVFdzNUlzbE95OHJrdnJSWjF1ejdVSA?oc=5",
+      "locator": null,
+      "published_at": "2026-02-04"
+    },
+    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_da3421c8da",
+    "company_id": "elevenlabs",
+    "metric": "round_amount",
+    "value": 500000000.0,
+    "unit": null,
+    "raw_text": "ElevenLabs Secures $500M Series D, Valued At $11B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Quantum Zeitgeist",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9OMlpKdFlGcjhWREpCV1RkMnBPdTI5QkdqX29yZVg4eDZmUGV0bmlsbEp3THJoUWt3b2VOMzlrczhYSTF2WnpmQkthVS1nMGMyRDJDRjQzTS1PdF94U0M2ZmdiVFdzNUlzbE95OHJrdnJSWjF1ejdVSA?oc=5",
+      "locator": null,
+      "published_at": "2026-02-04"
+    },
+    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_dcd4b90871",
     "company_id": "elevenlabs",
     "metric": "valuation",
@@ -622,54 +670,6 @@
     },
     "extracted_at": "2026-09-10T09:49:02.856855",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_fd616403f2",
-    "company_id": "elevenlabs",
-    "metric": "valuation",
-    "value": 11000000000.0,
-    "unit": null,
-    "raw_text": "ElevenLabs Secures $500M Series D, Valued At $11B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Quantum Zeitgeist",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9OMlpKdFlGcjhWREpCV1RkMnBPdTI5QkdqX29yZVg4eDZmUGV0bmlsbEp3THJoUWt3b2VOMzlrczhYSTF2WnpmQkthVS1nMGMyRDJDRjQzTS1PdF94U0M2ZmdiVFdzNUlzbE95OHJrdnJSWjF1ejdVSA?oc=5",
-      "locator": null,
-      "published_at": "2026-02-04"
-    },
-    "extracted_at": "2026-07-12T07:44:16.543146",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_da3421c8da",
-    "company_id": "elevenlabs",
-    "metric": "round_amount",
-    "value": 500000000.0,
-    "unit": null,
-    "raw_text": "ElevenLabs Secures $500M Series D, Valued At $11B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Quantum Zeitgeist",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9OMlpKdFlGcjhWREpCV1RkMnBPdTI5QkdqX29yZVg4eDZmUGV0bmlsbEp3THJoUWt3b2VOMzlrczhYSTF2WnpmQkthVS1nMGMyRDJDRjQzTS1PdF94U0M2ZmdiVFdzNUlzbE95OHJrdnJSWjF1ejdVSA?oc=5",
-      "locator": null,
-      "published_at": "2026-02-04"
-    },
-    "extracted_at": "2026-07-12T07:44:16.543146",
-    "extractor_model": "gemini-2.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
   },
@@ -1206,10 +1206,10 @@
     "derivation": null
   },
   {
-    "id": "drv_04e63b286d",
+    "id": "drv_f1adb7495d",
     "company_id": "elevenlabs",
     "metric": "revenue_multiple",
-    "value": 6.6,
+    "value": 22.0,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -1224,14 +1224,14 @@
       "locator": null,
       "published_at": "2026-05-05"
     },
-    "extracted_at": "2026-09-12T09:20:27.932122",
+    "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_255538e630",
+        "clm_fd616403f2",
         "clm_b85069b411"
       ]
     }

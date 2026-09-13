@@ -10,30 +10,8 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 86.6,
-  "universe_rank": 29,
+  "universe_rank": 30,
   "metrics": {
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 1000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-02-05",
-      "estimate_type": "reported",
-      "confidence": 0.278,
-      "supporting_claims": [
-        "clm_56476fa9d4"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-02-05"
-      },
-      "history_ref": "history/cerebras/total_funding.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "valuation": {
       "metric": "valuation",
       "value": 24070505356.6,
@@ -55,8 +33,8 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 24201594055.37,
-        "change_pct": -0.5,
+        "previous": 24070505356.6,
+        "change_pct": 0.0,
         "since": "2026-05-04"
       },
       "history_ref": "history/cerebras/valuation.jsonl",
@@ -64,26 +42,24 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "latest_round": {
-      "metric": "latest_round",
-      "value": 1024206484.12,
-      "unit": "object",
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 1000000000.0,
+      "unit": "USD",
       "range": null,
       "as_of": "2026-02-05",
-      "estimate_type": "consensus",
-      "confidence": 0.499,
+      "estimate_type": "reported",
+      "confidence": 0.277,
       "supporting_claims": [
-        "clm_1fede69526",
-        "clm_f5a8ba9331",
-        "clm_98220177ab"
+        "clm_56476fa9d4"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 1024206484.12,
-        "change_pct": -0.0,
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
         "since": "2026-02-05"
       },
-      "history_ref": "history/cerebras/latest_round.jsonl",
+      "history_ref": "history/cerebras/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -95,7 +71,7 @@
       "range": null,
       "as_of": "2026-02-05",
       "estimate_type": "consensus",
-      "confidence": 0.715,
+      "confidence": 0.713,
       "supporting_claims": [
         "clm_93a214a35d",
         "clm_440804d702",
@@ -114,6 +90,30 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 1024206484.12,
+      "unit": "object",
+      "range": null,
+      "as_of": "2026-02-05",
+      "estimate_type": "consensus",
+      "confidence": 0.498,
+      "supporting_claims": [
+        "clm_1fede69526",
+        "clm_f5a8ba9331",
+        "clm_98220177ab"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1024206484.12,
+        "change_pct": -0.0,
+        "since": "2026-02-05"
+      },
+      "history_ref": "history/cerebras/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "revenue_multiple": {
       "metric": "revenue_multiple",
       "value": 58.0,
@@ -121,7 +121,7 @@
       "range": null,
       "as_of": "2026-08-14",
       "estimate_type": "reported",
-      "confidence": 0.294,
+      "confidence": 0.292,
       "supporting_claims": [
         "clm_feefdc3941"
       ],
@@ -143,7 +143,7 @@
       "range": null,
       "as_of": "2026-08-12",
       "estimate_type": "consensus",
-      "confidence": 0.642,
+      "confidence": 0.638,
       "supporting_claims": [
         "clm_e32790969d",
         "clm_e794c66901",
@@ -167,7 +167,7 @@
       "range": null,
       "as_of": "2026-08-14",
       "estimate_type": "reported",
-      "confidence": 0.499,
+      "confidence": 0.495,
       "supporting_claims": [
         "clm_a217a997b0",
         "clm_5498625f57"
@@ -184,5 +184,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-12"
+  "last_updated": "2026-09-13"
 }

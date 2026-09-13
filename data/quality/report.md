@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-09-12
+# OpenPitch Data Quality Report - 2026-09-13
 
 ## Summary
 
-- Profiles generated: 381
-- Watchlist candidates: 956
+- Profiles generated: 411
+- Watchlist candidates: 975
 - Top-50 cards: 50
-- Profiles with at least one metric: 372
-- Critical issues: 71
-- Warnings: 26
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 572
+- Profiles with at least one metric: 402
+- Critical issues: 78
+- Warnings: 23
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 561
 
 ## Top-50 Companies With No Metrics
 
@@ -25,8 +25,6 @@ None.
 - Chime
 - Bright Health
 - Checkout.com
-- OpenEvidence
-- Airwallex
 
 ## Curated High-Priority Watchlist Companies Not Profiled (critical)
 
@@ -47,6 +45,7 @@ None.
 - Bland AI
 - Foodics
 - AI71
+- AIR
 - AIR Security
 - Aera Therapeutics
 - Aidoc
@@ -54,9 +53,11 @@ None.
 - Altana Technologies
 - Ambience Healthcare
 - Antora Energy
+- Apex Clean Energy
 - Aqemia
 - Arcade
 - AssemblyAI
+- Atoms
 - Attio
 - AttoTude
 - Auterion
@@ -90,6 +91,10 @@ None.
 - Demandbase
 - Descript
 - Enfabrica
+- EvolutionaryScale
+- Exscientia
+- Form Energy
+- Félix
 - HUMAIN
 - Huspy
 - Ideogram
@@ -109,6 +114,7 @@ None.
 
 - Enflame Technology: valuation
 - Figure AI: headcount
+- Figure AI: valuation
 - Scale AI: headcount
 - Mercor: headcount
 - Chime: round_amount
@@ -124,8 +130,6 @@ None.
 - Checkout.com: total_funding
 - Poolside: arr
 - Cyera: headcount
-- ElevenLabs: headcount
-- Airwallex: total_funding
 
 ## Review Rule
 

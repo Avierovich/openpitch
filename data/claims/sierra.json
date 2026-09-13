@@ -348,6 +348,54 @@
     "derivation": null
   },
   {
+    "id": "clm_b80c8e49c1",
+    "company_id": "sierra",
+    "metric": "round_amount",
+    "value": 350000000.0,
+    "unit": "USD",
+    "raw_text": "raises $350M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZk84ME9GYjh5LVNrN0QxWTdGOHNDclJLdXdpRUtLV21GbFdMQ19qbVJ0ZjlBLVhlSV9GS2hxMERjZkRVNGQyWkszOG1LejNOREtkclNJbTVPUUJBcWV2NkltZjZfQkczLWdnSGx0TmpOd3JONjRCWHkwdno0dk1pamFhUWhoOUNQU0RfZ3RR?oc=5",
+      "locator": null,
+      "published_at": "2025-09-04"
+    },
+    "extracted_at": "2026-07-06T14:16:53.462780",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_c3abac4b1b",
+    "company_id": "sierra",
+    "metric": "valuation",
+    "value": 10000000000.0,
+    "unit": "USD",
+    "raw_text": "at a $10B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZk84ME9GYjh5LVNrN0QxWTdGOHNDclJLdXdpRUtLV21GbFdMQ19qbVJ0ZjlBLVhlSV9GS2hxMERjZkRVNGQyWkszOG1LejNOREtkclNJbTVPUUJBcWV2NkltZjZfQkczLWdnSGx0TmpOd3JONjRCWHkwdno0dk1pamFhUWhoOUNQU0RfZ3RR?oc=5",
+      "locator": null,
+      "published_at": "2025-09-04"
+    },
+    "extracted_at": "2026-07-06T14:16:53.462780",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_9f07b3adbd",
     "company_id": "sierra",
     "metric": "total_funding",
@@ -632,54 +680,6 @@
     },
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_b80c8e49c1",
-    "company_id": "sierra",
-    "metric": "round_amount",
-    "value": 350000000.0,
-    "unit": "USD",
-    "raw_text": "raises $350M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZk84ME9GYjh5LVNrN0QxWTdGOHNDclJLdXdpRUtLV21GbFdMQ19qbVJ0ZjlBLVhlSV9GS2hxMERjZkRVNGQyWkszOG1LejNOREtkclNJbTVPUUJBcWV2NkltZjZfQkczLWdnSGx0TmpOd3JONjRCWHkwdno0dk1pamFhUWhoOUNQU0RfZ3RR?oc=5",
-      "locator": null,
-      "published_at": "2025-09-04"
-    },
-    "extracted_at": "2026-07-06T14:16:53.462780",
-    "extractor_model": "gemini-2.5-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_c3abac4b1b",
-    "company_id": "sierra",
-    "metric": "valuation",
-    "value": 10000000000.0,
-    "unit": "USD",
-    "raw_text": "at a $10B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZk84ME9GYjh5LVNrN0QxWTdGOHNDclJLdXdpRUtLV21GbFdMQ19qbVJ0ZjlBLVhlSV9GS2hxMERjZkRVNGQyWkszOG1LejNOREtkclNJbTVPUUJBcWV2NkltZjZfQkczLWdnSGx0TmpOd3JONjRCWHkwdno0dk1pamFhUWhoOUNQU0RfZ3RR?oc=5",
-      "locator": null,
-      "published_at": "2025-09-04"
-    },
-    "extracted_at": "2026-07-06T14:16:53.462780",
-    "extractor_model": "gemini-2.5-flash",
     "base_confidence": 0.525,
     "derivation": null
   },
@@ -1112,7 +1112,7 @@
       "locator": null,
       "published_at": "2026-07-04"
     },
-    "extracted_at": "2026-09-12T09:20:27.932122",
+    "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1826,
     "derivation": {

@@ -1,55 +1,5 @@
 [
   {
-    "id": "clm_41bcc4f561",
-    "company_id": "baseten",
-    "metric": "latest_round",
-    "value": 1500000000.0,
-    "unit": "USD",
-    "raw_text": "AI infrastructure startup Baseten raises $1.5bn at up to $13bn valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Next Web",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBWT0k1ZzJmSFRqYzA5czdCMGFWVGJtN1dqSWc3djZOSmFsVG9JLTBNYWllU18xOVgxSUQyY2RNSTctSTRKSUItTjhrZDdRWFFkaFhkSFRxdXFZQ0JPMFZCNnpyNGd3LWRCUzNodW9UMXlTX2pS?oc=5",
-      "locator": null,
-      "published_at": "2026-06-23"
-    },
-    "extracted_at": "2026-09-11T09:45:35.269135",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_d994ad649f",
-    "company_id": "baseten",
-    "metric": "valuation",
-    "value": 13000000000.0,
-    "unit": "USD",
-    "raw_text": "at up to $13bn valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Next Web",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBWT0k1ZzJmSFRqYzA5czdCMGFWVGJtN1dqSWc3djZOSmFsVG9JLTBNYWllU18xOVgxSUQyY2RNSTctSTRKSUItTjhrZDdRWFFkaFhkSFRxdXFZQ0JPMFZCNnpyNGd3LWRCUzNodW9UMXlTX2pS?oc=5",
-      "locator": null,
-      "published_at": "2026-06-23"
-    },
-    "extracted_at": "2026-09-11T09:45:35.269135",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.225,
-    "derivation": null
-  },
-  {
     "id": "clm_a2dcd3dad2",
     "company_id": "baseten",
     "metric": "round_amount",
@@ -222,6 +172,202 @@
     "derivation": null
   },
   {
+    "id": "clm_0c10c0e957",
+    "company_id": "baseten",
+    "metric": "total_funding",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "raises $1.5bn",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "thenextweb.com",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBWT0k1ZzJmSFRqYzA5czdCMGFWVGJtN1dqSWc3djZOSmFsVG9JLTBNYWllU18xOVgxSUQyY2RNSTctSTRKSUItTjhrZDdRWFFkaFhkSFRxdXFZQ0JPMFZCNnpyNGd3LWRCUzNodW9UMXlTX2pS?oc=5",
+      "locator": null,
+      "published_at": "2026-06-23"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_8d3c316dea",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 13000000000.0,
+    "unit": "USD",
+    "raw_text": "at up to $13bn valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "thenextweb.com",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBWT0k1ZzJmSFRqYzA5czdCMGFWVGJtN1dqSWc3djZOSmFsVG9JLTBNYWllU18xOVgxSUQyY2RNSTctSTRKSUItTjhrZDdRWFFkaFhkSFRxdXFZQ0JPMFZCNnpyNGd3LWRCUzNodW9UMXlTX2pS?oc=5",
+      "locator": null,
+      "published_at": "2026-06-23"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_adcef28feb",
+    "company_id": "baseten",
+    "metric": "revenue_growth",
+    "value": 30.0,
+    "unit": "x",
+    "raw_text": "30x growth",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "founder"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "No Priors",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-05-01"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.6,
+    "derivation": null
+  },
+  {
+    "id": "clm_b6391b5beb",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 5000000000.0,
+    "unit": "USD",
+    "raw_text": "valued at $5B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "techzine.eu",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNGhHMm5PSjBXcEY2c0NyUFFIUlFYTVpic3E1Y1JlMkx6NXdqcGZ5c3N2SlU4MGROSHdwdnlSc0l6NjQzZkFXWUVPT05PWUVVQVljTi1Fd3owbjdqOWxPNWdwWXd0MjFGcWNPM21xZENvX2lfZWx5c2NiOEhUUk1KN1o5ZFRva0lqSGFqUFZPeF9iRGZKVUlYOUIwUTlpejFRX3ZfNERrUzV2NFo0ZEE5LTVRWmhzUnc?oc=5",
+      "locator": null,
+      "published_at": "2026-01-21"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_1854b57e3a",
+    "company_id": "baseten",
+    "metric": "round_amount",
+    "value": 300000000.0,
+    "unit": "USD",
+    "raw_text": "raises $300m",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "techinasia.com",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNHpUYXoyUm00NXVESU5IdlA3X25HWmpxV2JySFg1bWJjTldwelZienI3NlFlT0JmMTRUWFB0UTVwT0dMZkRfX2ZCc1JaOFBKU0tQTjBCVkQzMWdYZDdkV19FZ19UYy1jVWttd3JMX085azFhMzZXQjFMVlRCdjZyeXJ5LWEwSzZPSkQySGpB?oc=5",
+      "locator": null,
+      "published_at": "2026-01-21"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_eed0deebe1",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 5000000000.0,
+    "unit": "USD",
+    "raw_text": "valued at $5b",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "techinasia.com",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNHpUYXoyUm00NXVESU5IdlA3X25HWmpxV2JySFg1bWJjTldwelZienI3NlFlT0JmMTRUWFB0UTVwT0dMZkRfX2ZCc1JaOFBKU0tQTjBCVkQzMWdYZDdkV19FZ19UYy1jVWttd3JMX085azFhMzZXQjFMVlRCdjZyeXJ5LWEwSzZPSkQySGpB?oc=5",
+      "locator": null,
+      "published_at": "2026-01-21"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_41bcc4f561",
+    "company_id": "baseten",
+    "metric": "latest_round",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "AI infrastructure startup Baseten raises $1.5bn at up to $13bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBWT0k1ZzJmSFRqYzA5czdCMGFWVGJtN1dqSWc3djZOSmFsVG9JLTBNYWllU18xOVgxSUQyY2RNSTctSTRKSUItTjhrZDdRWFFkaFhkSFRxdXFZQ0JPMFZCNnpyNGd3LWRCUzNodW9UMXlTX2pS?oc=5",
+      "locator": null,
+      "published_at": "2026-06-23"
+    },
+    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_d994ad649f",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 13000000000.0,
+    "unit": "USD",
+    "raw_text": "at up to $13bn valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBWT0k1ZzJmSFRqYzA5czdCMGFWVGJtN1dqSWc3djZOSmFsVG9JLTBNYWllU18xOVgxSUQyY2RNSTctSTRKSUItTjhrZDdRWFFkaFhkSFRxdXFZQ0JPMFZCNnpyNGd3LWRCUzNodW9UMXlTX2pS?oc=5",
+      "locator": null,
+      "published_at": "2026-06-23"
+    },
+    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
     "id": "clm_8112180e11",
     "company_id": "baseten",
     "metric": "latest_round",
@@ -315,30 +461,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_adcef28feb",
-    "company_id": "baseten",
-    "metric": "revenue_growth",
-    "value": 30.0,
-    "unit": "x",
-    "raw_text": "Baseten’s 30x growth",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "founder"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "No Priors",
-      "url": null,
-      "locator": null,
-      "published_at": "2026-05-01"
-    },
-    "extracted_at": "2026-09-11T09:45:35.269135",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.6,
     "derivation": null
   },
   {
@@ -1638,7 +1760,7 @@
       "locator": null,
       "published_at": "2026-06-23"
     },
-    "extracted_at": "2026-09-12T09:20:27.932122",
+    "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

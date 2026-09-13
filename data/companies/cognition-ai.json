@@ -14,7 +14,7 @@
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 45561479856.29,
+      "value": 45769782726.45,
       "unit": "USD",
       "range": {
         "low": 25000000000.0,
@@ -39,13 +39,14 @@
         "clm_fbbf33ee4d",
         "clm_8955386e9c",
         "clm_28deb14c81",
+        "clm_60bc9b1e3a",
         "clm_e40bd1d686",
         "clm_0b18bbb051"
       ],
       "contradiction": true,
       "delta": {
         "previous": 45561479856.29,
-        "change_pct": 0.0,
+        "change_pct": 0.5,
         "since": "2026-09-10"
       },
       "history_ref": "history/cognition-ai/valuation.jsonl",
@@ -63,7 +64,7 @@
       },
       "as_of": "2026-09-09",
       "estimate_type": "consensus",
-      "confidence": 0.947,
+      "confidence": 0.946,
       "supporting_claims": [
         "clm_a12f41c471",
         "clm_5954897923",
@@ -91,7 +92,7 @@
       },
       "as_of": "2026-09-02",
       "estimate_type": "consensus",
-      "confidence": 0.625,
+      "confidence": 0.623,
       "supporting_claims": [
         "clm_cbc34779e4",
         "clm_b73c908284",
@@ -100,7 +101,7 @@
       "contradiction": true,
       "delta": {
         "previous": 1000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-09-02"
       },
       "history_ref": "history/cognition-ai/latest_round.jsonl",
@@ -118,8 +119,9 @@
       },
       "as_of": "2026-09-10",
       "estimate_type": "consensus",
-      "confidence": 0.773,
+      "confidence": 0.891,
       "supporting_claims": [
+        "clm_126cebfedc",
         "clm_39683f9caa",
         "clm_cde43bfa7b"
       ],
@@ -135,5 +137,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-12"
+  "last_updated": "2026-09-13"
 }

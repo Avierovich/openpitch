@@ -8,16 +8,16 @@
   "specialty": "Global financial platform for businesses",
   "summary": "Airwallex is a global fintech platform offering businesses cross-border payment solutions, expense management, and embedded finance. It helps companies operate and grow internationally with integrated financial tools.",
   "segment": "global",
-  "in_universe": true,
+  "in_universe": false,
   "vc_attention_score": 83.8,
-  "universe_rank": 49,
+  "universe_rank": 52,
   "metrics": {
     "total_funding": {
       "metric": "total_funding",
       "value": 320000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2026-09-12",
+      "as_of": "2026-09-13",
       "estimate_type": "reported",
       "confidence": 0.25,
       "supporting_claims": [
@@ -36,7 +36,7 @@
     },
     "round_amount": {
       "metric": "round_amount",
-      "value": 321751768.61,
+      "value": 321563980.72,
       "unit": "USD",
       "range": {
         "low": 320000000.0,
@@ -46,10 +46,12 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
-        "clm_88f13c6330",
-        "clm_5fab434528",
         "clm_79f60bb415",
         "clm_5956327adc",
+        "clm_609ec47aa9",
+        "clm_27f3b1f439",
+        "clm_88f13c6330",
+        "clm_5fab434528",
         "clm_fb528fb95d",
         "clm_144d3a921f",
         "clm_3aa6902581",
@@ -69,7 +71,7 @@
       "contradiction": false,
       "delta": {
         "previous": 321751768.61,
-        "change_pct": 0.0,
+        "change_pct": -0.1,
         "since": "2026-06-27"
       },
       "history_ref": "history/airwallex/round_amount.jsonl",
@@ -89,10 +91,12 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
-        "clm_82c0cafbae",
-        "clm_22a738d791",
         "clm_ebea985687",
         "clm_6a9ad45bea",
+        "clm_8c4870c17e",
+        "clm_d713da827c",
+        "clm_82c0cafbae",
+        "clm_22a738d791",
         "clm_e315d72973",
         "clm_96948be375",
         "clm_4f3428430e",
@@ -107,7 +111,7 @@
       "contradiction": false,
       "delta": {
         "previous": 11000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-06-26"
       },
       "history_ref": "history/airwallex/valuation.jsonl",
@@ -122,7 +126,7 @@
       "range": null,
       "as_of": "2025-12-10",
       "estimate_type": "consensus",
-      "confidence": 0.431,
+      "confidence": 0.43,
       "supporting_claims": [
         "clm_ea44586ed0",
         "clm_2db8452630"
@@ -139,5 +143,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-12"
+  "last_updated": "2026-09-13"
 }

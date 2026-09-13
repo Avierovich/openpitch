@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 87.4,
-  "universe_rank": 23,
+  "universe_rank": 24,
   "metrics": {
     "valuation": {
       "metric": "valuation",
@@ -22,11 +22,11 @@
       },
       "as_of": "2026-08-30",
       "estimate_type": "consensus",
-      "confidence": 0.917,
+      "confidence": 0.916,
       "supporting_claims": [
-        "clm_fc24151cdd",
-        "clm_69e70108ab",
         "clm_317a1be3f3",
+        "clm_69e70108ab",
+        "clm_fc24151cdd",
         "clm_679cf68660",
         "clm_1986e8c0c5",
         "clm_0a32c67bc0",
@@ -55,10 +55,10 @@
       },
       "as_of": "2026-08-25",
       "estimate_type": "consensus",
-      "confidence": 0.901,
+      "confidence": 0.898,
       "supporting_claims": [
-        "clm_4090891398",
         "clm_3a6666656d",
+        "clm_4090891398",
         "clm_d9b0e3bd17",
         "clm_511b8807fc"
       ],
@@ -80,11 +80,11 @@
       "range": null,
       "as_of": "2025-09-11",
       "estimate_type": "consensus",
-      "confidence": 0.502,
+      "confidence": 0.501,
       "supporting_claims": [
+        "clm_c3bc62c2a2",
         "clm_8f44124db8",
         "clm_a5e8394d12",
-        "clm_c3bc62c2a2",
         "clm_66d923e90e"
       ],
       "contradiction": false,
@@ -100,19 +100,19 @@
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 0.69,
+      "value": 26.67,
       "unit": "x",
       "range": null,
       "as_of": "2026-08-25",
       "estimate_type": "reported",
-      "confidence": 0.218,
+      "confidence": 0.216,
       "supporting_claims": [
-        "drv_950fc4f347"
+        "drv_9f1bc6b20d"
       ],
       "contradiction": false,
       "delta": {
         "previous": 0.69,
-        "change_pct": 0.0,
+        "change_pct": 3765.2,
         "since": "2026-08-25"
       },
       "history_ref": "history/perplexity/revenue_multiple.jsonl",
@@ -121,5 +121,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-12"
+  "last_updated": "2026-09-13"
 }

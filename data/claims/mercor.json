@@ -148,53 +148,29 @@
     "derivation": null
   },
   {
-    "id": "clm_0051c9db8a",
+    "id": "clm_49376ad18c",
     "company_id": "mercor",
     "metric": "valuation",
-    "value": 10000000000.0,
-    "unit": "USD",
-    "raw_text": "$10 billion valuation",
+    "value": 20000000000.0,
+    "unit": null,
+    "raw_text": "Mercor's $20B Valuation",
     "qualifiers": [
       "rounded"
     ],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
-      "type": "web",
-      "name": "mercor.com",
-      "url": "https://mercor.com/careers",
+      "type": "news",
+      "name": "Techloy",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5QYktfMkx6X1o3VkVyQ1FwaHNvOXowSmotUUxtUEQ5WEFObHh5Z0FpUGMtM1VJeXk4TmJoZE1KY2o1Sl9idll2czk0QjA0ODRLampvVUh0Qkdoc0VWak1OMkdWSEtBTUk5TEV3UE1UTHVRRmVGcGY4VHBIYlhfY3c?oc=5",
       "locator": null,
-      "published_at": null
+      "published_at": "2026-08-04"
     },
-    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extracted_at": "2026-09-12T09:20:27.932122",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
-    "derivation": null
-  },
-  {
-    "id": "clm_3da23f4b07",
-    "company_id": "mercor",
-    "metric": "latest_round",
-    "value": 3.0,
-    "unit": "round",
-    "raw_text": "Series C",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "mercor.com",
-      "url": "https://mercor.com/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-09-11T09:45:35.269135",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
+    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -225,6 +201,56 @@
     "derivation": null
   },
   {
+    "id": "clm_0051c9db8a",
+    "company_id": "mercor",
+    "metric": "valuation",
+    "value": 10000000000.0,
+    "unit": "USD",
+    "raw_text": "$10 billion valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "mercor.com",
+      "url": "https://mercor.com/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_3da23f4b07",
+    "company_id": "mercor",
+    "metric": "latest_round",
+    "value": 3.0,
+    "unit": "round",
+    "raw_text": "Series C",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "mercor.com",
+      "url": "https://mercor.com/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
     "id": "clm_a52f0b9b70",
     "company_id": "mercor",
     "metric": "headcount",
@@ -246,32 +272,6 @@
     "extracted_at": "2026-09-12T09:20:27.932122",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_49376ad18c",
-    "company_id": "mercor",
-    "metric": "valuation",
-    "value": 20000000000.0,
-    "unit": null,
-    "raw_text": "Mercor's $20B Valuation",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Techloy",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5QYktfMkx6X1o3VkVyQ1FwaHNvOXowSmotUUxtUEQ5WEFObHh5Z0FpUGMtM1VJeXk4TmJoZE1KY2o1Sl9idll2czk0QjA0ODRLampvVUh0Qkdoc0VWak1OMkdWSEtBTUk5TEV3UE1UTHVRRmVGcGY4VHBIYlhfY3c?oc=5",
-      "locator": null,
-      "published_at": "2026-08-04"
-    },
-    "extracted_at": "2026-09-12T09:20:27.932122",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -846,7 +846,7 @@
       "locator": null,
       "published_at": "2026-07-25"
     },
-    "extracted_at": "2026-09-12T09:20:27.932122",
+    "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "derive-engine",
     "base_confidence": 0.3312,
     "derivation": {

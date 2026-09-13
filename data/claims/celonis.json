@@ -27,6 +27,54 @@
     "derivation": null
   },
   {
+    "id": "clm_60e7fb89b7",
+    "company_id": "celonis",
+    "metric": "total_funding",
+    "value": 290000000.0,
+    "unit": "USD",
+    "raw_text": "Celonis Raises $290M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finsmes.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb2xGc1dESGgxRGwyZG4wVHJmUFlxa3VTVDFEcElfcUVQTFFTX0k4UlVqMFg0d0t4V2V2T2VmSEVVVHJWZFZWWHNERVZSbWlDYm1rcVFYeUt2QXkwMGpQdFpxNE1YTGtiNGZBZ0RFa3pUbUxjX3dMTWNTYUhBVlRxaEJzSWM?oc=5",
+      "locator": null,
+      "published_at": "2019-11-21"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_135b455eb4",
+    "company_id": "celonis",
+    "metric": "valuation",
+    "value": 2500000000.0,
+    "unit": "USD",
+    "raw_text": "Valued at $2.5 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finsmes.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb2xGc1dESGgxRGwyZG4wVHJmUFlxa3VTVDFEcElfcUVQTFFTX0k4UlVqMFg0d0t4V2V2T2VmSEVVVHJWZFZWWHNERVZSbWlDYm1rcVFYeUt2QXkwMGpQdFpxNE1YTGtiNGZBZ0RFa3pUbUxjX3dMTWNTYUhBVlRxaEJzSWM?oc=5",
+      "locator": null,
+      "published_at": "2019-11-21"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_7e06d636ec",
     "company_id": "celonis",
     "metric": "round_amount",
@@ -726,10 +774,10 @@
     "derivation": null
   },
   {
-    "id": "drv_6eb563499f",
+    "id": "drv_175c70b80a",
     "company_id": "celonis",
     "metric": "revenue_multiple",
-    "value": 14.27,
+    "value": 3.24,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -744,14 +792,14 @@
       "locator": null,
       "published_at": "2026-07-03"
     },
-    "extracted_at": "2026-09-12T09:20:27.932122",
+    "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2054,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_2b1330ceae",
+        "clm_135b455eb4",
         "clm_4a9d9165ee"
       ]
     }

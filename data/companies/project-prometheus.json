@@ -10,11 +10,40 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 88.3,
-  "universe_rank": 18,
+  "universe_rank": 19,
   "metrics": {
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 10000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 10000000000.0,
+        "high": 12000000000.0
+      },
+      "as_of": "2026-04-24",
+      "estimate_type": "consensus",
+      "confidence": 0.828,
+      "supporting_claims": [
+        "clm_baac1e6419",
+        "clm_ace6101b80",
+        "clm_8d6009e913",
+        "clm_ec9486d32c",
+        "clm_dbf86b40b1"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 10000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-04-24"
+      },
+      "history_ref": "history/project-prometheus/total_funding.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": 12000000000.0,
+      "confirmed_as_of": "2026-06-11"
+    },
     "valuation": {
       "metric": "valuation",
-      "value": 38643090977.14,
+      "value": 38624303613.55,
       "unit": "USD",
       "range": {
         "low": 38000000000.0,
@@ -24,17 +53,18 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
-        "clm_d588914c73",
-        "clm_bf5e5f4930",
+        "clm_6c7333dd3f",
+        "clm_f7570a406d",
         "clm_b3b2eb81c5",
+        "clm_bf5e5f4930",
+        "clm_c7473f15ba",
+        "clm_d588914c73",
         "clm_0db447274f",
         "clm_c290864eef",
         "clm_f9e09d429c",
         "clm_f14f514ddc",
         "clm_e93a4a5434",
-        "clm_6c7333dd3f",
         "clm_1c76074e33",
-        "clm_f7570a406d",
         "clm_6089df640d",
         "clm_0ce9b75cc5",
         "clm_2fc818701c",
@@ -56,23 +86,20 @@
       "confirmed_value": 41000000000.0,
       "confirmed_as_of": "2026-06-11"
     },
-    "total_funding": {
-      "metric": "total_funding",
+    "latest_round": {
+      "metric": "latest_round",
       "value": 10000000000.0,
-      "unit": "USD",
+      "unit": "object",
       "range": {
         "low": 10000000000.0,
-        "high": 12000000000.0
+        "high": 10000000000.0
       },
       "as_of": "2026-04-24",
       "estimate_type": "consensus",
-      "confidence": 0.828,
+      "confidence": 0.583,
       "supporting_claims": [
-        "clm_ace6101b80",
-        "clm_8d6009e913",
-        "clm_ec9486d32c",
-        "clm_baac1e6419",
-        "clm_dbf86b40b1"
+        "clm_e4783d4a69",
+        "clm_405b686728"
       ],
       "contradiction": false,
       "delta": {
@@ -80,10 +107,10 @@
         "change_pct": 0.0,
         "since": "2026-04-24"
       },
-      "history_ref": "history/project-prometheus/total_funding.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": 12000000000.0,
-      "confirmed_as_of": "2026-06-11"
+      "history_ref": "history/project-prometheus/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "round_amount": {
       "metric": "round_amount",
@@ -92,7 +119,7 @@
       "range": null,
       "as_of": "2026-04-24",
       "estimate_type": "consensus",
-      "confidence": 0.554,
+      "confidence": 0.552,
       "supporting_claims": [
         "clm_78598bb8bb",
         "clm_7de07e1912",
@@ -110,33 +137,7 @@
       "unconfirmed": true,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "latest_round": {
-      "metric": "latest_round",
-      "value": 10000000000.0,
-      "unit": "object",
-      "range": {
-        "low": 10000000000.0,
-        "high": 10000000000.0
-      },
-      "as_of": "2026-04-24",
-      "estimate_type": "consensus",
-      "confidence": 0.584,
-      "supporting_claims": [
-        "clm_e4783d4a69",
-        "clm_405b686728"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 10000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-04-24"
-      },
-      "history_ref": "history/project-prometheus/latest_round.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-12"
+  "last_updated": "2026-09-13"
 }

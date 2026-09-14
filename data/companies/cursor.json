@@ -9,18 +9,37 @@
   "summary": "Cursor is an AI-powered code editor designed to enhance developer productivity by integrating large language models directly into the development environment. It helps programmers write, debug, and understand code more efficiently.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 89.5,
+  "vc_attention_score": 89.4,
   "universe_rank": 12,
   "metrics": {
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 2300000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-11-13",
+      "estimate_type": "reported",
+      "confidence": 0.228,
+      "supporting_claims": [
+        "clm_63eaea0886"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/cursor/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "valuation": {
       "metric": "valuation",
-      "value": 52968293857.23,
+      "value": 52356551417.36,
       "unit": "USD",
       "range": null,
       "as_of": "2026-08-20",
       "estimate_type": "consensus",
-      "confidence": 0.467,
+      "confidence": 0.545,
       "supporting_claims": [
+        "clm_9eeda48e13",
         "clm_5ea7602f65",
         "clm_0d357d9735",
         "clm_6f37eb1891"
@@ -28,13 +47,13 @@
       "contradiction": false,
       "delta": {
         "previous": 52968293857.23,
-        "change_pct": -0.0,
+        "change_pct": -1.2,
         "since": "2026-08-20"
       },
       "history_ref": "history/cursor/valuation.jsonl",
       "unconfirmed": true,
-      "confirmed_value": 9900000000.0,
-      "confirmed_as_of": "2025-06-05"
+      "confirmed_value": 29300000000.0,
+      "confirmed_as_of": "2025-11-13"
     },
     "arr": {
       "metric": "arr",
@@ -60,19 +79,19 @@
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 19.8,
+      "value": 58.6,
       "unit": "x",
       "range": null,
-      "as_of": "2025-06-05",
+      "as_of": "2025-11-13",
       "estimate_type": "reported",
-      "confidence": 0.003,
+      "confidence": 0.014,
       "supporting_claims": [
-        "drv_01133c79fb"
+        "drv_b6d558cbbc"
       ],
       "contradiction": false,
       "delta": {
         "previous": 19.8,
-        "change_pct": 0.0,
+        "change_pct": 196.0,
         "since": "2025-06-05"
       },
       "history_ref": "history/cursor/revenue_multiple.jsonl",
@@ -81,5 +100,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-13"
+  "last_updated": "2026-09-14"
 }

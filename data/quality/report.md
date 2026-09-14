@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-09-13
+# OpenPitch Data Quality Report - 2026-09-14
 
 ## Summary
 
-- Profiles generated: 411
-- Watchlist candidates: 975
+- Profiles generated: 412
+- Watchlist candidates: 978
 - Top-50 cards: 50
-- Profiles with at least one metric: 402
+- Profiles with at least one metric: 403
 - Critical issues: 78
 - Warnings: 23
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 561
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 563
 
 ## Top-50 Companies With No Metrics
 
@@ -113,11 +113,11 @@ None.
 ## Single-Source Core Metrics
 
 - Enflame Technology: valuation
+- Enflame Technology: total_funding
 - Figure AI: headcount
 - Figure AI: valuation
 - Scale AI: headcount
 - Mercor: headcount
-- Chime: round_amount
 - Fireworks AI: arr
 - Fireworks AI: total_funding
 - Fireworks AI: headcount

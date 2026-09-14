@@ -14,29 +14,31 @@
   "metrics": {
     "round_amount": {
       "metric": "round_amount",
-      "value": 910246978.26,
+      "value": 902377928.34,
       "unit": "USD",
       "range": {
-        "low": 900000000.0,
+        "low": 830000000.0,
         "high": 912000000.0
       },
       "as_of": "2026-09-11",
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
+        "clm_15bc55f798",
+        "clm_b918879a57",
         "clm_666d312e1f",
-        "clm_0be70baa67",
         "clm_fe02fa2e27",
+        "clm_0be70baa67",
         "clm_efd8d41802",
+        "clm_789f7693cc",
         "clm_fb84e33aa9",
         "clm_13d2c09a6a",
-        "clm_789f7693cc",
         "clm_42e0168cb8"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 909799614.7,
-        "change_pct": 0.0,
+        "previous": 910246978.26,
+        "change_pct": -0.9,
         "since": "2026-09-11"
       },
       "history_ref": "history/enflame-technology/round_amount.jsonl",
@@ -51,7 +53,7 @@
       "range": null,
       "as_of": "2026-09-11",
       "estimate_type": "reported",
-      "confidence": 0.522,
+      "confidence": 0.521,
       "supporting_claims": [
         "clm_41ee993293"
       ],
@@ -65,7 +67,25 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 900000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-09-14",
+      "estimate_type": "reported",
+      "confidence": 0.525,
+      "supporting_claims": [
+        "clm_a78d636add"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/enflame-technology/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-13"
+  "last_updated": "2026-09-14"
 }

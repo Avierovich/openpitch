@@ -72,15 +72,16 @@
     "derivation": null
   },
   {
-    "id": "clm_728fbacb0a",
+    "id": "clm_ee5000545f",
     "company_id": "bright-health",
     "metric": "valuation",
     "value": 14000000000.0,
-    "unit": "USD",
-    "raw_text": "aims for over $14 bln valuation in U.S. IPO",
+    "unit": null,
+    "raw_text": "$14 bln valuation",
     "qualifiers": [
       "forward_looking",
-      "unconfirmed"
+      "unconfirmed",
+      "rounded"
     ],
     "speaker": {
       "name": null,
@@ -88,14 +89,14 @@
     },
     "source": {
       "type": "news",
-      "name": "Reuters",
+      "name": "reuters.com",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUDI2QS1JbUg3V0lKdndxRGRoOWhaOU11bWtKd2lUZjhwa1N5b1o3dFVCUVV2VlU4d1JmREFoTTdaakZsTVNVbGo1Szd6RGt4V3VyNXpLVWxXeE1vdlBFeTFTRU9VM0c3X18ycHI3ZnRweFQwQi1pZUs2WjJ1MUpuXzU3NEtZMTExQUl4eHRrTjdRRzBENnEwcUlWSzYwc0VnbmNTOXpfNWw4WWtESlVzUDBITFc?oc=5",
       "locator": null,
       "published_at": "2021-06-15"
     },
-    "extracted_at": "2026-08-23T05:59:54.335804",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.2205,
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1984,
     "derivation": null
   },
   {
@@ -119,6 +120,30 @@
     },
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_fb6b2ca094",
+    "company_id": "bright-health",
+    "metric": "round_amount",
+    "value": 635000000.0,
+    "unit": "USD",
+    "raw_text": "Bright Health raises additional $635 million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Star Tribune",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVVd4N2p0OVVlUDQxRl9iNl83VjBWbGkzenhuelUtOFBUQmZMYUhDNm5FZzBzazBrZEljTjV1TXpxd3ZJcHZBUUtnUC1lZVBSV0NBZTlLRXZjY3NUc08teXNxOC1SSERIbHdlVGF0dVVGZ1R3Q1A2Q2RjWVNpMlZzZjVVTmpnb3BJbWM0TXkwbEI0VlRmMlZVTmxPOA?oc=5",
+      "locator": null,
+      "published_at": "2019-12-17"
+    },
+    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.525,
     "derivation": null
   },
@@ -168,6 +193,33 @@
     "extracted_at": "2026-08-19T12:30:22.754661",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_728fbacb0a",
+    "company_id": "bright-health",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": "USD",
+    "raw_text": "aims for over $14 bln valuation in U.S. IPO",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUDI2QS1JbUg3V0lKdndxRGRoOWhaOU11bWtKd2lUZjhwa1N5b1o3dFVCUVV2VlU4d1JmREFoTTdaakZsTVNVbGo1Szd6RGt4V3VyNXpLVWxXeE1vdlBFeTFTRU9VM0c3X18ycHI3ZnRweFQwQi1pZUs2WjJ1MUpuXzU3NEtZMTExQUl4eHRrTjdRRzBENnEwcUlWSzYwc0VnbmNTOXpfNWw4WWtESlVzUDBITFc?oc=5",
+      "locator": null,
+      "published_at": "2021-06-15"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -264,34 +316,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_ee5000545f",
-    "company_id": "bright-health",
-    "metric": "valuation",
-    "value": 14000000000.0,
-    "unit": null,
-    "raw_text": "$14 bln valuation",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed",
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUDI2QS1JbUg3V0lKdndxRGRoOWhaOU11bWtKd2lUZjhwa1N5b1o3dFVCUVV2VlU4d1JmREFoTTdaakZsTVNVbGo1Szd6RGt4V3VyNXpLVWxXeE1vdlBFeTFTRU9VM0c3X18ycHI3ZnRweFQwQi1pZUs2WjJ1MUpuXzU3NEtZMTExQUl4eHRrTjdRRzBENnEwcUlWSzYwc0VnbmNTOXpfNWw4WWtESlVzUDBITFc?oc=5",
-      "locator": null,
-      "published_at": "2021-06-15"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1984,
     "derivation": null
   },
   {
@@ -460,30 +484,6 @@
     "extracted_at": "2026-08-19T12:30:22.754661",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_fb6b2ca094",
-    "company_id": "bright-health",
-    "metric": "round_amount",
-    "value": 635000000.0,
-    "unit": "USD",
-    "raw_text": "Bright Health raises additional $635 million",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Star Tribune",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVVd4N2p0OVVlUDQxRl9iNl83VjBWbGkzenhuelUtOFBUQmZMYUhDNm5FZzBzazBrZEljTjV1TXpxd3ZJcHZBUUtnUC1lZVBSV0NBZTlLRXZjY3NUc08teXNxOC1SSERIbHdlVGF0dVVGZ1R3Q1A2Q2RjWVNpMlZzZjVVTmpnb3BJbWM0TXkwbEI0VlRmMlZVTmxPOA?oc=5",
-      "locator": null,
-      "published_at": "2019-12-17"
-    },
-    "extracted_at": "2026-08-24T06:11:52.835308",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {

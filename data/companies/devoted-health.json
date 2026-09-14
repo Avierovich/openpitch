@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2026-08-21",
       "estimate_type": "reported",
-      "confidence": 0.296,
+      "confidence": 0.295,
       "supporting_claims": [
         "clm_cb34b0e0cf"
       ],
@@ -31,8 +31,8 @@
       },
       "history_ref": "history/devoted-health/valuation.jsonl",
       "unconfirmed": true,
-      "confirmed_value": null,
-      "confirmed_as_of": null
+      "confirmed_value": 1800000000.0,
+      "confirmed_as_of": "2018-10-17"
     },
     "round_amount": {
       "metric": "round_amount",
@@ -90,12 +90,16 @@
         "clm_82091e7b5c"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 175000000.0,
+        "change_pct": 0.0,
+        "since": "2024-01-02"
+      },
       "history_ref": "history/devoted-health/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-13"
+  "last_updated": "2026-09-14"
 }

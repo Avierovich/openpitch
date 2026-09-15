@@ -48,60 +48,242 @@
     "derivation": null
   },
   {
-    "id": "clm_310b815086",
+    "id": "clm_d054f9cf12",
     "company_id": "fluidstack",
-    "metric": "open_roles",
-    "value": 249.0,
-    "unit": null,
-    "raw_text": "249 open",
-    "qualifiers": [],
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": "USD",
+    "raw_text": "$18B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
-      "type": "web",
-      "name": "fluidstack.io",
-      "url": "https://fluidstack.io/careers",
+      "type": "news",
+      "name": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNY3ZfbFhnUEJaa0FWR1FBbVBMeHl6TUxXNDdsdVFJOHhFOVM0ZHA5SUlHX0JaMEw3dVk3MkEtY2EwM3BEODU2SXVrZ2JwU3dTVVEyRjl4aGFQQ2R0bnZDcU1pME14UWxPRVlYZTZ4T2RVdHIxOWtabDd2c1lrXzl6SUtmMFF5NlIyQVE?oc=5",
       "locator": null,
-      "published_at": null
+      "published_at": "2026-04-15"
     },
-    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extracted_at": "2026-09-14T10:31:29.338960",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
-    "id": "clm_310b815086",
-    "company_id": "fluidstack",
-    "metric": "open_roles",
-    "value": 249.0,
-    "unit": null,
-    "raw_text": "249 open",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "fluidstack.io",
-      "url": "https://fluidstack.io/jobs",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_f9cdb0d0bf",
+    "id": "clm_50218adbfb",
     "company_id": "fluidstack",
     "metric": "round_amount",
     "value": 1000000000.0,
     "unit": "USD",
-    "raw_text": "$1b raise",
+    "raw_text": "raise $1B",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNY3ZfbFhnUEJaa0FWR1FBbVBMeHl6TUxXNDdsdVFJOHhFOVM0ZHA5SUlHX0JaMEw3dVk3MkEtY2EwM3BEODU2SXVrZ2JwU3dTVVEyRjl4aGFQQ2R0bnZDcU1pME14UWxPRVlYZTZ4T2RVdHIxOWtabDd2c1lrXzl6SUtmMFF5NlIyQVE?oc=5",
+      "locator": null,
+      "published_at": "2026-04-15"
+    },
+    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_d45f039187",
+    "company_id": "fluidstack",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": null,
+    "raw_text": "$18bn Fluidstack valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Private Equity Insights",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaDdUT2ZrN0F3VkUwYlRSTXBGV0R0emNZclF1aVFSdXd0WDNYQUZxQlBhLVBMSVJ1MGtiYjhKbVhjUURSb2ZqRU5DN0h1WGtzMXZyZUJWT1Z3Nm5oQ1RORkRNc3hRWW81bkVpLUxacHM1eUNjTnFWbm5YNDhRYlBsYUFuUHFSWlN4V2x6VlFjV1BRM1FpeFVMTWgyX1Q0NWFHX2FJbjJVNA?oc=5",
+      "locator": null,
+      "published_at": "2026-04-15"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
+    "id": "clm_acab5a73f4",
+    "company_id": "fluidstack",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "$1bn raise",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Private Equity Insights",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaDdUT2ZrN0F3VkUwYlRSTXBGV0R0emNZclF1aVFSdXd0WDNYQUZxQlBhLVBMSVJ1MGtiYjhKbVhjUURSb2ZqRU5DN0h1WGtzMXZyZUJWT1Z3Nm5oQ1RORkRNc3hRWW81bkVpLUxacHM1eUNjTnFWbm5YNDhRYlBsYUFuUHFSWlN4V2x6VlFjV1BRM1FpeFVMTWgyX1Q0NWFHX2FJbjJVNA?oc=5",
+      "locator": null,
+      "published_at": "2026-04-15"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
+    "id": "clm_2567eec3d3",
+    "company_id": "fluidstack",
+    "metric": "total_funding",
+    "value": 830000000.0,
+    "unit": null,
+    "raw_text": "$830M Series A",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOHQwM2pJVmhBNTRvNGJMOU1pVnVFcG1sNmFmc3Q0emZ3aG5rRjQ3MTVDWlZMd28xVUlsQnEwdDA1SVE5UVNYMmJ1YkR0OFN6bGRHMWQ2RnA0QTJROWJnRUxlbnlwdGk4bWliRVFGZ1ctZ2piTWJ2VktfUUtzNU1IUXBqQm83MVlZQlNtTWdweVVWQ21QTm9wTVQwT0lGTGs?oc=5",
+      "locator": null,
+      "published_at": "2026-07-21"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_d52a9d8159",
+    "company_id": "fluidstack",
+    "metric": "latest_round",
+    "value": 830000000.0,
+    "unit": null,
+    "raw_text": "$830M Series A",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOHQwM2pJVmhBNTRvNGJMOU1pVnVFcG1sNmFmc3Q0emZ3aG5rRjQ3MTVDWlZMd28xVUlsQnEwdDA1SVE5UVNYMmJ1YkR0OFN6bGRHMWQ2RnA0QTJROWJnRUxlbnlwdGk4bWliRVFGZ1ctZ2piTWJ2VktfUUtzNU1IUXBqQm83MVlZQlNtTWdweVVWQ21QTm9wTVQwT0lGTGs?oc=5",
+      "locator": null,
+      "published_at": "2026-07-21"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_971d18106f",
+    "company_id": "fluidstack",
+    "metric": "valuation",
+    "value": 7500000000.0,
+    "unit": null,
+    "raw_text": "$7.5B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOHQwM2pJVmhBNTRvNGJMOU1pVnVFcG1sNmFmc3Q0emZ3aG5rRjQ3MTVDWlZMd28xVUlsQnEwdDA1SVE5UVNYMmJ1YkR0OFN6bGRHMWQ2RnA0QTJROWJnRUxlbnlwdGk4bWliRVFGZ1ctZ2piTWJ2VktfUUtzNU1IUXBqQm83MVlZQlNtTWdweVVWQ21QTm9wTVQwT0lGTGs?oc=5",
+      "locator": null,
+      "published_at": "2026-07-21"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_c0df07d1c1",
+    "company_id": "fluidstack",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": null,
+    "raw_text": "$18B valuation",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeXc4RjhaVVFKYWoya2pyTHNNZUc2ZjFlRVliaFFJazJOMk9jV1Uxem1ENnBDdU50STM2T0E4bXAwOHlUVTgtTExQZG04TkZpSWVWT3ZiUjRCV2I0clQtRjJQend5OW9NWU9udll5RUw4R3VUM3JDcGV4enF0WVNoYUVreUgxZmhZUF9PZk5kR3o2NmpDUnU5Z1hXOU4?oc=5",
+      "locator": null,
+      "published_at": "2026-04-29"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2625,
+    "derivation": null
+  },
+  {
+    "id": "clm_464cf858be",
+    "company_id": "fluidstack",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "$1B raise",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeXc4RjhaVVFKYWoya2pyTHNNZUc2ZjFlRVliaFFJazJOMk9jV1Uxem1ENnBDdU50STM2T0E4bXAwOHlUVTgtTExQZG04TkZpSWVWT3ZiUjRCV2I0clQtRjJQend5OW9NWU9udll5RUw4R3VUM3JDcGV4enF0WVNoYUVreUgxZmhZUF9PZk5kR3o2NmpDUnU5Z1hXOU4?oc=5",
+      "locator": null,
+      "published_at": "2026-04-29"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2625,
+    "derivation": null
+  },
+  {
+    "id": "clm_65e06ccfdc",
+    "company_id": "fluidstack",
+    "metric": "round_amount",
+    "value": 700000000.0,
+    "unit": "USD",
+    "raw_text": "$700m",
     "qualifiers": [
       "unconfirmed",
       "forward_looking"
@@ -112,10 +294,10 @@
     },
     "source": {
       "type": "news",
-      "name": "Tech in Asia",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQkNObF83bmktQ2YyV0QzMzdiaHN1cC0yWnFTRFNTVnZ4WlVxaFNDd3drVDktZ0ZUNzNKRjZQYUhFdmd6aDAwb3p6bVFsOTFHNEUtQS1yWFZvVGtGNzUxdXdCYkpCVndrRzA2ZUxxUk1PdGxCdHhna0xzMlZPUmx1ZjZuUGYzVFFkOHN2Tg?oc=5",
+      "name": "Data Center Dynamics",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcUZuc25Ha3E1YTg0Y01PUWZLOTBheTIxNHJ0bWM5eHN2Q2VHV1dXTXpCNHlGQnIwLXJkLWdIQjhBOFdRZHJXcXVZNzdSS1RYVXlidVZJTFRQemprM3BTX2ViX2hXM2sxVGIyZlRUNzRpeDBJZmx3MlJlV19HQk16TVlTUlI5Qk9VdklzRy1mQUJqUWY3dF9pVFgtelo5NlBISjVSZTZDQk5WTEtjZ080?oc=5",
       "locator": null,
-      "published_at": "2026-04-14"
+      "published_at": "2025-12-05"
     },
     "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "gemini-3.5-flash-lite",
@@ -123,12 +305,12 @@
     "derivation": null
   },
   {
-    "id": "clm_cd39cee4d5",
+    "id": "clm_2ef020e632",
     "company_id": "fluidstack",
     "metric": "valuation",
-    "value": 18000000000.0,
+    "value": 7000000000.0,
     "unit": "USD",
-    "raw_text": "$18b valuation",
+    "raw_text": "$7bn valuation",
     "qualifiers": [
       "unconfirmed"
     ],
@@ -138,10 +320,10 @@
     },
     "source": {
       "type": "news",
-      "name": "Tech in Asia",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQkNObF83bmktQ2YyV0QzMzdiaHN1cC0yWnFTRFNTVnZ4WlVxaFNDd3drVDktZ0ZUNzNKRjZQYUhFdmd6aDAwb3p6bVFsOTFHNEUtQS1yWFZvVGtGNzUxdXdCYkpCVndrRzA2ZUxxUk1PdGxCdHhna0xzMlZPUmx1ZjZuUGYzVFFkOHN2Tg?oc=5",
+      "name": "Data Center Dynamics",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcUZuc25Ha3E1YTg0Y01PUWZLOTBheTIxNHJ0bWM5eHN2Q2VHV1dXTXpCNHlGQnIwLXJkLWdIQjhBOFdRZHJXcXVZNzdSS1RYVXlidVZJTFRQemprM3BTX2ViX2hXM2sxVGIyZlRUNzRpeDBJZmx3MlJlV19HQk16TVlTUlI5Qk9VdklzRy1mQUJqUWY3dF9pVFgtelo5NlBISjVSZTZDQk5WTEtjZ080?oc=5",
       "locator": null,
-      "published_at": "2026-04-14"
+      "published_at": "2025-12-05"
     },
     "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "gemini-3.5-flash-lite",
@@ -372,38 +554,189 @@
     "derivation": null
   },
   {
-    "id": "clm_d054f9cf12",
+    "id": "clm_320241bca3",
     "company_id": "fluidstack",
-    "metric": "valuation",
-    "value": 18000000000.0,
-    "unit": "USD",
-    "raw_text": "$18B valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
+    "metric": "open_roles",
+    "value": 244.0,
+    "unit": null,
+    "raw_text": "244 open",
+    "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
-      "type": "news",
-      "name": "The Next Web",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNY3ZfbFhnUEJaa0FWR1FBbVBMeHl6TUxXNDdsdVFJOHhFOVM0ZHA5SUlHX0JaMEw3dVk3MkEtY2EwM3BEODU2SXVrZ2JwU3dTVVEyRjl4aGFQQ2R0bnZDcU1pME14UWxPRVlYZTZ4T2RVdHIxOWtabDd2c1lrXzl6SUtmMFF5NlIyQVE?oc=5",
+      "type": "web",
+      "name": "fluidstack.io",
+      "url": "https://fluidstack.io/careers",
       "locator": null,
-      "published_at": "2026-04-15"
+      "published_at": null
     },
-    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extracted_at": "2026-09-15T10:11:13.514998",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
+    "base_confidence": 0.25,
     "derivation": null
   },
   {
-    "id": "clm_50218adbfb",
+    "id": "clm_320241bca3",
+    "company_id": "fluidstack",
+    "metric": "open_roles",
+    "value": 244.0,
+    "unit": null,
+    "raw_text": "244 open",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fluidstack.io",
+      "url": "https://fluidstack.io/jobs",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_fe22581daa",
     "company_id": "fluidstack",
     "metric": "round_amount",
     "value": 1000000000.0,
     "unit": "USD",
-    "raw_text": "raise $1B",
+    "raw_text": "$1b raise",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "techinasia.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQkNObF83bmktQ2YyV0QzMzdiaHN1cC0yWnFTRFNTVnZ4WlVxaFNDd3drVDktZ0ZUNzNKRjZQYUhFdmd6aDAwb3p6bVFsOTFHNEUtQS1yWFZvVGtGNzUxdXdCYkpCVndrRzA2ZUxxUk1PdGxCdHhna0xzMlZPUmx1ZjZuUGYzVFFkOHN2Tg?oc=5",
+      "locator": null,
+      "published_at": "2026-04-14"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
+    "id": "clm_1604d28ccf",
+    "company_id": "fluidstack",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": "USD",
+    "raw_text": "$18b valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "techinasia.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQkNObF83bmktQ2YyV0QzMzdiaHN1cC0yWnFTRFNTVnZ4WlVxaFNDd3drVDktZ0ZUNzNKRjZQYUhFdmd6aDAwb3p6bVFsOTFHNEUtQS1yWFZvVGtGNzUxdXdCYkpCVndrRzA2ZUxxUk1PdGxCdHhna0xzMlZPUmx1ZjZuUGYzVFFkOHN2Tg?oc=5",
+      "locator": null,
+      "published_at": "2026-04-14"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
+    "id": "clm_310b815086",
+    "company_id": "fluidstack",
+    "metric": "open_roles",
+    "value": 249.0,
+    "unit": null,
+    "raw_text": "249 open",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fluidstack.io",
+      "url": "https://fluidstack.io/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_310b815086",
+    "company_id": "fluidstack",
+    "metric": "open_roles",
+    "value": 249.0,
+    "unit": null,
+    "raw_text": "249 open",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fluidstack.io",
+      "url": "https://fluidstack.io/jobs",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_f9cdb0d0bf",
+    "company_id": "fluidstack",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "$1b raise",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech in Asia",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQkNObF83bmktQ2YyV0QzMzdiaHN1cC0yWnFTRFNTVnZ4WlVxaFNDd3drVDktZ0ZUNzNKRjZQYUhFdmd6aDAwb3p6bVFsOTFHNEUtQS1yWFZvVGtGNzUxdXdCYkpCVndrRzA2ZUxxUk1PdGxCdHhna0xzMlZPUmx1ZjZuUGYzVFFkOHN2Tg?oc=5",
+      "locator": null,
+      "published_at": "2026-04-14"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_cd39cee4d5",
+    "company_id": "fluidstack",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": "USD",
+    "raw_text": "$18b valuation",
     "qualifiers": [
       "unconfirmed"
     ],
@@ -413,12 +746,12 @@
     },
     "source": {
       "type": "news",
-      "name": "The Next Web",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNY3ZfbFhnUEJaa0FWR1FBbVBMeHl6TUxXNDdsdVFJOHhFOVM0ZHA5SUlHX0JaMEw3dVk3MkEtY2EwM3BEODU2SXVrZ2JwU3dTVVEyRjl4aGFQQ2R0bnZDcU1pME14UWxPRVlYZTZ4T2RVdHIxOWtabDd2c1lrXzl6SUtmMFF5NlIyQVE?oc=5",
+      "name": "Tech in Asia",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQkNObF83bmktQ2YyV0QzMzdiaHN1cC0yWnFTRFNTVnZ4WlVxaFNDd3drVDktZ0ZUNzNKRjZQYUhFdmd6aDAwb3p6bVFsOTFHNEUtQS1yWFZvVGtGNzUxdXdCYkpCVndrRzA2ZUxxUk1PdGxCdHhna0xzMlZPUmx1ZjZuUGYzVFFkOHN2Tg?oc=5",
       "locator": null,
-      "published_at": "2026-04-15"
+      "published_at": "2026-04-14"
     },
-    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
     "derivation": null
@@ -701,237 +1034,6 @@
     "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.225,
-    "derivation": null
-  },
-  {
-    "id": "clm_2567eec3d3",
-    "company_id": "fluidstack",
-    "metric": "total_funding",
-    "value": 830000000.0,
-    "unit": null,
-    "raw_text": "$830M Series A",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOHQwM2pJVmhBNTRvNGJMOU1pVnVFcG1sNmFmc3Q0emZ3aG5rRjQ3MTVDWlZMd28xVUlsQnEwdDA1SVE5UVNYMmJ1YkR0OFN6bGRHMWQ2RnA0QTJROWJnRUxlbnlwdGk4bWliRVFGZ1ctZ2piTWJ2VktfUUtzNU1IUXBqQm83MVlZQlNtTWdweVVWQ21QTm9wTVQwT0lGTGs?oc=5",
-      "locator": null,
-      "published_at": "2026-07-21"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_d52a9d8159",
-    "company_id": "fluidstack",
-    "metric": "latest_round",
-    "value": 830000000.0,
-    "unit": null,
-    "raw_text": "$830M Series A",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOHQwM2pJVmhBNTRvNGJMOU1pVnVFcG1sNmFmc3Q0emZ3aG5rRjQ3MTVDWlZMd28xVUlsQnEwdDA1SVE5UVNYMmJ1YkR0OFN6bGRHMWQ2RnA0QTJROWJnRUxlbnlwdGk4bWliRVFGZ1ctZ2piTWJ2VktfUUtzNU1IUXBqQm83MVlZQlNtTWdweVVWQ21QTm9wTVQwT0lGTGs?oc=5",
-      "locator": null,
-      "published_at": "2026-07-21"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_971d18106f",
-    "company_id": "fluidstack",
-    "metric": "valuation",
-    "value": 7500000000.0,
-    "unit": null,
-    "raw_text": "$7.5B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOHQwM2pJVmhBNTRvNGJMOU1pVnVFcG1sNmFmc3Q0emZ3aG5rRjQ3MTVDWlZMd28xVUlsQnEwdDA1SVE5UVNYMmJ1YkR0OFN6bGRHMWQ2RnA0QTJROWJnRUxlbnlwdGk4bWliRVFGZ1ctZ2piTWJ2VktfUUtzNU1IUXBqQm83MVlZQlNtTWdweVVWQ21QTm9wTVQwT0lGTGs?oc=5",
-      "locator": null,
-      "published_at": "2026-07-21"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_d45f039187",
-    "company_id": "fluidstack",
-    "metric": "valuation",
-    "value": 18000000000.0,
-    "unit": null,
-    "raw_text": "$18bn Fluidstack valuation",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Private Equity Insights",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaDdUT2ZrN0F3VkUwYlRSTXBGV0R0emNZclF1aVFSdXd0WDNYQUZxQlBhLVBMSVJ1MGtiYjhKbVhjUURSb2ZqRU5DN0h1WGtzMXZyZUJWT1Z3Nm5oQ1RORkRNc3hRWW81bkVpLUxacHM1eUNjTnFWbm5YNDhRYlBsYUFuUHFSWlN4V2x6VlFjV1BRM1FpeFVMTWgyX1Q0NWFHX2FJbjJVNA?oc=5",
-      "locator": null,
-      "published_at": "2026-04-15"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1575,
-    "derivation": null
-  },
-  {
-    "id": "clm_acab5a73f4",
-    "company_id": "fluidstack",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "$1bn raise",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Private Equity Insights",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaDdUT2ZrN0F3VkUwYlRSTXBGV0R0emNZclF1aVFSdXd0WDNYQUZxQlBhLVBMSVJ1MGtiYjhKbVhjUURSb2ZqRU5DN0h1WGtzMXZyZUJWT1Z3Nm5oQ1RORkRNc3hRWW81bkVpLUxacHM1eUNjTnFWbm5YNDhRYlBsYUFuUHFSWlN4V2x6VlFjV1BRM1FpeFVMTWgyX1Q0NWFHX2FJbjJVNA?oc=5",
-      "locator": null,
-      "published_at": "2026-04-15"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1575,
-    "derivation": null
-  },
-  {
-    "id": "clm_c0df07d1c1",
-    "company_id": "fluidstack",
-    "metric": "valuation",
-    "value": 18000000000.0,
-    "unit": null,
-    "raw_text": "$18B valuation",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeXc4RjhaVVFKYWoya2pyTHNNZUc2ZjFlRVliaFFJazJOMk9jV1Uxem1ENnBDdU50STM2T0E4bXAwOHlUVTgtTExQZG04TkZpSWVWT3ZiUjRCV2I0clQtRjJQend5OW9NWU9udll5RUw4R3VUM3JDcGV4enF0WVNoYUVreUgxZmhZUF9PZk5kR3o2NmpDUnU5Z1hXOU4?oc=5",
-      "locator": null,
-      "published_at": "2026-04-29"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2625,
-    "derivation": null
-  },
-  {
-    "id": "clm_464cf858be",
-    "company_id": "fluidstack",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "$1B raise",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeXc4RjhaVVFKYWoya2pyTHNNZUc2ZjFlRVliaFFJazJOMk9jV1Uxem1ENnBDdU50STM2T0E4bXAwOHlUVTgtTExQZG04TkZpSWVWT3ZiUjRCV2I0clQtRjJQend5OW9NWU9udll5RUw4R3VUM3JDcGV4enF0WVNoYUVreUgxZmhZUF9PZk5kR3o2NmpDUnU5Z1hXOU4?oc=5",
-      "locator": null,
-      "published_at": "2026-04-29"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2625,
-    "derivation": null
-  },
-  {
-    "id": "clm_65e06ccfdc",
-    "company_id": "fluidstack",
-    "metric": "round_amount",
-    "value": 700000000.0,
-    "unit": "USD",
-    "raw_text": "$700m",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Data Center Dynamics",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcUZuc25Ha3E1YTg0Y01PUWZLOTBheTIxNHJ0bWM5eHN2Q2VHV1dXTXpCNHlGQnIwLXJkLWdIQjhBOFdRZHJXcXVZNzdSS1RYVXlidVZJTFRQemprM3BTX2ViX2hXM2sxVGIyZlRUNzRpeDBJZmx3MlJlV19HQk16TVlTUlI5Qk9VdklzRy1mQUJqUWY3dF9pVFgtelo5NlBISjVSZTZDQk5WTEtjZ080?oc=5",
-      "locator": null,
-      "published_at": "2025-12-05"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_2ef020e632",
-    "company_id": "fluidstack",
-    "metric": "valuation",
-    "value": 7000000000.0,
-    "unit": "USD",
-    "raw_text": "$7bn valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Data Center Dynamics",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcUZuc25Ha3E1YTg0Y01PUWZLOTBheTIxNHJ0bWM5eHN2Q2VHV1dXTXpCNHlGQnIwLXJkLWdIQjhBOFdRZHJXcXVZNzdSS1RYVXlidVZJTFRQemprM3BTX2ViX2hXM2sxVGIyZlRUNzRpeDBJZmx3MlJlV19HQk16TVlTUlI5Qk9VdklzRy1mQUJqUWY3dF9pVFgtelo5NlBISjVSZTZDQk5WTEtjZ080?oc=5",
-      "locator": null,
-      "published_at": "2025-12-05"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {

@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-09-14
+# OpenPitch Data Quality Report - 2026-09-15
 
 ## Summary
 
-- Profiles generated: 412
-- Watchlist candidates: 978
+- Profiles generated: 431
+- Watchlist candidates: 981
 - Top-50 cards: 50
-- Profiles with at least one metric: 403
-- Critical issues: 78
-- Warnings: 23
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 563
+- Profiles with at least one metric: 420
+- Critical issues: 82
+- Warnings: 24
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 547
 
 ## Top-50 Companies With No Metrics
 
@@ -35,6 +35,7 @@ None.
 
 - Unifonic
 - G42
+- FourKites
 - Carbon Robotics
 - Amelia
 - Conversica
@@ -95,6 +96,9 @@ None.
 - Exscientia
 - Form Energy
 - Félix
+- Genesis Therapeutics
+- Ghost Robotics
+- Ginger
 - HUMAIN
 - Huspy
 - Ideogram
@@ -116,6 +120,7 @@ None.
 - Enflame Technology: total_funding
 - Figure AI: headcount
 - Figure AI: valuation
+- Crusoe Energy Systems: arr
 - Scale AI: headcount
 - Mercor: headcount
 - Fireworks AI: arr

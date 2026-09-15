@@ -1,5 +1,53 @@
 [
   {
+    "id": "clm_669f27e3c9",
+    "company_id": "baseten",
+    "metric": "arr",
+    "value": 15800000.0,
+    "unit": "USD",
+    "raw_text": "BaseTen Revenue 2025: $15.8M ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "getlatka.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YRkhscUdIcGFIblZPWWVLUWZsdmd0eld0V1RyMUtOTXVHZmNKem0wRGQtakxtOEw2OXd2bGYxSUxualo3UkJnOWdLcFUwM2wtcU5z?oc=5",
+      "locator": null,
+      "published_at": "2025-11-28"
+    },
+    "extracted_at": "2026-09-02T09:38:48.472295",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_fe13fc091a",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 2200000000.0,
+    "unit": "USD",
+    "raw_text": "$2.2B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "getlatka.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YRkhscUdIcGFIblZPWWVLUWZsdmd0eld0V1RyMUtOTXVHZmNKem0wRGQtakxtOEw2OXd2bGYxSUxualo3UkJnOWdLcFUwM2wtcU5z?oc=5",
+      "locator": null,
+      "published_at": "2025-11-28"
+    },
+    "extracted_at": "2026-09-02T09:38:48.472295",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_41bcc4f561",
     "company_id": "baseten",
     "metric": "latest_round",
@@ -98,32 +146,6 @@
     },
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_4643b6fec9",
-    "company_id": "baseten",
-    "metric": "valuation",
-    "value": 11000000000.0,
-    "unit": "USD",
-    "raw_text": "Inference Firm Baseten Eyes Funding Round at $11 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "pymnts.com",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPc2JuLVRJdXZ3VlBlMDVfa2Ywazg2cVRTSXA0YmpkUGhtbE5TYy12QzF1b09pS0x4LWtfS1MxQ1NGb2h0ZU5UWFoyZlpsQTFyY0llYVdTZUJLLVRHdHJEN3ROQk1vcjNSVWxaRE9sYV9PR3U2b05rNnBhanlLZWszcXdMTHdOSnBPQnlCV3R1T3BuRGpKN2xaT2dJRnVReEozX1FGM24xcXBOSE85cHZlNGZwNDROaXlISEE?oc=5",
-      "locator": null,
-      "published_at": "2026-05-27"
-    },
-    "extracted_at": "2026-09-02T09:38:48.472295",
-    "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.315,
     "derivation": null
   },
@@ -252,14 +274,12 @@
     "company_id": "baseten",
     "metric": "revenue_growth",
     "value": 30.0,
-    "unit": "multiplier",
+    "unit": null,
     "raw_text": "Baseten’s 30x growth",
-    "qualifiers": [
-      "rounded"
-    ],
+    "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "founder"
     },
     "source": {
       "type": "podcast",
@@ -268,9 +288,87 @@
       "locator": null,
       "published_at": "2026-05-01"
     },
-    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.6,
+    "derivation": null
+  },
+  {
+    "id": "clm_c08086f417",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 13000000000.0,
+    "unit": "USD",
+    "raw_text": "raises $1.5b at $13b valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "techinasia.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPckgyQXpsZHpjM2t2VTh4TEdVbUtKMlpfNGh1M3BUdjZwZTJWNWdnSkVGbXJwNTlydkh0Nzgtd2VBNGdWZzZEby1VM2NLQXpYU0Y3dGFzdnM0eUlra1ZjdnUzYVRSaE44cl9iMS14WDhnNVZaeHJJSmdVUmlkNEN3R3ltR0VYSkhRU3VHRG9uSmt3WUE?oc=5",
+      "locator": null,
+      "published_at": "2026-06-23"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_15706b1239",
+    "company_id": "baseten",
+    "metric": "round_amount",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "raises $1.5b",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "techinasia.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPckgyQXpsZHpjM2t2VTh4TEdVbUtKMlpfNGh1M3BUdjZwZTJWNWdnSkVGbXJwNTlydkh0Nzgtd2VBNGdWZzZEby1VM2NLQXpYU0Y3dGFzdnM0eUlra1ZjdnUzYVRSaE44cl9iMS14WDhnNVZaeHJJSmdVUmlkNEN3R3ltR0VYSkhRU3VHRG9uSmt3WUE?oc=5",
+      "locator": null,
+      "published_at": "2026-06-23"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_4643b6fec9",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 11000000000.0,
+    "unit": "USD",
+    "raw_text": "Inference Firm Baseten Eyes Funding Round at $11 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "pymnts.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPc2JuLVRJdXZ3VlBlMDVfa2Ywazg2cVRTSXA0YmpkUGhtbE5TYy12QzF1b09pS0x4LWtfS1MxQ1NGb2h0ZU5UWFoyZlpsQTFyY0llYVdTZUJLLVRHdHJEN3ROQk1vcjNSVWxaRE9sYV9PR3U2b05rNnBhanlLZWszcXdMTHdOSnBPQnlCV3R1T3BuRGpKN2xaT2dJRnVReEozX1FGM24xcXBOSE85cHZlNGZwNDROaXlISEE?oc=5",
+      "locator": null,
+      "published_at": "2026-05-27"
+    },
+    "extracted_at": "2026-09-02T09:38:48.472295",
     "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.378,
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -1100,54 +1198,6 @@
     "derivation": null
   },
   {
-    "id": "clm_669f27e3c9",
-    "company_id": "baseten",
-    "metric": "arr",
-    "value": 15800000.0,
-    "unit": "USD",
-    "raw_text": "BaseTen Revenue 2025: $15.8M ARR",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "getlatka.com",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YRkhscUdIcGFIblZPWWVLUWZsdmd0eld0V1RyMUtOTXVHZmNKem0wRGQtakxtOEw2OXd2bGYxSUxualo3UkJnOWdLcFUwM2wtcU5z?oc=5",
-      "locator": null,
-      "published_at": "2025-11-28"
-    },
-    "extracted_at": "2026-09-02T09:38:48.472295",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_fe13fc091a",
-    "company_id": "baseten",
-    "metric": "valuation",
-    "value": 2200000000.0,
-    "unit": "USD",
-    "raw_text": "$2.2B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "getlatka.com",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YRkhscUdIcGFIblZPWWVLUWZsdmd0eld0V1RyMUtOTXVHZmNKem0wRGQtakxtOEw2OXd2bGYxSUxualo3UkJnOWdLcFUwM2wtcU5z?oc=5",
-      "locator": null,
-      "published_at": "2025-11-28"
-    },
-    "extracted_at": "2026-09-02T09:38:48.472295",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_a1d628a9bc",
     "company_id": "baseten",
     "metric": "latest_round",
@@ -1744,10 +1794,10 @@
     "derivation": null
   },
   {
-    "id": "drv_12e9373827",
+    "id": "drv_7c0ec120dd",
     "company_id": "baseten",
     "metric": "revenue_multiple",
-    "value": 822.78,
+    "value": 139.24,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -1760,16 +1810,16 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-06-23"
+      "published_at": "2025-11-28"
     },
-    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extracted_at": "2026-09-15T10:11:13.514998",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_0479300cde",
+        "clm_fe13fc091a",
         "clm_669f27e3c9"
       ]
     }

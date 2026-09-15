@@ -1,6 +1,6 @@
 [
   {
-    "id": "clm_d984ed19d4",
+    "id": "clm_b3abcb9b7d",
     "company_id": "moonshot",
     "metric": "latest_round",
     "value": 2000000000.0,
@@ -13,18 +13,18 @@
     },
     "source": {
       "type": "news",
-      "name": "app.dealroom.co",
+      "name": "Dealroom",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQY1BzZVBMY0NWdVRiNlBpUVVfMUtaZmNORTZULUpZUGE4VmVwVzMzNVBMQzJpRmFDdHVIUDExNGd3c0dpaVNkbnpKSEdGeU1EOG56YVNkNXBjVVk4TEJZdlBJQ2ZMal9pSi1iaTM3ME9wZGVDRTEtcnhxQlRvZDA0WTZHRTdlWGJ5UnVfY3dDbTZJUktBNGRoTTVvYWRWVnQxVXo0LQ?oc=5",
       "locator": null,
       "published_at": "2026-05-07"
     },
-    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
   },
   {
-    "id": "clm_5f9891081e",
+    "id": "clm_a19ee50580",
     "company_id": "moonshot",
     "metric": "valuation",
     "value": 20000000000.0,
@@ -37,23 +37,23 @@
     },
     "source": {
       "type": "news",
-      "name": "app.dealroom.co",
+      "name": "Dealroom",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQY1BzZVBMY0NWdVRiNlBpUVVfMUtaZmNORTZULUpZUGE4VmVwVzMzNVBMQzJpRmFDdHVIUDExNGd3c0dpaVNkbnpKSEdGeU1EOG56YVNkNXBjVVk4TEJZdlBJQ2ZMal9pSi1iaTM3ME9wZGVDRTEtcnhxQlRvZDA0WTZHRTdlWGJ5UnVfY3dDbTZJUktBNGRoTTVvYWRWVnQxVXo0LQ?oc=5",
       "locator": null,
       "published_at": "2026-05-07"
     },
-    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
   },
   {
-    "id": "clm_4cdb16be52",
+    "id": "clm_348cf6bfec",
     "company_id": "moonshot",
     "metric": "arr",
     "value": 200000000.0,
     "unit": "USD",
-    "raw_text": "$200M ARR",
+    "raw_text": "Kimi hits $200M ARR",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -61,12 +61,12 @@
     },
     "source": {
       "type": "news",
-      "name": "app.dealroom.co",
+      "name": "Dealroom",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQY1BzZVBMY0NWdVRiNlBpUVVfMUtaZmNORTZULUpZUGE4VmVwVzMzNVBMQzJpRmFDdHVIUDExNGd3c0dpaVNkbnpKSEdGeU1EOG56YVNkNXBjVVk4TEJZdlBJQ2ZMal9pSi1iaTM3ME9wZGVDRTEtcnhxQlRvZDA0WTZHRTdlWGJ5UnVfY3dDbTZJUktBNGRoTTVvYWRWVnQxVXo0LQ?oc=5",
       "locator": null,
       "published_at": "2026-05-07"
     },
-    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -117,6 +117,107 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.42,
+    "derivation": null
+  },
+  {
+    "id": "clm_9c0ab7e1e5",
+    "company_id": "moonshot",
+    "metric": "arr",
+    "value": 2000000000.0,
+    "unit": null,
+    "raw_text": "Targets $2B Annual Revenue",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "36 Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90enFIQkgyUWhCQ1VUTWlUMG00amJxR2k1QzZ0ZWVhSTg1djN3bHMzTHFlYkpWSDlERHdySGhnLXIzeF8xNFlvR0ROdDRQYmd6Q3lV?oc=5",
+      "locator": null,
+      "published_at": "2026-09-11"
+    },
+    "extracted_at": "2026-09-12T09:20:27.932122",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3675,
+    "derivation": null
+  },
+  {
+    "id": "clm_49c32518cc",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": null,
+    "raw_text": "$50B Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "36 Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90enFIQkgyUWhCQ1VUTWlUMG00amJxR2k1QzZ0ZWVhSTg1djN3bHMzTHFlYkpWSDlERHdySGhnLXIzeF8xNFlvR0ROdDRQYmd6Q3lV?oc=5",
+      "locator": null,
+      "published_at": "2026-09-11"
+    },
+    "extracted_at": "2026-09-12T09:20:27.932122",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_12c7436640",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 31500000000.0,
+    "unit": "USD",
+    "raw_text": "Valuation Jumps to $31.5 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QeTFFb2IxX0M1eS1rd3RJWXp4b1paeE9GaU83YlhBR3A4c2lCUGxWbmYxcmg4ekUtRzREWl81TFVISFk3emNfN0k4aHpVZ2w0X3h4Zk5qNzBmZDlCdFRlZEdKdFFFODgwSTBMNGFtMDhSZk1RdVE?oc=5",
+      "locator": null,
+      "published_at": "2026-06-29"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_a61484dfed",
+    "company_id": "moonshot",
+    "metric": "arr",
+    "value": 300000000.0,
+    "unit": "USD",
+    "raw_text": "ARR Tops $300 Million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QeTFFb2IxX0M1eS1rd3RJWXp4b1paeE9GaU83YlhBR3A4c2lCUGxWbmYxcmg4ekUtRzREWl81TFVISFk3emNfN0k4aHpVZ2w0X3h4Zk5qNzBmZDlCdFRlZEdKdFFFODgwSTBMNGFtMDhSZk1RdVE?oc=5",
+      "locator": null,
+      "published_at": "2026-06-29"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -339,6 +440,54 @@
     "derivation": null
   },
   {
+    "id": "clm_c3faf6bdb5",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 35000000000.0,
+    "unit": "USD",
+    "raw_text": "$35B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM1V4WFV1RWJIQ2Y5TGxBeGRRSGdUV2RSS3hYS1IxWHV5MklWc0xheGIwVjhTS3QySkVQd0JGN2k3dC1wZGx1V0Y1QWxkNk0zS1QyZnZXbTZHdWNCRGFlYUlkNmVlMGZBME1zd0ZrVlVXVmgzNm0zbWExZ0RmMkRaX2MwQk5KdU1KbkVLRnQwbGx0RE1kakVOcVhKQWZIakZfdVE?oc=5",
+      "locator": null,
+      "published_at": "2026-07-30"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_0cc06da7e3",
+    "company_id": "moonshot",
+    "metric": "round_amount",
+    "value": 3500000000.0,
+    "unit": "USD",
+    "raw_text": "$3.5B raise",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM1V4WFV1RWJIQ2Y5TGxBeGRRSGdUV2RSS3hYS1IxWHV5MklWc0xheGIwVjhTS3QySkVQd0JGN2k3dC1wZGx1V0Y1QWxkNk0zS1QyZnZXbTZHdWNCRGFlYUlkNmVlMGZBME1zd0ZrVlVXVmgzNm0zbWExZ0RmMkRaX2MwQk5KdU1KbkVLRnQwbGx0RE1kakVOcVhKQWZIakZfdVE?oc=5",
+      "locator": null,
+      "published_at": "2026-07-30"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_4575d261ba",
     "company_id": "moonshot",
     "metric": "total_funding",
@@ -437,30 +586,6 @@
     "derivation": null
   },
   {
-    "id": "clm_84ed6e38cf",
-    "company_id": "moonshot",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "$30B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "app.dealroom.co",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZU5GNzRjZFhzLVI1OHROaEE0YjhadXNGQXZPS3JMd1RrU2VlVnRBeGF5Nks1XzV2MWMtcjZxekF0cG1Hd2dwV21JREhpNm9meFFXcjZ1X29rUm9iV1FuQ3k4STVEdDliVHFpWWNRVTljc1ZxRlprcV9Xak5LZDdpMlNFMDdEVTRXdng5NGhRMjFBeTNlRFV4dlV2UnlmVWg2TnRLM1J3?oc=5",
-      "locator": null,
-      "published_at": "2026-09-04"
-    },
-    "extracted_at": "2026-09-11T09:45:35.269135",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_33e016e715",
     "company_id": "moonshot",
     "metric": "valuation",
@@ -482,6 +607,32 @@
       "published_at": "2026-07-21"
     },
     "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_4dc677a0a0",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "$30B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZU5GNzRjZFhzLVI1OHROaEE0YjhadXNGQXZPS3JMd1RrU2VlVnRBeGF5Nks1XzV2MWMtcjZxekF0cG1Hd2dwV21JREhpNm9meFFXcjZ1X29rUm9iV1FuQ3k4STVEdDliVHFpWWNRVTljc1ZxRlprcV9Xak5LZDdpMlNFMDdEVTRXdng5NGhRMjFBeTNlRFV4dlV2UnlmVWg2TnRLM1J3?oc=5",
+      "locator": null,
+      "published_at": "2026-09-04"
+    },
+    "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
     "derivation": null
@@ -530,6 +681,102 @@
       "published_at": "2026-07-30"
     },
     "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_d984ed19d4",
+    "company_id": "moonshot",
+    "metric": "latest_round",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "Moonshot AI raises $2B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "app.dealroom.co",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQY1BzZVBMY0NWdVRiNlBpUVVfMUtaZmNORTZULUpZUGE4VmVwVzMzNVBMQzJpRmFDdHVIUDExNGd3c0dpaVNkbnpKSEdGeU1EOG56YVNkNXBjVVk4TEJZdlBJQ2ZMal9pSi1iaTM3ME9wZGVDRTEtcnhxQlRvZDA0WTZHRTdlWGJ5UnVfY3dDbTZJUktBNGRoTTVvYWRWVnQxVXo0LQ?oc=5",
+      "locator": null,
+      "published_at": "2026-05-07"
+    },
+    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_5f9891081e",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": "USD",
+    "raw_text": "$20B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "app.dealroom.co",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQY1BzZVBMY0NWdVRiNlBpUVVfMUtaZmNORTZULUpZUGE4VmVwVzMzNVBMQzJpRmFDdHVIUDExNGd3c0dpaVNkbnpKSEdGeU1EOG56YVNkNXBjVVk4TEJZdlBJQ2ZMal9pSi1iaTM3ME9wZGVDRTEtcnhxQlRvZDA0WTZHRTdlWGJ5UnVfY3dDbTZJUktBNGRoTTVvYWRWVnQxVXo0LQ?oc=5",
+      "locator": null,
+      "published_at": "2026-05-07"
+    },
+    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_4cdb16be52",
+    "company_id": "moonshot",
+    "metric": "arr",
+    "value": 200000000.0,
+    "unit": "USD",
+    "raw_text": "$200M ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "app.dealroom.co",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQY1BzZVBMY0NWdVRiNlBpUVVfMUtaZmNORTZULUpZUGE4VmVwVzMzNVBMQzJpRmFDdHVIUDExNGd3c0dpaVNkbnpKSEdGeU1EOG56YVNkNXBjVVk4TEJZdlBJQ2ZMal9pSi1iaTM3ME9wZGVDRTEtcnhxQlRvZDA0WTZHRTdlWGJ5UnVfY3dDbTZJUktBNGRoTTVvYWRWVnQxVXo0LQ?oc=5",
+      "locator": null,
+      "published_at": "2026-05-07"
+    },
+    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_84ed6e38cf",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "$30B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "app.dealroom.co",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZU5GNzRjZFhzLVI1OHROaEE0YjhadXNGQXZPS3JMd1RrU2VlVnRBeGF5Nks1XzV2MWMtcjZxekF0cG1Hd2dwV21JREhpNm9meFFXcjZ1X29rUm9iV1FuQ3k4STVEdDliVHFpWWNRVTljc1ZxRlprcV9Xak5LZDdpMlNFMDdEVTRXdng5NGhRMjFBeTNlRFV4dlV2UnlmVWg2TnRLM1J3?oc=5",
+      "locator": null,
+      "published_at": "2026-09-04"
+    },
+    "extracted_at": "2026-09-11T09:45:35.269135",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -643,179 +890,6 @@
     "derivation": null
   },
   {
-    "id": "clm_b3abcb9b7d",
-    "company_id": "moonshot",
-    "metric": "latest_round",
-    "value": 2000000000.0,
-    "unit": "USD",
-    "raw_text": "Moonshot AI raises $2B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQY1BzZVBMY0NWdVRiNlBpUVVfMUtaZmNORTZULUpZUGE4VmVwVzMzNVBMQzJpRmFDdHVIUDExNGd3c0dpaVNkbnpKSEdGeU1EOG56YVNkNXBjVVk4TEJZdlBJQ2ZMal9pSi1iaTM3ME9wZGVDRTEtcnhxQlRvZDA0WTZHRTdlWGJ5UnVfY3dDbTZJUktBNGRoTTVvYWRWVnQxVXo0LQ?oc=5",
-      "locator": null,
-      "published_at": "2026-05-07"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_a19ee50580",
-    "company_id": "moonshot",
-    "metric": "valuation",
-    "value": 20000000000.0,
-    "unit": "USD",
-    "raw_text": "$20B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQY1BzZVBMY0NWdVRiNlBpUVVfMUtaZmNORTZULUpZUGE4VmVwVzMzNVBMQzJpRmFDdHVIUDExNGd3c0dpaVNkbnpKSEdGeU1EOG56YVNkNXBjVVk4TEJZdlBJQ2ZMal9pSi1iaTM3ME9wZGVDRTEtcnhxQlRvZDA0WTZHRTdlWGJ5UnVfY3dDbTZJUktBNGRoTTVvYWRWVnQxVXo0LQ?oc=5",
-      "locator": null,
-      "published_at": "2026-05-07"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_348cf6bfec",
-    "company_id": "moonshot",
-    "metric": "arr",
-    "value": 200000000.0,
-    "unit": "USD",
-    "raw_text": "Kimi hits $200M ARR",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQY1BzZVBMY0NWdVRiNlBpUVVfMUtaZmNORTZULUpZUGE4VmVwVzMzNVBMQzJpRmFDdHVIUDExNGd3c0dpaVNkbnpKSEdGeU1EOG56YVNkNXBjVVk4TEJZdlBJQ2ZMal9pSi1iaTM3ME9wZGVDRTEtcnhxQlRvZDA0WTZHRTdlWGJ5UnVfY3dDbTZJUktBNGRoTTVvYWRWVnQxVXo0LQ?oc=5",
-      "locator": null,
-      "published_at": "2026-05-07"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_9c0ab7e1e5",
-    "company_id": "moonshot",
-    "metric": "arr",
-    "value": 2000000000.0,
-    "unit": null,
-    "raw_text": "Targets $2B Annual Revenue",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "36 Kr",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90enFIQkgyUWhCQ1VUTWlUMG00amJxR2k1QzZ0ZWVhSTg1djN3bHMzTHFlYkpWSDlERHdySGhnLXIzeF8xNFlvR0ROdDRQYmd6Q3lV?oc=5",
-      "locator": null,
-      "published_at": "2026-09-11"
-    },
-    "extracted_at": "2026-09-12T09:20:27.932122",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3675,
-    "derivation": null
-  },
-  {
-    "id": "clm_49c32518cc",
-    "company_id": "moonshot",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": null,
-    "raw_text": "$50B Valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "36 Kr",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90enFIQkgyUWhCQ1VUTWlUMG00amJxR2k1QzZ0ZWVhSTg1djN3bHMzTHFlYkpWSDlERHdySGhnLXIzeF8xNFlvR0ROdDRQYmd6Q3lV?oc=5",
-      "locator": null,
-      "published_at": "2026-09-11"
-    },
-    "extracted_at": "2026-09-12T09:20:27.932122",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_c3faf6bdb5",
-    "company_id": "moonshot",
-    "metric": "valuation",
-    "value": 35000000000.0,
-    "unit": "USD",
-    "raw_text": "$35B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM1V4WFV1RWJIQ2Y5TGxBeGRRSGdUV2RSS3hYS1IxWHV5MklWc0xheGIwVjhTS3QySkVQd0JGN2k3dC1wZGx1V0Y1QWxkNk0zS1QyZnZXbTZHdWNCRGFlYUlkNmVlMGZBME1zd0ZrVlVXVmgzNm0zbWExZ0RmMkRaX2MwQk5KdU1KbkVLRnQwbGx0RE1kakVOcVhKQWZIakZfdVE?oc=5",
-      "locator": null,
-      "published_at": "2026-07-30"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_0cc06da7e3",
-    "company_id": "moonshot",
-    "metric": "round_amount",
-    "value": 3500000000.0,
-    "unit": "USD",
-    "raw_text": "$3.5B raise",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM1V4WFV1RWJIQ2Y5TGxBeGRRSGdUV2RSS3hYS1IxWHV5MklWc0xheGIwVjhTS3QySkVQd0JGN2k3dC1wZGx1V0Y1QWxkNk0zS1QyZnZXbTZHdWNCRGFlYUlkNmVlMGZBME1zd0ZrVlVXVmgzNm0zbWExZ0RmMkRaX2MwQk5KdU1KbkVLRnQwbGx0RE1kakVOcVhKQWZIakZfdVE?oc=5",
-      "locator": null,
-      "published_at": "2026-07-30"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_68e4bf89e4",
     "company_id": "moonshot",
     "metric": "valuation",
@@ -840,32 +914,6 @@
     "extracted_at": "2026-08-31T12:11:11.881256",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_4dc677a0a0",
-    "company_id": "moonshot",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "$30B valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZU5GNzRjZFhzLVI1OHROaEE0YjhadXNGQXZPS3JMd1RrU2VlVnRBeGF5Nks1XzV2MWMtcjZxekF0cG1Hd2dwV21JREhpNm9meFFXcjZ1X29rUm9iV1FuQ3k4STVEdDliVHFpWWNRVTljc1ZxRlprcV9Xak5LZDdpMlNFMDdEVTRXdng5NGhRMjFBeTNlRFV4dlV2UnlmVWg2TnRLM1J3?oc=5",
-      "locator": null,
-      "published_at": "2026-09-04"
-    },
-    "extracted_at": "2026-09-04T09:41:05.539009",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -1233,54 +1281,6 @@
     "extracted_at": "2026-09-07T10:15:07.048991",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_12c7436640",
-    "company_id": "moonshot",
-    "metric": "valuation",
-    "value": 31500000000.0,
-    "unit": "USD",
-    "raw_text": "Valuation Jumps to $31.5 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QeTFFb2IxX0M1eS1rd3RJWXp4b1paeE9GaU83YlhBR3A4c2lCUGxWbmYxcmg4ekUtRzREWl81TFVISFk3emNfN0k4aHpVZ2w0X3h4Zk5qNzBmZDlCdFRlZEdKdFFFODgwSTBMNGFtMDhSZk1RdVE?oc=5",
-      "locator": null,
-      "published_at": "2026-06-29"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_a61484dfed",
-    "company_id": "moonshot",
-    "metric": "arr",
-    "value": 300000000.0,
-    "unit": "USD",
-    "raw_text": "ARR Tops $300 Million",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QeTFFb2IxX0M1eS1rd3RJWXp4b1paeE9GaU83YlhBR3A4c2lCUGxWbmYxcmg4ekUtRzREWl81TFVISFk3emNfN0k4aHpVZ2w0X3h4Zk5qNzBmZDlCdFRlZEdKdFFFODgwSTBMNGFtMDhSZk1RdVE?oc=5",
-      "locator": null,
-      "published_at": "2026-06-29"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -1966,7 +1966,7 @@
     "derivation": null
   },
   {
-    "id": "drv_58dbc5130c",
+    "id": "drv_667f60eb9a",
     "company_id": "moonshot",
     "metric": "revenue_multiple",
     "value": 100.0,
@@ -1984,15 +1984,15 @@
       "locator": null,
       "published_at": "2026-05-07"
     },
-    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extracted_at": "2026-09-15T10:11:13.514998",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_5f9891081e",
-        "clm_4cdb16be52"
+        "clm_a19ee50580",
+        "clm_348cf6bfec"
       ]
     }
   }

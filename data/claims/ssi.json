@@ -245,57 +245,6 @@
     "derivation": null
   },
   {
-    "id": "clm_231c6cb5bf",
-    "company_id": "ssi",
-    "metric": "headcount",
-    "value": 50.0,
-    "unit": null,
-    "raw_text": "roughly 50 employees",
-    "qualifiers": [
-      "rounded",
-      "approximate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "finance.yahoo.com",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVhWajdRUTRBYnpSNGJDVzRpNlNRbV85Mml0VEFINUZndjNnNFpsdFVSRFktei1BdXVpUXB2dkxCRlBYelZ4YnZRZGpuejFSUkVHV2haUjZsa3Z2czVLc2Nfa01ZbGpsSUc1R0lXYnFnMkVrRUpLZDdNWUFyT0lVS3B1VWlCcEVtTE50bUliWThxUElQYUxNT1lRSQ?oc=5",
-      "locator": null,
-      "published_at": "2026-07-29"
-    },
-    "extracted_at": "2026-09-05T09:07:28.177448",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4016,
-    "derivation": null
-  },
-  {
-    "id": "clm_ae674c4397",
-    "company_id": "ssi",
-    "metric": "valuation",
-    "value": 32000000000.0,
-    "unit": null,
-    "raw_text": "$32 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "finance.yahoo.com",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVhWajdRUTRBYnpSNGJDVzRpNlNRbV85Mml0VEFINUZndjNnNFpsdFVSRFktei1BdXVpUXB2dkxCRlBYelZ4YnZRZGpuejFSUkVHV2haUjZsa3Z2czVLc2Nfa01ZbGpsSUc1R0lXYnFnMkVrRUpLZDdNWUFyT0lVS3B1VWlCcEVtTE50bUliWThxUElQYUxNT1lRSQ?oc=5",
-      "locator": null,
-      "published_at": "2026-07-29"
-    },
-    "extracted_at": "2026-09-05T09:07:28.177448",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_4b98b708d4",
     "company_id": "ssi",
     "metric": "valuation",
@@ -315,54 +264,6 @@
       "published_at": "2026-06-06"
     },
     "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_35967c4ccf",
-    "company_id": "ssi",
-    "metric": "valuation",
-    "value": 32000000000.0,
-    "unit": null,
-    "raw_text": "valued at $32B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "calcalistech.com",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9GMXZKZU5ZREg0SHc1YUcxaGc5UWZSVTQ4eGhhb0taS2JPNGQ1T2tBWERqcWlKRVNsOFhNQ2hyS0JTa1lneU5MYWFtamNMM1NGSmNOT3ZvVC1ZY25wVzBWZExyZ2VuNG9X?oc=5",
-      "locator": null,
-      "published_at": "2025-04-15"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_77164e6e95",
-    "company_id": "ssi",
-    "metric": "valuation",
-    "value": 32000000000.0,
-    "unit": "USD",
-    "raw_text": "$32b valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech in Asia",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYndJZ09UQWtMS3dGUU5yQzlMVGJYSmpUbkVIT0hibG4tYXFKWWVWTEZYRk1aZmFhTHdEWDU1bEFIbkxpVEJuY0IxNV8tQ0gzNC0xRUt1dGkxMW9xc2lCMHJVUGlqUFZXTjVLQTc3SGpoTTltYmFnNFBFNzFZMDdxdQ?oc=5",
-      "locator": null,
-      "published_at": "2026-07-28"
-    },
-    "extracted_at": "2026-09-07T10:15:07.048991",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -418,6 +319,30 @@
     "derivation": null
   },
   {
+    "id": "clm_35967c4ccf",
+    "company_id": "ssi",
+    "metric": "valuation",
+    "value": 32000000000.0,
+    "unit": null,
+    "raw_text": "valued at $32B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "calcalistech.com",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9GMXZKZU5ZREg0SHc1YUcxaGc5UWZSVTQ4eGhhb0taS2JPNGQ1T2tBWERqcWlKRVNsOFhNQ2hyS0JTa1lneU5MYWFtamNMM1NGSmNOT3ZvVC1ZY25wVzBWZExyZ2VuNG9X?oc=5",
+      "locator": null,
+      "published_at": "2025-04-15"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_22410c2e30",
     "company_id": "ssi",
     "metric": "valuation",
@@ -437,6 +362,135 @@
       "published_at": "2026-07-28"
     },
     "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_58bb2f5b3c",
+    "company_id": "ssi",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": null,
+    "raw_text": "in talks to be valued at $20 billion",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLUI5YWtRYjJwd3p4QnFjOThNMWp6b2ZQN0F1OTdNdU9jQlJER2pIb1FoS0NkMHBLMmwzdWRmVmRaNDhYTTlMVjYweWp1dFFJUVNOcGt4aUdRdnRmX2FIZVlaQ2ZoQ3gzNkFpcHFUaUt1MlIwS3JKU3ItbzNHbWlSZGlmdm44OWdYWUVjMm1DOUNyMFJHUlJQT3JnTG5ESTBiS2VGcDlUd213dG8ydHJnaEx1OGU?oc=5",
+      "locator": null,
+      "published_at": "2025-02-07"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_cba9ab20c3",
+    "company_id": "ssi",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": null,
+    "raw_text": "$30 billion-plus valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking",
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "fortune.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM0VMdC1jRzBrZkphYjRlaFJhdjhFbV9CMkQxRTVIZ2Ffalp2aDAxMDBhVnhkNTFaQTQyYVgxRDMtbnlHWnYxbTRxa2t3NVNfbUtsWUJ1ZWxVNXdZNnRfUGV4S0ltaEZpd3czVkR4ckJRQnptQUgtQjJscUxBdEsxMWYwSDNQMWRMNkVXTWtySVhqMU1MdV83Umd6T3AwdUREYy11NWRDZ0k?oc=5",
+      "locator": null,
+      "published_at": "2025-02-18"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1984,
+    "derivation": null
+  },
+  {
+    "id": "clm_231c6cb5bf",
+    "company_id": "ssi",
+    "metric": "headcount",
+    "value": 50.0,
+    "unit": null,
+    "raw_text": "roughly 50 employees",
+    "qualifiers": [
+      "rounded",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVhWajdRUTRBYnpSNGJDVzRpNlNRbV85Mml0VEFINUZndjNnNFpsdFVSRFktei1BdXVpUXB2dkxCRlBYelZ4YnZRZGpuejFSUkVHV2haUjZsa3Z2czVLc2Nfa01ZbGpsSUc1R0lXYnFnMkVrRUpLZDdNWUFyT0lVS3B1VWlCcEVtTE50bUliWThxUElQYUxNT1lRSQ?oc=5",
+      "locator": null,
+      "published_at": "2026-07-29"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4016,
+    "derivation": null
+  },
+  {
+    "id": "clm_ae674c4397",
+    "company_id": "ssi",
+    "metric": "valuation",
+    "value": 32000000000.0,
+    "unit": null,
+    "raw_text": "$32 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVhWajdRUTRBYnpSNGJDVzRpNlNRbV85Mml0VEFINUZndjNnNFpsdFVSRFktei1BdXVpUXB2dkxCRlBYelZ4YnZRZGpuejFSUkVHV2haUjZsa3Z2czVLc2Nfa01ZbGpsSUc1R0lXYnFnMkVrRUpLZDdNWUFyT0lVS3B1VWlCcEVtTE50bUliWThxUElQYUxNT1lRSQ?oc=5",
+      "locator": null,
+      "published_at": "2026-07-29"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_77164e6e95",
+    "company_id": "ssi",
+    "metric": "valuation",
+    "value": 32000000000.0,
+    "unit": "USD",
+    "raw_text": "$32b valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech in Asia",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYndJZ09UQWtMS3dGUU5yQzlMVGJYSmpUbkVIT0hibG4tYXFKWWVWTEZYRk1aZmFhTHdEWDU1bEFIbkxpVEJuY0IxNV8tQ0gzNC0xRUt1dGkxMW9xc2lCMHJVUGlqUFZXTjVLQTc3SGpoTTltYmFnNFBFNzFZMDdxdQ?oc=5",
+      "locator": null,
+      "published_at": "2026-07-28"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -609,32 +663,6 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONWNDNnF6UFBjMURTaHVMa2hmQ2ZfcldQWk12NlFKYVZYNDQ1SmxBLUFnOVBIYkx1c2hoeVRaa0VQUjR0YVdtRkhhOWxPMW9mTmVDNDg2ck5aTlptQlh3d25INENvMzJ4UXdtNmQ5N0pZVE1IRjZFQ0RCT3cxamZFVVdzaHZrQmRZekUzcGNjVXJacFpYU2hUdkhlQkJOdk5WbXlXR1ZHSTlZa2dLaU9IblBzYUFWeXc?oc=5",
       "locator": null,
       "published_at": "2025-04-12"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_58bb2f5b3c",
-    "company_id": "ssi",
-    "metric": "valuation",
-    "value": 20000000000.0,
-    "unit": null,
-    "raw_text": "in talks to be valued at $20 billion",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLUI5YWtRYjJwd3p4QnFjOThNMWp6b2ZQN0F1OTdNdU9jQlJER2pIb1FoS0NkMHBLMmwzdWRmVmRaNDhYTTlMVjYweWp1dFFJUVNOcGt4aUdRdnRmX2FIZVlaQ2ZoQ3gzNkFpcHFUaUt1MlIwS3JKU3ItbzNHbWlSZGlmdm44OWdYWUVjMm1DOUNyMFJHUlJQT3JnTG5ESTBiS2VGcDlUd213dG8ydHJnaEx1OGU?oc=5",
-      "locator": null,
-      "published_at": "2025-02-07"
     },
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",

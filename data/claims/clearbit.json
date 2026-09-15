@@ -1,0 +1,155 @@
+[
+  {
+    "id": "clm_b6fd6d6085",
+    "company_id": "clearbit",
+    "metric": "arr",
+    "value": 31500000.0,
+    "unit": null,
+    "raw_text": "$31.5M Est. ARR",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "getlatka.com",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5MX1MwYnhtSnlIQ3RnekhPWnhYQVd5SXdTRWx1cWhWSXV2b3F1ZkVYSXdkOWJweG1CT1c2RnQwRFBjcTdkSTExNVZxNmdjY1pt?oc=5",
+      "locator": null,
+      "published_at": "2023-11-21"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3375,
+    "derivation": null
+  },
+  {
+    "id": "clm_52208c10f1",
+    "company_id": "clearbit",
+    "metric": "total_funding",
+    "value": 38500000.0,
+    "unit": null,
+    "raw_text": "$38.5M Raised",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "getlatka.com",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5MX1MwYnhtSnlIQ3RnekhPWnhYQVd5SXdTRWx1cWhWSXV2b3F1ZkVYSXdkOWJweG1CT1c2RnQwRFBjcTdkSTExNVZxNmdjY1pt?oc=5",
+      "locator": null,
+      "published_at": "2023-11-21"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_36d32b6059",
+    "company_id": "clearbit",
+    "metric": "subscribers",
+    "value": 400000.0,
+    "unit": null,
+    "raw_text": "over 400,0000 users",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "techcrunch.com",
+      "url": "https://techcrunch.com/2023/11/01/hubspot-picks-up-b2b-data-provider-clearbit-to-enhance-its-ai-platform/",
+      "locator": null,
+      "published_at": "2023-11-01"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_8c5a5f9272",
+    "company_id": "clearbit",
+    "metric": "total_funding",
+    "value": 17000000.0,
+    "unit": "USD",
+    "raw_text": "raised $17 million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "techcrunch.com",
+      "url": "https://techcrunch.com/2023/11/01/hubspot-picks-up-b2b-data-provider-clearbit-to-enhance-its-ai-platform/",
+      "locator": null,
+      "published_at": "2023-11-01"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_77e3c4d6ac",
+    "company_id": "clearbit",
+    "metric": "valuation",
+    "value": 250000000.0,
+    "unit": "USD",
+    "raw_text": "valued at $250 million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "techcrunch.com",
+      "url": "https://techcrunch.com/2023/11/01/hubspot-picks-up-b2b-data-provider-clearbit-to-enhance-its-ai-platform/",
+      "locator": null,
+      "published_at": "2023-11-01"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "drv_18c7f220dc",
+    "company_id": "clearbit",
+    "metric": "revenue_multiple",
+    "value": 7.94,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2023-11-21"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.1164,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_77e3c4d6ac",
+        "clm_b6fd6d6085"
+      ]
+    }
+  }
+]

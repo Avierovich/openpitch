@@ -14,29 +14,32 @@
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 63686415329.0,
+      "value": 62512267911.06,
       "unit": "USD",
       "range": {
         "low": 50000000000.0,
-        "high": 50000000000.0
+        "high": 52000000000.0
       },
       "as_of": "2026-08-13",
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
+        "clm_9df0bd6f6c",
         "clm_81adf84148",
         "clm_a324fe3bc9",
         "clm_997f13b6f9",
         "clm_de4463625d",
         "clm_88ce0e8db7",
+        "clm_4c5e20d1ae",
         "clm_39be967715",
         "clm_ed1b4b36d3",
         "clm_aff2cf13b5",
         "clm_93952d7e80",
         "clm_728081a323",
         "clm_7c98825f1c",
-        "clm_11c1af281d",
+        "clm_f99df150ea",
         "clm_f531bdf667",
+        "clm_11c1af281d",
         "clm_9531c75902",
         "clm_8ec8e30863",
         "clm_acf70adcaf",
@@ -45,14 +48,14 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 63394156280.46,
-        "change_pct": 0.5,
-        "since": "2026-07-18"
+        "previous": 63686415329.0,
+        "change_pct": -1.8,
+        "since": "2026-08-13"
       },
       "history_ref": "history/deepseek-ai/valuation.jsonl",
       "unconfirmed": true,
-      "confirmed_value": 50000000000.0,
-      "confirmed_as_of": "2026-06-17"
+      "confirmed_value": 52000000000.0,
+      "confirmed_as_of": "2026-07-16"
     },
     "round_amount": {
       "metric": "round_amount",
@@ -61,7 +64,7 @@
       "range": null,
       "as_of": "2026-06-03",
       "estimate_type": "consensus",
-      "confidence": 0.421,
+      "confidence": 0.42,
       "supporting_claims": [
         "clm_2c0ab77b59",
         "clm_4475dcae60",
@@ -106,5 +109,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-14"
+  "last_updated": "2026-09-15"
 }

@@ -1,5 +1,58 @@
 [
   {
+    "id": "clm_d04bab179d",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1000000000000.0,
+    "unit": null,
+    "raw_text": "$1 Trillion IPO Valuation for OpenAI",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaG0zU2RnSjVxLUN1M0U1bkVFeGFmTGRIVnNnUDZCWGNxbk9NalRqY3p3bDczbHJkZURNYnJlWTI0N1gwbDdkbEJBYUJUME1KOG5Hb3FvZk5sb3lNRWFyVjdzTWFrQUlPTVgxN2NzNjIzcWVDbDdISExmM2FvTlMwR2RaOUg4cWxiTmRxWTNUYTJFYjc5WXBzLWFB?oc=5",
+      "locator": null,
+      "published_at": "2026-08-13"
+    },
+    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_1c0bd323eb",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI annualized revenue tops $40 billion",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "qz.com",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1vR21vVWR6RnFZZGQ2dFEwSm9FUjE2cW9IUk0tN1dXTVFQanBUbTlMM0h1N1Q2OWlMT19kMXJVNEV6ME9ZSXVpZUdFZjhqMFVuaDR2NEJtMUstd2U0THQ3QlBsWURIdG1va0NWY0RObw?oc=5",
+      "locator": null,
+      "published_at": "2026-08-14"
+    },
+    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
     "id": "clm_e28c12bdb7",
     "company_id": "openai",
     "metric": "arr",
@@ -53,33 +106,6 @@
     "derivation": null
   },
   {
-    "id": "clm_d04bab179d",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 1000000000000.0,
-    "unit": null,
-    "raw_text": "$1 Trillion IPO Valuation for OpenAI",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "exec"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaG0zU2RnSjVxLUN1M0U1bkVFeGFmTGRIVnNnUDZCWGNxbk9NalRqY3p3bDczbHJkZURNYnJlWTI0N1gwbDdkbEJBYUJUME1KOG5Hb3FvZk5sb3lNRWFyVjdzTWFrQUlPTVgxN2NzNjIzcWVDbDdISExmM2FvTlMwR2RaOUg4cWxiTmRxWTNUYTJFYjc5WXBzLWFB?oc=5",
-      "locator": null,
-      "published_at": "2026-08-13"
-    },
-    "extracted_at": "2026-09-04T09:41:05.539009",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_791ef4577f",
     "company_id": "openai",
     "metric": "arr",
@@ -104,32 +130,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.3307,
-    "derivation": null
-  },
-  {
-    "id": "clm_1c0bd323eb",
-    "company_id": "openai",
-    "metric": "arr",
-    "value": 40000000000.0,
-    "unit": "USD",
-    "raw_text": "OpenAI annualized revenue tops $40 billion",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "qz.com",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1vR21vVWR6RnFZZGQ2dFEwSm9FUjE2cW9IUk0tN1dXTVFQanBUbTlMM0h1N1Q2OWlMT19kMXJVNEV6ME9ZSXVpZUdFZjhqMFVuaDR2NEJtMUstd2U0THQ3QlBsWURIdG1va0NWY0RObw?oc=5",
-      "locator": null,
-      "published_at": "2026-08-14"
-    },
-    "extracted_at": "2026-09-10T09:49:02.856855",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -1079,7 +1079,7 @@
       "locator": null,
       "published_at": "2026-08-20"
     },
-    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extracted_at": "2026-09-15T10:11:13.514998",
     "extractor_model": "derive-engine",
     "base_confidence": 0.4658,
     "derivation": {

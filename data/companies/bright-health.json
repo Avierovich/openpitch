@@ -12,6 +12,31 @@
   "vc_attention_score": 84.7,
   "universe_rank": 42,
   "metrics": {
+    "valuation": {
+      "metric": "valuation",
+      "value": 14000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-01-20",
+      "estimate_type": "consensus",
+      "confidence": 0.085,
+      "supporting_claims": [
+        "clm_d5139b88e6",
+        "clm_ee5000545f",
+        "clm_728fbacb0a",
+        "clm_dd03672cf0"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 14000000000.0,
+        "change_pct": 0.0,
+        "since": "2025-01-20"
+      },
+      "history_ref": "history/bright-health/valuation.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "latest_round": {
       "metric": "latest_round",
       "value": 924000000.0,
@@ -59,31 +84,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "valuation": {
-      "metric": "valuation",
-      "value": 14000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-01-20",
-      "estimate_type": "consensus",
-      "confidence": 0.085,
-      "supporting_claims": [
-        "clm_ee5000545f",
-        "clm_728fbacb0a",
-        "clm_d5139b88e6",
-        "clm_dd03672cf0"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 14000000000.0,
-        "change_pct": -0.0,
-        "since": "2025-01-20"
-      },
-      "history_ref": "history/bright-health/valuation.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "total_funding": {
       "metric": "total_funding",
       "value": 750000000.0,
@@ -91,7 +91,7 @@
       "range": null,
       "as_of": "2021-12-09",
       "estimate_type": "consensus",
-      "confidence": 0.197,
+      "confidence": 0.196,
       "supporting_claims": [
         "clm_6bff285d68",
         "clm_0ec9118e0e",
@@ -111,5 +111,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-14"
+  "last_updated": "2026-09-15"
 }

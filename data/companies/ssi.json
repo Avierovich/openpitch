@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2026-05-27",
       "estimate_type": "consensus",
-      "confidence": 0.512,
+      "confidence": 0.511,
       "supporting_claims": [
         "clm_fd0ac58d1e",
         "clm_9af63132ed",
@@ -43,7 +43,7 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 31875257536.31,
+      "value": 31888441068.13,
       "unit": "USD",
       "range": {
         "low": 32000000000.0,
@@ -60,9 +60,10 @@
         "clm_7031bbcdb5",
         "clm_0d3586b3a9",
         "clm_4b98b708d4",
-        "clm_7f8b9a6abb",
         "clm_35967c4ccf",
         "clm_22410c2e30",
+        "clm_281f570c95",
+        "clm_7f8b9a6abb",
         "clm_ae674c4397",
         "clm_77164e6e95",
         "clm_57b875f6e7",
@@ -76,8 +77,8 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 31895294687.55,
-        "change_pct": -0.1,
+        "previous": 31875257536.31,
+        "change_pct": 0.0,
         "since": "2026-07-29"
       },
       "history_ref": "history/ssi/valuation.jsonl",
@@ -95,15 +96,16 @@
       },
       "as_of": "2026-07-29",
       "estimate_type": "consensus",
-      "confidence": 0.544,
+      "confidence": 0.698,
       "supporting_claims": [
+        "clm_00ef841f43",
         "clm_27fc1b6eac",
         "clm_231c6cb5bf"
       ],
       "contradiction": false,
       "delta": {
         "previous": 50.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-07-29"
       },
       "history_ref": "history/ssi/headcount.jsonl",
@@ -135,5 +137,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-15"
+  "last_updated": "2026-09-16"
 }

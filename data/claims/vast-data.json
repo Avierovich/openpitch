@@ -96,6 +96,30 @@
     "derivation": null
   },
   {
+    "id": "clm_9282c32b92",
+    "company_id": "vast-data",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "valued at $30 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONDR2ZVBWRzdYSU9VM3B5VHVpcWxMbC1HMEZtRHBZckZ1Rm5NWkxXMUhUTGR0cHBROHBOSDF0bFVnOXZPcFhkNzl2VTJqVkhDTWczTjc5d1JNSHhXdlk2STdBMEZ3b21XaHRHWWQ1UUk4Y25kRTFTSXpDWk9ZdF9hNmFvWWROX21rZ29xZmNFS3c2Y0Z2VDdNUWdjbw?oc=5",
+      "locator": null,
+      "published_at": "2026-04-22"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_b682cee082",
     "company_id": "vast-data",
     "metric": "open_roles",
@@ -120,7 +144,7 @@
     "derivation": null
   },
   {
-    "id": "clm_521d68b43f",
+    "id": "clm_7de5a9213f",
     "company_id": "vast-data",
     "metric": "valuation",
     "value": 30000000000.0,
@@ -133,12 +157,12 @@
     },
     "source": {
       "type": "news",
-      "name": "americanbazaaronline.com",
+      "name": "The American Bazaar",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa2wxQ1dqZ3dOR0VleXZ2dGRMZlF5R0phRjhBbE9xelEwWDRMNU5Jem1mTk9rbzFuU3FxbmFfX3cxMXl4ZlAwSE1lYVlJeWZienlLOGc2MXJWMjh3OE4xUlc1UVpKZk93ZjhrSDY1NjlWVFpJanFQV1R6UjNSOVF6RU9rMVZQSnlvNjlfUnptOWRFRzZzWU83V05YOVZpX2tkZFhhSTc4WEtaUjlCVmc?oc=5",
       "locator": null,
       "published_at": "2026-04-22"
     },
-    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extracted_at": "2026-08-21T05:50:03.226228",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -192,6 +216,56 @@
     "derivation": null
   },
   {
+    "id": "clm_c148c06ded",
+    "company_id": "vast-data",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": null,
+    "raw_text": "$30 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "MLQ.ai",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOEZUUFllUDJqTlNuWGNLQWRINk5rNXYzbDRGUFlycUFneDNQdGlsWVJJbzN4bEE4NE53LUNiQzRnLXZ5MGJrMl9YQW8wQk05WEdvUmRaYTBPSW5LZ1Awcm13VFZJV3ZyMXRORTI2eU40YXRCNDY3OHNQMkl0U0ZjUmt2TWQ2NjFOMUZ4ZjdvUnZtaHRqUkU3THZYWG9fcHRYdXJzeWYyaw?oc=5",
+      "locator": null,
+      "published_at": "2026-04-23"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_521d68b43f",
+    "company_id": "vast-data",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": null,
+    "raw_text": "VAST Data valued at $30 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "americanbazaaronline.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa2wxQ1dqZ3dOR0VleXZ2dGRMZlF5R0phRjhBbE9xelEwWDRMNU5Jem1mTk9rbzFuU3FxbmFfX3cxMXl4ZlAwSE1lYVlJeWZienlLOGc2MXJWMjh3OE4xUlc1UVpKZk93ZjhrSDY1NjlWVFpJanFQV1R6UjNSOVF6RU9rMVZQSnlvNjlfUnptOWRFRzZzWU83V05YOVZpX2tkZFhhSTc4WEtaUjlCVmc?oc=5",
+      "locator": null,
+      "published_at": "2026-04-22"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_3569899476",
     "company_id": "vast-data",
     "metric": "round_amount",
@@ -240,32 +314,6 @@
     "derivation": null
   },
   {
-    "id": "clm_c148c06ded",
-    "company_id": "vast-data",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": null,
-    "raw_text": "$30 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "MLQ.ai",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOEZUUFllUDJqTlNuWGNLQWRINk5rNXYzbDRGUFlycUFneDNQdGlsWVJJbzN4bEE4NE53LUNiQzRnLXZ5MGJrMl9YQW8wQk05WEdvUmRaYTBPSW5LZ1Awcm13VFZJV3ZyMXRORTI2eU40YXRCNDY3OHNQMkl0U0ZjUmt2TWQ2NjFOMUZ4ZjdvUnZtaHRqUkU3THZYWG9fcHRYdXJzeWYyaw?oc=5",
-      "locator": null,
-      "published_at": "2026-04-23"
-    },
-    "extracted_at": "2026-09-15T10:11:13.514998",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_594993835a",
     "company_id": "vast-data",
     "metric": "round_amount",
@@ -309,30 +357,6 @@
       "published_at": "2026-03-09"
     },
     "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_7de5a9213f",
-    "company_id": "vast-data",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": null,
-    "raw_text": "VAST Data valued at $30 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "The American Bazaar",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa2wxQ1dqZ3dOR0VleXZ2dGRMZlF5R0phRjhBbE9xelEwWDRMNU5Jem1mTk9rbzFuU3FxbmFfX3cxMXl4ZlAwSE1lYVlJeWZienlLOGc2MXJWMjh3OE4xUlc1UVpKZk93ZjhrSDY1NjlWVFpJanFQV1R6UjNSOVF6RU9rMVZQSnlvNjlfUnptOWRFRzZzWU83V05YOVZpX2tkZFhhSTc4WEtaUjlCVmc?oc=5",
-      "locator": null,
-      "published_at": "2026-04-22"
-    },
-    "extracted_at": "2026-08-21T05:50:03.226228",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -1084,30 +1108,6 @@
     "derivation": null
   },
   {
-    "id": "clm_9282c32b92",
-    "company_id": "vast-data",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "valued at $30 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONDR2ZVBWRzdYSU9VM3B5VHVpcWxMbC1HMEZtRHBZckZ1Rm5NWkxXMUhUTGR0cHBROHBOSDF0bFVnOXZPcFhkNzl2VTJqVkhDTWczTjc5d1JNSHhXdlk2STdBMEZ3b21XaHRHWWQ1UUk4Y25kRTFTSXpDWk9ZdF9hNmFvWWROX21rZ29xZmNFS3c2Y0Z2VDdNUWdjbw?oc=5",
-      "locator": null,
-      "published_at": "2026-04-22"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_675243dd70",
     "company_id": "vast-data",
     "metric": "latest_round",
@@ -1366,7 +1366,7 @@
       "locator": null,
       "published_at": "2026-04-23"
     },
-    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extracted_at": "2026-09-16T10:35:49.404557",
     "extractor_model": "derive-engine",
     "base_confidence": 0.3623,
     "derivation": {

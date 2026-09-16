@@ -126,15 +126,13 @@
     "derivation": null
   },
   {
-    "id": "clm_800104ab54",
+    "id": "clm_a4222b4885",
     "company_id": "devin",
-    "metric": "valuation",
-    "value": 40000000000.0,
+    "metric": "latest_round",
+    "value": 1000000000.0,
     "unit": "USD",
-    "raw_text": "reportedly already in talks to raise at $40B valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
+    "raw_text": "Cognition raises $1B at $25B pre-money valuation",
+    "qualifiers": [],
     "speaker": {
       "name": null,
       "role": "journalist"
@@ -142,13 +140,37 @@
     "source": {
       "type": "news",
       "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOLWFmbDNSWW1tcGhWeHM2RnY1TDVJX2p3LU44b09XamFkTmRRWlVfNkxGMVJtWmxZczE3Q0Nyd2ZFaXVsNE1ybWo3U1A3V19fX2FSaklnWlRiQWlfTF90MVNWTlhNNDdHSFVEMGRNQUdSTGxLaDJUemhWZV9DcjRIRzFnbWtUVDNXWjZVcHFRSUJaUUNjNkw5bGl2dHlWOE81dGxmQmRHWXlhMGN1RXhxSmNVRkxSa2s?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQzd0YXo5MWwzZmhuUkxZWktSZFBQdnVNRVBJaGlUQlJnUng3d0dPaF9FWUF6RGVDR0ZNWVdfRlA2YlhLbWVydlhsRmpqS21zb2hKYVgxbjNoOHZFUEhMQVFVZ3RnTDZ2SWpYYXRMQUotaF9OQmhKRHB0bk44NjFRZm8wV0tPSzZJMDg4clZTbUdjajBVbk5UdXNfN2Eza1BD?oc=5",
       "locator": null,
-      "published_at": "2026-08-12"
+      "published_at": "2026-05-27"
     },
     "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_51021f5280",
+    "company_id": "devin",
+    "metric": "valuation",
+    "value": 25000000000.0,
+    "unit": "USD",
+    "raw_text": "Cognition raises $1B at $25B pre-money valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQzd0YXo5MWwzZmhuUkxZWktSZFBQdnVNRVBJaGlUQlJnUng3d0dPaF9FWUF6RGVDR0ZNWVdfRlA2YlhLbWVydlhsRmpqS21zb2hKYVgxbjNoOHZFUEhMQVFVZ3RnTDZ2SWpYYXRMQUotaF9OQmhKRHB0bk44NjFRZm8wV0tPSzZJMDg4clZTbUdjajBVbk5UdXNfN2Eza1BD?oc=5",
+      "locator": null,
+      "published_at": "2026-05-27"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -250,54 +272,6 @@
     "derivation": null
   },
   {
-    "id": "clm_a4222b4885",
-    "company_id": "devin",
-    "metric": "latest_round",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "Cognition raises $1B at $25B pre-money valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQzd0YXo5MWwzZmhuUkxZWktSZFBQdnVNRVBJaGlUQlJnUng3d0dPaF9FWUF6RGVDR0ZNWVdfRlA2YlhLbWVydlhsRmpqS21zb2hKYVgxbjNoOHZFUEhMQVFVZ3RnTDZ2SWpYYXRMQUotaF9OQmhKRHB0bk44NjFRZm8wV0tPSzZJMDg4clZTbUdjajBVbk5UdXNfN2Eza1BD?oc=5",
-      "locator": null,
-      "published_at": "2026-05-27"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_51021f5280",
-    "company_id": "devin",
-    "metric": "valuation",
-    "value": 25000000000.0,
-    "unit": "USD",
-    "raw_text": "Cognition raises $1B at $25B pre-money valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQzd0YXo5MWwzZmhuUkxZWktSZFBQdnVNRVBJaGlUQlJnUng3d0dPaF9FWUF6RGVDR0ZNWVdfRlA2YlhLbWVydlhsRmpqS21zb2hKYVgxbjNoOHZFUEhMQVFVZ3RnTDZ2SWpYYXRMQUotaF9OQmhKRHB0bk44NjFRZm8wV0tPSzZJMDg4clZTbUdjajBVbk5UdXNfN2Eza1BD?oc=5",
-      "locator": null,
-      "published_at": "2026-05-27"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_bf60b64715",
     "company_id": "devin",
     "metric": "latest_round",
@@ -391,6 +365,58 @@
     "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_800104ab54",
+    "company_id": "devin",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "reportedly already in talks to raise at $40B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOLWFmbDNSWW1tcGhWeHM2RnY1TDVJX2p3LU44b09XamFkTmRRWlVfNkxGMVJtWmxZczE3Q0Nyd2ZFaXVsNE1ybWo3U1A3V19fX2FSaklnWlRiQWlfTF90MVNWTlhNNDdHSFVEMGRNQUdSTGxLaDJUemhWZV9DcjRIRzFnbWtUVDNXWjZVcHFRSUJaUUNjNkw5bGl2dHlWOE81dGxmQmRHWXlhMGN1RXhxSmNVRkxSa2s?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_737149b0e1",
+    "company_id": "devin",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": null,
+    "raw_text": "Cognition may be in talks for a funding round valued at $40 billion",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "ua.news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOV3dmUm1ONmxBSldqUnpJcGp0Rmt0S1J1UUJ4UmFKSmJuV0VNNHl2ZWJoWDJGZkI4UEJTSnVlWTFneVA0TV9qSHJQdmtEdXZuSWk4XzFNelRxaTFtclhOMUFiUUJCa2wwRDUtZGlUZHczcGUwSC1xN3JOOVVXYi1HS0l1RFZCTVdaTHMzVWFPT1JOdDU2?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-09-16T10:35:49.404557",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
     "derivation": null
   },
   {
@@ -1363,7 +1389,7 @@
       "locator": null,
       "published_at": "2026-09-02"
     },
-    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extracted_at": "2026-09-16T10:35:49.404557",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2608,
     "derivation": {

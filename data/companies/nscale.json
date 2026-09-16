@@ -12,42 +12,6 @@
   "vc_attention_score": 84.8,
   "universe_rank": 41,
   "metrics": {
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 2000000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 2000000000.0,
-        "high": 2000000000.0
-      },
-      "as_of": "2026-03-10",
-      "estimate_type": "consensus",
-      "confidence": 0.97,
-      "supporting_claims": [
-        "clm_67bae8ba95",
-        "clm_992e390410",
-        "clm_11d9ee113c",
-        "clm_75992b0a21",
-        "clm_476deadb15",
-        "clm_a0801b5e04",
-        "clm_26cb18a1d3",
-        "clm_41c8c8088a",
-        "clm_c5dee97e0c",
-        "clm_9815e842d6",
-        "clm_a8fb8dd68e",
-        "clm_e4b046a189"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 2000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-03-10"
-      },
-      "history_ref": "history/nscale/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "valuation": {
       "metric": "valuation",
       "value": 14600000000.0,
@@ -60,10 +24,11 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
+        "clm_4297eb0d3e",
+        "clm_3ab2953bcf",
         "clm_a6824c384b",
         "clm_7608f35b48",
         "clm_11cd6421ef",
-        "clm_4297eb0d3e",
         "clm_709b25e974",
         "clm_12a0a5c2bc",
         "clm_b3262d5b82",
@@ -96,6 +61,42 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 2000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 2000000000.0,
+        "high": 2000000000.0
+      },
+      "as_of": "2026-03-10",
+      "estimate_type": "consensus",
+      "confidence": 0.97,
+      "supporting_claims": [
+        "clm_67bae8ba95",
+        "clm_992e390410",
+        "clm_11d9ee113c",
+        "clm_75992b0a21",
+        "clm_476deadb15",
+        "clm_a0801b5e04",
+        "clm_26cb18a1d3",
+        "clm_41c8c8088a",
+        "clm_c5dee97e0c",
+        "clm_9815e842d6",
+        "clm_a8fb8dd68e",
+        "clm_e4b046a189"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 2000000000.0,
+        "change_pct": -0.0,
+        "since": "2026-03-10"
+      },
+      "history_ref": "history/nscale/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "total_funding": {
       "metric": "total_funding",
       "value": 1935854664.27,
@@ -106,7 +107,7 @@
       },
       "as_of": "2026-09-04",
       "estimate_type": "consensus",
-      "confidence": 0.657,
+      "confidence": 0.656,
       "supporting_claims": [
         "clm_fb3d1ad001",
         "clm_943cc09dac"
@@ -129,7 +130,7 @@
       "range": null,
       "as_of": "2026-03-10",
       "estimate_type": "consensus",
-      "confidence": 0.677,
+      "confidence": 0.676,
       "supporting_claims": [
         "clm_af96b637ad",
         "clm_6a19535ed9",
@@ -148,5 +149,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-15"
+  "last_updated": "2026-09-16"
 }

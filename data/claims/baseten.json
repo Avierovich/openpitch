@@ -1,53 +1,5 @@
 [
   {
-    "id": "clm_669f27e3c9",
-    "company_id": "baseten",
-    "metric": "arr",
-    "value": 15800000.0,
-    "unit": "USD",
-    "raw_text": "BaseTen Revenue 2025: $15.8M ARR",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "getlatka.com",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YRkhscUdIcGFIblZPWWVLUWZsdmd0eld0V1RyMUtOTXVHZmNKem0wRGQtakxtOEw2OXd2bGYxSUxualo3UkJnOWdLcFUwM2wtcU5z?oc=5",
-      "locator": null,
-      "published_at": "2025-11-28"
-    },
-    "extracted_at": "2026-09-02T09:38:48.472295",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_fe13fc091a",
-    "company_id": "baseten",
-    "metric": "valuation",
-    "value": 2200000000.0,
-    "unit": "USD",
-    "raw_text": "$2.2B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "getlatka.com",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YRkhscUdIcGFIblZPWWVLUWZsdmd0eld0V1RyMUtOTXVHZmNKem0wRGQtakxtOEw2OXd2bGYxSUxualo3UkJnOWdLcFUwM2wtcU5z?oc=5",
-      "locator": null,
-      "published_at": "2025-11-28"
-    },
-    "extracted_at": "2026-09-02T09:38:48.472295",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_41bcc4f561",
     "company_id": "baseten",
     "metric": "latest_round",
@@ -270,30 +222,6 @@
     "derivation": null
   },
   {
-    "id": "clm_adcef28feb",
-    "company_id": "baseten",
-    "metric": "revenue_growth",
-    "value": 30.0,
-    "unit": null,
-    "raw_text": "Baseten’s 30x growth",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "founder"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "No Priors",
-      "url": null,
-      "locator": null,
-      "published_at": "2026-05-01"
-    },
-    "extracted_at": "2026-09-15T10:11:13.514998",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.6,
-    "derivation": null
-  },
-  {
     "id": "clm_c08086f417",
     "company_id": "baseten",
     "metric": "valuation",
@@ -343,6 +271,225 @@
     "extracted_at": "2026-09-15T10:11:13.514998",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_adcef28feb",
+    "company_id": "baseten",
+    "metric": "revenue_growth",
+    "value": 30.0,
+    "unit": null,
+    "raw_text": "Baseten’s 30x growth",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "founder"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "No Priors",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-05-01"
+    },
+    "extracted_at": "2026-09-16T10:35:49.404557",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.6,
+    "derivation": null
+  },
+  {
+    "id": "clm_c91a601cf6",
+    "company_id": "baseten",
+    "metric": "latest_round",
+    "value": 6.0,
+    "unit": "round",
+    "raw_text": "Series F",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "citybiz.co",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdTl4bDVVSHV6TnVJR2tlWk5TREoxNXlKYnNVUVl0ZWtfaGJ5ZG9tNnAtUU53MzFuNGx2MGZTbTB3OC1URWlOMFUwOUdwYjlNc1V5WXIxQ3JyUHBmUkZ0UTdqT2NVVTQwQmFfNXNLbVdtWS1LdmozWDRJSFluVEltMWhFblZwdVFKVkdIT0h5OXBLU2tpSkFYNndqTDdPWE5QaVo3cmpDWQ?oc=5",
+      "locator": null,
+      "published_at": "2026-06-22"
+    },
+    "extracted_at": "2026-09-16T10:35:49.404557",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_2b441e392a",
+    "company_id": "baseten",
+    "metric": "round_amount",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "$1.5 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "citybiz.co",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdTl4bDVVSHV6TnVJR2tlWk5TREoxNXlKYnNVUVl0ZWtfaGJ5ZG9tNnAtUU53MzFuNGx2MGZTbTB3OC1URWlOMFUwOUdwYjlNc1V5WXIxQ3JyUHBmUkZ0UTdqT2NVVTQwQmFfNXNLbVdtWS1LdmozWDRJSFluVEltMWhFblZwdVFKVkdIT0h5OXBLU2tpSkFYNndqTDdPWE5QaVo3cmpDWQ?oc=5",
+      "locator": null,
+      "published_at": "2026-06-22"
+    },
+    "extracted_at": "2026-09-16T10:35:49.404557",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_ea52f65824",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 13000000000.0,
+    "unit": "USD",
+    "raw_text": "Up to $13 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "citybiz.co",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdTl4bDVVSHV6TnVJR2tlWk5TREoxNXlKYnNVUVl0ZWtfaGJ5ZG9tNnAtUU53MzFuNGx2MGZTbTB3OC1URWlOMFUwOUdwYjlNc1V5WXIxQ3JyUHBmUkZ0UTdqT2NVVTQwQmFfNXNLbVdtWS1LdmozWDRJSFluVEltMWhFblZwdVFKVkdIT0h5OXBLU2tpSkFYNndqTDdPWE5QaVo3cmpDWQ?oc=5",
+      "locator": null,
+      "published_at": "2026-06-22"
+    },
+    "extracted_at": "2026-09-16T10:35:49.404557",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
+    "id": "clm_f00a373d6d",
+    "company_id": "baseten",
+    "metric": "latest_round",
+    "value": 6.0,
+    "unit": "round",
+    "raw_text": "Series F",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "citybiz.co",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUzBnYmQ0OGVacDYxd2VUUzBNdnlJUmg4RnNEbTNwUE1wWVZiT1dOVElsdlkyRmRCcHNYR2V1UXhsNFFaS0ZSSEJ3SF9fNVNzWXp5MWNNdU5pS1MyRkJNS25MeTB1aTUtdUVCU1owQ1VzTWFFcVh6a29rOUxoRjg4N1hCOGdRcmVIX0ZHMVl1OTRGcHMtYUp1NS1IYXRQcF8yOUVJT1pWSFpGWFN2bERDRWhxRmY0ekFaV2FrRUZRX2U?oc=5",
+      "locator": null,
+      "published_at": "2026-06-18"
+    },
+    "extracted_at": "2026-09-16T10:35:49.404557",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_cf651f202e",
+    "company_id": "baseten",
+    "metric": "round_amount",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "$1.5B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "citybiz.co",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUzBnYmQ0OGVacDYxd2VUUzBNdnlJUmg4RnNEbTNwUE1wWVZiT1dOVElsdlkyRmRCcHNYR2V1UXhsNFFaS0ZSSEJ3SF9fNVNzWXp5MWNNdU5pS1MyRkJNS25MeTB1aTUtdUVCU1owQ1VzTWFFcVh6a29rOUxoRjg4N1hCOGdRcmVIX0ZHMVl1OTRGcHMtYUp1NS1IYXRQcF8yOUVJT1pWSFpGWFN2bERDRWhxRmY0ekFaV2FrRUZRX2U?oc=5",
+      "locator": null,
+      "published_at": "2026-06-18"
+    },
+    "extracted_at": "2026-09-16T10:35:49.404557",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_7e6d3018f9",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 13000000000.0,
+    "unit": "USD",
+    "raw_text": "$13B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "citybiz.co",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUzBnYmQ0OGVacDYxd2VUUzBNdnlJUmg4RnNEbTNwUE1wWVZiT1dOVElsdlkyRmRCcHNYR2V1UXhsNFFaS0ZSSEJ3SF9fNVNzWXp5MWNNdU5pS1MyRkJNS25MeTB1aTUtdUVCU1owQ1VzTWFFcVh6a29rOUxoRjg4N1hCOGdRcmVIX0ZHMVl1OTRGcHMtYUp1NS1IYXRQcF8yOUVJT1pWSFpGWFN2bERDRWhxRmY0ekFaV2FrRUZRX2U?oc=5",
+      "locator": null,
+      "published_at": "2026-06-18"
+    },
+    "extracted_at": "2026-09-16T10:35:49.404557",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_669f27e3c9",
+    "company_id": "baseten",
+    "metric": "arr",
+    "value": 15800000.0,
+    "unit": "USD",
+    "raw_text": "BaseTen Revenue 2025: $15.8M ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "getlatka.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YRkhscUdIcGFIblZPWWVLUWZsdmd0eld0V1RyMUtOTXVHZmNKem0wRGQtakxtOEw2OXd2bGYxSUxualo3UkJnOWdLcFUwM2wtcU5z?oc=5",
+      "locator": null,
+      "published_at": "2025-11-28"
+    },
+    "extracted_at": "2026-09-02T09:38:48.472295",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_fe13fc091a",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 2200000000.0,
+    "unit": "USD",
+    "raw_text": "$2.2B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "getlatka.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YRkhscUdIcGFIblZPWWVLUWZsdmd0eld0V1RyMUtOTXVHZmNKem0wRGQtakxtOEw2OXd2bGYxSUxualo3UkJnOWdLcFUwM2wtcU5z?oc=5",
+      "locator": null,
+      "published_at": "2025-11-28"
+    },
+    "extracted_at": "2026-09-02T09:38:48.472295",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -1794,10 +1941,10 @@
     "derivation": null
   },
   {
-    "id": "drv_7c0ec120dd",
+    "id": "drv_12e9373827",
     "company_id": "baseten",
     "metric": "revenue_multiple",
-    "value": 139.24,
+    "value": 822.78,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -1810,16 +1957,16 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2025-11-28"
+      "published_at": "2026-06-23"
     },
-    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extracted_at": "2026-09-16T10:35:49.404557",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_fe13fc091a",
+        "clm_0479300cde",
         "clm_669f27e3c9"
       ]
     }

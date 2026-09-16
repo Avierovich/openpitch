@@ -22,12 +22,13 @@
       },
       "as_of": "2026-05-15",
       "estimate_type": "consensus",
-      "confidence": 0.962,
+      "confidence": 0.97,
       "supporting_claims": [
+        "clm_d3099ab43c",
+        "clm_fc9d5fcc5d",
         "clm_4328bbac92",
         "clm_cd86f727ab",
         "clm_44dc46b5ee",
-        "clm_d3099ab43c",
         "clm_e4f5b93406",
         "clm_7b516d38cf",
         "clm_71cd2b1b65"
@@ -35,7 +36,7 @@
       "contradiction": true,
       "delta": {
         "previous": 61000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-05-15"
       },
       "history_ref": "history/anduril-industries/valuation.jsonl",
@@ -53,11 +54,11 @@
       },
       "as_of": "2026-05-15",
       "estimate_type": "consensus",
-      "confidence": 0.754,
+      "confidence": 0.753,
       "supporting_claims": [
+        "clm_ef7833d1b2",
         "clm_b8496c4ca1",
-        "clm_2bf7810011",
-        "clm_ef7833d1b2"
+        "clm_2bf7810011"
       ],
       "contradiction": false,
       "delta": {
@@ -66,6 +67,33 @@
         "since": "2026-05-15"
       },
       "history_ref": "history/anduril-industries/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 8.0,
+      "unit": "object",
+      "range": {
+        "low": 8.0,
+        "high": 5000000000.0
+      },
+      "as_of": "2026-05-21",
+      "estimate_type": "consensus",
+      "confidence": 0.756,
+      "supporting_claims": [
+        "clm_ef6e15cd2a",
+        "clm_5bd3f5f14f",
+        "clm_b760717069"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 8.0,
+        "change_pct": 0.0,
+        "since": "2026-05-21"
+      },
+      "history_ref": "history/anduril-industries/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -97,34 +125,7 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "latest_round": {
-      "metric": "latest_round",
-      "value": 8.0,
-      "unit": "object",
-      "range": {
-        "low": 8.0,
-        "high": 5000000000.0
-      },
-      "as_of": "2026-05-21",
-      "estimate_type": "consensus",
-      "confidence": 0.757,
-      "supporting_claims": [
-        "clm_5bd3f5f14f",
-        "clm_ef6e15cd2a",
-        "clm_b760717069"
-      ],
-      "contradiction": true,
-      "delta": {
-        "previous": 8.0,
-        "change_pct": 0.0,
-        "since": "2026-05-21"
-      },
-      "history_ref": "history/anduril-industries/latest_round.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-15"
+  "last_updated": "2026-09-16"
 }

@@ -1,53 +1,5 @@
 [
   {
-    "id": "clm_071e5d69da",
-    "company_id": "helsing",
-    "metric": "valuation",
-    "value": 18000000000.0,
-    "unit": "USD",
-    "raw_text": "$18 billion valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wTGVEMDBXbGF3eUk4WWJHejhjcDZfYU9Qc0RoOWJJVW5CMUdCOFMtYjdoaldoRVdKNzU1QnZBVVliUnJJQjN4Y2NmVjM2YnBpbjZ0dTh5eXgyd0xJWi1kUWFVTTc2YzBrSlBGbXBLVHBzTl9uTl9ka3pwbmcyVUXSAYQBQVVfeXFMTlQ5VjQ4VkxhanNqcGdvb0FLS2VaQmJacTF6bTRGNVFBbWFkZE5iQ0dEeWxYT3BkRENRNzRRRUJSUkFUVHBhLWJqY2ltZEVzQl9qZVZaOFBPMllTMHYtdjZzZkpyU1p4X0RwLTJiYTJ0VVZFWU9kb2NJVDROUERHWS1ncGk0?oc=5",
-      "locator": null,
-      "published_at": "2026-07-13"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_6789a4c79d",
-    "company_id": "helsing",
-    "metric": "total_funding",
-    "value": 1800000000.0,
-    "unit": "USD",
-    "raw_text": "raises $1.8 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wTGVEMDBXbGF3eUk4WWJHejhjcDZfYU9Qc0RoOWJJVW5CMUdCOFMtYjdoaldoRVdKNzU1QnZBVVliUnJJQjN4Y2NmVjM2YnBpbjZ0dTh5eXgyd0xJWi1kUWFVTTc2YzBrSlBGbXBLVHBzTl9uTl9ka3pwbmcyVUXSAYQBQVVfeXFMTlQ5VjQ4VkxhanNqcGdvb0FLS2VaQmJacTF6bTRGNVFBbWFkZE5iQ0dEeWxYT3BkRENRNzRRRUJSUkFUVHBhLWJqY2ltZEVzQl9qZVZaOFBPMllTMHYtdjZzZkpyU1p4X0RwLTJiYTJ0VVZFWU9kb2NJVDROUERHWS1ncGk0?oc=5",
-      "locator": null,
-      "published_at": "2026-07-13"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_fbaf07ce45",
     "company_id": "helsing",
     "metric": "valuation",
@@ -525,6 +477,81 @@
       "published_at": "2026-07-13"
     },
     "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_1810eed7b1",
+    "company_id": "helsing",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": "USD",
+    "raw_text": "to raise $1.2B at $18B valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQanFSa3VBTzJpUG9UQUJZb1VSU0h5WFNjR2dOT2dMR1ZHa1B1b2lLdmVMekhEcXBkNE1faFJHQ3JabmxrZy1hLW5fc2cyRzJrTTNqRGt2WFZOSERVaWNPOXpxMmtpT2pFU0N0VlhINGZxckFlSHdITTZUcGRHSTBYNkdHTkRyT25nekpNdWd3ejhoQ08tcEhXY25zLV9JbWc?oc=5",
+      "locator": null,
+      "published_at": "2026-05-11"
+    },
+    "extracted_at": "2026-09-16T10:35:49.404557",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_071e5d69da",
+    "company_id": "helsing",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": "USD",
+    "raw_text": "$18 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wTGVEMDBXbGF3eUk4WWJHejhjcDZfYU9Qc0RoOWJJVW5CMUdCOFMtYjdoaldoRVdKNzU1QnZBVVliUnJJQjN4Y2NmVjM2YnBpbjZ0dTh5eXgyd0xJWi1kUWFVTTc2YzBrSlBGbXBLVHBzTl9uTl9ka3pwbmcyVUXSAYQBQVVfeXFMTlQ5VjQ4VkxhanNqcGdvb0FLS2VaQmJacTF6bTRGNVFBbWFkZE5iQ0dEeWxYT3BkRENRNzRRRUJSUkFUVHBhLWJqY2ltZEVzQl9qZVZaOFBPMllTMHYtdjZzZkpyU1p4X0RwLTJiYTJ0VVZFWU9kb2NJVDROUERHWS1ncGk0?oc=5",
+      "locator": null,
+      "published_at": "2026-07-13"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_6789a4c79d",
+    "company_id": "helsing",
+    "metric": "total_funding",
+    "value": 1800000000.0,
+    "unit": "USD",
+    "raw_text": "raises $1.8 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wTGVEMDBXbGF3eUk4WWJHejhjcDZfYU9Qc0RoOWJJVW5CMUdCOFMtYjdoaldoRVdKNzU1QnZBVVliUnJJQjN4Y2NmVjM2YnBpbjZ0dTh5eXgyd0xJWi1kUWFVTTc2YzBrSlBGbXBLVHBzTl9uTl9ka3pwbmcyVUXSAYQBQVVfeXFMTlQ5VjQ4VkxhanNqcGdvb0FLS2VaQmJacTF6bTRGNVFBbWFkZE5iQ0dEeWxYT3BkRENRNzRRRUJSUkFUVHBhLWJqY2ltZEVzQl9qZVZaOFBPMllTMHYtdjZzZkpyU1p4X0RwLTJiYTJ0VVZFWU9kb2NJVDROUERHWS1ncGk0?oc=5",
+      "locator": null,
+      "published_at": "2026-07-13"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null

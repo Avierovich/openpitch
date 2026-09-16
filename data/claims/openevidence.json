@@ -1,5 +1,31 @@
 [
   {
+    "id": "clm_c9836e7f57",
+    "company_id": "openevidence",
+    "metric": "valuation",
+    "value": 12000000000.0,
+    "unit": "USD",
+    "raw_text": "Doubles Valuation to $12 Billion",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Information",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMVZ5VlNBYTJ2MmtZRmhmQUpBQzRnSUJaT0FucnpmNE1DM0FMMm92bUJreDJKVGY1YVVCb05sWEpBLUJvSnJKVnN0ZkczN1dUU2JTZzQ2OWV3VnFIdXlSWjlYNWtBeE9qUVhMUVltOWNKajYwRzZySVlGTDFhcXRlc2xZVkRIOE83andMVTBidlcxLTRiQUhCd3MwbUtoQXo4d2dfZkhvRHhSSjg?oc=5",
+      "locator": null,
+      "published_at": "2025-12-12"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
     "id": "clm_f628fbf172",
     "company_id": "openevidence",
     "metric": "round_amount",
@@ -77,54 +103,6 @@
     "extracted_at": "2026-08-23T05:59:54.335804",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_5206ae44ef",
-    "company_id": "openevidence",
-    "metric": "total_funding",
-    "value": 200000000.0,
-    "unit": "USD",
-    "raw_text": "raised $200M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "refreshmiami.com",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbXI5bkdvXzQ2c1BURUpwWEtVQktINXpYdEdrcDYzc25IVDFma3d4bnJFLXZXeDJTd2xFbjh0X3BWNjc5dDJ2QmRnTkRlWUpzanNUY09EREhrUkVWNnotMnZaNV9Odkd2UUVvUHM4em16T1Z0aEMyZk44RldUQW80N0lhNE11OGNnS05Db1FVTzFNRnBZSjRXSzZ0LTkwa3ZJY1AteE1HLTdhTkZTYkJ5MWRZc3p4UGNzZzl3TTdxd1ZmVTNLX0ZNQ015Mmk?oc=5",
-      "locator": null,
-      "published_at": "2025-10-22"
-    },
-    "extracted_at": "2026-09-14T10:31:29.338960",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_8ecb6ccea1",
-    "company_id": "openevidence",
-    "metric": "valuation",
-    "value": 6000000000.0,
-    "unit": "USD",
-    "raw_text": "$6B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "refreshmiami.com",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbXI5bkdvXzQ2c1BURUpwWEtVQktINXpYdEdrcDYzc25IVDFma3d4bnJFLXZXeDJTd2xFbjh0X3BWNjc5dDJ2QmRnTkRlWUpzanNUY09EREhrUkVWNnotMnZaNV9Odkd2UUVvUHM4em16T1Z0aEMyZk44RldUQW80N0lhNE11OGNnS05Db1FVTzFNRnBZSjRXSzZ0LTkwa3ZJY1AteE1HLTdhTkZTYkJ5MWRZc3p4UGNzZzl3TTdxd1ZmVTNLX0ZNQ015Mmk?oc=5",
-      "locator": null,
-      "published_at": "2025-10-22"
-    },
-    "extracted_at": "2026-09-14T10:31:29.338960",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -224,29 +202,99 @@
     "derivation": null
   },
   {
-    "id": "clm_c9836e7f57",
+    "id": "clm_7e6ee7d1d0",
     "company_id": "openevidence",
-    "metric": "valuation",
-    "value": 12000000000.0,
-    "unit": "USD",
-    "raw_text": "Doubles Valuation to $12 Billion",
-    "qualifiers": [
-      "rounded"
-    ],
+    "metric": "round_amount",
+    "value": 210000000.0,
+    "unit": null,
+    "raw_text": "OpenEvidence raises $210M",
+    "qualifiers": [],
     "speaker": {
       "name": null,
       "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "The Information",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMVZ5VlNBYTJ2MmtZRmhmQUpBQzRnSUJaT0FucnpmNE1DM0FMMm92bUJreDJKVGY1YVVCb05sWEpBLUJvSnJKVnN0ZkczN1dUU2JTZzQ2OWV3VnFIdXlSWjlYNWtBeE9qUVhMUVltOWNKajYwRzZySVlGTDFhcXRlc2xZVkRIOE83andMVTBidlcxLTRiQUhCd3MwbUtoQXo4d2dfZkhvRHhSSjg?oc=5",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRTE5aXVuR3JtMDM2QU5iOGRTRHN6ak9rTVA5eHd5TjRRZlVMT1dsTmVPUEpWTzBLRE1KdTlPWTY0X3RtMElxTGV1LUlHTURKN1FfZkU0b0syTzBSY0F4Y1ZLR0dYNlNJLTZjQ2NaX1NnNkxlRjlqRUo5TDd5ZTJXQnN3enhaYlptaDhyc2RTV1k5clpSb0hkT2Z6dnhnNzJ1VHBFd3NGY3NQaGJ6V1R5alFMRV91UEtudHFZeEFTUjBlUQ?oc=5",
       "locator": null,
-      "published_at": "2025-12-12"
+      "published_at": "2025-07-15"
     },
-    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_c8fd518f42",
+    "company_id": "openevidence",
+    "metric": "valuation",
+    "value": 3500000000.0,
+    "unit": null,
+    "raw_text": "$3.5B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRTE5aXVuR3JtMDM2QU5iOGRTRHN6ak9rTVA5eHd5TjRRZlVMT1dsTmVPUEpWTzBLRE1KdTlPWTY0X3RtMElxTGV1LUlHTURKN1FfZkU0b0syTzBSY0F4Y1ZLR0dYNlNJLTZjQ2NaX1NnNkxlRjlqRUo5TDd5ZTJXQnN3enhaYlptaDhyc2RTV1k5clpSb0hkT2Z6dnhnNzJ1VHBFd3NGY3NQaGJ6V1R5alFMRV91UEtudHFZeEFTUjBlUQ?oc=5",
+      "locator": null,
+      "published_at": "2025-07-15"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_5206ae44ef",
+    "company_id": "openevidence",
+    "metric": "total_funding",
+    "value": 200000000.0,
+    "unit": "USD",
+    "raw_text": "raised $200M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "refreshmiami.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbXI5bkdvXzQ2c1BURUpwWEtVQktINXpYdEdrcDYzc25IVDFma3d4bnJFLXZXeDJTd2xFbjh0X3BWNjc5dDJ2QmRnTkRlWUpzanNUY09EREhrUkVWNnotMnZaNV9Odkd2UUVvUHM4em16T1Z0aEMyZk44RldUQW80N0lhNE11OGNnS05Db1FVTzFNRnBZSjRXSzZ0LTkwa3ZJY1AteE1HLTdhTkZTYkJ5MWRZc3p4UGNzZzl3TTdxd1ZmVTNLX0ZNQ015Mmk?oc=5",
+      "locator": null,
+      "published_at": "2025-10-22"
+    },
+    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_8ecb6ccea1",
+    "company_id": "openevidence",
+    "metric": "valuation",
+    "value": 6000000000.0,
+    "unit": "USD",
+    "raw_text": "$6B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "refreshmiami.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbXI5bkdvXzQ2c1BURUpwWEtVQktINXpYdEdrcDYzc25IVDFma3d4bnJFLXZXeDJTd2xFbjh0X3BWNjc5dDJ2QmRnTkRlWUpzanNUY09EREhrUkVWNnotMnZaNV9Odkd2UUVvUHM4em16T1Z0aEMyZk44RldUQW80N0lhNE11OGNnS05Db1FVTzFNRnBZSjRXSzZ0LTkwa3ZJY1AteE1HLTdhTkZTYkJ5MWRZc3p4UGNzZzl3TTdxd1ZmVTNLX0ZNQ015Mmk?oc=5",
+      "locator": null,
+      "published_at": "2025-10-22"
+    },
+    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -755,54 +803,6 @@
       "published_at": "2025-07-17"
     },
     "extracted_at": "2026-09-08T09:45:47.974558",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_7e6ee7d1d0",
-    "company_id": "openevidence",
-    "metric": "round_amount",
-    "value": 210000000.0,
-    "unit": null,
-    "raw_text": "OpenEvidence raises $210M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRTE5aXVuR3JtMDM2QU5iOGRTRHN6ak9rTVA5eHd5TjRRZlVMT1dsTmVPUEpWTzBLRE1KdTlPWTY0X3RtMElxTGV1LUlHTURKN1FfZkU0b0syTzBSY0F4Y1ZLR0dYNlNJLTZjQ2NaX1NnNkxlRjlqRUo5TDd5ZTJXQnN3enhaYlptaDhyc2RTV1k5clpSb0hkT2Z6dnhnNzJ1VHBFd3NGY3NQaGJ6V1R5alFMRV91UEtudHFZeEFTUjBlUQ?oc=5",
-      "locator": null,
-      "published_at": "2025-07-15"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_c8fd518f42",
-    "company_id": "openevidence",
-    "metric": "valuation",
-    "value": 3500000000.0,
-    "unit": null,
-    "raw_text": "$3.5B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRTE5aXVuR3JtMDM2QU5iOGRTRHN6ak9rTVA5eHd5TjRRZlVMT1dsTmVPUEpWTzBLRE1KdTlPWTY0X3RtMElxTGV1LUlHTURKN1FfZkU0b0syTzBSY0F4Y1ZLR0dYNlNJLTZjQ2NaX1NnNkxlRjlqRUo5TDd5ZTJXQnN3enhaYlptaDhyc2RTV1k5clpSb0hkT2Z6dnhnNzJ1VHBFd3NGY3NQaGJ6V1R5alFMRV91UEtudHFZeEFTUjBlUQ?oc=5",
-      "locator": null,
-      "published_at": "2025-07-15"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null

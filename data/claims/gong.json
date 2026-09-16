@@ -1,0 +1,85 @@
+[
+  {
+    "id": "clm_4923ded245",
+    "company_id": "gong",
+    "metric": "valuation",
+    "value": 4500000000.0,
+    "unit": "USD",
+    "raw_text": "Gong’s valuation slips to $4.5 billion in new secondary deal talks",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "calcalistech.com",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9iMnc3R3dINmJIYkFyaXBBN213RFhXT09NZjQ4VUd3dU5lRmg0dkNzNFNjQzRMMk5LZy12MlJPWk55bXl2QV84a3ZjWl93eExhWTJVZ1dfZmdjQWx3ZHdOTGtocTFnOGZaTnc?oc=5",
+      "locator": null,
+      "published_at": "2025-11-17"
+    },
+    "extracted_at": "2026-09-16T10:35:49.404557",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_9f57def5c3",
+    "company_id": "gong",
+    "metric": "arr",
+    "value": 300000000.0,
+    "unit": "USD",
+    "raw_text": "Gong hits $300M revenue milestone",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "calcalistech.com",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkX080aEZhbkpTTnJlYnNhb0JvYjVfNDlQeWFjbjIwWDZ2LWh0OTdpRlJBSWdweWpDTEhMVzNLb0kyYTVWQTZGVXVWVE1JQWluNHNuU0xScXoxeXJWdWcwWkRiUDA5MHlj?oc=5",
+      "locator": null,
+      "published_at": "2025-03-05"
+    },
+    "extracted_at": "2026-09-16T10:35:49.404557",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "drv_fb4a75b3f2",
+    "company_id": "gong",
+    "metric": "revenue_multiple",
+    "value": 15.0,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2025-11-17"
+    },
+    "extracted_at": "2026-09-16T10:35:49.404557",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.1521,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_4923ded245",
+        "clm_9f57def5c3"
+      ]
+    }
+  }
+]

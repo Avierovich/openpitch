@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-09-15
+# OpenPitch Data Quality Report - 2026-09-16
 
 ## Summary
 
-- Profiles generated: 431
-- Watchlist candidates: 981
+- Profiles generated: 440
+- Watchlist candidates: 991
 - Top-50 cards: 50
-- Profiles with at least one metric: 420
-- Critical issues: 82
-- Warnings: 24
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 547
+- Profiles with at least one metric: 428
+- Critical issues: 83
+- Warnings: 23
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 548
 
 ## Top-50 Companies With No Metrics
 
@@ -37,6 +37,7 @@ None.
 - G42
 - FourKites
 - Carbon Robotics
+- Gladly
 - Amelia
 - Conversica
 - AnyVision
@@ -117,7 +118,6 @@ None.
 ## Single-Source Core Metrics
 
 - Enflame Technology: valuation
-- Enflame Technology: total_funding
 - Figure AI: headcount
 - Figure AI: valuation
 - Crusoe Energy Systems: arr

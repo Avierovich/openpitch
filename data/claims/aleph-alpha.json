@@ -24,6 +24,56 @@
     "derivation": null
   },
   {
+    "id": "clm_83cb847305",
+    "company_id": "aleph-alpha",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": null,
+    "raw_text": "Cohere acquires Aleph Alpha in $20bn sovereign AI push",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPckg5MU1NRVVkUlVhZWI0V0s4UDRHNXVKU0wxdHk1MXZFaDVDQ1AyQUhiakJTTmZWX1dHQmlOVUJLUVcxOUxPOU5VcElUMUgzSlBRekk3ZmtiTU1WdENPN2RyM3lUZERqRFotckZhWmZaM0FVY2FrdUd1djFkR3NreUNtNGo5VTdGZWdrX0RvcFpnbndfWnpwMXFrd0xxUGI1d1pZ?oc=5",
+      "locator": null,
+      "published_at": "2026-04-24"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_2fd518252e",
+    "company_id": "aleph-alpha",
+    "metric": "total_funding",
+    "value": 600000000.0,
+    "unit": "USD",
+    "raw_text": "$600M European AI Expansion",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Tech Buzz",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTGZ1SzJ5ekc2SXBrN1pwcEE3SXVSR1VWSzdoYTNaeHgtNFdrLTMwV3pVcHBicEw1eXJuSTFteG9oNkFPZkpwVmlocVI1Umh0QzAzcndBZDFpLUVnLWJVNnkxa3MyRE9CNDVCZC1zWWwySl9CVFFNYTJVcDh4YlhpeUZNQXdKTExIbEIzVnJtYzZEdlgx?oc=5",
+      "locator": null,
+      "published_at": "2026-04-24"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
     "id": "clm_828a25c817",
     "company_id": "aleph-alpha",
     "metric": "round_amount",
@@ -89,30 +139,6 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVVg0bERvR1dlM0dWQVk0c0FTbVYwdEc5R0VvRFFFM1lLbzVMbmhFbUg2VTg2Wk4tcS1CMzE1cXVqZWpRMWlHalQwaGp1NEVJNW04QWhLd2h0b1BGbW1Wd3JHSHU2VkI3eXZOOV90UkVHVi1veFVRX19oNTFEVzlVaHlFd0k3V2haUU1XM2V2Nl9FNnhkWTZ5elFXRF9kRWRSdTgycU03NkY?oc=5",
       "locator": null,
       "published_at": "2023-11-06"
-    },
-    "extracted_at": "2026-09-15T10:11:13.514998",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_83cb847305",
-    "company_id": "aleph-alpha",
-    "metric": "valuation",
-    "value": 20000000000.0,
-    "unit": null,
-    "raw_text": "Cohere acquires Aleph Alpha in $20bn sovereign AI push",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPckg5MU1NRVVkUlVhZWI0V0s4UDRHNXVKU0wxdHk1MXZFaDVDQ1AyQUhiakJTTmZWX1dHQmlOVUJLUVcxOUxPOU5VcElUMUgzSlBRekk3ZmtiTU1WdENPN2RyM3lUZERqRFotckZhWmZaM0FVY2FrdUd1djFkR3NreUNtNGo5VTdGZWdrX0RvcFpnbndfWnpwMXFrd0xxUGI1d1pZ?oc=5",
-      "locator": null,
-      "published_at": "2026-04-24"
     },
     "extracted_at": "2026-09-15T10:11:13.514998",
     "extractor_model": "gemini-3.5-flash-lite",
@@ -413,32 +439,6 @@
     "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "gemini-3.6-flash",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_2fd518252e",
-    "company_id": "aleph-alpha",
-    "metric": "total_funding",
-    "value": 600000000.0,
-    "unit": "USD",
-    "raw_text": "$600M European AI Expansion",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Tech Buzz",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTGZ1SzJ5ekc2SXBrN1pwcEE3SXVSR1VWSzdoYTNaeHgtNFdrLTMwV3pVcHBicEw1eXJuSTFteG9oNkFPZkpwVmlocVI1Umh0QzAzcndBZDFpLUVnLWJVNnkxa3MyRE9CNDVCZC1zWWwySl9CVFFNYTJVcDh4YlhpeUZNQXdKTExIbEIzVnJtYzZEdlgx?oc=5",
-      "locator": null,
-      "published_at": "2026-04-24"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
     "derivation": null
   },
   {

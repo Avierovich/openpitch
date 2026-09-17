@@ -1,53 +1,5 @@
 [
   {
-    "id": "clm_7787044b25",
-    "company_id": "reflection-ai",
-    "metric": "total_funding",
-    "value": 2000000000.0,
-    "unit": "USD",
-    "raw_text": "raises $2 billion in funding",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUnZpeW1BT2k1SlJDSzJHMmFfT1hCc3RvMEdRcFFaYnR4VUNkUEFCbTRYT1lXOWJBckp3ZnVnQXZZc2JjTFkzMWpiOExuOTYzOWZ3Y0FET0s0bEVRVUtza1g2ZjhkMUVvMkJUdkNXZkZUMFdvaWI4SUVpZWlGTzQ2VS0zdzJiRDBvQzZ0Zm8tTTV0QWFlVFZIOWRiYXFWaGpMbXI4cGRfVmk0WDgzeTlkcWxmV1lTOFNFSWZYSUkwSDg4Zw?oc=5",
-      "locator": null,
-      "published_at": "2025-10-09"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_4f358489fa",
-    "company_id": "reflection-ai",
-    "metric": "valuation",
-    "value": 8000000000.0,
-    "unit": "USD",
-    "raw_text": "valuation to $8 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUnZpeW1BT2k1SlJDSzJHMmFfT1hCc3RvMEdRcFFaYnR4VUNkUEFCbTRYT1lXOWJBckp3ZnVnQXZZc2JjTFkzMWpiOExuOTYzOWZ3Y0FET0s0bEVRVUtza1g2ZjhkMUVvMkJUdkNXZkZUMFdvaWI4SUVpZWlGTzQ2VS0zdzJiRDBvQzZ0Zm8tTTV0QWFlVFZIOWRiYXFWaGpMbXI4cGRfVmk0WDgzeTlkcWxmV1lTOFNFSWZYSUkwSDg4Zw?oc=5",
-      "locator": null,
-      "published_at": "2025-10-09"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_429213ea05",
     "company_id": "reflection-ai",
     "metric": "valuation",
@@ -99,6 +51,213 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_60a917bbbe",
+    "company_id": "reflection-ai",
+    "metric": "valuation",
+    "value": 25000000000.0,
+    "unit": "USD",
+    "raw_text": "$25bn Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "tekedia.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTzE3Q3hDT1NzUllFcmVNUUh2aWw1N0xvUUFDWGs5QVRDb3ZTTDRvNEJnQlljSzU5YzFEUjRrcWFGNDAydzZ1dUEwUlJoUHBNd2h3OXJaNE1xN09LX2puemg1NkdYY0ptb1g0VWN5cU1FUXNCZWFMNmhEaERtdTB5Sks4ZVAxYnlHSDd5T0puQjZrWXVRc3FiZVRKQ2dHeWsyd1F2T2d6OG1FUQ?oc=5",
+      "locator": null,
+      "published_at": "2026-03-27"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_5fb6673f1f",
+    "company_id": "reflection-ai",
+    "metric": "round_amount",
+    "value": 2500000000.0,
+    "unit": "USD",
+    "raw_text": "$2.5bn Raise",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "tekedia.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTzE3Q3hDT1NzUllFcmVNUUh2aWw1N0xvUUFDWGs5QVRDb3ZTTDRvNEJnQlljSzU5YzFEUjRrcWFGNDAydzZ1dUEwUlJoUHBNd2h3OXJaNE1xN09LX2puemg1NkdYY0ptb1g0VWN5cU1FUXNCZWFMNmhEaERtdTB5Sks4ZVAxYnlHSDd5T0puQjZrWXVRc3FiZVRKQ2dHeWsyd1F2T2d6OG1FUQ?oc=5",
+      "locator": null,
+      "published_at": "2026-03-27"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_f0aba26aef",
+    "company_id": "reflection-ai",
+    "metric": "valuation",
+    "value": 25000000000.0,
+    "unit": "USD",
+    "raw_text": "$25B valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPXzc1ZUVZVWdFeWJ0TU1NckEyOG5wb3NoazAtZndvUVFfYXQyNTMwTzhfTnQ4S1N4ajJXck9SLUxsajZ5Z2FQcGd5bEo4bkZYbk9BT1hlb3B0bFdNckJjV2RoN05qUFBRM3JmN3l2YlZLNkljeUxMQXFMeURMOXlDN1Z4Yy1oaE0wV1d2cHBtM21WQ1N3NllGUENUdVQ0MWdTcktYRzhqQldSZw?oc=5",
+      "locator": null,
+      "published_at": "2026-03-27"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_b3986ca508",
+    "company_id": "reflection-ai",
+    "metric": "valuation",
+    "value": 25000000000.0,
+    "unit": "USD",
+    "raw_text": "Raising Money At $25 Billion Valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "news",
+      "name": "tradingview.com",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNLXczR3lBRkZHTnVBNUlkUTNCS0ktWlpCZmVZekZiM2kzN1c1dElLOHNSWUFITkdpNEIyN1ZPOU82cXZwcmFUU3B4aDdTTWw4Q0hIckdoT2gxU0ZTdUx3MEVKdVhLQ182dEx2cmpfUF8wMHFkTEo5TW44TEpreXJxTnptNDJWOFFzSG5ITUdPN2pmNHN0N1IzWU9lbDZpbkdxWGZJSmVPa1l6TWE5RHIwUmVQVUNpYVVCRS1UQnM1Q1MwY2prMmV6N1RXY2xreUdVNWJxTXlaQUl2cV9MZ0hDd3ZtZHNuWmZvbmt0eWNxVl9nS2ZqNHl4OEJQOWsyM3BZQW8ycndBYw?oc=5",
+      "locator": null,
+      "published_at": "2026-04-23"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_56db826879",
+    "company_id": "reflection-ai",
+    "metric": "valuation",
+    "value": 5500000000.0,
+    "unit": "USD",
+    "raw_text": "$5.5bn valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE04aGtxMUgtdFVRckxERzJ6UUpSOUpNazNCU1MxbVZtek1HdnB1b1BpS08zdzhUaGVyNnJCY0ZkZjd3el9mczdJVzZhWWV0WE9rekRhR2tIdjdfZm50Ti02N1FxNDVtUVcyY1ZBaUgxalhqbUM4QXBBeTFn?oc=5",
+      "locator": null,
+      "published_at": "2025-09-10"
+    },
+    "extracted_at": "2026-08-22T05:47:44.406970",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_df46e186d9",
+    "company_id": "reflection-ai",
+    "metric": "valuation",
+    "value": 25000000000.0,
+    "unit": "USD",
+    "raw_text": "raising money at $25 billion valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "marketscreener.com",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPX1psUUFEY2xLQ3c2R0NmSExoLXVNUDhpY3dHVUhaQjlOSFVZTU9qTXdHMm9QWkh1RmZpOUVtSTZ3ZkJ5eFdWMldCT0t3ekxYcEtGcE1TTElHdW1UVDhtajE1Qmx6cmxBc1BiT1otTURTdWRNSmZnazhSWWlmMTdaNUdiRHlWNUUtWXRDV0g2NVVVMHVqdW5QVEFKYV9IemUzZjdLZnkxVlZrOTM3WWZ4VGh3Y25BRDkxeUlSUVFQSTc4a29uMW1QMkxqUVZWSkFFUENxelM3Slo3QzRET01kSVFPdw?oc=5",
+      "locator": null,
+      "published_at": "2026-04-23"
+    },
+    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_7787044b25",
+    "company_id": "reflection-ai",
+    "metric": "total_funding",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "raises $2 billion in funding",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUnZpeW1BT2k1SlJDSzJHMmFfT1hCc3RvMEdRcFFaYnR4VUNkUEFCbTRYT1lXOWJBckp3ZnVnQXZZc2JjTFkzMWpiOExuOTYzOWZ3Y0FET0s0bEVRVUtza1g2ZjhkMUVvMkJUdkNXZkZUMFdvaWI4SUVpZWlGTzQ2VS0zdzJiRDBvQzZ0Zm8tTTV0QWFlVFZIOWRiYXFWaGpMbXI4cGRfVmk0WDgzeTlkcWxmV1lTOFNFSWZYSUkwSDg4Zw?oc=5",
+      "locator": null,
+      "published_at": "2025-10-09"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_4f358489fa",
+    "company_id": "reflection-ai",
+    "metric": "valuation",
+    "value": 8000000000.0,
+    "unit": "USD",
+    "raw_text": "valuation to $8 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUnZpeW1BT2k1SlJDSzJHMmFfT1hCc3RvMEdRcFFaYnR4VUNkUEFCbTRYT1lXOWJBckp3ZnVnQXZZc2JjTFkzMWpiOExuOTYzOWZ3Y0FET0s0bEVRVUtza1g2ZjhkMUVvMkJUdkNXZkZUMFdvaWI4SUVpZWlGTzQ2VS0zdzJiRDBvQzZ0Zm8tTTV0QWFlVFZIOWRiYXFWaGpMbXI4cGRfVmk0WDgzeTlkcWxmV1lTOFNFSWZYSUkwSDg4Zw?oc=5",
+      "locator": null,
+      "published_at": "2025-10-09"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -204,33 +363,6 @@
     "derivation": null
   },
   {
-    "id": "clm_f0aba26aef",
-    "company_id": "reflection-ai",
-    "metric": "valuation",
-    "value": 25000000000.0,
-    "unit": "USD",
-    "raw_text": "$25B valuation",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPXzc1ZUVZVWdFeWJ0TU1NckEyOG5wb3NoazAtZndvUVFfYXQyNTMwTzhfTnQ4S1N4ajJXck9SLUxsajZ5Z2FQcGd5bEo4bkZYbk9BT1hlb3B0bFdNckJjV2RoN05qUFBRM3JmN3l2YlZLNkljeUxMQXFMeURMOXlDN1Z4Yy1oaE0wV1d2cHBtM21WQ1N3NllGUENUdVQ0MWdTcktYRzhqQldSZw?oc=5",
-      "locator": null,
-      "published_at": "2026-03-27"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
     "id": "clm_30393a5b66",
     "company_id": "reflection-ai",
     "metric": "valuation",
@@ -254,85 +386,6 @@
     "extracted_at": "2026-08-27T17:02:21.670041",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.45,
-    "derivation": null
-  },
-  {
-    "id": "clm_60a917bbbe",
-    "company_id": "reflection-ai",
-    "metric": "valuation",
-    "value": 25000000000.0,
-    "unit": "USD",
-    "raw_text": "$25bn Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "tekedia.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTzE3Q3hDT1NzUllFcmVNUUh2aWw1N0xvUUFDWGs5QVRDb3ZTTDRvNEJnQlljSzU5YzFEUjRrcWFGNDAydzZ1dUEwUlJoUHBNd2h3OXJaNE1xN09LX2puemg1NkdYY0ptb1g0VWN5cU1FUXNCZWFMNmhEaERtdTB5Sks4ZVAxYnlHSDd5T0puQjZrWXVRc3FiZVRKQ2dHeWsyd1F2T2d6OG1FUQ?oc=5",
-      "locator": null,
-      "published_at": "2026-03-27"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_5fb6673f1f",
-    "company_id": "reflection-ai",
-    "metric": "round_amount",
-    "value": 2500000000.0,
-    "unit": "USD",
-    "raw_text": "$2.5bn Raise",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "tekedia.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTzE3Q3hDT1NzUllFcmVNUUh2aWw1N0xvUUFDWGs5QVRDb3ZTTDRvNEJnQlljSzU5YzFEUjRrcWFGNDAydzZ1dUEwUlJoUHBNd2h3OXJaNE1xN09LX2puemg1NkdYY0ptb1g0VWN5cU1FUXNCZWFMNmhEaERtdTB5Sks4ZVAxYnlHSDd5T0puQjZrWXVRc3FiZVRKQ2dHeWsyd1F2T2d6OG1FUQ?oc=5",
-      "locator": null,
-      "published_at": "2026-03-27"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_56db826879",
-    "company_id": "reflection-ai",
-    "metric": "valuation",
-    "value": 5500000000.0,
-    "unit": "USD",
-    "raw_text": "$5.5bn valuation",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE04aGtxMUgtdFVRckxERzJ6UUpSOUpNazNCU1MxbVZtek1HdnB1b1BpS08zdzhUaGVyNnJCY0ZkZjd3el9mczdJVzZhWWV0WE9rekRhR2tIdjdfZm50Ti02N1FxNDVtUVcyY1ZBaUgxalhqbUM4QXBBeTFn?oc=5",
-      "locator": null,
-      "published_at": "2025-09-10"
-    },
-    "extracted_at": "2026-08-22T05:47:44.406970",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -600,33 +653,6 @@
     "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_b3986ca508",
-    "company_id": "reflection-ai",
-    "metric": "valuation",
-    "value": 25000000000.0,
-    "unit": "USD",
-    "raw_text": "Raising Money At $25 Billion Valuation",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "exec"
-    },
-    "source": {
-      "type": "news",
-      "name": "tradingview.com",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNLXczR3lBRkZHTnVBNUlkUTNCS0ktWlpCZmVZekZiM2kzN1c1dElLOHNSWUFITkdpNEIyN1ZPOU82cXZwcmFUU3B4aDdTTWw4Q0hIckdoT2gxU0ZTdUx3MEVKdVhLQ182dEx2cmpfUF8wMHFkTEo5TW44TEpreXJxTnptNDJWOFFzSG5ITUdPN2pmNHN0N1IzWU9lbDZpbkdxWGZJSmVPa1l6TWE5RHIwUmVQVUNpYVVCRS1UQnM1Q1MwY2prMmV6N1RXY2xreUdVNWJxTXlaQUl2cV9MZ0hDd3ZtZHNuWmZvbmt0eWNxVl9nS2ZqNHl4OEJQOWsyM3BZQW8ycndBYw?oc=5",
-      "locator": null,
-      "published_at": "2026-04-23"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {

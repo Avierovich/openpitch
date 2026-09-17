@@ -12,6 +12,28 @@
   "vc_attention_score": 85.6,
   "universe_rank": 33,
   "metrics": {
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 590000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-09-09",
+      "estimate_type": "reported",
+      "confidence": 0.367,
+      "supporting_claims": [
+        "clm_62d3dd505e"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 590000000.0,
+        "change_pct": 0.0,
+        "since": "2026-09-09"
+      },
+      "history_ref": "history/chime/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "valuation": {
       "metric": "valuation",
       "value": 18400000000.0,
@@ -19,7 +41,7 @@
       "range": null,
       "as_of": "2025-06-12",
       "estimate_type": "consensus",
-      "confidence": 0.275,
+      "confidence": 0.274,
       "supporting_claims": [
         "clm_ee7faccf02",
         "clm_9608a1a7fd"
@@ -35,28 +57,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 590000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-09-09",
-      "estimate_type": "reported",
-      "confidence": 0.368,
-      "supporting_claims": [
-        "clm_62d3dd505e"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 590000000.0,
-        "change_pct": 0.0,
-        "since": "2026-09-09"
-      },
-      "history_ref": "history/chime/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "revenue_growth": {
       "metric": "revenue_growth",
       "value": 29.0,
@@ -64,7 +64,7 @@
       "range": null,
       "as_of": "2026-02-14",
       "estimate_type": "consensus",
-      "confidence": 0.146,
+      "confidence": 0.145,
       "supporting_claims": [
         "clm_72f77ecfb8",
         "clm_2011102552"
@@ -72,7 +72,7 @@
       "contradiction": false,
       "delta": {
         "previous": 29.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-02-14"
       },
       "history_ref": "history/chime/revenue_growth.jsonl",
@@ -81,5 +81,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-16"
+  "last_updated": "2026-09-17"
 }

@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-09-16
+# OpenPitch Data Quality Report - 2026-09-17
 
 ## Summary
 
-- Profiles generated: 440
-- Watchlist candidates: 991
+- Profiles generated: 447
+- Watchlist candidates: 1003
 - Top-50 cards: 50
-- Profiles with at least one metric: 428
+- Profiles with at least one metric: 435
 - Critical issues: 83
 - Warnings: 23
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 548
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 554
 
 ## Top-50 Companies With No Metrics
 
@@ -29,7 +29,6 @@ None.
 ## Curated High-Priority Watchlist Companies Not Profiled (critical)
 
 - Sana
-- Galileo
 
 ## Funded But No Valuation (critical — ingestion gap)
 
@@ -82,6 +81,7 @@ None.
 - Chemify
 - Clari
 - Climavision
+- Climeworks
 - Coder
 - Cognigy
 - Cognism

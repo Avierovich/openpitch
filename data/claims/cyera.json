@@ -192,54 +192,6 @@
     "derivation": null
   },
   {
-    "id": "clm_147d08d7d5",
-    "company_id": "cyera",
-    "metric": "total_funding",
-    "value": 400000000.0,
-    "unit": null,
-    "raw_text": "Cyera raises $400 million at $9 billion valuation in Blackstone-led round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "calcalistech.com",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5oYXlBR19GZWJfc2NVd19uaklUZHJZeFNIRS1XZ3VCMUlqd0tMdHFyX1BFNk82NWdTYnFleFlCNlM2V2R5dUptQjdQOUUyd3RVTEtVNF82S3I5YjhoY0ZnellyVE1rREE?oc=5",
-      "locator": null,
-      "published_at": "2025-12-17"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_00f53a35ce",
-    "company_id": "cyera",
-    "metric": "valuation",
-    "value": 9000000000.0,
-    "unit": null,
-    "raw_text": "Cyera raises $400 million at $9 billion valuation in Blackstone-led round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "calcalistech.com",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5oYXlBR19GZWJfc2NVd19uaklUZHJZeFNIRS1XZ3VCMUlqd0tMdHFyX1BFNk82NWdTYnFleFlCNlM2V2R5dUptQjdQOUUyd3RVTEtVNF82S3I5YjhoY0ZnellyVE1rREE?oc=5",
-      "locator": null,
-      "published_at": "2025-12-17"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_1f2c7aa555",
     "company_id": "cyera",
     "metric": "round_amount",
@@ -312,11 +264,59 @@
     "derivation": null
   },
   {
+    "id": "clm_147d08d7d5",
+    "company_id": "cyera",
+    "metric": "total_funding",
+    "value": 400000000.0,
+    "unit": null,
+    "raw_text": "Cyera raises $400 million at $9 billion valuation in Blackstone-led round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "calcalistech.com",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5oYXlBR19GZWJfc2NVd19uaklUZHJZeFNIRS1XZ3VCMUlqd0tMdHFyX1BFNk82NWdTYnFleFlCNlM2V2R5dUptQjdQOUUyd3RVTEtVNF82S3I5YjhoY0ZnellyVE1rREE?oc=5",
+      "locator": null,
+      "published_at": "2025-12-17"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_00f53a35ce",
+    "company_id": "cyera",
+    "metric": "valuation",
+    "value": 9000000000.0,
+    "unit": null,
+    "raw_text": "Cyera raises $400 million at $9 billion valuation in Blackstone-led round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "calcalistech.com",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5oYXlBR19GZWJfc2NVd19uaklUZHJZeFNIRS1XZ3VCMUlqd0tMdHFyX1BFNk82NWdTYnFleFlCNlM2V2R5dUptQjdQOUUyd3RVTEtVNF82S3I5YjhoY0ZnellyVE1rREE?oc=5",
+      "locator": null,
+      "published_at": "2025-12-17"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_b7295b2927",
     "company_id": "cyera",
     "metric": "headcount",
     "value": 550.0,
-    "unit": null,
+    "unit": "employees",
     "raw_text": "scaling Cyera from 100 to 550 employees in under two years",
     "qualifiers": [],
     "speaker": {
@@ -330,9 +330,57 @@
       "locator": null,
       "published_at": "2025-05-09"
     },
-    "extracted_at": "2026-09-16T10:35:49.404557",
+    "extracted_at": "2026-09-17T10:01:41.438182",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.42,
+    "derivation": null
+  },
+  {
+    "id": "clm_c192c709ee",
+    "company_id": "cyera",
+    "metric": "round_amount",
+    "value": 600000000.0,
+    "unit": "USD",
+    "raw_text": "Cyera Raises $600 Million at $12 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYURPZDQxZXJINHpucGVHeVBDR3U3VUdfdVRHUEE2c083dng2SjdBbGdLb1lxSC1sVU4tNnlReVJmOWdtaHlNTGcwU0JHd2N1X1J6RVZOTFMwVTlXRHNvTUxydHZJbVNVV1dWZWZ2MjBLRmdVV0dWMFd1MkdxWHRlOUdnOWhvcmJHdi1La1hVbXNRUnBhclVRSVhMaHo?oc=5",
+      "locator": null,
+      "published_at": "2026-06-10"
+    },
+    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_30e02b8bb3",
+    "company_id": "cyera",
+    "metric": "valuation",
+    "value": 12000000000.0,
+    "unit": "USD",
+    "raw_text": "$600 Million at $12 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYURPZDQxZXJINHpucGVHeVBDR3U3VUdfdVRHUEE2c083dng2SjdBbGdLb1lxSC1sVU4tNnlReVJmOWdtaHlNTGcwU0JHd2N1X1J6RVZOTFMwVTlXRHNvTUxydHZJbVNVV1dWZWZ2MjBLRmdVV0dWMFd1MkdxWHRlOUdnOWhvcmJHdi1La1hVbXNRUnBhclVRSVhMaHo?oc=5",
+      "locator": null,
+      "published_at": "2026-06-10"
+    },
+    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -1406,7 +1454,7 @@
       "locator": null,
       "published_at": "2026-06-10"
     },
-    "extracted_at": "2026-09-16T10:35:49.404557",
+    "extracted_at": "2026-09-17T10:01:41.438182",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1087,
     "derivation": {

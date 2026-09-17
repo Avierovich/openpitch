@@ -12,27 +12,24 @@
   "vc_attention_score": 89.9,
   "universe_rank": 10,
   "metrics": {
-    "round_amount": {
-      "metric": "round_amount",
+    "total_funding": {
+      "metric": "total_funding",
       "value": 900000000.0,
       "unit": "USD",
       "range": null,
       "as_of": "2025-06-09",
-      "estimate_type": "consensus",
-      "confidence": 0.429,
+      "estimate_type": "reported",
+      "confidence": 0.198,
       "supporting_claims": [
-        "clm_80a6f04add",
-        "clm_08af273dc1",
-        "clm_46cf8071f4",
-        "clm_a44c8cb1d6"
+        "clm_7fa74fffd6"
       ],
       "contradiction": false,
       "delta": {
         "previous": 900000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2025-06-09"
       },
-      "history_ref": "history/anysphere-cursor/round_amount.jsonl",
+      "history_ref": "history/anysphere-cursor/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -53,8 +50,8 @@
         "clm_e4dd2a2283",
         "clm_2a1e29dc04",
         "clm_33f18b1e40",
-        "clm_4c2f621f86",
         "clm_b72bf21995",
+        "clm_4c2f621f86",
         "clm_3ec6c34381",
         "clm_eeeb3d5f25",
         "clm_8aa5606336"
@@ -70,39 +67,20 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "arr": {
-      "metric": "arr",
-      "value": 4000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-06-16",
-      "estimate_type": "consensus",
-      "confidence": 0.272,
-      "supporting_claims": [
-        "clm_ebc093f62f",
-        "clm_0d4fcaf1cf"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 4000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-06-16"
-      },
-      "history_ref": "history/anysphere-cursor/arr.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "total_funding": {
-      "metric": "total_funding",
+    "round_amount": {
+      "metric": "round_amount",
       "value": 900000000.0,
       "unit": "USD",
       "range": null,
       "as_of": "2025-06-09",
-      "estimate_type": "reported",
-      "confidence": 0.199,
+      "estimate_type": "consensus",
+      "confidence": 0.511,
       "supporting_claims": [
-        "clm_7fa74fffd6"
+        "clm_08af273dc1",
+        "clm_b6af8aa900",
+        "clm_80a6f04add",
+        "clm_46cf8071f4",
+        "clm_a44c8cb1d6"
       ],
       "contradiction": false,
       "delta": {
@@ -110,26 +88,49 @@
         "change_pct": 0.0,
         "since": "2025-06-09"
       },
-      "history_ref": "history/anysphere-cursor/total_funding.jsonl",
+      "history_ref": "history/anysphere-cursor/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "arr": {
+      "metric": "arr",
+      "value": 4000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-06-16",
+      "estimate_type": "consensus",
+      "confidence": 0.27,
+      "supporting_claims": [
+        "clm_ebc093f62f",
+        "clm_0d4fcaf1cf"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 4000000000.0,
+        "change_pct": -0.0,
+        "since": "2026-06-16"
+      },
+      "history_ref": "history/anysphere-cursor/arr.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 2.48,
+      "value": 2.25,
       "unit": "x",
       "range": null,
       "as_of": "2026-06-16",
       "estimate_type": "reported",
-      "confidence": 0.084,
+      "confidence": 0.083,
       "supporting_claims": [
-        "drv_ea2631f4c2"
+        "drv_65071e14b5"
       ],
       "contradiction": false,
       "delta": {
         "previous": 2.48,
-        "change_pct": 0.0,
+        "change_pct": -9.3,
         "since": "2026-06-16"
       },
       "history_ref": "history/anysphere-cursor/revenue_multiple.jsonl",
@@ -138,5 +139,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-16"
+  "last_updated": "2026-09-17"
 }

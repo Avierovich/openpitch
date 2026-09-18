@@ -33,8 +33,8 @@
         "clm_17732cd404",
         "clm_5f2446e257",
         "clm_3fc3c4a358",
-        "clm_4399bb510d",
         "clm_2fd5922763",
+        "clm_4399bb510d",
         "clm_5783ad0fcc",
         "clm_43b37636cf",
         "clm_d07f74da21",
@@ -45,8 +45,8 @@
       ],
       "contradiction": true,
       "delta": {
-        "previous": 46394314012.02,
-        "change_pct": 0.1,
+        "previous": 46448195398.72,
+        "change_pct": 0.0,
         "since": "2026-09-09"
       },
       "history_ref": "history/devin/valuation.jsonl",
@@ -61,7 +61,7 @@
       "range": null,
       "as_of": "2025-07-18",
       "estimate_type": "reported",
-      "confidence": 0.016,
+      "confidence": 0.015,
       "supporting_claims": [
         "clm_60bff67397"
       ],
@@ -76,6 +76,34 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 2000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 1000000000.0,
+        "high": 2000000000.0
+      },
+      "as_of": "2026-09-09",
+      "estimate_type": "consensus",
+      "confidence": 0.937,
+      "supporting_claims": [
+        "clm_703cda8563",
+        "clm_cd9b1ed880",
+        "clm_6c323274d8",
+        "clm_066b993098"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 2000000000.0,
+        "change_pct": -0.0,
+        "since": "2026-09-09"
+      },
+      "history_ref": "history/devin/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "latest_round": {
       "metric": "latest_round",
       "value": 2000000000.0,
@@ -86,7 +114,7 @@
       },
       "as_of": "2026-09-09",
       "estimate_type": "consensus",
-      "confidence": 0.869,
+      "confidence": 0.868,
       "supporting_claims": [
         "clm_f7b180e95c",
         "clm_4753ebced3",
@@ -104,34 +132,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 2000000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 1000000000.0,
-        "high": 2000000000.0
-      },
-      "as_of": "2026-09-09",
-      "estimate_type": "consensus",
-      "confidence": 0.938,
-      "supporting_claims": [
-        "clm_703cda8563",
-        "clm_cd9b1ed880",
-        "clm_6c323274d8",
-        "clm_066b993098"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 2000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-09-09"
-      },
-      "history_ref": "history/devin/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "total_funding": {
       "metric": "total_funding",
       "value": 2000000000.0,
@@ -142,7 +142,7 @@
       },
       "as_of": "2026-09-09",
       "estimate_type": "consensus",
-      "confidence": 0.801,
+      "confidence": 0.8,
       "supporting_claims": [
         "clm_eed794138a",
         "clm_604c58b909",
@@ -166,7 +166,7 @@
       "range": null,
       "as_of": "2026-09-02",
       "estimate_type": "reported",
-      "confidence": 0.23,
+      "confidence": 0.228,
       "supporting_claims": [
         "drv_23c76acbe0"
       ],
@@ -182,5 +182,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-17"
+  "last_updated": "2026-09-18"
 }

@@ -148,6 +148,56 @@
     "derivation": null
   },
   {
+    "id": "clm_0051c9db8a",
+    "company_id": "mercor",
+    "metric": "valuation",
+    "value": 10000000000.0,
+    "unit": "USD",
+    "raw_text": "$10 billion valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "mercor.com",
+      "url": "https://mercor.com/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_3da23f4b07",
+    "company_id": "mercor",
+    "metric": "latest_round",
+    "value": 3.0,
+    "unit": "round",
+    "raw_text": "Series C",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "mercor.com",
+      "url": "https://mercor.com/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
     "id": "clm_49376ad18c",
     "company_id": "mercor",
     "metric": "valuation",
@@ -198,6 +248,58 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_3c7843f761",
+    "company_id": "mercor",
+    "metric": "valuation",
+    "value": 10000000000.0,
+    "unit": "USD",
+    "raw_text": "AI startup Mercor now valued at $10 billion with new $350 million funding round",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "cnbc.com",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5zbjJON1dIWlBqNTFVVlBta0JDNWdRblZjWE5XeGZpYnZoUHE1cnhiV0t3MGszeWhOb19WRENVME1pd01wTDlrWjVUNFRmMVJmamxobkpQZVNXZVZhbGpVTDJDbjZCYU9uel9lNHRQZHN4cFZTVzFNQdIBfkFVX3lxTFBzQXZDdnpqcFJGRUxiX1pDdEZMeThxaEd4SV9jMXJYelJLZnZRZ2VDMzdzZFVWQnR6TXRvSlhubzBpU1M5bnM4M01NZ1V4eVBISHB0T211blNldmFFZURGbFVkT0dMM3k4VThWWUZKMHZqM05tSWpDTDUtVGZVZw?oc=5",
+      "locator": null,
+      "published_at": "2025-10-27"
+    },
+    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_d86e38b7ea",
+    "company_id": "mercor",
+    "metric": "round_amount",
+    "value": 350000000.0,
+    "unit": "USD",
+    "raw_text": "valued at $10 billion with new $350 million funding round",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "cnbc.com",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5zbjJON1dIWlBqNTFVVlBta0JDNWdRblZjWE5XeGZpYnZoUHE1cnhiV0t3MGszeWhOb19WRENVME1pd01wTDlrWjVUNFRmMVJmamxobkpQZVNXZVZhbGpVTDJDbjZCYU9uel9lNHRQZHN4cFZTVzFNQdIBfkFVX3lxTFBzQXZDdnpqcFJGRUxiX1pDdEZMeThxaEd4SV9jMXJYelJLZnZRZ2VDMzdzZFVWQnR6TXRvSlhubzBpU1M5bnM4M01NZ1V4eVBISHB0T211blNldmFFZURGbFVkT0dMM3k4VThWWUZKMHZqM05tSWpDTDUtVGZVZw?oc=5",
+      "locator": null,
+      "published_at": "2025-10-27"
+    },
+    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -273,56 +375,6 @@
     "derivation": null
   },
   {
-    "id": "clm_0051c9db8a",
-    "company_id": "mercor",
-    "metric": "valuation",
-    "value": 10000000000.0,
-    "unit": "USD",
-    "raw_text": "$10 billion valuation",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "mercor.com",
-      "url": "https://mercor.com/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-09-17T10:01:41.438182",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
-    "derivation": null
-  },
-  {
-    "id": "clm_3da23f4b07",
-    "company_id": "mercor",
-    "metric": "latest_round",
-    "value": 3.0,
-    "unit": "round",
-    "raw_text": "Series C",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "mercor.com",
-      "url": "https://mercor.com/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-09-17T10:01:41.438182",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
     "id": "clm_4309feee40",
     "company_id": "mercor",
     "metric": "valuation",
@@ -375,58 +427,6 @@
     "extracted_at": "2026-09-16T10:35:49.404557",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.1984,
-    "derivation": null
-  },
-  {
-    "id": "clm_3c7843f761",
-    "company_id": "mercor",
-    "metric": "valuation",
-    "value": 10000000000.0,
-    "unit": "USD",
-    "raw_text": "AI startup Mercor now valued at $10 billion with new $350 million funding round",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "cnbc.com",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5zbjJON1dIWlBqNTFVVlBta0JDNWdRblZjWE5XeGZpYnZoUHE1cnhiV0t3MGszeWhOb19WRENVME1pd01wTDlrWjVUNFRmMVJmamxobkpQZVNXZVZhbGpVTDJDbjZCYU9uel9lNHRQZHN4cFZTVzFNQdIBfkFVX3lxTFBzQXZDdnpqcFJGRUxiX1pDdEZMeThxaEd4SV9jMXJYelJLZnZRZ2VDMzdzZFVWQnR6TXRvSlhubzBpU1M5bnM4M01NZ1V4eVBISHB0T211blNldmFFZURGbFVkT0dMM3k4VThWWUZKMHZqM05tSWpDTDUtVGZVZw?oc=5",
-      "locator": null,
-      "published_at": "2025-10-27"
-    },
-    "extracted_at": "2026-09-14T10:31:29.338960",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_d86e38b7ea",
-    "company_id": "mercor",
-    "metric": "round_amount",
-    "value": 350000000.0,
-    "unit": "USD",
-    "raw_text": "valued at $10 billion with new $350 million funding round",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "cnbc.com",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5zbjJON1dIWlBqNTFVVlBta0JDNWdRblZjWE5XeGZpYnZoUHE1cnhiV0t3MGszeWhOb19WRENVME1pd01wTDlrWjVUNFRmMVJmamxobkpQZVNXZVZhbGpVTDJDbjZCYU9uel9lNHRQZHN4cFZTVzFNQdIBfkFVX3lxTFBzQXZDdnpqcFJGRUxiX1pDdEZMeThxaEd4SV9jMXJYelJLZnZRZ2VDMzdzZFVWQnR6TXRvSlhubzBpU1M5bnM4M01NZ1V4eVBISHB0T211blNldmFFZURGbFVkT0dMM3k4VThWWUZKMHZqM05tSWpDTDUtVGZVZw?oc=5",
-      "locator": null,
-      "published_at": "2025-10-27"
-    },
-    "extracted_at": "2026-09-14T10:31:29.338960",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -1025,7 +1025,7 @@
       "locator": null,
       "published_at": "2026-07-25"
     },
-    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extracted_at": "2026-09-18T09:44:30.525514",
     "extractor_model": "derive-engine",
     "base_confidence": 0.3312,
     "derivation": {

@@ -53,7 +53,7 @@
     "derivation": null
   },
   {
-    "id": "clm_707637bd06",
+    "id": "clm_0bb9847e27",
     "company_id": "thinking-machines",
     "metric": "valuation",
     "value": 40000000000.0,
@@ -70,14 +70,68 @@
     },
     "source": {
       "type": "news",
-      "name": "tradingview.com",
+      "name": "TradingView",
       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPZEIzRVlxUG5nWk5VTHBnQzR3dkg1WFY1a3A0aXEtVGNBSVgwbG5vNEVITnh1Ni1vZURUV0dvQUkyLU0tQnZ2RkNob3o0VkFDaHRlZ0x5cm9wZWFyMUZvWVQxaDVTQlNOU05kamhtX0JDUUJWUGFLSnBHd2ZDYXctX2hTTTBCVlZBa3N2OHRCajdjT0tHN0lUUEtndWR1Q1pfMjY3S19TYTVBTlNZNW8zOGZSSThpejdyVzEyejdYWENrRkw2Q3RLV21DTnoxWXBEUmJWVy0tNTFBM0JvdXJBdWRMdXhHcjZVbkVTS1luN2xKdFkyUXN1NnF3?oc=5",
       "locator": null,
       "published_at": "2026-09-03"
     },
-    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.241,
+    "derivation": null
+  },
+  {
+    "id": "clm_3ce446602a",
+    "company_id": "thinking-machines",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "aims to raise $1 billion",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPY3ZoaFA5MlFmS0FJYUdkbmZvSHMwdEhZc0JibHI2Q0NBZ1gzem9LUk1BRUFyeGdrVmJUbzMtZndyQk9BbFRvUDRHNmcwVmhGWjhBdXpBQ3dKU2dZd3dtTEZMUG5mS2Y0MU9TVlZMOVJPX3hUZkxrUmNhUnRUeWtaNVJoUzQ5bVFWTU1Oa2ZpQ2ZHOHJXeVNlbERId3kwUzE2MVU5bndNTDd2R0F2MDlEMW5Nd0EwOWJPck1SZE1WVFZXaGNMcFBubHZIQ3dBUTh3WmFHcVVLaUIzVjlyb2VObXNZZXItRzFzWmlZbFMyWmpTQ0I5OUE?oc=5",
+      "locator": null,
+      "published_at": "2026-09-03"
+    },
+    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_0bb9847e27",
+    "company_id": "thinking-machines",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "$40 billion valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPY3ZoaFA5MlFmS0FJYUdkbmZvSHMwdEhZc0JibHI2Q0NBZ1gzem9LUk1BRUFyeGdrVmJUbzMtZndyQk9BbFRvUDRHNmcwVmhGWjhBdXpBQ3dKU2dZd3dtTEZMUG5mS2Y0MU9TVlZMOVJPX3hUZkxrUmNhUnRUeWtaNVJoUzQ5bVFWTU1Oa2ZpQ2ZHOHJXeVNlbERId3kwUzE2MVU5bndNTDd2R0F2MDlEMW5Nd0EwOWJPck1SZE1WVFZXaGNMcFBubHZIQ3dBUTh3WmFHcVVLaUIzVjlyb2VObXNZZXItRzFzWmlZbFMyWmpTQ0I5OUE?oc=5",
+      "locator": null,
+      "published_at": "2026-09-03"
+    },
+    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -322,59 +376,6 @@
     "derivation": null
   },
   {
-    "id": "clm_3e9568dc1d",
-    "company_id": "thinking-machines",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "$1B Round",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Wowtale",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ZOUc4MHNqUkNNRmhaRDE1QUxlMnNTaWdVLWRHRG4yb0tKTlFORHFfQ2hkSFRWT3RYOFNSeWNqc1N5Wl9GcW1JbzdZU3RXS0VUUlZF?oc=5",
-      "locator": null,
-      "published_at": "2026-09-07"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_96e11af8e8",
-    "company_id": "thinking-machines",
-    "metric": "valuation",
-    "value": 40000000000.0,
-    "unit": "USD",
-    "raw_text": "$40B Valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Wowtale",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ZOUc4MHNqUkNNRmhaRDE1QUxlMnNTaWdVLWRHRG4yb0tKTlFORHFfQ2hkSFRWT3RYOFNSeWNqc1N5Wl9GcW1JbzdZU3RXS0VUUlZF?oc=5",
-      "locator": null,
-      "published_at": "2026-09-07"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2835,
-    "derivation": null
-  },
-  {
     "id": "clm_51dd180844",
     "company_id": "thinking-machines",
     "metric": "valuation",
@@ -453,6 +454,141 @@
     "derivation": null
   },
   {
+    "id": "clm_e423860410",
+    "company_id": "thinking-machines",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "Accel Reportedly in Talks to Lead $1B Round for Thinking Machines at a Lower $40B Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "en.wowtale.net",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ZOUc4MHNqUkNNRmhaRDE1QUxlMnNTaWdVLWRHRG4yb0tKTlFORHFfQ2hkSFRWT3RYOFNSeWNqc1N5Wl9GcW1JbzdZU3RXS0VUUlZF?oc=5",
+      "locator": null,
+      "published_at": "2026-09-07"
+    },
+    "extracted_at": "2026-09-18T09:44:30.525514",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_89ec939de8",
+    "company_id": "thinking-machines",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "Accel Reportedly in Talks to Lead $1B Round for Thinking Machines at a Lower $40B Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "en.wowtale.net",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ZOUc4MHNqUkNNRmhaRDE1QUxlMnNTaWdVLWRHRG4yb0tKTlFORHFfQ2hkSFRWT3RYOFNSeWNqc1N5Wl9GcW1JbzdZU3RXS0VUUlZF?oc=5",
+      "locator": null,
+      "published_at": "2026-09-07"
+    },
+    "extracted_at": "2026-09-18T09:44:30.525514",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_707637bd06",
+    "company_id": "thinking-machines",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "Roughly $40 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "rounded",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "tradingview.com",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPZEIzRVlxUG5nWk5VTHBnQzR3dkg1WFY1a3A0aXEtVGNBSVgwbG5vNEVITnh1Ni1vZURUV0dvQUkyLU0tQnZ2RkNob3o0VkFDaHRlZ0x5cm9wZWFyMUZvWVQxaDVTQlNOU05kamhtX0JDUUJWUGFLSnBHd2ZDYXctX2hTTTBCVlZBa3N2OHRCajdjT0tHN0lUUEtndWR1Q1pfMjY3S19TYTVBTlNZNW8zOGZSSThpejdyVzEyejdYWENrRkw2Q3RLV21DTnoxWXBEUmJWVy0tNTFBM0JvdXJBdWRMdXhHcjZVbkVTS1luN2xKdFkyUXN1NnF3?oc=5",
+      "locator": null,
+      "published_at": "2026-09-03"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.241,
+    "derivation": null
+  },
+  {
+    "id": "clm_3e9568dc1d",
+    "company_id": "thinking-machines",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "$1B Round",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Wowtale",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ZOUc4MHNqUkNNRmhaRDE1QUxlMnNTaWdVLWRHRG4yb0tKTlFORHFfQ2hkSFRWT3RYOFNSeWNqc1N5Wl9GcW1JbzdZU3RXS0VUUlZF?oc=5",
+      "locator": null,
+      "published_at": "2026-09-07"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_96e11af8e8",
+    "company_id": "thinking-machines",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "$40B Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Wowtale",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ZOUc4MHNqUkNNRmhaRDE1QUxlMnNTaWdVLWRHRG4yb0tKTlFORHFfQ2hkSFRWT3RYOFNSeWNqc1N5Wl9GcW1JbzdZU3RXS0VUUlZF?oc=5",
+      "locator": null,
+      "published_at": "2026-09-07"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2835,
+    "derivation": null
+  },
+  {
     "id": "clm_707637bd06",
     "company_id": "thinking-machines",
     "metric": "valuation",
@@ -502,88 +638,6 @@
       "published_at": "2026-09-03"
     },
     "extracted_at": "2026-09-17T10:01:41.438182",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_0bb9847e27",
-    "company_id": "thinking-machines",
-    "metric": "valuation",
-    "value": 40000000000.0,
-    "unit": "USD",
-    "raw_text": "Roughly $40 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "rounded",
-      "approximate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPZEIzRVlxUG5nWk5VTHBnQzR3dkg1WFY1a3A0aXEtVGNBSVgwbG5vNEVITnh1Ni1vZURUV0dvQUkyLU0tQnZ2RkNob3o0VkFDaHRlZ0x5cm9wZWFyMUZvWVQxaDVTQlNOU05kamhtX0JDUUJWUGFLSnBHd2ZDYXctX2hTTTBCVlZBa3N2OHRCajdjT0tHN0lUUEtndWR1Q1pfMjY3S19TYTVBTlNZNW8zOGZSSThpejdyVzEyejdYWENrRkw2Q3RLV21DTnoxWXBEUmJWVy0tNTFBM0JvdXJBdWRMdXhHcjZVbkVTS1luN2xKdFkyUXN1NnF3?oc=5",
-      "locator": null,
-      "published_at": "2026-09-03"
-    },
-    "extracted_at": "2026-09-04T09:41:05.539009",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.241,
-    "derivation": null
-  },
-  {
-    "id": "clm_3ce446602a",
-    "company_id": "thinking-machines",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "aims to raise $1 billion",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPY3ZoaFA5MlFmS0FJYUdkbmZvSHMwdEhZc0JibHI2Q0NBZ1gzem9LUk1BRUFyeGdrVmJUbzMtZndyQk9BbFRvUDRHNmcwVmhGWjhBdXpBQ3dKU2dZd3dtTEZMUG5mS2Y0MU9TVlZMOVJPX3hUZkxrUmNhUnRUeWtaNVJoUzQ5bVFWTU1Oa2ZpQ2ZHOHJXeVNlbERId3kwUzE2MVU5bndNTDd2R0F2MDlEMW5Nd0EwOWJPck1SZE1WVFZXaGNMcFBubHZIQ3dBUTh3WmFHcVVLaUIzVjlyb2VObXNZZXItRzFzWmlZbFMyWmpTQ0I5OUE?oc=5",
-      "locator": null,
-      "published_at": "2026-09-03"
-    },
-    "extracted_at": "2026-09-10T09:49:02.856855",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_0bb9847e27",
-    "company_id": "thinking-machines",
-    "metric": "valuation",
-    "value": 40000000000.0,
-    "unit": "USD",
-    "raw_text": "$40 billion valuation",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPY3ZoaFA5MlFmS0FJYUdkbmZvSHMwdEhZc0JibHI2Q0NBZ1gzem9LUk1BRUFyeGdrVmJUbzMtZndyQk9BbFRvUDRHNmcwVmhGWjhBdXpBQ3dKU2dZd3dtTEZMUG5mS2Y0MU9TVlZMOVJPX3hUZkxrUmNhUnRUeWtaNVJoUzQ5bVFWTU1Oa2ZpQ2ZHOHJXeVNlbERId3kwUzE2MVU5bndNTDd2R0F2MDlEMW5Nd0EwOWJPck1SZE1WVFZXaGNMcFBubHZIQ3dBUTh3WmFHcVVLaUIzVjlyb2VObXNZZXItRzFzWmlZbFMyWmpTQ0I5OUE?oc=5",
-      "locator": null,
-      "published_at": "2026-09-03"
-    },
-    "extracted_at": "2026-09-10T09:49:02.856855",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
     "derivation": null

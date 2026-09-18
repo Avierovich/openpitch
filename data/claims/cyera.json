@@ -1,26 +1,50 @@
 [
   {
-    "id": "clm_ecd9cd091e",
+    "id": "clm_c192c709ee",
     "company_id": "cyera",
-    "metric": "total_funding",
-    "value": 300000000.0,
-    "unit": null,
-    "raw_text": "raising $300 million just quarters after its previous mega-round",
+    "metric": "round_amount",
+    "value": 600000000.0,
+    "unit": "USD",
+    "raw_text": "Cyera Raises $600 Million at $12 Billion Valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
       "role": "unknown"
     },
     "source": {
-      "type": "podcast",
-      "name": "This Week in Startups",
-      "url": "https://4a885955-6823-4b22-a3e1-a526c25516a5.libsyn.com/cyeras-hypergrowth-cakes-cap-table-push-and-servicetitans-stellar-ipo-e2060",
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYURPZDQxZXJINHpucGVHeVBDR3U3VUdfdVRHUEE2c083dng2SjdBbGdLb1lxSC1sVU4tNnlReVJmOWdtaHlNTGcwU0JHd2N1X1J6RVZOTFMwVTlXRHNvTUxydHZJbVNVV1dWZWZ2MjBLRmdVV0dWMFd1MkdxWHRlOUdnOWhvcmJHdi1La1hVbXNRUnBhclVRSVhMaHo?oc=5",
       "locator": null,
-      "published_at": "2024-12-13"
+      "published_at": "2026-06-10"
     },
-    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extracted_at": "2026-09-17T10:01:41.438182",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3,
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_30e02b8bb3",
+    "company_id": "cyera",
+    "metric": "valuation",
+    "value": 12000000000.0,
+    "unit": "USD",
+    "raw_text": "$600 Million at $12 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYURPZDQxZXJINHpucGVHeVBDR3U3VUdfdVRHUEE2c083dng2SjdBbGdLb1lxSC1sVU4tNnlReVJmOWdtaHlNTGcwU0JHd2N1X1J6RVZOTFMwVTlXRHNvTUxydHZJbVNVV1dWZWZ2MjBLRmdVV0dWMFd1MkdxWHRlOUdnOWhvcmJHdi1La1hVbXNRUnBhclVRSVhMaHo?oc=5",
+      "locator": null,
+      "published_at": "2026-06-10"
+    },
+    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -312,16 +336,16 @@
     "derivation": null
   },
   {
-    "id": "clm_b7295b2927",
+    "id": "clm_4ac8eef288",
     "company_id": "cyera",
     "metric": "headcount",
-    "value": 550.0,
-    "unit": "employees",
+    "value": 100.0,
+    "unit": null,
     "raw_text": "scaling Cyera from 100 to 550 employees in under two years",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "founder"
     },
     "source": {
       "type": "podcast",
@@ -330,57 +354,81 @@
       "locator": null,
       "published_at": "2025-05-09"
     },
-    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extracted_at": "2026-09-18T09:44:30.525514",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.6,
+    "derivation": null
+  },
+  {
+    "id": "clm_b7295b2927",
+    "company_id": "cyera",
+    "metric": "headcount",
+    "value": 550.0,
+    "unit": null,
+    "raw_text": "scaling Cyera from 100 to 550 employees in under two years",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "founder"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "The Logan Bartlett Show",
+      "url": null,
+      "locator": null,
+      "published_at": "2025-05-09"
+    },
+    "extracted_at": "2026-09-18T09:44:30.525514",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.6,
+    "derivation": null
+  },
+  {
+    "id": "clm_385dcd4f2b",
+    "company_id": "cyera",
+    "metric": "round_amount",
+    "value": 300000000.0,
+    "unit": null,
+    "raw_text": "raising $300 million just quarters after its previous mega-round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "This Week in Startups",
+      "url": "https://4a885955-6823-4b22-a3e1-a526c25516a5.libsyn.com/cyeras-hypergrowth-cakes-cap-table-push-and-servicetitans-stellar-ipo-e2060",
+      "locator": null,
+      "published_at": "2024-12-13"
+    },
+    "extracted_at": "2026-09-18T09:44:30.525514",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.42,
     "derivation": null
   },
   {
-    "id": "clm_c192c709ee",
+    "id": "clm_ecd9cd091e",
     "company_id": "cyera",
-    "metric": "round_amount",
-    "value": 600000000.0,
-    "unit": "USD",
-    "raw_text": "Cyera Raises $600 Million at $12 Billion Valuation",
+    "metric": "total_funding",
+    "value": 300000000.0,
+    "unit": null,
+    "raw_text": "raising $300 million just quarters after its previous mega-round",
     "qualifiers": [],
     "speaker": {
       "name": null,
       "role": "unknown"
     },
     "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYURPZDQxZXJINHpucGVHeVBDR3U3VUdfdVRHUEE2c083dng2SjdBbGdLb1lxSC1sVU4tNnlReVJmOWdtaHlNTGcwU0JHd2N1X1J6RVZOTFMwVTlXRHNvTUxydHZJbVNVV1dWZWZ2MjBLRmdVV0dWMFd1MkdxWHRlOUdnOWhvcmJHdi1La1hVbXNRUnBhclVRSVhMaHo?oc=5",
+      "type": "podcast",
+      "name": "This Week in Startups",
+      "url": "https://4a885955-6823-4b22-a3e1-a526c25516a5.libsyn.com/cyeras-hypergrowth-cakes-cap-table-push-and-servicetitans-stellar-ipo-e2060",
       "locator": null,
-      "published_at": "2026-06-10"
+      "published_at": "2024-12-13"
     },
-    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_30e02b8bb3",
-    "company_id": "cyera",
-    "metric": "valuation",
-    "value": 12000000000.0,
-    "unit": "USD",
-    "raw_text": "$600 Million at $12 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYURPZDQxZXJINHpucGVHeVBDR3U3VUdfdVRHUEE2c083dng2SjdBbGdLb1lxSC1sVU4tNnlReVJmOWdtaHlNTGcwU0JHd2N1X1J6RVZOTFMwVTlXRHNvTUxydHZJbVNVV1dWZWZ2MjBLRmdVV0dWMFd1MkdxWHRlOUdnOWhvcmJHdi1La1hVbXNRUnBhclVRSVhMaHo?oc=5",
-      "locator": null,
-      "published_at": "2026-06-10"
-    },
-    "extracted_at": "2026-09-17T10:01:41.438182",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
+    "base_confidence": 0.3,
     "derivation": null
   },
   {
@@ -481,30 +529,6 @@
     "extracted_at": "2026-09-10T09:49:02.856855",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_4ac8eef288",
-    "company_id": "cyera",
-    "metric": "headcount",
-    "value": 100.0,
-    "unit": null,
-    "raw_text": "scaling Cyera from 100 to 550 employees in under two years",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "The Logan Bartlett Show",
-      "url": null,
-      "locator": null,
-      "published_at": "2025-05-09"
-    },
-    "extracted_at": "2026-09-12T09:20:27.932122",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3,
     "derivation": null
   },
   {
@@ -1454,7 +1478,7 @@
       "locator": null,
       "published_at": "2026-06-10"
     },
-    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extracted_at": "2026-09-18T09:44:30.525514",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1087,
     "derivation": {

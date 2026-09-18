@@ -24,15 +24,87 @@
     "derivation": null
   },
   {
-    "id": "clm_3e7cea4744",
+    "id": "clm_18c4a30a9d",
+    "company_id": "cerebras",
+    "metric": "round_amount",
+    "value": 1100000000.0,
+    "unit": "USD",
+    "raw_text": "raises $1.1B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GamesBeat",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRWJBQ1RBRE1zSkNibjlKdlREdGdDX3ctMU9jTGpuQlJraDFNZlQwSUV1eVRuLXdqZXNtMTQtQnlCT2d1OVZxRjdtbmhfalVVSE1WQkI3ZzBoVXV5aWlYQmZPSHYwX0g4Skt6YnhZYWlwRmEwbVJqVC13QWZSS0FoTzA3d2o1bWM1UjNORjB6a2tSa1lkWkQwa3ZB?oc=5",
+      "locator": null,
+      "published_at": "2025-09-30"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_bc05bae238",
     "company_id": "cerebras",
     "metric": "valuation",
-    "value": 95000000000.0,
+    "value": 8100000000.0,
     "unit": "USD",
-    "raw_text": "Cerebras’ $95B First Day Valuation",
+    "raw_text": "at $8.1B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GamesBeat",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRWJBQ1RBRE1zSkNibjlKdlREdGdDX3ctMU9jTGpuQlJraDFNZlQwSUV1eVRuLXdqZXNtMTQtQnlCT2d1OVZxRjdtbmhfalVVSE1WQkI3ZzBoVXV5aWlYQmZPSHYwX0g4Skt6YnhZYWlwRmEwbVJqVC13QWZSS0FoTzA3d2o1bWM1UjNORjB6a2tSa1lkWkQwa3ZB?oc=5",
+      "locator": null,
+      "published_at": "2025-09-30"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_a831cec87c",
+    "company_id": "cerebras",
+    "metric": "valuation",
+    "value": 23100000000.0,
+    "unit": "USD",
+    "raw_text": "Nvidia-rival Cerebras Systems valued at $23.1 billion in latest financing",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM3NjSl9vTHRkamlIQnJQNUlXMk9VWmFaOGhWTjBMQTVRWnNCSlIxVDItUXY5STQxLXo4bHBOTExaQUdFUUdINmQ1cWhjSmNKSnZyb0MwQzVSU1paVXYzQ2hybWtxZGpMWklSZmdNRnc2WnI2dk1VTEtOMHRuQy1BTldPYjhLV3BBUElPYm5iMUVKUUpBZklucXZsNDRkY3VHQ1VUMUhCaXNHSklkS19IRw?oc=5",
+      "locator": null,
+      "published_at": "2026-02-04"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_dce491a767",
+    "company_id": "cerebras",
+    "metric": "valuation",
+    "value": 49000000000.0,
+    "unit": "USD",
+    "raw_text": "Cerebras Systems eyes $49B valuation ahead of after-hours pricing",
     "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
+      "unconfirmed",
+      "forward_looking"
     ],
     "speaker": {
       "name": null,
@@ -40,12 +112,12 @@
     },
     "source": {
       "type": "news",
-      "name": "futurumgroup.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRFRQU1pVakdmYVB5MEt0UC1kNGE0Ni1QREZHRFFORndvb2FEaWU2MkNaMWtRcFpHTHVBenpzdC1Yb1R2M1VpZ0JDaDVOYzlGTVloX3pfVWRUTXZYRVdzSE83blIwWlpKeW5tcjdYeHVTWGJSaUU0TENZbUk3c0RqbWNOWWdpOEM1cGlZMXhmcVhnQ0RNR3AwMmlKTVBuaEJLbTlR?oc=5",
+      "name": "cnbc.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTWQxaDVkdmlacGRsQTA5R1VWZll2dXE1NlZYSUlDOWdCaEVvTzhHcEY2QnltRTR5VU9qVGNtb09xWFl3Rk5Od21hOXFGelhaNm9lXzh6cnF3Uk9OTDJpemNJeENVT0lIcFVPLVowVThOR0swbGczVG5QRllsSTI0cnBtVUdlQUI2d2dIWFFRUTR4V3RuQllrWVl2cHRXRTB1MnVIRWw0T2ZxeU0?oc=5",
       "locator": null,
-      "published_at": "2026-05-15"
+      "published_at": "2026-05-13"
     },
-    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extracted_at": "2026-09-10T09:49:02.856855",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
     "derivation": null
@@ -72,6 +144,33 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_3e7cea4744",
+    "company_id": "cerebras",
+    "metric": "valuation",
+    "value": 95000000000.0,
+    "unit": "USD",
+    "raw_text": "Cerebras’ $95B First Day Valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "futurumgroup.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRFRQU1pVakdmYVB5MEt0UC1kNGE0Ni1QREZHRFFORndvb2FEaWU2MkNaMWtRcFpHTHVBenpzdC1Yb1R2M1VpZ0JDaDVOYzlGTVloX3pfVWRUTXZYRVdzSE83blIwWlpKeW5tcjdYeHVTWGJSaUU0TENZbUk3c0RqbWNOWWdpOEM1cGlZMXhmcVhnQ0RNR3AwMmlKTVBuaEJLbTlR?oc=5",
+      "locator": null,
+      "published_at": "2026-05-15"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -291,78 +390,6 @@
     "derivation": null
   },
   {
-    "id": "clm_18c4a30a9d",
-    "company_id": "cerebras",
-    "metric": "round_amount",
-    "value": 1100000000.0,
-    "unit": "USD",
-    "raw_text": "raises $1.1B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "GamesBeat",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRWJBQ1RBRE1zSkNibjlKdlREdGdDX3ctMU9jTGpuQlJraDFNZlQwSUV1eVRuLXdqZXNtMTQtQnlCT2d1OVZxRjdtbmhfalVVSE1WQkI3ZzBoVXV5aWlYQmZPSHYwX0g4Skt6YnhZYWlwRmEwbVJqVC13QWZSS0FoTzA3d2o1bWM1UjNORjB6a2tSa1lkWkQwa3ZB?oc=5",
-      "locator": null,
-      "published_at": "2025-09-30"
-    },
-    "extracted_at": "2026-08-23T05:59:54.335804",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_bc05bae238",
-    "company_id": "cerebras",
-    "metric": "valuation",
-    "value": 8100000000.0,
-    "unit": "USD",
-    "raw_text": "at $8.1B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "GamesBeat",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRWJBQ1RBRE1zSkNibjlKdlREdGdDX3ctMU9jTGpuQlJraDFNZlQwSUV1eVRuLXdqZXNtMTQtQnlCT2d1OVZxRjdtbmhfalVVSE1WQkI3ZzBoVXV5aWlYQmZPSHYwX0g4Skt6YnhZYWlwRmEwbVJqVC13QWZSS0FoTzA3d2o1bWM1UjNORjB6a2tSa1lkWkQwa3ZB?oc=5",
-      "locator": null,
-      "published_at": "2025-09-30"
-    },
-    "extracted_at": "2026-08-23T05:59:54.335804",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_a831cec87c",
-    "company_id": "cerebras",
-    "metric": "valuation",
-    "value": 23100000000.0,
-    "unit": "USD",
-    "raw_text": "Nvidia-rival Cerebras Systems valued at $23.1 billion in latest financing",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM3NjSl9vTHRkamlIQnJQNUlXMk9VWmFaOGhWTjBMQTVRWnNCSlIxVDItUXY5STQxLXo4bHBOTExaQUdFUUdINmQ1cWhjSmNKSnZyb0MwQzVSU1paVXYzQ2hybWtxZGpMWklSZmdNRnc2WnI2dk1VTEtOMHRuQy1BTldPYjhLV3BBUElPYm5iMUVKUUpBZklucXZsNDRkY3VHQ1VUMUhCaXNHSklkS19IRw?oc=5",
-      "locator": null,
-      "published_at": "2026-02-04"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_747ce925b2",
     "company_id": "cerebras",
     "metric": "round_amount",
@@ -511,33 +538,6 @@
     "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_dce491a767",
-    "company_id": "cerebras",
-    "metric": "valuation",
-    "value": 49000000000.0,
-    "unit": "USD",
-    "raw_text": "Cerebras Systems eyes $49B valuation ahead of after-hours pricing",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "cnbc.com",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTWQxaDVkdmlacGRsQTA5R1VWZll2dXE1NlZYSUlDOWdCaEVvTzhHcEY2QnltRTR5VU9qVGNtb09xWFl3Rk5Od21hOXFGelhaNm9lXzh6cnF3Uk9OTDJpemNJeENVT0lIcFVPLVowVThOR0swbGczVG5QRllsSTI0cnBtVUdlQUI2d2dIWFFRUTR4V3RuQllrWVl2cHRXRTB1MnVIRWw0T2ZxeU0?oc=5",
-      "locator": null,
-      "published_at": "2026-05-13"
-    },
-    "extracted_at": "2026-09-10T09:49:02.856855",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -1131,7 +1131,7 @@
       "locator": null,
       "published_at": "2026-08-12"
     },
-    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extracted_at": "2026-09-18T09:44:30.525514",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

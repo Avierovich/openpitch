@@ -18,7 +18,7 @@
       "unit": "USD",
       "range": {
         "low": 3000000000.0,
-        "high": 3000000000.0
+        "high": 3900000000.0
       },
       "as_of": "2026-09-04",
       "estimate_type": "consensus",
@@ -47,13 +47,13 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 30000000000.0,
+      "value": 30236629071.15,
       "unit": "USD",
       "range": {
         "low": 10000000000.0,
-        "high": 30000000000.0
+        "high": 30900000000.0
       },
-      "as_of": "2026-09-12",
+      "as_of": "2026-09-18",
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
@@ -76,15 +76,50 @@
         "clm_703d3d8b1c",
         "clm_4946a3afef",
         "clm_a5fa161a04",
-        "clm_3d1f278ee9"
+        "clm_3d1f278ee9",
+        "clm_1eea1d5eed",
+        "clm_e21230325c",
+        "clm_af3c6fd882",
+        "clm_aece8c8db2",
+        "clm_f3b02ccb40",
+        "clm_00f6e2fb49",
+        "clm_5fb253c65e"
       ],
       "contradiction": false,
       "delta": {
         "previous": 30000000000.0,
-        "change_pct": 0.0,
+        "change_pct": 0.8,
         "since": "2026-09-04"
       },
       "history_ref": "history/crusoe/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 2026.0,
+      "unit": "object",
+      "range": {
+        "low": 6.0,
+        "high": 3000000000.0
+      },
+      "as_of": "2026-09-17",
+      "estimate_type": "consensus",
+      "confidence": 0.78,
+      "supporting_claims": [
+        "clm_c707b66511",
+        "clm_0904625635",
+        "clm_0904625635",
+        "clm_59869dacdb"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 3000000000.0,
+        "change_pct": -100.0,
+        "since": "2026-09-04"
+      },
+      "history_ref": "history/crusoe/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -116,36 +151,10 @@
       "contradiction": false,
       "delta": {
         "previous": 3000000000.0,
-        "change_pct": -0.0,
-        "since": "2026-09-04"
-      },
-      "history_ref": "history/crusoe/total_funding.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "latest_round": {
-      "metric": "latest_round",
-      "value": 3000000000.0,
-      "unit": "object",
-      "range": {
-        "low": 6.0,
-        "high": 3000000000.0
-      },
-      "as_of": "2026-09-04",
-      "estimate_type": "consensus",
-      "confidence": 0.525,
-      "supporting_claims": [
-        "clm_d2e5d91f37",
-        "clm_0a84fb9aef"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 3000000000.0,
         "change_pct": 0.0,
         "since": "2026-09-04"
       },
-      "history_ref": "history/crusoe/latest_round.jsonl",
+      "history_ref": "history/crusoe/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -157,7 +166,7 @@
       "range": null,
       "as_of": "2026-04-14",
       "estimate_type": "reported",
-      "confidence": 0.1,
+      "confidence": 0.099,
       "supporting_claims": [
         "clm_f6b7a66c37"
       ],
@@ -173,5 +182,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-17"
+  "last_updated": "2026-09-18"
 }

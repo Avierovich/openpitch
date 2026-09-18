@@ -1,31 +1,5 @@
 [
   {
-    "id": "clm_c9836e7f57",
-    "company_id": "openevidence",
-    "metric": "valuation",
-    "value": 12000000000.0,
-    "unit": "USD",
-    "raw_text": "Doubles Valuation to $12 Billion",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Information",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMVZ5VlNBYTJ2MmtZRmhmQUpBQzRnSUJaT0FucnpmNE1DM0FMMm92bUJreDJKVGY1YVVCb05sWEpBLUJvSnJKVnN0ZkczN1dUU2JTZzQ2OWV3VnFIdXlSWjlYNWtBeE9qUVhMUVltOWNKajYwRzZySVlGTDFhcXRlc2xZVkRIOE83andMVTBidlcxLTRiQUhCd3MwbUtoQXo4d2dfZkhvRHhSSjg?oc=5",
-      "locator": null,
-      "published_at": "2025-12-12"
-    },
-    "extracted_at": "2026-09-15T10:11:13.514998",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
     "id": "clm_f628fbf172",
     "company_id": "openevidence",
     "metric": "round_amount",
@@ -103,6 +77,30 @@
     "extracted_at": "2026-08-23T05:59:54.335804",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_f5e60a8d3d",
+    "company_id": "openevidence",
+    "metric": "round_amount",
+    "value": 250000000.0,
+    "unit": null,
+    "raw_text": "raises $250 million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "statnews.com",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb3U3LXlUUndyUG1vd2ZqT3dkazNDaXM4MjlGVDJ4Q3ltTmt1QlVneFpWWFJMd0xOWFNUdkRaYVRyYjVwOHpkaEYtMHJLRjlhN2tadTdYLVJwVTk1c0hKcldrX1VqSEN0T3JwNG1vNmVnMFdBakRwSXJUcHNhRHdDa29SNzBwYV94SF91N29SSko?oc=5",
+      "locator": null,
+      "published_at": "2026-01-21"
+    },
+    "extracted_at": "2026-09-12T09:20:27.932122",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -247,6 +245,56 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_547c0a487f",
+    "company_id": "openevidence",
+    "metric": "valuation",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "$1 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "cnbc.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ1ZEV2NWdWJad0lxMTBLaXhYNnVmLVJ3czh4TGlPS1hWTTM5RUpLSmhOdGhwOFo4VmdLNUpGNC1ZX0Y0RFkwY3gtTEkySlB2dDN6QlRFdTNkVm9EbnQyZ3lfT2dIbVVUM21nQ2MwX3FMZldVaDJTUG01UFVyZDhUcVd5ZWpsMDJ5U182Y05oWVBwcnFEWC1TOWlQMllRYjFBSVBBdVFPY9IBrAFBVV95cUxPbU0xQl9oRnluTEpRZHZoSmtXMkc2NEhfT1RSZ1RLUjJyUG5XMS1jR1RQZDZGZlBYcFEzaUtySGNXcjFudkN4TnF3b0NJLWpEbEUwLXNnR2RQSk9mbTBiNGxFQTV5bnhmY2RkN1Z1b1Uya1l2WGQ5eU5IS01NbTQyREFrZ0ZaYVVMcWFuZ2s0cUdPLWlKUzFtUXQ4TWRmdlpHRmtmb0tXVElCWHRJ?oc=5",
+      "locator": null,
+      "published_at": "2025-02-19"
+    },
+    "extracted_at": "2026-09-18T09:44:30.525514",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_c9836e7f57",
+    "company_id": "openevidence",
+    "metric": "valuation",
+    "value": 12000000000.0,
+    "unit": "USD",
+    "raw_text": "Doubles Valuation to $12 Billion",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Information",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMVZ5VlNBYTJ2MmtZRmhmQUpBQzRnSUJaT0FucnpmNE1DM0FMMm92bUJreDJKVGY1YVVCb05sWEpBLUJvSnJKVnN0ZkczN1dUU2JTZzQ2OWV3VnFIdXlSWjlYNWtBeE9qUVhMUVltOWNKajYwRzZySVlGTDFhcXRlc2xZVkRIOE83andMVTBidlcxLTRiQUhCd3MwbUtoQXo4d2dfZkhvRHhSSjg?oc=5",
+      "locator": null,
+      "published_at": "2025-12-12"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -493,30 +541,6 @@
     "extracted_at": "2026-09-05T09:07:28.177448",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_f5e60a8d3d",
-    "company_id": "openevidence",
-    "metric": "round_amount",
-    "value": 250000000.0,
-    "unit": null,
-    "raw_text": "raises $250 million",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "statnews.com",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb3U3LXlUUndyUG1vd2ZqT3dkazNDaXM4MjlGVDJ4Q3ltTmt1QlVneFpWWFJMd0xOWFNUdkRaYVRyYjVwOHpkaEYtMHJLRjlhN2tadTdYLVJwVTk1c0hKcldrX1VqSEN0T3JwNG1vNmVnMFdBakRwSXJUcHNhRHdDa29SNzBwYV94SF91N29SSko?oc=5",
-      "locator": null,
-      "published_at": "2026-01-21"
-    },
-    "extracted_at": "2026-09-12T09:20:27.932122",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
     "derivation": null
   },
   {

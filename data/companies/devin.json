@@ -10,11 +10,11 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 89.0,
-  "universe_rank": 14,
+  "universe_rank": 15,
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 46448195398.72,
+      "value": 46251235634.94,
       "unit": "USD",
       "range": {
         "low": 25000000000.0,
@@ -24,29 +24,30 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
+        "clm_e5473b698a",
+        "clm_d0a712d847",
         "clm_800104ab54",
         "clm_737149b0e1",
         "clm_9847df1e3b",
-        "clm_e5473b698a",
         "clm_a37d635176",
         "clm_565fe5c95c",
         "clm_17732cd404",
         "clm_5f2446e257",
+        "clm_573cd4ad09",
+        "clm_43b37636cf",
         "clm_3fc3c4a358",
         "clm_2fd5922763",
         "clm_4399bb510d",
         "clm_5783ad0fcc",
-        "clm_43b37636cf",
         "clm_d07f74da21",
         "clm_9a42ce0977",
         "clm_5a2e83ea2e",
-        "clm_c76a864f16",
-        "clm_573cd4ad09"
+        "clm_c76a864f16"
       ],
       "contradiction": true,
       "delta": {
         "previous": 46448195398.72,
-        "change_pct": 0.0,
+        "change_pct": -0.4,
         "since": "2026-09-09"
       },
       "history_ref": "history/devin/valuation.jsonl",
@@ -76,8 +77,8 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "round_amount": {
-      "metric": "round_amount",
+    "total_funding": {
+      "metric": "total_funding",
       "value": 2000000000.0,
       "unit": "USD",
       "range": {
@@ -86,12 +87,11 @@
       },
       "as_of": "2026-09-09",
       "estimate_type": "consensus",
-      "confidence": 0.937,
+      "confidence": 0.799,
       "supporting_claims": [
-        "clm_703cda8563",
-        "clm_cd9b1ed880",
-        "clm_6c323274d8",
-        "clm_066b993098"
+        "clm_eba9fb9a21",
+        "clm_eed794138a",
+        "clm_604c58b909"
       ],
       "contradiction": false,
       "delta": {
@@ -99,7 +99,7 @@
         "change_pct": -0.0,
         "since": "2026-09-09"
       },
-      "history_ref": "history/devin/round_amount.jsonl",
+      "history_ref": "history/devin/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -114,10 +114,10 @@
       },
       "as_of": "2026-09-09",
       "estimate_type": "consensus",
-      "confidence": 0.868,
+      "confidence": 0.867,
       "supporting_claims": [
-        "clm_f7b180e95c",
         "clm_4753ebced3",
+        "clm_f7b180e95c",
         "clm_9a6e979e10",
         "clm_e3ed71f0fd"
       ],
@@ -132,8 +132,8 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "total_funding": {
-      "metric": "total_funding",
+    "round_amount": {
+      "metric": "round_amount",
       "value": 2000000000.0,
       "unit": "USD",
       "range": {
@@ -142,11 +142,12 @@
       },
       "as_of": "2026-09-09",
       "estimate_type": "consensus",
-      "confidence": 0.8,
+      "confidence": 0.936,
       "supporting_claims": [
-        "clm_eed794138a",
-        "clm_604c58b909",
-        "clm_eba9fb9a21"
+        "clm_703cda8563",
+        "clm_cd9b1ed880",
+        "clm_6c323274d8",
+        "clm_066b993098"
       ],
       "contradiction": false,
       "delta": {
@@ -154,26 +155,26 @@
         "change_pct": 0.0,
         "since": "2026-09-09"
       },
-      "history_ref": "history/devin/total_funding.jsonl",
+      "history_ref": "history/devin/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 587.5,
+      "value": 312.5,
       "unit": "x",
       "range": null,
-      "as_of": "2026-09-02",
+      "as_of": "2026-05-27",
       "estimate_type": "reported",
-      "confidence": 0.228,
+      "confidence": 0.1,
       "supporting_claims": [
-        "drv_23c76acbe0"
+        "drv_396be7056d"
       ],
       "contradiction": false,
       "delta": {
         "previous": 587.5,
-        "change_pct": 0.0,
+        "change_pct": -46.8,
         "since": "2026-09-02"
       },
       "history_ref": "history/devin/revenue_multiple.jsonl",
@@ -182,5 +183,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-18"
+  "last_updated": "2026-09-19"
 }

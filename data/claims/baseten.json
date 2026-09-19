@@ -150,6 +150,78 @@
     "derivation": null
   },
   {
+    "id": "clm_95713e4e5a",
+    "company_id": "baseten",
+    "metric": "round_amount",
+    "value": 300000000.0,
+    "unit": null,
+    "raw_text": "Raises $300 Million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNakdMN2xLSHJXa3ZaOWFHc3g2MDJuaDNLMHNsRjVSLUFTajg3ZnY1WHIxZlhpZVp6Xzc4dEhZTHlHQ2RHaDlxUGY1bGVqU1lKNzdURHRwYUdCWHBGTGhqU1oyTkdId0tPemZPZGNsZ3gwYnNFbF9RNlVwNzdEdnNMb29CZzdYbHk1cVpCMktQUnFEWjNGeTRtQU0wNHEzcVRQT0R4MmhVdVlVVVZzYm1BTHFCVVJhdUVsdjNqWHZB?oc=5",
+      "locator": null,
+      "published_at": "2026-01-20"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_9a01d07210",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 5000000000.0,
+    "unit": null,
+    "raw_text": "$5 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNakdMN2xLSHJXa3ZaOWFHc3g2MDJuaDNLMHNsRjVSLUFTajg3ZnY1WHIxZlhpZVp6Xzc4dEhZTHlHQ2RHaDlxUGY1bGVqU1lKNzdURHRwYUdCWHBGTGhqU1oyTkdId0tPemZPZGNsZ3gwYnNFbF9RNlVwNzdEdnNMb29CZzdYbHk1cVpCMktQUnFEWjNGeTRtQU0wNHEzcVRQT0R4MmhVdVlVVVZzYm1BTHFCVVJhdUVsdjNqWHZB?oc=5",
+      "locator": null,
+      "published_at": "2026-01-20"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_b6391b5beb",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 5000000000.0,
+    "unit": "USD",
+    "raw_text": "valued at $5B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "techzine.eu",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNGhHMm5PSjBXcEY2c0NyUFFIUlFYTVpic3E1Y1JlMkx6NXdqcGZ5c3N2SlU4MGROSHdwdnlSc0l6NjQzZkFXWUVPT05PWUVVQVljTi1Fd3owbjdqOWxPNWdwWXd0MjFGcWNPM21xZENvX2lfZWx5c2NiOEhUUk1KN1o5ZFRva0lqSGFqUFZPeF9iRGZKVUlYOUIwUTlpejFRX3ZfNERrUzV2NFo0ZEE5LTVRWmhzUnc?oc=5",
+      "locator": null,
+      "published_at": "2026-01-21"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_0df3bf0061",
     "company_id": "baseten",
     "metric": "round_amount",
@@ -222,16 +294,123 @@
     "derivation": null
   },
   {
+    "id": "clm_c08086f417",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 13000000000.0,
+    "unit": "USD",
+    "raw_text": "raises $1.5b at $13b valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "techinasia.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPckgyQXpsZHpjM2t2VTh4TEdVbUtKMlpfNGh1M3BUdjZwZTJWNWdnSkVGbXJwNTlydkh0Nzgtd2VBNGdWZzZEby1VM2NLQXpYU0Y3dGFzdnM0eUlra1ZjdnUzYVRSaE44cl9iMS14WDhnNVZaeHJJSmdVUmlkNEN3R3ltR0VYSkhRU3VHRG9uSmt3WUE?oc=5",
+      "locator": null,
+      "published_at": "2026-06-23"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_15706b1239",
+    "company_id": "baseten",
+    "metric": "round_amount",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "raises $1.5b",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "techinasia.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPckgyQXpsZHpjM2t2VTh4TEdVbUtKMlpfNGh1M3BUdjZwZTJWNWdnSkVGbXJwNTlydkh0Nzgtd2VBNGdWZzZEby1VM2NLQXpYU0Y3dGFzdnM0eUlra1ZjdnUzYVRSaE44cl9iMS14WDhnNVZaeHJJSmdVUmlkNEN3R3ltR0VYSkhRU3VHRG9uSmt3WUE?oc=5",
+      "locator": null,
+      "published_at": "2026-06-23"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_4c65b363e2",
+    "company_id": "baseten",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "in Talks to Raise $1 Billion",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "theinformation.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSlZaVkNzVGxRS1ZONXZxU1lYSFR4T3VIQXV1bWtxZlJEZUhsUk1SRERpaTV2Q1ZuVnNlU0FhbWZTeEluN0Q1X0p4YjNmWUVCSExLV0ZGck1Lc3hMb1VIVlE5WTBlSjRUV3dBaGxjWGVJWGY5bEJkVlZRVUhUQWJLd1pKaXJKZHlXdzAxSmM5NzdaemlnWXl0TWNmbmFnM3hrdzd3YWVJckl0NFpZNFZoX0p3?oc=5",
+      "locator": null,
+      "published_at": "2026-05-26"
+    },
+    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_5fabfeb49e",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 11000000000.0,
+    "unit": null,
+    "raw_text": "at $11 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "theinformation.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSlZaVkNzVGxRS1ZONXZxU1lYSFR4T3VIQXV1bWtxZlJEZUhsUk1SRERpaTV2Q1ZuVnNlU0FhbWZTeEluN0Q1X0p4YjNmWUVCSExLV0ZGck1Lc3hMb1VIVlE5WTBlSjRUV3dBaGxjWGVJWGY5bEJkVlZRVUhUQWJLd1pKaXJKZHlXdzAxSmM5NzdaemlnWXl0TWNmbmFnM3hrdzd3YWVJckl0NFpZNFZoX0p3?oc=5",
+      "locator": null,
+      "published_at": "2026-05-26"
+    },
+    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_adcef28feb",
     "company_id": "baseten",
     "metric": "revenue_growth",
     "value": 30.0,
     "unit": null,
-    "raw_text": "Baseten’s 30x growth",
-    "qualifiers": [],
+    "raw_text": "30x growth",
+    "qualifiers": [
+      "rounded"
+    ],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "investor"
     },
     "source": {
       "type": "podcast",
@@ -240,57 +419,9 @@
       "locator": null,
       "published_at": "2026-05-01"
     },
-    "extracted_at": "2026-09-18T09:44:30.525514",
+    "extracted_at": "2026-09-19T09:29:15.949394",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3,
-    "derivation": null
-  },
-  {
-    "id": "clm_95713e4e5a",
-    "company_id": "baseten",
-    "metric": "round_amount",
-    "value": 300000000.0,
-    "unit": null,
-    "raw_text": "Raises $300 Million",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNakdMN2xLSHJXa3ZaOWFHc3g2MDJuaDNLMHNsRjVSLUFTajg3ZnY1WHIxZlhpZVp6Xzc4dEhZTHlHQ2RHaDlxUGY1bGVqU1lKNzdURHRwYUdCWHBGTGhqU1oyTkdId0tPemZPZGNsZ3gwYnNFbF9RNlVwNzdEdnNMb29CZzdYbHk1cVpCMktQUnFEWjNGeTRtQU0wNHEzcVRQT0R4MmhVdVlVVVZzYm1BTHFCVVJhdUVsdjNqWHZB?oc=5",
-      "locator": null,
-      "published_at": "2026-01-20"
-    },
-    "extracted_at": "2026-08-23T05:59:54.335804",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_9a01d07210",
-    "company_id": "baseten",
-    "metric": "valuation",
-    "value": 5000000000.0,
-    "unit": null,
-    "raw_text": "$5 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNakdMN2xLSHJXa3ZaOWFHc3g2MDJuaDNLMHNsRjVSLUFTajg3ZnY1WHIxZlhpZVp6Xzc4dEhZTHlHQ2RHaDlxUGY1bGVqU1lKNzdURHRwYUdCWHBGTGhqU1oyTkdId0tPemZPZGNsZ3gwYnNFbF9RNlVwNzdEdnNMb29CZzdYbHk1cVpCMktQUnFEWjNGeTRtQU0wNHEzcVRQT0R4MmhVdVlVVVZzYm1BTHFCVVJhdUVsdjNqWHZB?oc=5",
-      "locator": null,
-      "published_at": "2026-01-20"
-    },
-    "extracted_at": "2026-08-23T05:59:54.335804",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
+    "base_confidence": 0.432,
     "derivation": null
   },
   {
@@ -343,58 +474,6 @@
     "extracted_at": "2026-09-02T09:38:48.472295",
     "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_c08086f417",
-    "company_id": "baseten",
-    "metric": "valuation",
-    "value": 13000000000.0,
-    "unit": "USD",
-    "raw_text": "raises $1.5b at $13b valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "techinasia.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPckgyQXpsZHpjM2t2VTh4TEdVbUtKMlpfNGh1M3BUdjZwZTJWNWdnSkVGbXJwNTlydkh0Nzgtd2VBNGdWZzZEby1VM2NLQXpYU0Y3dGFzdnM0eUlra1ZjdnUzYVRSaE44cl9iMS14WDhnNVZaeHJJSmdVUmlkNEN3R3ltR0VYSkhRU3VHRG9uSmt3WUE?oc=5",
-      "locator": null,
-      "published_at": "2026-06-23"
-    },
-    "extracted_at": "2026-09-15T10:11:13.514998",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
-    "derivation": null
-  },
-  {
-    "id": "clm_15706b1239",
-    "company_id": "baseten",
-    "metric": "round_amount",
-    "value": 1500000000.0,
-    "unit": "USD",
-    "raw_text": "raises $1.5b",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "techinasia.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPckgyQXpsZHpjM2t2VTh4TEdVbUtKMlpfNGh1M3BUdjZwZTJWNWdnSkVGbXJwNTlydkh0Nzgtd2VBNGdWZzZEby1VM2NLQXpYU0Y3dGFzdnM0eUlra1ZjdnUzYVRSaE44cl9iMS14WDhnNVZaeHJJSmdVUmlkNEN3R3ltR0VYSkhRU3VHRG9uSmt3WUE?oc=5",
-      "locator": null,
-      "published_at": "2026-06-23"
-    },
-    "extracted_at": "2026-09-15T10:11:13.514998",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
     "derivation": null
   },
   {
@@ -666,30 +745,6 @@
     "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.225,
-    "derivation": null
-  },
-  {
-    "id": "clm_b6391b5beb",
-    "company_id": "baseten",
-    "metric": "valuation",
-    "value": 5000000000.0,
-    "unit": "USD",
-    "raw_text": "valued at $5B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "techzine.eu",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNGhHMm5PSjBXcEY2c0NyUFFIUlFYTVpic3E1Y1JlMkx6NXdqcGZ5c3N2SlU4MGROSHdwdnlSc0l6NjQzZkFXWUVPT05PWUVVQVljTi1Fd3owbjdqOWxPNWdwWXd0MjFGcWNPM21xZENvX2lfZWx5c2NiOEhUUk1KN1o5ZFRva0lqSGFqUFZPeF9iRGZKVUlYOUIwUTlpejFRX3ZfNERrUzV2NFo0ZEE5LTVRWmhzUnc?oc=5",
-      "locator": null,
-      "published_at": "2026-01-21"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -1941,10 +1996,10 @@
     "derivation": null
   },
   {
-    "id": "drv_12e9373827",
+    "id": "drv_6e55af7bed",
     "company_id": "baseten",
     "metric": "revenue_multiple",
-    "value": 822.78,
+    "value": 316.46,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -1957,16 +2012,16 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-06-23"
+      "published_at": "2026-01-20"
     },
-    "extracted_at": "2026-09-18T09:44:30.525514",
+    "extracted_at": "2026-09-19T09:29:15.949394",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_0479300cde",
+        "clm_9a01d07210",
         "clm_669f27e3c9"
       ]
     }

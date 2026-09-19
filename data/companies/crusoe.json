@@ -9,9 +9,90 @@
   "summary": "Crusoe provides energy-efficient cloud computing solutions, leveraging stranded or waste energy sources for AI and HPC workloads.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 87.4,
+  "vc_attention_score": 87.5,
   "universe_rank": 22,
   "metrics": {
+    "valuation": {
+      "metric": "valuation",
+      "value": 30319233114.58,
+      "unit": "USD",
+      "range": {
+        "low": 10000000000.0,
+        "high": 30900000000.0
+      },
+      "as_of": "2026-09-18",
+      "estimate_type": "consensus",
+      "confidence": 0.97,
+      "supporting_claims": [
+        "clm_f6044931f8",
+        "clm_71ed466c7c",
+        "clm_09a506c64e",
+        "clm_73d31d71b1",
+        "clm_bedc4a2106",
+        "clm_74cd995b9d",
+        "clm_c2e2e7507e",
+        "clm_923dafc85e",
+        "clm_324ed43ba1",
+        "clm_372efe3658",
+        "clm_12a5ac13e1",
+        "clm_2dd24ee392",
+        "clm_d6bb16dc83",
+        "clm_964d9ab8c2",
+        "clm_b1a215ea49",
+        "clm_8ad80e7db1",
+        "clm_703d3d8b1c",
+        "clm_4946a3afef",
+        "clm_a5fa161a04",
+        "clm_3d1f278ee9",
+        "clm_e21230325c",
+        "clm_af3c6fd882",
+        "clm_b408015b04",
+        "clm_118a37202d",
+        "clm_e0a675634c",
+        "clm_8fea111c4d",
+        "clm_1eea1d5eed",
+        "clm_aece8c8db2",
+        "clm_f3b02ccb40",
+        "clm_00f6e2fb49",
+        "clm_5fb253c65e"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 30236629071.15,
+        "change_pct": 0.3,
+        "since": "2026-09-18"
+      },
+      "history_ref": "history/crusoe/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 6.0,
+      "unit": "object",
+      "range": {
+        "low": 6.0,
+        "high": 3000000000.0
+      },
+      "as_of": "2026-09-18",
+      "estimate_type": "consensus",
+      "confidence": 0.764,
+      "supporting_claims": [
+        "clm_232dc746ba",
+        "clm_e6f525de45"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 2026.0,
+        "change_pct": -99.7,
+        "since": "2026-09-17"
+      },
+      "history_ref": "history/crusoe/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "round_amount": {
       "metric": "round_amount",
       "value": 3000000000.0,
@@ -24,10 +105,10 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
+        "clm_82555157eb",
         "clm_f84199c056",
         "clm_7032429eac",
         "clm_b96899e681",
-        "clm_82555157eb",
         "clm_3d161a0609",
         "clm_53760ab6df",
         "clm_c1e2960033",
@@ -45,99 +126,20 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "valuation": {
-      "metric": "valuation",
-      "value": 30236629071.15,
-      "unit": "USD",
-      "range": {
-        "low": 10000000000.0,
-        "high": 30900000000.0
-      },
-      "as_of": "2026-09-18",
-      "estimate_type": "consensus",
-      "confidence": 0.97,
-      "supporting_claims": [
-        "clm_09a506c64e",
-        "clm_73d31d71b1",
-        "clm_bedc4a2106",
-        "clm_74cd995b9d",
-        "clm_c2e2e7507e",
-        "clm_923dafc85e",
-        "clm_71ed466c7c",
-        "clm_324ed43ba1",
-        "clm_372efe3658",
-        "clm_12a5ac13e1",
-        "clm_2dd24ee392",
-        "clm_f6044931f8",
-        "clm_d6bb16dc83",
-        "clm_964d9ab8c2",
-        "clm_b1a215ea49",
-        "clm_8ad80e7db1",
-        "clm_703d3d8b1c",
-        "clm_4946a3afef",
-        "clm_a5fa161a04",
-        "clm_3d1f278ee9",
-        "clm_1eea1d5eed",
-        "clm_e21230325c",
-        "clm_af3c6fd882",
-        "clm_aece8c8db2",
-        "clm_f3b02ccb40",
-        "clm_00f6e2fb49",
-        "clm_5fb253c65e"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 30000000000.0,
-        "change_pct": 0.8,
-        "since": "2026-09-04"
-      },
-      "history_ref": "history/crusoe/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "latest_round": {
-      "metric": "latest_round",
-      "value": 2026.0,
-      "unit": "object",
-      "range": {
-        "low": 6.0,
-        "high": 3000000000.0
-      },
-      "as_of": "2026-09-17",
-      "estimate_type": "consensus",
-      "confidence": 0.78,
-      "supporting_claims": [
-        "clm_c707b66511",
-        "clm_0904625635",
-        "clm_0904625635",
-        "clm_59869dacdb"
-      ],
-      "contradiction": true,
-      "delta": {
-        "previous": 3000000000.0,
-        "change_pct": -100.0,
-        "since": "2026-09-04"
-      },
-      "history_ref": "history/crusoe/latest_round.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "total_funding": {
       "metric": "total_funding",
       "value": 3000000000.0,
       "unit": "USD",
       "range": {
         "low": 1375000000.0,
-        "high": 3000000000.0
+        "high": 3900000000.0
       },
       "as_of": "2026-09-12",
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
-        "clm_6cce75c216",
         "clm_d161182602",
+        "clm_6cce75c216",
         "clm_bcc37a7741",
         "clm_e992f4242f",
         "clm_291cff70f4",
@@ -182,5 +184,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-18"
+  "last_updated": "2026-09-19"
 }

@@ -96,6 +96,33 @@
     "derivation": null
   },
   {
+    "id": "clm_7db364c710",
+    "company_id": "sierra",
+    "metric": "valuation",
+    "value": 16000000000.0,
+    "unit": null,
+    "raw_text": "nearly $16 billion valuation",
+    "qualifiers": [
+      "rounded",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "cnbc.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb3V5MGdNaldFNXFBd0RBTUYycjI2c0RjYjBXdGxMcllTYnpsMnlkSkFLNHNSN1FRXzczVU1vcWhKc2xYeFNCRjhhTVU4eXZzRmw4LWI4cVVRTHpZVnpZOXBXTjNZejFNZEhIQmlPQ1JfNEtWdGl4RnhMaWY4Z0I1bFRIY1IxZks0STN2YlRuanpOZmROZk5nZ2JwWS1GbDAtWFJVdDlReTBCeHJz?oc=5",
+      "locator": null,
+      "published_at": "2026-05-04"
+    },
+    "extracted_at": "2026-09-18T09:44:30.525514",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4016,
+    "derivation": null
+  },
+  {
     "id": "clm_c585d29f9d",
     "company_id": "sierra",
     "metric": "round_amount",
@@ -320,15 +347,15 @@
     "derivation": null
   },
   {
-    "id": "clm_7db364c710",
+    "id": "clm_92a56ce141",
     "company_id": "sierra",
     "metric": "valuation",
-    "value": 16000000000.0,
+    "value": 15000000000.0,
     "unit": null,
-    "raw_text": "nearly $16 billion valuation",
+    "raw_text": "raising at Over $15 Billion Valuation",
     "qualifiers": [
-      "rounded",
-      "approximate"
+      "unconfirmed",
+      "forward_looking"
     ],
     "speaker": {
       "name": null,
@@ -336,14 +363,14 @@
     },
     "source": {
       "type": "news",
-      "name": "cnbc.com",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb3V5MGdNaldFNXFBd0RBTUYycjI2c0RjYjBXdGxMcllTYnpsMnlkSkFLNHNSN1FRXzczVU1vcWhKc2xYeFNCRjhhTVU4eXZzRmw4LWI4cVVRTHpZVnpZOXBXTjNZejFNZEhIQmlPQ1JfNEtWdGl4RnhMaWY4Z0I1bFRIY1IxZks0STN2YlRuanpOZmROZk5nZ2JwWS1GbDAtWFJVdDlReTBCeHJz?oc=5",
+      "name": "theinformation.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVFlfRW56aUJ2SUkwVlpxZExxNlpSdDFqMTlzMDc2bmFpaXNGR0VQRVl3NFl0cFdsRHhucmxYMC1lYnFqeGlvZzFsNWhsNDRuRVVjZVdLR2FTbEhhVkpoMlFXeFB4bE5UaVIxc3B2a1h2Mkt4ZVUxYmdpQ2RsbUVudTQzR0MxeWpDM19Wb3EyT2VIVEllNWt3?oc=5",
       "locator": null,
       "published_at": "2026-05-04"
     },
-    "extracted_at": "2026-09-18T09:44:30.525514",
+    "extracted_at": "2026-09-19T09:29:15.949394",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4016,
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -1214,7 +1241,7 @@
       "locator": null,
       "published_at": "2026-07-04"
     },
-    "extracted_at": "2026-09-18T09:44:30.525514",
+    "extracted_at": "2026-09-19T09:29:15.949394",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1826,
     "derivation": {

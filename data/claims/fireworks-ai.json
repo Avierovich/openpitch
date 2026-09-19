@@ -72,30 +72,6 @@
     "derivation": null
   },
   {
-    "id": "clm_3fce728b69",
-    "company_id": "fireworks-ai",
-    "metric": "open_roles",
-    "value": 78.0,
-    "unit": null,
-    "raw_text": "Showing 78 positions",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "fireworks.ai",
-      "url": "https://fireworks.ai/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-09-17T10:01:41.438182",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
     "id": "clm_2dec9db7c2",
     "company_id": "fireworks-ai",
     "metric": "latest_round",
@@ -263,6 +239,80 @@
     "extracted_at": "2026-09-15T10:11:13.514998",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_c23289fc3d",
+    "company_id": "fireworks-ai",
+    "metric": "open_roles",
+    "value": 79.0,
+    "unit": "count",
+    "raw_text": "Showing 79 positions",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fireworks.ai",
+      "url": "https://fireworks.ai/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_6f4d8eea6c",
+    "company_id": "fireworks-ai",
+    "metric": "valuation",
+    "value": 15000000000.0,
+    "unit": "USD",
+    "raw_text": "Fireworks AI in Talks for Funding at $15 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWlQzUV9rQm5JZFctVkVNX0VuZjk5bW1seUNmYjlCU2JUWlJqbnhCWWdfblhLM29ObVAwTHRCbW9EU01zbTA5MVlGMk1zR3QtVGQ3Y1pSaW83YS1ySFdJRko2VlhmX0EzamJxS3IwdTRuQm5fQW1wM1FqT2Q3RnVNTmhxeFByTFVtUGJ4QlkyT3JuNERLbHBhNi0zU3FaNVcxb0VhcUlYNzNWYnZB?oc=5",
+      "locator": null,
+      "published_at": "2026-05-26"
+    },
+    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_3fce728b69",
+    "company_id": "fireworks-ai",
+    "metric": "open_roles",
+    "value": 78.0,
+    "unit": null,
+    "raw_text": "Showing 78 positions",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fireworks.ai",
+      "url": "https://fireworks.ai/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
     "derivation": null
   },
   {

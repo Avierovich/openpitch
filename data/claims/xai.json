@@ -26,33 +26,6 @@
     "derivation": null
   },
   {
-    "id": "clm_8715f1c80e",
-    "company_id": "xai",
-    "metric": "valuation",
-    "value": 20000000000.0,
-    "unit": "USD",
-    "raw_text": "xAI could be valued at more than $20B",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "New York Post",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYmFyRFVWalhSSmNUX1JHRjJ3YVIyVUloQzlJai1wdWwzMlJUY1pSZ3RTNHNLVExYOFpING9DemNVYmVGVjRQZ01SbFhXV21zcEF4b2Jac2R2QkI2REc4ZDhudGY4R01rN0FLN3hKSGhJaUNMVmNLandUaUFVZ2gwcHJUelpUZlo4Y1RTMFBlNU8yOE5feXNUSm9pTGxYS25SczVtTlJfWnJ5MnlrMTB2ZFNMUjlhZ1pSWEtqZ3pJOUptUGUySHdicG9tbGk?oc=5",
-      "locator": null,
-      "published_at": "2024-05-10"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
     "id": "clm_d980f290aa",
     "company_id": "xai",
     "metric": "round_amount",
@@ -155,6 +128,60 @@
     "extracted_at": "2026-07-06T14:31:09.058208",
     "extractor_model": "gemini-2.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_4235b1e023",
+    "company_id": "xai",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": null,
+    "raw_text": "valued at more than $20B",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "nypost.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYmFyRFVWalhSSmNUX1JHRjJ3YVIyVUloQzlJai1wdWwzMlJUY1pSZ3RTNHNLVExYOFpING9DemNVYmVGVjRQZ01SbFhXV21zcEF4b2Jac2R2QkI2REc4ZDhudGY4R01rN0FLN3hKSGhJaUNMVmNLandUaUFVZ2gwcHJUelpUZlo4Y1RTMFBlNU8yOE5feXNUSm9pTGxYS25SczVtTlJfWnJ5MnlrMTB2ZFNMUjlhZ1pSWEtqZ3pJOUptUGUySHdicG9tbGk?oc=5",
+      "locator": null,
+      "published_at": "2024-05-10"
+    },
+    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_8715f1c80e",
+    "company_id": "xai",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": "USD",
+    "raw_text": "xAI could be valued at more than $20B",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "New York Post",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYmFyRFVWalhSSmNUX1JHRjJ3YVIyVUloQzlJai1wdWwzMlJUY1pSZ3RTNHNLVExYOFpING9DemNVYmVGVjRQZ01SbFhXV21zcEF4b2Jac2R2QkI2REc4ZDhudGY4R01rN0FLN3hKSGhJaUNMVmNLandUaUFVZ2gwcHJUelpUZlo4Y1RTMFBlNU8yOE5feXNUSm9pTGxYS25SczVtTlJfWnJ5MnlrMTB2ZFNMUjlhZ1pSWEtqZ3pJOUptUGUySHdicG9tbGk?oc=5",
+      "locator": null,
+      "published_at": "2024-05-10"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {

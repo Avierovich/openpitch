@@ -24,30 +24,6 @@
     "derivation": null
   },
   {
-    "id": "clm_7608f35b48",
-    "company_id": "nscale",
-    "metric": "valuation",
-    "value": 14600000000.0,
-    "unit": "USD",
-    "raw_text": "hits $14.6 billion valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "cnbc.com",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1wTG5TazVfZmJFUEwwZklMYmc2dzk1bmY4Tm9XWDlEVmFhdEFsUmhWd1JhclRDZmJzUVhyb3RIZ1oyaTdhd1Q5Tmw4S2NnLUg1UTJYSmo3WGo1RVpWbXIxT2hsOVdDS05uQ2FMNDZ6N2xIU29nbUg4anFTd9IBgAFBVV95cUxQWF93OU9TOFhPSEFzZWpZQmtvd2dzSWtQSTA4dl9hRV9UQjd4OVRySGh5bUw1MjJ1NkJCSWlERDF3MTF0NzlBV0p5b1MwejNjanhCa3c3aFFSQXlEZlVTX0g5V0lKNkZOUVZKaXhDWFFmaUhxenY3RWJYYThXTmN5ZQ?oc=5",
-      "locator": null,
-      "published_at": "2026-03-09"
-    },
-    "extracted_at": "2026-09-14T10:31:29.338960",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_69d859ab50",
     "company_id": "nscale",
     "metric": "arr",
@@ -119,6 +95,83 @@
     "extracted_at": "2026-09-19T09:29:15.949394",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_a773856afb",
+    "company_id": "nscale",
+    "metric": "arr",
+    "value": 103000000000.0,
+    "unit": "USD",
+    "raw_text": "Nscale doubles contracted revenue to $103 billion after Anthropic win",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Investing.com Nigeria",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZkVXSW9na2t0Y2ZOX291LUhrT1o3bzlsVDRzT0VqTGxIR3hqNWZCNklLYktOcDFRWlFQX0lQNDItdmw0YXFZR3ZsOUFBSnhVUkl5ZE94bW54NV9sNExRTFhRRTI3Y1p5eDVLdUF6LUNfUVVES3pLMjE5WHQ2S1FiMVVpOU9sRDBWRFVFY2JJeEt6RW8waWdrMm5PaHlJS2JHNU5MNFJFYmNZSjVDdVR0aTNvWTBwcEVCLWhFZ3Q1LTY0SUNrOXZyRl8wQi0?oc=5",
+      "locator": null,
+      "published_at": "2026-09-02"
+    },
+    "extracted_at": "2026-09-20T09:44:05.979383",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_c26f5c3471",
+    "company_id": "nscale",
+    "metric": "round_amount",
+    "value": 3000000000.0,
+    "unit": "USD",
+    "raw_text": "aiming to raise up to $3 billion",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1wVUxwNWw1c0preGw1VHVlTl8tZW8wNHY1VWdNU3R4VHR1Q1p2QkV1TjdVX1lmdS02Tlc0OW9fSE9DeWF6QzhCcE15Z01oWUhrZGZIUXNNLWdXbVNXb0sxMjBWVdIBY0FVX3lxTE1wVUxwNWw1c0preGw1VHVlTl8tZW8wNHY1VWdNU3R4VHR1Q1p2QkV1TjdVX1lmdS02Tlc0OW9fSE9DeWF6QzhCcE15Z01oWUhrZGZIUXNNLWdXbVNXb0sxMjBWVQ?oc=5",
+      "locator": null,
+      "published_at": "2026-09-18"
+    },
+    "extracted_at": "2026-09-20T09:44:05.979383",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_7608f35b48",
+    "company_id": "nscale",
+    "metric": "valuation",
+    "value": 14600000000.0,
+    "unit": "USD",
+    "raw_text": "hits $14.6 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "cnbc.com",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1wTG5TazVfZmJFUEwwZklMYmc2dzk1bmY4Tm9XWDlEVmFhdEFsUmhWd1JhclRDZmJzUVhyb3RIZ1oyaTdhd1Q5Tmw4S2NnLUg1UTJYSmo3WGo1RVpWbXIxT2hsOVdDS05uQ2FMNDZ6N2xIU29nbUg4anFTd9IBgAFBVV95cUxQWF93OU9TOFhPSEFzZWpZQmtvd2dzSWtQSTA4dl9hRV9UQjd4OVRySGh5bUw1MjJ1NkJCSWlERDF3MTF0NzlBV0p5b1MwejNjanhCa3c3aFFSQXlEZlVTX0g5V0lKNkZOUVZKaXhDWFFmaUhxenY3RWJYYThXTmN5ZQ?oc=5",
+      "locator": null,
+      "published_at": "2026-03-09"
+    },
+    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -1212,5 +1265,36 @@
     "extractor_model": "gemini-2.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
+  },
+  {
+    "id": "drv_daf4416529",
+    "company_id": "nscale",
+    "metric": "revenue_multiple",
+    "value": 0.14,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-09-02"
+    },
+    "extracted_at": "2026-09-20T09:44:05.979383",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.2282,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_7608f35b48",
+        "clm_a773856afb"
+      ]
+    }
   }
 ]

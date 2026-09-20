@@ -51,13 +51,14 @@
         "clm_f302c73dcc",
         "clm_26ec1ada19",
         "clm_3e63215ca3",
+        "clm_fa8e506ccd",
+        "clm_8535581d81",
         "clm_b4f0d9ac91",
         "clm_0699fd6de0",
         "clm_039fcc4196",
         "clm_83fd6c5abe",
         "clm_0068fcc655",
         "clm_8a4f47ada3",
-        "clm_fa8e506ccd",
         "clm_9148b37bd3",
         "clm_15fc619818",
         "clm_57d830061a",
@@ -147,11 +148,15 @@
       "metric": "latest_round",
       "value": 550000000.0,
       "unit": "object",
-      "range": null,
-      "as_of": "2026-09-10",
-      "estimate_type": "reported",
-      "confidence": 0.512,
+      "range": {
+        "low": 550000000.0,
+        "high": 550000000.0
+      },
+      "as_of": "2026-09-11",
+      "estimate_type": "consensus",
+      "confidence": 0.761,
       "supporting_claims": [
+        "clm_8ae7f919bd",
         "clm_bb34c4c27d"
       ],
       "contradiction": false,
@@ -172,7 +177,7 @@
       "range": null,
       "as_of": "2026-08-07",
       "estimate_type": "reported",
-      "confidence": 0.177,
+      "confidence": 0.176,
       "supporting_claims": [
         "drv_6478ca5265"
       ],
@@ -188,5 +193,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-19"
+  "last_updated": "2026-09-20"
 }

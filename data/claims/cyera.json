@@ -245,6 +245,102 @@
     "derivation": null
   },
   {
+    "id": "clm_1f2c7aa555",
+    "company_id": "cyera",
+    "metric": "round_amount",
+    "value": 600000000.0,
+    "unit": null,
+    "raw_text": "Cyera raises $600M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Portal ERP",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSjJ2ME1NMjhEU2dnT01XcnBFS0t3NXlSd2tia2xHSHJrVEFULTRlQnJUVVZPZUtuV1YweG5VajlTMTRnaEYtRUMzU1g2b01LanQ0TU9IY01sTFpSRHB3QkdPemN5aG1mMTFsR25nUDBTakxFSHhJUjIxWG8ySXR2Z0cxeXVHLUJPNnc?oc=5",
+      "locator": null,
+      "published_at": "2026-06-10"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_4a49d3fffc",
+    "company_id": "cyera",
+    "metric": "valuation",
+    "value": 12000000000.0,
+    "unit": null,
+    "raw_text": "$12B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Portal ERP",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSjJ2ME1NMjhEU2dnT01XcnBFS0t3NXlSd2tia2xHSHJrVEFULTRlQnJUVVZPZUtuV1YweG5VajlTMTRnaEYtRUMzU1g2b01LanQ0TU9IY01sTFpSRHB3QkdPemN5aG1mMTFsR25nUDBTakxFSHhJUjIxWG8ySXR2Z0cxeXVHLUJPNnc?oc=5",
+      "locator": null,
+      "published_at": "2026-06-10"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_4d823ad4b9",
+    "company_id": "cyera",
+    "metric": "latest_round",
+    "value": 7.0,
+    "unit": null,
+    "raw_text": "series G round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Portal ERP",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSjJ2ME1NMjhEU2dnT01XcnBFS0t3NXlSd2tia2xHSHJrVEFULTRlQnJUVVZPZUtuV1YweG5VajlTMTRnaEYtRUMzU1g2b01LanQ0TU9IY01sTFpSRHB3QkdPemN5aG1mMTFsR25nUDBTakxFSHhJUjIxWG8ySXR2Z0cxeXVHLUJPNnc?oc=5",
+      "locator": null,
+      "published_at": "2026-06-10"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_b7295b2927",
+    "company_id": "cyera",
+    "metric": "headcount",
+    "value": 550.0,
+    "unit": null,
+    "raw_text": "scaling Cyera from 100 to 550 employees in under two years",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "founder"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "The Logan Bartlett Show",
+      "url": null,
+      "locator": null,
+      "published_at": "2025-05-09"
+    },
+    "extracted_at": "2026-09-20T09:44:05.979383",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.6,
+    "derivation": null
+  },
+  {
     "id": "clm_cf8e33e717",
     "company_id": "cyera",
     "metric": "round_amount",
@@ -317,30 +413,6 @@
     "derivation": null
   },
   {
-    "id": "clm_b7295b2927",
-    "company_id": "cyera",
-    "metric": "headcount",
-    "value": 550.0,
-    "unit": null,
-    "raw_text": "scaling Cyera from 100 to 550 employees in under two years",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "The Logan Bartlett Show",
-      "url": null,
-      "locator": null,
-      "published_at": "2025-05-09"
-    },
-    "extracted_at": "2026-09-19T09:29:15.949394",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3,
-    "derivation": null
-  },
-  {
     "id": "clm_c192c709ee",
     "company_id": "cyera",
     "metric": "round_amount",
@@ -386,78 +458,6 @@
     "extracted_at": "2026-09-17T10:01:41.438182",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_1f2c7aa555",
-    "company_id": "cyera",
-    "metric": "round_amount",
-    "value": 600000000.0,
-    "unit": null,
-    "raw_text": "Cyera raises $600M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Portal ERP",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSjJ2ME1NMjhEU2dnT01XcnBFS0t3NXlSd2tia2xHSHJrVEFULTRlQnJUVVZPZUtuV1YweG5VajlTMTRnaEYtRUMzU1g2b01LanQ0TU9IY01sTFpSRHB3QkdPemN5aG1mMTFsR25nUDBTakxFSHhJUjIxWG8ySXR2Z0cxeXVHLUJPNnc?oc=5",
-      "locator": null,
-      "published_at": "2026-06-10"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_4a49d3fffc",
-    "company_id": "cyera",
-    "metric": "valuation",
-    "value": 12000000000.0,
-    "unit": null,
-    "raw_text": "$12B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Portal ERP",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSjJ2ME1NMjhEU2dnT01XcnBFS0t3NXlSd2tia2xHSHJrVEFULTRlQnJUVVZPZUtuV1YweG5VajlTMTRnaEYtRUMzU1g2b01LanQ0TU9IY01sTFpSRHB3QkdPemN5aG1mMTFsR25nUDBTakxFSHhJUjIxWG8ySXR2Z0cxeXVHLUJPNnc?oc=5",
-      "locator": null,
-      "published_at": "2026-06-10"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_4d823ad4b9",
-    "company_id": "cyera",
-    "metric": "latest_round",
-    "value": 7.0,
-    "unit": null,
-    "raw_text": "series G round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Portal ERP",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSjJ2ME1NMjhEU2dnT01XcnBFS0t3NXlSd2tia2xHSHJrVEFULTRlQnJUVVZPZUtuV1YweG5VajlTMTRnaEYtRUMzU1g2b01LanQ0TU9IY01sTFpSRHB3QkdPemN5aG1mMTFsR25nUDBTakxFSHhJUjIxWG8ySXR2Z0cxeXVHLUJPNnc?oc=5",
-      "locator": null,
-      "published_at": "2026-06-10"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -1478,7 +1478,7 @@
       "locator": null,
       "published_at": "2026-06-10"
     },
-    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extracted_at": "2026-09-20T09:44:05.979383",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1087,
     "derivation": {

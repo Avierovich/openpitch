@@ -1,13 +1,13 @@
-# OpenPitch Data Quality Report - 2026-09-19
+# OpenPitch Data Quality Report - 2026-09-20
 
 ## Summary
 
-- Profiles generated: 461
-- Watchlist candidates: 1021
+- Profiles generated: 472
+- Watchlist candidates: 1032
 - Top-50 cards: 50
-- Profiles with at least one metric: 449
-- Critical issues: 83
-- Warnings: 21
+- Profiles with at least one metric: 460
+- Critical issues: 87
+- Warnings: 20
 - Discovery backlog (auto-discovered, awaiting first pipeline run): 558
 
 ## Top-50 Companies With No Metrics
@@ -48,6 +48,7 @@ None.
 - AI71
 - AIR
 - AIR Security
+- AbCellera
 - Aera Therapeutics
 - Aidoc
 - Aisera
@@ -93,14 +94,17 @@ None.
 - Demandbase
 - Descript
 - Enfabrica
+- Esperanto Technologies
 - EvolutionaryScale
 - Exscientia
+- Flex Logix
 - Form Energy
 - Félix
 - Genesis Therapeutics
 - Ghost Robotics
 - Ginger
 - HUMAIN
+- Happy Health
 - Huspy
 - Ideogram
 - Krea
@@ -124,15 +128,14 @@ None.
 - Fireworks AI: arr
 - Fireworks AI: total_funding
 - Fireworks AI: headcount
+- Harvey AI: arr
 - Sierra: arr
 - Lovable: headcount
 - Celonis: arr
 - Celonis: headcount
 - Shield AI: total_funding
 - Baseten: arr
-- Checkout.com: total_funding
 - Poolside: arr
-- Cyera: headcount
 
 ## Review Rule
 

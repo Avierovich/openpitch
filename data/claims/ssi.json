@@ -48,54 +48,6 @@
     "derivation": null
   },
   {
-    "id": "clm_a650ee5563",
-    "company_id": "ssi",
-    "metric": "round_amount",
-    "value": 2000000000.0,
-    "unit": "USD",
-    "raw_text": "Raises $2 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "theinformation.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY0d2UHRlWEZYaW9JeG56YXdtcXNaZ0hCVzN3ZG9BUlc2aUotNE54SnNlcmhadFRaX2Y1aFc1MkdYalhVcVdueU1RcHppSm5iUjUyaFIybEE3N2NnZlBWZ3ljZ1hvVkFuVDAwUWd2bmtSSWZuSWVSVkZYNWdiTl9WWlVuczB0Z1F1NW9QRm44RmZqU1R2djFfaWFUaU5wV3Q2RXdFT2ZNOEk?oc=5",
-      "locator": null,
-      "published_at": "2025-04-11"
-    },
-    "extracted_at": "2026-09-07T10:15:07.048991",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_be4eba3683",
-    "company_id": "ssi",
-    "metric": "valuation",
-    "value": 32000000000.0,
-    "unit": "USD",
-    "raw_text": "$32 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "theinformation.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY0d2UHRlWEZYaW9JeG56YXdtcXNaZ0hCVzN3ZG9BUlc2aUotNE54SnNlcmhadFRaX2Y1aFc1MkdYalhVcVdueU1RcHppSm5iUjUyaFIybEE3N2NnZlBWZ3ljZ1hvVkFuVDAwUWd2bmtSSWZuSWVSVkZYNWdiTl9WWlVuczB0Z1F1NW9QRm44RmZqU1R2djFfaWFUaU5wV3Q2RXdFT2ZNOEk?oc=5",
-      "locator": null,
-      "published_at": "2025-04-11"
-    },
-    "extracted_at": "2026-09-07T10:15:07.048991",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_acecd769d4",
     "company_id": "ssi",
     "metric": "valuation",
@@ -194,6 +146,57 @@
     "derivation": null
   },
   {
+    "id": "clm_a7db698f89",
+    "company_id": "ssi",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "raises $1 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GIGAZINE",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNWFhci1DX0N3eG04S1lWdHF2TGw2RFo2Rm03MXBIa0l3OU5wczJGSEhUQm5IN0tFYVp2dnYtVUNxSnJTMWl1dDdMXzBleWtqVmd0ZzV1SXZOd3VnNEJ0QmdVeVZGVnZyMHVCbkd0Mk1BTjh1czd4YzJHR25lU05rLWZid0xiV3IyT0E?oc=5",
+      "locator": null,
+      "published_at": "2024-09-05"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_22da97ef46",
+    "company_id": "ssi",
+    "metric": "valuation",
+    "value": 5000000000.0,
+    "unit": null,
+    "raw_text": "valuation could reach $5 billion",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GIGAZINE",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNWFhci1DX0N3eG04S1lWdHF2TGw2RFo2Rm03MXBIa0l3OU5wczJGSEhUQm5IN0tFYVp2dnYtVUNxSnJTMWl1dDdMXzBleWtqVmd0ZzV1SXZOd3VnNEJ0QmdVeVZGVnZyMHVCbkd0Mk1BTjh1czd4YzJHR25lU05rLWZid0xiV3IyT0E?oc=5",
+      "locator": null,
+      "published_at": "2024-09-05"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
     "id": "clm_27fc1b6eac",
     "company_id": "ssi",
     "metric": "headcount",
@@ -268,7 +271,7 @@
     "derivation": null
   },
   {
-    "id": "clm_22410c2e30",
+    "id": "clm_77164e6e95",
     "company_id": "ssi",
     "metric": "valuation",
     "value": 32000000000.0,
@@ -281,12 +284,12 @@
     },
     "source": {
       "type": "news",
-      "name": "techinasia.com",
+      "name": "Tech in Asia",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYndJZ09UQWtMS3dGUU5yQzlMVGJYSmpUbkVIT0hibG4tYXFKWWVWTEZYRk1aZmFhTHdEWDU1bEFIbkxpVEJuY0IxNV8tQ0gzNC0xRUt1dGkxMW9xc2lCMHJVUGlqUFZXTjVLQTc3SGpoTTltYmFnNFBFNzFZMDdxdQ?oc=5",
       "locator": null,
       "published_at": "2026-07-28"
     },
-    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extracted_at": "2026-09-07T10:15:07.048991",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -342,6 +345,78 @@
     "derivation": null
   },
   {
+    "id": "clm_a650ee5563",
+    "company_id": "ssi",
+    "metric": "round_amount",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "Raises $2 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "theinformation.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY0d2UHRlWEZYaW9JeG56YXdtcXNaZ0hCVzN3ZG9BUlc2aUotNE54SnNlcmhadFRaX2Y1aFc1MkdYalhVcVdueU1RcHppSm5iUjUyaFIybEE3N2NnZlBWZ3ljZ1hvVkFuVDAwUWd2bmtSSWZuSWVSVkZYNWdiTl9WWlVuczB0Z1F1NW9QRm44RmZqU1R2djFfaWFUaU5wV3Q2RXdFT2ZNOEk?oc=5",
+      "locator": null,
+      "published_at": "2025-04-11"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_be4eba3683",
+    "company_id": "ssi",
+    "metric": "valuation",
+    "value": 32000000000.0,
+    "unit": "USD",
+    "raw_text": "$32 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "theinformation.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY0d2UHRlWEZYaW9JeG56YXdtcXNaZ0hCVzN3ZG9BUlc2aUotNE54SnNlcmhadFRaX2Y1aFc1MkdYalhVcVdueU1RcHppSm5iUjUyaFIybEE3N2NnZlBWZ3ljZ1hvVkFuVDAwUWd2bmtSSWZuSWVSVkZYNWdiTl9WWlVuczB0Z1F1NW9QRm44RmZqU1R2djFfaWFUaU5wV3Q2RXdFT2ZNOEk?oc=5",
+      "locator": null,
+      "published_at": "2025-04-11"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_22410c2e30",
+    "company_id": "ssi",
+    "metric": "valuation",
+    "value": 32000000000.0,
+    "unit": "USD",
+    "raw_text": "$32b valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techinasia.com",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYndJZ09UQWtMS3dGUU5yQzlMVGJYSmpUbkVIT0hibG4tYXFKWWVWTEZYRk1aZmFhTHdEWDU1bEFIbkxpVEJuY0IxNV8tQ0gzNC0xRUt1dGkxMW9xc2lCMHJVUGlqUFZXTjVLQTc3SGpoTTltYmFnNFBFNzFZMDdxdQ?oc=5",
+      "locator": null,
+      "published_at": "2026-07-28"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_5f0d105d08",
     "company_id": "ssi",
     "metric": "total_funding",
@@ -390,81 +465,6 @@
     "extracted_at": "2026-09-19T09:29:15.949394",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_a7db698f89",
-    "company_id": "ssi",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "raises $1 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "GIGAZINE",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNWFhci1DX0N3eG04S1lWdHF2TGw2RFo2Rm03MXBIa0l3OU5wczJGSEhUQm5IN0tFYVp2dnYtVUNxSnJTMWl1dDdMXzBleWtqVmd0ZzV1SXZOd3VnNEJ0QmdVeVZGVnZyMHVCbkd0Mk1BTjh1czd4YzJHR25lU05rLWZid0xiV3IyT0E?oc=5",
-      "locator": null,
-      "published_at": "2024-09-05"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_22da97ef46",
-    "company_id": "ssi",
-    "metric": "valuation",
-    "value": 5000000000.0,
-    "unit": null,
-    "raw_text": "valuation could reach $5 billion",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "GIGAZINE",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNWFhci1DX0N3eG04S1lWdHF2TGw2RFo2Rm03MXBIa0l3OU5wczJGSEhUQm5IN0tFYVp2dnYtVUNxSnJTMWl1dDdMXzBleWtqVmd0ZzV1SXZOd3VnNEJ0QmdVeVZGVnZyMHVCbkd0Mk1BTjh1czd4YzJHR25lU05rLWZid0xiV3IyT0E?oc=5",
-      "locator": null,
-      "published_at": "2024-09-05"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_77164e6e95",
-    "company_id": "ssi",
-    "metric": "valuation",
-    "value": 32000000000.0,
-    "unit": "USD",
-    "raw_text": "$32b valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech in Asia",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYndJZ09UQWtMS3dGUU5yQzlMVGJYSmpUbkVIT0hibG4tYXFKWWVWTEZYRk1aZmFhTHdEWDU1bEFIbkxpVEJuY0IxNV8tQ0gzNC0xRUt1dGkxMW9xc2lCMHJVUGlqUFZXTjVLQTc3SGpoTTltYmFnNFBFNzFZMDdxdQ?oc=5",
-      "locator": null,
-      "published_at": "2026-07-28"
-    },
-    "extracted_at": "2026-09-07T10:15:07.048991",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {

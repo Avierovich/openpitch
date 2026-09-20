@@ -19,12 +19,12 @@
       "range": null,
       "as_of": "2026-05-04",
       "estimate_type": "consensus",
-      "confidence": 0.876,
+      "confidence": 0.875,
       "supporting_claims": [
         "clm_847af30863",
+        "clm_a5f578c6df",
         "clm_38c2655cb1",
         "clm_6c124e62ef",
-        "clm_a5f578c6df",
         "clm_5e7814d1a3",
         "clm_a831cec87c",
         "clm_3fa6a6ad83",
@@ -64,30 +64,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "arr": {
-      "metric": "arr",
-      "value": 200003333.33,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-08-12",
-      "estimate_type": "consensus",
-      "confidence": 0.616,
-      "supporting_claims": [
-        "clm_e32790969d",
-        "clm_e794c66901",
-        "clm_a187f9a1c4"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 200003333.33,
-        "change_pct": 0.0,
-        "since": "2026-08-12"
-      },
-      "history_ref": "history/cerebras/arr.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "round_amount": {
       "metric": "round_amount",
       "value": 1045846008.63,
@@ -95,10 +71,10 @@
       "range": null,
       "as_of": "2026-02-05",
       "estimate_type": "consensus",
-      "confidence": 0.784,
+      "confidence": 0.783,
       "supporting_claims": [
-        "clm_93a214a35d",
         "clm_440804d702",
+        "clm_93a214a35d",
         "clm_adfd0da588",
         "clm_18c4a30a9d",
         "clm_700a429a25",
@@ -116,6 +92,30 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "arr": {
+      "metric": "arr",
+      "value": 200003333.33,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-08-12",
+      "estimate_type": "consensus",
+      "confidence": 0.612,
+      "supporting_claims": [
+        "clm_e32790969d",
+        "clm_e794c66901",
+        "clm_a187f9a1c4"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 200003333.33,
+        "change_pct": 0.0,
+        "since": "2026-08-12"
+      },
+      "history_ref": "history/cerebras/arr.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "latest_round": {
       "metric": "latest_round",
       "value": 1024206484.12,
@@ -123,7 +123,7 @@
       "range": null,
       "as_of": "2026-02-05",
       "estimate_type": "consensus",
-      "confidence": 0.492,
+      "confidence": 0.491,
       "supporting_claims": [
         "clm_f5a8ba9331",
         "clm_1fede69526",
@@ -147,7 +147,7 @@
       "range": null,
       "as_of": "2026-08-14",
       "estimate_type": "reported",
-      "confidence": 0.278,
+      "confidence": 0.276,
       "supporting_claims": [
         "clm_feefdc3941"
       ],
@@ -169,7 +169,7 @@
       "range": null,
       "as_of": "2026-08-14",
       "estimate_type": "reported",
-      "confidence": 0.475,
+      "confidence": 0.472,
       "supporting_claims": [
         "clm_a217a997b0",
         "clm_5498625f57"
@@ -186,5 +186,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-19"
+  "last_updated": "2026-09-20"
 }

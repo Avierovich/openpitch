@@ -12,15 +12,75 @@
   "vc_attention_score": 87.5,
   "universe_rank": 22,
   "metrics": {
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 6.0,
+      "unit": "object",
+      "range": {
+        "low": 6.0,
+        "high": 3000000000.0
+      },
+      "as_of": "2026-09-18",
+      "estimate_type": "consensus",
+      "confidence": 0.762,
+      "supporting_claims": [
+        "clm_232dc746ba",
+        "clm_e6f525de45"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 6.0,
+        "change_pct": 0.0,
+        "since": "2026-09-18"
+      },
+      "history_ref": "history/crusoe/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 3900000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 3000000000.0,
+        "high": 3900000000.0
+      },
+      "as_of": "2026-09-19",
+      "estimate_type": "consensus",
+      "confidence": 0.97,
+      "supporting_claims": [
+        "clm_0da6a19627",
+        "clm_a7aa406aef",
+        "clm_a7aa406aef",
+        "clm_ebf21736cd",
+        "clm_bf8f5d6926",
+        "clm_5e34a841b3",
+        "clm_4711623561",
+        "clm_abefd87b5b",
+        "clm_559a581eec",
+        "clm_fe1ae47d33"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 3000000000.0,
+        "change_pct": 30.0,
+        "since": "2026-09-04"
+      },
+      "history_ref": "history/crusoe/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "valuation": {
       "metric": "valuation",
-      "value": 30319233114.58,
+      "value": 30350131723.31,
       "unit": "USD",
       "range": {
         "low": 10000000000.0,
         "high": 30900000000.0
       },
-      "as_of": "2026-09-18",
+      "as_of": "2026-09-19",
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
@@ -44,13 +104,14 @@
         "clm_4946a3afef",
         "clm_a5fa161a04",
         "clm_3d1f278ee9",
-        "clm_e21230325c",
-        "clm_af3c6fd882",
-        "clm_b408015b04",
-        "clm_118a37202d",
-        "clm_e0a675634c",
-        "clm_8fea111c4d",
         "clm_1eea1d5eed",
+        "clm_e21230325c",
+        "clm_118a37202d",
+        "clm_af3c6fd882",
+        "clm_8fea111c4d",
+        "clm_9b865b2390",
+        "clm_e0a675634c",
+        "clm_b408015b04",
         "clm_aece8c8db2",
         "clm_f3b02ccb40",
         "clm_00f6e2fb49",
@@ -58,70 +119,11 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 30236629071.15,
-        "change_pct": 0.3,
+        "previous": 30319233114.58,
+        "change_pct": 0.1,
         "since": "2026-09-18"
       },
       "history_ref": "history/crusoe/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "latest_round": {
-      "metric": "latest_round",
-      "value": 6.0,
-      "unit": "object",
-      "range": {
-        "low": 6.0,
-        "high": 3000000000.0
-      },
-      "as_of": "2026-09-18",
-      "estimate_type": "consensus",
-      "confidence": 0.764,
-      "supporting_claims": [
-        "clm_232dc746ba",
-        "clm_e6f525de45"
-      ],
-      "contradiction": true,
-      "delta": {
-        "previous": 2026.0,
-        "change_pct": -99.7,
-        "since": "2026-09-17"
-      },
-      "history_ref": "history/crusoe/latest_round.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 3000000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 3000000000.0,
-        "high": 3900000000.0
-      },
-      "as_of": "2026-09-04",
-      "estimate_type": "consensus",
-      "confidence": 0.97,
-      "supporting_claims": [
-        "clm_82555157eb",
-        "clm_f84199c056",
-        "clm_7032429eac",
-        "clm_b96899e681",
-        "clm_3d161a0609",
-        "clm_53760ab6df",
-        "clm_c1e2960033",
-        "clm_57e3f03351",
-        "clm_4b00294cef"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 3000000000.0,
-        "change_pct": -0.0,
-        "since": "2026-09-04"
-      },
-      "history_ref": "history/crusoe/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -168,7 +170,7 @@
       "range": null,
       "as_of": "2026-04-14",
       "estimate_type": "reported",
-      "confidence": 0.099,
+      "confidence": 0.098,
       "supporting_claims": [
         "clm_f6b7a66c37"
       ],
@@ -184,5 +186,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-19"
+  "last_updated": "2026-09-20"
 }

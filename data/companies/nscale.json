@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 84.8,
-  "universe_rank": 41,
+  "universe_rank": 42,
   "metrics": {
     "valuation": {
       "metric": "valuation",
@@ -53,10 +53,28 @@
       "contradiction": false,
       "delta": {
         "previous": 14600000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-05-05"
       },
       "history_ref": "history/nscale/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "arr": {
+      "metric": "arr",
+      "value": 103000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-09-02",
+      "estimate_type": "reported",
+      "confidence": 0.407,
+      "supporting_claims": [
+        "clm_a773856afb"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/nscale/arr.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -104,7 +122,7 @@
       "range": null,
       "as_of": "2026-03-10",
       "estimate_type": "consensus",
-      "confidence": 0.745,
+      "confidence": 0.744,
       "supporting_claims": [
         "clm_b60541801d",
         "clm_939ffd90de",
@@ -133,7 +151,7 @@
       },
       "as_of": "2026-09-04",
       "estimate_type": "consensus",
-      "confidence": 0.654,
+      "confidence": 0.653,
       "supporting_claims": [
         "clm_fb3d1ad001",
         "clm_943cc09dac"
@@ -148,7 +166,25 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "revenue_multiple": {
+      "metric": "revenue_multiple",
+      "value": 0.14,
+      "unit": "x",
+      "range": null,
+      "as_of": "2026-09-02",
+      "estimate_type": "reported",
+      "confidence": 0.196,
+      "supporting_claims": [
+        "drv_daf4416529"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/nscale/revenue_multiple.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-19"
+  "last_updated": "2026-09-20"
 }

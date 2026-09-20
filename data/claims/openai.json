@@ -1,5 +1,32 @@
 [
   {
+    "id": "clm_82988bcc00",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1200000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI seeks $1.2T valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTS04Tk93cUt5NEJibDhOQnU1UU95NTFYRG5kRjN1NUhCVllFbjh0dEdoRlp6QjVuYll2TTJGQjJ4VnB0UDExbWk0STBQdTNXWm1NUlRrOUI3QWFvT1ZnYzVJa0lXemI4eDc1emVWQzRXMkRDMlZFa3hETEJLT3oxbXVKc0pKSFZVQThMSkhraTBCNjJWbHRPVE9SNU15TU1rekt5UUxGNWo4cWVMdEVLWFl2eUF6SWY2S1E?oc=5",
+      "locator": null,
+      "published_at": "2026-09-19"
+    },
+    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
     "id": "clm_d04bab179d",
     "company_id": "openai",
     "metric": "valuation",
@@ -27,15 +54,14 @@
     "derivation": null
   },
   {
-    "id": "clm_82988bcc00",
+    "id": "clm_0a26ed6043",
     "company_id": "openai",
-    "metric": "valuation",
-    "value": 1200000000000.0,
+    "metric": "arr",
+    "value": 1000000000.0,
     "unit": "USD",
-    "raw_text": "OpenAI seeks $1.2T valuation",
+    "raw_text": "hits $1 billion annualized revenue run rate",
     "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
+      "run_rate"
     ],
     "speaker": {
       "name": null,
@@ -43,14 +69,14 @@
     },
     "source": {
       "type": "news",
-      "name": "Anadolu Ajansı",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTS04Tk93cUt5NEJibDhOQnU1UU95NTFYRG5kRjN1NUhCVllFbjh0dEdoRlp6QjVuYll2TTJGQjJ4VnB0UDExbWk0STBQdTNXWm1NUlRrOUI3QWFvT1ZnYzVJa0lXemI4eDc1emVWQzRXMkRDMlZFa3hETEJLT3oxbXVKc0pKSFZVQThMSkhraTBCNjJWbHRPVE9SNU15TU1rekt5UUxGNWo4cWVMdEVLWFl2eUF6SWY2S1E?oc=5",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE84TTNSWnpWUm4yMnJ5Wkk5aHg1clFxY1A1OHkxcVRiZ25SY01oWk1rN1QtMlVFQ2NpTWZMejVzS2dfaldqcEFiSEhIVUhESHJUZnNZQXRRaUZzUFBWenZVRlFrcnQzV0JwTE94Mm1KckIyQdIBd0FVX3lxTE5QU1lUNWNXX0FrZFFxSnVycUZMSjFVM1pkbWJQMmloVk5PRVE0bWp5a3BzSm1HaVJ1ZFV3MlNBU3pKaFl4WE9DZUhWLWVBTkZvTUlPVU80SXBEWk4wUHFZQmVUanpXTHpfMU80bWtXdHJUMTVJQVBN?oc=5",
       "locator": null,
-      "published_at": "2026-09-19"
+      "published_at": "2026-08-31"
     },
-    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1575,
+    "base_confidence": 0.3375,
     "derivation": null
   },
   {
@@ -384,32 +410,6 @@
     "extracted_at": "2026-09-09T09:51:11.595604",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_0a26ed6043",
-    "company_id": "openai",
-    "metric": "arr",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "hits $1 billion annualized revenue run rate",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE84TTNSWnpWUm4yMnJ5Wkk5aHg1clFxY1A1OHkxcVRiZ25SY01oWk1rN1QtMlVFQ2NpTWZMejVzS2dfaldqcEFiSEhIVUhESHJUZnNZQXRRaUZzUFBWenZVRlFrcnQzV0JwTE94Mm1KckIyQdIBd0FVX3lxTE5QU1lUNWNXX0FrZFFxSnVycUZMSjFVM1pkbWJQMmloVk5PRVE0bWp5a3BzSm1HaVJ1ZFV3MlNBU3pKaFl4WE9DZUhWLWVBTkZvTUlPVU80SXBEWk4wUHFZQmVUanpXTHpfMU80bWtXdHJUMTVJQVBN?oc=5",
-      "locator": null,
-      "published_at": "2026-08-31"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3375,
     "derivation": null
   },
   {
@@ -1185,7 +1185,7 @@
       "locator": null,
       "published_at": "2026-08-20"
     },
-    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extracted_at": "2026-09-20T09:44:05.979383",
     "extractor_model": "derive-engine",
     "base_confidence": 0.4658,
     "derivation": {

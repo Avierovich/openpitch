@@ -24,33 +24,6 @@
     "derivation": null
   },
   {
-    "id": "clm_dce491a767",
-    "company_id": "cerebras",
-    "metric": "valuation",
-    "value": 49000000000.0,
-    "unit": "USD",
-    "raw_text": "Cerebras Systems eyes $49B valuation ahead of after-hours pricing",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "cnbc.com",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTWQxaDVkdmlacGRsQTA5R1VWZll2dXE1NlZYSUlDOWdCaEVvTzhHcEY2QnltRTR5VU9qVGNtb09xWFl3Rk5Od21hOXFGelhaNm9lXzh6cnF3Uk9OTDJpemNJeENVT0lIcFVPLVowVThOR0swbGczVG5QRllsSTI0cnBtVUdlQUI2d2dIWFFRUTR4V3RuQllrWVl2cHRXRTB1MnVIRWw0T2ZxeU0?oc=5",
-      "locator": null,
-      "published_at": "2026-05-13"
-    },
-    "extracted_at": "2026-09-10T09:49:02.856855",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
     "id": "clm_56476fa9d4",
     "company_id": "cerebras",
     "metric": "total_funding",
@@ -75,6 +48,54 @@
     "derivation": null
   },
   {
+    "id": "clm_440804d702",
+    "company_id": "cerebras",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "nabs $1B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTHZ6cUM2U29Yc3MtZGZkOGw1WWF5bGhOZ3NGdUt1VlRfV1JXUzRUVTl2SE9sRzhpamE1X3J6RFp6V2pmVkQ1aEd2cUxvMmgwZGpFcmUxWXpodEhNdnp2U2o1RmZZQ0ZaQjFaU1d0U2E3eXJkd3I3MmUwSG5BdTZDQ0dGZTZuSnl0?oc=5",
+      "locator": null,
+      "published_at": "2026-02-05"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_a5f578c6df",
+    "company_id": "cerebras",
+    "metric": "valuation",
+    "value": 23000000000.0,
+    "unit": "USD",
+    "raw_text": "at $23B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTHZ6cUM2U29Yc3MtZGZkOGw1WWF5bGhOZ3NGdUt1VlRfV1JXUzRUVTl2SE9sRzhpamE1X3J6RFp6V2pmVkQ1aEd2cUxvMmgwZGpFcmUxWXpodEhNdnp2U2o1RmZZQ0ZaQjFaU1d0U2E3eXJkd3I3MmUwSG5BdTZDQ0dGZTZuSnl0?oc=5",
+      "locator": null,
+      "published_at": "2026-02-05"
+    },
+    "extracted_at": "2026-08-23T05:59:54.335804",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_a187f9a1c4",
     "company_id": "cerebras",
     "metric": "arr",
@@ -96,6 +117,33 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_dce491a767",
+    "company_id": "cerebras",
+    "metric": "valuation",
+    "value": 49000000000.0,
+    "unit": "USD",
+    "raw_text": "Cerebras Systems eyes $49B valuation ahead of after-hours pricing",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "cnbc.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTWQxaDVkdmlacGRsQTA5R1VWZll2dXE1NlZYSUlDOWdCaEVvTzhHcEY2QnltRTR5VU9qVGNtb09xWFl3Rk5Od21hOXFGelhaNm9lXzh6cnF3Uk9OTDJpemNJeENVT0lIcFVPLVowVThOR0swbGczVG5QRllsSTI0cnBtVUdlQUI2d2dIWFFRUTR4V3RuQllrWVl2cHRXRTB1MnVIRWw0T2ZxeU0?oc=5",
+      "locator": null,
+      "published_at": "2026-05-13"
+    },
+    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -825,54 +873,6 @@
     "derivation": null
   },
   {
-    "id": "clm_440804d702",
-    "company_id": "cerebras",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "nabs $1B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTHZ6cUM2U29Yc3MtZGZkOGw1WWF5bGhOZ3NGdUt1VlRfV1JXUzRUVTl2SE9sRzhpamE1X3J6RFp6V2pmVkQ1aEd2cUxvMmgwZGpFcmUxWXpodEhNdnp2U2o1RmZZQ0ZaQjFaU1d0U2E3eXJkd3I3MmUwSG5BdTZDQ0dGZTZuSnl0?oc=5",
-      "locator": null,
-      "published_at": "2026-02-05"
-    },
-    "extracted_at": "2026-08-23T05:59:54.335804",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_a5f578c6df",
-    "company_id": "cerebras",
-    "metric": "valuation",
-    "value": 23000000000.0,
-    "unit": "USD",
-    "raw_text": "at $23B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTHZ6cUM2U29Yc3MtZGZkOGw1WWF5bGhOZ3NGdUt1VlRfV1JXUzRUVTl2SE9sRzhpamE1X3J6RFp6V2pmVkQ1aEd2cUxvMmgwZGpFcmUxWXpodEhNdnp2U2o1RmZZQ0ZaQjFaU1d0U2E3eXJkd3I3MmUwSG5BdTZDQ0dGZTZuSnl0?oc=5",
-      "locator": null,
-      "published_at": "2026-02-05"
-    },
-    "extracted_at": "2026-08-23T05:59:54.335804",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_e32790969d",
     "company_id": "cerebras",
     "metric": "arr",
@@ -1113,10 +1113,10 @@
     "derivation": null
   },
   {
-    "id": "drv_10b2582f54",
+    "id": "drv_20ea1ef7ad",
     "company_id": "cerebras",
     "metric": "revenue_multiple",
-    "value": 38.57,
+    "value": 109.52,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -1131,14 +1131,14 @@
       "locator": null,
       "published_at": "2026-08-12"
     },
-    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extracted_at": "2026-09-20T09:44:05.979383",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_bc05bae238",
+        "clm_a5f578c6df",
         "clm_a187f9a1c4"
       ]
     }

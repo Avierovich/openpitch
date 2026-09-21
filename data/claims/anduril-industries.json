@@ -28,14 +28,15 @@
     "derivation": null
   },
   {
-    "id": "clm_a6c09c7944",
+    "id": "clm_be999df667",
     "company_id": "anduril-industries",
     "metric": "valuation",
     "value": 100000000000.0,
     "unit": "USD",
-    "raw_text": "in talks to raise money at a $100 billion valuation",
+    "raw_text": "at a $100 billion valuation",
     "qualifiers": [
-      "unconfirmed"
+      "unconfirmed",
+      "rounded"
     ],
     "speaker": {
       "name": null,
@@ -43,41 +44,40 @@
     },
     "source": {
       "type": "news",
-      "name": "Startup Fortune",
+      "name": "startupfortune.com",
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNU3d6Tkt0Q0FEbEZ6UjMwYWcyMWRscVJoQXdWdjFUa3B5YzBIUUJvYldYWUtFcndVS1NlcjFfVnhCS3RycG04dlpGU0R5OUFyeFRybmxiaWZpV3VwUEl0cXJ3bHczRG5GUlhVV29LVlNlYVpUUjJPUV9NTERwVHBnbG93Nm05eEY0ZUM4dFd4ZzBGSVlqUHhNcEdoaWNUenVsWXB4MFRMcHRicmJCUTdPS3J5NW1ZVF8wcDExdzFuaFo0QnhzR3c0V1lyMjBtT294a2lVX082d1ppX2RaekpzRC1SV2FnbG1Gb043WmdB?oc=5",
       "locator": null,
       "published_at": "2026-07-24"
     },
-    "extracted_at": "2026-08-24T06:11:52.835308",
-    "extractor_model": "gemini-3.6-flash",
-    "base_confidence": 0.315,
+    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2835,
     "derivation": null
   },
   {
-    "id": "clm_576a74bca0",
+    "id": "clm_34af6fe563",
     "company_id": "anduril-industries",
     "metric": "valuation",
     "value": 28000000000.0,
-    "unit": "USD",
-    "raw_text": "targets $28 billion valuation",
+    "unit": "usd",
+    "raw_text": "$28 billion valuation",
     "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
+      "forward_looking"
     ],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "exec"
     },
     "source": {
       "type": "news",
-      "name": "marketscale.com",
+      "name": "MarketScale",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQUlkR001VDdkejFjeUtEMVJBckFjVlNaeUpfdlNTSTFWanJHRVN1emlFM2dxLXRUZEFxTHl3WmxzeEg1dF9pYlRmRGdYTm5EbU9iTk95S1ZZczZ3N1V4aXlLaVZrRU1fcUJHMzVfbjFGVUJqd3lNb29JckdudkxZajZzbGd1a3MxdHYzVTVYUk1WTHNwS0pBVktienhwWnd2MUhhM0o5VXkyY2oxY3o2OG41OV9lS3F0d09YRGtRTmNUVUJmdzVsNWEyclc3eEllbi1UaWlFaG9wS29pcTBKSA?oc=5",
       "locator": null,
       "published_at": "2026-07-16"
     },
-    "extracted_at": "2026-09-18T09:44:30.525514",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1575,
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -135,29 +135,56 @@
     "derivation": null
   },
   {
-    "id": "clm_34af6fe563",
+    "id": "clm_a6c09c7944",
     "company_id": "anduril-industries",
     "metric": "valuation",
-    "value": 28000000000.0,
-    "unit": "usd",
-    "raw_text": "$28 billion valuation",
+    "value": 100000000000.0,
+    "unit": "USD",
+    "raw_text": "in talks to raise money at a $100 billion valuation",
     "qualifiers": [
-      "forward_looking"
+      "unconfirmed"
     ],
     "speaker": {
       "name": null,
-      "role": "exec"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "MarketScale",
+      "name": "Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNU3d6Tkt0Q0FEbEZ6UjMwYWcyMWRscVJoQXdWdjFUa3B5YzBIUUJvYldYWUtFcndVS1NlcjFfVnhCS3RycG04dlpGU0R5OUFyeFRybmxiaWZpV3VwUEl0cXJ3bHczRG5GUlhVV29LVlNlYVpUUjJPUV9NTERwVHBnbG93Nm05eEY0ZUM4dFd4ZzBGSVlqUHhNcEdoaWNUenVsWXB4MFRMcHRicmJCUTdPS3J5NW1ZVF8wcDExdzFuaFo0QnhzR3c0V1lyMjBtT294a2lVX082d1ppX2RaekpzRC1SV2FnbG1Gb043WmdB?oc=5",
+      "locator": null,
+      "published_at": "2026-07-24"
+    },
+    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "gemini-3.6-flash",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_576a74bca0",
+    "company_id": "anduril-industries",
+    "metric": "valuation",
+    "value": 28000000000.0,
+    "unit": "USD",
+    "raw_text": "targets $28 billion valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "marketscale.com",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQUlkR001VDdkejFjeUtEMVJBckFjVlNaeUpfdlNTSTFWanJHRVN1emlFM2dxLXRUZEFxTHl3WmxzeEg1dF9pYlRmRGdYTm5EbU9iTk95S1ZZczZ3N1V4aXlLaVZrRU1fcUJHMzVfbjFGVUJqd3lNb29JckdudkxZajZzbGd1a3MxdHYzVTVYUk1WTHNwS0pBVktienhwWnd2MUhhM0o5VXkyY2oxY3o2OG41OV9lS3F0d09YRGtRTmNUVUJmdzVsNWEyclc3eEllbi1UaWlFaG9wS29pcTBKSA?oc=5",
       "locator": null,
       "published_at": "2026-07-16"
     },
-    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extracted_at": "2026-09-18T09:44:30.525514",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
+    "base_confidence": 0.1575,
     "derivation": null
   },
   {
@@ -432,33 +459,6 @@
     "extracted_at": "2026-09-11T09:45:35.269135",
     "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_be999df667",
-    "company_id": "anduril-industries",
-    "metric": "valuation",
-    "value": 100000000000.0,
-    "unit": "USD",
-    "raw_text": "at a $100 billion valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "startupfortune.com",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNU3d6Tkt0Q0FEbEZ6UjMwYWcyMWRscVJoQXdWdjFUa3B5YzBIUUJvYldYWUtFcndVS1NlcjFfVnhCS3RycG04dlpGU0R5OUFyeFRybmxiaWZpV3VwUEl0cXJ3bHczRG5GUlhVV29LVlNlYVpUUjJPUV9NTERwVHBnbG93Nm05eEY0ZUM4dFd4ZzBGSVlqUHhNcEdoaWNUenVsWXB4MFRMcHRicmJCUTdPS3J5NW1ZVF8wcDExdzFuaFo0QnhzR3c0V1lyMjBtT294a2lVX082d1ppX2RaekpzRC1SV2FnbG1Gb043WmdB?oc=5",
-      "locator": null,
-      "published_at": "2026-07-24"
-    },
-    "extracted_at": "2026-09-10T09:49:02.856855",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2835,
     "derivation": null
   },
   {

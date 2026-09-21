@@ -96,11 +96,35 @@
     "derivation": null
   },
   {
-    "id": "clm_2dec9db7c2",
+    "id": "clm_0d34bd659b",
+    "company_id": "fireworks-ai",
+    "metric": "round_amount",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "closes $1.5 billion Series D",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "startupfortune.com",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRnpqQW56a0lwYnJta1ZJc3AyN2E3YTlLeGw2YnFhaXprWXEyeWpPd3lJemRoQ2RiMnJhQVYwSzhzekNSM0lpX09VLUJiVk55a2k1c1ZCQUR4Ri13c19RYnhQSy1iMzVmRTF0NFhKTVNvVE9iQmRPYU9Obl9qZjZ3Uk04OGVSamxkUDVmUDJRWFNYckNRR2NVWnZVRGtWWmNad1M3aHNSUXhTN2JPZUl3eWk0bkJsbkhTLWZCLTladWV3MjlBVzN2YTFiaVEybkFB?oc=5",
+      "locator": null,
+      "published_at": "2026-07-21"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_d6cae8107e",
     "company_id": "fireworks-ai",
     "metric": "latest_round",
     "value": 4.0,
-    "unit": "Series D",
+    "unit": "integer",
     "raw_text": "Series D",
     "qualifiers": [],
     "speaker": {
@@ -109,42 +133,18 @@
     },
     "source": {
       "type": "news",
-      "name": "Startup Fortune",
+      "name": "startupfortune.com",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRnpqQW56a0lwYnJta1ZJc3AyN2E3YTlLeGw2YnFhaXprWXEyeWpPd3lJemRoQ2RiMnJhQVYwSzhzekNSM0lpX09VLUJiVk55a2k1c1ZCQUR4Ri13c19RYnhQSy1iMzVmRTF0NFhKTVNvVE9iQmRPYU9Obl9qZjZ3Uk04OGVSamxkUDVmUDJRWFNYckNRR2NVWnZVRGtWWmNad1M3aHNSUXhTN2JPZUl3eWk0bkJsbkhTLWZCLTladWV3MjlBVzN2YTFiaVEybkFB?oc=5",
       "locator": null,
       "published_at": "2026-07-21"
     },
-    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extracted_at": "2026-09-15T10:11:13.514998",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
   },
   {
-    "id": "clm_86ac6d09bd",
-    "company_id": "fireworks-ai",
-    "metric": "round_amount",
-    "value": 1500000000.0,
-    "unit": "USD",
-    "raw_text": "$1.5 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Startup Fortune",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRnpqQW56a0lwYnJta1ZJc3AyN2E3YTlLeGw2YnFhaXprWXEyeWpPd3lJemRoQ2RiMnJhQVYwSzhzekNSM0lpX09VLUJiVk55a2k1c1ZCQUR4Ri13c19RYnhQSy1iMzVmRTF0NFhKTVNvVE9iQmRPYU9Obl9qZjZ3Uk04OGVSamxkUDVmUDJRWFNYckNRR2NVWnZVRGtWWmNad1M3aHNSUXhTN2JPZUl3eWk0bkJsbkhTLWZCLTladWV3MjlBVzN2YTFiaVEybkFB?oc=5",
-      "locator": null,
-      "published_at": "2026-07-21"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_919d83da95",
+    "id": "clm_5cbad608e9",
     "company_id": "fireworks-ai",
     "metric": "valuation",
     "value": 17500000000.0,
@@ -157,12 +157,12 @@
     },
     "source": {
       "type": "news",
-      "name": "Startup Fortune",
+      "name": "startupfortune.com",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRnpqQW56a0lwYnJta1ZJc3AyN2E3YTlLeGw2YnFhaXprWXEyeWpPd3lJemRoQ2RiMnJhQVYwSzhzekNSM0lpX09VLUJiVk55a2k1c1ZCQUR4Ri13c19RYnhQSy1iMzVmRTF0NFhKTVNvVE9iQmRPYU9Obl9qZjZ3Uk04OGVSamxkUDVmUDJRWFNYckNRR2NVWnZVRGtWWmNad1M3aHNSUXhTN2JPZUl3eWk0bkJsbkhTLWZCLTladWV3MjlBVzN2YTFiaVEybkFB?oc=5",
       "locator": null,
       "published_at": "2026-07-21"
     },
-    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extracted_at": "2026-09-15T10:11:13.514998",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -266,6 +266,78 @@
     "derivation": null
   },
   {
+    "id": "clm_2dec9db7c2",
+    "company_id": "fireworks-ai",
+    "metric": "latest_round",
+    "value": 4.0,
+    "unit": "Series D",
+    "raw_text": "Series D",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRnpqQW56a0lwYnJta1ZJc3AyN2E3YTlLeGw2YnFhaXprWXEyeWpPd3lJemRoQ2RiMnJhQVYwSzhzekNSM0lpX09VLUJiVk55a2k1c1ZCQUR4Ri13c19RYnhQSy1iMzVmRTF0NFhKTVNvVE9iQmRPYU9Obl9qZjZ3Uk04OGVSamxkUDVmUDJRWFNYckNRR2NVWnZVRGtWWmNad1M3aHNSUXhTN2JPZUl3eWk0bkJsbkhTLWZCLTladWV3MjlBVzN2YTFiaVEybkFB?oc=5",
+      "locator": null,
+      "published_at": "2026-07-21"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_86ac6d09bd",
+    "company_id": "fireworks-ai",
+    "metric": "round_amount",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "$1.5 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRnpqQW56a0lwYnJta1ZJc3AyN2E3YTlLeGw2YnFhaXprWXEyeWpPd3lJemRoQ2RiMnJhQVYwSzhzekNSM0lpX09VLUJiVk55a2k1c1ZCQUR4Ri13c19RYnhQSy1iMzVmRTF0NFhKTVNvVE9iQmRPYU9Obl9qZjZ3Uk04OGVSamxkUDVmUDJRWFNYckNRR2NVWnZVRGtWWmNad1M3aHNSUXhTN2JPZUl3eWk0bkJsbkhTLWZCLTladWV3MjlBVzN2YTFiaVEybkFB?oc=5",
+      "locator": null,
+      "published_at": "2026-07-21"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_919d83da95",
+    "company_id": "fireworks-ai",
+    "metric": "valuation",
+    "value": 17500000000.0,
+    "unit": "USD",
+    "raw_text": "$17.5 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRnpqQW56a0lwYnJta1ZJc3AyN2E3YTlLeGw2YnFhaXprWXEyeWpPd3lJemRoQ2RiMnJhQVYwSzhzekNSM0lpX09VLUJiVk55a2k1c1ZCQUR4Ri13c19RYnhQSy1iMzVmRTF0NFhKTVNvVE9iQmRPYU9Obl9qZjZ3Uk04OGVSamxkUDVmUDJRWFNYckNRR2NVWnZVRGtWWmNad1M3aHNSUXhTN2JPZUl3eWk0bkJsbkhTLWZCLTladWV3MjlBVzN2YTFiaVEybkFB?oc=5",
+      "locator": null,
+      "published_at": "2026-07-21"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_6f4d8eea6c",
     "company_id": "fireworks-ai",
     "metric": "valuation",
@@ -337,78 +409,6 @@
     "extracted_at": "2026-09-16T10:35:49.404557",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_0d34bd659b",
-    "company_id": "fireworks-ai",
-    "metric": "round_amount",
-    "value": 1500000000.0,
-    "unit": "USD",
-    "raw_text": "closes $1.5 billion Series D",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "startupfortune.com",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRnpqQW56a0lwYnJta1ZJc3AyN2E3YTlLeGw2YnFhaXprWXEyeWpPd3lJemRoQ2RiMnJhQVYwSzhzekNSM0lpX09VLUJiVk55a2k1c1ZCQUR4Ri13c19RYnhQSy1iMzVmRTF0NFhKTVNvVE9iQmRPYU9Obl9qZjZ3Uk04OGVSamxkUDVmUDJRWFNYckNRR2NVWnZVRGtWWmNad1M3aHNSUXhTN2JPZUl3eWk0bkJsbkhTLWZCLTladWV3MjlBVzN2YTFiaVEybkFB?oc=5",
-      "locator": null,
-      "published_at": "2026-07-21"
-    },
-    "extracted_at": "2026-09-15T10:11:13.514998",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_d6cae8107e",
-    "company_id": "fireworks-ai",
-    "metric": "latest_round",
-    "value": 4.0,
-    "unit": "integer",
-    "raw_text": "Series D",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "startupfortune.com",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRnpqQW56a0lwYnJta1ZJc3AyN2E3YTlLeGw2YnFhaXprWXEyeWpPd3lJemRoQ2RiMnJhQVYwSzhzekNSM0lpX09VLUJiVk55a2k1c1ZCQUR4Ri13c19RYnhQSy1iMzVmRTF0NFhKTVNvVE9iQmRPYU9Obl9qZjZ3Uk04OGVSamxkUDVmUDJRWFNYckNRR2NVWnZVRGtWWmNad1M3aHNSUXhTN2JPZUl3eWk0bkJsbkhTLWZCLTladWV3MjlBVzN2YTFiaVEybkFB?oc=5",
-      "locator": null,
-      "published_at": "2026-07-21"
-    },
-    "extracted_at": "2026-09-15T10:11:13.514998",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_5cbad608e9",
-    "company_id": "fireworks-ai",
-    "metric": "valuation",
-    "value": 17500000000.0,
-    "unit": "USD",
-    "raw_text": "$17.5 billion valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "startupfortune.com",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRnpqQW56a0lwYnJta1ZJc3AyN2E3YTlLeGw2YnFhaXprWXEyeWpPd3lJemRoQ2RiMnJhQVYwSzhzekNSM0lpX09VLUJiVk55a2k1c1ZCQUR4Ri13c19RYnhQSy1iMzVmRTF0NFhKTVNvVE9iQmRPYU9Obl9qZjZ3Uk04OGVSamxkUDVmUDJRWFNYckNRR2NVWnZVRGtWWmNad1M3aHNSUXhTN2JPZUl3eWk0bkJsbkhTLWZCLTladWV3MjlBVzN2YTFiaVEybkFB?oc=5",
-      "locator": null,
-      "published_at": "2026-07-21"
-    },
-    "extracted_at": "2026-09-15T10:11:13.514998",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
     "derivation": null
   },
   {

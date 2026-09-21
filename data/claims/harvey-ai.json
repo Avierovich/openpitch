@@ -96,30 +96,6 @@
     "derivation": null
   },
   {
-    "id": "clm_1a3e533faf",
-    "company_id": "harvey-ai",
-    "metric": "total_funding",
-    "value": 500000000.0,
-    "unit": null,
-    "raw_text": "over $500M in funding",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "founder"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "No Priors",
-      "url": null,
-      "locator": null,
-      "published_at": "2025-02-14"
-    },
-    "extracted_at": "2026-09-20T09:44:05.979383",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.6,
-    "derivation": null
-  },
-  {
     "id": "clm_ca0a5003d1",
     "company_id": "harvey-ai",
     "metric": "total_funding",
@@ -366,6 +342,32 @@
     "derivation": null
   },
   {
+    "id": "clm_1a3e533faf",
+    "company_id": "harvey-ai",
+    "metric": "total_funding",
+    "value": 500000000.0,
+    "unit": "usd",
+    "raw_text": "over $500M in funding",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "No Priors",
+      "url": null,
+      "locator": null,
+      "published_at": "2025-02-14"
+    },
+    "extracted_at": "2026-09-21T10:38:28.440880",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.378,
+    "derivation": null
+  },
+  {
     "id": "drv_019b447109",
     "company_id": "harvey-ai",
     "metric": "revenue_multiple",
@@ -384,7 +386,7 @@
       "locator": null,
       "published_at": "2026-07-03"
     },
-    "extracted_at": "2026-09-20T09:44:05.979383",
+    "extracted_at": "2026-09-21T10:38:28.440880",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1294,
     "derivation": {

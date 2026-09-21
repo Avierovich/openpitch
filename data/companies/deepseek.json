@@ -12,45 +12,6 @@
   "vc_attention_score": 90.6,
   "universe_rank": 7,
   "metrics": {
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 7372718491.94,
-      "unit": "USD",
-      "range": {
-        "low": 7000000000.0,
-        "high": 7400000000.0
-      },
-      "as_of": "2026-09-15",
-      "estimate_type": "consensus",
-      "confidence": 0.97,
-      "supporting_claims": [
-        "clm_a2d67aac2b",
-        "clm_745fbaca19",
-        "clm_745fbaca19",
-        "clm_fdd0ff6a90",
-        "clm_6340d66fb1",
-        "clm_64e3015da9",
-        "clm_8bb2ac6729",
-        "clm_8bb2ac6729",
-        "clm_695489355c",
-        "clm_f900cce363",
-        "clm_f3fdb028b6",
-        "clm_29b95f5000",
-        "clm_11c4537a64",
-        "clm_98973fd778",
-        "clm_f3a3dd444b"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 7372718491.94,
-        "change_pct": -0.0,
-        "since": "2026-09-15"
-      },
-      "history_ref": "history/deepseek/total_funding.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "valuation": {
       "metric": "valuation",
       "value": 72408881869.47,
@@ -87,6 +48,45 @@
       },
       "history_ref": "history/deepseek/valuation.jsonl",
       "unconfirmed": true,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 7372718491.94,
+      "unit": "USD",
+      "range": {
+        "low": 7000000000.0,
+        "high": 7400000000.0
+      },
+      "as_of": "2026-09-15",
+      "estimate_type": "consensus",
+      "confidence": 0.97,
+      "supporting_claims": [
+        "clm_a2d67aac2b",
+        "clm_745fbaca19",
+        "clm_745fbaca19",
+        "clm_695489355c",
+        "clm_fdd0ff6a90",
+        "clm_6340d66fb1",
+        "clm_64e3015da9",
+        "clm_8bb2ac6729",
+        "clm_8bb2ac6729",
+        "clm_f900cce363",
+        "clm_f3fdb028b6",
+        "clm_29b95f5000",
+        "clm_11c4537a64",
+        "clm_98973fd778",
+        "clm_f3a3dd444b"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 7372718491.94,
+        "change_pct": -0.0,
+        "since": "2026-09-15"
+      },
+      "history_ref": "history/deepseek/total_funding.jsonl",
+      "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     },
@@ -128,5 +128,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-20"
+  "last_updated": "2026-09-21"
 }

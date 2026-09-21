@@ -14,14 +14,15 @@
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 24070505356.6,
+      "value": 23980639228.61,
       "unit": "USD",
       "range": null,
       "as_of": "2026-05-04",
       "estimate_type": "consensus",
-      "confidence": 0.875,
+      "confidence": 0.895,
       "supporting_claims": [
         "clm_847af30863",
+        "clm_3ace6daca9",
         "clm_a5f578c6df",
         "clm_38c2655cb1",
         "clm_6c124e62ef",
@@ -34,32 +35,10 @@
       "contradiction": false,
       "delta": {
         "previous": 24070505356.6,
-        "change_pct": 0.0,
+        "change_pct": -0.4,
         "since": "2026-05-04"
       },
       "history_ref": "history/cerebras/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 1000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-02-05",
-      "estimate_type": "reported",
-      "confidence": 0.275,
-      "supporting_claims": [
-        "clm_56476fa9d4"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-02-05"
-      },
-      "history_ref": "history/cerebras/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -71,7 +50,7 @@
       "range": null,
       "as_of": "2026-02-05",
       "estimate_type": "consensus",
-      "confidence": 0.783,
+      "confidence": 0.782,
       "supporting_claims": [
         "clm_440804d702",
         "clm_93a214a35d",
@@ -92,6 +71,28 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 1000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-02-05",
+      "estimate_type": "reported",
+      "confidence": 0.274,
+      "supporting_claims": [
+        "clm_56476fa9d4"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-02-05"
+      },
+      "history_ref": "history/cerebras/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "arr": {
       "metric": "arr",
       "value": 200003333.33,
@@ -99,7 +100,7 @@
       "range": null,
       "as_of": "2026-08-12",
       "estimate_type": "consensus",
-      "confidence": 0.612,
+      "confidence": 0.609,
       "supporting_claims": [
         "clm_e32790969d",
         "clm_e794c66901",
@@ -123,7 +124,7 @@
       "range": null,
       "as_of": "2026-02-05",
       "estimate_type": "consensus",
-      "confidence": 0.491,
+      "confidence": 0.49,
       "supporting_claims": [
         "clm_f5a8ba9331",
         "clm_1fede69526",
@@ -147,7 +148,7 @@
       "range": null,
       "as_of": "2026-08-14",
       "estimate_type": "reported",
-      "confidence": 0.276,
+      "confidence": 0.273,
       "supporting_claims": [
         "clm_feefdc3941"
       ],
@@ -169,7 +170,7 @@
       "range": null,
       "as_of": "2026-08-14",
       "estimate_type": "reported",
-      "confidence": 0.472,
+      "confidence": 0.469,
       "supporting_claims": [
         "clm_a217a997b0",
         "clm_5498625f57"
@@ -186,5 +187,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-20"
+  "last_updated": "2026-09-21"
 }

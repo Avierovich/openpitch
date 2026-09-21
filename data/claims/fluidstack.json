@@ -559,32 +559,6 @@
     "derivation": null
   },
   {
-    "id": "clm_02bccd311f",
-    "company_id": "fluidstack",
-    "metric": "valuation",
-    "value": 18000000000.0,
-    "unit": "USD",
-    "raw_text": "$18 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY0N1S3BBNFpDXzJ6NDg1S1NxSC1Oc1hKUGpBZDBtV29zTjhJS2U4VkRsMEUyUWhGVlMydloyWElXN3VUZlJWTm1DR2s1YnNzd3JTaFB0a1gxbWVXSTVJR1NHMEpINFdGdEIwNXJubko0dm9IcUM3VFVqckFrbWJYeDg5WU0tQlZ4cEZrdHJwcW1ZR3NqbmRHVXZuQ2hXdU51OTJScGFPV2x6MlRkeU40Z291bGg?oc=5",
-      "locator": null,
-      "published_at": "2026-04-14"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_c4376698e6",
     "company_id": "fluidstack",
     "metric": "valuation",
@@ -630,6 +604,138 @@
     "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_02bccd311f",
+    "company_id": "fluidstack",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": "USD",
+    "raw_text": "$18 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY0N1S3BBNFpDXzJ6NDg1S1NxSC1Oc1hKUGpBZDBtV29zTjhJS2U4VkRsMEUyUWhGVlMydloyWElXN3VUZlJWTm1DR2s1YnNzd3JTaFB0a1gxbWVXSTVJR1NHMEpINFdGdEIwNXJubko0dm9IcUM3VFVqckFrbWJYeDg5WU0tQlZ4cEZrdHJwcW1ZR3NqbmRHVXZuQ2hXdU51OTJScGFPV2x6MlRkeU40Z291bGg?oc=5",
+      "locator": null,
+      "published_at": "2026-04-14"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_10b8af162f",
+    "company_id": "fluidstack",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": "USD",
+    "raw_text": "to raise $1B at $18B valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techfundingnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9KaUFGTlJ5bER0aWlRU3JIekttOERtTDBRaVVkOV9vaUFPM1ljVlhBakNoUGU3bXJlYnVuWHhnY2NldG5GOWllNmZHOUlqNEF5ZS1iWkxKX1l5UUxqb1RSdWdCTGItWUFqRnVhb3VpNk05RnZEWnZNNzRB?oc=5",
+      "locator": null,
+      "published_at": "2026-04-15"
+    },
+    "extracted_at": "2026-09-21T10:38:28.440880",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_b09e3e4a86",
+    "company_id": "fluidstack",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "to raise $1B",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techfundingnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9KaUFGTlJ5bER0aWlRU3JIekttOERtTDBRaVVkOV9vaUFPM1ljVlhBakNoUGU3bXJlYnVuWHhnY2NldG5GOWllNmZHOUlqNEF5ZS1iWkxKX1l5UUxqb1RSdWdCTGItWUFqRnVhb3VpNk05RnZEWnZNNzRB?oc=5",
+      "locator": null,
+      "published_at": "2026-04-15"
+    },
+    "extracted_at": "2026-09-21T10:38:28.440880",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_ad82381d0e",
+    "company_id": "fluidstack",
+    "metric": "valuation",
+    "value": 7000000000.0,
+    "unit": "USD",
+    "raw_text": "$700M push to $7B valuation",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techfundingnews.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTUNha2hqWGJZaU1nLWFpaHlmc0RwckZhRE1oS0ZzWFdqX0JYOWR4X2dTLW1ncEVoYVI2Qk94aGozLS1taHExenVXUXh1dmxrYzNVWlI0NGVheERYemhXYVIxZWZyVncwbnktVmt0OVZ3ZEg1RU9vY1Uwa3ZLcE9leDVFNkpDM2FwTEUxSUs2TDJ6TzN4ZGxmQUNtLUtyZWkzQ2cyaFJTeG1lVmtiY25tLQ?oc=5",
+      "locator": null,
+      "published_at": "2025-12-05"
+    },
+    "extracted_at": "2026-09-21T10:38:28.440880",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3675,
+    "derivation": null
+  },
+  {
+    "id": "clm_b4a2739eaf",
+    "company_id": "fluidstack",
+    "metric": "round_amount",
+    "value": 700000000.0,
+    "unit": "USD",
+    "raw_text": "$700M push",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techfundingnews.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTUNha2hqWGJZaU1nLWFpaHlmc0RwckZhRE1oS0ZzWFdqX0JYOWR4X2dTLW1ncEVoYVI2Qk94aGozLS1taHExenVXUXh1dmxrYzNVWlI0NGVheERYemhXYVIxZWZyVncwbnktVmt0OVZ3ZEg1RU9vY1Uwa3ZLcE9leDVFNkpDM2FwTEUxSUs2TDJ6TzN4ZGxmQUNtLUtyZWkzQ2cyaFJTeG1lVmtiY25tLQ?oc=5",
+      "locator": null,
+      "published_at": "2025-12-05"
+    },
+    "extracted_at": "2026-09-21T10:38:28.440880",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3675,
     "derivation": null
   },
   {

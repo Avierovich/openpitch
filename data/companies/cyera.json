@@ -24,14 +24,14 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
-        "clm_17cb71f8b1",
+        "clm_197972eb0f",
         "clm_c0d0f47aad",
         "clm_da5ca093e9",
+        "clm_f4dded4b1c",
+        "clm_17cb71f8b1",
         "clm_4a49d3fffc",
         "clm_58747ae3d4",
         "clm_30e02b8bb3",
-        "clm_197972eb0f",
-        "clm_f4dded4b1c",
         "clm_cfacce7854",
         "clm_f7d14e5952",
         "clm_928753a666",
@@ -66,10 +66,10 @@
       "range": null,
       "as_of": "2026-06-02",
       "estimate_type": "consensus",
-      "confidence": 0.316,
+      "confidence": 0.314,
       "supporting_claims": [
-        "clm_bbdf879ccd",
         "clm_d35e24cf73",
+        "clm_bbdf879ccd",
         "clm_6af31875b8"
       ],
       "contradiction": false,
@@ -80,32 +80,6 @@
       },
       "history_ref": "history/cyera/revenue_multiple.jsonl",
       "unconfirmed": true,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 600000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 300000000.0,
-        "high": 600000000.0
-      },
-      "as_of": "2026-06-10",
-      "estimate_type": "consensus",
-      "confidence": 0.546,
-      "supporting_claims": [
-        "clm_706a506c16",
-        "clm_9c8aaebae0"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 600000000.0,
-        "change_pct": 0.0,
-        "since": "2026-06-10"
-      },
-      "history_ref": "history/cyera/total_funding.jsonl",
-      "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     },
@@ -141,10 +115,36 @@
       "contradiction": false,
       "delta": {
         "previous": 600000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-06-11"
       },
       "history_ref": "history/cyera/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 600000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 300000000.0,
+        "high": 600000000.0
+      },
+      "as_of": "2026-06-10",
+      "estimate_type": "consensus",
+      "confidence": 0.545,
+      "supporting_claims": [
+        "clm_706a506c16",
+        "clm_9c8aaebae0"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 600000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-10"
+      },
+      "history_ref": "history/cyera/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -159,7 +159,7 @@
       },
       "as_of": "2026-06-10",
       "estimate_type": "consensus",
-      "confidence": 0.74,
+      "confidence": 0.738,
       "supporting_claims": [
         "clm_4d823ad4b9",
         "clm_e8e197a9b6",
@@ -168,7 +168,7 @@
       "contradiction": true,
       "delta": {
         "previous": 7.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-06-10"
       },
       "history_ref": "history/cyera/latest_round.jsonl",
@@ -183,7 +183,7 @@
       "range": null,
       "as_of": "2025-05-09",
       "estimate_type": "reported",
-      "confidence": 0.038,
+      "confidence": 0.037,
       "supporting_claims": [
         "clm_4ac8eef288"
       ],
@@ -205,7 +205,7 @@
       "range": null,
       "as_of": "2026-06-02",
       "estimate_type": "reported",
-      "confidence": 0.09,
+      "confidence": 0.089,
       "supporting_claims": [
         "clm_5c256d86b4"
       ],
@@ -221,5 +221,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-20"
+  "last_updated": "2026-09-21"
 }

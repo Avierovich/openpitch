@@ -1,29 +1,5 @@
 [
   {
-    "id": "clm_a704835097",
-    "company_id": "nscale",
-    "metric": "valuation",
-    "value": 14600000000.0,
-    "unit": null,
-    "raw_text": "valued at $14.6B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Virginia Business",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBNdEU3T0xDMHNEd19uVUVwRHNmUG1uVElGVWxlLWJjY20xODJpSWNpMGd5YVJBenlDdVpfRUhwcURUTXYzLVBva3A4cEQxdkhwakE1dkstVUhVVi1SYk8tcWo0MVlFb1dzT2ZyWWlJR1dEUQ?oc=5",
-      "locator": null,
-      "published_at": "2026-03-09"
-    },
-    "extracted_at": "2026-09-04T09:41:05.539009",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_69d859ab50",
     "company_id": "nscale",
     "metric": "arr",
@@ -47,6 +23,32 @@
     "extracted_at": "2026-09-16T10:35:49.404557",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.3675,
+    "derivation": null
+  },
+  {
+    "id": "clm_a773856afb",
+    "company_id": "nscale",
+    "metric": "arr",
+    "value": 103000000000.0,
+    "unit": "USD",
+    "raw_text": "Nscale doubles contracted revenue to $103 billion after Anthropic win",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Investing.com Nigeria",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZkVXSW9na2t0Y2ZOX291LUhrT1o3bzlsVDRzT0VqTGxIR3hqNWZCNklLYktOcDFRWlFQX0lQNDItdmw0YXFZR3ZsOUFBSnhVUkl5ZE94bW54NV9sNExRTFhRRTI3Y1p5eDVLdUF6LUNfUVVES3pLMjE5WHQ2S1FiMVVpOU9sRDBWRFVFY2JJeEt6RW8waWdrMm5PaHlJS2JHNU5MNFJFYmNZSjVDdVR0aTNvWTBwcEVCLWhFZ3Q1LTY0SUNrOXZyRl8wQi0?oc=5",
+      "locator": null,
+      "published_at": "2026-09-02"
+    },
+    "extracted_at": "2026-09-20T09:44:05.979383",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -98,32 +100,6 @@
     "derivation": null
   },
   {
-    "id": "clm_a773856afb",
-    "company_id": "nscale",
-    "metric": "arr",
-    "value": 103000000000.0,
-    "unit": "USD",
-    "raw_text": "Nscale doubles contracted revenue to $103 billion after Anthropic win",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Investing.com Nigeria",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZkVXSW9na2t0Y2ZOX291LUhrT1o3bzlsVDRzT0VqTGxIR3hqNWZCNklLYktOcDFRWlFQX0lQNDItdmw0YXFZR3ZsOUFBSnhVUkl5ZE94bW54NV9sNExRTFhRRTI3Y1p5eDVLdUF6LUNfUVVES3pLMjE5WHQ2S1FiMVVpOU9sRDBWRFVFY2JJeEt6RW8waWdrMm5PaHlJS2JHNU5MNFJFYmNZSjVDdVR0aTNvWTBwcEVCLWhFZ3Q1LTY0SUNrOXZyRl8wQi0?oc=5",
-      "locator": null,
-      "published_at": "2026-09-02"
-    },
-    "extracted_at": "2026-09-20T09:44:05.979383",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
     "id": "clm_c26f5c3471",
     "company_id": "nscale",
     "metric": "round_amount",
@@ -148,6 +124,84 @@
     "extracted_at": "2026-09-20T09:44:05.979383",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_8129909a1a",
+    "company_id": "nscale",
+    "metric": "valuation",
+    "value": 35000000000.0,
+    "unit": "USD",
+    "raw_text": "$35bn valuation target",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Computing UK",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUlRZNFZZQy1LYzRhUlQxMldOeUxzUVRuTGtielRoQnVlYVBkQUp6WFhCNmx2VmVacUcyT09HdER1V3ZlbWo4RmlMMkRudmVCVEF2d2ExeVNEcHcyOHJXOGl4LWJMVzFaOU5NVzd1djlxNmw5bnBQUVZmc1ZKQ0hETjZDU1hKNlZjWjc2LVhmUEJjTnRQX2NB?oc=5",
+      "locator": null,
+      "published_at": "2026-09-21"
+    },
+    "extracted_at": "2026-09-21T10:38:28.440880",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_d6354f274d",
+    "company_id": "nscale",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "$30B IPO valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV2UxWFZEZllVZDMwSjFvS1FpUXZSc19zYXU0MVNybGJZdUlFNXN2NkItNllpZUNGVkxwSzJLa1RqTVpraFdqbDhBY0gwX3E4T2FEV2UyT2M3VXItLXB0VWVZeldka25NVlVuZkhjb2VlQ0oxOTk2V3d1ZmpaWjZNWg?oc=5",
+      "locator": null,
+      "published_at": "2026-09-21"
+    },
+    "extracted_at": "2026-09-21T10:38:28.440880",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_a704835097",
+    "company_id": "nscale",
+    "metric": "valuation",
+    "value": 14600000000.0,
+    "unit": null,
+    "raw_text": "valued at $14.6B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Virginia Business",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBNdEU3T0xDMHNEd19uVUVwRHNmUG1uVElGVWxlLWJjY20xODJpSWNpMGd5YVJBenlDdVpfRUhwcURUTXYzLVBva3A4cEQxdkhwakE1dkstVUhVVi1SYk8tcWo0MVlFb1dzT2ZyWWlJR1dEUQ?oc=5",
+      "locator": null,
+      "published_at": "2026-03-09"
+    },
+    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -1285,7 +1339,7 @@
       "locator": null,
       "published_at": "2026-09-02"
     },
-    "extracted_at": "2026-09-20T09:44:05.979383",
+    "extracted_at": "2026-09-21T10:38:28.440880",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {

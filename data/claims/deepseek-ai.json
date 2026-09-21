@@ -54,14 +54,63 @@
     "derivation": null
   },
   {
-    "id": "clm_8ec8e30863",
+    "id": "clm_38e7fdf1f9",
+    "company_id": "deepseek-ai",
+    "metric": "total_funding",
+    "value": 7000000000.0,
+    "unit": "USD",
+    "raw_text": "DeepSeek Raises More Than $7 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "citybiz.co",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVXBOM0hNQmc1dW05eDVjT21WbXdoMlFwcGRjMHllOTBtQWl6MUtWX2FkdDNtanNQTWxCM1lIaks4LUpFNkZiQkRHdGVSS3hXN1BnUGp6UURxUkdRMUdaU0JkNldKQ09HZFV2ZGUyOFltZERWOFZzVVcwUU92NDJQU2VhMmxLT2dXX3lKeF9fVVUxNHN6RlhyRTNsdVlHdjN6OFdYSE92V2w?oc=5",
+      "locator": null,
+      "published_at": "2026-06-16"
+    },
+    "extracted_at": "2026-09-12T09:20:27.932122",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_de4463625d",
+    "company_id": "deepseek-ai",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "Valuation Surpasses $50 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "citybiz.co",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVXBOM0hNQmc1dW05eDVjT21WbXdoMlFwcGRjMHllOTBtQWl6MUtWX2FkdDNtanNQTWxCM1lIaks4LUpFNkZiQkRHdGVSS3hXN1BnUGp6UURxUkdRMUdaU0JkNldKQ09HZFV2ZGUyOFltZERWOFZzVVcwUU92NDJQU2VhMmxLT2dXX3lKeF9fVVUxNHN6RlhyRTNsdVlHdjN6OFdYSE92V2w?oc=5",
+      "locator": null,
+      "published_at": "2026-06-16"
+    },
+    "extracted_at": "2026-09-12T09:20:27.932122",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_7c98825f1c",
     "company_id": "deepseek-ai",
     "metric": "valuation",
     "value": 74000000000.0,
-    "unit": "USD",
+    "unit": null,
     "raw_text": "$74 Billion Valuation",
     "qualifiers": [
-      "unconfirmed"
+      "unconfirmed",
+      "forward_looking"
     ],
     "speaker": {
       "name": null,
@@ -69,14 +118,14 @@
     },
     "source": {
       "type": "news",
-      "name": "US News Money",
+      "name": "U.S. News Money",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOYk9waERTeGVwdUc3aWxEc3ZmVHZYa1UyMkNxY1dPaTEyX3VyaGNpMEJqRDZrcW1xUkJiSS1taXNpdEFXODBWNTMyNnpkS0c3Qi1nSkNKZTFIRG12a1pCMVlVWnFtWE1RLTR1YnA1d2djVEF5SnVPU1BYWmVyZUwxSUNKUER3UnI1N3hZY1dWYTNweFVKSVhVMGpndWVIMTZPdmwyNVkzN2JTNEFTTzRpbV9mN1J0eU1jeUg0S1BPUmE0bUFrRmtnX1lySUI1M3FMZmduenYyNFdmTWdxb3FzOW5IMlQ4djh3Zk1r?oc=5",
       "locator": null,
       "published_at": "2026-07-15"
     },
-    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -102,87 +151,6 @@
       "published_at": "2026-07-14"
     },
     "extracted_at": "2026-09-07T10:15:07.048991",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_8da62c6e53",
-    "company_id": "deepseek-ai",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": null,
-    "raw_text": "valued at more than $50 bn",
-    "qualifiers": [
-      "unconfirmed",
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Standard (HK)",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMXlId0czTVZzQzU1XzNTcmpYek15NDkwTENpdkQtRzM5UWVISDBOWjIyVmhrRnc3c1ktQVJIcllHc2t4c295T0dsMGVLYUxGN05sdUlaUF9GdmcwbWl4VEwwZUFFYVhLQlEtTW4zM3FJNHpiSGEwVjVsX2JhUUVTbnBaOFhIbUZBcFZJTmJiQ2pIbjFtTXZXWHdUR2lPcVZnMjBnSTdxTmdDNzZhZXhuU3N1b3M?oc=5",
-      "locator": null,
-      "published_at": "2026-06-17"
-    },
-    "extracted_at": "2026-09-19T09:29:15.949394",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2835,
-    "derivation": null
-  },
-  {
-    "id": "clm_9531c75902",
-    "company_id": "deepseek-ai",
-    "metric": "valuation",
-    "value": 74000000000.0,
-    "unit": "USD",
-    "raw_text": "DeepSeek to raise fresh capital at $74 billion valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVDlhV1Zhbi1ieWRUeEJIa3ZIbTh3SF9HanFHeWEwYU05aU9hbUlDTUlCVDlPTjY2TnNtWE0zRGZWX2l6NGhQZnpOZTdGY2dlaWFyN1NFWVJfbTZ1QXdhcUp5ajhEaTZ6SlFwZVlFY2VlS25lb011dHpUQkVHd2lITGg4NlNxMTZNY3NfbVJkYzVrY1puTlRBSkNuNlREYldEVjFQMEUwZjRVSHNsRFRNZ0ozRklGdzZRQ2VnQmtDQi1KNTdzc1NWWWlR?oc=5",
-      "locator": null,
-      "published_at": "2026-07-18"
-    },
-    "extracted_at": "2026-09-07T10:15:07.048991",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_f531bdf667",
-    "company_id": "deepseek-ai",
-    "metric": "valuation",
-    "value": 74000000000.0,
-    "unit": "USD",
-    "raw_text": "$74 Billion Valuation",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "NDTV Profit",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWGR6OEIyTU5tVWMwSGtETHB2WFNPbzk5WC02WmV3MHNTRXl4TUtQQk44SllKSnRoM0IyR3VZbi1NQ0tqZ2NVUGNSajQwTFd4U1pLVjV6MURjQjJVek82TEU1UElJeng4akVzX2dLVkF6MG9WV3NSZy1XcXJxY0pRRWRqbWd3NXFrejh5MEk3MWo4SXFfWmw2Q0R1S3pGZ0g0OGwzdzAtbWZweVl0cU5BUGR5RHdJLU9ER0lUZmcxX2lFcWxDdjlrS3B30gHSAUFVX3lxTE1EWlU1YlhaUlRKenZBak04WTdXNXlNWFhTRHU4bGxYekl1MEJFcUxhVzJuQS05X0thNVNuZ0gwX2VTa2F0d0hKNlg5LXBqUEFXRGhFWDIzdDhMRXBGeHZaV3BzNEFnMG54cGhWS2xmTnZIanlDY242a1ZoMnkxQTNWU0ZEamR2STUzWXZPdkppZ3JCdDN4YjEwS1AtZk5XNmowSWZiWk90UFNMeVRaa3o4TDJZY2U0LThreUNENEJlWWc4cjdPaWVnM21oZEdJX1M1UQ?oc=5",
-      "locator": null,
-      "published_at": "2026-08-13"
-    },
-    "extracted_at": "2026-09-15T10:11:13.514998",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
     "derivation": null
@@ -235,6 +203,190 @@
     "extracted_at": "2026-09-20T09:44:05.979383",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_9531c75902",
+    "company_id": "deepseek-ai",
+    "metric": "valuation",
+    "value": 74000000000.0,
+    "unit": "USD",
+    "raw_text": "DeepSeek to raise fresh capital at $74 billion valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVDlhV1Zhbi1ieWRUeEJIa3ZIbTh3SF9HanFHeWEwYU05aU9hbUlDTUlCVDlPTjY2TnNtWE0zRGZWX2l6NGhQZnpOZTdGY2dlaWFyN1NFWVJfbTZ1QXdhcUp5ajhEaTZ6SlFwZVlFY2VlS25lb011dHpUQkVHd2lITGg4NlNxMTZNY3NfbVJkYzVrY1puTlRBSkNuNlREYldEVjFQMEUwZjRVSHNsRFRNZ0ozRklGdzZRQ2VnQmtDQi1KNTdzc1NWWWlR?oc=5",
+      "locator": null,
+      "published_at": "2026-07-18"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_d76bc75fa5",
+    "company_id": "deepseek-ai",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": "USD",
+    "raw_text": "in talks to invest in DeepSeek at over $20 billion valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "ET Enterprise AI",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTzRPWTVyNkxDTmU4a2sxZ3cycUZSLWNfMDdJdUhSU251R2pwTlJkcGJUem83SHV2ZFhERVFieERyeVJBYmt5dlBEbFJPR0JGWm0wSmZvTGQ3NWxmWTlIczg4bFl5ckZOT1dxZVBZLVZMSzRnZm5ROEdxMll2RjRWM1MxUmtvcmZ1VUgzWVREM2RLVGJJX3NYVjVudFpReDNFNTV2MmZYNkZES096Z2pwWFV4RktfcHZKdXg3LUpIYm44RGdCdWJNRjFCR3BKNmxRWmRvTmlKLUl5a2xTQkZr0gHkAUFVX3lxTE93SGdhQzFhUFhXQ0RfLU5JTktLZlpsZkhDMVRuSzdBZUVWSmZwaHEwM1ZMLWpXRDlLdUtBVDVBdUxsYy1PSTR6RWxNUVJBb0pweFFjLU1sTjVoaTIwcHM0Nk5pR3owbFhJQ1FxS0VMOGN5OTdFdjBlbjlxaVlNY2JrSjNMX0pPSTB4VXVIY1g3dkhYSUZkcXh1eVZFTlRHbDd2RnZTUTRLbDFjVFQzQXBMdzVROVhkbmdiWnpXRmFPYjNhRmZFano2cXFGendkU3B2Wld6T3g2aWhsN29JR3k4blRrdw?oc=5",
+      "locator": null,
+      "published_at": "2026-04-23"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_f531bdf667",
+    "company_id": "deepseek-ai",
+    "metric": "valuation",
+    "value": 74000000000.0,
+    "unit": "USD",
+    "raw_text": "$74 Billion Valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWGR6OEIyTU5tVWMwSGtETHB2WFNPbzk5WC02WmV3MHNTRXl4TUtQQk44SllKSnRoM0IyR3VZbi1NQ0tqZ2NVUGNSajQwTFd4U1pLVjV6MURjQjJVek82TEU1UElJeng4akVzX2dLVkF6MG9WV3NSZy1XcXJxY0pRRWRqbWd3NXFrejh5MEk3MWo4SXFfWmw2Q0R1S3pGZ0g0OGwzdzAtbWZweVl0cU5BUGR5RHdJLU9ER0lUZmcxX2lFcWxDdjlrS3B30gHSAUFVX3lxTE1EWlU1YlhaUlRKenZBak04WTdXNXlNWFhTRHU4bGxYekl1MEJFcUxhVzJuQS05X0thNVNuZ0gwX2VTa2F0d0hKNlg5LXBqUEFXRGhFWDIzdDhMRXBGeHZaV3BzNEFnMG54cGhWS2xmTnZIanlDY242a1ZoMnkxQTNWU0ZEamR2STUzWXZPdkppZ3JCdDN4YjEwS1AtZk5XNmowSWZiWk90UFNMeVRaa3o4TDJZY2U0LThreUNENEJlWWc4cjdPaWVnM21oZEdJX1M1UQ?oc=5",
+      "locator": null,
+      "published_at": "2026-08-13"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_fa1ea6f46d",
+    "company_id": "deepseek-ai",
+    "metric": "total_funding",
+    "value": 7400000000.0,
+    "unit": "usd",
+    "raw_text": "DeepSeek raises $7.4bn",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Silicon Republic",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbXdhTThRWEpuOW5ITTNRMjZVVWVBM0Z0UW5SLTBMVGVpWE5lX2Vpekdtc0owRVl2cE12ejRHbDQwekFRQVBjLTJKU3gyUmh2OVBqUWh4WTRjdTBnX0RsR2o5NGMzcEJHaXF1RFFQS2p0M19rbWpmcjZtVE1mOTl0QzdBQTRxNHJ6REZ5Qkdkdl9LQkRWX29CRjlBWkhPSV9FYWdJ?oc=5",
+      "locator": null,
+      "published_at": "2026-06-16"
+    },
+    "extracted_at": "2026-09-21T10:38:28.440880",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_c6db727dfe",
+    "company_id": "deepseek-ai",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": "usd",
+    "raw_text": "$50bn-plus valuation",
+    "qualifiers": [
+      "forward_looking",
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Silicon Republic",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbXdhTThRWEpuOW5ITTNRMjZVVWVBM0Z0UW5SLTBMVGVpWE5lX2Vpekdtc0owRVl2cE12ejRHbDQwekFRQVBjLTJKU3gyUmh2OVBqUWh4WTRjdTBnX0RsR2o5NGMzcEJHaXF1RFFQS2p0M19rbWpmcjZtVE1mOTl0QzdBQTRxNHJ6REZ5Qkdkdl9LQkRWX29CRjlBWkhPSV9FYWdJ?oc=5",
+      "locator": null,
+      "published_at": "2026-06-16"
+    },
+    "extracted_at": "2026-09-21T10:38:28.440880",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3307,
+    "derivation": null
+  },
+  {
+    "id": "clm_8ec8e30863",
+    "company_id": "deepseek-ai",
+    "metric": "valuation",
+    "value": 74000000000.0,
+    "unit": "USD",
+    "raw_text": "$74 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "US News Money",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOYk9waERTeGVwdUc3aWxEc3ZmVHZYa1UyMkNxY1dPaTEyX3VyaGNpMEJqRDZrcW1xUkJiSS1taXNpdEFXODBWNTMyNnpkS0c3Qi1nSkNKZTFIRG12a1pCMVlVWnFtWE1RLTR1YnA1d2djVEF5SnVPU1BYWmVyZUwxSUNKUER3UnI1N3hZY1dWYTNweFVKSVhVMGpndWVIMTZPdmwyNVkzN2JTNEFTTzRpbV9mN1J0eU1jeUg0S1BPUmE0bUFrRmtnX1lySUI1M3FMZmduenYyNFdmTWdxb3FzOW5IMlQ4djh3Zk1r?oc=5",
+      "locator": null,
+      "published_at": "2026-07-15"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_8da62c6e53",
+    "company_id": "deepseek-ai",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": null,
+    "raw_text": "valued at more than $50 bn",
+    "qualifiers": [
+      "unconfirmed",
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Standard (HK)",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMXlId0czTVZzQzU1XzNTcmpYek15NDkwTENpdkQtRzM5UWVISDBOWjIyVmhrRnc3c1ktQVJIcllHc2t4c295T0dsMGVLYUxGN05sdUlaUF9GdmcwbWl4VEwwZUFFYVhLQlEtTW4zM3FJNHpiSGEwVjVsX2JhUUVTbnBaOFhIbUZBcFZJTmJiQ2pIbjFtTXZXWHdUR2lPcVZnMjBnSTdxTmdDNzZhZXhuU3N1b3M?oc=5",
+      "locator": null,
+      "published_at": "2026-06-17"
+    },
+    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2835,
     "derivation": null
   },
   {
@@ -413,33 +565,6 @@
     "derivation": null
   },
   {
-    "id": "clm_7c98825f1c",
-    "company_id": "deepseek-ai",
-    "metric": "valuation",
-    "value": 74000000000.0,
-    "unit": null,
-    "raw_text": "$74 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "U.S. News Money",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOYk9waERTeGVwdUc3aWxEc3ZmVHZYa1UyMkNxY1dPaTEyX3VyaGNpMEJqRDZrcW1xUkJiSS1taXNpdEFXODBWNTMyNnpkS0c3Qi1nSkNKZTFIRG12a1pCMVlVWnFtWE1RLTR1YnA1d2djVEF5SnVPU1BYWmVyZUwxSUNKUER3UnI1N3hZY1dWYTNweFVKSVhVMGpndWVIMTZPdmwyNVkzN2JTNEFTTzRpbV9mN1J0eU1jeUg0S1BPUmE0bUFrRmtnX1lySUI1M3FMZmduenYyNFdmTWdxb3FzOW5IMlQ4djh3Zk1r?oc=5",
-      "locator": null,
-      "published_at": "2026-07-15"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
     "id": "clm_ed1b4b36d3",
     "company_id": "deepseek-ai",
     "metric": "valuation",
@@ -598,32 +723,6 @@
     "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_d76bc75fa5",
-    "company_id": "deepseek-ai",
-    "metric": "valuation",
-    "value": 20000000000.0,
-    "unit": "USD",
-    "raw_text": "in talks to invest in DeepSeek at over $20 billion valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "ET Enterprise AI",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTzRPWTVyNkxDTmU4a2sxZ3cycUZSLWNfMDdJdUhSU251R2pwTlJkcGJUem83SHV2ZFhERVFieERyeVJBYmt5dlBEbFJPR0JGWm0wSmZvTGQ3NWxmWTlIczg4bFl5ckZOT1dxZVBZLVZMSzRnZm5ROEdxMll2RjRWM1MxUmtvcmZ1VUgzWVREM2RLVGJJX3NYVjVudFpReDNFNTV2MmZYNkZES096Z2pwWFV4RktfcHZKdXg3LUpIYm44RGdCdWJNRjFCR3BKNmxRWmRvTmlKLUl5a2xTQkZr0gHkAUFVX3lxTE93SGdhQzFhUFhXQ0RfLU5JTktLZlpsZkhDMVRuSzdBZUVWSmZwaHEwM1ZMLWpXRDlLdUtBVDVBdUxsYy1PSTR6RWxNUVJBb0pweFFjLU1sTjVoaTIwcHM0Nk5pR3owbFhJQ1FxS0VMOGN5OTdFdjBlbjlxaVlNY2JrSjNMX0pPSTB4VXVIY1g3dkhYSUZkcXh1eVZFTlRHbDd2RnZTUTRLbDFjVFQzQXBMdzVROVhkbmdiWnpXRmFPYjNhRmZFano2cXFGendkU3B2Wld6T3g2aWhsN29JR3k4blRrdw?oc=5",
-      "locator": null,
-      "published_at": "2026-04-23"
-    },
-    "extracted_at": "2026-09-07T10:15:07.048991",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -809,54 +908,6 @@
     "extracted_at": "2026-09-11T09:45:35.269135",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_38e7fdf1f9",
-    "company_id": "deepseek-ai",
-    "metric": "total_funding",
-    "value": 7000000000.0,
-    "unit": "USD",
-    "raw_text": "DeepSeek Raises More Than $7 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "citybiz.co",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVXBOM0hNQmc1dW05eDVjT21WbXdoMlFwcGRjMHllOTBtQWl6MUtWX2FkdDNtanNQTWxCM1lIaks4LUpFNkZiQkRHdGVSS3hXN1BnUGp6UURxUkdRMUdaU0JkNldKQ09HZFV2ZGUyOFltZERWOFZzVVcwUU92NDJQU2VhMmxLT2dXX3lKeF9fVVUxNHN6RlhyRTNsdVlHdjN6OFdYSE92V2w?oc=5",
-      "locator": null,
-      "published_at": "2026-06-16"
-    },
-    "extracted_at": "2026-09-12T09:20:27.932122",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_de4463625d",
-    "company_id": "deepseek-ai",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": "USD",
-    "raw_text": "Valuation Surpasses $50 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "citybiz.co",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVXBOM0hNQmc1dW05eDVjT21WbXdoMlFwcGRjMHllOTBtQWl6MUtWX2FkdDNtanNQTWxCM1lIaks4LUpFNkZiQkRHdGVSS3hXN1BnUGp6UURxUkdRMUdaU0JkNldKQ09HZFV2ZGUyOFltZERWOFZzVVcwUU92NDJQU2VhMmxLT2dXX3lKeF9fVVUxNHN6RlhyRTNsdVlHdjN6OFdYSE92V2w?oc=5",
-      "locator": null,
-      "published_at": "2026-06-16"
-    },
-    "extracted_at": "2026-09-12T09:20:27.932122",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {

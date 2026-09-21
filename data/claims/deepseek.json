@@ -1,5 +1,31 @@
 [
   {
+    "id": "clm_7a310f301b",
+    "company_id": "deepseek",
+    "metric": "valuation",
+    "value": 74000000000.0,
+    "unit": null,
+    "raw_text": "China's DeepSeek to raise fresh capital at $74 billion valuation ahead of onshore IPO, sources say",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVDlhV1Zhbi1ieWRUeEJIa3ZIbTh3SF9HanFHeWEwYU05aU9hbUlDTUlCVDlPTjY2TnNtWE0zRGZWX2l6NGhQZnpOZTdGY2dlaWFyN1NFWVJfbTZ1QXdhcUp5ajhEaTZ6SlFwZVlFY2VlS25lb011dHpUQkVHd2lITGg4NlNxMTZNY3NfbVJkYzVrY1puTlRBSkNuNlREYldEVjFQMEUwZjRVSHNsRFRNZ0ozRklGdzZRQ2VnQmtDQi1KNTdzc1NWWWlR?oc=5",
+      "locator": null,
+      "published_at": "2026-07-18"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_745fbaca19",
     "company_id": "deepseek",
     "metric": "total_funding",
@@ -45,32 +71,6 @@
     "extracted_at": "2026-09-16T10:35:49.404557",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_7a310f301b",
-    "company_id": "deepseek",
-    "metric": "valuation",
-    "value": 74000000000.0,
-    "unit": null,
-    "raw_text": "China's DeepSeek to raise fresh capital at $74 billion valuation ahead of onshore IPO, sources say",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVDlhV1Zhbi1ieWRUeEJIa3ZIbTh3SF9HanFHeWEwYU05aU9hbUlDTUlCVDlPTjY2TnNtWE0zRGZWX2l6NGhQZnpOZTdGY2dlaWFyN1NFWVJfbTZ1QXdhcUp5ajhEaTZ6SlFwZVlFY2VlS25lb011dHpUQkVHd2lITGg4NlNxMTZNY3NfbVJkYzVrY1puTlRBSkNuNlREYldEVjFQMEUwZjRVSHNsRFRNZ0ozRklGdzZRQ2VnQmtDQi1KNTdzc1NWWWlR?oc=5",
-      "locator": null,
-      "published_at": "2026-07-18"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -152,6 +152,80 @@
     "derivation": null
   },
   {
+    "id": "clm_695489355c",
+    "company_id": "deepseek",
+    "metric": "total_funding",
+    "value": 7400000000.0,
+    "unit": "USD",
+    "raw_text": "raises $7.4B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techfundingnews.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVFpNbEduaE5RWXMxU2NuamJINnc3SFlZRTMyTVBablRnSjg1Skd5WDRTX0Y3QUZ1REMxUHN6bkp4ZWFiWnNIaWNGOUFjLTdjajk0UzBLOVBLeVZMdVZ6YzFwQXZydzF4Z0djSVNFdFN5bmZ4MVN3ajVGRWo5SGVEenlzV3cwMXI5LXUwNFNxdWVnQmd2NFdPd3RYQ3ZkaWkzc0hvb1FB?oc=5",
+      "locator": null,
+      "published_at": "2026-06-16"
+    },
+    "extracted_at": "2026-09-12T09:20:27.932122",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_d3139544d3",
+    "company_id": "deepseek",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "$50B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techfundingnews.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVFpNbEduaE5RWXMxU2NuamJINnc3SFlZRTMyTVBablRnSjg1Skd5WDRTX0Y3QUZ1REMxUHN6bkp4ZWFiWnNIaWNGOUFjLTdjajk0UzBLOVBLeVZMdVZ6YzFwQXZydzF4Z0djSVNFdFN5bmZ4MVN3ajVGRWo5SGVEenlzV3cwMXI5LXUwNFNxdWVnQmd2NFdPd3RYQ3ZkaWkzc0hvb1FB?oc=5",
+      "locator": null,
+      "published_at": "2026-06-16"
+    },
+    "extracted_at": "2026-09-12T09:20:27.932122",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_aaea8403cf",
+    "company_id": "deepseek",
+    "metric": "valuation",
+    "value": 70900000000.0,
+    "unit": null,
+    "raw_text": "DeepSeek Eyes New Funding Round Just One Month After Last, Kicks Off IPO Prep Targeting $70.9 Billion Valuation",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPSkhoWFRVajYxZ3B6c3oyZ3J6TjJFMkZnVlQ0aDBYc01ld003NXUxTFVVSU1tazRDdmFscmtLUmM1QlF5aXZtQWF0X2dKLVVIVjJ5eUZGOV9YakdNTUtfTE45NVNFSVhCUTJZOUZIZXR4U0dDQkE?oc=5",
+      "locator": null,
+      "published_at": "2026-07-14"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3675,
+    "derivation": null
+  },
+  {
     "id": "clm_fdd0ff6a90",
     "company_id": "deepseek",
     "metric": "total_funding",
@@ -226,32 +300,6 @@
     "extracted_at": "2026-08-21T05:50:03.226228",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2835,
-    "derivation": null
-  },
-  {
-    "id": "clm_aaea8403cf",
-    "company_id": "deepseek",
-    "metric": "valuation",
-    "value": 70900000000.0,
-    "unit": null,
-    "raw_text": "DeepSeek Eyes New Funding Round Just One Month After Last, Kicks Off IPO Prep Targeting $70.9 Billion Valuation",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPSkhoWFRVajYxZ3B6c3oyZ3J6TjJFMkZnVlQ0aDBYc01ld003NXUxTFVVSU1tazRDdmFscmtLUmM1QlF5aXZtQWF0X2dKLVVIVjJ5eUZGOV9YakdNTUtfTE45NVNFSVhCUTJZOUZIZXR4U0dDQkE?oc=5",
-      "locator": null,
-      "published_at": "2026-07-14"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3675,
     "derivation": null
   },
   {
@@ -902,54 +950,6 @@
       "type": "news",
       "name": "citybiz.co",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVXBOM0hNQmc1dW05eDVjT21WbXdoMlFwcGRjMHllOTBtQWl6MUtWX2FkdDNtanNQTWxCM1lIaks4LUpFNkZiQkRHdGVSS3hXN1BnUGp6UURxUkdRMUdaU0JkNldKQ09HZFV2ZGUyOFltZERWOFZzVVcwUU92NDJQU2VhMmxLT2dXX3lKeF9fVVUxNHN6RlhyRTNsdVlHdjN6OFdYSE92V2w?oc=5",
-      "locator": null,
-      "published_at": "2026-06-16"
-    },
-    "extracted_at": "2026-09-12T09:20:27.932122",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_695489355c",
-    "company_id": "deepseek",
-    "metric": "total_funding",
-    "value": 7400000000.0,
-    "unit": "USD",
-    "raw_text": "raises $7.4B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "techfundingnews.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVFpNbEduaE5RWXMxU2NuamJINnc3SFlZRTMyTVBablRnSjg1Skd5WDRTX0Y3QUZ1REMxUHN6bkp4ZWFiWnNIaWNGOUFjLTdjajk0UzBLOVBLeVZMdVZ6YzFwQXZydzF4Z0djSVNFdFN5bmZ4MVN3ajVGRWo5SGVEenlzV3cwMXI5LXUwNFNxdWVnQmd2NFdPd3RYQ3ZkaWkzc0hvb1FB?oc=5",
-      "locator": null,
-      "published_at": "2026-06-16"
-    },
-    "extracted_at": "2026-09-12T09:20:27.932122",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_d3139544d3",
-    "company_id": "deepseek",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": "USD",
-    "raw_text": "$50B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "techfundingnews.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVFpNbEduaE5RWXMxU2NuamJINnc3SFlZRTMyTVBablRnSjg1Skd5WDRTX0Y3QUZ1REMxUHN6bkp4ZWFiWnNIaWNGOUFjLTdjajk0UzBLOVBLeVZMdVZ6YzFwQXZydzF4Z0djSVNFdFN5bmZ4MVN3ajVGRWo5SGVEenlzV3cwMXI5LXUwNFNxdWVnQmd2NFdPd3RYQ3ZkaWkzc0hvb1FB?oc=5",
       "locator": null,
       "published_at": "2026-06-16"
     },

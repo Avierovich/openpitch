@@ -290,6 +290,87 @@
     "derivation": null
   },
   {
+    "id": "clm_1a3e533faf",
+    "company_id": "harvey-ai",
+    "metric": "total_funding",
+    "value": 500000000.0,
+    "unit": "USD",
+    "raw_text": "over $500M in funding",
+    "qualifiers": [
+      "rounded",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "No Priors",
+      "url": null,
+      "locator": null,
+      "published_at": "2025-02-14"
+    },
+    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3213,
+    "derivation": null
+  },
+  {
+    "id": "clm_87dd8d9ac4",
+    "company_id": "harvey-ai",
+    "metric": "round_amount",
+    "value": 500000000.0,
+    "unit": "USD",
+    "raw_text": "raising $500M",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking",
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPemdSS3lCX0t1RTdsS2M2VjE1RTFhenNnZlVVVnVlUXFSaXpHbWdILUlpV2R2dXZxcDQteFIxUGxKa0QyMDRMb2NmU0NxSGdFYnU2VW4zUWU2QWRNNDVKcXdCTTJnMjdOU2hWb01JSzN1S2FRQlF4QXlwUFluSzhlZHBSc09GNFRKVUZ6dzhtM0NpTWoxSlJBTFNPeG9FNkVhNXc?oc=5",
+      "locator": null,
+      "published_at": "2026-08-07"
+    },
+    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1984,
+    "derivation": null
+  },
+  {
+    "id": "clm_3ea60c56e1",
+    "company_id": "harvey-ai",
+    "metric": "valuation",
+    "value": 15500000000.0,
+    "unit": "USD",
+    "raw_text": "$15.5B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPemdSS3lCX0t1RTdsS2M2VjE1RTFhenNnZlVVVnVlUXFSaXpHbWdILUlpV2R2dXZxcDQteFIxUGxKa0QyMDRMb2NmU0NxSGdFYnU2VW4zUWU2QWRNNDVKcXdCTTJnMjdOU2hWb01JSzN1S2FRQlF4QXlwUFluSzhlZHBSc09GNFRKVUZ6dzhtM0NpTWoxSlJBTFNPeG9FNkVhNXc?oc=5",
+      "locator": null,
+      "published_at": "2026-08-07"
+    },
+    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_404a47d2e6",
     "company_id": "harvey-ai",
     "metric": "total_funding",
@@ -342,32 +423,6 @@
     "derivation": null
   },
   {
-    "id": "clm_1a3e533faf",
-    "company_id": "harvey-ai",
-    "metric": "total_funding",
-    "value": 500000000.0,
-    "unit": "usd",
-    "raw_text": "over $500M in funding",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "No Priors",
-      "url": null,
-      "locator": null,
-      "published_at": "2025-02-14"
-    },
-    "extracted_at": "2026-09-21T10:38:28.440880",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.378,
-    "derivation": null
-  },
-  {
     "id": "drv_019b447109",
     "company_id": "harvey-ai",
     "metric": "revenue_multiple",
@@ -386,7 +441,7 @@
       "locator": null,
       "published_at": "2026-07-03"
     },
-    "extracted_at": "2026-09-21T10:38:28.440880",
+    "extracted_at": "2026-09-22T09:56:18.399410",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1294,
     "derivation": {

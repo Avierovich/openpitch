@@ -294,6 +294,84 @@
     "derivation": null
   },
   {
+    "id": "clm_975b328713",
+    "company_id": "thinking-machines",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": null,
+    "raw_text": "$40B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ2FFY29vMFY0ZEZfRHMtWlJCU0N2WHpEOEMyX2dqcEgxTE93bUt2V2puMC1SRTB3TmxCZzM4Vi1ZYWt2OGU1am1POWRsNS0zZGV5dVpzY0VDRGYyZ0ZJRDk5T01Pa3Z0MVo4QmJfeGV4eHd6bU0wVE5YVVVnSTdlZUt4UzJrcnJMME5GX21HVGpZWkFrSUE2SnQ3aldBOUdDSTdGd1hxR3cwWDA1eXpYRXhIV0I?oc=5",
+      "locator": null,
+      "published_at": "2026-09-04"
+    },
+    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_bf36fad9ec",
+    "company_id": "thinking-machines",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "$1B",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ2FFY29vMFY0ZEZfRHMtWlJCU0N2WHpEOEMyX2dqcEgxTE93bUt2V2puMC1SRTB3TmxCZzM4Vi1ZYWt2OGU1am1POWRsNS0zZGV5dVpzY0VDRGYyZ0ZJRDk5T01Pa3Z0MVo4QmJfeGV4eHd6bU0wVE5YVVVnSTdlZUt4UzJrcnJMME5GX21HVGpZWkFrSUE2SnQ3aldBOUdDSTdGd1hxR3cwWDA1eXpYRXhIV0I?oc=5",
+      "locator": null,
+      "published_at": "2026-09-04"
+    },
+    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_51dd180844",
+    "company_id": "thinking-machines",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": null,
+    "raw_text": "Thinking Machines Lab aims for $50B valuation w...",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQkowNTZrcV9ybGwycF8yLUVIbmEzMmRnYXN2TUlabnpIejhzTHlVWmlaU3R3NUhkM2w4a0FHNWR6WGNFRDBpUkVmR2p3cXphZDBsS2tmV0lDWWxDcEhka3IwdDFTR3NUYnJNTlQzQXo4R0k4aXZzMGFRY3NRcEo2dWtPUHI3OEFPbGF3LUVDNlk2bGJPd25wcmtJOUw1ZnlIUUQxaUN1NUVYUQ?oc=5",
+      "locator": null,
+      "published_at": "2026-06-05"
+    },
+    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.2625,
+    "derivation": null
+  },
+  {
     "id": "clm_3e9568dc1d",
     "company_id": "thinking-machines",
     "metric": "round_amount",
@@ -344,32 +422,6 @@
     "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2835,
-    "derivation": null
-  },
-  {
-    "id": "clm_51dd180844",
-    "company_id": "thinking-machines",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": null,
-    "raw_text": "Thinking Machines Lab aims for $50B valuation w...",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQkowNTZrcV9ybGwycF8yLUVIbmEzMmRnYXN2TUlabnpIejhzTHlVWmlaU3R3NUhkM2w4a0FHNWR6WGNFRDBpUkVmR2p3cXphZDBsS2tmV0lDWWxDcEhka3IwdDFTR3NUYnJNTlQzQXo4R0k4aXZzMGFRY3NRcEo2dWtPUHI3OEFPbGF3LUVDNlk2bGJPd25wcmtJOUw1ZnlIUUQxaUN1NUVYUQ?oc=5",
-      "locator": null,
-      "published_at": "2026-06-05"
-    },
-    "extracted_at": "2026-07-12T07:44:16.543146",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.2625,
     "derivation": null
   },
   {
@@ -530,58 +582,6 @@
     "extracted_at": "2026-09-10T09:49:02.856855",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_975b328713",
-    "company_id": "thinking-machines",
-    "metric": "valuation",
-    "value": 40000000000.0,
-    "unit": null,
-    "raw_text": "$40B valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ2FFY29vMFY0ZEZfRHMtWlJCU0N2WHpEOEMyX2dqcEgxTE93bUt2V2puMC1SRTB3TmxCZzM4Vi1ZYWt2OGU1am1POWRsNS0zZGV5dVpzY0VDRGYyZ0ZJRDk5T01Pa3Z0MVo4QmJfeGV4eHd6bU0wVE5YVVVnSTdlZUt4UzJrcnJMME5GX21HVGpZWkFrSUE2SnQ3aldBOUdDSTdGd1hxR3cwWDA1eXpYRXhIV0I?oc=5",
-      "locator": null,
-      "published_at": "2026-09-04"
-    },
-    "extracted_at": "2026-09-19T09:29:15.949394",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_bf36fad9ec",
-    "company_id": "thinking-machines",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "$1B",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ2FFY29vMFY0ZEZfRHMtWlJCU0N2WHpEOEMyX2dqcEgxTE93bUt2V2puMC1SRTB3TmxCZzM4Vi1ZYWt2OGU1am1POWRsNS0zZGV5dVpzY0VDRGYyZ0ZJRDk5T01Pa3Z0MVo4QmJfeGV4eHd6bU0wVE5YVVVnSTdlZUt4UzJrcnJMME5GX21HVGpZWkFrSUE2SnQ3aldBOUdDSTdGd1hxR3cwWDA1eXpYRXhIV0I?oc=5",
-      "locator": null,
-      "published_at": "2026-09-04"
-    },
-    "extracted_at": "2026-09-19T09:29:15.949394",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {

@@ -14,14 +14,15 @@
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 39124036831.3,
+      "value": 39107960701.38,
       "unit": "USD",
       "range": null,
       "as_of": "2025-09-16",
       "estimate_type": "consensus",
-      "confidence": 0.625,
+      "confidence": 0.675,
       "supporting_claims": [
         "clm_bd4cd2e26e",
+        "clm_119d3655eb",
         "clm_09a19dc0e1",
         "clm_a0a545814e",
         "clm_c87d1c4931",
@@ -49,7 +50,7 @@
       "range": null,
       "as_of": "2026-05-21",
       "estimate_type": "reported",
-      "confidence": 0.268,
+      "confidence": 0.267,
       "supporting_claims": [
         "clm_44a717b09a"
       ],
@@ -60,6 +61,30 @@
         "since": "2026-05-21"
       },
       "history_ref": "history/figure/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 1000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-09-16",
+      "estimate_type": "consensus",
+      "confidence": 0.578,
+      "supporting_claims": [
+        "clm_0bda6ab6e4",
+        "clm_55992f10c2",
+        "clm_7e98f0f671"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
+        "since": "2025-09-16"
+      },
+      "history_ref": "history/figure/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -83,29 +108,6 @@
       },
       "history_ref": "history/figure/revenue_multiple.jsonl",
       "unconfirmed": true,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 1000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-09-16",
-      "estimate_type": "consensus",
-      "confidence": 0.471,
-      "supporting_claims": [
-        "clm_55992f10c2",
-        "clm_7e98f0f671"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1000000000.0,
-        "change_pct": 0.0,
-        "since": "2025-09-16"
-      },
-      "history_ref": "history/figure/total_funding.jsonl",
-      "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     },
@@ -154,5 +156,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-21"
+  "last_updated": "2026-09-22"
 }

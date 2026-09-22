@@ -148,6 +148,56 @@
     "derivation": null
   },
   {
+    "id": "clm_bf5c7dba0f",
+    "company_id": "databricks",
+    "metric": "arr",
+    "value": 5400000000.0,
+    "unit": "USD",
+    "raw_text": "$5.4B revenue run rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1lSEx0NF9FV0dNcHZFTEo4SXFYYXRHWFJreXZGM0ZCOVphTFFZU0V5QmsxcDdxTjRZSUFuM3ZYRjdmUzJ0SFNNenRBQWNmMXhFT1MzNHRlUUVoTGtqVV9CREVpdzlhSmVFekVNaE4xSHlJLWs?oc=5",
+      "locator": null,
+      "published_at": "2026-02-10"
+    },
+    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_1e38e87348",
+    "company_id": "databricks",
+    "metric": "valuation",
+    "value": 134000000000.0,
+    "unit": "USD",
+    "raw_text": "$134B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1lSEx0NF9FV0dNcHZFTEo4SXFYYXRHWFJreXZGM0ZCOVphTFFZU0V5QmsxcDdxTjRZSUFuM3ZYRjdmUzJ0SFNNenRBQWNmMXhFT1MzNHRlUUVoTGtqVV9CREVpdzlhSmVFekVNaE4xSHlJLWs?oc=5",
+      "locator": null,
+      "published_at": "2026-02-10"
+    },
+    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_9ae619c146",
     "company_id": "databricks",
     "metric": "total_funding",
@@ -219,56 +269,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_bf5c7dba0f",
-    "company_id": "databricks",
-    "metric": "arr",
-    "value": 5400000000.0,
-    "unit": "USD",
-    "raw_text": "$5.4B revenue run rate",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Next Web",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1lSEx0NF9FV0dNcHZFTEo4SXFYYXRHWFJreXZGM0ZCOVphTFFZU0V5QmsxcDdxTjRZSUFuM3ZYRjdmUzJ0SFNNenRBQWNmMXhFT1MzNHRlUUVoTGtqVV9CREVpdzlhSmVFekVNaE4xSHlJLWs?oc=5",
-      "locator": null,
-      "published_at": "2026-02-10"
-    },
-    "extracted_at": "2026-09-04T09:41:05.539009",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_1e38e87348",
-    "company_id": "databricks",
-    "metric": "valuation",
-    "value": 134000000000.0,
-    "unit": "USD",
-    "raw_text": "$134B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Next Web",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1lSEx0NF9FV0dNcHZFTEo4SXFYYXRHWFJreXZGM0ZCOVphTFFZU0V5QmsxcDdxTjRZSUFuM3ZYRjdmUzJ0SFNNenRBQWNmMXhFT1MzNHRlUUVoTGtqVV9CREVpdzlhSmVFekVNaE4xSHlJLWs?oc=5",
-      "locator": null,
-      "published_at": "2026-02-10"
-    },
-    "extracted_at": "2026-09-04T09:41:05.539009",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -1060,7 +1060,7 @@
       "locator": null,
       "published_at": "2026-08-13"
     },
-    "extracted_at": "2026-09-21T10:38:28.440880",
+    "extracted_at": "2026-09-22T09:56:18.399410",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {

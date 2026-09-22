@@ -26,6 +26,32 @@
     "derivation": null
   },
   {
+    "id": "clm_ac0126d9fa",
+    "company_id": "figure",
+    "metric": "round_amount",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "in talks to raise $1.5B",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeTY1TFAySHE0Z2VJTDNXREdneDJHTWdaakt3dnhaRkhybXFoNkpneVZlRHRZQ0Fnck85MTlqQ3BaeHV1bDNNSWUtN1ZVekxMWnhudndmbUF3RUtvRDFxenhvTTdGbmp0UVBOZ0NYZG9rMTYzNFU0SGh5VF9CSFJCeWJneXo3bU8yUzBydWhBYjFpeWlRc2FWNjVZdFk?oc=5",
+      "locator": null,
+      "published_at": "2025-02-14"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_8739f50e05",
     "company_id": "figure",
     "metric": "round_amount",
@@ -53,29 +79,53 @@
     "derivation": null
   },
   {
-    "id": "clm_ac0126d9fa",
+    "id": "clm_0bda6ab6e4",
     "company_id": "figure",
-    "metric": "round_amount",
-    "value": 1500000000.0,
+    "metric": "total_funding",
+    "value": 1000000000.0,
     "unit": "USD",
-    "raw_text": "in talks to raise $1.5B",
+    "raw_text": "$1B+",
     "qualifiers": [
-      "unconfirmed"
+      "rounded"
     ],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
       "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeTY1TFAySHE0Z2VJTDNXREdneDJHTWdaakt3dnhaRkhybXFoNkpneVZlRHRZQ0Fnck85MTlqQ3BaeHV1bDNNSWUtN1ZVekxMWnhudndmbUF3RUtvRDFxenhvTTdGbmp0UVBOZ0NYZG9rMTYzNFU0SGh5VF9CSFJCeWJneXo3bU8yUzBydWhBYjFpeWlRc2FWNjVZdFk?oc=5",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTFlybkRLajZMaEhwellxYV9mZ0Nhck9WZkRFbXIzQzFGSEd0VTRfRFQxQWxycFNtRWlPbnJmM094eUc2dlZBYlQ5b2tLMjI4LThyc2tJN2dFYjBzUFdHQ011SW5xYlRDWE94NmhpbnQ4ZEw3SmZxRzEyWUVxWU9xajRISnJSRXE3UllDUDRwaXdXZzVo?oc=5",
       "locator": null,
-      "published_at": "2025-02-14"
+      "published_at": "2025-09-16"
     },
-    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extracted_at": "2026-09-22T09:56:18.399410",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
+    "base_confidence": 0.3375,
+    "derivation": null
+  },
+  {
+    "id": "clm_119d3655eb",
+    "company_id": "figure",
+    "metric": "valuation",
+    "value": 39000000000.0,
+    "unit": "USD",
+    "raw_text": "$39B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTFlybkRLajZMaEhwellxYV9mZ0Nhck9WZkRFbXIzQzFGSEd0VTRfRFQxQWxycFNtRWlPbnJmM094eUc2dlZBYlQ5b2tLMjI4LThyc2tJN2dFYjBzUFdHQ011SW5xYlRDWE94NmhpbnQ4ZEw3SmZxRzEyWUVxWU9xajRISnJSRXE3UllDUDRwaXdXZzVo?oc=5",
+      "locator": null,
+      "published_at": "2025-09-16"
+    },
+    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {

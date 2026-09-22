@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-09-21
+# OpenPitch Data Quality Report - 2026-09-22
 
 ## Summary
 
-- Profiles generated: 477
-- Watchlist candidates: 1048
+- Profiles generated: 481
+- Watchlist candidates: 1067
 - Top-50 cards: 50
-- Profiles with at least one metric: 465
-- Critical issues: 87
+- Profiles with at least one metric: 469
+- Critical issues: 88
 - Warnings: 21
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 569
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 584
 
 ## Top-50 Companies With No Metrics
 
@@ -81,6 +81,7 @@ None.
 - Charm Therapeutics
 - Chemify
 - Clari
+- Clarifai
 - Climavision
 - Climeworks
 - Coder
@@ -123,13 +124,13 @@ None.
 
 - Enflame Technology: valuation
 - Figure AI: headcount
-- Figure AI: total_funding
 - Scale AI: headcount
 - Mercor: headcount
 - Fireworks AI: arr
 - Fireworks AI: total_funding
 - Fireworks AI: headcount
 - Harvey AI: arr
+- Harvey AI: round_amount
 - Sierra: arr
 - Lovable: headcount
 - Celonis: arr

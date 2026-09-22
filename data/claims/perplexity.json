@@ -129,6 +129,33 @@
     "derivation": null
   },
   {
+    "id": "clm_679cf68660",
+    "company_id": "perplexity",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "Valuation Seen Topping $30 Billion",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5WVGZ2NmgzYVJ4Sk1uM1I2QnNsQVdzYUh5WWllR1laUm5fcUdYZEQ0YlRfaDI4MlZfbVZ4am5meFhZTWJPS1V4MUlsZjZLV1RUWXY4cS1LNTV0NFljZDM5SzR5Q3VvMVFSLThHa2lFcWFoaFB0Y0E?oc=5",
+      "locator": null,
+      "published_at": "2026-08-24"
+    },
+    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
     "id": "clm_a5e8394d12",
     "company_id": "perplexity",
     "metric": "round_amount",
@@ -452,33 +479,6 @@
     "extracted_at": "2026-09-11T09:45:35.269135",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_679cf68660",
-    "company_id": "perplexity",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "Valuation Seen Topping $30 Billion",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5WVGZ2NmgzYVJ4Sk1uM1I2QnNsQVdzYUh5WWllR1laUm5fcUdYZEQ0YlRfaDI4MlZfbVZ4am5meFhZTWJPS1V4MUlsZjZLV1RUWXY4cS1LNTV0NFljZDM5SzR5Q3VvMVFSLThHa2lFcWFoaFB0Y0E?oc=5",
-      "locator": null,
-      "published_at": "2026-08-24"
-    },
-    "extracted_at": "2026-08-24T06:11:52.835308",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -1108,7 +1108,7 @@
       "locator": null,
       "published_at": "2026-08-25"
     },
-    "extracted_at": "2026-09-21T10:38:28.440880",
+    "extracted_at": "2026-09-22T09:56:18.399410",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

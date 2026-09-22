@@ -240,35 +240,11 @@
     "derivation": null
   },
   {
-    "id": "clm_71d4e52a19",
+    "id": "clm_e3582a4da8",
     "company_id": "helsing",
-    "metric": "valuation",
-    "value": 18000000000.0,
-    "unit": "USD",
-    "raw_text": "$18B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOHZ1QVZ4eDJIeTlBU3dMYVF5TlZtU3phMXhxcHI3NVRwc01XeUZkSTY1ZkdOeFNRR1gyRWtrQkhEclhCVkxpZzNCb2l6M0R0LVA1aUZjRm02ZE9aMzNXYXdFTkpfM19UUG1lMzVGZDhnNVJkb3VxSE1mWTBWd0VSSnd4OFJOdk1nMnI4UFdqM2Z6azlrZG5HS3Z1Um82QQ?oc=5",
-      "locator": null,
-      "published_at": "2026-07-13"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_6b9da1b239",
-    "company_id": "helsing",
-    "metric": "total_funding",
+    "metric": "round_amount",
     "value": 1800000000.0,
-    "unit": "USD",
+    "unit": "usd",
     "raw_text": "raises $1.8B",
     "qualifiers": [],
     "speaker": {
@@ -277,12 +253,36 @@
     },
     "source": {
       "type": "news",
-      "name": "SiliconANGLE",
+      "name": "siliconangle.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOHZ1QVZ4eDJIeTlBU3dMYVF5TlZtU3phMXhxcHI3NVRwc01XeUZkSTY1ZkdOeFNRR1gyRWtrQkhEclhCVkxpZzNCb2l6M0R0LVA1aUZjRm02ZE9aMzNXYXdFTkpfM19UUG1lMzVGZDhnNVJkb3VxSE1mWTBWd0VSSnd4OFJOdk1nMnI4UFdqM2Z6azlrZG5HS3Z1Um82QQ?oc=5",
       "locator": null,
       "published_at": "2026-07-13"
     },
-    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_a6c2e11638",
+    "company_id": "helsing",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": "usd",
+    "raw_text": "at $18B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOHZ1QVZ4eDJIeTlBU3dMYVF5TlZtU3phMXhxcHI3NVRwc01XeUZkSTY1ZkdOeFNRR1gyRWtrQkhEclhCVkxpZzNCb2l6M0R0LVA1aUZjRm02ZE9aMzNXYXdFTkpfM19UUG1lMzVGZDhnNVJkb3VxSE1mWTBWd0VSSnd4OFJOdk1nMnI4UFdqM2Z6azlrZG5HS3Z1Um82QQ?oc=5",
+      "locator": null,
+      "published_at": "2026-07-13"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -503,6 +503,150 @@
     "extracted_at": "2026-08-29T11:59:18.797257",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_37d3d1bdc3",
+    "company_id": "helsing",
+    "metric": "round_amount",
+    "value": 1200000000.0,
+    "unit": "USD",
+    "raw_text": "Dragoneer leads $1.2bn round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Межа. Новини України.",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE40Vm5TeThiVHNrc09nZTZzMGZsR0xKcTh0U3ctbWhOUkhRaGFjU0FIZldEY3gxSVp1NmF5WGNMbG82SHV6Zk9aeUxldkxzNk5hbFpwaVpLX3VjaUhDWWZDcTlkRm1tdmowWUdV?oc=5",
+      "locator": null,
+      "published_at": "2026-05-11"
+    },
+    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_e779a16e04",
+    "company_id": "helsing",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": "USD",
+    "raw_text": "$18bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Межа. Новини України.",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE40Vm5TeThiVHNrc09nZTZzMGZsR0xKcTh0U3ctbWhOUkhRaGFjU0FIZldEY3gxSVp1NmF5WGNMbG82SHV6Zk9aeUxldkxzNk5hbFpwaVpLX3VjaUhDWWZDcTlkRm1tdmowWUdV?oc=5",
+      "locator": null,
+      "published_at": "2026-05-11"
+    },
+    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_d61f327be4",
+    "company_id": "helsing",
+    "metric": "total_funding",
+    "value": 1800000000.0,
+    "unit": "USD",
+    "raw_text": "raises $1.8bn",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "tekedia.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNajZvcVVrd0ZUVXFPMTFjTFItWWhhcEIzRDY3NC1Ja044TFl5SXlqSDFyaUlRSkIwaEpELWhGYU81WnFma2xfNjRuR29NMUI3UENVaEtsZlJvbjhwVXZpTHV5a0tIZkVRNndNTWhOX0YyMk9qeWRUYVpzM0JGem1WcEVoX2VwWlc0d2ktVG81UkIzanpaU2RoUGt4Wll6el9tZFBIOUxTWkJUenVUTmVsU09iSTVrTEZGZ2F6MVAySWc5R3l4cEE?oc=5",
+      "locator": null,
+      "published_at": "2026-07-13"
+    },
+    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_6de36797ac",
+    "company_id": "helsing",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": "USD",
+    "raw_text": "$18bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "tekedia.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNajZvcVVrd0ZUVXFPMTFjTFItWWhhcEIzRDY3NC1Ja044TFl5SXlqSDFyaUlRSkIwaEpELWhGYU81WnFma2xfNjRuR29NMUI3UENVaEtsZlJvbjhwVXZpTHV5a0tIZkVRNndNTWhOX0YyMk9qeWRUYVpzM0JGem1WcEVoX2VwWlc0d2ktVG81UkIzanpaU2RoUGt4Wll6el9tZFBIOUxTWkJUenVUTmVsU09iSTVrTEZGZ2F6MVAySWc5R3l4cEE?oc=5",
+      "locator": null,
+      "published_at": "2026-07-13"
+    },
+    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_71d4e52a19",
+    "company_id": "helsing",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": "USD",
+    "raw_text": "$18B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOHZ1QVZ4eDJIeTlBU3dMYVF5TlZtU3phMXhxcHI3NVRwc01XeUZkSTY1ZkdOeFNRR1gyRWtrQkhEclhCVkxpZzNCb2l6M0R0LVA1aUZjRm02ZE9aMzNXYXdFTkpfM19UUG1lMzVGZDhnNVJkb3VxSE1mWTBWd0VSSnd4OFJOdk1nMnI4UFdqM2Z6azlrZG5HS3Z1Um82QQ?oc=5",
+      "locator": null,
+      "published_at": "2026-07-13"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_6b9da1b239",
+    "company_id": "helsing",
+    "metric": "total_funding",
+    "value": 1800000000.0,
+    "unit": "USD",
+    "raw_text": "raises $1.8B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOHZ1QVZ4eDJIeTlBU3dMYVF5TlZtU3phMXhxcHI3NVRwc01XeUZkSTY1ZkdOeFNRR1gyRWtrQkhEclhCVkxpZzNCb2l6M0R0LVA1aUZjRm02ZE9aMzNXYXdFTkpfM19UUG1lMzVGZDhnNVJkb3VxSE1mWTBWd0VSSnd4OFJOdk1nMnI4UFdqM2Z6azlrZG5HS3Z1Um82QQ?oc=5",
+      "locator": null,
+      "published_at": "2026-07-13"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -1236,54 +1380,6 @@
     "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_e3582a4da8",
-    "company_id": "helsing",
-    "metric": "round_amount",
-    "value": 1800000000.0,
-    "unit": "usd",
-    "raw_text": "raises $1.8B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "siliconangle.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOHZ1QVZ4eDJIeTlBU3dMYVF5TlZtU3phMXhxcHI3NVRwc01XeUZkSTY1ZkdOeFNRR1gyRWtrQkhEclhCVkxpZzNCb2l6M0R0LVA1aUZjRm02ZE9aMzNXYXdFTkpfM19UUG1lMzVGZDhnNVJkb3VxSE1mWTBWd0VSSnd4OFJOdk1nMnI4UFdqM2Z6azlrZG5HS3Z1Um82QQ?oc=5",
-      "locator": null,
-      "published_at": "2026-07-13"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_a6c2e11638",
-    "company_id": "helsing",
-    "metric": "valuation",
-    "value": 18000000000.0,
-    "unit": "usd",
-    "raw_text": "at $18B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "siliconangle.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOHZ1QVZ4eDJIeTlBU3dMYVF5TlZtU3phMXhxcHI3NVRwc01XeUZkSTY1ZkdOeFNRR1gyRWtrQkhEclhCVkxpZzNCb2l6M0R0LVA1aUZjRm02ZE9aMzNXYXdFTkpfM19UUG1lMzVGZDhnNVJkb3VxSE1mWTBWd0VSSnd4OFJOdk1nMnI4UFdqM2Z6azlrZG5HS3Z1Um82QQ?oc=5",
-      "locator": null,
-      "published_at": "2026-07-13"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {

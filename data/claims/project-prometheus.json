@@ -104,14 +104,15 @@
     "derivation": null
   },
   {
-    "id": "clm_d588914c73",
+    "id": "clm_c7473f15ba",
     "company_id": "project-prometheus",
     "metric": "valuation",
     "value": 38000000000.0,
     "unit": "USD",
     "raw_text": "$38B Valuation",
     "qualifiers": [
-      "unconfirmed"
+      "unconfirmed",
+      "forward_looking"
     ],
     "speaker": {
       "name": null,
@@ -119,14 +120,14 @@
     },
     "source": {
       "type": "news",
-      "name": "Analytics Insight",
+      "name": "analyticsinsight.net",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOEVMa1R4VEQ1ZGxuMFhSeWwyQ3Zqc3BXWkxFX0Vlc2hmZS0yMjdSSmZwYVMwd2RpeTlCQm9BMUExMkxrV0RvNm9VNER3TWJabllodGFRX1k5NnZhUWE1SGxHM2RSQzMzaWlHV0hBemg0RTNZQ3VxeXlucjZtSExhMGJQbDN5V0tBSzlNb3BvWi1HOER4T2E4YV9VWF82Ty1sWHZlcTYwTlR1Sk1QWDBkMWE2N2lzN1FRdUHSAccBQVVfeXFMUEZFREFzV0diY2todHlKM2Z4ZFJJeVE4bWQ4RW1IX0MyRVQ2cmtBVVVnMHBfMkRVaEsySkZMOHJNOUJTMFlBMFd2WFc5SlNFN1h3S1EyRWZoOWVtN1dqc3RiVHdGczZPTWdFQnU2WmV3LThZd3ZHMEFXMTdndEZFdm1TX0x6aFBoUENtTlFJS1kzd3NQNWN4QUFHZnVpRXFldG1ZLTllTTBwVEMxRWVzOUZTUVotZ3I3N0RoMGx5QlVuYUFkalhJNA?oc=5",
       "locator": null,
       "published_at": "2026-04-21"
     },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.315,
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -223,6 +224,32 @@
     "extracted_at": "2026-07-06T14:31:09.058208",
     "extractor_model": "gemini-2.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_d588914c73",
+    "company_id": "project-prometheus",
+    "metric": "valuation",
+    "value": 38000000000.0,
+    "unit": "USD",
+    "raw_text": "$38B Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Analytics Insight",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOEVMa1R4VEQ1ZGxuMFhSeWwyQ3Zqc3BXWkxFX0Vlc2hmZS0yMjdSSmZwYVMwd2RpeTlCQm9BMUExMkxrV0RvNm9VNER3TWJabllodGFRX1k5NnZhUWE1SGxHM2RSQzMzaWlHV0hBemg0RTNZQ3VxeXlucjZtSExhMGJQbDN5V0tBSzlNb3BvWi1HOER4T2E4YV9VWF82Ty1sWHZlcTYwTlR1Sk1QWDBkMWE2N2lzN1FRdUHSAccBQVVfeXFMUEZFREFzV0diY2todHlKM2Z4ZFJJeVE4bWQ4RW1IX0MyRVQ2cmtBVVVnMHBfMkRVaEsySkZMOHJNOUJTMFlBMFd2WFc5SlNFN1h3S1EyRWZoOWVtN1dqc3RiVHdGczZPTWdFQnU2WmV3LThZd3ZHMEFXMTdndEZFdm1TX0x6aFBoUENtTlFJS1kzd3NQNWN4QUFHZnVpRXFldG1ZLTllTTBwVEMxRWVzOUZTUVotZ3I3N0RoMGx5QlVuYUFkalhJNA?oc=5",
+      "locator": null,
+      "published_at": "2026-04-21"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -371,33 +398,6 @@
     "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_c7473f15ba",
-    "company_id": "project-prometheus",
-    "metric": "valuation",
-    "value": 38000000000.0,
-    "unit": "USD",
-    "raw_text": "$38B Valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "analyticsinsight.net",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOEVMa1R4VEQ1ZGxuMFhSeWwyQ3Zqc3BXWkxFX0Vlc2hmZS0yMjdSSmZwYVMwd2RpeTlCQm9BMUExMkxrV0RvNm9VNER3TWJabllodGFRX1k5NnZhUWE1SGxHM2RSQzMzaWlHV0hBemg0RTNZQ3VxeXlucjZtSExhMGJQbDN5V0tBSzlNb3BvWi1HOER4T2E4YV9VWF82Ty1sWHZlcTYwTlR1Sk1QWDBkMWE2N2lzN1FRdUHSAccBQVVfeXFMUEZFREFzV0diY2todHlKM2Z4ZFJJeVE4bWQ4RW1IX0MyRVQ2cmtBVVVnMHBfMkRVaEsySkZMOHJNOUJTMFlBMFd2WFc5SlNFN1h3S1EyRWZoOWVtN1dqc3RiVHdGczZPTWdFQnU2WmV3LThZd3ZHMEFXMTdndEZFdm1TX0x6aFBoUENtTlFJS1kzd3NQNWN4QUFHZnVpRXFldG1ZLTllTTBwVEMxRWVzOUZTUVotZ3I3N0RoMGx5QlVuYUFkalhJNA?oc=5",
-      "locator": null,
-      "published_at": "2026-04-21"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {

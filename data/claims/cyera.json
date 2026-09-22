@@ -124,6 +124,54 @@
     "derivation": null
   },
   {
+    "id": "clm_c192c709ee",
+    "company_id": "cyera",
+    "metric": "round_amount",
+    "value": 600000000.0,
+    "unit": "USD",
+    "raw_text": "Cyera Raises $600 Million at $12 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYURPZDQxZXJINHpucGVHeVBDR3U3VUdfdVRHUEE2c083dng2SjdBbGdLb1lxSC1sVU4tNnlReVJmOWdtaHlNTGcwU0JHd2N1X1J6RVZOTFMwVTlXRHNvTUxydHZJbVNVV1dWZWZ2MjBLRmdVV0dWMFd1MkdxWHRlOUdnOWhvcmJHdi1La1hVbXNRUnBhclVRSVhMaHo?oc=5",
+      "locator": null,
+      "published_at": "2026-06-10"
+    },
+    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_30e02b8bb3",
+    "company_id": "cyera",
+    "metric": "valuation",
+    "value": 12000000000.0,
+    "unit": "USD",
+    "raw_text": "$600 Million at $12 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYURPZDQxZXJINHpucGVHeVBDR3U3VUdfdVRHUEE2c083dng2SjdBbGdLb1lxSC1sVU4tNnlReVJmOWdtaHlNTGcwU0JHd2N1X1J6RVZOTFMwVTlXRHNvTUxydHZJbVNVV1dWZWZ2MjBLRmdVV0dWMFd1MkdxWHRlOUdnOWhvcmJHdi1La1hVbXNRUnBhclVRSVhMaHo?oc=5",
+      "locator": null,
+      "published_at": "2026-06-10"
+    },
+    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_706a506c16",
     "company_id": "cyera",
     "metric": "total_funding",
@@ -169,54 +217,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_5a0e771fdb",
-    "company_id": "cyera",
-    "metric": "latest_round",
-    "value": 600000000.0,
-    "unit": "USD",
-    "raw_text": "Cyera raises US$600 million at US$12 billion valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "intelligentcio.com",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbHFDUjhSQVdoR3VpbkFpVTd5bWUtTmhyckpUYzVWeHRvR3BvN0hVNVRwUG5waEdBakVYMzd3M2pITmgxMTV4dWtiOHRpM09zQjctdGlUQ0FCc0d1SWtfUE5LSDFabG9Wd3YzTlJNMEoxNjJSZlpRcFJTS3ltMUlPWXJCdGx6V1Vja0xMUkNxRmZ4SjZfem1sUldGdUFkQUZBMUhzOU5PcTI1UkRmdDBmUTV3WnVYUGxjbVlNUDFNWGlMVXNqRkRmTFFXSjlqd2JqTE1NVFVLWUlpZVNEbGE0Z0RVaHVSQmpEa0Q3MlMza2hNT0E?oc=5",
-      "locator": null,
-      "published_at": "2026-06-10"
-    },
-    "extracted_at": "2026-09-10T09:49:02.856855",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_f4dded4b1c",
-    "company_id": "cyera",
-    "metric": "valuation",
-    "value": 12000000000.0,
-    "unit": "USD",
-    "raw_text": "Cyera raises US$600 million at US$12 billion valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "intelligentcio.com",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbHFDUjhSQVdoR3VpbkFpVTd5bWUtTmhyckpUYzVWeHRvR3BvN0hVNVRwUG5waEdBakVYMzd3M2pITmgxMTV4dWtiOHRpM09zQjctdGlUQ0FCc0d1SWtfUE5LSDFabG9Wd3YzTlJNMEoxNjJSZlpRcFJTS3ltMUlPWXJCdGx6V1Vja0xMUkNxRmZ4SjZfem1sUldGdUFkQUZBMUhzOU5PcTI1UkRmdDBmUTV3WnVYUGxjbVlNUDFNWGlMVXNqRkRmTFFXSjlqd2JqTE1NVFVLWUlpZVNEbGE0Z0RVaHVSQmpEa0Q3MlMza2hNT0E?oc=5",
-      "locator": null,
-      "published_at": "2026-06-10"
-    },
-    "extracted_at": "2026-09-10T09:49:02.856855",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -296,7 +296,7 @@
     "company_id": "cyera",
     "metric": "headcount",
     "value": 100.0,
-    "unit": "integer",
+    "unit": null,
     "raw_text": "scaling Cyera from 100 to 550 employees in under two years",
     "qualifiers": [],
     "speaker": {
@@ -310,7 +310,7 @@
       "locator": null,
       "published_at": "2025-05-09"
     },
-    "extracted_at": "2026-09-21T10:38:28.440880",
+    "extracted_at": "2026-09-22T09:56:18.399410",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.6,
     "derivation": null
@@ -320,7 +320,7 @@
     "company_id": "cyera",
     "metric": "headcount",
     "value": 550.0,
-    "unit": "integer",
+    "unit": null,
     "raw_text": "scaling Cyera from 100 to 550 employees in under two years",
     "qualifiers": [],
     "speaker": {
@@ -334,9 +334,153 @@
       "locator": null,
       "published_at": "2025-05-09"
     },
-    "extracted_at": "2026-09-21T10:38:28.440880",
+    "extracted_at": "2026-09-22T09:56:18.399410",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.6,
+    "derivation": null
+  },
+  {
+    "id": "clm_bb8e883ecd",
+    "company_id": "cyera",
+    "metric": "round_amount",
+    "value": 300000000.0,
+    "unit": null,
+    "raw_text": "Cyera raises $300M at $12B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYm9FbDJKTVR2S3d0QlptME5NaExaTXRWcGhPYkVfaFBkMUZSZGFoeEUybUdqUTVjTGxXS1RNMk5jRHIyUlY4WGwtUlRfMGt5Z0hCakY2dXNaQTlFLU9zWTFxWHNrOXA0Wl9UMXNVZlZIaFJvbGpzeWY2VzJ2M01aX0JwTnhRaDBIeEVlb2NGRjR3bWNWWVVTNnpXQQ?oc=5",
+      "locator": null,
+      "published_at": "2026-06-02"
+    },
+    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_b0a585a57d",
+    "company_id": "cyera",
+    "metric": "valuation",
+    "value": 12000000000.0,
+    "unit": null,
+    "raw_text": "Cyera raises $300M at $12B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYm9FbDJKTVR2S3d0QlptME5NaExaTXRWcGhPYkVfaFBkMUZSZGFoeEUybUdqUTVjTGxXS1RNMk5jRHIyUlY4WGwtUlRfMGt5Z0hCakY2dXNaQTlFLU9zWTFxWHNrOXA0Wl9UMXNVZlZIaFJvbGpzeWY2VzJ2M01aX0JwTnhRaDBIeEVlb2NGRjR3bWNWWVVTNnpXQQ?oc=5",
+      "locator": null,
+      "published_at": "2026-06-02"
+    },
+    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_7b34f8c257",
+    "company_id": "cyera",
+    "metric": "round_amount",
+    "value": 600000000.0,
+    "unit": null,
+    "raw_text": "Cyera raises $600M at $12B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdlFtYVU2emFmT2hvaWZjbkhVY3MtcUdGNzlyNjM2aDZYRWh4V19lQThLaUlESUN5UUJJeXhGc2xRVHV1WkdaUlRqQ3VGblBzX2htV3pZSjUwdEJjMzEwZGZ6SWxXR0FLZXpWX2VWRXBORV82Ri13NG5mWEh6SmNReVVBbnZYcGJJZWR6M1pxbXhXZ2JRVjBNMmpWenVHcGU4dDdjTUMxSkZyZw?oc=5",
+      "locator": null,
+      "published_at": "2026-06-10"
+    },
+    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_55fdebc623",
+    "company_id": "cyera",
+    "metric": "valuation",
+    "value": 12000000000.0,
+    "unit": null,
+    "raw_text": "Cyera raises $600M at $12B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdlFtYVU2emFmT2hvaWZjbkhVY3MtcUdGNzlyNjM2aDZYRWh4V19lQThLaUlESUN5UUJJeXhGc2xRVHV1WkdaUlRqQ3VGblBzX2htV3pZSjUwdEJjMzEwZGZ6SWxXR0FLZXpWX2VWRXBORV82Ri13NG5mWEh6SmNReVVBbnZYcGJJZWR6M1pxbXhXZ2JRVjBNMmpWenVHcGU4dDdjTUMxSkZyZw?oc=5",
+      "locator": null,
+      "published_at": "2026-06-10"
+    },
+    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_5a0e771fdb",
+    "company_id": "cyera",
+    "metric": "latest_round",
+    "value": 600000000.0,
+    "unit": "USD",
+    "raw_text": "Cyera raises US$600 million at US$12 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "intelligentcio.com",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbHFDUjhSQVdoR3VpbkFpVTd5bWUtTmhyckpUYzVWeHRvR3BvN0hVNVRwUG5waEdBakVYMzd3M2pITmgxMTV4dWtiOHRpM09zQjctdGlUQ0FCc0d1SWtfUE5LSDFabG9Wd3YzTlJNMEoxNjJSZlpRcFJTS3ltMUlPWXJCdGx6V1Vja0xMUkNxRmZ4SjZfem1sUldGdUFkQUZBMUhzOU5PcTI1UkRmdDBmUTV3WnVYUGxjbVlNUDFNWGlMVXNqRkRmTFFXSjlqd2JqTE1NVFVLWUlpZVNEbGE0Z0RVaHVSQmpEa0Q3MlMza2hNT0E?oc=5",
+      "locator": null,
+      "published_at": "2026-06-10"
+    },
+    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_f4dded4b1c",
+    "company_id": "cyera",
+    "metric": "valuation",
+    "value": 12000000000.0,
+    "unit": "USD",
+    "raw_text": "Cyera raises US$600 million at US$12 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "intelligentcio.com",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbHFDUjhSQVdoR3VpbkFpVTd5bWUtTmhyckpUYzVWeHRvR3BvN0hVNVRwUG5waEdBakVYMzd3M2pITmgxMTV4dWtiOHRpM09zQjctdGlUQ0FCc0d1SWtfUE5LSDFabG9Wd3YzTlJNMEoxNjJSZlpRcFJTS3ltMUlPWXJCdGx6V1Vja0xMUkNxRmZ4SjZfem1sUldGdUFkQUZBMUhzOU5PcTI1UkRmdDBmUTV3WnVYUGxjbVlNUDFNWGlMVXNqRkRmTFFXSjlqd2JqTE1NVFVLWUlpZVNEbGE0Z0RVaHVSQmpEa0Q3MlMza2hNT0E?oc=5",
+      "locator": null,
+      "published_at": "2026-06-10"
+    },
+    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -532,54 +676,6 @@
       "published_at": "2026-06-10"
     },
     "extracted_at": "2026-09-04T09:41:05.539009",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_c192c709ee",
-    "company_id": "cyera",
-    "metric": "round_amount",
-    "value": 600000000.0,
-    "unit": "USD",
-    "raw_text": "Cyera Raises $600 Million at $12 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYURPZDQxZXJINHpucGVHeVBDR3U3VUdfdVRHUEE2c083dng2SjdBbGdLb1lxSC1sVU4tNnlReVJmOWdtaHlNTGcwU0JHd2N1X1J6RVZOTFMwVTlXRHNvTUxydHZJbVNVV1dWZWZ2MjBLRmdVV0dWMFd1MkdxWHRlOUdnOWhvcmJHdi1La1hVbXNRUnBhclVRSVhMaHo?oc=5",
-      "locator": null,
-      "published_at": "2026-06-10"
-    },
-    "extracted_at": "2026-09-17T10:01:41.438182",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_30e02b8bb3",
-    "company_id": "cyera",
-    "metric": "valuation",
-    "value": 12000000000.0,
-    "unit": "USD",
-    "raw_text": "$600 Million at $12 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYURPZDQxZXJINHpucGVHeVBDR3U3VUdfdVRHUEE2c083dng2SjdBbGdLb1lxSC1sVU4tNnlReVJmOWdtaHlNTGcwU0JHd2N1X1J6RVZOTFMwVTlXRHNvTUxydHZJbVNVV1dWZWZ2MjBLRmdVV0dWMFd1MkdxWHRlOUdnOWhvcmJHdi1La1hVbXNRUnBhclVRSVhMaHo?oc=5",
-      "locator": null,
-      "published_at": "2026-06-10"
-    },
-    "extracted_at": "2026-09-17T10:01:41.438182",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -1458,7 +1554,7 @@
     "derivation": null
   },
   {
-    "id": "drv_988718feaf",
+    "id": "drv_e957b9e728",
     "company_id": "cyera",
     "metric": "revenue_multiple",
     "value": 150000000.0,
@@ -1476,16 +1572,16 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-06-10"
+      "published_at": "2026-06-02"
     },
-    "extracted_at": "2026-09-21T10:38:28.440880",
+    "extracted_at": "2026-09-22T09:56:18.399410",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1087,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_f4dded4b1c",
+        "clm_b0a585a57d",
         "clm_5c256d86b4"
       ]
     }

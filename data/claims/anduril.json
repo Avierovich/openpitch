@@ -1,5 +1,32 @@
 [
   {
+    "id": "clm_6966bb7b74",
+    "company_id": "anduril",
+    "metric": "valuation",
+    "value": 100000000000.0,
+    "unit": "USD",
+    "raw_text": "$100B valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdmZ5R1dwZEVtU0dtblNNZDRRM1JfMElXZEVFcXJxSWkycjBjM2dCSUV2eDhaT2gyOWtSMU1WQmNHbE5JSTRmSU9mcG5odWdMUm1rTDFFbjF5RnJQZW5QZEtITXdvVlBzdnBRRXNQQVNtT0ZtcFgtSDlhSmpUTTdhcU1zQWlsa1lzdkEwUld3ZUJxMWpZczg0eXZJTXdUN2tvN2lWR0RrNDhsTWpVeldaOENqQU1QRzcxRzZqdnphd3dtWTB2?oc=5",
+      "locator": null,
+      "published_at": "2026-07-24"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2835,
+    "derivation": null
+  },
+  {
     "id": "clm_60dc13e9f2",
     "company_id": "anduril",
     "metric": "valuation",
@@ -28,33 +55,6 @@
     "derivation": null
   },
   {
-    "id": "clm_6966bb7b74",
-    "company_id": "anduril",
-    "metric": "valuation",
-    "value": 100000000000.0,
-    "unit": "USD",
-    "raw_text": "$100B valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdmZ5R1dwZEVtU0dtblNNZDRRM1JfMElXZEVFcXJxSWkycjBjM2dCSUV2eDhaT2gyOWtSMU1WQmNHbE5JSTRmSU9mcG5odWdMUm1rTDFFbjF5RnJQZW5QZEtITXdvVlBzdnBRRXNQQVNtT0ZtcFgtSDlhSmpUTTdhcU1zQWlsa1lzdkEwUld3ZUJxMWpZczg0eXZJTXdUN2tvN2lWR0RrNDhsTWpVeldaOENqQU1QRzcxRzZqdnphd3dtWTB2?oc=5",
-      "locator": null,
-      "published_at": "2026-07-24"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2835,
-    "derivation": null
-  },
-  {
     "id": "clm_f5aedcded5",
     "company_id": "anduril",
     "metric": "valuation",
@@ -80,6 +80,32 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.241,
+    "derivation": null
+  },
+  {
+    "id": "clm_a0dd1f2536",
+    "company_id": "anduril",
+    "metric": "valuation",
+    "value": 100000000000.0,
+    "unit": "USD",
+    "raw_text": "Anduril is in talks to raise money at a $100 billion valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNU3d6Tkt0Q0FEbEZ6UjMwYWcyMWRscVJoQXdWdjFUa3B5YzBIUUJvYldYWUtFcndVS1NlcjFfVnhCS3RycG04dlpGU0R5OUFyeFRybmxiaWZpV3VwUEl0cXJ3bHczRG5GUlhVV29LVlNlYVpUUjJPUV9NTERwVHBnbG93Nm05eEY0ZUM4dFd4ZzBGSVlqUHhNcEdoaWNUenVsWXB4MFRMcHRicmJCUTdPS3J5NW1ZVF8wcDExdzFuaFo0QnhzR3c0V1lyMjBtT294a2lVX082d1ppX2RaekpzRC1SV2FnbG1Gb043WmdB?oc=5",
+      "locator": null,
+      "published_at": "2026-07-24"
+    },
+    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -132,32 +158,6 @@
     },
     "extracted_at": "2026-09-09T09:51:11.595604",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_a0dd1f2536",
-    "company_id": "anduril",
-    "metric": "valuation",
-    "value": 100000000000.0,
-    "unit": "USD",
-    "raw_text": "Anduril is in talks to raise money at a $100 billion valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Startup Fortune",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNU3d6Tkt0Q0FEbEZ6UjMwYWcyMWRscVJoQXdWdjFUa3B5YzBIUUJvYldYWUtFcndVS1NlcjFfVnhCS3RycG04dlpGU0R5OUFyeFRybmxiaWZpV3VwUEl0cXJ3bHczRG5GUlhVV29LVlNlYVpUUjJPUV9NTERwVHBnbG93Nm05eEY0ZUM4dFd4ZzBGSVlqUHhNcEdoaWNUenVsWXB4MFRMcHRicmJCUTdPS3J5NW1ZVF8wcDExdzFuaFo0QnhzR3c0V1lyMjBtT294a2lVX082d1ppX2RaekpzRC1SV2FnbG1Gb043WmdB?oc=5",
-      "locator": null,
-      "published_at": "2026-07-24"
-    },
-    "extracted_at": "2026-09-11T09:45:35.269135",
-    "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.315,
     "derivation": null
   },

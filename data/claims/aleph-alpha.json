@@ -24,6 +24,58 @@
     "derivation": null
   },
   {
+    "id": "clm_07f01bc0e4",
+    "company_id": "aleph-alpha",
+    "metric": "round_amount",
+    "value": 500000000.0,
+    "unit": "USD",
+    "raw_text": "$500M+ funding round",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaXVBNXlTa1RQVnREZnFLMEVTREQxQktucXVQTHo2cko1djhEYll2bGxaa0ZEXzhCcXVfS2tfakJhSlVINmZ1Uk10a3NqUm1CTThZZE1DcmFpYVZUOEJTQ09JVWJqNmpBWFA5Z0hBc2E4aTloRFhLY2hsRFRiZThTTjdJNjJxTHVzVGFLZVhDLTk2cnRYeXFnRGN0NWQycl9EcXRHbS1kUjQ?oc=5",
+      "locator": null,
+      "published_at": "2023-11-06"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2625,
+    "derivation": null
+  },
+  {
+    "id": "clm_e74c6b42ff",
+    "company_id": "aleph-alpha",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": null,
+    "raw_text": "reported $20B deal",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObjdLbFl0R2V0U0YzaXowb19oa2RtcjMwNl85d2xCdURkenVJbWE2YUZWMXhqcVd2cktXZGo0M0FLMmdRYXRodlR5UENUcUQzNlZSUVY5QXBkSlB2WG9OYmZaajh3bkhWUzY5YXFvV2NfeGtqR1pEdnFaT0VTTWpWNV9Zc3U3VEFDLUVwQm9QVUlydzhadThjeFdKdw?oc=5",
+      "locator": null,
+      "published_at": "2026-09-16"
+    },
+    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_e05e1186e8",
     "company_id": "aleph-alpha",
     "metric": "valuation",
@@ -217,32 +269,6 @@
     "extracted_at": "2026-07-12T07:44:16.543146",
     "extractor_model": "gemini-2.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_07f01bc0e4",
-    "company_id": "aleph-alpha",
-    "metric": "round_amount",
-    "value": 500000000.0,
-    "unit": "USD",
-    "raw_text": "$500M+ funding round",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "siliconangle.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaXVBNXlTa1RQVnREZnFLMEVTREQxQktucXVQTHo2cko1djhEYll2bGxaa0ZEXzhCcXVfS2tfakJhSlVINmZ1Uk10a3NqUm1CTThZZE1DcmFpYVZUOEJTQ09JVWJqNmpBWFA5Z0hBc2E4aTloRFhLY2hsRFRiZThTTjdJNjJxTHVzVGFLZVhDLTk2cnRYeXFnRGN0NWQycl9EcXRHbS1kUjQ?oc=5",
-      "locator": null,
-      "published_at": "2023-11-06"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2625,
     "derivation": null
   },
   {

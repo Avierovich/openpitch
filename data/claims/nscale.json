@@ -1,13 +1,14 @@
 [
   {
-    "id": "clm_69d859ab50",
+    "id": "clm_8129909a1a",
     "company_id": "nscale",
-    "metric": "arr",
-    "value": 103000000000.0,
+    "metric": "valuation",
+    "value": 35000000000.0,
     "unit": "USD",
-    "raw_text": "Nscale touts $103 billion contracted revenue ahead of potential IPO",
+    "raw_text": "$35bn valuation target",
     "qualifiers": [
-      "forward_looking"
+      "forward_looking",
+      "unconfirmed"
     ],
     "speaker": {
       "name": null,
@@ -15,14 +16,41 @@
     },
     "source": {
       "type": "news",
-      "name": "The Lufkin Daily News",
-      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOSnV1UzRHZHNYUzJVWkVWekZ0Mm82NkZZVUVXbUR0akY5M2R5eFZtdkJ5V01zRGRITDY0VEdWZjNLOElHbWx2Yl9MZF9abXpLb2hReVBjZXZJOGwxWnBZTWFDX2I3bDFEVXdWZXI2eFlsdjVoYmtDWkJXY2wyMm9uOEpzWW9aTm12NENtZFhvc0lBRHloRHpZRzBhUkJVM0lHSjVYTVZGV0hJMkg2cGhsMjZDb0RhZlNDa05QWGtoR0dQS1g3U2pLQVoyZVNnanhEQmU4YVNENXFoeFhRcG90N1pBZ1lWcGFBTUdMbFRLYTJZUHFDUHZobHRqSUxqZU94dGk4b0JVMGdBcFRGenRvNVBueEFfTG5jdlE?oc=5",
+      "name": "Computing UK",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUlRZNFZZQy1LYzRhUlQxMldOeUxzUVRuTGtielRoQnVlYVBkQUp6WFhCNmx2VmVacUcyT09HdER1V3ZlbWo4RmlMMkRudmVCVEF2d2ExeVNEcHcyOHJXOGl4LWJMVzFaOU5NVzd1djlxNmw5bnBQUVZmc1ZKQ0hETjZDU1hKNlZjWjc2LVhmUEJjTnRQX2NB?oc=5",
       "locator": null,
-      "published_at": "2026-09-02"
+      "published_at": "2026-09-21"
     },
-    "extracted_at": "2026-09-16T10:35:49.404557",
+    "extracted_at": "2026-09-21T10:38:28.440880",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3675,
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_d6354f274d",
+    "company_id": "nscale",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "$30B IPO valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV2UxWFZEZllVZDMwSjFvS1FpUXZSc19zYXU0MVNybGJZdUlFNXN2NkItNllpZUNGVkxwSzJLa1RqTVpraFdqbDhBY0gwX3E4T2FEV2UyT2M3VXItLXB0VWVZeldka25NVlVuZkhjb2VlQ0oxOTk2V3d1ZmpaWjZNWg?oc=5",
+      "locator": null,
+      "published_at": "2026-09-21"
+    },
+    "extracted_at": "2026-09-21T10:38:28.440880",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -127,15 +155,14 @@
     "derivation": null
   },
   {
-    "id": "clm_8129909a1a",
+    "id": "clm_4859071d2b",
     "company_id": "nscale",
     "metric": "valuation",
-    "value": 35000000000.0,
-    "unit": "USD",
-    "raw_text": "$35bn valuation target",
+    "value": 14600000000.0,
+    "unit": null,
+    "raw_text": "$14.6B valuation",
     "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
+      "rounded"
     ],
     "speaker": {
       "name": null,
@@ -143,26 +170,26 @@
     },
     "source": {
       "type": "news",
-      "name": "Computing UK",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUlRZNFZZQy1LYzRhUlQxMldOeUxzUVRuTGtielRoQnVlYVBkQUp6WFhCNmx2VmVacUcyT09HdER1V3ZlbWo4RmlMMkRudmVCVEF2d2ExeVNEcHcyOHJXOGl4LWJMVzFaOU5NVzd1djlxNmw5bnBQUVZmc1ZKQ0hETjZDU1hKNlZjWjc2LVhmUEJjTnRQX2NB?oc=5",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQejFHRXNaSGdPcHhreFIxX2o3eGkzWmhGdGFzczA1QTRUMEtTOENPdDhHSmJYRzd4bW54RkFHNHZleDRtdFJaWFAxSGRvRk1uNzdQaFVyeThGZEY5S1FPNGxTM056Z1hmdk1MNndzZWxhNDZjOU1oZHJYbGxNWTl4QWNPUVJCbkRuS1Z4TzdIblo2cGh4ZlJZaW4wbHFhemZOalR4RjFmTkxiNXFlRFNMMkNETnVYWDQ?oc=5",
       "locator": null,
       "published_at": "2026-09-21"
     },
-    "extracted_at": "2026-09-21T10:38:28.440880",
+    "extracted_at": "2026-09-22T09:56:18.399410",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
+    "base_confidence": 0.4725,
     "derivation": null
   },
   {
-    "id": "clm_d6354f274d",
+    "id": "clm_11606c6831",
     "company_id": "nscale",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "$30B IPO valuation",
+    "metric": "arr",
+    "value": 103000000000.0,
+    "unit": null,
+    "raw_text": "$103 billion contracted revenue",
     "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
+      "rounded",
+      "forward_looking"
     ],
     "speaker": {
       "name": null,
@@ -170,14 +197,40 @@
     },
     "source": {
       "type": "news",
-      "name": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV2UxWFZEZllVZDMwSjFvS1FpUXZSc19zYXU0MVNybGJZdUlFNXN2NkItNllpZUNGVkxwSzJLa1RqTVpraFdqbDhBY0gwX3E4T2FEV2UyT2M3VXItLXB0VWVZeldka25NVlVuZkhjb2VlQ0oxOTk2V3d1ZmpaWjZNWg?oc=5",
+      "name": "lufkindailynews.com",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOSnV1UzRHZHNYUzJVWkVWekZ0Mm82NkZZVUVXbUR0akY5M2R5eFZtdkJ5V01zRGRITDY0VEdWZjNLOElHbWx2Yl9MZF9abXpLb2hReVBjZXZJOGwxWnBZTWFDX2I3bDFEVXdWZXI2eFlsdjVoYmtDWkJXY2wyMm9uOEpzWW9aTm12NENtZFhvc0lBRHloRHpZRzBhUkJVM0lHSjVYTVZGV0hJMkg2cGhsMjZDb0RhZlNDa05QWGtoR0dQS1g3U2pLQVoyZVNnanhEQmU4YVNENXFoeFhRcG90N1pBZ1lWcGFBTUdMbFRLYTJZUHFDUHZobHRqSUxqZU94dGk4b0JVMGdBcFRGenRvNVBueEFfTG5jdlE?oc=5",
       "locator": null,
-      "published_at": "2026-09-21"
+      "published_at": "2026-09-02"
     },
-    "extracted_at": "2026-09-21T10:38:28.440880",
+    "extracted_at": "2026-09-22T09:56:18.399410",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
+    "base_confidence": 0.3307,
+    "derivation": null
+  },
+  {
+    "id": "clm_69d859ab50",
+    "company_id": "nscale",
+    "metric": "arr",
+    "value": 103000000000.0,
+    "unit": "USD",
+    "raw_text": "Nscale touts $103 billion contracted revenue ahead of potential IPO",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Lufkin Daily News",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOSnV1UzRHZHNYUzJVWkVWekZ0Mm82NkZZVUVXbUR0akY5M2R5eFZtdkJ5V01zRGRITDY0VEdWZjNLOElHbWx2Yl9MZF9abXpLb2hReVBjZXZJOGwxWnBZTWFDX2I3bDFEVXdWZXI2eFlsdjVoYmtDWkJXY2wyMm9uOEpzWW9aTm12NENtZFhvc0lBRHloRHpZRzBhUkJVM0lHSjVYTVZGV0hJMkg2cGhsMjZDb0RhZlNDa05QWGtoR0dQS1g3U2pLQVoyZVNnanhEQmU4YVNENXFoeFhRcG90N1pBZ1lWcGFBTUdMbFRLYTJZUHFDUHZobHRqSUxqZU94dGk4b0JVMGdBcFRGenRvNVBueEFfTG5jdlE?oc=5",
+      "locator": null,
+      "published_at": "2026-09-02"
+    },
+    "extracted_at": "2026-09-16T10:35:49.404557",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3675,
     "derivation": null
   },
   {
@@ -1339,7 +1392,7 @@
       "locator": null,
       "published_at": "2026-09-02"
     },
-    "extracted_at": "2026-09-21T10:38:28.440880",
+    "extracted_at": "2026-09-22T09:56:18.399410",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {

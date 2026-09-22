@@ -1,53 +1,5 @@
 [
   {
-    "id": "clm_2d07516c07",
-    "company_id": "fluidstack",
-    "metric": "total_funding",
-    "value": 830000000.0,
-    "unit": null,
-    "raw_text": "raises $830M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX21LenR2STZ5ZUpqbVZMMndaX3VBUmlBQUdRWEZ5dlg0MFN0bGVjZmtoUHFsMEw5LUFiQlUyTVAxNnk5UEswRkI1VG5aZmlodG0wcDJLM3RvUXRFdjljMkhRenAxTVhJWnY3RUFDVlFqYjllV3E2Q25hU2lrMjVCWTEzREE0ZHRjZGVTd0lrT1g0MndwWl9kVGtYMmpiZw?oc=5",
-      "locator": null,
-      "published_at": "2026-07-21"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_5d3de9f949",
-    "company_id": "fluidstack",
-    "metric": "valuation",
-    "value": 7500000000.0,
-    "unit": null,
-    "raw_text": "$7.5B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX21LenR2STZ5ZUpqbVZMMndaX3VBUmlBQUdRWEZ5dlg0MFN0bGVjZmtoUHFsMEw5LUFiQlUyTVAxNnk5UEswRkI1VG5aZmlodG0wcDJLM3RvUXRFdjljMkhRenAxTVhJWnY3RUFDVlFqYjllV3E2Q25hU2lrMjVCWTEzREE0ZHRjZGVTd0lrT1g0MndwWl9kVGtYMmpiZw?oc=5",
-      "locator": null,
-      "published_at": "2026-07-21"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_344b1821f9",
     "company_id": "fluidstack",
     "metric": "total_funding",
@@ -126,27 +78,57 @@
     "derivation": null
   },
   {
-    "id": "clm_efe4cdffe1",
+    "id": "clm_d45f039187",
     "company_id": "fluidstack",
-    "metric": "open_roles",
-    "value": 238.0,
+    "metric": "valuation",
+    "value": 18000000000.0,
     "unit": null,
-    "raw_text": "238 open",
-    "qualifiers": [],
+    "raw_text": "$18bn Fluidstack valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
     "speaker": {
       "name": null,
       "role": "unknown"
     },
     "source": {
-      "type": "web",
-      "name": "fluidstack.io",
-      "url": "https://fluidstack.io/careers",
+      "type": "news",
+      "name": "Private Equity Insights",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaDdUT2ZrN0F3VkUwYlRSTXBGV0R0emNZclF1aVFSdXd0WDNYQUZxQlBhLVBMSVJ1MGtiYjhKbVhjUURSb2ZqRU5DN0h1WGtzMXZyZUJWT1Z3Nm5oQ1RORkRNc3hRWW81bkVpLUxacHM1eUNjTnFWbm5YNDhRYlBsYUFuUHFSWlN4V2x6VlFjV1BRM1FpeFVMTWgyX1Q0NWFHX2FJbjJVNA?oc=5",
       "locator": null,
-      "published_at": null
+      "published_at": "2026-04-15"
     },
-    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
+    "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
+    "id": "clm_acab5a73f4",
+    "company_id": "fluidstack",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "$1bn raise",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Private Equity Insights",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaDdUT2ZrN0F3VkUwYlRSTXBGV0R0emNZclF1aVFSdXd0WDNYQUZxQlBhLVBMSVJ1MGtiYjhKbVhjUURSb2ZqRU5DN0h1WGtzMXZyZUJWT1Z3Nm5oQ1RORkRNc3hRWW81bkVpLUxacHM1eUNjTnFWbm5YNDhRYlBsYUFuUHFSWlN4V2x6VlFjV1BRM1FpeFVMTWgyX1Q0NWFHX2FJbjJVNA?oc=5",
+      "locator": null,
+      "published_at": "2026-04-15"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
     "derivation": null
   },
   {
@@ -219,84 +201,6 @@
     "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_efe4cdffe1",
-    "company_id": "fluidstack",
-    "metric": "open_roles",
-    "value": 238.0,
-    "unit": null,
-    "raw_text": "238 open",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "fluidstack.io",
-      "url": "https://fluidstack.io/jobs",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-09-19T09:29:15.949394",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_d45f039187",
-    "company_id": "fluidstack",
-    "metric": "valuation",
-    "value": 18000000000.0,
-    "unit": null,
-    "raw_text": "$18bn Fluidstack valuation",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Private Equity Insights",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaDdUT2ZrN0F3VkUwYlRSTXBGV0R0emNZclF1aVFSdXd0WDNYQUZxQlBhLVBMSVJ1MGtiYjhKbVhjUURSb2ZqRU5DN0h1WGtzMXZyZUJWT1Z3Nm5oQ1RORkRNc3hRWW81bkVpLUxacHM1eUNjTnFWbm5YNDhRYlBsYUFuUHFSWlN4V2x6VlFjV1BRM1FpeFVMTWgyX1Q0NWFHX2FJbjJVNA?oc=5",
-      "locator": null,
-      "published_at": "2026-04-15"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1575,
-    "derivation": null
-  },
-  {
-    "id": "clm_acab5a73f4",
-    "company_id": "fluidstack",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "$1bn raise",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Private Equity Insights",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaDdUT2ZrN0F3VkUwYlRSTXBGV0R0emNZclF1aVFSdXd0WDNYQUZxQlBhLVBMSVJ1MGtiYjhKbVhjUURSb2ZqRU5DN0h1WGtzMXZyZUJWT1Z3Nm5oQ1RORkRNc3hRWW81bkVpLUxacHM1eUNjTnFWbm5YNDhRYlBsYUFuUHFSWlN4V2x6VlFjV1BRM1FpeFVMTWgyX1Q0NWFHX2FJbjJVNA?oc=5",
-      "locator": null,
-      "published_at": "2026-04-15"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1575,
     "derivation": null
   },
   {
@@ -633,6 +537,299 @@
     "derivation": null
   },
   {
+    "id": "clm_4a7c9062dd",
+    "company_id": "fluidstack",
+    "metric": "round_amount",
+    "value": 700000000.0,
+    "unit": "USD",
+    "raw_text": "$700M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTUNha2hqWGJZaU1nLWFpaHlmc0RwckZhRE1oS0ZzWFdqX0JYOWR4X2dTLW1ncEVoYVI2Qk94aGozLS1taHExenVXUXh1dmxrYzNVWlI0NGVheERYemhXYVIxZWZyVncwbnktVmt0OVZ3ZEg1RU9vY1Uwa3ZLcE9leDVFNkpDM2FwTEUxSUs2TDJ6TzN4ZGxmQUNtLUtyZWkzQ2cyaFJTeG1lVmtiY25tLQ?oc=5",
+      "locator": null,
+      "published_at": "2025-12-05"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_ba67cde51e",
+    "company_id": "fluidstack",
+    "metric": "valuation",
+    "value": 7000000000.0,
+    "unit": "USD",
+    "raw_text": "$7B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTUNha2hqWGJZaU1nLWFpaHlmc0RwckZhRE1oS0ZzWFdqX0JYOWR4X2dTLW1ncEVoYVI2Qk94aGozLS1taHExenVXUXh1dmxrYzNVWlI0NGVheERYemhXYVIxZWZyVncwbnktVmt0OVZ3ZEg1RU9vY1Uwa3ZLcE9leDVFNkpDM2FwTEUxSUs2TDJ6TzN4ZGxmQUNtLUtyZWkzQ2cyaFJTeG1lVmtiY25tLQ?oc=5",
+      "locator": null,
+      "published_at": "2025-12-05"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_d9e261cfb1",
+    "company_id": "fluidstack",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "$1B Funding",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "MLQ.ai",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM1NBakotYlkzQUlHVmRWTWZJemhaUkE1MFVBVk5GNUd1cUtOZjJDemxOS3dSU2p5Y19aVmxyVFN4WlJ3WEJURUE0Wms2Tl9nOVVWbFZHVmgtLWtzY2NOWk03Xy1rUEhieVh3c2Q2Q1NoRW1FWXkxVU5paDdNQVZfQ2t1bWJvaFYxQnQwSWVDXzRHTVhkYnZScHBybjVPQQ?oc=5",
+      "locator": null,
+      "published_at": "2026-04-15"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_c4645dcdb4",
+    "company_id": "fluidstack",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": "USD",
+    "raw_text": "$18B Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "MLQ.ai",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM1NBakotYlkzQUlHVmRWTWZJemhaUkE1MFVBVk5GNUd1cUtOZjJDemxOS3dSU2p5Y19aVmxyVFN4WlJ3WEJURUE0Wms2Tl9nOVVWbFZHVmgtLWtzY2NOWk03Xy1rUEhieVh3c2Q2Q1NoRW1FWXkxVU5paDdNQVZfQ2t1bWJvaFYxQnQwSWVDXzRHTVhkYnZScHBybjVPQQ?oc=5",
+      "locator": null,
+      "published_at": "2026-04-15"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_dbcd441a6e",
+    "company_id": "fluidstack",
+    "metric": "round_amount",
+    "value": 830000000.0,
+    "unit": null,
+    "raw_text": "raises $830M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX21LenR2STZ5ZUpqbVZMMndaX3VBUmlBQUdRWEZ5dlg0MFN0bGVjZmtoUHFsMEw5LUFiQlUyTVAxNnk5UEswRkI1VG5aZmlodG0wcDJLM3RvUXRFdjljMkhRenAxTVhJWnY3RUFDVlFqYjllV3E2Q25hU2lrMjVCWTEzREE0ZHRjZGVTd0lrT1g0MndwWl9kVGtYMmpiZw?oc=5",
+      "locator": null,
+      "published_at": "2026-07-21"
+    },
+    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_c494155064",
+    "company_id": "fluidstack",
+    "metric": "valuation",
+    "value": 7500000000.0,
+    "unit": null,
+    "raw_text": "$7.5B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX21LenR2STZ5ZUpqbVZMMndaX3VBUmlBQUdRWEZ5dlg0MFN0bGVjZmtoUHFsMEw5LUFiQlUyTVAxNnk5UEswRkI1VG5aZmlodG0wcDJLM3RvUXRFdjljMkhRenAxTVhJWnY3RUFDVlFqYjllV3E2Q25hU2lrMjVCWTEzREE0ZHRjZGVTd0lrT1g0MndwWl9kVGtYMmpiZw?oc=5",
+      "locator": null,
+      "published_at": "2026-07-21"
+    },
+    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_fca3b1940f",
+    "company_id": "fluidstack",
+    "metric": "open_roles",
+    "value": 237.0,
+    "unit": null,
+    "raw_text": "237 open",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fluidstack.io",
+      "url": "https://fluidstack.io/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_fca3b1940f",
+    "company_id": "fluidstack",
+    "metric": "open_roles",
+    "value": 237.0,
+    "unit": null,
+    "raw_text": "237 open",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fluidstack.io",
+      "url": "https://fluidstack.io/jobs",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_2d07516c07",
+    "company_id": "fluidstack",
+    "metric": "total_funding",
+    "value": 830000000.0,
+    "unit": null,
+    "raw_text": "raises $830M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX21LenR2STZ5ZUpqbVZMMndaX3VBUmlBQUdRWEZ5dlg0MFN0bGVjZmtoUHFsMEw5LUFiQlUyTVAxNnk5UEswRkI1VG5aZmlodG0wcDJLM3RvUXRFdjljMkhRenAxTVhJWnY3RUFDVlFqYjllV3E2Q25hU2lrMjVCWTEzREE0ZHRjZGVTd0lrT1g0MndwWl9kVGtYMmpiZw?oc=5",
+      "locator": null,
+      "published_at": "2026-07-21"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_5d3de9f949",
+    "company_id": "fluidstack",
+    "metric": "valuation",
+    "value": 7500000000.0,
+    "unit": null,
+    "raw_text": "$7.5B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX21LenR2STZ5ZUpqbVZMMndaX3VBUmlBQUdRWEZ5dlg0MFN0bGVjZmtoUHFsMEw5LUFiQlUyTVAxNnk5UEswRkI1VG5aZmlodG0wcDJLM3RvUXRFdjljMkhRenAxTVhJWnY3RUFDVlFqYjllV3E2Q25hU2lrMjVCWTEzREE0ZHRjZGVTd0lrT1g0MndwWl9kVGtYMmpiZw?oc=5",
+      "locator": null,
+      "published_at": "2026-07-21"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_efe4cdffe1",
+    "company_id": "fluidstack",
+    "metric": "open_roles",
+    "value": 238.0,
+    "unit": null,
+    "raw_text": "238 open",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fluidstack.io",
+      "url": "https://fluidstack.io/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_efe4cdffe1",
+    "company_id": "fluidstack",
+    "metric": "open_roles",
+    "value": 238.0,
+    "unit": null,
+    "raw_text": "238 open",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fluidstack.io",
+      "url": "https://fluidstack.io/jobs",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
     "id": "clm_10b8af162f",
     "company_id": "fluidstack",
     "metric": "valuation",
@@ -736,54 +933,6 @@
     "extracted_at": "2026-09-21T10:38:28.440880",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.3675,
-    "derivation": null
-  },
-  {
-    "id": "clm_4a7c9062dd",
-    "company_id": "fluidstack",
-    "metric": "round_amount",
-    "value": 700000000.0,
-    "unit": "USD",
-    "raw_text": "$700M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTUNha2hqWGJZaU1nLWFpaHlmc0RwckZhRE1oS0ZzWFdqX0JYOWR4X2dTLW1ncEVoYVI2Qk94aGozLS1taHExenVXUXh1dmxrYzNVWlI0NGVheERYemhXYVIxZWZyVncwbnktVmt0OVZ3ZEg1RU9vY1Uwa3ZLcE9leDVFNkpDM2FwTEUxSUs2TDJ6TzN4ZGxmQUNtLUtyZWkzQ2cyaFJTeG1lVmtiY25tLQ?oc=5",
-      "locator": null,
-      "published_at": "2025-12-05"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_ba67cde51e",
-    "company_id": "fluidstack",
-    "metric": "valuation",
-    "value": 7000000000.0,
-    "unit": "USD",
-    "raw_text": "$7B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTUNha2hqWGJZaU1nLWFpaHlmc0RwckZhRE1oS0ZzWFdqX0JYOWR4X2dTLW1ncEVoYVI2Qk94aGozLS1taHExenVXUXh1dmxrYzNVWlI0NGVheERYemhXYVIxZWZyVncwbnktVmt0OVZ3ZEg1RU9vY1Uwa3ZLcE9leDVFNkpDM2FwTEUxSUs2TDJ6TzN4ZGxmQUNtLUtyZWkzQ2cyaFJTeG1lVmtiY25tLQ?oc=5",
-      "locator": null,
-      "published_at": "2025-12-05"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -1019,59 +1168,6 @@
     "derivation": null
   },
   {
-    "id": "clm_d9e261cfb1",
-    "company_id": "fluidstack",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "$1B Funding",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "MLQ.ai",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM1NBakotYlkzQUlHVmRWTWZJemhaUkE1MFVBVk5GNUd1cUtOZjJDemxOS3dSU2p5Y19aVmxyVFN4WlJ3WEJURUE0Wms2Tl9nOVVWbFZHVmgtLWtzY2NOWk03Xy1rUEhieVh3c2Q2Q1NoRW1FWXkxVU5paDdNQVZfQ2t1bWJvaFYxQnQwSWVDXzRHTVhkYnZScHBybjVPQQ?oc=5",
-      "locator": null,
-      "published_at": "2026-04-15"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_c4645dcdb4",
-    "company_id": "fluidstack",
-    "metric": "valuation",
-    "value": 18000000000.0,
-    "unit": "USD",
-    "raw_text": "$18B Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "MLQ.ai",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM1NBakotYlkzQUlHVmRWTWZJemhaUkE1MFVBVk5GNUd1cUtOZjJDemxOS3dSU2p5Y19aVmxyVFN4WlJ3WEJURUE0Wms2Tl9nOVVWbFZHVmgtLWtzY2NOWk03Xy1rUEhieVh3c2Q2Q1NoRW1FWXkxVU5paDdNQVZfQ2t1bWJvaFYxQnQwSWVDXzRHTVhkYnZScHBybjVPQQ?oc=5",
-      "locator": null,
-      "published_at": "2026-04-15"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_2737e20bb4",
     "company_id": "fluidstack",
     "metric": "round_amount",
@@ -1249,54 +1345,6 @@
     "extracted_at": "2026-09-17T10:01:41.438182",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_fca3b1940f",
-    "company_id": "fluidstack",
-    "metric": "open_roles",
-    "value": 237.0,
-    "unit": "roles",
-    "raw_text": "237 open",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "fluidstack.io",
-      "url": "https://fluidstack.io/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-09-18T09:44:30.525514",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_fca3b1940f",
-    "company_id": "fluidstack",
-    "metric": "open_roles",
-    "value": 237.0,
-    "unit": "roles",
-    "raw_text": "237 open",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "fluidstack.io",
-      "url": "https://fluidstack.io/jobs",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-09-18T09:44:30.525514",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
     "derivation": null
   },
   {

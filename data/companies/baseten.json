@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2026-06-23",
       "estimate_type": "consensus",
-      "confidence": 0.79,
+      "confidence": 0.789,
       "supporting_claims": [
         "clm_b3b2cac8f3",
         "clm_c91a601cf6",
@@ -58,9 +58,9 @@
         "clm_73319e6879",
         "clm_5e2875b680",
         "clm_d994ad649f",
-        "clm_cc644673aa",
-        "clm_0479300cde",
         "clm_2116a0494f",
+        "clm_0479300cde",
+        "clm_cc644673aa",
         "clm_c08086f417",
         "clm_b8339eadd6",
         "clm_ea52f65824",
@@ -92,8 +92,8 @@
       "estimate_type": "consensus",
       "confidence": 0.934,
       "supporting_claims": [
-        "clm_0df3bf0061",
         "clm_eb78c64da2",
+        "clm_0df3bf0061",
         "clm_15706b1239",
         "clm_5b85f7103d",
         "clm_2b441e392a",
@@ -112,6 +112,28 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "revenue_growth": {
+      "metric": "revenue_growth",
+      "value": 30.0,
+      "unit": "pct",
+      "range": null,
+      "as_of": "2026-05-01",
+      "estimate_type": "reported",
+      "confidence": 0.127,
+      "supporting_claims": [
+        "clm_adcef28feb"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 30.0,
+        "change_pct": 0.0,
+        "since": "2026-05-01"
+      },
+      "history_ref": "history/baseten/revenue_growth.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "total_funding": {
       "metric": "total_funding",
       "value": 1500000000.0,
@@ -122,7 +144,7 @@
       },
       "as_of": "2026-06-23",
       "estimate_type": "consensus",
-      "confidence": 0.553,
+      "confidence": 0.552,
       "supporting_claims": [
         "clm_a82d979492",
         "clm_0c10c0e957"
@@ -134,28 +156,6 @@
         "since": "2026-06-23"
       },
       "history_ref": "history/baseten/total_funding.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "revenue_growth": {
-      "metric": "revenue_growth",
-      "value": 30.0,
-      "unit": "pct",
-      "range": null,
-      "as_of": "2026-05-01",
-      "estimate_type": "reported",
-      "confidence": 0.182,
-      "supporting_claims": [
-        "clm_adcef28feb"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 3000.0,
-        "change_pct": -99.0,
-        "since": "2026-05-01"
-      },
-      "history_ref": "history/baseten/revenue_growth.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -189,14 +189,14 @@
       "range": null,
       "as_of": "2026-06-23",
       "estimate_type": "reported",
-      "confidence": 0.12,
+      "confidence": 0.119,
       "supporting_claims": [
         "drv_12e9373827"
       ],
       "contradiction": false,
       "delta": {
         "previous": 822.78,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-06-23"
       },
       "history_ref": "history/baseten/revenue_multiple.jsonl",
@@ -205,5 +205,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-21"
+  "last_updated": "2026-09-22"
 }

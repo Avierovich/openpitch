@@ -240,40 +240,39 @@
     "derivation": null
   },
   {
-    "id": "clm_3727a05e75",
-    "company_id": "thinking-machines",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "Thinking Machines Lab Seeks $1 Billion",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "PYMNTS.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONDBZX3RQaVFSZ2Mtc1lTVmp3dlNtQk93MDI4b2xhUWF0bHh3UmJsOHl1Tld4QW03UnY4MUxwMGhETmZqUGZOdWRHQ3lDX3dEejRRU1VvSlptTHd5cXV0VEpaVmtGclZ4X0d5bFd6NzlfN0VOX1lPa2QwTTNQeDByTHRBeHd1QnZaa3RMbml3a1p4UWZtQldzWlo1VTFoTlBta29TeXNiRjluV25JcllIb1Jubw?oc=5",
-      "locator": null,
-      "published_at": "2026-09-03"
-    },
-    "extracted_at": "2026-09-05T09:07:28.177448",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_79da0e2f28",
+    "id": "clm_ad5310cb26",
     "company_id": "thinking-machines",
     "metric": "valuation",
     "value": 40000000000.0,
     "unit": "USD",
     "raw_text": "$40 Billion Valuation",
     "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "pymnts.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONDBZX3RQaVFSZ2Mtc1lTVmp3dlNtQk93MDI4b2xhUWF0bHh3UmJsOHl1Tld4QW03UnY4MUxwMGhETmZqUGZOdWRHQ3lDX3dEejRRU1VvSlptTHd5cXV0VEpaVmtGclZ4X0d5bFd6NzlfN0VOX1lPa2QwTTNQeDByTHRBeHd1QnZaa3RMbml3a1p4UWZtQldzWlo1VTFoTlBta29TeXNiRjluV25JcllIb1Jubw?oc=5",
+      "locator": null,
+      "published_at": "2026-09-03"
+    },
+    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_7874de7184",
+    "company_id": "thinking-machines",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "$1 Billion",
+    "qualifiers": [
       "unconfirmed",
       "forward_looking"
     ],
@@ -283,12 +282,12 @@
     },
     "source": {
       "type": "news",
-      "name": "PYMNTS.com",
+      "name": "pymnts.com",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONDBZX3RQaVFSZ2Mtc1lTVmp3dlNtQk93MDI4b2xhUWF0bHh3UmJsOHl1Tld4QW03UnY4MUxwMGhETmZqUGZOdWRHQ3lDX3dEejRRU1VvSlptTHd5cXV0VEpaVmtGclZ4X0d5bFd6NzlfN0VOX1lPa2QwTTNQeDByTHRBeHd1QnZaa3RMbml3a1p4UWZtQldzWlo1VTFoTlBta29TeXNiRjluV25JcllIb1Jubw?oc=5",
       "locator": null,
       "published_at": "2026-09-03"
     },
-    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
     "derivation": null
@@ -474,6 +473,60 @@
     "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_3727a05e75",
+    "company_id": "thinking-machines",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "Thinking Machines Lab Seeks $1 Billion",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONDBZX3RQaVFSZ2Mtc1lTVmp3dlNtQk93MDI4b2xhUWF0bHh3UmJsOHl1Tld4QW03UnY4MUxwMGhETmZqUGZOdWRHQ3lDX3dEejRRU1VvSlptTHd5cXV0VEpaVmtGclZ4X0d5bFd6NzlfN0VOX1lPa2QwTTNQeDByTHRBeHd1QnZaa3RMbml3a1p4UWZtQldzWlo1VTFoTlBta29TeXNiRjluV25JcllIb1Jubw?oc=5",
+      "locator": null,
+      "published_at": "2026-09-03"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_79da0e2f28",
+    "company_id": "thinking-machines",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "$40 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONDBZX3RQaVFSZ2Mtc1lTVmp3dlNtQk93MDI4b2xhUWF0bHh3UmJsOHl1Tld4QW03UnY4MUxwMGhETmZqUGZOdWRHQ3lDX3dEejRRU1VvSlptTHd5cXV0VEpaVmtGclZ4X0d5bFd6NzlfN0VOX1lPa2QwTTNQeDByTHRBeHd1QnZaa3RMbml3a1p4UWZtQldzWlo1VTFoTlBta29TeXNiRjluV25JcllIb1Jubw?oc=5",
+      "locator": null,
+      "published_at": "2026-09-03"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -796,59 +849,6 @@
       "published_at": "2026-09-03"
     },
     "extracted_at": "2026-09-17T10:01:41.438182",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_ad5310cb26",
-    "company_id": "thinking-machines",
-    "metric": "valuation",
-    "value": 40000000000.0,
-    "unit": "USD",
-    "raw_text": "$40 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "pymnts.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONDBZX3RQaVFSZ2Mtc1lTVmp3dlNtQk93MDI4b2xhUWF0bHh3UmJsOHl1Tld4QW03UnY4MUxwMGhETmZqUGZOdWRHQ3lDX3dEejRRU1VvSlptTHd5cXV0VEpaVmtGclZ4X0d5bFd6NzlfN0VOX1lPa2QwTTNQeDByTHRBeHd1QnZaa3RMbml3a1p4UWZtQldzWlo1VTFoTlBta29TeXNiRjluV25JcllIb1Jubw?oc=5",
-      "locator": null,
-      "published_at": "2026-09-03"
-    },
-    "extracted_at": "2026-09-04T09:41:05.539009",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_7874de7184",
-    "company_id": "thinking-machines",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "$1 Billion",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "pymnts.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONDBZX3RQaVFSZ2Mtc1lTVmp3dlNtQk93MDI4b2xhUWF0bHh3UmJsOHl1Tld4QW03UnY4MUxwMGhETmZqUGZOdWRHQ3lDX3dEejRRU1VvSlptTHd5cXV0VEpaVmtGclZ4X0d5bFd6NzlfN0VOX1lPa2QwTTNQeDByTHRBeHd1QnZaa3RMbml3a1p4UWZtQldzWlo1VTFoTlBta29TeXNiRjluV25JcllIb1Jubw?oc=5",
-      "locator": null,
-      "published_at": "2026-09-03"
-    },
-    "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
     "derivation": null

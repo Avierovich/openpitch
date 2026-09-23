@@ -20,18 +20,22 @@
         "low": 12000000000.0,
         "high": 12000000000.0
       },
-      "as_of": "2026-06-11",
+      "as_of": "2026-09-23",
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
+        "clm_17cb71f8b1",
         "clm_197972eb0f",
         "clm_c0d0f47aad",
-        "clm_30e02b8bb3",
         "clm_da5ca093e9",
+        "clm_88488c1e0d",
+        "clm_b14a9afb2e",
+        "clm_10364f9ddb",
+        "clm_4746302d00",
+        "clm_30e02b8bb3",
         "clm_b0a585a57d",
         "clm_55fdebc623",
         "clm_f4dded4b1c",
-        "clm_17cb71f8b1",
         "clm_4a49d3fffc",
         "clm_58747ae3d4",
         "clm_cfacce7854",
@@ -68,10 +72,10 @@
       "range": null,
       "as_of": "2026-06-02",
       "estimate_type": "consensus",
-      "confidence": 0.312,
+      "confidence": 0.309,
       "supporting_claims": [
-        "clm_d35e24cf73",
         "clm_bbdf879ccd",
+        "clm_d35e24cf73",
         "clm_6af31875b8"
       ],
       "contradiction": false,
@@ -118,7 +122,7 @@
       "contradiction": false,
       "delta": {
         "previous": 600000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-06-11"
       },
       "history_ref": "history/cyera/round_amount.jsonl",
@@ -136,7 +140,7 @@
       },
       "as_of": "2026-06-10",
       "estimate_type": "consensus",
-      "confidence": 0.545,
+      "confidence": 0.544,
       "supporting_claims": [
         "clm_706a506c16",
         "clm_9c8aaebae0"
@@ -152,6 +156,28 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "headcount": {
+      "metric": "headcount",
+      "value": 550.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2025-05-09",
+      "estimate_type": "reported",
+      "confidence": 0.037,
+      "supporting_claims": [
+        "clm_b7295b2927"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 100.0,
+        "change_pct": 450.0,
+        "since": "2025-05-09"
+      },
+      "history_ref": "history/cyera/headcount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "latest_round": {
       "metric": "latest_round",
       "value": 7.0,
@@ -160,43 +186,22 @@
         "low": 7.0,
         "high": 600000000.0
       },
-      "as_of": "2026-06-10",
+      "as_of": "2026-09-22",
       "estimate_type": "consensus",
-      "confidence": 0.737,
+      "confidence": 0.835,
       "supporting_claims": [
+        "clm_f1d7fdef4d",
         "clm_4d823ad4b9",
         "clm_e8e197a9b6",
         "clm_a607853f1c"
       ],
-      "contradiction": true,
+      "contradiction": false,
       "delta": {
         "previous": 7.0,
         "change_pct": 0.0,
         "since": "2026-06-10"
       },
       "history_ref": "history/cyera/latest_round.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "headcount": {
-      "metric": "headcount",
-      "value": 100.0,
-      "unit": "count",
-      "range": null,
-      "as_of": "2025-05-09",
-      "estimate_type": "reported",
-      "confidence": 0.037,
-      "supporting_claims": [
-        "clm_4ac8eef288"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 100.0,
-        "change_pct": 0.0,
-        "since": "2025-05-09"
-      },
-      "history_ref": "history/cyera/headcount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -224,5 +229,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-22"
+  "last_updated": "2026-09-23"
 }

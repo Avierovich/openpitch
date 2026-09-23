@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2026-01-07",
       "estimate_type": "consensus",
-      "confidence": 0.859,
+      "confidence": 0.858,
       "supporting_claims": [
         "clm_6f038503a8",
         "clm_3769f513df",
@@ -30,8 +30,8 @@
         "clm_1b9919eaac",
         "clm_e661c24a45",
         "clm_584849a2e1",
-        "clm_067fdb3c77",
-        "clm_9ead6329f9"
+        "clm_9ead6329f9",
+        "clm_067fdb3c77"
       ],
       "contradiction": false,
       "delta": {
@@ -40,6 +40,32 @@
         "since": "2026-01-07"
       },
       "history_ref": "history/xai/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 20000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 20000000000.0,
+        "high": 20000000000.0
+      },
+      "as_of": "2026-01-06",
+      "estimate_type": "consensus",
+      "confidence": 0.6,
+      "supporting_claims": [
+        "clm_2c4cef03e7",
+        "clm_d4ef3957ba"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 20000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-01-06"
+      },
+      "history_ref": "history/xai/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -61,40 +87,14 @@
       "contradiction": false,
       "delta": {
         "previous": 15000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2025-11-26"
       },
       "history_ref": "history/xai/round_amount.jsonl",
       "unconfirmed": true,
       "confirmed_value": 60000000000.0,
       "confirmed_as_of": "2026-04-23"
-    },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 20000000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 20000000000.0,
-        "high": 20000000000.0
-      },
-      "as_of": "2026-01-06",
-      "estimate_type": "consensus",
-      "confidence": 0.601,
-      "supporting_claims": [
-        "clm_d4ef3957ba",
-        "clm_2c4cef03e7"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 20000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-01-06"
-      },
-      "history_ref": "history/xai/total_funding.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-22"
+  "last_updated": "2026-09-23"
 }

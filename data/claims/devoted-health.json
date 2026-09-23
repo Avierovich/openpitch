@@ -1,5 +1,53 @@
 [
   {
+    "id": "clm_b032f9f21a",
+    "company_id": "devoted-health",
+    "metric": "total_funding",
+    "value": 1100000000.0,
+    "unit": "USD",
+    "raw_text": "Devoted Health raises $1.1B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "medcitynews.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNUtSLUZ6eHNNRUwyeHFCZlhHd2w5M3AtZTdDMFdsWFBjWDIwb2kyVGFDV2lBN0U5WDNpSmI0TEpMX2JGRlJhR0VVWGFWdURpQTBhdzVoLU9KVW9YdFhmMmFhdXJ5bXZKbnhjY29nT3pOUFpINEo1c3RZRklzNTAtSkZRZzdqZXdKOWRyQm00TDhhTk1oOG1YMXVB?oc=5",
+      "locator": null,
+      "published_at": "2021-10-08"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_5cfe747e2b",
+    "company_id": "devoted-health",
+    "metric": "valuation",
+    "value": 12000000000.0,
+    "unit": "USD",
+    "raw_text": "valuation soaring past $12B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "medcitynews.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNUtSLUZ6eHNNRUwyeHFCZlhHd2w5M3AtZTdDMFdsWFBjWDIwb2kyVGFDV2lBN0U5WDNpSmI0TEpMX2JGRlJhR0VVWGFWdURpQTBhdzVoLU9KVW9YdFhmMmFhdXJ5bXZKbnhjY29nT3pOUFpINEo1c3RZRklzNTAtSkZRZzdqZXdKOWRyQm00TDhhTk1oOG1YMXVB?oc=5",
+      "locator": null,
+      "published_at": "2021-10-08"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_cb34b0e0cf",
     "company_id": "devoted-health",
     "metric": "valuation",
@@ -23,32 +71,6 @@
     "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_a95168638d",
-    "company_id": "devoted-health",
-    "metric": "valuation",
-    "value": 25000000000.0,
-    "unit": null,
-    "raw_text": "raising a new round of funding at a $25 billion valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "benzatine.com",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQR2pnNDJDUUxBTXoycVBWS0V5bGEyN3FvYTFLWXRUSXhmTzJwczJFUGpObEdBVFc2MkFnSGNuMXo0Ni1RZHh1RE5SbVRhSnd4anRiOThIVU5oNFZfZENwTWY0em1zRnhINGdBZ2tXTjFUQ1MtWUhYQjV1S3lPa3cwdTJOVWl1NEZWOUs2aXFQZlB4RWZZZTU0M0ZHREJjV3c1SDNEV0F6OEhyNUFoclozSUExeXlNcWVh?oc=5",
-      "locator": null,
-      "published_at": "2026-08-21"
-    },
-    "extracted_at": "2026-09-17T10:01:41.438182",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
     "derivation": null
   },
   {
@@ -76,6 +98,32 @@
     "extracted_at": "2026-09-15T10:11:13.514998",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_a95168638d",
+    "company_id": "devoted-health",
+    "metric": "valuation",
+    "value": 25000000000.0,
+    "unit": null,
+    "raw_text": "raising a new round of funding at a $25 billion valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "benzatine.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQR2pnNDJDUUxBTXoycVBWS0V5bGEyN3FvYTFLWXRUSXhmTzJwczJFUGpObEdBVFc2MkFnSGNuMXo0Ni1RZHh1RE5SbVRhSnd4anRiOThIVU5oNFZfZENwTWY0em1zRnhINGdBZ2tXTjFUQ1MtWUhYQjV1S3lPa3cwdTJOVWl1NEZWOUs2aXFQZlB4RWZZZTU0M0ZHREJjV3c1SDNEV0F6OEhyNUFoclozSUExeXlNcWVh?oc=5",
+      "locator": null,
+      "published_at": "2026-08-21"
+    },
+    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
     "derivation": null
   },
   {
@@ -303,54 +351,6 @@
     "extracted_at": "2026-09-09T09:51:11.595604",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.3307,
-    "derivation": null
-  },
-  {
-    "id": "clm_b032f9f21a",
-    "company_id": "devoted-health",
-    "metric": "total_funding",
-    "value": 1100000000.0,
-    "unit": "USD",
-    "raw_text": "Devoted Health raises $1.1B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "medcitynews.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNUtSLUZ6eHNNRUwyeHFCZlhHd2w5M3AtZTdDMFdsWFBjWDIwb2kyVGFDV2lBN0U5WDNpSmI0TEpMX2JGRlJhR0VVWGFWdURpQTBhdzVoLU9KVW9YdFhmMmFhdXJ5bXZKbnhjY29nT3pOUFpINEo1c3RZRklzNTAtSkZRZzdqZXdKOWRyQm00TDhhTk1oOG1YMXVB?oc=5",
-      "locator": null,
-      "published_at": "2021-10-08"
-    },
-    "extracted_at": "2026-09-15T10:11:13.514998",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_5cfe747e2b",
-    "company_id": "devoted-health",
-    "metric": "valuation",
-    "value": 12000000000.0,
-    "unit": "USD",
-    "raw_text": "valuation soaring past $12B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "medcitynews.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNUtSLUZ6eHNNRUwyeHFCZlhHd2w5M3AtZTdDMFdsWFBjWDIwb2kyVGFDV2lBN0U5WDNpSmI0TEpMX2JGRlJhR0VVWGFWdURpQTBhdzVoLU9KVW9YdFhmMmFhdXJ5bXZKbnhjY29nT3pOUFpINEo1c3RZRklzNTAtSkZRZzdqZXdKOWRyQm00TDhhTk1oOG1YMXVB?oc=5",
-      "locator": null,
-      "published_at": "2021-10-08"
-    },
-    "extracted_at": "2026-09-15T10:11:13.514998",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {

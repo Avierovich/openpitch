@@ -290,15 +290,67 @@
     "derivation": null
   },
   {
+    "id": "clm_404a47d2e6",
+    "company_id": "harvey-ai",
+    "metric": "total_funding",
+    "value": 500000000.0,
+    "unit": null,
+    "raw_text": "raising $500M",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPemdSS3lCX0t1RTdsS2M2VjE1RTFhenNnZlVVVnVlUXFSaXpHbWdILUlpV2R2dXZxcDQteFIxUGxKa0QyMDRMb2NmU0NxSGdFYnU2VW4zUWU2QWRNNDVKcXdCTTJnMjdOU2hWb01JSzN1S2FRQlF4QXlwUFluSzhlZHBSc09GNFRKVUZ6dzhtM0NpTWoxSlJBTFNPeG9FNkVhNXc?oc=5",
+      "locator": null,
+      "published_at": "2026-08-07"
+    },
+    "extracted_at": "2026-09-20T09:44:05.979383",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_15f61e4e91",
+    "company_id": "harvey-ai",
+    "metric": "valuation",
+    "value": 15500000000.0,
+    "unit": null,
+    "raw_text": "$15.5B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPemdSS3lCX0t1RTdsS2M2VjE1RTFhenNnZlVVVnVlUXFSaXpHbWdILUlpV2R2dXZxcDQteFIxUGxKa0QyMDRMb2NmU0NxSGdFYnU2VW4zUWU2QWRNNDVKcXdCTTJnMjdOU2hWb01JSzN1S2FRQlF4QXlwUFluSzhlZHBSc09GNFRKVUZ6dzhtM0NpTWoxSlJBTFNPeG9FNkVhNXc?oc=5",
+      "locator": null,
+      "published_at": "2026-08-07"
+    },
+    "extracted_at": "2026-09-20T09:44:05.979383",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
     "id": "clm_1a3e533faf",
     "company_id": "harvey-ai",
     "metric": "total_funding",
     "value": 500000000.0,
-    "unit": "USD",
+    "unit": "usd",
     "raw_text": "over $500M in funding",
     "qualifiers": [
-      "rounded",
-      "approximate"
+      "approximate",
+      "rounded"
     ],
     "speaker": {
       "name": null,
@@ -311,9 +363,111 @@
       "locator": null,
       "published_at": "2025-02-14"
     },
-    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extracted_at": "2026-09-23T09:52:35.463285",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.3213,
+    "derivation": null
+  },
+  {
+    "id": "clm_d145d2fc5f",
+    "company_id": "harvey-ai",
+    "metric": "round_amount",
+    "value": 200000000.0,
+    "unit": "usd",
+    "raw_text": "targets $200M raise",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "جولة",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5TalFEVjhqQm9fWldZenBXUWtwUVp1OVpUZnZ6d2lsdTZDM1I1WjhZb1RFRDg0OVhFRGE1bjVSUQ?oc=5",
+      "locator": null,
+      "published_at": "2026-02-10"
+    },
+    "extracted_at": "2026-09-23T09:52:35.463285",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_3732b72d07",
+    "company_id": "harvey-ai",
+    "metric": "valuation",
+    "value": 11000000000.0,
+    "unit": "usd",
+    "raw_text": "at $11B valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "جولة",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5TalFEVjhqQm9fWldZenBXUWtwUVp1OVpUZnZ6d2lsdTZDM1I1WjhZb1RFRDg0OVhFRGE1bjVSUQ?oc=5",
+      "locator": null,
+      "published_at": "2026-02-10"
+    },
+    "extracted_at": "2026-09-23T09:52:35.463285",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_1118fd874e",
+    "company_id": "harvey-ai",
+    "metric": "round_amount",
+    "value": 300000000.0,
+    "unit": "usd",
+    "raw_text": "Raises $300M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "theaiinsider.tech",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQmN5RTRYNkhDYkdXMHFTWmdKOUNsbHpCVHZkMTVyVmtyUUVVZWtucUJtMVpsaVVEcHlQbk5kQTg3MkV3WWdkM21CekNZd1BvLW9vQTU4SEp2S3IyVXl6OHg4cldPSzAtTlBCZkxISTlFN2tXbHo1RXVDY0xYUEhhZFg5Wk1rR084R01vS1dFN1JIRXpVOVZIaGlYRVRNSTBmT250U3RVWUUwZklWRVE?oc=5",
+      "locator": null,
+      "published_at": "2025-06-24"
+    },
+    "extracted_at": "2026-09-23T09:52:35.463285",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_d8e490858e",
+    "company_id": "harvey-ai",
+    "metric": "valuation",
+    "value": 5000000000.0,
+    "unit": "usd",
+    "raw_text": "at $5B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "theaiinsider.tech",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQmN5RTRYNkhDYkdXMHFTWmdKOUNsbHpCVHZkMTVyVmtyUUVVZWtucUJtMVpsaVVEcHlQbk5kQTg3MkV3WWdkM21CekNZd1BvLW9vQTU4SEp2S3IyVXl6OHg4cldPSzAtTlBCZkxISTlFN2tXbHo1RXVDY0xYUEhhZFg5Wk1rR084R01vS1dFN1JIRXpVOVZIaGlYRVRNSTBmT250U3RVWUUwZklWRVE?oc=5",
+      "locator": null,
+      "published_at": "2025-06-24"
+    },
+    "extracted_at": "2026-09-23T09:52:35.463285",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -371,62 +525,10 @@
     "derivation": null
   },
   {
-    "id": "clm_404a47d2e6",
-    "company_id": "harvey-ai",
-    "metric": "total_funding",
-    "value": 500000000.0,
-    "unit": null,
-    "raw_text": "raising $500M",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPemdSS3lCX0t1RTdsS2M2VjE1RTFhenNnZlVVVnVlUXFSaXpHbWdILUlpV2R2dXZxcDQteFIxUGxKa0QyMDRMb2NmU0NxSGdFYnU2VW4zUWU2QWRNNDVKcXdCTTJnMjdOU2hWb01JSzN1S2FRQlF4QXlwUFluSzhlZHBSc09GNFRKVUZ6dzhtM0NpTWoxSlJBTFNPeG9FNkVhNXc?oc=5",
-      "locator": null,
-      "published_at": "2026-08-07"
-    },
-    "extracted_at": "2026-09-20T09:44:05.979383",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
-    "derivation": null
-  },
-  {
-    "id": "clm_15f61e4e91",
-    "company_id": "harvey-ai",
-    "metric": "valuation",
-    "value": 15500000000.0,
-    "unit": null,
-    "raw_text": "$15.5B valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPemdSS3lCX0t1RTdsS2M2VjE1RTFhenNnZlVVVnVlUXFSaXpHbWdILUlpV2R2dXZxcDQteFIxUGxKa0QyMDRMb2NmU0NxSGdFYnU2VW4zUWU2QWRNNDVKcXdCTTJnMjdOU2hWb01JSzN1S2FRQlF4QXlwUFluSzhlZHBSc09GNFRKVUZ6dzhtM0NpTWoxSlJBTFNPeG9FNkVhNXc?oc=5",
-      "locator": null,
-      "published_at": "2026-08-07"
-    },
-    "extracted_at": "2026-09-20T09:44:05.979383",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
-    "derivation": null
-  },
-  {
-    "id": "drv_019b447109",
+    "id": "drv_6f5e439754",
     "company_id": "harvey-ai",
     "metric": "revenue_multiple",
-    "value": 57.89,
+    "value": 26.32,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -441,14 +543,14 @@
       "locator": null,
       "published_at": "2026-07-03"
     },
-    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extracted_at": "2026-09-23T09:52:35.463285",
     "extractor_model": "derive-engine",
-    "base_confidence": 0.1294,
+    "base_confidence": 0.1811,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_552f969549",
+        "clm_d8e490858e",
         "clm_f0ae503ffa"
       ]
     }

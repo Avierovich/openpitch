@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2026-09-02",
       "estimate_type": "reported",
-      "confidence": 0.317,
+      "confidence": 0.315,
       "supporting_claims": [
         "clm_5ad213b39b"
       ],
@@ -46,8 +46,8 @@
       "estimate_type": "consensus",
       "confidence": 0.96,
       "supporting_claims": [
-        "clm_836a5f6833",
         "clm_b6f2e6335b",
+        "clm_836a5f6833",
         "clm_9c1f3de309",
         "clm_382305d27b",
         "clm_60aedb838e"
@@ -55,7 +55,7 @@
       "contradiction": true,
       "delta": {
         "previous": 30000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-09-08"
       },
       "history_ref": "history/crusoe-energy-systems/valuation.jsonl",
@@ -68,7 +68,7 @@
       "value": 3900000000.0,
       "unit": "object",
       "range": null,
-      "as_of": "2026-09-22",
+      "as_of": "2026-09-23",
       "estimate_type": "reported",
       "confidence": 0.25,
       "supporting_claims": [
@@ -87,27 +87,26 @@
     },
     "round_amount": {
       "metric": "round_amount",
-      "value": 3000000000.0,
+      "value": 3900000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2026-07-02",
+      "as_of": "2026-09-22",
       "estimate_type": "consensus",
-      "confidence": 0.541,
+      "confidence": 0.643,
       "supporting_claims": [
-        "clm_d558edf81b",
-        "clm_4928ae1af4",
-        "clm_03b8bbacd0"
+        "clm_0b729c822c",
+        "clm_d7105d7626"
       ],
       "contradiction": false,
       "delta": {
         "previous": 3000000000.0,
-        "change_pct": 0.0,
+        "change_pct": 30.0,
         "since": "2026-07-02"
       },
       "history_ref": "history/crusoe-energy-systems/round_amount.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": 600000000.0,
-      "confirmed_as_of": "2024-12-18"
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "total_funding": {
       "metric": "total_funding",
@@ -121,8 +120,8 @@
       "estimate_type": "consensus",
       "confidence": 0.964,
       "supporting_claims": [
-        "clm_edf4e1c751",
         "clm_e98530244a",
+        "clm_edf4e1c751",
         "clm_39fd1a33cb",
         "clm_ede7197780",
         "clm_645f5a21b1"
@@ -130,7 +129,7 @@
       "contradiction": false,
       "delta": {
         "previous": 3000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-09-08"
       },
       "history_ref": "history/crusoe-energy-systems/total_funding.jsonl",
@@ -145,7 +144,7 @@
       "range": null,
       "as_of": "2026-09-03",
       "estimate_type": "reported",
-      "confidence": 0.155,
+      "confidence": 0.153,
       "supporting_claims": [
         "drv_45e9abc6a9"
       ],
@@ -161,5 +160,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-22"
+  "last_updated": "2026-09-23"
 }

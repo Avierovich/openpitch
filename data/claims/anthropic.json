@@ -1,37 +1,14 @@
 [
   {
-    "id": "clm_813dc10dc6",
-    "company_id": "anthropic",
-    "metric": "total_funding",
-    "value": 65000000000.0,
-    "unit": "USD",
-    "raw_text": "Anthropic Raises $65 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "ibtimes.co.uk",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE84VTVUUmFPWUhYcWMwaVVXbHNMc1FLajRzdlVhSGdBZjJfOHo0dERLc0NZUFVXR2ppc3RjSEFYOG9HcFFGdGphemlkelRuUy04VWt6XzZ2YXktRUp1UWM5eVUyV2NtNUtnX0ZWZDVxblNwRXNlVTBrbExKaw?oc=5",
-      "locator": null,
-      "published_at": "2026-05-29"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_78ecaeaf05",
+    "id": "clm_ee8d1ea6fb",
     "company_id": "anthropic",
     "metric": "valuation",
-    "value": 1000000000000.0,
+    "value": 2000000000000.0,
     "unit": "USD",
-    "raw_text": "Nearly $1 Trillion Valuation",
+    "raw_text": "Anthropic backers eye $2 trillion valuation",
     "qualifiers": [
-      "approximate"
+      "forward_looking",
+      "unconfirmed"
     ],
     "speaker": {
       "name": null,
@@ -39,25 +16,25 @@
     },
     "source": {
       "type": "news",
-      "name": "ibtimes.co.uk",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE84VTVUUmFPWUhYcWMwaVVXbHNMc1FLajRzdlVhSGdBZjJfOHo0dERLc0NZUFVXR2ppc3RjSEFYOG9HcFFGdGphemlkelRuUy04VWt6XzZ2YXktRUp1UWM5eVUyV2NtNUtnX0ZWZDVxblNwRXNlVTBrbExKaw?oc=5",
+      "name": "R&D World",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTlpTSVRiYkVEbEZYcTUxcUVmcUlXclhrV3U2em96b015ZXoxY2Z5LWpVemNlM1M1TnNTMUJoX3UzSjhpRlF5WXJicEljS2lZUHgyWl9rSXRUeXBVcngtT1FjZVZQbUJIRGFXcVdPUldPVWlscjFWR1NzM3FqMmdJVmRQcVFleXJCaUZXcXFhVnFEV05PTkxlZDN4OWZMLTM3Nk1USFZYY19oeXZL?oc=5",
       "locator": null,
-      "published_at": "2026-05-29"
+      "published_at": "2026-08-14"
     },
     "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4462,
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
-    "id": "clm_b4d00879e6",
+    "id": "clm_2568c3fed6",
     "company_id": "anthropic",
     "metric": "arr",
-    "value": 47000000000.0,
+    "value": 10900000000.0,
     "unit": "USD",
-    "raw_text": "Revenue Run Rate Reaches $47 Billion",
+    "raw_text": "projected Q2 revenue was $10.9B",
     "qualifiers": [
-      "run_rate"
+      "forward_looking"
     ],
     "speaker": {
       "name": null,
@@ -65,14 +42,14 @@
     },
     "source": {
       "type": "news",
-      "name": "ibtimes.co.uk",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE84VTVUUmFPWUhYcWMwaVVXbHNMc1FLajRzdlVhSGdBZjJfOHo0dERLc0NZUFVXR2ppc3RjSEFYOG9HcFFGdGphemlkelRuUy04VWt6XzZ2YXktRUp1UWM5eVUyV2NtNUtnX0ZWZDVxblNwRXNlVTBrbExKaw?oc=5",
+      "name": "R&D World",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTlpTSVRiYkVEbEZYcTUxcUVmcUlXclhrV3U2em96b015ZXoxY2Z5LWpVemNlM1M1TnNTMUJoX3UzSjhpRlF5WXJicEljS2lZUHgyWl9rSXRUeXBVcngtT1FjZVZQbUJIRGFXcVdPUldPVWlscjFWR1NzM3FqMmdJVmRQcVFleXJCaUZXcXFhVnFEV05PTkxlZDN4OWZMLTM3Nk1USFZYY19oeXZL?oc=5",
       "locator": null,
-      "published_at": "2026-05-29"
+      "published_at": "2026-08-14"
     },
     "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
+    "base_confidence": 0.3675,
     "derivation": null
   },
   {
@@ -169,58 +146,6 @@
     "extracted_at": "2026-07-06T14:31:09.058208",
     "extractor_model": "gemini-2.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_d4523421a4",
-    "company_id": "anthropic",
-    "metric": "valuation",
-    "value": 2000000000000.0,
-    "unit": "USD",
-    "raw_text": "Anthropic Eyes $2T Valuation in November IPO With Up to $100B Raise",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Cryptonews.net",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9yYmI1YzhfcU5JdHRUVW8tMHJ2Q2t5SjlKUDE2aDBEOVR0WlY5WTVBaFUwNzI1Z3JpNEJudjRzbTc2dXJzN1l0NDRCTHQyLWJXdndDTzE5Yzc?oc=5",
-      "locator": null,
-      "published_at": "2026-09-19"
-    },
-    "extracted_at": "2026-09-19T09:29:15.949394",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2625,
-    "derivation": null
-  },
-  {
-    "id": "clm_98c08dc033",
-    "company_id": "anthropic",
-    "metric": "round_amount",
-    "value": 100000000000.0,
-    "unit": "USD",
-    "raw_text": "Up to $100B Raise",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Cryptonews.net",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9yYmI1YzhfcU5JdHRUVW8tMHJ2Q2t5SjlKUDE2aDBEOVR0WlY5WTVBaFUwNzI1Z3JpNEJudjRzbTc2dXJzN1l0NDRCTHQyLWJXdndDTzE5Yzc?oc=5",
-      "locator": null,
-      "published_at": "2026-09-19"
-    },
-    "extracted_at": "2026-09-19T09:29:15.949394",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2625,
     "derivation": null
   },
   {
@@ -365,6 +290,134 @@
     "extracted_at": "2026-08-21T05:50:03.226228",
     "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_813dc10dc6",
+    "company_id": "anthropic",
+    "metric": "total_funding",
+    "value": 65000000000.0,
+    "unit": "USD",
+    "raw_text": "Anthropic Raises $65 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "ibtimes.co.uk",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE84VTVUUmFPWUhYcWMwaVVXbHNMc1FLajRzdlVhSGdBZjJfOHo0dERLc0NZUFVXR2ppc3RjSEFYOG9HcFFGdGphemlkelRuUy04VWt6XzZ2YXktRUp1UWM5eVUyV2NtNUtnX0ZWZDVxblNwRXNlVTBrbExKaw?oc=5",
+      "locator": null,
+      "published_at": "2026-05-29"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_78ecaeaf05",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 1000000000000.0,
+    "unit": "USD",
+    "raw_text": "Nearly $1 Trillion Valuation",
+    "qualifiers": [
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "ibtimes.co.uk",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE84VTVUUmFPWUhYcWMwaVVXbHNMc1FLajRzdlVhSGdBZjJfOHo0dERLc0NZUFVXR2ppc3RjSEFYOG9HcFFGdGphemlkelRuUy04VWt6XzZ2YXktRUp1UWM5eVUyV2NtNUtnX0ZWZDVxblNwRXNlVTBrbExKaw?oc=5",
+      "locator": null,
+      "published_at": "2026-05-29"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4462,
+    "derivation": null
+  },
+  {
+    "id": "clm_b4d00879e6",
+    "company_id": "anthropic",
+    "metric": "arr",
+    "value": 47000000000.0,
+    "unit": "USD",
+    "raw_text": "Revenue Run Rate Reaches $47 Billion",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "ibtimes.co.uk",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE84VTVUUmFPWUhYcWMwaVVXbHNMc1FLajRzdlVhSGdBZjJfOHo0dERLc0NZUFVXR2ppc3RjSEFYOG9HcFFGdGphemlkelRuUy04VWt6XzZ2YXktRUp1UWM5eVUyV2NtNUtnX0ZWZDVxblNwRXNlVTBrbExKaw?oc=5",
+      "locator": null,
+      "published_at": "2026-05-29"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_d4523421a4",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 2000000000000.0,
+    "unit": "USD",
+    "raw_text": "Anthropic Eyes $2T Valuation in November IPO With Up to $100B Raise",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9yYmI1YzhfcU5JdHRUVW8tMHJ2Q2t5SjlKUDE2aDBEOVR0WlY5WTVBaFUwNzI1Z3JpNEJudjRzbTc2dXJzN1l0NDRCTHQyLWJXdndDTzE5Yzc?oc=5",
+      "locator": null,
+      "published_at": "2026-09-19"
+    },
+    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2625,
+    "derivation": null
+  },
+  {
+    "id": "clm_98c08dc033",
+    "company_id": "anthropic",
+    "metric": "round_amount",
+    "value": 100000000000.0,
+    "unit": "USD",
+    "raw_text": "Up to $100B Raise",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9yYmI1YzhfcU5JdHRUVW8tMHJ2Q2t5SjlKUDE2aDBEOVR0WlY5WTVBaFUwNzI1Z3JpNEJudjRzbTc2dXJzN1l0NDRCTHQyLWJXdndDTzE5Yzc?oc=5",
+      "locator": null,
+      "published_at": "2026-09-19"
+    },
+    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2625,
     "derivation": null
   },
   {
@@ -781,59 +834,6 @@
     "extracted_at": "2026-09-16T10:35:49.404557",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_ee8d1ea6fb",
-    "company_id": "anthropic",
-    "metric": "valuation",
-    "value": 2000000000000.0,
-    "unit": "USD",
-    "raw_text": "Anthropic backers eye $2 trillion valuation",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "R&D World",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTlpTSVRiYkVEbEZYcTUxcUVmcUlXclhrV3U2em96b015ZXoxY2Z5LWpVemNlM1M1TnNTMUJoX3UzSjhpRlF5WXJicEljS2lZUHgyWl9rSXRUeXBVcngtT1FjZVZQbUJIRGFXcVdPUldPVWlscjFWR1NzM3FqMmdJVmRQcVFleXJCaUZXcXFhVnFEV05PTkxlZDN4OWZMLTM3Nk1USFZYY19oeXZL?oc=5",
-      "locator": null,
-      "published_at": "2026-08-14"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_2568c3fed6",
-    "company_id": "anthropic",
-    "metric": "arr",
-    "value": 10900000000.0,
-    "unit": "USD",
-    "raw_text": "projected Q2 revenue was $10.9B",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "R&D World",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTlpTSVRiYkVEbEZYcTUxcUVmcUlXclhrV3U2em96b015ZXoxY2Z5LWpVemNlM1M1TnNTMUJoX3UzSjhpRlF5WXJicEljS2lZUHgyWl9rSXRUeXBVcngtT1FjZVZQbUJIRGFXcVdPUldPVWlscjFWR1NzM3FqMmdJVmRQcVFleXJCaUZXcXFhVnFEV05PTkxlZDN4OWZMLTM3Nk1USFZYY19oeXZL?oc=5",
-      "locator": null,
-      "published_at": "2026-08-14"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3675,
     "derivation": null
   },
   {
@@ -1829,7 +1829,7 @@
       "locator": null,
       "published_at": "2026-06-14"
     },
-    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extracted_at": "2026-09-23T09:52:35.463285",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

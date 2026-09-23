@@ -52,6 +52,59 @@
     "derivation": null
   },
   {
+    "id": "clm_d16d4957eb",
+    "company_id": "project-prometheus",
+    "metric": "round_amount",
+    "value": 10000000000.0,
+    "unit": "USD",
+    "raw_text": "Nears $10B Raise",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "theaiinsider.tech",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbzVmdlk3dG92RURfYzVTaWlWMXhNVmF2dUp1RmItbFYtRUxPT3AtdkFUYzVSeFVjdjMteHVMNUQ4R3gxWXZsczJ6Qmw3S0dvMW9ib3M3Wk0xZGtWeHA3MDJFVWZNYmNoOWZ6LUlvVEw4aC02cTlaX2NGVWM0NThjdnUxanJJVHFwVUFhM3Z1dmozQ3RUV1R4Tl9mMEx3NjdnWTZicEV5XzB3UTZKcEJMX1FuSDk0emJON0E?oc=5",
+      "locator": null,
+      "published_at": "2026-04-22"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_0ce9b75cc5",
+    "company_id": "project-prometheus",
+    "metric": "valuation",
+    "value": 38000000000.0,
+    "unit": "USD",
+    "raw_text": "$38B Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "theaiinsider.tech",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbzVmdlk3dG92RURfYzVTaWlWMXhNVmF2dUp1RmItbFYtRUxPT3AtdkFUYzVSeFVjdjMteHVMNUQ4R3gxWXZsczJ6Qmw3S0dvMW9ib3M3Wk0xZGtWeHA3MDJFVWZNYmNoOWZ6LUlvVEw4aC02cTlaX2NGVWM0NThjdnUxanJJVHFwVUFhM3Z1dmozQ3RUV1R4Tl9mMEx3NjdnWTZicEV5XzB3UTZKcEJMX1FuSDk0emJON0E?oc=5",
+      "locator": null,
+      "published_at": "2026-04-22"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_ec9486d32c",
     "company_id": "project-prometheus",
     "metric": "total_funding",
@@ -176,6 +229,33 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_f95c977769",
+    "company_id": "project-prometheus",
+    "metric": "valuation",
+    "value": 38000000000.0,
+    "unit": "USD",
+    "raw_text": "Bezos Targets $38 Billion Valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "pymnts.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUklhU2F0cFl2VFdRbHZ2bUh0WW04Rm1OeHpjeGRONm9NM1N1QktOTVRia01KUk5kVnkxV0FacmUzRzU2N1JTUmt0TGdSZjhSQVYxOGZCc29vYktRb3RRb0YwSVNvampkamJpLXhrUDJ6RHY3b1ZLNk5VdHpzdHJDX09tNmdPb3dhemFUb19zVkY4bVY4T2pUVEN5MFNTVi0ybXNram1vTTFiQVJtcmVFWFFn?oc=5",
+      "locator": null,
+      "published_at": "2026-04-21"
+    },
+    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -578,33 +658,6 @@
     "derivation": null
   },
   {
-    "id": "clm_f95c977769",
-    "company_id": "project-prometheus",
-    "metric": "valuation",
-    "value": 38000000000.0,
-    "unit": "USD",
-    "raw_text": "Bezos Targets $38 Billion Valuation",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "pymnts.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUklhU2F0cFl2VFdRbHZ2bUh0WW04Rm1OeHpjeGRONm9NM1N1QktOTVRia01KUk5kVnkxV0FacmUzRzU2N1JTUmt0TGdSZjhSQVYxOGZCc29vYktRb3RRb0YwSVNvampkamJpLXhrUDJ6RHY3b1ZLNk5VdHpzdHJDX09tNmdPb3dhemFUb19zVkY4bVY4T2pUVEN5MFNTVi0ybXNram1vTTFiQVJtcmVFWFFn?oc=5",
-      "locator": null,
-      "published_at": "2026-04-21"
-    },
-    "extracted_at": "2026-09-14T10:31:29.338960",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
     "id": "clm_bf5e5f4930",
     "company_id": "project-prometheus",
     "metric": "valuation",
@@ -832,59 +885,6 @@
     "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_d16d4957eb",
-    "company_id": "project-prometheus",
-    "metric": "round_amount",
-    "value": 10000000000.0,
-    "unit": "USD",
-    "raw_text": "Nears $10B Raise",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "theaiinsider.tech",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbzVmdlk3dG92RURfYzVTaWlWMXhNVmF2dUp1RmItbFYtRUxPT3AtdkFUYzVSeFVjdjMteHVMNUQ4R3gxWXZsczJ6Qmw3S0dvMW9ib3M3Wk0xZGtWeHA3MDJFVWZNYmNoOWZ6LUlvVEw4aC02cTlaX2NGVWM0NThjdnUxanJJVHFwVUFhM3Z1dmozQ3RUV1R4Tl9mMEx3NjdnWTZicEV5XzB3UTZKcEJMX1FuSDk0emJON0E?oc=5",
-      "locator": null,
-      "published_at": "2026-04-22"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_0ce9b75cc5",
-    "company_id": "project-prometheus",
-    "metric": "valuation",
-    "value": 38000000000.0,
-    "unit": "USD",
-    "raw_text": "$38B Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "theaiinsider.tech",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbzVmdlk3dG92RURfYzVTaWlWMXhNVmF2dUp1RmItbFYtRUxPT3AtdkFUYzVSeFVjdjMteHVMNUQ4R3gxWXZsczJ6Qmw3S0dvMW9ib3M3Wk0xZGtWeHA3MDJFVWZNYmNoOWZ6LUlvVEw4aC02cTlaX2NGVWM0NThjdnUxanJJVHFwVUFhM3Z1dmozQ3RUV1R4Tl9mMEx3NjdnWTZicEV5XzB3UTZKcEJMX1FuSDk0emJON0E?oc=5",
-      "locator": null,
-      "published_at": "2026-04-22"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {

@@ -12,33 +12,6 @@
   "vc_attention_score": 86.8,
   "universe_rank": 27,
   "metrics": {
-    "valuation": {
-      "metric": "valuation",
-      "value": 25000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-08-21",
-      "estimate_type": "consensus",
-      "confidence": 0.796,
-      "supporting_claims": [
-        "clm_cb34b0e0cf",
-        "clm_a95168638d",
-        "clm_b5ba4e6090",
-        "clm_4f2981087c",
-        "clm_4538ff9222",
-        "clm_5deba44405"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 25000000000.0,
-        "change_pct": -0.0,
-        "since": "2026-08-21"
-      },
-      "history_ref": "history/devoted-health/valuation.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": 12000000000.0,
-      "confirmed_as_of": "2021-10-08"
-    },
     "total_funding": {
       "metric": "total_funding",
       "value": 175000000.0,
@@ -60,6 +33,33 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "valuation": {
+      "metric": "valuation",
+      "value": 25000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-08-21",
+      "estimate_type": "consensus",
+      "confidence": 0.795,
+      "supporting_claims": [
+        "clm_cb34b0e0cf",
+        "clm_b5ba4e6090",
+        "clm_a95168638d",
+        "clm_4f2981087c",
+        "clm_4538ff9222",
+        "clm_5deba44405"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 25000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-08-21"
+      },
+      "history_ref": "history/devoted-health/valuation.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": 12000000000.0,
+      "confirmed_as_of": "2021-10-08"
     },
     "round_amount": {
       "metric": "round_amount",
@@ -106,5 +106,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-22"
+  "last_updated": "2026-09-23"
 }

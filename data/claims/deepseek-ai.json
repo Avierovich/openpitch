@@ -1,31 +1,5 @@
 [
   {
-    "id": "clm_88ce0e8db7",
-    "company_id": "deepseek-ai",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": "USD",
-    "raw_text": "DeepSeek valued at more than $50 bn after funding round: reports",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "techxplore.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ldW9JZW43OGV4RzIzd1Z5R2lDd0ttLXk0MC1aTVFBbTgxa09Pa0UwNmFPaHVhTTdkRmo2bGt6U0x2SDA0alkyUVZJcWNKUWJRa19hVXZzNnZ2UkFyeTdUSHhHRGc1WTRndEJsV0lQa1JDdEowd0E?oc=5",
-      "locator": null,
-      "published_at": "2026-06-17"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_aff2cf13b5",
     "company_id": "deepseek-ai",
     "metric": "valuation",
@@ -77,6 +51,56 @@
     "extracted_at": "2026-09-15T10:11:13.514998",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_75aab1f3d7",
+    "company_id": "deepseek-ai",
+    "metric": "total_funding",
+    "value": 7400000000.0,
+    "unit": null,
+    "raw_text": "DeepSeek Raises $7.4 Billion in First Funding Round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "analyticsinsight.net",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcE9rMExBcTJvNHYyS1RNdVl2cUF0Y25ybEhZQnJLUjd5VEhpU2tudU0wZDFtVVNKekQtTzNJTHhYczhXaVdEYWRDVk5WaENXMWcyaklKbjNMbEs2WDZJektDU05HdEMyTjN5MlZvaXpUOTBqQnowWUFNQVUyb0x0MHFEUzFtMHBHSUtVS25VRW5hbTUtTDdYdDRmVldPSjJkLTUySHhZNkt3azdsY3U0MDQycF84NzjSAcQBQVVfeXFMT2NEM09sb190MGN1NkJkUmtJRHBfZnNYUDhQRUR1SlZFWVBGNElidFlfamk3NnBpYnJIODl3ZVJvYWJRMGRHMHlMNEFPVTZfTFJkWGN1ank3c25NREZZS3pYTjV5RFItdkZtTS1reDMtZlFJX3VId3FQSFpTQktQUVBhSmkzNjFOdWNDRUxzREZGTHJ5VEQxZDdDdmdWTm1tYXBvV3NveVVHY0dybzJSWnhtaGZIcUtSQWVfbTRwdjRRb3hYMg?oc=5",
+      "locator": null,
+      "published_at": "2026-06-16"
+    },
+    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_d69ef6d065",
+    "company_id": "deepseek-ai",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": null,
+    "raw_text": "at Over $50 Billion Valuation",
+    "qualifiers": [
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "analyticsinsight.net",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcE9rMExBcTJvNHYyS1RNdVl2cUF0Y25ybEhZQnJLUjd5VEhpU2tudU0wZDFtVVNKekQtTzNJTHhYczhXaVdEYWRDVk5WaENXMWcyaklKbjNMbEs2WDZJektDU05HdEMyTjN5MlZvaXpUOTBqQnowWUFNQVUyb0x0MHFEUzFtMHBHSUtVS25VRW5hbTUtTDdYdDRmVldPSjJkLTUySHhZNkt3azdsY3U0MDQycF84NzjSAcQBQVVfeXFMT2NEM09sb190MGN1NkJkUmtJRHBfZnNYUDhQRUR1SlZFWVBGNElidFlfamk3NnBpYnJIODl3ZVJvYWJRMGRHMHlMNEFPVTZfTFJkWGN1ank3c25NREZZS3pYTjV5RFItdkZtTS1reDMtZlFJX3VId3FQSFpTQktQUVBhSmkzNjFOdWNDRUxzREZGTHJ5VEQxZDdDdmdWTm1tYXBvV3NveVVHY0dybzJSWnhtaGZIcUtSQWVfbTRwdjRRb3hYMg?oc=5",
+      "locator": null,
+      "published_at": "2026-06-16"
+    },
+    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3187,
     "derivation": null
   },
   {
@@ -211,53 +235,29 @@
     "derivation": null
   },
   {
-    "id": "clm_75aab1f3d7",
-    "company_id": "deepseek-ai",
-    "metric": "total_funding",
-    "value": 7400000000.0,
-    "unit": null,
-    "raw_text": "DeepSeek Raises $7.4 Billion in First Funding Round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "analyticsinsight.net",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcE9rMExBcTJvNHYyS1RNdVl2cUF0Y25ybEhZQnJLUjd5VEhpU2tudU0wZDFtVVNKekQtTzNJTHhYczhXaVdEYWRDVk5WaENXMWcyaklKbjNMbEs2WDZJektDU05HdEMyTjN5MlZvaXpUOTBqQnowWUFNQVUyb0x0MHFEUzFtMHBHSUtVS25VRW5hbTUtTDdYdDRmVldPSjJkLTUySHhZNkt3azdsY3U0MDQycF84NzjSAcQBQVVfeXFMT2NEM09sb190MGN1NkJkUmtJRHBfZnNYUDhQRUR1SlZFWVBGNElidFlfamk3NnBpYnJIODl3ZVJvYWJRMGRHMHlMNEFPVTZfTFJkWGN1ank3c25NREZZS3pYTjV5RFItdkZtTS1reDMtZlFJX3VId3FQSFpTQktQUVBhSmkzNjFOdWNDRUxzREZGTHJ5VEQxZDdDdmdWTm1tYXBvV3NveVVHY0dybzJSWnhtaGZIcUtSQWVfbTRwdjRRb3hYMg?oc=5",
-      "locator": null,
-      "published_at": "2026-06-16"
-    },
-    "extracted_at": "2026-09-22T09:56:18.399410",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_d69ef6d065",
+    "id": "clm_88ce0e8db7",
     "company_id": "deepseek-ai",
     "metric": "valuation",
     "value": 50000000000.0,
-    "unit": null,
-    "raw_text": "at Over $50 Billion Valuation",
+    "unit": "USD",
+    "raw_text": "DeepSeek valued at more than $50 bn after funding round: reports",
     "qualifiers": [
-      "approximate"
+      "unconfirmed"
     ],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "analyticsinsight.net",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcE9rMExBcTJvNHYyS1RNdVl2cUF0Y25ybEhZQnJLUjd5VEhpU2tudU0wZDFtVVNKekQtTzNJTHhYczhXaVdEYWRDVk5WaENXMWcyaklKbjNMbEs2WDZJektDU05HdEMyTjN5MlZvaXpUOTBqQnowWUFNQVUyb0x0MHFEUzFtMHBHSUtVS25VRW5hbTUtTDdYdDRmVldPSjJkLTUySHhZNkt3azdsY3U0MDQycF84NzjSAcQBQVVfeXFMT2NEM09sb190MGN1NkJkUmtJRHBfZnNYUDhQRUR1SlZFWVBGNElidFlfamk3NnBpYnJIODl3ZVJvYWJRMGRHMHlMNEFPVTZfTFJkWGN1ank3c25NREZZS3pYTjV5RFItdkZtTS1reDMtZlFJX3VId3FQSFpTQktQUVBhSmkzNjFOdWNDRUxzREZGTHJ5VEQxZDdDdmdWTm1tYXBvV3NveVVHY0dybzJSWnhtaGZIcUtSQWVfbTRwdjRRb3hYMg?oc=5",
+      "name": "techxplore.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ldW9JZW43OGV4RzIzd1Z5R2lDd0ttLXk0MC1aTVFBbTgxa09Pa0UwNmFPaHVhTTdkRmo2bGt6U0x2SDA0alkyUVZJcWNKUWJRa19hVXZzNnZ2UkFyeTdUSHhHRGc1WTRndEJsV0lQa1JDdEowd0E?oc=5",
       "locator": null,
-      "published_at": "2026-06-16"
+      "published_at": "2026-06-17"
     },
-    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3187,
+    "base_confidence": 0.315,
     "derivation": null
   },
   {

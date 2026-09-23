@@ -19,9 +19,10 @@
       "range": null,
       "as_of": "2025-09-16",
       "estimate_type": "consensus",
-      "confidence": 0.314,
+      "confidence": 0.43,
       "supporting_claims": [
         "clm_a3fcd9264a",
+        "clm_99dda2fb2c",
         "clm_43464a0de7",
         "clm_bcd7f7b970"
       ],
@@ -42,19 +43,38 @@
       "unit": "USD",
       "range": null,
       "as_of": "2025-09-16",
-      "estimate_type": "reported",
-      "confidence": 0.158,
+      "estimate_type": "consensus",
+      "confidence": 0.397,
       "supporting_claims": [
+        "clm_c81b56f89f",
         "clm_f2688b30f1"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 1500000000.0,
-        "change_pct": -33.3,
-        "since": "2025-02-14"
+        "previous": 1000000000.0,
+        "change_pct": -0.0,
+        "since": "2025-09-16"
       },
       "history_ref": "history/figure-ai/total_funding.jsonl",
-      "unconfirmed": true,
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "headcount_growth": {
+      "metric": "headcount_growth",
+      "value": 21.0,
+      "unit": "pct",
+      "range": null,
+      "as_of": "2024-04-04",
+      "estimate_type": "reported",
+      "confidence": 0.003,
+      "supporting_claims": [
+        "clm_9ce43a85b4"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/figure-ai/headcount_growth.jsonl",
+      "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     },
@@ -103,5 +123,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-22"
+  "last_updated": "2026-09-23"
 }

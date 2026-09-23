@@ -240,54 +240,6 @@
     "derivation": null
   },
   {
-    "id": "clm_6142542301",
-    "company_id": "harvey",
-    "metric": "round_amount",
-    "value": 550000000.0,
-    "unit": null,
-    "raw_text": "Raises Another $550M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "LawSites",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTDc5a0NCMkZJRWpkbEphNGxuYno5bUJSTDFyaHVzcmxpZFByQ2phOHJucVRmbm5ZRXdGcTY3UzdNUWsxYXZ3VGJfRWtwaWQ3TGNacHgzVUIwX3lKUXB6TkdFV2szWnNwUEtVaDZzU1RFaHYydDgweGdhWk9kMHBzaHU2UTkwN2VTaEIwZw?oc=5",
-      "locator": null,
-      "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-17T10:01:41.438182",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_3e63215ca3",
-    "company_id": "harvey",
-    "metric": "valuation",
-    "value": 15500000000.0,
-    "unit": null,
-    "raw_text": "A $15.5B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "LawSites",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTDc5a0NCMkZJRWpkbEphNGxuYno5bUJSTDFyaHVzcmxpZFByQ2phOHJucVRmbm5ZRXdGcTY3UzdNUWsxYXZ3VGJfRWtwaWQ3TGNacHgzVUIwX3lKUXB6TkdFV2szWnNwUEtVaDZzU1RFaHYydDgweGdhWk9kMHBzaHU2UTkwN2VTaEIwZw?oc=5",
-      "locator": null,
-      "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-17T10:01:41.438182",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_ba79201266",
     "company_id": "harvey",
     "metric": "round_amount",
@@ -359,6 +311,102 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_d66363bec3",
+    "company_id": "harvey",
+    "metric": "round_amount",
+    "value": 550000000.0,
+    "unit": "USD",
+    "raw_text": "$550M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "lawnext.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTDc5a0NCMkZJRWpkbEphNGxuYno5bUJSTDFyaHVzcmxpZFByQ2phOHJucVRmbm5ZRXdGcTY3UzdNUWsxYXZ3VGJfRWtwaWQ3TGNacHgzVUIwX3lKUXB6TkdFV2szWnNwUEtVaDZzU1RFaHYydDgweGdhWk9kMHBzaHU2UTkwN2VTaEIwZw?oc=5",
+      "locator": null,
+      "published_at": "2026-09-09"
+    },
+    "extracted_at": "2026-09-23T09:52:35.463285",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_0cef87fdc9",
+    "company_id": "harvey",
+    "metric": "valuation",
+    "value": 15500000000.0,
+    "unit": "USD",
+    "raw_text": "$15.5B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "lawnext.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTDc5a0NCMkZJRWpkbEphNGxuYno5bUJSTDFyaHVzcmxpZFByQ2phOHJucVRmbm5ZRXdGcTY3UzdNUWsxYXZ3VGJfRWtwaWQ3TGNacHgzVUIwX3lKUXB6TkdFV2szWnNwUEtVaDZzU1RFaHYydDgweGdhWk9kMHBzaHU2UTkwN2VTaEIwZw?oc=5",
+      "locator": null,
+      "published_at": "2026-09-09"
+    },
+    "extracted_at": "2026-09-23T09:52:35.463285",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_6142542301",
+    "company_id": "harvey",
+    "metric": "round_amount",
+    "value": 550000000.0,
+    "unit": null,
+    "raw_text": "Raises Another $550M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "LawSites",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTDc5a0NCMkZJRWpkbEphNGxuYno5bUJSTDFyaHVzcmxpZFByQ2phOHJucVRmbm5ZRXdGcTY3UzdNUWsxYXZ3VGJfRWtwaWQ3TGNacHgzVUIwX3lKUXB6TkdFV2szWnNwUEtVaDZzU1RFaHYydDgweGdhWk9kMHBzaHU2UTkwN2VTaEIwZw?oc=5",
+      "locator": null,
+      "published_at": "2026-09-09"
+    },
+    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_3e63215ca3",
+    "company_id": "harvey",
+    "metric": "valuation",
+    "value": 15500000000.0,
+    "unit": null,
+    "raw_text": "A $15.5B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "LawSites",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTDc5a0NCMkZJRWpkbEphNGxuYno5bUJSTDFyaHVzcmxpZFByQ2phOHJucVRmbm5ZRXdGcTY3UzdNUWsxYXZ3VGJfRWtwaWQ3TGNacHgzVUIwX3lKUXB6TkdFV2szWnNwUEtVaDZzU1RFaHYydDgweGdhWk9kMHBzaHU2UTkwN2VTaEIwZw?oc=5",
+      "locator": null,
+      "published_at": "2026-09-09"
+    },
+    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -1763,7 +1811,7 @@
       "locator": null,
       "published_at": "2026-08-07"
     },
-    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extracted_at": "2026-09-23T09:52:35.463285",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

@@ -48,7 +48,7 @@
     "derivation": null
   },
   {
-    "id": "clm_61819173d3",
+    "id": "clm_32e3800539",
     "company_id": "sierra",
     "metric": "valuation",
     "value": 15000000000.0,
@@ -61,18 +61,18 @@
     },
     "source": {
       "type": "news",
-      "name": "siliconangle.com",
+      "name": "SiliconANGLE",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSUc0V0ZEb0gwTFN6Q095RXc1bzd1ZzM3b1p4SzQtQ0xLNEVxdjhSbWh4eGRDZXZRNW9SakJfR3Yyc2tRUWZBLVp4VmxsbEUwVnh5RTdqMXhxVGhPc200dTJZaVZwU085MW16aWkxVVRZcVNIbXFpYVRGRS04YXJxY0E4YUZxcmY0dEJiVXBlVUhPNmdFN1lXOGp3?oc=5",
       "locator": null,
       "published_at": "2026-05-04"
     },
-    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
   },
   {
-    "id": "clm_e979001c8e",
+    "id": "clm_51d3a1fcdf",
     "company_id": "sierra",
     "metric": "round_amount",
     "value": 950000000.0,
@@ -85,12 +85,12 @@
     },
     "source": {
       "type": "news",
-      "name": "siliconangle.com",
+      "name": "SiliconANGLE",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSUc0V0ZEb0gwTFN6Q095RXc1bzd1ZzM3b1p4SzQtQ0xLNEVxdjhSbWh4eGRDZXZRNW9SakJfR3Yyc2tRUWZBLVp4VmxsbEUwVnh5RTdqMXhxVGhPc200dTJZaVZwU085MW16aWkxVVRZcVNIbXFpYVRGRS04YXJxY0E4YUZxcmY0dEJiVXBlVUhPNmdFN1lXOGp3?oc=5",
       "locator": null,
       "published_at": "2026-05-04"
     },
-    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -348,6 +348,81 @@
     "derivation": null
   },
   {
+    "id": "clm_51542bf61c",
+    "company_id": "sierra",
+    "metric": "valuation",
+    "value": 15000000000.0,
+    "unit": null,
+    "raw_text": "Over $15 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Information",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVFlfRW56aUJ2SUkwVlpxZExxNlpSdDFqMTlzMDc2bmFpaXNGR0VQRVl3NFl0cFdsRHhucmxYMC1lYnFqeGlvZzFsNWhsNDRuRVVjZVdLR2FTbEhhVkpoMlFXeFB4bE5UaVIxc3B2a1h2Mkt4ZVUxYmdpQ2RsbUVudTQzR0MxeWpDM19Wb3EyT2VIVEllNWt3?oc=5",
+      "locator": null,
+      "published_at": "2026-05-04"
+    },
+    "extracted_at": "2026-09-18T09:44:30.525514",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2677,
+    "derivation": null
+  },
+  {
+    "id": "clm_61819173d3",
+    "company_id": "sierra",
+    "metric": "valuation",
+    "value": 15000000000.0,
+    "unit": "USD",
+    "raw_text": "valued at $15B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSUc0V0ZEb0gwTFN6Q095RXc1bzd1ZzM3b1p4SzQtQ0xLNEVxdjhSbWh4eGRDZXZRNW9SakJfR3Yyc2tRUWZBLVp4VmxsbEUwVnh5RTdqMXhxVGhPc200dTJZaVZwU085MW16aWkxVVRZcVNIbXFpYVRGRS04YXJxY0E4YUZxcmY0dEJiVXBlVUhPNmdFN1lXOGp3?oc=5",
+      "locator": null,
+      "published_at": "2026-05-04"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_e979001c8e",
+    "company_id": "sierra",
+    "metric": "round_amount",
+    "value": 950000000.0,
+    "unit": "USD",
+    "raw_text": "$950M funding round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSUc0V0ZEb0gwTFN6Q095RXc1bzd1ZzM3b1p4SzQtQ0xLNEVxdjhSbWh4eGRDZXZRNW9SakJfR3Yyc2tRUWZBLVp4VmxsbEUwVnh5RTdqMXhxVGhPc200dTJZaVZwU085MW16aWkxVVRZcVNIbXFpYVRGRS04YXJxY0E4YUZxcmY0dEJiVXBlVUhPNmdFN1lXOGp3?oc=5",
+      "locator": null,
+      "published_at": "2026-05-04"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_4e817963ae",
     "company_id": "sierra",
     "metric": "round_amount",
@@ -393,81 +468,6 @@
     "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_32e3800539",
-    "company_id": "sierra",
-    "metric": "valuation",
-    "value": 15000000000.0,
-    "unit": "USD",
-    "raw_text": "valued at $15B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSUc0V0ZEb0gwTFN6Q095RXc1bzd1ZzM3b1p4SzQtQ0xLNEVxdjhSbWh4eGRDZXZRNW9SakJfR3Yyc2tRUWZBLVp4VmxsbEUwVnh5RTdqMXhxVGhPc200dTJZaVZwU085MW16aWkxVVRZcVNIbXFpYVRGRS04YXJxY0E4YUZxcmY0dEJiVXBlVUhPNmdFN1lXOGp3?oc=5",
-      "locator": null,
-      "published_at": "2026-05-04"
-    },
-    "extracted_at": "2026-09-04T09:41:05.539009",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_51d3a1fcdf",
-    "company_id": "sierra",
-    "metric": "round_amount",
-    "value": 950000000.0,
-    "unit": "USD",
-    "raw_text": "$950M funding round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSUc0V0ZEb0gwTFN6Q095RXc1bzd1ZzM3b1p4SzQtQ0xLNEVxdjhSbWh4eGRDZXZRNW9SakJfR3Yyc2tRUWZBLVp4VmxsbEUwVnh5RTdqMXhxVGhPc200dTJZaVZwU085MW16aWkxVVRZcVNIbXFpYVRGRS04YXJxY0E4YUZxcmY0dEJiVXBlVUhPNmdFN1lXOGp3?oc=5",
-      "locator": null,
-      "published_at": "2026-05-04"
-    },
-    "extracted_at": "2026-09-04T09:41:05.539009",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_51542bf61c",
-    "company_id": "sierra",
-    "metric": "valuation",
-    "value": 15000000000.0,
-    "unit": null,
-    "raw_text": "Over $15 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "approximate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Information",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVFlfRW56aUJ2SUkwVlpxZExxNlpSdDFqMTlzMDc2bmFpaXNGR0VQRVl3NFl0cFdsRHhucmxYMC1lYnFqeGlvZzFsNWhsNDRuRVVjZVdLR2FTbEhhVkpoMlFXeFB4bE5UaVIxc3B2a1h2Mkt4ZVUxYmdpQ2RsbUVudTQzR0MxeWpDM19Wb3EyT2VIVEllNWt3?oc=5",
-      "locator": null,
-      "published_at": "2026-05-04"
-    },
-    "extracted_at": "2026-09-18T09:44:30.525514",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2677,
     "derivation": null
   },
   {
@@ -1223,7 +1223,7 @@
     "derivation": null
   },
   {
-    "id": "drv_b873aca320",
+    "id": "drv_f12798b740",
     "company_id": "sierra",
     "metric": "revenue_multiple",
     "value": 100.0,
@@ -1241,14 +1241,14 @@
       "locator": null,
       "published_at": "2026-07-04"
     },
-    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extracted_at": "2026-09-23T09:52:35.463285",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1826,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_61819173d3",
+        "clm_32e3800539",
         "clm_aeca3ef343"
       ]
     }

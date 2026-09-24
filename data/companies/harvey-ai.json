@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2026-07-03",
       "estimate_type": "reported",
-      "confidence": 0.189,
+      "confidence": 0.188,
       "supporting_claims": [
         "clm_f0ae503ffa"
       ],
@@ -44,7 +44,7 @@
       },
       "as_of": "2026-09-09",
       "estimate_type": "consensus",
-      "confidence": 0.881,
+      "confidence": 0.88,
       "supporting_claims": [
         "clm_7b69c6e8ae",
         "clm_b66fc3e8c8",
@@ -66,7 +66,7 @@
     },
     "total_funding": {
       "metric": "total_funding",
-      "value": 536762694.76,
+      "value": 534914607.56,
       "unit": "USD",
       "range": {
         "low": 550000000.0,
@@ -74,7 +74,7 @@
       },
       "as_of": "2026-09-09",
       "estimate_type": "consensus",
-      "confidence": 0.798,
+      "confidence": 0.814,
       "supporting_claims": [
         "clm_404a47d2e6",
         "clm_1a3e533faf",
@@ -84,8 +84,8 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 536759314.9,
-        "change_pct": 0.0,
+        "previous": 536762694.76,
+        "change_pct": -0.3,
         "since": "2026-09-09"
       },
       "history_ref": "history/harvey-ai/total_funding.jsonl",
@@ -95,25 +95,26 @@
     },
     "round_amount": {
       "metric": "round_amount",
-      "value": 500000000.0,
+      "value": 300000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2026-08-07",
-      "estimate_type": "reported",
-      "confidence": 0.174,
+      "as_of": "2025-06-24",
+      "estimate_type": "consensus",
+      "confidence": 0.241,
       "supporting_claims": [
-        "clm_87dd8d9ac4"
+        "clm_4dd64dcde0",
+        "clm_1118fd874e"
       ],
       "contradiction": false,
       "delta": {
         "previous": 500000000.0,
-        "change_pct": -0.0,
+        "change_pct": -40.0,
         "since": "2026-08-07"
       },
       "history_ref": "history/harvey-ai/round_amount.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": 300000000.0,
-      "confirmed_as_of": "2025-06-24"
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
@@ -128,8 +129,8 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 57.89,
-        "change_pct": -54.5,
+        "previous": 26.32,
+        "change_pct": -0.0,
         "since": "2026-07-03"
       },
       "history_ref": "history/harvey-ai/revenue_multiple.jsonl",
@@ -138,5 +139,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-23"
+  "last_updated": "2026-09-24"
 }

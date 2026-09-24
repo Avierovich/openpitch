@@ -98,9 +98,9 @@
     "derivation": null
   },
   {
-    "id": "clm_fd0ac58d1e",
+    "id": "clm_8a53d92474",
     "company_id": "ssi",
-    "metric": "round_amount",
+    "metric": "total_funding",
     "value": 1000000000.0,
     "unit": null,
     "raw_text": "Raises $1 Billion",
@@ -111,18 +111,18 @@
     },
     "source": {
       "type": "news",
-      "name": "Maginative",
+      "name": "maginative.com",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWmFiNEEzc0EwZ0ZuOU5lZ2FqbWZMOEVhVFhVWjYxNmpmNHd6Z0hMTVRhenBNNzZEQ0loM3R5MWtnX3gtX0lSYjJuYm5INnRsZExpZVFnQmJSdE5TT1RRQXZGel9YVTRHWmY3bDkySi1pR0RZUVEtazJzVUtiWmVUcFRmQmIyYlpZVFNicGl6eFNPS2RxWTE0T2pjbFBLWngtTkk2azRPZFU0cW91bUo5bThxZTBReFdDWDcwME9MdzdDcVk?oc=5",
       "locator": null,
       "published_at": "2024-09-04"
     },
-    "extracted_at": "2026-08-31T12:11:11.881256",
-    "extractor_model": "gemini-3.7-flash",
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
   },
   {
-    "id": "clm_5199c2f05a",
+    "id": "clm_a648264bab",
     "company_id": "ssi",
     "metric": "valuation",
     "value": 5000000000.0,
@@ -135,13 +135,13 @@
     },
     "source": {
       "type": "news",
-      "name": "Maginative",
+      "name": "maginative.com",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWmFiNEEzc0EwZ0ZuOU5lZ2FqbWZMOEVhVFhVWjYxNmpmNHd6Z0hMTVRhenBNNzZEQ0loM3R5MWtnX3gtX0lSYjJuYm5INnRsZExpZVFnQmJSdE5TT1RRQXZGel9YVTRHWmY3bDkySi1pR0RZUVEtazJzVUtiWmVUcFRmQmIyYlpZVFNicGl6eFNPS2RxWTE0T2pjbFBLWngtTkk2azRPZFU0cW91bUo5bThxZTBReFdDWDcwME9MdzdDcVk?oc=5",
       "locator": null,
       "published_at": "2024-09-04"
     },
-    "extracted_at": "2026-08-31T12:11:11.881256",
-    "extractor_model": "gemini-3.7-flash",
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
   },
@@ -342,6 +342,54 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_fd0ac58d1e",
+    "company_id": "ssi",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "Raises $1 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Maginative",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWmFiNEEzc0EwZ0ZuOU5lZ2FqbWZMOEVhVFhVWjYxNmpmNHd6Z0hMTVRhenBNNzZEQ0loM3R5MWtnX3gtX0lSYjJuYm5INnRsZExpZVFnQmJSdE5TT1RRQXZGel9YVTRHWmY3bDkySi1pR0RZUVEtazJzVUtiWmVUcFRmQmIyYlpZVFNicGl6eFNPS2RxWTE0T2pjbFBLWngtTkk2azRPZFU0cW91bUo5bThxZTBReFdDWDcwME9MdzdDcVk?oc=5",
+      "locator": null,
+      "published_at": "2024-09-04"
+    },
+    "extracted_at": "2026-08-31T12:11:11.881256",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_5199c2f05a",
+    "company_id": "ssi",
+    "metric": "valuation",
+    "value": 5000000000.0,
+    "unit": null,
+    "raw_text": "$5 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Maginative",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWmFiNEEzc0EwZ0ZuOU5lZ2FqbWZMOEVhVFhVWjYxNmpmNHd6Z0hMTVRhenBNNzZEQ0loM3R5MWtnX3gtX0lSYjJuYm5INnRsZExpZVFnQmJSdE5TT1RRQXZGel9YVTRHWmY3bDkySi1pR0RZUVEtazJzVUtiWmVUcFRmQmIyYlpZVFNicGl6eFNPS2RxWTE0T2pjbFBLWngtTkk2azRPZFU0cW91bUo5bThxZTBReFdDWDcwME9MdzdDcVk?oc=5",
+      "locator": null,
+      "published_at": "2024-09-04"
+    },
+    "extracted_at": "2026-08-31T12:11:11.881256",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -770,54 +818,6 @@
     "extracted_at": "2026-09-05T09:07:28.177448",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_8a53d92474",
-    "company_id": "ssi",
-    "metric": "total_funding",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "Raises $1 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "maginative.com",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWmFiNEEzc0EwZ0ZuOU5lZ2FqbWZMOEVhVFhVWjYxNmpmNHd6Z0hMTVRhenBNNzZEQ0loM3R5MWtnX3gtX0lSYjJuYm5INnRsZExpZVFnQmJSdE5TT1RRQXZGel9YVTRHWmY3bDkySi1pR0RZUVEtazJzVUtiWmVUcFRmQmIyYlpZVFNicGl6eFNPS2RxWTE0T2pjbFBLWngtTkk2azRPZFU0cW91bUo5bThxZTBReFdDWDcwME9MdzdDcVk?oc=5",
-      "locator": null,
-      "published_at": "2024-09-04"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_a648264bab",
-    "company_id": "ssi",
-    "metric": "valuation",
-    "value": 5000000000.0,
-    "unit": null,
-    "raw_text": "$5 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "maginative.com",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWmFiNEEzc0EwZ0ZuOU5lZ2FqbWZMOEVhVFhVWjYxNmpmNHd6Z0hMTVRhenBNNzZEQ0loM3R5MWtnX3gtX0lSYjJuYm5INnRsZExpZVFnQmJSdE5TT1RRQXZGel9YVTRHWmY3bDkySi1pR0RZUVEtazJzVUtiWmVUcFRmQmIyYlpZVFNicGl6eFNPS2RxWTE0T2pjbFBLWngtTkk2azRPZFU0cW91bUo5bThxZTBReFdDWDcwME9MdzdDcVk?oc=5",
-      "locator": null,
-      "published_at": "2024-09-04"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
     "derivation": null
   },
   {

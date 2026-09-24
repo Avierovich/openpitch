@@ -17,11 +17,12 @@
       "value": 39000000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2025-09-16",
+      "as_of": "2025-09-17",
       "estimate_type": "consensus",
-      "confidence": 0.43,
+      "confidence": 0.507,
       "supporting_claims": [
         "clm_a3fcd9264a",
+        "clm_1c99fe0cbb",
         "clm_99dda2fb2c",
         "clm_43464a0de7",
         "clm_bcd7f7b970"
@@ -37,6 +38,29 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 1500000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-02-14",
+      "estimate_type": "consensus",
+      "confidence": 0.083,
+      "supporting_claims": [
+        "clm_7fe2e69d9a",
+        "clm_7d5af4a148"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1500000000.0,
+        "change_pct": -0.0,
+        "since": "2025-02-14"
+      },
+      "history_ref": "history/figure-ai/round_amount.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "total_funding": {
       "metric": "total_funding",
       "value": 1000000000.0,
@@ -44,7 +68,7 @@
       "range": null,
       "as_of": "2025-09-16",
       "estimate_type": "consensus",
-      "confidence": 0.397,
+      "confidence": 0.396,
       "supporting_claims": [
         "clm_c81b56f89f",
         "clm_f2688b30f1"
@@ -52,7 +76,7 @@
       "contradiction": false,
       "delta": {
         "previous": 1000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2025-09-16"
       },
       "history_ref": "history/figure-ai/total_funding.jsonl",
@@ -72,31 +96,13 @@
         "clm_9ce43a85b4"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 21.0,
+        "change_pct": 0.0,
+        "since": "2024-04-04"
+      },
       "history_ref": "history/figure-ai/headcount_growth.jsonl",
       "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 1500000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-02-14",
-      "estimate_type": "reported",
-      "confidence": 0.04,
-      "supporting_claims": [
-        "clm_7d5af4a148"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1500000000.0,
-        "change_pct": 0.0,
-        "since": "2025-02-14"
-      },
-      "history_ref": "history/figure-ai/round_amount.jsonl",
-      "unconfirmed": true,
       "confirmed_value": null,
       "confirmed_as_of": null
     },
@@ -123,5 +129,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-23"
+  "last_updated": "2026-09-24"
 }

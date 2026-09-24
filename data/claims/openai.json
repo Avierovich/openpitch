@@ -1,5 +1,53 @@
 [
   {
+    "id": "clm_6c05bb0d3f",
+    "company_id": "openai",
+    "metric": "total_funding",
+    "value": 122000000000.0,
+    "unit": "USD",
+    "raw_text": "$122 Billion Funding Round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "mlq.ai",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYU53X252QnFxLTkzMnJWUi13X0FjZ3RCaGx0Y3M4UWhIclA3akJGTGlkQXJLWDd0SUk1TzBLMUlVeUZLa0lZREdtQ1pXT1BPLVc1cGpRTnBHeXk4NDhwR19Wc05sM2VDQjI3YW9BbEs3V1EzcEM5QjRWNk1EQmpmeWV2cFhRalV0NGwxRk42MFNmMzBmWmpnYWJSbklLb28?oc=5",
+      "locator": null,
+      "published_at": "2026-03-31"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_9757e8d476",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 852000000000.0,
+    "unit": "USD",
+    "raw_text": "$852 billion Post-Money Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "mlq.ai",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYU53X252QnFxLTkzMnJWUi13X0FjZ3RCaGx0Y3M4UWhIclA3akJGTGlkQXJLWDd0SUk1TzBLMUlVeUZLa0lZREdtQ1pXT1BPLVc1cGpRTnBHeXk4NDhwR19Wc05sM2VDQjI3YW9BbEs3V1EzcEM5QjRWNk1EQmpmeWV2cFhRalV0NGwxRk42MFNmMzBmWmpnYWJSbklLb28?oc=5",
+      "locator": null,
+      "published_at": "2026-03-31"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_8fabc82371",
     "company_id": "openai",
     "metric": "round_amount",
@@ -48,6 +96,33 @@
     "derivation": null
   },
   {
+    "id": "clm_07c068767a",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1200000000000.0,
+    "unit": "USD",
+    "raw_text": "Seeks Valuation Above $1.2 Trillion",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "marketscreener.com",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOUjEzRkxYQzEwTWRlVnhpWHVMVS1rSGt6QTJMOWRhaERxMkg0WEhBV3JkR3dmVG1zOHhUOWMwTnRpNXBRajJNUmNNc29HRDVnMDl2OFlFWGxDbkUyNUJwOGcyTjJEYnU1a0ZwdEREVG5GQjdtRDBjUzZJZVZsLU9ibGNrRlNSakg4a1lKVDAxUmxHdUx5Rlp0ZUZ3blFMRkNDRTdPd0ktMDhHVXpEb2FfY0daLTJZS0JWeWUwRGRWX1FIQ0RySnRQanVPY0ZkeWFyV2xEZkZ0WlpkZEtrOXJCdWFPLWVuQQ?oc=5",
+      "locator": null,
+      "published_at": "2026-09-21"
+    },
+    "extracted_at": "2026-09-21T10:38:28.440880",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
     "id": "clm_d04bab179d",
     "company_id": "openai",
     "metric": "valuation",
@@ -75,14 +150,13 @@
     "derivation": null
   },
   {
-    "id": "clm_07c068767a",
+    "id": "clm_e015a6fa8f",
     "company_id": "openai",
     "metric": "valuation",
-    "value": 1200000000000.0,
-    "unit": "USD",
-    "raw_text": "Seeks Valuation Above $1.2 Trillion",
+    "value": 278000000000.0,
+    "unit": null,
+    "raw_text": "OpenAI Faces $278 Billion Cash Burn. Out of Money by 2028?",
     "qualifiers": [
-      "unconfirmed",
       "forward_looking"
     ],
     "speaker": {
@@ -90,15 +164,63 @@
       "role": "journalist"
     },
     "source": {
-      "type": "news",
-      "name": "marketscreener.com",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOUjEzRkxYQzEwTWRlVnhpWHVMVS1rSGt6QTJMOWRhaERxMkg0WEhBV3JkR3dmVG1zOHhUOWMwTnRpNXBRajJNUmNNc29HRDVnMDl2OFlFWGxDbkUyNUJwOGcyTjJEYnU1a0ZwdEREVG5GQjdtRDBjUzZJZVZsLU9ibGNrRlNSakg4a1lKVDAxUmxHdUx5Rlp0ZUZ3blFMRkNDRTdPd0ktMDhHVXpEb2FfY0daLTJZS0JWeWUwRGRWX1FIQ0RySnRQanVPY0ZkeWFyV2xEZkZ0WlpkZEtrOXJCdWFPLWVuQQ?oc=5",
+      "type": "podcast",
+      "name": "20VC (Harry Stebbings)",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-metas-muse-hits-no-1-chatgpt-finally-has-a-rival-menlo-sounds-the-ai-bubble-alarm-factory-triples-its-valuation-to-5-billion-keith-rabois-vs-airwallex-who-is-right-crusoes-39-billion-round-is-the-data-centre-trade-overheating",
       "locator": null,
-      "published_at": "2026-09-21"
+      "published_at": "2026-09-24"
     },
-    "extracted_at": "2026-09-21T10:38:28.440880",
+    "extracted_at": "2026-09-24T09:50:31.335914",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
+    "base_confidence": 0.294,
+    "derivation": null
+  },
+  {
+    "id": "clm_07c377202a",
+    "company_id": "openai",
+    "metric": "total_funding",
+    "value": 6600000000.0,
+    "unit": null,
+    "raw_text": "$6.6 Billion Raised",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Pulse 2.0",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbDBxNC1GcGpKZUhBOUpiM0tpcFk2eDNMM0ZNdnRlZW45bkcxUlhXM3ZVSkxCQXg1QnJkcjFrV3lLRXhWUXVuNjBaR1U5R25RdG1adWdjd0tjZDJ3dVlUZWtabWFuX01qc3g3N0hwZGNKZjlDUjBJSGpHZVl3VWNWRG9TMTlyYVBvb2RoQjhHeEkzTk5mUXfSAZsBQVVfeXFMT0dRRWVWYXpqVlRVM0Z1UFVMT09RRVBoXzlwQ0xXQTBCemFlTXhmMEl6amhzVlBnbE16aFNQeGR3Tml3cVljcGo0ZE9xUFNtU2dRVGdRRk5CRE1fd0tzWGRaa3VCM2VVbkFSb2YyLWdQTFVnRWhpQTI2LW5TSnV1SWNxbFhUR2dBMEIzUlFNTUp2UHBFR21iOWl5eUE?oc=5",
+      "locator": null,
+      "published_at": "2024-10-04"
+    },
+    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_51f59d4990",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 157000000000.0,
+    "unit": null,
+    "raw_text": "$157 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Pulse 2.0",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbDBxNC1GcGpKZUhBOUpiM0tpcFk2eDNMM0ZNdnRlZW45bkcxUlhXM3ZVSkxCQXg1QnJkcjFrV3lLRXhWUXVuNjBaR1U5R25RdG1adWdjd0tjZDJ3dVlUZWtabWFuX01qc3g3N0hwZGNKZjlDUjBJSGpHZVl3VWNWRG9TMTlyYVBvb2RoQjhHeEkzTk5mUXfSAZsBQVVfeXFMT0dRRWVWYXpqVlRVM0Z1UFVMT09RRVBoXzlwQ0xXQTBCemFlTXhmMEl6amhzVlBnbE16aFNQeGR3Tml3cVljcGo0ZE9xUFNtU2dRVGdRRk5CRE1fd0tzWGRaa3VCM2VVbkFSb2YyLWdQTFVnRWhpQTI2LW5TSnV1SWNxbFhUR2dBMEIzUlFNTUp2UHBFR21iOWl5eUE?oc=5",
+      "locator": null,
+      "published_at": "2024-10-04"
+    },
+    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -179,54 +301,6 @@
     "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.3375,
-    "derivation": null
-  },
-  {
-    "id": "clm_6c05bb0d3f",
-    "company_id": "openai",
-    "metric": "total_funding",
-    "value": 122000000000.0,
-    "unit": "USD",
-    "raw_text": "$122 Billion Funding Round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "mlq.ai",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYU53X252QnFxLTkzMnJWUi13X0FjZ3RCaGx0Y3M4UWhIclA3akJGTGlkQXJLWDd0SUk1TzBLMUlVeUZLa0lZREdtQ1pXT1BPLVc1cGpRTnBHeXk4NDhwR19Wc05sM2VDQjI3YW9BbEs3V1EzcEM5QjRWNk1EQmpmeWV2cFhRalV0NGwxRk42MFNmMzBmWmpnYWJSbklLb28?oc=5",
-      "locator": null,
-      "published_at": "2026-03-31"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_9757e8d476",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 852000000000.0,
-    "unit": "USD",
-    "raw_text": "$852 billion Post-Money Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "mlq.ai",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYU53X252QnFxLTkzMnJWUi13X0FjZ3RCaGx0Y3M4UWhIclA3akJGTGlkQXJLWDd0SUk1TzBLMUlVeUZLa0lZREdtQ1pXT1BPLVc1cGpRTnBHeXk4NDhwR19Wc05sM2VDQjI3YW9BbEs3V1EzcEM5QjRWNk1EQmpmeWV2cFhRalV0NGwxRk42MFNmMzBmWmpnYWJSbklLb28?oc=5",
-      "locator": null,
-      "published_at": "2026-03-31"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -1239,7 +1313,7 @@
       "locator": null,
       "published_at": "2026-08-20"
     },
-    "extracted_at": "2026-09-23T09:52:35.463285",
+    "extracted_at": "2026-09-24T09:50:31.335914",
     "extractor_model": "derive-engine",
     "base_confidence": 0.4658,
     "derivation": {

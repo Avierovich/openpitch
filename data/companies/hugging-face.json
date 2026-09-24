@@ -1,0 +1,95 @@
+{
+  "id": "hugging-face",
+  "name": "Hugging Face",
+  "aliases": [],
+  "website": "huggingface.co/docs/inference-endpoints/index.html?from_article=true#what-are-inference-endpoints-and-why-do-you-need-them-for-your-ai-application-or-business-case%3F-inference-endpoints-are-tailored-for-use-cases-requiring-low-latency-inference-at-scale-for-prod-apps-and-ai-businesses.-they-are-managed-api-endpoints-for-deploying-your-models-into-production.-they-are-compatible-with-any-model-from-the-hugging-face-hub-or-any-custom-private-model-built-with-transformers-diffusers-or-text-generation-inference.-they-also-come-with-advanced-features-like-auto-scaling-and-secure-deployment-in-the-cloud-of-your-choice%21-choose-from-a-wide-selection-of-instance-types-and-hardware-accelerators-such-as-nvidia-a10g-a100-h100-t4-and-amd-mi250.-inference-endpoints-have-a-built-in-load-balancer-that-routes-requests-across-multiple-instances-of-your-model-to-minimize-latency-and-maximize-throughput.-this-enables-your-app-to-seamlessly-scale-from-zero-to-millions-of-users.-inference-endpoints-are-a-fully-managed-service-to-deploy-and-scale-machine-learning-models-for-production.-they-offer-low-latency-and-high-throughput-with-auto-scaling-and-built-in-load-balancing.-you-can-deploy-any-model-from-the-hugging-face-hub-or-your-custom-private-models.-they-support-various-instance-types-and-hardware-accelerators-across-multiple-cloud-providers.",
+  "category": "ai-infra",
+  "subcategory": "inference",
+  "specialty": "Managed inference endpoints for deploying AI models",
+  "summary": "Hugging Face provides managed inference endpoints, enabling developers to deploy and scale machine learning models into production with low latency and high throughput. It supports various models and hardware accelerators with features like auto-scaling and load balancing.",
+  "segment": "global",
+  "in_universe": true,
+  "vc_attention_score": 84.4,
+  "universe_rank": 48,
+  "metrics": {
+    "valuation": {
+      "metric": "valuation",
+      "value": 12900000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-09-07",
+      "estimate_type": "consensus",
+      "confidence": 0.623,
+      "supporting_claims": [
+        "clm_bc562e180f",
+        "clm_3673158f0f",
+        "clm_78e3c0fbfe"
+      ],
+      "contradiction": true,
+      "delta": null,
+      "history_ref": "history/hugging-face/valuation.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "revenue_growth": {
+      "metric": "revenue_growth",
+      "value": 50.0,
+      "unit": "pct",
+      "range": null,
+      "as_of": "2026-08-26",
+      "estimate_type": "reported",
+      "confidence": 0.412,
+      "supporting_claims": [
+        "clm_9647c55ff9"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/hugging-face/revenue_growth.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "arr": {
+      "metric": "arr",
+      "value": 150000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 150000000.0,
+        "high": 150000000.0
+      },
+      "as_of": "2026-08-27",
+      "estimate_type": "consensus",
+      "confidence": 0.633,
+      "supporting_claims": [
+        "clm_d75f52f65c",
+        "clm_82f978a20b"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/hugging-face/arr.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "revenue_multiple": {
+      "metric": "revenue_multiple",
+      "value": 0.4,
+      "unit": "x",
+      "range": null,
+      "as_of": "2026-08-28",
+      "estimate_type": "reported",
+      "confidence": 0.121,
+      "supporting_claims": [
+        "drv_a6deecfc09"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/hugging-face/revenue_multiple.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    }
+  },
+  "last_updated": "2026-09-24"
+}

@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-09-23
+# OpenPitch Data Quality Report - 2026-09-24
 
 ## Summary
 
-- Profiles generated: 486
-- Watchlist candidates: 1079
+- Profiles generated: 521
+- Watchlist candidates: 1089
 - Top-50 cards: 50
-- Profiles with at least one metric: 474
-- Critical issues: 88
-- Warnings: 20
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 591
+- Profiles with at least one metric: 509
+- Critical issues: 97
+- Warnings: 18
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 566
 
 ## Top-50 Companies With No Metrics
 
@@ -24,7 +24,6 @@ None.
 - Devoted Health
 - Chime
 - Bright Health
-- Checkout.com
 
 ## Curated High-Priority Watchlist Companies Not Profiled (critical)
 
@@ -43,6 +42,7 @@ None.
 - Augment Code
 - Augment Code
 - Causaly
+- Hyperscience
 - Bland AI
 - Foodics
 - AI71
@@ -94,6 +94,7 @@ None.
 - DeepInfra
 - Demandbase
 - Descript
+- Dexory
 - Enfabrica
 - Esperanto Technologies
 - EvolutionaryScale
@@ -104,9 +105,16 @@ None.
 - Genesis Therapeutics
 - Ghost Robotics
 - Ginger
+- H Company
 - HUMAIN
 - Happy Health
+- Havoc AI
+- HealthJoy
+- Healthee
+- HiddenLayer
 - Huspy
+- Hydrosat
+- Iambic Therapeutics
 - Ideogram
 - Krea
 - Lean Technologies
@@ -123,20 +131,19 @@ None.
 ## Single-Source Core Metrics
 
 - Enflame Technology: valuation
+- DeepSeek: arr
 - Figure AI: headcount
 - Scale AI: headcount
 - Mercor: headcount
 - Fireworks AI: arr
 - Fireworks AI: total_funding
 - Fireworks AI: headcount
-- Harvey AI: arr
 - Sierra: arr
 - Lovable: headcount
 - Celonis: arr
 - Celonis: headcount
 - Shield AI: total_funding
 - Baseten: arr
-- Poolside: arr
 
 ## Review Rule
 

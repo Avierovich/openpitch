@@ -342,19 +342,64 @@
     "derivation": null
   },
   {
+    "id": "clm_a7a4e1067a",
+    "company_id": "harvey-ai",
+    "metric": "arr",
+    "value": 100000000.0,
+    "unit": "USD",
+    "raw_text": "$100M ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "mlq.ai",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZm14cFhTREtJbjNnSGE5X0pCTGdnZTF4dW55VHJDSmhsc3N2ZEl4NzBvSWpmbEQzaS0yOEtKdUhvZDd5VFhTYkhrUklEX0JEbFVUNXNlZnBfUE9sTDhod2RCRVg0Skd4SVB1ZU9hQ29uZEhqcVpIeUZid2k0UGZuQXlHbW5HendURjdLY3JfdTNKVUEt?oc=5",
+      "locator": null,
+      "published_at": "2025-08-05"
+    },
+    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_2a6b3c9d51",
+    "company_id": "harvey-ai",
+    "metric": "valuation",
+    "value": 5000000000.0,
+    "unit": "USD",
+    "raw_text": "$5B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "mlq.ai",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZm14cFhTREtJbjNnSGE5X0pCTGdnZTF4dW55VHJDSmhsc3N2ZEl4NzBvSWpmbEQzaS0yOEtKdUhvZDd5VFhTYkhrUklEX0JEbFVUNXNlZnBfUE9sTDhod2RCRVg0Skd4SVB1ZU9hQ29uZEhqcVpIeUZid2k0UGZuQXlHbW5HendURjdLY3JfdTNKVUEt?oc=5",
+      "locator": null,
+      "published_at": "2025-08-05"
+    },
+    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_1a3e533faf",
     "company_id": "harvey-ai",
     "metric": "total_funding",
     "value": 500000000.0,
-    "unit": "usd",
+    "unit": "USD",
     "raw_text": "over $500M in funding",
-    "qualifiers": [
-      "approximate",
-      "rounded"
-    ],
+    "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "investor"
     },
     "source": {
       "type": "podcast",
@@ -363,9 +408,105 @@
       "locator": null,
       "published_at": "2025-02-14"
     },
-    "extracted_at": "2026-09-23T09:52:35.463285",
+    "extracted_at": "2026-09-24T09:50:31.335914",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3213,
+    "base_confidence": 0.48,
+    "derivation": null
+  },
+  {
+    "id": "clm_4dd64dcde0",
+    "company_id": "harvey-ai",
+    "metric": "round_amount",
+    "value": 300000000.0,
+    "unit": "USD",
+    "raw_text": "Raises $300 Million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "maginative.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWmh3dXdNcnV0aFNVSDM3Y19xWW9CejVQOEo0dVJ4S0duWkRtNVVxRlZ4OEtfalVuX1UtRzNzd203WjNON1d5MXI1bGhKQnRxRkFGSi1PUkU5b2l3UF84S0M3NEF1MXE0WFFaNjdXdmlUZGJIUEMxT3lfaFJjMG5aYXIzZHprcjVNVmJiajZ1LTFVSy1qT1ZWMkxIWXAxRFRvOXdDTFRFcWN2Uy1wVmpvSg?oc=5",
+      "locator": null,
+      "published_at": "2025-06-24"
+    },
+    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_c3fb30e439",
+    "company_id": "harvey-ai",
+    "metric": "valuation",
+    "value": 5000000000.0,
+    "unit": "USD",
+    "raw_text": "$5 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "maginative.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWmh3dXdNcnV0aFNVSDM3Y19xWW9CejVQOEo0dVJ4S0duWkRtNVVxRlZ4OEtfalVuX1UtRzNzd203WjNON1d5MXI1bGhKQnRxRkFGSi1PUkU5b2l3UF84S0M3NEF1MXE0WFFaNjdXdmlUZGJIUEMxT3lfaFJjMG5aYXIzZHprcjVNVmJiajZ1LTFVSy1qT1ZWMkxIWXAxRFRvOXdDTFRFcWN2Uy1wVmpvSg?oc=5",
+      "locator": null,
+      "published_at": "2025-06-24"
+    },
+    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_680c6d158d",
+    "company_id": "harvey-ai",
+    "metric": "round_amount",
+    "value": 80000000.0,
+    "unit": "USD",
+    "raw_text": "Raises $80M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "maginative.com",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObkZZQ1hneno1T2U5UUFkamx0cVp6aWJkUC1FblVTY1YwY3RQRTZHSTk5SjZJUmtmaTlfUHNjU3dLdTNBemUzLWFFc0V5d2xBeW1fTUFvT2FBZzZpUVJyZTcxQW1adXBOSUpHMW5vaEd3TFhWWHdsVkdPOWo1TTBhNU9tMjA3cm5xejZrZjV5RGM3VzNlUkE?oc=5",
+      "locator": null,
+      "published_at": "2023-12-19"
+    },
+    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_9b3cb36bd8",
+    "company_id": "harvey-ai",
+    "metric": "valuation",
+    "value": 715000000.0,
+    "unit": "USD",
+    "raw_text": "$715M Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "maginative.com",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObkZZQ1hneno1T2U5UUFkamx0cVp6aWJkUC1FblVTY1YwY3RQRTZHSTk5SjZJUmtmaTlfUHNjU3dLdTNBemUzLWFFc0V5d2xBeW1fTUFvT2FBZzZpUVJyZTcxQW1adXBOSUpHMW5vaEd3TFhWWHdsVkdPOWo1TTBhNU9tMjA3cm5xejZrZjV5RGM3VzNlUkE?oc=5",
+      "locator": null,
+      "published_at": "2023-12-19"
+    },
+    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -543,7 +684,7 @@
       "locator": null,
       "published_at": "2026-07-03"
     },
-    "extracted_at": "2026-09-23T09:52:35.463285",
+    "extracted_at": "2026-09-24T09:50:31.335914",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

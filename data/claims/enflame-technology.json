@@ -48,6 +48,30 @@
     "derivation": null
   },
   {
+    "id": "clm_5f1746f08d",
+    "company_id": "enflame-technology",
+    "metric": "round_amount",
+    "value": 237000000.0,
+    "unit": "USD",
+    "raw_text": "raises $237M in late-stage funding round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYk1TbFZwTVdnQzNGRTFUNERDcWRieVdHMF84VmQzQkRTaVhfUFoycTVrNUNqek5salNFZWZBQS1yX19XVXRuZ05xd2JhOWVNeURuNU1UNUo0YzN4TUdueHBIQi1NaDVTcXo2Q2JRVWFUSFBRTUIyZ2ZQRGZYd0xNR2JjdDZpRVp6U2Vsd1B3cF82VXQ2TEFHTE5YYjd1QXlzWnc?oc=5",
+      "locator": null,
+      "published_at": "2023-09-28"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_5d260806af",
     "company_id": "enflame-technology",
     "metric": "total_funding",
@@ -72,27 +96,29 @@
     "derivation": null
   },
   {
-    "id": "clm_b918879a57",
+    "id": "clm_666d312e1f",
     "company_id": "enflame-technology",
     "metric": "round_amount",
     "value": 900000000.0,
     "unit": "USD",
-    "raw_text": "Enflame’s US$900m IPO",
-    "qualifiers": [],
+    "raw_text": "US$900m IPO",
+    "qualifiers": [
+      "rounded"
+    ],
     "speaker": {
       "name": null,
       "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "scmp.com",
+      "name": "South China Morning Post",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZkFYeU9ubkdsOXJsR0hDVU1laF9yTDEyOVVkOTlFajdJeDNRZGl4VjBZUHNtczZzSTh5cF9HdFhCb09kUW1FYllRTE5odnMwWEZmNU1zRTFBeU1qNmF3cXZDXzV2aGZoRVdOOFlLX1NkQUtYMDJCeklOUGRTZFdKTnN1ZWN3ZGYtdkVIcS1SX294Yi12Qml5ck9XOGotQ01vcm9YdlQ3VHl5RENzVURCQUN5cjRsV1pURDRFc9IBvAFBVV95cUxQUGlmcHZCcnRnRXZjdzlkTnVnX202RV9FckgzN3BvR1ZyeEoxM1Q1OFBzMVUxcXljNV9PTmRSUllfNTBPVGxucEZjaldrZEhVWmNQX3ZKTFpabl9YMXRkWG5wMVBYa3J6RmZQVU4wVEx0YnBDVWd3bWV5eGlnbXp3THBhdDExTGdXd3ZuUXJuZEk0bHhuLS1mNzAzQmRxYzNGcDd6UWhuNE5IcjBHNm9mb1drUFZjTjZmQjU3Sg?oc=5",
       "locator": null,
       "published_at": "2026-09-02"
     },
-    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extracted_at": "2026-09-12T09:20:27.932122",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
+    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -147,30 +173,27 @@
     "derivation": null
   },
   {
-    "id": "clm_d22b6a5140",
+    "id": "clm_fe02fa2e27",
     "company_id": "enflame-technology",
     "metric": "round_amount",
     "value": 911000000.0,
     "unit": "USD",
-    "raw_text": "$911 Million IPO",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
+    "raw_text": "after $911 Million IPO",
+    "qualifiers": [],
     "speaker": {
       "name": null,
       "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "Bloomberg",
+      "name": "Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTjFjX1RYTTlIeE9kVEw5bU9WbEFtaG5OamRCTXV1RlpDeWRicXpDOFZ4WDhuRW1jVFNPWFF0S1pOS0FlRk40Y2VWNUFuckk1bUt4WEk0YzJjUlFqMDl3dU1UakxibHdrdFMtcGZIZ2FQOE9GVkZ3YkxSSFE3M2thWVRNZnlkMk0tSnVPWkQ5RjI2RW5EOHFTRVJLSGpKWU5JRGk5Q2dnY1FJMGplamo5VWN2bUs?oc=5",
       "locator": null,
       "published_at": "2026-09-11"
     },
-    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extracted_at": "2026-09-12T09:20:27.932122",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -222,6 +245,57 @@
     "derivation": null
   },
   {
+    "id": "clm_b918879a57",
+    "company_id": "enflame-technology",
+    "metric": "round_amount",
+    "value": 900000000.0,
+    "unit": "USD",
+    "raw_text": "Enflame’s US$900m IPO",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "scmp.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZkFYeU9ubkdsOXJsR0hDVU1laF9yTDEyOVVkOTlFajdJeDNRZGl4VjBZUHNtczZzSTh5cF9HdFhCb09kUW1FYllRTE5odnMwWEZmNU1zRTFBeU1qNmF3cXZDXzV2aGZoRVdOOFlLX1NkQUtYMDJCeklOUGRTZFdKTnN1ZWN3ZGYtdkVIcS1SX294Yi12Qml5ck9XOGotQ01vcm9YdlQ3VHl5RENzVURCQUN5cjRsV1pURDRFc9IBvAFBVV95cUxQUGlmcHZCcnRnRXZjdzlkTnVnX202RV9FckgzN3BvR1ZyeEoxM1Q1OFBzMVUxcXljNV9PTmRSUllfNTBPVGxucEZjaldrZEhVWmNQX3ZKTFpabl9YMXRkWG5wMVBYa3J6RmZQVU4wVEx0YnBDVWd3bWV5eGlnbXp3THBhdDExTGdXd3ZuUXJuZEk0bHhuLS1mNzAzQmRxYzNGcDd6UWhuNE5IcjBHNm9mb1drUFZjTjZmQjU3Sg?oc=5",
+      "locator": null,
+      "published_at": "2026-09-02"
+    },
+    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_d22b6a5140",
+    "company_id": "enflame-technology",
+    "metric": "round_amount",
+    "value": 911000000.0,
+    "unit": "USD",
+    "raw_text": "$911 Million IPO",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTjFjX1RYTTlIeE9kVEw5bU9WbEFtaG5OamRCTXV1RlpDeWRicXpDOFZ4WDhuRW1jVFNPWFF0S1pOS0FlRk40Y2VWNUFuckk1bUt4WEk0YzJjUlFqMDl3dU1UakxibHdrdFMtcGZIZ2FQOE9GVkZ3YkxSSFE3M2thWVRNZnlkMk0tSnVPWkQ5RjI2RW5EOHFTRVJLSGpKWU5JRGk5Q2dnY1FJMGplamo5VWN2bUs?oc=5",
+      "locator": null,
+      "published_at": "2026-09-11"
+    },
+    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
     "id": "clm_42e0168cb8",
     "company_id": "enflame-technology",
     "metric": "round_amount",
@@ -270,56 +344,6 @@
     "derivation": null
   },
   {
-    "id": "clm_666d312e1f",
-    "company_id": "enflame-technology",
-    "metric": "round_amount",
-    "value": 900000000.0,
-    "unit": "USD",
-    "raw_text": "US$900m IPO",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZkFYeU9ubkdsOXJsR0hDVU1laF9yTDEyOVVkOTlFajdJeDNRZGl4VjBZUHNtczZzSTh5cF9HdFhCb09kUW1FYllRTE5odnMwWEZmNU1zRTFBeU1qNmF3cXZDXzV2aGZoRVdOOFlLX1NkQUtYMDJCeklOUGRTZFdKTnN1ZWN3ZGYtdkVIcS1SX294Yi12Qml5ck9XOGotQ01vcm9YdlQ3VHl5RENzVURCQUN5cjRsV1pURDRFc9IBvAFBVV95cUxQUGlmcHZCcnRnRXZjdzlkTnVnX202RV9FckgzN3BvR1ZyeEoxM1Q1OFBzMVUxcXljNV9PTmRSUllfNTBPVGxucEZjaldrZEhVWmNQX3ZKTFpabl9YMXRkWG5wMVBYa3J6RmZQVU4wVEx0YnBDVWd3bWV5eGlnbXp3THBhdDExTGdXd3ZuUXJuZEk0bHhuLS1mNzAzQmRxYzNGcDd6UWhuNE5IcjBHNm9mb1drUFZjTjZmQjU3Sg?oc=5",
-      "locator": null,
-      "published_at": "2026-09-02"
-    },
-    "extracted_at": "2026-09-12T09:20:27.932122",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_fe02fa2e27",
-    "company_id": "enflame-technology",
-    "metric": "round_amount",
-    "value": 911000000.0,
-    "unit": "USD",
-    "raw_text": "after $911 Million IPO",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTjFjX1RYTTlIeE9kVEw5bU9WbEFtaG5OamRCTXV1RlpDeWRicXpDOFZ4WDhuRW1jVFNPWFF0S1pOS0FlRk40Y2VWNUFuckk1bUt4WEk0YzJjUlFqMDl3dU1UakxibHdrdFMtcGZIZ2FQOE9GVkZ3YkxSSFE3M2thWVRNZnlkMk0tSnVPWkQ5RjI2RW5EOHFTRVJLSGpKWU5JRGk5Q2dnY1FJMGplamo5VWN2bUs?oc=5",
-      "locator": null,
-      "published_at": "2026-09-11"
-    },
-    "extracted_at": "2026-09-12T09:20:27.932122",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_3c30954aef",
     "company_id": "enflame-technology",
     "metric": "total_funding",
@@ -339,30 +363,6 @@
       "published_at": "2026-09-14"
     },
     "extracted_at": "2026-09-22T09:56:18.399410",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_5f1746f08d",
-    "company_id": "enflame-technology",
-    "metric": "round_amount",
-    "value": 237000000.0,
-    "unit": "USD",
-    "raw_text": "raises $237M in late-stage funding round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYk1TbFZwTVdnQzNGRTFUNERDcWRieVdHMF84VmQzQkRTaVhfUFoycTVrNUNqek5salNFZWZBQS1yX19XVXRuZ05xd2JhOWVNeURuNU1UNUo0YzN4TUdueHBIQi1NaDVTcXo2Q2JRVWFUSFBRTUIyZ2ZQRGZYd0xNR2JjdDZpRVp6U2Vsd1B3cF82VXQ2TEFHTE5YYjd1QXlzWnc?oc=5",
-      "locator": null,
-      "published_at": "2023-09-28"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null

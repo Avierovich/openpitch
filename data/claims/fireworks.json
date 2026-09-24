@@ -194,30 +194,6 @@
     "derivation": null
   },
   {
-    "id": "clm_832e4d0f3e",
-    "company_id": "fireworks",
-    "metric": "valuation",
-    "value": 4000000000.0,
-    "unit": "USD",
-    "raw_text": "Valued at $4 Billion in Funding Round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "wsj.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZnRSQ2RlNkR3QmdibVN2VFFzM3dJSVdJcDYzU211bVF6WXFvYVE4dEY4MmJibWNoYVhwWFQ4ZXlldnhwWUZua3JQd1ZtLWwxOGdiQ1RHUUp4cDBBcVpQQ1EzVDhCeDZLU0NvQnRLMUdka3ZLUFZUbEdWSkFVN1M4RndEX19pRXdrd0JEdjZPYWhqOXRONDI3ZHZnTUtMUk1qbGNaSDdwMTRKUm5TSV8wMg?oc=5",
-      "locator": null,
-      "published_at": "2025-10-28"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_db6464301b",
     "company_id": "fireworks",
     "metric": "round_amount",
@@ -357,6 +333,54 @@
       "published_at": "2025-10-29"
     },
     "extracted_at": "2026-08-21T05:50:03.226228",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_ad0f41859d",
+    "company_id": "fireworks",
+    "metric": "open_roles",
+    "value": 82.0,
+    "unit": null,
+    "raw_text": "Showing 82 positions",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fireworks.ai",
+      "url": "https://fireworks.ai/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_832e4d0f3e",
+    "company_id": "fireworks",
+    "metric": "valuation",
+    "value": 4000000000.0,
+    "unit": "USD",
+    "raw_text": "Valued at $4 Billion in Funding Round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "wsj.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZnRSQ2RlNkR3QmdibVN2VFFzM3dJSVdJcDYzU211bVF6WXFvYVE4dEY4MmJibWNoYVhwWFQ4ZXlldnhwWUZua3JQd1ZtLWwxOGdiQ1RHUUp4cDBBcVpQQ1EzVDhCeDZLU0NvQnRLMUdka3ZLUFZUbEdWSkFVN1M4RndEX19pRXdrd0JEdjZPYWhqOXRONDI3ZHZnTUtMUk1qbGNaSDdwMTRKUm5TSV8wMg?oc=5",
+      "locator": null,
+      "published_at": "2025-10-28"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -1581,7 +1605,7 @@
       "locator": null,
       "published_at": "2026-07-20"
     },
-    "extracted_at": "2026-09-23T09:52:35.463285",
+    "extracted_at": "2026-09-24T09:50:31.335914",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2029,
     "derivation": {

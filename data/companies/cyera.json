@@ -8,9 +8,9 @@
   "specialty": "AI security",
   "summary": "Cyera provides AI-powered security solutions for businesses, protecting against cyber threats and data breaches.",
   "segment": "global",
-  "in_universe": true,
+  "in_universe": false,
   "vc_attention_score": 84.1,
-  "universe_rank": 50,
+  "universe_rank": 52,
   "metrics": {
     "valuation": {
       "metric": "valuation",
@@ -24,14 +24,14 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
-        "clm_17cb71f8b1",
         "clm_197972eb0f",
+        "clm_88488c1e0d",
+        "clm_4746302d00",
+        "clm_10364f9ddb",
         "clm_c0d0f47aad",
         "clm_da5ca093e9",
-        "clm_88488c1e0d",
         "clm_b14a9afb2e",
-        "clm_10364f9ddb",
-        "clm_4746302d00",
+        "clm_17cb71f8b1",
         "clm_30e02b8bb3",
         "clm_b0a585a57d",
         "clm_55fdebc623",
@@ -72,10 +72,10 @@
       "range": null,
       "as_of": "2026-06-02",
       "estimate_type": "consensus",
-      "confidence": 0.309,
+      "confidence": 0.307,
       "supporting_claims": [
-        "clm_bbdf879ccd",
         "clm_d35e24cf73",
+        "clm_bbdf879ccd",
         "clm_6af31875b8"
       ],
       "contradiction": false,
@@ -130,6 +130,34 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 7.0,
+      "unit": "object",
+      "range": {
+        "low": 7.0,
+        "high": 600000000.0
+      },
+      "as_of": "2026-09-22",
+      "estimate_type": "consensus",
+      "confidence": 0.834,
+      "supporting_claims": [
+        "clm_f1d7fdef4d",
+        "clm_4d823ad4b9",
+        "clm_e8e197a9b6",
+        "clm_a607853f1c"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 7.0,
+        "change_pct": -0.0,
+        "since": "2026-09-22"
+      },
+      "history_ref": "history/cyera/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "total_funding": {
       "metric": "total_funding",
       "value": 600000000.0,
@@ -140,7 +168,7 @@
       },
       "as_of": "2026-06-10",
       "estimate_type": "consensus",
-      "confidence": 0.544,
+      "confidence": 0.543,
       "supporting_claims": [
         "clm_706a506c16",
         "clm_9c8aaebae0"
@@ -163,45 +191,17 @@
       "range": null,
       "as_of": "2025-05-09",
       "estimate_type": "reported",
-      "confidence": 0.037,
+      "confidence": 0.026,
       "supporting_claims": [
         "clm_b7295b2927"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 100.0,
-        "change_pct": 450.0,
+        "previous": 550.0,
+        "change_pct": 0.0,
         "since": "2025-05-09"
       },
       "history_ref": "history/cyera/headcount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "latest_round": {
-      "metric": "latest_round",
-      "value": 7.0,
-      "unit": "object",
-      "range": {
-        "low": 7.0,
-        "high": 600000000.0
-      },
-      "as_of": "2026-09-22",
-      "estimate_type": "consensus",
-      "confidence": 0.835,
-      "supporting_claims": [
-        "clm_f1d7fdef4d",
-        "clm_4d823ad4b9",
-        "clm_e8e197a9b6",
-        "clm_a607853f1c"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 7.0,
-        "change_pct": 0.0,
-        "since": "2026-06-10"
-      },
-      "history_ref": "history/cyera/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -213,7 +213,7 @@
       "range": null,
       "as_of": "2026-06-02",
       "estimate_type": "reported",
-      "confidence": 0.088,
+      "confidence": 0.087,
       "supporting_claims": [
         "clm_5c256d86b4"
       ],
@@ -229,5 +229,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-23"
+  "last_updated": "2026-09-24"
 }

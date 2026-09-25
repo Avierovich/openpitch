@@ -75,6 +75,54 @@
     "derivation": null
   },
   {
+    "id": "clm_f375930e8b",
+    "company_id": "lovable",
+    "metric": "round_amount",
+    "value": 400000000.0,
+    "unit": "USD",
+    "raw_text": "raises $400 million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWHhnY3hNVEUwNHV3VnA0WGtlZnRlN1NkeEdaejNXdW1KaTQwN3NCbzV0c2Q2cF9pX2oyRnNCWG1TZjhyZ0lNTHBiTFZhSjNsdkhHUDhVcWRNQUYxQjdQamlEVmxTRExzZlJoMExMSHFoVWZXT3VOTV9hZ1JLbkd4SjMybUdROUxzenkxSGJXeHE4NVFINVI5Mlk3STlabndYVWMwY3dlV0RjdmdNRzVBbVBJR29CZnF2b2p6bEdvdG9IUlM0LUE?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_1c4f3fb212",
+    "company_id": "lovable",
+    "metric": "valuation",
+    "value": 13300000000.0,
+    "unit": "USD",
+    "raw_text": "$13.3 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWHhnY3hNVEUwNHV3VnA0WGtlZnRlN1NkeEdaejNXdW1KaTQwN3NCbzV0c2Q2cF9pX2oyRnNCWG1TZjhyZ0lNTHBiTFZhSjNsdkhHUDhVcWRNQUYxQjdQamlEVmxTRExzZlJoMExMSHFoVWZXT3VOTV9hZ1JLbkd4SjMybUdROUxzenkxSGJXeHE4NVFINVI5Mlk3STlabndYVWMwY3dlV0RjdmdNRzVBbVBJR29CZnF2b2p6bEdvdG9IUlM0LUE?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_b1024af8de",
     "company_id": "lovable",
     "metric": "valuation",
@@ -195,30 +243,6 @@
     "derivation": null
   },
   {
-    "id": "clm_ff02cbe3b4",
-    "company_id": "lovable",
-    "metric": "valuation",
-    "value": 6600000000.0,
-    "unit": null,
-    "raw_text": "Lovable valued at $6.6 billion in latest funding round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRm9JaHRGN3hnU0ZOaVFKdVhIYVhTU3k1MGJoWmhYRlJDeWN0MldsMU9vajI1MUZuSThiSDNSc0RxSGdnZFZWR2FSY1JodzRadTRqanBWOVlSd3J5WVlodGxFRkRHTjBNTzR4ZkxOS1lxZkFoY3cyM3hjT3pXXzF2alluRWNCNUUzU1ZuNk4zdHJadjFqaGFYWG5PbE9ldkNzMmVQYXNjeWQ0czVGUENwX09oV3FWbmxnR2s1dlZaZ0o?oc=5",
-      "locator": null,
-      "published_at": "2025-12-18"
-    },
-    "extracted_at": "2026-09-23T09:52:35.463285",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_b82f2b5892",
     "company_id": "lovable",
     "metric": "round_amount",
@@ -267,6 +291,30 @@
     "derivation": null
   },
   {
+    "id": "clm_ff02cbe3b4",
+    "company_id": "lovable",
+    "metric": "valuation",
+    "value": 6600000000.0,
+    "unit": null,
+    "raw_text": "Lovable valued at $6.6 billion in latest funding round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRm9JaHRGN3hnU0ZOaVFKdVhIYVhTU3k1MGJoWmhYRlJDeWN0MldsMU9vajI1MUZuSThiSDNSc0RxSGdnZFZWR2FSY1JodzRadTRqanBWOVlSd3J5WVlodGxFRkRHTjBNTzR4ZkxOS1lxZkFoY3cyM3hjT3pXXzF2alluRWNCNUUzU1ZuNk4zdHJadjFqaGFYWG5PbE9ldkNzMmVQYXNjeWQ0czVGUENwX09oV3FWbmxnR2s1dlZaZ0o?oc=5",
+      "locator": null,
+      "published_at": "2025-12-18"
+    },
+    "extracted_at": "2026-09-23T09:52:35.463285",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_bee4e74405",
     "company_id": "lovable",
     "metric": "valuation",
@@ -293,54 +341,6 @@
     "derivation": null
   },
   {
-    "id": "clm_f375930e8b",
-    "company_id": "lovable",
-    "metric": "round_amount",
-    "value": 400000000.0,
-    "unit": "USD",
-    "raw_text": "raises $400 million",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWHhnY3hNVEUwNHV3VnA0WGtlZnRlN1NkeEdaejNXdW1KaTQwN3NCbzV0c2Q2cF9pX2oyRnNCWG1TZjhyZ0lNTHBiTFZhSjNsdkhHUDhVcWRNQUYxQjdQamlEVmxTRExzZlJoMExMSHFoVWZXT3VOTV9hZ1JLbkd4SjMybUdROUxzenkxSGJXeHE4NVFINVI5Mlk3STlabndYVWMwY3dlV0RjdmdNRzVBbVBJR29CZnF2b2p6bEdvdG9IUlM0LUE?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-09-24T09:50:31.335914",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_1c4f3fb212",
-    "company_id": "lovable",
-    "metric": "valuation",
-    "value": 13300000000.0,
-    "unit": "USD",
-    "raw_text": "$13.3 billion valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWHhnY3hNVEUwNHV3VnA0WGtlZnRlN1NkeEdaejNXdW1KaTQwN3NCbzV0c2Q2cF9pX2oyRnNCWG1TZjhyZ0lNTHBiTFZhSjNsdkhHUDhVcWRNQUYxQjdQamlEVmxTRExzZlJoMExMSHFoVWZXT3VOTV9hZ1JLbkd4SjMybUdROUxzenkxSGJXeHE4NVFINVI5Mlk3STlabndYVWMwY3dlV0RjdmdNRzVBbVBJR29CZnF2b2p6bEdvdG9IUlM0LUE?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-09-24T09:50:31.335914",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_eea4e64e8e",
     "company_id": "lovable",
     "metric": "valuation",
@@ -358,54 +358,6 @@
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA4bkpERnNSbUxCSFY2SHFOM2U0ZHUwZVFyMHZadEFyc19XRVhLUFI5TGFwMkNwd2lEUlZmOW9FRXNVRm96NzdFYi02QXJBdEFUaXg4Y1A0T2dvaXhrbUhSSFhCY3NDYUdSMUZPbGZwZjVVa016ZHVONDRKTUk?oc=5",
       "locator": null,
       "published_at": "2025-12-18"
-    },
-    "extracted_at": "2026-09-24T09:50:31.335914",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_2879aaafbf",
-    "company_id": "lovable",
-    "metric": "round_amount",
-    "value": 400000000.0,
-    "unit": "USD",
-    "raw_text": "Raises $400 Million",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "mezha.net",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB6MXJPNGdta1NhSDZOWWgwa2EzaWl3bnA4LXVzUXhvRzM0SDd2RE5TRk9HSEE2NDNxWk9fY1F3ZzMwdURvUFFlTlNyQzh0WDlaMmpUdHlvRVlkeW1EcmVseVJtN3I3SkU?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-09-24T09:50:31.335914",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_8e46809a74",
-    "company_id": "lovable",
-    "metric": "valuation",
-    "value": 13300000000.0,
-    "unit": "USD",
-    "raw_text": "$13.3 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "mezha.net",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB6MXJPNGdta1NhSDZOWWgwa2EzaWl3bnA4LXVzUXhvRzM0SDd2RE5TRk9HSEE2NDNxWk9fY1F3ZzMwdURvUFFlTlNyQzh0WDlaMmpUdHlvRVlkeW1EcmVseVJtN3I3SkU?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
     },
     "extracted_at": "2026-09-24T09:50:31.335914",
     "extractor_model": "gemini-3.5-flash-lite",
@@ -456,6 +408,54 @@
       "published_at": "2026-08-12"
     },
     "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_2879aaafbf",
+    "company_id": "lovable",
+    "metric": "round_amount",
+    "value": 400000000.0,
+    "unit": "USD",
+    "raw_text": "Raises $400 Million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "mezha.net",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB6MXJPNGdta1NhSDZOWWgwa2EzaWl3bnA4LXVzUXhvRzM0SDd2RE5TRk9HSEE2NDNxWk9fY1F3ZzMwdURvUFFlTlNyQzh0WDlaMmpUdHlvRVlkeW1EcmVseVJtN3I3SkU?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_8e46809a74",
+    "company_id": "lovable",
+    "metric": "valuation",
+    "value": 13300000000.0,
+    "unit": "USD",
+    "raw_text": "$13.3 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "mezha.net",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB6MXJPNGdta1NhSDZOWWgwa2EzaWl3bnA4LXVzUXhvRzM0SDd2RE5TRk9HSEE2NDNxWk9fY1F3ZzMwdURvUFFlTlNyQzh0WDlaMmpUdHlvRVlkeW1EcmVseVJtN3I3SkU?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-09-24T09:50:31.335914",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -2633,7 +2633,7 @@
     "derivation": null
   },
   {
-    "id": "drv_74604015dd",
+    "id": "drv_3e4daf20c1",
     "company_id": "lovable",
     "metric": "revenue_multiple",
     "value": 26.6,
@@ -2651,14 +2651,14 @@
       "locator": null,
       "published_at": "2026-08-12"
     },
-    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extracted_at": "2026-09-25T10:09:44.175619",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_5e3c945f03",
+        "clm_1c4f3fb212",
         "clm_a57c1bd117"
       ]
     }

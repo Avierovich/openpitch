@@ -1,13 +1,41 @@
 [
   {
+    "id": "clm_8739f50e05",
+    "company_id": "figure",
+    "metric": "round_amount",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "raise $1.5B",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBxSFRvZWZKOEtNQWktQVdFQjA0eDVqRDVQaHlQQXZxVnZ3OXZzbWhibV9tZEFtVDYtYjJ4MGM0Q2NYS1hoZHFLcVFzN3FqcU45VVhUZWFfZnFiU0VCVUVYS2dDZURCNTR0ODAyZ3FIUFc1b3NjMzI0S3pmZVc?oc=5",
+      "locator": null,
+      "published_at": "2025-02-14"
+    },
+    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
     "id": "clm_bd4cd2e26e",
     "company_id": "figure",
     "metric": "valuation",
     "value": 39000000000.0,
-    "unit": null,
+    "unit": "USD",
     "raw_text": "Figure AI's eye-popping $39B valuation",
     "qualifiers": [
-      "unconfirmed"
+      "unconfirmed",
+      "rounded"
     ],
     "speaker": {
       "name": null,
@@ -20,9 +48,9 @@
       "locator": null,
       "published_at": "2025-04-15"
     },
-    "extracted_at": "2026-09-18T09:44:30.525514",
+    "extracted_at": "2026-09-25T10:09:44.175619",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.18,
+    "base_confidence": 0.162,
     "derivation": null
   },
   {
@@ -74,33 +102,6 @@
     "extracted_at": "2026-09-24T09:50:31.335914",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_8739f50e05",
-    "company_id": "figure",
-    "metric": "round_amount",
-    "value": 1500000000.0,
-    "unit": "USD",
-    "raw_text": "raise $1.5B",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance UK",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBxSFRvZWZKOEtNQWktQVdFQjA0eDVqRDVQaHlQQXZxVnZ3OXZzbWhibV9tZEFtVDYtYjJ4MGM0Q2NYS1hoZHFLcVFzN3FqcU45VVhUZWFfZnFiU0VCVUVYS2dDZURCNTR0ODAyZ3FIUFc1b3NjMzI0S3pmZVc?oc=5",
-      "locator": null,
-      "published_at": "2025-02-14"
-    },
-    "extracted_at": "2026-09-04T09:41:05.539009",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {

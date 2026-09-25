@@ -12,6 +12,32 @@
   "vc_attention_score": 87.5,
   "universe_rank": 22,
   "metrics": {
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 6.0,
+      "unit": "object",
+      "range": {
+        "low": 6.0,
+        "high": 3000000000.0
+      },
+      "as_of": "2026-09-18",
+      "estimate_type": "consensus",
+      "confidence": 0.755,
+      "supporting_claims": [
+        "clm_232dc746ba",
+        "clm_e6f525de45"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 6.0,
+        "change_pct": 0.0,
+        "since": "2026-09-18"
+      },
+      "history_ref": "history/crusoe/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "round_amount": {
       "metric": "round_amount",
       "value": 3900000000.0,
@@ -24,14 +50,14 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
+        "clm_0da6a19627",
+        "clm_fdd181ad84",
+        "clm_a7aa406aef",
         "clm_a7aa406aef",
         "clm_4c5bcc6a1b",
-        "clm_a7aa406aef",
-        "clm_0da6a19627",
         "clm_5e34a841b3",
-        "clm_bf8f5d6926",
-        "clm_fdd181ad84",
         "clm_4711623561",
+        "clm_bf8f5d6926",
         "clm_ebf21736cd",
         "clm_3eeedf0175",
         "clm_abefd87b5b",
@@ -81,13 +107,13 @@
         "clm_4946a3afef",
         "clm_a5fa161a04",
         "clm_3d1f278ee9",
-        "clm_13d2a7ce39",
         "clm_1eea1d5eed",
-        "clm_118a37202d",
-        "clm_9b865b2390",
+        "clm_13d2a7ce39",
         "clm_e21230325c",
-        "clm_8fea111c4d",
+        "clm_9b865b2390",
         "clm_e0a675634c",
+        "clm_118a37202d",
+        "clm_8fea111c4d",
         "clm_af3c6fd882",
         "clm_2bddcad58f",
         "clm_b408015b04",
@@ -103,32 +129,6 @@
         "since": "2026-09-22"
       },
       "history_ref": "history/crusoe/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "latest_round": {
-      "metric": "latest_round",
-      "value": 6.0,
-      "unit": "object",
-      "range": {
-        "low": 6.0,
-        "high": 3000000000.0
-      },
-      "as_of": "2026-09-18",
-      "estimate_type": "consensus",
-      "confidence": 0.757,
-      "supporting_claims": [
-        "clm_232dc746ba",
-        "clm_e6f525de45"
-      ],
-      "contradiction": true,
-      "delta": {
-        "previous": 6.0,
-        "change_pct": 0.0,
-        "since": "2026-09-18"
-      },
-      "history_ref": "history/crusoe/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -191,5 +191,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-24"
+  "last_updated": "2026-09-25"
 }

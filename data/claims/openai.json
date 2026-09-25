@@ -1,5 +1,31 @@
 [
   {
+    "id": "clm_e015a6fa8f",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 278000000000.0,
+    "unit": null,
+    "raw_text": "OpenAI Faces $278 Billion Cash Burn. Out of Money by 2028?",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "20VC (Harry Stebbings)",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-metas-muse-hits-no-1-chatgpt-finally-has-a-rival-menlo-sounds-the-ai-bubble-alarm-factory-triples-its-valuation-to-5-billion-keith-rabois-vs-airwallex-who-is-right-crusoes-39-billion-round-is-the-data-centre-trade-overheating",
+      "locator": null,
+      "published_at": "2026-09-24"
+    },
+    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.294,
+    "derivation": null
+  },
+  {
     "id": "clm_6c05bb0d3f",
     "company_id": "openai",
     "metric": "total_funding",
@@ -96,33 +122,6 @@
     "derivation": null
   },
   {
-    "id": "clm_07c068767a",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 1200000000000.0,
-    "unit": "USD",
-    "raw_text": "Seeks Valuation Above $1.2 Trillion",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "marketscreener.com",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOUjEzRkxYQzEwTWRlVnhpWHVMVS1rSGt6QTJMOWRhaERxMkg0WEhBV3JkR3dmVG1zOHhUOWMwTnRpNXBRajJNUmNNc29HRDVnMDl2OFlFWGxDbkUyNUJwOGcyTjJEYnU1a0ZwdEREVG5GQjdtRDBjUzZJZVZsLU9ibGNrRlNSakg4a1lKVDAxUmxHdUx5Rlp0ZUZ3blFMRkNDRTdPd0ktMDhHVXpEb2FfY0daLTJZS0JWeWUwRGRWX1FIQ0RySnRQanVPY0ZkeWFyV2xEZkZ0WlpkZEtrOXJCdWFPLWVuQQ?oc=5",
-      "locator": null,
-      "published_at": "2026-09-21"
-    },
-    "extracted_at": "2026-09-21T10:38:28.440880",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
     "id": "clm_d04bab179d",
     "company_id": "openai",
     "metric": "valuation",
@@ -150,13 +149,14 @@
     "derivation": null
   },
   {
-    "id": "clm_e015a6fa8f",
+    "id": "clm_07c068767a",
     "company_id": "openai",
     "metric": "valuation",
-    "value": 278000000000.0,
-    "unit": null,
-    "raw_text": "OpenAI Faces $278 Billion Cash Burn. Out of Money by 2028?",
+    "value": 1200000000000.0,
+    "unit": "USD",
+    "raw_text": "Seeks Valuation Above $1.2 Trillion",
     "qualifiers": [
+      "unconfirmed",
       "forward_looking"
     ],
     "speaker": {
@@ -164,15 +164,15 @@
       "role": "journalist"
     },
     "source": {
-      "type": "podcast",
-      "name": "20VC (Harry Stebbings)",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-metas-muse-hits-no-1-chatgpt-finally-has-a-rival-menlo-sounds-the-ai-bubble-alarm-factory-triples-its-valuation-to-5-billion-keith-rabois-vs-airwallex-who-is-right-crusoes-39-billion-round-is-the-data-centre-trade-overheating",
+      "type": "news",
+      "name": "marketscreener.com",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOUjEzRkxYQzEwTWRlVnhpWHVMVS1rSGt6QTJMOWRhaERxMkg0WEhBV3JkR3dmVG1zOHhUOWMwTnRpNXBRajJNUmNNc29HRDVnMDl2OFlFWGxDbkUyNUJwOGcyTjJEYnU1a0ZwdEREVG5GQjdtRDBjUzZJZVZsLU9ibGNrRlNSakg4a1lKVDAxUmxHdUx5Rlp0ZUZ3blFMRkNDRTdPd0ktMDhHVXpEb2FfY0daLTJZS0JWeWUwRGRWX1FIQ0RySnRQanVPY0ZkeWFyV2xEZkZ0WlpkZEtrOXJCdWFPLWVuQQ?oc=5",
       "locator": null,
-      "published_at": "2026-09-24"
+      "published_at": "2026-09-21"
     },
-    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extracted_at": "2026-09-21T10:38:28.440880",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.294,
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -1313,7 +1313,7 @@
       "locator": null,
       "published_at": "2026-08-20"
     },
-    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extracted_at": "2026-09-25T10:09:44.175619",
     "extractor_model": "derive-engine",
     "base_confidence": 0.4658,
     "derivation": {

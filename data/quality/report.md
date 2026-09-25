@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-09-24
+# OpenPitch Data Quality Report - 2026-09-25
 
 ## Summary
 
-- Profiles generated: 521
-- Watchlist candidates: 1089
+- Profiles generated: 526
+- Watchlist candidates: 1113
 - Top-50 cards: 50
-- Profiles with at least one metric: 509
-- Critical issues: 97
-- Warnings: 18
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 566
+- Profiles with at least one metric: 514
+- Critical issues: 98
+- Warnings: 17
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 585
 
 ## Top-50 Companies With No Metrics
 
@@ -95,6 +95,7 @@ None.
 - Demandbase
 - Descript
 - Dexory
+- EUCLYD
 - Enfabrica
 - Esperanto Technologies
 - EvolutionaryScale
@@ -131,7 +132,6 @@ None.
 ## Single-Source Core Metrics
 
 - Enflame Technology: valuation
-- DeepSeek: arr
 - Figure AI: headcount
 - Scale AI: headcount
 - Mercor: headcount

@@ -1,5 +1,31 @@
 [
   {
+    "id": "clm_57997506b6",
+    "company_id": "cognition-ai",
+    "metric": "valuation",
+    "value": 48000000000.0,
+    "unit": "USD",
+    "raw_text": "Cognition AI’s $48B Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMnMtZnJsakZsNXVaemtwbTg1NU9hdkNVVmJmRlNCczFrOGtRSXg3U2kzQ2dXUlpvTjhNbHhfNWR2Ylo1bFB5VUlmendGMWZzMlpnM2hVWHlraUxnbjB2S0N6d3JBTXloc2RvamRaT3o2UDRLOHVSRUkydy1qSERzY21VaUdkLWlXVUdrZXprV0JPQ0MycjVMMVVMT0NFQQ?oc=5",
+      "locator": null,
+      "published_at": "2026-09-09"
+    },
+    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_a12f41c471",
     "company_id": "cognition-ai",
     "metric": "round_amount",
@@ -96,29 +122,51 @@
     "derivation": null
   },
   {
-    "id": "clm_d9df30ee74",
+    "id": "clm_cde43bfa7b",
     "company_id": "cognition-ai",
-    "metric": "valuation",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "valuation nears $1 billion",
-    "qualifiers": [
-      "unconfirmed"
-    ],
+    "metric": "total_funding",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "Raises $2 Billion",
+    "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tNVYzckRLa3FlSER0bFZzX1d1dWhPd0UtbENGbnczeGZmUlV5eXFsMVVnS3hEbUluSWtpaWU2MXhLN1AySFVza0xxdEJhUUlBWVNUcVFwNmJoUWprcWVBMTIwYXBFTjR3VFpmSU9ZbThzNkkyeVE?oc=5",
+      "name": "konsulteer.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMjFRVzBQQXktekpjZFFmZ1hpeDlRelhsWjdqeExKY283ajVRMVVnc1RSNXFLeGJnaHZrNHNvaFJLV0JDSlhxSXFydlRZX0JtUm5YQUVoSHlHa1pWSUdaVFQwZklWX21UT3UxZ1ZvbUx6OFpxbTRranpNandLMF9JNDdTZjVEb0k3T0NVRF92MENYYzZuZmQ0TE9wX01VS3g4Wm1WcmFnUkhGX0pLM2FTQQ?oc=5",
       "locator": null,
-      "published_at": "2026-09-02"
+      "published_at": "2026-09-10"
     },
-    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extracted_at": "2026-09-11T09:45:35.269135",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_0b18bbb051",
+    "company_id": "cognition-ai",
+    "metric": "valuation",
+    "value": 48000000000.0,
+    "unit": "USD",
+    "raw_text": "$48 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "konsulteer.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMjFRVzBQQXktekpjZFFmZ1hpeDlRelhsWjdqeExKY283ajVRMVVnc1RSNXFLeGJnaHZrNHNvaFJLV0JDSlhxSXFydlRZX0JtUm5YQUVoSHlHa1pWSUdaVFQwZklWX21UT3UxZ1ZvbUx6OFpxbTRranpNandLMF9JNDdTZjVEb0k3T0NVRF92MENYYzZuZmQ0TE9wX01VS3g4Wm1WcmFnUkhGX0pLM2FTQQ?oc=5",
+      "locator": null,
+      "published_at": "2026-09-10"
+    },
+    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -194,6 +242,32 @@
     "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_d9df30ee74",
+    "company_id": "cognition-ai",
+    "metric": "valuation",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "valuation nears $1 billion",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tNVYzckRLa3FlSER0bFZzX1d1dWhPd0UtbENGbnczeGZmUlV5eXFsMVVnS3hEbUluSWtpaWU2MXhLN1AySFVza0xxdEJhUUlBWVNUcVFwNmJoUWprcWVBMTIwYXBFTjR3VFpmSU9ZbThzNkkyeVE?oc=5",
+      "locator": null,
+      "published_at": "2026-09-02"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
     "derivation": null
   },
   {
@@ -323,6 +397,102 @@
     "derivation": null
   },
   {
+    "id": "clm_e40bd1d686",
+    "company_id": "cognition-ai",
+    "metric": "valuation",
+    "value": 48000000000.0,
+    "unit": "USD",
+    "raw_text": "$48B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Ventureburn",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZlhRQXJlVHc3U0ZzT0ZERXF0VG5nTVJqTkhmQ25IdDdIMWZQT2dOWDRld2FWUjRmX3VQQXYzNEtibk8wcXNyTmN5dGRCVzlpemdjVXRGZHBiREE4YlN1aFNEVjBxSE9lZ1c3RU1EMkhfanlTNEFCeEkwRG9BdGRxS1ZWWljSAYQBQVVfeXFMTmZYUUFyZVR3N1NGc09GREVxdFRuZ01Sak5IZkNuSHQ3SDFmUE9nTlg0ZXdhVlI0Zl91UEF2MzRLYm5PMHFzck5jeXRkQlc5aXpnY1V0RmRwYkRBOGJTdWhTRFYwcUhPZWdXN0VNRDJIX2p5UzRBQnhJMERvQXRkcUtWVlpY?oc=5",
+      "locator": null,
+      "published_at": "2026-09-09"
+    },
+    "extracted_at": "2026-09-12T09:20:27.932122",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_39683f9caa",
+    "company_id": "cognition-ai",
+    "metric": "total_funding",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "Raises $2 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Ventureburn",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZlhRQXJlVHc3U0ZzT0ZERXF0VG5nTVJqTkhmQ25IdDdIMWZQT2dOWDRld2FWUjRmX3VQQXYzNEtibk8wcXNyTmN5dGRCVzlpemdjVXRGZHBiREE4YlN1aFNEVjBxSE9lZ1c3RU1EMkhfanlTNEFCeEkwRG9BdGRxS1ZWWljSAYQBQVVfeXFMTmZYUUFyZVR3N1NGc09GREVxdFRuZ01Sak5IZkNuSHQ3SDFmUE9nTlg0ZXdhVlI0Zl91UEF2MzRLYm5PMHFzck5jeXRkQlc5aXpnY1V0RmRwYkRBOGJTdWhTRFYwcUhPZWdXN0VNRDJIX2p5UzRBQnhJMERvQXRkcUtWVlpY?oc=5",
+      "locator": null,
+      "published_at": "2026-09-09"
+    },
+    "extracted_at": "2026-09-12T09:20:27.932122",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_6e3036c492",
+    "company_id": "cognition-ai",
+    "metric": "total_funding",
+    "value": 2000000000.0,
+    "unit": null,
+    "raw_text": "Cognition AI raises $2 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "tradingview.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMU0zZ01XX0ZOM01DdXVydW1EMEliOENSd1RaMTFTamRvTlpoLTQ0RHlFQTI2aC1CaXJ3UGhWekJhS2F3blBva1ZiZm9kVExxSTR5a0FGaHlfbjNoYTEwcE43b0xDTVFEZGw5VC0wdE52b1ROaVd5cmVRd1hRaGM3RmpPSTJHMVloMVhFajNTcmNxMlpyUmM0VlpBOU1yenZSVW5GZmt1OHlFV0lMa05URkdVcXV3ejd4dmQxZ2taX2Y?oc=5",
+      "locator": null,
+      "published_at": "2026-09-08"
+    },
+    "extracted_at": "2026-09-25T10:09:44.175619",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_66069f7e2c",
+    "company_id": "cognition-ai",
+    "metric": "valuation",
+    "value": 48000000000.0,
+    "unit": null,
+    "raw_text": "$48 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "tradingview.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMU0zZ01XX0ZOM01DdXVydW1EMEliOENSd1RaMTFTamRvTlpoLTQ0RHlFQTI2aC1CaXJ3UGhWekJhS2F3blBva1ZiZm9kVExxSTR5a0FGaHlfbjNoYTEwcE43b0xDTVFEZGw5VC0wdE52b1ROaVd5cmVRd1hRaGM3RmpPSTJHMVloMVhFajNTcmNxMlpyUmM0VlpBOU1yenZSVW5GZmt1OHlFV0lMa05URkdVcXV3ejd4dmQxZ2taX2Y?oc=5",
+      "locator": null,
+      "published_at": "2026-09-08"
+    },
+    "extracted_at": "2026-09-25T10:09:44.175619",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_8bea189525",
     "company_id": "cognition-ai",
     "metric": "valuation",
@@ -347,32 +517,6 @@
     "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_57997506b6",
-    "company_id": "cognition-ai",
-    "metric": "valuation",
-    "value": 48000000000.0,
-    "unit": "USD",
-    "raw_text": "Cognition AI’s $48B Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMnMtZnJsakZsNXVaemtwbTg1NU9hdkNVVmJmRlNCczFrOGtRSXg3U2kzQ2dXUlpvTjhNbHhfNWR2Ylo1bFB5VUlmendGMWZzMlpnM2hVWHlraUxnbjB2S0N6d3JBTXloc2RvamRaT3o2UDRLOHVSRUkydy1qSERzY21VaUdkLWlXVUdrZXprV0JPQ0MycjVMMVVMT0NFQQ?oc=5",
-      "locator": null,
-      "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-24T09:50:31.335914",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -427,54 +571,6 @@
     "extracted_at": "2026-09-22T09:56:18.399410",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_e40bd1d686",
-    "company_id": "cognition-ai",
-    "metric": "valuation",
-    "value": 48000000000.0,
-    "unit": "USD",
-    "raw_text": "$48B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Ventureburn",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZlhRQXJlVHc3U0ZzT0ZERXF0VG5nTVJqTkhmQ25IdDdIMWZQT2dOWDRld2FWUjRmX3VQQXYzNEtibk8wcXNyTmN5dGRCVzlpemdjVXRGZHBiREE4YlN1aFNEVjBxSE9lZ1c3RU1EMkhfanlTNEFCeEkwRG9BdGRxS1ZWWljSAYQBQVVfeXFMTmZYUUFyZVR3N1NGc09GREVxdFRuZ01Sak5IZkNuSHQ3SDFmUE9nTlg0ZXdhVlI0Zl91UEF2MzRLYm5PMHFzck5jeXRkQlc5aXpnY1V0RmRwYkRBOGJTdWhTRFYwcUhPZWdXN0VNRDJIX2p5UzRBQnhJMERvQXRkcUtWVlpY?oc=5",
-      "locator": null,
-      "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-12T09:20:27.932122",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_39683f9caa",
-    "company_id": "cognition-ai",
-    "metric": "total_funding",
-    "value": 2000000000.0,
-    "unit": "USD",
-    "raw_text": "Raises $2 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Ventureburn",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZlhRQXJlVHc3U0ZzT0ZERXF0VG5nTVJqTkhmQ25IdDdIMWZQT2dOWDRld2FWUjRmX3VQQXYzNEtibk8wcXNyTmN5dGRCVzlpemdjVXRGZHBiREE4YlN1aFNEVjBxSE9lZ1c3RU1EMkhfanlTNEFCeEkwRG9BdGRxS1ZWWljSAYQBQVVfeXFMTmZYUUFyZVR3N1NGc09GREVxdFRuZ01Sak5IZkNuSHQ3SDFmUE9nTlg0ZXdhVlI0Zl91UEF2MzRLYm5PMHFzck5jeXRkQlc5aXpnY1V0RmRwYkRBOGJTdWhTRFYwcUhPZWdXN0VNRDJIX2p5UzRBQnhJMERvQXRkcUtWVlpY?oc=5",
-      "locator": null,
-      "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-12T09:20:27.932122",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -889,54 +985,6 @@
       "published_at": "2026-09-09"
     },
     "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_cde43bfa7b",
-    "company_id": "cognition-ai",
-    "metric": "total_funding",
-    "value": 2000000000.0,
-    "unit": "USD",
-    "raw_text": "Raises $2 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "konsulteer.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMjFRVzBQQXktekpjZFFmZ1hpeDlRelhsWjdqeExKY283ajVRMVVnc1RSNXFLeGJnaHZrNHNvaFJLV0JDSlhxSXFydlRZX0JtUm5YQUVoSHlHa1pWSUdaVFQwZklWX21UT3UxZ1ZvbUx6OFpxbTRranpNandLMF9JNDdTZjVEb0k3T0NVRF92MENYYzZuZmQ0TE9wX01VS3g4Wm1WcmFnUkhGX0pLM2FTQQ?oc=5",
-      "locator": null,
-      "published_at": "2026-09-10"
-    },
-    "extracted_at": "2026-09-11T09:45:35.269135",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_0b18bbb051",
-    "company_id": "cognition-ai",
-    "metric": "valuation",
-    "value": 48000000000.0,
-    "unit": "USD",
-    "raw_text": "$48 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "konsulteer.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMjFRVzBQQXktekpjZFFmZ1hpeDlRelhsWjdqeExKY283ajVRMVVnc1RSNXFLeGJnaHZrNHNvaFJLV0JDSlhxSXFydlRZX0JtUm5YQUVoSHlHa1pWSUdaVFQwZklWX21UT3UxZ1ZvbUx6OFpxbTRranpNandLMF9JNDdTZjVEb0k3T0NVRF92MENYYzZuZmQ0TE9wX01VS3g4Wm1WcmFnUkhGX0pLM2FTQQ?oc=5",
-      "locator": null,
-      "published_at": "2026-09-10"
-    },
-    "extracted_at": "2026-09-11T09:45:35.269135",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null

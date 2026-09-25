@@ -19,16 +19,22 @@
       "range": null,
       "as_of": "2026-06-05",
       "estimate_type": "consensus",
-      "confidence": 0.801,
+      "confidence": 0.895,
       "supporting_claims": [
         "clm_fa1ca25dfb",
         "clm_1a9e9ccc7a",
         "clm_20468ed29d",
+        "clm_919e7138f1",
+        "clm_838761975d",
         "clm_f87eacf058",
         "clm_92f08c5b0b"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 15500000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-05"
+      },
       "history_ref": "history/helion-energy/valuation.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -36,26 +42,35 @@
     },
     "round_amount": {
       "metric": "round_amount",
-      "value": 467894717.0,
+      "value": 471443778.14,
       "unit": "USD",
-      "range": null,
+      "range": {
+        "low": 500000000.0,
+        "high": 500000000.0
+      },
       "as_of": "2026-09-15",
       "estimate_type": "consensus",
-      "confidence": 0.943,
+      "confidence": 0.97,
       "supporting_claims": [
         "clm_9a24a0d9b3",
         "clm_bc73d753ed",
         "clm_13dc1498b7",
         "clm_bd7dddbc1d",
-        "clm_4806770680",
         "clm_d99325df6f",
         "clm_9069891d0b",
         "clm_e4101bcffd",
         "clm_2dfbfd2d94",
+        "clm_056a69fdde",
+        "clm_4806770680",
+        "clm_8a0ad3b060",
         "clm_30aa307cab"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 467894717.0,
+        "change_pct": 0.8,
+        "since": "2026-09-15"
+      },
       "history_ref": "history/helion-energy/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -68,17 +83,21 @@
       "range": null,
       "as_of": "2026-06-05",
       "estimate_type": "reported",
-      "confidence": 0.277,
+      "confidence": 0.276,
       "supporting_claims": [
         "clm_479810f5f6"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 7.0,
+        "change_pct": 0.0,
+        "since": "2026-06-05"
+      },
       "history_ref": "history/helion-energy/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-24"
+  "last_updated": "2026-09-25"
 }

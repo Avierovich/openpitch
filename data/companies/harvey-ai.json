@@ -19,14 +19,14 @@
       "range": null,
       "as_of": "2026-07-03",
       "estimate_type": "reported",
-      "confidence": 0.188,
+      "confidence": 0.186,
       "supporting_claims": [
         "clm_f0ae503ffa"
       ],
       "contradiction": false,
       "delta": {
         "previous": 190000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-07-03"
       },
       "history_ref": "history/harvey-ai/arr.jsonl",
@@ -44,19 +44,21 @@
       },
       "as_of": "2026-09-09",
       "estimate_type": "consensus",
-      "confidence": 0.88,
+      "confidence": 0.932,
       "supporting_claims": [
-        "clm_7b69c6e8ae",
         "clm_b66fc3e8c8",
         "clm_29bb72d60a",
         "clm_9155b0f320",
         "clm_15f61e4e91",
+        "clm_7b69c6e8ae",
+        "clm_7b69c6e8ae",
+        "clm_7b69c6e8ae",
         "clm_3ea60c56e1"
       ],
       "contradiction": true,
       "delta": {
         "previous": 15500000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-09-09"
       },
       "history_ref": "history/harvey-ai/valuation.jsonl",
@@ -66,7 +68,7 @@
     },
     "total_funding": {
       "metric": "total_funding",
-      "value": 534914607.56,
+      "value": 539535672.04,
       "unit": "USD",
       "range": {
         "low": 550000000.0,
@@ -74,21 +76,41 @@
       },
       "as_of": "2026-09-09",
       "estimate_type": "consensus",
-      "confidence": 0.814,
+      "confidence": 0.891,
       "supporting_claims": [
         "clm_404a47d2e6",
         "clm_1a3e533faf",
-        "clm_d97f6bcc74",
         "clm_ca0a5003d1",
-        "clm_6d08df8883"
+        "clm_6d08df8883",
+        "clm_d97f6bcc74",
+        "clm_d97f6bcc74",
+        "clm_d97f6bcc74"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 536762694.76,
-        "change_pct": -0.3,
+        "previous": 534914607.56,
+        "change_pct": 0.9,
         "since": "2026-09-09"
       },
       "history_ref": "history/harvey-ai/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "notable_customers": {
+      "metric": "notable_customers",
+      "value": 4.0,
+      "unit": "list",
+      "range": null,
+      "as_of": "2025-02-14",
+      "estimate_type": "reported",
+      "confidence": 0.096,
+      "supporting_claims": [
+        "clm_afc560b0fe"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/harvey-ai/notable_customers.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -107,9 +129,9 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 500000000.0,
-        "change_pct": -40.0,
-        "since": "2026-08-07"
+        "previous": 300000000.0,
+        "change_pct": 0.0,
+        "since": "2025-06-24"
       },
       "history_ref": "history/harvey-ai/round_amount.jsonl",
       "unconfirmed": false,
@@ -123,14 +145,14 @@
       "range": null,
       "as_of": "2026-07-03",
       "estimate_type": "reported",
-      "confidence": 0.091,
+      "confidence": 0.09,
       "supporting_claims": [
         "drv_6f5e439754"
       ],
       "contradiction": false,
       "delta": {
         "previous": 26.32,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-07-03"
       },
       "history_ref": "history/harvey-ai/revenue_multiple.jsonl",
@@ -139,5 +161,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-24"
+  "last_updated": "2026-09-25"
 }

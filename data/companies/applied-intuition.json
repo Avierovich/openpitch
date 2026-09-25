@@ -12,32 +12,6 @@
   "vc_attention_score": 84.9,
   "universe_rank": 42,
   "metrics": {
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 600000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-06-25",
-      "estimate_type": "consensus",
-      "confidence": 0.428,
-      "supporting_claims": [
-        "clm_1bd28580e2",
-        "clm_5973857954",
-        "clm_7f9c0e7f58",
-        "clm_e1912a8bb4",
-        "clm_3f695a3035"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 600000000.0,
-        "change_pct": 0.0,
-        "since": "2025-06-25"
-      },
-      "history_ref": "history/applied-intuition/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "latest_round": {
       "metric": "latest_round",
       "value": 6.0,
@@ -73,9 +47,9 @@
       "estimate_type": "consensus",
       "confidence": 0.966,
       "supporting_claims": [
-        "clm_a37627b7c3",
-        "clm_a37627b7c3",
         "clm_f459f57517",
+        "clm_a37627b7c3",
+        "clm_a37627b7c3",
         "clm_7e7ff7fcb7",
         "clm_8dba9ccff2",
         "clm_afe459811d",
@@ -109,7 +83,7 @@
       "value": 1000.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-09-24",
+      "as_of": "2026-09-25",
       "estimate_type": "reported",
       "confidence": 0.578,
       "supporting_claims": [
@@ -127,7 +101,33 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 600000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-06-25",
+      "estimate_type": "consensus",
+      "confidence": 0.427,
+      "supporting_claims": [
+        "clm_1bd28580e2",
+        "clm_5973857954",
+        "clm_7f9c0e7f58",
+        "clm_e1912a8bb4",
+        "clm_3f695a3035"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 600000000.0,
+        "change_pct": 0.0,
+        "since": "2025-06-25"
+      },
+      "history_ref": "history/applied-intuition/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-24"
+  "last_updated": "2026-09-25"
 }

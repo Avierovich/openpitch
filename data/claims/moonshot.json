@@ -120,15 +120,14 @@
     "derivation": null
   },
   {
-    "id": "clm_42bd4f90ea",
+    "id": "clm_38aa37284b",
     "company_id": "moonshot",
     "metric": "arr",
     "value": 2000000000.0,
     "unit": "USD",
     "raw_text": "Kimi Targets $2B Annual Revenue",
     "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
+      "forward_looking"
     ],
     "speaker": {
       "name": null,
@@ -136,23 +135,23 @@
     },
     "source": {
       "type": "news",
-      "name": "36Kr",
+      "name": "eu.36kr.com",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90enFIQkgyUWhCQ1VUTWlUMG00amJxR2k1QzZ0ZWVhSTg1djN3bHMzTHFlYkpWSDlERHdySGhnLXIzeF8xNFlvR0ROdDRQYmd6Q3lV?oc=5",
       "locator": null,
       "published_at": "2026-09-11"
     },
-    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extracted_at": "2026-09-16T10:35:49.404557",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
+    "base_confidence": 0.3675,
     "derivation": null
   },
   {
-    "id": "clm_881c63da7c",
+    "id": "clm_bc91d9ccf8",
     "company_id": "moonshot",
     "metric": "valuation",
     "value": 50000000000.0,
     "unit": "USD",
-    "raw_text": "$50B Valuation",
+    "raw_text": "Prepares for $50B Valuation Hong Kong IPO",
     "qualifiers": [
       "forward_looking",
       "unconfirmed"
@@ -163,12 +162,12 @@
     },
     "source": {
       "type": "news",
-      "name": "36Kr",
+      "name": "eu.36kr.com",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90enFIQkgyUWhCQ1VUTWlUMG00amJxR2k1QzZ0ZWVhSTg1djN3bHMzTHFlYkpWSDlERHdySGhnLXIzeF8xNFlvR0ROdDRQYmd6Q3lV?oc=5",
       "locator": null,
       "published_at": "2026-09-11"
     },
-    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extracted_at": "2026-09-16T10:35:49.404557",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
     "derivation": null
@@ -614,6 +613,87 @@
     "derivation": null
   },
   {
+    "id": "clm_107d297a33",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": null,
+    "raw_text": "$50 billion valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVS1VaExPMEhKbFJud3lZanAyNnYzY215aExHS3FzX3o5bWRxanU2NFU1eVl3d0xXRkdJc1JaSkJ6Q2phWUVGeVdBVE44Ry0tMUk0RDFLV2p6NWlud3hrUlFybmVIRjdUQldQT0NCVmwzeUtwOEdaelk2RHktMi10VmM2dGVmbUJaTWFRMW5yR01hZk4tM1E?oc=5",
+      "locator": null,
+      "published_at": "2026-07-21"
+    },
+    "extracted_at": "2026-09-26T09:51:51.353222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_42bd4f90ea",
+    "company_id": "moonshot",
+    "metric": "arr",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "Kimi Targets $2B Annual Revenue",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90enFIQkgyUWhCQ1VUTWlUMG00amJxR2k1QzZ0ZWVhSTg1djN3bHMzTHFlYkpWSDlERHdySGhnLXIzeF8xNFlvR0ROdDRQYmd6Q3lV?oc=5",
+      "locator": null,
+      "published_at": "2026-09-11"
+    },
+    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_881c63da7c",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "$50B Valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90enFIQkgyUWhCQ1VUTWlUMG00amJxR2k1QzZ0ZWVhSTg1djN3bHMzTHFlYkpWSDlERHdySGhnLXIzeF8xNFlvR0ROdDRQYmd6Q3lV?oc=5",
+      "locator": null,
+      "published_at": "2026-09-11"
+    },
+    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
     "id": "clm_2dfa250dab",
     "company_id": "moonshot",
     "metric": "valuation",
@@ -635,59 +715,6 @@
     "extracted_at": "2026-09-16T10:35:49.404557",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_38aa37284b",
-    "company_id": "moonshot",
-    "metric": "arr",
-    "value": 2000000000.0,
-    "unit": "USD",
-    "raw_text": "Kimi Targets $2B Annual Revenue",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "eu.36kr.com",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90enFIQkgyUWhCQ1VUTWlUMG00amJxR2k1QzZ0ZWVhSTg1djN3bHMzTHFlYkpWSDlERHdySGhnLXIzeF8xNFlvR0ROdDRQYmd6Q3lV?oc=5",
-      "locator": null,
-      "published_at": "2026-09-11"
-    },
-    "extracted_at": "2026-09-16T10:35:49.404557",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3675,
-    "derivation": null
-  },
-  {
-    "id": "clm_bc91d9ccf8",
-    "company_id": "moonshot",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": "USD",
-    "raw_text": "Prepares for $50B Valuation Hong Kong IPO",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "eu.36kr.com",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90enFIQkgyUWhCQ1VUTWlUMG00amJxR2k1QzZ0ZWVhSTg1djN3bHMzTHFlYkpWSDlERHdySGhnLXIzeF8xNFlvR0ROdDRQYmd6Q3lV?oc=5",
-      "locator": null,
-      "published_at": "2026-09-11"
-    },
-    "extracted_at": "2026-09-16T10:35:49.404557",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -1100,33 +1127,6 @@
     "extracted_at": "2026-09-11T09:45:35.269135",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.3675,
-    "derivation": null
-  },
-  {
-    "id": "clm_107d297a33",
-    "company_id": "moonshot",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": "USD",
-    "raw_text": "seeks $50B valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaTMwMXFGZU0zWUNlOWd3dlJxekgzWlVCNnVoejJtTFVxLWEyd19TQ1Fral9PU3AtV3V0ZURLT05WM2dmeUtuQnkybW9rTVBFN2ZUMGEwX01zZERVNFFiZ1BYRHNRXy1kQVNrelhFdU1lSmZCRWlWdmZHLW5PRm5kQzRsMVc2MWJuUngzU016cWJPVTRnNXhzMQ?oc=5",
-      "locator": null,
-      "published_at": "2026-07-21"
-    },
-    "extracted_at": "2026-09-18T09:44:30.525514",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -2184,7 +2184,7 @@
       "locator": null,
       "published_at": "2026-05-07"
     },
-    "extracted_at": "2026-09-25T10:09:44.175619",
+    "extracted_at": "2026-09-26T09:51:51.353222",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-09-25
+# OpenPitch Data Quality Report - 2026-09-26
 
 ## Summary
 
-- Profiles generated: 526
-- Watchlist candidates: 1113
+- Profiles generated: 555
+- Watchlist candidates: 1122
 - Top-50 cards: 50
-- Profiles with at least one metric: 514
-- Critical issues: 98
+- Profiles with at least one metric: 542
+- Critical issues: 103
 - Warnings: 17
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 585
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 565
 
 ## Top-50 Companies With No Metrics
 
@@ -35,6 +35,7 @@ None.
 - G42
 - FourKites
 - Carbon Robotics
+- Insilico Medicine
 - Gladly
 - Amelia
 - Conversica
@@ -117,6 +118,10 @@ None.
 - Hydrosat
 - Iambic Therapeutics
 - Ideogram
+- Inceptive
+- Infinigence AI
+- Instrumental
+- Iron Ox
 - Krea
 - Lean Technologies
 - Mindsay

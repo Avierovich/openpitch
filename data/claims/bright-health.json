@@ -27,27 +27,27 @@
     "derivation": null
   },
   {
-    "id": "clm_1900ac697c",
+    "id": "clm_8c79ae1ab9",
     "company_id": "bright-health",
-    "metric": "latest_round",
+    "metric": "total_funding",
     "value": 750000000.0,
-    "unit": null,
+    "unit": "USD",
     "raw_text": "raises $750M",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "MobiHealthNews",
+      "name": "mobihealthnews.com",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWDdPVmVDX21PSWlyaHNCQXZTSjBXdzdjcS1MQ1h2ZS05bGNKSzc3c3c4a2dncHduRGFsOVpBS1VZU0J3akk0RHpCZDA5Y29nVmxKYWhkMFpFcFZXTXR2akN3b2N5dTktRzRsVUd1VVlsbnI4akRwbGlLWV9BeFpqUllpX0dhU0pC?oc=5",
       "locator": null,
       "published_at": "2021-12-09"
     },
-    "extracted_at": "2026-08-19T12:30:22.754661",
+    "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -144,6 +144,54 @@
     "extracted_at": "2026-08-21T05:50:03.226228",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_6ae6974e2f",
+    "company_id": "bright-health",
+    "metric": "total_funding",
+    "value": 924000000.0,
+    "unit": "USD",
+    "raw_text": "Bright Health raises $924 million in largest insurtech IPO of 2021",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Modern Healthcare News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTmZXelZlVWJWNEFod1RHRWFmY2E5UGRRdWVGbFVLRjZRcGllVGF6dENNT3lkZUcxX3R1cU5QdlJXOTJxaEpaVXBaWWN1eEJvZHoyOC13QkhOc0hNay1HY0FQb0dMdElIVEdpLU1rWlRWNjl6SG44R0RNbFBUUkJ3RDNVV3ZNLUtfZG1GQmJSN3YxTkpVdVY2eWxBYlZGSU5DajFaZw?oc=5",
+      "locator": null,
+      "published_at": "2021-06-25"
+    },
+    "extracted_at": "2026-09-26T09:51:51.353222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_1900ac697c",
+    "company_id": "bright-health",
+    "metric": "latest_round",
+    "value": 750000000.0,
+    "unit": null,
+    "raw_text": "raises $750M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "MobiHealthNews",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWDdPVmVDX21PSWlyaHNCQXZTSjBXdzdjcS1MQ1h2ZS05bGNKSzc3c3c4a2dncHduRGFsOVpBS1VZU0J3akk0RHpCZDA5Y29nVmxKYWhkMFpFcFZXTXR2akN3b2N5dTktRzRsVUd1VVlsbnI4akRwbGlLWV9BeFpqUllpX0dhU0pC?oc=5",
+      "locator": null,
+      "published_at": "2021-12-09"
+    },
+    "extracted_at": "2026-08-19T12:30:22.754661",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -413,30 +461,6 @@
       "published_at": "2021-12-08"
     },
     "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_8c79ae1ab9",
-    "company_id": "bright-health",
-    "metric": "total_funding",
-    "value": 750000000.0,
-    "unit": "USD",
-    "raw_text": "raises $750M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "mobihealthnews.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWDdPVmVDX21PSWlyaHNCQXZTSjBXdzdjcS1MQ1h2ZS05bGNKSzc3c3c4a2dncHduRGFsOVpBS1VZU0J3akk0RHpCZDA5Y29nVmxKYWhkMFpFcFZXTXR2akN3b2N5dTktRzRsVUd1VVlsbnI4akRwbGlLWV9BeFpqUllpX0dhU0pC?oc=5",
-      "locator": null,
-      "published_at": "2021-12-09"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null

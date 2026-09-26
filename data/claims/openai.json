@@ -26,6 +26,85 @@
     "derivation": null
   },
   {
+    "id": "clm_da3bbcb5e5",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1200000000000.0,
+    "unit": null,
+    "raw_text": "$1.2 trillion valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc3hqMlQtdi1BT1QzTGs4U1BVXzcxb05pRnpHMjI4RjBFekZBQ2lQSVZRTURaN1h3eGlZN0pCdmY1UzdwQzlNeldrMXh0YTFkZmxsdVBmV211YmdwZWIxTTAya1VpLUdtbGNRZkZZbFBVUklUVnVzd1NZRHpSTkpTZ3pWUGhQMmVzaW1qZDYydE83eTBNb3c4T2duTEw2dWx5WUVjZXVTX1Ixb25LR2ExRHlQTDltNWVrLW5KOExsdjJCaFE?oc=5",
+      "locator": null,
+      "published_at": "2026-09-15"
+    },
+    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_0a26ed6043",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "hits $1 billion annualized revenue run rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE84TTNSWnpWUm4yMnJ5Wkk5aHg1clFxY1A1OHkxcVRiZ25SY01oWk1rN1QtMlVFQ2NpTWZMejVzS2dfaldqcEFiSEhIVUhESHJUZnNZQXRRaUZzUFBWenZVRlFrcnQzV0JwTE94Mm1KckIyQdIBd0FVX3lxTE5QU1lUNWNXX0FrZFFxSnVycUZMSjFVM1pkbWJQMmloVk5PRVE0bWp5a3BzSm1HaVJ1ZFV3MlNBU3pKaFl4WE9DZUhWLWVBTkZvTUlPVU80SXBEWk4wUHFZQmVUanpXTHpfMU80bWtXdHJUMTVJQVBN?oc=5",
+      "locator": null,
+      "published_at": "2026-08-31"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3375,
+    "derivation": null
+  },
+  {
+    "id": "clm_15499d828b",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "ChatGPT ads passed a $1bn run rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "news",
+      "name": "PPC Land",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdlgwZmR4bUNCQVQyeHBlZDk2TGo4SzZEN1poQzhyZXFDMElTR2s4aXJVN0dXbmFvMHVjQ0VDaVJpYVRMY1FhSGE2c0JvVDdDNEVjeU5LTjNKVlFHWVpuNFlRNnU2TDBaemhycllBVzBBb0RVc1NwMTdEMndtWjFRNEdn?oc=5",
+      "locator": null,
+      "published_at": "2026-09-25"
+    },
+    "extracted_at": "2026-09-26T09:51:51.353222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.675,
+    "derivation": null
+  },
+  {
     "id": "clm_6c05bb0d3f",
     "company_id": "openai",
     "metric": "total_funding",
@@ -278,32 +357,6 @@
     "derivation": null
   },
   {
-    "id": "clm_0a26ed6043",
-    "company_id": "openai",
-    "metric": "arr",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "hits $1 billion annualized revenue run rate",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE84TTNSWnpWUm4yMnJ5Wkk5aHg1clFxY1A1OHkxcVRiZ25SY01oWk1rN1QtMlVFQ2NpTWZMejVzS2dfaldqcEFiSEhIVUhESHJUZnNZQXRRaUZzUFBWenZVRlFrcnQzV0JwTE94Mm1KckIyQdIBd0FVX3lxTE5QU1lUNWNXX0FrZFFxSnVycUZMSjFVM1pkbWJQMmloVk5PRVE0bWp5a3BzSm1HaVJ1ZFV3MlNBU3pKaFl4WE9DZUhWLWVBTkZvTUlPVU80SXBEWk4wUHFZQmVUanpXTHpfMU80bWtXdHJUMTVJQVBN?oc=5",
-      "locator": null,
-      "published_at": "2026-08-31"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3375,
-    "derivation": null
-  },
-  {
     "id": "clm_933bad6408",
     "company_id": "openai",
     "metric": "total_funding",
@@ -375,33 +428,6 @@
     "extracted_at": "2026-09-16T10:35:49.404557",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_da3bbcb5e5",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 1200000000000.0,
-    "unit": null,
-    "raw_text": "$1.2 trillion valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc3hqMlQtdi1BT1QzTGs4U1BVXzcxb05pRnpHMjI4RjBFekZBQ2lQSVZRTURaN1h3eGlZN0pCdmY1UzdwQzlNeldrMXh0YTFkZmxsdVBmV211YmdwZWIxTTAya1VpLUdtbGNRZkZZbFBVUklUVnVzd1NZRHpSTkpTZ3pWUGhQMmVzaW1qZDYydE83eTBNb3c4T2duTEw2dWx5WUVjZXVTX1Ixb25LR2ExRHlQTDltNWVrLW5KOExsdjJCaFE?oc=5",
-      "locator": null,
-      "published_at": "2026-09-15"
-    },
-    "extracted_at": "2026-09-17T10:01:41.438182",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -1295,10 +1321,10 @@
     "derivation": null
   },
   {
-    "id": "drv_7fc32de45e",
+    "id": "drv_e7bc64bc58",
     "company_id": "openai",
     "metric": "revenue_multiple",
-    "value": 21.3,
+    "value": 852.0,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -1311,9 +1337,9 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-08-20"
+      "published_at": "2026-09-25"
     },
-    "extracted_at": "2026-09-25T10:09:44.175619",
+    "extracted_at": "2026-09-26T09:51:51.353222",
     "extractor_model": "derive-engine",
     "base_confidence": 0.4658,
     "derivation": {
@@ -1321,7 +1347,7 @@
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
         "clm_caeec8d1e6",
-        "clm_926dee2cd7"
+        "clm_15499d828b"
       ]
     }
   }

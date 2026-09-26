@@ -1,0 +1,87 @@
+[
+  {
+    "id": "clm_3226d2a094",
+    "company_id": "insitro",
+    "metric": "arr",
+    "value": 69000000.0,
+    "unit": null,
+    "raw_text": "$69M Est. ARR",
+    "qualifiers": [
+      "run_rate",
+      "rounded",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE95MXlfc0JBWmliZTRJTUdfZnhjZ0ZRTmlMeTI4enlZZDlvRWpzdWpGNWdRWXZ0cXJ0UVlEQ045N3ZLeEI3Rm91bGJXRHk2LTA?oc=5",
+      "locator": null,
+      "published_at": "2026-09-10"
+    },
+    "extracted_at": "2026-09-26T09:51:51.353222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2582,
+    "derivation": null
+  },
+  {
+    "id": "clm_d263ace0a4",
+    "company_id": "insitro",
+    "metric": "valuation",
+    "value": 2400000000.0,
+    "unit": null,
+    "raw_text": "$2.4B Valuation (2021)",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE95MXlfc0JBWmliZTRJTUdfZnhjZ0ZRTmlMeTI4enlZZDlvRWpzdWpGNWdRWXZ0cXJ0UVlEQ045N3ZLeEI3Rm91bGJXRHk2LTA?oc=5",
+      "locator": null,
+      "published_at": "2026-09-10"
+    },
+    "extracted_at": "2026-09-26T09:51:51.353222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3375,
+    "derivation": null
+  },
+  {
+    "id": "drv_8b7ecf1e04",
+    "company_id": "insitro",
+    "metric": "revenue_multiple",
+    "value": 34.78,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-09-10"
+    },
+    "extracted_at": "2026-09-26T09:51:51.353222",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.0802,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_d263ace0a4",
+        "clm_3226d2a094"
+      ]
+    }
+  }
+]

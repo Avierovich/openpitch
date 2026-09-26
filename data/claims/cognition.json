@@ -98,6 +98,58 @@
     "derivation": null
   },
   {
+    "id": "clm_b53a94ef08",
+    "company_id": "cognition",
+    "metric": "total_funding",
+    "value": 48000000000.0,
+    "unit": "USD",
+    "raw_text": "Devin's $48B Financing",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "eu.36kr.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vaWpGZkRseDMxMEU0bFB4bTFjazJNT0JlSzlwTTVzaklYTGZ4VXpQN0oweXowcTNQcmc1dlZ5V2JZNzVDNEpBVDJMNXZuYW40X1RB?oc=5",
+      "locator": null,
+      "published_at": "2026-09-10"
+    },
+    "extracted_at": "2026-09-16T10:35:49.404557",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_2440dbf87a",
+    "company_id": "cognition",
+    "metric": "arr",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "$1 Billion Revenue Run Rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZjF3WkJSWGxQNlZNQzhuc0xVaFVqdHE5QW01cW16Y1dxT0hyX1pvVmZSbFNIYk5NMy00a3dxOVlEdlBJNjBOdk9rRE16ZFBmRWw2c0ZudktFc1QtYWJnclR4SHNJY2JBRTBra2lDQW9oZUIwek5hWWYwYm4tZUhEdXhHajFJamFZa0h3cDdrVXF3M0pQTlJUMUMzakxlblZieklqM202TE9OVVI3RGkwVHBRWXFqbTBWM1VmZ0wyMVo?oc=5",
+      "locator": null,
+      "published_at": "2026-09-25"
+    },
+    "extracted_at": "2026-09-26T09:51:51.353222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
     "id": "clm_c1021185f0",
     "company_id": "cognition",
     "metric": "valuation",
@@ -145,32 +197,6 @@
       "published_at": "2026-05-29"
     },
     "extracted_at": "2026-09-15T10:11:13.514998",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_b53a94ef08",
-    "company_id": "cognition",
-    "metric": "total_funding",
-    "value": 48000000000.0,
-    "unit": "USD",
-    "raw_text": "Devin's $48B Financing",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "eu.36kr.com",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vaWpGZkRseDMxMEU0bFB4bTFjazJNT0JlSzlwTTVzaklYTGZ4VXpQN0oweXowcTNQcmc1dlZ5V2JZNzVDNEpBVDJMNXZuYW40X1RB?oc=5",
-      "locator": null,
-      "published_at": "2026-09-10"
-    },
-    "extracted_at": "2026-09-16T10:35:49.404557",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
     "derivation": null
@@ -811,10 +837,10 @@
     "derivation": null
   },
   {
-    "id": "drv_321e296976",
+    "id": "drv_8c4dc9b76b",
     "company_id": "cognition",
     "metric": "revenue_multiple",
-    "value": 97.56,
+    "value": 48.0,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -827,9 +853,9 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-09-09"
+      "published_at": "2026-09-25"
     },
-    "extracted_at": "2026-09-25T10:09:44.175619",
+    "extracted_at": "2026-09-26T09:51:51.353222",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {
@@ -837,7 +863,7 @@
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
         "clm_74705f76b0",
-        "clm_a53961cd0f"
+        "clm_2440dbf87a"
       ]
     }
   }

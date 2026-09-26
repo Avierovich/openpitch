@@ -1,32 +1,5 @@
 [
   {
-    "id": "clm_8739f50e05",
-    "company_id": "figure",
-    "metric": "round_amount",
-    "value": 1500000000.0,
-    "unit": "USD",
-    "raw_text": "raise $1.5B",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance UK",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBxSFRvZWZKOEtNQWktQVdFQjA0eDVqRDVQaHlQQXZxVnZ3OXZzbWhibV9tZEFtVDYtYjJ4MGM0Q2NYS1hoZHFLcVFzN3FqcU45VVhUZWFfZnFiU0VCVUVYS2dDZURCNTR0ODAyZ3FIUFc1b3NjMzI0S3pmZVc?oc=5",
-      "locator": null,
-      "published_at": "2025-02-14"
-    },
-    "extracted_at": "2026-09-04T09:41:05.539009",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
     "id": "clm_bd4cd2e26e",
     "company_id": "figure",
     "metric": "valuation",
@@ -51,6 +24,59 @@
     "extracted_at": "2026-09-25T10:09:44.175619",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.162,
+    "derivation": null
+  },
+  {
+    "id": "clm_ac0126d9fa",
+    "company_id": "figure",
+    "metric": "round_amount",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "in talks to raise $1.5B",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeTY1TFAySHE0Z2VJTDNXREdneDJHTWdaakt3dnhaRkhybXFoNkpneVZlRHRZQ0Fnck85MTlqQ3BaeHV1bDNNSWUtN1ZVekxMWnhudndmbUF3RUtvRDFxenhvTTdGbmp0UVBOZ0NYZG9rMTYzNFU0SGh5VF9CSFJCeWJneXo3bU8yUzBydWhBYjFpeWlRc2FWNjVZdFk?oc=5",
+      "locator": null,
+      "published_at": "2025-02-14"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_8739f50e05",
+    "company_id": "figure",
+    "metric": "round_amount",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "raise $1.5B",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBxSFRvZWZKOEtNQWktQVdFQjA0eDVqRDVQaHlQQXZxVnZ3OXZzbWhibV9tZEFtVDYtYjJ4MGM0Q2NYS1hoZHFLcVFzN3FqcU45VVhUZWFfZnFiU0VCVUVYS2dDZURCNTR0ODAyZ3FIUFc1b3NjMzI0S3pmZVc?oc=5",
+      "locator": null,
+      "published_at": "2025-02-14"
+    },
+    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -154,32 +180,6 @@
     "extracted_at": "2026-09-23T09:52:35.463285",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.3375,
-    "derivation": null
-  },
-  {
-    "id": "clm_ac0126d9fa",
-    "company_id": "figure",
-    "metric": "round_amount",
-    "value": 1500000000.0,
-    "unit": "USD",
-    "raw_text": "in talks to raise $1.5B",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeTY1TFAySHE0Z2VJTDNXREdneDJHTWdaakt3dnhaRkhybXFoNkpneVZlRHRZQ0Fnck85MTlqQ3BaeHV1bDNNSWUtN1ZVekxMWnhudndmbUF3RUtvRDFxenhvTTdGbmp0UVBOZ0NYZG9rMTYzNFU0SGh5VF9CSFJCeWJneXo3bU8yUzBydWhBYjFpeWlRc2FWNjVZdFk?oc=5",
-      "locator": null,
-      "published_at": "2025-02-14"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {

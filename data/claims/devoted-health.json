@@ -1,13 +1,14 @@
 [
   {
-    "id": "clm_cb34b0e0cf",
+    "id": "clm_4f2981087c",
     "company_id": "devoted-health",
     "metric": "valuation",
     "value": 25000000000.0,
-    "unit": null,
-    "raw_text": "Devoted Health is raising a new round of funding at a $25 billion valuation",
+    "unit": "USD",
+    "raw_text": "raising a new round of funding at a $25 billion valuation",
     "qualifiers": [
-      "unconfirmed"
+      "unconfirmed",
+      "forward_looking"
     ],
     "speaker": {
       "name": null,
@@ -15,14 +16,38 @@
     },
     "source": {
       "type": "news",
-      "name": "Business Insider",
+      "name": "businessinsider.com",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPU2hBa2dUTUVsSDJ5UVlUOU1naTFhUFRuV2hZNXNscFUzaGtTNjVuZzB6c1RvdzZTU0RENnlXYzRuS2NqWk5VbWN4cFhCa1Z2Vk5Fazl5cF85RkFPd1BGdFp0WGZ0RnN1OFhYSXEwanlrN05zeUE5N1lsdkVIbUtuN0M1c1V6eGdkTl9sNHhpY0VYSG9va1NaVTFxRW5FU0dIazQ3Rg?oc=5",
       "locator": null,
       "published_at": "2026-08-21"
     },
-    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extracted_at": "2026-09-20T09:44:05.979383",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_93c3946ea7",
+    "company_id": "devoted-health",
+    "metric": "valuation",
+    "value": 1800000000.0,
+    "unit": "USD",
+    "raw_text": "hit a $1.8 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "businessinsider.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNblhvazJ6b2dkdXJ4bkMtSVNnTGpZYm44NjRzVE5HaVRJc1pWQTVYUVNfa1JFZlJIamJZa041OTNETWo3T2phendZalhkU2x5VklzV0ZycmNxTTVYZTA1OFRMX1JQajhodjFiWnRQUkxMN2cyekZtekJaQjFrRE45T2RiMDlRNEk5c2FoRmxTMHVCWkVZMHBmNV9yMndzdw?oc=5",
+      "locator": null,
+      "published_at": "2019-02-07"
+    },
+    "extracted_at": "2026-09-20T09:44:05.979383",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -47,6 +72,32 @@
     "extracted_at": "2026-09-10T09:49:02.856855",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_cb34b0e0cf",
+    "company_id": "devoted-health",
+    "metric": "valuation",
+    "value": 25000000000.0,
+    "unit": null,
+    "raw_text": "Devoted Health is raising a new round of funding at a $25 billion valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPU2hBa2dUTUVsSDJ5UVlUOU1naTFhUFRuV2hZNXNscFUzaGtTNjVuZzB6c1RvdzZTU0RENnlXYzRuS2NqWk5VbWN4cFhCa1Z2Vk5Fazl5cF85RkFPd1BGdFp0WGZ0RnN1OFhYSXEwanlrN05zeUE5N1lsdkVIbUtuN0M1c1V6eGdkTl9sNHhpY0VYSG9va1NaVTFxRW5FU0dIazQ3Rg?oc=5",
+      "locator": null,
+      "published_at": "2026-08-21"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -223,57 +274,6 @@
     "extracted_at": "2026-09-17T10:01:41.438182",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.225,
-    "derivation": null
-  },
-  {
-    "id": "clm_4f2981087c",
-    "company_id": "devoted-health",
-    "metric": "valuation",
-    "value": 25000000000.0,
-    "unit": "USD",
-    "raw_text": "raising a new round of funding at a $25 billion valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "businessinsider.com",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPU2hBa2dUTUVsSDJ5UVlUOU1naTFhUFRuV2hZNXNscFUzaGtTNjVuZzB6c1RvdzZTU0RENnlXYzRuS2NqWk5VbWN4cFhCa1Z2Vk5Fazl5cF85RkFPd1BGdFp0WGZ0RnN1OFhYSXEwanlrN05zeUE5N1lsdkVIbUtuN0M1c1V6eGdkTl9sNHhpY0VYSG9va1NaVTFxRW5FU0dIazQ3Rg?oc=5",
-      "locator": null,
-      "published_at": "2026-08-21"
-    },
-    "extracted_at": "2026-09-20T09:44:05.979383",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_93c3946ea7",
-    "company_id": "devoted-health",
-    "metric": "valuation",
-    "value": 1800000000.0,
-    "unit": "USD",
-    "raw_text": "hit a $1.8 billion valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "businessinsider.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNblhvazJ6b2dkdXJ4bkMtSVNnTGpZYm44NjRzVE5HaVRJc1pWQTVYUVNfa1JFZlJIamJZa041OTNETWo3T2phendZalhkU2x5VklzV0ZycmNxTTVYZTA1OFRMX1JQajhodjFiWnRQUkxMN2cyekZtekJaQjFrRE45T2RiMDlRNEk5c2FoRmxTMHVCWkVZMHBmNV9yMndzdw?oc=5",
-      "locator": null,
-      "published_at": "2019-02-07"
-    },
-    "extracted_at": "2026-09-20T09:44:05.979383",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {

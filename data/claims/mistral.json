@@ -24,12 +24,12 @@
     "derivation": null
   },
   {
-    "id": "clm_b81ae0d30d",
+    "id": "clm_1ee53d499c",
     "company_id": "mistral",
-    "metric": "valuation",
-    "value": 24000000000.0,
-    "unit": null,
-    "raw_text": "Mistral AI Raises $3.5B At $24B Valuation",
+    "metric": "round_amount",
+    "value": 3500000000.0,
+    "unit": "USD",
+    "raw_text": "Mistral AI Raises $3.5B",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -37,12 +37,36 @@
     },
     "source": {
       "type": "news",
-      "name": "news.crunchbase.com",
+      "name": "Crunchbase News",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWGt0c1I2MF9XbXU3dURqajZJMlo5YUtnWGRTcENLOGIweGV5NU5YVkROdGRPcmM0dkZhLTl2aV9aVEltOHRLT2Q1RUJtUXAyMDFkcGNQNjNiZ2pwaG9LeERZazJwLWlsU2c4Y0JJdzktLXRScXZ3N3BRb2RHMW00VQ?oc=5",
       "locator": null,
       "published_at": "2026-09-08"
     },
-    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_c29315cc75",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 24000000000.0,
+    "unit": "USD",
+    "raw_text": "$24B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Crunchbase News",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWGt0c1I2MF9XbXU3dURqajZJMlo5YUtnWGRTcENLOGIweGV5NU5YVkROdGRPcmM0dkZhLTl2aV9aVEltOHRLT2Q1RUJtUXAyMDFkcGNQNjNiZ2pwaG9LeERZazJwLWlsU2c4Y0JJdzktLXRScXZ3N3BRb2RHMW00VQ?oc=5",
+      "locator": null,
+      "published_at": "2026-09-08"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -317,8 +341,9 @@
     "metric": "total_funding",
     "value": 100000000.0,
     "unit": "USD",
-    "raw_text": "$100M+",
+    "raw_text": "$100M+ seed financing",
     "qualifiers": [
+      "rounded",
       "forward_looking"
     ],
     "speaker": {
@@ -332,42 +357,18 @@
       "locator": null,
       "published_at": "2023-11-09"
     },
-    "extracted_at": "2026-09-26T09:51:51.353222",
+    "extracted_at": "2026-09-27T10:32:58.616902",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.294,
+    "base_confidence": 0.2646,
     "derivation": null
   },
   {
-    "id": "clm_1ee53d499c",
-    "company_id": "mistral",
-    "metric": "round_amount",
-    "value": 3500000000.0,
-    "unit": "USD",
-    "raw_text": "Mistral AI Raises $3.5B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Crunchbase News",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWGt0c1I2MF9XbXU3dURqajZJMlo5YUtnWGRTcENLOGIweGV5NU5YVkROdGRPcmM0dkZhLTl2aV9aVEltOHRLT2Q1RUJtUXAyMDFkcGNQNjNiZ2pwaG9LeERZazJwLWlsU2c4Y0JJdzktLXRScXZ3N3BRb2RHMW00VQ?oc=5",
-      "locator": null,
-      "published_at": "2026-09-08"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_c29315cc75",
+    "id": "clm_b81ae0d30d",
     "company_id": "mistral",
     "metric": "valuation",
     "value": 24000000000.0,
-    "unit": "USD",
-    "raw_text": "$24B Valuation",
+    "unit": null,
+    "raw_text": "Mistral AI Raises $3.5B At $24B Valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -375,12 +376,12 @@
     },
     "source": {
       "type": "news",
-      "name": "Crunchbase News",
+      "name": "news.crunchbase.com",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWGt0c1I2MF9XbXU3dURqajZJMlo5YUtnWGRTcENLOGIweGV5NU5YVkROdGRPcmM0dkZhLTl2aV9aVEltOHRLT2Q1RUJtUXAyMDFkcGNQNjNiZ2pwaG9LeERZazJwLWlsU2c4Y0JJdzktLXRScXZ3N3BRb2RHMW00VQ?oc=5",
       "locator": null,
       "published_at": "2026-09-08"
     },
-    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extracted_at": "2026-09-17T10:01:41.438182",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -1707,7 +1708,7 @@
       "locator": null,
       "published_at": "2026-02-11"
     },
-    "extracted_at": "2026-09-26T09:51:51.353222",
+    "extracted_at": "2026-09-27T10:32:58.616902",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

@@ -25,9 +25,9 @@
       "confidence": 0.97,
       "supporting_claims": [
         "clm_b3a424eb0c",
-        "clm_0424231d23",
         "clm_183f1296b5",
         "clm_62bf4d7a68",
+        "clm_0424231d23",
         "clm_eb75d07580",
         "clm_fb260a2919",
         "clm_ae728f29c3",
@@ -46,7 +46,7 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 33153703234.79,
+      "value": 33238473758.69,
       "unit": "USD",
       "range": {
         "low": 3500000000.0,
@@ -71,10 +71,11 @@
         "clm_4ffc037f6b",
         "clm_4bfba58275",
         "clm_f61325f567",
-        "clm_11f18bfd54",
-        "clm_8e436b4a23",
-        "clm_56f0110826",
         "clm_09ef38246a",
+        "clm_8e436b4a23",
+        "clm_181cd8848d",
+        "clm_11f18bfd54",
+        "clm_56f0110826",
         "clm_61f9de6680",
         "clm_c3faf6bdb5",
         "clm_dcb1f2b0b6",
@@ -84,7 +85,7 @@
       "contradiction": true,
       "delta": {
         "previous": 33153703234.79,
-        "change_pct": -0.0,
+        "change_pct": 0.3,
         "since": "2026-09-10"
       },
       "history_ref": "history/moonshot/valuation.jsonl",
@@ -99,8 +100,9 @@
       "range": null,
       "as_of": "2026-05-07",
       "estimate_type": "consensus",
-      "confidence": 0.296,
+      "confidence": 0.406,
       "supporting_claims": [
+        "clm_87df7a759e",
         "clm_348cf6bfec",
         "clm_4cdb16be52"
       ],
@@ -125,7 +127,7 @@
       },
       "as_of": "2026-07-29",
       "estimate_type": "consensus",
-      "confidence": 0.964,
+      "confidence": 0.963,
       "supporting_claims": [
         "clm_b74a9756f0",
         "clm_da056e95ee",
@@ -154,8 +156,9 @@
       },
       "as_of": "2026-07-30",
       "estimate_type": "consensus",
-      "confidence": 0.907,
+      "confidence": 0.948,
       "supporting_claims": [
+        "clm_2a2422b64a",
         "clm_632c55a3c1",
         "clm_0cc06da7e3",
         "clm_e6dd35f5b7",
@@ -164,7 +167,7 @@
       "contradiction": false,
       "delta": {
         "previous": 3500000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-07-30"
       },
       "history_ref": "history/moonshot/round_amount.jsonl",
@@ -174,19 +177,19 @@
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 100.0,
+      "value": 175.0,
       "unit": "x",
       "range": null,
-      "as_of": "2026-05-07",
+      "as_of": "2026-07-29",
       "estimate_type": "reported",
-      "confidence": 0.078,
+      "confidence": 0.154,
       "supporting_claims": [
-        "drv_667f60eb9a"
+        "drv_5189a1ab43"
       ],
       "contradiction": false,
       "delta": {
         "previous": 100.0,
-        "change_pct": 0.0,
+        "change_pct": 75.0,
         "since": "2026-05-07"
       },
       "history_ref": "history/moonshot/revenue_multiple.jsonl",
@@ -195,5 +198,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-26"
+  "last_updated": "2026-09-27"
 }

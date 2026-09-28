@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-09-27
+# OpenPitch Data Quality Report - 2026-09-28
 
 ## Summary
 
-- Profiles generated: 560
-- Watchlist candidates: 1132
+- Profiles generated: 561
+- Watchlist candidates: 1145
 - Top-50 cards: 50
-- Profiles with at least one metric: 547
+- Profiles with at least one metric: 548
 - Critical issues: 103
 - Warnings: 17
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 570
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 582
 
 ## Top-50 Companies With No Metrics
 

@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 85.3,
-  "universe_rank": 36,
+  "universe_rank": 37,
   "metrics": {
     "latest_round": {
       "metric": "latest_round",
@@ -22,7 +22,7 @@
       },
       "as_of": "2026-07-21",
       "estimate_type": "consensus",
-      "confidence": 0.671,
+      "confidence": 0.67,
       "supporting_claims": [
         "clm_3519111fcd",
         "clm_2dec9db7c2",
@@ -49,7 +49,7 @@
       },
       "as_of": "2026-07-21",
       "estimate_type": "consensus",
-      "confidence": 0.671,
+      "confidence": 0.67,
       "supporting_claims": [
         "clm_7d5f179dce",
         "clm_86ac6d09bd",
@@ -68,7 +68,7 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 16713654275.57,
+      "value": 16570701157.05,
       "unit": "USD",
       "range": {
         "low": 17500000000.0,
@@ -76,11 +76,12 @@
       },
       "as_of": "2026-07-21",
       "estimate_type": "consensus",
-      "confidence": 0.867,
+      "confidence": 0.887,
       "supporting_claims": [
         "clm_f1e636111b",
-        "clm_043a8ab3c5",
         "clm_6f4d8eea6c",
+        "clm_49e853dac1",
+        "clm_043a8ab3c5",
         "clm_df906e8219",
         "clm_919d83da95",
         "clm_d79dfacd90",
@@ -89,20 +90,20 @@
       "contradiction": false,
       "delta": {
         "previous": 16713654275.57,
-        "change_pct": -0.0,
+        "change_pct": -0.9,
         "since": "2026-07-21"
       },
       "history_ref": "history/fireworks-ai/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
+      "unconfirmed": true,
+      "confirmed_value": 17500000000.0,
+      "confirmed_as_of": "2026-07-21"
     },
     "open_roles": {
       "metric": "open_roles",
       "value": 78.86,
       "unit": "count",
       "range": null,
-      "as_of": "2026-09-27",
+      "as_of": "2026-09-28",
       "estimate_type": "reported",
       "confidence": 0.867,
       "supporting_claims": [
@@ -126,5 +127,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-27"
+  "last_updated": "2026-09-28"
 }

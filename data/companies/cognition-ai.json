@@ -14,7 +14,7 @@
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 46501617913.96,
+      "value": 46554311044.3,
       "unit": "USD",
       "range": {
         "low": 25000000000.0,
@@ -38,10 +38,11 @@
         "clm_8682eb5130",
         "clm_57997506b6",
         "clm_fbbf33ee4d",
-        "clm_8955386e9c",
         "clm_57997506b6",
+        "clm_8955386e9c",
         "clm_0b18bbb051",
         "clm_28deb14c81",
+        "clm_1db0c53cac",
         "clm_e40bd1d686",
         "clm_66069f7e2c",
         "clm_9920e601cd",
@@ -56,7 +57,7 @@
       "contradiction": false,
       "delta": {
         "previous": 46501617913.96,
-        "change_pct": -0.0,
+        "change_pct": 0.1,
         "since": "2026-09-10"
       },
       "history_ref": "history/cognition-ai/valuation.jsonl",
@@ -77,8 +78,8 @@
       "confidence": 0.97,
       "supporting_claims": [
         "clm_a12f41c471",
-        "clm_5954897923",
         "clm_d7d613182d",
+        "clm_5954897923",
         "clm_4c71e98d5f",
         "clm_a25676fde9",
         "clm_b6ce537a57",
@@ -108,9 +109,10 @@
       },
       "as_of": "2026-09-10",
       "estimate_type": "consensus",
-      "confidence": 0.964,
+      "confidence": 0.97,
       "supporting_claims": [
         "clm_cde43bfa7b",
+        "clm_ae8ea77da4",
         "clm_39683f9caa",
         "clm_6e3036c492",
         "clm_fc7916fbf4",
@@ -119,7 +121,7 @@
       "contradiction": false,
       "delta": {
         "previous": 2000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-09-10"
       },
       "history_ref": "history/cognition-ai/total_funding.jsonl",
@@ -137,7 +139,7 @@
       },
       "as_of": "2026-09-09",
       "estimate_type": "consensus",
-      "confidence": 0.678,
+      "confidence": 0.677,
       "supporting_claims": [
         "clm_b05b40d3b0",
         "clm_98ba50d7d7"
@@ -145,7 +147,7 @@
       "contradiction": true,
       "delta": {
         "previous": 5.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-09-09"
       },
       "history_ref": "history/cognition-ai/latest_round.jsonl",
@@ -154,5 +156,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-27"
+  "last_updated": "2026-09-28"
 }

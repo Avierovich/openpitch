@@ -72,30 +72,6 @@
     "derivation": null
   },
   {
-    "id": "clm_b9e220e17b",
-    "company_id": "fireworks-ai",
-    "metric": "open_roles",
-    "value": 82.0,
-    "unit": null,
-    "raw_text": "Showing 82 positions",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "fireworks.ai",
-      "url": "https://fireworks.ai/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-09-26T09:51:51.353222",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
     "id": "clm_2dec9db7c2",
     "company_id": "fireworks-ai",
     "metric": "latest_round",
@@ -217,6 +193,109 @@
     "extracted_at": "2026-09-26T09:51:51.353222",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_f1e636111b",
+    "company_id": "fireworks-ai",
+    "metric": "valuation",
+    "value": 15000000000.0,
+    "unit": null,
+    "raw_text": "$15 Billion Valuation In New Funding Talks",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRDR0VnhudXRWV2l5WW9tbmd6QnZXdU41ZlpDSWVZV2hSbDNqMGkweTBPS2k0bmhLVkRiOUdqSDN4a2pxX1NqRXRnZllRQjU0WFV4VzZ6bDBad3Zjc2dBY09LZG1hMjd5NU80eWMxdkxMQmp0QzZSeWZRNDNuRDN0dlViSWdLbnFDU21JbXVqTzJrVnRJWGVCZVJMcWNndw?oc=5",
+      "locator": null,
+      "published_at": "2026-05-27"
+    },
+    "extracted_at": "2026-09-25T10:09:44.175619",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_6f4d8eea6c",
+    "company_id": "fireworks-ai",
+    "metric": "valuation",
+    "value": 15000000000.0,
+    "unit": "USD",
+    "raw_text": "Fireworks AI in Talks for Funding at $15 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWlQzUV9rQm5JZFctVkVNX0VuZjk5bW1seUNmYjlCU2JUWlJqbnhCWWdfblhLM29ObVAwTHRCbW9EU01zbTA5MVlGMk1zR3QtVGQ3Y1pSaW83YS1ySFdJRko2VlhmX0EzamJxS3IwdTRuQm5fQW1wM1FqT2Q3RnVNTmhxeFByTFVtUGJ4QlkyT3JuNERLbHBhNi0zU3FaNVcxb0VhcUlYNzNWYnZB?oc=5",
+      "locator": null,
+      "published_at": "2026-05-26"
+    },
+    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_b9e220e17b",
+    "company_id": "fireworks-ai",
+    "metric": "open_roles",
+    "value": 82.0,
+    "unit": null,
+    "raw_text": "Showing 82 positions",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fireworks.ai",
+      "url": "https://fireworks.ai/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-28T11:35:42.398874",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_49e853dac1",
+    "company_id": "fireworks-ai",
+    "metric": "valuation",
+    "value": 15000000000.0,
+    "unit": "USD",
+    "raw_text": "Fireworks AI Eyes $15B Valuation In New Funding Round",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "briefs.co",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUlNucDZJd3NDaHBnQ3k2YndkN0VXRGc5cUNDbE5saERjNWtpRHBGVE1wdFVUVjNXOWJXc2I2eWJ2Rno4eFVOU3g5RDd6U3B2U0x6MDRMc2U0ak1yMTBzb190M2ExQ1JXR3ZSeGJIejU3ejNSZFhzTFhTc2tqRjVuR2tncw?oc=5",
+      "locator": null,
+      "published_at": "2026-05-28"
+    },
+    "extracted_at": "2026-09-28T11:35:42.398874",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -385,32 +464,6 @@
     "extracted_at": "2026-09-25T10:09:44.175619",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_f1e636111b",
-    "company_id": "fireworks-ai",
-    "metric": "valuation",
-    "value": 15000000000.0,
-    "unit": null,
-    "raw_text": "$15 Billion Valuation In New Funding Talks",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRDR0VnhudXRWV2l5WW9tbmd6QnZXdU41ZlpDSWVZV2hSbDNqMGkweTBPS2k0bmhLVkRiOUdqSDN4a2pxX1NqRXRnZllRQjU0WFV4VzZ6bDBad3Zjc2dBY09LZG1hMjd5NU80eWMxdkxMQmp0QzZSeWZRNDNuRDN0dlViSWdLbnFDU21JbXVqTzJrVnRJWGVCZVJMcWNndw?oc=5",
-      "locator": null,
-      "published_at": "2026-05-27"
-    },
-    "extracted_at": "2026-09-25T10:09:44.175619",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
     "derivation": null
   },
   {
@@ -679,32 +732,6 @@
     "extracted_at": "2026-09-15T10:11:13.514998",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.225,
-    "derivation": null
-  },
-  {
-    "id": "clm_6f4d8eea6c",
-    "company_id": "fireworks-ai",
-    "metric": "valuation",
-    "value": 15000000000.0,
-    "unit": "USD",
-    "raw_text": "Fireworks AI in Talks for Funding at $15 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWlQzUV9rQm5JZFctVkVNX0VuZjk5bW1seUNmYjlCU2JUWlJqbnhCWWdfblhLM29ObVAwTHRCbW9EU01zbTA5MVlGMk1zR3QtVGQ3Y1pSaW83YS1ySFdJRko2VlhmX0EzamJxS3IwdTRuQm5fQW1wM1FqT2Q3RnVNTmhxeFByTFVtUGJ4QlkyT3JuNERLbHBhNi0zU3FaNVcxb0VhcUlYNzNWYnZB?oc=5",
-      "locator": null,
-      "published_at": "2026-05-26"
-    },
-    "extracted_at": "2026-09-19T09:29:15.949394",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {

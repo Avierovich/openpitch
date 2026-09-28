@@ -192,30 +192,6 @@
     "derivation": null
   },
   {
-    "id": "clm_2922bff03e",
-    "company_id": "mistral",
-    "metric": "valuation",
-    "value": 24000000000.0,
-    "unit": null,
-    "raw_text": "$24 billion valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "CNA",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYkJJSWRwMkIzR24wTFdMYmRucE9wVWU5YTB2NjFzMUtNaEdHYTd4a1VmbUNZOHhSb19OaENDSEh0OE1MWFBuOEdVakJySm9UMzNMZDlmZnI3N3ZWWnBnOTVkNFZvQUh2bUhMbDJmNGVuRDlBWVBma0laeFg5eVBZZEZrYXNWTGJsUzc3aXpiN0ZJcjM3U2MyVGoydldXMWFYYTFaZmEzMG9Wd19MVHFEUzVqbmRZZVhC?oc=5",
-      "locator": null,
-      "published_at": "2026-09-08"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_5d5e09dd6c",
     "company_id": "mistral",
     "metric": "round_amount",
@@ -255,6 +231,30 @@
       "type": "news",
       "name": "The Straits Times",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeUxYQnJLSHgzNEV5aE1XaEpXRjhveEZBTDJKeWpldlc5UTBXc0Ffbi1Sd2V5VHJHZEtaeUFQSmZWRTVKckdOTmtPTzBkdE1UQ05MNXhIMk5LVGFnN0Q3aGhVOUd6Nkt3Nl9xdTVnYU5QcU5sbFFmTzRZdW9GeHFNZXhvWmlDZC1BeE1VdTVTb0duZFE1eXNMS1RZbjBFRFBBWlE?oc=5",
+      "locator": null,
+      "published_at": "2026-09-08"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_2922bff03e",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 24000000000.0,
+    "unit": null,
+    "raw_text": "$24 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNA",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYkJJSWRwMkIzR24wTFdMYmRucE9wVWU5YTB2NjFzMUtNaEdHYTd4a1VmbUNZOHhSb19OaENDSEh0OE1MWFBuOEdVakJySm9UMzNMZDlmZnI3N3ZWWnBnOTVkNFZvQUh2bUhMbDJmNGVuRDlBWVBma0laeFg5eVBZZEZrYXNWTGJsUzc3aXpiN0ZJcjM3U2MyVGoydldXMWFYYTFaZmEzMG9Wd19MVHFEUzVqbmRZZVhC?oc=5",
       "locator": null,
       "published_at": "2026-09-08"
     },
@@ -341,9 +341,8 @@
     "metric": "total_funding",
     "value": 100000000.0,
     "unit": "USD",
-    "raw_text": "$100M+ seed financing",
+    "raw_text": "$100M+",
     "qualifiers": [
-      "rounded",
       "forward_looking"
     ],
     "speaker": {
@@ -357,9 +356,9 @@
       "locator": null,
       "published_at": "2023-11-09"
     },
-    "extracted_at": "2026-09-27T10:32:58.616902",
+    "extracted_at": "2026-09-28T11:35:42.398874",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2646,
+    "base_confidence": 0.294,
     "derivation": null
   },
   {
@@ -1708,7 +1707,7 @@
       "locator": null,
       "published_at": "2026-02-11"
     },
-    "extracted_at": "2026-09-27T10:32:58.616902",
+    "extracted_at": "2026-09-28T11:35:42.398874",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

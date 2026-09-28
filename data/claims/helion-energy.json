@@ -168,7 +168,7 @@
     "derivation": null
   },
   {
-    "id": "clm_f87eacf058",
+    "id": "clm_919e7138f1",
     "company_id": "helion-energy",
     "metric": "valuation",
     "value": 15500000000.0,
@@ -181,12 +181,12 @@
     },
     "source": {
       "type": "news",
-      "name": "The Information",
+      "name": "theinformation.com",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOd2xVdzd5dnd6ZTRjRzZUMVBUVmdxNjdtZmplNmE1ZU1XU0dMUFk1RWNTZy1TaUNHaF93R1hnbWRCVlFUSExIUkpMWmJSenJzdTVUSkY2YzBQMGU2YXJQeVlDVlpEZU16NHZQZHUycW54OWtHRnpDNEFHdTJiNENEYlpsT3o3a1paR3RkWmZLV0FIWUFEaFQ2N1VrOWhjQU1aRWQyaHRIYVlYMzhPMDgtbWhfS0Rxdms?oc=5",
       "locator": null,
       "published_at": "2026-06-04"
     },
-    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extracted_at": "2026-09-25T10:09:44.175619",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -408,6 +408,78 @@
     "derivation": null
   },
   {
+    "id": "clm_1407cd0069",
+    "company_id": "helion-energy",
+    "metric": "round_amount",
+    "value": 425000000.0,
+    "unit": "USD",
+    "raw_text": "$425M Series F",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Crunchbase News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTkZrSXAxUUJIWThEb09KOERjbzVla2MzOEx2TzZDWC04TkYxMTNCd3FXTFdfZVAzN01ndE1mejQ5RlFEQ0VwWU1FSG5kQlNUTDZHcUxRbzlGdE9ITWJodUhWSEd0YUNuTjJqRU5ha0ZseUc1c2tkMUhGZjh2a3RoQ09zNWZ6dmNjSkVweEx2czgtX2NaT3dWSmJZT2NMcTZHY3d4X3BUMHpZUQ?oc=5",
+      "locator": null,
+      "published_at": "2025-01-28"
+    },
+    "extracted_at": "2026-09-28T11:35:42.398874",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_da385d3971",
+    "company_id": "helion-energy",
+    "metric": "latest_round",
+    "value": 6.0,
+    "unit": "round",
+    "raw_text": "$425M Series F",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Crunchbase News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTkZrSXAxUUJIWThEb09KOERjbzVla2MzOEx2TzZDWC04TkYxMTNCd3FXTFdfZVAzN01ndE1mejQ5RlFEQ0VwWU1FSG5kQlNUTDZHcUxRbzlGdE9ITWJodUhWSEd0YUNuTjJqRU5ha0ZseUc1c2tkMUhGZjh2a3RoQ09zNWZ6dmNjSkVweEx2czgtX2NaT3dWSmJZT2NMcTZHY3d4X3BUMHpZUQ?oc=5",
+      "locator": null,
+      "published_at": "2025-01-28"
+    },
+    "extracted_at": "2026-09-28T11:35:42.398874",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_f87eacf058",
+    "company_id": "helion-energy",
+    "metric": "valuation",
+    "value": 15500000000.0,
+    "unit": null,
+    "raw_text": "Fusion Startup Helion Nearly Triples Valuation to $15.5 Billion in Thrive-led Round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Information",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOd2xVdzd5dnd6ZTRjRzZUMVBUVmdxNjdtZmplNmE1ZU1XU0dMUFk1RWNTZy1TaUNHaF93R1hnbWRCVlFUSExIUkpMWmJSenJzdTVUSkY2YzBQMGU2YXJQeVlDVlpEZU16NHZQZHUycW54OWtHRnpDNEFHdTJiNENEYlpsT3o3a1paR3RkWmZLV0FIWUFEaFQ2N1VrOWhjQU1aRWQyaHRIYVlYMzhPMDgtbWhfS0Rxdms?oc=5",
+      "locator": null,
+      "published_at": "2026-06-04"
+    },
+    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_838761975d",
     "company_id": "helion-energy",
     "metric": "valuation",
@@ -547,30 +619,6 @@
       "published_at": "2026-06-05"
     },
     "extracted_at": "2026-09-24T09:50:31.335914",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_919e7138f1",
-    "company_id": "helion-energy",
-    "metric": "valuation",
-    "value": 15500000000.0,
-    "unit": null,
-    "raw_text": "Fusion Startup Helion Nearly Triples Valuation to $15.5 Billion in Thrive-led Round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "theinformation.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOd2xVdzd5dnd6ZTRjRzZUMVBUVmdxNjdtZmplNmE1ZU1XU0dMUFk1RWNTZy1TaUNHaF93R1hnbWRCVlFUSExIUkpMWmJSenJzdTVUSkY2YzBQMGU2YXJQeVlDVlpEZU16NHZQZHUycW54OWtHRnpDNEFHdTJiNENEYlpsT3o3a1paR3RkWmZLV0FIWUFEaFQ2N1VrOWhjQU1aRWQyaHRIYVlYMzhPMDgtbWhfS0Rxdms?oc=5",
-      "locator": null,
-      "published_at": "2026-06-04"
-    },
-    "extracted_at": "2026-09-25T10:09:44.175619",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null

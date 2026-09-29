@@ -371,33 +371,6 @@
     "derivation": null
   },
   {
-    "id": "clm_52909847e2",
-    "company_id": "thinking-machines",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": "USD",
-    "raw_text": "Mira Murati's Thinking Machines seeks $50 billion valuation in funding talks",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbXJzRmFKRlFVWjduZnVOMU5xQ0kxV2c0UVFfU1J5SDBUVVc5SUtiUV9pemxPX2k0dHJ3RXgxXzI3SjA5b2twMjRQekpnejN3UGp1b3NPa2NXSFZFMEVQQ3BqWi1wcGlUSEdnb09HeVpPNlFWbTdQOWJOLWNZR0NZQmtxWjBtUzl3QzlxMkxHTVhHa1Jsb2xMQWZFOHhJY0UtQlVZelV3dy1GRXRLby12MHJEZHFVNkJPTmc?oc=5",
-      "locator": null,
-      "published_at": "2025-11-13"
-    },
-    "extracted_at": "2026-08-24T06:11:52.835308",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
     "id": "clm_d944f07dc9",
     "company_id": "thinking-machines",
     "metric": "round_amount",
@@ -447,6 +420,86 @@
     "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_3e9568dc1d",
+    "company_id": "thinking-machines",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "$1B Round",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Wowtale",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ZOUc4MHNqUkNNRmhaRDE1QUxlMnNTaWdVLWRHRG4yb0tKTlFORHFfQ2hkSFRWT3RYOFNSeWNqc1N5Wl9GcW1JbzdZU3RXS0VUUlZF?oc=5",
+      "locator": null,
+      "published_at": "2026-09-07"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_96e11af8e8",
+    "company_id": "thinking-machines",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "$40B Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Wowtale",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ZOUc4MHNqUkNNRmhaRDE1QUxlMnNTaWdVLWRHRG4yb0tKTlFORHFfQ2hkSFRWT3RYOFNSeWNqc1N5Wl9GcW1JbzdZU3RXS0VUUlZF?oc=5",
+      "locator": null,
+      "published_at": "2026-09-07"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2835,
+    "derivation": null
+  },
+  {
+    "id": "clm_52909847e2",
+    "company_id": "thinking-machines",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "Mira Murati's Thinking Machines seeks $50 billion valuation in funding talks",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbXJzRmFKRlFVWjduZnVOMU5xQ0kxV2c0UVFfU1J5SDBUVVc5SUtiUV9pemxPX2k0dHJ3RXgxXzI3SjA5b2twMjRQekpnejN3UGp1b3NPa2NXSFZFMEVQQ3BqWi1wcGlUSEdnb09HeVpPNlFWbTdQOWJOLWNZR0NZQmtxWjBtUzl3QzlxMkxHTVhHa1Jsb2xMQWZFOHhJY0UtQlVZelV3dy1GRXRLby12MHJEZHFVNkJPTmc?oc=5",
+      "locator": null,
+      "published_at": "2025-11-13"
+    },
+    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -553,59 +606,6 @@
     "extracted_at": "2026-09-19T09:29:15.949394",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_3e9568dc1d",
-    "company_id": "thinking-machines",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "$1B Round",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Wowtale",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ZOUc4MHNqUkNNRmhaRDE1QUxlMnNTaWdVLWRHRG4yb0tKTlFORHFfQ2hkSFRWT3RYOFNSeWNqc1N5Wl9GcW1JbzdZU3RXS0VUUlZF?oc=5",
-      "locator": null,
-      "published_at": "2026-09-07"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_96e11af8e8",
-    "company_id": "thinking-machines",
-    "metric": "valuation",
-    "value": 40000000000.0,
-    "unit": "USD",
-    "raw_text": "$40B Valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Wowtale",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ZOUc4MHNqUkNNRmhaRDE1QUxlMnNTaWdVLWRHRG4yb0tKTlFORHFfQ2hkSFRWT3RYOFNSeWNqc1N5Wl9GcW1JbzdZU3RXS0VUUlZF?oc=5",
-      "locator": null,
-      "published_at": "2026-09-07"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2835,
     "derivation": null
   },
   {

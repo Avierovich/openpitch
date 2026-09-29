@@ -1,5 +1,56 @@
 [
   {
+    "id": "clm_092b3de3a6",
+    "company_id": "deepseek",
+    "metric": "arr",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "$1B annual revenue",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVeVdtbVJmTVM3aWZtRHFJWTdJMWl1aC1Hc2ZoUXVnRWliVlVHR3FfckVlNlFjOXcydGR5aGpGNXpJRER3aWNHODZyamZyNTdlN3dSQzRCbjhJcW1yZEVJU2hndE5ERkFUX3RINk1B?oc=5",
+      "locator": null,
+      "published_at": "2026-09-25"
+    },
+    "extracted_at": "2026-09-28T11:35:42.398874",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_6c48273d67",
+    "company_id": "deepseek",
+    "metric": "valuation",
+    "value": 75000000000.0,
+    "unit": null,
+    "raw_text": "$75B valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVeVdtbVJmTVM3aWZtRHFJWTdJMWl1aC1Hc2ZoUXVnRWliVlVHR3FfckVlNlFjOXcydGR5aGpGNXpJRER3aWNHODZyamZyNTdlN3dSQzRCbjhJcW1yZEVJU2hndE5ERkFUX3RINk1B?oc=5",
+      "locator": null,
+      "published_at": "2026-09-25"
+    },
+    "extracted_at": "2026-09-28T11:35:42.398874",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
     "id": "clm_ae6a1d4685",
     "company_id": "deepseek",
     "metric": "arr",
@@ -104,32 +155,6 @@
     "derivation": null
   },
   {
-    "id": "clm_7c2d7c93d5",
-    "company_id": "deepseek",
-    "metric": "valuation",
-    "value": 71000000000.0,
-    "unit": "USD",
-    "raw_text": "The $71B Shadow Market",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZmlOUmxRRzV5ejhBSlB0Zmk2UVUtMWNEQnR6NEpXZ0s0Zk94T1JmVGN2YTh1aDQ3U01zeWk1RHVQTjdMTXRmcVdlREFzVURpb2Y1OFF0a1RzaDdOQ0Y4eUQ5VFNaQnNjMERER3E0SzM0cVZUeVpCN3p0QW5YckVoaFB0OHVEN3R2LXdZdFE0STJGVzFlcFBfUFg3NWNtRVItZUE?oc=5",
-      "locator": null,
-      "published_at": "2026-09-10"
-    },
-    "extracted_at": "2026-09-24T09:50:31.335914",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_ae6a1d4685",
     "company_id": "deepseek",
     "metric": "arr",
@@ -209,30 +234,29 @@
     "derivation": null
   },
   {
-    "id": "clm_d79ca0d7b5",
+    "id": "clm_5c390a8206",
     "company_id": "deepseek",
-    "metric": "total_funding",
+    "metric": "round_amount",
     "value": 7000000000.0,
-    "unit": "USD",
+    "unit": null,
     "raw_text": "Raise More than $7 Billion",
     "qualifiers": [
-      "unconfirmed",
       "forward_looking"
     ],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
       "type": "news",
-      "name": "theinformation.com",
+      "name": "The Information",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRFNvcGFjNE5MR2RBVGt3MnJuYU5kSHZSQWpQTnJrVmh3aDJjcXA0NVQ2NGlCNjFNdm5BcmlIb29PX3FlNGoybloxaTZrQlZKM1U4UTg1b1JHcTNnRF9KNlVMQ1MzVU9xdUp5YUktQjBPeU9vaWJHS1l4bjNzWnNtX0RrNEJPSzN3aFAxSTB2N0NKX21kUFMwUmtB?oc=5",
       "locator": null,
       "published_at": "2026-05-08"
     },
-    "extracted_at": "2026-09-25T10:09:44.175619",
+    "extracted_at": "2026-09-14T10:31:29.338960",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
+    "base_confidence": 0.2625,
     "derivation": null
   },
   {
@@ -260,36 +284,118 @@
     "derivation": null
   },
   {
-    "id": "clm_092b3de3a6",
+    "id": "clm_15570eed00",
     "company_id": "deepseek",
-    "metric": "arr",
-    "value": 1000000000.0,
+    "metric": "round_amount",
+    "value": 7400000000.0,
     "unit": null,
-    "raw_text": "$1B annual revenue",
-    "qualifiers": [],
+    "raw_text": "$7.4B Funding Round",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
     "speaker": {
       "name": null,
       "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVeVdtbVJmTVM3aWZtRHFJWTdJMWl1aC1Hc2ZoUXVnRWliVlVHR3FfckVlNlFjOXcydGR5aGpGNXpJRER3aWNHODZyamZyNTdlN3dSQzRCbjhJcW1yZEVJU2hndE5ERkFUX3RINk1B?oc=5",
+      "name": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQT1o3NU5IbXVoTE5xMTNsZFhJSDB0QXRCSnplckUxYkRSUWhLclRYdWFydFdGZWozamtXR0d2OGVpY19rU2N6aGNLbUw1Z05SWTRaeHNhN3FjbVJLdnpSRHdFZGExS1NaVVlidFBMNk5HME41UWNKZXZJMDhaRVczaVRKTEg2d3RyNWIySWw3SnQwV3VKdnl0aU9JYVFrZnVLaE11aUc1VnhwY3pnOVp5WEtSVWZJVnBOM1l0UWFpaEZ5NHhpYndmWVhXcldBQ3ByUWNxWE9TVkZXRi15M09zcXhYa0RRRElCWHBrUmJSa1lweDg?oc=5",
       "locator": null,
-      "published_at": "2026-09-25"
+      "published_at": "2026-06-03"
     },
-    "extracted_at": "2026-09-28T11:35:42.398874",
+    "extracted_at": "2026-09-29T11:15:32.501222",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
-    "id": "clm_6c48273d67",
+    "id": "clm_99e5d52a1d",
     "company_id": "deepseek",
     "metric": "valuation",
-    "value": 75000000000.0,
+    "value": 59000000000.0,
     "unit": null,
-    "raw_text": "$75B valuation",
+    "raw_text": "$59B Valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQT1o3NU5IbXVoTE5xMTNsZFhJSDB0QXRCSnplckUxYkRSUWhLclRYdWFydFdGZWozamtXR0d2OGVpY19rU2N6aGNLbUw1Z05SWTRaeHNhN3FjbVJLdnpSRHdFZGExS1NaVVlidFBMNk5HME41UWNKZXZJMDhaRVczaVRKTEg2d3RyNWIySWw3SnQwV3VKdnl0aU9JYVFrZnVLaE11aUc1VnhwY3pnOVp5WEtSVWZJVnBOM1l0UWFpaEZ5NHhpYndmWVhXcldBQ3ByUWNxWE9TVkZXRi15M09zcXhYa0RRRElCWHBrUmJSa1lweDg?oc=5",
+      "locator": null,
+      "published_at": "2026-06-03"
+    },
+    "extracted_at": "2026-09-29T11:15:32.501222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_eec84722cd",
+    "company_id": "deepseek",
+    "metric": "valuation",
+    "value": 71000000000.0,
+    "unit": null,
+    "raw_text": "$71B Shadow Market: What DeepSeek’s Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZmlOUmxRRzV5ejhBSlB0Zmk2UVUtMWNEQnR6NEpXZ0s0Zk94T1JmVGN2YTh1aDQ3U01zeWk1RHVQTjdMTXRmcVdlREFzVURpb2Y1OFF0a1RzaDdOQ0Y4eUQ5VFNaQnNjMERER3E0SzM0cVZUeVpCN3p0QW5YckVoaFB0OHVEN3R2LXdZdFE0STJGVzFlcFBfUFg3NWNtRVItZUE?oc=5",
+      "locator": null,
+      "published_at": "2026-09-10"
+    },
+    "extracted_at": "2026-09-29T11:15:32.501222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_7c2d7c93d5",
+    "company_id": "deepseek",
+    "metric": "valuation",
+    "value": 71000000000.0,
+    "unit": "USD",
+    "raw_text": "The $71B Shadow Market",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZmlOUmxRRzV5ejhBSlB0Zmk2UVUtMWNEQnR6NEpXZ0s0Zk94T1JmVGN2YTh1aDQ3U01zeWk1RHVQTjdMTXRmcVdlREFzVURpb2Y1OFF0a1RzaDdOQ0Y4eUQ5VFNaQnNjMERER3E0SzM0cVZUeVpCN3p0QW5YckVoaFB0OHVEN3R2LXdZdFE0STJGVzFlcFBfUFg3NWNtRVItZUE?oc=5",
+      "locator": null,
+      "published_at": "2026-09-10"
+    },
+    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_d79ca0d7b5",
+    "company_id": "deepseek",
+    "metric": "total_funding",
+    "value": 7000000000.0,
+    "unit": "USD",
+    "raw_text": "Raise More than $7 Billion",
     "qualifiers": [
       "unconfirmed",
       "forward_looking"
@@ -300,12 +406,12 @@
     },
     "source": {
       "type": "news",
-      "name": "Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVeVdtbVJmTVM3aWZtRHFJWTdJMWl1aC1Hc2ZoUXVnRWliVlVHR3FfckVlNlFjOXcydGR5aGpGNXpJRER3aWNHODZyamZyNTdlN3dSQzRCbjhJcW1yZEVJU2hndE5ERkFUX3RINk1B?oc=5",
+      "name": "theinformation.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRFNvcGFjNE5MR2RBVGt3MnJuYU5kSHZSQWpQTnJrVmh3aDJjcXA0NVQ2NGlCNjFNdm5BcmlIb29PX3FlNGoybloxaTZrQlZKM1U4UTg1b1JHcTNnRF9KNlVMQ1MzVU9xdUp5YUktQjBPeU9vaWJHS1l4bjNzWnNtX0RrNEJPSzN3aFAxSTB2N0NKX21kUFMwUmtB?oc=5",
       "locator": null,
-      "published_at": "2026-09-25"
+      "published_at": "2026-05-08"
     },
-    "extracted_at": "2026-09-28T11:35:42.398874",
+    "extracted_at": "2026-09-25T10:09:44.175619",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
     "derivation": null
@@ -383,32 +489,6 @@
     "extracted_at": "2026-09-09T09:51:11.595604",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_5c390a8206",
-    "company_id": "deepseek",
-    "metric": "round_amount",
-    "value": 7000000000.0,
-    "unit": null,
-    "raw_text": "Raise More than $7 Billion",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Information",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRFNvcGFjNE5MR2RBVGt3MnJuYU5kSHZSQWpQTnJrVmh3aDJjcXA0NVQ2NGlCNjFNdm5BcmlIb29PX3FlNGoybloxaTZrQlZKM1U4UTg1b1JHcTNnRF9KNlVMQ1MzVU9xdUp5YUktQjBPeU9vaWJHS1l4bjNzWnNtX0RrNEJPSzN3aFAxSTB2N0NKX21kUFMwUmtB?oc=5",
-      "locator": null,
-      "published_at": "2026-05-08"
-    },
-    "extracted_at": "2026-09-14T10:31:29.338960",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2625,
     "derivation": null
   },
   {
@@ -2448,7 +2528,7 @@
       "locator": null,
       "published_at": "2026-09-25"
     },
-    "extracted_at": "2026-09-28T11:35:42.398874",
+    "extracted_at": "2026-09-29T11:15:32.501222",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

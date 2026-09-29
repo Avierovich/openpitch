@@ -98,12 +98,12 @@
     "derivation": null
   },
   {
-    "id": "clm_5f0d105d08",
+    "id": "clm_a7db698f89",
     "company_id": "ssi",
-    "metric": "total_funding",
+    "metric": "round_amount",
     "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "Safe Superintelligence raises $1 billion",
+    "unit": null,
+    "raw_text": "raises $1 billion",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -111,22 +111,22 @@
     },
     "source": {
       "type": "news",
-      "name": "gigazine.net",
+      "name": "GIGAZINE",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNWFhci1DX0N3eG04S1lWdHF2TGw2RFo2Rm03MXBIa0l3OU5wczJGSEhUQm5IN0tFYVp2dnYtVUNxSnJTMWl1dDdMXzBleWtqVmd0ZzV1SXZOd3VnNEJ0QmdVeVZGVnZyMHVCbkd0Mk1BTjh1czd4YzJHR25lU05rLWZid0xiV3IyT0E?oc=5",
       "locator": null,
       "published_at": "2024-09-05"
     },
-    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
   },
   {
-    "id": "clm_18ec63bc5e",
+    "id": "clm_22da97ef46",
     "company_id": "ssi",
     "metric": "valuation",
     "value": 5000000000.0,
-    "unit": "USD",
+    "unit": null,
     "raw_text": "valuation could reach $5 billion",
     "qualifiers": [
       "unconfirmed",
@@ -138,22 +138,73 @@
     },
     "source": {
       "type": "news",
-      "name": "gigazine.net",
+      "name": "GIGAZINE",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNWFhci1DX0N3eG04S1lWdHF2TGw2RFo2Rm03MXBIa0l3OU5wczJGSEhUQm5IN0tFYVp2dnYtVUNxSnJTMWl1dDdMXzBleWtqVmd0ZzV1SXZOd3VnNEJ0QmdVeVZGVnZyMHVCbkd0Mk1BTjh1czd4YzJHR25lU05rLWZid0xiV3IyT0E?oc=5",
       "locator": null,
       "published_at": "2024-09-05"
     },
-    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
     "derivation": null
   },
   {
-    "id": "clm_de4457910e",
+    "id": "clm_231c6cb5bf",
+    "company_id": "ssi",
+    "metric": "headcount",
+    "value": 50.0,
+    "unit": null,
+    "raw_text": "roughly 50 employees",
+    "qualifiers": [
+      "rounded",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVhWajdRUTRBYnpSNGJDVzRpNlNRbV85Mml0VEFINUZndjNnNFpsdFVSRFktei1BdXVpUXB2dkxCRlBYelZ4YnZRZGpuejFSUkVHV2haUjZsa3Z2czVLc2Nfa01ZbGpsSUc1R0lXYnFnMkVrRUpLZDdNWUFyT0lVS3B1VWlCcEVtTE50bUliWThxUElQYUxNT1lRSQ?oc=5",
+      "locator": null,
+      "published_at": "2026-07-29"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4016,
+    "derivation": null
+  },
+  {
+    "id": "clm_ae674c4397",
     "company_id": "ssi",
     "metric": "valuation",
     "value": 32000000000.0,
-    "unit": "USD",
+    "unit": null,
+    "raw_text": "$32 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVhWajdRUTRBYnpSNGJDVzRpNlNRbV85Mml0VEFINUZndjNnNFpsdFVSRFktei1BdXVpUXB2dkxCRlBYelZ4YnZRZGpuejFSUkVHV2haUjZsa3Z2czVLc2Nfa01ZbGpsSUc1R0lXYnFnMkVrRUpLZDdNWUFyT0lVS3B1VWlCcEVtTE50bUliWThxUElQYUxNT1lRSQ?oc=5",
+      "locator": null,
+      "published_at": "2026-07-29"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_4b98b708d4",
+    "company_id": "ssi",
+    "metric": "valuation",
+    "value": 32000000000.0,
+    "unit": null,
     "raw_text": "$32B Valuation",
     "qualifiers": [],
     "speaker": {
@@ -162,12 +213,12 @@
     },
     "source": {
       "type": "news",
-      "name": "startuphub.ai",
+      "name": "StartupHub.ai",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSGVTbmp1TExwZlhSb0VoMGR1UGJld0U2dVplcWFYaGxsbnU3UENwX0NHSFpZZ1ZMUWsxUEdBYVE0LW5MTUlScnpROE5URGFuWTNMREFYZzlLUDYxZkNPMkhodFlweUxNV1dBVWc0TTc3SjlmVjZZb1JVVUstcWc5ZzQ2MUxfc2NES1NLYUY4V0tncW0zY0pmVmVIX0x2RF8yNTVnOTRib0h6QQ?oc=5",
       "locator": null,
       "published_at": "2026-06-06"
     },
-    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -247,6 +298,81 @@
     "derivation": null
   },
   {
+    "id": "clm_5f0d105d08",
+    "company_id": "ssi",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "Safe Superintelligence raises $1 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "gigazine.net",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNWFhci1DX0N3eG04S1lWdHF2TGw2RFo2Rm03MXBIa0l3OU5wczJGSEhUQm5IN0tFYVp2dnYtVUNxSnJTMWl1dDdMXzBleWtqVmd0ZzV1SXZOd3VnNEJ0QmdVeVZGVnZyMHVCbkd0Mk1BTjh1czd4YzJHR25lU05rLWZid0xiV3IyT0E?oc=5",
+      "locator": null,
+      "published_at": "2024-09-05"
+    },
+    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_18ec63bc5e",
+    "company_id": "ssi",
+    "metric": "valuation",
+    "value": 5000000000.0,
+    "unit": "USD",
+    "raw_text": "valuation could reach $5 billion",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "gigazine.net",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNWFhci1DX0N3eG04S1lWdHF2TGw2RFo2Rm03MXBIa0l3OU5wczJGSEhUQm5IN0tFYVp2dnYtVUNxSnJTMWl1dDdMXzBleWtqVmd0ZzV1SXZOd3VnNEJ0QmdVeVZGVnZyMHVCbkd0Mk1BTjh1czd4YzJHR25lU05rLWZid0xiV3IyT0E?oc=5",
+      "locator": null,
+      "published_at": "2024-09-05"
+    },
+    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_de4457910e",
+    "company_id": "ssi",
+    "metric": "valuation",
+    "value": 32000000000.0,
+    "unit": "USD",
+    "raw_text": "$32B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "startuphub.ai",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSGVTbmp1TExwZlhSb0VoMGR1UGJld0U2dVplcWFYaGxsbnU3UENwX0NHSFpZZ1ZMUWsxUEdBYVE0LW5MTUlScnpROE5URGFuWTNMREFYZzlLUDYxZkNPMkhodFlweUxNV1dBVWc0TTc3SjlmVjZZb1JVVUstcWc5ZzQ2MUxfc2NES1NLYUY4V0tncW0zY0pmVmVIX0x2RF8yNTVnOTRib0h6QQ?oc=5",
+      "locator": null,
+      "published_at": "2026-06-06"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_94a2e2a51c",
     "company_id": "ssi",
     "metric": "valuation",
@@ -322,30 +448,6 @@
     "derivation": null
   },
   {
-    "id": "clm_4b98b708d4",
-    "company_id": "ssi",
-    "metric": "valuation",
-    "value": 32000000000.0,
-    "unit": null,
-    "raw_text": "$32B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "StartupHub.ai",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSGVTbmp1TExwZlhSb0VoMGR1UGJld0U2dVplcWFYaGxsbnU3UENwX0NHSFpZZ1ZMUWsxUEdBYVE0LW5MTUlScnpROE5URGFuWTNMREFYZzlLUDYxZkNPMkhodFlweUxNV1dBVWc0TTc3SjlmVjZZb1JVVUstcWc5ZzQ2MUxfc2NES1NLYUY4V0tncW0zY0pmVmVIX0x2RF8yNTVnOTRib0h6QQ?oc=5",
-      "locator": null,
-      "published_at": "2026-06-06"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_0dc1981419",
     "company_id": "ssi",
     "metric": "round_amount",
@@ -393,57 +495,6 @@
     "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_a7db698f89",
-    "company_id": "ssi",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "raises $1 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "GIGAZINE",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNWFhci1DX0N3eG04S1lWdHF2TGw2RFo2Rm03MXBIa0l3OU5wczJGSEhUQm5IN0tFYVp2dnYtVUNxSnJTMWl1dDdMXzBleWtqVmd0ZzV1SXZOd3VnNEJ0QmdVeVZGVnZyMHVCbkd0Mk1BTjh1czd4YzJHR25lU05rLWZid0xiV3IyT0E?oc=5",
-      "locator": null,
-      "published_at": "2024-09-05"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_22da97ef46",
-    "company_id": "ssi",
-    "metric": "valuation",
-    "value": 5000000000.0,
-    "unit": null,
-    "raw_text": "valuation could reach $5 billion",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "GIGAZINE",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNWFhci1DX0N3eG04S1lWdHF2TGw2RFo2Rm03MXBIa0l3OU5wczJGSEhUQm5IN0tFYVp2dnYtVUNxSnJTMWl1dDdMXzBleWtqVmd0ZzV1SXZOd3VnNEJ0QmdVeVZGVnZyMHVCbkd0Mk1BTjh1czd4YzJHR25lU05rLWZid0xiV3IyT0E?oc=5",
-      "locator": null,
-      "published_at": "2024-09-05"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -818,57 +869,6 @@
     "extracted_at": "2026-09-16T10:35:49.404557",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_231c6cb5bf",
-    "company_id": "ssi",
-    "metric": "headcount",
-    "value": 50.0,
-    "unit": null,
-    "raw_text": "roughly 50 employees",
-    "qualifiers": [
-      "rounded",
-      "approximate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "finance.yahoo.com",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVhWajdRUTRBYnpSNGJDVzRpNlNRbV85Mml0VEFINUZndjNnNFpsdFVSRFktei1BdXVpUXB2dkxCRlBYelZ4YnZRZGpuejFSUkVHV2haUjZsa3Z2czVLc2Nfa01ZbGpsSUc1R0lXYnFnMkVrRUpLZDdNWUFyT0lVS3B1VWlCcEVtTE50bUliWThxUElQYUxNT1lRSQ?oc=5",
-      "locator": null,
-      "published_at": "2026-07-29"
-    },
-    "extracted_at": "2026-09-05T09:07:28.177448",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4016,
-    "derivation": null
-  },
-  {
-    "id": "clm_ae674c4397",
-    "company_id": "ssi",
-    "metric": "valuation",
-    "value": 32000000000.0,
-    "unit": null,
-    "raw_text": "$32 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "finance.yahoo.com",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVhWajdRUTRBYnpSNGJDVzRpNlNRbV85Mml0VEFINUZndjNnNFpsdFVSRFktei1BdXVpUXB2dkxCRlBYelZ4YnZRZGpuejFSUkVHV2haUjZsa3Z2czVLc2Nfa01ZbGpsSUc1R0lXYnFnMkVrRUpLZDdNWUFyT0lVS3B1VWlCcEVtTE50bUliWThxUElQYUxNT1lRSQ?oc=5",
-      "locator": null,
-      "published_at": "2026-07-29"
-    },
-    "extracted_at": "2026-09-05T09:07:28.177448",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {

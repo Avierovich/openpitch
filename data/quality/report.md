@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-09-28
+# OpenPitch Data Quality Report - 2026-09-29
 
 ## Summary
 
-- Profiles generated: 561
-- Watchlist candidates: 1145
+- Profiles generated: 568
+- Watchlist candidates: 1154
 - Top-50 cards: 50
-- Profiles with at least one metric: 548
-- Critical issues: 103
-- Warnings: 17
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 582
+- Profiles with at least one metric: 555
+- Critical issues: 104
+- Warnings: 16
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 584
 
 ## Top-50 Companies With No Metrics
 
@@ -90,6 +90,7 @@ None.
 - Cognism
 - Cohere Health
 - Collective Health
+- Comet
 - Commonwealth Fusion Systems
 - Deep Genomics
 - DeepInfra
@@ -136,7 +137,6 @@ None.
 
 ## Single-Source Core Metrics
 
-- Enflame Technology: valuation
 - Figure AI: headcount
 - Scale AI: headcount
 - Mercor: headcount

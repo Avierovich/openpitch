@@ -26,12 +26,12 @@
       "supporting_claims": [
         "clm_15bc55f798",
         "clm_462ad38e67",
-        "clm_b918879a57",
         "clm_666d312e1f",
+        "clm_b918879a57",
         "clm_9be37fe282",
-        "clm_d22b6a5140",
-        "clm_efd8d41802",
         "clm_fe02fa2e27",
+        "clm_efd8d41802",
+        "clm_d22b6a5140",
         "clm_0be70baa67",
         "clm_789f7693cc",
         "clm_13d2c09a6a",
@@ -59,7 +59,7 @@
       },
       "as_of": "2026-09-14",
       "estimate_type": "consensus",
-      "confidence": 0.765,
+      "confidence": 0.764,
       "supporting_claims": [
         "clm_a78d636add",
         "clm_3c30954aef"
@@ -75,6 +75,31 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "valuation": {
+      "metric": "valuation",
+      "value": 185000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 25000000000.0,
+        "high": 185000000000.0
+      },
+      "as_of": "2026-09-11",
+      "estimate_type": "reported",
+      "confidence": 0.5,
+      "supporting_claims": [
+        "clm_41ee993293"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 185000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-09-11"
+      },
+      "history_ref": "history/enflame-technology/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "notable_customers": {
       "metric": "notable_customers",
       "value": 84.0,
@@ -82,7 +107,7 @@
       "range": null,
       "as_of": "2026-09-15",
       "estimate_type": "reported",
-      "confidence": 0.507,
+      "confidence": 0.505,
       "supporting_claims": [
         "clm_782bd461be"
       ],
@@ -96,29 +121,7 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "valuation": {
-      "metric": "valuation",
-      "value": 185000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-09-11",
-      "estimate_type": "reported",
-      "confidence": 0.501,
-      "supporting_claims": [
-        "clm_41ee993293"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 185000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-09-11"
-      },
-      "history_ref": "history/enflame-technology/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-28"
+  "last_updated": "2026-09-29"
 }

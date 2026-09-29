@@ -146,12 +146,12 @@
     "derivation": null
   },
   {
-    "id": "clm_7d366ec39d",
+    "id": "clm_108313652a",
     "company_id": "anysphere-cursor",
     "metric": "valuation",
     "value": 400000000.0,
     "unit": "USD",
-    "raw_text": "at least a $400 million valuation",
+    "raw_text": "$400 million valuation",
     "qualifiers": [
       "unconfirmed",
       "forward_looking"
@@ -162,12 +162,12 @@
     },
     "source": {
       "type": "news",
-      "name": "Business Insider",
+      "name": "businessinsider.com",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNGdlTGNsZF8wY2ZxcnBYOERuV2lHclFlOUtrcFZVYnRHVWNmV0c0TEF3TWdjc2FoQzN6MDJadnIzNHYzdjltZXF0VWhySVNwYjhMNnJhalZ3aFlkT2lFb0hTTi1udGdKQi1CZTYxNFlqS2xubXZPb2M0VS11bzRnejZmLTFfTVQ3VV81R3ZrQ3pTRXVUd1JjTDZtWnM?oc=5",
       "locator": null,
       "published_at": "2024-07-15"
     },
-    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extracted_at": "2026-09-20T09:44:05.979383",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
     "derivation": null
@@ -269,33 +269,6 @@
     "derivation": null
   },
   {
-    "id": "clm_fce62bad83",
-    "company_id": "anysphere-cursor",
-    "metric": "valuation",
-    "value": 9900000000.0,
-    "unit": "USD",
-    "raw_text": "$9.9B valuation",
-    "qualifiers": [
-      "rounded",
-      "approximate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdi1vYmdlQkxUVkZoQkcwNkVsemllakpkUzVUZXZJVWxlM1JoQ3QtbHlNRlFoRkFHZVpsdEJvX0FKa1FhSHZHMDVjcUJPOEpfQmF6YlFzYW1TcWtwMnhiUHV4Sk03SXYyQVdtcTJ4dTdOZFdlWkVjbmhWUkNrNG5kck90aE5RdUllRlhzOEtHcU5CQTZmR2RIbG5TY0V5R3J4c25CRl9QN1U0eE0?oc=5",
-      "locator": null,
-      "published_at": "2025-06-06"
-    },
-    "extracted_at": "2026-09-07T10:15:07.048991",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4016,
-    "derivation": null
-  },
-  {
     "id": "clm_ebc093f62f",
     "company_id": "anysphere-cursor",
     "metric": "arr",
@@ -320,27 +293,27 @@
     "derivation": null
   },
   {
-    "id": "clm_b6af8aa900",
+    "id": "clm_46cf8071f4",
     "company_id": "anysphere-cursor",
     "metric": "round_amount",
     "value": 900000000.0,
-    "unit": "USD",
+    "unit": null,
     "raw_text": "Raises $900 Million",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
       "type": "news",
-      "name": "Bloomberg",
+      "name": "Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY3VjT2hyb0JPUkJock1Ib1pqRnRjaTZ6OG9LSWp4a254UnNkZjVvUmN2R1REUzhfT0hmWXh4Sl9ONHZyTVZtUHR5RGxHalZTRkJtVE1qbTE0UFBEUllaeTBzSEx0UGlfT2toNHZNWWVxZUtnd184MThRejljakNTLWRvMEY5d3NUbWt0UnlJUHNlbGNRWVhTQ29IQ3pZb29Vd3dieGlHbzZ1SmFwODJyX25FcDNxdjNQZ0E?oc=5",
       "locator": null,
       "published_at": "2025-06-05"
     },
-    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extracted_at": "2026-09-15T10:11:13.514998",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -418,6 +391,108 @@
     "derivation": null
   },
   {
+    "id": "clm_b72bf21995",
+    "company_id": "anysphere-cursor",
+    "metric": "valuation",
+    "value": 60000000000.0,
+    "unit": "USD",
+    "raw_text": "$60B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbGdtaWt3X1hzTmpIZExkWi1KSE9TVE1acjBWRWplNVRWTUZCMTZBYkJ1TzhocXdCYkd1eEtrYThnbEpMM1d2U3JxdWNweHU1OFlGZXd6LU5DaTU3VVFBLTFTWk52UjRGZVUyUmlZeGJQUmxMUGNwNnFnZ29aWXgxT0xLY1M3d0VfYktXT1dITUwxNUpsbUt3?oc=5",
+      "locator": null,
+      "published_at": "2026-06-16"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_7d366ec39d",
+    "company_id": "anysphere-cursor",
+    "metric": "valuation",
+    "value": 400000000.0,
+    "unit": "USD",
+    "raw_text": "at least a $400 million valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNGdlTGNsZF8wY2ZxcnBYOERuV2lHclFlOUtrcFZVYnRHVWNmV0c0TEF3TWdjc2FoQzN6MDJadnIzNHYzdjltZXF0VWhySVNwYjhMNnJhalZ3aFlkT2lFb0hTTi1udGdKQi1CZTYxNFlqS2xubXZPb2M0VS11bzRnejZmLTFfTVQ3VV81R3ZrQ3pTRXVUd1JjTDZtWnM?oc=5",
+      "locator": null,
+      "published_at": "2024-07-15"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_fce62bad83",
+    "company_id": "anysphere-cursor",
+    "metric": "valuation",
+    "value": 9900000000.0,
+    "unit": "USD",
+    "raw_text": "$9.9B valuation",
+    "qualifiers": [
+      "rounded",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdi1vYmdlQkxUVkZoQkcwNkVsemllakpkUzVUZXZJVWxlM1JoQ3QtbHlNRlFoRkFHZVpsdEJvX0FKa1FhSHZHMDVjcUJPOEpfQmF6YlFzYW1TcWtwMnhiUHV4Sk03SXYyQVdtcTJ4dTdOZFdlWkVjbmhWUkNrNG5kck90aE5RdUllRlhzOEtHcU5CQTZmR2RIbG5TY0V5R3J4c25CRl9QN1U0eE0?oc=5",
+      "locator": null,
+      "published_at": "2025-06-06"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4016,
+    "derivation": null
+  },
+  {
+    "id": "clm_b6af8aa900",
+    "company_id": "anysphere-cursor",
+    "metric": "round_amount",
+    "value": 900000000.0,
+    "unit": "USD",
+    "raw_text": "Raises $900 Million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY3VjT2hyb0JPUkJock1Ib1pqRnRjaTZ6OG9LSWp4a254UnNkZjVvUmN2R1REUzhfT0hmWXh4Sl9ONHZyTVZtUHR5RGxHalZTRkJtVE1qbTE0UFBEUllaeTBzSEx0UGlfT2toNHZNWWVxZUtnd184MThRejljakNTLWRvMEY5d3NUbWt0UnlJUHNlbGNRWVhTQ29IQ3pZb29Vd3dieGlHbzZ1SmFwODJyX25FcDNxdjNQZ0E?oc=5",
+      "locator": null,
+      "published_at": "2025-06-05"
+    },
+    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_eb705a1db9",
     "company_id": "anysphere-cursor",
     "metric": "round_amount",
@@ -490,30 +565,6 @@
     "derivation": null
   },
   {
-    "id": "clm_46cf8071f4",
-    "company_id": "anysphere-cursor",
-    "metric": "round_amount",
-    "value": 900000000.0,
-    "unit": null,
-    "raw_text": "Raises $900 Million",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY3VjT2hyb0JPUkJock1Ib1pqRnRjaTZ6OG9LSWp4a254UnNkZjVvUmN2R1REUzhfT0hmWXh4Sl9ONHZyTVZtUHR5RGxHalZTRkJtVE1qbTE0UFBEUllaeTBzSEx0UGlfT2toNHZNWWVxZUtnd184MThRejljakNTLWRvMEY5d3NUbWt0UnlJUHNlbGNRWVhTQ29IQ3pZb29Vd3dieGlHbzZ1SmFwODJyX25FcDNxdjNQZ0E?oc=5",
-      "locator": null,
-      "published_at": "2025-06-05"
-    },
-    "extracted_at": "2026-09-15T10:11:13.514998",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_4c2f621f86",
     "company_id": "anysphere-cursor",
     "metric": "valuation",
@@ -558,30 +609,6 @@
     },
     "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_b72bf21995",
-    "company_id": "anysphere-cursor",
-    "metric": "valuation",
-    "value": 60000000000.0,
-    "unit": "USD",
-    "raw_text": "$60B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbGdtaWt3X1hzTmpIZExkWi1KSE9TVE1acjBWRWplNVRWTUZCMTZBYkJ1TzhocXdCYkd1eEtrYThnbEpMM1d2U3JxdWNweHU1OFlGZXd6LU5DaTU3VVFBLTFTWk52UjRGZVUyUmlZeGJQUmxMUGNwNnFnZ29aWXgxT0xLY1M3d0VfYktXT1dITUwxNUpsbUt3?oc=5",
-      "locator": null,
-      "published_at": "2026-06-16"
-    },
-    "extracted_at": "2026-09-05T09:07:28.177448",
-    "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
   },
@@ -836,33 +863,6 @@
     "derivation": null
   },
   {
-    "id": "clm_108313652a",
-    "company_id": "anysphere-cursor",
-    "metric": "valuation",
-    "value": 400000000.0,
-    "unit": "USD",
-    "raw_text": "$400 million valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "businessinsider.com",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNGdlTGNsZF8wY2ZxcnBYOERuV2lHclFlOUtrcFZVYnRHVWNmV0c0TEF3TWdjc2FoQzN6MDJadnIzNHYzdjltZXF0VWhySVNwYjhMNnJhalZ3aFlkT2lFb0hTTi1udGdKQi1CZTYxNFlqS2xubXZPb2M0VS11bzRnejZmLTFfTVQ3VV81R3ZrQ3pTRXVUd1JjTDZtWnM?oc=5",
-      "locator": null,
-      "published_at": "2024-07-15"
-    },
-    "extracted_at": "2026-09-20T09:44:05.979383",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
     "id": "clm_0d4fcaf1cf",
     "company_id": "anysphere-cursor",
     "metric": "arr",
@@ -957,7 +957,7 @@
       "locator": null,
       "published_at": "2026-06-16"
     },
-    "extracted_at": "2026-09-28T11:35:42.398874",
+    "extracted_at": "2026-09-29T11:15:32.501222",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

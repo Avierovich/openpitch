@@ -194,33 +194,6 @@
     "derivation": null
   },
   {
-    "id": "clm_6a8e9cbe17",
-    "company_id": "fireworks",
-    "metric": "valuation",
-    "value": 15000000000.0,
-    "unit": "USD",
-    "raw_text": "Eyes $15B Valuation In New Funding Round",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "briefs.co",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUlNucDZJd3NDaHBnQ3k2YndkN0VXRGc5cUNDbE5saERjNWtpRHBGVE1wdFVUVjNXOWJXc2I2eWJ2Rno4eFVOU3g5RDd6U3B2U0x6MDRMc2U0ak1yMTBzb190M2ExQ1JXR3ZSeGJIejU3ejNSZFhzTFhTc2tqRjVuR2tncw?oc=5",
-      "locator": null,
-      "published_at": "2026-05-28"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
     "id": "clm_b49cbd1271",
     "company_id": "fireworks",
     "metric": "latest_round",
@@ -362,6 +335,84 @@
     "extracted_at": "2026-08-23T05:59:54.335804",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_665352d227",
+    "company_id": "fireworks",
+    "metric": "open_roles",
+    "value": 84.0,
+    "unit": "count",
+    "raw_text": "Showing 84 positions",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fireworks.ai",
+      "url": "https://fireworks.ai/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-09-29T11:15:32.501222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_edcb7fe0bc",
+    "company_id": "fireworks",
+    "metric": "valuation",
+    "value": 15000000000.0,
+    "unit": "usd",
+    "raw_text": "$15 Billion Valuation In New Funding Talks",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRDR0VnhudXRWV2l5WW9tbmd6QnZXdU41ZlpDSWVZV2hSbDNqMGkweTBPS2k0bmhLVkRiOUdqSDN4a2pxX1NqRXRnZllRQjU0WFV4VzZ6bDBad3Zjc2dBY09LZG1hMjd5NU80eWMxdkxMQmp0QzZSeWZRNDNuRDN0dlViSWdLbnFDU21JbXVqTzJrVnRJWGVCZVJMcWNndw?oc=5",
+      "locator": null,
+      "published_at": "2026-05-27"
+    },
+    "extracted_at": "2026-09-29T11:15:32.501222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_6a8e9cbe17",
+    "company_id": "fireworks",
+    "metric": "valuation",
+    "value": 15000000000.0,
+    "unit": "USD",
+    "raw_text": "Eyes $15B Valuation In New Funding Round",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "briefs.co",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUlNucDZJd3NDaHBnQ3k2YndkN0VXRGc5cUNDbE5saERjNWtpRHBGVE1wdFVUVjNXOWJXc2I2eWJ2Rno4eFVOU3g5RDd6U3B2U0x6MDRMc2U0ak1yMTBzb190M2ExQ1JXR3ZSeGJIejU3ejNSZFhzTFhTc2tqRjVuR2tncw?oc=5",
+      "locator": null,
+      "published_at": "2026-05-28"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -1727,7 +1778,7 @@
       "locator": null,
       "published_at": "2026-07-20"
     },
-    "extracted_at": "2026-09-28T11:35:42.398874",
+    "extracted_at": "2026-09-29T11:15:32.501222",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2029,
     "derivation": {

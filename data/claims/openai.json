@@ -1,31 +1,5 @@
 [
   {
-    "id": "clm_a66aa37416",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 852000000000.0,
-    "unit": null,
-    "raw_text": "OpenAI valued at $852 billion in latest funding round ahead of IPO",
-    "qualifiers": [
-      "latest_round"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRzNXdU5zTi1jdkFOQWZKcmY5Z2FqQXdkWkRNanJvZXVibWRxdE9mMDZncUV0WGlMSm9yclUxakZRTWFsU1ZJV3VqRmtzQ053RmxFZEpHZ2o2RGxpQ1FrRkhGWEhmT0dDT2hEZTJFUjhOYkd0TmlvakN1elNDSTFhczdNcnhSUGpXa1kwOW0yeDJhSnA5eUR0V2taNGtXMDVHVXZNN3RFTTdvenI0YTJLU050LVZOODBIWjNFMnJkMVM0Uy1PS3dTSmpycDVPdw?oc=5",
-      "locator": null,
-      "published_at": "2026-03-31"
-    },
-    "extracted_at": "2026-07-06T14:31:09.058208",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_e015a6fa8f",
     "company_id": "openai",
     "metric": "valuation",
@@ -49,6 +23,131 @@
     "extracted_at": "2026-09-24T09:50:31.335914",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.294,
+    "derivation": null
+  },
+  {
+    "id": "clm_73ef3618df",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1000000000000.0,
+    "unit": "USD",
+    "raw_text": "$1 Trillion IPO Valuation for OpenAI",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaG0zU2RnSjVxLUN1M0U1bkVFeGFmTGRIVnNnUDZCWGNxbk9NalRqY3p3bDczbHJkZURNYnJlWTI0N1gwbDdkbEJBYUJUME1KOG5Hb3FvZk5sb3lNRWFyVjdzTWFrQUlPTVgxN2NzNjIzcWVDbDdISExmM2FvTlMwR2RaOUg4cWxiTmRxWTNUYTJFYjc5WXBzLWFB?oc=5",
+      "locator": null,
+      "published_at": "2026-08-13"
+    },
+    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_a88fea513c",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 852000000000.0,
+    "unit": null,
+    "raw_text": "OpenAI valued at $852 billion in latest funding round ahead of IPO",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRzNXdU5zTi1jdkFOQWZKcmY5Z2FqQXdkWkRNanJvZXVibWRxdE9mMDZncUV0WGlMSm9yclUxakZRTWFsU1ZJV3VqRmtzQ053RmxFZEpHZ2o2RGxpQ1FrRkhGWEhmT0dDT2hEZTJFUjhOYkd0TmlvakN1elNDSTFhczdNcnhSUGpXa1kwOW0yeDJhSnA5eUR0V2taNGtXMDVHVXZNN3RFTTdvenI0YTJLU050LVZOODBIWjNFMnJkMVM0Uy1PS3dTSmpycDVPdw?oc=5",
+      "locator": null,
+      "published_at": "2026-03-31"
+    },
+    "extracted_at": "2026-09-29T11:15:32.501222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_b4db3ee864",
+    "company_id": "openai",
+    "metric": "latest_round",
+    "value": 122000000000.0,
+    "unit": null,
+    "raw_text": "OpenAI raises $122B at $852B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSngtZm5hc3lyNFgwbXphNWZ3YTQ2SF85cVpmVzI3bHpUWG1la0RwWkJyYU1kWUZoV3JSRzNubEtYNkhLZE5qb2drejhKc1BoTjJnMkxWdGRlRl81aFJkSDExb09LVm5WejY5VDkxamR2MW5KQ0lmVjZFVEY3T01KSlhkbkR5Yl8wZVE?oc=5",
+      "locator": null,
+      "published_at": "2026-04-01"
+    },
+    "extracted_at": "2026-09-29T11:15:32.501222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_8d55bf6728",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 852000000000.0,
+    "unit": null,
+    "raw_text": "OpenAI raises $122B at $852B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSngtZm5hc3lyNFgwbXphNWZ3YTQ2SF85cVpmVzI3bHpUWG1la0RwWkJyYU1kWUZoV3JSRzNubEtYNkhLZE5qb2drejhKc1BoTjJnMkxWdGRlRl81aFJkSDExb09LVm5WejY5VDkxamR2MW5KQ0lmVjZFVEY3T01KSlhkbkR5Yl8wZVE?oc=5",
+      "locator": null,
+      "published_at": "2026-04-01"
+    },
+    "extracted_at": "2026-09-29T11:15:32.501222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_a66aa37416",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 852000000000.0,
+    "unit": null,
+    "raw_text": "OpenAI valued at $852 billion in latest funding round ahead of IPO",
+    "qualifiers": [
+      "latest_round"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRzNXdU5zTi1jdkFOQWZKcmY5Z2FqQXdkWkRNanJvZXVibWRxdE9mMDZncUV0WGlMSm9yclUxakZRTWFsU1ZJV3VqRmtzQ053RmxFZEpHZ2o2RGxpQ1FrRkhGWEhmT0dDT2hEZTJFUjhOYkd0TmlvakN1elNDSTFhczdNcnhSUGpXa1kwOW0yeDJhSnA5eUR0V2taNGtXMDVHVXZNN3RFTTdvenI0YTJLU050LVZOODBIWjNFMnJkMVM0Uy1PS3dTSmpycDVPdw?oc=5",
+      "locator": null,
+      "published_at": "2026-03-31"
+    },
+    "extracted_at": "2026-07-06T14:31:09.058208",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -584,33 +683,6 @@
     "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.3375,
-    "derivation": null
-  },
-  {
-    "id": "clm_73ef3618df",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 1000000000000.0,
-    "unit": "USD",
-    "raw_text": "$1 Trillion IPO Valuation for OpenAI",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "finance.yahoo.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaG0zU2RnSjVxLUN1M0U1bkVFeGFmTGRIVnNnUDZCWGNxbk9NalRqY3p3bDczbHJkZURNYnJlWTI0N1gwbDdkbEJBYUJUME1KOG5Hb3FvZk5sb3lNRWFyVjdzTWFrQUlPTVgxN2NzNjIzcWVDbDdISExmM2FvTlMwR2RaOUg4cWxiTmRxWTNUYTJFYjc5WXBzLWFB?oc=5",
-      "locator": null,
-      "published_at": "2026-08-13"
-    },
-    "extracted_at": "2026-09-14T10:31:29.338960",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -1339,7 +1411,7 @@
       "locator": null,
       "published_at": "2026-09-25"
     },
-    "extracted_at": "2026-09-28T11:35:42.398874",
+    "extracted_at": "2026-09-29T11:15:32.501222",
     "extractor_model": "derive-engine",
     "base_confidence": 0.4658,
     "derivation": {

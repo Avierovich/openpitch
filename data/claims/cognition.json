@@ -100,32 +100,6 @@
     "derivation": null
   },
   {
-    "id": "clm_2440dbf87a",
-    "company_id": "cognition",
-    "metric": "arr",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "$1 Billion Revenue Run Rate",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZjF3WkJSWGxQNlZNQzhuc0xVaFVqdHE5QW01cW16Y1dxT0hyX1pvVmZSbFNIYk5NMy00a3dxOVlEdlBJNjBOdk9rRE16ZFBmRWw2c0ZudktFc1QtYWJnclR4SHNJY2JBRTBra2lDQW9oZUIwek5hWWYwYm4tZUhEdXhHajFJamFZa0h3cDdrVXF3M0pQTlJUMUMzakxlblZieklqM202TE9OVVI3RGkwVHBRWXFqbTBWM1VmZ0wyMVo?oc=5",
-      "locator": null,
-      "published_at": "2026-09-25"
-    },
-    "extracted_at": "2026-09-26T09:51:51.353222",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
     "id": "clm_750f831780",
     "company_id": "cognition",
     "metric": "arr",
@@ -171,6 +145,32 @@
     "extracted_at": "2026-09-27T10:32:58.616902",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_2440dbf87a",
+    "company_id": "cognition",
+    "metric": "arr",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "$1 Billion Revenue Run Rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZjF3WkJSWGxQNlZNQzhuc0xVaFVqdHE5QW01cW16Y1dxT0hyX1pvVmZSbFNIYk5NMy00a3dxOVlEdlBJNjBOdk9rRE16ZFBmRWw2c0ZudktFc1QtYWJnclR4SHNJY2JBRTBra2lDQW9oZUIwek5hWWYwYm4tZUhEdXhHajFJamFZa0h3cDdrVXF3M0pQTlJUMUMzakxlblZieklqM202TE9OVVI3RGkwVHBRWXFqbTBWM1VmZ0wyMVo?oc=5",
+      "locator": null,
+      "published_at": "2026-09-25"
+    },
+    "extracted_at": "2026-09-26T09:51:51.353222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -927,7 +927,7 @@
       "locator": null,
       "published_at": "2026-09-25"
     },
-    "extracted_at": "2026-09-28T11:35:42.398874",
+    "extracted_at": "2026-09-29T11:15:32.501222",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {

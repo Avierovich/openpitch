@@ -9,7 +9,7 @@
   "summary": "Devin is an autonomous software engineering agent capable of planning, writing, debugging, and deploying code independently.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 89.0,
+  "vc_attention_score": 88.7,
   "universe_rank": 15,
   "metrics": {
     "valuation": {
@@ -32,9 +32,9 @@
         "clm_a37d635176",
         "clm_565fe5c95c",
         "clm_17732cd404",
+        "clm_3fc3c4a358",
         "clm_2a8a421bde",
         "clm_43b37636cf",
-        "clm_3fc3c4a358",
         "clm_398834cd5d",
         "clm_5f2446e257",
         "clm_573cd4ad09",
@@ -91,8 +91,8 @@
       "estimate_type": "consensus",
       "confidence": 0.968,
       "supporting_claims": [
-        "clm_0e1fd3c94a",
         "clm_703cda8563",
+        "clm_0e1fd3c94a",
         "clm_cda6a88752",
         "clm_cd9b1ed880",
         "clm_6c323274d8",
@@ -119,17 +119,17 @@
       },
       "as_of": "2026-09-09",
       "estimate_type": "consensus",
-      "confidence": 0.91,
+      "confidence": 0.909,
       "supporting_claims": [
-        "clm_2355c2a2ad",
         "clm_79f7f37333",
+        "clm_2355c2a2ad",
         "clm_f442537888",
         "clm_f9c02c9ffc"
       ],
       "contradiction": true,
       "delta": {
         "previous": 5.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-09-09"
       },
       "history_ref": "history/devin/latest_round.jsonl",
@@ -147,17 +147,17 @@
       },
       "as_of": "2026-09-13",
       "estimate_type": "consensus",
-      "confidence": 0.821,
+      "confidence": 0.82,
       "supporting_claims": [
         "clm_e06163dc02",
-        "clm_1e401e5074",
         "clm_306164493b",
+        "clm_1e401e5074",
         "clm_d3080e4197"
       ],
       "contradiction": false,
       "delta": {
         "previous": 1000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-09-13"
       },
       "history_ref": "history/devin/total_funding.jsonl",
@@ -167,19 +167,19 @@
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 312.5,
+      "value": 600.0,
       "unit": "x",
       "range": null,
-      "as_of": "2026-05-27",
+      "as_of": "2026-09-09",
       "estimate_type": "reported",
-      "confidence": 0.092,
+      "confidence": 0.219,
       "supporting_claims": [
-        "drv_14dd99860a"
+        "drv_96ff13f0b8"
       ],
       "contradiction": false,
       "delta": {
         "previous": 312.5,
-        "change_pct": 0.0,
+        "change_pct": 92.0,
         "since": "2026-05-27"
       },
       "history_ref": "history/devin/revenue_multiple.jsonl",
@@ -188,5 +188,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-29"
+  "last_updated": "2026-09-30"
 }

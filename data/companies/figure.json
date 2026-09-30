@@ -9,7 +9,7 @@
   "summary": "Figure is a company that uses AI to develop humanoid robots and robotic systems.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 88.4,
+  "vc_attention_score": 88.1,
   "universe_rank": 17,
   "metrics": {
     "valuation": {
@@ -19,12 +19,12 @@
       "range": null,
       "as_of": "2025-09-17",
       "estimate_type": "consensus",
-      "confidence": 0.745,
+      "confidence": 0.744,
       "supporting_claims": [
         "clm_bd4cd2e26e",
+        "clm_119d3655eb",
         "clm_073462360d",
         "clm_4973563f79",
-        "clm_119d3655eb",
         "clm_09a19dc0e1",
         "clm_a0a545814e",
         "clm_c87d1c4931",
@@ -45,6 +45,30 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 1000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-09-16",
+      "estimate_type": "consensus",
+      "confidence": 0.573,
+      "supporting_claims": [
+        "clm_0bda6ab6e4",
+        "clm_55992f10c2",
+        "clm_7e98f0f671"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
+        "since": "2025-09-16"
+      },
+      "history_ref": "history/figure/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "round_amount": {
       "metric": "round_amount",
       "value": 700000000.0,
@@ -52,7 +76,7 @@
       "range": null,
       "as_of": "2026-05-21",
       "estimate_type": "reported",
-      "confidence": 0.262,
+      "confidence": 0.261,
       "supporting_claims": [
         "clm_44a717b09a"
       ],
@@ -63,30 +87,6 @@
         "since": "2026-05-21"
       },
       "history_ref": "history/figure/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 1000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-09-16",
-      "estimate_type": "consensus",
-      "confidence": 0.574,
-      "supporting_claims": [
-        "clm_0bda6ab6e4",
-        "clm_55992f10c2",
-        "clm_7e98f0f671"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1000000000.0,
-        "change_pct": -0.0,
-        "since": "2025-09-16"
-      },
-      "history_ref": "history/figure/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -158,5 +158,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-29"
+  "last_updated": "2026-09-30"
 }

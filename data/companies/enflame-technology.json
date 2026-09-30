@@ -9,12 +9,37 @@
   "summary": "Enflame Technology designs and develops AI chips and solutions for various applications. They focus on providing high-performance computing for AI workloads.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 94.0,
+  "vc_attention_score": 93.7,
   "universe_rank": 5,
   "metrics": {
+    "valuation": {
+      "metric": "valuation",
+      "value": 185000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 25000000000.0,
+        "high": 185000000000.0
+      },
+      "as_of": "2026-09-11",
+      "estimate_type": "reported",
+      "confidence": 0.498,
+      "supporting_claims": [
+        "clm_41ee993293"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 185000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-09-11"
+      },
+      "history_ref": "history/enflame-technology/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "round_amount": {
       "metric": "round_amount",
-      "value": 902288476.27,
+      "value": 903131343.91,
       "unit": "USD",
       "range": {
         "low": 830000000.0,
@@ -29,19 +54,20 @@
         "clm_666d312e1f",
         "clm_b918879a57",
         "clm_9be37fe282",
-        "clm_fe02fa2e27",
         "clm_efd8d41802",
+        "clm_fe02fa2e27",
         "clm_d22b6a5140",
         "clm_0be70baa67",
+        "clm_42e0168cb8",
+        "clm_d70217aa2c",
         "clm_789f7693cc",
         "clm_13d2c09a6a",
-        "clm_42e0168cb8",
         "clm_fb84e33aa9"
       ],
       "contradiction": false,
       "delta": {
         "previous": 902288476.27,
-        "change_pct": 0.0,
+        "change_pct": 0.1,
         "since": "2026-09-11"
       },
       "history_ref": "history/enflame-technology/round_amount.jsonl",
@@ -59,7 +85,7 @@
       },
       "as_of": "2026-09-14",
       "estimate_type": "consensus",
-      "confidence": 0.764,
+      "confidence": 0.763,
       "supporting_claims": [
         "clm_a78d636add",
         "clm_3c30954aef"
@@ -75,40 +101,19 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "valuation": {
-      "metric": "valuation",
-      "value": 185000000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 25000000000.0,
-        "high": 185000000000.0
-      },
-      "as_of": "2026-09-11",
-      "estimate_type": "reported",
-      "confidence": 0.5,
-      "supporting_claims": [
-        "clm_41ee993293"
-      ],
-      "contradiction": true,
-      "delta": {
-        "previous": 185000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-09-11"
-      },
-      "history_ref": "history/enflame-technology/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "notable_customers": {
       "metric": "notable_customers",
       "value": 84.0,
       "unit": "list",
-      "range": null,
+      "range": {
+        "low": 84.0,
+        "high": 84.0
+      },
       "as_of": "2026-09-15",
-      "estimate_type": "reported",
-      "confidence": 0.505,
+      "estimate_type": "consensus",
+      "confidence": 0.754,
       "supporting_claims": [
+        "clm_a3e9674eb2",
         "clm_782bd461be"
       ],
       "contradiction": false,
@@ -123,5 +128,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-29"
+  "last_updated": "2026-09-30"
 }

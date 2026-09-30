@@ -9,7 +9,7 @@
   "summary": "VAST Data offers a high-performance, unified data platform designed to handle the complex data needs of AI and machine learning workloads.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 87.4,
+  "vc_attention_score": 87.2,
   "universe_rank": 25,
   "metrics": {
     "arr": {
@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2026-03-10",
       "estimate_type": "consensus",
-      "confidence": 0.159,
+      "confidence": 0.158,
       "supporting_claims": [
         "clm_9df482708e",
         "clm_4502ed577a"
@@ -48,25 +48,25 @@
       "confidence": 0.97,
       "supporting_claims": [
         "clm_235005ec2b",
+        "clm_9282c32b92",
+        "clm_0490646f73",
+        "clm_2a2a87262b",
         "clm_4221f94056",
+        "clm_70e22d818a",
+        "clm_27ece0bd5c",
         "clm_8da55507ee",
         "clm_c148c06ded",
         "clm_5879dd4568",
-        "clm_2a2a87262b",
-        "clm_70e22d818a",
         "clm_26ee7ff44a",
         "clm_f825c070db",
         "clm_0a2a593aa0",
         "clm_0b0d076194",
-        "clm_0490646f73",
         "clm_d467de63e5",
         "clm_7de5a9213f",
         "clm_923d229aaa",
         "clm_a174238830",
         "clm_3019314588",
         "clm_521d68b43f",
-        "clm_27ece0bd5c",
-        "clm_9282c32b92",
         "clm_bfffdda9e6",
         "clm_bb9e2b2c7c",
         "clm_9d1a8cbed8",
@@ -97,7 +97,7 @@
       "value": 100.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-09-29",
+      "as_of": "2026-09-30",
       "estimate_type": "reported",
       "confidence": 0.25,
       "supporting_claims": [
@@ -114,41 +114,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 1000000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 1000000000.0,
-        "high": 1000000000.0
-      },
-      "as_of": "2026-04-23",
-      "estimate_type": "consensus",
-      "confidence": 0.97,
-      "supporting_claims": [
-        "clm_594993835a",
-        "clm_e40e19afc6",
-        "clm_d3b3df8d7e",
-        "clm_77e769c483",
-        "clm_251979d29d",
-        "clm_090a97029c",
-        "clm_3569899476",
-        "clm_dff8cd92ec",
-        "clm_d32880da7b",
-        "clm_13dd2d942a",
-        "clm_157c3d73d9"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-04-23"
-      },
-      "history_ref": "history/vast-data/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "total_funding": {
       "metric": "total_funding",
       "value": 1000000000.0,
@@ -161,10 +126,10 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
+        "clm_75112e3c33",
         "clm_ee0d248db2",
         "clm_cd433268d7",
         "clm_e252ea651f",
-        "clm_75112e3c33",
         "clm_e0be613b2f",
         "clm_ead8b7c7a1",
         "clm_e03f319369",
@@ -192,7 +157,7 @@
       },
       "as_of": "2026-04-23",
       "estimate_type": "consensus",
-      "confidence": 0.867,
+      "confidence": 0.866,
       "supporting_claims": [
         "clm_265fd93fe2",
         "clm_675243dd70",
@@ -203,10 +168,45 @@
       "contradiction": false,
       "delta": {
         "previous": 6.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-04-23"
       },
       "history_ref": "history/vast-data/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 1000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 1000000000.0,
+        "high": 1000000000.0
+      },
+      "as_of": "2026-04-23",
+      "estimate_type": "consensus",
+      "confidence": 0.97,
+      "supporting_claims": [
+        "clm_594993835a",
+        "clm_d3b3df8d7e",
+        "clm_e40e19afc6",
+        "clm_77e769c483",
+        "clm_251979d29d",
+        "clm_090a97029c",
+        "clm_3569899476",
+        "clm_dff8cd92ec",
+        "clm_d32880da7b",
+        "clm_13dd2d942a",
+        "clm_157c3d73d9"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": -0.0,
+        "since": "2026-04-23"
+      },
+      "history_ref": "history/vast-data/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -234,5 +234,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-29"
+  "last_updated": "2026-09-30"
 }

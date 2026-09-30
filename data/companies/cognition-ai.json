@@ -9,43 +9,9 @@
   "summary": "Cognition AI is developing an AI assistant for software development that can understand and reason about code. It aims to enhance developer productivity and the quality of software.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 89.0,
+  "vc_attention_score": 88.8,
   "universe_rank": 14,
   "metrics": {
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 2000000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 1000000000.0,
-        "high": 2000000000.0
-      },
-      "as_of": "2026-09-09",
-      "estimate_type": "consensus",
-      "confidence": 0.97,
-      "supporting_claims": [
-        "clm_a12f41c471",
-        "clm_5954897923",
-        "clm_af665068af",
-        "clm_4c71e98d5f",
-        "clm_d7d613182d",
-        "clm_a25676fde9",
-        "clm_b6ce537a57",
-        "clm_3ba536ca13",
-        "clm_77af85c908",
-        "clm_75a2dbaf39"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 2000000000.0,
-        "change_pct": -0.0,
-        "since": "2026-09-09"
-      },
-      "history_ref": "history/cognition-ai/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "valuation": {
       "metric": "valuation",
       "value": 46603554143.36,
@@ -58,9 +24,9 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
-        "clm_edfebc669a",
-        "clm_8f893ec914",
         "clm_d62389b5c4",
+        "clm_8f893ec914",
+        "clm_edfebc669a",
         "clm_8af85998b9",
         "clm_8f6f6e1af8",
         "clm_3a0f368159",
@@ -70,15 +36,15 @@
         "clm_8bea189525",
         "clm_21c0ece5a9",
         "clm_8682eb5130",
-        "clm_fbbf33ee4d",
-        "clm_8955386e9c",
-        "clm_6f6eeeadbc",
-        "clm_0b18bbb051",
-        "clm_28deb14c81",
-        "clm_6f6eeeadbc",
         "clm_57997506b6",
+        "clm_8955386e9c",
         "clm_57997506b6",
         "clm_1db0c53cac",
+        "clm_28deb14c81",
+        "clm_fbbf33ee4d",
+        "clm_6f6eeeadbc",
+        "clm_0b18bbb051",
+        "clm_6f6eeeadbc",
         "clm_e40bd1d686",
         "clm_66069f7e2c",
         "clm_9920e601cd",
@@ -91,8 +57,8 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 46554311044.3,
-        "change_pct": 0.1,
+        "previous": 46603554143.36,
+        "change_pct": -0.0,
         "since": "2026-09-10"
       },
       "history_ref": "history/cognition-ai/valuation.jsonl",
@@ -100,28 +66,36 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "latest_round": {
-      "metric": "latest_round",
-      "value": 5.0,
-      "unit": "object",
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 2000000000.0,
+      "unit": "USD",
       "range": {
-        "low": 5.0,
-        "high": 1000000000.0
+        "low": 1000000000.0,
+        "high": 2000000000.0
       },
       "as_of": "2026-09-09",
       "estimate_type": "consensus",
-      "confidence": 0.676,
+      "confidence": 0.97,
       "supporting_claims": [
-        "clm_98ba50d7d7",
-        "clm_b05b40d3b0"
+        "clm_5954897923",
+        "clm_d7d613182d",
+        "clm_4c71e98d5f",
+        "clm_a12f41c471",
+        "clm_af665068af",
+        "clm_a25676fde9",
+        "clm_b6ce537a57",
+        "clm_3ba536ca13",
+        "clm_77af85c908",
+        "clm_75a2dbaf39"
       ],
-      "contradiction": true,
+      "contradiction": false,
       "delta": {
-        "previous": 5.0,
+        "previous": 2000000000.0,
         "change_pct": 0.0,
         "since": "2026-09-09"
       },
-      "history_ref": "history/cognition-ai/latest_round.jsonl",
+      "history_ref": "history/cognition-ai/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -138,8 +112,8 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
-        "clm_cde43bfa7b",
         "clm_ae8ea77da4",
+        "clm_cde43bfa7b",
         "clm_39683f9caa",
         "clm_6e3036c492",
         "clm_fc7916fbf4",
@@ -155,7 +129,33 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 5.0,
+      "unit": "object",
+      "range": {
+        "low": 5.0,
+        "high": 1000000000.0
+      },
+      "as_of": "2026-09-09",
+      "estimate_type": "consensus",
+      "confidence": 0.674,
+      "supporting_claims": [
+        "clm_b05b40d3b0",
+        "clm_98ba50d7d7"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 5.0,
+        "change_pct": -0.0,
+        "since": "2026-09-09"
+      },
+      "history_ref": "history/cognition-ai/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-29"
+  "last_updated": "2026-09-30"
 }

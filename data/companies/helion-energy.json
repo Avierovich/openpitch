@@ -9,26 +9,76 @@
   "summary": "Helion Energy develops magneto-inertial fusion technology to generate clean, limitless electricity.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 85.0,
+  "vc_attention_score": 84.8,
   "universe_rank": 40,
   "metrics": {
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 466400228.76,
+      "unit": "USD",
+      "range": {
+        "low": 465000000.0,
+        "high": 500000000.0
+      },
+      "as_of": "2026-09-15",
+      "estimate_type": "consensus",
+      "confidence": 0.97,
+      "supporting_claims": [
+        "clm_795ae10f4b",
+        "clm_bc73d753ed",
+        "clm_e58870c790",
+        "clm_9a24a0d9b3",
+        "clm_1407cd0069",
+        "clm_bd7dddbc1d",
+        "clm_4806770680",
+        "clm_d99325df6f",
+        "clm_9069891d0b",
+        "clm_e4101bcffd",
+        "clm_2dfbfd2d94",
+        "clm_82ae229d2f",
+        "clm_a3a8512859",
+        "clm_a67458754d",
+        "clm_13dc1498b7",
+        "clm_dd83af0591",
+        "clm_f2569f910b",
+        "clm_41eb02c434",
+        "clm_056a69fdde",
+        "clm_30aa307cab",
+        "clm_8a0ad3b060"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 467733668.28,
+        "change_pct": -0.3,
+        "since": "2026-09-15"
+      },
+      "history_ref": "history/helion-energy/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "valuation": {
       "metric": "valuation",
       "value": 15500000000.0,
       "unit": "USD",
-      "range": null,
+      "range": {
+        "low": 15500000000.0,
+        "high": 15500000000.0
+      },
       "as_of": "2026-06-05",
       "estimate_type": "consensus",
-      "confidence": 0.921,
+      "confidence": 0.97,
       "supporting_claims": [
+        "clm_20468ed29d",
+        "clm_f87eacf058",
+        "clm_92f08c5b0b",
+        "clm_6f1e45e4d7",
+        "clm_4a20cb3469",
         "clm_fa1ca25dfb",
         "clm_1a9e9ccc7a",
         "clm_0d1de079e4",
-        "clm_f87eacf058",
-        "clm_92f08c5b0b",
         "clm_919e7138f1",
-        "clm_838761975d",
-        "clm_20468ed29d"
+        "clm_838761975d"
       ],
       "contradiction": false,
       "delta": {
@@ -41,47 +91,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 467733668.28,
-      "unit": "USD",
-      "range": {
-        "low": 465000000.0,
-        "high": 500000000.0
-      },
-      "as_of": "2026-09-15",
-      "estimate_type": "consensus",
-      "confidence": 0.97,
-      "supporting_claims": [
-        "clm_bc73d753ed",
-        "clm_e58870c790",
-        "clm_9a24a0d9b3",
-        "clm_1407cd0069",
-        "clm_13dc1498b7",
-        "clm_dd83af0591",
-        "clm_4806770680",
-        "clm_d99325df6f",
-        "clm_e4101bcffd",
-        "clm_2dfbfd2d94",
-        "clm_f2569f910b",
-        "clm_41eb02c434",
-        "clm_9069891d0b",
-        "clm_056a69fdde",
-        "clm_bd7dddbc1d",
-        "clm_30aa307cab",
-        "clm_8a0ad3b060"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 469582486.74,
-        "change_pct": -0.4,
-        "since": "2026-09-15"
-      },
-      "history_ref": "history/helion-energy/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "latest_round": {
       "metric": "latest_round",
       "value": 7.0,
@@ -89,7 +98,7 @@
       "range": null,
       "as_of": "2026-06-05",
       "estimate_type": "reported",
-      "confidence": 0.273,
+      "confidence": 0.272,
       "supporting_claims": [
         "clm_479810f5f6"
       ],
@@ -105,5 +114,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-29"
+  "last_updated": "2026-09-30"
 }

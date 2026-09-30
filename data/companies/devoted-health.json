@@ -9,58 +9,9 @@
   "summary": "Devoted Health provides healthcare services and support for individuals, using AI and machine learning to personalize and optimize treatment plans.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 86.8,
+  "vc_attention_score": 86.5,
   "universe_rank": 27,
   "metrics": {
-    "valuation": {
-      "metric": "valuation",
-      "value": 25000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-08-21",
-      "estimate_type": "consensus",
-      "confidence": 0.789,
-      "supporting_claims": [
-        "clm_4f2981087c",
-        "clm_cb34b0e0cf",
-        "clm_b5ba4e6090",
-        "clm_a95168638d",
-        "clm_4538ff9222",
-        "clm_5deba44405"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 25000000000.0,
-        "change_pct": -0.0,
-        "since": "2026-08-21"
-      },
-      "history_ref": "history/devoted-health/valuation.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": 12000000000.0,
-      "confirmed_as_of": "2021-10-08"
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 112000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2024-08-02",
-      "estimate_type": "reported",
-      "confidence": 0.061,
-      "supporting_claims": [
-        "clm_1dea2f50d0"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 112000000.0,
-        "change_pct": 0.0,
-        "since": "2024-08-02"
-      },
-      "history_ref": "history/devoted-health/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "total_funding": {
       "metric": "total_funding",
       "value": 175000000.0,
@@ -79,6 +30,55 @@
         "since": "2024-01-02"
       },
       "history_ref": "history/devoted-health/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "valuation": {
+      "metric": "valuation",
+      "value": 25000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-08-21",
+      "estimate_type": "consensus",
+      "confidence": 0.788,
+      "supporting_claims": [
+        "clm_cb34b0e0cf",
+        "clm_4f2981087c",
+        "clm_b5ba4e6090",
+        "clm_a95168638d",
+        "clm_4538ff9222",
+        "clm_5deba44405"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 25000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-08-21"
+      },
+      "history_ref": "history/devoted-health/valuation.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": 12000000000.0,
+      "confirmed_as_of": "2021-10-08"
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 112000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2024-08-02",
+      "estimate_type": "reported",
+      "confidence": 0.06,
+      "supporting_claims": [
+        "clm_1dea2f50d0"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 112000000.0,
+        "change_pct": 0.0,
+        "since": "2024-08-02"
+      },
+      "history_ref": "history/devoted-health/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -106,5 +106,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-29"
+  "last_updated": "2026-09-30"
 }

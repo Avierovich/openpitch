@@ -9,18 +9,18 @@
   "summary": "OpenAI develops advanced AI models like GPT-4, offering them through APIs and products for developers and businesses to build AI-powered applications.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 99.9,
-  "universe_rank": 2,
+  "vc_attention_score": 100.0,
+  "universe_rank": 1,
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 930592043464.27,
+      "value": 1048575187189.64,
       "unit": "USD",
       "range": {
         "low": 852000000000.0,
-        "high": 1200000000000.0
+        "high": 1400000000000.0
       },
-      "as_of": "2026-09-21",
+      "as_of": "2026-09-30",
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
@@ -45,18 +45,87 @@
         "clm_82988bcc00",
         "clm_63e043d81d",
         "clm_e17b2e3449",
-        "clm_60e5a01eff"
+        "clm_60e5a01eff",
+        "clm_5cfe686010",
+        "clm_9b566c614f",
+        "clm_94d286160c",
+        "clm_da0ea6512b",
+        "clm_238fc238bb",
+        "clm_cecafa77ec",
+        "clm_68c6a136e5",
+        "clm_c0a220e5cb"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 936607476461.62,
-        "change_pct": -0.6,
+        "previous": 930592043464.27,
+        "change_pct": 12.7,
         "since": "2026-09-21"
       },
       "history_ref": "history/openai/valuation.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": 852000000000.0,
+      "confirmed_as_of": "2026-08-20"
+    },
+    "arr": {
+      "metric": "arr",
+      "value": 1000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 1000000000.0,
+        "high": 40000000000.0
+      },
+      "as_of": "2026-09-25",
+      "estimate_type": "consensus",
+      "confidence": 0.918,
+      "supporting_claims": [
+        "clm_0a26ed6043",
+        "clm_15499d828b",
+        "clm_e28c12bdb7",
+        "clm_63a2c3d039",
+        "clm_116b326b03",
+        "clm_5ee1e45ed3"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": -0.0,
+        "since": "2026-09-25"
+      },
+      "history_ref": "history/openai/arr.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 30000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 7000000000.0,
+        "high": 122000000000.0
+      },
+      "as_of": "2026-09-30",
+      "estimate_type": "consensus",
+      "confidence": 0.9,
+      "supporting_claims": [
+        "clm_59bf73f0af",
+        "clm_c64546b7fd",
+        "clm_17c760ff7a",
+        "clm_5e62c50fbe",
+        "clm_0548e403fe",
+        "clm_bd7c96a892",
+        "clm_2daf1bc45e"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 122000000000.0,
+        "change_pct": -75.4,
+        "since": "2026-05-11"
+      },
+      "history_ref": "history/openai/round_amount.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": 7000000000.0,
+      "confirmed_as_of": "2026-08-31"
     },
     "latest_round": {
       "metric": "latest_round",
@@ -70,7 +139,11 @@
         "clm_b4db3ee864"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 122000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-04-01"
+      },
       "history_ref": "history/openai/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -104,63 +177,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "arr": {
-      "metric": "arr",
-      "value": 1000000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 1000000000.0,
-        "high": 40000000000.0
-      },
-      "as_of": "2026-09-25",
-      "estimate_type": "consensus",
-      "confidence": 0.92,
-      "supporting_claims": [
-        "clm_0a26ed6043",
-        "clm_15499d828b",
-        "clm_e28c12bdb7",
-        "clm_63a2c3d039",
-        "clm_116b326b03",
-        "clm_5ee1e45ed3"
-      ],
-      "contradiction": true,
-      "delta": {
-        "previous": 1000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-09-25"
-      },
-      "history_ref": "history/openai/arr.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 122000000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 7000000000.0,
-        "high": 122000000000.0
-      },
-      "as_of": "2026-05-11",
-      "estimate_type": "consensus",
-      "confidence": 0.762,
-      "supporting_claims": [
-        "clm_a2a0b3b943",
-        "clm_575fed5cdd",
-        "clm_aebdf2685e"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 122000000000.0,
-        "change_pct": -0.0,
-        "since": "2026-05-11"
-      },
-      "history_ref": "history/openai/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "revenue_multiple": {
       "metric": "revenue_multiple",
       "value": 852.0,
@@ -168,7 +184,7 @@
       "range": null,
       "as_of": "2026-09-25",
       "estimate_type": "reported",
-      "confidence": 0.451,
+      "confidence": 0.447,
       "supporting_claims": [
         "drv_e7bc64bc58"
       ],
@@ -184,5 +200,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-29"
+  "last_updated": "2026-09-30"
 }

@@ -9,7 +9,7 @@
   "summary": "Harvey is a company that uses AI to help with legal research and document review.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 85.0,
+  "vc_attention_score": 84.8,
   "universe_rank": 38,
   "metrics": {
     "arr": {
@@ -49,13 +49,15 @@
         "clm_7adf8bf127",
         "clm_d01754aed2",
         "clm_7adf8bf127",
-        "clm_f302c73dcc",
+        "clm_8a4f47ada3",
         "clm_7adf8bf127",
         "clm_26ec1ada19",
-        "clm_fa8e506ccd",
-        "clm_b4f0d9ac91",
         "clm_15fc619818",
+        "clm_fa8e506ccd",
         "clm_9880f118d8",
+        "clm_57d830061a",
+        "clm_f302c73dcc",
+        "clm_b4f0d9ac91",
         "clm_96e312dd84",
         "clm_3dc4dfab52",
         "clm_501b6722dd",
@@ -66,9 +68,7 @@
         "clm_8535581d81",
         "clm_0699fd6de0",
         "clm_0068fcc655",
-        "clm_8a4f47ada3",
         "clm_9148b37bd3",
-        "clm_57d830061a",
         "clm_8b740af030",
         "clm_b8c8e341bf",
         "clm_97b81f417c",
@@ -112,7 +112,7 @@
       "contradiction": false,
       "delta": {
         "previous": 550000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-09-09"
       },
       "history_ref": "history/harvey/total_funding.jsonl",
@@ -133,13 +133,13 @@
       "confidence": 0.97,
       "supporting_claims": [
         "clm_33d529f676",
-        "clm_ba79201266",
         "clm_ac1b8e371d",
+        "clm_71eca75fb5",
+        "clm_ba79201266",
         "clm_e754286bd7",
         "clm_f8258607ff",
         "clm_d66363bec3",
         "clm_6142542301",
-        "clm_71eca75fb5",
         "clm_4fb31c70b1"
       ],
       "contradiction": false,
@@ -163,7 +163,7 @@
       },
       "as_of": "2026-09-11",
       "estimate_type": "consensus",
-      "confidence": 0.838,
+      "confidence": 0.837,
       "supporting_claims": [
         "clm_d4aa6d8271",
         "clm_8ae7f919bd",
@@ -172,7 +172,7 @@
       "contradiction": false,
       "delta": {
         "previous": 550000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-09-11"
       },
       "history_ref": "history/harvey/latest_round.jsonl",
@@ -182,19 +182,19 @@
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 155.0,
+      "value": 50.0,
       "unit": "x",
       "range": null,
-      "as_of": "2026-08-07",
+      "as_of": "2025-08-05",
       "estimate_type": "reported",
-      "confidence": 0.163,
+      "confidence": 0.008,
       "supporting_claims": [
-        "drv_6478ca5265"
+        "drv_5617e61c01"
       ],
       "contradiction": false,
       "delta": {
         "previous": 155.0,
-        "change_pct": 0.0,
+        "change_pct": -67.7,
         "since": "2026-08-07"
       },
       "history_ref": "history/harvey/revenue_multiple.jsonl",
@@ -203,5 +203,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-29"
+  "last_updated": "2026-09-30"
 }

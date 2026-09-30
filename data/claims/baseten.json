@@ -26,12 +26,12 @@
     "derivation": null
   },
   {
-    "id": "clm_31c738073e",
+    "id": "clm_a2dcd3dad2",
     "company_id": "baseten",
     "metric": "round_amount",
     "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "in talks to raise $1B",
+    "unit": null,
+    "raw_text": "raise $1B",
     "qualifiers": [
       "unconfirmed"
     ],
@@ -41,22 +41,22 @@
     },
     "source": {
       "type": "news",
-      "name": "Dealroom.co",
+      "name": "Dealroom",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVENpLWNtOHYySmNFdTNDeklDUlUwR2hiRUo3SDh4cDdUVkY1S0dieXh4U3FOdDQzbFFGMldTN1F6S3N2THp5d0ZIMzJWUlF4eERwczhBRU5xOEJ5MVp5TlctcEMzMEE0Tlo4UXNRYmE3ZVU4bDZpNFk5ODlRellzekw5ZGRMdmNwM19RMzN6dzhjQ2t3SEdPVEhCXzBkZ2xFalVma05iUHVmS3ViZ24zcQ?oc=5",
       "locator": null,
       "published_at": "2026-06-19"
     },
-    "extracted_at": "2026-09-27T10:32:58.616902",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
     "derivation": null
   },
   {
-    "id": "clm_fded615cc3",
+    "id": "clm_80aec71da2",
     "company_id": "baseten",
     "metric": "valuation",
     "value": 11000000000.0,
-    "unit": "USD",
+    "unit": null,
     "raw_text": "$11B valuation",
     "qualifiers": [
       "unconfirmed"
@@ -67,12 +67,12 @@
     },
     "source": {
       "type": "news",
-      "name": "Dealroom.co",
+      "name": "Dealroom",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVENpLWNtOHYySmNFdTNDeklDUlUwR2hiRUo3SDh4cDdUVkY1S0dieXh4U3FOdDQzbFFGMldTN1F6S3N2THp5d0ZIMzJWUlF4eERwczhBRU5xOEJ5MVp5TlctcEMzMEE0Tlo4UXNRYmE3ZVU4bDZpNFk5ODlRellzekw5ZGRMdmNwM19RMzN6dzhjQ2t3SEdPVEhCXzBkZ2xFalVma05iUHVmS3ViZ24zcQ?oc=5",
       "locator": null,
       "published_at": "2026-06-19"
     },
-    "extracted_at": "2026-09-27T10:32:58.616902",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
     "derivation": null
@@ -176,6 +176,156 @@
     "derivation": null
   },
   {
+    "id": "clm_0df3bf0061",
+    "company_id": "baseten",
+    "metric": "round_amount",
+    "value": 1500000000.0,
+    "unit": null,
+    "raw_text": "raises $1.5B Series F",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMlZRbC1TSkNLZmsxT0tJY0NZbWFKUGxKM3k2cUE0ZnE3UWZ3RGV2ZS1MQjJiNDVmT2ZiaTRLVEwzdVNJUUpNQlJZdHFCY3NUR3hVbG9rZ0xpVjdTZHhrbUl0Z0xTampRUnJQdVJud3JfUWlfV1hjdGwtZ0lpMjQ5anNnejBMT21aVUxkZDU2V091TVpaQmNGNkJONTE4cWEwSjdyUlBhREFVcld0Ymc?oc=5",
+      "locator": null,
+      "published_at": "2026-06-23"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_b3b2cac8f3",
+    "company_id": "baseten",
+    "metric": "latest_round",
+    "value": 6.0,
+    "unit": null,
+    "raw_text": "Series F",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMlZRbC1TSkNLZmsxT0tJY0NZbWFKUGxKM3k2cUE0ZnE3UWZ3RGV2ZS1MQjJiNDVmT2ZiaTRLVEwzdVNJUUpNQlJZdHFCY3NUR3hVbG9rZ0xpVjdTZHhrbUl0Z0xTampRUnJQdVJud3JfUWlfV1hjdGwtZ0lpMjQ5anNnejBMT21aVUxkZDU2V091TVpaQmNGNkJONTE4cWEwSjdyUlBhREFVcld0Ymc?oc=5",
+      "locator": null,
+      "published_at": "2026-06-23"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_0479300cde",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 13000000000.0,
+    "unit": null,
+    "raw_text": "$13B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMlZRbC1TSkNLZmsxT0tJY0NZbWFKUGxKM3k2cUE0ZnE3UWZ3RGV2ZS1MQjJiNDVmT2ZiaTRLVEwzdVNJUUpNQlJZdHFCY3NUR3hVbG9rZ0xpVjdTZHhrbUl0Z0xTampRUnJQdVJud3JfUWlfV1hjdGwtZ0lpMjQ5anNnejBMT21aVUxkZDU2V091TVpaQmNGNkJONTE4cWEwSjdyUlBhREFVcld0Ymc?oc=5",
+      "locator": null,
+      "published_at": "2026-06-23"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_adcef28feb",
+    "company_id": "baseten",
+    "metric": "revenue_growth",
+    "value": 30.0,
+    "unit": null,
+    "raw_text": "Baseten’s 30x growth",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "No Priors",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-05-01"
+    },
+    "extracted_at": "2026-09-30T11:06:00.704755",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.294,
+    "derivation": null
+  },
+  {
+    "id": "clm_31c738073e",
+    "company_id": "baseten",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "in talks to raise $1B",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom.co",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVENpLWNtOHYySmNFdTNDeklDUlUwR2hiRUo3SDh4cDdUVkY1S0dieXh4U3FOdDQzbFFGMldTN1F6S3N2THp5d0ZIMzJWUlF4eERwczhBRU5xOEJ5MVp5TlctcEMzMEE0Tlo4UXNRYmE3ZVU4bDZpNFk5ODlRellzekw5ZGRMdmNwM19RMzN6dzhjQ2t3SEdPVEhCXzBkZ2xFalVma05iUHVmS3ViZ24zcQ?oc=5",
+      "locator": null,
+      "published_at": "2026-06-19"
+    },
+    "extracted_at": "2026-09-27T10:32:58.616902",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_fded615cc3",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 11000000000.0,
+    "unit": "USD",
+    "raw_text": "$11B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom.co",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVENpLWNtOHYySmNFdTNDeklDUlUwR2hiRUo3SDh4cDdUVkY1S0dieXh4U3FOdDQzbFFGMldTN1F6S3N2THp5d0ZIMzJWUlF4eERwczhBRU5xOEJ5MVp5TlctcEMzMEE0Tlo4UXNRYmE3ZVU4bDZpNFk5ODlRellzekw5ZGRMdmNwM19RMzN6dzhjQ2t3SEdPVEhCXzBkZ2xFalVma05iUHVmS3ViZ24zcQ?oc=5",
+      "locator": null,
+      "published_at": "2026-06-19"
+    },
+    "extracted_at": "2026-09-27T10:32:58.616902",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_161ee12045",
     "company_id": "baseten",
     "metric": "round_amount",
@@ -245,32 +395,6 @@
     "extracted_at": "2026-09-27T10:32:58.616902",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_adcef28feb",
-    "company_id": "baseten",
-    "metric": "revenue_growth",
-    "value": 30.0,
-    "unit": null,
-    "raw_text": "Baseten’s 30x growth",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "No Priors",
-      "url": null,
-      "locator": null,
-      "published_at": "2026-05-01"
-    },
-    "extracted_at": "2026-09-29T11:15:32.501222",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.378,
     "derivation": null
   },
   {
@@ -566,130 +690,6 @@
     "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_a2dcd3dad2",
-    "company_id": "baseten",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "raise $1B",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVENpLWNtOHYySmNFdTNDeklDUlUwR2hiRUo3SDh4cDdUVkY1S0dieXh4U3FOdDQzbFFGMldTN1F6S3N2THp5d0ZIMzJWUlF4eERwczhBRU5xOEJ5MVp5TlctcEMzMEE0Tlo4UXNRYmE3ZVU4bDZpNFk5ODlRellzekw5ZGRMdmNwM19RMzN6dzhjQ2t3SEdPVEhCXzBkZ2xFalVma05iUHVmS3ViZ24zcQ?oc=5",
-      "locator": null,
-      "published_at": "2026-06-19"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_80aec71da2",
-    "company_id": "baseten",
-    "metric": "valuation",
-    "value": 11000000000.0,
-    "unit": null,
-    "raw_text": "$11B valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVENpLWNtOHYySmNFdTNDeklDUlUwR2hiRUo3SDh4cDdUVkY1S0dieXh4U3FOdDQzbFFGMldTN1F6S3N2THp5d0ZIMzJWUlF4eERwczhBRU5xOEJ5MVp5TlctcEMzMEE0Tlo4UXNRYmE3ZVU4bDZpNFk5ODlRellzekw5ZGRMdmNwM19RMzN6dzhjQ2t3SEdPVEhCXzBkZ2xFalVma05iUHVmS3ViZ24zcQ?oc=5",
-      "locator": null,
-      "published_at": "2026-06-19"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_0df3bf0061",
-    "company_id": "baseten",
-    "metric": "round_amount",
-    "value": 1500000000.0,
-    "unit": null,
-    "raw_text": "raises $1.5B Series F",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMlZRbC1TSkNLZmsxT0tJY0NZbWFKUGxKM3k2cUE0ZnE3UWZ3RGV2ZS1MQjJiNDVmT2ZiaTRLVEwzdVNJUUpNQlJZdHFCY3NUR3hVbG9rZ0xpVjdTZHhrbUl0Z0xTampRUnJQdVJud3JfUWlfV1hjdGwtZ0lpMjQ5anNnejBMT21aVUxkZDU2V091TVpaQmNGNkJONTE4cWEwSjdyUlBhREFVcld0Ymc?oc=5",
-      "locator": null,
-      "published_at": "2026-06-23"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_b3b2cac8f3",
-    "company_id": "baseten",
-    "metric": "latest_round",
-    "value": 6.0,
-    "unit": null,
-    "raw_text": "Series F",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMlZRbC1TSkNLZmsxT0tJY0NZbWFKUGxKM3k2cUE0ZnE3UWZ3RGV2ZS1MQjJiNDVmT2ZiaTRLVEwzdVNJUUpNQlJZdHFCY3NUR3hVbG9rZ0xpVjdTZHhrbUl0Z0xTampRUnJQdVJud3JfUWlfV1hjdGwtZ0lpMjQ5anNnejBMT21aVUxkZDU2V091TVpaQmNGNkJONTE4cWEwSjdyUlBhREFVcld0Ymc?oc=5",
-      "locator": null,
-      "published_at": "2026-06-23"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_0479300cde",
-    "company_id": "baseten",
-    "metric": "valuation",
-    "value": 13000000000.0,
-    "unit": null,
-    "raw_text": "$13B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMlZRbC1TSkNLZmsxT0tJY0NZbWFKUGxKM3k2cUE0ZnE3UWZ3RGV2ZS1MQjJiNDVmT2ZiaTRLVEwzdVNJUUpNQlJZdHFCY3NUR3hVbG9rZ0xpVjdTZHhrbUl0Z0xTampRUnJQdVJud3JfUWlfV1hjdGwtZ0lpMjQ5anNnejBMT21aVUxkZDU2V091TVpaQmNGNkJONTE4cWEwSjdyUlBhREFVcld0Ymc?oc=5",
-      "locator": null,
-      "published_at": "2026-06-23"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -2194,7 +2194,7 @@
     "derivation": null
   },
   {
-    "id": "drv_e0f0b43bda",
+    "id": "drv_12e9373827",
     "company_id": "baseten",
     "metric": "revenue_multiple",
     "value": 822.78,
@@ -2212,14 +2212,14 @@
       "locator": null,
       "published_at": "2026-06-23"
     },
-    "extracted_at": "2026-09-29T11:15:32.501222",
+    "extracted_at": "2026-09-30T11:06:00.704755",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_db1735bc00",
+        "clm_0479300cde",
         "clm_669f27e3c9"
       ]
     }

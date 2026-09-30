@@ -99,27 +99,27 @@
     "derivation": null
   },
   {
-    "id": "clm_2d01f47ebc",
+    "id": "clm_a9a883dbe9",
     "company_id": "bright-health",
-    "metric": "latest_round",
+    "metric": "round_amount",
     "value": 160000000.0,
-    "unit": null,
-    "raw_text": "Raises $160M in Latest Funding Round",
+    "unit": "USD",
+    "raw_text": "Bright Health Raises $160M in Latest Funding Round",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "Twin Cities Business",
+      "name": "tcbmag.com",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Xa0JlMk5KbFlsNV9kRmhZNHBmRTdmSW50TDhGTkQyM09LMGpmUmVWUFUyRGtBOFhXNkhZWF96T0h1Z3hCSFdXaEQ4UUtLODZJMmc2R2hWNFlBOUc1M0FyMTNINVhBbEdGYTg4RW0zaURBZTJUblpROQ?oc=5",
       "locator": null,
       "published_at": "2017-06-01"
     },
-    "extracted_at": "2026-08-19T12:30:22.754661",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -168,6 +168,30 @@
     "extracted_at": "2026-08-21T05:50:03.226228",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_2d01f47ebc",
+    "company_id": "bright-health",
+    "metric": "latest_round",
+    "value": 160000000.0,
+    "unit": null,
+    "raw_text": "Raises $160M in Latest Funding Round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Twin Cities Business",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Xa0JlMk5KbFlsNV9kRmhZNHBmRTdmSW50TDhGTkQyM09LMGpmUmVWUFUyRGtBOFhXNkhZWF96T0h1Z3hCSFdXaEQ4UUtLODZJMmc2R2hWNFlBOUc1M0FyMTNINVhBbEdGYTg4RW0zaURBZTJUblpROQ?oc=5",
+      "locator": null,
+      "published_at": "2017-06-01"
+    },
+    "extracted_at": "2026-08-19T12:30:22.754661",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -286,30 +310,6 @@
       "published_at": "2021-06-24"
     },
     "extracted_at": "2026-09-23T09:52:35.463285",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_a9a883dbe9",
-    "company_id": "bright-health",
-    "metric": "round_amount",
-    "value": 160000000.0,
-    "unit": "USD",
-    "raw_text": "Bright Health Raises $160M in Latest Funding Round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "tcbmag.com",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Xa0JlMk5KbFlsNV9kRmhZNHBmRTdmSW50TDhGTkQyM09LMGpmUmVWUFUyRGtBOFhXNkhZWF96T0h1Z3hCSFdXaEQ4UUtLODZJMmc2R2hWNFlBOUc1M0FyMTNINVhBbEdGYTg4RW0zaURBZTJUblpROQ?oc=5",
-      "locator": null,
-      "published_at": "2017-06-01"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null

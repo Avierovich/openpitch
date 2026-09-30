@@ -9,7 +9,7 @@
   "summary": "Hugging Face provides managed inference endpoints, enabling developers to deploy and scale machine learning models into production with low latency and high throughput. It supports various models and hardware accelerators with features like auto-scaling and load balancing.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 84.4,
+  "vc_attention_score": 84.1,
   "universe_rank": 48,
   "metrics": {
     "valuation": {
@@ -25,56 +25,27 @@
       "confidence": 0.97,
       "supporting_claims": [
         "clm_bc562e180f",
+        "clm_78e3c0fbfe",
         "clm_0f72aa9194",
         "clm_3d99946b1b",
-        "clm_78e3c0fbfe",
         "clm_ab9c8336bd",
         "clm_3673158f0f",
         "clm_5ee78e8b47",
         "clm_a8a2e46abe",
-        "clm_cd0ffb97e7",
-        "clm_51edcdbaee",
         "clm_822145abc3",
+        "clm_51edcdbaee",
+        "clm_cd0ffb97e7",
         "clm_233d96d1a0",
         "clm_671d6bb0d5"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 12934022189.89,
+        "previous": 12939249611.63,
         "change_pct": 0.0,
-        "since": "2026-09-24"
+        "since": "2026-09-29"
       },
       "history_ref": "history/hugging-face/valuation.jsonl",
       "unconfirmed": true,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "arr": {
-      "metric": "arr",
-      "value": 150000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 150000000.0,
-        "high": 150000000.0
-      },
-      "as_of": "2026-08-27",
-      "estimate_type": "consensus",
-      "confidence": 0.855,
-      "supporting_claims": [
-        "clm_16d5ad852f",
-        "clm_7ddb6c5be9",
-        "clm_0422b97aaa",
-        "clm_82f978a20b",
-        "clm_d75f52f65c"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 150000000.0,
-        "change_pct": -0.0,
-        "since": "2026-08-27"
-      },
-      "history_ref": "history/hugging-face/arr.jsonl",
-      "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     },
@@ -88,10 +59,10 @@
       },
       "as_of": "2026-08-26",
       "estimate_type": "consensus",
-      "confidence": 0.633,
+      "confidence": 0.629,
       "supporting_claims": [
-        "clm_bbea2d4a11",
-        "clm_9647c55ff9"
+        "clm_9647c55ff9",
+        "clm_bbea2d4a11"
       ],
       "contradiction": false,
       "delta": {
@@ -104,6 +75,35 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "arr": {
+      "metric": "arr",
+      "value": 150000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 150000000.0,
+        "high": 150000000.0
+      },
+      "as_of": "2026-08-27",
+      "estimate_type": "consensus",
+      "confidence": 0.852,
+      "supporting_claims": [
+        "clm_d75f52f65c",
+        "clm_82f978a20b",
+        "clm_16d5ad852f",
+        "clm_7ddb6c5be9",
+        "clm_0422b97aaa"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 150000000.0,
+        "change_pct": -0.0,
+        "since": "2026-08-27"
+      },
+      "history_ref": "history/hugging-face/arr.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "subscribers": {
       "metric": "subscribers",
       "value": 16000.0,
@@ -111,14 +111,14 @@
       "range": null,
       "as_of": "2026-09-18",
       "estimate_type": "reported",
-      "confidence": 0.279,
+      "confidence": 0.554,
       "supporting_claims": [
         "clm_6f99945da2"
       ],
       "contradiction": false,
       "delta": {
         "previous": 16000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-09-18"
       },
       "history_ref": "history/hugging-face/subscribers.jsonl",
@@ -133,7 +133,7 @@
       "range": null,
       "as_of": "2026-09-03",
       "estimate_type": "reported",
-      "confidence": 0.146,
+      "confidence": 0.145,
       "supporting_claims": [
         "drv_7876bfca29"
       ],
@@ -149,5 +149,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-29"
+  "last_updated": "2026-09-30"
 }

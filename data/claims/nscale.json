@@ -27,32 +27,6 @@
     "derivation": null
   },
   {
-    "id": "clm_4859071d2b",
-    "company_id": "nscale",
-    "metric": "valuation",
-    "value": 14600000000.0,
-    "unit": null,
-    "raw_text": "$14.6B valuation",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQejFHRXNaSGdPcHhreFIxX2o3eGkzWmhGdGFzczA1QTRUMEtTOENPdDhHSmJYRzd4bW54RkFHNHZleDRtdFJaWFAxSGRvRk1uNzdQaFVyeThGZEY5S1FPNGxTM056Z1hmdk1MNndzZWxhNDZjOU1oZHJYbGxNWTl4QWNPUVJCbkRuS1Z4TzdIblo2cGh4ZlJZaW4wbHFhemZOalR4RjFmTkxiNXFlRFNMMkNETnVYWDQ?oc=5",
-      "locator": null,
-      "published_at": "2026-09-21"
-    },
-    "extracted_at": "2026-09-22T09:56:18.399410",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
     "id": "clm_1ed76beb20",
     "company_id": "nscale",
     "metric": "round_amount",
@@ -70,6 +44,30 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kY3BEcjcweFlJSk4tOWd1ZU05encwQzZDeWxDQmxXN3dEYzZwc1h2VFZ2LVlORHVqT1hHS0VxZVJSaXI2WEE2eC1RcWNaUzZfZFNTZWlKU3UzYzk3QUFBWTl2ZDVwU0J4aGpHRGMzdko3enVoNXc?oc=5",
       "locator": null,
       "published_at": "2026-09-25"
+    },
+    "extracted_at": "2026-09-26T09:51:51.353222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_7070204690",
+    "company_id": "nscale",
+    "metric": "round_amount",
+    "value": 3360000000.0,
+    "unit": "USD",
+    "raw_text": "AI data center builder Nscale raises $3.36B ahead of IPO",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNWVaQnBWSGhHcmh4R0JpNUJrMXJ2dEl0aUhhYWlLTTVkaFhYR3NveU5USjh6Uzl5YlU3Y1JxZGN2T0t4WnpSekxjdGZlQkNPaUUxd0RzQnBseksxd2Z5OEUtZ3FaMEFoZjkzaGp3WXcteGVNVVZWNVpUYVd5Rm1GZ3ZxRm8xREFEckI1NzZCeXVLZ3JoX3cw?oc=5",
+      "locator": null,
+      "published_at": "2026-09-26"
     },
     "extracted_at": "2026-09-26T09:51:51.353222",
     "extractor_model": "gemini-3.5-flash-lite",
@@ -125,6 +123,30 @@
     "derivation": null
   },
   {
+    "id": "clm_89ec5b47b5",
+    "company_id": "nscale",
+    "metric": "total_funding",
+    "value": 3360000000.0,
+    "unit": "USD",
+    "raw_text": "Nscale raises $3.36bn in funding",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "W.Media",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUFFyMVRPZmtoUHc4S1BSc0dFWjBfdWZVVGJqbllTc3JCbm9sNV9WZ1ZqSHluQjFOdUo3bWd0TXl1T0NpYTRrSjgxem91dEYwb0psX3Q1MzBOU1RtNW9LYU5mZUFKNUtrRVppVXhWZEVfWUV6ZFJCMnRxYjJTZHpjQjR5b0FGU3J1Y3c?oc=5",
+      "locator": null,
+      "published_at": "2026-09-28"
+    },
+    "extracted_at": "2026-09-28T11:35:42.398874",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_9439b38745",
     "company_id": "nscale",
     "metric": "round_amount",
@@ -173,12 +195,12 @@
     "derivation": null
   },
   {
-    "id": "clm_89ec5b47b5",
+    "id": "clm_d92d78548e",
     "company_id": "nscale",
     "metric": "total_funding",
     "value": 3360000000.0,
     "unit": "USD",
-    "raw_text": "Nscale raises $3.36bn in funding",
+    "raw_text": "Nscale Raises $3.36 Billion In Pre-IPO Convertible Financing",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -186,14 +208,88 @@
     },
     "source": {
       "type": "news",
-      "name": "W.Media",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUFFyMVRPZmtoUHc4S1BSc0dFWjBfdWZVVGJqbllTc3JCbm9sNV9WZ1ZqSHluQjFOdUo3bWd0TXl1T0NpYTRrSjgxem91dEYwb0psX3Q1MzBOU1RtNW9LYU5mZUFKNUtrRVppVXhWZEVfWUV6ZFJCMnRxYjJTZHpjQjR5b0FGU3J1Y3c?oc=5",
+      "name": "Pulse 2.0",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSFprQ3lwMjI1b2MzeE16TGJzMTlKV0xxYURMQjhINkUtU1FUdW5IbjNTZ0o5SXFWajBjNGk3V2xETEJxaDRYUFpadGRuQVRSaGJXMjdtUkRuZERIX2hPcEJYZTVfR2VuWVBGT01paW00VGUtSFJhSkFLZWxXOE1YYWR2a1gxUdIBiwFBVV95cUxQWnJfcXhnQTBOQmNJNklCb1JTckVpNldmdUM3QVk4NTRVOVlsQ0M2bXF2UlNLTmZLbjNsWHliQVpOSDc5VjZzX3dkYWM2dTJqNlVqMThWd1lHVWYzRU9LMzA0WDRiVGkwVU0xcFJyakFUaXNyelZvejJqRml4QkQ1MENKdWtsQ1NnTWRZ?oc=5",
       "locator": null,
-      "published_at": "2026-09-28"
+      "published_at": "2026-09-26"
     },
     "extracted_at": "2026-09-28T11:35:42.398874",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_38763d5315",
+    "company_id": "nscale",
+    "metric": "valuation",
+    "value": 14600000000.0,
+    "unit": "USD",
+    "raw_text": "$14.6B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techfundingnews.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQejFHRXNaSGdPcHhreFIxX2o3eGkzWmhGdGFzczA1QTRUMEtTOENPdDhHSmJYRzd4bW54RkFHNHZleDRtdFJaWFAxSGRvRk1uNzdQaFVyeThGZEY5S1FPNGxTM056Z1hmdk1MNndzZWxhNDZjOU1oZHJYbGxNWTl4QWNPUVJCbkRuS1Z4TzdIblo2cGh4ZlJZaW4wbHFhemZOalR4RjFmTkxiNXFlRFNMMkNETnVYWDQ?oc=5",
+      "locator": null,
+      "published_at": "2026-09-21"
+    },
+    "extracted_at": "2026-10-01T11:32:38.939408",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_1aacedf89c",
+    "company_id": "nscale",
+    "metric": "round_amount",
+    "value": 3360000000.0,
+    "unit": "USD",
+    "raw_text": "$3.36B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techfundingnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaEVCeDVRNnFuVXlKa09uSG4xNG1BblllZ2lSMjB6alJqYzM1WWgtdFB6dHNsU0ZWM1JydmljSnplQ3FMRW9YZC1OUVRxRElOeUk5M2RwTk5wUWxRTFNPRTM4aTRiYTltZmlRZFVLTmVfeWVnOF9jSXM1Q3gzd3B1eWRtczE3SHh2RmxSdUg5TDRkMnZmZnZNQWk4SEtEbWJua2xiVk84S0FDM2pHajZuSU55RQ?oc=5",
+      "locator": null,
+      "published_at": "2026-09-28"
+    },
+    "extracted_at": "2026-10-01T11:32:38.939408",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_4859071d2b",
+    "company_id": "nscale",
+    "metric": "valuation",
+    "value": 14600000000.0,
+    "unit": null,
+    "raw_text": "$14.6B valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQejFHRXNaSGdPcHhreFIxX2o3eGkzWmhGdGFzczA1QTRUMEtTOENPdDhHSmJYRzd4bW54RkFHNHZleDRtdFJaWFAxSGRvRk1uNzdQaFVyeThGZEY5S1FPNGxTM056Z1hmdk1MNndzZWxhNDZjOU1oZHJYbGxNWTl4QWNPUVJCbkRuS1Z4TzdIblo2cGh4ZlJZaW4wbHFhemZOalR4RjFmTkxiNXFlRFNMMkNETnVYWDQ?oc=5",
+      "locator": null,
+      "published_at": "2026-09-21"
+    },
+    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -413,54 +509,6 @@
     "extracted_at": "2026-09-21T10:38:28.440880",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_7070204690",
-    "company_id": "nscale",
-    "metric": "round_amount",
-    "value": 3360000000.0,
-    "unit": "USD",
-    "raw_text": "AI data center builder Nscale raises $3.36B ahead of IPO",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNWVaQnBWSGhHcmh4R0JpNUJrMXJ2dEl0aUhhYWlLTTVkaFhYR3NveU5USjh6Uzl5YlU3Y1JxZGN2T0t4WnpSekxjdGZlQkNPaUUxd0RzQnBseksxd2Z5OEUtZ3FaMEFoZjkzaGp3WXcteGVNVVZWNVpUYVd5Rm1GZ3ZxRm8xREFEckI1NzZCeXVLZ3JoX3cw?oc=5",
-      "locator": null,
-      "published_at": "2026-09-26"
-    },
-    "extracted_at": "2026-09-26T09:51:51.353222",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_d92d78548e",
-    "company_id": "nscale",
-    "metric": "total_funding",
-    "value": 3360000000.0,
-    "unit": "USD",
-    "raw_text": "Nscale Raises $3.36 Billion In Pre-IPO Convertible Financing",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Pulse 2.0",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSFprQ3lwMjI1b2MzeE16TGJzMTlKV0xxYURMQjhINkUtU1FUdW5IbjNTZ0o5SXFWajBjNGk3V2xETEJxaDRYUFpadGRuQVRSaGJXMjdtUkRuZERIX2hPcEJYZTVfR2VuWVBGT01paW00VGUtSFJhSkFLZWxXOE1YYWR2a1gxUdIBiwFBVV95cUxQWnJfcXhnQTBOQmNJNklCb1JTckVpNldmdUM3QVk4NTRVOVlsQ0M2bXF2UlNLTmZLbjNsWHliQVpOSDc5VjZzX3dkYWM2dTJqNlVqMThWd1lHVWYzRU9LMzA0WDRiVGkwVU0xcFJyakFUaXNyelZvejJqRml4QkQ1MENKdWtsQ1NnTWRZ?oc=5",
-      "locator": null,
-      "published_at": "2026-09-26"
-    },
-    "extracted_at": "2026-09-28T11:35:42.398874",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -2108,7 +2156,7 @@
     "derivation": null
   },
   {
-    "id": "drv_daf4416529",
+    "id": "drv_76764bae68",
     "company_id": "nscale",
     "metric": "revenue_multiple",
     "value": 0.14,
@@ -2124,16 +2172,16 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-09-02"
+      "published_at": "2026-09-21"
     },
-    "extracted_at": "2026-09-30T11:06:00.704755",
+    "extracted_at": "2026-10-01T11:32:38.939408",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_7608f35b48",
+        "clm_38763d5315",
         "clm_a773856afb"
       ]
     }

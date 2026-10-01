@@ -9,33 +9,34 @@
   "summary": "xAI aims to build AI that can understand the universe, focusing on foundational models for scientific discovery and exploration.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 94.4,
+  "vc_attention_score": 94.3,
   "universe_rank": 3,
   "metrics": {
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 15000000000.0,
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 20000000000.0,
       "unit": "USD",
-      "range": null,
-      "as_of": "2025-11-26",
+      "range": {
+        "low": 20000000000.0,
+        "high": 20000000000.0
+      },
+      "as_of": "2026-01-06",
       "estimate_type": "consensus",
-      "confidence": 0.383,
+      "confidence": 0.595,
       "supporting_claims": [
-        "clm_0a3041ec94",
-        "clm_d980f290aa",
-        "clm_23b94a7c03",
-        "clm_8a6e317854"
+        "clm_2c4cef03e7",
+        "clm_d4ef3957ba"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 15000000000.0,
+        "previous": 20000000000.0,
         "change_pct": 0.0,
-        "since": "2025-11-26"
+        "since": "2026-01-06"
       },
-      "history_ref": "history/xai/round_amount.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": 60000000000.0,
-      "confirmed_as_of": "2026-04-23"
+      "history_ref": "history/xai/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "valuation": {
       "metric": "valuation",
@@ -44,15 +45,15 @@
       "range": null,
       "as_of": "2026-01-07",
       "estimate_type": "consensus",
-      "confidence": 0.864,
+      "confidence": 0.863,
       "supporting_claims": [
         "clm_6f038503a8",
         "clm_4bcf6b8993",
         "clm_3769f513df",
         "clm_9c362f7877",
-        "clm_584849a2e1",
-        "clm_10c1a2ee54",
         "clm_7d863f7cd0",
+        "clm_10c1a2ee54",
+        "clm_584849a2e1",
         "clm_02c6618db0",
         "clm_1b9919eaac",
         "clm_e661c24a45",
@@ -70,32 +71,31 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 20000000000.0,
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 15000000000.0,
       "unit": "USD",
-      "range": {
-        "low": 20000000000.0,
-        "high": 20000000000.0
-      },
-      "as_of": "2026-01-06",
+      "range": null,
+      "as_of": "2025-11-26",
       "estimate_type": "consensus",
-      "confidence": 0.596,
+      "confidence": 0.383,
       "supporting_claims": [
-        "clm_2c4cef03e7",
-        "clm_d4ef3957ba"
+        "clm_d980f290aa",
+        "clm_0a3041ec94",
+        "clm_23b94a7c03",
+        "clm_8a6e317854"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 20000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-01-06"
+        "previous": 15000000000.0,
+        "change_pct": -0.0,
+        "since": "2025-11-26"
       },
-      "history_ref": "history/xai/total_funding.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
+      "history_ref": "history/xai/round_amount.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": 60000000000.0,
+      "confirmed_as_of": "2026-04-23"
     }
   },
-  "last_updated": "2026-09-30"
+  "last_updated": "2026-10-01"
 }

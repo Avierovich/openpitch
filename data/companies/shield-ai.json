@@ -9,7 +9,7 @@
   "summary": "Shield AI develops autonomous systems for defense applications, focusing on AI-powered decision-making and control.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 84.0,
+  "vc_attention_score": 83.9,
   "universe_rank": 49,
   "metrics": {
     "valuation": {
@@ -27,12 +27,13 @@
         "clm_478880e15c",
         "clm_4d93156081",
         "clm_c7b1e7567a",
+        "clm_f88e0f22bf",
+        "clm_f5f9bb6fd2",
         "clm_dfc3152a86",
         "clm_44cf2f6d1a",
         "clm_b7371837ae",
         "clm_01da36bee8",
         "clm_01da36bee8",
-        "clm_f88e0f22bf",
         "clm_f45dbc07be",
         "clm_93acff4210",
         "clm_57e0ba8a15",
@@ -41,7 +42,6 @@
         "clm_77a91cdae8",
         "clm_a431428715",
         "clm_37478a9dd6",
-        "clm_f5f9bb6fd2",
         "clm_7dce082913",
         "clm_7e0469fd95",
         "clm_a722565a80",
@@ -50,33 +50,11 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 12637761826.94,
-        "change_pct": 0.0,
+        "previous": 12643319033.23,
+        "change_pct": -0.0,
         "since": "2026-07-30"
       },
       "history_ref": "history/shield-ai/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "latest_round": {
-      "metric": "latest_round",
-      "value": 7.0,
-      "unit": "object",
-      "range": null,
-      "as_of": "2026-07-30",
-      "estimate_type": "reported",
-      "confidence": 0.443,
-      "supporting_claims": [
-        "clm_c7560cd3a6"
-      ],
-      "contradiction": true,
-      "delta": {
-        "previous": 7.0,
-        "change_pct": 0.0,
-        "since": "2026-07-30"
-      },
-      "history_ref": "history/shield-ai/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -91,21 +69,43 @@
       },
       "as_of": "2026-03-26",
       "estimate_type": "consensus",
-      "confidence": 0.814,
+      "confidence": 0.813,
       "supporting_claims": [
+        "clm_b29fa96b01",
         "clm_b6d47590b8",
         "clm_764cf9f7d9",
         "clm_ecb95e40b8",
-        "clm_b29fa96b01",
         "clm_3184593c7e"
       ],
       "contradiction": false,
       "delta": {
         "previous": 2000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-03-26"
       },
       "history_ref": "history/shield-ai/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 7.0,
+      "unit": "object",
+      "range": null,
+      "as_of": "2026-07-30",
+      "estimate_type": "reported",
+      "confidence": 0.442,
+      "supporting_claims": [
+        "clm_c7560cd3a6"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 7.0,
+        "change_pct": 0.0,
+        "since": "2026-07-30"
+      },
+      "history_ref": "history/shield-ai/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -117,7 +117,7 @@
       "range": null,
       "as_of": "2026-03-26",
       "estimate_type": "reported",
-      "confidence": 0.29,
+      "confidence": 0.289,
       "supporting_claims": [
         "clm_f3654f91c5"
       ],
@@ -133,5 +133,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-09-30"
+  "last_updated": "2026-10-01"
 }

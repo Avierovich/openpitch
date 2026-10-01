@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-09-30
+# OpenPitch Data Quality Report - 2026-10-01
 
 ## Summary
 
-- Profiles generated: 573
-- Watchlist candidates: 1164
+- Profiles generated: 575
+- Watchlist candidates: 1178
 - Top-50 cards: 50
-- Profiles with at least one metric: 560
+- Profiles with at least one metric: 562
 - Critical issues: 104
-- Warnings: 18
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 589
+- Warnings: 19
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 601
 
 ## Top-50 Companies With No Metrics
 
@@ -146,6 +146,7 @@ None.
 - Fireworks AI: total_funding
 - Fireworks AI: headcount
 - Sierra: arr
+- Applied Intuition: headcount
 - Lovable: headcount
 - Celonis: arr
 - Celonis: headcount

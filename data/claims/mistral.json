@@ -1,10 +1,10 @@
 [
   {
-    "id": "clm_fc33d4eec3",
+    "id": "clm_2941890832",
     "company_id": "mistral",
     "metric": "valuation",
     "value": 24000000000.0,
-    "unit": "USD",
+    "unit": null,
     "raw_text": "$24 billion valuation",
     "qualifiers": [],
     "speaker": {
@@ -13,12 +13,12 @@
     },
     "source": {
       "type": "news",
-      "name": "reuters.com",
+      "name": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSzZndFBZYk1SQ19xOVJYSXR1ZHdKa2p2a0RSYTVfeWVicHRLZ2JOdG5zc3hibHhJYWh1V3pIVEhDaV9Wc2xQV2RlYkNkTEZJSDV2V1V6aGloYXVPcFNtMHlCU1ZsTnR5UEZTNTI5WTExa1A4Vy0xZjN4ZFE3TVUzN2tUWFNnc3V2aXNBRldFWXlGYnFwcGtGVkFtRE9HTDktVUhJR09HVUwtdHZmNHdjWGZCTkw?oc=5",
       "locator": null,
       "published_at": "2026-09-08"
     },
-    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -72,12 +72,12 @@
     "derivation": null
   },
   {
-    "id": "clm_6b872251b5",
+    "id": "clm_5d5e09dd6c",
     "company_id": "mistral",
-    "metric": "valuation",
-    "value": 24000000000.0,
-    "unit": "USD",
-    "raw_text": "$24 billion valuation",
+    "metric": "round_amount",
+    "value": 4400000000.0,
+    "unit": null,
+    "raw_text": "$4.4b",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -85,12 +85,36 @@
     },
     "source": {
       "type": "news",
-      "name": "The Daily Star",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQM01FOVBCeTNxLWpYRHpNeTg1Yl9PaEotNVlEN3I1YkhhbHpwNy1HNnFTSUVBRzhYRUhXVTdEU3FaYTR2dkVGc3FVeE0xSnViWGlXZ2t4SU5ndFprVDJ2UmxmRklxOGpmLUZ5REctdjBTN2VxcXFuMkVzclRXZG1XU3JQVF9JZm1RRm1sNzU1OFJ3VTRPczdYRE1oTDBIeG1VRUdwZndpQ09iOVg5MWRuNXhUN0tSNFlwYmNYTUhtWi1kY0djNDRhS1RxTk5adw?oc=5",
+      "name": "The Straits Times",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeUxYQnJLSHgzNEV5aE1XaEpXRjhveEZBTDJKeWpldlc5UTBXc0Ffbi1Sd2V5VHJHZEtaeUFQSmZWRTVKckdOTmtPTzBkdE1UQ05MNXhIMk5LVGFnN0Q3aGhVOUd6Nkt3Nl9xdTVnYU5QcU5sbFFmTzRZdW9GeHFNZXhvWmlDZC1BeE1VdTVTb0duZFE1eXNMS1RZbjBFRFBBWlE?oc=5",
       "locator": null,
-      "published_at": "2026-09-09"
+      "published_at": "2026-09-08"
     },
-    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_83814b7e36",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 31000000000.0,
+    "unit": null,
+    "raw_text": "$31b valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Straits Times",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeUxYQnJLSHgzNEV5aE1XaEpXRjhveEZBTDJKeWpldlc5UTBXc0Ffbi1Sd2V5VHJHZEtaeUFQSmZWRTVKckdOTmtPTzBkdE1UQ05MNXhIMk5LVGFnN0Q3aGhVOUd6Nkt3Nl9xdTVnYU5QcU5sbFFmTzRZdW9GeHFNZXhvWmlDZC1BeE1VdTVTb0duZFE1eXNMS1RZbjBFRFBBWlE?oc=5",
+      "locator": null,
+      "published_at": "2026-09-08"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -120,51 +144,99 @@
     "derivation": null
   },
   {
-    "id": "clm_319d09f440",
+    "id": "clm_6b872251b5",
     "company_id": "mistral",
     "metric": "valuation",
-    "value": 13700000000.0,
-    "unit": null,
-    "raw_text": "French AI Company Mistral Secures $2B Series C $13.7B Valuation",
+    "value": 24000000000.0,
+    "unit": "USD",
+    "raw_text": "$24 billion valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
       "type": "news",
-      "name": "Built In",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSHRFdFhvS1pfSFJXZTR6RGwtT0RtYjE0RzVZSXRtWGp5c3hFSVVRSXdDZjRCbkxDNTZEWThXaWU1Mmk1YkI2TGs2NjU5RURqUEt0SGFPcmdWazRzRk52dWNOYlUzTlBYWWhkMk5XOVVweklrWDBxUnY0T0g3LTBEUFBnX2U?oc=5",
+      "name": "The Daily Star",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQM01FOVBCeTNxLWpYRHpNeTg1Yl9PaEotNVlEN3I1YkhhbHpwNy1HNnFTSUVBRzhYRUhXVTdEU3FaYTR2dkVGc3FVeE0xSnViWGlXZ2t4SU5ndFprVDJ2UmxmRklxOGpmLUZ5REctdjBTN2VxcXFuMkVzclRXZG1XU3JQVF9JZm1RRm1sNzU1OFJ3VTRPczdYRE1oTDBIeG1VRUdwZndpQ09iOVg5MWRuNXhUN0tSNFlwYmNYTUhtWi1kY0djNDRhS1RxTk5adw?oc=5",
       "locator": null,
-      "published_at": "2025-09-09"
+      "published_at": "2026-09-09"
     },
-    "extracted_at": "2026-07-06T14:31:09.058208",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.525,
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
-    "id": "clm_aa628ea6b0",
+    "id": "clm_a4bf3259dd",
     "company_id": "mistral",
     "metric": "round_amount",
     "value": 2000000000.0,
     "unit": null,
-    "raw_text": "French AI Company Mistral Secures $2B Series C $13.7B Valuation",
+    "raw_text": "Secures $2B Series C",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
       "type": "news",
-      "name": "Built In",
+      "name": "builtin.com",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSHRFdFhvS1pfSFJXZTR6RGwtT0RtYjE0RzVZSXRtWGp5c3hFSVVRSXdDZjRCbkxDNTZEWThXaWU1Mmk1YkI2TGs2NjU5RURqUEt0SGFPcmdWazRzRk52dWNOYlUzTlBYWWhkMk5XOVVweklrWDBxUnY0T0g3LTBEUFBnX2U?oc=5",
       "locator": null,
       "published_at": "2025-09-09"
     },
-    "extracted_at": "2026-07-06T14:31:09.058208",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.525,
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_c7f2944486",
+    "company_id": "mistral",
+    "metric": "latest_round",
+    "value": 3.0,
+    "unit": null,
+    "raw_text": "Series C",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "builtin.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSHRFdFhvS1pfSFJXZTR6RGwtT0RtYjE0RzVZSXRtWGp5c3hFSVVRSXdDZjRCbkxDNTZEWThXaWU1Mmk1YkI2TGs2NjU5RURqUEt0SGFPcmdWazRzRk52dWNOYlUzTlBYWWhkMk5XOVVweklrWDBxUnY0T0g3LTBEUFBnX2U?oc=5",
+      "locator": null,
+      "published_at": "2025-09-09"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_dac63d47ce",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 13700000000.0,
+    "unit": null,
+    "raw_text": "$13.7B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "builtin.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSHRFdFhvS1pfSFJXZTR6RGwtT0RtYjE0RzVZSXRtWGp5c3hFSVVRSXdDZjRCbkxDNTZEWThXaWU1Mmk1YkI2TGs2NjU5RURqUEt0SGFPcmdWazRzRk52dWNOYlUzTlBYWWhkMk5XOVVweklrWDBxUnY0T0g3LTBEUFBnX2U?oc=5",
+      "locator": null,
+      "published_at": "2025-09-09"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -219,6 +291,128 @@
     "derivation": null
   },
   {
+    "id": "clm_a0046a0559",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 24000000000.0,
+    "unit": "USD",
+    "raw_text": "$24B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Global Banking & Finance Review",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM2V1UUoyUmpqOHZyaG5HZi1sTlN0bkFDdHR4Xzk5bUp4djN2R2ZfUjRNdjBwajFqb3BvZVd5YTUwTmpabndkWWxBMnhhMDRuYWdlS3hxU1IyTUF4NDNNcDYwOGdWTXJ2Mm9qVUpKY2lDUWVNcHA2bzRkNWpuWlJqeDFERUMtaEZ0OEQwQlNjNloxM0VXUmFpaWZOQXZ1eDZqLVE?oc=5",
+      "locator": null,
+      "published_at": "2026-09-08"
+    },
+    "extracted_at": "2026-09-30T11:06:00.704755",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_b18a2e2321",
+    "company_id": "mistral",
+    "metric": "total_funding",
+    "value": 100000000.0,
+    "unit": "USD",
+    "raw_text": "$100M+",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "No Priors",
+      "url": null,
+      "locator": null,
+      "published_at": "2023-11-09"
+    },
+    "extracted_at": "2026-10-01T11:32:38.939408",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.378,
+    "derivation": null
+  },
+  {
+    "id": "clm_fc33d4eec3",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 24000000000.0,
+    "unit": "USD",
+    "raw_text": "$24 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSzZndFBZYk1SQ19xOVJYSXR1ZHdKa2p2a0RSYTVfeWVicHRLZ2JOdG5zc3hibHhJYWh1V3pIVEhDaV9Wc2xQV2RlYkNkTEZJSDV2V1V6aGloYXVPcFNtMHlCU1ZsTnR5UEZTNTI5WTExa1A4Vy0xZjN4ZFE3TVUzN2tUWFNnc3V2aXNBRldFWXlGYnFwcGtGVkFtRE9HTDktVUhJR09HVUwtdHZmNHdjWGZCTkw?oc=5",
+      "locator": null,
+      "published_at": "2026-09-08"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_319d09f440",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 13700000000.0,
+    "unit": null,
+    "raw_text": "French AI Company Mistral Secures $2B Series C $13.7B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Built In",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSHRFdFhvS1pfSFJXZTR6RGwtT0RtYjE0RzVZSXRtWGp5c3hFSVVRSXdDZjRCbkxDNTZEWThXaWU1Mmk1YkI2TGs2NjU5RURqUEt0SGFPcmdWazRzRk52dWNOYlUzTlBYWWhkMk5XOVVweklrWDBxUnY0T0g3LTBEUFBnX2U?oc=5",
+      "locator": null,
+      "published_at": "2025-09-09"
+    },
+    "extracted_at": "2026-07-06T14:31:09.058208",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_aa628ea6b0",
+    "company_id": "mistral",
+    "metric": "round_amount",
+    "value": 2000000000.0,
+    "unit": null,
+    "raw_text": "French AI Company Mistral Secures $2B Series C $13.7B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Built In",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSHRFdFhvS1pfSFJXZTR6RGwtT0RtYjE0RzVZSXRtWGp5c3hFSVVRSXdDZjRCbkxDNTZEWThXaWU1Mmk1YkI2TGs2NjU5RURqUEt0SGFPcmdWazRzRk52dWNOYlUzTlBYWWhkMk5XOVVweklrWDBxUnY0T0g3LTBEUFBnX2U?oc=5",
+      "locator": null,
+      "published_at": "2025-09-09"
+    },
+    "extracted_at": "2026-07-06T14:31:09.058208",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_16a6e57e11",
     "company_id": "mistral",
     "metric": "round_amount",
@@ -262,81 +456,6 @@
       "published_at": "2026-09-08"
     },
     "extracted_at": "2026-09-30T11:06:00.704755",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_b18a2e2321",
-    "company_id": "mistral",
-    "metric": "total_funding",
-    "value": 100000000.0,
-    "unit": "USD",
-    "raw_text": "$100M+ seed financing",
-    "qualifiers": [
-      "rounded",
-      "approximate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "No Priors",
-      "url": null,
-      "locator": null,
-      "published_at": "2023-11-09"
-    },
-    "extracted_at": "2026-09-30T11:06:00.704755",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3213,
-    "derivation": null
-  },
-  {
-    "id": "clm_a0046a0559",
-    "company_id": "mistral",
-    "metric": "valuation",
-    "value": 24000000000.0,
-    "unit": "USD",
-    "raw_text": "$24B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Global Banking & Finance Review",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM2V1UUoyUmpqOHZyaG5HZi1sTlN0bkFDdHR4Xzk5bUp4djN2R2ZfUjRNdjBwajFqb3BvZVd5YTUwTmpabndkWWxBMnhhMDRuYWdlS3hxU1IyTUF4NDNNcDYwOGdWTXJ2Mm9qVUpKY2lDUWVNcHA2bzRkNWpuWlJqeDFERUMtaEZ0OEQwQlNjNloxM0VXUmFpaWZOQXZ1eDZqLVE?oc=5",
-      "locator": null,
-      "published_at": "2026-09-08"
-    },
-    "extracted_at": "2026-09-30T11:06:00.704755",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_2941890832",
-    "company_id": "mistral",
-    "metric": "valuation",
-    "value": 24000000000.0,
-    "unit": null,
-    "raw_text": "$24 billion valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSzZndFBZYk1SQ19xOVJYSXR1ZHdKa2p2a0RSYTVfeWVicHRLZ2JOdG5zc3hibHhJYWh1V3pIVEhDaV9Wc2xQV2RlYkNkTEZJSDV2V1V6aGloYXVPcFNtMHlCU1ZsTnR5UEZTNTI5WTExa1A4Vy0xZjN4ZFE3TVUzN2tUWFNnc3V2aXNBRldFWXlGYnFwcGtGVkFtRE9HTDktVUhJR09HVUwtdHZmNHdjWGZCTkw?oc=5",
-      "locator": null,
-      "published_at": "2026-09-08"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -409,54 +528,6 @@
       "published_at": "2026-09-08"
     },
     "extracted_at": "2026-09-14T10:31:29.338960",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_5d5e09dd6c",
-    "company_id": "mistral",
-    "metric": "round_amount",
-    "value": 4400000000.0,
-    "unit": null,
-    "raw_text": "$4.4b",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Straits Times",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeUxYQnJLSHgzNEV5aE1XaEpXRjhveEZBTDJKeWpldlc5UTBXc0Ffbi1Sd2V5VHJHZEtaeUFQSmZWRTVKckdOTmtPTzBkdE1UQ05MNXhIMk5LVGFnN0Q3aGhVOUd6Nkt3Nl9xdTVnYU5QcU5sbFFmTzRZdW9GeHFNZXhvWmlDZC1BeE1VdTVTb0duZFE1eXNMS1RZbjBFRFBBWlE?oc=5",
-      "locator": null,
-      "published_at": "2026-09-08"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_83814b7e36",
-    "company_id": "mistral",
-    "metric": "valuation",
-    "value": 31000000000.0,
-    "unit": null,
-    "raw_text": "$31b valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Straits Times",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeUxYQnJLSHgzNEV5aE1XaEpXRjhveEZBTDJKeWpldlc5UTBXc0Ffbi1Sd2V5VHJHZEtaeUFQSmZWRTVKckdOTmtPTzBkdE1UQ05MNXhIMk5LVGFnN0Q3aGhVOUd6Nkt3Nl9xdTVnYU5QcU5sbFFmTzRZdW9GeHFNZXhvWmlDZC1BeE1VdTVTb0duZFE1eXNMS1RZbjBFRFBBWlE?oc=5",
-      "locator": null,
-      "published_at": "2026-09-08"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -1434,78 +1505,6 @@
     "derivation": null
   },
   {
-    "id": "clm_a4bf3259dd",
-    "company_id": "mistral",
-    "metric": "round_amount",
-    "value": 2000000000.0,
-    "unit": null,
-    "raw_text": "Secures $2B Series C",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "builtin.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSHRFdFhvS1pfSFJXZTR6RGwtT0RtYjE0RzVZSXRtWGp5c3hFSVVRSXdDZjRCbkxDNTZEWThXaWU1Mmk1YkI2TGs2NjU5RURqUEt0SGFPcmdWazRzRk52dWNOYlUzTlBYWWhkMk5XOVVweklrWDBxUnY0T0g3LTBEUFBnX2U?oc=5",
-      "locator": null,
-      "published_at": "2025-09-09"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_c7f2944486",
-    "company_id": "mistral",
-    "metric": "latest_round",
-    "value": 3.0,
-    "unit": null,
-    "raw_text": "Series C",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "builtin.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSHRFdFhvS1pfSFJXZTR6RGwtT0RtYjE0RzVZSXRtWGp5c3hFSVVRSXdDZjRCbkxDNTZEWThXaWU1Mmk1YkI2TGs2NjU5RURqUEt0SGFPcmdWazRzRk52dWNOYlUzTlBYWWhkMk5XOVVweklrWDBxUnY0T0g3LTBEUFBnX2U?oc=5",
-      "locator": null,
-      "published_at": "2025-09-09"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_dac63d47ce",
-    "company_id": "mistral",
-    "metric": "valuation",
-    "value": 13700000000.0,
-    "unit": null,
-    "raw_text": "$13.7B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "builtin.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSHRFdFhvS1pfSFJXZTR6RGwtT0RtYjE0RzVZSXRtWGp5c3hFSVVRSXdDZjRCbkxDNTZEWThXaWU1Mmk1YkI2TGs2NjU5RURqUEt0SGFPcmdWazRzRk52dWNOYlUzTlBYWWhkMk5XOVVweklrWDBxUnY0T0g3LTBEUFBnX2U?oc=5",
-      "locator": null,
-      "published_at": "2025-09-09"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_fe46bc0dd0",
     "company_id": "mistral",
     "metric": "valuation",
@@ -1762,10 +1761,10 @@
     "derivation": null
   },
   {
-    "id": "drv_f00eedbe63",
+    "id": "drv_ca27ce9a22",
     "company_id": "mistral",
     "metric": "revenue_multiple",
-    "value": 34.25,
+    "value": 60.0,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -1778,16 +1777,16 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-02-11"
+      "published_at": "2026-09-08"
     },
-    "extracted_at": "2026-09-30T11:06:00.704755",
+    "extracted_at": "2026-10-01T11:32:38.939408",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_319d09f440",
+        "clm_a0046a0559",
         "clm_f5ac8ef2ee"
       ]
     }

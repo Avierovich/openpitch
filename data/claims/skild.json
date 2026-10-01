@@ -1,53 +1,5 @@
 [
   {
-    "id": "clm_e55c4eb26b",
-    "company_id": "skild",
-    "metric": "latest_round",
-    "value": 1400000000.0,
-    "unit": null,
-    "raw_text": "Skild AI Raises $1.4 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "pulse2.com",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9Gajl3NUluSkU3blpzenNPZFlyZ3Uwd3ZmenpWazRuVFJqOUR1cWt0YTVud1RKZTVlVGpaRjkwVWFXeS1DNHFDNlJBa3RCR3RfZ0NXYnRIeTRzSE5q0gFiQVVfeXFMUEJRVFVVOFY1UGxlQVc5bWY1WjlpS0JPVGxMTzNpZlUxYVEzNUlJV1FCdS1tWC1JLWdXZmhHNkJ1djBWS2s3cHpLb2FVUi1vT1VBWFJ2X2Jpa2xMbjFUck9wUFE?oc=5",
-      "locator": null,
-      "published_at": "2026-01-14"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_56292ec006",
-    "company_id": "skild",
-    "metric": "valuation",
-    "value": 14000000000.0,
-    "unit": null,
-    "raw_text": "$14 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "pulse2.com",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9Gajl3NUluSkU3blpzenNPZFlyZ3Uwd3ZmenpWazRuVFJqOUR1cWt0YTVud1RKZTVlVGpaRjkwVWFXeS1DNHFDNlJBa3RCR3RfZ0NXYnRIeTRzSE5q0gFiQVVfeXFMUEJRVFVVOFY1UGxlQVc5bWY1WjlpS0JPVGxMTzNpZlUxYVEzNUlJV1FCdS1tWC1JLWdXZmhHNkJ1djBWS2s3cHpLb2FVUi1vT1VBWFJ2X2Jpa2xMbjFUck9wUFE?oc=5",
-      "locator": null,
-      "published_at": "2026-01-14"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_61f186a654",
     "company_id": "skild",
     "metric": "round_amount",
@@ -96,29 +48,27 @@
     "derivation": null
   },
   {
-    "id": "clm_970ab36226",
+    "id": "clm_716f01b264",
     "company_id": "skild",
     "metric": "valuation",
     "value": 14000000000.0,
-    "unit": null,
+    "unit": "USD",
     "raw_text": "Skild AI worth $14B",
-    "qualifiers": [
-      "rounded"
-    ],
+    "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "Axios",
+      "name": "axios.com",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqM1Btd1NIVk0wTzZyQmxGdy1MUzF2Ykc0bEtYTWF0eUJnY2Z4VUxVaHNmbGNRd2RJS3FrZnBDdVowMzBKMS1qVUhnb0tQVVpGR2J5NVFzVjZ5RjhOZ1JrbTVtZmVhQkNzZDd6YS14eHctRmpOZDM5WGt6YVdjTnc?oc=5",
       "locator": null,
       "published_at": "2025-12-08"
     },
-    "extracted_at": "2026-08-21T05:50:03.226228",
+    "extracted_at": "2026-09-24T09:50:31.335914",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3375,
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -169,6 +119,235 @@
     "extracted_at": "2026-09-23T09:52:35.463285",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_b32fa20cd6",
+    "company_id": "skild",
+    "metric": "round_amount",
+    "value": 1400000000.0,
+    "unit": "USD",
+    "raw_text": "raises $1.4B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "FOX One",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSkR4RFpVS0l5WmRyWVF4U0xuaGhJZ0RJZ1JCWDZsRElaWXJhSUJHSFhhRUduRmJKWEhEZF9DaEdidjRqUGhRSG9ybzJLVmI4Vnh4dTJRVzZGcDl1cW1MS19MbC0tTnFKcVBCQkNiQVhiYUdwbk5oc2N3Uy14dUFicUM5OW5pcTAwMWJpMktsTXhRNDFYMHltUlZMclZZVDFDZUdpU1FuWGFyZFVubmtJeEo0OEEyZFJDdUhmMnkwZw?oc=5",
+      "locator": null,
+      "published_at": "2026-01-14"
+    },
+    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_325c29634a",
+    "company_id": "skild",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": "USD",
+    "raw_text": "$14B+",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "FOX One",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSkR4RFpVS0l5WmRyWVF4U0xuaGhJZ0RJZ1JCWDZsRElaWXJhSUJHSFhhRUduRmJKWEhEZF9DaEdidjRqUGhRSG9ybzJLVmI4Vnh4dTJRVzZGcDl1cW1MS19MbC0tTnFKcVBCQkNiQVhiYUdwbk5oc2N3Uy14dUFicUM5OW5pcTAwMWJpMktsTXhRNDFYMHltUlZMclZZVDFDZUdpU1FuWGFyZFVubmtJeEo0OEEyZFJDdUhmMnkwZw?oc=5",
+      "locator": null,
+      "published_at": "2026-01-14"
+    },
+    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_213537243b",
+    "company_id": "skild",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": null,
+    "raw_text": "$14 billion",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdXBUX2gyV0FCTjhnQ1RWeVBIQzJtdV9BZHFrdXRLYkJrZ25mbUwzejdtY1BrX01WaFJzTTRmeWtkT3JLaDZ1eUJGTkR0MGRKQUVINGg2TDZxano1OEpLcjI5bFZNSExkOUVpN0x5WGlmRHFrWm1jSFRJRUVkNXlNRGZGYmtXNkFZNWJPRWJ6TGtSX2JUSi1nbjhMNUhrRjFfRDBHM3FMLWNuR1N4RVg1XzdmOHJVNGQ2SmNaZDR4ajdLZzNPcUFlQ2JVOA?oc=5",
+      "locator": null,
+      "published_at": "2025-12-08"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_21a16666d3",
+    "company_id": "skild",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": null,
+    "raw_text": "Skild AI aims to be the picks and shovels of robotics with $14b valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "axios.com",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSHJ2N0tOTTBzSFZtTFZBejNMNXRMbDFzeVhJNGltZEpRVnYyY2JCenFOQjBvbTVMYmQxbGtLMEZrVTRFZjJ6WFhoemtacTZCQVV1SHZ6TnpPLTVMMUpfUTMyektKNHpZd0dIa2dMRHRFdm1ZVGNvM0FzWXhuMDNGdS13?oc=5",
+      "locator": null,
+      "published_at": "2026-01-14"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_e5f5f1bf95",
+    "company_id": "skild",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "$1B bet",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techfundingnews.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQckJtMS1TQ2ZYTGpaT2xGUE1aT1R4OWJ2U0FaOVdRV29BY0hKdHFXaEVicURLM3p2QmZ4aVdxWFMyMzhNYWRlUWlDYTZLQ01GYWRuT0FsRzlCWkQxSjV2QTdhSWlkeVlTOTJ6R2JvMG43Mkx0cDNjbGVIcV9vaWMxclNSMWh6OVQ0SV9PMnBlZFRJRWJaZmRFTnhsZnI?oc=5",
+      "locator": null,
+      "published_at": "2025-12-09"
+    },
+    "extracted_at": "2026-09-12T09:20:27.932122",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_d1f5e5a66f",
+    "company_id": "skild",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": "USD",
+    "raw_text": "$14B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "techfundingnews.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQckJtMS1TQ2ZYTGpaT2xGUE1aT1R4OWJ2U0FaOVdRV29BY0hKdHFXaEVicURLM3p2QmZ4aVdxWFMyMzhNYWRlUWlDYTZLQ01GYWRuT0FsRzlCWkQxSjV2QTdhSWlkeVlTOTJ6R2JvMG43Mkx0cDNjbGVIcV9vaWMxclNSMWh6OVQ0SV9PMnBlZFRJRWJaZmRFTnhsZnI?oc=5",
+      "locator": null,
+      "published_at": "2025-12-09"
+    },
+    "extracted_at": "2026-09-12T09:20:27.932122",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_e55c4eb26b",
+    "company_id": "skild",
+    "metric": "latest_round",
+    "value": 1400000000.0,
+    "unit": null,
+    "raw_text": "Skild AI Raises $1.4 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "pulse2.com",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9Gajl3NUluSkU3blpzenNPZFlyZ3Uwd3ZmenpWazRuVFJqOUR1cWt0YTVud1RKZTVlVGpaRjkwVWFXeS1DNHFDNlJBa3RCR3RfZ0NXYnRIeTRzSE5q0gFiQVVfeXFMUEJRVFVVOFY1UGxlQVc5bWY1WjlpS0JPVGxMTzNpZlUxYVEzNUlJV1FCdS1tWC1JLWdXZmhHNkJ1djBWS2s3cHpLb2FVUi1vT1VBWFJ2X2Jpa2xMbjFUck9wUFE?oc=5",
+      "locator": null,
+      "published_at": "2026-01-14"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_56292ec006",
+    "company_id": "skild",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": null,
+    "raw_text": "$14 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "pulse2.com",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9Gajl3NUluSkU3blpzenNPZFlyZ3Uwd3ZmenpWazRuVFJqOUR1cWt0YTVud1RKZTVlVGpaRjkwVWFXeS1DNHFDNlJBa3RCR3RfZ0NXYnRIeTRzSE5q0gFiQVVfeXFMUEJRVFVVOFY1UGxlQVc5bWY1WjlpS0JPVGxMTzNpZlUxYVEzNUlJV1FCdS1tWC1JLWdXZmhHNkJ1djBWS2s3cHpLb2FVUi1vT1VBWFJ2X2Jpa2xMbjFUck9wUFE?oc=5",
+      "locator": null,
+      "published_at": "2026-01-14"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_970ab36226",
+    "company_id": "skild",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": null,
+    "raw_text": "Skild AI worth $14B",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqM1Btd1NIVk0wTzZyQmxGdy1MUzF2Ykc0bEtYTWF0eUJnY2Z4VUxVaHNmbGNRd2RJS3FrZnBDdVowMzBKMS1qVUhnb0tQVVpGR2J5NVFzVjZ5RjhOZ1JrbTVtZmVhQkNzZDd6YS14eHctRmpOZDM5WGt6YVdjTnc?oc=5",
+      "locator": null,
+      "published_at": "2025-12-08"
+    },
+    "extracted_at": "2026-08-21T05:50:03.226228",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3375,
     "derivation": null
   },
   {
@@ -414,82 +593,6 @@
     "derivation": null
   },
   {
-    "id": "clm_213537243b",
-    "company_id": "skild",
-    "metric": "valuation",
-    "value": 14000000000.0,
-    "unit": null,
-    "raw_text": "$14 billion",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdXBUX2gyV0FCTjhnQ1RWeVBIQzJtdV9BZHFrdXRLYkJrZ25mbUwzejdtY1BrX01WaFJzTTRmeWtkT3JLaDZ1eUJGTkR0MGRKQUVINGg2TDZxano1OEpLcjI5bFZNSExkOUVpN0x5WGlmRHFrWm1jSFRJRUVkNXlNRGZGYmtXNkFZNWJPRWJ6TGtSX2JUSi1nbjhMNUhrRjFfRDBHM3FMLWNuR1N4RVg1XzdmOHJVNGQ2SmNaZDR4ajdLZzNPcUFlQ2JVOA?oc=5",
-      "locator": null,
-      "published_at": "2025-12-08"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_b32fa20cd6",
-    "company_id": "skild",
-    "metric": "round_amount",
-    "value": 1400000000.0,
-    "unit": "USD",
-    "raw_text": "raises $1.4B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "FOX One",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSkR4RFpVS0l5WmRyWVF4U0xuaGhJZ0RJZ1JCWDZsRElaWXJhSUJHSFhhRUduRmJKWEhEZF9DaEdidjRqUGhRSG9ybzJLVmI4Vnh4dTJRVzZGcDl1cW1MS19MbC0tTnFKcVBCQkNiQVhiYUdwbk5oc2N3Uy14dUFicUM5OW5pcTAwMWJpMktsTXhRNDFYMHltUlZMclZZVDFDZUdpU1FuWGFyZFVubmtJeEo0OEEyZFJDdUhmMnkwZw?oc=5",
-      "locator": null,
-      "published_at": "2026-01-14"
-    },
-    "extracted_at": "2026-09-24T09:50:31.335914",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_325c29634a",
-    "company_id": "skild",
-    "metric": "valuation",
-    "value": 14000000000.0,
-    "unit": "USD",
-    "raw_text": "$14B+",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "FOX One",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSkR4RFpVS0l5WmRyWVF4U0xuaGhJZ0RJZ1JCWDZsRElaWXJhSUJHSFhhRUduRmJKWEhEZF9DaEdidjRqUGhRSG9ybzJLVmI4Vnh4dTJRVzZGcDl1cW1MS19MbC0tTnFKcVBCQkNiQVhiYUdwbk5oc2N3Uy14dUFicUM5OW5pcTAwMWJpMktsTXhRNDFYMHltUlZMclZZVDFDZUdpU1FuWGFyZFVubmtJeEo0OEEyZFJDdUhmMnkwZw?oc=5",
-      "locator": null,
-      "published_at": "2026-01-14"
-    },
-    "extracted_at": "2026-09-24T09:50:31.335914",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
     "id": "clm_106c062437",
     "company_id": "skild",
     "metric": "valuation",
@@ -636,57 +739,6 @@
     "derivation": null
   },
   {
-    "id": "clm_21a16666d3",
-    "company_id": "skild",
-    "metric": "valuation",
-    "value": 14000000000.0,
-    "unit": null,
-    "raw_text": "Skild AI aims to be the picks and shovels of robotics with $14b valuation",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "axios.com",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSHJ2N0tOTTBzSFZtTFZBejNMNXRMbDFzeVhJNGltZEpRVnYyY2JCenFOQjBvbTVMYmQxbGtLMEZrVTRFZjJ6WFhoemtacTZCQVV1SHZ6TnpPLTVMMUpfUTMyektKNHpZd0dIa2dMRHRFdm1ZVGNvM0FzWXhuMDNGdS13?oc=5",
-      "locator": null,
-      "published_at": "2026-01-14"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_716f01b264",
-    "company_id": "skild",
-    "metric": "valuation",
-    "value": 14000000000.0,
-    "unit": "USD",
-    "raw_text": "Skild AI worth $14B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "axios.com",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqM1Btd1NIVk0wTzZyQmxGdy1MUzF2Ykc0bEtYTWF0eUJnY2Z4VUxVaHNmbGNRd2RJS3FrZnBDdVowMzBKMS1qVUhnb0tQVVpGR2J5NVFzVjZ5RjhOZ1JrbTVtZmVhQkNzZDd6YS14eHctRmpOZDM5WGt6YVdjTnc?oc=5",
-      "locator": null,
-      "published_at": "2025-12-08"
-    },
-    "extracted_at": "2026-09-24T09:50:31.335914",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_67e0e2e5ba",
     "company_id": "skild",
     "metric": "valuation",
@@ -760,58 +812,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_e5f5f1bf95",
-    "company_id": "skild",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "$1B bet",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "techfundingnews.com",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQckJtMS1TQ2ZYTGpaT2xGUE1aT1R4OWJ2U0FaOVdRV29BY0hKdHFXaEVicURLM3p2QmZ4aVdxWFMyMzhNYWRlUWlDYTZLQ01GYWRuT0FsRzlCWkQxSjV2QTdhSWlkeVlTOTJ6R2JvMG43Mkx0cDNjbGVIcV9vaWMxclNSMWh6OVQ0SV9PMnBlZFRJRWJaZmRFTnhsZnI?oc=5",
-      "locator": null,
-      "published_at": "2025-12-09"
-    },
-    "extracted_at": "2026-09-12T09:20:27.932122",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_d1f5e5a66f",
-    "company_id": "skild",
-    "metric": "valuation",
-    "value": 14000000000.0,
-    "unit": "USD",
-    "raw_text": "$14B valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "techfundingnews.com",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQckJtMS1TQ2ZYTGpaT2xGUE1aT1R4OWJ2U0FaOVdRV29BY0hKdHFXaEVicURLM3p2QmZ4aVdxWFMyMzhNYWRlUWlDYTZLQ01GYWRuT0FsRzlCWkQxSjV2QTdhSWlkeVlTOTJ6R2JvMG43Mkx0cDNjbGVIcV9vaWMxclNSMWh6OVQ0SV9PMnBlZFRJRWJaZmRFTnhsZnI?oc=5",
-      "locator": null,
-      "published_at": "2025-12-09"
-    },
-    "extracted_at": "2026-09-12T09:20:27.932122",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {

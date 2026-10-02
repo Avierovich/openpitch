@@ -144,58 +144,6 @@
     "derivation": null
   },
   {
-    "id": "clm_09f086039d",
-    "company_id": "fireworks-ai",
-    "metric": "latest_round",
-    "value": 1500000000.0,
-    "unit": "USD",
-    "raw_text": "Fireworks AI Raises $1.5B Series D at $17.5B valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Portal ERP",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUWdyWGlBMWVKUUVJVmlXMzNpam5jcGM3cmZNdndzdlNhUTBhVVFVMllnUmN5Uk8tTms4T2JnVWNXempXS2lqRk00b3hQWDJLRFE5cHk0RzlldWdLdVgzMHViZzhoUkRiVEE3aXgteU5GQjAxVFhHTXpXWWRlUWVvN1JCU1BGQVBKVVE?oc=5",
-      "locator": null,
-      "published_at": "2026-07-18"
-    },
-    "extracted_at": "2026-09-26T09:51:51.353222",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_d79dfacd90",
-    "company_id": "fireworks-ai",
-    "metric": "valuation",
-    "value": 17500000000.0,
-    "unit": "USD",
-    "raw_text": "$17.5B valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Portal ERP",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUWdyWGlBMWVKUUVJVmlXMzNpam5jcGM3cmZNdndzdlNhUTBhVVFVMllnUmN5Uk8tTms4T2JnVWNXempXS2lqRk00b3hQWDJLRFE5cHk0RzlldWdLdVgzMHViZzhoUkRiVEE3aXgteU5GQjAxVFhHTXpXWWRlUWVvN1JCU1BGQVBKVVE?oc=5",
-      "locator": null,
-      "published_at": "2026-07-18"
-    },
-    "extracted_at": "2026-09-26T09:51:51.353222",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_7e05b89275",
     "company_id": "fireworks-ai",
     "metric": "latest_round",
@@ -265,6 +213,156 @@
     "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_0a618f9044",
+    "company_id": "fireworks-ai",
+    "metric": "valuation",
+    "value": 4000000000.0,
+    "unit": "USD",
+    "raw_text": "at $4bn valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "datacenterdynamics.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ19sdEJUMUZLVkMwVVVncGJMQkN1WWtFTzU5M2doRHE2WktxME9ZWHF0dUktLTZxa1ZJN1MtWjBPUlVTV1ZnUlJ6RkpsY2QtSWUyMnhQWDlkYWo1NE1GNl9wbVpka3RjZEl6dU9TTGNOR3JURFpIYS12RE05UHpwRndEOG45OE5qbkRTSjJGNjhpclpOZmIyT2RKSWFIZnpObFRPT2xDR3Y1Zw?oc=5",
+      "locator": null,
+      "published_at": "2025-07-29"
+    },
+    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_eee50fb7f3",
+    "company_id": "fireworks-ai",
+    "metric": "open_roles",
+    "value": 86.0,
+    "unit": null,
+    "raw_text": "Showing 86 positions",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fireworks.ai",
+      "url": "https://fireworks.ai/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-02T11:05:56.740593",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_52a4cefd65",
+    "company_id": "fireworks-ai",
+    "metric": "round_amount",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "Raises $1.5B Series D",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "portalerp.com",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUWdyWGlBMWVKUUVJVmlXMzNpam5jcGM3cmZNdndzdlNhUTBhVVFVMllnUmN5Uk8tTms4T2JnVWNXempXS2lqRk00b3hQWDJLRFE5cHk0RzlldWdLdVgzMHViZzhoUkRiVEE3aXgteU5GQjAxVFhHTXpXWWRlUWVvN1JCU1BGQVBKVVE?oc=5",
+      "locator": null,
+      "published_at": "2026-07-18"
+    },
+    "extracted_at": "2026-10-02T11:05:56.740593",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_54f4931b2a",
+    "company_id": "fireworks-ai",
+    "metric": "valuation",
+    "value": 17500000000.0,
+    "unit": "USD",
+    "raw_text": "$17.5B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "portalerp.com",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUWdyWGlBMWVKUUVJVmlXMzNpam5jcGM3cmZNdndzdlNhUTBhVVFVMllnUmN5Uk8tTms4T2JnVWNXempXS2lqRk00b3hQWDJLRFE5cHk0RzlldWdLdVgzMHViZzhoUkRiVEE3aXgteU5GQjAxVFhHTXpXWWRlUWVvN1JCU1BGQVBKVVE?oc=5",
+      "locator": null,
+      "published_at": "2026-07-18"
+    },
+    "extracted_at": "2026-10-02T11:05:56.740593",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_09f086039d",
+    "company_id": "fireworks-ai",
+    "metric": "latest_round",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "Fireworks AI Raises $1.5B Series D at $17.5B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Portal ERP",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUWdyWGlBMWVKUUVJVmlXMzNpam5jcGM3cmZNdndzdlNhUTBhVVFVMllnUmN5Uk8tTms4T2JnVWNXempXS2lqRk00b3hQWDJLRFE5cHk0RzlldWdLdVgzMHViZzhoUkRiVEE3aXgteU5GQjAxVFhHTXpXWWRlUWVvN1JCU1BGQVBKVVE?oc=5",
+      "locator": null,
+      "published_at": "2026-07-18"
+    },
+    "extracted_at": "2026-09-26T09:51:51.353222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_d79dfacd90",
+    "company_id": "fireworks-ai",
+    "metric": "valuation",
+    "value": 17500000000.0,
+    "unit": "USD",
+    "raw_text": "$17.5B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Portal ERP",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUWdyWGlBMWVKUUVJVmlXMzNpam5jcGM3cmZNdndzdlNhUTBhVVFVMllnUmN5Uk8tTms4T2JnVWNXempXS2lqRk00b3hQWDJLRFE5cHk0RzlldWdLdVgzMHViZzhoUkRiVEE3aXgteU5GQjAxVFhHTXpXWWRlUWVvN1JCU1BGQVBKVVE?oc=5",
+      "locator": null,
+      "published_at": "2026-07-18"
+    },
+    "extracted_at": "2026-09-26T09:51:51.353222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -462,30 +560,6 @@
     "extracted_at": "2026-09-25T10:09:44.175619",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.225,
-    "derivation": null
-  },
-  {
-    "id": "clm_eee50fb7f3",
-    "company_id": "fireworks-ai",
-    "metric": "open_roles",
-    "value": 86.0,
-    "unit": null,
-    "raw_text": "Showing 86 positions",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "fireworks.ai",
-      "url": "https://fireworks.ai/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-09-30T11:06:00.704755",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
     "derivation": null
   },
   {
@@ -903,32 +977,6 @@
     "extracted_at": "2026-09-14T10:31:29.338960",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_0a618f9044",
-    "company_id": "fireworks-ai",
-    "metric": "valuation",
-    "value": 4000000000.0,
-    "unit": "USD",
-    "raw_text": "at $4bn valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "datacenterdynamics.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ19sdEJUMUZLVkMwVVVncGJMQkN1WWtFTzU5M2doRHE2WktxME9ZWHF0dUktLTZxa1ZJN1MtWjBPUlVTV1ZnUlJ6RkpsY2QtSWUyMnhQWDlkYWo1NE1GNl9wbVpka3RjZEl6dU9TTGNOR3JURFpIYS12RE05UHpwRndEOG45OE5qbkRTSjJGNjhpclpOZmIyT2RKSWFIZnpObFRPT2xDR3Y1Zw?oc=5",
-      "locator": null,
-      "published_at": "2025-07-29"
-    },
-    "extracted_at": "2026-09-14T10:31:29.338960",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
     "derivation": null
   }
 ]

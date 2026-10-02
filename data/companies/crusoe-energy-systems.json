@@ -9,9 +9,60 @@
   "summary": "Crusoe Energy Systems provides energy management solutions and services for businesses, helping them optimize their energy usage and reduce waste.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 87.1,
+  "vc_attention_score": 87.0,
   "universe_rank": 23,
   "metrics": {
+    "arr": {
+      "metric": "arr",
+      "value": 290700000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-09-02",
+      "estimate_type": "reported",
+      "confidence": 0.292,
+      "supporting_claims": [
+        "clm_5ad213b39b"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 290700000.0,
+        "change_pct": 0.0,
+        "since": "2026-09-02"
+      },
+      "history_ref": "history/crusoe-energy-systems/arr.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "valuation": {
+      "metric": "valuation",
+      "value": 30000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 10000000000.0,
+        "high": 30000000000.0
+      },
+      "as_of": "2026-09-08",
+      "estimate_type": "consensus",
+      "confidence": 0.955,
+      "supporting_claims": [
+        "clm_836a5f6833",
+        "clm_b6f2e6335b",
+        "clm_60aedb838e",
+        "clm_9c1f3de309",
+        "clm_382305d27b"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 30000000000.0,
+        "change_pct": -0.0,
+        "since": "2026-09-08"
+      },
+      "history_ref": "history/crusoe-energy-systems/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "total_funding": {
       "metric": "total_funding",
       "value": 3000000000.0,
@@ -33,39 +84,10 @@
       "contradiction": false,
       "delta": {
         "previous": 3000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-09-08"
       },
       "history_ref": "history/crusoe-energy-systems/total_funding.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "valuation": {
-      "metric": "valuation",
-      "value": 30000000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 10000000000.0,
-        "high": 30000000000.0
-      },
-      "as_of": "2026-09-08",
-      "estimate_type": "consensus",
-      "confidence": 0.956,
-      "supporting_claims": [
-        "clm_836a5f6833",
-        "clm_b6f2e6335b",
-        "clm_60aedb838e",
-        "clm_9c1f3de309",
-        "clm_382305d27b"
-      ],
-      "contradiction": true,
-      "delta": {
-        "previous": 30000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-09-08"
-      },
-      "history_ref": "history/crusoe-energy-systems/valuation.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -77,15 +99,19 @@
       "range": null,
       "as_of": "2026-09-22",
       "estimate_type": "consensus",
-      "confidence": 0.634,
+      "confidence": 0.884,
       "supporting_claims": [
         "clm_d7105d7626",
+        "clm_0b729c822c",
+        "clm_0b729c822c",
+        "clm_0b729c822c",
+        "clm_0b729c822c",
         "clm_0b729c822c"
       ],
       "contradiction": false,
       "delta": {
         "previous": 3900000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-09-22"
       },
       "history_ref": "history/crusoe-energy-systems/round_amount.jsonl",
@@ -98,7 +124,7 @@
       "value": 3900000000.0,
       "unit": "object",
       "range": null,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-02",
       "estimate_type": "reported",
       "confidence": 0.25,
       "supporting_claims": [
@@ -115,28 +141,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "arr": {
-      "metric": "arr",
-      "value": 290700000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-09-02",
-      "estimate_type": "reported",
-      "confidence": 0.294,
-      "supporting_claims": [
-        "clm_5ad213b39b"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 290700000.0,
-        "change_pct": 0.0,
-        "since": "2026-09-02"
-      },
-      "history_ref": "history/crusoe-energy-systems/arr.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "revenue_multiple": {
       "metric": "revenue_multiple",
       "value": 103.2,
@@ -144,7 +148,7 @@
       "range": null,
       "as_of": "2026-09-03",
       "estimate_type": "reported",
-      "confidence": 0.143,
+      "confidence": 0.142,
       "supporting_claims": [
         "drv_45e9abc6a9"
       ],
@@ -160,5 +164,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-01"
+  "last_updated": "2026-10-02"
 }

@@ -1,13 +1,13 @@
-# OpenPitch Data Quality Report - 2026-10-01
+# OpenPitch Data Quality Report - 2026-10-02
 
 ## Summary
 
-- Profiles generated: 575
-- Watchlist candidates: 1178
+- Profiles generated: 584
+- Watchlist candidates: 1187
 - Top-50 cards: 50
-- Profiles with at least one metric: 562
-- Critical issues: 104
-- Warnings: 19
+- Profiles with at least one metric: 571
+- Critical issues: 106
+- Warnings: 18
 - Discovery backlog (auto-discovered, awaiting first pipeline run): 601
 
 ## Top-50 Companies With No Metrics
@@ -112,6 +112,7 @@ None.
 - HUMAIN
 - Happy Health
 - Havoc AI
+- HavocAI
 - HealthJoy
 - Healthee
 - HiddenLayer
@@ -120,6 +121,7 @@ None.
 - Iambic Therapeutics
 - Ideogram
 - Inceptive
+- Infinigence
 - Infinigence AI
 - Instrumental
 - Iron Ox
@@ -146,7 +148,6 @@ None.
 - Fireworks AI: total_funding
 - Fireworks AI: headcount
 - Sierra: arr
-- Applied Intuition: headcount
 - Lovable: headcount
 - Celonis: arr
 - Celonis: headcount

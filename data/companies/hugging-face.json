@@ -32,8 +32,8 @@
         "clm_3673158f0f",
         "clm_5ee78e8b47",
         "clm_a8a2e46abe",
-        "clm_51edcdbaee",
         "clm_37354cd9ad",
+        "clm_51edcdbaee",
         "clm_822145abc3",
         "clm_cd0ffb97e7",
         "clm_233d96d1a0",
@@ -41,38 +41,12 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 12939249611.63,
-        "change_pct": 0.0,
+        "previous": 12943482006.49,
+        "change_pct": -0.0,
         "since": "2026-09-29"
       },
       "history_ref": "history/hugging-face/valuation.jsonl",
       "unconfirmed": true,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "revenue_growth": {
-      "metric": "revenue_growth",
-      "value": 50.0,
-      "unit": "pct",
-      "range": {
-        "low": 50.0,
-        "high": 50.0
-      },
-      "as_of": "2026-08-26",
-      "estimate_type": "consensus",
-      "confidence": 0.625,
-      "supporting_claims": [
-        "clm_9647c55ff9",
-        "clm_bbea2d4a11"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 50.0,
-        "change_pct": -0.0,
-        "since": "2026-08-26"
-      },
-      "history_ref": "history/hugging-face/revenue_growth.jsonl",
-      "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     },
@@ -86,10 +60,10 @@
       },
       "as_of": "2026-08-27",
       "estimate_type": "consensus",
-      "confidence": 0.849,
+      "confidence": 0.846,
       "supporting_claims": [
-        "clm_d75f52f65c",
         "clm_82f978a20b",
+        "clm_d75f52f65c",
         "clm_16d5ad852f",
         "clm_7ddb6c5be9",
         "clm_0422b97aaa"
@@ -112,7 +86,7 @@
       "range": null,
       "as_of": "2026-09-18",
       "estimate_type": "reported",
-      "confidence": 0.55,
+      "confidence": 0.273,
       "supporting_claims": [
         "clm_6f99945da2"
       ],
@@ -127,6 +101,32 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "revenue_growth": {
+      "metric": "revenue_growth",
+      "value": 50.0,
+      "unit": "pct",
+      "range": {
+        "low": 50.0,
+        "high": 50.0
+      },
+      "as_of": "2026-08-26",
+      "estimate_type": "consensus",
+      "confidence": 0.621,
+      "supporting_claims": [
+        "clm_9647c55ff9",
+        "clm_bbea2d4a11"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 50.0,
+        "change_pct": -0.0,
+        "since": "2026-08-26"
+      },
+      "history_ref": "history/hugging-face/revenue_growth.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "revenue_multiple": {
       "metric": "revenue_multiple",
       "value": 86.0,
@@ -134,7 +134,7 @@
       "range": null,
       "as_of": "2026-09-03",
       "estimate_type": "reported",
-      "confidence": 0.143,
+      "confidence": 0.142,
       "supporting_claims": [
         "drv_7876bfca29"
       ],
@@ -150,5 +150,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-01"
+  "last_updated": "2026-10-02"
 }

@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 84.9,
-  "universe_rank": 37,
+  "universe_rank": 36,
   "metrics": {
     "latest_round": {
       "metric": "latest_round",
@@ -22,7 +22,7 @@
       },
       "as_of": "2026-07-21",
       "estimate_type": "consensus",
-      "confidence": 0.666,
+      "confidence": 0.665,
       "supporting_claims": [
         "clm_3519111fcd",
         "clm_2dec9db7c2",
@@ -49,10 +49,11 @@
       },
       "as_of": "2026-07-21",
       "estimate_type": "consensus",
-      "confidence": 0.666,
+      "confidence": 0.767,
       "supporting_claims": [
         "clm_7d5f179dce",
         "clm_86ac6d09bd",
+        "clm_52a4cefd65",
         "clm_0d34bd659b"
       ],
       "contradiction": false,
@@ -68,7 +69,7 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 16482600971.73,
+      "value": 16618367753.88,
       "unit": "USD",
       "range": {
         "low": 17500000000.0,
@@ -76,7 +77,7 @@
       },
       "as_of": "2026-07-21",
       "estimate_type": "consensus",
-      "confidence": 0.898,
+      "confidence": 0.928,
       "supporting_claims": [
         "clm_49e853dac1",
         "clm_f1e636111b",
@@ -85,26 +86,27 @@
         "clm_043a8ab3c5",
         "clm_df906e8219",
         "clm_919d83da95",
+        "clm_54f4931b2a",
         "clm_d79dfacd90",
         "clm_5cbad608e9"
       ],
       "contradiction": false,
       "delta": {
         "previous": 16482600971.73,
-        "change_pct": 0.0,
+        "change_pct": 0.8,
         "since": "2026-07-21"
       },
       "history_ref": "history/fireworks-ai/valuation.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": 17500000000.0,
-      "confirmed_as_of": "2026-07-21"
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "open_roles": {
       "metric": "open_roles",
       "value": 80.7,
       "unit": "count",
       "range": null,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-02",
       "estimate_type": "reported",
       "confidence": 0.944,
       "supporting_claims": [
@@ -121,9 +123,9 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 80.22,
-        "change_pct": 0.6,
-        "since": "2026-09-30"
+        "previous": 80.7,
+        "change_pct": 0.0,
+        "since": "2026-10-01"
       },
       "history_ref": "history/fireworks-ai/open_roles.jsonl",
       "unconfirmed": false,
@@ -131,5 +133,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-01"
+  "last_updated": "2026-10-02"
 }

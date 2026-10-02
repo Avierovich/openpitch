@@ -12,33 +12,24 @@
   "vc_attention_score": 84.7,
   "universe_rank": 39,
   "metrics": {
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 538905177.92,
+    "arr": {
+      "metric": "arr",
+      "value": 190000000.0,
       "unit": "USD",
-      "range": {
-        "low": 550000000.0,
-        "high": 550000000.0
-      },
-      "as_of": "2026-09-09",
-      "estimate_type": "consensus",
-      "confidence": 0.894,
+      "range": null,
+      "as_of": "2026-07-03",
+      "estimate_type": "reported",
+      "confidence": 0.176,
       "supporting_claims": [
-        "clm_404a47d2e6",
-        "clm_1a3e533faf",
-        "clm_d97f6bcc74",
-        "clm_d97f6bcc74",
-        "clm_d97f6bcc74",
-        "clm_6d08df8883",
-        "clm_ca0a5003d1"
+        "clm_f0ae503ffa"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 539848251.59,
-        "change_pct": -0.2,
-        "since": "2026-09-09"
+        "previous": 190000000.0,
+        "change_pct": 0.0,
+        "since": "2026-07-03"
       },
-      "history_ref": "history/harvey-ai/total_funding.jsonl",
+      "history_ref": "history/harvey-ai/arr.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -57,12 +48,13 @@
       "supporting_claims": [
         "clm_7b69c6e8ae",
         "clm_7b69c6e8ae",
+        "clm_b66fc3e8c8",
         "clm_7b69c6e8ae",
-        "clm_29bb72d60a",
         "clm_9155b0f320",
         "clm_15f61e4e91",
+        "clm_a05d24c65a",
+        "clm_29bb72d60a",
         "clm_3fe75dc87b",
-        "clm_b66fc3e8c8",
         "clm_3ea60c56e1",
         "clm_48f06369b2"
       ],
@@ -77,24 +69,33 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "arr": {
-      "metric": "arr",
-      "value": 190000000.0,
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 539859496.93,
       "unit": "USD",
-      "range": null,
-      "as_of": "2026-07-03",
-      "estimate_type": "reported",
-      "confidence": 0.177,
+      "range": {
+        "low": 550000000.0,
+        "high": 550000000.0
+      },
+      "as_of": "2026-09-09",
+      "estimate_type": "consensus",
+      "confidence": 0.887,
       "supporting_claims": [
-        "clm_f0ae503ffa"
+        "clm_404a47d2e6",
+        "clm_1a3e533faf",
+        "clm_d97f6bcc74",
+        "clm_d97f6bcc74",
+        "clm_ca0a5003d1",
+        "clm_d97f6bcc74",
+        "clm_6d08df8883"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 190000000.0,
-        "change_pct": 0.0,
-        "since": "2026-07-03"
+        "previous": 538905177.92,
+        "change_pct": 0.2,
+        "since": "2026-09-09"
       },
-      "history_ref": "history/harvey-ai/arr.jsonl",
+      "history_ref": "history/harvey-ai/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -109,7 +110,7 @@
       },
       "as_of": "2026-09-10",
       "estimate_type": "consensus",
-      "confidence": 0.729,
+      "confidence": 0.728,
       "supporting_claims": [
         "clm_87dd8d9ac4",
         "clm_aba5e38ff1",
@@ -117,8 +118,8 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 537191886.24,
-        "change_pct": 0.8,
+        "previous": 541627912.28,
+        "change_pct": 0.0,
         "since": "2026-09-10"
       },
       "history_ref": "history/harvey-ai/round_amount.jsonl",
@@ -153,16 +154,16 @@
       "value": 81.58,
       "unit": "x",
       "range": null,
-      "as_of": "2026-09-10",
+      "as_of": "2026-08-07",
       "estimate_type": "reported",
-      "confidence": 0.152,
+      "confidence": 0.114,
       "supporting_claims": [
-        "drv_c93363b6f1"
+        "drv_fbe541c760"
       ],
       "contradiction": false,
       "delta": {
         "previous": 81.58,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-09-10"
       },
       "history_ref": "history/harvey-ai/revenue_multiple.jsonl",
@@ -171,5 +172,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-01"
+  "last_updated": "2026-10-02"
 }

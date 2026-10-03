@@ -240,6 +240,30 @@
     "derivation": null
   },
   {
+    "id": "clm_29bb72d60a",
+    "company_id": "harvey-ai",
+    "metric": "valuation",
+    "value": 15500000000.0,
+    "unit": null,
+    "raw_text": "$15.5bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbkpvX1A4MlVuYlJiX281REIyTmtRR2V0bTFTT3Y1U2RfU1UtSHFheGptZEYzT2FHRUxaZTFOeFJPMkNLZG1ubEJ2dGs0di1mdkstRW1RMkFSdjI5Ukd4UlhXc2xvLWEwU3drRUtPMGdUQmwyQ0JLYlNReEN5WkJQMmdjcnA2V1Y4Zjh3?oc=5",
+      "locator": null,
+      "published_at": "2026-08-07"
+    },
+    "extracted_at": "2026-09-20T09:44:05.979383",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_fe369532fe",
     "company_id": "harvey-ai",
     "metric": "valuation",
@@ -418,8 +442,8 @@
     "company_id": "harvey-ai",
     "metric": "total_funding",
     "value": 500000000.0,
-    "unit": "USD",
-    "raw_text": "with over $500M in funding from OpenAI, Sequoia, Kleiner, GV and Elad and Sarah",
+    "unit": "usd",
+    "raw_text": "over $500M in funding",
     "qualifiers": [
       "rounded"
     ],
@@ -434,7 +458,7 @@
       "locator": null,
       "published_at": "2025-02-14"
     },
-    "extracted_at": "2026-10-02T11:05:56.740593",
+    "extracted_at": "2026-10-03T10:23:28.113006",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.378,
     "derivation": null
@@ -461,30 +485,6 @@
     "extracted_at": "2026-10-02T11:05:56.740593",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_29bb72d60a",
-    "company_id": "harvey-ai",
-    "metric": "valuation",
-    "value": 15500000000.0,
-    "unit": null,
-    "raw_text": "$15.5bn valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Next Web",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbkpvX1A4MlVuYlJiX281REIyTmtRR2V0bTFTT3Y1U2RfU1UtSHFheGptZEYzT2FHRUxaZTFOeFJPMkNLZG1ubEJ2dGs0di1mdkstRW1RMkFSdjI5Ukd4UlhXc2xvLWEwU3drRUtPMGdUQmwyQ0JLYlNReEN5WkJQMmdjcnA2V1Y4Zjh3?oc=5",
-      "locator": null,
-      "published_at": "2026-08-07"
-    },
-    "extracted_at": "2026-09-20T09:44:05.979383",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -1129,7 +1129,7 @@
       "locator": null,
       "published_at": "2026-08-07"
     },
-    "extracted_at": "2026-10-02T11:05:56.740593",
+    "extracted_at": "2026-10-03T10:23:28.113006",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

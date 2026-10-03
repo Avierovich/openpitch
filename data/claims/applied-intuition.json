@@ -48,30 +48,6 @@
     "derivation": null
   },
   {
-    "id": "clm_da8f3aa7bb",
-    "company_id": "applied-intuition",
-    "metric": "headcount",
-    "value": 1000.0,
-    "unit": "engineers",
-    "raw_text": "1,000+ Engineers",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "appliedintuition.com",
-      "url": "https://appliedintuition.com/about",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
     "id": "clm_7026559435",
     "company_id": "applied-intuition",
     "metric": "latest_round",
@@ -162,7 +138,7 @@
       "locator": null,
       "published_at": null
     },
-    "extracted_at": "2026-10-02T11:05:56.740593",
+    "extracted_at": "2026-10-03T10:23:28.113006",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.25,
     "derivation": null
@@ -186,9 +162,35 @@
       "locator": null,
       "published_at": null
     },
-    "extracted_at": "2026-10-02T11:05:56.740593",
+    "extracted_at": "2026-10-03T10:23:28.113006",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_da8f3aa7bb",
+    "company_id": "applied-intuition",
+    "metric": "headcount",
+    "value": 1000.0,
+    "unit": null,
+    "raw_text": "1,000+ Engineers",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "appliedintuition.com",
+      "url": "https://appliedintuition.com/about",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-03T10:23:28.113006",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.175,
     "derivation": null
   },
   {

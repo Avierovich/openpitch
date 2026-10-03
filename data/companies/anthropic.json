@@ -9,9 +9,38 @@
   "summary": "Anthropic focuses on creating reliable and understandable AI systems, particularly large language models, with an emphasis on safety research.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 99.6,
+  "vc_attention_score": 99.5,
   "universe_rank": 2,
   "metrics": {
+    "arr": {
+      "metric": "arr",
+      "value": 47000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 4590000000.0,
+        "high": 65000000000.0
+      },
+      "as_of": "2026-08-14",
+      "estimate_type": "consensus",
+      "confidence": 0.68,
+      "supporting_claims": [
+        "clm_b506604679",
+        "clm_7b85d3255e",
+        "clm_b4d00879e6",
+        "clm_f60f66d09d",
+        "clm_733be3c68d"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 47000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-08-14"
+      },
+      "history_ref": "history/anthropic/arr.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "valuation": {
       "metric": "valuation",
       "value": 967864290156.74,
@@ -29,8 +58,8 @@
         "clm_f58aa62a72",
         "clm_aae07090a5",
         "clm_58ef87660d",
-        "clm_48ed28ce2d",
         "clm_8bdf295605",
+        "clm_48ed28ce2d",
         "clm_ab3b624118",
         "clm_107903b889",
         "clm_c6d88dda46",
@@ -55,35 +84,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "arr": {
-      "metric": "arr",
-      "value": 47000000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 4590000000.0,
-        "high": 65000000000.0
-      },
-      "as_of": "2026-08-14",
-      "estimate_type": "consensus",
-      "confidence": 0.683,
-      "supporting_claims": [
-        "clm_b506604679",
-        "clm_7b85d3255e",
-        "clm_b4d00879e6",
-        "clm_f60f66d09d",
-        "clm_733be3c68d"
-      ],
-      "contradiction": true,
-      "delta": {
-        "previous": 47000000000.0,
-        "change_pct": -0.0,
-        "since": "2026-08-14"
-      },
-      "history_ref": "history/anthropic/arr.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "round_amount": {
       "metric": "round_amount",
       "value": 65000000000.0,
@@ -94,12 +94,12 @@
       },
       "as_of": "2026-05-29",
       "estimate_type": "consensus",
-      "confidence": 0.866,
+      "confidence": 0.865,
       "supporting_claims": [
         "clm_fb6995e76a",
         "clm_02cdf0bd4b",
-        "clm_96d119a5cc",
         "clm_f55b5b4eca",
+        "clm_96d119a5cc",
         "clm_8e46c3ae08"
       ],
       "contradiction": false,
@@ -109,6 +109,35 @@
         "since": "2026-05-29"
       },
       "history_ref": "history/anthropic/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "open_roles": {
+      "metric": "open_roles",
+      "value": 65.62,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-10-03",
+      "estimate_type": "reported",
+      "confidence": 0.9,
+      "supporting_claims": [
+        "clm_f264cc23a8",
+        "clm_a2d6101ad5",
+        "clm_02d1638c8f",
+        "clm_c79c0adf17",
+        "clm_4fed459a2a",
+        "clm_9672c30b7b",
+        "clm_db5e8367aa",
+        "clm_fb20c1227a"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 65.0,
+        "change_pct": 1.0,
+        "since": "2026-10-01"
+      },
+      "history_ref": "history/anthropic/open_roles.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -136,7 +165,7 @@
       "contradiction": false,
       "delta": {
         "previous": 65000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-06-01"
       },
       "history_ref": "history/anthropic/total_funding.jsonl",
@@ -151,7 +180,7 @@
       "range": null,
       "as_of": "2026-06-01",
       "estimate_type": "consensus",
-      "confidence": 0.54,
+      "confidence": 0.539,
       "supporting_claims": [
         "clm_46b2f29740",
         "clm_030b770872"
@@ -163,34 +192,6 @@
         "since": "2026-06-01"
       },
       "history_ref": "history/anthropic/latest_round.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "open_roles": {
-      "metric": "open_roles",
-      "value": 65.0,
-      "unit": "count",
-      "range": null,
-      "as_of": "2026-10-02",
-      "estimate_type": "reported",
-      "confidence": 0.867,
-      "supporting_claims": [
-        "clm_f264cc23a8",
-        "clm_a2d6101ad5",
-        "clm_02d1638c8f",
-        "clm_c79c0adf17",
-        "clm_4fed459a2a",
-        "clm_9672c30b7b",
-        "clm_db5e8367aa"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 65.0,
-        "change_pct": 0.0,
-        "since": "2026-10-01"
-      },
-      "history_ref": "history/anthropic/open_roles.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -218,5 +219,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-02"
+  "last_updated": "2026-10-03"
 }

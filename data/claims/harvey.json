@@ -312,7 +312,7 @@
     "derivation": null
   },
   {
-    "id": "clm_4ea4c7df6d",
+    "id": "clm_26ec1ada19",
     "company_id": "harvey",
     "metric": "valuation",
     "value": 15500000000.0,
@@ -325,12 +325,12 @@
     },
     "source": {
       "type": "news",
-      "name": "thenextweb.com",
+      "name": "The Next Web",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbkpvX1A4MlVuYlJiX281REIyTmtRR2V0bTFTT3Y1U2RfU1UtSHFheGptZEYzT2FHRUxaZTFOeFJPMkNLZG1ubEJ2dGs0di1mdkstRW1RMkFSdjI5Ukd4UlhXc2xvLWEwU3drRUtPMGdUQmwyQ0JLYlNReEN5WkJQMmdjcnA2V1Y4Zjh3?oc=5",
       "locator": null,
       "published_at": "2026-08-07"
     },
-    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extracted_at": "2026-08-29T11:59:18.797257",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -434,7 +434,7 @@
     "derivation": null
   },
   {
-    "id": "clm_26ec1ada19",
+    "id": "clm_4ea4c7df6d",
     "company_id": "harvey",
     "metric": "valuation",
     "value": 15500000000.0,
@@ -447,12 +447,12 @@
     },
     "source": {
       "type": "news",
-      "name": "The Next Web",
+      "name": "thenextweb.com",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbkpvX1A4MlVuYlJiX281REIyTmtRR2V0bTFTT3Y1U2RfU1UtSHFheGptZEYzT2FHRUxaZTFOeFJPMkNLZG1ubEJ2dGs0di1mdkstRW1RMkFSdjI5Ukd4UlhXc2xvLWEwU3drRUtPMGdUQmwyQ0JLYlNReEN5WkJQMmdjcnA2V1Y4Zjh3?oc=5",
       "locator": null,
       "published_at": "2026-08-07"
     },
-    "extracted_at": "2026-08-29T11:59:18.797257",
+    "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -1985,7 +1985,7 @@
     "derivation": null
   },
   {
-    "id": "drv_b1e51dcc38",
+    "id": "drv_6478ca5265",
     "company_id": "harvey",
     "metric": "revenue_multiple",
     "value": 155.0,
@@ -2003,14 +2003,14 @@
       "locator": null,
       "published_at": "2026-08-07"
     },
-    "extracted_at": "2026-10-02T11:05:56.740593",
+    "extracted_at": "2026-10-03T10:23:28.113006",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_4ea4c7df6d",
+        "clm_26ec1ada19",
         "clm_0cfb5398ba"
       ]
     }

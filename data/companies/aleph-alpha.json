@@ -9,31 +9,9 @@
   "summary": "Aleph Alpha provides multimodal AI models, including large language and vision capabilities, for enterprise applications with a focus on sovereignty.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 85.6,
+  "vc_attention_score": 85.5,
   "universe_rank": 31,
   "metrics": {
-    "subscribers": {
-      "metric": "subscribers",
-      "value": 80000.0,
-      "unit": "count",
-      "range": null,
-      "as_of": "2026-10-02",
-      "estimate_type": "reported",
-      "confidence": 0.25,
-      "supporting_claims": [
-        "clm_6dbac39a5d"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 80000.0,
-        "change_pct": 0.0,
-        "since": "2026-09-03"
-      },
-      "history_ref": "history/aleph-alpha/subscribers.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "valuation": {
       "metric": "valuation",
       "value": 20000000000.0,
@@ -44,10 +22,10 @@
       },
       "as_of": "2026-09-16",
       "estimate_type": "consensus",
-      "confidence": 0.96,
+      "confidence": 0.959,
       "supporting_claims": [
-        "clm_693e6ae0df",
         "clm_e05e1186e8",
+        "clm_693e6ae0df",
         "clm_e74c6b42ff",
         "clm_0bf42c578b",
         "clm_83cb847305",
@@ -69,6 +47,28 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "subscribers": {
+      "metric": "subscribers",
+      "value": 80000.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-10-03",
+      "estimate_type": "reported",
+      "confidence": 0.25,
+      "supporting_claims": [
+        "clm_6dbac39a5d"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 80000.0,
+        "change_pct": 0.0,
+        "since": "2026-09-03"
+      },
+      "history_ref": "history/aleph-alpha/subscribers.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "round_amount": {
       "metric": "round_amount",
       "value": 600000000.0,
@@ -79,7 +79,7 @@
       },
       "as_of": "2026-04-26",
       "estimate_type": "consensus",
-      "confidence": 0.563,
+      "confidence": 0.561,
       "supporting_claims": [
         "clm_4c099ab1a8",
         "clm_b2c055d7af"
@@ -111,7 +111,7 @@
       "contradiction": false,
       "delta": {
         "previous": 600000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-04-24"
       },
       "history_ref": "history/aleph-alpha/total_funding.jsonl",
@@ -142,5 +142,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-02"
+  "last_updated": "2026-10-03"
 }

@@ -9,32 +9,9 @@
   "summary": "Anysphere (Cursor) offers an AI-native code editor designed to enhance developer productivity through integrated AI assistance.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 89.5,
+  "vc_attention_score": 89.4,
   "universe_rank": 11,
   "metrics": {
-    "arr": {
-      "metric": "arr",
-      "value": 4000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-06-16",
-      "estimate_type": "consensus",
-      "confidence": 0.321,
-      "supporting_claims": [
-        "clm_b9c75ebd29",
-        "clm_cea5733ac3"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 4000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-06-16"
-      },
-      "history_ref": "history/anysphere/arr.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "valuation": {
       "metric": "valuation",
       "value": 58546307776.63,
@@ -67,30 +44,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 900000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-06-05",
-      "estimate_type": "consensus",
-      "confidence": 0.475,
-      "supporting_claims": [
-        "clm_788a169181",
-        "clm_dfd08a3f47",
-        "clm_6438de8ecd"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 900000000.0,
-        "change_pct": 0.0,
-        "since": "2025-06-05"
-      },
-      "history_ref": "history/anysphere/total_funding.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "round_amount": {
       "metric": "round_amount",
       "value": 900000000.0,
@@ -98,7 +51,7 @@
       "range": null,
       "as_of": "2025-06-09",
       "estimate_type": "consensus",
-      "confidence": 0.326,
+      "confidence": 0.325,
       "supporting_claims": [
         "clm_aba27b1a36",
         "clm_9b3ac7d0b9",
@@ -111,6 +64,53 @@
         "since": "2025-06-09"
       },
       "history_ref": "history/anysphere/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "arr": {
+      "metric": "arr",
+      "value": 4000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-06-16",
+      "estimate_type": "consensus",
+      "confidence": 0.319,
+      "supporting_claims": [
+        "clm_b9c75ebd29",
+        "clm_cea5733ac3"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 4000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-06-16"
+      },
+      "history_ref": "history/anysphere/arr.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 900000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-06-05",
+      "estimate_type": "consensus",
+      "confidence": 0.474,
+      "supporting_claims": [
+        "clm_788a169181",
+        "clm_dfd08a3f47",
+        "clm_6438de8ecd"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 900000000.0,
+        "change_pct": -0.0,
+        "since": "2025-06-05"
+      },
+      "history_ref": "history/anysphere/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -164,7 +164,7 @@
       "value": 8.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-10-02",
+      "as_of": "2026-10-03",
       "estimate_type": "reported",
       "confidence": 0.25,
       "supporting_claims": [
@@ -183,19 +183,19 @@
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 15.0,
+      "value": 7.25,
       "unit": "x",
       "range": null,
       "as_of": "2026-06-16",
       "estimate_type": "reported",
-      "confidence": 0.103,
+      "confidence": 0.102,
       "supporting_claims": [
-        "drv_b4aba4e71e"
+        "drv_09d26dd2be"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 7.25,
-        "change_pct": 106.9,
+        "previous": 15.0,
+        "change_pct": -51.7,
         "since": "2026-06-16"
       },
       "history_ref": "history/anysphere/revenue_multiple.jsonl",
@@ -204,5 +204,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-02"
+  "last_updated": "2026-10-03"
 }

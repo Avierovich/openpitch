@@ -155,6 +155,32 @@
     "derivation": null
   },
   {
+    "id": "clm_4643b6fec9",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 11000000000.0,
+    "unit": "USD",
+    "raw_text": "Inference Firm Baseten Eyes Funding Round at $11 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "pymnts.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPc2JuLVRJdXZ3VlBlMDVfa2Ywazg2cVRTSXA0YmpkUGhtbE5TYy12QzF1b09pS0x4LWtfS1MxQ1NGb2h0ZU5UWFoyZlpsQTFyY0llYVdTZUJLLVRHdHJEN3ROQk1vcjNSVWxaRE9sYV9PR3U2b05rNnBhanlLZWszcXdMTHdOSnBPQnlCV3R1T3BuRGpKN2xaT2dJRnVReEozX1FGM24xcXBOSE85cHZlNGZwNDROaXlISEE?oc=5",
+      "locator": null,
+      "published_at": "2026-05-27"
+    },
+    "extracted_at": "2026-09-02T09:38:48.472295",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_eb78c64da2",
     "company_id": "baseten",
     "metric": "round_amount",
@@ -279,12 +305,15 @@
     "company_id": "baseten",
     "metric": "revenue_growth",
     "value": 30.0,
-    "unit": "x",
+    "unit": null,
     "raw_text": "Baseten’s 30x growth",
-    "qualifiers": [],
+    "qualifiers": [
+      "rounded",
+      "approximate"
+    ],
     "speaker": {
       "name": null,
-      "role": "founder"
+      "role": "journalist"
     },
     "source": {
       "type": "podcast",
@@ -293,9 +322,9 @@
       "locator": null,
       "published_at": "2026-05-01"
     },
-    "extracted_at": "2026-10-03T10:23:28.113006",
+    "extracted_at": "2026-10-04T11:05:13.664288",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.6,
+    "base_confidence": 0.3213,
     "derivation": null
   },
   {
@@ -1138,32 +1167,6 @@
     "extracted_at": "2026-09-16T10:35:49.404557",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_4643b6fec9",
-    "company_id": "baseten",
-    "metric": "valuation",
-    "value": 11000000000.0,
-    "unit": "USD",
-    "raw_text": "Inference Firm Baseten Eyes Funding Round at $11 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "pymnts.com",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPc2JuLVRJdXZ3VlBlMDVfa2Ywazg2cVRTSXA0YmpkUGhtbE5TYy12QzF1b09pS0x4LWtfS1MxQ1NGb2h0ZU5UWFoyZlpsQTFyY0llYVdTZUJLLVRHdHJEN3ROQk1vcjNSVWxaRE9sYV9PR3U2b05rNnBhanlLZWszcXdMTHdOSnBPQnlCV3R1T3BuRGpKN2xaT2dJRnVReEozX1FGM24xcXBOSE85cHZlNGZwNDROaXlISEE?oc=5",
-      "locator": null,
-      "published_at": "2026-05-27"
-    },
-    "extracted_at": "2026-09-02T09:38:48.472295",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -2237,7 +2240,7 @@
       "locator": null,
       "published_at": "2026-06-23"
     },
-    "extracted_at": "2026-10-03T10:23:28.113006",
+    "extracted_at": "2026-10-04T11:05:13.664288",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

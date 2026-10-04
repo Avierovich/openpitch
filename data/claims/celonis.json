@@ -1,5 +1,53 @@
 [
   {
+    "id": "clm_2557a67a3a",
+    "company_id": "celonis",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "Celonis Raises $1B In Funding",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "news.crunchbase.com",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zMWJoZy1HVWVHZW51RC1jU1QyQ1dzUGNJSWFPQVNWUWszbHJ4OGdCTVhWZE1VcWUtaXREZk4zZmZ6QzNOdXR5dUYxVks5VVRERjFCNGFZS1I1VUZpd09CZTBtT1ViSU9B?oc=5",
+      "locator": null,
+      "published_at": "2022-08-23"
+    },
+    "extracted_at": "2026-08-19T12:30:22.754661",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_2a8fd8cab3",
+    "company_id": "celonis",
+    "metric": "valuation",
+    "value": 13000000000.0,
+    "unit": "USD",
+    "raw_text": "$13B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "news.crunchbase.com",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zMWJoZy1HVWVHZW51RC1jU1QyQ1dzUGNJSWFPQVNWUWszbHJ4OGdCTVhWZE1VcWUtaXREZk4zZmZ6QzNOdXR5dUYxVks5VVRERjFCNGFZS1I1VUZpd09CZTBtT1ViSU9B?oc=5",
+      "locator": null,
+      "published_at": "2022-08-23"
+    },
+    "extracted_at": "2026-08-19T12:30:22.754661",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_bb916ad4d6",
     "company_id": "celonis",
     "metric": "headcount",
@@ -27,12 +75,12 @@
     "derivation": null
   },
   {
-    "id": "clm_2b1330ceae",
+    "id": "clm_e60f4041f3",
     "company_id": "celonis",
-    "metric": "valuation",
-    "value": 11000000000.0,
-    "unit": "USD",
-    "raw_text": "$11 Billion Valuation",
+    "metric": "round_amount",
+    "value": 50000000.0,
+    "unit": null,
+    "raw_text": "Celonis Raises $50M",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -40,23 +88,23 @@
     },
     "source": {
       "type": "news",
-      "name": "forbes.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdGxRODczc2QwMFBpQmItalFWM3NFMlJqTFJ2R1lreFNTaHA4NW1GN1JzMHNNRlkxY0J4dTZxSjBGZWpqeGYyQ1Atb3o1TDFJZ21oUGY5TnM1ckstN0RwZ1h2Q2NUTENsTFZrMzdBSmNZM2lwYzE3U2MwbEFWSVlOTF94cTY0X3RzOG0xbXlTYURqRzJ1MFlHY0RaVUJ3a2Jac092YVpTRHU?oc=5",
+      "name": "news.crunchbase.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaUNaZng1eE1wN3ozYWNvSm9mbFVYdU03MGJXOXItaVVESHhtR2JGV2lTYnZ6ZWNDeXd0TGJHSmpBR0JwRmQ3Y292eDZUOG5RYnVHM2R5dFI5V0VwQ0Y3SzM1UlBveXMyUUpFVkd5cmtoSHJ3cDdNUEZGTFplam9JX2tRNUV0X3BSMUJIX0Y4ZTNFeEQzVms2d1ZpV0xtLXUtUzV5N2ZSNkZGeUowWGI3dy12NnhPN1ltRENZeHZ3RQ?oc=5",
       "locator": null,
-      "published_at": "2021-06-02"
+      "published_at": "2018-06-26"
     },
-    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
   },
   {
-    "id": "clm_8aebd3ed43",
+    "id": "clm_31ffc3d276",
     "company_id": "celonis",
-    "metric": "round_amount",
+    "metric": "valuation",
     "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "Raises $1 Billion",
+    "unit": null,
+    "raw_text": "$1B Valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -64,12 +112,60 @@
     },
     "source": {
       "type": "news",
-      "name": "forbes.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdGxRODczc2QwMFBpQmItalFWM3NFMlJqTFJ2R1lreFNTaHA4NW1GN1JzMHNNRlkxY0J4dTZxSjBGZWpqeGYyQ1Atb3o1TDFJZ21oUGY5TnM1ckstN0RwZ1h2Q2NUTENsTFZrMzdBSmNZM2lwYzE3U2MwbEFWSVlOTF94cTY0X3RzOG0xbXlTYURqRzJ1MFlHY0RaVUJ3a2Jac092YVpTRHU?oc=5",
+      "name": "news.crunchbase.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaUNaZng1eE1wN3ozYWNvSm9mbFVYdU03MGJXOXItaVVESHhtR2JGV2lTYnZ6ZWNDeXd0TGJHSmpBR0JwRmQ3Y292eDZUOG5RYnVHM2R5dFI5V0VwQ0Y3SzM1UlBveXMyUUpFVkd5cmtoSHJ3cDdNUEZGTFplam9JX2tRNUV0X3BSMUJIX0Y4ZTNFeEQzVms2d1ZpV0xtLXUtUzV5N2ZSNkZGeUowWGI3dy12NnhPN1ltRENZeHZ3RQ?oc=5",
       "locator": null,
-      "published_at": "2021-06-02"
+      "published_at": "2018-06-26"
     },
-    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_60e7fb89b7",
+    "company_id": "celonis",
+    "metric": "total_funding",
+    "value": 290000000.0,
+    "unit": "USD",
+    "raw_text": "Celonis Raises $290M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finsmes.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb2xGc1dESGgxRGwyZG4wVHJmUFlxa3VTVDFEcElfcUVQTFFTX0k4UlVqMFg0d0t4V2V2T2VmSEVVVHJWZFZWWHNERVZSbWlDYm1rcVFYeUt2QXkwMGpQdFpxNE1YTGtiNGZBZ0RFa3pUbUxjX3dMTWNTYUhBVlRxaEJzSWM?oc=5",
+      "locator": null,
+      "published_at": "2019-11-21"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_135b455eb4",
+    "company_id": "celonis",
+    "metric": "valuation",
+    "value": 2500000000.0,
+    "unit": "USD",
+    "raw_text": "Valued at $2.5 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finsmes.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb2xGc1dESGgxRGwyZG4wVHJmUFlxa3VTVDFEcElfcUVQTFFTX0k4UlVqMFg0d0t4V2V2T2VmSEVVVHJWZFZWWHNERVZSbWlDYm1rcVFYeUt2QXkwMGpQdFpxNE1YTGtiNGZBZ0RFa3pUbUxjX3dMTWNTYUhBVlRxaEJzSWM?oc=5",
+      "locator": null,
+      "published_at": "2019-11-21"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -118,6 +214,54 @@
       "published_at": "2019-11-23"
     },
     "extracted_at": "2026-09-28T11:35:42.398874",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_2b1330ceae",
+    "company_id": "celonis",
+    "metric": "valuation",
+    "value": 11000000000.0,
+    "unit": "USD",
+    "raw_text": "$11 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "forbes.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdGxRODczc2QwMFBpQmItalFWM3NFMlJqTFJ2R1lreFNTaHA4NW1GN1JzMHNNRlkxY0J4dTZxSjBGZWpqeGYyQ1Atb3o1TDFJZ21oUGY5TnM1ckstN0RwZ1h2Q2NUTENsTFZrMzdBSmNZM2lwYzE3U2MwbEFWSVlOTF94cTY0X3RzOG0xbXlTYURqRzJ1MFlHY0RaVUJ3a2Jac092YVpTRHU?oc=5",
+      "locator": null,
+      "published_at": "2021-06-02"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_8aebd3ed43",
+    "company_id": "celonis",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "Raises $1 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "forbes.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdGxRODczc2QwMFBpQmItalFWM3NFMlJqTFJ2R1lreFNTaHA4NW1GN1JzMHNNRlkxY0J4dTZxSjBGZWpqeGYyQ1Atb3o1TDFJZ21oUGY5TnM1ckstN0RwZ1h2Q2NUTENsTFZrMzdBSmNZM2lwYzE3U2MwbEFWSVlOTF94cTY0X3RzOG0xbXlTYURqRzJ1MFlHY0RaVUJ3a2Jac092YVpTRHU?oc=5",
+      "locator": null,
+      "published_at": "2021-06-02"
+    },
+    "extracted_at": "2026-09-07T10:15:07.048991",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -461,54 +605,6 @@
     "derivation": null
   },
   {
-    "id": "clm_2557a67a3a",
-    "company_id": "celonis",
-    "metric": "total_funding",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "Celonis Raises $1B In Funding",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "news.crunchbase.com",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zMWJoZy1HVWVHZW51RC1jU1QyQ1dzUGNJSWFPQVNWUWszbHJ4OGdCTVhWZE1VcWUtaXREZk4zZmZ6QzNOdXR5dUYxVks5VVRERjFCNGFZS1I1VUZpd09CZTBtT1ViSU9B?oc=5",
-      "locator": null,
-      "published_at": "2022-08-23"
-    },
-    "extracted_at": "2026-08-19T12:30:22.754661",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_2a8fd8cab3",
-    "company_id": "celonis",
-    "metric": "valuation",
-    "value": 13000000000.0,
-    "unit": "USD",
-    "raw_text": "$13B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "news.crunchbase.com",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zMWJoZy1HVWVHZW51RC1jU1QyQ1dzUGNJSWFPQVNWUWszbHJ4OGdCTVhWZE1VcWUtaXREZk4zZmZ6QzNOdXR5dUYxVks5VVRERjFCNGFZS1I1VUZpd09CZTBtT1ViSU9B?oc=5",
-      "locator": null,
-      "published_at": "2022-08-23"
-    },
-    "extracted_at": "2026-08-19T12:30:22.754661",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_abdd22d911",
     "company_id": "celonis",
     "metric": "valuation",
@@ -677,54 +773,6 @@
     "derivation": null
   },
   {
-    "id": "clm_60e7fb89b7",
-    "company_id": "celonis",
-    "metric": "total_funding",
-    "value": 290000000.0,
-    "unit": "USD",
-    "raw_text": "Celonis Raises $290M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "finsmes.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb2xGc1dESGgxRGwyZG4wVHJmUFlxa3VTVDFEcElfcUVQTFFTX0k4UlVqMFg0d0t4V2V2T2VmSEVVVHJWZFZWWHNERVZSbWlDYm1rcVFYeUt2QXkwMGpQdFpxNE1YTGtiNGZBZ0RFa3pUbUxjX3dMTWNTYUhBVlRxaEJzSWM?oc=5",
-      "locator": null,
-      "published_at": "2019-11-21"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_135b455eb4",
-    "company_id": "celonis",
-    "metric": "valuation",
-    "value": 2500000000.0,
-    "unit": "USD",
-    "raw_text": "Valued at $2.5 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "finsmes.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb2xGc1dESGgxRGwyZG4wVHJmUFlxa3VTVDFEcElfcUVQTFFTX0k4UlVqMFg0d0t4V2V2T2VmSEVVVHJWZFZWWHNERVZSbWlDYm1rcVFYeUt2QXkwMGpQdFpxNE1YTGtiNGZBZ0RFa3pUbUxjX3dMTWNTYUhBVlRxaEJzSWM?oc=5",
-      "locator": null,
-      "published_at": "2019-11-21"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_a7375da408",
     "company_id": "celonis",
     "metric": "total_funding",
@@ -768,54 +816,6 @@
       "published_at": "2022-09-06"
     },
     "extracted_at": "2026-09-10T09:49:02.856855",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_e60f4041f3",
-    "company_id": "celonis",
-    "metric": "round_amount",
-    "value": 50000000.0,
-    "unit": null,
-    "raw_text": "Celonis Raises $50M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "news.crunchbase.com",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaUNaZng1eE1wN3ozYWNvSm9mbFVYdU03MGJXOXItaVVESHhtR2JGV2lTYnZ6ZWNDeXd0TGJHSmpBR0JwRmQ3Y292eDZUOG5RYnVHM2R5dFI5V0VwQ0Y3SzM1UlBveXMyUUpFVkd5cmtoSHJ3cDdNUEZGTFplam9JX2tRNUV0X3BSMUJIX0Y4ZTNFeEQzVms2d1ZpV0xtLXUtUzV5N2ZSNkZGeUowWGI3dy12NnhPN1ltRENZeHZ3RQ?oc=5",
-      "locator": null,
-      "published_at": "2018-06-26"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_31ffc3d276",
-    "company_id": "celonis",
-    "metric": "valuation",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "$1B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "news.crunchbase.com",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaUNaZng1eE1wN3ozYWNvSm9mbFVYdU03MGJXOXItaVVESHhtR2JGV2lTYnZ6ZWNDeXd0TGJHSmpBR0JwRmQ3Y292eDZUOG5RYnVHM2R5dFI5V0VwQ0Y3SzM1UlBveXMyUUpFVkd5cmtoSHJ3cDdNUEZGTFplam9JX2tRNUV0X3BSMUJIX0Y4ZTNFeEQzVms2d1ZpV0xtLXUtUzV5N2ZSNkZGeUowWGI3dy12NnhPN1ltRENZeHZ3RQ?oc=5",
-      "locator": null,
-      "published_at": "2018-06-26"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -1136,10 +1136,10 @@
     "derivation": null
   },
   {
-    "id": "drv_6eb563499f",
+    "id": "drv_c1dc8aa18c",
     "company_id": "celonis",
     "metric": "revenue_multiple",
-    "value": 14.27,
+    "value": 16.86,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -1154,14 +1154,14 @@
       "locator": null,
       "published_at": "2026-07-03"
     },
-    "extracted_at": "2026-10-03T10:23:28.113006",
+    "extracted_at": "2026-10-04T11:05:13.664288",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2054,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_2b1330ceae",
+        "clm_2a8fd8cab3",
         "clm_4a9d9165ee"
       ]
     }

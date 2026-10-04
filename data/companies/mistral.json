@@ -14,7 +14,7 @@
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 24371808503.13,
+      "value": 24354382161.67,
       "unit": "USD",
       "range": {
         "low": 24000000000.0,
@@ -33,15 +33,16 @@
         "clm_4b666011d8",
         "clm_aae9941553",
         "clm_2941890832",
-        "clm_c29315cc75",
-        "clm_cb7a40cacd",
+        "clm_b81ae0d30d",
         "clm_108a8e923c",
         "clm_a0046a0559",
+        "clm_8d7db69cfe",
+        "clm_c29315cc75",
+        "clm_cb7a40cacd",
         "clm_36ca1e65b7",
         "clm_6b872251b5",
         "clm_fc33d4eec3",
         "clm_2922bff03e",
-        "clm_b81ae0d30d",
         "clm_b8596474e8",
         "clm_dd4398690a",
         "clm_fda6c53052",
@@ -58,7 +59,7 @@
       "contradiction": false,
       "delta": {
         "previous": 24371808503.13,
-        "change_pct": 0.0,
+        "change_pct": -0.1,
         "since": "2026-09-09"
       },
       "history_ref": "history/mistral/valuation.jsonl",
@@ -76,7 +77,7 @@
       },
       "as_of": "2026-09-08",
       "estimate_type": "consensus",
-      "confidence": 0.814,
+      "confidence": 0.813,
       "supporting_claims": [
         "clm_68092966cf",
         "clm_1ee53d499c",
@@ -105,7 +106,7 @@
       },
       "as_of": "2026-09-08",
       "estimate_type": "consensus",
-      "confidence": 0.578,
+      "confidence": 0.576,
       "supporting_claims": [
         "clm_6d4b89bc0a",
         "clm_53b4ccd301"
@@ -154,7 +155,7 @@
       "range": null,
       "as_of": "2026-04-01",
       "estimate_type": "consensus",
-      "confidence": 0.195,
+      "confidence": 0.193,
       "supporting_claims": [
         "clm_f5ac8ef2ee",
         "clm_8f55bb6c00",
@@ -173,19 +174,19 @@
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 34.25,
+      "value": 60.0,
       "unit": "x",
       "range": null,
-      "as_of": "2026-02-11",
+      "as_of": "2026-09-08",
       "estimate_type": "reported",
-      "confidence": 0.036,
+      "confidence": 0.204,
       "supporting_claims": [
-        "drv_f00eedbe63"
+        "drv_ca27ce9a22"
       ],
       "contradiction": false,
       "delta": {
         "previous": 34.25,
-        "change_pct": 0.0,
+        "change_pct": 75.2,
         "since": "2026-02-11"
       },
       "history_ref": "history/mistral/revenue_multiple.jsonl",
@@ -194,5 +195,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-03"
+  "last_updated": "2026-10-04"
 }

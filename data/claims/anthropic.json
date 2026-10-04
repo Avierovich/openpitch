@@ -96,51 +96,27 @@
     "derivation": null
   },
   {
-    "id": "clm_58ef87660d",
+    "id": "clm_fb20c1227a",
     "company_id": "anthropic",
-    "metric": "valuation",
-    "value": 965000000000.0,
+    "metric": "open_roles",
+    "value": 70.0,
     "unit": null,
-    "raw_text": "Anthropic Raises $65B Series H at $965B Post-Money Valuation",
+    "raw_text": "AI Research & Engineering 70 Open Roles 70 Open Roles",
     "qualifiers": [],
     "speaker": {
       "name": null,
       "role": "unknown"
     },
     "source": {
-      "type": "news",
-      "name": "orrick.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVnMzZWJORkhEaWk1cDc4Q0tnSkNMQ2gtSmNiRXB4N3VFR1NBQVc3eEZ1cTdCLXY5SGt6ZEY1ZmJTVUNPMTdOM1B6Q3VmTnY1d1JtWGc5eGdlWUY2Z29YcERxUm1XWnNETHR4UXNrWjJDdzNoV3hUNkNLUWlsRkFGQjViM3Z6R3pwUTlkS0ZkZDl5U2stTU5pbW1zQWlSdw?oc=5",
+      "type": "web",
+      "name": "anthropic.com",
+      "url": "https://anthropic.com/jobs",
       "locator": null,
-      "published_at": "2026-05-29"
+      "published_at": null
     },
-    "extracted_at": "2026-07-06T14:31:09.058208",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_02cdf0bd4b",
-    "company_id": "anthropic",
-    "metric": "round_amount",
-    "value": 65000000000.0,
-    "unit": null,
-    "raw_text": "Anthropic Raises $65B Series H at $965B Post-Money Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "orrick.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVnMzZWJORkhEaWk1cDc4Q0tnSkNMQ2gtSmNiRXB4N3VFR1NBQVc3eEZ1cTdCLXY5SGt6ZEY1ZmJTVUNPMTdOM1B6Q3VmTnY1d1JtWGc5eGdlWUY2Z29YcERxUm1XWnNETHR4UXNrWjJDdzNoV3hUNkNLUWlsRkFGQjViM3Z6R3pwUTlkS0ZkZDl5U2stTU5pbW1zQWlSdw?oc=5",
-      "locator": null,
-      "published_at": "2026-05-29"
-    },
-    "extracted_at": "2026-07-06T14:31:09.058208",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.375,
+    "extracted_at": "2026-10-03T10:23:28.113006",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
     "derivation": null
   },
   {
@@ -192,6 +168,156 @@
     "derivation": null
   },
   {
+    "id": "clm_96d119a5cc",
+    "company_id": "anthropic",
+    "metric": "round_amount",
+    "value": 65000000000.0,
+    "unit": "USD",
+    "raw_text": "Anthropic Raises $65B in Series H Funding",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "swfinstitute.org",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZGZ1T3AxQTFRUkhHTUZZUXVMTklDNjFDbG9SRUVra1hoRUREbkRZNWVBcmwyQlgzamxVYVlTMHk0R1FaVWZDT2RacWpKVkdieEw1N1FRbkM0YWJDd2JjYTMzN0d0T0NlNVFrV19zS3BvbkNUVnN4ZDJtM0VtLVc1TGxLTC1idm1HV3p5Znp1a3MyZmQ5NmxuRVhza2RYRU1YenRQbF8tMFF0WFdxeFRv?oc=5",
+      "locator": null,
+      "published_at": "2026-05-29"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_48ed28ce2d",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 965000000000.0,
+    "unit": "USD",
+    "raw_text": "$965B Post-Money Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "swfinstitute.org",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZGZ1T3AxQTFRUkhHTUZZUXVMTklDNjFDbG9SRUVra1hoRUREbkRZNWVBcmwyQlgzamxVYVlTMHk0R1FaVWZDT2RacWpKVkdieEw1N1FRbkM0YWJDd2JjYTMzN0d0T0NlNVFrV19zS3BvbkNUVnN4ZDJtM0VtLVc1TGxLTC1idm1HV3p5Znp1a3MyZmQ5NmxuRVhza2RYRU1YenRQbF8tMFF0WFdxeFRv?oc=5",
+      "locator": null,
+      "published_at": "2026-05-29"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_53f79f1069",
+    "company_id": "anthropic",
+    "metric": "total_funding",
+    "value": 65000000000.0,
+    "unit": "USD",
+    "raw_text": "Anthropic’s $65B AI funding",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE94UUdJaHdEenE2dlJQbTRIcGhOUmJHX0lVeVhFVmVOTFktaFI2TGQtWU0xallOMW9EUkdZdFVVQjJoajZtUmpxTjBqWFpIdUZ4Qk9iOUl0X2g?oc=5",
+      "locator": null,
+      "published_at": "2026-08-17"
+    },
+    "extracted_at": "2026-10-04T11:05:13.664288",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_98be73ad30",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 2000000000000.0,
+    "unit": "USD",
+    "raw_text": "valuation to $2 trillion",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE94UUdJaHdEenE2dlJQbTRIcGhOUmJHX0lVeVhFVmVOTFktaFI2TGQtWU0xallOMW9EUkdZdFVVQjJoajZtUmpxTjBqWFpIdUZ4Qk9iOUl0X2g?oc=5",
+      "locator": null,
+      "published_at": "2026-08-17"
+    },
+    "extracted_at": "2026-10-04T11:05:13.664288",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_58ef87660d",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 965000000000.0,
+    "unit": null,
+    "raw_text": "Anthropic Raises $65B Series H at $965B Post-Money Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "orrick.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVnMzZWJORkhEaWk1cDc4Q0tnSkNMQ2gtSmNiRXB4N3VFR1NBQVc3eEZ1cTdCLXY5SGt6ZEY1ZmJTVUNPMTdOM1B6Q3VmTnY1d1JtWGc5eGdlWUY2Z29YcERxUm1XWnNETHR4UXNrWjJDdzNoV3hUNkNLUWlsRkFGQjViM3Z6R3pwUTlkS0ZkZDl5U2stTU5pbW1zQWlSdw?oc=5",
+      "locator": null,
+      "published_at": "2026-05-29"
+    },
+    "extracted_at": "2026-07-06T14:31:09.058208",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_02cdf0bd4b",
+    "company_id": "anthropic",
+    "metric": "round_amount",
+    "value": 65000000000.0,
+    "unit": null,
+    "raw_text": "Anthropic Raises $65B Series H at $965B Post-Money Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "orrick.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVnMzZWJORkhEaWk1cDc4Q0tnSkNMQ2gtSmNiRXB4N3VFR1NBQVc3eEZ1cTdCLXY5SGt6ZEY1ZmJTVUNPMTdOM1B6Q3VmTnY1d1JtWGc5eGdlWUY2Z29YcERxUm1XWnNETHR4UXNrWjJDdzNoV3hUNkNLUWlsRkFGQjViM3Z6R3pwUTlkS0ZkZDl5U2stTU5pbW1zQWlSdw?oc=5",
+      "locator": null,
+      "published_at": "2026-05-29"
+    },
+    "extracted_at": "2026-07-06T14:31:09.058208",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_f55b5b4eca",
     "company_id": "anthropic",
     "metric": "round_amount",
@@ -237,30 +363,6 @@
     "extracted_at": "2026-08-21T05:50:03.226228",
     "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_fb20c1227a",
-    "company_id": "anthropic",
-    "metric": "open_roles",
-    "value": 70.0,
-    "unit": null,
-    "raw_text": "AI Research & Engineering 70 Open Roles 70 Open Roles",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "anthropic.com",
-      "url": "https://anthropic.com/jobs",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-03T10:23:28.113006",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
     "derivation": null
   },
   {
@@ -315,54 +417,6 @@
     "extracted_at": "2026-09-24T09:50:31.335914",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.1764,
-    "derivation": null
-  },
-  {
-    "id": "clm_96d119a5cc",
-    "company_id": "anthropic",
-    "metric": "round_amount",
-    "value": 65000000000.0,
-    "unit": "USD",
-    "raw_text": "Anthropic Raises $65B in Series H Funding",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "swfinstitute.org",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZGZ1T3AxQTFRUkhHTUZZUXVMTklDNjFDbG9SRUVra1hoRUREbkRZNWVBcmwyQlgzamxVYVlTMHk0R1FaVWZDT2RacWpKVkdieEw1N1FRbkM0YWJDd2JjYTMzN0d0T0NlNVFrV19zS3BvbkNUVnN4ZDJtM0VtLVc1TGxLTC1idm1HV3p5Znp1a3MyZmQ5NmxuRVhza2RYRU1YenRQbF8tMFF0WFdxeFRv?oc=5",
-      "locator": null,
-      "published_at": "2026-05-29"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_48ed28ce2d",
-    "company_id": "anthropic",
-    "metric": "valuation",
-    "value": 965000000000.0,
-    "unit": "USD",
-    "raw_text": "$965B Post-Money Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "swfinstitute.org",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZGZ1T3AxQTFRUkhHTUZZUXVMTklDNjFDbG9SRUVra1hoRUREbkRZNWVBcmwyQlgzamxVYVlTMHk0R1FaVWZDT2RacWpKVkdieEw1N1FRbkM0YWJDd2JjYTMzN0d0T0NlNVFrV19zS3BvbkNUVnN4ZDJtM0VtLVc1TGxLTC1idm1HV3p5Znp1a3MyZmQ5NmxuRVhza2RYRU1YenRQbF8tMFF0WFdxeFRv?oc=5",
-      "locator": null,
-      "published_at": "2026-05-29"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -2187,7 +2241,7 @@
       "locator": null,
       "published_at": "2026-06-14"
     },
-    "extracted_at": "2026-10-03T10:23:28.113006",
+    "extracted_at": "2026-10-04T11:05:13.664288",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

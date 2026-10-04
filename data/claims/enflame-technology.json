@@ -48,7 +48,7 @@
     "derivation": null
   },
   {
-    "id": "clm_a78d636add",
+    "id": "clm_3c30954aef",
     "company_id": "enflame-technology",
     "metric": "total_funding",
     "value": 900000000.0,
@@ -61,12 +61,12 @@
     },
     "source": {
       "type": "news",
-      "name": "Electronics Weekly",
+      "name": "electronicsweekly.com",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaEtuV0VVcEVpbXc5OVNJVE9yQ2VDWUY4WWp2WHlsV19aUjMyYVNVS3VpRnJWbGN6MHRyVzI0dmE4c0VIUFVVRVFDX0RiUjgtQTlwQVBuQmlFeXBxSlZNNnlHZ2NtM01kNnNhUXRvSUcwLS0wQXI1TjhiN2FULVRZU2dn?oc=5",
       "locator": null,
       "published_at": "2026-09-14"
     },
-    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extracted_at": "2026-09-22T09:56:18.399410",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -96,7 +96,7 @@
     "derivation": null
   },
   {
-    "id": "clm_13d2c09a6a",
+    "id": "clm_d70217aa2c",
     "company_id": "enflame-technology",
     "metric": "round_amount",
     "value": 912000000.0,
@@ -109,12 +109,12 @@
     },
     "source": {
       "type": "news",
-      "name": "Reuters",
+      "name": "reuters.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOFl2bXp6c01SZmdpcUVRV1hrNTJTRlZOWFZMMWtPQkNKV05RV0FWdUppWDdMRkhiYThVZTFIVGNsV0VtNzBVUFRwbFdWU3ZZRWZrQ2M5djJiaVdoTF9kZ3RWMVhiRERfZzNhN3IwRV9FQ1kyVFo1NXpfOW1iamJrbW9ucExNM3ZFZnNYelY4RzZYWkVDd2o4aWxfdmsweW1MdnNDb1JieUwxbTJNYzJaMGNQZFY2UQ?oc=5",
       "locator": null,
       "published_at": "2026-09-09"
     },
-    "extracted_at": "2026-09-12T09:20:27.932122",
+    "extracted_at": "2026-09-30T11:06:00.704755",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -163,6 +163,81 @@
       "published_at": "2026-08-31"
     },
     "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_dd9385f1e9",
+    "company_id": "enflame-technology",
+    "metric": "round_amount",
+    "value": 6000000000.0,
+    "unit": "CNY",
+    "raw_text": "aiming to raise 6 billion yuan",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5Jd3RMTGM1VC11SzRxdHlBekJ1YllOUHRKQUJsWUxyYVFGTzlHY1ItRjh2UlFRa0w4VFYtUHpHNHlFTTZaajlkNU1Fd3FJRlh5Yk5KOHA2MDhxVlFfR2dCUzQwZ3FKalE3VDR1d2pNOHI2b2NfWGc?oc=5",
+      "locator": null,
+      "published_at": "2026-08-24"
+    },
+    "extracted_at": "2026-10-04T11:05:13.664288",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_a78d636add",
+    "company_id": "enflame-technology",
+    "metric": "total_funding",
+    "value": 900000000.0,
+    "unit": "USD",
+    "raw_text": "Enflame raises $900m",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Electronics Weekly",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaEtuV0VVcEVpbXc5OVNJVE9yQ2VDWUY4WWp2WHlsV19aUjMyYVNVS3VpRnJWbGN6MHRyVzI0dmE4c0VIUFVVRVFDX0RiUjgtQTlwQVBuQmlFeXBxSlZNNnlHZ2NtM01kNnNhUXRvSUcwLS0wQXI1TjhiN2FULVRZU2dn?oc=5",
+      "locator": null,
+      "published_at": "2026-09-14"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_13d2c09a6a",
+    "company_id": "enflame-technology",
+    "metric": "round_amount",
+    "value": 912000000.0,
+    "unit": "USD",
+    "raw_text": "$912 million IPO",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOFl2bXp6c01SZmdpcUVRV1hrNTJTRlZOWFZMMWtPQkNKV05RV0FWdUppWDdMRkhiYThVZTFIVGNsV0VtNzBVUFRwbFdWU3ZZRWZrQ2M5djJiaVdoTF9kZ3RWMVhiRERfZzNhN3IwRV9FQ1kyVFo1NXpfOW1iamJrbW9ucExNM3ZFZnNYelY4RzZYWkVDd2o4aWxfdmsweW1MdnNDb1JieUwxbTJNYzJaMGNQZFY2UQ?oc=5",
+      "locator": null,
+      "published_at": "2026-09-09"
+    },
+    "extracted_at": "2026-09-12T09:20:27.932122",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -264,30 +339,6 @@
     "extracted_at": "2026-09-17T10:01:41.438182",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_d70217aa2c",
-    "company_id": "enflame-technology",
-    "metric": "round_amount",
-    "value": 912000000.0,
-    "unit": "USD",
-    "raw_text": "$912 million IPO",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOFl2bXp6c01SZmdpcUVRV1hrNTJTRlZOWFZMMWtPQkNKV05RV0FWdUppWDdMRkhiYThVZTFIVGNsV0VtNzBVUFRwbFdWU3ZZRWZrQ2M5djJiaVdoTF9kZ3RWMVhiRERfZzNhN3IwRV9FQ1kyVFo1NXpfOW1iamJrbW9ucExNM3ZFZnNYelY4RzZYWkVDd2o4aWxfdmsweW1MdnNDb1JieUwxbTJNYzJaMGNQZFY2UQ?oc=5",
-      "locator": null,
-      "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-30T11:06:00.704755",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -512,30 +563,6 @@
     "extracted_at": "2026-09-25T10:09:44.175619",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_3c30954aef",
-    "company_id": "enflame-technology",
-    "metric": "total_funding",
-    "value": 900000000.0,
-    "unit": "USD",
-    "raw_text": "Enflame raises $900m",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "electronicsweekly.com",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaEtuV0VVcEVpbXc5OVNJVE9yQ2VDWUY4WWp2WHlsV19aUjMyYVNVS3VpRnJWbGN6MHRyVzI0dmE4c0VIUFVVRVFDX0RiUjgtQTlwQVBuQmlFeXBxSlZNNnlHZ2NtM01kNnNhUXRvSUcwLS0wQXI1TjhiN2FULVRZU2dn?oc=5",
-      "locator": null,
-      "published_at": "2026-09-14"
-    },
-    "extracted_at": "2026-09-22T09:56:18.399410",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {

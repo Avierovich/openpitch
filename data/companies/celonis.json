@@ -9,27 +9,33 @@
   "summary": "Celonis offers a process mining and execution management software that uses AI to analyze and improve business processes. It helps companies optimize operations and achieve business goals.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 84.0,
+  "vc_attention_score": 83.9,
   "universe_rank": 47,
   "metrics": {
-    "headcount": {
-      "metric": "headcount",
-      "value": 3000.0,
-      "unit": "count",
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 1000000000.0,
+      "unit": "USD",
       "range": null,
-      "as_of": "2026-10-03",
-      "estimate_type": "reported",
-      "confidence": 0.191,
+      "as_of": "2026-09-15",
+      "estimate_type": "consensus",
+      "confidence": 0.678,
       "supporting_claims": [
-        "clm_bb916ad4d6"
+        "clm_2557a67a3a",
+        "clm_c3f55fe0a8",
+        "clm_9373310818",
+        "clm_b4e580e0b2",
+        "clm_a7375da408",
+        "clm_f0638776aa",
+        "clm_538b6cd945"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 3000.0,
+        "previous": 1000000000.0,
         "change_pct": 0.0,
-        "since": "2026-08-19"
+        "since": "2026-09-15"
       },
-      "history_ref": "history/celonis/headcount.jsonl",
+      "history_ref": "history/celonis/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -44,17 +50,17 @@
       },
       "as_of": "2026-08-17",
       "estimate_type": "consensus",
-      "confidence": 0.713,
+      "confidence": 0.712,
       "supporting_claims": [
         "clm_2b1330ceae",
         "clm_93f95c055d",
         "clm_ad6d4e962a",
         "clm_ae195d4c38",
+        "clm_2a8fd8cab3",
         "clm_e34f5ce92d",
         "clm_7bca17c104",
         "clm_0b81e88e78",
         "clm_a763c890a1",
-        "clm_2a8fd8cab3",
         "clm_abdd22d911",
         "clm_df8f1ec2d9",
         "clm_12e0450ab9",
@@ -66,11 +72,33 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 12979111014.19,
+        "previous": 12979294492.1,
         "change_pct": 0.0,
         "since": "2026-08-17"
       },
       "history_ref": "history/celonis/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "headcount": {
+      "metric": "headcount",
+      "value": 3000.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-10-04",
+      "estimate_type": "reported",
+      "confidence": 0.191,
+      "supporting_claims": [
+        "clm_bb916ad4d6"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 3000.0,
+        "change_pct": 0.0,
+        "since": "2026-08-19"
+      },
+      "history_ref": "history/celonis/headcount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -90,38 +118,10 @@
       "contradiction": false,
       "delta": {
         "previous": 400000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2022-09-06"
       },
       "history_ref": "history/celonis/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 1000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-09-15",
-      "estimate_type": "consensus",
-      "confidence": 0.678,
-      "supporting_claims": [
-        "clm_c3f55fe0a8",
-        "clm_9373310818",
-        "clm_2557a67a3a",
-        "clm_b4e580e0b2",
-        "clm_a7375da408",
-        "clm_f0638776aa",
-        "clm_538b6cd945"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-09-15"
-      },
-      "history_ref": "history/celonis/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -133,7 +133,7 @@
       "range": null,
       "as_of": "2026-07-03",
       "estimate_type": "reported",
-      "confidence": 0.198,
+      "confidence": 0.196,
       "supporting_claims": [
         "clm_4a9d9165ee"
       ],
@@ -172,19 +172,19 @@
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 14.27,
+      "value": 16.86,
       "unit": "x",
       "range": null,
       "as_of": "2026-07-03",
       "estimate_type": "reported",
       "confidence": 0.095,
       "supporting_claims": [
-        "drv_6eb563499f"
+        "drv_c1dc8aa18c"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 3.24,
-        "change_pct": 340.4,
+        "previous": 14.27,
+        "change_pct": 18.1,
         "since": "2026-07-03"
       },
       "history_ref": "history/celonis/revenue_multiple.jsonl",
@@ -193,5 +193,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-03"
+  "last_updated": "2026-10-04"
 }

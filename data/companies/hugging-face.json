@@ -9,12 +9,12 @@
   "summary": "Hugging Face provides managed inference endpoints, enabling developers to deploy and scale machine learning models into production with low latency and high throughput. It supports various models and hardware accelerators with features like auto-scaling and load balancing.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 84.0,
+  "vc_attention_score": 83.9,
   "universe_rank": 48,
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 12947144269.28,
+      "value": 12949431706.88,
       "unit": "USD",
       "range": {
         "low": 12900000000.0,
@@ -32,9 +32,10 @@
         "clm_ab9c8336bd",
         "clm_3673158f0f",
         "clm_a8a2e46abe",
-        "clm_37354cd9ad",
-        "clm_51edcdbaee",
         "clm_039ac9b843",
+        "clm_37354cd9ad",
+        "clm_6176934bd6",
+        "clm_51edcdbaee",
         "clm_822145abc3",
         "clm_cd0ffb97e7",
         "clm_233d96d1a0",
@@ -42,12 +43,39 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 12943482006.49,
+        "previous": 12947144269.28,
         "change_pct": 0.0,
         "since": "2026-09-29"
       },
       "history_ref": "history/hugging-face/valuation.jsonl",
       "unconfirmed": true,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "revenue_growth": {
+      "metric": "revenue_growth",
+      "value": 50.0,
+      "unit": "pct",
+      "range": {
+        "low": 50.0,
+        "high": 50.0
+      },
+      "as_of": "2026-08-26",
+      "estimate_type": "consensus",
+      "confidence": 0.757,
+      "supporting_claims": [
+        "clm_9647c55ff9",
+        "clm_d52d5eba1d",
+        "clm_bbea2d4a11"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 50.0,
+        "change_pct": 0.0,
+        "since": "2026-08-26"
+      },
+      "history_ref": "history/hugging-face/revenue_growth.jsonl",
+      "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     },
@@ -61,10 +89,11 @@
       },
       "as_of": "2026-08-27",
       "estimate_type": "consensus",
-      "confidence": 0.843,
+      "confidence": 0.894,
       "supporting_claims": [
-        "clm_82f978a20b",
         "clm_d75f52f65c",
+        "clm_82f978a20b",
+        "clm_140b53041b",
         "clm_16d5ad852f",
         "clm_7ddb6c5be9",
         "clm_0422b97aaa"
@@ -80,24 +109,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "headcount": {
-      "metric": "headcount",
-      "value": 16000.0,
-      "unit": "count",
-      "range": null,
-      "as_of": "2026-09-18",
-      "estimate_type": "reported",
-      "confidence": 0.386,
-      "supporting_claims": [
-        "clm_18b5e66658"
-      ],
-      "contradiction": false,
-      "delta": null,
-      "history_ref": "history/hugging-face/headcount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "subscribers": {
       "metric": "subscribers",
       "value": 16000.0,
@@ -105,7 +116,7 @@
       "range": null,
       "as_of": "2026-09-18",
       "estimate_type": "reported",
-      "confidence": 0.271,
+      "confidence": 0.27,
       "supporting_claims": [
         "clm_6f99945da2"
       ],
@@ -120,28 +131,24 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "revenue_growth": {
-      "metric": "revenue_growth",
-      "value": 50.0,
-      "unit": "pct",
-      "range": {
-        "low": 50.0,
-        "high": 50.0
-      },
-      "as_of": "2026-08-26",
-      "estimate_type": "consensus",
-      "confidence": 0.617,
+    "headcount": {
+      "metric": "headcount",
+      "value": 16000.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-09-18",
+      "estimate_type": "reported",
+      "confidence": 0.384,
       "supporting_claims": [
-        "clm_9647c55ff9",
-        "clm_bbea2d4a11"
+        "clm_18b5e66658"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 50.0,
+        "previous": 16000.0,
         "change_pct": 0.0,
-        "since": "2026-08-26"
+        "since": "2026-09-18"
       },
-      "history_ref": "history/hugging-face/revenue_growth.jsonl",
+      "history_ref": "history/hugging-face/headcount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -153,7 +160,7 @@
       "range": null,
       "as_of": "2026-09-03",
       "estimate_type": "reported",
-      "confidence": 0.141,
+      "confidence": 0.14,
       "supporting_claims": [
         "drv_7876bfca29"
       ],
@@ -169,5 +176,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-03"
+  "last_updated": "2026-10-04"
 }

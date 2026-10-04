@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-10-03
+# OpenPitch Data Quality Report - 2026-10-04
 
 ## Summary
 
-- Profiles generated: 585
-- Watchlist candidates: 1198
+- Profiles generated: 591
+- Watchlist candidates: 1208
 - Top-50 cards: 50
-- Profiles with at least one metric: 572
-- Critical issues: 106
+- Profiles with at least one metric: 578
+- Critical issues: 107
 - Warnings: 19
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 611
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 615
 
 ## Top-50 Companies With No Metrics
 
@@ -32,6 +32,7 @@ None.
 ## Funded But No Valuation (critical — ingestion gap)
 
 - Unifonic
+- GMI Cloud
 - G42
 - FourKites
 - Carbon Robotics

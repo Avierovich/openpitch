@@ -9,7 +9,7 @@
   "summary": "Devin is an autonomous software engineering agent capable of planning, writing, debugging, and deploying code independently.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 88.6,
+  "vc_attention_score": 88.5,
   "universe_rank": 15,
   "metrics": {
     "valuation": {
@@ -33,12 +33,12 @@
         "clm_565fe5c95c",
         "clm_17732cd404",
         "clm_3fc3c4a358",
+        "clm_2fd5922763",
         "clm_2a8a421bde",
         "clm_43b37636cf",
         "clm_398834cd5d",
         "clm_5f2446e257",
         "clm_573cd4ad09",
-        "clm_2fd5922763",
         "clm_4399bb510d",
         "clm_5783ad0fcc",
         "clm_d07f74da21",
@@ -64,7 +64,7 @@
       "range": null,
       "as_of": "2025-07-18",
       "estimate_type": "reported",
-      "confidence": 0.014,
+      "confidence": 0.013,
       "supporting_claims": [
         "clm_60bff67397"
       ],
@@ -119,7 +119,7 @@
       },
       "as_of": "2026-09-09",
       "estimate_type": "consensus",
-      "confidence": 0.907,
+      "confidence": 0.906,
       "supporting_claims": [
         "clm_79f7f37333",
         "clm_2355c2a2ad",
@@ -147,11 +147,12 @@
       },
       "as_of": "2026-09-13",
       "estimate_type": "consensus",
-      "confidence": 0.819,
+      "confidence": 0.862,
       "supporting_claims": [
+        "clm_e06163dc02",
+        "clm_110e8aa810",
         "clm_1e401e5074",
         "clm_306164493b",
-        "clm_e06163dc02",
         "clm_d3080e4197"
       ],
       "contradiction": false,
@@ -172,14 +173,14 @@
       "range": null,
       "as_of": "2026-09-09",
       "estimate_type": "reported",
-      "confidence": 0.214,
+      "confidence": 0.212,
       "supporting_claims": [
         "drv_96ff13f0b8"
       ],
       "contradiction": false,
       "delta": {
         "previous": 600.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-09-09"
       },
       "history_ref": "history/devin/revenue_multiple.jsonl",
@@ -188,5 +189,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-03"
+  "last_updated": "2026-10-04"
 }

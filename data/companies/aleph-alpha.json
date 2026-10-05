@@ -12,30 +12,6 @@
   "vc_attention_score": 85.5,
   "universe_rank": 31,
   "metrics": {
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 600000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-04-24",
-      "estimate_type": "consensus",
-      "confidence": 0.497,
-      "supporting_claims": [
-        "clm_4903724852",
-        "clm_2fd518252e",
-        "clm_23dbab291e"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 600000000.0,
-        "change_pct": 0.0,
-        "since": "2026-04-24"
-      },
-      "history_ref": "history/aleph-alpha/total_funding.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": 500000000.0,
-      "confirmed_as_of": "2024-07-26"
-    },
     "valuation": {
       "metric": "valuation",
       "value": 20000000000.0,
@@ -46,14 +22,14 @@
       },
       "as_of": "2026-09-16",
       "estimate_type": "consensus",
-      "confidence": 0.959,
+      "confidence": 0.958,
       "supporting_claims": [
+        "clm_bbdfbc71aa",
         "clm_e05e1186e8",
         "clm_693e6ae0df",
         "clm_e74c6b42ff",
         "clm_0bf42c578b",
         "clm_83cb847305",
-        "clm_bbdfbc71aa",
         "clm_c4bf84a376",
         "clm_dba790de37",
         "clm_d4e5d7bb02",
@@ -71,12 +47,36 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 600000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-04-24",
+      "estimate_type": "consensus",
+      "confidence": 0.496,
+      "supporting_claims": [
+        "clm_4903724852",
+        "clm_2fd518252e",
+        "clm_23dbab291e"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 600000000.0,
+        "change_pct": 0.0,
+        "since": "2026-04-24"
+      },
+      "history_ref": "history/aleph-alpha/total_funding.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": 500000000.0,
+      "confirmed_as_of": "2024-07-26"
+    },
     "subscribers": {
       "metric": "subscribers",
       "value": 80000.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-10-04",
+      "as_of": "2026-10-05",
       "estimate_type": "reported",
       "confidence": 0.25,
       "supporting_claims": [
@@ -103,7 +103,7 @@
       },
       "as_of": "2026-04-26",
       "estimate_type": "consensus",
-      "confidence": 0.56,
+      "confidence": 0.559,
       "supporting_claims": [
         "clm_4c099ab1a8",
         "clm_b2c055d7af"
@@ -142,5 +142,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-04"
+  "last_updated": "2026-10-05"
 }

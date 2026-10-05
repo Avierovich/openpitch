@@ -14,7 +14,7 @@
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 12949431706.88,
+      "value": 12952670026.9,
       "unit": "USD",
       "range": {
         "low": 12900000000.0,
@@ -32,9 +32,10 @@
         "clm_ab9c8336bd",
         "clm_3673158f0f",
         "clm_a8a2e46abe",
-        "clm_039ac9b843",
-        "clm_37354cd9ad",
         "clm_6176934bd6",
+        "clm_37354cd9ad",
+        "clm_f200590fdc",
+        "clm_039ac9b843",
         "clm_51edcdbaee",
         "clm_822145abc3",
         "clm_cd0ffb97e7",
@@ -43,39 +44,12 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 12947144269.28,
+        "previous": 12949431706.88,
         "change_pct": 0.0,
         "since": "2026-09-29"
       },
       "history_ref": "history/hugging-face/valuation.jsonl",
       "unconfirmed": true,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "revenue_growth": {
-      "metric": "revenue_growth",
-      "value": 50.0,
-      "unit": "pct",
-      "range": {
-        "low": 50.0,
-        "high": 50.0
-      },
-      "as_of": "2026-08-26",
-      "estimate_type": "consensus",
-      "confidence": 0.757,
-      "supporting_claims": [
-        "clm_9647c55ff9",
-        "clm_d52d5eba1d",
-        "clm_bbea2d4a11"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 50.0,
-        "change_pct": 0.0,
-        "since": "2026-08-26"
-      },
-      "history_ref": "history/hugging-face/revenue_growth.jsonl",
-      "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     },
@@ -89,10 +63,12 @@
       },
       "as_of": "2026-08-27",
       "estimate_type": "consensus",
-      "confidence": 0.894,
+      "confidence": 0.949,
       "supporting_claims": [
-        "clm_d75f52f65c",
         "clm_82f978a20b",
+        "clm_f0b328f5f9",
+        "clm_277167e9bd",
+        "clm_d75f52f65c",
         "clm_140b53041b",
         "clm_16d5ad852f",
         "clm_7ddb6c5be9",
@@ -116,7 +92,7 @@
       "range": null,
       "as_of": "2026-09-18",
       "estimate_type": "reported",
-      "confidence": 0.27,
+      "confidence": 0.375,
       "supporting_claims": [
         "clm_6f99945da2"
       ],
@@ -131,6 +107,35 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "revenue_growth": {
+      "metric": "revenue_growth",
+      "value": 50.0,
+      "unit": "pct",
+      "range": {
+        "low": 50.0,
+        "high": 50.0
+      },
+      "as_of": "2026-08-26",
+      "estimate_type": "consensus",
+      "confidence": 0.902,
+      "supporting_claims": [
+        "clm_7ab6b15720",
+        "clm_96e2e603c3",
+        "clm_9647c55ff9",
+        "clm_d52d5eba1d",
+        "clm_bbea2d4a11"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 50.0,
+        "change_pct": 0.0,
+        "since": "2026-08-26"
+      },
+      "history_ref": "history/hugging-face/revenue_growth.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "headcount": {
       "metric": "headcount",
       "value": 16000.0,
@@ -138,7 +143,7 @@
       "range": null,
       "as_of": "2026-09-18",
       "estimate_type": "reported",
-      "confidence": 0.384,
+      "confidence": 0.382,
       "supporting_claims": [
         "clm_18b5e66658"
       ],
@@ -160,7 +165,7 @@
       "range": null,
       "as_of": "2026-09-03",
       "estimate_type": "reported",
-      "confidence": 0.14,
+      "confidence": 0.139,
       "supporting_claims": [
         "drv_7876bfca29"
       ],
@@ -176,5 +181,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-04"
+  "last_updated": "2026-10-05"
 }

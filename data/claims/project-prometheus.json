@@ -152,6 +152,54 @@
     "derivation": null
   },
   {
+    "id": "clm_eccf53003d",
+    "company_id": "project-prometheus",
+    "metric": "round_amount",
+    "value": 10000000000.0,
+    "unit": "USD",
+    "raw_text": "bags $10bn",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconrepublic.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOVYwM3p6NmxkMWdBRHNkY0EtSnhGelU4NzBWbWcteVM1Nm5OSF9tb1VneG9jajA2eENITHVvd0VyWXVUZUFXTVpJaTF6bU1tOW1kVXJVcDI2VFVSRHJlUHE1cExoWTZPcTZ5bHVOeFBFbDRRU2ZrWFl6akVCMVBMWG92VXFSTmdGX3RQUkczS1VKaTRaNUg1WGQ5ZGtBcDB5?oc=5",
+      "locator": null,
+      "published_at": "2026-04-24"
+    },
+    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_794f65f371",
+    "company_id": "project-prometheus",
+    "metric": "valuation",
+    "value": 38000000000.0,
+    "unit": "USD",
+    "raw_text": "$38bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "siliconrepublic.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOVYwM3p6NmxkMWdBRHNkY0EtSnhGelU4NzBWbWcteVM1Nm5OSF9tb1VneG9jajA2eENITHVvd0VyWXVUZUFXTVpJaTF6bU1tOW1kVXJVcDI2VFVSRHJlUHE1cExoWTZPcTZ5bHVOeFBFbDRRU2ZrWFl6akVCMVBMWG92VXFSTmdGX3RQUkczS1VKaTRaNUg1WGQ5ZGtBcDB5?oc=5",
+      "locator": null,
+      "published_at": "2026-04-24"
+    },
+    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_b3b2eb81c5",
     "company_id": "project-prometheus",
     "metric": "valuation",
@@ -197,6 +245,32 @@
     "extracted_at": "2026-07-06T14:31:09.058208",
     "extractor_model": "gemini-2.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_bf5e5f4930",
+    "company_id": "project-prometheus",
+    "metric": "valuation",
+    "value": 38000000000.0,
+    "unit": "USD",
+    "raw_text": "$38B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Latest news from Azerbaijan",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTXBmdm5Uc0lsZWNqZkdnWWNGYmhlemdpaE56MTZ2UFVERkFoUDVZa1ZoNllVaTRRQ21kLW43STNKeUlndlF3bnIzZnppT29qOXE0VzJnSEI4RGpVb3JKTF9EQ2V4TDZzN0VfU1ZEQnUzSDVKYmw3VUJhWFJ2Vk15N2ptdlkzRi1iaDVIc0N4aw?oc=5",
+      "locator": null,
+      "published_at": "2026-04-21"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -248,32 +322,6 @@
     "extracted_at": "2026-10-04T11:05:13.664288",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_bf5e5f4930",
-    "company_id": "project-prometheus",
-    "metric": "valuation",
-    "value": 38000000000.0,
-    "unit": "USD",
-    "raw_text": "$38B valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Latest news from Azerbaijan",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTXBmdm5Uc0lsZWNqZkdnWWNGYmhlemdpaE56MTZ2UFVERkFoUDVZa1ZoNllVaTRRQ21kLW43STNKeUlndlF3bnIzZnppT29qOXE0VzJnSEI4RGpVb3JKTF9EQ2V4TDZzN0VfU1ZEQnUzSDVKYmw3VUJhWFJ2Vk15N2ptdlkzRi1iaDVIc0N4aw?oc=5",
-      "locator": null,
-      "published_at": "2026-04-21"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -960,54 +1008,6 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORkg0d2hpemZzOXg1U1ZqYUFETjRiUmxGVTFwRVpFdTRYQzh0aUtZMllSNE9tYTVGNllteFhCM2ZyR0Y2WTBxNXVlaFNhT05xWmFhTmFLa0s5MVBxbGJhcUIzUGxBMzV4YVBlNE1aOXhWSjhsbDdKN2R1Yng3NUtsS3pvdEhGZF9LS2lBZU1uX3Vtd2E4RTdISDk3T01WSDFRLWpQM3kwYWpvUQ?oc=5",
       "locator": null,
       "published_at": "2026-06-11"
-    },
-    "extracted_at": "2026-09-14T10:31:29.338960",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_eccf53003d",
-    "company_id": "project-prometheus",
-    "metric": "round_amount",
-    "value": 10000000000.0,
-    "unit": "USD",
-    "raw_text": "bags $10bn",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "siliconrepublic.com",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOVYwM3p6NmxkMWdBRHNkY0EtSnhGelU4NzBWbWcteVM1Nm5OSF9tb1VneG9jajA2eENITHVvd0VyWXVUZUFXTVpJaTF6bU1tOW1kVXJVcDI2VFVSRHJlUHE1cExoWTZPcTZ5bHVOeFBFbDRRU2ZrWFl6akVCMVBMWG92VXFSTmdGX3RQUkczS1VKaTRaNUg1WGQ5ZGtBcDB5?oc=5",
-      "locator": null,
-      "published_at": "2026-04-24"
-    },
-    "extracted_at": "2026-09-14T10:31:29.338960",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_794f65f371",
-    "company_id": "project-prometheus",
-    "metric": "valuation",
-    "value": 38000000000.0,
-    "unit": "USD",
-    "raw_text": "$38bn valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "siliconrepublic.com",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOVYwM3p6NmxkMWdBRHNkY0EtSnhGelU4NzBWbWcteVM1Nm5OSF9tb1VneG9jajA2eENITHVvd0VyWXVUZUFXTVpJaTF6bU1tOW1kVXJVcDI2VFVSRHJlUHE1cExoWTZPcTZ5bHVOeFBFbDRRU2ZrWFl6akVCMVBMWG92VXFSTmdGX3RQUkczS1VKaTRaNUg1WGQ5ZGtBcDB5?oc=5",
-      "locator": null,
-      "published_at": "2026-04-24"
     },
     "extracted_at": "2026-09-14T10:31:29.338960",
     "extractor_model": "gemini-3.5-flash-lite",

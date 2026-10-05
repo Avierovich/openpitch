@@ -9,21 +9,24 @@
   "summary": "Anysphere creates Cursor, an AI-native code editor that assists software developers with intelligent code generation, refactoring, and debugging across entire repositories.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 89.5,
+  "vc_attention_score": 89.4,
   "universe_rank": 9,
   "metrics": {
-    "total_funding": {
-      "metric": "total_funding",
+    "round_amount": {
+      "metric": "round_amount",
       "value": 900000000.0,
       "unit": "USD",
       "range": null,
       "as_of": "2025-06-09",
       "estimate_type": "consensus",
-      "confidence": 0.475,
+      "confidence": 0.543,
       "supporting_claims": [
-        "clm_7fa74fffd6",
-        "clm_e8ae267201",
-        "clm_8d6febec4a"
+        "clm_80a6f04add",
+        "clm_08af273dc1",
+        "clm_46cf8071f4",
+        "clm_a44c8cb1d6",
+        "clm_b6af8aa900",
+        "clm_eb705a1db9"
       ],
       "contradiction": false,
       "delta": {
@@ -31,7 +34,7 @@
         "change_pct": 0.0,
         "since": "2025-06-09"
       },
-      "history_ref": "history/anysphere-cursor/total_funding.jsonl",
+      "history_ref": "history/anysphere-cursor/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -69,33 +72,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 900000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-06-09",
-      "estimate_type": "consensus",
-      "confidence": 0.544,
-      "supporting_claims": [
-        "clm_08af273dc1",
-        "clm_46cf8071f4",
-        "clm_80a6f04add",
-        "clm_a44c8cb1d6",
-        "clm_b6af8aa900",
-        "clm_eb705a1db9"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 900000000.0,
-        "change_pct": -0.0,
-        "since": "2025-06-09"
-      },
-      "history_ref": "history/anysphere-cursor/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "arr": {
       "metric": "arr",
       "value": 4000000000.0,
@@ -103,7 +79,7 @@
       "range": null,
       "as_of": "2026-06-16",
       "estimate_type": "consensus",
-      "confidence": 0.237,
+      "confidence": 0.235,
       "supporting_claims": [
         "clm_ebc093f62f",
         "clm_0d4fcaf1cf"
@@ -119,21 +95,45 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 900000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-06-09",
+      "estimate_type": "consensus",
+      "confidence": 0.474,
+      "supporting_claims": [
+        "clm_e8ae267201",
+        "clm_7fa74fffd6",
+        "clm_8d6febec4a"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 900000000.0,
+        "change_pct": 0.0,
+        "since": "2025-06-09"
+      },
+      "history_ref": "history/anysphere-cursor/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 2.25,
+      "value": 2.48,
       "unit": "x",
       "range": null,
       "as_of": "2026-06-16",
       "estimate_type": "reported",
       "confidence": 0.072,
       "supporting_claims": [
-        "drv_65071e14b5"
+        "drv_ea2631f4c2"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 2.48,
-        "change_pct": -9.3,
+        "previous": 2.25,
+        "change_pct": 10.2,
         "since": "2026-06-16"
       },
       "history_ref": "history/anysphere-cursor/revenue_multiple.jsonl",
@@ -142,5 +142,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-04"
+  "last_updated": "2026-10-05"
 }

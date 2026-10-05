@@ -48,6 +48,30 @@
     "derivation": null
   },
   {
+    "id": "clm_fb20c1227a",
+    "company_id": "anthropic",
+    "metric": "open_roles",
+    "value": 70.0,
+    "unit": null,
+    "raw_text": "AI Research & Engineering 70 Open Roles 70 Open Roles",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "anthropic.com",
+      "url": "https://anthropic.com/jobs",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-03T10:23:28.113006",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
     "id": "clm_aae07090a5",
     "company_id": "anthropic",
     "metric": "valuation",
@@ -96,27 +120,75 @@
     "derivation": null
   },
   {
-    "id": "clm_fb20c1227a",
+    "id": "clm_d54af3aa87",
     "company_id": "anthropic",
-    "metric": "open_roles",
-    "value": 70.0,
+    "metric": "total_funding",
+    "value": 65000000000.0,
     "unit": null,
-    "raw_text": "AI Research & Engineering 70 Open Roles 70 Open Roles",
+    "raw_text": "Anthropic raises $65B in Series H funding",
     "qualifiers": [],
     "speaker": {
       "name": null,
       "role": "unknown"
     },
     "source": {
-      "type": "web",
-      "name": "anthropic.com",
-      "url": "https://anthropic.com/jobs",
+      "type": "news",
+      "name": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQQlV5TEx4clZKakp6WFRhdjFlclB5bmtyaDZ4M284d3gtZ25yRWlZdXRkbk5iZTFFMXU0dE5CaWNDbUZuTDJNUk1BS21ibUphTGVleVdzRTROUTIyemJMN2RHMW1NeUF6dVhYeC1td1pzSUdIUDY2VnhIYkhDMF9ZdENsTkhJN050WEROV0NDX3RQNjFmNDRsenhyaE93LVF4MFJXbkNscFAzMjdYQWJMbW5vd0owM2xQX283eWgyVmhILVRSV0k5UWZ4YnE0YzZUcHlhNkNTVmRhMHFjQjBPZ2ZrWk1QNjRkSHB6bnRmWWt5U0swNkNHYUdyZ1JKMWkyUVMyXzFXY0l4TzNldnVSM09kZWswbVduUkNTU0M3QUNnOEdIRmtVdlQ0WWM?oc=5",
       "locator": null,
-      "published_at": null
+      "published_at": "2026-05-28"
     },
-    "extracted_at": "2026-10-03T10:23:28.113006",
+    "extracted_at": "2026-09-27T10:32:58.616902",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_c9957d5238",
+    "company_id": "anthropic",
+    "metric": "latest_round",
+    "value": 65000000000.0,
+    "unit": null,
+    "raw_text": "$65B in Series H funding",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQQlV5TEx4clZKakp6WFRhdjFlclB5bmtyaDZ4M284d3gtZ25yRWlZdXRkbk5iZTFFMXU0dE5CaWNDbUZuTDJNUk1BS21ibUphTGVleVdzRTROUTIyemJMN2RHMW1NeUF6dVhYeC1td1pzSUdIUDY2VnhIYkhDMF9ZdENsTkhJN050WEROV0NDX3RQNjFmNDRsenhyaE93LVF4MFJXbkNscFAzMjdYQWJMbW5vd0owM2xQX283eWgyVmhILVRSV0k5UWZ4YnE0YzZUcHlhNkNTVmRhMHFjQjBPZ2ZrWk1QNjRkSHB6bnRmWWt5U0swNkNHYUdyZ1JKMWkyUVMyXzFXY0l4TzNldnVSM09kZWswbVduUkNTU0M3QUNnOEdIRmtVdlQ0WWM?oc=5",
+      "locator": null,
+      "published_at": "2026-05-28"
+    },
+    "extracted_at": "2026-09-27T10:32:58.616902",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_aae07090a5",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 965000000000.0,
+    "unit": null,
+    "raw_text": "$965B post-money valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQQlV5TEx4clZKakp6WFRhdjFlclB5bmtyaDZ4M284d3gtZ25yRWlZdXRkbk5iZTFFMXU0dE5CaWNDbUZuTDJNUk1BS21ibUphTGVleVdzRTROUTIyemJMN2RHMW1NeUF6dVhYeC1td1pzSUdIUDY2VnhIYkhDMF9ZdENsTkhJN050WEROV0NDX3RQNjFmNDRsenhyaE93LVF4MFJXbkNscFAzMjdYQWJMbW5vd0owM2xQX283eWgyVmhILVRSV0k5UWZ4YnE0YzZUcHlhNkNTVmRhMHFjQjBPZ2ZrWk1QNjRkSHB6bnRmWWt5U0swNkNHYUdyZ1JKMWkyUVMyXzFXY0l4TzNldnVSM09kZWswbVduUkNTU0M3QUNnOEdIRmtVdlQ0WWM?oc=5",
+      "locator": null,
+      "published_at": "2026-05-28"
+    },
+    "extracted_at": "2026-09-27T10:32:58.616902",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -165,6 +237,59 @@
     "extracted_at": "2026-09-12T09:20:27.932122",
     "extractor_model": "gemini-3.6-flash",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_4ca01bb7ee",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 2000000000000.0,
+    "unit": "USD",
+    "raw_text": "Anthropic valuation - $2 trillion",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQnJPUjNvbW9vajhBbkQ1ZnFQaXNsNnlJMUlUcHF3d0JfVGVFNEdMeWV1LUE5Sk5yaTBDRkEwUFdkSU1QWVhNaEEwRGhCUjY4UVVtNmladDZKRkRxNVlGT0RsaERLdk5Cc3JOa3Q1LTNDbUxOOVRYcGx6azFiV2g4WEpTZGstNnY4eFhJRk12c2g0QTh1U1dmakZ4eDJDSk9TTXRfblpZNGxNd3JTdXdlVXl0cHBhdmVCLWp3LUowMWM1VFZDcEtPcW5jWXQ?oc=5",
+      "locator": null,
+      "published_at": "2026-10-05"
+    },
+    "extracted_at": "2026-10-05T12:12:41.057527",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
+    "id": "clm_ce6f5b7567",
+    "company_id": "anthropic",
+    "metric": "arr",
+    "value": 4600000000.0,
+    "unit": "USD",
+    "raw_text": "Anthropic 2025 revenue - $4.6 billion",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQnJPUjNvbW9vajhBbkQ1ZnFQaXNsNnlJMUlUcHF3d0JfVGVFNEdMeWV1LUE5Sk5yaTBDRkEwUFdkSU1QWVhNaEEwRGhCUjY4UVVtNmladDZKRkRxNVlGT0RsaERLdk5Cc3JOa3Q1LTNDbUxOOVRYcGx6azFiV2g4WEpTZGstNnY4eFhJRk12c2g0QTh1U1dmakZ4eDJDSk9TTXRfblpZNGxNd3JTdXdlVXl0cHBhdmVCLWp3LUowMWM1VFZDcEtPcW5jWXQ?oc=5",
+      "locator": null,
+      "published_at": "2026-10-05"
+    },
+    "extracted_at": "2026-10-05T12:12:41.057527",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2625,
     "derivation": null
   },
   {
@@ -417,54 +542,6 @@
     "extracted_at": "2026-09-24T09:50:31.335914",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.1764,
-    "derivation": null
-  },
-  {
-    "id": "clm_d54af3aa87",
-    "company_id": "anthropic",
-    "metric": "total_funding",
-    "value": 65000000000.0,
-    "unit": null,
-    "raw_text": "Anthropic raises $65B in Series H funding",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQQlV5TEx4clZKakp6WFRhdjFlclB5bmtyaDZ4M284d3gtZ25yRWlZdXRkbk5iZTFFMXU0dE5CaWNDbUZuTDJNUk1BS21ibUphTGVleVdzRTROUTIyemJMN2RHMW1NeUF6dVhYeC1td1pzSUdIUDY2VnhIYkhDMF9ZdENsTkhJN050WEROV0NDX3RQNjFmNDRsenhyaE93LVF4MFJXbkNscFAzMjdYQWJMbW5vd0owM2xQX283eWgyVmhILVRSV0k5UWZ4YnE0YzZUcHlhNkNTVmRhMHFjQjBPZ2ZrWk1QNjRkSHB6bnRmWWt5U0swNkNHYUdyZ1JKMWkyUVMyXzFXY0l4TzNldnVSM09kZWswbVduUkNTU0M3QUNnOEdIRmtVdlQ0WWM?oc=5",
-      "locator": null,
-      "published_at": "2026-05-28"
-    },
-    "extracted_at": "2026-09-27T10:32:58.616902",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_c9957d5238",
-    "company_id": "anthropic",
-    "metric": "latest_round",
-    "value": 65000000000.0,
-    "unit": null,
-    "raw_text": "$65B in Series H funding",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQQlV5TEx4clZKakp6WFRhdjFlclB5bmtyaDZ4M284d3gtZ25yRWlZdXRkbk5iZTFFMXU0dE5CaWNDbUZuTDJNUk1BS21ibUphTGVleVdzRTROUTIyemJMN2RHMW1NeUF6dVhYeC1td1pzSUdIUDY2VnhIYkhDMF9ZdENsTkhJN050WEROV0NDX3RQNjFmNDRsenhyaE93LVF4MFJXbkNscFAzMjdYQWJMbW5vd0owM2xQX283eWgyVmhILVRSV0k5UWZ4YnE0YzZUcHlhNkNTVmRhMHFjQjBPZ2ZrWk1QNjRkSHB6bnRmWWt5U0swNkNHYUdyZ1JKMWkyUVMyXzFXY0l4TzNldnVSM09kZWswbVduUkNTU0M3QUNnOEdIRmtVdlQ0WWM?oc=5",
-      "locator": null,
-      "published_at": "2026-05-28"
-    },
-    "extracted_at": "2026-09-27T10:32:58.616902",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -2241,7 +2318,7 @@
       "locator": null,
       "published_at": "2026-06-14"
     },
-    "extracted_at": "2026-10-04T11:05:13.664288",
+    "extracted_at": "2026-10-05T12:12:41.057527",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

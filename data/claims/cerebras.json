@@ -72,30 +72,6 @@
     "derivation": null
   },
   {
-    "id": "clm_a831cec87c",
-    "company_id": "cerebras",
-    "metric": "valuation",
-    "value": 23100000000.0,
-    "unit": "USD",
-    "raw_text": "Nvidia-rival Cerebras Systems valued at $23.1 billion in latest financing",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM3NjSl9vTHRkamlIQnJQNUlXMk9VWmFaOGhWTjBMQTVRWnNCSlIxVDItUXY5STQxLXo4bHBOTExaQUdFUUdINmQ1cWhjSmNKSnZyb0MwQzVSU1paVXYzQ2hybWtxZGpMWklSZmdNRnc2WnI2dk1VTEtOMHRuQy1BTldPYjhLV3BBUElPYm5iMUVKUUpBZklucXZsNDRkY3VHQ1VUMUhCaXNHSklkS19IRw?oc=5",
-      "locator": null,
-      "published_at": "2026-02-04"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_56476fa9d4",
     "company_id": "cerebras",
     "metric": "total_funding",
@@ -115,6 +91,54 @@
       "published_at": "2026-02-05"
     },
     "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_747ce925b2",
+    "company_id": "cerebras",
+    "metric": "round_amount",
+    "value": 100000000.0,
+    "unit": null,
+    "raw_text": "Cerebras Systems signs $100 million AI supercomputer deal with UAE's G42",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "No Priors",
+      "url": null,
+      "locator": null,
+      "published_at": "2023-08-10"
+    },
+    "extracted_at": "2026-10-05T12:12:41.057527",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3,
+    "derivation": null
+  },
+  {
+    "id": "clm_a831cec87c",
+    "company_id": "cerebras",
+    "metric": "valuation",
+    "value": 23100000000.0,
+    "unit": "USD",
+    "raw_text": "Nvidia-rival Cerebras Systems valued at $23.1 billion in latest financing",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM3NjSl9vTHRkamlIQnJQNUlXMk9VWmFaOGhWTjBMQTVRWnNCSlIxVDItUXY5STQxLXo4bHBOTExaQUdFUUdINmQ1cWhjSmNKSnZyb0MwQzVSU1paVXYzQ2hybWtxZGpMWklSZmdNRnc2WnI2dk1VTEtOMHRuQy1BTldPYjhLV3BBUElPYm5iMUVKUUpBZklucXZsNDRkY3VHQ1VUMUhCaXNHSklkS19IRw?oc=5",
+      "locator": null,
+      "published_at": "2026-02-04"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -141,30 +165,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_747ce925b2",
-    "company_id": "cerebras",
-    "metric": "round_amount",
-    "value": 100000000.0,
-    "unit": null,
-    "raw_text": "$100 million AI supercomputer deal",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "No Priors",
-      "url": null,
-      "locator": null,
-      "published_at": "2023-08-10"
-    },
-    "extracted_at": "2026-10-03T10:23:28.113006",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3,
     "derivation": null
   },
   {
@@ -1493,7 +1493,7 @@
       "locator": null,
       "published_at": "2026-08-12"
     },
-    "extracted_at": "2026-10-04T11:05:13.664288",
+    "extracted_at": "2026-10-05T12:12:41.057527",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

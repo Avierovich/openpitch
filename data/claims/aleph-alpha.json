@@ -1,5 +1,31 @@
 [
   {
+    "id": "clm_bbdfbc71aa",
+    "company_id": "aleph-alpha",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": "USD",
+    "raw_text": "$20B transatlantic AI company",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5adGI5WEd2UHBlRG9ucG1lX0Z5VWRObV9CV2w1c2tIcjROdmhvMzJrRjBpcXF0OG0ycWlyR0RqRy1YX2dfWUIzbUlrU1d3eWNiRUhwYWdtc0RQUWY5eW1OZDk1NVowY0VJMkU2d3ZOWWhtZw?oc=5",
+      "locator": null,
+      "published_at": "2026-04-24"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
     "id": "clm_70f967d8b7",
     "company_id": "aleph-alpha",
     "metric": "total_funding",
@@ -443,32 +469,6 @@
     "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.6-flash",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_bbdfbc71aa",
-    "company_id": "aleph-alpha",
-    "metric": "valuation",
-    "value": 20000000000.0,
-    "unit": "USD",
-    "raw_text": "$20B transatlantic AI company",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Next Web",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5adGI5WEd2UHBlRG9ucG1lX0Z5VWRObV9CV2w1c2tIcjROdmhvMzJrRjBpcXF0OG0ycWlyR0RqRy1YX2dfWUIzbUlrU1d3eWNiRUhwYWdtc0RQUWY5eW1OZDk1NVowY0VJMkU2d3ZOWWhtZw?oc=5",
-      "locator": null,
-      "published_at": "2026-04-24"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
     "derivation": null
   },
   {

@@ -47,9 +47,9 @@
         "clm_93952d7e80",
         "clm_728081a323",
         "clm_f99df150ea",
-        "clm_11c1af281d",
-        "clm_f531bdf667",
         "clm_9531c75902",
+        "clm_f531bdf667",
+        "clm_11c1af281d",
         "clm_8112c1bd45",
         "clm_6a88cf251c",
         "clm_7c98825f1c",
@@ -68,32 +68,6 @@
       "unconfirmed": true,
       "confirmed_value": 52000000000.0,
       "confirmed_as_of": "2026-07-16"
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 7266585230.7,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-09-15",
-      "estimate_type": "consensus",
-      "confidence": 0.651,
-      "supporting_claims": [
-        "clm_4475dcae60",
-        "clm_2c0ab77b59",
-        "clm_0e575d3120",
-        "clm_4d5e658074",
-        "clm_7bfe2b6431"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 7266585230.7,
-        "change_pct": -0.0,
-        "since": "2026-09-15"
-      },
-      "history_ref": "history/deepseek-ai/round_amount.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     },
     "total_funding": {
       "metric": "total_funding",
@@ -127,6 +101,32 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 7266585230.7,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-09-15",
+      "estimate_type": "consensus",
+      "confidence": 0.65,
+      "supporting_claims": [
+        "clm_4475dcae60",
+        "clm_2c0ab77b59",
+        "clm_0e575d3120",
+        "clm_4d5e658074",
+        "clm_7bfe2b6431"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 7266585230.7,
+        "change_pct": -0.0,
+        "since": "2026-09-15"
+      },
+      "history_ref": "history/deepseek-ai/round_amount.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "latest_round": {
       "metric": "latest_round",
       "value": 7400000000.0,
@@ -134,14 +134,14 @@
       "range": null,
       "as_of": "2026-06-20",
       "estimate_type": "reported",
-      "confidence": 0.393,
+      "confidence": 0.392,
       "supporting_claims": [
         "clm_2ab48b6dc2"
       ],
       "contradiction": false,
       "delta": {
         "previous": 7400000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-06-20"
       },
       "history_ref": "history/deepseek-ai/latest_round.jsonl",
@@ -150,5 +150,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-04"
+  "last_updated": "2026-10-05"
 }

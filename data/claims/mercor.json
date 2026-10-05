@@ -249,6 +249,32 @@
     "derivation": null
   },
   {
+    "id": "clm_dfa254cf7b",
+    "company_id": "mercor",
+    "metric": "round_amount",
+    "value": 4000000.0,
+    "unit": "USD",
+    "raw_text": "$4M+ Daily payouts",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "mercor.com",
+      "url": "https://mercor.com",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-05T12:12:41.057527",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
     "id": "clm_7ebf0a1f24",
     "company_id": "mercor",
     "metric": "round_amount",
@@ -1074,7 +1100,7 @@
       "locator": null,
       "published_at": "2026-07-25"
     },
-    "extracted_at": "2026-10-04T11:05:13.664288",
+    "extracted_at": "2026-10-05T12:12:41.057527",
     "extractor_model": "derive-engine",
     "base_confidence": 0.3312,
     "derivation": {

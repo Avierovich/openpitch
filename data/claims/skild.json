@@ -74,56 +74,6 @@
     "derivation": null
   },
   {
-    "id": "clm_e2ec8cc4d6",
-    "company_id": "skild",
-    "metric": "valuation",
-    "value": 14000000000.0,
-    "unit": "USD",
-    "raw_text": "14 billion",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Межа. Новини України.",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeThlMnJMdHJUUGQxT0tSQTlPLWFFeURxSUlpUXRremZVbTBnaHdmbDQyV0ZzZi0tRl9RczBSeEwza0EwNC1xZ2R1cVI4d2FpZ1dPMU50SW5rWkZ4OGpFWUxBVXJEUmZBUFBnWjA2clItaUl1bG41SV84SjN3WE9GRmx1SHJaaWh2Q0ZoTkhqUk9YWTNVWXdYTG1hcmx0WTJhUVBud2FR?oc=5",
-      "locator": null,
-      "published_at": "2026-01-14"
-    },
-    "extracted_at": "2026-09-23T09:52:35.463285",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_dc3c1bca51",
-    "company_id": "skild",
-    "metric": "round_amount",
-    "value": 1400000000.0,
-    "unit": "USD",
-    "raw_text": "$1.4 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Межа. Новини України.",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeThlMnJMdHJUUGQxT0tSQTlPLWFFeURxSUlpUXRremZVbTBnaHdmbDQyV0ZzZi0tRl9RczBSeEwza0EwNC1xZ2R1cVI4d2FpZ1dPMU50SW5rWkZ4OGpFWUxBVXJEUmZBUFBnWjA2clItaUl1bG41SV84SjN3WE9GRmx1SHJaaWh2Q0ZoTkhqUk9YWTNVWXdYTG1hcmx0WTJhUVBud2FR?oc=5",
-      "locator": null,
-      "published_at": "2026-01-14"
-    },
-    "extracted_at": "2026-09-23T09:52:35.463285",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_b32fa20cd6",
     "company_id": "skild",
     "metric": "round_amount",
@@ -174,6 +124,82 @@
     "derivation": null
   },
   {
+    "id": "clm_213537243b",
+    "company_id": "skild",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": null,
+    "raw_text": "$14 billion",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdXBUX2gyV0FCTjhnQ1RWeVBIQzJtdV9BZHFrdXRLYkJrZ25mbUwzejdtY1BrX01WaFJzTTRmeWtkT3JLaDZ1eUJGTkR0MGRKQUVINGg2TDZxano1OEpLcjI5bFZNSExkOUVpN0x5WGlmRHFrWm1jSFRJRUVkNXlNRGZGYmtXNkFZNWJPRWJ6TGtSX2JUSi1nbjhMNUhrRjFfRDBHM3FMLWNuR1N4RVg1XzdmOHJVNGQ2SmNaZDR4ajdLZzNPcUFlQ2JVOA?oc=5",
+      "locator": null,
+      "published_at": "2025-12-08"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_e2ec8cc4d6",
+    "company_id": "skild",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": "USD",
+    "raw_text": "14 billion",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Межа. Новини України.",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeThlMnJMdHJUUGQxT0tSQTlPLWFFeURxSUlpUXRremZVbTBnaHdmbDQyV0ZzZi0tRl9RczBSeEwza0EwNC1xZ2R1cVI4d2FpZ1dPMU50SW5rWkZ4OGpFWUxBVXJEUmZBUFBnWjA2clItaUl1bG41SV84SjN3WE9GRmx1SHJaaWh2Q0ZoTkhqUk9YWTNVWXdYTG1hcmx0WTJhUVBud2FR?oc=5",
+      "locator": null,
+      "published_at": "2026-01-14"
+    },
+    "extracted_at": "2026-09-23T09:52:35.463285",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_dc3c1bca51",
+    "company_id": "skild",
+    "metric": "round_amount",
+    "value": 1400000000.0,
+    "unit": "USD",
+    "raw_text": "$1.4 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Межа. Новини України.",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeThlMnJMdHJUUGQxT0tSQTlPLWFFeURxSUlpUXRremZVbTBnaHdmbDQyV0ZzZi0tRl9RczBSeEwza0EwNC1xZ2R1cVI4d2FpZ1dPMU50SW5rWkZ4OGpFWUxBVXJEUmZBUFBnWjA2clItaUl1bG41SV84SjN3WE9GRmx1SHJaaWh2Q0ZoTkhqUk9YWTNVWXdYTG1hcmx0WTJhUVBud2FR?oc=5",
+      "locator": null,
+      "published_at": "2026-01-14"
+    },
+    "extracted_at": "2026-09-23T09:52:35.463285",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_e8202326c7",
     "company_id": "skild",
     "metric": "total_funding",
@@ -219,32 +245,6 @@
     "extracted_at": "2026-09-17T10:01:41.438182",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_213537243b",
-    "company_id": "skild",
-    "metric": "valuation",
-    "value": 14000000000.0,
-    "unit": null,
-    "raw_text": "$14 billion",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdXBUX2gyV0FCTjhnQ1RWeVBIQzJtdV9BZHFrdXRLYkJrZ25mbUwzejdtY1BrX01WaFJzTTRmeWtkT3JLaDZ1eUJGTkR0MGRKQUVINGg2TDZxano1OEpLcjI5bFZNSExkOUVpN0x5WGlmRHFrWm1jSFRJRUVkNXlNRGZGYmtXNkFZNWJPRWJ6TGtSX2JUSi1nbjhMNUhrRjFfRDBHM3FMLWNuR1N4RVg1XzdmOHJVNGQ2SmNaZDR4ajdLZzNPcUFlQ2JVOA?oc=5",
-      "locator": null,
-      "published_at": "2025-12-08"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {

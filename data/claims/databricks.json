@@ -220,6 +220,80 @@
     "derivation": null
   },
   {
+    "id": "clm_5e4a85be56",
+    "company_id": "databricks",
+    "metric": "latest_round",
+    "value": 5000000000.0,
+    "unit": "USD",
+    "raw_text": "Databricks closes $5B round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTTVPcmM0d1pkUmpuVUFPNWRtSFl6a0x1MXhtSnlkV2kwX2tHV1pvaUMtVG5hN1VobXJFUjVfRTI5TU43S1RRX0tGbDNPZVAyTjFub2IxX2JzVkwxN05nQmZjdTc4OUlTa1EzTDk0bkVuN0xWajZjTnpwbTBDcUVhWnZ1WGxGenJ5cl9MaEV3NWEzTXJ3a3FacHFEMA?oc=5",
+      "locator": null,
+      "published_at": "2026-08-13"
+    },
+    "extracted_at": "2026-10-02T11:05:56.740593",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_8226c70dcc",
+    "company_id": "databricks",
+    "metric": "valuation",
+    "value": 190000000000.0,
+    "unit": "USD",
+    "raw_text": "$190B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTTVPcmM0d1pkUmpuVUFPNWRtSFl6a0x1MXhtSnlkV2kwX2tHV1pvaUMtVG5hN1VobXJFUjVfRTI5TU43S1RRX0tGbDNPZVAyTjFub2IxX2JzVkwxN05nQmZjdTc4OUlTa1EzTDk0bkVuN0xWajZjTnpwbTBDcUVhWnZ1WGxGenJ5cl9MaEV3NWEzTXJ3a3FacHFEMA?oc=5",
+      "locator": null,
+      "published_at": "2026-08-13"
+    },
+    "extracted_at": "2026-10-02T11:05:56.740593",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_40018b8e8e",
+    "company_id": "databricks",
+    "metric": "arr",
+    "value": 7000000000.0,
+    "unit": "USD",
+    "raw_text": "revenue tops $7B run-rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTTVPcmM0d1pkUmpuVUFPNWRtSFl6a0x1MXhtSnlkV2kwX2tHV1pvaUMtVG5hN1VobXJFUjVfRTI5TU43S1RRX0tGbDNPZVAyTjFub2IxX2JzVkwxN05nQmZjdTc4OUlTa1EzTDk0bkVuN0xWajZjTnpwbTBDcUVhWnZ1WGxGenJ5cl9MaEV3NWEzTXJ3a3FacHFEMA?oc=5",
+      "locator": null,
+      "published_at": "2026-08-13"
+    },
+    "extracted_at": "2026-10-02T11:05:56.740593",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
     "id": "clm_8e7a22363d",
     "company_id": "databricks",
     "metric": "round_amount",
@@ -341,80 +415,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_5e4a85be56",
-    "company_id": "databricks",
-    "metric": "latest_round",
-    "value": 5000000000.0,
-    "unit": "USD",
-    "raw_text": "Databricks closes $5B round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "finance.yahoo.com",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTTVPcmM0d1pkUmpuVUFPNWRtSFl6a0x1MXhtSnlkV2kwX2tHV1pvaUMtVG5hN1VobXJFUjVfRTI5TU43S1RRX0tGbDNPZVAyTjFub2IxX2JzVkwxN05nQmZjdTc4OUlTa1EzTDk0bkVuN0xWajZjTnpwbTBDcUVhWnZ1WGxGenJ5cl9MaEV3NWEzTXJ3a3FacHFEMA?oc=5",
-      "locator": null,
-      "published_at": "2026-08-13"
-    },
-    "extracted_at": "2026-10-02T11:05:56.740593",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_8226c70dcc",
-    "company_id": "databricks",
-    "metric": "valuation",
-    "value": 190000000000.0,
-    "unit": "USD",
-    "raw_text": "$190B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "finance.yahoo.com",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTTVPcmM0d1pkUmpuVUFPNWRtSFl6a0x1MXhtSnlkV2kwX2tHV1pvaUMtVG5hN1VobXJFUjVfRTI5TU43S1RRX0tGbDNPZVAyTjFub2IxX2JzVkwxN05nQmZjdTc4OUlTa1EzTDk0bkVuN0xWajZjTnpwbTBDcUVhWnZ1WGxGenJ5cl9MaEV3NWEzTXJ3a3FacHFEMA?oc=5",
-      "locator": null,
-      "published_at": "2026-08-13"
-    },
-    "extracted_at": "2026-10-02T11:05:56.740593",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_40018b8e8e",
-    "company_id": "databricks",
-    "metric": "arr",
-    "value": 7000000000.0,
-    "unit": "USD",
-    "raw_text": "revenue tops $7B run-rate",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "finance.yahoo.com",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTTVPcmM0d1pkUmpuVUFPNWRtSFl6a0x1MXhtSnlkV2kwX2tHV1pvaUMtVG5hN1VobXJFUjVfRTI5TU43S1RRX0tGbDNPZVAyTjFub2IxX2JzVkwxN05nQmZjdTc4OUlTa1EzTDk0bkVuN0xWajZjTnpwbTBDcUVhWnZ1WGxGenJ5cl9MaEV3NWEzTXJ3a3FacHFEMA?oc=5",
-      "locator": null,
-      "published_at": "2026-08-13"
-    },
-    "extracted_at": "2026-10-02T11:05:56.740593",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -1406,7 +1406,7 @@
       "locator": null,
       "published_at": "2026-08-13"
     },
-    "extracted_at": "2026-10-05T12:12:41.057527",
+    "extracted_at": "2026-10-06T12:25:15.330748",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {

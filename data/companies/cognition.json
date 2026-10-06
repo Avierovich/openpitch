@@ -9,101 +9,9 @@
   "summary": "Cognition (Devin) is an autonomous AI software engineer capable of performing complex development tasks from planning to execution.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 88.5,
+  "vc_attention_score": 88.4,
   "universe_rank": 16,
   "metrics": {
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 1000000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 492000000.0,
-        "high": 2000000000.0
-      },
-      "as_of": "2026-08-13",
-      "estimate_type": "consensus",
-      "confidence": 0.88,
-      "supporting_claims": [
-        "clm_677ec9b24b",
-        "clm_c0fd71a836",
-        "clm_7ba3367179",
-        "clm_d8ccc7bb18"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-08-13"
-      },
-      "history_ref": "history/cognition/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "valuation": {
-      "metric": "valuation",
-      "value": 46319576497.35,
-      "unit": "USD",
-      "range": {
-        "low": 25000000000.0,
-        "high": 48000000000.0
-      },
-      "as_of": "2026-09-10",
-      "estimate_type": "consensus",
-      "confidence": 0.97,
-      "supporting_claims": [
-        "clm_5ec046106d",
-        "clm_110aecb842",
-        "clm_d5c99bc4e4",
-        "clm_460f16a780",
-        "clm_74705f76b0",
-        "clm_c1021185f0",
-        "clm_b3c791d5db",
-        "clm_625cca201a",
-        "clm_ec41a2313c",
-        "clm_6deb29faac",
-        "clm_33f9103995",
-        "clm_5f89f047fc",
-        "clm_3cd6da783e"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 46319576497.35,
-        "change_pct": 0.0,
-        "since": "2026-09-10"
-      },
-      "history_ref": "history/cognition/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "arr": {
-      "metric": "arr",
-      "value": 1000000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 1000000000.0,
-        "high": 1000000000.0
-      },
-      "as_of": "2026-09-27",
-      "estimate_type": "consensus",
-      "confidence": 0.761,
-      "supporting_claims": [
-        "clm_47578cb676",
-        "clm_750f831780",
-        "clm_2440dbf87a"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-09-27"
-      },
-      "history_ref": "history/cognition/arr.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "total_funding": {
       "metric": "total_funding",
       "value": 2000000000.0,
@@ -125,10 +33,103 @@
       "contradiction": false,
       "delta": {
         "previous": 2000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-09-09"
       },
       "history_ref": "history/cognition/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "valuation": {
+      "metric": "valuation",
+      "value": 46077744481.67,
+      "unit": "USD",
+      "range": {
+        "low": 25000000000.0,
+        "high": 48000000000.0
+      },
+      "as_of": "2026-09-10",
+      "estimate_type": "consensus",
+      "confidence": 0.97,
+      "supporting_claims": [
+        "clm_f4f8f68610",
+        "clm_5ec046106d",
+        "clm_110aecb842",
+        "clm_d5c99bc4e4",
+        "clm_460f16a780",
+        "clm_b3c791d5db",
+        "clm_74705f76b0",
+        "clm_c1021185f0",
+        "clm_625cca201a",
+        "clm_ec41a2313c",
+        "clm_6deb29faac",
+        "clm_33f9103995",
+        "clm_5f89f047fc",
+        "clm_3cd6da783e"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 46319576497.35,
+        "change_pct": -0.5,
+        "since": "2026-09-10"
+      },
+      "history_ref": "history/cognition/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "arr": {
+      "metric": "arr",
+      "value": 1000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 1000000000.0,
+        "high": 1000000000.0
+      },
+      "as_of": "2026-09-27",
+      "estimate_type": "consensus",
+      "confidence": 0.757,
+      "supporting_claims": [
+        "clm_47578cb676",
+        "clm_750f831780",
+        "clm_2440dbf87a"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-09-27"
+      },
+      "history_ref": "history/cognition/arr.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 1000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 492000000.0,
+        "high": 2000000000.0
+      },
+      "as_of": "2026-08-13",
+      "estimate_type": "consensus",
+      "confidence": 0.879,
+      "supporting_claims": [
+        "clm_677ec9b24b",
+        "clm_c0fd71a836",
+        "clm_7ba3367179",
+        "clm_d8ccc7bb18"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": -0.0,
+        "since": "2026-08-13"
+      },
+      "history_ref": "history/cognition/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -140,9 +141,9 @@
       "range": null,
       "as_of": "2026-09-25",
       "estimate_type": "reported",
-      "confidence": 0.21,
+      "confidence": 0.208,
       "supporting_claims": [
-        "drv_8c4dc9b76b"
+        "drv_6152525e03"
       ],
       "contradiction": false,
       "delta": {
@@ -156,5 +157,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-05"
+  "last_updated": "2026-10-06"
 }

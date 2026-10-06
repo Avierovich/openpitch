@@ -1,8 +1,8 @@
 [
   {
-    "id": "clm_41652c4c62",
+    "id": "clm_9cee081c4a",
     "company_id": "cognition",
-    "metric": "round_amount",
+    "metric": "total_funding",
     "value": 2000000000.0,
     "unit": "USD",
     "raw_text": "raises more than $2 billion",
@@ -13,18 +13,18 @@
     },
     "source": {
       "type": "news",
-      "name": "디지털투데이",
+      "name": "digitaltoday.co.kr",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQ21rLWxQbHlFYWl0Q0VvemxibHgwc2NUQ2w5M0xmblNPX3VHeTM5RWpZTm5lVmxyeGdSSnEwdXA0cmJMcDhvV0dnaVducWZtU2pBOWNBdFN1Z2w1NGpXMlhtNWRPSERfTXhHUXlpUF9KTkVYRDA1M2kyaEZ6N1otXzVVbzFvVlJMX0Uxc240aVd0WFRJTTd3MDBMd0ZkclN6U3dTNDNTYXBxVi02OUJfdE9RTU9yRWNsRVR4VDF2V2E5aVVqSEE?oc=5",
       "locator": null,
       "published_at": "2026-09-09"
     },
-    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extracted_at": "2026-09-24T09:50:31.335914",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
   },
   {
-    "id": "clm_74705f76b0",
+    "id": "clm_b3c791d5db",
     "company_id": "cognition",
     "metric": "valuation",
     "value": 48000000000.0,
@@ -37,40 +37,14 @@
     },
     "source": {
       "type": "news",
-      "name": "디지털투데이",
+      "name": "digitaltoday.co.kr",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQ21rLWxQbHlFYWl0Q0VvemxibHgwc2NUQ2w5M0xmblNPX3VHeTM5RWpZTm5lVmxyeGdSSnEwdXA0cmJMcDhvV0dnaVducWZtU2pBOWNBdFN1Z2w1NGpXMlhtNWRPSERfTXhHUXlpUF9KTkVYRDA1M2kyaEZ6N1otXzVVbzFvVlJMX0Uxc240aVd0WFRJTTd3MDBMd0ZkclN6U3dTNDNTYXBxVi02OUJfdE9RTU9yRWNsRVR4VDF2V2E5aVVqSEE?oc=5",
       "locator": null,
       "published_at": "2026-09-09"
     },
-    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extracted_at": "2026-09-24T09:50:31.335914",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_5ec046106d",
-    "company_id": "cognition",
-    "metric": "valuation",
-    "value": 40000000000.0,
-    "unit": null,
-    "raw_text": "AI coding startup Cognition in talks for new funding at $40 billion valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "디지털투데이",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZlNrYWZ4TTF3RHZKNmNLeG9jc2FhRDJQV3oyTkNCU3JMM05uQW5zaTBxbTVzSHFNOG56UWw0ZXpSVzk5SlB4SXJ1UHFIS2hHaFJJLTFxTHlvYXlUdDNoOU9NTjBSNnFuQzB2aFRKYTNNOVkzcm9fS0ZxNzZoWktscF9XVHJlNnp0UXdQVTlfOXpIak95ZkswdlAzaVpZYlByRmVTQkxRTkszMnctNmpkc3JnRU8zYTVPNlZBcGxn?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -193,6 +167,107 @@
     "extracted_at": "2026-09-27T10:32:58.616902",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_f4f8f68610",
+    "company_id": "cognition",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "AI coding startup Cognition in talks for new funding at $40 billion valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "digitaltoday.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZlNrYWZ4TTF3RHZKNmNLeG9jc2FhRDJQV3oyTkNCU3JMM05uQW5zaTBxbTVzSHFNOG56UWw0ZXpSVzk5SlB4SXJ1UHFIS2hHaFJJLTFxTHlvYXlUdDNoOU9NTjBSNnFuQzB2aFRKYTNNOVkzcm9fS0ZxNzZoWktscF9XVHJlNnp0UXdQVTlfOXpIak95ZkswdlAzaVpZYlByRmVTQkxRTkszMnctNmpkc3JnRU8zYTVPNlZBcGxn?oc=5",
+      "locator": null,
+      "published_at": "2026-08-13"
+    },
+    "extracted_at": "2026-10-06T12:25:15.330748",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_41652c4c62",
+    "company_id": "cognition",
+    "metric": "round_amount",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "raises more than $2 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "디지털투데이",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQ21rLWxQbHlFYWl0Q0VvemxibHgwc2NUQ2w5M0xmblNPX3VHeTM5RWpZTm5lVmxyeGdSSnEwdXA0cmJMcDhvV0dnaVducWZtU2pBOWNBdFN1Z2w1NGpXMlhtNWRPSERfTXhHUXlpUF9KTkVYRDA1M2kyaEZ6N1otXzVVbzFvVlJMX0Uxc240aVd0WFRJTTd3MDBMd0ZkclN6U3dTNDNTYXBxVi02OUJfdE9RTU9yRWNsRVR4VDF2V2E5aVVqSEE?oc=5",
+      "locator": null,
+      "published_at": "2026-09-09"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_74705f76b0",
+    "company_id": "cognition",
+    "metric": "valuation",
+    "value": 48000000000.0,
+    "unit": "USD",
+    "raw_text": "valued at $48 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "디지털투데이",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQ21rLWxQbHlFYWl0Q0VvemxibHgwc2NUQ2w5M0xmblNPX3VHeTM5RWpZTm5lVmxyeGdSSnEwdXA0cmJMcDhvV0dnaVducWZtU2pBOWNBdFN1Z2w1NGpXMlhtNWRPSERfTXhHUXlpUF9KTkVYRDA1M2kyaEZ6N1otXzVVbzFvVlJMX0Uxc240aVd0WFRJTTd3MDBMd0ZkclN6U3dTNDNTYXBxVi02OUJfdE9RTU9yRWNsRVR4VDF2V2E5aVVqSEE?oc=5",
+      "locator": null,
+      "published_at": "2026-09-09"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_5ec046106d",
+    "company_id": "cognition",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": null,
+    "raw_text": "AI coding startup Cognition in talks for new funding at $40 billion valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "디지털투데이",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZlNrYWZ4TTF3RHZKNmNLeG9jc2FhRDJQV3oyTkNCU3JMM05uQW5zaTBxbTVzSHFNOG56UWw0ZXpSVzk5SlB4SXJ1UHFIS2hHaFJJLTFxTHlvYXlUdDNoOU9NTjBSNnFuQzB2aFRKYTNNOVkzcm9fS0ZxNzZoWktscF9XVHJlNnp0UXdQVTlfOXpIak95ZkswdlAzaVpZYlByRmVTQkxRTkszMnctNmpkc3JnRU8zYTVPNlZBcGxn?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -395,54 +470,6 @@
     "extracted_at": "2026-09-15T10:11:13.514998",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_9cee081c4a",
-    "company_id": "cognition",
-    "metric": "total_funding",
-    "value": 2000000000.0,
-    "unit": "USD",
-    "raw_text": "raises more than $2 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "digitaltoday.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQ21rLWxQbHlFYWl0Q0VvemxibHgwc2NUQ2w5M0xmblNPX3VHeTM5RWpZTm5lVmxyeGdSSnEwdXA0cmJMcDhvV0dnaVducWZtU2pBOWNBdFN1Z2w1NGpXMlhtNWRPSERfTXhHUXlpUF9KTkVYRDA1M2kyaEZ6N1otXzVVbzFvVlJMX0Uxc240aVd0WFRJTTd3MDBMd0ZkclN6U3dTNDNTYXBxVi02OUJfdE9RTU9yRWNsRVR4VDF2V2E5aVVqSEE?oc=5",
-      "locator": null,
-      "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-24T09:50:31.335914",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_b3c791d5db",
-    "company_id": "cognition",
-    "metric": "valuation",
-    "value": 48000000000.0,
-    "unit": "USD",
-    "raw_text": "valued at $48 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "digitaltoday.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQ21rLWxQbHlFYWl0Q0VvemxibHgwc2NUQ2w5M0xmblNPX3VHeTM5RWpZTm5lVmxyeGdSSnEwdXA0cmJMcDhvV0dnaVducWZtU2pBOWNBdFN1Z2w1NGpXMlhtNWRPSERfTXhHUXlpUF9KTkVYRDA1M2kyaEZ6N1otXzVVbzFvVlJMX0Uxc240aVd0WFRJTTd3MDBMd0ZkclN6U3dTNDNTYXBxVi02OUJfdE9RTU9yRWNsRVR4VDF2V2E5aVVqSEE?oc=5",
-      "locator": null,
-      "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-24T09:50:31.335914",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -983,7 +1010,7 @@
     "derivation": null
   },
   {
-    "id": "drv_8c4dc9b76b",
+    "id": "drv_6152525e03",
     "company_id": "cognition",
     "metric": "revenue_multiple",
     "value": 48.0,
@@ -1001,14 +1028,14 @@
       "locator": null,
       "published_at": "2026-09-25"
     },
-    "extracted_at": "2026-10-05T12:12:41.057527",
+    "extracted_at": "2026-10-06T12:25:15.330748",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_74705f76b0",
+        "clm_b3c791d5db",
         "clm_2440dbf87a"
       ]
     }

@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-10-05
+# OpenPitch Data Quality Report - 2026-10-06
 
 ## Summary
 
-- Profiles generated: 591
-- Watchlist candidates: 1214
+- Profiles generated: 598
+- Watchlist candidates: 1230
 - Top-50 cards: 50
-- Profiles with at least one metric: 578
-- Critical issues: 107
+- Profiles with at least one metric: 585
+- Critical issues: 108
 - Warnings: 19
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 621
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 630
 
 ## Top-50 Companies With No Metrics
 
@@ -126,6 +126,7 @@ None.
 - Infinigence AI
 - Instrumental
 - Iron Ox
+- Isomorphic Labs
 - Krea
 - Lean Technologies
 - Mindsay

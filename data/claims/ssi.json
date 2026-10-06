@@ -48,14 +48,14 @@
     "derivation": null
   },
   {
-    "id": "clm_27fc1b6eac",
+    "id": "clm_6746463dd6",
     "company_id": "ssi",
-    "metric": "headcount",
-    "value": 50.0,
-    "unit": null,
-    "raw_text": "roughly 50 employees",
+    "metric": "round_amount",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "Raises $2B",
     "qualifiers": [
-      "approximate"
+      "unconfirmed"
     ],
     "speaker": {
       "name": null,
@@ -63,46 +63,48 @@
     },
     "source": {
       "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVhWajdRUTRBYnpSNGJDVzRpNlNRbV85Mml0VEFINUZndjNnNFpsdFVSRFktei1BdXVpUXB2dkxCRlBYelZ4YnZRZGpuejFSUkVHV2haUjZsa3Z2czVLc2Nfa01ZbGpsSUc1R0lXYnFnMkVrRUpLZDdNWUFyT0lVS3B1VWlCcEVtTE50bUliWThxUElQYUxNT1lRSQ?oc=5",
+      "name": "AI Insider",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQM2ZJNlhZTFBpdm1yRzEwUVdLRHdGZnRlZWdwejlJVHh0TTdhdEZBSlVHRzVSLXVGM21zbmhZWTlFendwd1FKLUdReFlfZlVFVlF0MHRpUEpJV0R1dm9zTlZ0X1NMZzE1U0d4d2pNSUdlWEkySWpnTUpCdzVha095SThkSnRuTW1wMVB4YlRDdzRfV3pwYmFibk1CZ2ZvUFFOSEVtYlNKXzYxcVUteFR0R29KeTk5Nm1SdFJsWE5YZGhUSkZnLXdfNVA0NnVwWVB2?oc=5",
       "locator": null,
-      "published_at": "2026-07-29"
+      "published_at": "2025-04-14"
     },
-    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extracted_at": "2026-10-05T12:12:41.057527",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4462,
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
-    "id": "clm_7f8b9a6abb",
+    "id": "clm_3e9953ded3",
     "company_id": "ssi",
     "metric": "valuation",
     "value": 32000000000.0,
-    "unit": null,
-    "raw_text": "It's worth $32 billion",
-    "qualifiers": [],
+    "unit": "USD",
+    "raw_text": "$32B Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
     "speaker": {
       "name": null,
       "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVhWajdRUTRBYnpSNGJDVzRpNlNRbV85Mml0VEFINUZndjNnNFpsdFVSRFktei1BdXVpUXB2dkxCRlBYelZ4YnZRZGpuejFSUkVHV2haUjZsa3Z2czVLc2Nfa01ZbGpsSUc1R0lXYnFnMkVrRUpLZDdNWUFyT0lVS3B1VWlCcEVtTE50bUliWThxUElQYUxNT1lRSQ?oc=5",
+      "name": "AI Insider",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQM2ZJNlhZTFBpdm1yRzEwUVdLRHdGZnRlZWdwejlJVHh0TTdhdEZBSlVHRzVSLXVGM21zbmhZWTlFendwd1FKLUdReFlfZlVFVlF0MHRpUEpJV0R1dm9zTlZ0X1NMZzE1U0d4d2pNSUdlWEkySWpnTUpCdzVha095SThkSnRuTW1wMVB4YlRDdzRfV3pwYmFibk1CZ2ZvUFFOSEVtYlNKXzYxcVUteFR0R29KeTk5Nm1SdFJsWE5YZGhUSkZnLXdfNVA0NnVwWVB2?oc=5",
       "locator": null,
-      "published_at": "2026-07-29"
+      "published_at": "2025-04-14"
     },
-    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extracted_at": "2026-10-05T12:12:41.057527",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
-    "id": "clm_de4457910e",
+    "id": "clm_4b98b708d4",
     "company_id": "ssi",
     "metric": "valuation",
     "value": 32000000000.0,
-    "unit": "USD",
+    "unit": null,
     "raw_text": "$32B Valuation",
     "qualifiers": [],
     "speaker": {
@@ -111,12 +113,12 @@
     },
     "source": {
       "type": "news",
-      "name": "startuphub.ai",
+      "name": "StartupHub.ai",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSGVTbmp1TExwZlhSb0VoMGR1UGJld0U2dVplcWFYaGxsbnU3UENwX0NHSFpZZ1ZMUWsxUEdBYVE0LW5MTUlScnpROE5URGFuWTNMREFYZzlLUDYxZkNPMkhodFlweUxNV1dBVWc0TTc3SjlmVjZZb1JVVUstcWc5ZzQ2MUxfc2NES1NLYUY4V0tncW0zY0pmVmVIX0x2RF8yNTVnOTRib0h6QQ?oc=5",
       "locator": null,
       "published_at": "2026-06-06"
     },
-    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -196,14 +198,41 @@
     "derivation": null
   },
   {
-    "id": "clm_6746463dd6",
+    "id": "clm_94a2e2a51c",
     "company_id": "ssi",
-    "metric": "round_amount",
-    "value": 2000000000.0,
-    "unit": "USD",
-    "raw_text": "Raises $2B",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": null,
+    "raw_text": "roughly $20B valuation",
     "qualifiers": [
-      "unconfirmed"
+      "unconfirmed",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTnE2ampOYmYzT200UXJ2S0MtYldrU3Q0cnlKNGp3TjFxXzltM0xXM0ZjakhMTC1zbHhseWFPMm1NRzZHa2Jhc3h2X3JaeTFZX0dSdGZSWHljMnBRMG5EVldHSjhWajFXT1paVXN4WGQtUmNjZkJaSzZETUR5WF92bzZNenhvWmN0SnlHT3NRWjFzNmt3eDBZcmgxanczX1dqTlJsWjJUQ2NmTGo3ZVEwemFR?oc=5",
+      "locator": null,
+      "published_at": "2025-02-07"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1913,
+    "derivation": null
+  },
+  {
+    "id": "clm_27fc1b6eac",
+    "company_id": "ssi",
+    "metric": "headcount",
+    "value": 50.0,
+    "unit": null,
+    "raw_text": "roughly 50 employees",
+    "qualifiers": [
+      "approximate"
     ],
     "speaker": {
       "name": null,
@@ -211,40 +240,62 @@
     },
     "source": {
       "type": "news",
-      "name": "AI Insider",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQM2ZJNlhZTFBpdm1yRzEwUVdLRHdGZnRlZWdwejlJVHh0TTdhdEZBSlVHRzVSLXVGM21zbmhZWTlFendwd1FKLUdReFlfZlVFVlF0MHRpUEpJV0R1dm9zTlZ0X1NMZzE1U0d4d2pNSUdlWEkySWpnTUpCdzVha095SThkSnRuTW1wMVB4YlRDdzRfV3pwYmFibk1CZ2ZvUFFOSEVtYlNKXzYxcVUteFR0R29KeTk5Nm1SdFJsWE5YZGhUSkZnLXdfNVA0NnVwWVB2?oc=5",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVhWajdRUTRBYnpSNGJDVzRpNlNRbV85Mml0VEFINUZndjNnNFpsdFVSRFktei1BdXVpUXB2dkxCRlBYelZ4YnZRZGpuejFSUkVHV2haUjZsa3Z2czVLc2Nfa01ZbGpsSUc1R0lXYnFnMkVrRUpLZDdNWUFyT0lVS3B1VWlCcEVtTE50bUliWThxUElQYUxNT1lRSQ?oc=5",
       "locator": null,
-      "published_at": "2025-04-14"
+      "published_at": "2026-07-29"
     },
-    "extracted_at": "2026-10-05T12:12:41.057527",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
+    "base_confidence": 0.4462,
     "derivation": null
   },
   {
-    "id": "clm_3e9953ded3",
+    "id": "clm_7f8b9a6abb",
+    "company_id": "ssi",
+    "metric": "valuation",
+    "value": 32000000000.0,
+    "unit": null,
+    "raw_text": "It's worth $32 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVhWajdRUTRBYnpSNGJDVzRpNlNRbV85Mml0VEFINUZndjNnNFpsdFVSRFktei1BdXVpUXB2dkxCRlBYelZ4YnZRZGpuejFSUkVHV2haUjZsa3Z2czVLc2Nfa01ZbGpsSUc1R0lXYnFnMkVrRUpLZDdNWUFyT0lVS3B1VWlCcEVtTE50bUliWThxUElQYUxNT1lRSQ?oc=5",
+      "locator": null,
+      "published_at": "2026-07-29"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_de4457910e",
     "company_id": "ssi",
     "metric": "valuation",
     "value": 32000000000.0,
     "unit": "USD",
     "raw_text": "$32B Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
+    "qualifiers": [],
     "speaker": {
       "name": null,
       "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "AI Insider",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQM2ZJNlhZTFBpdm1yRzEwUVdLRHdGZnRlZWdwejlJVHh0TTdhdEZBSlVHRzVSLXVGM21zbmhZWTlFendwd1FKLUdReFlfZlVFVlF0MHRpUEpJV0R1dm9zTlZ0X1NMZzE1U0d4d2pNSUdlWEkySWpnTUpCdzVha095SThkSnRuTW1wMVB4YlRDdzRfV3pwYmFibk1CZ2ZvUFFOSEVtYlNKXzYxcVUteFR0R29KeTk5Nm1SdFJsWE5YZGhUSkZnLXdfNVA0NnVwWVB2?oc=5",
+      "name": "startuphub.ai",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSGVTbmp1TExwZlhSb0VoMGR1UGJld0U2dVplcWFYaGxsbnU3UENwX0NHSFpZZ1ZMUWsxUEdBYVE0LW5MTUlScnpROE5URGFuWTNMREFYZzlLUDYxZkNPMkhodFlweUxNV1dBVWc0TTc3SjlmVjZZb1JVVUstcWc5ZzQ2MUxfc2NES1NLYUY4V0tncW0zY0pmVmVIX0x2RF8yNTVnOTRib0h6QQ?oc=5",
       "locator": null,
-      "published_at": "2025-04-14"
+      "published_at": "2026-06-06"
     },
-    "extracted_at": "2026-10-05T12:12:41.057527",
+    "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -396,30 +447,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_4b98b708d4",
-    "company_id": "ssi",
-    "metric": "valuation",
-    "value": 32000000000.0,
-    "unit": null,
-    "raw_text": "$32B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "StartupHub.ai",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSGVTbmp1TExwZlhSb0VoMGR1UGJld0U2dVplcWFYaGxsbnU3UENwX0NHSFpZZ1ZMUWsxUEdBYVE0LW5MTUlScnpROE5URGFuWTNMREFYZzlLUDYxZkNPMkhodFlweUxNV1dBVWc0TTc3SjlmVjZZb1JVVUstcWc5ZzQ2MUxfc2NES1NLYUY4V0tncW0zY0pmVmVIX0x2RF8yNTVnOTRib0h6QQ?oc=5",
-      "locator": null,
-      "published_at": "2026-06-06"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -650,33 +677,6 @@
     "extracted_at": "2026-09-19T09:29:15.949394",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_94a2e2a51c",
-    "company_id": "ssi",
-    "metric": "valuation",
-    "value": 20000000000.0,
-    "unit": null,
-    "raw_text": "roughly $20B valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "approximate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTnE2ampOYmYzT200UXJ2S0MtYldrU3Q0cnlKNGp3TjFxXzltM0xXM0ZjakhMTC1zbHhseWFPMm1NRzZHa2Jhc3h2X3JaeTFZX0dSdGZSWHljMnBRMG5EVldHSjhWajFXT1paVXN4WGQtUmNjZkJaSzZETUR5WF92bzZNenhvWmN0SnlHT3NRWjFzNmt3eDBZcmgxanczX1dqTlJsWjJUQ2NmTGo3ZVEwemFR?oc=5",
-      "locator": null,
-      "published_at": "2025-02-07"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1913,
     "derivation": null
   },
   {

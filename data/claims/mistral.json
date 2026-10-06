@@ -144,27 +144,30 @@
     "derivation": null
   },
   {
-    "id": "clm_108a8e923c",
+    "id": "clm_9b47bde07d",
     "company_id": "mistral",
     "metric": "valuation",
-    "value": 24000000000.0,
-    "unit": null,
-    "raw_text": "$24 billion valuation",
-    "qualifiers": [],
+    "value": 23000000000.0,
+    "unit": "USD",
+    "raw_text": "$23bn valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
     "speaker": {
       "name": null,
       "role": "unknown"
     },
     "source": {
       "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE55ckdJc0hEZk8yai1IaFJuUEs4c204MHptMlFyR2VVeFUyN3RaMVZTVlZzRURreXhaQzdYZ3JsbkoyYjR4WGFzNVpoZWhZNmlYWEp6ZzRwWXF2TzE0Q1dSc2dMY29DUzdjLVJwb3h4VDlUUGlIZ3RYaWUxOWJjQdIBgwFBVV95cUxPemMzc0FrZVVIXzNYRktNejlsdjNlQUlvSk9PY2w3Y1U0dFlpWWNYeGlFZTFLOGJkVi1UTlJuVEFQVFcwanZJM3JxNG1TTEhITHQxMWRObG9RdFQyMW5LQllfVWZGZzI0bmJ5ejk3SXVxNmRzT1RTQ2V3b0ZMNFpFWVBGRQ?oc=5",
+      "name": "finance.yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSTY2V210MHJGOFdCZ2dqS2FYOGtqQmF6Y1lpUVl0YVc5WGM4OEVOcWkzNHNLZlVubTR0Vm93ZXVDb1RrYVpaVEllYXpuZFE0T3lIbUN2am41cHpEUUhwMEZralc2clhFQ1U0QXBIWDJzaGhfV0w1QnFlelFNbk5YTHJFQjdpdnhnM2hYTW1IYlkxeXdVTXlpcmlfUnFrd1lH?oc=5",
       "locator": null,
-      "published_at": "2026-09-08"
+      "published_at": "2026-06-15"
     },
-    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extracted_at": "2026-09-14T10:31:29.338960",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
+    "base_confidence": 0.1575,
     "derivation": null
   },
   {
@@ -219,32 +222,6 @@
     "derivation": null
   },
   {
-    "id": "clm_b18a2e2321",
-    "company_id": "mistral",
-    "metric": "total_funding",
-    "value": 100000000.0,
-    "unit": null,
-    "raw_text": "$100M+ seed financing",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "No Priors",
-      "url": null,
-      "locator": null,
-      "published_at": "2023-11-09"
-    },
-    "extracted_at": "2026-10-05T12:12:41.057527",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.378,
-    "derivation": null
-  },
-  {
     "id": "clm_e4875e46ee",
     "company_id": "mistral",
     "metric": "valuation",
@@ -264,6 +241,80 @@
       "published_at": "2026-09-08"
     },
     "extracted_at": "2026-10-05T12:12:41.057527",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_887f0fb12f",
+    "company_id": "mistral",
+    "metric": "headcount",
+    "value": 900.0,
+    "unit": "employees",
+    "raw_text": "900+ employees",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "mistral.ai",
+      "url": "https://mistral.ai/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-06T12:25:15.330748",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_b18a2e2321",
+    "company_id": "mistral",
+    "metric": "total_funding",
+    "value": 100000000.0,
+    "unit": "USD",
+    "raw_text": "$100M+",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "investor"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "No Priors",
+      "url": null,
+      "locator": null,
+      "published_at": "2023-11-09"
+    },
+    "extracted_at": "2026-10-06T12:25:15.330748",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.48,
+    "derivation": null
+  },
+  {
+    "id": "clm_108a8e923c",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 24000000000.0,
+    "unit": "USD",
+    "raw_text": "$24 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE55ckdJc0hEZk8yai1IaFJuUEs4c204MHptMlFyR2VVeFUyN3RaMVZTVlZzRURreXhaQzdYZ3JsbkoyYjR4WGFzNVpoZWhZNmlYWEp6ZzRwWXF2TzE0Q1dSc2dMY29DUzdjLVJwb3h4VDlUUGlIZ3RYaWUxOWJjQQ?oc=5",
+      "locator": null,
+      "published_at": "2026-09-08"
+    },
+    "extracted_at": "2026-10-06T12:25:15.330748",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -532,33 +583,6 @@
     "extracted_at": "2026-09-14T10:31:29.338960",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_9b47bde07d",
-    "company_id": "mistral",
-    "metric": "valuation",
-    "value": 23000000000.0,
-    "unit": "USD",
-    "raw_text": "$23bn valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "finance.yahoo.com",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSTY2V210MHJGOFdCZ2dqS2FYOGtqQmF6Y1lpUVl0YVc5WGM4OEVOcWkzNHNLZlVubTR0Vm93ZXVDb1RrYVpaVEllYXpuZFE0T3lIbUN2am41cHpEUUhwMEZralc2clhFQ1U0QXBIWDJzaGhfV0w1QnFlelFNbk5YTHJFQjdpdnhnM2hYTW1IYlkxeXdVTXlpcmlfUnFrd1lH?oc=5",
-      "locator": null,
-      "published_at": "2026-06-15"
-    },
-    "extracted_at": "2026-09-14T10:31:29.338960",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1575,
     "derivation": null
   },
   {
@@ -1829,7 +1853,7 @@
       "locator": null,
       "published_at": "2026-02-11"
     },
-    "extracted_at": "2026-10-05T12:12:41.057527",
+    "extracted_at": "2026-10-06T12:25:15.330748",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

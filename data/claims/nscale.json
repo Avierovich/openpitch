@@ -1,10 +1,10 @@
 [
   {
-    "id": "clm_e4abf1fb1a",
+    "id": "clm_d740a1f0ad",
     "company_id": "nscale",
     "metric": "valuation",
     "value": 35000000000.0,
-    "unit": "USD",
+    "unit": null,
     "raw_text": "Nscale wants a $35 billion valuation.",
     "qualifiers": [
       "unconfirmed",
@@ -16,40 +16,38 @@
     },
     "source": {
       "type": "news",
-      "name": "Fortune",
+      "name": "fortune.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZG1aRVUxaWRuV2NMN2szdm1KOUw2dm9RTGtON19xNkpCUFM1ZkVfOFJOWUUyYnFPWWxEeUU2MTloaXhxMXk2RTBMVVl4V3ZDRThjbFgtZ3cxeG5SMFRualJXckNtX3V6NTB0LUljX0hsbjVaUW5ieUs5U2VqZHBKUmVvWmRSOFhzOWFja2xENDhDU1ltRUJhQXVnTFhvdGc0?oc=5",
       "locator": null,
       "published_at": "2026-09-24"
     },
-    "extracted_at": "2026-09-26T09:51:51.353222",
+    "extracted_at": "2026-09-25T10:09:44.175619",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
     "derivation": null
   },
   {
-    "id": "clm_4859071d2b",
+    "id": "clm_1ed76beb20",
     "company_id": "nscale",
-    "metric": "valuation",
-    "value": 14600000000.0,
-    "unit": null,
-    "raw_text": "$14.6B valuation",
-    "qualifiers": [
-      "rounded"
-    ],
+    "metric": "round_amount",
+    "value": 3360000000.0,
+    "unit": "USD",
+    "raw_text": "Nscale Raises $3.36 Billion in Pre-IPO Convertible Financing",
+    "qualifiers": [],
     "speaker": {
       "name": null,
       "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQejFHRXNaSGdPcHhreFIxX2o3eGkzWmhGdGFzczA1QTRUMEtTOENPdDhHSmJYRzd4bW54RkFHNHZleDRtdFJaWFAxSGRvRk1uNzdQaFVyeThGZEY5S1FPNGxTM056Z1hmdk1MNndzZWxhNDZjOU1oZHJYbGxNWTl4QWNPUVJCbkRuS1Z4TzdIblo2cGh4ZlJZaW4wbHFhemZOalR4RjFmTkxiNXFlRFNMMkNETnVYWDQ?oc=5",
+      "name": "Nscale",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kY3BEcjcweFlJSk4tOWd1ZU05encwQzZDeWxDQmxXN3dEYzZwc1h2VFZ2LVlORHVqT1hHS0VxZVJSaXI2WEE2eC1RcWNaUzZfZFNTZWlKU3UzYzk3QUFBWTl2ZDVwU0J4aGpHRGMzdko3enVoNXc?oc=5",
       "locator": null,
-      "published_at": "2026-09-21"
+      "published_at": "2026-09-25"
     },
-    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extracted_at": "2026-09-26T09:51:51.353222",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -125,6 +123,30 @@
     "derivation": null
   },
   {
+    "id": "clm_709109f967",
+    "company_id": "nscale",
+    "metric": "round_amount",
+    "value": 3360000000.0,
+    "unit": "USD",
+    "raw_text": "Nscale Raises $3.36 Billion in Pre-IPO Round Led by Third Point",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZWVTMjZvZVhOODlySTRpYS1VcUVaVDh3QTJGM05kb09BYm1wRC1mb1hXRGlnZ3lZMHpPRWlfajc4WTAxbEhjN0dpVHlRUzk3UGY5UDhfb1BFalFwT2FXX2ZyMHl6YmJ0cHYyb3lyTUNPN2pCaG1TdnVuTGZrOWJ1Q2lnVTRWemJOOVVvTEVrM2NZVU8x?oc=5",
+      "locator": null,
+      "published_at": "2026-09-25"
+    },
+    "extracted_at": "2026-09-29T11:15:32.501222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_d92d78548e",
     "company_id": "nscale",
     "metric": "total_funding",
@@ -146,6 +168,59 @@
     "extracted_at": "2026-09-28T11:35:42.398874",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_e4abf1fb1a",
+    "company_id": "nscale",
+    "metric": "valuation",
+    "value": 35000000000.0,
+    "unit": "USD",
+    "raw_text": "Nscale wants a $35 billion valuation.",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Fortune",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZG1aRVUxaWRuV2NMN2szdm1KOUw2dm9RTGtON19xNkpCUFM1ZkVfOFJOWUUyYnFPWWxEeUU2MTloaXhxMXk2RTBMVVl4V3ZDRThjbFgtZ3cxeG5SMFRualJXckNtX3V6NTB0LUljX0hsbjVaUW5ieUs5U2VqZHBKUmVvWmRSOFhzOWFja2xENDhDU1ltRUJhQXVnTFhvdGc0?oc=5",
+      "locator": null,
+      "published_at": "2026-09-24"
+    },
+    "extracted_at": "2026-09-26T09:51:51.353222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_4859071d2b",
+    "company_id": "nscale",
+    "metric": "valuation",
+    "value": 14600000000.0,
+    "unit": null,
+    "raw_text": "$14.6B valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQejFHRXNaSGdPcHhreFIxX2o3eGkzWmhGdGFzczA1QTRUMEtTOENPdDhHSmJYRzd4bW54RkFHNHZleDRtdFJaWFAxSGRvRk1uNzdQaFVyeThGZEY5S1FPNGxTM056Z1hmdk1MNndzZWxhNDZjOU1oZHJYbGxNWTl4QWNPUVJCbkRuS1Z4TzdIblo2cGh4ZlJZaW4wbHFhemZOalR4RjFmTkxiNXFlRFNMMkNETnVYWDQ?oc=5",
+      "locator": null,
+      "published_at": "2026-09-21"
+    },
+    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -194,30 +269,6 @@
     "extracted_at": "2026-10-05T12:12:41.057527",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_1ed76beb20",
-    "company_id": "nscale",
-    "metric": "round_amount",
-    "value": 3360000000.0,
-    "unit": "USD",
-    "raw_text": "Nscale Raises $3.36 Billion in Pre-IPO Convertible Financing",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Nscale",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kY3BEcjcweFlJSk4tOWd1ZU05encwQzZDeWxDQmxXN3dEYzZwc1h2VFZ2LVlORHVqT1hHS0VxZVJSaXI2WEE2eC1RcWNaUzZfZFNTZWlKU3UzYzk3QUFBWTl2ZDVwU0J4aGpHRGMzdko3enVoNXc?oc=5",
-      "locator": null,
-      "published_at": "2026-09-25"
-    },
-    "extracted_at": "2026-09-26T09:51:51.353222",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -360,30 +411,6 @@
       "published_at": "2026-09-28"
     },
     "extracted_at": "2026-09-28T11:35:42.398874",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_709109f967",
-    "company_id": "nscale",
-    "metric": "round_amount",
-    "value": 3360000000.0,
-    "unit": "USD",
-    "raw_text": "Nscale Raises $3.36 Billion in Pre-IPO Round Led by Third Point",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "finance.yahoo.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZWVTMjZvZVhOODlySTRpYS1VcUVaVDh3QTJGM05kb09BYm1wRC1mb1hXRGlnZ3lZMHpPRWlfajc4WTAxbEhjN0dpVHlRUzk3UGY5UDhfb1BFalFwT2FXX2ZyMHl6YmJ0cHYyb3lyTUNPN2pCaG1TdnVuTGZrOWJ1Q2lnVTRWemJOOVVvTEVrM2NZVU8x?oc=5",
-      "locator": null,
-      "published_at": "2026-09-25"
-    },
-    "extracted_at": "2026-09-29T11:15:32.501222",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -928,33 +955,6 @@
     "extracted_at": "2026-09-19T09:29:15.949394",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_d740a1f0ad",
-    "company_id": "nscale",
-    "metric": "valuation",
-    "value": 35000000000.0,
-    "unit": null,
-    "raw_text": "Nscale wants a $35 billion valuation.",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "fortune.com",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZG1aRVUxaWRuV2NMN2szdm1KOUw2dm9RTGtON19xNkpCUFM1ZkVfOFJOWUUyYnFPWWxEeUU2MTloaXhxMXk2RTBMVVl4V3ZDRThjbFgtZ3cxeG5SMFRualJXckNtX3V6NTB0LUljX0hsbjVaUW5ieUs5U2VqZHBKUmVvWmRSOFhzOWFja2xENDhDU1ltRUJhQXVnTFhvdGc0?oc=5",
-      "locator": null,
-      "published_at": "2026-09-24"
-    },
-    "extracted_at": "2026-09-25T10:09:44.175619",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -2222,7 +2222,7 @@
       "locator": null,
       "published_at": "2026-09-21"
     },
-    "extracted_at": "2026-10-05T12:12:41.057527",
+    "extracted_at": "2026-10-06T12:25:15.330748",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {

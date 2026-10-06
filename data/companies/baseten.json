@@ -9,7 +9,7 @@
   "summary": "Baseten offers a serverless GPU platform that allows developers to easily deploy and scale AI models for inference.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 83.8,
+  "vc_attention_score": 83.7,
   "universe_rank": 50,
   "metrics": {
     "valuation": {
@@ -33,10 +33,10 @@
         "clm_a97b94e0a8",
         "clm_73319e6879",
         "clm_5e2875b680",
-        "clm_d994ad649f",
+        "clm_8d3c316dea",
         "clm_2116a0494f",
         "clm_0479300cde",
-        "clm_8d3c316dea",
+        "clm_d994ad649f",
         "clm_db1735bc00",
         "clm_7b1005455b",
         "clm_c08086f417",
@@ -93,6 +93,32 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 1500000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 1500000000.0,
+        "high": 1500000000.0
+      },
+      "as_of": "2026-06-23",
+      "estimate_type": "consensus",
+      "confidence": 0.544,
+      "supporting_claims": [
+        "clm_0c10c0e957",
+        "clm_a82d979492"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1500000000.0,
+        "change_pct": -0.0,
+        "since": "2026-06-23"
+      },
+      "history_ref": "history/baseten/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "latest_round": {
       "metric": "latest_round",
       "value": 6.0,
@@ -103,7 +129,7 @@
       },
       "as_of": "2026-06-23",
       "estimate_type": "consensus",
-      "confidence": 0.864,
+      "confidence": 0.863,
       "supporting_claims": [
         "clm_b3b2cac8f3",
         "clm_8db03a864e",
@@ -124,48 +150,22 @@
     },
     "revenue_growth": {
       "metric": "revenue_growth",
-      "value": 3000.0,
+      "value": 30.0,
       "unit": "pct",
       "range": null,
       "as_of": "2026-05-01",
       "estimate_type": "reported",
-      "confidence": 0.097,
+      "confidence": 0.161,
       "supporting_claims": [
-        "clm_2c91a25347"
+        "clm_adcef28feb"
       ],
       "contradiction": false,
       "delta": {
         "previous": 3000.0,
-        "change_pct": 0.0,
+        "change_pct": -99.0,
         "since": "2026-05-01"
       },
       "history_ref": "history/baseten/revenue_growth.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 1500000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 1500000000.0,
-        "high": 1500000000.0
-      },
-      "as_of": "2026-06-23",
-      "estimate_type": "consensus",
-      "confidence": 0.544,
-      "supporting_claims": [
-        "clm_0c10c0e957",
-        "clm_a82d979492"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1500000000.0,
-        "change_pct": 0.0,
-        "since": "2026-06-23"
-      },
-      "history_ref": "history/baseten/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -199,7 +199,7 @@
       "range": null,
       "as_of": "2026-06-23",
       "estimate_type": "reported",
-      "confidence": 0.107,
+      "confidence": 0.106,
       "supporting_claims": [
         "drv_12e9373827"
       ],
@@ -215,5 +215,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-05"
+  "last_updated": "2026-10-06"
 }

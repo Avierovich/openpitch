@@ -9,12 +9,12 @@
   "summary": "Mistral AI provides high-performance open-source large language models, enabling broader access and customization for the AI community.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 86.2,
+  "vc_attention_score": 86.1,
   "universe_rank": 29,
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 24336840578.12,
+      "value": 24332143213.39,
       "unit": "USD",
       "range": {
         "low": 24000000000.0,
@@ -27,16 +27,16 @@
         "clm_e9ac195bd5",
         "clm_55e43fad86",
         "clm_a5c6c421b8",
-        "clm_1be1653d4c",
         "clm_9b47bde07d",
+        "clm_1be1653d4c",
         "clm_fe46bc0dd0",
         "clm_4b666011d8",
         "clm_aae9941553",
         "clm_2941890832",
         "clm_c29315cc75",
-        "clm_108a8e923c",
         "clm_a0046a0559",
         "clm_e4875e46ee",
+        "clm_108a8e923c",
         "clm_b81ae0d30d",
         "clm_8d7db69cfe",
         "clm_cb7a40cacd",
@@ -59,8 +59,8 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 24354382161.67,
-        "change_pct": -0.1,
+        "previous": 24336840578.12,
+        "change_pct": -0.0,
         "since": "2026-09-09"
       },
       "history_ref": "history/mistral/valuation.jsonl",
@@ -78,7 +78,7 @@
       },
       "as_of": "2026-09-08",
       "estimate_type": "consensus",
-      "confidence": 0.812,
+      "confidence": 0.811,
       "supporting_claims": [
         "clm_68092966cf",
         "clm_1ee53d499c",
@@ -123,6 +123,24 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "headcount": {
+      "metric": "headcount",
+      "value": 900.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-10-06",
+      "estimate_type": "reported",
+      "confidence": 0.225,
+      "supporting_claims": [
+        "clm_887f0fb12f"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/mistral/headcount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "latest_round": {
       "metric": "latest_round",
       "value": 4.0,
@@ -133,7 +151,7 @@
       },
       "as_of": "2026-09-08",
       "estimate_type": "consensus",
-      "confidence": 0.575,
+      "confidence": 0.574,
       "supporting_claims": [
         "clm_6d4b89bc0a",
         "clm_53b4ccd301"
@@ -156,7 +174,7 @@
       "range": null,
       "as_of": "2026-04-01",
       "estimate_type": "consensus",
-      "confidence": 0.192,
+      "confidence": 0.19,
       "supporting_claims": [
         "clm_f5ac8ef2ee",
         "clm_8f55bb6c00",
@@ -165,7 +183,7 @@
       "contradiction": false,
       "delta": {
         "previous": 400000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-04-01"
       },
       "history_ref": "history/mistral/arr.jsonl",
@@ -186,9 +204,9 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 60.0,
-        "change_pct": -42.9,
-        "since": "2026-09-08"
+        "previous": 34.25,
+        "change_pct": 0.0,
+        "since": "2026-02-11"
       },
       "history_ref": "history/mistral/revenue_multiple.jsonl",
       "unconfirmed": false,
@@ -196,5 +214,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-05"
+  "last_updated": "2026-10-06"
 }

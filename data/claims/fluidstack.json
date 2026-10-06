@@ -487,7 +487,7 @@
     "derivation": null
   },
   {
-    "id": "clm_02bccd311f",
+    "id": "clm_7b1d6afc9e",
     "company_id": "fluidstack",
     "metric": "valuation",
     "value": 18000000000.0,
@@ -502,12 +502,12 @@
     },
     "source": {
       "type": "news",
-      "name": "Bloomberg.com",
+      "name": "bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY0N1S3BBNFpDXzJ6NDg1S1NxSC1Oc1hKUGpBZDBtV29zTjhJS2U4VkRsMEUyUWhGVlMydloyWElXN3VUZlJWTm1DR2s1YnNzd3JTaFB0a1gxbWVXSTVJR1NHMEpINFdGdEIwNXJubko0dm9IcUM3VFVqckFrbWJYeDg5WU0tQlZ4cEZrdHJwcW1ZR3NqbmRHVXZuQ2hXdU51OTJScGFPV2x6MlRkeU40Z291bGg?oc=5",
       "locator": null,
       "published_at": "2026-04-14"
     },
-    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extracted_at": "2026-09-27T10:32:58.616902",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
     "derivation": null
@@ -655,6 +655,80 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM1NBakotYlkzQUlHVmRWTWZJemhaUkE1MFVBVk5GNUd1cUtOZjJDemxOS3dSU2p5Y19aVmxyVFN4WlJ3WEJURUE0Wms2Tl9nOVVWbFZHVmgtLWtzY2NOWk03Xy1rUEhieVh3c2Q2Q1NoRW1FWXkxVU5paDdNQVZfQ2t1bWJvaFYxQnQwSWVDXzRHTVhkYnZScHBybjVPQQ?oc=5",
       "locator": null,
       "published_at": "2026-04-15"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_a8de2f1bf1",
+    "company_id": "fluidstack",
+    "metric": "open_roles",
+    "value": 253.0,
+    "unit": null,
+    "raw_text": "253 open",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fluidstack.io",
+      "url": "https://fluidstack.io/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-06T12:25:15.330748",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_a8de2f1bf1",
+    "company_id": "fluidstack",
+    "metric": "open_roles",
+    "value": 253.0,
+    "unit": null,
+    "raw_text": "253 open",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fluidstack.io",
+      "url": "https://fluidstack.io/jobs",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-06T12:25:15.330748",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_02bccd311f",
+    "company_id": "fluidstack",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": "USD",
+    "raw_text": "$18 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY0N1S3BBNFpDXzJ6NDg1S1NxSC1Oc1hKUGpBZDBtV29zTjhJS2U4VkRsMEUyUWhGVlMydloyWElXN3VUZlJWTm1DR2s1YnNzd3JTaFB0a1gxbWVXSTVJR1NHMEpINFdGdEIwNXJubko0dm9IcUM3VFVqckFrbWJYeDg5WU0tQlZ4cEZrdHJwcW1ZR3NqbmRHVXZuQ2hXdU51OTJScGFPV2x6MlRkeU40Z291bGg?oc=5",
+      "locator": null,
+      "published_at": "2026-04-14"
     },
     "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "gemini-3.5-flash-lite",
@@ -1495,32 +1569,6 @@
       "published_at": "2026-04-14"
     },
     "extracted_at": "2026-09-19T09:29:15.949394",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_7b1d6afc9e",
-    "company_id": "fluidstack",
-    "metric": "valuation",
-    "value": 18000000000.0,
-    "unit": "USD",
-    "raw_text": "$18 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY0N1S3BBNFpDXzJ6NDg1S1NxSC1Oc1hKUGpBZDBtV29zTjhJS2U4VkRsMEUyUWhGVlMydloyWElXN3VUZlJWTm1DR2s1YnNzd3JTaFB0a1gxbWVXSTVJR1NHMEpINFdGdEIwNXJubko0dm9IcUM3VFVqckFrbWJYeDg5WU0tQlZ4cEZrdHJwcW1ZR3NqbmRHVXZuQ2hXdU51OTJScGFPV2x6MlRkeU40Z291bGg?oc=5",
-      "locator": null,
-      "published_at": "2026-04-14"
-    },
-    "extracted_at": "2026-09-27T10:32:58.616902",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
     "derivation": null

@@ -105,12 +105,12 @@
     "derivation": null
   },
   {
-    "id": "clm_41bcc4f561",
+    "id": "clm_0c10c0e957",
     "company_id": "baseten",
-    "metric": "latest_round",
+    "metric": "total_funding",
     "value": 1500000000.0,
     "unit": "USD",
-    "raw_text": "AI infrastructure startup Baseten raises $1.5bn at up to $13bn valuation",
+    "raw_text": "raises $1.5bn",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -118,18 +118,18 @@
     },
     "source": {
       "type": "news",
-      "name": "The Next Web",
+      "name": "thenextweb.com",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBWT0k1ZzJmSFRqYzA5czdCMGFWVGJtN1dqSWc3djZOSmFsVG9JLTBNYWllU18xOVgxSUQyY2RNSTctSTRKSUItTjhrZDdRWFFkaFhkSFRxdXFZQ0JPMFZCNnpyNGd3LWRCUzNodW9UMXlTX2pS?oc=5",
       "locator": null,
       "published_at": "2026-06-23"
     },
-    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.375,
     "derivation": null
   },
   {
-    "id": "clm_d994ad649f",
+    "id": "clm_8d3c316dea",
     "company_id": "baseten",
     "metric": "valuation",
     "value": 13000000000.0,
@@ -144,40 +144,14 @@
     },
     "source": {
       "type": "news",
-      "name": "The Next Web",
+      "name": "thenextweb.com",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBWT0k1ZzJmSFRqYzA5czdCMGFWVGJtN1dqSWc3djZOSmFsVG9JLTBNYWllU18xOVgxSUQyY2RNSTctSTRKSUItTjhrZDdRWFFkaFhkSFRxdXFZQ0JPMFZCNnpyNGd3LWRCUzNodW9UMXlTX2pS?oc=5",
       "locator": null,
       "published_at": "2026-06-23"
     },
-    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.225,
-    "derivation": null
-  },
-  {
-    "id": "clm_4643b6fec9",
-    "company_id": "baseten",
-    "metric": "valuation",
-    "value": 11000000000.0,
-    "unit": "USD",
-    "raw_text": "Inference Firm Baseten Eyes Funding Round at $11 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "pymnts.com",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPc2JuLVRJdXZ3VlBlMDVfa2Ywazg2cVRTSXA0YmpkUGhtbE5TYy12QzF1b09pS0x4LWtfS1MxQ1NGb2h0ZU5UWFoyZlpsQTFyY0llYVdTZUJLLVRHdHJEN3ROQk1vcjNSVWxaRE9sYV9PR3U2b05rNnBhanlLZWszcXdMTHdOSnBPQnlCV3R1T3BuRGpKN2xaT2dJRnVReEozX1FGM24xcXBOSE85cHZlNGZwNDROaXlISEE?oc=5",
-      "locator": null,
-      "published_at": "2026-05-27"
-    },
-    "extracted_at": "2026-09-02T09:38:48.472295",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -306,13 +280,11 @@
     "metric": "revenue_growth",
     "value": 30.0,
     "unit": null,
-    "raw_text": "Baseten’s 30x growth",
-    "qualifiers": [
-      "forward_looking"
-    ],
+    "raw_text": "30x growth",
+    "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "founder"
     },
     "source": {
       "type": "podcast",
@@ -321,9 +293,85 @@
       "locator": null,
       "published_at": "2026-05-01"
     },
-    "extracted_at": "2026-10-05T12:12:41.057527",
+    "extracted_at": "2026-10-06T12:25:15.330748",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.294,
+    "base_confidence": 0.6,
+    "derivation": null
+  },
+  {
+    "id": "clm_41bcc4f561",
+    "company_id": "baseten",
+    "metric": "latest_round",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "AI infrastructure startup Baseten raises $1.5bn at up to $13bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBWT0k1ZzJmSFRqYzA5czdCMGFWVGJtN1dqSWc3djZOSmFsVG9JLTBNYWllU18xOVgxSUQyY2RNSTctSTRKSUItTjhrZDdRWFFkaFhkSFRxdXFZQ0JPMFZCNnpyNGd3LWRCUzNodW9UMXlTX2pS?oc=5",
+      "locator": null,
+      "published_at": "2026-06-23"
+    },
+    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_d994ad649f",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 13000000000.0,
+    "unit": "USD",
+    "raw_text": "at up to $13bn valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBWT0k1ZzJmSFRqYzA5czdCMGFWVGJtN1dqSWc3djZOSmFsVG9JLTBNYWllU18xOVgxSUQyY2RNSTctSTRKSUItTjhrZDdRWFFkaFhkSFRxdXFZQ0JPMFZCNnpyNGd3LWRCUzNodW9UMXlTX2pS?oc=5",
+      "locator": null,
+      "published_at": "2026-06-23"
+    },
+    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_4643b6fec9",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 11000000000.0,
+    "unit": "USD",
+    "raw_text": "Inference Firm Baseten Eyes Funding Round at $11 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "pymnts.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPc2JuLVRJdXZ3VlBlMDVfa2Ywazg2cVRTSXA0YmpkUGhtbE5TYy12QzF1b09pS0x4LWtfS1MxQ1NGb2h0ZU5UWFoyZlpsQTFyY0llYVdTZUJLLVRHdHJEN3ROQk1vcjNSVWxaRE9sYV9PR3U2b05rNnBhanlLZWszcXdMTHdOSnBPQnlCV3R1T3BuRGpKN2xaT2dJRnVReEozX1FGM24xcXBOSE85cHZlNGZwNDROaXlISEE?oc=5",
+      "locator": null,
+      "published_at": "2026-05-27"
+    },
+    "extracted_at": "2026-09-02T09:38:48.472295",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -377,56 +425,6 @@
     "extracted_at": "2026-09-19T09:29:15.949394",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_0c10c0e957",
-    "company_id": "baseten",
-    "metric": "total_funding",
-    "value": 1500000000.0,
-    "unit": "USD",
-    "raw_text": "raises $1.5bn",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "thenextweb.com",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBWT0k1ZzJmSFRqYzA5czdCMGFWVGJtN1dqSWc3djZOSmFsVG9JLTBNYWllU18xOVgxSUQyY2RNSTctSTRKSUItTjhrZDdRWFFkaFhkSFRxdXFZQ0JPMFZCNnpyNGd3LWRCUzNodW9UMXlTX2pS?oc=5",
-      "locator": null,
-      "published_at": "2026-06-23"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_8d3c316dea",
-    "company_id": "baseten",
-    "metric": "valuation",
-    "value": 13000000000.0,
-    "unit": "USD",
-    "raw_text": "at up to $13bn valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "thenextweb.com",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBWT0k1ZzJmSFRqYzA5czdCMGFWVGJtN1dqSWc3djZOSmFsVG9JLTBNYWllU18xOVgxSUQyY2RNSTctSTRKSUItTjhrZDdRWFFkaFhkSFRxdXFZQ0JPMFZCNnpyNGd3LWRCUzNodW9UMXlTX2pS?oc=5",
-      "locator": null,
-      "published_at": "2026-06-23"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.225,
     "derivation": null
   },
   {
@@ -2239,7 +2237,7 @@
       "locator": null,
       "published_at": "2026-06-23"
     },
-    "extracted_at": "2026-10-05T12:12:41.057527",
+    "extracted_at": "2026-10-06T12:25:15.330748",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

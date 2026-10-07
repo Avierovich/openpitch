@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-10-06
+# OpenPitch Data Quality Report - 2026-10-07
 
 ## Summary
 
-- Profiles generated: 598
-- Watchlist candidates: 1230
+- Profiles generated: 600
+- Watchlist candidates: 1246
 - Top-50 cards: 50
-- Profiles with at least one metric: 585
-- Critical issues: 108
+- Profiles with at least one metric: 587
+- Critical issues: 110
 - Warnings: 19
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 630
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 644
 
 ## Top-50 Companies With No Metrics
 
@@ -68,6 +68,7 @@ None.
 - Autograph
 - Axelera AI
 - Baichuan AI
+- Baichuan Intelligence
 - Basecamp Research
 - BigHat Biosciences
 - Bright Machines
@@ -79,6 +80,7 @@ None.
 - Carbon Health
 - CareBridge
 - Cartesia
+- Centivo
 - Character.AI
 - Charm Therapeutics
 - Chemify

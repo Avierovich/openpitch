@@ -12,34 +12,6 @@
   "vc_attention_score": 87.1,
   "universe_rank": 21,
   "metrics": {
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 2000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-05-01",
-      "estimate_type": "consensus",
-      "confidence": 0.509,
-      "supporting_claims": [
-        "clm_0369cffbf3",
-        "clm_6746463dd6",
-        "clm_2e48232e41",
-        "clm_a650ee5563",
-        "clm_dce8c9560f",
-        "clm_96ac91d0d7",
-        "clm_82cb88cf42"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 2000000000.0,
-        "change_pct": -0.0,
-        "since": "2025-05-01"
-      },
-      "history_ref": "history/ssi/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "valuation": {
       "metric": "valuation",
       "value": 31890354188.92,
@@ -56,11 +28,11 @@
         "clm_cba9ab20c3",
         "clm_b47aebb720",
         "clm_b2cd45a6ec",
-        "clm_7031bbcdb5",
         "clm_3e9953ded3",
         "clm_4b98b708d4",
-        "clm_35967c4ccf",
         "clm_77164e6e95",
+        "clm_7031bbcdb5",
+        "clm_35967c4ccf",
         "clm_7f8b9a6abb",
         "clm_de4457910e",
         "clm_281f570c95",
@@ -86,6 +58,34 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 2000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-05-01",
+      "estimate_type": "consensus",
+      "confidence": 0.508,
+      "supporting_claims": [
+        "clm_6746463dd6",
+        "clm_0369cffbf3",
+        "clm_2e48232e41",
+        "clm_a650ee5563",
+        "clm_dce8c9560f",
+        "clm_96ac91d0d7",
+        "clm_82cb88cf42"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 2000000000.0,
+        "change_pct": -0.0,
+        "since": "2025-05-01"
+      },
+      "history_ref": "history/ssi/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "headcount": {
       "metric": "headcount",
       "value": 50.0,
@@ -96,7 +96,7 @@
       },
       "as_of": "2026-07-29",
       "estimate_type": "consensus",
-      "confidence": 0.648,
+      "confidence": 0.646,
       "supporting_claims": [
         "clm_27fc1b6eac",
         "clm_00ef841f43",
@@ -105,7 +105,7 @@
       "contradiction": false,
       "delta": {
         "previous": 50.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-07-29"
       },
       "history_ref": "history/ssi/headcount.jsonl",
@@ -138,5 +138,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-06"
+  "last_updated": "2026-10-07"
 }

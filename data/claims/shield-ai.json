@@ -1,10 +1,10 @@
 [
   {
-    "id": "clm_28401b464d",
+    "id": "clm_0ed2f3ebd1",
     "company_id": "shield-ai",
     "metric": "valuation",
     "value": 20000000000.0,
-    "unit": "USD",
+    "unit": null,
     "raw_text": "$20B valuation",
     "qualifiers": [
       "unconfirmed"
@@ -15,12 +15,12 @@
     },
     "source": {
       "type": "news",
-      "name": "Dealroom",
+      "name": "Dealroom.co",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMlRXdlhtbTVjUml5YUZDdzZSUzV1NHRhbmRhSkhnWTJYbVh2SlpfSmtHUGxPRDZveWxDN2NrVHdpZXdnamFBbXZLSDhKczV2THNRV3hXSkJ1QmZvenFUN2pOZDlCb2o0dHlxb2tXcGl1SHJYcDZSU0dMRUpmSG5haHpPaHFGUUt4SDlhM0pGZzRTSDNqX1pnRUpCOFVJY2tD?oc=5",
       "locator": null,
       "published_at": "2026-09-15"
     },
-    "extracted_at": "2026-09-16T10:35:49.404557",
+    "extracted_at": "2026-09-27T10:32:58.616902",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
     "derivation": null
@@ -98,6 +98,82 @@
     "derivation": null
   },
   {
+    "id": "clm_f45dbc07be",
+    "company_id": "shield-ai",
+    "metric": "valuation",
+    "value": 12700000000.0,
+    "unit": "USD",
+    "raw_text": "valued at $12.7 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Shield AI",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM3U3ZWVlMXZPNzZEUnR4WFA1WDg5VDF2dWJBTmdqcW04N01wZXppYmJuN2pXNE91bjN3VFNxLWdVamE4WjByRkp2ZFRfU2p3QlgtamhIVHBQUFg4bkN5QVBkc1RyRld1SFJ6Z25ERlozTHh5S2xOR0tVSjU5NUdaUkFOd1pzMVdRWkRjN3J2OUZTdXRJY1ViWkkyOXlZa0RBWGlaMQ?oc=5",
+      "locator": null,
+      "published_at": "2026-03-26"
+    },
+    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_93acff4210",
+    "company_id": "shield-ai",
+    "metric": "valuation",
+    "value": 12700000000.0,
+    "unit": "USD",
+    "raw_text": "$12.7 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Pulse 2.0",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOb1p2SmRldUw3Z1VLdVNfT2NWMER3TzBVeGtzQnd3SVVWMlJreWVUUFYwY3RhWmJKbEMycHpUbDZwSWRuM05fM1U1LVVNdTZNZGVBMVozT29JQUNpMUdIcGJSQXhRaEtJRDlSM2lQMEFtMFlLMlp0QV9KdWFPZGcwOG5ZRWhablNjd09TS253T2RhSnI3UFVscS1pZzTSAaIBQVVfeXFMTkNpcGNBXzNQS2swSGlISEFnYnc0bUFzb1FmT3Q1V0J6a2dHYk9ZZjMtZUZ0Z29sMG5XUzRzNGdqS29xZ2pJVzRaUEtpdWx0TW1NVDMtNlIwbXBBOVJEcmU1QWN5Z1Q1M3A0RUVfS1M4VmxqYUtmMFkzMndNSmNTZ1pRdWNEck5ja0c4SnFfd19uYUdlVGNqY1dBMTQ1UGJzRkNB?oc=5",
+      "locator": null,
+      "published_at": "2026-03-27"
+    },
+    "extracted_at": "2026-08-21T05:50:03.226228",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_28401b464d",
+    "company_id": "shield-ai",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": "USD",
+    "raw_text": "$20B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMlRXdlhtbTVjUml5YUZDdzZSUzV1NHRhbmRhSkhnWTJYbVh2SlpfSmtHUGxPRDZveWxDN2NrVHdpZXdnamFBbXZLSDhKczV2THNRV3hXSkJ1QmZvenFUN2pOZDlCb2o0dHlxb2tXcGl1SHJYcDZSU0dMRUpmSG5haHpPaHFGUUt4SDlhM0pGZzRTSDNqX1pnRUpCOFVJY2tD?oc=5",
+      "locator": null,
+      "published_at": "2026-09-15"
+    },
+    "extracted_at": "2026-09-16T10:35:49.404557",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_46f3967fc1",
     "company_id": "shield-ai",
     "metric": "latest_round",
@@ -145,32 +221,6 @@
       "published_at": "2026-02-13"
     },
     "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_93acff4210",
-    "company_id": "shield-ai",
-    "metric": "valuation",
-    "value": 12700000000.0,
-    "unit": "USD",
-    "raw_text": "$12.7 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Pulse 2.0",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOb1p2SmRldUw3Z1VLdVNfT2NWMER3TzBVeGtzQnd3SVVWMlJreWVUUFYwY3RhWmJKbEMycHpUbDZwSWRuM05fM1U1LVVNdTZNZGVBMVozT29JQUNpMUdIcGJSQXhRaEtJRDlSM2lQMEFtMFlLMlp0QV9KdWFPZGcwOG5ZRWhablNjd09TS253T2RhSnI3UFVscS1pZzTSAaIBQVVfeXFMTkNpcGNBXzNQS2swSGlISEFnYnc0bUFzb1FmT3Q1V0J6a2dHYk9ZZjMtZUZ0Z29sMG5XUzRzNGdqS29xZ2pJVzRaUEtpdWx0TW1NVDMtNlIwbXBBOVJEcmU1QWN5Z1Q1M3A0RUVfS1M4VmxqYUtmMFkzMndNSmNTZ1pRdWNEck5ja0c4SnFfd19uYUdlVGNqY1dBMTQ1UGJzRkNB?oc=5",
-      "locator": null,
-      "published_at": "2026-03-27"
-    },
-    "extracted_at": "2026-08-21T05:50:03.226228",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
     "derivation": null
@@ -273,30 +323,6 @@
     "extracted_at": "2026-09-07T10:15:07.048991",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.3675,
-    "derivation": null
-  },
-  {
-    "id": "clm_f45dbc07be",
-    "company_id": "shield-ai",
-    "metric": "valuation",
-    "value": 12700000000.0,
-    "unit": "USD",
-    "raw_text": "valued at $12.7 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Shield AI",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM3U3ZWVlMXZPNzZEUnR4WFA1WDg5VDF2dWJBTmdqcW04N01wZXppYmJuN2pXNE91bjN3VFNxLWdVamE4WjByRkp2ZFRfU2p3QlgtamhIVHBQUFg4bkN5QVBkc1RyRld1SFJ6Z25ERlozTHh5S2xOR0tVSjU5NUdaUkFOd1pzMVdRWkRjN3J2OUZTdXRJY1ViWkkyOXlZa0RBWGlaMQ?oc=5",
-      "locator": null,
-      "published_at": "2026-03-26"
-    },
-    "extracted_at": "2026-09-14T10:31:29.338960",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -549,32 +575,6 @@
     "extracted_at": "2026-09-30T11:06:00.704755",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_0ed2f3ebd1",
-    "company_id": "shield-ai",
-    "metric": "valuation",
-    "value": 20000000000.0,
-    "unit": null,
-    "raw_text": "$20B valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom.co",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMlRXdlhtbTVjUml5YUZDdzZSUzV1NHRhbmRhSkhnWTJYbVh2SlpfSmtHUGxPRDZveWxDN2NrVHdpZXdnamFBbXZLSDhKczV2THNRV3hXSkJ1QmZvenFUN2pOZDlCb2o0dHlxb2tXcGl1SHJYcDZSU0dMRUpmSG5haHpPaHFGUUt4SDlhM0pGZzRTSDNqX1pnRUpCOFVJY2tD?oc=5",
-      "locator": null,
-      "published_at": "2026-09-15"
-    },
-    "extracted_at": "2026-09-27T10:32:58.616902",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {

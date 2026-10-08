@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2025-06-17",
       "estimate_type": "consensus",
-      "confidence": 0.275,
+      "confidence": 0.274,
       "supporting_claims": [
         "clm_7026559435",
         "clm_6e2e490ba6",
@@ -47,9 +47,9 @@
       "supporting_claims": [
         "clm_f459f57517",
         "clm_03ae1bd689",
+        "clm_899fd7229c",
         "clm_a5f85d0485",
         "clm_14e424138b",
-        "clm_899fd7229c",
         "clm_a37627b7c3",
         "clm_a37627b7c3",
         "clm_10f0212bbb",
@@ -79,30 +79,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "headcount": {
-      "metric": "headcount",
-      "value": 1000.0,
-      "unit": "count",
-      "range": null,
-      "as_of": "2026-10-07",
-      "estimate_type": "reported",
-      "confidence": 0.504,
-      "supporting_claims": [
-        "clm_da8f3aa7bb",
-        "clm_da8f3aa7bb",
-        "clm_da8f3aa7bb"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1000.0,
-        "change_pct": 0.0,
-        "since": "2026-10-03"
-      },
-      "history_ref": "history/applied-intuition/headcount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "round_amount": {
       "metric": "round_amount",
       "value": 600000000.0,
@@ -110,7 +86,7 @@
       "range": null,
       "as_of": "2025-06-25",
       "estimate_type": "consensus",
-      "confidence": 0.499,
+      "confidence": 0.498,
       "supporting_claims": [
         "clm_700dca023d",
         "clm_1bd28580e2",
@@ -122,14 +98,37 @@
       "contradiction": false,
       "delta": {
         "previous": 600000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2025-06-25"
       },
       "history_ref": "history/applied-intuition/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "headcount": {
+      "metric": "headcount",
+      "value": 1000.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-10-08",
+      "estimate_type": "reported",
+      "confidence": 0.419,
+      "supporting_claims": [
+        "clm_da8f3aa7bb",
+        "clm_da8f3aa7bb"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1000.0,
+        "change_pct": 0.0,
+        "since": "2026-10-07"
+      },
+      "history_ref": "history/applied-intuition/headcount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-07"
+  "last_updated": "2026-10-08"
 }

@@ -511,6 +511,30 @@
     "derivation": null
   },
   {
+    "id": "clm_e248a02b0f",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "$50 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "CTech",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4WnZ4RmxlTUx3NnFXZTNNR3pETnZpQUJEVm4yYmYtQnVtQktYOUNiQ1Njdk1ITEFDMnJmTHlRbnJXOVZ5T2Fzc3pvZ2JXTlFlR2VNMmF2SEs0VGdrRXJ4N3UxY0h5bTBq?oc=5",
+      "locator": null,
+      "published_at": "2026-10-06"
+    },
+    "extracted_at": "2026-10-07T11:44:32.066946",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_1cfebb751e",
     "company_id": "moonshot",
     "metric": "valuation",
@@ -534,6 +558,30 @@
     "extracted_at": "2026-10-06T12:25:15.330748",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_a3cd724515",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "$50B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Quartz",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4yc3A2cUxsaUJkTjc0QTAzUTNrNWpQX0V1Z3hZazdycmR5RzZYRDhXYllmeDdjZWd2UFZnd19ldERIYmtBWmdiRmFCY1dhaVVlMXVCZlNnVW9QYldkQ0RCWTRWNlliTjBSOUJaNUhxajdITnZmaGFLMkREV2U2Zw?oc=5",
+      "locator": null,
+      "published_at": "2026-10-06"
+    },
+    "extracted_at": "2026-10-07T11:44:32.066946",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -563,51 +611,29 @@
     "derivation": null
   },
   {
-    "id": "clm_e248a02b0f",
+    "id": "clm_2e9a86e7f8",
     "company_id": "moonshot",
     "metric": "valuation",
     "value": 50000000000.0,
     "unit": "USD",
-    "raw_text": "$50 billion valuation",
-    "qualifiers": [],
+    "raw_text": "Moonshot closes round at $50bn valuation before 2027 IPO",
+    "qualifiers": [
+      "unconfirmed"
+    ],
     "speaker": {
       "name": null,
       "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "CTech",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4WnZ4RmxlTUx3NnFXZTNNR3pETnZpQUJEVm4yYmYtQnVtQktYOUNiQ1Njdk1ITEFDMnJmTHlRbnJXOVZ5T2Fzc3pvZ2JXTlFlR2VNMmF2SEs0VGdrRXJ4N3UxY0h5bTBq?oc=5",
+      "name": "Silicon Republic",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOck9FT1RSOTBCN2VacTEzLVkwWUJXTzVUaHg3eFVpWDE2WlZBbDZsMG5faHlFcnlKWnBual9TMmJENm9FeXpjS1lQU3FhNS1Wbnk4elU0RDB1Mi16MWgxZkdlS1dEVjBmUW5wU2VyT2lYSkt5ZUMyUlVUb2o4b2d2aFcwdE0xNzdIaW54Z1Jrek1XY29FQ0EtVmVaREN5a3RLdDQ0UVV1Z1lLVWc?oc=5",
       "locator": null,
       "published_at": "2026-10-06"
     },
-    "extracted_at": "2026-10-07T11:44:32.066946",
+    "extracted_at": "2026-10-08T12:05:08.457629",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_a3cd724515",
-    "company_id": "moonshot",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": "USD",
-    "raw_text": "$50B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Quartz",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4yc3A2cUxsaUJkTjc0QTAzUTNrNWpQX0V1Z3hZazdycmR5RzZYRDhXYllmeDdjZWd2UFZnd19ldERIYmtBWmdiRmFCY1dhaVVlMXVCZlNnVW9QYldkQ0RCWTRWNlliTjBSOUJaNUhxajdITnZmaGFLMkREV2U2Zw?oc=5",
-      "locator": null,
-      "published_at": "2026-10-06"
-    },
-    "extracted_at": "2026-10-07T11:44:32.066946",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -2641,7 +2667,7 @@
       "locator": null,
       "published_at": "2026-05-07"
     },
-    "extracted_at": "2026-10-07T11:44:32.066946",
+    "extracted_at": "2026-10-08T12:05:08.457629",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

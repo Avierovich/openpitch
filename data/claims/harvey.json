@@ -264,6 +264,54 @@
     "derivation": null
   },
   {
+    "id": "clm_63310c35c1",
+    "company_id": "harvey",
+    "metric": "valuation",
+    "value": 11000000000.0,
+    "unit": "USD",
+    "raw_text": "Legal AI startup Harvey valued at $11 billion in funding round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRGxZNEJtbHhJQkRTWENWNzliVWRlR1MyTmFYQkNzcXExemRfN0pGaW1lN0htTDYwQWZsWHdJMFZmOGpVdGw4eW9Qa0Y1QWFBejRqXzFoODA2RVFRenpqU2xUWGQ5UFpSbmhncE03dXdvQUFYNkJTa0Q3VXptTDlXemZmMjNaT3JybUI1QmVscGg0Z2Z3M3VkQVRkMXlMdjVnb29QdktR0gGrAUFVX3lxTE1GN090d3FRVG5CbUx2RjQxQ2lxNzRPY3lablBqdDdpV09iVjRNcV9CNWg3a1BUOUtNTXNraEh5M2lVUG1vYmRVSmtNdXFJZEhtbFhzaVUzaDJMcmZzTW9MVnBhM1poUjA5YzF3ODJRa0Z1eGlJREdSNUc2aUFvdFQ5Vkxremx1N3BpWDEtOGxJdHZLZDdwUG5ZS3dJVkF6dlpYRnZlY3F5YlZhbw?oc=5",
+      "locator": null,
+      "published_at": "2026-03-25"
+    },
+    "extracted_at": "2026-07-06T14:18:05.027477",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_38e8650db4",
+    "company_id": "harvey",
+    "metric": "valuation",
+    "value": 11000000000.0,
+    "unit": "USD",
+    "raw_text": "$11B legal AI company Harvey",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "This Week in Startups",
+      "url": "https://4a885955-6823-4b22-a3e1-a526c25516a5.libsyn.com/open-source-is-going-to-win-it-all-harvey-proves-it-e2328",
+      "locator": null,
+      "published_at": "2026-08-21"
+    },
+    "extracted_at": "2026-09-25T10:09:44.175619",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.42,
+    "derivation": null
+  },
+  {
     "id": "clm_d46065fa74",
     "company_id": "harvey",
     "metric": "total_funding",
@@ -309,54 +357,6 @@
     "extracted_at": "2026-10-04T11:05:13.664288",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_38e8650db4",
-    "company_id": "harvey",
-    "metric": "valuation",
-    "value": 11000000000.0,
-    "unit": "USD",
-    "raw_text": "$11B legal AI company Harvey",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "This Week in Startups",
-      "url": "https://4a885955-6823-4b22-a3e1-a526c25516a5.libsyn.com/open-source-is-going-to-win-it-all-harvey-proves-it-e2328",
-      "locator": null,
-      "published_at": "2026-08-21"
-    },
-    "extracted_at": "2026-09-25T10:09:44.175619",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.42,
-    "derivation": null
-  },
-  {
-    "id": "clm_63310c35c1",
-    "company_id": "harvey",
-    "metric": "valuation",
-    "value": 11000000000.0,
-    "unit": "USD",
-    "raw_text": "Legal AI startup Harvey valued at $11 billion in funding round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRGxZNEJtbHhJQkRTWENWNzliVWRlR1MyTmFYQkNzcXExemRfN0pGaW1lN0htTDYwQWZsWHdJMFZmOGpVdGw4eW9Qa0Y1QWFBejRqXzFoODA2RVFRenpqU2xUWGQ5UFpSbmhncE03dXdvQUFYNkJTa0Q3VXptTDlXemZmMjNaT3JybUI1QmVscGg0Z2Z3M3VkQVRkMXlMdjVnb29QdktR0gGrAUFVX3lxTE1GN090d3FRVG5CbUx2RjQxQ2lxNzRPY3lablBqdDdpV09iVjRNcV9CNWg3a1BUOUtNTXNraEh5M2lVUG1vYmRVSmtNdXFJZEhtbFhzaVUzaDJMcmZzTW9MVnBhM1poUjA5YzF3ODJRa0Z1eGlJREdSNUc2aUFvdFQ5Vkxremx1N3BpWDEtOGxJdHZLZDdwUG5ZS3dJVkF6dlpYRnZlY3F5YlZhbw?oc=5",
-      "locator": null,
-      "published_at": "2026-03-25"
-    },
-    "extracted_at": "2026-07-06T14:18:05.027477",
-    "extractor_model": "gemini-2.5-flash",
-    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -2051,7 +2051,7 @@
       "locator": null,
       "published_at": "2026-10-02"
     },
-    "extracted_at": "2026-10-07T11:44:32.066946",
+    "extracted_at": "2026-10-08T12:05:08.457629",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

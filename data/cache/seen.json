@@ -202230,5 +202230,642 @@
   "centivo:28884b1317a06c9f": [],
   "champagne:58043ebef7038fd7": [],
   "climate-ai:13b6bcffac04bdb7": [],
-  "codegen:3eab3f05084b1ce4": []
+  "codegen:3eab3f05084b1ce4": [],
+  "aleph-alpha:f0dec08c68d72e2e": [],
+  "anthropic:18a44eebefb6f17b": [],
+  "anthropic:14adc9b0d8a3857c": [],
+  "anthropic:a6bc808bf9d00405": [],
+  "anysphere:05649cb5787c1eab": [],
+  "applied-intuition:668b0296923c719e": [],
+  "applied-intuition:d06254513c12e97e": [
+    {
+      "id": "clm_da8f3aa7bb",
+      "company_id": "applied-intuition",
+      "metric": "headcount",
+      "value": 1000.0,
+      "unit": "engineers",
+      "raw_text": "1,000 engineers",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "web",
+        "name": "appliedintuition.com",
+        "url": "https://appliedintuition.com/careers",
+        "locator": null,
+        "published_at": null
+      },
+      "extracted_at": "2026-10-08T12:05:08.457629",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.25,
+      "derivation": null
+    }
+  ],
+  "applied-intuition:7f174cc517035ab7": [],
+  "applied-intuition:7e0cb27076c75d99": [
+    {
+      "id": "clm_da8f3aa7bb",
+      "company_id": "applied-intuition",
+      "metric": "headcount",
+      "value": 1000.0,
+      "unit": "engineers",
+      "raw_text": "1,000+ Engineers",
+      "qualifiers": [
+        "rounded"
+      ],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "web",
+        "name": "appliedintuition.com",
+        "url": "https://appliedintuition.com/about",
+        "locator": null,
+        "published_at": null
+      },
+      "extracted_at": "2026-10-08T12:05:08.457629",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.225,
+      "derivation": null
+    }
+  ],
+  "cerebras:87396fece053e189": [],
+  "cognition:a75b13bf6f3fe55b": [
+    {
+      "id": "clm_51ff01b890",
+      "company_id": "cognition",
+      "metric": "valuation",
+      "value": 10000000000.0,
+      "unit": null,
+      "raw_text": "$10 Billion Valuation",
+      "qualifiers": [
+        "unconfirmed",
+        "forward_looking"
+      ],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Decrypt News",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5DSWpjNlFfWEE3bUZmZGhjZmNGNTh0NUxTb21qUDR6REtvQnVISDdXblJEcHM4Y3VRNEZES2g4WUMtVWozdDJ5RlZZdElacTNrNFM1d2FTZTJaaXJFS1VjMDRELVA5bnVGaW5fUUU0RQ?oc=5",
+        "locator": null,
+        "published_at": "2025-07-24"
+      },
+      "extracted_at": "2026-10-08T12:05:08.457629",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.2205,
+      "derivation": null
+    }
+  ],
+  "crusoe-energy-systems:0d74c03f3310ebf1": [
+    {
+      "id": "clm_47a3605ca3",
+      "company_id": "crusoe-energy-systems",
+      "metric": "valuation",
+      "value": 10000000000.0,
+      "unit": "USD",
+      "raw_text": "$10B Valuation",
+      "qualifiers": [
+        "rounded"
+      ],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "news",
+        "name": "GetLatka",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hcjBqUVJvbFF6ZlRWMHJ6YWtYeU1vd1Y1VC1KN0NpT1pCczJzckZITy1DNWdvR2kxQnRaaWQ3MmM2SjdoTTZBUFdUWEtTQTk2Rmc?oc=5",
+        "locator": null,
+        "published_at": "2025-09-18"
+      },
+      "extracted_at": "2026-10-08T12:05:08.457629",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.3375,
+      "derivation": null
+    }
+  ],
+  "crusoe-energy-systems:3146f8b015183be1": [
+    {
+      "id": "clm_0c58e04baf",
+      "company_id": "crusoe-energy-systems",
+      "metric": "total_funding",
+      "value": 505000000.0,
+      "unit": "USD",
+      "raw_text": "Crusoe Energy Raises $505 Million",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "news",
+        "name": "Decrypt News",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdzRTVjlXVWItT21YYnU1YklNNFpiVlUxQWZXd19RYzFFblZXODE0R09Yb0xtdHZjY0hIWjYybHpQd1FGRy1hUUh6bHhMZnRfZllPVnFxejd6QkNRbDlrd0pIX1hEOXlFc2IySVBrakVRLVIyaDZwbG5WT2RrVHRVZ2xrejhNLURDT0RvWTBkdVZlWS1yamJHZktqSmpXZTVJMjRJ?oc=5",
+        "locator": null,
+        "published_at": "2022-04-21"
+      },
+      "extracted_at": "2026-10-08T12:05:08.457629",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.375,
+      "derivation": null
+    }
+  ],
+  "cursor:f4163a333fb3ff46": [],
+  "deepseek:b872ab0b9412652f": [],
+  "deepseek:7e1af8e6910738f5": [
+    {
+      "id": "clm_63cf9886de",
+      "company_id": "deepseek",
+      "metric": "round_amount",
+      "value": 11900000000.0,
+      "unit": null,
+      "raw_text": "DeepSeek seeks $11.9b in funding",
+      "qualifiers": [
+        "unconfirmed",
+        "forward_looking"
+      ],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Tech in Asia",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN3k2UHhVcC1EZVY2Uzh5SkR4aXF3ajVEQXNzYllpSnZONElMaERoV1ptWmJVYzAzU2I5NE9MTWZ6ZFRUYXpsSjVxcE1CY3dhSzNKWXU4aDctclBUYW1SU3hOX1FDVmFrWmNLRzVISlNQZkFpQTVEMFUzNjRGRV9WZklNellveENOdzlnUGR4SVZSWTZS?oc=5",
+        "locator": null,
+        "published_at": "2026-10-07"
+      },
+      "extracted_at": "2026-10-08T12:05:08.457629",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.2205,
+      "derivation": null
+    },
+    {
+      "id": "clm_175b153654",
+      "company_id": "deepseek",
+      "metric": "valuation",
+      "value": 74600000000.0,
+      "unit": null,
+      "raw_text": "at $74.6b valuation",
+      "qualifiers": [
+        "unconfirmed",
+        "forward_looking"
+      ],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Tech in Asia",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN3k2UHhVcC1EZVY2Uzh5SkR4aXF3ajVEQXNzYllpSnZONElMaERoV1ptWmJVYzAzU2I5NE9MTWZ6ZFRUYXpsSjVxcE1CY3dhSzNKWXU4aDctclBUYW1SU3hOX1FDVmFrWmNLRzVISlNQZkFpQTVEMFUzNjRGRV9WZklNellveENOdzlnUGR4SVZSWTZS?oc=5",
+        "locator": null,
+        "published_at": "2026-10-07"
+      },
+      "extracted_at": "2026-10-08T12:05:08.457629",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.2205,
+      "derivation": null
+    }
+  ],
+  "deepseek-ai:8235570bb0f58027": [
+    {
+      "id": "clm_b5d4ae77ed",
+      "company_id": "deepseek-ai",
+      "metric": "valuation",
+      "value": 50000000000.0,
+      "unit": "USD",
+      "raw_text": "$50B Valuation",
+      "qualifiers": [
+        "forward_looking",
+        "rounded"
+      ],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "GetLatka",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1leDc1cjhuc1ljUEwtVGNaUGdLRWtsRnNnNUNZUWxzRG5yWFZCWl9ZQWMwODB2VDRmdE9KUGd4eGdSTVBvRURkWmU4SGhfMlFNdk1nWEVB?oc=5",
+        "locator": null,
+        "published_at": "2026-09-28"
+      },
+      "extracted_at": "2026-10-08T12:05:08.457629",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.3307,
+      "derivation": null
+    }
+  ],
+  "deepseek-ai:ee95596052d63293": [
+    {
+      "id": "clm_87de60f88a",
+      "company_id": "deepseek-ai",
+      "metric": "valuation",
+      "value": 20000000000.0,
+      "unit": "USD",
+      "raw_text": "$20 Billion Valuation",
+      "qualifiers": [
+        "unconfirmed",
+        "forward_looking"
+      ],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "PYMNTS.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZlJvQk9qWUNFR01QbDVRN01vUFFVZUczM05XQ0FxY0EwX3g4cFpGMUJZdGJkM0U2YXdMZ2RaNzczU2lFa2FXYXBpdVRmTmZ3ZUhuTXMzS1MyOW15d1djNklzT0VMMjQyNDVTWUpKMkxpOU5wV1JNdDkzX0J1X3FnYXNsS1VNcmR4aU9vOXFySmlLcnRyUTQ4NjhsR2wzaU9vTHlMV0pXU0M2UGVPSGtWLS1QamlmcWpkeldnOQ?oc=5",
+        "locator": null,
+        "published_at": "2026-04-22"
+      },
+      "extracted_at": "2026-10-08T12:05:08.457629",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.2205,
+      "derivation": null
+    }
+  ],
+  "enflame-technology:eddc9819bb3b8ea2": [],
+  "fireworks:2e04c977ce09b545": [
+    {
+      "id": "clm_2711f6bf83",
+      "company_id": "fireworks",
+      "metric": "open_roles",
+      "value": 83.0,
+      "unit": null,
+      "raw_text": "Showing 83 positions",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "web",
+        "name": "fireworks.ai",
+        "url": "https://fireworks.ai/careers",
+        "locator": null,
+        "published_at": null
+      },
+      "extracted_at": "2026-10-08T12:05:08.457629",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.25,
+      "derivation": null
+    }
+  ],
+  "fireworks-ai:2e04c977ce09b545": [
+    {
+      "id": "clm_a4fd940497",
+      "company_id": "fireworks-ai",
+      "metric": "open_roles",
+      "value": 83.0,
+      "unit": null,
+      "raw_text": "Showing 83 positions",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "web",
+        "name": "fireworks.ai",
+        "url": "https://fireworks.ai/careers",
+        "locator": null,
+        "published_at": null
+      },
+      "extracted_at": "2026-10-08T12:05:08.457629",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.25,
+      "derivation": null
+    }
+  ],
+  "fluidstack:1d660864cbd1baf9": [
+    {
+      "id": "clm_128a6e4355",
+      "company_id": "fluidstack",
+      "metric": "open_roles",
+      "value": 247.0,
+      "unit": null,
+      "raw_text": "Open roles 247 open",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "web",
+        "name": "fluidstack.io",
+        "url": "https://fluidstack.io/careers",
+        "locator": null,
+        "published_at": null
+      },
+      "extracted_at": "2026-10-08T12:05:08.457629",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.25,
+      "derivation": null
+    }
+  ],
+  "fluidstack:d4c1c06c2f633a62": [
+    {
+      "id": "clm_128a6e4355",
+      "company_id": "fluidstack",
+      "metric": "open_roles",
+      "value": 247.0,
+      "unit": null,
+      "raw_text": "Open roles 247 open",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "web",
+        "name": "fluidstack.io",
+        "url": "https://fluidstack.io/jobs",
+        "locator": null,
+        "published_at": null
+      },
+      "extracted_at": "2026-10-08T12:05:08.457629",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.25,
+      "derivation": null
+    }
+  ],
+  "harvey-ai:fe443bacd3850b30": [
+    {
+      "id": "clm_f0ae503ffa",
+      "company_id": "harvey-ai",
+      "metric": "arr",
+      "value": 190000000.0,
+      "unit": "USD",
+      "raw_text": "$190M ARR",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "news",
+        "name": "GetLatka",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9NeGhxTHBoTWpfZUZKdXU2MXRWYkgyOW16NzBXMnp0bVUwMXlhOUhGX0E1bFM3Z1ZYUkNFZ1ViNE5MMVdDdlE2bVRoa2hIdw?oc=5",
+        "locator": null,
+        "published_at": "2026-07-03"
+      },
+      "extracted_at": "2026-10-08T12:05:08.457629",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.375,
+      "derivation": null
+    },
+    {
+      "id": "clm_552f969549",
+      "company_id": "harvey-ai",
+      "metric": "valuation",
+      "value": 11000000000.0,
+      "unit": "USD",
+      "raw_text": "$11B Valuation",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "news",
+        "name": "GetLatka",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9NeGhxTHBoTWpfZUZKdXU2MXRWYkgyOW16NzBXMnp0bVUwMXlhOUhGX0E1bFM3Z1ZYUkNFZ1ViNE5MMVdDdlE2bVRoa2hIdw?oc=5",
+        "locator": null,
+        "published_at": "2026-07-03"
+      },
+      "extracted_at": "2026-10-08T12:05:08.457629",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.375,
+      "derivation": null
+    }
+  ],
+  "hugging-face:f704d752d9f3e1c9": [],
+  "mercor:466020c5d3f84514": [],
+  "mercor:ea1f183a91d1897e": [
+    {
+      "id": "clm_0051c9db8a",
+      "company_id": "mercor",
+      "metric": "valuation",
+      "value": 10000000000.0,
+      "unit": null,
+      "raw_text": "$10 billion valuation",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "web",
+        "name": "mercor.com",
+        "url": "https://mercor.com/careers",
+        "locator": null,
+        "published_at": null
+      },
+      "extracted_at": "2026-10-08T12:05:08.457629",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.25,
+      "derivation": null
+    },
+    {
+      "id": "clm_3da23f4b07",
+      "company_id": "mercor",
+      "metric": "latest_round",
+      "value": 3.0,
+      "unit": null,
+      "raw_text": "Series C",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "web",
+        "name": "mercor.com",
+        "url": "https://mercor.com/careers",
+        "locator": null,
+        "published_at": null
+      },
+      "extracted_at": "2026-10-08T12:05:08.457629",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.25,
+      "derivation": null
+    }
+  ],
+  "mercor:e0879772964263f7": [],
+  "mercor:9aa19dcd4160eb59": [
+    {
+      "id": "clm_b2edd8a2da",
+      "company_id": "mercor",
+      "metric": "valuation",
+      "value": 20000000000.0,
+      "unit": null,
+      "raw_text": "$20B valuation",
+      "qualifiers": [
+        "unconfirmed"
+      ],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "news",
+        "name": "TechCrunch",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5wcmEtMjZyVUFaM1Y0QXFfSFdVNDE0Z0l0SGJFaGJEUVhPdUZTYWRMc0o5V1Z4WmtkUGNBbEdfZnNYeGJGN21UeEs0RkZnRkZ1TFJ0emtBdXdoU09WQy1tZm9fNXFvbFI2R0RJMG1IemZwaFhCWmZJZm1nTHNBUQ?oc=5",
+        "locator": null,
+        "published_at": "2026-07-09"
+      },
+      "extracted_at": "2026-10-08T12:05:08.457629",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.225,
+      "derivation": null
+    }
+  ],
+  "mistral:20515ff91e0e377f": [
+    {
+      "id": "clm_8725bead7c",
+      "company_id": "mistral",
+      "metric": "valuation",
+      "value": 21000000000.0,
+      "unit": "EUR",
+      "raw_text": "€21 Billion Valuation",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUC04eHBZSndveGdwcG9EdUdhRkxyNTBvZ1JYbXNqak9nekdLWW8tMDMxalh2eW9DejdkRWZtMWlGVDM1X3c2YlM1RHFnc21sNTFFLVRLZU81NzdpcjBtTl96MXExY3hEbS1MTjlRTkpDM0FLUnVQRi1ZNEM5dk1lX0p6OUpnWnd4OWI5VDhjaUlfN1loSVVYRUNRSTg1dXY1YUFONkRqVjlLczFuWkdyYllBUQ?oc=5",
+        "locator": null,
+        "published_at": "2026-09-07"
+      },
+      "extracted_at": "2026-10-08T12:05:08.457629",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    }
+  ],
+  "moonshot:cc2d90da83838e34": [
+    {
+      "id": "clm_2e9a86e7f8",
+      "company_id": "moonshot",
+      "metric": "valuation",
+      "value": 50000000000.0,
+      "unit": "USD",
+      "raw_text": "Moonshot closes round at $50bn valuation before 2027 IPO",
+      "qualifiers": [
+        "unconfirmed"
+      ],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Silicon Republic",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOck9FT1RSOTBCN2VacTEzLVkwWUJXTzVUaHg3eFVpWDE2WlZBbDZsMG5faHlFcnlKWnBual9TMmJENm9FeXpjS1lQU3FhNS1Wbnk4elU0RDB1Mi16MWgxZkdlS1dEVjBmUW5wU2VyT2lYSkt5ZUMyUlVUb2o4b2d2aFcwdE0xNzdIaW54Z1Jrek1XY29FQ0EtVmVaREN5a3RLdDQ0UVV1Z1lLVWc?oc=5",
+        "locator": null,
+        "published_at": "2026-10-06"
+      },
+      "extracted_at": "2026-10-08T12:05:08.457629",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.315,
+      "derivation": null
+    }
+  ],
+  "nscale:c58ea091b518a0b8": [],
+  "openai:18a44eebefb6f17b": [
+    {
+      "id": "clm_55164092da",
+      "company_id": "openai",
+      "metric": "arr",
+      "value": 70000000000.0,
+      "unit": "USD",
+      "raw_text": "OpenAI Nears $70B Run Rate",
+      "qualifiers": [
+        "run_rate"
+      ],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "podcast",
+        "name": "20VC (Harry Stebbings)",
+        "url": "https://thetwentyminutevc.libsyn.com/20vc-cognition-vs-factory-vinod-khosla-creates-a-storm-openai-nears-70b-run-rate-anthropic-under-threat-elevenlabs-doubles-its-valuation-to-22b-salesforce-buys-listen-labs-for-2b",
+        "locator": null,
+        "published_at": "2026-10-08"
+      },
+      "extracted_at": "2026-10-08T12:05:08.457629",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.27,
+      "derivation": null
+    }
+  ],
+  "reflection-ai:37a32046d0a34559": [],
+  "reflection-ai:9db799e2ace96ce2": [],
+  "reflection-ai:04c5f3bc1d6d82e2": [],
+  "shield-ai:76f8c6d15c031bc0": [],
+  "shield-ai:842920f559317386": [],
+  "shield-ai:3cfd8a67afa05eea": [],
+  "vast-data:cdde79bed1272205": [],
+  "vast-data:5d83bc67b5a1760c": [
+    {
+      "id": "clm_b682cee082",
+      "company_id": "vast-data",
+      "metric": "open_roles",
+      "value": 100.0,
+      "unit": "count",
+      "raw_text": "With over 100 positions open all over the world",
+      "qualifiers": [
+        "rounded",
+        "approximate"
+      ],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "web",
+        "name": "vastdata.com",
+        "url": "https://vastdata.com/careers",
+        "locator": null,
+        "published_at": null
+      },
+      "extracted_at": "2026-10-08T12:05:08.457629",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.1913,
+      "derivation": null
+    }
+  ],
+  "vast-data:4f28ed7d02efc81d": [],
+  "adlib:2d28315000b0f41d": [],
+  "augment-computing:838e493d65e964e9": [],
+  "banana:4ac15cc5c30cc79b": [],
+  "bionic:4b05c61aaf456ed2": [],
+  "bloop:66b20aabd3a1ce72": [],
+  "caios:f59d2b0171f338e2": [],
+  "cemvita:ba405844699be2a4": [],
+  "cemvita-factory:ba405844699be2a4": [],
+  "champagne:e36577870ff75533": [],
+  "champagne:6c92df606778498a": [],
+  "champagne:dc7ea2e822871a31": [],
+  "champagne:db6cbe2b53e27bd9": [],
+  "champagne:41d27681b9a233b0": [],
+  "champagne:9f29c785c404ee09": [],
+  "combined-logistics:55799b25c2d2e9a9": [],
+  "continue:9576f86a045b4123": [],
+  "corumat:6b454d757d13ff3b": [],
+  "deepcode:b21b87760fc07055": [],
+  "deepcode:e14f082cc1d6fee7": [],
+  "deepmotion:82f81ef16b51a1ae": []
 }

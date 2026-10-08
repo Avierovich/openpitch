@@ -98,6 +98,33 @@
     "derivation": null
   },
   {
+    "id": "clm_7d366ec39d",
+    "company_id": "anysphere-cursor",
+    "metric": "valuation",
+    "value": 400000000.0,
+    "unit": "USD",
+    "raw_text": "at least a $400 million valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNGdlTGNsZF8wY2ZxcnBYOERuV2lHclFlOUtrcFZVYnRHVWNmV0c0TEF3TWdjc2FoQzN6MDJadnIzNHYzdjltZXF0VWhySVNwYjhMNnJhalZ3aFlkT2lFb0hTTi1udGdKQi1CZTYxNFlqS2xubXZPb2M0VS11bzRnejZmLTFfTVQ3VV81R3ZrQ3pTRXVUd1JjTDZtWnM?oc=5",
+      "locator": null,
+      "published_at": "2024-07-15"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
     "id": "clm_0b480b48ed",
     "company_id": "anysphere-cursor",
     "metric": "valuation",
@@ -191,33 +218,6 @@
     "extracted_at": "2026-09-05T09:07:28.177448",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_fce62bad83",
-    "company_id": "anysphere-cursor",
-    "metric": "valuation",
-    "value": 9900000000.0,
-    "unit": "USD",
-    "raw_text": "$9.9B valuation",
-    "qualifiers": [
-      "rounded",
-      "approximate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdi1vYmdlQkxUVkZoQkcwNkVsemllakpkUzVUZXZJVWxlM1JoQ3QtbHlNRlFoRkFHZVpsdEJvX0FKa1FhSHZHMDVjcUJPOEpfQmF6YlFzYW1TcWtwMnhiUHV4Sk03SXYyQVdtcTJ4dTdOZFdlWkVjbmhWUkNrNG5kck90aE5RdUllRlhzOEtHcU5CQTZmR2RIbG5TY0V5R3J4c25CRl9QN1U0eE0?oc=5",
-      "locator": null,
-      "published_at": "2025-06-06"
-    },
-    "extracted_at": "2026-09-07T10:15:07.048991",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4016,
     "derivation": null
   },
   {
@@ -391,15 +391,15 @@
     "derivation": null
   },
   {
-    "id": "clm_7d366ec39d",
+    "id": "clm_fce62bad83",
     "company_id": "anysphere-cursor",
     "metric": "valuation",
-    "value": 400000000.0,
+    "value": 9900000000.0,
     "unit": "USD",
-    "raw_text": "at least a $400 million valuation",
+    "raw_text": "$9.9B valuation",
     "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
+      "rounded",
+      "approximate"
     ],
     "speaker": {
       "name": null,
@@ -407,14 +407,14 @@
     },
     "source": {
       "type": "news",
-      "name": "Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNGdlTGNsZF8wY2ZxcnBYOERuV2lHclFlOUtrcFZVYnRHVWNmV0c0TEF3TWdjc2FoQzN6MDJadnIzNHYzdjltZXF0VWhySVNwYjhMNnJhalZ3aFlkT2lFb0hTTi1udGdKQi1CZTYxNFlqS2xubXZPb2M0VS11bzRnejZmLTFfTVQ3VV81R3ZrQ3pTRXVUd1JjTDZtWnM?oc=5",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdi1vYmdlQkxUVkZoQkcwNkVsemllakpkUzVUZXZJVWxlM1JoQ3QtbHlNRlFoRkFHZVpsdEJvX0FKa1FhSHZHMDVjcUJPOEpfQmF6YlFzYW1TcWtwMnhiUHV4Sk03SXYyQVdtcTJ4dTdOZFdlWkVjbmhWUkNrNG5kck90aE5RdUllRlhzOEtHcU5CQTZmR2RIbG5TY0V5R3J4c25CRl9QN1U0eE0?oc=5",
       "locator": null,
-      "published_at": "2024-07-15"
+      "published_at": "2025-06-06"
     },
-    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extracted_at": "2026-09-07T10:15:07.048991",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
+    "base_confidence": 0.4016,
     "derivation": null
   },
   {
@@ -1005,7 +1005,7 @@
       "locator": null,
       "published_at": "2026-06-16"
     },
-    "extracted_at": "2026-10-07T11:44:32.066946",
+    "extracted_at": "2026-10-08T12:05:08.457629",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

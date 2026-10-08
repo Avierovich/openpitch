@@ -1,58 +1,5 @@
 [
   {
-    "id": "clm_0f66897c5c",
-    "company_id": "crusoe-energy-systems",
-    "metric": "arr",
-    "value": 290700000.0,
-    "unit": null,
-    "raw_text": "$290.7M Est. ARR",
-    "qualifiers": [
-      "forward_looking",
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "GetLatka",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hcjBqUVJvbFF6ZlRWMHJ6YWtYeU1vd1Y1VC1KN0NpT1pCczJzckZITy1DNWdvR2kxQnRaaWQ3MmM2SjdoTTZBUFdUWEtTQTk2Rmc?oc=5",
-      "locator": null,
-      "published_at": "2026-09-14"
-    },
-    "extracted_at": "2026-09-18T09:44:30.525514",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3307,
-    "derivation": null
-  },
-  {
-    "id": "clm_99cc4709c7",
-    "company_id": "crusoe-energy-systems",
-    "metric": "valuation",
-    "value": 10000000000.0,
-    "unit": null,
-    "raw_text": "$10B Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "GetLatka",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hcjBqUVJvbFF6ZlRWMHJ6YWtYeU1vd1Y1VC1KN0NpT1pCczJzckZITy1DNWdvR2kxQnRaaWQ3MmM2SjdoTTZBUFdUWEtTQTk2Rmc?oc=5",
-      "locator": null,
-      "published_at": "2026-09-14"
-    },
-    "extracted_at": "2026-09-18T09:44:30.525514",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_0b729c822c",
     "company_id": "crusoe-energy-systems",
     "metric": "round_amount",
@@ -245,6 +192,133 @@
     "derivation": null
   },
   {
+    "id": "clm_56e3ce0320",
+    "company_id": "crusoe-energy-systems",
+    "metric": "latest_round",
+    "value": 4500000.0,
+    "unit": null,
+    "raw_text": "Crusoe Energy Systems Raises $4.5M in Seed Funding",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "FinSMEs",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQS0dFalNCcFdtZFZUWHRfYzAxLXFvbDZMcEt5bTY5cHJtUW5fSlNNbzI1QU5kc3JYbFdTSkd5RUN3dW9JSEtoZWYyS2pJWlE5QTVpVE9mNDNIaTRhLW9NT3d2THFrMW82a2g0M2NVMXg5RXA0LXFDaHJmNHZSOHJfX1BrU3R1YjNUTlhBWmRaNA?oc=5",
+      "locator": null,
+      "published_at": "2019-05-04"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_47a3605ca3",
+    "company_id": "crusoe-energy-systems",
+    "metric": "valuation",
+    "value": 10000000000.0,
+    "unit": "USD",
+    "raw_text": "$10B Valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hcjBqUVJvbFF6ZlRWMHJ6YWtYeU1vd1Y1VC1KN0NpT1pCczJzckZITy1DNWdvR2kxQnRaaWQ3MmM2SjdoTTZBUFdUWEtTQTk2Rmc?oc=5",
+      "locator": null,
+      "published_at": "2025-09-18"
+    },
+    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3375,
+    "derivation": null
+  },
+  {
+    "id": "clm_0c58e04baf",
+    "company_id": "crusoe-energy-systems",
+    "metric": "total_funding",
+    "value": 505000000.0,
+    "unit": "USD",
+    "raw_text": "Crusoe Energy Raises $505 Million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Decrypt News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdzRTVjlXVWItT21YYnU1YklNNFpiVlUxQWZXd19RYzFFblZXODE0R09Yb0xtdHZjY0hIWjYybHpQd1FGRy1hUUh6bHhMZnRfZllPVnFxejd6QkNRbDlrd0pIX1hEOXlFc2IySVBrakVRLVIyaDZwbG5WT2RrVHRVZ2xrejhNLURDT0RvWTBkdVZlWS1yamJHZktqSmpXZTVJMjRJ?oc=5",
+      "locator": null,
+      "published_at": "2022-04-21"
+    },
+    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_0f66897c5c",
+    "company_id": "crusoe-energy-systems",
+    "metric": "arr",
+    "value": 290700000.0,
+    "unit": null,
+    "raw_text": "$290.7M Est. ARR",
+    "qualifiers": [
+      "forward_looking",
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hcjBqUVJvbFF6ZlRWMHJ6YWtYeU1vd1Y1VC1KN0NpT1pCczJzckZITy1DNWdvR2kxQnRaaWQ3MmM2SjdoTTZBUFdUWEtTQTk2Rmc?oc=5",
+      "locator": null,
+      "published_at": "2026-09-14"
+    },
+    "extracted_at": "2026-09-18T09:44:30.525514",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3307,
+    "derivation": null
+  },
+  {
+    "id": "clm_99cc4709c7",
+    "company_id": "crusoe-energy-systems",
+    "metric": "valuation",
+    "value": 10000000000.0,
+    "unit": null,
+    "raw_text": "$10B Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hcjBqUVJvbFF6ZlRWMHJ6YWtYeU1vd1Y1VC1KN0NpT1pCczJzckZITy1DNWdvR2kxQnRaaWQ3MmM2SjdoTTZBUFdUWEtTQTk2Rmc?oc=5",
+      "locator": null,
+      "published_at": "2026-09-14"
+    },
+    "extracted_at": "2026-09-18T09:44:30.525514",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_ef21f7d8aa",
     "company_id": "crusoe-energy-systems",
     "metric": "round_amount",
@@ -288,30 +362,6 @@
       "published_at": "2022-04-22"
     },
     "extracted_at": "2026-09-22T09:56:18.399410",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_56e3ce0320",
-    "company_id": "crusoe-energy-systems",
-    "metric": "latest_round",
-    "value": 4500000.0,
-    "unit": null,
-    "raw_text": "Crusoe Energy Systems Raises $4.5M in Seed Funding",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "FinSMEs",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQS0dFalNCcFdtZFZUWHRfYzAxLXFvbDZMcEt5bTY5cHJtUW5fSlNNbzI1QU5kc3JYbFdTSkd5RUN3dW9JSEtoZWYyS2pJWlE5QTVpVE9mNDNIaTRhLW9NT3d2THFrMW82a2g0M2NVMXg5RXA0LXFDaHJmNHZSOHJfX1BrU3R1YjNUTlhBWmRaNA?oc=5",
-      "locator": null,
-      "published_at": "2019-05-04"
-    },
-    "extracted_at": "2026-09-05T09:07:28.177448",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -1313,7 +1363,7 @@
       "locator": null,
       "published_at": "2026-09-03"
     },
-    "extracted_at": "2026-10-07T11:44:32.066946",
+    "extracted_at": "2026-10-08T12:05:08.457629",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

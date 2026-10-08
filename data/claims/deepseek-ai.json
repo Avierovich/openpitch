@@ -1,59 +1,5 @@
 [
   {
-    "id": "clm_faff324c44",
-    "company_id": "deepseek-ai",
-    "metric": "arr",
-    "value": 13400000.0,
-    "unit": null,
-    "raw_text": "$13.4M Est. ARR",
-    "qualifiers": [
-      "forward_looking",
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "GetLatka",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1leDc1cjhuc1ljUEwtVGNaUGdLRWtsRnNnNUNZUWxzRG5yWFZCWl9ZQWMwODB2VDRmdE9KUGd4eGdSTVBvRURkWmU4SGhfMlFNdk1nWEVB?oc=5",
-      "locator": null,
-      "published_at": "2026-09-28"
-    },
-    "extracted_at": "2026-10-02T11:05:56.740593",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2363,
-    "derivation": null
-  },
-  {
-    "id": "clm_b5d4ae77ed",
-    "company_id": "deepseek-ai",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": null,
-    "raw_text": "$50B Valuation",
-    "qualifiers": [
-      "rounded",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "GetLatka",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1leDc1cjhuc1ljUEwtVGNaUGdLRWtsRnNnNUNZUWxzRG5yWFZCWl9ZQWMwODB2VDRmdE9KUGd4eGdSTVBvRURkWmU4SGhfMlFNdk1nWEVB?oc=5",
-      "locator": null,
-      "published_at": "2026-09-28"
-    },
-    "extracted_at": "2026-10-02T11:05:56.740593",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2025,
-    "derivation": null
-  },
-  {
     "id": "clm_aff2cf13b5",
     "company_id": "deepseek-ai",
     "metric": "valuation",
@@ -260,6 +206,87 @@
     "extracted_at": "2026-09-07T10:15:07.048991",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_b5d4ae77ed",
+    "company_id": "deepseek-ai",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "$50B Valuation",
+    "qualifiers": [
+      "forward_looking",
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1leDc1cjhuc1ljUEwtVGNaUGdLRWtsRnNnNUNZUWxzRG5yWFZCWl9ZQWMwODB2VDRmdE9KUGd4eGdSTVBvRURkWmU4SGhfMlFNdk1nWEVB?oc=5",
+      "locator": null,
+      "published_at": "2026-09-28"
+    },
+    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3307,
+    "derivation": null
+  },
+  {
+    "id": "clm_87de60f88a",
+    "company_id": "deepseek-ai",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": "USD",
+    "raw_text": "$20 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZlJvQk9qWUNFR01QbDVRN01vUFFVZUczM05XQ0FxY0EwX3g4cFpGMUJZdGJkM0U2YXdMZ2RaNzczU2lFa2FXYXBpdVRmTmZ3ZUhuTXMzS1MyOW15d1djNklzT0VMMjQyNDVTWUpKMkxpOU5wV1JNdDkzX0J1X3FnYXNsS1VNcmR4aU9vOXFySmlLcnRyUTQ4NjhsR2wzaU9vTHlMV0pXU0M2UGVPSGtWLS1QamlmcWpkeldnOQ?oc=5",
+      "locator": null,
+      "published_at": "2026-04-22"
+    },
+    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_faff324c44",
+    "company_id": "deepseek-ai",
+    "metric": "arr",
+    "value": 13400000.0,
+    "unit": null,
+    "raw_text": "$13.4M Est. ARR",
+    "qualifiers": [
+      "forward_looking",
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1leDc1cjhuc1ljUEwtVGNaUGdLRWtsRnNnNUNZUWxzRG5yWFZCWl9ZQWMwODB2VDRmdE9KUGd4eGdSTVBvRURkWmU4SGhfMlFNdk1nWEVB?oc=5",
+      "locator": null,
+      "published_at": "2026-09-28"
+    },
+    "extracted_at": "2026-10-02T11:05:56.740593",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2363,
     "derivation": null
   },
   {

@@ -1,5 +1,53 @@
 [
   {
+    "id": "clm_a204a31fa9",
+    "company_id": "vast-data",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": null,
+    "raw_text": "VAST Data Valued at $30 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "THE ELEC, Korea Electronics Industry Media",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1mWVAwMm5lLVJCMHp3cW9LSERqQldIZ0ZSRVhIR1k1dEY0NU5EaXZKTXB4RjFNNnNfZ2VDOHFnUWlsdHlrR1Q3WEZycVd5Z0FCdjJnenE0a2JGQllQXzVnbVliR25TZw?oc=5",
+      "locator": null,
+      "published_at": "2026-04-24"
+    },
+    "extracted_at": "2026-10-07T11:44:32.066946",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_c043a54fea",
+    "company_id": "vast-data",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "$1 Billion Series F Funding",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "THE ELEC, Korea Electronics Industry Media",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1mWVAwMm5lLVJCMHp3cW9LSERqQldIZ0ZSRVhIR1k1dEY0NU5EaXZKTXB4RjFNNnNfZ2VDOHFnUWlsdHlrR1Q3WEZycVd5Z0FCdjJnenE0a2JGQllQXzVnbVliR25TZw?oc=5",
+      "locator": null,
+      "published_at": "2026-04-24"
+    },
+    "extracted_at": "2026-10-07T11:44:32.066946",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_c148c06ded",
     "company_id": "vast-data",
     "metric": "valuation",
@@ -102,9 +150,12 @@
     "company_id": "vast-data",
     "metric": "open_roles",
     "value": 100.0,
-    "unit": null,
+    "unit": "count",
     "raw_text": "With over 100 positions open all over the world",
-    "qualifiers": [],
+    "qualifiers": [
+      "rounded",
+      "approximate"
+    ],
     "speaker": {
       "name": null,
       "role": "unknown"
@@ -116,57 +167,9 @@
       "locator": null,
       "published_at": null
     },
-    "extracted_at": "2026-10-07T11:44:32.066946",
+    "extracted_at": "2026-10-08T12:05:08.457629",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_a204a31fa9",
-    "company_id": "vast-data",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": null,
-    "raw_text": "VAST Data Valued at $30 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "THE ELEC, Korea Electronics Industry Media",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1mWVAwMm5lLVJCMHp3cW9LSERqQldIZ0ZSRVhIR1k1dEY0NU5EaXZKTXB4RjFNNnNfZ2VDOHFnUWlsdHlrR1Q3WEZycVd5Z0FCdjJnenE0a2JGQllQXzVnbVliR25TZw?oc=5",
-      "locator": null,
-      "published_at": "2026-04-24"
-    },
-    "extracted_at": "2026-10-07T11:44:32.066946",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_c043a54fea",
-    "company_id": "vast-data",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "$1 Billion Series F Funding",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "THE ELEC, Korea Electronics Industry Media",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1mWVAwMm5lLVJCMHp3cW9LSERqQldIZ0ZSRVhIR1k1dEY0NU5EaXZKTXB4RjFNNnNfZ2VDOHFnUWlsdHlrR1Q3WEZycVd5Z0FCdjJnenE0a2JGQllQXzVnbVliR25TZw?oc=5",
-      "locator": null,
-      "published_at": "2026-04-24"
-    },
-    "extracted_at": "2026-10-07T11:44:32.066946",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
+    "base_confidence": 0.1913,
     "derivation": null
   },
   {
@@ -1608,7 +1611,7 @@
       "locator": null,
       "published_at": "2026-04-23"
     },
-    "extracted_at": "2026-10-07T11:44:32.066946",
+    "extracted_at": "2026-10-08T12:05:08.457629",
     "extractor_model": "derive-engine",
     "base_confidence": 0.3623,
     "derivation": {

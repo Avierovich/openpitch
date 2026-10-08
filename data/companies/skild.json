@@ -12,30 +12,6 @@
   "vc_attention_score": 84.1,
   "universe_rank": 45,
   "metrics": {
-    "latest_round": {
-      "metric": "latest_round",
-      "value": 1400000000.0,
-      "unit": "object",
-      "range": null,
-      "as_of": "2026-04-16",
-      "estimate_type": "consensus",
-      "confidence": 0.531,
-      "supporting_claims": [
-        "clm_d7100f11b6",
-        "clm_e55c4eb26b",
-        "clm_78036325a9"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1400000000.0,
-        "change_pct": 0.0,
-        "since": "2026-04-16"
-      },
-      "history_ref": "history/skild/latest_round.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "round_amount": {
       "metric": "round_amount",
       "value": 1400000000.0,
@@ -46,11 +22,11 @@
       },
       "as_of": "2026-08-24",
       "estimate_type": "consensus",
-      "confidence": 0.851,
+      "confidence": 0.85,
       "supporting_claims": [
-        "clm_80007ea25f",
-        "clm_b32fa20cd6",
         "clm_61f186a654",
+        "clm_b32fa20cd6",
+        "clm_80007ea25f",
         "clm_dc3c1bca51",
         "clm_6d39f8d288",
         "clm_1fdb451bd5"
@@ -78,11 +54,11 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
-        "clm_690aa920b2",
+        "clm_d3a50a9900",
         "clm_970ab36226",
         "clm_325c29634a",
         "clm_213537243b",
-        "clm_d3a50a9900",
+        "clm_690aa920b2",
         "clm_e2ec8cc4d6",
         "clm_2eba4072b9",
         "clm_e99fe98d41",
@@ -112,6 +88,30 @@
         "since": "2026-08-24"
       },
       "history_ref": "history/skild/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 1400000000.0,
+      "unit": "object",
+      "range": null,
+      "as_of": "2026-04-16",
+      "estimate_type": "consensus",
+      "confidence": 0.53,
+      "supporting_claims": [
+        "clm_d7100f11b6",
+        "clm_e55c4eb26b",
+        "clm_78036325a9"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1400000000.0,
+        "change_pct": 0.0,
+        "since": "2026-04-16"
+      },
+      "history_ref": "history/skild/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -149,5 +149,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-07"
+  "last_updated": "2026-10-08"
 }

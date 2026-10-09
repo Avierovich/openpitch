@@ -1,50 +1,29 @@
 [
   {
-    "id": "clm_a204a31fa9",
+    "id": "clm_b682cee082",
     "company_id": "vast-data",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": null,
-    "raw_text": "VAST Data Valued at $30 Billion",
-    "qualifiers": [],
+    "metric": "open_roles",
+    "value": 100.0,
+    "unit": "count",
+    "raw_text": "With over 100 positions open all over the world",
+    "qualifiers": [
+      "rounded",
+      "approximate"
+    ],
     "speaker": {
       "name": null,
       "role": "unknown"
     },
     "source": {
-      "type": "news",
-      "name": "THE ELEC, Korea Electronics Industry Media",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1mWVAwMm5lLVJCMHp3cW9LSERqQldIZ0ZSRVhIR1k1dEY0NU5EaXZKTXB4RjFNNnNfZ2VDOHFnUWlsdHlrR1Q3WEZycVd5Z0FCdjJnenE0a2JGQllQXzVnbVliR25TZw?oc=5",
+      "type": "web",
+      "name": "vastdata.com",
+      "url": "https://vastdata.com/careers",
       "locator": null,
-      "published_at": "2026-04-24"
+      "published_at": null
     },
-    "extracted_at": "2026-10-07T11:44:32.066946",
+    "extracted_at": "2026-10-08T12:05:08.457629",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_c043a54fea",
-    "company_id": "vast-data",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "$1 Billion Series F Funding",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "THE ELEC, Korea Electronics Industry Media",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1mWVAwMm5lLVJCMHp3cW9LSERqQldIZ0ZSRVhIR1k1dEY0NU5EaXZKTXB4RjFNNnNfZ2VDOHFnUWlsdHlrR1Q3WEZycVd5Z0FCdjJnenE0a2JGQllQXzVnbVliR25TZw?oc=5",
-      "locator": null,
-      "published_at": "2026-04-24"
-    },
-    "extracted_at": "2026-10-07T11:44:32.066946",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
+    "base_confidence": 0.1913,
     "derivation": null
   },
   {
@@ -146,30 +125,75 @@
     "derivation": null
   },
   {
-    "id": "clm_b682cee082",
+    "id": "clm_50a42f97da",
     "company_id": "vast-data",
-    "metric": "open_roles",
-    "value": 100.0,
-    "unit": "count",
-    "raw_text": "With over 100 positions open all over the world",
-    "qualifiers": [
-      "rounded",
-      "approximate"
-    ],
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "Vast Data Raises $1 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "NAI500",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTzlZUXNkMUMyZmswcVNOQWVpTWJKQWI0N2lTaEpkUk1VNmU4MjFlMWhYdTZfRldYejhFS1MwMTFpZjR2c0FmZW5VNHRRLWNmT1huRmVWaUdXYkJWMDh2Z0R2Q3FFSV83eFY1Y01OM2V0cVpITkZjYTJ6TmpqVGRpZkpLWQ?oc=5",
+      "locator": null,
+      "published_at": "2026-04-22"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_a204a31fa9",
+    "company_id": "vast-data",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": null,
+    "raw_text": "VAST Data Valued at $30 Billion",
+    "qualifiers": [],
     "speaker": {
       "name": null,
       "role": "unknown"
     },
     "source": {
-      "type": "web",
-      "name": "vastdata.com",
-      "url": "https://vastdata.com/careers",
+      "type": "news",
+      "name": "THE ELEC, Korea Electronics Industry Media",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1mWVAwMm5lLVJCMHp3cW9LSERqQldIZ0ZSRVhIR1k1dEY0NU5EaXZKTXB4RjFNNnNfZ2VDOHFnUWlsdHlrR1Q3WEZycVd5Z0FCdjJnenE0a2JGQllQXzVnbVliR25TZw?oc=5",
       "locator": null,
-      "published_at": null
+      "published_at": "2026-04-24"
     },
-    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extracted_at": "2026-10-07T11:44:32.066946",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1913,
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_c043a54fea",
+    "company_id": "vast-data",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "$1 Billion Series F Funding",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "THE ELEC, Korea Electronics Industry Media",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1mWVAwMm5lLVJCMHp3cW9LSERqQldIZ0ZSRVhIR1k1dEY0NU5EaXZKTXB4RjFNNnNfZ2VDOHFnUWlsdHlrR1Q3WEZycVd5Z0FCdjJnenE0a2JGQllQXzVnbVliR25TZw?oc=5",
+      "locator": null,
+      "published_at": "2026-04-24"
+    },
+    "extracted_at": "2026-10-07T11:44:32.066946",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -410,30 +434,6 @@
     "extracted_at": "2026-09-23T09:52:35.463285",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_50a42f97da",
-    "company_id": "vast-data",
-    "metric": "total_funding",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "Vast Data Raises $1 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "NAI500",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTzlZUXNkMUMyZmswcVNOQWVpTWJKQWI0N2lTaEpkUk1VNmU4MjFlMWhYdTZfRldYejhFS1MwMTFpZjR2c0FmZW5VNHRRLWNmT1huRmVWaUdXYkJWMDh2Z0R2Q3FFSV83eFY1Y01OM2V0cVpITkZjYTJ6TmpqVGRpZkpLWQ?oc=5",
-      "locator": null,
-      "published_at": "2026-04-22"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -1611,7 +1611,7 @@
       "locator": null,
       "published_at": "2026-04-23"
     },
-    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extracted_at": "2026-10-09T11:53:18.608350",
     "extractor_model": "derive-engine",
     "base_confidence": 0.3623,
     "derivation": {

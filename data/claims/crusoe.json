@@ -146,30 +146,6 @@
     "derivation": null
   },
   {
-    "id": "clm_a7aa406aef",
-    "company_id": "crusoe",
-    "metric": "round_amount",
-    "value": 3900000000.0,
-    "unit": null,
-    "raw_text": "Crusoe raises $3.9B Series F",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "crusoe.ai",
-      "url": "https://crusoe.ai",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-02T11:05:56.740593",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
     "id": "clm_e21230325c",
     "company_id": "crusoe",
     "metric": "valuation",
@@ -340,54 +316,6 @@
     "derivation": null
   },
   {
-    "id": "clm_4c5bcc6a1b",
-    "company_id": "crusoe",
-    "metric": "round_amount",
-    "value": 3900000000.0,
-    "unit": "USD",
-    "raw_text": "Crusoe Raises $3.9B Series F",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "citybiz",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdzVrSFpZazdvZlNucGpxbUN0LXJ6S3NsTC1DamFBTVJpVlh3N3A0dTVyU1JUMVhVb0U3UjBPQmtaMXBlajFYVkZkQ3l1RG5URjlqWWk0cjRiTmxidTViNmM2eWd2MzZyUTRXbW00WXlRZjlHRGRDU1EydWRHSGdUVlRPQnpMcHM3TEM4VGNBUE00RmNIMWQ2djJjRXk1OXA0ZjJnN1k2YmczRTBuQlZ1dnlxaw?oc=5",
-      "locator": null,
-      "published_at": "2026-09-22"
-    },
-    "extracted_at": "2026-09-23T09:52:35.463285",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_13d2a7ce39",
-    "company_id": "crusoe",
-    "metric": "valuation",
-    "value": 30900000000.0,
-    "unit": "USD",
-    "raw_text": "$30.9B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "citybiz",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdzVrSFpZazdvZlNucGpxbUN0LXJ6S3NsTC1DamFBTVJpVlh3N3A0dTVyU1JUMVhVb0U3UjBPQmtaMXBlajFYVkZkQ3l1RG5URjlqWWk0cjRiTmxidTViNmM2eWd2MzZyUTRXbW00WXlRZjlHRGRDU1EydWRHSGdUVlRPQnpMcHM3TEM4VGNBUE00RmNIMWQ2djJjRXk1OXA0ZjJnN1k2YmczRTBuQlZ1dnlxaw?oc=5",
-      "locator": null,
-      "published_at": "2026-09-22"
-    },
-    "extracted_at": "2026-09-23T09:52:35.463285",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_f84199c056",
     "company_id": "crusoe",
     "metric": "round_amount",
@@ -440,6 +368,54 @@
     "derivation": null
   },
   {
+    "id": "clm_bcc37a7741",
+    "company_id": "crusoe",
+    "metric": "total_funding",
+    "value": 3000000000.0,
+    "unit": "usd",
+    "raw_text": "Crusoe Raises Over $3 Billion in Funding",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVVVNVzhnNGlBUVdlelNUS05qRlRfY2ZSS1BpSEIyXzVoQjVadDBXaS0xSWNYbmozTTE0RzVGb2NaVzhHZFJyaFdRVGhYamVhaXhCU3hTZGJwcGMxdE5od2pxVEhjTjdIU2lhR2IwV1FGTnBhZ3ozQjhoRG00VGQzWkRuS1ZPMHYyX2NFdlJMOE84cWtkNTdJc2RQWlZmVVJVV1BaNW1ZYnVwQjROQkRDTUhuQjg?oc=5",
+      "locator": null,
+      "published_at": "2026-09-03"
+    },
+    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_324ed43ba1",
+    "company_id": "crusoe",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "usd",
+    "raw_text": "$30 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVVVNVzhnNGlBUVdlelNUS05qRlRfY2ZSS1BpSEIyXzVoQjVadDBXaS0xSWNYbmozTTE0RzVGb2NaVzhHZFJyaFdRVGhYamVhaXhCU3hTZGJwcGMxdE5od2pxVEhjTjdIU2lhR2IwV1FGTnBhZ3ozQjhoRG00VGQzWkRuS1ZPMHYyX2NFdlJMOE84cWtkNTdJc2RQWlZmVVJVV1BaNW1ZYnVwQjROQkRDTUhuQjg?oc=5",
+      "locator": null,
+      "published_at": "2026-09-03"
+    },
+    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_bf8f5d6926",
     "company_id": "crusoe",
     "metric": "round_amount",
@@ -488,12 +464,12 @@
     "derivation": null
   },
   {
-    "id": "clm_bcc37a7741",
+    "id": "clm_4c5bcc6a1b",
     "company_id": "crusoe",
-    "metric": "total_funding",
-    "value": 3000000000.0,
-    "unit": "usd",
-    "raw_text": "Crusoe Raises Over $3 Billion in Funding",
+    "metric": "round_amount",
+    "value": 3900000000.0,
+    "unit": "USD",
+    "raw_text": "Crusoe Raises $3.9B Series F",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -501,23 +477,23 @@
     },
     "source": {
       "type": "news",
-      "name": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVVVNVzhnNGlBUVdlelNUS05qRlRfY2ZSS1BpSEIyXzVoQjVadDBXaS0xSWNYbmozTTE0RzVGb2NaVzhHZFJyaFdRVGhYamVhaXhCU3hTZGJwcGMxdE5od2pxVEhjTjdIU2lhR2IwV1FGTnBhZ3ozQjhoRG00VGQzWkRuS1ZPMHYyX2NFdlJMOE84cWtkNTdJc2RQWlZmVVJVV1BaNW1ZYnVwQjROQkRDTUhuQjg?oc=5",
+      "name": "citybiz",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdzVrSFpZazdvZlNucGpxbUN0LXJ6S3NsTC1DamFBTVJpVlh3N3A0dTVyU1JUMVhVb0U3UjBPQmtaMXBlajFYVkZkQ3l1RG5URjlqWWk0cjRiTmxidTViNmM2eWd2MzZyUTRXbW00WXlRZjlHRGRDU1EydWRHSGdUVlRPQnpMcHM3TEM4VGNBUE00RmNIMWQ2djJjRXk1OXA0ZjJnN1k2YmczRTBuQlZ1dnlxaw?oc=5",
       "locator": null,
-      "published_at": "2026-09-03"
+      "published_at": "2026-09-22"
     },
-    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extracted_at": "2026-09-23T09:52:35.463285",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
   },
   {
-    "id": "clm_324ed43ba1",
+    "id": "clm_13d2a7ce39",
     "company_id": "crusoe",
     "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": "usd",
-    "raw_text": "$30 Billion Valuation",
+    "value": 30900000000.0,
+    "unit": "USD",
+    "raw_text": "$30.9B Valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -525,14 +501,62 @@
     },
     "source": {
       "type": "news",
-      "name": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVVVNVzhnNGlBUVdlelNUS05qRlRfY2ZSS1BpSEIyXzVoQjVadDBXaS0xSWNYbmozTTE0RzVGb2NaVzhHZFJyaFdRVGhYamVhaXhCU3hTZGJwcGMxdE5od2pxVEhjTjdIU2lhR2IwV1FGTnBhZ3ozQjhoRG00VGQzWkRuS1ZPMHYyX2NFdlJMOE84cWtkNTdJc2RQWlZmVVJVV1BaNW1ZYnVwQjROQkRDTUhuQjg?oc=5",
+      "name": "citybiz",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdzVrSFpZazdvZlNucGpxbUN0LXJ6S3NsTC1DamFBTVJpVlh3N3A0dTVyU1JUMVhVb0U3UjBPQmtaMXBlajFYVkZkQ3l1RG5URjlqWWk0cjRiTmxidTViNmM2eWd2MzZyUTRXbW00WXlRZjlHRGRDU1EydWRHSGdUVlRPQnpMcHM3TEM4VGNBUE00RmNIMWQ2djJjRXk1OXA0ZjJnN1k2YmczRTBuQlZ1dnlxaw?oc=5",
       "locator": null,
-      "published_at": "2026-09-03"
+      "published_at": "2026-09-22"
     },
-    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extracted_at": "2026-09-23T09:52:35.463285",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_41423e9771",
+    "company_id": "crusoe",
+    "metric": "total_funding",
+    "value": 3900000000.0,
+    "unit": "USD",
+    "raw_text": "Crusoe raises $3.9B Series F",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "crusoe.ai",
+      "url": "https://crusoe.ai",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-09T11:53:18.608350",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_a7aa406aef",
+    "company_id": "crusoe",
+    "metric": "round_amount",
+    "value": 3900000000.0,
+    "unit": "USD",
+    "raw_text": "Crusoe raises $3.9B Series F",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "crusoe.ai",
+      "url": "https://crusoe.ai",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-09T11:53:18.608350",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
     "derivation": null
   },
   {

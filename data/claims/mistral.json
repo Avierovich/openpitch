@@ -98,6 +98,102 @@
     "derivation": null
   },
   {
+    "id": "clm_6d4b89bc0a",
+    "company_id": "mistral",
+    "metric": "latest_round",
+    "value": 4.0,
+    "unit": "Series D",
+    "raw_text": "Series D",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZWljNlJzZ052dkc5SHRzM2lBQzgxLW43bWctUWNRTGpJTFA3ZkdCZ0loajhFZG9iUEpxZGJQVmV6bWVxbTJqbWxWUVhCTGF6aDdGQk9PVlBkdVQ1eVZzX3lwR1dIMEJEQVpuLUM0S29CalJqSWw4dHVyaVF0TlJOV2E4VHU1MXhxeDJXMFNVZVc3dGVHQlFF?oc=5",
+      "locator": null,
+      "published_at": "2026-09-08"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_bc656be2c1",
+    "company_id": "mistral",
+    "metric": "round_amount",
+    "value": 3500000000.0,
+    "unit": "USD",
+    "raw_text": "$3.5bn",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZWljNlJzZ052dkc5SHRzM2lBQzgxLW43bWctUWNRTGpJTFA3ZkdCZ0loajhFZG9iUEpxZGJQVmV6bWVxbTJqbWxWUVhCTGF6aDdGQk9PVlBkdVQ1eVZzX3lwR1dIMEJEQVpuLUM0S29CalJqSWw4dHVyaVF0TlJOV2E4VHU1MXhxeDJXMFNVZVc3dGVHQlFF?oc=5",
+      "locator": null,
+      "published_at": "2026-09-08"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_cb7a40cacd",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 24000000000.0,
+    "unit": "USD",
+    "raw_text": "$24bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZWljNlJzZ052dkc5SHRzM2lBQzgxLW43bWctUWNRTGpJTFA3ZkdCZ0loajhFZG9iUEpxZGJQVmV6bWVxbTJqbWxWUVhCTGF6aDdGQk9PVlBkdVQ1eVZzX3lwR1dIMEJEQVpuLUM0S29CalJqSWw4dHVyaVF0TlJOV2E4VHU1MXhxeDJXMFNVZVc3dGVHQlFF?oc=5",
+      "locator": null,
+      "published_at": "2026-09-08"
+    },
+    "extracted_at": "2026-09-09T09:51:11.595604",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_2c1b7d5546",
+    "company_id": "mistral",
+    "metric": "total_funding",
+    "value": 520000000.0,
+    "unit": null,
+    "raw_text": "where he's raised over $520 million in funding",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "investor"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "20VC (Harry Stebbings)",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-mistrals-arthur-mensch-are-foundation-models-commoditising-how-do-we-solve-the-problem-of-compute-is-there-value-in-the-application-layer-open-vs-closed-who-wins-and-mistrals-position",
+      "locator": null,
+      "published_at": "2024-04-29"
+    },
+    "extracted_at": "2026-07-06T14:31:09.058208",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.48,
+    "derivation": null
+  },
+  {
     "id": "clm_319d09f440",
     "company_id": "mistral",
     "metric": "valuation",
@@ -146,51 +242,27 @@
     "derivation": null
   },
   {
-    "id": "clm_2c1b7d5546",
-    "company_id": "mistral",
-    "metric": "total_funding",
-    "value": 520000000.0,
-    "unit": null,
-    "raw_text": "where he's raised over $520 million in funding",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "investor"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "20VC (Harry Stebbings)",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-mistrals-arthur-mensch-are-foundation-models-commoditising-how-do-we-solve-the-problem-of-compute-is-there-value-in-the-application-layer-open-vs-closed-who-wins-and-mistrals-position",
-      "locator": null,
-      "published_at": "2024-04-29"
-    },
-    "extracted_at": "2026-07-06T14:31:09.058208",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.48,
-    "derivation": null
-  },
-  {
     "id": "clm_108a8e923c",
     "company_id": "mistral",
     "metric": "valuation",
     "value": 24000000000.0,
-    "unit": "USD",
+    "unit": null,
     "raw_text": "$24 billion valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
       "type": "news",
       "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE55ckdJc0hEZk8yai1IaFJuUEs4c204MHptMlFyR2VVeFUyN3RaMVZTVlZzRURreXhaQzdYZ3JsbkoyYjR4WGFzNVpoZWhZNmlYWEp6ZzRwWXF2TzE0Q1dSc2dMY29DUzdjLVJwb3h4VDlUUGlIZ3RYaWUxOWJjQQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE55ckdJc0hEZk8yai1IaFJuUEs4c204MHptMlFyR2VVeFUyN3RaMVZTVlZzRURreXhaQzdYZ3JsbkoyYjR4WGFzNVpoZWhZNmlYWEp6ZzRwWXF2TzE0Q1dSc2dMY29DUzdjLVJwb3h4VDlUUGlIZ3RYaWUxOWJjQdIBgwFBVV95cUxPemMzc0FrZVVIXzNYRktNejlsdjNlQUlvSk9PY2w3Y1U0dFlpWWNYeGlFZTFLOGJkVi1UTlJuVEFQVFcwanZJM3JxNG1TTEhITHQxMWRObG9RdFQyMW5LQllfVWZGZzI0bmJ5ejk3SXVxNmRzT1RTQ2V3b0ZMNFpFWVBGRQ?oc=5",
       "locator": null,
       "published_at": "2026-09-08"
     },
-    "extracted_at": "2026-10-06T12:25:15.330748",
+    "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -252,8 +324,7 @@
     "unit": "USD",
     "raw_text": "$100M+ seed financing",
     "qualifiers": [
-      "rounded",
-      "approximate"
+      "forward_looking"
     ],
     "speaker": {
       "name": null,
@@ -266,9 +337,9 @@
       "locator": null,
       "published_at": "2023-11-09"
     },
-    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extracted_at": "2026-10-09T11:53:18.608350",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3213,
+    "base_confidence": 0.294,
     "derivation": null
   },
   {
@@ -466,78 +537,6 @@
     "extracted_at": "2026-10-04T11:05:13.664288",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_6d4b89bc0a",
-    "company_id": "mistral",
-    "metric": "latest_round",
-    "value": 4.0,
-    "unit": "Series D",
-    "raw_text": "Series D",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZWljNlJzZ052dkc5SHRzM2lBQzgxLW43bWctUWNRTGpJTFA3ZkdCZ0loajhFZG9iUEpxZGJQVmV6bWVxbTJqbWxWUVhCTGF6aDdGQk9PVlBkdVQ1eVZzX3lwR1dIMEJEQVpuLUM0S29CalJqSWw4dHVyaVF0TlJOV2E4VHU1MXhxeDJXMFNVZVc3dGVHQlFF?oc=5",
-      "locator": null,
-      "published_at": "2026-09-08"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_bc656be2c1",
-    "company_id": "mistral",
-    "metric": "round_amount",
-    "value": 3500000000.0,
-    "unit": "USD",
-    "raw_text": "$3.5bn",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZWljNlJzZ052dkc5SHRzM2lBQzgxLW43bWctUWNRTGpJTFA3ZkdCZ0loajhFZG9iUEpxZGJQVmV6bWVxbTJqbWxWUVhCTGF6aDdGQk9PVlBkdVQ1eVZzX3lwR1dIMEJEQVpuLUM0S29CalJqSWw4dHVyaVF0TlJOV2E4VHU1MXhxeDJXMFNVZVc3dGVHQlFF?oc=5",
-      "locator": null,
-      "published_at": "2026-09-08"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_cb7a40cacd",
-    "company_id": "mistral",
-    "metric": "valuation",
-    "value": 24000000000.0,
-    "unit": "USD",
-    "raw_text": "$24bn valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZWljNlJzZ052dkc5SHRzM2lBQzgxLW43bWctUWNRTGpJTFA3ZkdCZ0loajhFZG9iUEpxZGJQVmV6bWVxbTJqbWxWUVhCTGF6aDdGQk9PVlBkdVQ1eVZzX3lwR1dIMEJEQVpuLUM0S29CalJqSWw4dHVyaVF0TlJOV2E4VHU1MXhxeDJXMFNVZVc3dGVHQlFF?oc=5",
-      "locator": null,
-      "published_at": "2026-09-08"
-    },
-    "extracted_at": "2026-09-09T09:51:11.595604",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -1880,7 +1879,7 @@
       "locator": null,
       "published_at": "2026-02-11"
     },
-    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extracted_at": "2026-10-09T11:53:18.608350",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

@@ -197,6 +197,82 @@
     "derivation": null
   },
   {
+    "id": "clm_8a2cb93702",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 965000000000.0,
+    "unit": "USD",
+    "raw_text": "$965B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02cVBCZkF5cGZpcTc1SUNiU2hFd2xFTHM4Z0tMMmxrRC1LMWhGRnNEckxmbVFrZ1BPN3dFZFdHT3VuMFJuLVVyVGhnbGxWSDNOLTVKZzlHc3dMNC1OSkNTNjBBVkJmY1N1bUE?oc=5",
+      "locator": null,
+      "published_at": "2026-08-19"
+    },
+    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "gemini-3.6-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_2ad67edccf",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 2000000000000.0,
+    "unit": null,
+    "raw_text": "$2 Trillion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "eu.36kr.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ISUowTGh4THNuZjc5b1ROYVBGWXkwX0NIX1dZbkdQalZZNldvcXZRUHhVZWZjREtweXhDck9VamdmMjZPQUNiMVRnUXNSSFFBcDZN?oc=5",
+      "locator": null,
+      "published_at": "2026-10-09"
+    },
+    "extracted_at": "2026-10-09T11:53:18.608350",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_1560165f98",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 150000000000.0,
+    "unit": null,
+    "raw_text": "$150 Billion",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "eu.36kr.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ISUowTGh4THNuZjc5b1ROYVBGWXkwX0NIX1dZbkdQalZZNldvcXZRUHhVZWZjREtweXhDck9VamdmMjZPQUNiMVRnUXNSSFFBcDZN?oc=5",
+      "locator": null,
+      "published_at": "2026-10-09"
+    },
+    "extracted_at": "2026-10-09T11:53:18.608350",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_f55b5b4eca",
     "company_id": "anthropic",
     "metric": "round_amount",
@@ -2080,30 +2156,6 @@
     "derivation": null
   },
   {
-    "id": "clm_8a2cb93702",
-    "company_id": "anthropic",
-    "metric": "valuation",
-    "value": 965000000000.0,
-    "unit": "USD",
-    "raw_text": "$965B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02cVBCZkF5cGZpcTc1SUNiU2hFd2xFTHM4Z0tMMmxrRC1LMWhGRnNEckxmbVFrZ1BPN3dFZFdHT3VuMFJuLVVyVGhnbGxWSDNOLTVKZzlHc3dMNC1OSkNTNjBBVkJmY1N1bUE?oc=5",
-      "locator": null,
-      "published_at": "2026-08-19"
-    },
-    "extracted_at": "2026-08-24T06:11:52.835308",
-    "extractor_model": "gemini-3.6-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_30a63e43bd",
     "company_id": "anthropic",
     "metric": "valuation",
@@ -2294,7 +2346,7 @@
       "locator": null,
       "published_at": "2026-06-14"
     },
-    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extracted_at": "2026-10-09T11:53:18.608350",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

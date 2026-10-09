@@ -1,5 +1,56 @@
 [
   {
+    "id": "clm_092b3de3a6",
+    "company_id": "deepseek",
+    "metric": "arr",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "$1B annual revenue",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVeVdtbVJmTVM3aWZtRHFJWTdJMWl1aC1Hc2ZoUXVnRWliVlVHR3FfckVlNlFjOXcydGR5aGpGNXpJRER3aWNHODZyamZyNTdlN3dSQzRCbjhJcW1yZEVJU2hndE5ERkFUX3RINk1B?oc=5",
+      "locator": null,
+      "published_at": "2026-09-25"
+    },
+    "extracted_at": "2026-09-28T11:35:42.398874",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_6c48273d67",
+    "company_id": "deepseek",
+    "metric": "valuation",
+    "value": 75000000000.0,
+    "unit": null,
+    "raw_text": "$75B valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVeVdtbVJmTVM3aWZtRHFJWTdJMWl1aC1Hc2ZoUXVnRWliVlVHR3FfckVlNlFjOXcydGR5aGpGNXpJRER3aWNHODZyamZyNTdlN3dSQzRCbjhJcW1yZEVJU2hndE5ERkFUX3RINk1B?oc=5",
+      "locator": null,
+      "published_at": "2026-09-25"
+    },
+    "extracted_at": "2026-09-28T11:35:42.398874",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
     "id": "clm_7a310f301b",
     "company_id": "deepseek",
     "metric": "valuation",
@@ -129,6 +180,60 @@
     "extracted_at": "2026-10-07T11:44:32.066946",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_63cf9886de",
+    "company_id": "deepseek",
+    "metric": "round_amount",
+    "value": 11900000000.0,
+    "unit": null,
+    "raw_text": "DeepSeek seeks $11.9b in funding",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech in Asia",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN3k2UHhVcC1EZVY2Uzh5SkR4aXF3ajVEQXNzYllpSnZONElMaERoV1ptWmJVYzAzU2I5NE9MTWZ6ZFRUYXpsSjVxcE1CY3dhSzNKWXU4aDctclBUYW1SU3hOX1FDVmFrWmNLRzVISlNQZkFpQTVEMFUzNjRGRV9WZklNellveENOdzlnUGR4SVZSWTZS?oc=5",
+      "locator": null,
+      "published_at": "2026-10-07"
+    },
+    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_175b153654",
+    "company_id": "deepseek",
+    "metric": "valuation",
+    "value": 74600000000.0,
+    "unit": null,
+    "raw_text": "at $74.6b valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech in Asia",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN3k2UHhVcC1EZVY2Uzh5SkR4aXF3ajVEQXNzYllpSnZONElMaERoV1ptWmJVYzAzU2I5NE9MTWZ6ZFRUYXpsSjVxcE1CY3dhSzNKWXU4aDctclBUYW1SU3hOX1FDVmFrWmNLRzVISlNQZkFpQTVEMFUzNjRGRV9WZklNellveENOdzlnUGR4SVZSWTZS?oc=5",
+      "locator": null,
+      "published_at": "2026-10-07"
+    },
+    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -310,60 +415,6 @@
     "extracted_at": "2026-09-25T10:09:44.175619",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_63cf9886de",
-    "company_id": "deepseek",
-    "metric": "round_amount",
-    "value": 11900000000.0,
-    "unit": null,
-    "raw_text": "DeepSeek seeks $11.9b in funding",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech in Asia",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN3k2UHhVcC1EZVY2Uzh5SkR4aXF3ajVEQXNzYllpSnZONElMaERoV1ptWmJVYzAzU2I5NE9MTWZ6ZFRUYXpsSjVxcE1CY3dhSzNKWXU4aDctclBUYW1SU3hOX1FDVmFrWmNLRzVISlNQZkFpQTVEMFUzNjRGRV9WZklNellveENOdzlnUGR4SVZSWTZS?oc=5",
-      "locator": null,
-      "published_at": "2026-10-07"
-    },
-    "extracted_at": "2026-10-08T12:05:08.457629",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_175b153654",
-    "company_id": "deepseek",
-    "metric": "valuation",
-    "value": 74600000000.0,
-    "unit": null,
-    "raw_text": "at $74.6b valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech in Asia",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN3k2UHhVcC1EZVY2Uzh5SkR4aXF3ajVEQXNzYllpSnZONElMaERoV1ptWmJVYzAzU2I5NE9MTWZ6ZFRUYXpsSjVxcE1CY3dhSzNKWXU4aDctclBUYW1SU3hOX1FDVmFrWmNLRzVISlNQZkFpQTVEMFUzNjRGRV9WZklNellveENOdzlnUGR4SVZSWTZS?oc=5",
-      "locator": null,
-      "published_at": "2026-10-07"
-    },
-    "extracted_at": "2026-10-08T12:05:08.457629",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -769,57 +820,6 @@
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdGZBZEktVUYyd3YyNmlKaHVhYW9nczhYQ2NSX3ZlSXA4T3ZBX3Z3U0s3NlQyZklQci1WTjFCdUJzbEl0ZENGUTJ1dWVDWkZXZnM0c1JIQTA1NU4tZFFyTDNxenRjRXJHU2thZm1lc0FvaDN2ZHdGRkJGaVpDSTU0UV9uTGZjSjBLN1RCakFpd29uejd5U1p1ZU9EZ0NDRDNXMnFMeUJfZkZGdXlRMHV0dXJNQU8xbGlfUDVaWFh6LVB5UXlmY3NPMlFySC0?oc=5",
       "locator": null,
       "published_at": "2026-05-06"
-    },
-    "extracted_at": "2026-09-28T11:35:42.398874",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_092b3de3a6",
-    "company_id": "deepseek",
-    "metric": "arr",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "$1B annual revenue",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVeVdtbVJmTVM3aWZtRHFJWTdJMWl1aC1Hc2ZoUXVnRWliVlVHR3FfckVlNlFjOXcydGR5aGpGNXpJRER3aWNHODZyamZyNTdlN3dSQzRCbjhJcW1yZEVJU2hndE5ERkFUX3RINk1B?oc=5",
-      "locator": null,
-      "published_at": "2026-09-25"
-    },
-    "extracted_at": "2026-09-28T11:35:42.398874",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_6c48273d67",
-    "company_id": "deepseek",
-    "metric": "valuation",
-    "value": 75000000000.0,
-    "unit": null,
-    "raw_text": "$75B valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVeVdtbVJmTVM3aWZtRHFJWTdJMWl1aC1Hc2ZoUXVnRWliVlVHR3FfckVlNlFjOXcydGR5aGpGNXpJRER3aWNHODZyamZyNTdlN3dSQzRCbjhJcW1yZEVJU2hndE5ERkFUX3RINk1B?oc=5",
-      "locator": null,
-      "published_at": "2026-09-25"
     },
     "extracted_at": "2026-09-28T11:35:42.398874",
     "extractor_model": "gemini-3.5-flash-lite",
@@ -2801,7 +2801,7 @@
     "derivation": null
   },
   {
-    "id": "drv_ac6deee9ae",
+    "id": "drv_f145653d2e",
     "company_id": "deepseek",
     "metric": "revenue_multiple",
     "value": 52.0,
@@ -2817,9 +2817,9 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-09-24"
+      "published_at": "2026-09-25"
     },
-    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extracted_at": "2026-10-09T11:53:18.608350",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
@@ -2827,7 +2827,7 @@
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
         "clm_d5b047bf17",
-        "clm_25f449777b"
+        "clm_092b3de3a6"
       ]
     }
   }

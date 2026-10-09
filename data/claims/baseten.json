@@ -275,18 +275,66 @@
     "derivation": null
   },
   {
+    "id": "clm_8112180e11",
+    "company_id": "baseten",
+    "metric": "latest_round",
+    "value": 300000000.0,
+    "unit": "USD",
+    "raw_text": "Baseten Raises $300M at a $5B Valuation to Power a Multi-Model Future",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "HPCwire",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUXhYRUZxYm1xRWxuemFEQUhCejJLajhKbUtCeXZQSm5iRHlkRVlZN2x2MmxheHZLMDVNV193NzI5RXVFRm1NUGRmUmNyTXpFQ3ZndDFDbVRWR28weEJNZFlTMTBIVEpnbHhCcFNJN0pPaE0xWVo1YmRMWmRNNDVLQVV2NWxmVkNHSjl3OGp4UEdEdGpPYmx1YVBsQ25JTmxmSUhLNnJGTWs?oc=5",
+      "locator": null,
+      "published_at": "2026-01-23"
+    },
+    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_091fcc9840",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 5000000000.0,
+    "unit": "USD",
+    "raw_text": "at a $5B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "HPCwire",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUXhYRUZxYm1xRWxuemFEQUhCejJLajhKbUtCeXZQSm5iRHlkRVlZN2x2MmxheHZLMDVNV193NzI5RXVFRm1NUGRmUmNyTXpFQ3ZndDFDbVRWR28weEJNZFlTMTBIVEpnbHhCcFNJN0pPaE0xWVo1YmRMWmRNNDVLQVV2NWxmVkNHSjl3OGp4UEdEdGpPYmx1YVBsQ25JTmxmSUhLNnJGTWs?oc=5",
+      "locator": null,
+      "published_at": "2026-01-23"
+    },
+    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_adcef28feb",
     "company_id": "baseten",
     "metric": "revenue_growth",
     "value": 30.0,
-    "unit": "x",
+    "unit": null,
     "raw_text": "Baseten’s 30x growth",
     "qualifiers": [
       "forward_looking"
     ],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "founder"
     },
     "source": {
       "type": "podcast",
@@ -295,9 +343,9 @@
       "locator": null,
       "published_at": "2026-05-01"
     },
-    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extracted_at": "2026-10-09T11:53:18.608350",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.294,
+    "base_confidence": 0.42,
     "derivation": null
   },
   {
@@ -1212,54 +1260,6 @@
       "published_at": "2026-01-21"
     },
     "extracted_at": "2026-09-13T10:11:10.741230",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_8112180e11",
-    "company_id": "baseten",
-    "metric": "latest_round",
-    "value": 300000000.0,
-    "unit": "USD",
-    "raw_text": "Baseten Raises $300M at a $5B Valuation to Power a Multi-Model Future",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "HPCwire",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUXhYRUZxYm1xRWxuemFEQUhCejJLajhKbUtCeXZQSm5iRHlkRVlZN2x2MmxheHZLMDVNV193NzI5RXVFRm1NUGRmUmNyTXpFQ3ZndDFDbVRWR28weEJNZFlTMTBIVEpnbHhCcFNJN0pPaE0xWVo1YmRMWmRNNDVLQVV2NWxmVkNHSjl3OGp4UEdEdGpPYmx1YVBsQ25JTmxmSUhLNnJGTWs?oc=5",
-      "locator": null,
-      "published_at": "2026-01-23"
-    },
-    "extracted_at": "2026-09-11T09:45:35.269135",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_091fcc9840",
-    "company_id": "baseten",
-    "metric": "valuation",
-    "value": 5000000000.0,
-    "unit": "USD",
-    "raw_text": "at a $5B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "HPCwire",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUXhYRUZxYm1xRWxuemFEQUhCejJLajhKbUtCeXZQSm5iRHlkRVlZN2x2MmxheHZLMDVNV193NzI5RXVFRm1NUGRmUmNyTXpFQ3ZndDFDbVRWR28weEJNZFlTMTBIVEpnbHhCcFNJN0pPaE0xWVo1YmRMWmRNNDVLQVV2NWxmVkNHSjl3OGp4UEdEdGpPYmx1YVBsQ25JTmxmSUhLNnJGTWs?oc=5",
-      "locator": null,
-      "published_at": "2026-01-23"
-    },
-    "extracted_at": "2026-09-11T09:45:35.269135",
     "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.375,
     "derivation": null
@@ -2239,7 +2239,7 @@
       "locator": null,
       "published_at": "2026-06-23"
     },
-    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extracted_at": "2026-10-09T11:53:18.608350",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

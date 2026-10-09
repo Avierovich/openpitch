@@ -53,6 +53,85 @@
     "derivation": null
   },
   {
+    "id": "clm_55164092da",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 70000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI Nears $70B Run Rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "20VC (Harry Stebbings)",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-cognition-vs-factory-vinod-khosla-creates-a-storm-openai-nears-70b-run-rate-anthropic-under-threat-elevenlabs-doubles-its-valuation-to-22b-salesforce-buys-listen-labs-for-2b",
+      "locator": null,
+      "published_at": "2026-10-08"
+    },
+    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.27,
+    "derivation": null
+  },
+  {
+    "id": "clm_39847574e3",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI's September annualized revenue nears $50 billion, less than previously indicated, source says",
+    "qualifiers": [
+      "run_rate",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLUJ6eFRkeVppWC1ocFZFMjRyWnFyczBwcml6OEJtaElGOEpxZkgzaFBSa1F2RTJjb3dXVTdLZ0pxWUpyZVhjZVdZRWR4TFpJQ2tjRG1UVGV6WWMwTkJsVVVDUHNjTU05MHBFWENJNGNPZW5sMjdyRUtLX0pfcUVLaWo5ZjhKd2ZCUnBHRlc2aXRpTFRMQTZSWWJuelZ4ZnVrM08xTVJBdlhtcjNEMS1PZUZhT2hDX3hYOUJGc2MzTV8?oc=5",
+      "locator": null,
+      "published_at": "2026-10-08"
+    },
+    "extracted_at": "2026-10-09T11:53:18.608350",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4016,
+    "derivation": null
+  },
+  {
+    "id": "clm_9c9d8929cd",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI corrects annualized revenue figure to $50 billion",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Quartz",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOTczbzBhYmQwV2pjeGlacnNoal8wZTU2ZzNhMWsxeXdubkhWMnhtd1NQNHBYekpJbk1MOU1QUVlLZ3hhamU0RWo5emxKVzB0M0JTWUFzLWFkYVhUMWt1b0gtMkV5VXhLZzlWM1o5UUZBRVJaNFk1RmwxZVVXd09aWi1KYmJyQQ?oc=5",
+      "locator": null,
+      "published_at": "2026-10-08"
+    },
+    "extracted_at": "2026-10-09T11:53:18.608350",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
     "id": "clm_c64546b7fd",
     "company_id": "openai",
     "metric": "round_amount",
@@ -397,32 +476,6 @@
     "extracted_at": "2026-10-07T11:44:32.066946",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_55164092da",
-    "company_id": "openai",
-    "metric": "arr",
-    "value": 70000000000.0,
-    "unit": "USD",
-    "raw_text": "OpenAI Nears $70B Run Rate",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "20VC (Harry Stebbings)",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-cognition-vs-factory-vinod-khosla-creates-a-storm-openai-nears-70b-run-rate-anthropic-under-threat-elevenlabs-doubles-its-valuation-to-22b-salesforce-buys-listen-labs-for-2b",
-      "locator": null,
-      "published_at": "2026-10-08"
-    },
-    "extracted_at": "2026-10-08T12:05:08.457629",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.27,
     "derivation": null
   },
   {
@@ -2876,7 +2929,7 @@
       "locator": null,
       "published_at": "2026-08-20"
     },
-    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extracted_at": "2026-10-09T11:53:18.608350",
     "extractor_model": "derive-engine",
     "base_confidence": 0.4658,
     "derivation": {

@@ -1,31 +1,5 @@
 [
   {
-    "id": "clm_49376ad18c",
-    "company_id": "mercor",
-    "metric": "valuation",
-    "value": 20000000000.0,
-    "unit": null,
-    "raw_text": "Mercor's $20B Valuation",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Techloy",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5QYktfMkx6X1o3VkVyQ1FwaHNvOXowSmotUUxtUEQ5WEFObHh5Z0FpUGMtM1VJeXk4TmJoZE1KY2o1Sl9idll2czk0QjA0ODRLampvVUh0Qkdoc0VWak1OMkdWSEtBTUk5TEV3UE1UTHVRRmVGcGY4VHBIYlhfY3c?oc=5",
-      "locator": null,
-      "published_at": "2026-08-04"
-    },
-    "extracted_at": "2026-09-12T09:20:27.932122",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
     "id": "clm_7ff93371f6",
     "company_id": "mercor",
     "metric": "valuation",
@@ -49,6 +23,32 @@
     "extracted_at": "2026-08-27T17:02:21.670041",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.18,
+    "derivation": null
+  },
+  {
+    "id": "clm_49376ad18c",
+    "company_id": "mercor",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": null,
+    "raw_text": "Mercor's $20B Valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Techloy",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5QYktfMkx6X1o3VkVyQ1FwaHNvOXowSmotUUxtUEQ5WEFObHh5Z0FpUGMtM1VJeXk4TmJoZE1KY2o1Sl9idll2czk0QjA0ODRLampvVUh0Qkdoc0VWak1OMkdWSEtBTUk5TEV3UE1UTHVRRmVGcGY4VHBIYlhfY3c?oc=5",
+      "locator": null,
+      "published_at": "2026-08-04"
+    },
+    "extracted_at": "2026-09-12T09:20:27.932122",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -205,7 +205,7 @@
     "company_id": "mercor",
     "metric": "valuation",
     "value": 10000000000.0,
-    "unit": null,
+    "unit": "USD",
     "raw_text": "$10 billion valuation",
     "qualifiers": [],
     "speaker": {
@@ -219,7 +219,7 @@
       "locator": null,
       "published_at": null
     },
-    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extracted_at": "2026-10-09T11:53:18.608350",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.25,
     "derivation": null
@@ -243,7 +243,7 @@
       "locator": null,
       "published_at": null
     },
-    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extracted_at": "2026-10-09T11:53:18.608350",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.25,
     "derivation": null
@@ -1126,7 +1126,7 @@
       "locator": null,
       "published_at": "2026-07-25"
     },
-    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extracted_at": "2026-10-09T11:53:18.608350",
     "extractor_model": "derive-engine",
     "base_confidence": 0.3312,
     "derivation": {

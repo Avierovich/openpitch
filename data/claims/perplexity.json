@@ -156,6 +156,58 @@
     "derivation": null
   },
   {
+    "id": "clm_e2a88ca049",
+    "company_id": "perplexity",
+    "metric": "round_amount",
+    "value": 500000000.0,
+    "unit": "USD",
+    "raw_text": "raise $500 million",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "NBC 6 South Florida",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQeTlHNzNTcFRPdmNneW5YbEI4ajJSajFZOEhzUHFLcDg2MDFCdzl1ZGRhYjBtNGhiYm1JRTVDSTB5Q01aaWRNRFNWZHRyay0zeFo1bXNQblIxV2MzWnZfLURpVDFUZmJST0xEckFjVEd4TUFYeEZSTWlpYnVrVlB2YnFsaWthbWJxekx4aUtia3dfdVNLNUwzUXRKWVliZDVRU3ctM0NKQnFRS0w5Z0JjTGhpMzN0RVRPRUEyblg1SXBoTGFJYmlCa29OVdIB0wFBVV95cUxPZXVHNmZ3S2wzQk5VUS1yNWJiRFJfZUxRd2g4ZWtCYmt0QjdJMTZfeTRjY0RZc0gzdW0zZkpZcGRwd1NEelhoMXFsb0d6R3J0Q1pLR2lyX1BaRFpzZDg2OTI4bFZGSndkSHN0aWZpZENvR1ZtNXJ5eGIxUzVLY282UEQ0bHNHS09rYnNFTVotcTR4SXdiVEdxRHlPRzEtTTVDbXM4MURHZldtZnk4ZkhtelM4SUhhWUxkWl9KaWtELVZKajdUT1JRblFiSHdwc2d0M3lv?oc=5",
+      "locator": null,
+      "published_at": "2025-05-12"
+    },
+    "extracted_at": "2026-09-30T11:06:00.704755",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_085ae1dd3e",
+    "company_id": "perplexity",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": "USD",
+    "raw_text": "$14 billion valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "NBC 6 South Florida",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQeTlHNzNTcFRPdmNneW5YbEI4ajJSajFZOEhzUHFLcDg2MDFCdzl1ZGRhYjBtNGhiYm1JRTVDSTB5Q01aaWRNRFNWZHRyay0zeFo1bXNQblIxV2MzWnZfLURpVDFUZmJST0xEckFjVEd4TUFYeEZSTWlpYnVrVlB2YnFsaWthbWJxekx4aUtia3dfdVNLNUwzUXRKWVliZDVRU3ctM0NKQnFRS0w5Z0JjTGhpMzN0RVRPRUEyblg1SXBoTGFJYmlCa29OVdIB0wFBVV95cUxPZXVHNmZ3S2wzQk5VUS1yNWJiRFJfZUxRd2g4ZWtCYmt0QjdJMTZfeTRjY0RZc0gzdW0zZkpZcGRwd1NEelhoMXFsb0d6R3J0Q1pLR2lyX1BaRFpzZDg2OTI4bFZGSndkSHN0aWZpZENvR1ZtNXJ5eGIxUzVLY282UEQ0bHNHS09rYnNFTVotcTR4SXdiVEdxRHlPRzEtTTVDbXM4MURHZldtZnk4ZkhtelM4SUhhWUxkWl9KaWtELVZKajdUT1JRblFiSHdwc2d0M3lv?oc=5",
+      "locator": null,
+      "published_at": "2025-05-12"
+    },
+    "extracted_at": "2026-09-30T11:06:00.704755",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_a5e8394d12",
     "company_id": "perplexity",
     "metric": "round_amount",
@@ -201,32 +253,6 @@
     "extracted_at": "2026-09-07T10:15:07.048991",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_085ae1dd3e",
-    "company_id": "perplexity",
-    "metric": "valuation",
-    "value": 14000000000.0,
-    "unit": null,
-    "raw_text": "$14 billion valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "NBC 6 South Florida",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVlVqVy1ERXVkOEsyNTBvdVFTQWFwZzQ2YUpXU0VibnpUcTZmTWxpeUVxa2hsem02dHI4NThZeU9PRXNTN3MzS1pTbXZxMFN1TG52c1M2RC1pc3ZRN25KSk1sRnRCcVZmM2lYN0FKX2dlcFNhOEdzVGM1REs5dzdKdXNGNjFZaEVuTGFvdVp3Vi1EcWZHR0liUjRhVk5PMGVjYm9hcTNuYlFQNzhqc0ZKcDg0TjI3TF9OeDkzbUt0blRVTV9Zcms3MGFLeXRlWTVlbDJ3bWpyX1ViTkhDQ050RGtR0gHqAUFVX3lxTE9ZbnhITG5JX2pDbmlQR0xqZFlINGluRHRqbkJKMTRUUVJGbWx4dmdldHpDV3FRRWNISm1nMVBMYVI2ZHI1RUFZYWNJXzJLOEhVZ3lZd3NFYk0zVHVSLVpGUUhuWHhxYU5QbkxpLVRUNmNfYmRPbWRuLXVLMWMwMWN4bHBkejNVOXNBZmJvcGpKSGs0eE1mOVpqODZBQUotc2x3SEpWRXc2a2NpTEhjTi1OSHBfUUhjUENXU0hXanBIMHRMZHpGcW5SWUFocFM3akZ6OVM4cFFvRThCdmVFMDVBbG5wcmNpU0p6dw?oc=5",
-      "locator": null,
-      "published_at": "2025-05-12"
-    },
-    "extracted_at": "2026-10-09T11:53:18.608350",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -431,32 +457,6 @@
     "extracted_at": "2026-09-16T10:35:49.404557",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_e2a88ca049",
-    "company_id": "perplexity",
-    "metric": "round_amount",
-    "value": 500000000.0,
-    "unit": "USD",
-    "raw_text": "raise $500 million",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "NBC 6 South Florida",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQeTlHNzNTcFRPdmNneW5YbEI4ajJSajFZOEhzUHFLcDg2MDFCdzl1ZGRhYjBtNGhiYm1JRTVDSTB5Q01aaWRNRFNWZHRyay0zeFo1bXNQblIxV2MzWnZfLURpVDFUZmJST0xEckFjVEd4TUFYeEZSTWlpYnVrVlB2YnFsaWthbWJxekx4aUtia3dfdVNLNUwzUXRKWVliZDVRU3ctM0NKQnFRS0w5Z0JjTGhpMzN0RVRPRUEyblg1SXBoTGFJYmlCa29OVdIB0wFBVV95cUxPZXVHNmZ3S2wzQk5VUS1yNWJiRFJfZUxRd2g4ZWtCYmt0QjdJMTZfeTRjY0RZc0gzdW0zZkpZcGRwd1NEelhoMXFsb0d6R3J0Q1pLR2lyX1BaRFpzZDg2OTI4bFZGSndkSHN0aWZpZENvR1ZtNXJ5eGIxUzVLY282UEQ0bHNHS09rYnNFTVotcTR4SXdiVEdxRHlPRzEtTTVDbXM4MURHZldtZnk4ZkhtelM4SUhhWUxkWl9KaWtELVZKajdUT1JRblFiSHdwc2d0M3lv?oc=5",
-      "locator": null,
-      "published_at": "2025-05-12"
-    },
-    "extracted_at": "2026-09-30T11:06:00.704755",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -1287,7 +1287,7 @@
       "locator": null,
       "published_at": "2026-08-25"
     },
-    "extracted_at": "2026-10-09T11:53:18.608350",
+    "extracted_at": "2026-10-11T11:49:13.286274",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

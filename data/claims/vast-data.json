@@ -27,32 +27,6 @@
     "derivation": null
   },
   {
-    "id": "clm_c148c06ded",
-    "company_id": "vast-data",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": null,
-    "raw_text": "$30 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "MLQ.ai",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOEZUUFllUDJqTlNuWGNLQWRINk5rNXYzbDRGUFlycUFneDNQdGlsWVJJbzN4bEE4NE53LUNiQzRnLXZ5MGJrMl9YQW8wQk05WEdvUmRaYTBPSW5LZ1Awcm13VFZJV3ZyMXRORTI2eU40YXRCNDY3OHNQMkl0U0ZjUmt2TWQ2NjFOMUZ4ZjdvUnZtaHRqUkU3THZYWG9fcHRYdXJzeWYyaw?oc=5",
-      "locator": null,
-      "published_at": "2026-04-23"
-    },
-    "extracted_at": "2026-09-15T10:11:13.514998",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_8da55507ee",
     "company_id": "vast-data",
     "metric": "valuation",
@@ -146,6 +120,104 @@
     "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_3de37e8011",
+    "company_id": "vast-data",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "$30B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "FintechNews CH",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNUdIcHZVQk1GSUxlZU8zWHJFTklhZkpCbkhqX2xlN0Q2Tnp5UlBIQnpINXBkQzc3eVlyX29LbDJGUDFzSThyVHB2Rm8yQU1aRld4MTNfRmdQRklGcFZsYnlDMGFVc0h0cktzMTlMc2tsZFJmSDBVVUE1dWpzYU9OLS0xcDZhajE3?oc=5",
+      "locator": null,
+      "published_at": "2026-04-23"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_c467f2e5c2",
+    "company_id": "vast-data",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "Raising $1B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "FintechNews CH",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNUdIcHZVQk1GSUxlZU8zWHJFTklhZkpCbkhqX2xlN0Q2Tnp5UlBIQnpINXBkQzc3eVlyX29LbDJGUDFzSThyVHB2Rm8yQU1aRld4MTNfRmdQRklGcFZsYnlDMGFVc0h0cktzMTlMc2tsZFJmSDBVVUE1dWpzYU9OLS0xcDZhajE3?oc=5",
+      "locator": null,
+      "published_at": "2026-04-23"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_38ee5863ab",
+    "company_id": "vast-data",
+    "metric": "latest_round",
+    "value": 6.0,
+    "unit": "Series",
+    "raw_text": "Series F",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "FintechNews CH",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNUdIcHZVQk1GSUxlZU8zWHJFTklhZkpCbkhqX2xlN0Q2Tnp5UlBIQnpINXBkQzc3eVlyX29LbDJGUDFzSThyVHB2Rm8yQU1aRld4MTNfRmdQRklGcFZsYnlDMGFVc0h0cktzMTlMc2tsZFJmSDBVVUE1dWpzYU9OLS0xcDZhajE3?oc=5",
+      "locator": null,
+      "published_at": "2026-04-23"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_c148c06ded",
+    "company_id": "vast-data",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": null,
+    "raw_text": "$30 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "MLQ.ai",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOEZUUFllUDJqTlNuWGNLQWRINk5rNXYzbDRGUFlycUFneDNQdGlsWVJJbzN4bEE4NE53LUNiQzRnLXZ5MGJrMl9YQW8wQk05WEdvUmRaYTBPSW5LZ1Awcm13VFZJV3ZyMXRORTI2eU40YXRCNDY3OHNQMkl0U0ZjUmt2TWQ2NjFOMUZ4ZjdvUnZtaHRqUkU3THZYWG9fcHRYdXJzeWYyaw?oc=5",
+      "locator": null,
+      "published_at": "2026-04-23"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -1303,78 +1375,6 @@
     "derivation": null
   },
   {
-    "id": "clm_3de37e8011",
-    "company_id": "vast-data",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "$30B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "FintechNews CH",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNUdIcHZVQk1GSUxlZU8zWHJFTklhZkpCbkhqX2xlN0Q2Tnp5UlBIQnpINXBkQzc3eVlyX29LbDJGUDFzSThyVHB2Rm8yQU1aRld4MTNfRmdQRklGcFZsYnlDMGFVc0h0cktzMTlMc2tsZFJmSDBVVUE1dWpzYU9OLS0xcDZhajE3?oc=5",
-      "locator": null,
-      "published_at": "2026-04-23"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_c467f2e5c2",
-    "company_id": "vast-data",
-    "metric": "total_funding",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "Raising $1B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "FintechNews CH",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNUdIcHZVQk1GSUxlZU8zWHJFTklhZkpCbkhqX2xlN0Q2Tnp5UlBIQnpINXBkQzc3eVlyX29LbDJGUDFzSThyVHB2Rm8yQU1aRld4MTNfRmdQRklGcFZsYnlDMGFVc0h0cktzMTlMc2tsZFJmSDBVVUE1dWpzYU9OLS0xcDZhajE3?oc=5",
-      "locator": null,
-      "published_at": "2026-04-23"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_38ee5863ab",
-    "company_id": "vast-data",
-    "metric": "latest_round",
-    "value": 6.0,
-    "unit": "Series",
-    "raw_text": "Series F",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "FintechNews CH",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNUdIcHZVQk1GSUxlZU8zWHJFTklhZkpCbkhqX2xlN0Q2Tnp5UlBIQnpINXBkQzc3eVlyX29LbDJGUDFzSThyVHB2Rm8yQU1aRld4MTNfRmdQRklGcFZsYnlDMGFVc0h0cktzMTlMc2tsZFJmSDBVVUE1dWpzYU9OLS0xcDZhajE3?oc=5",
-      "locator": null,
-      "published_at": "2026-04-23"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_2390c5684b",
     "company_id": "vast-data",
     "metric": "valuation",
@@ -1611,7 +1611,7 @@
       "locator": null,
       "published_at": "2026-04-23"
     },
-    "extracted_at": "2026-10-09T11:53:18.608350",
+    "extracted_at": "2026-10-11T11:49:13.286274",
     "extractor_model": "derive-engine",
     "base_confidence": 0.3623,
     "derivation": {

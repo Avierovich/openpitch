@@ -384,53 +384,53 @@
     "derivation": null
   },
   {
-    "id": "clm_00dc8e14d7",
+    "id": "clm_ab578673d7",
     "company_id": "helsing",
     "metric": "valuation",
     "value": 18000000000.0,
-    "unit": null,
-    "raw_text": "Helsing nears $18B valuation",
+    "unit": "USD",
+    "raw_text": "nears $18B valuation",
     "qualifiers": [
-      "unconfirmed"
+      "forward_looking"
     ],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "Dealroom.co",
+      "name": "Dealroom",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdEEyWUxjSTJLM3k2WHNIWW5OeHdFcVRDTDlMcllZdlRqTzdvbHg4cnBqUkEyTjNBRHFUZndOZTY1NE5tREs0eTlORFNOWFFIbnBLbzBrMFl0b05fMG93Z3VSZzMzbXpVM1Zwd3BWcU1XcWh0b3VkaTJMNGNKalVuby1ZRzVPM0FxU2xCeFdNWVdBaDEyaW5GYVE5NmNfcjg4?oc=5",
       "locator": null,
       "published_at": "2026-05-09"
     },
-    "extracted_at": "2026-09-27T10:32:58.616902",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
+    "base_confidence": 0.3675,
     "derivation": null
   },
   {
-    "id": "clm_433f2639c3",
+    "id": "clm_f285bf6c04",
     "company_id": "helsing",
-    "metric": "round_amount",
+    "metric": "total_funding",
     "value": 1200000000.0,
-    "unit": null,
+    "unit": "USD",
     "raw_text": "$1.2B raise",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "Dealroom.co",
+      "name": "Dealroom",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdEEyWUxjSTJLM3k2WHNIWW5OeHdFcVRDTDlMcllZdlRqTzdvbHg4cnBqUkEyTjNBRHFUZndOZTY1NE5tREs0eTlORFNOWFFIbnBLbzBrMFl0b05fMG93Z3VSZzMzbXpVM1Zwd3BWcU1XcWh0b3VkaTJMNGNKalVuby1ZRzVPM0FxU2xCeFdNWVdBaDEyaW5GYVE5NmNfcjg4?oc=5",
       "locator": null,
       "published_at": "2026-05-09"
     },
-    "extracted_at": "2026-09-27T10:32:58.616902",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -479,6 +479,56 @@
     "extracted_at": "2026-09-18T09:44:30.525514",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_00dc8e14d7",
+    "company_id": "helsing",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": null,
+    "raw_text": "Helsing nears $18B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom.co",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdEEyWUxjSTJLM3k2WHNIWW5OeHdFcVRDTDlMcllZdlRqTzdvbHg4cnBqUkEyTjNBRHFUZndOZTY1NE5tREs0eTlORFNOWFFIbnBLbzBrMFl0b05fMG93Z3VSZzMzbXpVM1Zwd3BWcU1XcWh0b3VkaTJMNGNKalVuby1ZRzVPM0FxU2xCeFdNWVdBaDEyaW5GYVE5NmNfcjg4?oc=5",
+      "locator": null,
+      "published_at": "2026-05-09"
+    },
+    "extracted_at": "2026-09-27T10:32:58.616902",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_433f2639c3",
+    "company_id": "helsing",
+    "metric": "round_amount",
+    "value": 1200000000.0,
+    "unit": null,
+    "raw_text": "$1.2B raise",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom.co",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdEEyWUxjSTJLM3k2WHNIWW5OeHdFcVRDTDlMcllZdlRqTzdvbHg4cnBqUkEyTjNBRHFUZndOZTY1NE5tREs0eTlORFNOWFFIbnBLbzBrMFl0b05fMG93Z3VSZzMzbXpVM1Zwd3BWcU1XcWh0b3VkaTJMNGNKalVuby1ZRzVPM0FxU2xCeFdNWVdBaDEyaW5GYVE5NmNfcjg4?oc=5",
+      "locator": null,
+      "published_at": "2026-05-09"
+    },
+    "extracted_at": "2026-09-27T10:32:58.616902",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -623,56 +673,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_ab578673d7",
-    "company_id": "helsing",
-    "metric": "valuation",
-    "value": 18000000000.0,
-    "unit": "USD",
-    "raw_text": "nears $18B valuation",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdEEyWUxjSTJLM3k2WHNIWW5OeHdFcVRDTDlMcllZdlRqTzdvbHg4cnBqUkEyTjNBRHFUZndOZTY1NE5tREs0eTlORFNOWFFIbnBLbzBrMFl0b05fMG93Z3VSZzMzbXpVM1Zwd3BWcU1XcWh0b3VkaTJMNGNKalVuby1ZRzVPM0FxU2xCeFdNWVdBaDEyaW5GYVE5NmNfcjg4?oc=5",
-      "locator": null,
-      "published_at": "2026-05-09"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3675,
-    "derivation": null
-  },
-  {
-    "id": "clm_f285bf6c04",
-    "company_id": "helsing",
-    "metric": "total_funding",
-    "value": 1200000000.0,
-    "unit": "USD",
-    "raw_text": "$1.2B raise",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdEEyWUxjSTJLM3k2WHNIWW5OeHdFcVRDTDlMcllZdlRqTzdvbHg4cnBqUkEyTjNBRHFUZndOZTY1NE5tREs0eTlORFNOWFFIbnBLbzBrMFl0b05fMG93Z3VSZzMzbXpVM1Zwd3BWcU1XcWh0b3VkaTJMNGNKalVuby1ZRzVPM0FxU2xCeFdNWVdBaDEyaW5GYVE5NmNfcjg4?oc=5",
-      "locator": null,
-      "published_at": "2026-05-09"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {

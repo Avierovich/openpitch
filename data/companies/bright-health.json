@@ -37,6 +37,30 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 174965457.97,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2022-10-21",
+      "estimate_type": "consensus",
+      "confidence": 0.019,
+      "supporting_claims": [
+        "clm_a9a883dbe9",
+        "clm_589d17fc97",
+        "clm_efe726339e"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 174965457.97,
+        "change_pct": 0.0,
+        "since": "2022-10-21"
+      },
+      "history_ref": "history/bright-health/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "latest_round": {
       "metric": "latest_round",
       "value": 924000000.0,
@@ -60,30 +84,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 174965457.97,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2022-10-21",
-      "estimate_type": "consensus",
-      "confidence": 0.02,
-      "supporting_claims": [
-        "clm_a9a883dbe9",
-        "clm_589d17fc97",
-        "clm_efe726339e"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 174965457.97,
-        "change_pct": 0.0,
-        "since": "2022-10-21"
-      },
-      "history_ref": "history/bright-health/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "total_funding": {
       "metric": "total_funding",
       "value": 750000000.0,
@@ -91,7 +91,7 @@
       "range": null,
       "as_of": "2021-12-09",
       "estimate_type": "consensus",
-      "confidence": 0.191,
+      "confidence": 0.19,
       "supporting_claims": [
         "clm_6bff285d68",
         "clm_8c79ae1ab9",
@@ -111,5 +111,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-09"
+  "last_updated": "2026-10-11"
 }

@@ -1,32 +1,5 @@
 [
   {
-    "id": "clm_b5d4ae77ed",
-    "company_id": "deepseek-ai",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": "USD",
-    "raw_text": "$50B Valuation",
-    "qualifiers": [
-      "forward_looking",
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "GetLatka",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1leDc1cjhuc1ljUEwtVGNaUGdLRWtsRnNnNUNZUWxzRG5yWFZCWl9ZQWMwODB2VDRmdE9KUGd4eGdSTVBvRURkWmU4SGhfMlFNdk1nWEVB?oc=5",
-      "locator": null,
-      "published_at": "2026-09-28"
-    },
-    "extracted_at": "2026-10-08T12:05:08.457629",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3307,
-    "derivation": null
-  },
-  {
     "id": "clm_aff2cf13b5",
     "company_id": "deepseek-ai",
     "metric": "valuation",
@@ -260,6 +233,33 @@
     "extracted_at": "2026-09-07T10:15:07.048991",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_b5d4ae77ed",
+    "company_id": "deepseek-ai",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "$50B Valuation",
+    "qualifiers": [
+      "forward_looking",
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1leDc1cjhuc1ljUEwtVGNaUGdLRWtsRnNnNUNZUWxzRG5yWFZCWl9ZQWMwODB2VDRmdE9KUGd4eGdSTVBvRURkWmU4SGhfMlFNdk1nWEVB?oc=5",
+      "locator": null,
+      "published_at": "2026-09-28"
+    },
+    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3307,
     "derivation": null
   },
   {

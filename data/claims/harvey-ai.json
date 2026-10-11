@@ -242,6 +242,81 @@
     "derivation": null
   },
   {
+    "id": "clm_d97f6bcc74",
+    "company_id": "harvey-ai",
+    "metric": "total_funding",
+    "value": 550000000.0,
+    "unit": null,
+    "raw_text": "We Raised $550M at a $15.5B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "harvey.ai",
+      "url": "https://harvey.ai",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-11T11:49:13.286274",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_7b69c6e8ae",
+    "company_id": "harvey-ai",
+    "metric": "valuation",
+    "value": 15500000000.0,
+    "unit": null,
+    "raw_text": "We Raised $550M at a $15.5B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "harvey.ai",
+      "url": "https://harvey.ai",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-11T11:49:13.286274",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_1a3e533faf",
+    "company_id": "harvey-ai",
+    "metric": "total_funding",
+    "value": 500000000.0,
+    "unit": null,
+    "raw_text": "over $500M in funding",
+    "qualifiers": [
+      "rounded",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "investor"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "No Priors",
+      "url": null,
+      "locator": null,
+      "published_at": "2025-02-14"
+    },
+    "extracted_at": "2026-10-11T11:49:13.286274",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3672,
+    "derivation": null
+  },
+  {
     "id": "clm_404a47d2e6",
     "company_id": "harvey-ai",
     "metric": "total_funding",
@@ -291,174 +366,6 @@
     "extracted_at": "2026-09-20T09:44:05.979383",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.225,
-    "derivation": null
-  },
-  {
-    "id": "clm_d97f6bcc74",
-    "company_id": "harvey-ai",
-    "metric": "total_funding",
-    "value": 550000000.0,
-    "unit": "USD",
-    "raw_text": "$550M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "harvey.ai",
-      "url": "https://harvey.ai",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-09T11:53:18.608350",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_7b69c6e8ae",
-    "company_id": "harvey-ai",
-    "metric": "valuation",
-    "value": 15500000000.0,
-    "unit": "USD",
-    "raw_text": "$15.5B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "harvey.ai",
-      "url": "https://harvey.ai",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-09T11:53:18.608350",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_1a3e533faf",
-    "company_id": "harvey-ai",
-    "metric": "total_funding",
-    "value": 500000000.0,
-    "unit": "USD",
-    "raw_text": "over $500M in funding",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "investor"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "No Priors",
-      "url": null,
-      "locator": null,
-      "published_at": "2025-02-14"
-    },
-    "extracted_at": "2026-10-09T11:53:18.608350",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.48,
-    "derivation": null
-  },
-  {
-    "id": "clm_d97f6bcc74",
-    "company_id": "harvey-ai",
-    "metric": "total_funding",
-    "value": 550000000.0,
-    "unit": "USD",
-    "raw_text": "$550M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "harvey.ai",
-      "url": "https://harvey.ai/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-09T11:53:18.608350",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_7b69c6e8ae",
-    "company_id": "harvey-ai",
-    "metric": "valuation",
-    "value": 15500000000.0,
-    "unit": "USD",
-    "raw_text": "$15.5B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "harvey.ai",
-      "url": "https://harvey.ai/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-09T11:53:18.608350",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_d97f6bcc74",
-    "company_id": "harvey-ai",
-    "metric": "total_funding",
-    "value": 550000000.0,
-    "unit": "USD",
-    "raw_text": "$550M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "harvey.ai",
-      "url": "https://harvey.ai/company",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-09T11:53:18.608350",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_7b69c6e8ae",
-    "company_id": "harvey-ai",
-    "metric": "valuation",
-    "value": 15500000000.0,
-    "unit": "USD",
-    "raw_text": "$15.5B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "harvey.ai",
-      "url": "https://harvey.ai/company",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-09T11:53:18.608350",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
     "derivation": null
   },
   {
@@ -1127,7 +1034,7 @@
       "locator": null,
       "published_at": "2026-08-07"
     },
-    "extracted_at": "2026-10-09T11:53:18.608350",
+    "extracted_at": "2026-10-11T11:49:13.286274",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

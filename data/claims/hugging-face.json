@@ -79,32 +79,6 @@
     "derivation": null
   },
   {
-    "id": "clm_1fef2fa294",
-    "company_id": "hugging-face",
-    "metric": "valuation",
-    "value": 13000000000.0,
-    "unit": "USD",
-    "raw_text": "Hugging Face explores a $13B sale",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "RuntimeWire",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JcFZ0QnNIM0ZfYk12b2ZubkFIQ3YyWkJhbTVueGZIYXVLRkFSSjE5TnlhSy1RWVkyM09Ld1hYMHlpbnRaRUo5bV9pRkgtX0IyQURjQjNkQUhMSEJJRjRfVVkzSDRvTlladU83ZE1OT0E0ZFpndXctYg?oc=5",
-      "locator": null,
-      "published_at": "2026-08-23"
-    },
-    "extracted_at": "2026-10-06T12:25:15.330748",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_277167e9bd",
     "company_id": "hugging-face",
     "metric": "arr",
@@ -187,11 +161,11 @@
     "metric": "subscribers",
     "value": 16000.0,
     "unit": null,
-    "raw_text": "sold 16,000 units",
+    "raw_text": "sold 16,000 units off a single tweet",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "founder"
+      "role": "unknown"
     },
     "source": {
       "type": "podcast",
@@ -200,9 +174,35 @@
       "locator": null,
       "published_at": "2026-09-18"
     },
-    "extracted_at": "2026-10-09T11:53:18.608350",
+    "extracted_at": "2026-10-11T11:49:13.286274",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.6,
+    "base_confidence": 0.3,
+    "derivation": null
+  },
+  {
+    "id": "clm_1fef2fa294",
+    "company_id": "hugging-face",
+    "metric": "valuation",
+    "value": 13000000000.0,
+    "unit": "USD",
+    "raw_text": "Hugging Face explores a $13B sale",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "RuntimeWire",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JcFZ0QnNIM0ZfYk12b2ZubkFIQ3YyWkJhbTVueGZIYXVLRkFSSjE5TnlhSy1RWVkyM09Ld1hYMHlpbnRaRUo5bV9pRkgtX0IyQURjQjNkQUhMSEJJRjRfVVkzSDRvTlladU83ZE1OT0E0ZFpndXctYg?oc=5",
+      "locator": null,
+      "published_at": "2026-08-23"
+    },
+    "extracted_at": "2026-10-06T12:25:15.330748",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -963,7 +963,7 @@
       "locator": null,
       "published_at": "2026-09-03"
     },
-    "extracted_at": "2026-10-09T11:53:18.608350",
+    "extracted_at": "2026-10-11T11:49:13.286274",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

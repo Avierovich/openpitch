@@ -174,6 +174,32 @@
     "derivation": null
   },
   {
+    "id": "clm_17b8a435b0",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "$50 billion valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "inkl",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeVRmU2V0Y3pzaW5aeVBOT0RkUjVKV1pjWkp5M3lBUTk0dDN5WWFGV3NxdzdvQlhXeXc0MEhoVnhVM3hlZFd2WmwwanZVWk44WjQxWlVVTEJJcW9Md1dmZ3RiTzZ1c2N1NjZQeVlHRHlMc1hhSFJGWk1qUTZITmt2R3F0X3V1QzF1YWlQUHRaV3pUSjZvdmFsZDY1UXA4LXVOZGRtLWktN1VXY3FZZ1lv?oc=5",
+      "locator": null,
+      "published_at": "2026-10-06"
+    },
+    "extracted_at": "2026-10-09T11:53:18.608350",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_da056e95ee",
     "company_id": "moonshot",
     "metric": "total_funding",
@@ -489,56 +515,6 @@
     "derivation": null
   },
   {
-    "id": "clm_7f66f6909f",
-    "company_id": "moonshot",
-    "metric": "total_funding",
-    "value": 3900000000.0,
-    "unit": "USD",
-    "raw_text": "Over $3.9 Billion",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xNGFSQjU1dDNOcEFTQ09SeThkQkpYdDlEZXhwU0dWUXJ4S2UzWU43OVdvWjhidElZalpXbjhNekg3dmtETWl2MmFrSkZYZmhpaWRPZUNqV0dFejRxalRJSA?oc=5",
-      "locator": null,
-      "published_at": "2026-05-06"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3675,
-    "derivation": null
-  },
-  {
-    "id": "clm_ca6c1afc5b",
-    "company_id": "moonshot",
-    "metric": "valuation",
-    "value": 20000000000.0,
-    "unit": "USD",
-    "raw_text": "$20 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xNGFSQjU1dDNOcEFTQ09SeThkQkpYdDlEZXhwU0dWUXJ4S2UzWU43OVdvWjhidElZalpXbjhNekg3dmtETWl2MmFrSkZYZmhpaWRPZUNqV0dFejRxalRJSA?oc=5",
-      "locator": null,
-      "published_at": "2026-05-06"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_e248a02b0f",
     "company_id": "moonshot",
     "metric": "valuation",
@@ -587,12 +563,12 @@
     "derivation": null
   },
   {
-    "id": "clm_17b8a435b0",
+    "id": "clm_6a07b1670f",
     "company_id": "moonshot",
     "metric": "valuation",
     "value": 50000000000.0,
     "unit": "USD",
-    "raw_text": "$50 billion valuation",
+    "raw_text": "$50 Billion Valuation",
     "qualifiers": [
       "unconfirmed"
     ],
@@ -602,14 +578,64 @@
     },
     "source": {
       "type": "news",
-      "name": "inkl",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeVRmU2V0Y3pzaW5aeVBOT0RkUjVKV1pjWkp5M3lBUTk0dDN5WWFGV3NxdzdvQlhXeXc0MEhoVnhVM3hlZFd2WmwwanZVWk44WjQxWlVVTEJJcW9Md1dmZ3RiTzZ1c2N1NjZQeVlHRHlMc1hhSFJGWk1qUTZITmt2R3F0X3V1QzF1YWlQUHRaV3pUSjZvdmFsZDY1UXA4LXVOZGRtLWktN1VXY3FZZ1lv?oc=5",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeFdEbW9JNWJYMXNBMXg2VjlHQXFBdkZFdzNQNFhsQUpFYjZ2X1A0SmZacFNTR05VYmZwbl9KbFp6Z3B2aEtSX0s3djRnTlZ6dWtzT1B1R0tGWHFTY3JWZ1ZKY19EN0NDXzc1UGpYY1plWGdoZlJGUTVBNzc5YXk5U3RCYThEcTJ6cS1BbWZ6QzB3ZV83SER0NlhmaXFJV2FU?oc=5",
       "locator": null,
       "published_at": "2026-10-06"
     },
-    "extracted_at": "2026-10-09T11:53:18.608350",
+    "extracted_at": "2026-10-11T11:49:13.286274",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_7f66f6909f",
+    "company_id": "moonshot",
+    "metric": "total_funding",
+    "value": 3900000000.0,
+    "unit": "USD",
+    "raw_text": "Over $3.9 Billion",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xNGFSQjU1dDNOcEFTQ09SeThkQkpYdDlEZXhwU0dWUXJ4S2UzWU43OVdvWjhidElZalpXbjhNekg3dmtETWl2MmFrSkZYZmhpaWRPZUNqV0dFejRxalRJSA?oc=5",
+      "locator": null,
+      "published_at": "2026-05-06"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3675,
+    "derivation": null
+  },
+  {
+    "id": "clm_ca6c1afc5b",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": "USD",
+    "raw_text": "$20 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xNGFSQjU1dDNOcEFTQ09SeThkQkpYdDlEZXhwU0dWUXJ4S2UzWU43OVdvWjhidElZalpXbjhNekg3dmtETWl2MmFrSkZYZmhpaWRPZUNqV0dFejRxalRJSA?oc=5",
+      "locator": null,
+      "published_at": "2026-05-06"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -2693,7 +2719,7 @@
       "locator": null,
       "published_at": "2026-05-07"
     },
-    "extracted_at": "2026-10-09T11:53:18.608350",
+    "extracted_at": "2026-10-11T11:49:13.286274",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

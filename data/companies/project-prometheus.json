@@ -9,7 +9,7 @@
   "summary": "Project Prometheus is a company that uses AI to develop large language models for various applications.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 87.8,
+  "vc_attention_score": 87.7,
   "universe_rank": 19,
   "metrics": {
     "total_funding": {
@@ -25,9 +25,9 @@
       "confidence": 0.938,
       "supporting_claims": [
         "clm_baac1e6419",
-        "clm_ec9486d32c",
         "clm_07099ff829",
         "clm_ace6101b80",
+        "clm_ec9486d32c",
         "clm_dbf86b40b1",
         "clm_8d6009e913",
         "clm_bca7f1eed2"
@@ -35,7 +35,7 @@
       "contradiction": false,
       "delta": {
         "previous": 10000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-05-18"
       },
       "history_ref": "history/project-prometheus/total_funding.jsonl",
@@ -45,7 +45,7 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 38661420508.55,
+      "value": 38635821106.86,
       "unit": "USD",
       "range": {
         "low": 38000000000.0,
@@ -56,11 +56,13 @@
       "confidence": 0.97,
       "supporting_claims": [
         "clm_6c7333dd3f",
-        "clm_e93a4a5434",
         "clm_9a81aa3a18",
         "clm_d9f2dbebdb",
         "clm_b3b2eb81c5",
         "clm_f14f514ddc",
+        "clm_1d7419d5df",
+        "clm_86d18a8156",
+        "clm_e93a4a5434",
         "clm_d38040e7d5",
         "clm_1c76074e33",
         "clm_794f65f371",
@@ -92,7 +94,7 @@
       "contradiction": false,
       "delta": {
         "previous": 38661420508.55,
-        "change_pct": 0.0,
+        "change_pct": -0.1,
         "since": "2026-06-12"
       },
       "history_ref": "history/project-prometheus/valuation.jsonl",
@@ -104,11 +106,15 @@
       "metric": "round_amount",
       "value": 10000000000.0,
       "unit": "USD",
-      "range": null,
+      "range": {
+        "low": 10000000000.0,
+        "high": 10000000000.0
+      },
       "as_of": "2026-04-24",
       "estimate_type": "consensus",
-      "confidence": 0.836,
+      "confidence": 0.888,
       "supporting_claims": [
+        "clm_de986f3d2f",
         "clm_eccf53003d",
         "clm_dd02e8d9e1",
         "clm_9ba3a44ab9",
@@ -140,7 +146,7 @@
       },
       "as_of": "2026-04-24",
       "estimate_type": "consensus",
-      "confidence": 0.551,
+      "confidence": 0.549,
       "supporting_claims": [
         "clm_e4783d4a69",
         "clm_405b686728"
@@ -157,5 +163,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-09"
+  "last_updated": "2026-10-11"
 }

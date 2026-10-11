@@ -53,6 +53,60 @@
     "derivation": null
   },
   {
+    "id": "clm_c64546b7fd",
+    "company_id": "openai",
+    "metric": "round_amount",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "in talks to raise $30B round",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbG1ZOUhidTdfOHItTC14RXRPd2JiYkZaNEFTdnJZVzJZSmJhR1JzLWFSWlVvM2hRV0NKLW9takFBbW9xcXdJMW05WWIzS0xtT1dnTUhZWUd2Z1NvZzMySjJ5M0htNWNHa1VySEU1OVVuSERkaGsweFdFaktSRTBmTk9sNjJiVHV6cGN0ZHVoVDE5Z0YzQmdoUUlxWnQzRlU?oc=5",
+      "locator": null,
+      "published_at": "2026-09-29"
+    },
+    "extracted_at": "2026-09-30T11:06:00.704755",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
+    "id": "clm_94d286160c",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1400000000000.0,
+    "unit": "USD",
+    "raw_text": "$1.4T valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbG1ZOUhidTdfOHItTC14RXRPd2JiYkZaNEFTdnJZVzJZSmJhR1JzLWFSWlVvM2hRV0NKLW9takFBbW9xcXdJMW05WWIzS0xtT1dnTUhZWUd2Z1NvZzMySjJ5M0htNWNHa1VySEU1OVVuSERkaGsweFdFaktSRTBmTk9sNjJiVHV6cGN0ZHVoVDE5Z0YzQmdoUUlxWnQzRlU?oc=5",
+      "locator": null,
+      "published_at": "2026-09-29"
+    },
+    "extracted_at": "2026-09-30T11:06:00.704755",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
     "id": "clm_55164092da",
     "company_id": "openai",
     "metric": "arr",
@@ -106,6 +160,34 @@
     "derivation": null
   },
   {
+    "id": "clm_3acd9e2be1",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "hit roughly $50 billion in annualized revenue at the end of September",
+    "qualifiers": [
+      "run_rate",
+      "rounded",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "The AI Daily Brief",
+      "url": "https://podcasters.spotify.com/pod/show/nlw/episodes/When-AI-Solves-Your-Lifes-Work-e3q8kuq",
+      "locator": null,
+      "published_at": "2026-10-09"
+    },
+    "extracted_at": "2026-10-11T11:49:13.286274",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2892,
+    "derivation": null
+  },
+  {
     "id": "clm_9c9d8929cd",
     "company_id": "openai",
     "metric": "arr",
@@ -129,60 +211,6 @@
     "extracted_at": "2026-10-09T11:53:18.608350",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_c64546b7fd",
-    "company_id": "openai",
-    "metric": "round_amount",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "in talks to raise $30B round",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbG1ZOUhidTdfOHItTC14RXRPd2JiYkZaNEFTdnJZVzJZSmJhR1JzLWFSWlVvM2hRV0NKLW9takFBbW9xcXdJMW05WWIzS0xtT1dnTUhZWUd2Z1NvZzMySjJ5M0htNWNHa1VySEU1OVVuSERkaGsweFdFaktSRTBmTk9sNjJiVHV6cGN0ZHVoVDE5Z0YzQmdoUUlxWnQzRlU?oc=5",
-      "locator": null,
-      "published_at": "2026-09-29"
-    },
-    "extracted_at": "2026-09-30T11:06:00.704755",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1575,
-    "derivation": null
-  },
-  {
-    "id": "clm_94d286160c",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 1400000000000.0,
-    "unit": "USD",
-    "raw_text": "$1.4T valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbG1ZOUhidTdfOHItTC14RXRPd2JiYkZaNEFTdnJZVzJZSmJhR1JzLWFSWlVvM2hRV0NKLW9takFBbW9xcXdJMW05WWIzS0xtT1dnTUhZWUd2Z1NvZzMySjJ5M0htNWNHa1VySEU1OVVuSERkaGsweFdFaktSRTBmTk9sNjJiVHV6cGN0ZHVoVDE5Z0YzQmdoUUlxWnQzRlU?oc=5",
-      "locator": null,
-      "published_at": "2026-09-29"
-    },
-    "extracted_at": "2026-09-30T11:06:00.704755",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1575,
     "derivation": null
   },
   {
@@ -2929,7 +2957,7 @@
       "locator": null,
       "published_at": "2026-08-20"
     },
-    "extracted_at": "2026-10-09T11:53:18.608350",
+    "extracted_at": "2026-10-11T11:49:13.286274",
     "extractor_model": "derive-engine",
     "base_confidence": 0.4658,
     "derivation": {

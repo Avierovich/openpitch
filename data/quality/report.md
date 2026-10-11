@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-10-09
+# OpenPitch Data Quality Report - 2026-10-11
 
 ## Summary
 
-- Profiles generated: 602
-- Watchlist candidates: 1270
+- Profiles generated: 603
+- Watchlist candidates: 1274
 - Top-50 cards: 50
-- Profiles with at least one metric: 589
+- Profiles with at least one metric: 590
 - Critical issues: 110
-- Warnings: 19
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 666
+- Warnings: 18
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 669
 
 ## Top-50 Companies With No Metrics
 
@@ -157,7 +157,6 @@ None.
 - Celonis: headcount
 - Hugging Face: headcount
 - Shield AI: total_funding
-- Baseten: arr
 
 ## Review Rule
 

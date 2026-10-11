@@ -197,6 +197,30 @@
     "derivation": null
   },
   {
+    "id": "clm_550805a3b5",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 2000000000000.0,
+    "unit": "USD",
+    "raw_text": "$2 Trillion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ISUowTGh4THNuZjc5b1ROYVBGWXkwX0NIX1dZbkdQalZZNldvcXZRUHhVZWZjREtweXhDck9VamdmMjZPQUNiMVRnUXNSSFFBcDZN?oc=5",
+      "locator": null,
+      "published_at": "2026-10-09"
+    },
+    "extracted_at": "2026-10-11T11:49:13.286274",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_8a2cb93702",
     "company_id": "anthropic",
     "metric": "valuation",
@@ -2346,7 +2370,7 @@
       "locator": null,
       "published_at": "2026-06-14"
     },
-    "extracted_at": "2026-10-09T11:53:18.608350",
+    "extracted_at": "2026-10-11T11:49:13.286274",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

@@ -12,6 +12,31 @@
   "vc_attention_score": 93.4,
   "universe_rank": 5,
   "metrics": {
+    "valuation": {
+      "metric": "valuation",
+      "value": 185000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 25000000000.0,
+        "high": 185000000000.0
+      },
+      "as_of": "2026-09-11",
+      "estimate_type": "reported",
+      "confidence": 0.478,
+      "supporting_claims": [
+        "clm_41ee993293"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 185000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-09-11"
+      },
+      "history_ref": "history/enflame-technology/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "round_amount": {
       "metric": "round_amount",
       "value": 903745620.07,
@@ -61,7 +86,7 @@
       },
       "as_of": "2026-09-14",
       "estimate_type": "consensus",
-      "confidence": 0.756,
+      "confidence": 0.753,
       "supporting_claims": [
         "clm_a78d636add",
         "clm_3c30954aef"
@@ -87,7 +112,7 @@
       },
       "as_of": "2026-09-15",
       "estimate_type": "consensus",
-      "confidence": 0.739,
+      "confidence": 0.733,
       "supporting_claims": [
         "clm_a3e9674eb2",
         "clm_782bd461be"
@@ -103,31 +128,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "valuation": {
-      "metric": "valuation",
-      "value": 185000000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 25000000000.0,
-        "high": 185000000000.0
-      },
-      "as_of": "2026-09-11",
-      "estimate_type": "reported",
-      "confidence": 0.484,
-      "supporting_claims": [
-        "clm_41ee993293"
-      ],
-      "contradiction": true,
-      "delta": {
-        "previous": 185000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-09-11"
-      },
-      "history_ref": "history/enflame-technology/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "revenue_growth": {
       "metric": "revenue_growth",
       "value": 84.0,
@@ -135,7 +135,7 @@
       "range": null,
       "as_of": "2026-09-15",
       "estimate_type": "reported",
-      "confidence": 0.423,
+      "confidence": 0.409,
       "supporting_claims": [
         "clm_7e2d25c1f9"
       ],
@@ -151,5 +151,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-11"
+  "last_updated": "2026-10-15"
 }

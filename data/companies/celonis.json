@@ -17,7 +17,7 @@
       "value": 3000.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-10-11",
+      "as_of": "2026-10-15",
       "estimate_type": "reported",
       "confidence": 0.191,
       "supporting_claims": [
@@ -39,7 +39,7 @@
       "value": 1000.0,
       "unit": "list",
       "range": null,
-      "as_of": "2026-10-11",
+      "as_of": "2026-10-15",
       "estimate_type": "reported",
       "confidence": 0.225,
       "supporting_claims": [
@@ -66,7 +66,7 @@
       },
       "as_of": "2026-08-17",
       "estimate_type": "consensus",
-      "confidence": 0.703,
+      "confidence": 0.698,
       "supporting_claims": [
         "clm_93f95c055d",
         "clm_2b1330ceae",
@@ -104,7 +104,7 @@
       "range": null,
       "as_of": "2026-09-15",
       "estimate_type": "consensus",
-      "confidence": 0.673,
+      "confidence": 0.671,
       "supporting_claims": [
         "clm_b4e580e0b2",
         "clm_2557a67a3a",
@@ -140,7 +140,7 @@
       "contradiction": false,
       "delta": {
         "previous": 400000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2022-09-06"
       },
       "history_ref": "history/celonis/round_amount.jsonl",
@@ -155,7 +155,7 @@
       "range": null,
       "as_of": "2026-07-03",
       "estimate_type": "reported",
-      "confidence": 0.185,
+      "confidence": 0.179,
       "supporting_claims": [
         "clm_4a9d9165ee"
       ],
@@ -194,19 +194,19 @@
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 16.86,
+      "value": 14.27,
       "unit": "x",
       "range": null,
       "as_of": "2026-07-03",
       "estimate_type": "reported",
-      "confidence": 0.089,
+      "confidence": 0.086,
       "supporting_claims": [
-        "drv_31aaf85ca4"
+        "drv_4a48537e3b"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 14.27,
-        "change_pct": 18.1,
+        "previous": 16.86,
+        "change_pct": -15.4,
         "since": "2026-07-03"
       },
       "history_ref": "history/celonis/revenue_multiple.jsonl",
@@ -215,5 +215,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-11"
+  "last_updated": "2026-10-15"
 }

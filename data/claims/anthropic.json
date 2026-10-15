@@ -1,58 +1,5 @@
 [
   {
-    "id": "clm_4ca01bb7ee",
-    "company_id": "anthropic",
-    "metric": "valuation",
-    "value": 2000000000000.0,
-    "unit": "USD",
-    "raw_text": "Anthropic valuation - $2 trillion",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQnJPUjNvbW9vajhBbkQ1ZnFQaXNsNnlJMUlUcHF3d0JfVGVFNEdMeWV1LUE5Sk5yaTBDRkEwUFdkSU1QWVhNaEEwRGhCUjY4UVVtNmladDZKRkRxNVlGT0RsaERLdk5Cc3JOa3Q1LTNDbUxOOVRYcGx6azFiV2g4WEpTZGstNnY4eFhJRk12c2g0QTh1U1dmakZ4eDJDSk9TTXRfblpZNGxNd3JTdXdlVXl0cHBhdmVCLWp3LUowMWM1VFZDcEtPcW5jWXQ?oc=5",
-      "locator": null,
-      "published_at": "2026-10-05"
-    },
-    "extracted_at": "2026-10-06T12:25:15.330748",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1575,
-    "derivation": null
-  },
-  {
-    "id": "clm_ce6f5b7567",
-    "company_id": "anthropic",
-    "metric": "arr",
-    "value": 4600000000.0,
-    "unit": "USD",
-    "raw_text": "Anthropic 2025 revenue - $4.6 billion",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQnJPUjNvbW9vajhBbkQ1ZnFQaXNsNnlJMUlUcHF3d0JfVGVFNEdMeWV1LUE5Sk5yaTBDRkEwUFdkSU1QWVhNaEEwRGhCUjY4UVVtNmladDZKRkRxNVlGT0RsaERLdk5Cc3JOa3Q1LTNDbUxOOVRYcGx6azFiV2g4WEpTZGstNnY4eFhJRk12c2g0QTh1U1dmakZ4eDJDSk9TTXRfblpZNGxNd3JTdXdlVXl0cHBhdmVCLWp3LUowMWM1VFZDcEtPcW5jWXQ?oc=5",
-      "locator": null,
-      "published_at": "2026-10-05"
-    },
-    "extracted_at": "2026-10-06T12:25:15.330748",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2625,
-    "derivation": null
-  },
-  {
     "id": "clm_b506604679",
     "company_id": "anthropic",
     "metric": "arr",
@@ -197,30 +144,6 @@
     "derivation": null
   },
   {
-    "id": "clm_550805a3b5",
-    "company_id": "anthropic",
-    "metric": "valuation",
-    "value": 2000000000000.0,
-    "unit": "USD",
-    "raw_text": "$2 Trillion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "36Kr",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ISUowTGh4THNuZjc5b1ROYVBGWXkwX0NIX1dZbkdQalZZNldvcXZRUHhVZWZjREtweXhDck9VamdmMjZPQUNiMVRnUXNSSFFBcDZN?oc=5",
-      "locator": null,
-      "published_at": "2026-10-09"
-    },
-    "extracted_at": "2026-10-11T11:49:13.286274",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_8a2cb93702",
     "company_id": "anthropic",
     "metric": "valuation",
@@ -241,6 +164,137 @@
     },
     "extracted_at": "2026-08-24T06:11:52.835308",
     "extractor_model": "gemini-3.6-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_01f13d118f",
+    "company_id": "anthropic",
+    "metric": "revenue_growth",
+    "value": 45.0,
+    "unit": "percent",
+    "raw_text": "Anthropic’s Q3 revenue jumps 45% to $16.8 billion as IPO valuation tops $2 Trillion",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Storyboard18",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSG5wQkh0Uk9BV2NJdnl1YzVBUE9Fd3RYN1hydkU5R05ialh3a3B3XzFVUDI3Smw4bHE5RUFndnNzR1BlTUNVNGJ0NXpfc19Dc1FONk03YVo3Rk9KbkpNVVlBTE5XNkI5WGpwQTJQM1pubWFvdUJpcklGX2d5ZUpiZndLdUVnN0dFSWhqcmd3WGotYVhoQUhkb2VFVlI3a2hNTTl4UFAwUmQwUHdjallMLUlSdmhHWHRlaXfSAb8BQVVfeXFMUEs5cTduakJFLVJJMDFMWFNjNUozTEJPQ3NhQTV3Ynh5UUhzcUpqMkYwd0QxRnhUNEJfRVRjanFjNktBcXRRcFhUcDlsek9abXRPYnVIS3NoVGpGMFNvdGN5UnFfUHNJb3I5Mkp1WmhLWDZqLXVNem1TTnR0MC13RkR4OG9xR0dlc1BvNWFTZVE3Y0tTX052bXNaeXhuZ1p4dVUxd3JWVHNPVTBtR2dHcGZlZWRTalpNWDNnVk5VcTQ?oc=5",
+      "locator": null,
+      "published_at": "2026-10-15"
+    },
+    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_0eb3e221bb",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 2000000000000.0,
+    "unit": "USD",
+    "raw_text": "IPO valuation tops $2 Trillion",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Storyboard18",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSG5wQkh0Uk9BV2NJdnl1YzVBUE9Fd3RYN1hydkU5R05ialh3a3B3XzFVUDI3Smw4bHE5RUFndnNzR1BlTUNVNGJ0NXpfc19Dc1FONk03YVo3Rk9KbkpNVVlBTE5XNkI5WGpwQTJQM1pubWFvdUJpcklGX2d5ZUpiZndLdUVnN0dFSWhqcmd3WGotYVhoQUhkb2VFVlI3a2hNTTl4UFAwUmQwUHdjallMLUlSdmhHWHRlaXfSAb8BQVVfeXFMUEs5cTduakJFLVJJMDFMWFNjNUozTEJPQ3NhQTV3Ynh5UUhzcUpqMkYwd0QxRnhUNEJfRVRjanFjNktBcXRRcFhUcDlsek9abXRPYnVIS3NoVGpGMFNvdGN5UnFfUHNJb3I5Mkp1WmhLWDZqLXVNem1TTnR0MC13RkR4OG9xR0dlc1BvNWFTZVE3Y0tTX052bXNaeXhuZ1p4dVUxd3JWVHNPVTBtR2dHcGZlZWRTalpNWDNnVk5VcTQ?oc=5",
+      "locator": null,
+      "published_at": "2026-10-15"
+    },
+    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_4ca01bb7ee",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 2000000000000.0,
+    "unit": "USD",
+    "raw_text": "Anthropic valuation - $2 trillion",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQnJPUjNvbW9vajhBbkQ1ZnFQaXNsNnlJMUlUcHF3d0JfVGVFNEdMeWV1LUE5Sk5yaTBDRkEwUFdkSU1QWVhNaEEwRGhCUjY4UVVtNmladDZKRkRxNVlGT0RsaERLdk5Cc3JOa3Q1LTNDbUxOOVRYcGx6azFiV2g4WEpTZGstNnY4eFhJRk12c2g0QTh1U1dmakZ4eDJDSk9TTXRfblpZNGxNd3JTdXdlVXl0cHBhdmVCLWp3LUowMWM1VFZDcEtPcW5jWXQ?oc=5",
+      "locator": null,
+      "published_at": "2026-10-05"
+    },
+    "extracted_at": "2026-10-06T12:25:15.330748",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
+    "id": "clm_ce6f5b7567",
+    "company_id": "anthropic",
+    "metric": "arr",
+    "value": 4600000000.0,
+    "unit": "USD",
+    "raw_text": "Anthropic 2025 revenue - $4.6 billion",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQnJPUjNvbW9vajhBbkQ1ZnFQaXNsNnlJMUlUcHF3d0JfVGVFNEdMeWV1LUE5Sk5yaTBDRkEwUFdkSU1QWVhNaEEwRGhCUjY4UVVtNmladDZKRkRxNVlGT0RsaERLdk5Cc3JOa3Q1LTNDbUxOOVRYcGx6azFiV2g4WEpTZGstNnY4eFhJRk12c2g0QTh1U1dmakZ4eDJDSk9TTXRfblpZNGxNd3JTdXdlVXl0cHBhdmVCLWp3LUowMWM1VFZDcEtPcW5jWXQ?oc=5",
+      "locator": null,
+      "published_at": "2026-10-05"
+    },
+    "extracted_at": "2026-10-06T12:25:15.330748",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2625,
+    "derivation": null
+  },
+  {
+    "id": "clm_550805a3b5",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 2000000000000.0,
+    "unit": "USD",
+    "raw_text": "$2 Trillion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ISUowTGh4THNuZjc5b1ROYVBGWXkwX0NIX1dZbkdQalZZNldvcXZRUHhVZWZjREtweXhDck9VamdmMjZPQUNiMVRnUXNSSFFBcDZN?oc=5",
+      "locator": null,
+      "published_at": "2026-10-09"
+    },
+    "extracted_at": "2026-10-11T11:49:13.286274",
+    "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.525,
     "derivation": null
   },
@@ -2370,7 +2424,7 @@
       "locator": null,
       "published_at": "2026-06-14"
     },
-    "extracted_at": "2026-10-11T11:49:13.286274",
+    "extracted_at": "2026-10-15T10:02:10.844942",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

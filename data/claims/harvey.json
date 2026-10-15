@@ -1,5 +1,85 @@
 [
   {
+    "id": "clm_026dfa8ae0",
+    "company_id": "harvey",
+    "metric": "valuation",
+    "value": 15500000000.0,
+    "unit": null,
+    "raw_text": "Harvey targets $15.5B valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWXNTRDgyc1pDMDNFbVBtVTZPMGhRUGZIcDJhTmlUM1lLaXdiSlZzeGlJWThtTF9DbEZxWHR4emdaTGVMcGNrLXdoNDFVamw0dUlkSVJoMHJQaFBMSzdwbmNrbTF3ZllzdXZOemp3eGR4UW9TaVBhYkZrVHpDdHZlNWtkaUtvRkh2ZUVmdEZaVjhrUnNIZllTLVFjYTdYQXhKcnlUYw?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
+    "id": "clm_33d529f676",
+    "company_id": "harvey",
+    "metric": "round_amount",
+    "value": 500000000.0,
+    "unit": null,
+    "raw_text": "$500M raise",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWXNTRDgyc1pDMDNFbVBtVTZPMGhRUGZIcDJhTmlUM1lLaXdiSlZzeGlJWThtTF9DbEZxWHR4emdaTGVMcGNrLXdoNDFVamw0dUlkSVJoMHJQaFBMSzdwbmNrbTF3ZllzdXZOemp3eGR4UW9TaVBhYkZrVHpDdHZlNWtkaUtvRkh2ZUVmdEZaVjhrUnNIZllTLVFjYTdYQXhKcnlUYw?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
+    "id": "clm_2ca46ecab8",
+    "company_id": "harvey",
+    "metric": "arr",
+    "value": 350000000.0,
+    "unit": null,
+    "raw_text": "revenue nears $350M",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWXNTRDgyc1pDMDNFbVBtVTZPMGhRUGZIcDJhTmlUM1lLaXdiSlZzeGlJWThtTF9DbEZxWHR4emdaTGVMcGNrLXdoNDFVamw0dUlkSVJoMHJQaFBMSzdwbmNrbTF3ZllzdXZOemp3eGR4UW9TaVBhYkZrVHpDdHZlNWtkaUtvRkh2ZUVmdEZaVjhrUnNIZllTLVFjYTdYQXhKcnlUYw?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2625,
+    "derivation": null
+  },
+  {
     "id": "clm_f015378401",
     "company_id": "harvey",
     "metric": "arr",
@@ -120,6 +200,30 @@
     "derivation": null
   },
   {
+    "id": "clm_38e8650db4",
+    "company_id": "harvey",
+    "metric": "valuation",
+    "value": 11000000000.0,
+    "unit": "USD",
+    "raw_text": "$11B legal AI company Harvey",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "This Week in Startups",
+      "url": "https://4a885955-6823-4b22-a3e1-a526c25516a5.libsyn.com/open-source-is-going-to-win-it-all-harvey-proves-it-e2328",
+      "locator": null,
+      "published_at": "2026-08-21"
+    },
+    "extracted_at": "2026-09-25T10:09:44.175619",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.42,
+    "derivation": null
+  },
+  {
     "id": "clm_d46065fa74",
     "company_id": "harvey",
     "metric": "total_funding",
@@ -165,30 +269,6 @@
     "extracted_at": "2026-10-04T11:05:13.664288",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_38e8650db4",
-    "company_id": "harvey",
-    "metric": "valuation",
-    "value": 11000000000.0,
-    "unit": "USD",
-    "raw_text": "$11B legal AI company Harvey",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "This Week in Startups",
-      "url": "https://4a885955-6823-4b22-a3e1-a526c25516a5.libsyn.com/open-source-is-going-to-win-it-all-harvey-proves-it-e2328",
-      "locator": null,
-      "published_at": "2026-08-21"
-    },
-    "extracted_at": "2026-09-25T10:09:44.175619",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.42,
     "derivation": null
   },
   {
@@ -242,198 +322,6 @@
     "derivation": null
   },
   {
-    "id": "clm_ac1b8e371d",
-    "company_id": "harvey",
-    "metric": "round_amount",
-    "value": 550000000.0,
-    "unit": "USD",
-    "raw_text": "Harvey raises $550 million",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Líder Legal",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSGtsMUF4QS0tQk9zdTFFNWlkeGxsXzNKZFFuTGhwSG1FUmtwSkktVm9xcTk0Qzh3TF9pMnJ1Smd4NkZ1TExEcldjRW9tVkg1SWFOZ0phMHBLM0sxSFFlUHZhUTFjYjZpVFhlcVNmNGFrazhnQjJGc0d3X2Z5TmNtVjJHNTVNZ0lOTkxrdTE3NU9iWHRvZDJV?oc=5",
-      "locator": null,
-      "published_at": "2026-09-10"
-    },
-    "extracted_at": "2026-09-11T09:45:35.269135",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_15fc619818",
-    "company_id": "harvey",
-    "metric": "valuation",
-    "value": 15500000000.0,
-    "unit": "USD",
-    "raw_text": "valuation of $15.5 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Líder Legal",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSGtsMUF4QS0tQk9zdTFFNWlkeGxsXzNKZFFuTGhwSG1FUmtwSkktVm9xcTk0Qzh3TF9pMnJ1Smd4NkZ1TExEcldjRW9tVkg1SWFOZ0phMHBLM0sxSFFlUHZhUTFjYjZpVFhlcVNmNGFrazhnQjJGc0d3X2Z5TmNtVjJHNTVNZ0lOTkxrdTE3NU9iWHRvZDJV?oc=5",
-      "locator": null,
-      "published_at": "2026-09-10"
-    },
-    "extracted_at": "2026-09-11T09:45:35.269135",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_40a7650ab2",
-    "company_id": "harvey",
-    "metric": "total_funding",
-    "value": 550000000.0,
-    "unit": "USD",
-    "raw_text": "We Raised $550M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "harvey.ai",
-      "url": "https://harvey.ai",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-11T11:49:13.286274",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_7adf8bf127",
-    "company_id": "harvey",
-    "metric": "valuation",
-    "value": 15500000000.0,
-    "unit": "USD",
-    "raw_text": "$15.5B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "harvey.ai",
-      "url": "https://harvey.ai",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-11T11:49:13.286274",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_40a7650ab2",
-    "company_id": "harvey",
-    "metric": "total_funding",
-    "value": 550000000.0,
-    "unit": "USD",
-    "raw_text": "We Raised $550M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "harvey.ai",
-      "url": "https://harvey.ai/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-11T11:49:13.286274",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_7adf8bf127",
-    "company_id": "harvey",
-    "metric": "valuation",
-    "value": 15500000000.0,
-    "unit": "USD",
-    "raw_text": "$15.5B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "harvey.ai",
-      "url": "https://harvey.ai/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-11T11:49:13.286274",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_40a7650ab2",
-    "company_id": "harvey",
-    "metric": "total_funding",
-    "value": 550000000.0,
-    "unit": "USD",
-    "raw_text": "We Raised $550M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "harvey.ai",
-      "url": "https://harvey.ai/company",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-11T11:49:13.286274",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_7adf8bf127",
-    "company_id": "harvey",
-    "metric": "valuation",
-    "value": 15500000000.0,
-    "unit": "USD",
-    "raw_text": "$15.5B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "harvey.ai",
-      "url": "https://harvey.ai/company",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-11T11:49:13.286274",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
     "id": "clm_c0ae25de27",
     "company_id": "harvey",
     "metric": "total_funding",
@@ -477,6 +365,198 @@
       "published_at": "2026-09-10"
     },
     "extracted_at": "2026-10-11T11:49:13.286274",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_40a7650ab2",
+    "company_id": "harvey",
+    "metric": "total_funding",
+    "value": 550000000.0,
+    "unit": null,
+    "raw_text": "We Raised $550M at a $15.5B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "harvey.ai",
+      "url": "https://harvey.ai",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_7adf8bf127",
+    "company_id": "harvey",
+    "metric": "valuation",
+    "value": 15500000000.0,
+    "unit": null,
+    "raw_text": "We Raised $550M at a $15.5B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "harvey.ai",
+      "url": "https://harvey.ai",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_40a7650ab2",
+    "company_id": "harvey",
+    "metric": "total_funding",
+    "value": 550000000.0,
+    "unit": null,
+    "raw_text": "We Raised $550M at a $15.5B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "harvey.ai",
+      "url": "https://harvey.ai/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_7adf8bf127",
+    "company_id": "harvey",
+    "metric": "valuation",
+    "value": 15500000000.0,
+    "unit": null,
+    "raw_text": "We Raised $550M at a $15.5B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "harvey.ai",
+      "url": "https://harvey.ai/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_40a7650ab2",
+    "company_id": "harvey",
+    "metric": "total_funding",
+    "value": 550000000.0,
+    "unit": null,
+    "raw_text": "We Raised $550M at a $15.5B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "harvey.ai",
+      "url": "https://harvey.ai/company",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_7adf8bf127",
+    "company_id": "harvey",
+    "metric": "valuation",
+    "value": 15500000000.0,
+    "unit": null,
+    "raw_text": "We Raised $550M at a $15.5B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "harvey.ai",
+      "url": "https://harvey.ai/company",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_ac1b8e371d",
+    "company_id": "harvey",
+    "metric": "round_amount",
+    "value": 550000000.0,
+    "unit": "USD",
+    "raw_text": "Harvey raises $550 million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Líder Legal",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSGtsMUF4QS0tQk9zdTFFNWlkeGxsXzNKZFFuTGhwSG1FUmtwSkktVm9xcTk0Qzh3TF9pMnJ1Smd4NkZ1TExEcldjRW9tVkg1SWFOZ0phMHBLM0sxSFFlUHZhUTFjYjZpVFhlcVNmNGFrazhnQjJGc0d3X2Z5TmNtVjJHNTVNZ0lOTkxrdTE3NU9iWHRvZDJV?oc=5",
+      "locator": null,
+      "published_at": "2026-09-10"
+    },
+    "extracted_at": "2026-09-11T09:45:35.269135",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_15fc619818",
+    "company_id": "harvey",
+    "metric": "valuation",
+    "value": 15500000000.0,
+    "unit": "USD",
+    "raw_text": "valuation of $15.5 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Líder Legal",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSGtsMUF4QS0tQk9zdTFFNWlkeGxsXzNKZFFuTGhwSG1FUmtwSkktVm9xcTk0Qzh3TF9pMnJ1Smd4NkZ1TExEcldjRW9tVkg1SWFOZ0phMHBLM0sxSFFlUHZhUTFjYjZpVFhlcVNmNGFrazhnQjJGc0d3X2Z5TmNtVjJHNTVNZ0lOTkxrdTE3NU9iWHRvZDJV?oc=5",
+      "locator": null,
+      "published_at": "2026-09-10"
+    },
+    "extracted_at": "2026-09-11T09:45:35.269135",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -1613,86 +1693,6 @@
     "derivation": null
   },
   {
-    "id": "clm_026dfa8ae0",
-    "company_id": "harvey",
-    "metric": "valuation",
-    "value": 15500000000.0,
-    "unit": null,
-    "raw_text": "Harvey targets $15.5B valuation",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWXNTRDgyc1pDMDNFbVBtVTZPMGhRUGZIcDJhTmlUM1lLaXdiSlZzeGlJWThtTF9DbEZxWHR4emdaTGVMcGNrLXdoNDFVamw0dUlkSVJoMHJQaFBMSzdwbmNrbTF3ZllzdXZOemp3eGR4UW9TaVBhYkZrVHpDdHZlNWtkaUtvRkh2ZUVmdEZaVjhrUnNIZllTLVFjYTdYQXhKcnlUYw?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1575,
-    "derivation": null
-  },
-  {
-    "id": "clm_33d529f676",
-    "company_id": "harvey",
-    "metric": "round_amount",
-    "value": 500000000.0,
-    "unit": null,
-    "raw_text": "$500M raise",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWXNTRDgyc1pDMDNFbVBtVTZPMGhRUGZIcDJhTmlUM1lLaXdiSlZzeGlJWThtTF9DbEZxWHR4emdaTGVMcGNrLXdoNDFVamw0dUlkSVJoMHJQaFBMSzdwbmNrbTF3ZllzdXZOemp3eGR4UW9TaVBhYkZrVHpDdHZlNWtkaUtvRkh2ZUVmdEZaVjhrUnNIZllTLVFjYTdYQXhKcnlUYw?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1575,
-    "derivation": null
-  },
-  {
-    "id": "clm_2ca46ecab8",
-    "company_id": "harvey",
-    "metric": "arr",
-    "value": 350000000.0,
-    "unit": null,
-    "raw_text": "revenue nears $350M",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWXNTRDgyc1pDMDNFbVBtVTZPMGhRUGZIcDJhTmlUM1lLaXdiSlZzeGlJWThtTF9DbEZxWHR4emdaTGVMcGNrLXdoNDFVamw0dUlkSVJoMHJQaFBMSzdwbmNrbTF3ZllzdXZOemp3eGR4UW9TaVBhYkZrVHpDdHZlNWtkaUtvRkh2ZUVmdEZaVjhrUnNIZllTLVFjYTdYQXhKcnlUYw?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2625,
-    "derivation": null
-  },
-  {
     "id": "clm_281db18dc9",
     "company_id": "harvey",
     "metric": "valuation",
@@ -2075,7 +2075,7 @@
       "locator": null,
       "published_at": "2026-10-02"
     },
-    "extracted_at": "2026-10-11T11:49:13.286274",
+    "extracted_at": "2026-10-15T10:02:10.844942",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

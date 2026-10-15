@@ -22,13 +22,13 @@
       },
       "as_of": "2026-06-05",
       "estimate_type": "consensus",
-      "confidence": 0.966,
+      "confidence": 0.964,
       "supporting_claims": [
         "clm_fa1ca25dfb",
         "clm_1a9e9ccc7a",
+        "clm_0d1de079e4",
         "clm_f87eacf058",
         "clm_92f08c5b0b",
-        "clm_0d1de079e4",
         "clm_20468ed29d",
         "clm_6f1e45e4d7",
         "clm_4a20cb3469",
@@ -48,7 +48,7 @@
     },
     "round_amount": {
       "metric": "round_amount",
-      "value": 465164154.09,
+      "value": 464671196.16,
       "unit": "USD",
       "range": {
         "low": 465000000.0,
@@ -60,18 +60,19 @@
       "supporting_claims": [
         "clm_bc73d753ed",
         "clm_1407cd0069",
+        "clm_4b164dda40",
         "clm_d9b4f60a43",
         "clm_7a6ea93bc7",
         "clm_795ae10f4b",
         "clm_e58870c790",
         "clm_9a24a0d9b3",
         "clm_13dc1498b7",
+        "clm_dd83af0591",
         "clm_4806770680",
         "clm_d99325df6f",
         "clm_9069891d0b",
         "clm_e4101bcffd",
         "clm_2dfbfd2d94",
-        "clm_dd83af0591",
         "clm_a67458754d",
         "clm_41eb02c434",
         "clm_a3a8512859",
@@ -85,38 +86,10 @@
       "contradiction": false,
       "delta": {
         "previous": 465164154.09,
-        "change_pct": -0.0,
+        "change_pct": -0.1,
         "since": "2026-09-15"
       },
       "history_ref": "history/helion-energy/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 458560681.27,
-      "unit": "USD",
-      "range": {
-        "low": 465000000.0,
-        "high": 465000000.0
-      },
-      "as_of": "2026-06-05",
-      "estimate_type": "consensus",
-      "confidence": 0.618,
-      "supporting_claims": [
-        "clm_5859e3f0a6",
-        "clm_50496f000a",
-        "clm_adba20c2c5",
-        "clm_d3dc4cc1ce"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 466693808.36,
-        "change_pct": -1.7,
-        "since": "2026-06-05"
-      },
-      "history_ref": "history/helion-energy/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -128,7 +101,7 @@
       "range": null,
       "as_of": "2026-06-05",
       "estimate_type": "reported",
-      "confidence": 0.264,
+      "confidence": 0.261,
       "supporting_claims": [
         "clm_479810f5f6"
       ],
@@ -142,7 +115,36 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 460106223.53,
+      "unit": "USD",
+      "range": {
+        "low": 465000000.0,
+        "high": 465000000.0
+      },
+      "as_of": "2026-06-05",
+      "estimate_type": "consensus",
+      "confidence": 0.628,
+      "supporting_claims": [
+        "clm_5859e3f0a6",
+        "clm_50496f000a",
+        "clm_adba20c2c5",
+        "clm_6d02d79cd0",
+        "clm_d3dc4cc1ce"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 458560681.27,
+        "change_pct": 0.3,
+        "since": "2026-06-05"
+      },
+      "history_ref": "history/helion-energy/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-11"
+  "last_updated": "2026-10-15"
 }

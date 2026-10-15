@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-10-11
+# OpenPitch Data Quality Report - 2026-10-15
 
 ## Summary
 
-- Profiles generated: 603
-- Watchlist candidates: 1274
+- Profiles generated: 613
+- Watchlist candidates: 1290
 - Top-50 cards: 50
-- Profiles with at least one metric: 590
-- Critical issues: 110
+- Profiles with at least one metric: 600
+- Critical issues: 111
 - Warnings: 18
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 669
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 675
 
 ## Top-50 Companies With No Metrics
 
@@ -114,6 +114,7 @@ None.
 - H Company
 - HUMAIN
 - Happy Health
+- Harmonic Security
 - Havoc AI
 - HavocAI
 - HealthJoy

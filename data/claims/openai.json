@@ -107,32 +107,6 @@
     "derivation": null
   },
   {
-    "id": "clm_55164092da",
-    "company_id": "openai",
-    "metric": "arr",
-    "value": 70000000000.0,
-    "unit": "USD",
-    "raw_text": "OpenAI Nears $70B Run Rate",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "20VC (Harry Stebbings)",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-cognition-vs-factory-vinod-khosla-creates-a-storm-openai-nears-70b-run-rate-anthropic-under-threat-elevenlabs-doubles-its-valuation-to-22b-salesforce-buys-listen-labs-for-2b",
-      "locator": null,
-      "published_at": "2026-10-08"
-    },
-    "extracted_at": "2026-10-08T12:05:08.457629",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.27,
-    "derivation": null
-  },
-  {
     "id": "clm_39847574e3",
     "company_id": "openai",
     "metric": "arr",
@@ -157,6 +131,85 @@
     "extracted_at": "2026-10-09T11:53:18.608350",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.4016,
+    "derivation": null
+  },
+  {
+    "id": "clm_53b6eb2b8b",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 20000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI’s $20 Billion Revenue Problem",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWDA5MDZWVlgyZmtwa3NVLWhCR3RSMU9LLXVxUm5JYjUzcURQcXR1V0hpLS03RUl5U2xtTlQ0cWhobFNZeWo1dTFYa2tkUVNJNmNvNFd5cC1aUEhUb1BuWmNjOFcxOUk0eGFjdTA0X2haa2pEb1Rtb1BFNkI5dWMzNzFFdjI2UzJJaWVJVHU4UUJwaFdhSk9UT1J0WUZzQQ?oc=5",
+      "locator": null,
+      "published_at": "2026-10-11"
+    },
+    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_93a68ad560",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI’s Revenue Run Rate Nears $50 Billion",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORzJTWWtrb1Y0d01kSllBcGxpekFKcXd0YjNYRDdGOEktcl9LREZmY3J5amV1MWtuUFRFcVhVWXljS01DM0RncjhIY0xqQk8tN3gxZmRFdGhJa29uTkFSNVJqYzVXMTNBcnM4WXVwVVd5WktDRTcwYkN2blFzRllZRWdaZ3lubG9Ta0Z2WUl6TXZaWlJlLWV5T05HNDRoTEZ4V1FsTGRB?oc=5",
+      "locator": null,
+      "published_at": "2026-10-08"
+    },
+    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_55164092da",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 70000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI Nears $70B Run Rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "20VC (Harry Stebbings)",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-cognition-vs-factory-vinod-khosla-creates-a-storm-openai-nears-70b-run-rate-anthropic-under-threat-elevenlabs-doubles-its-valuation-to-22b-salesforce-buys-listen-labs-for-2b",
+      "locator": null,
+      "published_at": "2026-10-08"
+    },
+    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.27,
     "derivation": null
   },
   {
@@ -2957,7 +3010,7 @@
       "locator": null,
       "published_at": "2026-08-20"
     },
-    "extracted_at": "2026-10-11T11:49:13.286274",
+    "extracted_at": "2026-10-15T10:02:10.844942",
     "extractor_model": "derive-engine",
     "base_confidence": 0.4658,
     "derivation": {

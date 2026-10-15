@@ -53,30 +53,6 @@
     "derivation": null
   },
   {
-    "id": "clm_0b81e88e78",
-    "company_id": "celonis",
-    "metric": "valuation",
-    "value": 13000000000.0,
-    "unit": "USD",
-    "raw_text": "Qatar Wealth Fund Invests in Celonis at $13 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMlhZYnZZZVcxTUU0elVEQ2FSdFFlVkdvQlhwRWRrWWo4Tmg5NnhVN2h6YkNyOXpSRlAzaE5FQUZ0eHVsZlV2eF9MbGVKMi10UldhQ1RZZFRsUUJlWW1yRTBvZF92UE1JVGRIOXIyQ2VGV2lyV1pZZkZsOUFjeW5DUHktNVc5NmpXc2wyN01XR1VjUy1VdDczdlFaR3I1ajRaQVVCbllWb1BwOVJtMmxGU1FkUU4?oc=5",
-      "locator": null,
-      "published_at": "2022-08-23"
-    },
-    "extracted_at": "2026-08-24T06:11:52.835308",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_93f95c055d",
     "company_id": "celonis",
     "metric": "valuation",
@@ -145,6 +121,30 @@
     },
     "extracted_at": "2026-09-28T11:35:42.398874",
     "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_0b81e88e78",
+    "company_id": "celonis",
+    "metric": "valuation",
+    "value": 13000000000.0,
+    "unit": "USD",
+    "raw_text": "Qatar Wealth Fund Invests in Celonis at $13 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMlhZYnZZZVcxTUU0elVEQ2FSdFFlVkdvQlhwRWRrWWo4Tmg5NnhVN2h6YkNyOXpSRlAzaE5FQUZ0eHVsZlV2eF9MbGVKMi10UldhQ1RZZFRsUUJlWW1yRTBvZF92UE1JVGRIOXIyQ2VGV2lyV1pZZkZsOUFjeW5DUHktNVc5NmpXc2wyN01XR1VjUy1VdDczdlFaR3I1ajRaQVVCbllWb1BwOVJtMmxGU1FkUU4?oc=5",
+      "locator": null,
+      "published_at": "2022-08-23"
+    },
+    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.525,
     "derivation": null
   },
@@ -1162,10 +1162,10 @@
     "derivation": null
   },
   {
-    "id": "drv_31aaf85ca4",
+    "id": "drv_4a48537e3b",
     "company_id": "celonis",
     "metric": "revenue_multiple",
-    "value": 16.86,
+    "value": 14.27,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -1180,14 +1180,14 @@
       "locator": null,
       "published_at": "2026-07-03"
     },
-    "extracted_at": "2026-10-11T11:49:13.286274",
+    "extracted_at": "2026-10-15T10:02:10.844942",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2054,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_0b81e88e78",
+        "clm_93f95c055d",
         "clm_4a9d9165ee"
       ]
     }

@@ -1,5 +1,53 @@
 [
   {
+    "id": "clm_8e297ef8ed",
+    "company_id": "baseten",
+    "metric": "arr",
+    "value": 15800000.0,
+    "unit": "USD",
+    "raw_text": "$15.8M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YRkhscUdIcGFIblZPWWVLUWZsdmd0eld0V1RyMUtOTXVHZmNKem0wRGQtakxtOEw2OXd2bGYxSUxualo3UkJnOWdLcFUwM2wtcU5z?oc=5",
+      "locator": null,
+      "published_at": "2026-10-05"
+    },
+    "extracted_at": "2026-10-11T11:49:13.286274",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_1b693b29f1",
+    "company_id": "baseten",
+    "metric": "valuation",
+    "value": 2200000000.0,
+    "unit": "USD",
+    "raw_text": "$2.2B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YRkhscUdIcGFIblZPWWVLUWZsdmd0eld0V1RyMUtOTXVHZmNKem0wRGQtakxtOEw2OXd2bGYxSUxualo3UkJnOWdLcFUwM2wtcU5z?oc=5",
+      "locator": null,
+      "published_at": "2026-10-05"
+    },
+    "extracted_at": "2026-10-11T11:49:13.286274",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_62ad71ae5b",
     "company_id": "baseten",
     "metric": "valuation",
@@ -323,66 +371,18 @@
     "derivation": null
   },
   {
-    "id": "clm_8e297ef8ed",
-    "company_id": "baseten",
-    "metric": "arr",
-    "value": 15800000.0,
-    "unit": "USD",
-    "raw_text": "$15.8M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "GetLatka",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YRkhscUdIcGFIblZPWWVLUWZsdmd0eld0V1RyMUtOTXVHZmNKem0wRGQtakxtOEw2OXd2bGYxSUxualo3UkJnOWdLcFUwM2wtcU5z?oc=5",
-      "locator": null,
-      "published_at": "2026-10-05"
-    },
-    "extracted_at": "2026-10-11T11:49:13.286274",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_1b693b29f1",
-    "company_id": "baseten",
-    "metric": "valuation",
-    "value": 2200000000.0,
-    "unit": "USD",
-    "raw_text": "$2.2B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "GetLatka",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YRkhscUdIcGFIblZPWWVLUWZsdmd0eld0V1RyMUtOTXVHZmNKem0wRGQtakxtOEw2OXd2bGYxSUxualo3UkJnOWdLcFUwM2wtcU5z?oc=5",
-      "locator": null,
-      "published_at": "2026-10-05"
-    },
-    "extracted_at": "2026-10-11T11:49:13.286274",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_adcef28feb",
     "company_id": "baseten",
     "metric": "revenue_growth",
     "value": 30.0,
-    "unit": null,
+    "unit": "multiplier",
     "raw_text": "Baseten’s 30x growth",
     "qualifiers": [
       "forward_looking"
     ],
     "speaker": {
       "name": null,
-      "role": "founder"
+      "role": "unknown"
     },
     "source": {
       "type": "podcast",
@@ -391,9 +391,9 @@
       "locator": null,
       "published_at": "2026-05-01"
     },
-    "extracted_at": "2026-10-09T11:53:18.608350",
+    "extracted_at": "2026-10-15T10:02:10.844942",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.42,
+    "base_confidence": 0.21,
     "derivation": null
   },
   {
@@ -2287,7 +2287,7 @@
       "locator": null,
       "published_at": "2026-06-23"
     },
-    "extracted_at": "2026-10-11T11:49:13.286274",
+    "extracted_at": "2026-10-15T10:02:10.844942",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

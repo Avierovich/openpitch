@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-10-15
+# OpenPitch Data Quality Report - 2026-10-16
 
 ## Summary
 
-- Profiles generated: 613
-- Watchlist candidates: 1290
+- Profiles generated: 615
+- Watchlist candidates: 1295
 - Top-50 cards: 50
-- Profiles with at least one metric: 600
-- Critical issues: 111
+- Profiles with at least one metric: 602
+- Critical issues: 112
 - Warnings: 18
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 675
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 678
 
 ## Top-50 Companies With No Metrics
 
@@ -22,8 +22,8 @@ None.
 
 - Cognition AI
 - Devoted Health
-- Chime
 - Bright Health
+- Checkout.com
 
 ## Curated High-Priority Watchlist Companies Not Profiled (critical)
 
@@ -88,6 +88,7 @@ None.
 - Clarifai
 - Climavision
 - Climeworks
+- Coalition
 - Coder
 - Cognigy
 - Cognism

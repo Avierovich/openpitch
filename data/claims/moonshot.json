@@ -318,6 +318,32 @@
     "derivation": null
   },
   {
+    "id": "clm_bd6566548b",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "$50 billion valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "PressReader",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdWRhNkZ2MENoeC1FTGlYQjBLUjZrdG50eHpSY2E2bEtJTHJOZ2w0b1Y5MUYwd0dzMXZaYXdCanlGc3hRN2NnR3dlendIU09IVm1qeExqQnQ3SXBpd1dpWUFnbzVJU1Z2VC1TYVRXcWtlNzZ1V2RZYVBLaTg1NkZ4eHhoSQ?oc=5",
+      "locator": null,
+      "published_at": "2026-10-06"
+    },
+    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_183f1296b5",
     "company_id": "moonshot",
     "metric": "latest_round",
@@ -516,14 +542,14 @@
     "derivation": null
   },
   {
-    "id": "clm_bd6566548b",
+    "id": "clm_6d00d28230",
     "company_id": "moonshot",
     "metric": "valuation",
     "value": 50000000000.0,
-    "unit": "USD",
-    "raw_text": "$50 billion valuation",
+    "unit": null,
+    "raw_text": "$50B Valuation",
     "qualifiers": [
-      "unconfirmed"
+      "rounded"
     ],
     "speaker": {
       "name": null,
@@ -531,14 +557,14 @@
     },
     "source": {
       "type": "news",
-      "name": "PressReader",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdWRhNkZ2MENoeC1FTGlYQjBLUjZrdG50eHpSY2E2bEtJTHJOZ2w0b1Y5MUYwd0dzMXZaYXdCanlGc3hRN2NnR3dlendIU09IVm1qeExqQnQ3SXBpd1dpWUFnbzVJU1Z2VC1TYVRXcWtlNzZ1V2RZYVBLaTg1NkZ4eHhoSQ?oc=5",
+      "name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdHVuM3BqeDI1NEkwakttU2lncURObTlLekFzLTlQa2thd2V2SzVrcmMwWk1KeEtYbFh4TWhYNUNlYkx0SHczTGxqQ1BmS1hnazk5TjBISVNmQUNTWWwwTmNLNG1hYlFDRDBmZXBTTEtJb3RwWndwenc5ZjhBcF85a3RqN21qZw?oc=5",
       "locator": null,
       "published_at": "2026-10-06"
     },
-    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extracted_at": "2026-10-16T09:45:26.622667",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
+    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -2769,7 +2795,7 @@
       "locator": null,
       "published_at": "2026-05-07"
     },
-    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extracted_at": "2026-10-16T09:45:26.622667",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

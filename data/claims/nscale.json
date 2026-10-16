@@ -27,6 +27,33 @@
     "derivation": null
   },
   {
+    "id": "clm_8129909a1a",
+    "company_id": "nscale",
+    "metric": "valuation",
+    "value": 35000000000.0,
+    "unit": "USD",
+    "raw_text": "$35bn valuation target",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Computing UK",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUlRZNFZZQy1LYzRhUlQxMldOeUxzUVRuTGtielRoQnVlYVBkQUp6WFhCNmx2VmVacUcyT09HdER1V3ZlbWo4RmlMMkRudmVCVEF2d2ExeVNEcHcyOHJXOGl4LWJMVzFaOU5NVzd1djlxNmw5bnBQUVZmc1ZKQ0hETjZDU1hKNlZjWjc2LVhmUEJjTnRQX2NB?oc=5",
+      "locator": null,
+      "published_at": "2026-09-21"
+    },
+    "extracted_at": "2026-09-21T10:38:28.440880",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
     "id": "clm_4859071d2b",
     "company_id": "nscale",
     "metric": "valuation",
@@ -101,30 +128,6 @@
     "derivation": null
   },
   {
-    "id": "clm_d8f34a09a3",
-    "company_id": "nscale",
-    "metric": "round_amount",
-    "value": 3360000000.0,
-    "unit": "USD",
-    "raw_text": "AI cloud and data center firm Nscale raises $3.36bn ahead of its IPO",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Data Center Dynamics",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNGVKTXNIWHVHb2RZU3NGLThUUWpqUTJxTllqSFM1b0tmaVZhQ2doekZKUEhiQmRDTWpKdm5PYVBEZ2g3aTZqSkhGQ2dOOExmQS1GUF9FUG5xRi01U2p3c1REbnJGLVJhVndEaVc3UmJRX3h2Unpac3NFSjBFVy1udmxKV0w5U2VPaVdUMWt6eVhnMHJqWkZhNHV2S0NScU5hc19WUDdMcXF3X1lJM3dJ?oc=5",
-      "locator": null,
-      "published_at": "2026-09-25"
-    },
-    "extracted_at": "2026-09-26T09:51:51.353222",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_d3673bc22d",
     "company_id": "nscale",
     "metric": "total_funding",
@@ -144,6 +147,30 @@
       "published_at": "2026-10-14"
     },
     "extracted_at": "2026-10-15T10:02:10.844942",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_d8f34a09a3",
+    "company_id": "nscale",
+    "metric": "round_amount",
+    "value": 3360000000.0,
+    "unit": "USD",
+    "raw_text": "AI cloud and data center firm Nscale raises $3.36bn ahead of its IPO",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Data Center Dynamics",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNGVKTXNIWHVHb2RZU3NGLThUUWpqUTJxTllqSFM1b0tmaVZhQ2doekZKUEhiQmRDTWpKdm5PYVBEZ2g3aTZqSkhGQ2dOOExmQS1GUF9FUG5xRi01U2p3c1REbnJGLVJhVndEaVc3UmJRX3h2Unpac3NFSjBFVy1udmxKV0w5U2VPaVdUMWt6eVhnMHJqWkZhNHV2S0NScU5hc19WUDdMcXF3X1lJM3dJ?oc=5",
+      "locator": null,
+      "published_at": "2026-09-25"
+    },
+    "extracted_at": "2026-09-26T09:51:51.353222",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -677,33 +704,6 @@
     "extracted_at": "2026-09-30T11:06:00.704755",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_8129909a1a",
-    "company_id": "nscale",
-    "metric": "valuation",
-    "value": 35000000000.0,
-    "unit": "USD",
-    "raw_text": "$35bn valuation target",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Computing UK",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUlRZNFZZQy1LYzRhUlQxMldOeUxzUVRuTGtielRoQnVlYVBkQUp6WFhCNmx2VmVacUcyT09HdER1V3ZlbWo4RmlMMkRudmVCVEF2d2ExeVNEcHcyOHJXOGl4LWJMVzFaOU5NVzd1djlxNmw5bnBQUVZmc1ZKQ0hETjZDU1hKNlZjWjc2LVhmUEJjTnRQX2NB?oc=5",
-      "locator": null,
-      "published_at": "2026-09-21"
-    },
-    "extracted_at": "2026-09-21T10:38:28.440880",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -2270,7 +2270,7 @@
       "locator": null,
       "published_at": "2026-09-21"
     },
-    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extracted_at": "2026-10-16T09:45:26.622667",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {

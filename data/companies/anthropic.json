@@ -18,11 +18,11 @@
       "unit": "USD",
       "range": {
         "low": 4590000000.0,
-        "high": 65000000000.0
+        "high": 47000000000.0
       },
       "as_of": "2026-08-14",
       "estimate_type": "consensus",
-      "confidence": 0.638,
+      "confidence": 0.635,
       "supporting_claims": [
         "clm_b506604679",
         "clm_7b85d3255e",
@@ -94,7 +94,7 @@
       },
       "as_of": "2026-05-29",
       "estimate_type": "consensus",
-      "confidence": 0.854,
+      "confidence": 0.853,
       "supporting_claims": [
         "clm_fb6995e76a",
         "clm_f55b5b4eca",
@@ -120,12 +120,16 @@
       "range": null,
       "as_of": "2026-10-15",
       "estimate_type": "reported",
-      "confidence": 0.22,
+      "confidence": 0.219,
       "supporting_claims": [
         "clm_01f13d118f"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 45.0,
+        "change_pct": 0.0,
+        "since": "2026-10-15"
+      },
       "history_ref": "history/anthropic/revenue_growth.jsonl",
       "unconfirmed": true,
       "confirmed_value": null,
@@ -138,7 +142,7 @@
       "range": null,
       "as_of": "2026-06-01",
       "estimate_type": "consensus",
-      "confidence": 0.525,
+      "confidence": 0.524,
       "supporting_claims": [
         "clm_46b2f29740",
         "clm_030b770872"
@@ -191,7 +195,7 @@
       "value": 65.62,
       "unit": "count",
       "range": null,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-16",
       "estimate_type": "reported",
       "confidence": 0.9,
       "supporting_claims": [
@@ -222,7 +226,7 @@
       "range": null,
       "as_of": "2026-06-14",
       "estimate_type": "reported",
-      "confidence": 0.091,
+      "confidence": 0.09,
       "supporting_claims": [
         "drv_cd564feb3a"
       ],
@@ -238,5 +242,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-15"
+  "last_updated": "2026-10-16"
 }

@@ -53,30 +53,6 @@
     "derivation": null
   },
   {
-    "id": "clm_93f95c055d",
-    "company_id": "celonis",
-    "metric": "valuation",
-    "value": 11000000000.0,
-    "unit": "USD",
-    "raw_text": "Celonis Tops $11 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTHc3b1VNOE92QlJtWk85YkNTR1NjYUpOdmkzelFWNEpMcFhMcHhJMnJVRVZHemFEZVJXVnhMRHVPamNDLWp5UVlISGVLZmFadHBNam9hV2VLWjJkUlB4aXZsbG50SHNyenkwenNCZm55NEo5SldmOGlGRVhZMmN1aHViTzViZ0dWRjJBVElMWV81YmhTeXEyNFAxVnQ1TnNUN0NGZ0syYVpJQkM2dWNtWDFEbDE?oc=5",
-      "locator": null,
-      "published_at": "2021-06-04"
-    },
-    "extracted_at": "2026-08-24T06:11:52.835308",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_ac6ea70eee",
     "company_id": "celonis",
     "metric": "total_funding",
@@ -121,6 +97,30 @@
     },
     "extracted_at": "2026-09-28T11:35:42.398874",
     "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_93f95c055d",
+    "company_id": "celonis",
+    "metric": "valuation",
+    "value": 11000000000.0,
+    "unit": "USD",
+    "raw_text": "Celonis Tops $11 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTHc3b1VNOE92QlJtWk85YkNTR1NjYUpOdmkzelFWNEpMcFhMcHhJMnJVRVZHemFEZVJXVnhMRHVPamNDLWp5UVlISGVLZmFadHBNam9hV2VLWjJkUlB4aXZsbG50SHNyenkwenNCZm55NEo5SldmOGlGRVhZMmN1aHViTzViZ0dWRjJBVElMWV81YmhTeXEyNFAxVnQ1TnNUN0NGZ0syYVpJQkM2dWNtWDFEbDE?oc=5",
+      "locator": null,
+      "published_at": "2021-06-04"
+    },
+    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.525,
     "derivation": null
   },
@@ -1162,10 +1162,10 @@
     "derivation": null
   },
   {
-    "id": "drv_4a48537e3b",
+    "id": "drv_b2cb336639",
     "company_id": "celonis",
     "metric": "revenue_multiple",
-    "value": 14.27,
+    "value": 3.24,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -1180,14 +1180,14 @@
       "locator": null,
       "published_at": "2026-07-03"
     },
-    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extracted_at": "2026-10-16T09:45:26.622667",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2054,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_93f95c055d",
+        "clm_f32042fb5d",
         "clm_4a9d9165ee"
       ]
     }

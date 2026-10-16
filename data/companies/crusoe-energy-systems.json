@@ -22,7 +22,7 @@
       },
       "as_of": "2026-09-08",
       "estimate_type": "consensus",
-      "confidence": 0.964,
+      "confidence": 0.963,
       "supporting_claims": [
         "clm_836a5f6833",
         "clm_60aedb838e",
@@ -33,60 +33,11 @@
       ],
       "contradiction": true,
       "delta": {
-        "previous": 30000000000.0,
-        "change_pct": 0.4,
+        "previous": 30108749645.78,
+        "change_pct": -0.0,
         "since": "2026-09-08"
       },
       "history_ref": "history/crusoe-energy-systems/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 3900000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 3900000000.0,
-        "high": 3900000000.0
-      },
-      "as_of": "2026-09-22",
-      "estimate_type": "consensus",
-      "confidence": 0.736,
-      "supporting_claims": [
-        "clm_0b729c822c",
-        "clm_d7105d7626",
-        "clm_e50dd61e7e"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 3900000000.0,
-        "change_pct": 0.0,
-        "since": "2026-09-22"
-      },
-      "history_ref": "history/crusoe-energy-systems/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "latest_round": {
-      "metric": "latest_round",
-      "value": 0.0,
-      "unit": "object",
-      "range": null,
-      "as_of": "2026-09-08",
-      "estimate_type": "reported",
-      "confidence": 0.339,
-      "supporting_claims": [
-        "clm_22276b8f69"
-      ],
-      "contradiction": true,
-      "delta": {
-        "previous": 6.0,
-        "change_pct": -100.0,
-        "since": "2026-10-09"
-      },
-      "history_ref": "history/crusoe-energy-systems/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -112,10 +63,63 @@
       "contradiction": false,
       "delta": {
         "previous": 3000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-09-08"
       },
       "history_ref": "history/crusoe-energy-systems/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 6.0,
+      "unit": "object",
+      "range": null,
+      "as_of": "2026-10-16",
+      "estimate_type": "reported",
+      "confidence": 0.763,
+      "supporting_claims": [
+        "clm_189dd8b9b5",
+        "clm_189dd8b9b5",
+        "clm_189dd8b9b5",
+        "clm_189dd8b9b5",
+        "clm_189dd8b9b5"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/crusoe-energy-systems/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 3900000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 3900000000.0,
+        "high": 3900000000.0
+      },
+      "as_of": "2026-09-22",
+      "estimate_type": "consensus",
+      "confidence": 0.916,
+      "supporting_claims": [
+        "clm_e50dd61e7e",
+        "clm_d7105d7626",
+        "clm_0b729c822c",
+        "clm_0b729c822c",
+        "clm_0b729c822c",
+        "clm_0b729c822c",
+        "clm_0b729c822c"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 3900000000.0,
+        "change_pct": 0.0,
+        "since": "2026-09-22"
+      },
+      "history_ref": "history/crusoe-energy-systems/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -127,7 +131,7 @@
       "range": null,
       "as_of": "2026-09-02",
       "estimate_type": "reported",
-      "confidence": 0.262,
+      "confidence": 0.26,
       "supporting_claims": [
         "clm_5ad213b39b"
       ],
@@ -149,7 +153,7 @@
       "range": null,
       "as_of": "2026-09-03",
       "estimate_type": "reported",
-      "confidence": 0.128,
+      "confidence": 0.127,
       "supporting_claims": [
         "drv_f6ebdb9fd4"
       ],
@@ -165,5 +169,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-15"
+  "last_updated": "2026-10-16"
 }

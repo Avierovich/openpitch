@@ -51,6 +51,60 @@
     "derivation": null
   },
   {
+    "id": "clm_d2d090f35e",
+    "company_id": "perplexity",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": null,
+    "raw_text": "Valuation Seen Topping $30 Billion",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5WVGZ2NmgzYVJ4Sk1uM1I2QnNsQVdzYUh5WWllR1laUm5fcUdYZEQ0YlRfaDI4MlZfbVZ4am5meFhZTWJPS1V4MUlsZjZLV1RUWXY4cS1LNTV0NFljZDM5SzR5Q3VvMVFSLThHa2lFcWFoaFB0Y0E?oc=5",
+      "locator": null,
+      "published_at": "2026-08-23"
+    },
+    "extracted_at": "2026-10-07T11:44:32.066946",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_69e70108ab",
+    "company_id": "perplexity",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "NVIDIA Moves to Back Mercor at $20BN and Perplexity at $30BN",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "20VC (Harry Stebbings)",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-bonanza-buys-poolside-invests-in-mercor-and-perplexity-anthropics-30trn-revenue-assumption-openai-confirms-ipo-why-customer-service-defence-and-robotics-are-overinflated",
+      "locator": null,
+      "published_at": "2026-08-27"
+    },
+    "extracted_at": "2026-08-27T17:02:21.670041",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.126,
+    "derivation": null
+  },
+  {
     "id": "clm_2c18904f88",
     "company_id": "perplexity",
     "metric": "valuation",
@@ -99,60 +153,6 @@
     "extracted_at": "2026-09-01T10:16:51.580984",
     "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_69e70108ab",
-    "company_id": "perplexity",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "NVIDIA Moves to Back Mercor at $20BN and Perplexity at $30BN",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "20VC (Harry Stebbings)",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-bonanza-buys-poolside-invests-in-mercor-and-perplexity-anthropics-30trn-revenue-assumption-openai-confirms-ipo-why-customer-service-defence-and-robotics-are-overinflated",
-      "locator": null,
-      "published_at": "2026-08-27"
-    },
-    "extracted_at": "2026-08-27T17:02:21.670041",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.126,
-    "derivation": null
-  },
-  {
-    "id": "clm_d2d090f35e",
-    "company_id": "perplexity",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": null,
-    "raw_text": "Valuation Seen Topping $30 Billion",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5WVGZ2NmgzYVJ4Sk1uM1I2QnNsQVdzYUh5WWllR1laUm5fcUdYZEQ0YlRfaDI4MlZfbVZ4am5meFhZTWJPS1V4MUlsZjZLV1RUWXY4cS1LNTV0NFljZDM5SzR5Q3VvMVFSLThHa2lFcWFoaFB0Y0E?oc=5",
-      "locator": null,
-      "published_at": "2026-08-23"
-    },
-    "extracted_at": "2026-10-07T11:44:32.066946",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -1287,7 +1287,7 @@
       "locator": null,
       "published_at": "2026-08-25"
     },
-    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extracted_at": "2026-10-16T09:45:26.622667",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

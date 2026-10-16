@@ -107,33 +107,6 @@
     "derivation": null
   },
   {
-    "id": "clm_39847574e3",
-    "company_id": "openai",
-    "metric": "arr",
-    "value": 50000000000.0,
-    "unit": "USD",
-    "raw_text": "OpenAI's September annualized revenue nears $50 billion, less than previously indicated, source says",
-    "qualifiers": [
-      "run_rate",
-      "approximate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLUJ6eFRkeVppWC1ocFZFMjRyWnFyczBwcml6OEJtaElGOEpxZkgzaFBSa1F2RTJjb3dXVTdLZ0pxWUpyZVhjZVdZRWR4TFpJQ2tjRG1UVGV6WWMwTkJsVVVDUHNjTU05MHBFWENJNGNPZW5sMjdyRUtLX0pfcUVLaWo5ZjhKd2ZCUnBHRlc2aXRpTFRMQTZSWWJuelZ4ZnVrM08xTVJBdlhtcjNEMS1PZUZhT2hDX3hYOUJGc2MzTV8?oc=5",
-      "locator": null,
-      "published_at": "2026-10-08"
-    },
-    "extracted_at": "2026-10-09T11:53:18.608350",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4016,
-    "derivation": null
-  },
-  {
     "id": "clm_53b6eb2b8b",
     "company_id": "openai",
     "metric": "arr",
@@ -158,6 +131,33 @@
     "extracted_at": "2026-10-15T10:02:10.844942",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_39847574e3",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI's September annualized revenue nears $50 billion, less than previously indicated, source says",
+    "qualifiers": [
+      "run_rate",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLUJ6eFRkeVppWC1ocFZFMjRyWnFyczBwcml6OEJtaElGOEpxZkgzaFBSa1F2RTJjb3dXVTdLZ0pxWUpyZVhjZVdZRWR4TFpJQ2tjRG1UVGV6WWMwTkJsVVVDUHNjTU05MHBFWENJNGNPZW5sMjdyRUtLX0pfcUVLaWo5ZjhKd2ZCUnBHRlc2aXRpTFRMQTZSWWJuelZ4ZnVrM08xTVJBdlhtcjNEMS1PZUZhT2hDX3hYOUJGc2MzTV8?oc=5",
+      "locator": null,
+      "published_at": "2026-10-08"
+    },
+    "extracted_at": "2026-10-09T11:53:18.608350",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4016,
     "derivation": null
   },
   {
@@ -3010,7 +3010,7 @@
       "locator": null,
       "published_at": "2026-08-20"
     },
-    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extracted_at": "2026-10-16T09:45:26.622667",
     "extractor_model": "derive-engine",
     "base_confidence": 0.4658,
     "derivation": {

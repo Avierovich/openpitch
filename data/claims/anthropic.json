@@ -144,6 +144,59 @@
     "derivation": null
   },
   {
+    "id": "clm_c7d7a4edb8",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 1500000000000.0,
+    "unit": "USD",
+    "raw_text": "$1.5T valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOanVVal9FeV9UX3VpakNzYzNNWDRmb0RGdmdnOGFUUklzcEhjRzBYa0lVdVJ0Rk0xaF9Zc0N5SjJ2RnlLWWFDM0c5VDlYbEloX2g3RDZHU0cwdFJTRTRpbnJlcHY3QTVCVG8zdkdxRmdTaTRKNlFrdVVxZzRwbXNjUzhEMTItWTZfbTc3Wm1naTFWVkYzVVNBZ1VyQlVzaDNjVzRrUUZIWjc1TkNSNmRBdHJfMWFVU2pZbXc?oc=5",
+      "locator": null,
+      "published_at": "2026-10-16"
+    },
+    "extracted_at": "2026-10-16T09:45:26.622667",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_6ab230c1e8",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 1500000000000.0,
+    "unit": "USD",
+    "raw_text": "$1.5 Trillion",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdU10TUFKT21GNHFXN05sZUktUUd2MDZrcnMtTTdnRWxXTEd2WVJmQ0FCS2dJNVBOQVFyUXozTWtrQ1gwTGdmTzY4M1AwNndoMkx4OER2ZzJEZ0VxcXNJajZpcV9iUDdodGhSdmtjVjdsOTdvdDFmdkN0S0E1ZUZTcnFlUnU5RWVR?oc=5",
+      "locator": null,
+      "published_at": "2026-10-16"
+    },
+    "extracted_at": "2026-10-16T09:45:26.622667",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_8a2cb93702",
     "company_id": "anthropic",
     "metric": "valuation",
@@ -2424,7 +2477,7 @@
       "locator": null,
       "published_at": "2026-06-14"
     },
-    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extracted_at": "2026-10-16T09:45:26.622667",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

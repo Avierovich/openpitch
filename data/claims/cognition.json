@@ -74,33 +74,6 @@
     "derivation": null
   },
   {
-    "id": "clm_0f31846808",
-    "company_id": "cognition",
-    "metric": "valuation",
-    "value": 10000000000.0,
-    "unit": "USD",
-    "raw_text": "Cognition’s AI Developer ‘Devin’ Eyes $10 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Decrypt",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5DSWpjNlFfWEE3bUZmZGhjZmNGNTh0NUxTb21qUDR6REtvQnVISDdXblJEcHM4Y3VRNEZES2g4WUMtVWozdDJ5RlZZdElacTNrNFM1d2FTZTJaaXJFS1VjMDRELVA5bnVGaW5fUUU0RQ?oc=5",
-      "locator": null,
-      "published_at": "2025-07-24"
-    },
-    "extracted_at": "2026-10-11T11:49:13.286274",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
     "id": "clm_019c4c7e32",
     "company_id": "cognition",
     "metric": "arr",
@@ -272,6 +245,33 @@
     "extracted_at": "2026-10-09T11:53:18.608350",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2625,
+    "derivation": null
+  },
+  {
+    "id": "clm_0f31846808",
+    "company_id": "cognition",
+    "metric": "valuation",
+    "value": 10000000000.0,
+    "unit": "USD",
+    "raw_text": "Cognition’s AI Developer ‘Devin’ Eyes $10 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Decrypt",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5DSWpjNlFfWEE3bUZmZGhjZmNGNTh0NUxTb21qUDR6REtvQnVISDdXblJEcHM4Y3VRNEZES2g4WUMtVWozdDJ5RlZZdElacTNrNFM1d2FTZTJaaXJFS1VjMDRELVA5bnVGaW5fUUU0RQ?oc=5",
+      "locator": null,
+      "published_at": "2025-07-24"
+    },
+    "extracted_at": "2026-10-11T11:49:13.286274",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -1108,7 +1108,7 @@
       "locator": null,
       "published_at": "2026-09-25"
     },
-    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extracted_at": "2026-10-16T09:45:26.622667",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {

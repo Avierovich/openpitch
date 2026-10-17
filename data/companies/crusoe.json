@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 86.9,
-  "universe_rank": 22,
+  "universe_rank": 23,
   "metrics": {
     "latest_round": {
       "metric": "latest_round",
@@ -22,7 +22,7 @@
       },
       "as_of": "2026-09-18",
       "estimate_type": "consensus",
-      "confidence": 0.895,
+      "confidence": 0.894,
       "supporting_claims": [
         "clm_f43f2339b6",
         "clm_747ca9ac5e",
@@ -54,10 +54,10 @@
       "supporting_claims": [
         "clm_0da6a19627",
         "clm_fdd181ad84",
-        "clm_a7aa406aef",
-        "clm_4c5bcc6a1b",
         "clm_bf8f5d6926",
+        "clm_4c5bcc6a1b",
         "clm_4711623561",
+        "clm_a7aa406aef",
         "clm_a7aa406aef",
         "clm_9b32c422d2",
         "clm_ebf21736cd",
@@ -71,7 +71,7 @@
       "contradiction": false,
       "delta": {
         "previous": 3900000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-09-19"
       },
       "history_ref": "history/crusoe/round_amount.jsonl",
@@ -115,8 +115,8 @@
         "clm_1eea1d5eed",
         "clm_9608e1fde6",
         "clm_e21230325c",
-        "clm_13d2a7ce39",
         "clm_8fea111c4d",
+        "clm_13d2a7ce39",
         "clm_e0a675634c",
         "clm_118a37202d",
         "clm_46354fa5be",
@@ -179,6 +179,24 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "open_roles": {
+      "metric": "open_roles",
+      "value": 7.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-10-17",
+      "estimate_type": "reported",
+      "confidence": 0.25,
+      "supporting_claims": [
+        "clm_717e647a4c"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/crusoe/open_roles.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "revenue_growth": {
       "metric": "revenue_growth",
       "value": 4.0,
@@ -186,7 +204,7 @@
       "range": null,
       "as_of": "2026-04-14",
       "estimate_type": "reported",
-      "confidence": 0.079,
+      "confidence": 0.078,
       "supporting_claims": [
         "clm_f6b7a66c37"
       ],
@@ -202,5 +220,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-16"
+  "last_updated": "2026-10-17"
 }

@@ -107,33 +107,6 @@
     "derivation": null
   },
   {
-    "id": "clm_53b6eb2b8b",
-    "company_id": "openai",
-    "metric": "arr",
-    "value": 20000000000.0,
-    "unit": "USD",
-    "raw_text": "OpenAI’s $20 Billion Revenue Problem",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWDA5MDZWVlgyZmtwa3NVLWhCR3RSMU9LLXVxUm5JYjUzcURQcXR1V0hpLS03RUl5U2xtTlQ0cWhobFNZeWo1dTFYa2tkUVNJNmNvNFd5cC1aUEhUb1BuWmNjOFcxOUk0eGFjdTA0X2haa2pEb1Rtb1BFNkI5dWMzNzFFdjI2UzJJaWVJVHU4UUJwaFdhSk9UT1J0WUZzQQ?oc=5",
-      "locator": null,
-      "published_at": "2026-10-11"
-    },
-    "extracted_at": "2026-10-15T10:02:10.844942",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
     "id": "clm_39847574e3",
     "company_id": "openai",
     "metric": "arr",
@@ -158,6 +131,60 @@
     "extracted_at": "2026-10-09T11:53:18.608350",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.4016,
+    "derivation": null
+  },
+  {
+    "id": "clm_ad84d6ed78",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 18000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI's Revenue Run Rate Came Up $18 Billion Below Expectations",
+    "qualifiers": [
+      "run_rate",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMmUybE1nMEtyMGJFb0VDd2dpOHFTYjU1eXJHc2xXbnRfc25LVjB2UVpSLU5mR1Jqa2NvNVMzSTJFVXFlZGJKbUtDQWljUG1SUmVEZHdOMjZQVWhSUFV6QnFLVzdVSGl1UGdMMll5Y2c3T2g5cDNvd2FOYnFTZU1ELXQ4eGxlNHNqY295R1hDakVJYWZCYzZyaw?oc=5",
+      "locator": null,
+      "published_at": "2026-10-16"
+    },
+    "extracted_at": "2026-10-17T09:18:38.037935",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2835,
+    "derivation": null
+  },
+  {
+    "id": "clm_53b6eb2b8b",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 20000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI’s $20 Billion Revenue Problem",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWDA5MDZWVlgyZmtwa3NVLWhCR3RSMU9LLXVxUm5JYjUzcURQcXR1V0hpLS03RUl5U2xtTlQ0cWhobFNZeWo1dTFYa2tkUVNJNmNvNFd5cC1aUEhUb1BuWmNjOFcxOUk0eGFjdTA0X2haa2pEb1Rtb1BFNkI5dWMzNzFFdjI2UzJJaWVJVHU4UUJwaFdhSk9UT1J0WUZzQQ?oc=5",
+      "locator": null,
+      "published_at": "2026-10-11"
+    },
+    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -3010,7 +3037,7 @@
       "locator": null,
       "published_at": "2026-08-20"
     },
-    "extracted_at": "2026-10-16T09:45:26.622667",
+    "extracted_at": "2026-10-17T09:18:38.037935",
     "extractor_model": "derive-engine",
     "base_confidence": 0.4658,
     "derivation": {

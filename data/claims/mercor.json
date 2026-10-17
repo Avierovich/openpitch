@@ -249,6 +249,32 @@
     "derivation": null
   },
   {
+    "id": "clm_8fe89ebbd0",
+    "company_id": "mercor",
+    "metric": "total_funding",
+    "value": 4000000.0,
+    "unit": null,
+    "raw_text": "$4M+ Daily payouts",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "mercor.com",
+      "url": "https://mercor.com",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-17T09:18:38.037935",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
     "id": "clm_dfa254cf7b",
     "company_id": "mercor",
     "metric": "round_amount",
@@ -505,30 +531,6 @@
     "extracted_at": "2026-09-29T11:15:32.501222",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_8fe89ebbd0",
-    "company_id": "mercor",
-    "metric": "total_funding",
-    "value": 4000000.0,
-    "unit": null,
-    "raw_text": "$4M+ Daily payouts",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "mercor.com",
-      "url": "https://mercor.com",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-09-30T11:06:00.704755",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
     "derivation": null
   },
   {
@@ -1127,7 +1129,7 @@
       "locator": null,
       "published_at": "2026-07-25"
     },
-    "extracted_at": "2026-10-16T09:45:26.622667",
+    "extracted_at": "2026-10-17T09:18:38.037935",
     "extractor_model": "derive-engine",
     "base_confidence": 0.3312,
     "derivation": {

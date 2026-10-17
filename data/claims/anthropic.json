@@ -144,6 +144,57 @@
     "derivation": null
   },
   {
+    "id": "clm_1ec711bcdd",
+    "company_id": "anthropic",
+    "metric": "revenue_growth",
+    "value": 46.0,
+    "unit": "%",
+    "raw_text": "Anthropic revenue jumps 46%",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance Singapore",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbXNYZ3ZDRUJsa185eklRazdadnRZN0lUZnBxcmU3bmVCdDFGd0JZc2pxWXBlQ0k3Ui1MZnBBNjNETHpOakVCVUh4dzlxVFBPZDhGQm9aUHgteTlycUZubElqbUk4VHNpYlRJZE1YVDBDNUIzZmlwMUYwSHhlYnV3cjJXNjE?oc=5",
+      "locator": null,
+      "published_at": "2026-10-15"
+    },
+    "extracted_at": "2026-10-17T09:18:38.037935",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_cdab8a2136",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 2000000000000.0,
+    "unit": "USD",
+    "raw_text": "eyes record $2 trillion IPO valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance Singapore",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbXNYZ3ZDRUJsa185eklRazdadnRZN0lUZnBxcmU3bmVCdDFGd0JZc2pxWXBlQ0k3Ui1MZnBBNjNETHpOakVCVUh4dzlxVFBPZDhGQm9aUHgteTlycUZubElqbUk4VHNpYlRJZE1YVDBDNUIzZmlwMUYwSHhlYnV3cjJXNjE?oc=5",
+      "locator": null,
+      "published_at": "2026-10-15"
+    },
+    "extracted_at": "2026-10-17T09:18:38.037935",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
     "id": "clm_c7d7a4edb8",
     "company_id": "anthropic",
     "metric": "valuation",
@@ -2477,7 +2528,7 @@
       "locator": null,
       "published_at": "2026-06-14"
     },
-    "extracted_at": "2026-10-16T09:45:26.622667",
+    "extracted_at": "2026-10-17T09:18:38.037935",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

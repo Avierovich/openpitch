@@ -1,5 +1,77 @@
 [
   {
+    "id": "clm_57db6e323a",
+    "company_id": "checkout-com",
+    "metric": "valuation",
+    "value": 2000000000.0,
+    "unit": null,
+    "raw_text": "$2 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Forbes",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOGVqWkZScmozNEtCYUVSYVp5SjhjZ040WklYanJ1ZUpMaTY2U2l2NERVWnJvUDdfUDdJbkhOa09uM1MtZWEya1dua0pZTUZLVDdQcHl4dGxVYUo4NFc5WHdNM2tSbnFyRVd4S0FCRTN0c0xzeE1JUWd6RHFUMUQ2SjBIUl9DR0xGTHlPa0hMTEhuQ2p5TmlxdTFYcVFHd0FsS1NUbHRESk02OTBKbW8xRXZmTEtVLW8?oc=5",
+      "locator": null,
+      "published_at": "2019-05-03"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_855ac6eabf",
+    "company_id": "checkout-com",
+    "metric": "valuation",
+    "value": 15000000000.0,
+    "unit": null,
+    "raw_text": "$15bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Financial News London",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQVFSNDFjdS1Cc1gzRUJDdXFrdm16QldKTjRCWEFBelhhTjdvUXBTZ3hzdHVGNW9WNEZrZUJ6bzNaUExENllNZldMaDlJdkZ0b3dWVEx0V1dOM05vMmtvY0hwLVVrOHI4aHRBUkpYb3hoWWIzd3Q1VUUzLTFLclRaVzZXT01jSV9lT09TTkFWelgwbFVFc0hGSkpEYTNTSHVVZjZXaVhNZU1yU1labW4weEJxSm9pMjFmNVl2eFlB?oc=5",
+      "locator": null,
+      "published_at": "2021-01-11"
+    },
+    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_89c52084c5",
+    "company_id": "checkout-com",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "hits $40 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "London Evening Standard",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVktISXpGaWJWSjgwYXNkUllna3J4NklFTHN6elpIc1N5RThkUndkVDlrb0pNYTFDWkFiNDVrMkhJNzZjUnE4VUVoUnpFdkR4WUZrYVdTd1h6ai1yVlkwbnV0cFlMaENRR1NDQ0F3SDBxN0JUSnVxWF9zeWozemFEY04xVFV5LWhQalJBcW5fVklzbWZOU3Z4WUZ4ZnVfXzN1TVFTdk04MnJwczZHRGc?oc=5",
+      "locator": null,
+      "published_at": "2022-01-12"
+    },
+    "extracted_at": "2026-10-17T09:18:38.037935",
+    "extractor_model": "gemini-3.6-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_38fb3aad29",
     "company_id": "checkout-com",
     "metric": "valuation",
@@ -819,54 +891,6 @@
     "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_855ac6eabf",
-    "company_id": "checkout-com",
-    "metric": "valuation",
-    "value": 15000000000.0,
-    "unit": null,
-    "raw_text": "$15bn valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Financial News London",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQVFSNDFjdS1Cc1gzRUJDdXFrdm16QldKTjRCWEFBelhhTjdvUXBTZ3hzdHVGNW9WNEZrZUJ6bzNaUExENllNZldMaDlJdkZ0b3dWVEx0V1dOM05vMmtvY0hwLVVrOHI4aHRBUkpYb3hoWWIzd3Q1VUUzLTFLclRaVzZXT01jSV9lT09TTkFWelgwbFVFc0hGSkpEYTNTSHVVZjZXaVhNZU1yU1labW4weEJxSm9pMjFmNVl2eFlB?oc=5",
-      "locator": null,
-      "published_at": "2021-01-11"
-    },
-    "extracted_at": "2026-09-04T09:41:05.539009",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_57db6e323a",
-    "company_id": "checkout-com",
-    "metric": "valuation",
-    "value": 2000000000.0,
-    "unit": null,
-    "raw_text": "$2 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Forbes",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOGVqWkZScmozNEtCYUVSYVp5SjhjZ040WklYanJ1ZUpMaTY2U2l2NERVWnJvUDdfUDdJbkhOa09uM1MtZWEya1dua0pZTUZLVDdQcHl4dGxVYUo4NFc5WHdNM2tSbnFyRVd4S0FCRTN0c0xzeE1JUWd6RHFUMUQ2SjBIUl9DR0xGTHlPa0hMTEhuQ2p5TmlxdTFYcVFHd0FsS1NUbHRESk02OTBKbW8xRXZmTEtVLW8?oc=5",
-      "locator": null,
-      "published_at": "2019-05-03"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {

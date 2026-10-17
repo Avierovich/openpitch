@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-10-16
+# OpenPitch Data Quality Report - 2026-10-17
 
 ## Summary
 
-- Profiles generated: 615
+- Profiles generated: 630
 - Watchlist candidates: 1295
 - Top-50 cards: 50
-- Profiles with at least one metric: 602
-- Critical issues: 112
-- Warnings: 18
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 678
+- Profiles with at least one metric: 617
+- Critical issues: 115
+- Warnings: 17
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 663
 
 ## Top-50 Companies With No Metrics
 
@@ -23,7 +23,6 @@ None.
 - Cognition AI
 - Devoted Health
 - Bright Health
-- Checkout.com
 
 ## Curated High-Priority Watchlist Companies Not Profiled (critical)
 
@@ -131,6 +130,9 @@ None.
 - Instrumental
 - Iron Ox
 - Isomorphic Labs
+- Kabbage
+- Kallyope
+- Karat Financial
 - Krea
 - Lean Technologies
 - Mindsay

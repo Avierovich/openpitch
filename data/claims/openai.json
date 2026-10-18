@@ -134,6 +134,32 @@
     "derivation": null
   },
   {
+    "id": "clm_93a68ad560",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI’s Revenue Run Rate Nears $50 Billion",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORzJTWWtrb1Y0d01kSllBcGxpekFKcXd0YjNYRDdGOEktcl9LREZmY3J5amV1MWtuUFRFcVhVWXljS01DM0RncjhIY0xqQk8tN3gxZmRFdGhJa29uTkFSNVJqYzVXMTNBcnM4WXVwVVd5WktDRTcwYkN2blFzRllZRWdaZ3lubG9Ta0Z2WUl6TXZaWlJlLWV5T05HNDRoTEZ4V1FsTGRB?oc=5",
+      "locator": null,
+      "published_at": "2026-10-08"
+    },
+    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
     "id": "clm_ad84d6ed78",
     "company_id": "openai",
     "metric": "arr",
@@ -185,32 +211,6 @@
     "extracted_at": "2026-10-15T10:02:10.844942",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_93a68ad560",
-    "company_id": "openai",
-    "metric": "arr",
-    "value": 50000000000.0,
-    "unit": "USD",
-    "raw_text": "OpenAI’s Revenue Run Rate Nears $50 Billion",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORzJTWWtrb1Y0d01kSllBcGxpekFKcXd0YjNYRDdGOEktcl9LREZmY3J5amV1MWtuUFRFcVhVWXljS01DM0RncjhIY0xqQk8tN3gxZmRFdGhJa29uTkFSNVJqYzVXMTNBcnM4WXVwVVd5WktDRTcwYkN2blFzRllZRWdaZ3lubG9Ta0Z2WUl6TXZaWlJlLWV5T05HNDRoTEZ4V1FsTGRB?oc=5",
-      "locator": null,
-      "published_at": "2026-10-08"
-    },
-    "extracted_at": "2026-10-15T10:02:10.844942",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -3037,7 +3037,7 @@
       "locator": null,
       "published_at": "2026-08-20"
     },
-    "extracted_at": "2026-10-17T09:18:38.037935",
+    "extracted_at": "2026-10-18T09:51:31.885333",
     "extractor_model": "derive-engine",
     "base_confidence": 0.4658,
     "derivation": {

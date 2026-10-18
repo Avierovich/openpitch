@@ -250,30 +250,6 @@
     "derivation": null
   },
   {
-    "id": "clm_ef21f7d8aa",
-    "company_id": "crusoe-energy-systems",
-    "metric": "round_amount",
-    "value": 505000000.0,
-    "unit": null,
-    "raw_text": "Crusoe Energy Systems raises $505 million",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Block",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcGdPVjMzUHRid0V1RnQyT3FfcnFVR1dJWGlianEzV0lFYjlYNFJkQ09MbGY5ZFZjUTdmT0MyZU1aTlBkZ0NrVDVYX2VIb3ZIWHVWSFRjRjBPbTZnUmpVNGhxX0tvOXVSUVJIVnlWZVBfVURVN2J5TXhtRWkwOFJIaWdIU2x2aGU4cTE0U0xWZVB4MFlnUlk5eWNMZV9DVlhJbW1NcGVSS2dELXJlUWZMYlR2SW5ETDBRTEtXX1p3RXl3ejZNTDdrV0tn?oc=5",
-      "locator": null,
-      "published_at": "2022-04-21"
-    },
-    "extracted_at": "2026-09-29T11:15:32.501222",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_56e3ce0320",
     "company_id": "crusoe-energy-systems",
     "metric": "latest_round",
@@ -293,6 +269,30 @@
       "published_at": "2019-05-04"
     },
     "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_ef21f7d8aa",
+    "company_id": "crusoe-energy-systems",
+    "metric": "round_amount",
+    "value": 505000000.0,
+    "unit": null,
+    "raw_text": "Crusoe Energy Systems raises $505 million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcGdPVjMzUHRid0V1RnQyT3FfcnFVR1dJWGlianEzV0lFYjlYNFJkQ09MbGY5ZFZjUTdmT0MyZU1aTlBkZ0NrVDVYX2VIb3ZIWHVWSFRjRjBPbTZnUmpVNGhxX0tvOXVSUVJIVnlWZVBfVURVN2J5TXhtRWkwOFJIaWdIU2x2aGU4cTE0U0xWZVB4MFlnUlk5eWNMZV9DVlhJbW1NcGVSS2dELXJlUWZMYlR2SW5ETDBRTEtXX1p3RXl3ejZNTDdrV0tn?oc=5",
+      "locator": null,
+      "published_at": "2022-04-21"
+    },
+    "extracted_at": "2026-09-29T11:15:32.501222",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -1611,7 +1611,7 @@
       "locator": null,
       "published_at": "2026-09-03"
     },
-    "extracted_at": "2026-10-17T09:18:38.037935",
+    "extracted_at": "2026-10-18T09:51:31.885333",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

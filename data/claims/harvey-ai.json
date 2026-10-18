@@ -192,6 +192,30 @@
     "derivation": null
   },
   {
+    "id": "clm_fe369532fe",
+    "company_id": "harvey-ai",
+    "metric": "valuation",
+    "value": 11000000000.0,
+    "unit": null,
+    "raw_text": "$11 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Harvey",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUlNpNzJNSEpZRzVaem5VTC1kWlByN0U3bTdMbVBTVkwzZkwzakM1NWJWanBZSllKWWo0SUJMQU9SYkJKQUF4ajN4T1czZUFxak9UcHJDaVN6S1pMN3ZmZmh2NVlZeksxdEx0dUVldWNja1Nqb3pyWTZUU0N0Mi01UG9fcTVsRXAxRnoyNFJCVkxjTlNYY2o2WUtFaEU0NkZlMFFnWDYyeXE1eGJEMHc?oc=5",
+      "locator": null,
+      "published_at": "2026-03-25"
+    },
+    "extracted_at": "2026-09-20T09:44:05.979383",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_6d08df8883",
     "company_id": "harvey-ai",
     "metric": "total_funding",
@@ -233,30 +257,6 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZkNvMGEwNE5FVUs4YXI0dDMtM1hTbHRQUHQ1N19aUEo5aHBUQ1YtUndBT1M1R1U2TGpaMVpDU2E2UE9Cek5tcHRGd2hQaS1wSW9JTlBHN1E1TUs1WnNQcjJUZ3l3VDVjUlVxRVVZa0pwTTdRNnFTbGk5TWREdkdoQV8xTFFObDAzeUJMWDJxV1A?oc=5",
       "locator": null,
       "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-20T09:44:05.979383",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_fe369532fe",
-    "company_id": "harvey-ai",
-    "metric": "valuation",
-    "value": 11000000000.0,
-    "unit": null,
-    "raw_text": "$11 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Harvey",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUlNpNzJNSEpZRzVaem5VTC1kWlByN0U3bTdMbVBTVkwzZkwzakM1NWJWanBZSllKWWo0SUJMQU9SYkJKQUF4ajN4T1czZUFxak9UcHJDaVN6S1pMN3ZmZmh2NVlZeksxdEx0dUVldWNja1Nqb3pyWTZUU0N0Mi01UG9fcTVsRXAxRnoyNFJCVkxjTlNYY2o2WUtFaEU0NkZlMFFnWDYyeXE1eGJEMHc?oc=5",
-      "locator": null,
-      "published_at": "2026-03-25"
     },
     "extracted_at": "2026-09-20T09:44:05.979383",
     "extractor_model": "gemini-3.5-flash-lite",
@@ -343,9 +343,10 @@
     "metric": "total_funding",
     "value": 500000000.0,
     "unit": "USD",
-    "raw_text": "over $500M in funding from OpenAI, Sequoia, Kleiner, GV and Elad and Sarah",
+    "raw_text": "over $500M in funding",
     "qualifiers": [
-      "rounded"
+      "rounded",
+      "approximate"
     ],
     "speaker": {
       "name": null,
@@ -358,9 +359,9 @@
       "locator": null,
       "published_at": "2025-02-14"
     },
-    "extracted_at": "2026-10-17T09:18:38.037935",
+    "extracted_at": "2026-10-18T09:51:31.885333",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.378,
+    "base_confidence": 0.3213,
     "derivation": null
   },
   {
@@ -1105,7 +1106,7 @@
       "locator": null,
       "published_at": "2026-08-07"
     },
-    "extracted_at": "2026-10-17T09:18:38.037935",
+    "extracted_at": "2026-10-18T09:51:31.885333",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

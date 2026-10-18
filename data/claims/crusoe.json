@@ -196,6 +196,30 @@
     "derivation": null
   },
   {
+    "id": "clm_717e647a4c",
+    "company_id": "crusoe",
+    "metric": "open_roles",
+    "value": 7.0,
+    "unit": null,
+    "raw_text": "7 Open roles",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "crusoe.ai",
+      "url": "https://crusoe.ai/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-17T09:18:38.037935",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
     "id": "clm_0a84fb9aef",
     "company_id": "crusoe",
     "metric": "latest_round",
@@ -348,54 +372,6 @@
     "derivation": null
   },
   {
-    "id": "clm_bf8f5d6926",
-    "company_id": "crusoe",
-    "metric": "round_amount",
-    "value": 3900000000.0,
-    "unit": "USD",
-    "raw_text": "$3.9bn",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdFpNaFJCc0xQM3Q1WkMySHQtaDE3S3dSTmZtRGtlaHhzaUU0RmRRQVBNcUZWd0hPVEQ5UUlZZmlVaDcyei1kdFBhYlJaRzBnVzIwMkVRQTdocDlPR1Z5dzJVMTRCUkxOZGtuS0t4QXJtYVZ4VC0zS3FoZHU2Zy1wOTlOUlNhNkx6UzFHT05fVlRmUmY1?oc=5",
-      "locator": null,
-      "published_at": "2026-09-18"
-    },
-    "extracted_at": "2026-09-19T09:29:15.949394",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_8fea111c4d",
-    "company_id": "crusoe",
-    "metric": "valuation",
-    "value": 30900000000.0,
-    "unit": "USD",
-    "raw_text": "$30.9bn valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdFpNaFJCc0xQM3Q1WkMySHQtaDE3S3dSTmZtRGtlaHhzaUU0RmRRQVBNcUZWd0hPVEQ5UUlZZmlVaDcyei1kdFBhYlJaRzBnVzIwMkVRQTdocDlPR1Z5dzJVMTRCUkxOZGtuS0t4QXJtYVZ4VC0zS3FoZHU2Zy1wOTlOUlNhNkx6UzFHT05fVlRmUmY1?oc=5",
-      "locator": null,
-      "published_at": "2026-09-18"
-    },
-    "extracted_at": "2026-09-19T09:29:15.949394",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_4c5bcc6a1b",
     "company_id": "crusoe",
     "metric": "round_amount",
@@ -444,6 +420,54 @@
     "derivation": null
   },
   {
+    "id": "clm_bf8f5d6926",
+    "company_id": "crusoe",
+    "metric": "round_amount",
+    "value": 3900000000.0,
+    "unit": "USD",
+    "raw_text": "$3.9bn",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdFpNaFJCc0xQM3Q1WkMySHQtaDE3S3dSTmZtRGtlaHhzaUU0RmRRQVBNcUZWd0hPVEQ5UUlZZmlVaDcyei1kdFBhYlJaRzBnVzIwMkVRQTdocDlPR1Z5dzJVMTRCUkxOZGtuS0t4QXJtYVZ4VC0zS3FoZHU2Zy1wOTlOUlNhNkx6UzFHT05fVlRmUmY1?oc=5",
+      "locator": null,
+      "published_at": "2026-09-18"
+    },
+    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_8fea111c4d",
+    "company_id": "crusoe",
+    "metric": "valuation",
+    "value": 30900000000.0,
+    "unit": "USD",
+    "raw_text": "$30.9bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdFpNaFJCc0xQM3Q1WkMySHQtaDE3S3dSTmZtRGtlaHhzaUU0RmRRQVBNcUZWd0hPVEQ5UUlZZmlVaDcyei1kdFBhYlJaRzBnVzIwMkVRQTdocDlPR1Z5dzJVMTRCUkxOZGtuS0t4QXJtYVZ4VC0zS3FoZHU2Zy1wOTlOUlNhNkx6UzFHT05fVlRmUmY1?oc=5",
+      "locator": null,
+      "published_at": "2026-09-18"
+    },
+    "extracted_at": "2026-09-19T09:29:15.949394",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_4711623561",
     "company_id": "crusoe",
     "metric": "round_amount",
@@ -489,30 +513,6 @@
     "extracted_at": "2026-09-20T09:44:05.979383",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_717e647a4c",
-    "company_id": "crusoe",
-    "metric": "open_roles",
-    "value": 7.0,
-    "unit": null,
-    "raw_text": "7 Open roles",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "crusoe.ai",
-      "url": "https://crusoe.ai/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-17T09:18:38.037935",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.25,
     "derivation": null
   },
   {

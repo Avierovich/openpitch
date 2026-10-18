@@ -416,6 +416,32 @@
     "derivation": null
   },
   {
+    "id": "clm_fa8e506ccd",
+    "company_id": "harvey",
+    "metric": "valuation",
+    "value": 15500000000.0,
+    "unit": null,
+    "raw_text": "Harvey in Talks to Raise Funding at $15.5 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Information",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOGJHMEpPU1ZGVTdTNTNmNVR6SlhOSWFjQmNGczRFbkgwaEU4THdpaEItZVdPVnpPQUVOdVBtYjJldDRDMzNHOGRMbzR1N2VpUk9vSUxTYWNUMmtldmZGcG8yNlhrOENpZl93WGhUVFRYMnk2VGp4UEFMQV9jUjlwLTh6VlhScXZNSG5Yb1VwdVVaYTA?oc=5",
+      "locator": null,
+      "published_at": "2026-08-07"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
     "id": "clm_d46065fa74",
     "company_id": "harvey",
     "metric": "total_funding",
@@ -461,32 +487,6 @@
     "extracted_at": "2026-10-04T11:05:13.664288",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_fa8e506ccd",
-    "company_id": "harvey",
-    "metric": "valuation",
-    "value": 15500000000.0,
-    "unit": null,
-    "raw_text": "Harvey in Talks to Raise Funding at $15.5 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Information",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOGJHMEpPU1ZGVTdTNTNmNVR6SlhOSWFjQmNGczRFbkgwaEU4THdpaEItZVdPVnpPQUVOdVBtYjJldDRDMzNHOGRMbzR1N2VpUk9vSUxTYWNUMmtldmZGcG8yNlhrOENpZl93WGhUVFRYMnk2VGp4UEFMQV9jUjlwLTh6VlhScXZNSG5Yb1VwdVVaYTA?oc=5",
-      "locator": null,
-      "published_at": "2026-08-07"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
     "derivation": null
   },
   {
@@ -2075,7 +2075,7 @@
       "locator": null,
       "published_at": "2026-08-07"
     },
-    "extracted_at": "2026-10-17T09:18:38.037935",
+    "extracted_at": "2026-10-18T09:51:31.885333",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

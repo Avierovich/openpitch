@@ -1,5 +1,57 @@
 [
   {
+    "id": "clm_5ab815de56",
+    "company_id": "devin",
+    "metric": "valuation",
+    "value": 25000000000.0,
+    "unit": "USD",
+    "raw_text": "in talks to raise 'hundreds of millions' at $25B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSjdTdGpZTXpJX1lHTTFUQzI0OXhiUThyOGxQQ0hjZG1GV3M0VDg0UFlRZlRQcjNDb3BhaXg1aFFESUQ1clhKdi1QYkZmTDJxUk5QcnctNHZoSWpzc3lDVTBuNEhVTWtoZEtXNkVTVG50T3phS2Fzalp0OV8zRVJ1eXN4RlNwclYyYV9yZy1JRjIxdnhjV1F4WUJqVEs0bEZrNVlsQm96N2lmdGQ4MXZKalVMckJJc0U3SFdDeU9IX3hZTDA?oc=5",
+      "locator": null,
+      "published_at": "2026-04-23"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_60bff67397",
+    "company_id": "devin",
+    "metric": "arr",
+    "value": 80000000.0,
+    "unit": "USD",
+    "raw_text": "\"We've gone from 0 to $80M ARR in 6 months. Quietly.\"",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "founder"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "20VC (Harry Stebbings)",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-cognition-ceo-scott-wu-on-acquiring-windsurf-the-process-the-deal-the-rationale-did-google-overlook-a-goldmine-in-the-core-asset-and-did-founders-leave-a-sinking-ship-how-cursor-and-cognition-deal-with-ever-increasing-reliance-on-anthropic",
+      "locator": null,
+      "published_at": "2025-07-18"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.54,
+    "derivation": null
+  },
+  {
     "id": "clm_a4222b4885",
     "company_id": "devin",
     "metric": "latest_round",
@@ -48,32 +100,6 @@
     "derivation": null
   },
   {
-    "id": "clm_60bff67397",
-    "company_id": "devin",
-    "metric": "arr",
-    "value": 80000000.0,
-    "unit": "USD",
-    "raw_text": "\"We've gone from 0 to $80M ARR in 6 months. Quietly.\"",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "founder"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "20VC (Harry Stebbings)",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-cognition-ceo-scott-wu-on-acquiring-windsurf-the-process-the-deal-the-rationale-did-google-overlook-a-goldmine-in-the-core-asset-and-did-founders-leave-a-sinking-ship-how-cursor-and-cognition-deal-with-ever-increasing-reliance-on-anthropic",
-      "locator": null,
-      "published_at": "2025-07-18"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.54,
-    "derivation": null
-  },
-  {
     "id": "clm_800104ab54",
     "company_id": "devin",
     "metric": "valuation",
@@ -97,81 +123,6 @@
     "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_b5ea985ed2",
-    "company_id": "devin",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "raised more than $1 billion",
-    "qualifiers": [
-      "rounded",
-      "approximate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdzFPTXRPU19qdVBLWDlmSGtBa1Ezd09TMkhlWF82bWdoNlU3cG5IeXg4dlJnek15UW9MRkt3Q3p2SWlEZ0ExR3VDejNHeE5ZUFg3cV82M1BrR1E5SlV1VURwQndjVVpGSzRFcGoyRkFnZHpmd1hfRDF2bXZpdHpiZTlCZUJPd0RNdnFVQmtrUFZjd1AxQWptYVp3LWNtRmE2bE9PWXQ0WUw3SEJKRGZaV1NnYTlSVk0xU3d3Nm0tZVBrUGt6R1FVSQ?oc=5",
-      "locator": null,
-      "published_at": "2026-05-28"
-    },
-    "extracted_at": "2026-10-11T11:49:13.286274",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4016,
-    "derivation": null
-  },
-  {
-    "id": "clm_f353cae5ec",
-    "company_id": "devin",
-    "metric": "valuation",
-    "value": 25000000000.0,
-    "unit": null,
-    "raw_text": "$25 billion pre-money valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdzFPTXRPU19qdVBLWDlmSGtBa1Ezd09TMkhlWF82bWdoNlU3cG5IeXg4dlJnek15UW9MRkt3Q3p2SWlEZ0ExR3VDejNHeE5ZUFg3cV82M1BrR1E5SlV1VURwQndjVVpGSzRFcGoyRkFnZHpmd1hfRDF2bXZpdHpiZTlCZUJPd0RNdnFVQmtrUFZjd1AxQWptYVp3LWNtRmE2bE9PWXQ0WUw3SEJKRGZaV1NnYTlSVk0xU3d3Nm0tZVBrUGt6R1FVSQ?oc=5",
-      "locator": null,
-      "published_at": "2026-05-28"
-    },
-    "extracted_at": "2026-10-11T11:49:13.286274",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_270a1d8ac7",
-    "company_id": "devin",
-    "metric": "valuation",
-    "value": 10200000000.0,
-    "unit": null,
-    "raw_text": "$10.2 billion post-money",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdzFPTXRPU19qdVBLWDlmSGtBa1Ezd09TMkhlWF82bWdoNlU3cG5IeXg4dlJnek15UW9MRkt3Q3p2SWlEZ0ExR3VDejNHeE5ZUFg3cV82M1BrR1E5SlV1VURwQndjVVpGSzRFcGoyRkFnZHpmd1hfRDF2bXZpdHpiZTlCZUJPd0RNdnFVQmtrUFZjd1AxQWptYVp3LWNtRmE2bE9PWXQ0WUw3SEJKRGZaV1NnYTlSVk0xU3d3Nm0tZVBrUGt6R1FVSQ?oc=5",
-      "locator": null,
-      "published_at": "2026-05-28"
-    },
-    "extracted_at": "2026-10-11T11:49:13.286274",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -343,6 +294,54 @@
     "derivation": null
   },
   {
+    "id": "clm_02160f1e0c",
+    "company_id": "devin",
+    "metric": "total_funding",
+    "value": 500000000.0,
+    "unit": null,
+    "raw_text": "reportedly raises nearly $500M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYWFYVmw0LVNwTHd5aGZ3Z0F6cVhuR0gzOEw1WEs4NWtvU094N2Nodk9SYXRETnhwcXFLYzBoYlIwckJETUtRc0lYNzFNaGtrZmRrWDVkc0VXSnlfZEhvSXBXVnh3UVl4VnlMaVFjYzN5WWN3RXlNMzFybTIyZjZIbmQyTTJaS1BpMUR2S2FRM3kzcWVsRWh0ZV9ncjdqUGw3aGRaajZiejVRdFJidE15MFA3Mncxdktkb1Rz?oc=5",
+      "locator": null,
+      "published_at": "2025-08-14"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_01f5bf90d6",
+    "company_id": "devin",
+    "metric": "valuation",
+    "value": 9800000000.0,
+    "unit": null,
+    "raw_text": "on $9.8B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYWFYVmw0LVNwTHd5aGZ3Z0F6cVhuR0gzOEw1WEs4NWtvU094N2Nodk9SYXRETnhwcXFLYzBoYlIwckJETUtRc0lYNzFNaGtrZmRrWDVkc0VXSnlfZEhvSXBXVnh3UVl4VnlMaVFjYzN5WWN3RXlNMzFybTIyZjZIbmQyTTJaS1BpMUR2S2FRM3kzcWVsRWh0ZV9ncjdqUGw3aGRaajZiejVRdFJidE15MFA3Mncxdktkb1Rz?oc=5",
+      "locator": null,
+      "published_at": "2025-08-14"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_1971a5b163",
     "company_id": "devin",
     "metric": "round_amount",
@@ -443,14 +442,15 @@
     "derivation": null
   },
   {
-    "id": "clm_5ab815de56",
+    "id": "clm_b5ea985ed2",
     "company_id": "devin",
-    "metric": "valuation",
-    "value": 25000000000.0,
-    "unit": "USD",
-    "raw_text": "in talks to raise 'hundreds of millions' at $25B valuation",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "raised more than $1 billion",
     "qualifiers": [
-      "unconfirmed"
+      "rounded",
+      "approximate"
     ],
     "speaker": {
       "name": null,
@@ -458,14 +458,62 @@
     },
     "source": {
       "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSjdTdGpZTXpJX1lHTTFUQzI0OXhiUThyOGxQQ0hjZG1GV3M0VDg0UFlRZlRQcjNDb3BhaXg1aFFESUQ1clhKdi1QYkZmTDJxUk5QcnctNHZoSWpzc3lDVTBuNEhVTWtoZEtXNkVTVG50T3phS2Fzalp0OV8zRVJ1eXN4RlNwclYyYV9yZy1JRjIxdnhjV1F4WUJqVEs0bEZrNVlsQm96N2lmdGQ4MXZKalVMckJJc0U3SFdDeU9IX3hZTDA?oc=5",
+      "name": "LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdzFPTXRPU19qdVBLWDlmSGtBa1Ezd09TMkhlWF82bWdoNlU3cG5IeXg4dlJnek15UW9MRkt3Q3p2SWlEZ0ExR3VDejNHeE5ZUFg3cV82M1BrR1E5SlV1VURwQndjVVpGSzRFcGoyRkFnZHpmd1hfRDF2bXZpdHpiZTlCZUJPd0RNdnFVQmtrUFZjd1AxQWptYVp3LWNtRmE2bE9PWXQ0WUw3SEJKRGZaV1NnYTlSVk0xU3d3Nm0tZVBrUGt6R1FVSQ?oc=5",
       "locator": null,
-      "published_at": "2026-04-23"
+      "published_at": "2026-05-28"
     },
-    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extracted_at": "2026-10-11T11:49:13.286274",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
+    "base_confidence": 0.4016,
+    "derivation": null
+  },
+  {
+    "id": "clm_f353cae5ec",
+    "company_id": "devin",
+    "metric": "valuation",
+    "value": 25000000000.0,
+    "unit": null,
+    "raw_text": "$25 billion pre-money valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdzFPTXRPU19qdVBLWDlmSGtBa1Ezd09TMkhlWF82bWdoNlU3cG5IeXg4dlJnek15UW9MRkt3Q3p2SWlEZ0ExR3VDejNHeE5ZUFg3cV82M1BrR1E5SlV1VURwQndjVVpGSzRFcGoyRkFnZHpmd1hfRDF2bXZpdHpiZTlCZUJPd0RNdnFVQmtrUFZjd1AxQWptYVp3LWNtRmE2bE9PWXQ0WUw3SEJKRGZaV1NnYTlSVk0xU3d3Nm0tZVBrUGt6R1FVSQ?oc=5",
+      "locator": null,
+      "published_at": "2026-05-28"
+    },
+    "extracted_at": "2026-10-11T11:49:13.286274",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_270a1d8ac7",
+    "company_id": "devin",
+    "metric": "valuation",
+    "value": 10200000000.0,
+    "unit": null,
+    "raw_text": "$10.2 billion post-money",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdzFPTXRPU19qdVBLWDlmSGtBa1Ezd09TMkhlWF82bWdoNlU3cG5IeXg4dlJnek15UW9MRkt3Q3p2SWlEZ0ExR3VDejNHeE5ZUFg3cV82M1BrR1E5SlV1VURwQndjVVpGSzRFcGoyRkFnZHpmd1hfRDF2bXZpdHpiZTlCZUJPd0RNdnFVQmtrUFZjd1AxQWptYVp3LWNtRmE2bE9PWXQ0WUw3SEJKRGZaV1NnYTlSVk0xU3d3Nm0tZVBrUGt6R1FVSQ?oc=5",
+      "locator": null,
+      "published_at": "2026-05-28"
+    },
+    "extracted_at": "2026-10-11T11:49:13.286274",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -1092,54 +1140,6 @@
       "published_at": "2026-09-09"
     },
     "extracted_at": "2026-09-10T09:49:02.856855",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_02160f1e0c",
-    "company_id": "devin",
-    "metric": "total_funding",
-    "value": 500000000.0,
-    "unit": null,
-    "raw_text": "reportedly raises nearly $500M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYWFYVmw0LVNwTHd5aGZ3Z0F6cVhuR0gzOEw1WEs4NWtvU094N2Nodk9SYXRETnhwcXFLYzBoYlIwckJETUtRc0lYNzFNaGtrZmRrWDVkc0VXSnlfZEhvSXBXVnh3UVl4VnlMaVFjYzN5WWN3RXlNMzFybTIyZjZIbmQyTTJaS1BpMUR2S2FRM3kzcWVsRWh0ZV9ncjdqUGw3aGRaajZiejVRdFJidE15MFA3Mncxdktkb1Rz?oc=5",
-      "locator": null,
-      "published_at": "2025-08-14"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_01f5bf90d6",
-    "company_id": "devin",
-    "metric": "valuation",
-    "value": 9800000000.0,
-    "unit": null,
-    "raw_text": "on $9.8B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYWFYVmw0LVNwTHd5aGZ3Z0F6cVhuR0gzOEw1WEs4NWtvU094N2Nodk9SYXRETnhwcXFLYzBoYlIwckJETUtRc0lYNzFNaGtrZmRrWDVkc0VXSnlfZEhvSXBXVnh3UVl4VnlMaVFjYzN5WWN3RXlNMzFybTIyZjZIbmQyTTJaS1BpMUR2S2FRM3kzcWVsRWh0ZV9ncjdqUGw3aGRaajZiejVRdFJidE15MFA3Mncxdktkb1Rz?oc=5",
-      "locator": null,
-      "published_at": "2025-08-14"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -2040,7 +2040,7 @@
       "locator": null,
       "published_at": "2026-05-27"
     },
-    "extracted_at": "2026-10-18T09:51:31.885333",
+    "extracted_at": "2026-10-19T11:06:35.602420",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2608,
     "derivation": {

@@ -10,7 +10,7 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 84.8,
-  "universe_rank": 36,
+  "universe_rank": 37,
   "metrics": {
     "round_amount": {
       "metric": "round_amount",
@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2026-07-21",
       "estimate_type": "consensus",
-      "confidence": 0.925,
+      "confidence": 0.924,
       "supporting_claims": [
         "clm_fe12e63e3c",
         "clm_86ac6d09bd",
@@ -32,7 +32,7 @@
       "contradiction": false,
       "delta": {
         "previous": 1500000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-07-21"
       },
       "history_ref": "history/fireworks-ai/round_amount.jsonl",
@@ -74,12 +74,36 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 4.0,
+      "unit": "object",
+      "range": null,
+      "as_of": "2026-07-21",
+      "estimate_type": "consensus",
+      "confidence": 0.645,
+      "supporting_claims": [
+        "clm_2dec9db7c2",
+        "clm_3519111fcd",
+        "clm_d6cae8107e"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 4.0,
+        "change_pct": 0.0,
+        "since": "2026-07-21"
+      },
+      "history_ref": "history/fireworks-ai/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "open_roles": {
       "metric": "open_roles",
       "value": 81.36,
       "unit": "count",
       "range": null,
-      "as_of": "2026-10-18",
+      "as_of": "2026-10-19",
       "estimate_type": "reported",
       "confidence": 0.958,
       "supporting_claims": [
@@ -105,31 +129,7 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "latest_round": {
-      "metric": "latest_round",
-      "value": 4.0,
-      "unit": "object",
-      "range": null,
-      "as_of": "2026-07-21",
-      "estimate_type": "consensus",
-      "confidence": 0.646,
-      "supporting_claims": [
-        "clm_2dec9db7c2",
-        "clm_3519111fcd",
-        "clm_d6cae8107e"
-      ],
-      "contradiction": true,
-      "delta": {
-        "previous": 4.0,
-        "change_pct": 0.0,
-        "since": "2026-07-21"
-      },
-      "history_ref": "history/fireworks-ai/latest_round.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-18"
+  "last_updated": "2026-10-19"
 }

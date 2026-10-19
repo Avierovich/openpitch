@@ -14,7 +14,7 @@
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 72652478342.06,
+      "value": 72608712412.98,
       "unit": "USD",
       "range": {
         "low": 71000000000.0,
@@ -28,6 +28,7 @@
         "clm_dc17fae781",
         "clm_aaea8403cf",
         "clm_7c2d7c93d5",
+        "clm_54c22091cd",
         "clm_fdc8aba398",
         "clm_eec84722cd",
         "clm_431facf9cf",
@@ -55,7 +56,7 @@
       "contradiction": false,
       "delta": {
         "previous": 72652478342.06,
-        "change_pct": -0.0,
+        "change_pct": -0.1,
         "since": "2026-10-07"
       },
       "history_ref": "history/deepseek/valuation.jsonl",
@@ -114,7 +115,7 @@
       },
       "as_of": "2026-09-25",
       "estimate_type": "consensus",
-      "confidence": 0.968,
+      "confidence": 0.967,
       "supporting_claims": [
         "clm_092b3de3a6",
         "clm_25f449777b",
@@ -127,7 +128,7 @@
       "contradiction": false,
       "delta": {
         "previous": 1000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-09-25"
       },
       "history_ref": "history/deepseek/arr.jsonl",
@@ -183,14 +184,14 @@
       "range": null,
       "as_of": "2026-09-25",
       "estimate_type": "reported",
-      "confidence": 0.209,
+      "confidence": 0.208,
       "supporting_claims": [
         "drv_adde3f5544"
       ],
       "contradiction": false,
       "delta": {
         "previous": 50.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-09-25"
       },
       "history_ref": "history/deepseek/revenue_multiple.jsonl",
@@ -199,5 +200,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-18"
+  "last_updated": "2026-10-19"
 }

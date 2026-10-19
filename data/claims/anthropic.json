@@ -195,6 +195,81 @@
     "derivation": null
   },
   {
+    "id": "clm_e0664cdc97",
+    "company_id": "anthropic",
+    "metric": "revenue_growth",
+    "value": 46.0,
+    "unit": "%",
+    "raw_text": "Anthropic revenue jumps 46%",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcFRQOW9OTjdFT3FyNkxQSlFyTHM0VjJlVElubVNENFk2RGkzSHJaSDNFR0ZndGJyc1RfLWw3UldzSDJsZER1Vzd3elBIdXRCaFJwOTItRUdFZ3Yyd2p4eElMeEZDNFptSmQ3ZDVNZnBEUk51RzgweFQzTHA4UTNoWUdEU2o?oc=5",
+      "locator": null,
+      "published_at": "2026-10-15"
+    },
+    "extracted_at": "2026-10-19T11:06:35.602420",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_4073c95ee9",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 2000000000000.0,
+    "unit": "USD",
+    "raw_text": "eyes record $2 trillion IPO valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcFRQOW9OTjdFT3FyNkxQSlFyTHM0VjJlVElubVNENFk2RGkzSHJaSDNFR0ZndGJyc1RfLWw3UldzSDJsZER1Vzd3elBIdXRCaFJwOTItRUdFZ3Yyd2p4eElMeEZDNFptSmQ3ZDVNZnBEUk51RzgweFQzTHA4UTNoWUdEU2o?oc=5",
+      "locator": null,
+      "published_at": "2026-10-15"
+    },
+    "extracted_at": "2026-10-19T11:06:35.602420",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_2d8cd5ae5e",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 965000000000.0,
+    "unit": "USD",
+    "raw_text": "$965bn Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "AI Magazine",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQX094N1RhQldFWjZOUkwzUGVGUUVNNDlobGlRLTZGMUxvVXB0WGJXUjE2Zl8tRGt1b2hwZDNaWkcxTEFCU2QwNUpPdmJzaGhjMUp0WkFwdUctVkI2cklEWF9zNmNkS1ppaXZKck9CX0ZqT0hnVkJvajhHUmc3UGZYcE0wenBxaU9PYmk5TVFB?oc=5",
+      "locator": null,
+      "published_at": "2026-10-19"
+    },
+    "extracted_at": "2026-10-19T11:06:35.602420",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_c7d7a4edb8",
     "company_id": "anthropic",
     "metric": "valuation",
@@ -2528,7 +2603,7 @@
       "locator": null,
       "published_at": "2026-06-14"
     },
-    "extracted_at": "2026-10-18T09:51:31.885333",
+    "extracted_at": "2026-10-19T11:06:35.602420",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

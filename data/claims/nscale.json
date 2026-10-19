@@ -54,6 +54,56 @@
     "derivation": null
   },
   {
+    "id": "clm_1ed76beb20",
+    "company_id": "nscale",
+    "metric": "round_amount",
+    "value": 3360000000.0,
+    "unit": "USD",
+    "raw_text": "Nscale Raises $3.36 Billion in Pre-IPO Convertible Financing",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Nscale",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kY3BEcjcweFlJSk4tOWd1ZU05encwQzZDeWxDQmxXN3dEYzZwc1h2VFZ2LVlORHVqT1hHS0VxZVJSaXI2WEE2eC1RcWNaUzZfZFNTZWlKU3UzYzk3QUFBWTl2ZDVwU0J4aGpHRGMzdko3enVoNXc?oc=5",
+      "locator": null,
+      "published_at": "2026-09-25"
+    },
+    "extracted_at": "2026-09-26T09:51:51.353222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_43470b0b7e",
+    "company_id": "nscale",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": null,
+    "raw_text": "$30B IPO valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9tZkFKUXFFdkZZVmczQ1MwNDllVS13eE9TRTVkeFNwWWQyNVh4OGFRUklVMDA2MnNkUk94TTRJOTNNSnhxVEpCVWgyeFlWWm9UYUozQVpCTlViWWtOWWFNNkN6VTZUQTdCam1jRXpfcVVVU1FN?oc=5",
+      "locator": null,
+      "published_at": "2026-10-19"
+    },
+    "extracted_at": "2026-10-19T11:06:35.602420",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_4859071d2b",
     "company_id": "nscale",
     "metric": "valuation",
@@ -77,30 +127,6 @@
     "extracted_at": "2026-09-22T09:56:18.399410",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_1ed76beb20",
-    "company_id": "nscale",
-    "metric": "round_amount",
-    "value": 3360000000.0,
-    "unit": "USD",
-    "raw_text": "Nscale Raises $3.36 Billion in Pre-IPO Convertible Financing",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Nscale",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kY3BEcjcweFlJSk4tOWd1ZU05encwQzZDeWxDQmxXN3dEYzZwc1h2VFZ2LVlORHVqT1hHS0VxZVJSaXI2WEE2eC1RcWNaUzZfZFNTZWlKU3UzYzk3QUFBWTl2ZDVwU0J4aGpHRGMzdko3enVoNXc?oc=5",
-      "locator": null,
-      "published_at": "2026-09-25"
-    },
-    "extracted_at": "2026-09-26T09:51:51.353222",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -2270,7 +2296,7 @@
       "locator": null,
       "published_at": "2026-09-21"
     },
-    "extracted_at": "2026-10-18T09:51:31.885333",
+    "extracted_at": "2026-10-19T11:06:35.602420",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {

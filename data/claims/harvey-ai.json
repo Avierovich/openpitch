@@ -338,57 +338,6 @@
     "derivation": null
   },
   {
-    "id": "clm_1a3e533faf",
-    "company_id": "harvey-ai",
-    "metric": "total_funding",
-    "value": 500000000.0,
-    "unit": "USD",
-    "raw_text": "over $500M in funding",
-    "qualifiers": [
-      "rounded",
-      "approximate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "No Priors",
-      "url": null,
-      "locator": null,
-      "published_at": "2025-02-14"
-    },
-    "extracted_at": "2026-10-19T11:06:35.602420",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3213,
-    "derivation": null
-  },
-  {
-    "id": "clm_bbe8dd402b",
-    "company_id": "harvey-ai",
-    "metric": "round_amount",
-    "value": 550000000.0,
-    "unit": "USD",
-    "raw_text": "We Raised $550M at a $15.5B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "harvey.ai",
-      "url": "https://harvey.ai",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-15T10:02:10.844942",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
     "id": "clm_404a47d2e6",
     "company_id": "harvey-ai",
     "metric": "total_funding",
@@ -438,6 +387,56 @@
     "extracted_at": "2026-09-20T09:44:05.979383",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_1a3e533faf",
+    "company_id": "harvey-ai",
+    "metric": "total_funding",
+    "value": 500000000.0,
+    "unit": "USD",
+    "raw_text": "over $500M in funding",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "No Priors",
+      "url": null,
+      "locator": null,
+      "published_at": "2025-02-14"
+    },
+    "extracted_at": "2026-10-20T10:08:21.911749",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.378,
+    "derivation": null
+  },
+  {
+    "id": "clm_bbe8dd402b",
+    "company_id": "harvey-ai",
+    "metric": "round_amount",
+    "value": 550000000.0,
+    "unit": "USD",
+    "raw_text": "We Raised $550M at a $15.5B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "harvey.ai",
+      "url": "https://harvey.ai",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
     "derivation": null
   },
   {
@@ -1106,7 +1105,7 @@
       "locator": null,
       "published_at": "2026-08-07"
     },
-    "extracted_at": "2026-10-19T11:06:35.602420",
+    "extracted_at": "2026-10-20T10:08:21.911749",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

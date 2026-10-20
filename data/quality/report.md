@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-10-19
+# OpenPitch Data Quality Report - 2026-10-20
 
 ## Summary
 
-- Profiles generated: 631
-- Watchlist candidates: 1300
+- Profiles generated: 634
+- Watchlist candidates: 1315
 - Top-50 cards: 50
-- Profiles with at least one metric: 618
-- Critical issues: 115
-- Warnings: 19
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 667
+- Profiles with at least one metric: 621
+- Critical issues: 116
+- Warnings: 17
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 679
 
 ## Top-50 Companies With No Metrics
 
@@ -79,6 +79,7 @@ None.
 - Carbon Health
 - CareBridge
 - Cartesia
+- Cellarity
 - Centivo
 - Character.AI
 - Charm Therapeutics
@@ -156,8 +157,6 @@ None.
 - Fireworks AI: arr
 - Fireworks AI: total_funding
 - Fireworks AI: headcount
-- Sierra: arr
-- Applied Intuition: headcount
 - Lovable: headcount
 - Celonis: arr
 - Celonis: headcount

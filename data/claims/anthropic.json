@@ -1,6 +1,6 @@
 [
   {
-    "id": "clm_1ec711bcdd",
+    "id": "clm_e0664cdc97",
     "company_id": "anthropic",
     "metric": "revenue_growth",
     "value": 46.0,
@@ -13,26 +13,26 @@
     },
     "source": {
       "type": "news",
-      "name": "Yahoo Finance Singapore",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbXNYZ3ZDRUJsa185eklRazdadnRZN0lUZnBxcmU3bmVCdDFGd0JZc2pxWXBlQ0k3Ui1MZnBBNjNETHpOakVCVUh4dzlxVFBPZDhGQm9aUHgteTlycUZubElqbUk4VHNpYlRJZE1YVDBDNUIzZmlwMUYwSHhlYnV3cjJXNjE?oc=5",
+      "name": "Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcFRQOW9OTjdFT3FyNkxQSlFyTHM0VjJlVElubVNENFk2RGkzSHJaSDNFR0ZndGJyc1RfLWw3UldzSDJsZER1Vzd3elBIdXRCaFJwOTItRUdFZ3Yyd2p4eElMeEZDNFptSmQ3ZDVNZnBEUk51RzgweFQzTHA4UTNoWUdEU2o?oc=5",
       "locator": null,
       "published_at": "2026-10-15"
     },
-    "extracted_at": "2026-10-17T09:18:38.037935",
+    "extracted_at": "2026-10-19T11:06:35.602420",
     "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.525,
     "derivation": null
   },
   {
-    "id": "clm_cdab8a2136",
+    "id": "clm_4073c95ee9",
     "company_id": "anthropic",
     "metric": "valuation",
     "value": 2000000000000.0,
     "unit": "USD",
     "raw_text": "eyes record $2 trillion IPO valuation",
     "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
+      "forward_looking",
+      "unconfirmed"
     ],
     "speaker": {
       "name": null,
@@ -40,12 +40,12 @@
     },
     "source": {
       "type": "news",
-      "name": "Yahoo Finance Singapore",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbXNYZ3ZDRUJsa185eklRazdadnRZN0lUZnBxcmU3bmVCdDFGd0JZc2pxWXBlQ0k3Ui1MZnBBNjNETHpOakVCVUh4dzlxVFBPZDhGQm9aUHgteTlycUZubElqbUk4VHNpYlRJZE1YVDBDNUIzZmlwMUYwSHhlYnV3cjJXNjE?oc=5",
+      "name": "Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcFRQOW9OTjdFT3FyNkxQSlFyTHM0VjJlVElubVNENFk2RGkzSHJaSDNFR0ZndGJyc1RfLWw3UldzSDJsZER1Vzd3elBIdXRCaFJwOTItRUdFZ3Yyd2p4eElMeEZDNFptSmQ3ZDVNZnBEUk51RzgweFQzTHA4UTNoWUdEU2o?oc=5",
       "locator": null,
       "published_at": "2026-10-15"
     },
-    "extracted_at": "2026-10-17T09:18:38.037935",
+    "extracted_at": "2026-10-19T11:06:35.602420",
     "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.2205,
     "derivation": null
@@ -195,57 +195,6 @@
     "derivation": null
   },
   {
-    "id": "clm_e0664cdc97",
-    "company_id": "anthropic",
-    "metric": "revenue_growth",
-    "value": 46.0,
-    "unit": "%",
-    "raw_text": "Anthropic revenue jumps 46%",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance UK",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcFRQOW9OTjdFT3FyNkxQSlFyTHM0VjJlVElubVNENFk2RGkzSHJaSDNFR0ZndGJyc1RfLWw3UldzSDJsZER1Vzd3elBIdXRCaFJwOTItRUdFZ3Yyd2p4eElMeEZDNFptSmQ3ZDVNZnBEUk51RzgweFQzTHA4UTNoWUdEU2o?oc=5",
-      "locator": null,
-      "published_at": "2026-10-15"
-    },
-    "extracted_at": "2026-10-19T11:06:35.602420",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_4073c95ee9",
-    "company_id": "anthropic",
-    "metric": "valuation",
-    "value": 2000000000000.0,
-    "unit": "USD",
-    "raw_text": "eyes record $2 trillion IPO valuation",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance UK",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcFRQOW9OTjdFT3FyNkxQSlFyTHM0VjJlVElubVNENFk2RGkzSHJaSDNFR0ZndGJyc1RfLWw3UldzSDJsZER1Vzd3elBIdXRCaFJwOTItRUdFZ3Yyd2p4eElMeEZDNFptSmQ3ZDVNZnBEUk51RzgweFQzTHA4UTNoWUdEU2o?oc=5",
-      "locator": null,
-      "published_at": "2026-10-15"
-    },
-    "extracted_at": "2026-10-19T11:06:35.602420",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
     "id": "clm_2d8cd5ae5e",
     "company_id": "anthropic",
     "metric": "valuation",
@@ -267,6 +216,57 @@
     "extracted_at": "2026-10-19T11:06:35.602420",
     "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_1ec711bcdd",
+    "company_id": "anthropic",
+    "metric": "revenue_growth",
+    "value": 46.0,
+    "unit": "%",
+    "raw_text": "Anthropic revenue jumps 46%",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance Singapore",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbXNYZ3ZDRUJsa185eklRazdadnRZN0lUZnBxcmU3bmVCdDFGd0JZc2pxWXBlQ0k3Ui1MZnBBNjNETHpOakVCVUh4dzlxVFBPZDhGQm9aUHgteTlycUZubElqbUk4VHNpYlRJZE1YVDBDNUIzZmlwMUYwSHhlYnV3cjJXNjE?oc=5",
+      "locator": null,
+      "published_at": "2026-10-15"
+    },
+    "extracted_at": "2026-10-17T09:18:38.037935",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_cdab8a2136",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 2000000000000.0,
+    "unit": "USD",
+    "raw_text": "eyes record $2 trillion IPO valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance Singapore",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbXNYZ3ZDRUJsa185eklRazdadnRZN0lUZnBxcmU3bmVCdDFGd0JZc2pxWXBlQ0k3Ui1MZnBBNjNETHpOakVCVUh4dzlxVFBPZDhGQm9aUHgteTlycUZubElqbUk4VHNpYlRJZE1YVDBDNUIzZmlwMUYwSHhlYnV3cjJXNjE?oc=5",
+      "locator": null,
+      "published_at": "2026-10-15"
+    },
+    "extracted_at": "2026-10-17T09:18:38.037935",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -2603,7 +2603,7 @@
       "locator": null,
       "published_at": "2026-06-14"
     },
-    "extracted_at": "2026-10-19T11:06:35.602420",
+    "extracted_at": "2026-10-20T10:08:21.911749",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

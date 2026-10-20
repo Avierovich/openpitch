@@ -19,14 +19,18 @@
       "range": null,
       "as_of": "2026-04-20",
       "estimate_type": "consensus",
-      "confidence": 0.469,
+      "confidence": 0.468,
       "supporting_claims": [
         "clm_96995c7609",
         "clm_4252edbb5f",
         "clm_e844a4386b"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 2000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-04-20"
+      },
       "history_ref": "history/cursor-anysphere/round_amount.jsonl",
       "unconfirmed": true,
       "confirmed_value": null,
@@ -42,7 +46,7 @@
       },
       "as_of": "2026-06-16",
       "estimate_type": "consensus",
-      "confidence": 0.863,
+      "confidence": 0.862,
       "supporting_claims": [
         "clm_3fac85cc7d",
         "clm_54f6bfaf9e",
@@ -54,7 +58,11 @@
         "clm_d759946ee7"
       ],
       "contradiction": true,
-      "delta": null,
+      "delta": {
+        "previous": 56736027105.65,
+        "change_pct": 0.0,
+        "since": "2026-06-16"
+      },
       "history_ref": "history/cursor-anysphere/valuation.jsonl",
       "unconfirmed": true,
       "confirmed_value": 29000000000.0,
@@ -67,12 +75,16 @@
       "range": null,
       "as_of": "2026-10-07",
       "estimate_type": "reported",
-      "confidence": 0.475,
+      "confidence": 0.471,
       "supporting_claims": [
         "clm_6fc2e3b0d3"
       ],
       "contradiction": true,
-      "delta": null,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-10-07"
+      },
       "history_ref": "history/cursor-anysphere/arr.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -85,17 +97,21 @@
       "range": null,
       "as_of": "2026-04-18",
       "estimate_type": "reported",
-      "confidence": 0.055,
+      "confidence": 0.054,
       "supporting_claims": [
         "drv_774c91d1a0"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 30.0,
+        "change_pct": -0.0,
+        "since": "2026-04-18"
+      },
       "history_ref": "history/cursor-anysphere/revenue_multiple.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-19"
+  "last_updated": "2026-10-20"
 }

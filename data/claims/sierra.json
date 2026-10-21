@@ -1,5 +1,53 @@
 [
   {
+    "id": "clm_5433f26e39",
+    "company_id": "sierra",
+    "metric": "valuation",
+    "value": 15800000000.0,
+    "unit": null,
+    "raw_text": "Sierra raises $950M at $15.8B valuation, led by Tiger and GV",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdHNLNDV1RjhvcU9pSUM0M0ctZ21pT1lLTFBCX04zQjZqWUZHc3dQMzM4Z1ZvcnNtalJFd29yc1FGblp6LURwTGRla1RTS1ZHZVBpMEpnTmJkSW51MmE4dk5GcVVOSnhVLU5OYlpfRjVDUkZNalpFZ1UyOV8wOXltcTk2eFRmUnB6VGtJOTFFMy1LUEU?oc=5",
+      "locator": null,
+      "published_at": "2026-05-04"
+    },
+    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_58c5178477",
+    "company_id": "sierra",
+    "metric": "round_amount",
+    "value": 950000000.0,
+    "unit": null,
+    "raw_text": "Sierra raises $950M at $15.8B valuation, led by Tiger and GV",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdHNLNDV1RjhvcU9pSUM0M0ctZ21pT1lLTFBCX04zQjZqWUZHc3dQMzM4Z1ZvcnNtalJFd29yc1FGblp6LURwTGRla1RTS1ZHZVBpMEpnTmJkSW51MmE4dk5GcVVOSnhVLU5OYlpfRjVDUkZNalpFZ1UyOV8wOXltcTk2eFRmUnB6VGtJOTFFMy1LUEU?oc=5",
+      "locator": null,
+      "published_at": "2026-05-04"
+    },
+    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_32e3800539",
     "company_id": "sierra",
     "metric": "valuation",
@@ -121,54 +169,6 @@
     "extracted_at": "2026-10-07T11:44:32.066946",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2625,
-    "derivation": null
-  },
-  {
-    "id": "clm_102515fc6f",
-    "company_id": "sierra",
-    "metric": "total_funding",
-    "value": 950000000.0,
-    "unit": null,
-    "raw_text": "Sierra raises $950M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Quartz",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rc0dZRFZ5UWxsYUpLWHplWjcxRHN1ZGpkNU05di1hMjMweFVJWTd2Yk8zMzFnT2ZnZWxZdFA1bXVMQ0ZlZTVBOGY1VHVSaFdNenlGUlRfYjVpZDZzVGpidEtuaXowTkVDRnJNdVhIN2kwV0hDUXc?oc=5",
-      "locator": null,
-      "published_at": "2026-05-04"
-    },
-    "extracted_at": "2026-10-19T11:06:35.602420",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_7d64211ae3",
-    "company_id": "sierra",
-    "metric": "valuation",
-    "value": 15800000000.0,
-    "unit": null,
-    "raw_text": "$15.8B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Quartz",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rc0dZRFZ5UWxsYUpLWHplWjcxRHN1ZGpkNU05di1hMjMweFVJWTd2Yk8zMzFnT2ZnZWxZdFA1bXVMQ0ZlZTVBOGY1VHVSaFdNenlGUlRfYjVpZDZzVGpidEtuaXowTkVDRnJNdVhIN2kwV0hDUXc?oc=5",
-      "locator": null,
-      "published_at": "2026-05-04"
-    },
-    "extracted_at": "2026-10-19T11:06:35.602420",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -346,6 +346,80 @@
     "derivation": null
   },
   {
+    "id": "clm_6a733c217e",
+    "company_id": "sierra",
+    "metric": "valuation",
+    "value": 10000000000.0,
+    "unit": null,
+    "raw_text": "$10 billion valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTEk3R1hITE4zbUZid3c2NHpwcXFHeEZZaU5HTDE1WmdLRTNqVHlFTy13VU9JZ1ptWVlibTN5UUFDOEJZXzd4MnR1TnJlSHVXZElacGxGcHh0bmUyWTVzeElsdkxMTzlmVGJwNmJUT3NxaldPSTlzNHcwNTJLdGdaemxlZGJZVzNSdURLQmpTY24ydXBPRVEyZkNwS01KalZHeUN5X2dreHFwbkF3Q2otTWFiMWw0S2tNUXQ3dUFUWnJ5NUNpb0hwQzF5MGJqbHZ5VzBZWdIB2gFBVV95cUxNcWlMc0l3RlJqekM5R01QcWZBWnJKbUplbUVQdlZuQ25IM3JWTHU4b0xoU3c4WHVFSy1pS1NoLTR5RVVQZk1WY1BKRm80Mml0dnl1V2huemh4WnJMWno0TUhNLXVOckxwT0Eybi1jTGpjM1VGVHNiMFg4eHBpc3hpLWlwTGdlejRMR3lHT1JvcFhycFRVM2s0ZXBoV0Y4S1U1T1FIeFRIN2Q4Y2R4VnZKclNtUVgtSUpHcXpqem5JelFFeGdUS1dtNUVVSlI1bVF3R3JxS2lHTWFHdw?oc=5",
+      "locator": null,
+      "published_at": "2025-09-03"
+    },
+    "extracted_at": "2026-10-04T11:05:13.664288",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_102515fc6f",
+    "company_id": "sierra",
+    "metric": "total_funding",
+    "value": 950000000.0,
+    "unit": null,
+    "raw_text": "Sierra raises $950M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Quartz",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rc0dZRFZ5UWxsYUpLWHplWjcxRHN1ZGpkNU05di1hMjMweFVJWTd2Yk8zMzFnT2ZnZWxZdFA1bXVMQ0ZlZTVBOGY1VHVSaFdNenlGUlRfYjVpZDZzVGpidEtuaXowTkVDRnJNdVhIN2kwV0hDUXc?oc=5",
+      "locator": null,
+      "published_at": "2026-05-04"
+    },
+    "extracted_at": "2026-10-19T11:06:35.602420",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_7d64211ae3",
+    "company_id": "sierra",
+    "metric": "valuation",
+    "value": 15800000000.0,
+    "unit": null,
+    "raw_text": "$15.8B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Quartz",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rc0dZRFZ5UWxsYUpLWHplWjcxRHN1ZGpkNU05di1hMjMweFVJWTd2Yk8zMzFnT2ZnZWxZdFA1bXVMQ0ZlZTVBOGY1VHVSaFdNenlGUlRfYjVpZDZzVGpidEtuaXowTkVDRnJNdVhIN2kwV0hDUXc?oc=5",
+      "locator": null,
+      "published_at": "2026-05-04"
+    },
+    "extracted_at": "2026-10-19T11:06:35.602420",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_dc8ec3f7a7",
     "company_id": "sierra",
     "metric": "total_funding",
@@ -390,80 +464,6 @@
     },
     "extracted_at": "2026-10-20T10:08:21.911749",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_6a733c217e",
-    "company_id": "sierra",
-    "metric": "valuation",
-    "value": 10000000000.0,
-    "unit": null,
-    "raw_text": "$10 billion valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTEk3R1hITE4zbUZid3c2NHpwcXFHeEZZaU5HTDE1WmdLRTNqVHlFTy13VU9JZ1ptWVlibTN5UUFDOEJZXzd4MnR1TnJlSHVXZElacGxGcHh0bmUyWTVzeElsdkxMTzlmVGJwNmJUT3NxaldPSTlzNHcwNTJLdGdaemxlZGJZVzNSdURLQmpTY24ydXBPRVEyZkNwS01KalZHeUN5X2dreHFwbkF3Q2otTWFiMWw0S2tNUXQ3dUFUWnJ5NUNpb0hwQzF5MGJqbHZ5VzBZWdIB2gFBVV95cUxNcWlMc0l3RlJqekM5R01QcWZBWnJKbUplbUVQdlZuQ25IM3JWTHU4b0xoU3c4WHVFSy1pS1NoLTR5RVVQZk1WY1BKRm80Mml0dnl1V2huemh4WnJMWno0TUhNLXVOckxwT0Eybi1jTGpjM1VGVHNiMFg4eHBpc3hpLWlwTGdlejRMR3lHT1JvcFhycFRVM2s0ZXBoV0Y4S1U1T1FIeFRIN2Q4Y2R4VnZKclNtUVgtSUpHcXpqem5JelFFeGdUS1dtNUVVSlI1bVF3R3JxS2lHTWFHdw?oc=5",
-      "locator": null,
-      "published_at": "2025-09-03"
-    },
-    "extracted_at": "2026-10-04T11:05:13.664288",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_5433f26e39",
-    "company_id": "sierra",
-    "metric": "valuation",
-    "value": 15800000000.0,
-    "unit": null,
-    "raw_text": "Sierra raises $950M at $15.8B valuation, led by Tiger and GV",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdHNLNDV1RjhvcU9pSUM0M0ctZ21pT1lLTFBCX04zQjZqWUZHc3dQMzM4Z1ZvcnNtalJFd29yc1FGblp6LURwTGRla1RTS1ZHZVBpMEpnTmJkSW51MmE4dk5GcVVOSnhVLU5OYlpfRjVDUkZNalpFZ1UyOV8wOXltcTk2eFRmUnB6VGtJOTFFMy1LUEU?oc=5",
-      "locator": null,
-      "published_at": "2026-05-04"
-    },
-    "extracted_at": "2026-07-12T07:44:16.543146",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_58c5178477",
-    "company_id": "sierra",
-    "metric": "round_amount",
-    "value": 950000000.0,
-    "unit": null,
-    "raw_text": "Sierra raises $950M at $15.8B valuation, led by Tiger and GV",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdHNLNDV1RjhvcU9pSUM0M0ctZ21pT1lLTFBCX04zQjZqWUZHc3dQMzM4Z1ZvcnNtalJFd29yc1FGblp6LURwTGRla1RTS1ZHZVBpMEpnTmJkSW51MmE4dk5GcVVOSnhVLU5OYlpfRjVDUkZNalpFZ1UyOV8wOXltcTk2eFRmUnB6VGtJOTFFMy1LUEU?oc=5",
-      "locator": null,
-      "published_at": "2026-05-04"
-    },
-    "extracted_at": "2026-07-12T07:44:16.543146",
-    "extractor_model": "gemini-2.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
   },
@@ -1437,7 +1437,7 @@
       "locator": null,
       "published_at": "2026-07-04"
     },
-    "extracted_at": "2026-10-20T10:08:21.911749",
+    "extracted_at": "2026-10-21T10:17:02.064836",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1826,
     "derivation": {

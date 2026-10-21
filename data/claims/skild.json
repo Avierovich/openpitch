@@ -74,6 +74,58 @@
     "derivation": null
   },
   {
+    "id": "clm_213537243b",
+    "company_id": "skild",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": null,
+    "raw_text": "$14 billion",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdXBUX2gyV0FCTjhnQ1RWeVBIQzJtdV9BZHFrdXRLYkJrZ25mbUwzejdtY1BrX01WaFJzTTRmeWtkT3JLaDZ1eUJGTkR0MGRKQUVINGg2TDZxano1OEpLcjI5bFZNSExkOUVpN0x5WGlmRHFrWm1jSFRJRUVkNXlNRGZGYmtXNkFZNWJPRWJ6TGtSX2JUSi1nbjhMNUhrRjFfRDBHM3FMLWNuR1N4RVg1XzdmOHJVNGQ2SmNaZDR4ajdLZzNPcUFlQ2JVOA?oc=5",
+      "locator": null,
+      "published_at": "2025-12-08"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_253cfb132f",
+    "company_id": "skild",
+    "metric": "arr",
+    "value": 100000000.0,
+    "unit": "USD",
+    "raw_text": "$100 Million in Recurring Revenue Run Rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZDRnMVBkQzlWX2d4UGlyT3VHYXdkVDdfM0xRdC1IbEh5WllNVzBRSmtPSXRRVlBpMFZzT2dmclB0LU9sYjVhcERLV2dXclRCWXp5bUsxcjlRNTQxMkYyMGNMN082MUdXdkVJQ0Y2cWZ0RVlWRW1BMW41VTBOLWV5bTNZMkxyUlZTenQtQ1BoTGdzblZHNmRJOGpaS2k5THBRTkRiR2tsdGpzSDdHWmI2azZwaw?oc=5",
+      "locator": null,
+      "published_at": "2026-09-10"
+    },
+    "extracted_at": "2026-10-21T10:17:02.064836",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
     "id": "clm_1b30726345",
     "company_id": "skild",
     "metric": "round_amount",
@@ -143,32 +195,6 @@
     "extracted_at": "2026-08-21T05:50:03.226228",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_213537243b",
-    "company_id": "skild",
-    "metric": "valuation",
-    "value": 14000000000.0,
-    "unit": null,
-    "raw_text": "$14 billion",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdXBUX2gyV0FCTjhnQ1RWeVBIQzJtdV9BZHFrdXRLYkJrZ25mbUwzejdtY1BrX01WaFJzTTRmeWtkT3JLaDZ1eUJGTkR0MGRKQUVINGg2TDZxano1OEpLcjI5bFZNSExkOUVpN0x5WGlmRHFrWm1jSFRJRUVkNXlNRGZGYmtXNkFZNWJPRWJ6TGtSX2JUSi1nbjhMNUhrRjFfRDBHM3FMLWNuR1N4RVg1XzdmOHJVNGQ2SmNaZDR4ajdLZzNPcUFlQ2JVOA?oc=5",
-      "locator": null,
-      "published_at": "2025-12-08"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -1274,5 +1300,36 @@
     "extractor_model": "llama-3.1-8b-instant",
     "base_confidence": 0.525,
     "derivation": null
+  },
+  {
+    "id": "drv_002312708d",
+    "company_id": "skild",
+    "metric": "revenue_multiple",
+    "value": 140.0,
+    "unit": "x",
+    "raw_text": "revenue_multiple = valuation ÷ ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "derived",
+      "name": "derived:revenue_multiple",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-09-10"
+    },
+    "extracted_at": "2026-10-21T10:17:02.064836",
+    "extractor_model": "derive-engine",
+    "base_confidence": 0.2282,
+    "derivation": {
+      "kind": "identity",
+      "formula": "revenue_multiple = valuation ÷ ARR",
+      "inputs": [
+        "clm_d3a50a9900",
+        "clm_253cfb132f"
+      ]
+    }
   }
 ]

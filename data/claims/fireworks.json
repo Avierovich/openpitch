@@ -194,6 +194,78 @@
     "derivation": null
   },
   {
+    "id": "clm_b49cbd1271",
+    "company_id": "fireworks",
+    "metric": "latest_round",
+    "value": 4.0,
+    "unit": null,
+    "raw_text": "$1.5B Series D",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Portal ERP",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUWdyWGlBMWVKUUVJVmlXMzNpam5jcGM3cmZNdndzdlNhUTBhVVFVMllnUmN5Uk8tTms4T2JnVWNXempXS2lqRk00b3hQWDJLRFE5cHk0RzlldWdLdVgzMHViZzhoUkRiVEE3aXgteU5GQjAxVFhHTXpXWWRlUWVvN1JCU1BGQVBKVVE?oc=5",
+      "locator": null,
+      "published_at": "2026-07-18"
+    },
+    "extracted_at": "2026-09-26T09:51:51.353222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_095da7a5d1",
+    "company_id": "fireworks",
+    "metric": "round_amount",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "$1.5B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Portal ERP",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUWdyWGlBMWVKUUVJVmlXMzNpam5jcGM3cmZNdndzdlNhUTBhVVFVMllnUmN5Uk8tTms4T2JnVWNXempXS2lqRk00b3hQWDJLRFE5cHk0RzlldWdLdVgzMHViZzhoUkRiVEE3aXgteU5GQjAxVFhHTXpXWWRlUWVvN1JCU1BGQVBKVVE?oc=5",
+      "locator": null,
+      "published_at": "2026-07-18"
+    },
+    "extracted_at": "2026-09-26T09:51:51.353222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_f0a4e409a8",
+    "company_id": "fireworks",
+    "metric": "valuation",
+    "value": 17500000000.0,
+    "unit": "USD",
+    "raw_text": "$17.5B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Portal ERP",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUWdyWGlBMWVKUUVJVmlXMzNpam5jcGM3cmZNdndzdlNhUTBhVVFVMllnUmN5Uk8tTms4T2JnVWNXempXS2lqRk00b3hQWDJLRFE5cHk0RzlldWdLdVgzMHViZzhoUkRiVEE3aXgteU5GQjAxVFhHTXpXWWRlUWVvN1JCU1BGQVBKVVE?oc=5",
+      "locator": null,
+      "published_at": "2026-07-18"
+    },
+    "extracted_at": "2026-09-26T09:51:51.353222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_db6464301b",
     "company_id": "fireworks",
     "metric": "round_amount",
@@ -266,75 +338,27 @@
     "derivation": null
   },
   {
-    "id": "clm_b49cbd1271",
+    "id": "clm_41597bd972",
     "company_id": "fireworks",
-    "metric": "latest_round",
-    "value": 4.0,
+    "metric": "open_roles",
+    "value": 90.0,
     "unit": null,
-    "raw_text": "$1.5B Series D",
+    "raw_text": "Showing 90 positions",
     "qualifiers": [],
     "speaker": {
       "name": null,
       "role": "unknown"
     },
     "source": {
-      "type": "news",
-      "name": "Portal ERP",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUWdyWGlBMWVKUUVJVmlXMzNpam5jcGM3cmZNdndzdlNhUTBhVVFVMllnUmN5Uk8tTms4T2JnVWNXempXS2lqRk00b3hQWDJLRFE5cHk0RzlldWdLdVgzMHViZzhoUkRiVEE3aXgteU5GQjAxVFhHTXpXWWRlUWVvN1JCU1BGQVBKVVE?oc=5",
+      "type": "web",
+      "name": "fireworks.ai",
+      "url": "https://fireworks.ai/careers",
       "locator": null,
-      "published_at": "2026-07-18"
+      "published_at": null
     },
-    "extracted_at": "2026-09-26T09:51:51.353222",
+    "extracted_at": "2026-10-21T10:17:02.064836",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_095da7a5d1",
-    "company_id": "fireworks",
-    "metric": "round_amount",
-    "value": 1500000000.0,
-    "unit": "USD",
-    "raw_text": "$1.5B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Portal ERP",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUWdyWGlBMWVKUUVJVmlXMzNpam5jcGM3cmZNdndzdlNhUTBhVVFVMllnUmN5Uk8tTms4T2JnVWNXempXS2lqRk00b3hQWDJLRFE5cHk0RzlldWdLdVgzMHViZzhoUkRiVEE3aXgteU5GQjAxVFhHTXpXWWRlUWVvN1JCU1BGQVBKVVE?oc=5",
-      "locator": null,
-      "published_at": "2026-07-18"
-    },
-    "extracted_at": "2026-09-26T09:51:51.353222",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_f0a4e409a8",
-    "company_id": "fireworks",
-    "metric": "valuation",
-    "value": 17500000000.0,
-    "unit": "USD",
-    "raw_text": "$17.5B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Portal ERP",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUWdyWGlBMWVKUUVJVmlXMzNpam5jcGM3cmZNdndzdlNhUTBhVVFVMllnUmN5Uk8tTms4T2JnVWNXempXS2lqRk00b3hQWDJLRFE5cHk0RzlldWdLdVgzMHViZzhoUkRiVEE3aXgteU5GQjAxVFhHTXpXWWRlUWVvN1JCU1BGQVBKVVE?oc=5",
-      "locator": null,
-      "published_at": "2026-07-18"
-    },
-    "extracted_at": "2026-09-26T09:51:51.353222",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
+    "base_confidence": 0.25,
     "derivation": null
   },
   {
@@ -2174,7 +2198,7 @@
       "locator": null,
       "published_at": "2026-07-21"
     },
-    "extracted_at": "2026-10-20T10:08:21.911749",
+    "extracted_at": "2026-10-21T10:17:02.064836",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2029,
     "derivation": {

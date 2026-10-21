@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-10-20
+# OpenPitch Data Quality Report - 2026-10-21
 
 ## Summary
 
-- Profiles generated: 634
-- Watchlist candidates: 1315
+- Profiles generated: 644
+- Watchlist candidates: 1319
 - Top-50 cards: 50
-- Profiles with at least one metric: 621
-- Critical issues: 116
+- Profiles with at least one metric: 631
+- Critical issues: 118
 - Warnings: 17
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 679
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 673
 
 ## Top-50 Companies With No Metrics
 
@@ -38,6 +38,7 @@ None.
 - Insilico Medicine
 - Gladly
 - Amelia
+- Abacus.AI
 - Conversica
 - AnyVision
 - Augment Code
@@ -102,6 +103,7 @@ None.
 - Descript
 - Dexory
 - EUCLYD
+- EnCharge AI
 - Enfabrica
 - Esperanto Technologies
 - EvolutionaryScale

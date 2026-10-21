@@ -27,30 +27,6 @@
     "derivation": null
   },
   {
-    "id": "clm_f1658d437b",
-    "company_id": "figure",
-    "metric": "valuation",
-    "value": 39000000000.0,
-    "unit": "USD",
-    "raw_text": "$39B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV3RsM2l6aGE2WnI5Y3h3ckdaN0k2dm5QQUxGVk9YUXpEOWhFTWtxSXdZRFBpLVo0NmhQbGcyczhWVldGdmJ1UFQyZTRSQ0F0NTFYLTRGdjhNbHlhcy1XLUY3M3h5NXZINUF1bXVENEhCeHoyZDZqM1VZMXBQSUp5MWlFZllCakc2?oc=5",
-      "locator": null,
-      "published_at": "2025-09-16"
-    },
-    "extracted_at": "2026-10-18T09:51:31.885333",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_ac0126d9fa",
     "company_id": "figure",
     "metric": "round_amount",
@@ -74,6 +50,30 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_f1658d437b",
+    "company_id": "figure",
+    "metric": "valuation",
+    "value": 39000000000.0,
+    "unit": "USD",
+    "raw_text": "$39B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV3RsM2l6aGE2WnI5Y3h3ckdaN0k2dm5QQUxGVk9YUXpEOWhFTWtxSXdZRFBpLVo0NmhQbGcyczhWVldGdmJ1UFQyZTRSQ0F0NTFYLTRGdjhNbHlhcy1XLUY3M3h5NXZINUF1bXVENEhCeHoyZDZqM1VZMXBQSUp5MWlFZllCakc2?oc=5",
+      "locator": null,
+      "published_at": "2025-09-16"
+    },
+    "extracted_at": "2026-10-18T09:51:31.885333",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {

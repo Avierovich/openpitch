@@ -26,6 +26,56 @@
     "derivation": null
   },
   {
+    "id": "clm_0051c9db8a",
+    "company_id": "mercor",
+    "metric": "valuation",
+    "value": 10000000000.0,
+    "unit": "USD",
+    "raw_text": "$10 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "mercor.com",
+      "url": "https://mercor.com/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-20T10:08:21.911749",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_3da23f4b07",
+    "company_id": "mercor",
+    "metric": "latest_round",
+    "value": 3.0,
+    "unit": null,
+    "raw_text": "Series C",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "mercor.com",
+      "url": "https://mercor.com/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-20T10:08:21.911749",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
     "id": "clm_49376ad18c",
     "company_id": "mercor",
     "metric": "valuation",
@@ -174,6 +224,134 @@
     "derivation": null
   },
   {
+    "id": "clm_b2edd8a2da",
+    "company_id": "mercor",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": null,
+    "raw_text": "$20B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5wcmEtMjZyVUFaM1Y0QXFfSFdVNDE0Z0l0SGJFaGJEUVhPdUZTYWRMc0o5V1Z4WmtkUGNBbEdfZnNYeGJGN21UeEs0RkZnRkZ1TFJ0emtBdXdoU09WQy1tZm9fNXFvbFI2R0RJMG1IemZwaFhCWmZJZm1nTHNBUQ?oc=5",
+      "locator": null,
+      "published_at": "2026-07-09"
+    },
+    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_2b1ca172e7",
+    "company_id": "mercor",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": "USD",
+    "raw_text": "$20B Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObm1oQWlUQ2Nnakl2dzB2ZEtuM0RVaXRvNTdZa0ZHYUhHcmlQNmpVXzJ6M3NUVkgxZGFtRUZXank5dm9UdjZsS1hwRE1haWgxdmgyUDZjLVlZc3hDTlZDQ2toQUNKQ2lnb2pyOWtIVVYzRjBqRk5UTEk1b2hoVjM4bDR6VDBXMTRrb0JkaWliejlheHlVR1AtVC02SHRVTWhObndyT3hDM0E2NTRKbDcwaFFNTzVRa3U0TERDQ0JMb2RPbUtWbDNkWjdTQ09TcWxiWUotTzhNYms?oc=5",
+      "locator": null,
+      "published_at": "2026-08-19"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_392e35221c",
+    "company_id": "mercor",
+    "metric": "headcount",
+    "value": 564000.0,
+    "unit": "count",
+    "raw_text": "564k k Roles created",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "mercor.com",
+      "url": "https://mercor.com",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-21T10:17:02.064836",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_e900a1b997",
+    "company_id": "mercor",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": "USD",
+    "raw_text": "$20B Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQUs2Ym1JVWo5UlBZMWt0SWFpS3J0M25mYktiTXRyT1FEeDNYeXRpLTl4amE1UTNCSEtMRVU4RVV4OHpEdmFMNEs1MU8wMGpUVndMbG5QWDkxMVppZ2pMZ1JETW45dUZ1QXdKTjZjZWhHbzdWbHdmLTdiOHlmakp6TGU5VkQ3bHltZFAweV8xT3F0QnMwOWkzVF9fTks4Y09O?oc=5",
+      "locator": null,
+      "published_at": "2026-08-19"
+    },
+    "extracted_at": "2026-10-21T10:17:02.064836",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_586bd2ca14",
+    "company_id": "mercor",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": "USD",
+    "raw_text": "$20 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Information",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcTR6TERvWTROSG5wazkwQWZTMTJGTnp2UTRmQW1oRUpRRFZUaGlvSjRVRGx5dW1ieU1Qd3hkWnAwYk94Uzh5TC1id0NPU3R3Mm9GZnFhUDEyUFBXNkNmV1JQd3lUWFBSUmQ2MzYtdm9UOVNIWkJ4SlV1dF9YMGo2VjRBVXBvamZHOWE3RXRWYVN0MVN0bnpGNUNpNDRaODh0TEdYbVhWcUVlWXN0dUE?oc=5",
+      "locator": null,
+      "published_at": "2026-08-19"
+    },
+    "extracted_at": "2026-10-21T10:17:02.064836",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_0fbf02cca5",
     "company_id": "mercor",
     "metric": "valuation",
@@ -198,56 +376,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_0051c9db8a",
-    "company_id": "mercor",
-    "metric": "valuation",
-    "value": 10000000000.0,
-    "unit": "USD",
-    "raw_text": "$10 billion valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "mercor.com",
-      "url": "https://mercor.com/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-20T10:08:21.911749",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_3da23f4b07",
-    "company_id": "mercor",
-    "metric": "latest_round",
-    "value": 3.0,
-    "unit": null,
-    "raw_text": "Series C",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "mercor.com",
-      "url": "https://mercor.com/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-20T10:08:21.911749",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
     "derivation": null
   },
   {
@@ -301,32 +429,6 @@
     "extracted_at": "2026-10-16T09:45:26.622667",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.1575,
-    "derivation": null
-  },
-  {
-    "id": "clm_b2edd8a2da",
-    "company_id": "mercor",
-    "metric": "valuation",
-    "value": 20000000000.0,
-    "unit": null,
-    "raw_text": "$20B valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5wcmEtMjZyVUFaM1Y0QXFfSFdVNDE0Z0l0SGJFaGJEUVhPdUZTYWRMc0o5V1Z4WmtkUGNBbEdfZnNYeGJGN21UeEs0RkZnRkZ1TFJ0emtBdXdoU09WQy1tZm9fNXFvbFI2R0RJMG1IemZwaFhCWmZJZm1nTHNBUQ?oc=5",
-      "locator": null,
-      "published_at": "2026-07-09"
-    },
-    "extracted_at": "2026-10-08T12:05:08.457629",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
     "derivation": null
   },
   {
@@ -882,32 +984,6 @@
     "derivation": null
   },
   {
-    "id": "clm_2b1ca172e7",
-    "company_id": "mercor",
-    "metric": "valuation",
-    "value": 20000000000.0,
-    "unit": "USD",
-    "raw_text": "$20B Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObm1oQWlUQ2Nnakl2dzB2ZEtuM0RVaXRvNTdZa0ZHYUhHcmlQNmpVXzJ6M3NUVkgxZGFtRUZXank5dm9UdjZsS1hwRE1haWgxdmgyUDZjLVlZc3hDTlZDQ2toQUNKQ2lnb2pyOWtIVVYzRjBqRk5UTEk1b2hoVjM4bDR6VDBXMTRrb0JkaWliejlheHlVR1AtVC02SHRVTWhObndyT3hDM0E2NTRKbDcwaFFNTzVRa3U0TERDQ0JMb2RPbUtWbDNkWjdTQ09TcWxiWUotTzhNYms?oc=5",
-      "locator": null,
-      "published_at": "2026-08-19"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
-    "derivation": null
-  },
-  {
     "id": "clm_44cf949b56",
     "company_id": "mercor",
     "metric": "valuation",
@@ -1131,7 +1207,7 @@
       "locator": null,
       "published_at": "2026-07-25"
     },
-    "extracted_at": "2026-10-20T10:08:21.911749",
+    "extracted_at": "2026-10-21T10:17:02.064836",
     "extractor_model": "derive-engine",
     "base_confidence": 0.3312,
     "derivation": {

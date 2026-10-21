@@ -26,10 +26,11 @@
       "supporting_claims": [
         "clm_51059079c9",
         "clm_97e42542c7",
+        "clm_a0256d0d1e",
         "clm_50d8832bbd",
         "clm_f0aba26aef",
         "clm_30393a5b66",
-        "clm_a0256d0d1e",
+        "clm_1775f644c6",
         "clm_429213ea05",
         "clm_60a917bbbe",
         "clm_5b6297a28c",
@@ -43,7 +44,6 @@
         "clm_2b4b75f31d",
         "clm_a1b2197e3b",
         "clm_2ea34fcc5d",
-        "clm_1775f644c6",
         "clm_bd617913f5",
         "clm_a6c9da89e7",
         "clm_c3409a7a54",
@@ -65,6 +65,34 @@
       "unconfirmed": true,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 2500000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-03-27",
+      "estimate_type": "consensus",
+      "confidence": 0.687,
+      "supporting_claims": [
+        "clm_22595e4d77",
+        "clm_8881ca7ca1",
+        "clm_5fb6673f1f",
+        "clm_ddc57b3d6e",
+        "clm_66a27bffbb",
+        "clm_b0b72cec26",
+        "clm_174407f29a"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 2500000000.0,
+        "change_pct": 0.0,
+        "since": "2026-03-27"
+      },
+      "history_ref": "history/reflection-ai/round_amount.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": 6300000000.0,
+      "confirmed_as_of": "2026-06-22"
     },
     "total_funding": {
       "metric": "total_funding",
@@ -97,35 +125,7 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 2500000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-03-27",
-      "estimate_type": "consensus",
-      "confidence": 0.688,
-      "supporting_claims": [
-        "clm_8881ca7ca1",
-        "clm_5fb6673f1f",
-        "clm_ddc57b3d6e",
-        "clm_66a27bffbb",
-        "clm_b0b72cec26",
-        "clm_22595e4d77",
-        "clm_174407f29a"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 2500000000.0,
-        "change_pct": 0.0,
-        "since": "2026-03-27"
-      },
-      "history_ref": "history/reflection-ai/round_amount.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": 6300000000.0,
-      "confirmed_as_of": "2026-06-22"
     }
   },
-  "last_updated": "2026-10-20"
+  "last_updated": "2026-10-21"
 }

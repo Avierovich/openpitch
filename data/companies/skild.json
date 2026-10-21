@@ -22,7 +22,7 @@
       },
       "as_of": "2026-08-24",
       "estimate_type": "consensus",
-      "confidence": 0.839,
+      "confidence": 0.838,
       "supporting_claims": [
         "clm_61f186a654",
         "clm_b32fa20cd6",
@@ -34,7 +34,7 @@
       "contradiction": false,
       "delta": {
         "previous": 1400000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-08-24"
       },
       "history_ref": "history/skild/round_amount.jsonl",
@@ -92,6 +92,24 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "arr": {
+      "metric": "arr",
+      "value": 100000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-09-10",
+      "estimate_type": "reported",
+      "confidence": 0.336,
+      "supporting_claims": [
+        "clm_253cfb132f"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/skild/arr.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "latest_round": {
       "metric": "latest_round",
       "value": 1400000000.0,
@@ -99,7 +117,7 @@
       "range": null,
       "as_of": "2026-04-16",
       "estimate_type": "consensus",
-      "confidence": 0.516,
+      "confidence": 0.515,
       "supporting_claims": [
         "clm_d7100f11b6",
         "clm_e55c4eb26b",
@@ -147,7 +165,25 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "revenue_multiple": {
+      "metric": "revenue_multiple",
+      "value": 140.0,
+      "unit": "x",
+      "range": null,
+      "as_of": "2026-09-10",
+      "estimate_type": "reported",
+      "confidence": 0.162,
+      "supporting_claims": [
+        "drv_002312708d"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/skild/revenue_multiple.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-20"
+  "last_updated": "2026-10-21"
 }

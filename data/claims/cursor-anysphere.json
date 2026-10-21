@@ -374,32 +374,6 @@
     "derivation": null
   },
   {
-    "id": "clm_cf17032c97",
-    "company_id": "cursor-anysphere",
-    "metric": "arr",
-    "value": 2000000000.0,
-    "unit": "USD",
-    "raw_text": "$2 Billion Revenue Run Rate",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORjVaUnJBelNSaVdubGxpTFZHNWQ1NHY4bUQwRjNwV21mZ3pOaEJ6aWNUOERnZ0k3cURPc2I5VFhxTGNRbXJhMUhuV010dzF4RGo5OXN2MktKVGNZemtObjZnSnhRYnZvVWhIaGdNWTF3WmVHSnk0QlNmZlpVT3FqY0tuaw?oc=5",
-      "locator": null,
-      "published_at": "2026-03-03"
-    },
-    "extracted_at": "2026-10-19T11:06:35.602420",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
     "id": "clm_0abcab483b",
     "company_id": "cursor-anysphere",
     "metric": "valuation",
@@ -504,6 +478,32 @@
     "derivation": null
   },
   {
+    "id": "clm_cf17032c97",
+    "company_id": "cursor-anysphere",
+    "metric": "arr",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "$2 Billion Revenue Run Rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORjVaUnJBelNSaVdubGxpTFZHNWQ1NHY4bUQwRjNwV21mZ3pOaEJ6aWNUOERnZ0k3cURPc2I5VFhxTGNRbXJhMUhuV010dzF4RGo5OXN2MktKVGNZemtObjZnSnhRYnZvVWhIaGdNWTF3WmVHSnk0QlNmZlpVT3FqY0tuaw?oc=5",
+      "locator": null,
+      "published_at": "2026-03-03"
+    },
+    "extracted_at": "2026-10-19T11:06:35.602420",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
     "id": "clm_f4a34ca129",
     "company_id": "cursor-anysphere",
     "metric": "valuation",
@@ -570,7 +570,7 @@
       "locator": null,
       "published_at": "2026-04-18"
     },
-    "extracted_at": "2026-10-20T10:08:21.911749",
+    "extracted_at": "2026-10-21T10:17:02.064836",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

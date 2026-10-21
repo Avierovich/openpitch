@@ -152,30 +152,6 @@
     "derivation": null
   },
   {
-    "id": "clm_d9f2dbebdb",
-    "company_id": "project-prometheus",
-    "metric": "valuation",
-    "value": 38000000000.0,
-    "unit": "USD",
-    "raw_text": "$38 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Inc.com",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObUdDcDlJMmZtVDlMNjd6WDJIaTdzQmJ3RFVQVlBfNk5faGdYblh5bmNrel9VYjYtdGN6MllnNlZMVjYxTzhVS3BFWm1rNkxhbjVTQ0t2VzV5NEVmZnhZUVdnem1SbHllb1VXeC1FZU4ydXBfal9DRmIxaVNncmsxdl9PRHFXdFp4dndIZkFxSk9HTDR4dUZ0TkZKYVBTVHAzVWlDX3UwYUotSUU?oc=5",
-      "locator": null,
-      "published_at": "2026-04-21"
-    },
-    "extracted_at": "2026-10-07T11:44:32.066946",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_8e48249e30",
     "company_id": "project-prometheus",
     "metric": "total_funding",
@@ -219,6 +195,30 @@
       "published_at": "2026-06-11"
     },
     "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_d9f2dbebdb",
+    "company_id": "project-prometheus",
+    "metric": "valuation",
+    "value": 38000000000.0,
+    "unit": "USD",
+    "raw_text": "$38 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Inc.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObUdDcDlJMmZtVDlMNjd6WDJIaTdzQmJ3RFVQVlBfNk5faGdYblh5bmNrel9VYjYtdGN6MllnNlZMVjYxTzhVS3BFWm1rNkxhbjVTQ0t2VzV5NEVmZnhZUVdnem1SbHllb1VXeC1FZU4ydXBfal9DRmIxaVNncmsxdl9PRHFXdFp4dndIZkFxSk9HTDR4dUZ0TkZKYVBTVHAzVWlDX3UwYUotSUU?oc=5",
+      "locator": null,
+      "published_at": "2026-04-21"
+    },
+    "extracted_at": "2026-10-07T11:44:32.066946",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -296,6 +296,59 @@
     "extracted_at": "2026-08-24T06:11:52.835308",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_78598bb8bb",
+    "company_id": "project-prometheus",
+    "metric": "round_amount",
+    "value": 10000000000.0,
+    "unit": "USD",
+    "raw_text": "reportedly raising $10B in funding",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "MLQ.ai",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSlB3bHd4by1ka3hpX2dZczY1T2xpckN5d2R6OTM3UTZVdUh6YkIyaXk5MHV6cGZSNThDUk9WNmg4dUNxcmhVX3U3NEoyLW93aHRRY3l3V1Z3WDJ4Rl9SQnc0QjRFU0ZMSUgzMXhWQnNsRFVGWFFWQkhqNDM4SXJnWXZLeUlnNUU5ZUxoWGVQV21YOW8?oc=5",
+      "locator": null,
+      "published_at": "2026-04-21"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_c290864eef",
+    "company_id": "project-prometheus",
+    "metric": "valuation",
+    "value": 38000000000.0,
+    "unit": "USD",
+    "raw_text": "$38B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "MLQ.ai",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSlB3bHd4by1ka3hpX2dZczY1T2xpckN5d2R6OTM3UTZVdUh6YkIyaXk5MHV6cGZSNThDUk9WNmg4dUNxcmhVX3U3NEoyLW93aHRRY3l3V1Z3WDJ4Rl9SQnc0QjRFU0ZMSUgzMXhWQnNsRFVGWFFWQkhqNDM4SXJnWXZLeUlnNUU5ZUxoWGVQV21YOW8?oc=5",
+      "locator": null,
+      "published_at": "2026-04-21"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -1240,59 +1293,6 @@
     "extracted_at": "2026-09-14T10:31:29.338960",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_78598bb8bb",
-    "company_id": "project-prometheus",
-    "metric": "round_amount",
-    "value": 10000000000.0,
-    "unit": "USD",
-    "raw_text": "reportedly raising $10B in funding",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "MLQ.ai",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSlB3bHd4by1ka3hpX2dZczY1T2xpckN5d2R6OTM3UTZVdUh6YkIyaXk5MHV6cGZSNThDUk9WNmg4dUNxcmhVX3U3NEoyLW93aHRRY3l3V1Z3WDJ4Rl9SQnc0QjRFU0ZMSUgzMXhWQnNsRFVGWFFWQkhqNDM4SXJnWXZLeUlnNUU5ZUxoWGVQV21YOW8?oc=5",
-      "locator": null,
-      "published_at": "2026-04-21"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_c290864eef",
-    "company_id": "project-prometheus",
-    "metric": "valuation",
-    "value": 38000000000.0,
-    "unit": "USD",
-    "raw_text": "$38B valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "MLQ.ai",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSlB3bHd4by1ka3hpX2dZczY1T2xpckN5d2R6OTM3UTZVdUh6YkIyaXk5MHV6cGZSNThDUk9WNmg4dUNxcmhVX3U3NEoyLW93aHRRY3l3V1Z3WDJ4Rl9SQnc0QjRFU0ZMSUgzMXhWQnNsRFVGWFFWQkhqNDM4SXJnWXZLeUlnNUU5ZUxoWGVQV21YOW8?oc=5",
-      "locator": null,
-      "published_at": "2026-04-21"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {

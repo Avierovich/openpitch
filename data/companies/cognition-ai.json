@@ -24,9 +24,9 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
+        "clm_d62389b5c4",
         "clm_8f893ec914",
         "clm_8af85998b9",
-        "clm_d62389b5c4",
         "clm_8f6f6e1af8",
         "clm_edfebc669a",
         "clm_3a0f368159",
@@ -130,10 +130,28 @@
       "contradiction": false,
       "delta": {
         "previous": 2000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-09-10"
       },
       "history_ref": "history/cognition-ai/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "open_roles": {
+      "metric": "open_roles",
+      "value": 24.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-10-22",
+      "estimate_type": "reported",
+      "confidence": 0.25,
+      "supporting_claims": [
+        "clm_3033a27390"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/cognition-ai/open_roles.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -148,7 +166,7 @@
       },
       "as_of": "2026-09-09",
       "estimate_type": "consensus",
-      "confidence": 0.646,
+      "confidence": 0.644,
       "supporting_claims": [
         "clm_98ba50d7d7",
         "clm_b05b40d3b0"
@@ -165,5 +183,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-10-22"
 }

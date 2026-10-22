@@ -1,28 +1,50 @@
 [
   {
-    "id": "clm_5ab815de56",
+    "id": "clm_4753ebced3",
     "company_id": "devin",
-    "metric": "valuation",
-    "value": 25000000000.0,
-    "unit": "USD",
-    "raw_text": "in talks to raise 'hundreds of millions' at $25B valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
+    "metric": "latest_round",
+    "value": 2000000000.0,
+    "unit": null,
+    "raw_text": "raises $2bn",
+    "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
       "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSjdTdGpZTXpJX1lHTTFUQzI0OXhiUThyOGxQQ0hjZG1GV3M0VDg0UFlRZlRQcjNDb3BhaXg1aFFESUQ1clhKdi1QYkZmTDJxUk5QcnctNHZoSWpzc3lDVTBuNEhVTWtoZEtXNkVTVG50T3phS2Fzalp0OV8zRVJ1eXN4RlNwclYyYV9yZy1JRjIxdnhjV1F4WUJqVEs0bEZrNVlsQm96N2lmdGQ4MXZKalVMckJJc0U3SFdDeU9IX3hZTDA?oc=5",
+      "name": "Silicon Republic",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTzJOd0pKR0Y3bDhJdjJaRWhzeHcydjN1ajVvQVpVei1zMDcxUy1KV21mZzE4UTU3Mk1oTG9BQzBfVmdPSDRHY3BVQXJzT2J6UzRGRkJveEhCR3Y2M1cycnZpWWJ6R0hNQ3JlM2dqN0tWYUl4WHBsRG81SzRMNkJfZDd0N1JNbkd6VVkzS3ZzR2QwN0JfTjVz?oc=5",
       "locator": null,
-      "published_at": "2026-04-23"
+      "published_at": "2026-09-09"
     },
-    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extracted_at": "2026-09-10T09:49:02.856855",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_43b37636cf",
+    "company_id": "devin",
+    "metric": "valuation",
+    "value": 48000000000.0,
+    "unit": null,
+    "raw_text": "$48bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Silicon Republic",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTzJOd0pKR0Y3bDhJdjJaRWhzeHcydjN1ajVvQVpVei1zMDcxUy1KV21mZzE4UTU3Mk1oTG9BQzBfVmdPSDRHY3BVQXJzT2J6UzRGRkJveEhCR3Y2M1cycnZpWWJ6R0hNQ3JlM2dqN0tWYUl4WHBsRG81SzRMNkJfZDd0N1JNbkd6VVkzS3ZzR2QwN0JfTjVz?oc=5",
+      "locator": null,
+      "published_at": "2026-09-09"
+    },
+    "extracted_at": "2026-09-10T09:49:02.856855",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -49,6 +71,32 @@
     "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.54,
+    "derivation": null
+  },
+  {
+    "id": "clm_5ab815de56",
+    "company_id": "devin",
+    "metric": "valuation",
+    "value": 25000000000.0,
+    "unit": "USD",
+    "raw_text": "in talks to raise 'hundreds of millions' at $25B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSjdTdGpZTXpJX1lHTTFUQzI0OXhiUThyOGxQQ0hjZG1GV3M0VDg0UFlRZlRQcjNDb3BhaXg1aFFESUQ1clhKdi1QYkZmTDJxUk5QcnctNHZoSWpzc3lDVTBuNEhVTWtoZEtXNkVTVG50T3phS2Fzalp0OV8zRVJ1eXN4RlNwclYyYV9yZy1JRjIxdnhjV1F4WUJqVEs0bEZrNVlsQm96N2lmdGQ4MXZKalVMckJJc0U3SFdDeU9IX3hZTDA?oc=5",
+      "locator": null,
+      "published_at": "2026-04-23"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -1247,54 +1295,6 @@
     "derivation": null
   },
   {
-    "id": "clm_4753ebced3",
-    "company_id": "devin",
-    "metric": "latest_round",
-    "value": 2000000000.0,
-    "unit": null,
-    "raw_text": "raises $2bn",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Silicon Republic",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTzJOd0pKR0Y3bDhJdjJaRWhzeHcydjN1ajVvQVpVei1zMDcxUy1KV21mZzE4UTU3Mk1oTG9BQzBfVmdPSDRHY3BVQXJzT2J6UzRGRkJveEhCR3Y2M1cycnZpWWJ6R0hNQ3JlM2dqN0tWYUl4WHBsRG81SzRMNkJfZDd0N1JNbkd6VVkzS3ZzR2QwN0JfTjVz?oc=5",
-      "locator": null,
-      "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-10T09:49:02.856855",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_43b37636cf",
-    "company_id": "devin",
-    "metric": "valuation",
-    "value": 48000000000.0,
-    "unit": null,
-    "raw_text": "$48bn valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Silicon Republic",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTzJOd0pKR0Y3bDhJdjJaRWhzeHcydjN1ajVvQVpVei1zMDcxUy1KV21mZzE4UTU3Mk1oTG9BQzBfVmdPSDRHY3BVQXJzT2J6UzRGRkJveEhCR3Y2M1cycnZpWWJ6R0hNQ3JlM2dqN0tWYUl4WHBsRG81SzRMNkJfZDd0N1JNbkd6VVkzS3ZzR2QwN0JfTjVz?oc=5",
-      "locator": null,
-      "published_at": "2026-09-09"
-    },
-    "extracted_at": "2026-09-10T09:49:02.856855",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_cda6a88752",
     "company_id": "devin",
     "metric": "round_amount",
@@ -2136,7 +2136,7 @@
       "locator": null,
       "published_at": "2026-05-27"
     },
-    "extracted_at": "2026-10-21T10:17:02.064836",
+    "extracted_at": "2026-10-22T10:37:55.971484",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2608,
     "derivation": {

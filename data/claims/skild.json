@@ -100,6 +100,32 @@
     "derivation": null
   },
   {
+    "id": "clm_8f5246bd74",
+    "company_id": "skild",
+    "metric": "arr",
+    "value": 100000000.0,
+    "unit": "USD",
+    "raw_text": "Skild AI hit $100M in run-rate revenue",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBTVm5nbU5PX0dGV2ZvaVo0MGZzV0sxdmRwdFFoM2x4aWJySGhmVjRJbUVSb3R6MHRiZ2M4dHNhTmlfTjV1cHVqRFNDNXo4d0QydFozbGRKanppdXN1dHBYbDZqYndUcGU5NUUw?oc=5",
+      "locator": null,
+      "published_at": "2026-09-10"
+    },
+    "extracted_at": "2026-10-22T10:37:55.971484",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3375,
+    "derivation": null
+  },
+  {
     "id": "clm_253cfb132f",
     "company_id": "skild",
     "metric": "arr",
@@ -1320,7 +1346,7 @@
       "locator": null,
       "published_at": "2026-09-10"
     },
-    "extracted_at": "2026-10-21T10:17:02.064836",
+    "extracted_at": "2026-10-22T10:37:55.971484",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {

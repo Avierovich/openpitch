@@ -270,32 +270,6 @@
     "derivation": null
   },
   {
-    "id": "clm_bd6566548b",
-    "company_id": "moonshot",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": "USD",
-    "raw_text": "$50 billion valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "PressReader",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdWRhNkZ2MENoeC1FTGlYQjBLUjZrdG50eHpSY2E2bEtJTHJOZ2w0b1Y5MUYwd0dzMXZaYXdCanlGc3hRN2NnR3dlendIU09IVm1qeExqQnQ3SXBpd1dpWUFnbzVJU1Z2VC1TYVRXcWtlNzZ1V2RZYVBLaTg1NkZ4eHhoSQ?oc=5",
-      "locator": null,
-      "published_at": "2026-10-06"
-    },
-    "extracted_at": "2026-10-15T10:02:10.844942",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_7f66f6909f",
     "company_id": "moonshot",
     "metric": "total_funding",
@@ -494,6 +468,33 @@
     "derivation": null
   },
   {
+    "id": "clm_107d297a33",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": null,
+    "raw_text": "$50 billion valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVS1VaExPMEhKbFJud3lZanAyNnYzY215aExHS3FzX3o5bWRxanU2NFU1eVl3d0xXRkdJc1JaSkJ6Q2phWUVGeVdBVE44Ry0tMUk0RDFLV2p6NWlud3hrUlFybmVIRjdUQldQT0NCVmwzeUtwOEdaelk2RHktMi10VmM2dGVmbUJaTWFRMW5yR01hZk4tM1E?oc=5",
+      "locator": null,
+      "published_at": "2026-07-21"
+    },
+    "extracted_at": "2026-09-26T09:51:51.353222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
     "id": "clm_49c6965814",
     "company_id": "moonshot",
     "metric": "valuation",
@@ -542,6 +543,32 @@
     "extracted_at": "2026-10-21T10:17:02.064836",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_bd6566548b",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "$50 billion valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "PressReader",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdWRhNkZ2MENoeC1FTGlYQjBLUjZrdG50eHpSY2E2bEtJTHJOZ2w0b1Y5MUYwd0dzMXZaYXdCanlGc3hRN2NnR3dlendIU09IVm1qeExqQnQ3SXBpd1dpWUFnbzVJU1Z2VC1TYVRXcWtlNzZ1V2RZYVBLaTg1NkZ4eHhoSQ?oc=5",
+      "locator": null,
+      "published_at": "2026-10-06"
+    },
+    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -1023,33 +1050,6 @@
     "extracted_at": "2026-09-29T11:15:32.501222",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_107d297a33",
-    "company_id": "moonshot",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": null,
-    "raw_text": "$50 billion valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVS1VaExPMEhKbFJud3lZanAyNnYzY215aExHS3FzX3o5bWRxanU2NFU1eVl3d0xXRkdJc1JaSkJ6Q2phWUVGeVdBVE44Ry0tMUk0RDFLV2p6NWlud3hrUlFybmVIRjdUQldQT0NCVmwzeUtwOEdaelk2RHktMi10VmM2dGVmbUJaTWFRMW5yR01hZk4tM1E?oc=5",
-      "locator": null,
-      "published_at": "2026-07-21"
-    },
-    "extracted_at": "2026-09-26T09:51:51.353222",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -2822,7 +2822,7 @@
       "locator": null,
       "published_at": "2026-05-07"
     },
-    "extracted_at": "2026-10-21T10:17:02.064836",
+    "extracted_at": "2026-10-22T10:37:55.971484",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

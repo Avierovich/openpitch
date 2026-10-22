@@ -9,7 +9,7 @@
   "summary": "Skild is a company that uses AI to develop autonomous vehicles and driving systems.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 84.1,
+  "vc_attention_score": 84.0,
   "universe_rank": 46,
   "metrics": {
     "round_amount": {
@@ -22,7 +22,7 @@
       },
       "as_of": "2026-08-24",
       "estimate_type": "consensus",
-      "confidence": 0.838,
+      "confidence": 0.837,
       "supporting_claims": [
         "clm_61f186a654",
         "clm_b32fa20cd6",
@@ -34,7 +34,7 @@
       "contradiction": false,
       "delta": {
         "previous": 1400000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-08-24"
       },
       "history_ref": "history/skild/round_amount.jsonl",
@@ -84,7 +84,7 @@
       "contradiction": false,
       "delta": {
         "previous": 14000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-08-24"
       },
       "history_ref": "history/skild/valuation.jsonl",
@@ -98,13 +98,18 @@
       "unit": "USD",
       "range": null,
       "as_of": "2026-09-10",
-      "estimate_type": "reported",
-      "confidence": 0.336,
+      "estimate_type": "consensus",
+      "confidence": 0.492,
       "supporting_claims": [
+        "clm_8f5246bd74",
         "clm_253cfb132f"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 100000000.0,
+        "change_pct": 0.0,
+        "since": "2026-09-10"
+      },
       "history_ref": "history/skild/arr.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -117,7 +122,7 @@
       "range": null,
       "as_of": "2026-04-16",
       "estimate_type": "consensus",
-      "confidence": 0.515,
+      "confidence": 0.514,
       "supporting_claims": [
         "clm_d7100f11b6",
         "clm_e55c4eb26b",
@@ -144,7 +149,7 @@
       },
       "as_of": "2026-01-16",
       "estimate_type": "consensus",
-      "confidence": 0.967,
+      "confidence": 0.966,
       "supporting_claims": [
         "clm_e8202326c7",
         "clm_e6a38076a7",
@@ -173,17 +178,21 @@
       "range": null,
       "as_of": "2026-09-10",
       "estimate_type": "reported",
-      "confidence": 0.162,
+      "confidence": 0.161,
       "supporting_claims": [
         "drv_002312708d"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 140.0,
+        "change_pct": 0.0,
+        "since": "2026-09-10"
+      },
       "history_ref": "history/skild/revenue_multiple.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-10-22"
 }

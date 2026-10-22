@@ -1,31 +1,5 @@
 [
   {
-    "id": "clm_bc562e180f",
-    "company_id": "hugging-face",
-    "metric": "valuation",
-    "value": 12900000000.0,
-    "unit": "USD",
-    "raw_text": "Nvidia crushes $96.2B quarter and nears $12.9B Hugging Face deal",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "20VC (Harry Stebbings)",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-crushes-quarter-and-buys-hugging-face-openai-cuts-off-cursor-instinct-hits-25bn-valuation-and-the-race-for-ai-assistants-cognition-raises-at-46bn-linear-25bn-and-clay-7bn",
-      "locator": null,
-      "published_at": "2026-09-03"
-    },
-    "extracted_at": "2026-09-24T09:50:31.335914",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.252,
-    "derivation": null
-  },
-  {
     "id": "clm_6176934bd6",
     "company_id": "hugging-face",
     "metric": "valuation",
@@ -79,6 +53,32 @@
     "derivation": null
   },
   {
+    "id": "clm_bc562e180f",
+    "company_id": "hugging-face",
+    "metric": "valuation",
+    "value": 12900000000.0,
+    "unit": "USD",
+    "raw_text": "Nvidia crushes $96.2B quarter and nears $12.9B Hugging Face deal",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "20VC (Harry Stebbings)",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-crushes-quarter-and-buys-hugging-face-openai-cuts-off-cursor-instinct-hits-25bn-valuation-and-the-race-for-ai-assistants-cognition-raises-at-46bn-linear-25bn-and-clay-7bn",
+      "locator": null,
+      "published_at": "2026-09-03"
+    },
+    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.252,
+    "derivation": null
+  },
+  {
     "id": "clm_9d354cf659",
     "company_id": "hugging-face",
     "metric": "valuation",
@@ -102,6 +102,30 @@
     "extracted_at": "2026-09-24T09:50:31.335914",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_6a91bcf2a7",
+    "company_id": "hugging-face",
+    "metric": "valuation",
+    "value": 399.0,
+    "unit": null,
+    "raw_text": "Hugging Face built a $399 open-source robot duck as a side quest",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "This Week in Startups",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-09-18"
+    },
+    "extracted_at": "2026-10-22T10:37:55.971484",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.6,
     "derivation": null
   },
   {
@@ -281,30 +305,6 @@
     "extracted_at": "2026-10-06T12:25:15.330748",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_6a91bcf2a7",
-    "company_id": "hugging-face",
-    "metric": "valuation",
-    "value": 399.0,
-    "unit": null,
-    "raw_text": "$399 open-source robot duck",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "This Week in Startups",
-      "url": null,
-      "locator": null,
-      "published_at": "2026-09-18"
-    },
-    "extracted_at": "2026-10-08T12:05:08.457629",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3,
     "derivation": null
   },
   {
@@ -971,10 +971,10 @@
     "derivation": null
   },
   {
-    "id": "drv_7876bfca29",
+    "id": "drv_e2045bd9d3",
     "company_id": "hugging-face",
     "metric": "revenue_multiple",
-    "value": 86.0,
+    "value": 0.0,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -987,16 +987,16 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-09-03"
+      "published_at": "2026-09-18"
     },
-    "extracted_at": "2026-10-21T10:17:02.064836",
+    "extracted_at": "2026-10-22T10:37:55.971484",
     "extractor_model": "derive-engine",
-    "base_confidence": 0.1811,
+    "base_confidence": 0.2898,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_ab9c8336bd",
+        "clm_6a91bcf2a7",
         "clm_82f978a20b"
       ]
     }

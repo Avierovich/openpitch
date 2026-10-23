@@ -26,32 +26,6 @@
     "derivation": null
   },
   {
-    "id": "clm_f825a917b4",
-    "company_id": "figure-ai",
-    "metric": "valuation",
-    "value": 39000000000.0,
-    "unit": "USD",
-    "raw_text": "$39B valuation",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV3RsM2l6aGE2WnI5Y3h3ckdaN0k2dm5QQUxGVk9YUXpEOWhFTWtxSXdZRFBpLVo0NmhQbGcyczhWVldGdmJ1UFQyZTRSQ0F0NTFYLTRGdjhNbHlhcy1XLUY3M3h5NXZINUF1bXVENEhCeHoyZDZqM1VZMXBQSUp5MWlFZllCakc2?oc=5",
-      "locator": null,
-      "published_at": "2025-09-16"
-    },
-    "extracted_at": "2026-10-18T09:51:31.885333",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
     "id": "clm_0cbcba21b0",
     "company_id": "figure-ai",
     "metric": "total_funding",
@@ -76,6 +50,80 @@
     "extracted_at": "2026-09-21T10:38:28.440880",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_e12ab3f770",
+    "company_id": "figure-ai",
+    "metric": "valuation",
+    "value": 39000000000.0,
+    "unit": null,
+    "raw_text": "Figure AI's $39 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB1REw3Z0pNT19jcmhpRHk1aGNoRGtPRlItVWd0N2xKaVJwbHFRUXdra2xmSDBYN1BoU1pGZV94Uzh2V0J2ODNMaWxFZkptN2hBUTBpWFo0OThRQTA4cEkzYg?oc=5",
+      "locator": null,
+      "published_at": "2026-03-26"
+    },
+    "extracted_at": "2026-10-23T10:33:17.606078",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_fc88704b20",
+    "company_id": "figure-ai",
+    "metric": "valuation",
+    "value": 2600000000.0,
+    "unit": null,
+    "raw_text": "valued at $2.6 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQTkzZ2V3NWFURi0wSDlvbnpKcVQ4OGNVcldQajY1cmtXR2t4a0R0SlRMeDl0dy1PUERfeXMyQ1gzOUVkUlUxckQ5N29rUkl2dXZlUGRKUEtOd2hnTThPLUdkV0JmTHVfclpCZXVPVHl1WDZybVh4ZWpQVGZTbzZlQVI3R05KWVFSQ0VhZ3ktdkhsbTl1ZVk3LXZuQ3ZXbXB3Ni1adENmeXlhUdIBrwFBVV95cUxOQ09wZUlNaUxBTmFQcURYeGdNazl5emhvVC1MOWJvczBuNllmZUtVOXVidFk3MWRGTjB0dXdpNXZva29TeXRtR19nSTBzZDdhTDVLelVja0ZPQ1d5ekxmUUJkbi02cHRiY0d0MjNQTlptdTdRa0hadTJwQ1Q4MUZZYXk3Tkp4eV8tTWFXR3RWWkVJLUxuVWZXMnZuXy1BREVhZUs5Rk11bkMzallscm9N?oc=5",
+      "locator": null,
+      "published_at": "2024-02-29"
+    },
+    "extracted_at": "2026-10-23T10:33:17.606078",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_f825a917b4",
+    "company_id": "figure-ai",
+    "metric": "valuation",
+    "value": 39000000000.0,
+    "unit": "USD",
+    "raw_text": "$39B valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV3RsM2l6aGE2WnI5Y3h3ckdaN0k2dm5QQUxGVk9YUXpEOWhFTWtxSXdZRFBpLVo0NmhQbGcyczhWVldGdmJ1UFQyZTRSQ0F0NTFYLTRGdjhNbHlhcy1XLUY3M3h5NXZINUF1bXVENEhCeHoyZDZqM1VZMXBQSUp5MWlFZllCakc2?oc=5",
+      "locator": null,
+      "published_at": "2025-09-16"
+    },
+    "extracted_at": "2026-10-18T09:51:31.885333",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
     "derivation": null
   },
   {

@@ -48,33 +48,10 @@
       "contradiction": false,
       "delta": {
         "previous": 15000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-03-16"
       },
       "history_ref": "history/applied-intuition/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "headcount": {
-      "metric": "headcount",
-      "value": 1000.0,
-      "unit": "count",
-      "range": null,
-      "as_of": "2026-10-22",
-      "estimate_type": "reported",
-      "confidence": 0.419,
-      "supporting_claims": [
-        "clm_da8f3aa7bb",
-        "clm_da8f3aa7bb"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1000.0,
-        "change_pct": 0.0,
-        "since": "2026-10-21"
-      },
-      "history_ref": "history/applied-intuition/headcount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -103,6 +80,30 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "headcount": {
+      "metric": "headcount",
+      "value": 1000.0,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-10-23",
+      "estimate_type": "reported",
+      "confidence": 0.564,
+      "supporting_claims": [
+        "clm_da8f3aa7bb",
+        "clm_da8f3aa7bb",
+        "clm_da8f3aa7bb"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1000.0,
+        "change_pct": 0.0,
+        "since": "2026-10-21"
+      },
+      "history_ref": "history/applied-intuition/headcount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "round_amount": {
       "metric": "round_amount",
       "value": 600000000.0,
@@ -110,7 +111,7 @@
       "range": null,
       "as_of": "2025-06-25",
       "estimate_type": "consensus",
-      "confidence": 0.484,
+      "confidence": 0.483,
       "supporting_claims": [
         "clm_700dca023d",
         "clm_1bd28580e2",
@@ -131,5 +132,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-22"
+  "last_updated": "2026-10-23"
 }

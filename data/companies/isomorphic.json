@@ -14,31 +14,32 @@
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 41256597783.49,
+      "value": 41128575119.9,
       "unit": "USD",
       "range": null,
       "as_of": "2026-10-15",
       "estimate_type": "consensus",
-      "confidence": 0.95,
+      "confidence": 0.965,
       "supporting_claims": [
-        "clm_2fd23bffdc",
-        "clm_a1ff44c87e",
-        "clm_04df096a68",
         "clm_d2c41fd551",
         "clm_a449560fc7",
+        "clm_04df096a68",
         "clm_d1cb566656",
         "clm_0c68300809",
+        "clm_2fd23bffdc",
+        "clm_2fd23bffdc",
+        "clm_9e2547b810",
+        "clm_9e2547b810",
         "clm_9aed98d8f2",
-        "clm_9e2547b810",
-        "clm_9e2547b810",
         "clm_f805bcb461",
+        "clm_a1ff44c87e",
         "clm_4733038a81",
         "clm_b526f61ace"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 41128575119.9,
-        "change_pct": 0.3,
+        "previous": 41256597783.49,
+        "change_pct": -0.3,
         "since": "2026-10-15"
       },
       "history_ref": "history/isomorphic/valuation.jsonl",
@@ -56,7 +57,7 @@
       },
       "as_of": "2026-10-09",
       "estimate_type": "consensus",
-      "confidence": 0.757,
+      "confidence": 0.755,
       "supporting_claims": [
         "clm_a5f4df6c4f",
         "clm_3668b14afd"
@@ -79,12 +80,16 @@
       "range": null,
       "as_of": "2026-05-12",
       "estimate_type": "reported",
-      "confidence": 0.42,
+      "confidence": 0.419,
       "supporting_claims": [
         "clm_09d471a692"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 2100000000.0,
+        "change_pct": 0.0,
+        "since": "2026-05-12"
+      },
       "history_ref": "history/isomorphic/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -97,17 +102,21 @@
       "range": null,
       "as_of": "2026-05-12",
       "estimate_type": "reported",
-      "confidence": 0.336,
+      "confidence": 0.335,
       "supporting_claims": [
         "clm_26de188ca1"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 2100000000.0,
+        "change_pct": 0.0,
+        "since": "2026-05-12"
+      },
       "history_ref": "history/isomorphic/round_amount.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-22"
+  "last_updated": "2026-10-23"
 }

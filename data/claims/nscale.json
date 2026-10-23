@@ -107,32 +107,6 @@
     "derivation": null
   },
   {
-    "id": "clm_4859071d2b",
-    "company_id": "nscale",
-    "metric": "valuation",
-    "value": 14600000000.0,
-    "unit": null,
-    "raw_text": "$14.6B valuation",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQejFHRXNaSGdPcHhreFIxX2o3eGkzWmhGdGFzczA1QTRUMEtTOENPdDhHSmJYRzd4bW54RkFHNHZleDRtdFJaWFAxSGRvRk1uNzdQaFVyeThGZEY5S1FPNGxTM056Z1hmdk1MNndzZWxhNDZjOU1oZHJYbGxNWTl4QWNPUVJCbkRuS1Z4TzdIblo2cGh4ZlJZaW4wbHFhemZOalR4RjFmTkxiNXFlRFNMMkNETnVYWDQ?oc=5",
-      "locator": null,
-      "published_at": "2026-09-21"
-    },
-    "extracted_at": "2026-09-22T09:56:18.399410",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
     "id": "clm_7070204690",
     "company_id": "nscale",
     "metric": "round_amount",
@@ -178,6 +152,56 @@
     "extracted_at": "2026-09-26T09:51:51.353222",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_9439b38745",
+    "company_id": "nscale",
+    "metric": "round_amount",
+    "value": 3360000000.0,
+    "unit": "USD",
+    "raw_text": "Nscale Raises $3.36 Billion in Pre-IPO Round Led by Third Point",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZWVTMjZvZVhOODlySTRpYS1VcUVaVDh3QTJGM05kb09BYm1wRC1mb1hXRGlnZ3lZMHpPRWlfajc4WTAxbEhjN0dpVHlRUzk3UGY5UDhfb1BFalFwT2FXX2ZyMHl6YmJ0cHYyb3lyTUNPN2pCaG1TdnVuTGZrOWJ1Q2lnVTRWemJOOVVvTEVrM2NZVU8x?oc=5",
+      "locator": null,
+      "published_at": "2026-09-25"
+    },
+    "extracted_at": "2026-09-26T09:51:51.353222",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_4859071d2b",
+    "company_id": "nscale",
+    "metric": "valuation",
+    "value": 14600000000.0,
+    "unit": null,
+    "raw_text": "$14.6B valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQejFHRXNaSGdPcHhreFIxX2o3eGkzWmhGdGFzczA1QTRUMEtTOENPdDhHSmJYRzd4bW54RkFHNHZleDRtdFJaWFAxSGRvRk1uNzdQaFVyeThGZEY5S1FPNGxTM056Z1hmdk1MNndzZWxhNDZjOU1oZHJYbGxNWTl4QWNPUVJCbkRuS1Z4TzdIblo2cGh4ZlJZaW4wbHFhemZOalR4RjFmTkxiNXFlRFNMMkNETnVYWDQ?oc=5",
+      "locator": null,
+      "published_at": "2026-09-21"
+    },
+    "extracted_at": "2026-09-22T09:56:18.399410",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -248,30 +272,6 @@
       "published_at": "2026-09-28"
     },
     "extracted_at": "2026-10-15T10:02:10.844942",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_9439b38745",
-    "company_id": "nscale",
-    "metric": "round_amount",
-    "value": 3360000000.0,
-    "unit": "USD",
-    "raw_text": "Nscale Raises $3.36 Billion in Pre-IPO Round Led by Third Point",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZWVTMjZvZVhOODlySTRpYS1VcUVaVDh3QTJGM05kb09BYm1wRC1mb1hXRGlnZ3lZMHpPRWlfajc4WTAxbEhjN0dpVHlRUzk3UGY5UDhfb1BFalFwT2FXX2ZyMHl6YmJ0cHYyb3lyTUNPN2pCaG1TdnVuTGZrOWJ1Q2lnVTRWemJOOVVvTEVrM2NZVU8x?oc=5",
-      "locator": null,
-      "published_at": "2026-09-25"
-    },
-    "extracted_at": "2026-09-26T09:51:51.353222",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -2323,7 +2323,7 @@
       "locator": null,
       "published_at": "2026-09-21"
     },
-    "extracted_at": "2026-10-22T10:37:55.971484",
+    "extracted_at": "2026-10-23T10:33:17.606078",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {

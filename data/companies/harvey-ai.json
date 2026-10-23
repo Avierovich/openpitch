@@ -12,24 +12,31 @@
   "vc_attention_score": 84.4,
   "universe_rank": 40,
   "metrics": {
-    "arr": {
-      "metric": "arr",
-      "value": 190000000.0,
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 535696998.72,
       "unit": "USD",
-      "range": null,
-      "as_of": "2026-07-03",
-      "estimate_type": "reported",
-      "confidence": 0.149,
+      "range": {
+        "low": 550000000.0,
+        "high": 550000000.0
+      },
+      "as_of": "2026-09-09",
+      "estimate_type": "consensus",
+      "confidence": 0.795,
       "supporting_claims": [
-        "clm_f0ae503ffa"
+        "clm_1a3e533faf",
+        "clm_404a47d2e6",
+        "clm_d97f6bcc74",
+        "clm_ca0a5003d1",
+        "clm_6d08df8883"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 190000000.0,
-        "change_pct": 0.0,
-        "since": "2026-07-03"
+        "previous": 536181453.0,
+        "change_pct": -0.1,
+        "since": "2026-09-09"
       },
-      "history_ref": "history/harvey-ai/arr.jsonl",
+      "history_ref": "history/harvey-ai/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -46,11 +53,11 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
+        "clm_7b69c6e8ae",
         "clm_b66fc3e8c8",
         "clm_29bb72d60a",
         "clm_9155b0f320",
         "clm_0c7bfa62ff",
-        "clm_7b69c6e8ae",
         "clm_15f61e4e91",
         "clm_3fe75dc87b",
         "clm_a05d24c65a",
@@ -60,7 +67,7 @@
       "contradiction": true,
       "delta": {
         "previous": 15500000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-09-10"
       },
       "history_ref": "history/harvey-ai/valuation.jsonl",
@@ -68,38 +75,31 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 536181453.0,
+    "arr": {
+      "metric": "arr",
+      "value": 190000000.0,
       "unit": "USD",
-      "range": {
-        "low": 550000000.0,
-        "high": 550000000.0
-      },
-      "as_of": "2026-09-09",
-      "estimate_type": "consensus",
-      "confidence": 0.791,
+      "range": null,
+      "as_of": "2026-07-03",
+      "estimate_type": "reported",
+      "confidence": 0.147,
       "supporting_claims": [
-        "clm_1a3e533faf",
-        "clm_404a47d2e6",
-        "clm_ca0a5003d1",
-        "clm_6d08df8883",
-        "clm_d97f6bcc74"
+        "clm_f0ae503ffa"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 536858512.14,
-        "change_pct": -0.1,
-        "since": "2026-09-09"
+        "previous": 190000000.0,
+        "change_pct": 0.0,
+        "since": "2026-07-03"
       },
-      "history_ref": "history/harvey-ai/total_funding.jsonl",
+      "history_ref": "history/harvey-ai/arr.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
     },
     "round_amount": {
       "metric": "round_amount",
-      "value": 544790433.91,
+      "value": 544792743.1,
       "unit": "USD",
       "range": {
         "low": 550000000.0,
@@ -117,7 +117,7 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 544788128.99,
+        "previous": 544790433.91,
         "change_pct": 0.0,
         "since": "2026-09-10"
       },
@@ -150,19 +150,19 @@
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 81.58,
+      "value": 57.89,
       "unit": "x",
       "range": null,
-      "as_of": "2026-08-07",
+      "as_of": "2026-07-03",
       "estimate_type": "reported",
-      "confidence": 0.096,
+      "confidence": 0.071,
       "supporting_claims": [
-        "drv_fbe541c760"
+        "drv_00a8b1275e"
       ],
       "contradiction": false,
       "delta": {
         "previous": 81.58,
-        "change_pct": 0.0,
+        "change_pct": -29.0,
         "since": "2026-08-07"
       },
       "history_ref": "history/harvey-ai/revenue_multiple.jsonl",
@@ -171,5 +171,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-22"
+  "last_updated": "2026-10-23"
 }

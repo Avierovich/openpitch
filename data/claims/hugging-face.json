@@ -105,6 +105,56 @@
     "derivation": null
   },
   {
+    "id": "clm_3673158f0f",
+    "company_id": "hugging-face",
+    "metric": "valuation",
+    "value": 12900000000.0,
+    "unit": "USD",
+    "raw_text": "Weekly Recap: NVIDIA (NVDA) $86B revenue and Hugging Face $12.9B deal",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNR3FQZlF3a1RtamU5aUx1RlA1OFpZZ2pxY3VuVU5XMGN0Um1pOHc5UXRoWGZoLUpqZFFOTXplQTVJVkVlTGNpSU5qTW42YmxyaXdxeVF2QlpSQXFMeTBfWmVrNXlhUkVTSXd4SUM4SWFDZ3EtVTBnYmMtUTJEVEJJb3ZzUXVFNDJxNkx1aUR3MGdkWVZUWjhLWF96MjhUeUZWS211THFINWtkR1RlV1dkS19UMm1Ib0gwQXhnc0NTNEVpZXdE?oc=5",
+      "locator": null,
+      "published_at": "2026-09-07"
+    },
+    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_6f99945da2",
+    "company_id": "hugging-face",
+    "metric": "subscribers",
+    "value": 16000.0,
+    "unit": null,
+    "raw_text": "sold 16,000 units off a single tweet",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "This Week in Startups",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-09-18"
+    },
+    "extracted_at": "2026-10-23T10:33:17.606078",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3,
+    "derivation": null
+  },
+  {
     "id": "clm_6a91bcf2a7",
     "company_id": "hugging-face",
     "metric": "valuation",
@@ -126,30 +176,6 @@
     "extracted_at": "2026-10-22T10:37:55.971484",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.6,
-    "derivation": null
-  },
-  {
-    "id": "clm_6f99945da2",
-    "company_id": "hugging-face",
-    "metric": "subscribers",
-    "value": 16000.0,
-    "unit": "units",
-    "raw_text": "sold 16,000 units off a single tweet",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "This Week in Startups",
-      "url": null,
-      "locator": null,
-      "published_at": "2026-09-18"
-    },
-    "extracted_at": "2026-10-21T10:17:02.064836",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.42,
     "derivation": null
   },
   {
@@ -866,32 +892,6 @@
     "derivation": null
   },
   {
-    "id": "clm_3673158f0f",
-    "company_id": "hugging-face",
-    "metric": "valuation",
-    "value": 12900000000.0,
-    "unit": "USD",
-    "raw_text": "Weekly Recap: NVIDIA (NVDA) $86B revenue and Hugging Face $12.9B deal",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNR3FQZlF3a1RtamU5aUx1RlA1OFpZZ2pxY3VuVU5XMGN0Um1pOHc5UXRoWGZoLUpqZFFOTXplQTVJVkVlTGNpSU5qTW42YmxyaXdxeVF2QlpSQXFMeTBfWmVrNXlhUkVTSXd4SUM4SWFDZ3EtVTBnYmMtUTJEVEJJb3ZzUXVFNDJxNkx1aUR3MGdkWVZUWjhLWF96MjhUeUZWS211THFINWtkR1RlV1dkS19UMm1Ib0gwQXhnc0NTNEVpZXdE?oc=5",
-      "locator": null,
-      "published_at": "2026-09-07"
-    },
-    "extracted_at": "2026-09-24T09:50:31.335914",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_671d6bb0d5",
     "company_id": "hugging-face",
     "metric": "valuation",
@@ -989,7 +989,7 @@
       "locator": null,
       "published_at": "2026-09-18"
     },
-    "extracted_at": "2026-10-22T10:37:55.971484",
+    "extracted_at": "2026-10-23T10:33:17.606078",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2898,
     "derivation": {

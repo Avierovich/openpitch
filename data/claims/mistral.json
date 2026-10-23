@@ -243,6 +243,56 @@
     "derivation": null
   },
   {
+    "id": "clm_a0046a0559",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 24000000000.0,
+    "unit": "USD",
+    "raw_text": "$24B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Global Banking & Finance Review",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM2V1UUoyUmpqOHZyaG5HZi1sTlN0bkFDdHR4Xzk5bUp4djN2R2ZfUjRNdjBwajFqb3BvZVd5YTUwTmpabndkWWxBMnhhMDRuYWdlS3hxU1IyTUF4NDNNcDYwOGdWTXJ2Mm9qVUpKY2lDUWVNcHA2bzRkNWpuWlJqeDFERUMtaEZ0OEQwQlNjNloxM0VXUmFpaWZOQXZ1eDZqLVE?oc=5",
+      "locator": null,
+      "published_at": "2026-09-08"
+    },
+    "extracted_at": "2026-09-30T11:06:00.704755",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_b18a2e2321",
+    "company_id": "mistral",
+    "metric": "total_funding",
+    "value": 100000000.0,
+    "unit": "USD",
+    "raw_text": "$100M+ seed financing",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "No Priors",
+      "url": null,
+      "locator": null,
+      "published_at": "2023-11-09"
+    },
+    "extracted_at": "2026-10-23T10:33:17.606078",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.378,
+    "derivation": null
+  },
+  {
     "id": "clm_02ceb3afde",
     "company_id": "mistral",
     "metric": "valuation",
@@ -266,33 +316,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.225,
-    "derivation": null
-  },
-  {
-    "id": "clm_b18a2e2321",
-    "company_id": "mistral",
-    "metric": "total_funding",
-    "value": 100000000.0,
-    "unit": "USD",
-    "raw_text": "$100M+",
-    "qualifiers": [
-      "rounded",
-      "approximate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "No Priors",
-      "url": null,
-      "locator": null,
-      "published_at": "2023-11-09"
-    },
-    "extracted_at": "2026-10-22T10:37:55.971484",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3213,
     "derivation": null
   },
   {
@@ -411,30 +434,6 @@
       "published_at": "2026-09-08"
     },
     "extracted_at": "2026-10-05T12:12:41.057527",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_a0046a0559",
-    "company_id": "mistral",
-    "metric": "valuation",
-    "value": 24000000000.0,
-    "unit": "USD",
-    "raw_text": "$24B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Global Banking & Finance Review",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM2V1UUoyUmpqOHZyaG5HZi1sTlN0bkFDdHR4Xzk5bUp4djN2R2ZfUjRNdjBwajFqb3BvZVd5YTUwTmpabndkWWxBMnhhMDRuYWdlS3hxU1IyTUF4NDNNcDYwOGdWTXJ2Mm9qVUpKY2lDUWVNcHA2bzRkNWpuWlJqeDFERUMtaEZ0OEQwQlNjNloxM0VXUmFpaWZOQXZ1eDZqLVE?oc=5",
-      "locator": null,
-      "published_at": "2026-09-08"
-    },
-    "extracted_at": "2026-09-30T11:06:00.704755",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -1878,7 +1877,7 @@
       "locator": null,
       "published_at": "2026-02-11"
     },
-    "extracted_at": "2026-10-22T10:37:55.971484",
+    "extracted_at": "2026-10-23T10:33:17.606078",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

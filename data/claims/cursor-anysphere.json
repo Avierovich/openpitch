@@ -172,6 +172,54 @@
     "derivation": null
   },
   {
+    "id": "clm_f4a34ca129",
+    "company_id": "cursor-anysphere",
+    "metric": "valuation",
+    "value": 9900000000.0,
+    "unit": "USD",
+    "raw_text": "$9.9B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE42Q0NuODV0N3dIWUJXM1lTaXB5UUsta2hCZnF3Tk5RdFR1VzNSWGZqMU11dFFMVDVyT2RPbFdiY1VoRFJyRDM1ZjBiSFRFTzVReWwwTjlsbGJQNmZvSm9FYzVxLVVJd2FkR3pSYVlPbU1KUExCQ1VZZXpxZ3RSdw?oc=5",
+      "locator": null,
+      "published_at": "2025-06-05"
+    },
+    "extracted_at": "2026-10-19T11:06:35.602420",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_1ffd08b69d",
+    "company_id": "cursor-anysphere",
+    "metric": "arr",
+    "value": 500000000.0,
+    "unit": "USD",
+    "raw_text": "soars past $500M ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE42Q0NuODV0N3dIWUJXM1lTaXB5UUsta2hCZnF3Tk5RdFR1VzNSWGZqMU11dFFMVDVyT2RPbFdiY1VoRFJyRDM1ZjBiSFRFTzVReWwwTjlsbGJQNmZvSm9FYzVxLVVJd2FkR3pSYVlPbU1KUExCQ1VZZXpxZ3RSdw?oc=5",
+      "locator": null,
+      "published_at": "2025-06-05"
+    },
+    "extracted_at": "2026-10-19T11:06:35.602420",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_4252edbb5f",
     "company_id": "cursor-anysphere",
     "metric": "round_amount",
@@ -297,6 +345,33 @@
     "extracted_at": "2026-10-19T11:06:35.602420",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_822f7114b8",
+    "company_id": "cursor-anysphere",
+    "metric": "valuation",
+    "value": 10000000000.0,
+    "unit": "USD",
+    "raw_text": "$10 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTmlldjNFaVR0MzJRbGJKRFpvUmRpM3ZqSUt5ekxGR21PbzlEMVdKX2tiV3VtbGNKbjVQTHhrWnY2X2phblZJM29FcjRwbmZ2N0pJbFR6OWdsRllGR0FLM1phdzA4d2VBMGN5N2ktcl9IcF9HNHh6NWxvRWRURENxX3pYTlQ?oc=5",
+      "locator": null,
+      "published_at": "2025-03-07"
+    },
+    "extracted_at": "2026-10-22T10:37:55.971484",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -478,33 +553,6 @@
     "derivation": null
   },
   {
-    "id": "clm_822f7114b8",
-    "company_id": "cursor-anysphere",
-    "metric": "valuation",
-    "value": 10000000000.0,
-    "unit": "USD",
-    "raw_text": "$10 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTmlldjNFaVR0MzJRbGJKRFpvUmRpM3ZqSUt5ekxGR21PbzlEMVdKX2tiV3VtbGNKbjVQTHhrWnY2X2phblZJM29FcjRwbmZ2N0pJbFR6OWdsRllGR0FLM1phdzA4d2VBMGN5N2ktcl9IcF9HNHh6NWxvRWRURENxX3pYTlQ?oc=5",
-      "locator": null,
-      "published_at": "2025-03-07"
-    },
-    "extracted_at": "2026-10-22T10:37:55.971484",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
     "id": "clm_cf17032c97",
     "company_id": "cursor-anysphere",
     "metric": "arr",
@@ -531,54 +579,6 @@
     "derivation": null
   },
   {
-    "id": "clm_f4a34ca129",
-    "company_id": "cursor-anysphere",
-    "metric": "valuation",
-    "value": 9900000000.0,
-    "unit": "USD",
-    "raw_text": "$9.9B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE42Q0NuODV0N3dIWUJXM1lTaXB5UUsta2hCZnF3Tk5RdFR1VzNSWGZqMU11dFFMVDVyT2RPbFdiY1VoRFJyRDM1ZjBiSFRFTzVReWwwTjlsbGJQNmZvSm9FYzVxLVVJd2FkR3pSYVlPbU1KUExCQ1VZZXpxZ3RSdw?oc=5",
-      "locator": null,
-      "published_at": "2025-06-05"
-    },
-    "extracted_at": "2026-10-19T11:06:35.602420",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_1ffd08b69d",
-    "company_id": "cursor-anysphere",
-    "metric": "arr",
-    "value": 500000000.0,
-    "unit": "USD",
-    "raw_text": "soars past $500M ARR",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE42Q0NuODV0N3dIWUJXM1lTaXB5UUsta2hCZnF3Tk5RdFR1VzNSWGZqMU11dFFMVDVyT2RPbFdiY1VoRFJyRDM1ZjBiSFRFTzVReWwwTjlsbGJQNmZvSm9FYzVxLVVJd2FkR3pSYVlPbU1KUExCQ1VZZXpxZ3RSdw?oc=5",
-      "locator": null,
-      "published_at": "2025-06-05"
-    },
-    "extracted_at": "2026-10-19T11:06:35.602420",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "drv_774c91d1a0",
     "company_id": "cursor-anysphere",
     "metric": "revenue_multiple",
@@ -597,7 +597,7 @@
       "locator": null,
       "published_at": "2026-04-18"
     },
-    "extracted_at": "2026-10-22T10:37:55.971484",
+    "extracted_at": "2026-10-23T10:33:17.606078",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

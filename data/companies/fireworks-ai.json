@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2026-07-21",
       "estimate_type": "consensus",
-      "confidence": 0.922,
+      "confidence": 0.921,
       "supporting_claims": [
         "clm_fe12e63e3c",
         "clm_86ac6d09bd",
@@ -55,8 +55,8 @@
         "clm_6f4d8eea6c",
         "clm_043a8ab3c5",
         "clm_94d66ddc8a",
-        "clm_919d83da95",
         "clm_d79dfacd90",
+        "clm_919d83da95",
         "clm_eb4ced81d5",
         "clm_651ea3262a",
         "clm_df906e8219",
@@ -81,7 +81,7 @@
       "range": null,
       "as_of": "2026-07-21",
       "estimate_type": "consensus",
-      "confidence": 0.64,
+      "confidence": 0.639,
       "supporting_claims": [
         "clm_2dec9db7c2",
         "clm_3519111fcd",
@@ -103,14 +103,18 @@
       "value": 10000.0,
       "unit": "list",
       "range": null,
-      "as_of": "2026-10-23",
+      "as_of": "2026-10-24",
       "estimate_type": "reported",
       "confidence": 0.225,
       "supporting_claims": [
         "clm_4fef42061a"
       ],
       "contradiction": false,
-      "delta": null,
+      "delta": {
+        "previous": 10000.0,
+        "change_pct": 0.0,
+        "since": "2026-10-23"
+      },
       "history_ref": "history/fireworks-ai/notable_customers.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
@@ -121,7 +125,7 @@
       "value": 83.87,
       "unit": "count",
       "range": null,
-      "as_of": "2026-10-23",
+      "as_of": "2026-10-24",
       "estimate_type": "reported",
       "confidence": 0.97,
       "supporting_claims": [
@@ -143,9 +147,9 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 83.21,
-        "change_pct": 0.8,
-        "since": "2026-10-22"
+        "previous": 83.87,
+        "change_pct": -0.0,
+        "since": "2026-10-23"
       },
       "history_ref": "history/fireworks-ai/open_roles.jsonl",
       "unconfirmed": false,
@@ -153,5 +157,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-23"
+  "last_updated": "2026-10-24"
 }

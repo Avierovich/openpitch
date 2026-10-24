@@ -192,6 +192,30 @@
     "derivation": null
   },
   {
+    "id": "clm_6071794f89",
+    "company_id": "harvey-ai",
+    "metric": "valuation",
+    "value": 11000000000.0,
+    "unit": "USD",
+    "raw_text": "$11 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQ0hkTmt5bktPNTJWc2l2NUM4LUNPZ1RsM1RvMW9GTGVHRlhmMzkzUTdvMTRxeW10ZGd6SUFYbVdTeFlrR3ZVc1ZoZTRHRU1mZXUwcW1sWEVFal9HcGxrRWZBc05fWWFhNF9FTHJ6TlpzdktZTER5dU04VzVITW1nUi02SlJDZ0hWUGg2U0FVSUQzT0c4QUpBVUxfckxIOTZ5aTZya0lCMktYZFp1M1ctZg?oc=5",
+      "locator": null,
+      "published_at": "2026-03-25"
+    },
+    "extracted_at": "2026-10-23T10:33:17.606078",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_fe369532fe",
     "company_id": "harvey-ai",
     "metric": "valuation",
@@ -344,7 +368,9 @@
     "value": 500000000.0,
     "unit": "USD",
     "raw_text": "over $500M in funding",
-    "qualifiers": [],
+    "qualifiers": [
+      "rounded"
+    ],
     "speaker": {
       "name": null,
       "role": "journalist"
@@ -356,33 +382,9 @@
       "locator": null,
       "published_at": "2025-02-14"
     },
-    "extracted_at": "2026-10-23T10:33:17.606078",
+    "extracted_at": "2026-10-24T10:01:15.454154",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.42,
-    "derivation": null
-  },
-  {
-    "id": "clm_6071794f89",
-    "company_id": "harvey-ai",
-    "metric": "valuation",
-    "value": 11000000000.0,
-    "unit": "USD",
-    "raw_text": "$11 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQ0hkTmt5bktPNTJWc2l2NUM4LUNPZ1RsM1RvMW9GTGVHRlhmMzkzUTdvMTRxeW10ZGd6SUFYbVdTeFlrR3ZVc1ZoZTRHRU1mZXUwcW1sWEVFal9HcGxrRWZBc05fWWFhNF9FTHJ6TlpzdktZTER5dU04VzVITW1nUi02SlJDZ0hWUGg2U0FVSUQzT0c4QUpBVUxfckxIOTZ5aTZya0lCMktYZFp1M1ctZg?oc=5",
-      "locator": null,
-      "published_at": "2026-03-25"
-    },
-    "extracted_at": "2026-10-23T10:33:17.606078",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
+    "base_confidence": 0.378,
     "derivation": null
   },
   {
@@ -1127,7 +1129,7 @@
       "locator": null,
       "published_at": "2026-07-03"
     },
-    "extracted_at": "2026-10-23T10:33:17.606078",
+    "extracted_at": "2026-10-24T10:01:15.454154",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

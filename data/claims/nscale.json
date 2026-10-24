@@ -1,5 +1,53 @@
 [
   {
+    "id": "clm_2f0403b605",
+    "company_id": "nscale",
+    "metric": "valuation",
+    "value": 14600000000.0,
+    "unit": null,
+    "raw_text": "$14.6bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWmtTQmVMTVdmVnFUQzQ3UDdNNTBRTVJmS3lPRUhvZlZuTFpLTWxLUmpkMDEtTXpYdGluazRsOURqOFZ5Rmx1ZWhDNGlFcDJ4WWdqelV3cW1HdktFTDg4R0R0RVJ0Z1hFUHdlUE9LcVFGdzBBWGtiR2Z4UTBfdVY1Sk1ubEo?oc=5",
+      "locator": null,
+      "published_at": "2026-03-10"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_11d9ee113c",
+    "company_id": "nscale",
+    "metric": "round_amount",
+    "value": 2000000000.0,
+    "unit": null,
+    "raw_text": "$2bn Series C",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWmtTQmVMTVdmVnFUQzQ3UDdNNTBRTVJmS3lPRUhvZlZuTFpLTWxLUmpkMDEtTXpYdGluazRsOURqOFZ5Rmx1ZWhDNGlFcDJ4WWdqelV3cW1HdktFTDg4R0R0RVJ0Z1hFUHdlUE9LcVFGdzBBWGtiR2Z4UTBfdVY1Sk1ubEo?oc=5",
+      "locator": null,
+      "published_at": "2026-03-10"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_43470b0b7e",
     "company_id": "nscale",
     "metric": "valuation",
@@ -50,6 +98,80 @@
     "extracted_at": "2026-10-20T10:08:21.911749",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_caf5eb0972",
+    "company_id": "nscale",
+    "metric": "round_amount",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "Raises $2 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSGFOVUNDaThGd2t2bUhtbW1aWl93T1dGOXVZZFRST0loc1VwZktEOGt2cG16TUNfVzZORG1leFJEX3RBOVI4QnA1c2pWOEduQ2VlM3ZLd3FZQ0tlNXFlSnI5M1l3czUzNC0zcDgyUk04cXlZdktyNWh4Y2E1RzRkQTZycw?oc=5",
+      "locator": null,
+      "published_at": "2026-03-09"
+    },
+    "extracted_at": "2026-10-24T10:01:15.454154",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_87d69e5029",
+    "company_id": "nscale",
+    "metric": "valuation",
+    "value": 14600000000.0,
+    "unit": "USD",
+    "raw_text": "Reaches $14.6 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSGFOVUNDaThGd2t2bUhtbW1aWl93T1dGOXVZZFRST0loc1VwZktEOGt2cG16TUNfVzZORG1leFJEX3RBOVI4QnA1c2pWOEduQ2VlM3ZLd3FZQ0tlNXFlSnI5M1l3czUzNC0zcDgyUk04cXlZdktyNWh4Y2E1RzRkQTZycw?oc=5",
+      "locator": null,
+      "published_at": "2026-03-09"
+    },
+    "extracted_at": "2026-10-24T10:01:15.454154",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_e5c61678cb",
+    "company_id": "nscale",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "$30B Pre-IPO Valuation",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "investor"
+    },
+    "source": {
+      "type": "news",
+      "name": "TipRanks",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaDE2YnlQNXlfZVFJMm53NlRvVzRrdmJlcHI3UmdOSm5pUEN6UXZKZFd5RkxNYTJNVUpHUTd0MmtiTTJyUUNYdW1wTzdoakJsbjhFNlFuWGtVR0xIa2pqUlluUFhyTTNyR1QweE5yWVlibUFwbzFJMl9taUJ5b0dFZkEwMFFZRGdQUnRFREJlTkJsdkNVVmsweDV6SHpqczA4algwRkdxeUFYdjBNUEJDb3RERDN3b2h6TWtNWWlnMlJ3QUU?oc=5",
+      "locator": null,
+      "published_at": "2026-10-19"
+    },
+    "extracted_at": "2026-10-24T10:01:15.454154",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.42,
     "derivation": null
   },
   {
@@ -1625,54 +1747,6 @@
     "derivation": null
   },
   {
-    "id": "clm_2f0403b605",
-    "company_id": "nscale",
-    "metric": "valuation",
-    "value": 14600000000.0,
-    "unit": null,
-    "raw_text": "$14.6bn valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWmtTQmVMTVdmVnFUQzQ3UDdNNTBRTVJmS3lPRUhvZlZuTFpLTWxLUmpkMDEtTXpYdGluazRsOURqOFZ5Rmx1ZWhDNGlFcDJ4WWdqelV3cW1HdktFTDg4R0R0RVJ0Z1hFUHdlUE9LcVFGdzBBWGtiR2Z4UTBfdVY1Sk1ubEo?oc=5",
-      "locator": null,
-      "published_at": "2026-03-10"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_11d9ee113c",
-    "company_id": "nscale",
-    "metric": "round_amount",
-    "value": 2000000000.0,
-    "unit": null,
-    "raw_text": "$2bn Series C",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWmtTQmVMTVdmVnFUQzQ3UDdNNTBRTVJmS3lPRUhvZlZuTFpLTWxLUmpkMDEtTXpYdGluazRsOURqOFZ5Rmx1ZWhDNGlFcDJ4WWdqelV3cW1HdktFTDg4R0R0RVJ0Z1hFUHdlUE9LcVFGdzBBWGtiR2Z4UTBfdVY1Sk1ubEo?oc=5",
-      "locator": null,
-      "published_at": "2026-03-10"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_b09ece551d",
     "company_id": "nscale",
     "metric": "valuation",
@@ -1930,30 +2004,6 @@
       "type": "news",
       "name": "IndexBox",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdFoza3lBSEFhd2hwOG1UbHpNTUNCUThIcVdYYlVvUHhWeGRvN2Z1S01QOVlUU0J0R3FwWGhWczhrUmpTTDk5Z1haTUlDOU03MF9tbXhsZmZ1MEFFSlJTMG1FMXFZbUJfcktTODRsX3Z6UTBzSjBIMFU1b2FXWGF6UWYwU24yQWNEdXRPOFFwUGFwTG8?oc=5",
-      "locator": null,
-      "published_at": "2026-03-09"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_87d69e5029",
-    "company_id": "nscale",
-    "metric": "valuation",
-    "value": 14600000000.0,
-    "unit": null,
-    "raw_text": "$14.6B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZkJfNE1NYUxXc1ZFVlJ6SW5ScUJFZld6XzVwcU5mNW50ZlNRdmNFT1NXaXZhOGlTcGJaQ2hXUEtkVnh5dFNKRkVMX0pxRVdkdlhWRGI1dTdjMHEzdkJiRy1IYVlQU0ZmamRJTlFDOEw4RHp3eWtVQ25FNnJ6c1dqcXotclA?oc=5",
       "locator": null,
       "published_at": "2026-03-09"
     },
@@ -2305,7 +2355,7 @@
     "derivation": null
   },
   {
-    "id": "drv_76764bae68",
+    "id": "drv_5da6045f8b",
     "company_id": "nscale",
     "metric": "revenue_multiple",
     "value": 0.14,
@@ -2321,16 +2371,16 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-09-21"
+      "published_at": "2026-09-02"
     },
-    "extracted_at": "2026-10-23T10:33:17.606078",
+    "extracted_at": "2026-10-24T10:01:15.454154",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_38763d5315",
+        "clm_87d69e5029",
         "clm_a773856afb"
       ]
     }

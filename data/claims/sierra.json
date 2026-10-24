@@ -1,53 +1,5 @@
 [
   {
-    "id": "clm_5433f26e39",
-    "company_id": "sierra",
-    "metric": "valuation",
-    "value": 15800000000.0,
-    "unit": null,
-    "raw_text": "Sierra raises $950M at $15.8B valuation, led by Tiger and GV",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdHNLNDV1RjhvcU9pSUM0M0ctZ21pT1lLTFBCX04zQjZqWUZHc3dQMzM4Z1ZvcnNtalJFd29yc1FGblp6LURwTGRla1RTS1ZHZVBpMEpnTmJkSW51MmE4dk5GcVVOSnhVLU5OYlpfRjVDUkZNalpFZ1UyOV8wOXltcTk2eFRmUnB6VGtJOTFFMy1LUEU?oc=5",
-      "locator": null,
-      "published_at": "2026-05-04"
-    },
-    "extracted_at": "2026-07-12T07:44:16.543146",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_58c5178477",
-    "company_id": "sierra",
-    "metric": "round_amount",
-    "value": 950000000.0,
-    "unit": null,
-    "raw_text": "Sierra raises $950M at $15.8B valuation, led by Tiger and GV",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdHNLNDV1RjhvcU9pSUM0M0ctZ21pT1lLTFBCX04zQjZqWUZHc3dQMzM4Z1ZvcnNtalJFd29yc1FGblp6LURwTGRla1RTS1ZHZVBpMEpnTmJkSW51MmE4dk5GcVVOSnhVLU5OYlpfRjVDUkZNalpFZ1UyOV8wOXltcTk2eFRmUnB6VGtJOTFFMy1LUEU?oc=5",
-      "locator": null,
-      "published_at": "2026-05-04"
-    },
-    "extracted_at": "2026-07-12T07:44:16.543146",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_32e3800539",
     "company_id": "sierra",
     "metric": "valuation",
@@ -96,6 +48,54 @@
     "derivation": null
   },
   {
+    "id": "clm_102515fc6f",
+    "company_id": "sierra",
+    "metric": "total_funding",
+    "value": 950000000.0,
+    "unit": null,
+    "raw_text": "Sierra raises $950M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Quartz",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rc0dZRFZ5UWxsYUpLWHplWjcxRHN1ZGpkNU05di1hMjMweFVJWTd2Yk8zMzFnT2ZnZWxZdFA1bXVMQ0ZlZTVBOGY1VHVSaFdNenlGUlRfYjVpZDZzVGpidEtuaXowTkVDRnJNdVhIN2kwV0hDUXc?oc=5",
+      "locator": null,
+      "published_at": "2026-05-04"
+    },
+    "extracted_at": "2026-10-19T11:06:35.602420",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_7d64211ae3",
+    "company_id": "sierra",
+    "metric": "valuation",
+    "value": 15800000000.0,
+    "unit": null,
+    "raw_text": "$15.8B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Quartz",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rc0dZRFZ5UWxsYUpLWHplWjcxRHN1ZGpkNU05di1hMjMweFVJWTd2Yk8zMzFnT2ZnZWxZdFA1bXVMQ0ZlZTVBOGY1VHVSaFdNenlGUlRfYjVpZDZzVGpidEtuaXowTkVDRnJNdVhIN2kwV0hDUXc?oc=5",
+      "locator": null,
+      "published_at": "2026-05-04"
+    },
+    "extracted_at": "2026-10-19T11:06:35.602420",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_0f6b0c2bab",
     "company_id": "sierra",
     "metric": "valuation",
@@ -113,6 +113,56 @@
       "type": "news",
       "name": "CNBC",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb3V5MGdNaldFNXFBd0RBTUYycjI2c0RjYjBXdGxMcllTYnpsMnlkSkFLNHNSN1FRXzczVU1vcWhKc2xYeFNCRjhhTVU4eXZzRmw4LWI4cVVRTHpZVnpZOXBXTjNZejFNZEhIQmlPQ1JfNEtWdGl4RnhMaWY4Z0I1bFRIY1IxZks0STN2YlRuanpOZmROZk5nZ2JwWS1GbDAtWFJVdDlReTBCeHJz?oc=5",
+      "locator": null,
+      "published_at": "2026-05-04"
+    },
+    "extracted_at": "2026-07-06T14:16:53.462780",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_9514602ed2",
+    "company_id": "sierra",
+    "metric": "round_amount",
+    "value": 950000000.0,
+    "unit": "USD",
+    "raw_text": "raises $950M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS2hrbHFjVWxMbklBZFdGVGtRTDNJZkJmeGRSN0l4aERyTmlYa1lvVkYyY3QzRVZnWXVsMmNVcDFRSm1ZUmxIM3YtRV81MW05REZlUjBPQ2loRWVFU0phV2FpZjZTeFNnemJMUmh6Y2c5Y3htcmhRSGFaQVBib204dFNZeXJBcmhwR1ZIR2cwTllOV1pWdmFkN1VidWt0T0xKMFZPVlhn?oc=5",
+      "locator": null,
+      "published_at": "2026-05-04"
+    },
+    "extracted_at": "2026-07-06T14:16:53.462780",
+    "extractor_model": "gemini-2.5-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_7a2d77572c",
+    "company_id": "sierra",
+    "metric": "valuation",
+    "value": 15000000000.0,
+    "unit": "USD",
+    "raw_text": "at over $15B valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS2hrbHFjVWxMbklBZFdGVGtRTDNJZkJmeGRSN0l4aERyTmlYa1lvVkYyY3QzRVZnWXVsMmNVcDFRSm1ZUmxIM3YtRV81MW05REZlUjBPQ2loRWVFU0phV2FpZjZTeFNnemJMUmh6Y2c5Y3htcmhRSGFaQVBib204dFNZeXJBcmhwR1ZIR2cwTllOV1pWdmFkN1VidWt0T0xKMFZPVlhn?oc=5",
       "locator": null,
       "published_at": "2026-05-04"
     },
@@ -169,54 +219,6 @@
     "extracted_at": "2026-10-07T11:44:32.066946",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2625,
-    "derivation": null
-  },
-  {
-    "id": "clm_9f07b3adbd",
-    "company_id": "sierra",
-    "metric": "total_funding",
-    "value": 950000000.0,
-    "unit": "USD",
-    "raw_text": "$950 Million Raised",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Pulse 2.0",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRkVmQ2JKOTNkbFdpT2xEaHJyR21NUmlidzRVU1VWWDZzOGNPMWNQYW1mU1hGSXUxMTl3LUxSZElEeFhpcWVUeXBXUF9WTVBTN3pwN0hyYTVxSXpyRjREbWpEbVNRR0NTYXBlSE90NGFzT3cwWWcxQmhUYXVleEJuYzJQLXl2MGNGd3NsamM1Y0tyN01xZU92VWt5OWtGZW5OR01MeG0yY1nSAa4BQVVfeXFMTXc0YUVISzNqZG1Rb25rSXgyb1BscVItZjU3QTVsSElsT1NHejZkdDNhdXlfcnd3T3p5MnlTOXhRQmdEWXlIZWRUcXBpQlBkaVMzS1FaUHJjUFF1MWl5VV9JcnI3NlY0R2ZNT2RtUEFLbW92UWx4dVdjcVVMR0VIR0RHRG1jTWFDcGR0QmJhTWU3VWhNSXp3M1c0aDRQTllFa3VKMXhLd3Job084Zy1n?oc=5",
-      "locator": null,
-      "published_at": "2026-05-06"
-    },
-    "extracted_at": "2026-08-26T05:56:52.356025",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_9b9e6cc50a",
-    "company_id": "sierra",
-    "metric": "valuation",
-    "value": 15000000000.0,
-    "unit": "USD",
-    "raw_text": "$15 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Pulse 2.0",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRkVmQ2JKOTNkbFdpT2xEaHJyR21NUmlidzRVU1VWWDZzOGNPMWNQYW1mU1hGSXUxMTl3LUxSZElEeFhpcWVUeXBXUF9WTVBTN3pwN0hyYTVxSXpyRjREbWpEbVNRR0NTYXBlSE90NGFzT3cwWWcxQmhUYXVleEJuYzJQLXl2MGNGd3NsamM1Y0tyN01xZU92VWt5OWtGZW5OR01MeG0yY1nSAa4BQVVfeXFMTXc0YUVISzNqZG1Rb25rSXgyb1BscVItZjU3QTVsSElsT1NHejZkdDNhdXlfcnd3T3p5MnlTOXhRQmdEWXlIZWRUcXBpQlBkaVMzS1FaUHJjUFF1MWl5VV9JcnI3NlY0R2ZNT2RtUEFLbW92UWx4dVdjcVVMR0VIR0RHRG1jTWFDcGR0QmJhTWU3VWhNSXp3M1c0aDRQTllFa3VKMXhLd3Job084Zy1n?oc=5",
-      "locator": null,
-      "published_at": "2026-05-06"
-    },
-    "extracted_at": "2026-08-26T05:56:52.356025",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -298,6 +300,54 @@
     "derivation": null
   },
   {
+    "id": "clm_9f07b3adbd",
+    "company_id": "sierra",
+    "metric": "total_funding",
+    "value": 950000000.0,
+    "unit": "USD",
+    "raw_text": "$950 Million Raised",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Pulse 2.0",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRkVmQ2JKOTNkbFdpT2xEaHJyR21NUmlidzRVU1VWWDZzOGNPMWNQYW1mU1hGSXUxMTl3LUxSZElEeFhpcWVUeXBXUF9WTVBTN3pwN0hyYTVxSXpyRjREbWpEbVNRR0NTYXBlSE90NGFzT3cwWWcxQmhUYXVleEJuYzJQLXl2MGNGd3NsamM1Y0tyN01xZU92VWt5OWtGZW5OR01MeG0yY1nSAa4BQVVfeXFMTXc0YUVISzNqZG1Rb25rSXgyb1BscVItZjU3QTVsSElsT1NHejZkdDNhdXlfcnd3T3p5MnlTOXhRQmdEWXlIZWRUcXBpQlBkaVMzS1FaUHJjUFF1MWl5VV9JcnI3NlY0R2ZNT2RtUEFLbW92UWx4dVdjcVVMR0VIR0RHRG1jTWFDcGR0QmJhTWU3VWhNSXp3M1c0aDRQTllFa3VKMXhLd3Job084Zy1n?oc=5",
+      "locator": null,
+      "published_at": "2026-05-06"
+    },
+    "extracted_at": "2026-08-26T05:56:52.356025",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_9b9e6cc50a",
+    "company_id": "sierra",
+    "metric": "valuation",
+    "value": 15000000000.0,
+    "unit": "USD",
+    "raw_text": "$15 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Pulse 2.0",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRkVmQ2JKOTNkbFdpT2xEaHJyR21NUmlidzRVU1VWWDZzOGNPMWNQYW1mU1hGSXUxMTl3LUxSZElEeFhpcWVUeXBXUF9WTVBTN3pwN0hyYTVxSXpyRjREbWpEbVNRR0NTYXBlSE90NGFzT3cwWWcxQmhUYXVleEJuYzJQLXl2MGNGd3NsamM1Y0tyN01xZU92VWt5OWtGZW5OR01MeG0yY1nSAa4BQVVfeXFMTXc0YUVISzNqZG1Rb25rSXgyb1BscVItZjU3QTVsSElsT1NHejZkdDNhdXlfcnd3T3p5MnlTOXhRQmdEWXlIZWRUcXBpQlBkaVMzS1FaUHJjUFF1MWl5VV9JcnI3NlY0R2ZNT2RtUEFLbW92UWx4dVdjcVVMR0VIR0RHRG1jTWFDcGR0QmJhTWU3VWhNSXp3M1c0aDRQTllFa3VKMXhLd3Job084Zy1n?oc=5",
+      "locator": null,
+      "published_at": "2026-05-06"
+    },
+    "extracted_at": "2026-08-26T05:56:52.356025",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_4e817963ae",
     "company_id": "sierra",
     "metric": "round_amount",
@@ -346,6 +396,54 @@
     "derivation": null
   },
   {
+    "id": "clm_5433f26e39",
+    "company_id": "sierra",
+    "metric": "valuation",
+    "value": 15800000000.0,
+    "unit": null,
+    "raw_text": "Sierra raises $950M at $15.8B valuation, led by Tiger and GV",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdHNLNDV1RjhvcU9pSUM0M0ctZ21pT1lLTFBCX04zQjZqWUZHc3dQMzM4Z1ZvcnNtalJFd29yc1FGblp6LURwTGRla1RTS1ZHZVBpMEpnTmJkSW51MmE4dk5GcVVOSnhVLU5OYlpfRjVDUkZNalpFZ1UyOV8wOXltcTk2eFRmUnB6VGtJOTFFMy1LUEU?oc=5",
+      "locator": null,
+      "published_at": "2026-05-04"
+    },
+    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_58c5178477",
+    "company_id": "sierra",
+    "metric": "round_amount",
+    "value": 950000000.0,
+    "unit": null,
+    "raw_text": "Sierra raises $950M at $15.8B valuation, led by Tiger and GV",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdHNLNDV1RjhvcU9pSUM0M0ctZ21pT1lLTFBCX04zQjZqWUZHc3dQMzM4Z1ZvcnNtalJFd29yc1FGblp6LURwTGRla1RTS1ZHZVBpMEpnTmJkSW51MmE4dk5GcVVOSnhVLU5OYlpfRjVDUkZNalpFZ1UyOV8wOXltcTk2eFRmUnB6VGtJOTFFMy1LUEU?oc=5",
+      "locator": null,
+      "published_at": "2026-05-04"
+    },
+    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_6a733c217e",
     "company_id": "sierra",
     "metric": "valuation",
@@ -369,54 +467,6 @@
     "extracted_at": "2026-10-04T11:05:13.664288",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_102515fc6f",
-    "company_id": "sierra",
-    "metric": "total_funding",
-    "value": 950000000.0,
-    "unit": null,
-    "raw_text": "Sierra raises $950M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Quartz",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rc0dZRFZ5UWxsYUpLWHplWjcxRHN1ZGpkNU05di1hMjMweFVJWTd2Yk8zMzFnT2ZnZWxZdFA1bXVMQ0ZlZTVBOGY1VHVSaFdNenlGUlRfYjVpZDZzVGpidEtuaXowTkVDRnJNdVhIN2kwV0hDUXc?oc=5",
-      "locator": null,
-      "published_at": "2026-05-04"
-    },
-    "extracted_at": "2026-10-19T11:06:35.602420",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_7d64211ae3",
-    "company_id": "sierra",
-    "metric": "valuation",
-    "value": 15800000000.0,
-    "unit": null,
-    "raw_text": "$15.8B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Quartz",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rc0dZRFZ5UWxsYUpLWHplWjcxRHN1ZGpkNU05di1hMjMweFVJWTd2Yk8zMzFnT2ZnZWxZdFA1bXVMQ0ZlZTVBOGY1VHVSaFdNenlGUlRfYjVpZDZzVGpidEtuaXowTkVDRnJNdVhIN2kwV0hDUXc?oc=5",
-      "locator": null,
-      "published_at": "2026-05-04"
-    },
-    "extracted_at": "2026-10-19T11:06:35.602420",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -537,56 +587,6 @@
     "extracted_at": "2026-07-06T14:16:53.462780",
     "extractor_model": "gemini-2.5-flash",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_9514602ed2",
-    "company_id": "sierra",
-    "metric": "round_amount",
-    "value": 950000000.0,
-    "unit": "USD",
-    "raw_text": "raises $950M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS2hrbHFjVWxMbklBZFdGVGtRTDNJZkJmeGRSN0l4aERyTmlYa1lvVkYyY3QzRVZnWXVsMmNVcDFRSm1ZUmxIM3YtRV81MW05REZlUjBPQ2loRWVFU0phV2FpZjZTeFNnemJMUmh6Y2c5Y3htcmhRSGFaQVBib204dFNZeXJBcmhwR1ZIR2cwTllOV1pWdmFkN1VidWt0T0xKMFZPVlhn?oc=5",
-      "locator": null,
-      "published_at": "2026-05-04"
-    },
-    "extracted_at": "2026-07-06T14:16:53.462780",
-    "extractor_model": "gemini-2.5-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_7a2d77572c",
-    "company_id": "sierra",
-    "metric": "valuation",
-    "value": 15000000000.0,
-    "unit": "USD",
-    "raw_text": "at over $15B valuation",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS2hrbHFjVWxMbklBZFdGVGtRTDNJZkJmeGRSN0l4aERyTmlYa1lvVkYyY3QzRVZnWXVsMmNVcDFRSm1ZUmxIM3YtRV81MW05REZlUjBPQ2loRWVFU0phV2FpZjZTeFNnemJMUmh6Y2c5Y3htcmhRSGFaQVBib204dFNZeXJBcmhwR1ZIR2cwTllOV1pWdmFkN1VidWt0T0xKMFZPVlhn?oc=5",
-      "locator": null,
-      "published_at": "2026-05-04"
-    },
-    "extracted_at": "2026-07-06T14:16:53.462780",
-    "extractor_model": "gemini-2.5-flash",
-    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -1437,7 +1437,7 @@
       "locator": null,
       "published_at": "2026-07-04"
     },
-    "extracted_at": "2026-10-23T10:33:17.606078",
+    "extracted_at": "2026-10-24T10:01:15.454154",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1826,
     "derivation": {

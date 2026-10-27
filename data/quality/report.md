@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-10-24
+# OpenPitch Data Quality Report - 2026-10-27
 
 ## Summary
 
-- Profiles generated: 650
-- Watchlist candidates: 1346
+- Profiles generated: 658
+- Watchlist candidates: 1347
 - Top-50 cards: 50
-- Profiles with at least one metric: 637
-- Critical issues: 118
+- Profiles with at least one metric: 645
+- Critical issues: 119
 - Warnings: 19
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 694
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 687
 
 ## Top-50 Companies With No Metrics
 
@@ -97,6 +97,7 @@ None.
 - Collective Health
 - Comet
 - Commonwealth Fusion Systems
+- Corti
 - Deep Genomics
 - DeepInfra
 - Demandbase

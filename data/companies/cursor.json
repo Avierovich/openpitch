@@ -9,18 +9,20 @@
   "summary": "Cursor is an AI-powered code editor designed to enhance developer productivity by integrating large language models directly into the development environment. It helps programmers write, debug, and understand code more efficiently.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 88.8,
+  "vc_attention_score": 88.7,
   "universe_rank": 13,
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 52356551417.36,
+      "value": 51511325835.9,
       "unit": "USD",
       "range": null,
       "as_of": "2026-08-20",
       "estimate_type": "consensus",
-      "confidence": 0.502,
+      "confidence": 0.662,
       "supporting_claims": [
+        "clm_ee409506ce",
+        "clm_633b437239",
         "clm_5ea7602f65",
         "clm_9eeda48e13",
         "clm_0d357d9735",
@@ -29,29 +31,29 @@
       "contradiction": false,
       "delta": {
         "previous": 52356551417.36,
-        "change_pct": 0.0,
+        "change_pct": -1.6,
         "since": "2026-08-20"
       },
       "history_ref": "history/cursor/valuation.jsonl",
       "unconfirmed": true,
-      "confirmed_value": 29300000000.0,
-      "confirmed_as_of": "2025-11-13"
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "arr": {
       "metric": "arr",
-      "value": 500000000.0,
+      "value": 2000000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2025-06-05",
+      "as_of": "2026-04-18",
       "estimate_type": "reported",
-      "confidence": 0.006,
+      "confidence": 0.076,
       "supporting_claims": [
-        "clm_fda2121cf5"
+        "clm_51b055e693"
       ],
       "contradiction": false,
       "delta": {
         "previous": 500000000.0,
-        "change_pct": -0.0,
+        "change_pct": 300.0,
         "since": "2025-06-05"
       },
       "history_ref": "history/cursor/arr.jsonl",
@@ -61,41 +63,42 @@
     },
     "round_amount": {
       "metric": "round_amount",
-      "value": 2300000000.0,
+      "value": 2000000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2025-11-13",
-      "estimate_type": "reported",
-      "confidence": 0.204,
+      "as_of": "2026-04-19",
+      "estimate_type": "consensus",
+      "confidence": 0.295,
       "supporting_claims": [
-        "clm_63eaea0886"
+        "clm_526f0481a6",
+        "clm_bc2151a162"
       ],
       "contradiction": false,
       "delta": {
         "previous": 2300000000.0,
-        "change_pct": 0.0,
+        "change_pct": -13.0,
         "since": "2025-11-13"
       },
       "history_ref": "history/cursor/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
+      "unconfirmed": true,
+      "confirmed_value": 2300000000.0,
+      "confirmed_as_of": "2025-11-13"
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 58.6,
+      "value": 58.0,
       "unit": "x",
       "range": null,
-      "as_of": "2025-11-13",
+      "as_of": "2025-12-11",
       "estimate_type": "reported",
-      "confidence": 0.01,
+      "confidence": 0.018,
       "supporting_claims": [
-        "drv_b6d558cbbc"
+        "drv_8ed556c040"
       ],
       "contradiction": false,
       "delta": {
         "previous": 58.6,
-        "change_pct": 0.0,
+        "change_pct": -1.0,
         "since": "2025-11-13"
       },
       "history_ref": "history/cursor/revenue_multiple.jsonl",
@@ -104,5 +107,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-10-27"
 }

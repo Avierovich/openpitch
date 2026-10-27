@@ -104,36 +104,39 @@
     "derivation": null
   },
   {
-    "id": "clm_579f57f4c4",
-    "company_id": "openai",
-    "metric": "subscribers",
-    "value": 300000000.0,
-    "unit": null,
-    "raw_text": "More than 300 million people use ChatGPT for health and wellness questions each week",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "exec"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "The a16z Show",
-      "url": "https://a16z.simplecast.com/episodes/what-happens-when-everyone-has-a-health-expert-in-their-pocket-openais-karan-singhal-OIiX2t5T",
-      "locator": null,
-      "published_at": "2026-10-20"
-    },
-    "extracted_at": "2026-10-20T10:08:21.911749",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.6,
-    "derivation": null
-  },
-  {
-    "id": "clm_7f6254a422",
+    "id": "clm_976d940ce9",
     "company_id": "openai",
     "metric": "round_amount",
     "value": 30000000000.0,
     "unit": "USD",
-    "raw_text": "up to $30 billion funding round",
+    "raw_text": "$30B",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPM29SaklkbG0weV9VVHlqa2ZXUFEzNk1xZElNanRadVZyT3lHOUZYV1VLZ1hPaDZXVmpURXVFeGNXNnM3cmVPNTQyb1FJM0RpSV9YaXNLVi1XbjlLcEpaUFFta3c1Wm93MUdGWHpXQktabDd5N3JOb2s1TWwwejFydUUxb1R6N1Vxc1lDZXJ6eGxWOTNjZHR2eXdaVG1lcEF0MHlOTlVicTZ3UmM2TElkM1IteUhISHQ0NlYyRUZLQTN5ZUNSTVpodUtBSHBOdw?oc=5",
+      "locator": null,
+      "published_at": "2026-10-23"
+    },
+    "extracted_at": "2026-10-24T10:01:15.454154",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_5307b75f7e",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1250000000000.0,
+    "unit": "USD",
+    "raw_text": "$1.25T valuation",
     "qualifiers": [
       "unconfirmed"
     ],
@@ -144,39 +147,65 @@
     "source": {
       "type": "news",
       "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPamllenVLbTdCUmY5WlAtbEpIb0RIbm02RWtPWF9HR3pBU2pvcUhUTDJteUdlS1BrVmpsNE11OFJIWV9VQU1lbEVoUVEtSU9RWXZIT0Y1bURSWnJsZHR5ZC1iODZ1XzB1VHZIRnpOQXZ5WHBfMTBVSzNuVnFYM0NMMzRaajhhVnZ6dTB5TktYUVI5dndGN0NUNzJuVE9OR1FyLUhod2ZWZEpUdXdfYnYzOE9YbU1yRDVf?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPM29SaklkbG0weV9VVHlqa2ZXUFEzNk1xZElNanRadVZyT3lHOUZYV1VLZ1hPaDZXVmpURXVFeGNXNnM3cmVPNTQyb1FJM0RpSV9YaXNLVi1XbjlLcEpaUFFta3c1Wm93MUdGWHpXQktabDd5N3JOb2s1TWwwejFydUUxb1R6N1Vxc1lDZXJ6eGxWOTNjZHR2eXdaVG1lcEF0MHlOTlVicTZ3UmM2TElkM1IteUhISHQ0NlYyRUZLQTN5ZUNSTVpodUtBSHBOdw?oc=5",
       "locator": null,
-      "published_at": "2026-10-22"
+      "published_at": "2026-10-23"
     },
-    "extracted_at": "2026-10-23T10:33:17.606078",
+    "extracted_at": "2026-10-24T10:01:15.454154",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
     "derivation": null
   },
   {
-    "id": "clm_ecda153894",
+    "id": "clm_59bf73f0af",
     "company_id": "openai",
-    "metric": "valuation",
-    "value": 1250000000000.0,
+    "metric": "round_amount",
+    "value": 30000000000.0,
     "unit": "USD",
-    "raw_text": "$1.25 trillion valuation",
+    "raw_text": "$30 billion funding round",
     "qualifiers": [
-      "unconfirmed"
+      "forward_looking"
     ],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
       "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPamllenVLbTdCUmY5WlAtbEpIb0RIbm02RWtPWF9HR3pBU2pvcUhUTDJteUdlS1BrVmpsNE11OFJIWV9VQU1lbEVoUVEtSU9RWXZIT0Y1bURSWnJsZHR5ZC1iODZ1XzB1VHZIRnpOQXZ5WHBfMTBVSzNuVnFYM0NMMzRaajhhVnZ6dTB5TktYUVI5dndGN0NUNzJuVE9OR1FyLUhod2ZWZEpUdXdfYnYzOE9YbU1yRDVf?oc=5",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUDJQanpaYk12dWRPUnlUMGphTXY3eUxMejZmNEw2SmRsZzQ2OXFlUlVYakRscmt4akVENzJldU4zeXVBNXBnajJvemQ5LTdyZ09hZnZwaGVWeDdzMVdMSVE2UDNGcEZwT2w1aERVZDF2LS1xREpJTW1ORnMyZEpUMkVxS0lZeEY5czRFNVdKb1BkaWZvMGk2dnNpUFpBZw?oc=5",
       "locator": null,
-      "published_at": "2026-10-22"
+      "published_at": "2026-09-29"
     },
-    "extracted_at": "2026-10-23T10:33:17.606078",
+    "extracted_at": "2026-09-30T11:06:00.704755",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
+    "base_confidence": 0.2625,
+    "derivation": null
+  },
+  {
+    "id": "clm_9b566c614f",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1400000000000.0,
+    "unit": "USD",
+    "raw_text": "$1.4 trillion valuation",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUDJQanpaYk12dWRPUnlUMGphTXY3eUxMejZmNEw2SmRsZzQ2OXFlUlVYakRscmt4akVENzJldU4zeXVBNXBnajJvemQ5LTdyZ09hZnZwaGVWeDdzMVdMSVE2UDNGcEZwT2w1aERVZDF2LS1xREpJTW1ORnMyZEpUMkVxS0lZeEY5czRFNVdKb1BkaWZvMGk2dnNpUFpBZw?oc=5",
+      "locator": null,
+      "published_at": "2026-09-29"
+    },
+    "extracted_at": "2026-09-30T11:06:00.704755",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2625,
     "derivation": null
   },
   {
@@ -234,6 +263,82 @@
     "derivation": null
   },
   {
+    "id": "clm_17c760ff7a",
+    "company_id": "openai",
+    "metric": "round_amount",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "raise $30 billion in new funding round",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbEhOQXlaNkpJUEpJUl9MUmVEVUlHcVBjUGExTE9OcUZsVnNSdEt6NjZYZjl2QXZ3YjNuNGE2NDlFQ3hmUWQyYUFDbkd4TE12ekVmWHExN2pWVndMMUVuMEF1ZnpMRnpjTFNJX01HRkd2SERMNWR0RFBLcDlDSlloSFVoRUMycHkzRlhidW52T1pUM0RvNnhRNTc2MnVZQ2Zha2dXaDRneWFZMU1jT1BHUURFbGcyQ19sNG81Ymp6TGwxekZSbklv?oc=5",
+      "locator": null,
+      "published_at": "2026-09-29"
+    },
+    "extracted_at": "2026-09-30T11:06:00.704755",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2625,
+    "derivation": null
+  },
+  {
+    "id": "clm_da0ea6512b",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1400000000000.0,
+    "unit": "USD",
+    "raw_text": "$1.4 trillion valuation",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbEhOQXlaNkpJUEpJUl9MUmVEVUlHcVBjUGExTE9OcUZsVnNSdEt6NjZYZjl2QXZ3YjNuNGE2NDlFQ3hmUWQyYUFDbkd4TE12ekVmWHExN2pWVndMMUVuMEF1ZnpMRnpjTFNJX01HRkd2SERMNWR0RFBLcDlDSlloSFVoRUMycHkzRlhidW52T1pUM0RvNnhRNTc2MnVZQ2Zha2dXaDRneWFZMU1jT1BHUURFbGcyQ19sNG81Ymp6TGwxekZSbklv?oc=5",
+      "locator": null,
+      "published_at": "2026-09-29"
+    },
+    "extracted_at": "2026-09-30T11:06:00.704755",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2625,
+    "derivation": null
+  },
+  {
+    "id": "clm_579f57f4c4",
+    "company_id": "openai",
+    "metric": "subscribers",
+    "value": 300000000.0,
+    "unit": null,
+    "raw_text": "More than 300 million people use ChatGPT for health and wellness questions each week",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "The a16z Show",
+      "url": "https://a16z.simplecast.com/episodes/what-happens-when-everyone-has-a-health-expert-in-their-pocket-openais-karan-singhal-OIiX2t5T",
+      "locator": null,
+      "published_at": "2026-10-20"
+    },
+    "extracted_at": "2026-10-20T10:08:21.911749",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.6,
+    "derivation": null
+  },
+  {
     "id": "clm_807dcb866b",
     "company_id": "openai",
     "metric": "round_amount",
@@ -246,7 +351,7 @@
     ],
     "speaker": {
       "name": null,
-      "role": "investor"
+      "role": "unknown"
     },
     "source": {
       "type": "podcast",
@@ -255,9 +360,9 @@
       "locator": null,
       "published_at": "2026-10-24"
     },
-    "extracted_at": "2026-10-24T10:01:15.454154",
+    "extracted_at": "2026-10-27T11:13:23.267375",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2016,
+    "base_confidence": 0.126,
     "derivation": null
   },
   {
@@ -268,11 +373,12 @@
     "unit": "USD",
     "raw_text": "$1.25 trillion valuation",
     "qualifiers": [
-      "unconfirmed"
+      "unconfirmed",
+      "forward_looking"
     ],
     "speaker": {
       "name": null,
-      "role": "investor"
+      "role": "unknown"
     },
     "source": {
       "type": "podcast",
@@ -281,9 +387,117 @@
       "locator": null,
       "published_at": "2026-10-24"
     },
-    "extracted_at": "2026-10-24T10:01:15.454154",
+    "extracted_at": "2026-10-27T11:13:23.267375",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.288,
+    "base_confidence": 0.126,
+    "derivation": null
+  },
+  {
+    "id": "clm_2f27f2f63d",
+    "company_id": "openai",
+    "metric": "round_amount",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "$30 billion funding",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTW5MdG1uUmc5OGRYalhONHdTSDZpOXQ4Y09pNF9Bc2tBb3RwYksyZ0d5V0J1SHI2akpadEVlUnJjNUVGRnVDVmtJTktRaGVfNWVVRUdlX2hXdlotYkJZZU56b0NHclcwb3ZCcWhzWGVhcXNPWDRBSC1acUoxUkRTVXhmUmw1dVhQRUlxVkIyOUhNLVA1Rko5dFNVMlVKekVSZnl0UE5OQnRJUEl5eEFYTEpxM3VfSnlSWGJCTXItbjJmUllQZnRKNlYyQVRxaUU?oc=5",
+      "locator": null,
+      "published_at": "2026-09-29"
+    },
+    "extracted_at": "2026-10-27T11:13:23.267375",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
+    "id": "clm_a45ae34b3e",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1400000000000.0,
+    "unit": "USD",
+    "raw_text": "$1.4 trillion valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTW5MdG1uUmc5OGRYalhONHdTSDZpOXQ4Y09pNF9Bc2tBb3RwYksyZ0d5V0J1SHI2akpadEVlUnJjNUVGRnVDVmtJTktRaGVfNWVVRUdlX2hXdlotYkJZZU56b0NHclcwb3ZCcWhzWGVhcXNPWDRBSC1acUoxUkRTVXhmUmw1dVhQRUlxVkIyOUhNLVA1Rko5dFNVMlVKekVSZnl0UE5OQnRJUEl5eEFYTEpxM3VfSnlSWGJCTXItbjJmUllQZnRKNlYyQVRxaUU?oc=5",
+      "locator": null,
+      "published_at": "2026-09-29"
+    },
+    "extracted_at": "2026-10-27T11:13:23.267375",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
+    "id": "clm_f1ca0d37a4",
+    "company_id": "openai",
+    "metric": "round_amount",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "$30B round",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNblV0WWJzZ0RnY3FjdUdfV0F5Q2FYb1AwU0JEQ1dwblk5YkVQRUdTTDZYa2thUnZqSDZzbkstZzZtOXE4d1BqN2VHUUlnV1FXQ3VxcVpwUG80ZEhMN0R6dm9sWDZQeVRHajVFbGlRUUNVS0pJWXhJSHJJNWtzb05ubHA4ZTRka0xsMkNuODJaWThNSm95NEMwRGhwdlh0b3pHSjBRZlRQM1I4aDg?oc=5",
+      "locator": null,
+      "published_at": "2026-10-23"
+    },
+    "extracted_at": "2026-10-27T11:13:23.267375",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
+    "id": "clm_2d7ecb7eb5",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1250000000000.0,
+    "unit": "USD",
+    "raw_text": "$1.25T valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNblV0WWJzZ0RnY3FjdUdfV0F5Q2FYb1AwU0JEQ1dwblk5YkVQRUdTTDZYa2thUnZqSDZzbkstZzZtOXE4d1BqN2VHUUlnV1FXQ3VxcVpwUG80ZEhMN0R6dm9sWDZQeVRHajVFbGlRUUNVS0pJWXhJSHJJNWtzb05ubHA4ZTRka0xsMkNuODJaWThNSm95NEMwRGhwdlh0b3pHSjBRZlRQM1I4aDg?oc=5",
+      "locator": null,
+      "published_at": "2026-10-23"
+    },
+    "extracted_at": "2026-10-27T11:13:23.267375",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
     "derivation": null
   },
   {
@@ -331,112 +545,6 @@
       "type": "news",
       "name": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRk9GdU82R1QxNGZ2NlRiRm5zVVZoVDF6eUlXdTZLNGpFR3pqT05fdUdMLXJjTERhLXRvMGFCQmRmVWFsWjM3cEZoS3o2NzJKaks1cFJWbDhoeWlXeFRvNUMwb25DZzFKTmVMMkkzWDdXaC1QdVhHeWpfMGw5U2RfT1FaVVJGZldEZ1ptOHVJMVJZdGlZUEdtaXN5UnVoZjdOeWZPRzBScTVLOU1EQzkydU00MUI1c2JKVmlibVRhMHJVemZ0QkwzLXhTelB3cFE?oc=5",
-      "locator": null,
-      "published_at": "2026-10-23"
-    },
-    "extracted_at": "2026-10-24T10:01:15.454154",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_976d940ce9",
-    "company_id": "openai",
-    "metric": "round_amount",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "$30B",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPM29SaklkbG0weV9VVHlqa2ZXUFEzNk1xZElNanRadVZyT3lHOUZYV1VLZ1hPaDZXVmpURXVFeGNXNnM3cmVPNTQyb1FJM0RpSV9YaXNLVi1XbjlLcEpaUFFta3c1Wm93MUdGWHpXQktabDd5N3JOb2s1TWwwejFydUUxb1R6N1Vxc1lDZXJ6eGxWOTNjZHR2eXdaVG1lcEF0MHlOTlVicTZ3UmM2TElkM1IteUhISHQ0NlYyRUZLQTN5ZUNSTVpodUtBSHBOdw?oc=5",
-      "locator": null,
-      "published_at": "2026-10-23"
-    },
-    "extracted_at": "2026-10-24T10:01:15.454154",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_5307b75f7e",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 1250000000000.0,
-    "unit": "USD",
-    "raw_text": "$1.25T valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPM29SaklkbG0weV9VVHlqa2ZXUFEzNk1xZElNanRadVZyT3lHOUZYV1VLZ1hPaDZXVmpURXVFeGNXNnM3cmVPNTQyb1FJM0RpSV9YaXNLVi1XbjlLcEpaUFFta3c1Wm93MUdGWHpXQktabDd5N3JOb2s1TWwwejFydUUxb1R6N1Vxc1lDZXJ6eGxWOTNjZHR2eXdaVG1lcEF0MHlOTlVicTZ3UmM2TElkM1IteUhISHQ0NlYyRUZLQTN5ZUNSTVpodUtBSHBOdw?oc=5",
-      "locator": null,
-      "published_at": "2026-10-23"
-    },
-    "extracted_at": "2026-10-24T10:01:15.454154",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_976d940ce9",
-    "company_id": "openai",
-    "metric": "round_amount",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "$30 billion funding round",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNX1VaVUtMMnA5RHoyUmhPUjBuQTZaVnVqQkY5TjZZMUFxM0hkM1VjT2t0Z1U5emlqTzFydzhuNHF5REhrUGZIRTJqSmxfQTdpdDNHekZUXzZyaVFrQ05YMWx0NVpGLVFXcE90LUh2LXZPVG5jQlVoVEJRQ0pfZ1JvTGpPemV2QVZ6QWN1VWg0R2lrZFhTUWVHNVF2OG1xNkI3aW1acGJ0RWdONlpFbld4WA?oc=5",
-      "locator": null,
-      "published_at": "2026-10-23"
-    },
-    "extracted_at": "2026-10-24T10:01:15.454154",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_5307b75f7e",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 1250000000000.0,
-    "unit": "USD",
-    "raw_text": "$1.25 trillion valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNX1VaVUtMMnA5RHoyUmhPUjBuQTZaVnVqQkY5TjZZMUFxM0hkM1VjT2t0Z1U5emlqTzFydzhuNHF5REhrUGZIRTJqSmxfQTdpdDNHekZUXzZyaVFrQ05YMWx0NVpGLVFXcE90LUh2LXZPVG5jQlVoVEJRQ0pfZ1JvTGpPemV2QVZ6QWN1VWg0R2lrZFhTUWVHNVF2OG1xNkI3aW1acGJ0RWdONlpFbld4WA?oc=5",
       "locator": null,
       "published_at": "2026-10-23"
     },
@@ -656,58 +764,6 @@
     "derivation": null
   },
   {
-    "id": "clm_59bf73f0af",
-    "company_id": "openai",
-    "metric": "round_amount",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "$30 billion funding round",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUDJQanpaYk12dWRPUnlUMGphTXY3eUxMejZmNEw2SmRsZzQ2OXFlUlVYakRscmt4akVENzJldU4zeXVBNXBnajJvemQ5LTdyZ09hZnZwaGVWeDdzMVdMSVE2UDNGcEZwT2w1aERVZDF2LS1xREpJTW1ORnMyZEpUMkVxS0lZeEY5czRFNVdKb1BkaWZvMGk2dnNpUFpBZw?oc=5",
-      "locator": null,
-      "published_at": "2026-09-29"
-    },
-    "extracted_at": "2026-09-30T11:06:00.704755",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2625,
-    "derivation": null
-  },
-  {
-    "id": "clm_9b566c614f",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 1400000000000.0,
-    "unit": "USD",
-    "raw_text": "$1.4 trillion valuation",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUDJQanpaYk12dWRPUnlUMGphTXY3eUxMejZmNEw2SmRsZzQ2OXFlUlVYakRscmt4akVENzJldU4zeXVBNXBnajJvemQ5LTdyZ09hZnZwaGVWeDdzMVdMSVE2UDNGcEZwT2w1aERVZDF2LS1xREpJTW1ORnMyZEpUMkVxS0lZeEY5czRFNVdKb1BkaWZvMGk2dnNpUFpBZw?oc=5",
-      "locator": null,
-      "published_at": "2026-09-29"
-    },
-    "extracted_at": "2026-09-30T11:06:00.704755",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2625,
-    "derivation": null
-  },
-  {
     "id": "clm_e43f9e3f83",
     "company_id": "openai",
     "metric": "round_amount",
@@ -920,58 +976,6 @@
     "extracted_at": "2026-10-22T10:37:55.971484",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_17c760ff7a",
-    "company_id": "openai",
-    "metric": "round_amount",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "raise $30 billion in new funding round",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbEhOQXlaNkpJUEpJUl9MUmVEVUlHcVBjUGExTE9OcUZsVnNSdEt6NjZYZjl2QXZ3YjNuNGE2NDlFQ3hmUWQyYUFDbkd4TE12ekVmWHExN2pWVndMMUVuMEF1ZnpMRnpjTFNJX01HRkd2SERMNWR0RFBLcDlDSlloSFVoRUMycHkzRlhidW52T1pUM0RvNnhRNTc2MnVZQ2Zha2dXaDRneWFZMU1jT1BHUURFbGcyQ19sNG81Ymp6TGwxekZSbklv?oc=5",
-      "locator": null,
-      "published_at": "2026-09-29"
-    },
-    "extracted_at": "2026-09-30T11:06:00.704755",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2625,
-    "derivation": null
-  },
-  {
-    "id": "clm_da0ea6512b",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 1400000000000.0,
-    "unit": "USD",
-    "raw_text": "$1.4 trillion valuation",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbEhOQXlaNkpJUEpJUl9MUmVEVUlHcVBjUGExTE9OcUZsVnNSdEt6NjZYZjl2QXZ3YjNuNGE2NDlFQ3hmUWQyYUFDbkd4TE12ekVmWHExN2pWVndMMUVuMEF1ZnpMRnpjTFNJX01HRkd2SERMNWR0RFBLcDlDSlloSFVoRUMycHkzRlhidW52T1pUM0RvNnhRNTc2MnVZQ2Zha2dXaDRneWFZMU1jT1BHUURFbGcyQ19sNG81Ymp6TGwxekZSbklv?oc=5",
-      "locator": null,
-      "published_at": "2026-09-29"
-    },
-    "extracted_at": "2026-09-30T11:06:00.704755",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2625,
     "derivation": null
   },
   {
@@ -4056,7 +4060,7 @@
       "locator": null,
       "published_at": "2026-08-20"
     },
-    "extracted_at": "2026-10-24T10:01:15.454154",
+    "extracted_at": "2026-10-27T11:13:23.267375",
     "extractor_model": "derive-engine",
     "base_confidence": 0.4658,
     "derivation": {

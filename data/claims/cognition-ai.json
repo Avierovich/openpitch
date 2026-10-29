@@ -26,30 +26,6 @@
     "derivation": null
   },
   {
-    "id": "clm_3033a27390",
-    "company_id": "cognition-ai",
-    "metric": "open_roles",
-    "value": 24.0,
-    "unit": null,
-    "raw_text": "General & Administrative ( 24 )",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "cognition-labs.com",
-      "url": "https://cognition-labs.com/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-24T10:01:15.454154",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
     "id": "clm_a12f41c471",
     "company_id": "cognition-ai",
     "metric": "round_amount",
@@ -263,6 +239,57 @@
     "extracted_at": "2026-09-18T09:44:30.525514",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_e735ad263d",
+    "company_id": "cognition-ai",
+    "metric": "valuation",
+    "value": 70000000000.0,
+    "unit": null,
+    "raw_text": "$70 billion to $80 billion valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNT3o2X2tHNWNuQllpZDdNclVyZzF6eXctc3dCcmtWQ0VORGtPN3ZDRWRpMm0tcGx1c1RGNjlTUk5jZVJxRU9HMURVTlNHbnpYVG9DRkZBenhnZDgxeWZXVk5LUVVkY0FhR2VnLUJUcTB0TmNoX29UaWZkTEJoeTNaZEtaMXVnNG5XZUxGclhiTml4LXVBUlRlcl9B?oc=5",
+      "locator": null,
+      "published_at": "2026-10-28"
+    },
+    "extracted_at": "2026-10-29T12:07:33.443424",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_3033a27390",
+    "company_id": "cognition-ai",
+    "metric": "open_roles",
+    "value": 24.0,
+    "unit": null,
+    "raw_text": "General & Administrative ( 24 )",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "cognition-labs.com",
+      "url": "https://cognition-labs.com/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-24T10:01:15.454154",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
     "derivation": null
   },
   {

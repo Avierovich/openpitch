@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-10-27
+# OpenPitch Data Quality Report - 2026-10-29
 
 ## Summary
 
-- Profiles generated: 658
-- Watchlist candidates: 1347
+- Profiles generated: 660
+- Watchlist candidates: 1353
 - Top-50 cards: 50
-- Profiles with at least one metric: 645
-- Critical issues: 119
-- Warnings: 19
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 687
+- Profiles with at least one metric: 647
+- Critical issues: 120
+- Warnings: 17
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 691
 
 ## Top-50 Companies With No Metrics
 
@@ -98,6 +98,7 @@ None.
 - Comet
 - Commonwealth Fusion Systems
 - Corti
+- Cowbell Cyber
 - Deep Genomics
 - DeepInfra
 - Demandbase
@@ -152,8 +153,6 @@ None.
 ## Single-Source Core Metrics
 
 - OpenAI: headcount
-- Isomorphic: total_funding
-- Isomorphic: round_amount
 - Figure AI: headcount
 - Figure AI: headcount
 - Scale AI: headcount

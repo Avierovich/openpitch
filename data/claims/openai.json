@@ -52,6 +52,32 @@
     "derivation": null
   },
   {
+    "id": "clm_a19d1fde5d",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1250000000000.0,
+    "unit": "USD",
+    "raw_text": "Invest Committee: Put 20% of the Fund Into OpenAI at $1.25 Trillion",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "investor"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "20VC (Harry Stebbings)",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-files-s1-ahead-of-2trn-ipo-instincts-rumoured-30-billion-fundraise-microsoft-laysoff-27000-while-meta-taps-equity-markets-for-95-billion-capex-spending-spree",
+      "locator": null,
+      "published_at": "2026-10-29"
+    },
+    "extracted_at": "2026-10-29T12:07:33.443424",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.336,
+    "derivation": null
+  },
+  {
     "id": "clm_76226439b2",
     "company_id": "openai",
     "metric": "round_amount",
@@ -4060,7 +4086,7 @@
       "locator": null,
       "published_at": "2026-08-20"
     },
-    "extracted_at": "2026-10-27T11:13:23.267375",
+    "extracted_at": "2026-10-29T12:07:33.443424",
     "extractor_model": "derive-engine",
     "base_confidence": 0.4658,
     "derivation": {

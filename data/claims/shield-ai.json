@@ -1,11 +1,11 @@
 [
   {
-    "id": "clm_28401b464d",
+    "id": "clm_b6d47590b8",
     "company_id": "shield-ai",
-    "metric": "valuation",
-    "value": 20000000000.0,
-    "unit": "USD",
-    "raw_text": "$20B valuation",
+    "metric": "round_amount",
+    "value": 2000000000.0,
+    "unit": null,
+    "raw_text": "raise $2B",
     "qualifiers": [
       "unconfirmed"
     ],
@@ -15,12 +15,38 @@
     },
     "source": {
       "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMlRXdlhtbTVjUml5YUZDdzZSUzV1NHRhbmRhSkhnWTJYbVh2SlpfSmtHUGxPRDZveWxDN2NrVHdpZXdnamFBbXZLSDhKczV2THNRV3hXSkJ1QmZvenFUN2pOZDlCb2o0dHlxb2tXcGl1SHJYcDZSU0dMRUpmSG5haHpPaHFGUUt4SDlhM0pGZzRTSDNqX1pnRUpCOFVJY2tD?oc=5",
+      "name": "shield.ai",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPLUZreHZ3azV1aXdkTW4tYkR6QW4zLW8yVWNfZE5kNkxPVTdNVURqcWlYdlFUWkc3QjN4Njg0SXppem8xMjVXeWV4Mlh0bW0wa201ZEtwWEpidGt2RFFMUndpTm8wdExRcDdXcjVVMk1IRXZaREp1QndXcUo3LTRTWDhSMXFTYW1qRURiaWZoYkJkY0NmZGpna2xqdk5xUDZPbVFVNjJnVDBLRTJt?oc=5",
       "locator": null,
-      "published_at": "2026-09-15"
+      "published_at": "2026-03-26"
     },
-    "extracted_at": "2026-09-16T10:35:49.404557",
+    "extracted_at": "2026-09-30T11:06:00.704755",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_01da36bee8",
+    "company_id": "shield-ai",
+    "metric": "valuation",
+    "value": 12700000000.0,
+    "unit": null,
+    "raw_text": "$12.7B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "shield.ai",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPLUZreHZ3azV1aXdkTW4tYkR6QW4zLW8yVWNfZE5kNkxPVTdNVURqcWlYdlFUWkc3QjN4Njg0SXppem8xMjVXeWV4Mlh0bW0wa201ZEtwWEpidGt2RFFMUndpTm8wdExRcDdXcjVVMk1IRXZaREp1QndXcUo3LTRTWDhSMXFTYW1qRURiaWZoYkJkY0NmZGpna2xqdk5xUDZPbVFVNjJnVDBLRTJt?oc=5",
+      "locator": null,
+      "published_at": "2026-03-26"
+    },
+    "extracted_at": "2026-09-30T11:06:00.704755",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
     "derivation": null
@@ -98,38 +124,156 @@
     "derivation": null
   },
   {
-    "id": "clm_b6d47590b8",
+    "id": "clm_0b5e1c5a2b",
     "company_id": "shield-ai",
     "metric": "round_amount",
-    "value": 2000000000.0,
+    "value": 200000000.0,
     "unit": null,
-    "raw_text": "raise $2B",
-    "qualifiers": [
-      "unconfirmed"
-    ],
+    "raw_text": "Shield AI raises $200M",
+    "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
       "type": "news",
-      "name": "shield.ai",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPLUZreHZ3azV1aXdkTW4tYkR6QW4zLW8yVWNfZE5kNkxPVTdNVURqcWlYdlFUWkc3QjN4Njg0SXppem8xMjVXeWV4Mlh0bW0wa201ZEtwWEpidGt2RFFMUndpTm8wdExRcDdXcjVVMk1IRXZaREp1QndXcUo3LTRTWDhSMXFTYW1qRURiaWZoYkJkY0NmZGpna2xqdk5xUDZPbVFVNjJnVDBLRTJt?oc=5",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMjZNbWFnTWdPYUtXTms2RE45Q2tXRFJzbjJYNkR1TXg0UExzOGtuS1hkUEFSWFNYbldQbDV3enQwRWZZY3JZcjhsS0Z2eHo3UHBTZFlkS1lYc2JjSUxNYXc0U250bjNOeV9mdmhUU2JwNWhyOHhDR3MxaUdWbEsxell6bllabkF5WXVZa1ZSUEIyUFlJVWE5ZlJVeDNZT0ZyYnpDZkk5Y3ZxMldXTjhqVDdwbHJObjB4?oc=5",
       "locator": null,
-      "published_at": "2026-03-26"
+      "published_at": "2023-10-31"
     },
-    "extracted_at": "2026-09-30T11:06:00.704755",
+    "extracted_at": "2026-10-19T11:06:35.602420",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
-    "id": "clm_01da36bee8",
+    "id": "clm_8f422bd47d",
     "company_id": "shield-ai",
     "metric": "valuation",
-    "value": 12700000000.0,
+    "value": 2700000000.0,
     "unit": null,
-    "raw_text": "$12.7B valuation",
+    "raw_text": "$2.7B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMjZNbWFnTWdPYUtXTms2RE45Q2tXRFJzbjJYNkR1TXg0UExzOGtuS1hkUEFSWFNYbldQbDV3enQwRWZZY3JZcjhsS0Z2eHo3UHBTZFlkS1lYc2JjSUxNYXc0U250bjNOeV9mdmhUU2JwNWhyOHhDR3MxaUdWbEsxell6bllabkF5WXVZa1ZSUEIyUFlJVWE5ZlJVeDNZT0ZyYnpDZkk5Y3ZxMldXTjhqVDdwbHJObjB4?oc=5",
+      "locator": null,
+      "published_at": "2023-10-31"
+    },
+    "extracted_at": "2026-10-19T11:06:35.602420",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_df24f85c2f",
+    "company_id": "shield-ai",
+    "metric": "round_amount",
+    "value": 240000000.0,
+    "unit": null,
+    "raw_text": "Shield AI raises $240M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Nasdaq",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUDVhNXdLTGROcFliWFdnaDFkQUNoN3hNR0J5ZlZiUE96dWtuci0yZ2ZSRXZ1NnJ0TXdKNG1kb3Y1TlpuSDlXMk9CN1ByOWpqTW1UTFRJWHJ4UzE3SlpDUWo0eXJ5eDZVa0NsaGJxMnJpVTN3bTBXYlVROWdwS0hZNjJTMFlucFNCS3M2R2tQbjBvZDFUUWFRUmotTzZFVzd1cTVvNmNkNF8wMkJZTkQyb3RyRWluZlZtRmc?oc=5",
+      "locator": null,
+      "published_at": "2025-03-06"
+    },
+    "extracted_at": "2026-10-19T11:06:35.602420",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_b88a5727dc",
+    "company_id": "shield-ai",
+    "metric": "valuation",
+    "value": 5300000000.0,
+    "unit": null,
+    "raw_text": "$5.3B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Nasdaq",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUDVhNXdLTGROcFliWFdnaDFkQUNoN3hNR0J5ZlZiUE96dWtuci0yZ2ZSRXZ1NnJ0TXdKNG1kb3Y1TlpuSDlXMk9CN1ByOWpqTW1UTFRJWHJ4UzE3SlpDUWo0eXJ5eDZVa0NsaGJxMnJpVTN3bTBXYlVROWdwS0hZNjJTMFlucFNCS3M2R2tQbjBvZDFUUWFRUmotTzZFVzd1cTVvNmNkNF8wMkJZTkQyb3RyRWluZlZtRmc?oc=5",
+      "locator": null,
+      "published_at": "2025-03-06"
+    },
+    "extracted_at": "2026-10-19T11:06:35.602420",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_475680bc49",
+    "company_id": "shield-ai",
+    "metric": "round_amount",
+    "value": 200000000.0,
+    "unit": "USD",
+    "raw_text": "Shield AI raises $200M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "shield.ai",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QLXF0d01naEdVMjV6cWVwMkFIRnlFV2JsOUlscmNhM1lKaGhleFFFSHEtMlp2Ql9KLXJpeDZNeVhrRHYwN1BpUjMtNVFwaVZsemQwUGdKbEp2VzJDZlBUNWpUbVpxbWs5S0h2T3NDdnVIdw?oc=5",
+      "locator": null,
+      "published_at": "2023-10-31"
+    },
+    "extracted_at": "2026-10-29T12:07:33.443424",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_5ec79a3bf8",
+    "company_id": "shield-ai",
+    "metric": "valuation",
+    "value": 2700000000.0,
+    "unit": "USD",
+    "raw_text": "reaching $2.7B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "shield.ai",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QLXF0d01naEdVMjV6cWVwMkFIRnlFV2JsOUlscmNhM1lKaGhleFFFSHEtMlp2Ql9KLXJpeDZNeVhrRHYwN1BpUjMtNVFwaVZsemQwUGdKbEp2VzJDZlBUNWpUbVpxbWs5S0h2T3NDdnVIdw?oc=5",
+      "locator": null,
+      "published_at": "2023-10-31"
+    },
+    "extracted_at": "2026-10-29T12:07:33.443424",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_28401b464d",
+    "company_id": "shield-ai",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": "USD",
+    "raw_text": "$20B valuation",
     "qualifiers": [
       "unconfirmed"
     ],
@@ -139,12 +283,12 @@
     },
     "source": {
       "type": "news",
-      "name": "shield.ai",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPLUZreHZ3azV1aXdkTW4tYkR6QW4zLW8yVWNfZE5kNkxPVTdNVURqcWlYdlFUWkc3QjN4Njg0SXppem8xMjVXeWV4Mlh0bW0wa201ZEtwWEpidGt2RFFMUndpTm8wdExRcDdXcjVVMk1IRXZaREp1QndXcUo3LTRTWDhSMXFTYW1qRURiaWZoYkJkY0NmZGpna2xqdk5xUDZPbVFVNjJnVDBLRTJt?oc=5",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMlRXdlhtbTVjUml5YUZDdzZSUzV1NHRhbmRhSkhnWTJYbVh2SlpfSmtHUGxPRDZveWxDN2NrVHdpZXdnamFBbXZLSDhKczV2THNRV3hXSkJ1QmZvenFUN2pOZDlCb2o0dHlxb2tXcGl1SHJYcDZSU0dMRUpmSG5haHpPaHFGUUt4SDlhM0pGZzRTSDNqX1pnRUpCOFVJY2tD?oc=5",
       "locator": null,
-      "published_at": "2026-03-26"
+      "published_at": "2026-09-15"
     },
-    "extracted_at": "2026-09-30T11:06:00.704755",
+    "extracted_at": "2026-09-16T10:35:49.404557",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
     "derivation": null
@@ -298,54 +442,6 @@
     "derivation": null
   },
   {
-    "id": "clm_0b5e1c5a2b",
-    "company_id": "shield-ai",
-    "metric": "round_amount",
-    "value": 200000000.0,
-    "unit": null,
-    "raw_text": "Shield AI raises $200M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMjZNbWFnTWdPYUtXTms2RE45Q2tXRFJzbjJYNkR1TXg0UExzOGtuS1hkUEFSWFNYbldQbDV3enQwRWZZY3JZcjhsS0Z2eHo3UHBTZFlkS1lYc2JjSUxNYXc0U250bjNOeV9mdmhUU2JwNWhyOHhDR3MxaUdWbEsxell6bllabkF5WXVZa1ZSUEIyUFlJVWE5ZlJVeDNZT0ZyYnpDZkk5Y3ZxMldXTjhqVDdwbHJObjB4?oc=5",
-      "locator": null,
-      "published_at": "2023-10-31"
-    },
-    "extracted_at": "2026-10-19T11:06:35.602420",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_8f422bd47d",
-    "company_id": "shield-ai",
-    "metric": "valuation",
-    "value": 2700000000.0,
-    "unit": null,
-    "raw_text": "$2.7B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMjZNbWFnTWdPYUtXTms2RE45Q2tXRFJzbjJYNkR1TXg0UExzOGtuS1hkUEFSWFNYbldQbDV3enQwRWZZY3JZcjhsS0Z2eHo3UHBTZFlkS1lYc2JjSUxNYXc0U250bjNOeV9mdmhUU2JwNWhyOHhDR3MxaUdWbEsxell6bllabkF5WXVZa1ZSUEIyUFlJVWE5ZlJVeDNZT0ZyYnpDZkk5Y3ZxMldXTjhqVDdwbHJObjB4?oc=5",
-      "locator": null,
-      "published_at": "2023-10-31"
-    },
-    "extracted_at": "2026-10-19T11:06:35.602420",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_93acff4210",
     "company_id": "shield-ai",
     "metric": "valuation",
@@ -369,54 +465,6 @@
     "extracted_at": "2026-08-21T05:50:03.226228",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_df24f85c2f",
-    "company_id": "shield-ai",
-    "metric": "round_amount",
-    "value": 240000000.0,
-    "unit": null,
-    "raw_text": "Shield AI raises $240M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Nasdaq",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUDVhNXdLTGROcFliWFdnaDFkQUNoN3hNR0J5ZlZiUE96dWtuci0yZ2ZSRXZ1NnJ0TXdKNG1kb3Y1TlpuSDlXMk9CN1ByOWpqTW1UTFRJWHJ4UzE3SlpDUWo0eXJ5eDZVa0NsaGJxMnJpVTN3bTBXYlVROWdwS0hZNjJTMFlucFNCS3M2R2tQbjBvZDFUUWFRUmotTzZFVzd1cTVvNmNkNF8wMkJZTkQyb3RyRWluZlZtRmc?oc=5",
-      "locator": null,
-      "published_at": "2025-03-06"
-    },
-    "extracted_at": "2026-10-19T11:06:35.602420",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_b88a5727dc",
-    "company_id": "shield-ai",
-    "metric": "valuation",
-    "value": 5300000000.0,
-    "unit": null,
-    "raw_text": "$5.3B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Nasdaq",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUDVhNXdLTGROcFliWFdnaDFkQUNoN3hNR0J5ZlZiUE96dWtuci0yZ2ZSRXZ1NnJ0TXdKNG1kb3Y1TlpuSDlXMk9CN1ByOWpqTW1UTFRJWHJ4UzE3SlpDUWo0eXJ5eDZVa0NsaGJxMnJpVTN3bTBXYlVROWdwS0hZNjJTMFlucFNCS3M2R2tQbjBvZDFUUWFRUmotTzZFVzd1cTVvNmNkNF8wMkJZTkQyb3RyRWluZlZtRmc?oc=5",
-      "locator": null,
-      "published_at": "2025-03-06"
-    },
-    "extracted_at": "2026-10-19T11:06:35.602420",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
     "derivation": null
   },
   {

@@ -20,15 +20,16 @@
         "low": 15500000000.0,
         "high": 15500000000.0
       },
-      "as_of": "2026-06-05",
+      "as_of": "2026-06-08",
       "estimate_type": "consensus",
-      "confidence": 0.959,
+      "confidence": 0.969,
       "supporting_claims": [
         "clm_fa1ca25dfb",
-        "clm_0d1de079e4",
-        "clm_f87eacf058",
-        "clm_92f08c5b0b",
         "clm_1a9e9ccc7a",
+        "clm_0d1de079e4",
+        "clm_92f08c5b0b",
+        "clm_f87eacf058",
+        "clm_133bae1f48",
         "clm_20468ed29d",
         "clm_6f1e45e4d7",
         "clm_4a20cb3469",
@@ -58,6 +59,7 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
+        "clm_9a24a0d9b3",
         "clm_bc73d753ed",
         "clm_1407cd0069",
         "clm_d9b4f60a43",
@@ -65,14 +67,13 @@
         "clm_7a6ea93bc7",
         "clm_795ae10f4b",
         "clm_e58870c790",
-        "clm_9a24a0d9b3",
+        "clm_13dc1498b7",
         "clm_dd83af0591",
         "clm_4806770680",
         "clm_d99325df6f",
         "clm_9069891d0b",
-        "clm_e4101bcffd",
-        "clm_13dc1498b7",
         "clm_a3a8512859",
+        "clm_e4101bcffd",
         "clm_2dfbfd2d94",
         "clm_a67458754d",
         "clm_41eb02c434",
@@ -94,6 +95,37 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 457038935.83,
+      "unit": "USD",
+      "range": {
+        "low": 465000000.0,
+        "high": 465000000.0
+      },
+      "as_of": "2026-06-08",
+      "estimate_type": "consensus",
+      "confidence": 0.778,
+      "supporting_claims": [
+        "clm_fd78978f46",
+        "clm_5859e3f0a6",
+        "clm_50496f000a",
+        "clm_ec7784c5af",
+        "clm_adba20c2c5",
+        "clm_6d02d79cd0",
+        "clm_d3dc4cc1ce"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 454555852.39,
+        "change_pct": 0.5,
+        "since": "2026-06-05"
+      },
+      "history_ref": "history/helion-energy/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "latest_round": {
       "metric": "latest_round",
       "value": 7.0,
@@ -101,7 +133,7 @@
       "range": null,
       "as_of": "2026-06-05",
       "estimate_type": "reported",
-      "confidence": 0.253,
+      "confidence": 0.251,
       "supporting_claims": [
         "clm_479810f5f6"
       ],
@@ -115,37 +147,7 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 454555852.39,
-      "unit": "USD",
-      "range": {
-        "low": 465000000.0,
-        "high": 465000000.0
-      },
-      "as_of": "2026-06-05",
-      "estimate_type": "consensus",
-      "confidence": 0.68,
-      "supporting_claims": [
-        "clm_fd78978f46",
-        "clm_5859e3f0a6",
-        "clm_50496f000a",
-        "clm_adba20c2c5",
-        "clm_6d02d79cd0",
-        "clm_d3dc4cc1ce"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 460106223.53,
-        "change_pct": -1.2,
-        "since": "2026-06-05"
-      },
-      "history_ref": "history/helion-energy/total_funding.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-27"
+  "last_updated": "2026-10-29"
 }

@@ -26,6 +26,30 @@
     "derivation": null
   },
   {
+    "id": "clm_3769f513df",
+    "company_id": "xai",
+    "metric": "valuation",
+    "value": 200000000000.0,
+    "unit": null,
+    "raw_text": "Elon Musk's xAI raising $10 billion at $200 billion valuation: sources",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeUI4TVNmbGdwbXEzLThYVENmMW1qNktVSU1GR2swdEprQWw4REFwbEJDX2t1VnEzVklXWEJDczFmbUdxeF9JZ1JiZGgzWktJX0dwazhaM3luM2hVS2xWRzZ6ZlNKSmY5emRfeV9WUFRlSE13Y3JIMWFZQkdYZURNZnprUm9FazJGWWfSAY8BQVVfeXFMTkl3azVGMm1weU54T2hVa2lWcEhoZWdaWjYwcm9qSThtajY4WVdNWXU0eGZ5S2o3alFURkJJdzNUQkZoN2R1WkVWUy1VdlNOc19ZLUdSN0VuTzZiZi1tX21JWWFmSTRiVTBfZ0NINDkwdFFORTFiWjZ2RjdaOUdienMyanQ2bDllMjhWUnYxTzg?oc=5",
+      "locator": null,
+      "published_at": "2025-09-19"
+    },
+    "extracted_at": "2026-07-06T14:31:09.058208",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_6a33842ee9",
     "company_id": "xai",
     "metric": "valuation",
@@ -47,6 +71,60 @@
     "extracted_at": "2026-07-06T14:31:09.058208",
     "extractor_model": "gemini-2.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_ccc66098f7",
+    "company_id": "xai",
+    "metric": "valuation",
+    "value": 113000000000.0,
+    "unit": "USD",
+    "raw_text": "xAI seeks $113bn valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRUxKRlZqRHdZandFcXZqN0RQemI2eVJ4NU16X0FIcndDZEJOYmF0ZFQ3QkxEQ191U2llckNYUkxGekxkSG1BQW5kdmZXZUl3cElMeHZfMEs3SDlmUkhYbmkyVlRFZl95X1E1alQxZl9HUUdObDd5LUcwdlRpWmRxalJQU2k?oc=5",
+      "locator": null,
+      "published_at": "2025-06-02"
+    },
+    "extracted_at": "2026-10-30T12:02:43.452733",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_97f69b8def",
+    "company_id": "xai",
+    "metric": "round_amount",
+    "value": 300000000.0,
+    "unit": "USD",
+    "raw_text": "$300mn share sale",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRUxKRlZqRHdZandFcXZqN0RQemI2eVJ4NU16X0FIcndDZEJOYmF0ZFQ3QkxEQ191U2llckNYUkxGekxkSG1BQW5kdmZXZUl3cElMeHZfMEs3SDlmUkhYbmkyVlRFZl95X1E1alQxZl9HUUdObDd5LUcwdlRpWmRxalJQU2k?oc=5",
+      "locator": null,
+      "published_at": "2025-06-02"
+    },
+    "extracted_at": "2026-10-30T12:02:43.452733",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -645,30 +723,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.4462,
-    "derivation": null
-  },
-  {
-    "id": "clm_3769f513df",
-    "company_id": "xai",
-    "metric": "valuation",
-    "value": 200000000000.0,
-    "unit": null,
-    "raw_text": "Elon Musk's xAI raising $10 billion at $200 billion valuation: sources",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeUI4TVNmbGdwbXEzLThYVENmMW1qNktVSU1GR2swdEprQWw4REFwbEJDX2t1VnEzVklXWEJDczFmbUdxeF9JZ1JiZGgzWktJX0dwazhaM3luM2hVS2xWRzZ6ZlNKSmY5emRfeV9WUFRlSE13Y3JIMWFZQkdYZURNZnprUm9FazJGWWfSAY8BQVVfeXFMTkl3azVGMm1weU54T2hVa2lWcEhoZWdaWjYwcm9qSThtajY4WVdNWXU0eGZ5S2o3alFURkJJdzNUQkZoN2R1WkVWUy1VdlNOc19ZLUdSN0VuTzZiZi1tX21JWWFmSTRiVTBfZ0NINDkwdFFORTFiWjZ2RjdaOUdienMyanQ2bDllMjhWUnYxTzg?oc=5",
-      "locator": null,
-      "published_at": "2025-09-19"
-    },
-    "extracted_at": "2026-07-06T14:31:09.058208",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {

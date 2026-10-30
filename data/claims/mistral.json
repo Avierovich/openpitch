@@ -72,30 +72,6 @@
     "derivation": null
   },
   {
-    "id": "clm_887f0fb12f",
-    "company_id": "mistral",
-    "metric": "headcount",
-    "value": 900.0,
-    "unit": null,
-    "raw_text": "900+ employees",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "mistral.ai",
-      "url": "https://mistral.ai/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-16T09:45:26.622667",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
     "id": "clm_6d4b89bc0a",
     "company_id": "mistral",
     "metric": "latest_round",
@@ -192,30 +168,6 @@
     "derivation": null
   },
   {
-    "id": "clm_b8596474e8",
-    "company_id": "mistral",
-    "metric": "valuation",
-    "value": 24000000000.0,
-    "unit": null,
-    "raw_text": "Mistral AI Raises ‶3B, Reaches $24B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Channel Insider",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQk9NWkhpUUhCRzctc0NTOExlaGF5Y2FYVTJlX295ZzQyRmktdG1HR20tRm42WUFPbkk2OEhZYVFPZDZjd3B2di02YV9JWjM4X0FYb3JsUFY1bVgtWUc3NV9CaHZFc1hUdWR2TzcyOTBlbWlBaVVvY01aaUQ1NXVpcGQ0THlLdkl1Y2VsZTlfT2pEWFJELW1feQ?oc=5",
-      "locator": null,
-      "published_at": "2026-09-08"
-    },
-    "extracted_at": "2026-09-16T10:35:49.404557",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_319d09f440",
     "company_id": "mistral",
     "metric": "valuation",
@@ -264,6 +216,30 @@
     "derivation": null
   },
   {
+    "id": "clm_e195aa4d20",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": null,
+    "raw_text": "AI firm Mistral valued at $14 billion as chip giant ASML takes major stake",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa0NVaVo0Wll0MG9iU0lXcmhLanB1eUJ5X2dVREJfbEk2M0Uya3ZnTVJzVFNQLUNqYXdVZHlyeG1LeE55RTI1QW5HTXNXSkFvZVhOeWxxR0h5aE9tLVRvZHhheDZNLU5RWTN2RE93M19iUjhoeGk5bXFWbmdQWUlYcjEzaUJYMkFKYTllM1JCdzIzVDBncjFSc0kwQ3JDdkdk0gGmAUFVX3lxTFBscDh2aFVsT0FqUHNLNzJJNlB3R3lNallpNnRhRllYOUNrRk90aVNtR1BBdTJnUnNGN0ozY2ZOX05WQW91QVk5ZHByOUdaM09xY0NEVzRjNVh6M3VGSWxINC03dGZoMXZ5MGxQS0dvb2YtbEJOUDliMlNRT2VBOVRETFZ2LWFrZkkyUFR1R1dCd09BUTVZcVhleTkwMWk5QWk5M2FnaGc?oc=5",
+      "locator": null,
+      "published_at": "2025-09-09"
+    },
+    "extracted_at": "2026-07-12T07:44:16.543146",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_108a8e923c",
     "company_id": "mistral",
     "metric": "valuation",
@@ -283,6 +259,133 @@
       "published_at": "2026-09-08"
     },
     "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_887f0fb12f",
+    "company_id": "mistral",
+    "metric": "headcount",
+    "value": 900.0,
+    "unit": null,
+    "raw_text": "900+ employees",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "mistral.ai",
+      "url": "https://mistral.ai/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-30T12:02:43.452733",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_53d9999a3d",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 2000000000.0,
+    "unit": null,
+    "raw_text": "Valued at $2 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sZDBJdDMyVVc0a2NkX19Oazg5c01NRXJfZGpBOEFVYzlvMzhhLV9VbzlvdlVsN1I0Z3JEbUdYb05ZMFFCb2xLYnVINURFMjJzUU5JY0VNU1k2RFJKb3pOcWxzUXFnSGFfM1FtLWZfVk5hYUFQR1drZg?oc=5",
+      "locator": null,
+      "published_at": "2023-12-10"
+    },
+    "extracted_at": "2026-10-30T12:02:43.452733",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_b18a2e2321",
+    "company_id": "mistral",
+    "metric": "total_funding",
+    "value": 100000000.0,
+    "unit": null,
+    "raw_text": "$100M+ seed financing",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "No Priors",
+      "url": null,
+      "locator": null,
+      "published_at": "2023-11-09"
+    },
+    "extracted_at": "2026-10-30T12:02:43.452733",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.378,
+    "derivation": null
+  },
+  {
+    "id": "clm_98ecd0dbb9",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 6000000000.0,
+    "unit": null,
+    "raw_text": "Raising At $6B Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Crunchbase News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNU3ZMRHZvSmI5d1JlbDViYlRhdi0yV045WlNKa2phem1lcTJ2aWsyOEZzbDFFbG5vVklTa1dJb1NhdXZTaHdRQ1BMbi1uQ1RpUEc3cjdGSHpiMDVsVWxJc1JCaFBlLW9Rcy1sNGFacTcxcVFMUEdEMW5tbkxoWEdsYlgydw?oc=5",
+      "locator": null,
+      "published_at": "2024-05-09"
+    },
+    "extracted_at": "2026-10-30T12:02:43.452733",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_b8596474e8",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 24000000000.0,
+    "unit": null,
+    "raw_text": "Mistral AI Raises ‶3B, Reaches $24B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Channel Insider",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQk9NWkhpUUhCRzctc0NTOExlaGF5Y2FYVTJlX295ZzQyRmktdG1HR20tRm42WUFPbkk2OEhZYVFPZDZjd3B2di02YV9JWjM4X0FYb3JsUFY1bVgtWUc3NV9CaHZFc1hUdWR2TzcyOTBlbWlBaVVvY01aaUQ1NXVpcGQ0THlLdkl1Y2VsZTlfT2pEWFJELW1feQ?oc=5",
+      "locator": null,
+      "published_at": "2026-09-08"
+    },
+    "extracted_at": "2026-09-16T10:35:49.404557",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -312,32 +415,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.1575,
-    "derivation": null
-  },
-  {
-    "id": "clm_b18a2e2321",
-    "company_id": "mistral",
-    "metric": "total_funding",
-    "value": 100000000.0,
-    "unit": "USD",
-    "raw_text": "$100M+ seed financing",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "No Priors",
-      "url": null,
-      "locator": null,
-      "published_at": "2023-11-09"
-    },
-    "extracted_at": "2026-10-29T12:07:33.443424",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.294,
     "derivation": null
   },
   {
@@ -1176,30 +1253,6 @@
     "derivation": null
   },
   {
-    "id": "clm_e195aa4d20",
-    "company_id": "mistral",
-    "metric": "valuation",
-    "value": 14000000000.0,
-    "unit": null,
-    "raw_text": "AI firm Mistral valued at $14 billion as chip giant ASML takes major stake",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa0NVaVo0Wll0MG9iU0lXcmhLanB1eUJ5X2dVREJfbEk2M0Uya3ZnTVJzVFNQLUNqYXdVZHlyeG1LeE55RTI1QW5HTXNXSkFvZVhOeWxxR0h5aE9tLVRvZHhheDZNLU5RWTN2RE93M19iUjhoeGk5bXFWbmdQWUlYcjEzaUJYMkFKYTllM1JCdzIzVDBncjFSc0kwQ3JDdkdk0gGmAUFVX3lxTFBscDh2aFVsT0FqUHNLNzJJNlB3R3lNallpNnRhRllYOUNrRk90aVNtR1BBdTJnUnNGN0ozY2ZOX05WQW91QVk5ZHByOUdaM09xY0NEVzRjNVh6M3VGSWxINC03dGZoMXZ5MGxQS0dvb2YtbEJOUDliMlNRT2VBOVRETFZ2LWFrZkkyUFR1R1dCd09BUTVZcVhleTkwMWk5QWk5M2FnaGc?oc=5",
-      "locator": null,
-      "published_at": "2025-09-09"
-    },
-    "extracted_at": "2026-07-12T07:44:16.543146",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_5a410d6c87",
     "company_id": "mistral",
     "metric": "latest_round",
@@ -1877,7 +1930,7 @@
       "locator": null,
       "published_at": "2026-02-11"
     },
-    "extracted_at": "2026-10-29T12:07:33.443424",
+    "extracted_at": "2026-10-30T12:02:43.452733",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

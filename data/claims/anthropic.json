@@ -120,6 +120,107 @@
     "derivation": null
   },
   {
+    "id": "clm_43de06cc62",
+    "company_id": "anthropic",
+    "metric": "nrr",
+    "value": 900.0,
+    "unit": "percentage",
+    "raw_text": "that wild 900% net revenue retention",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "This Week in Startups",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-10-29"
+    },
+    "extracted_at": "2026-10-30T12:02:43.452733",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.42,
+    "derivation": null
+  },
+  {
+    "id": "clm_ac52c37001",
+    "company_id": "anthropic",
+    "metric": "arr",
+    "value": 16800000000.0,
+    "unit": null,
+    "raw_text": "Anthropic's third-quarter revenue is said to hit $16.8 billion",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPb0pwUi1KVnA2SDhrZ2tkTlhnMkpEWU9HTTRacWpHUDl1aVhzWlNHLUpIWUx4MjQ2dFNfd2VJZTdDbUVtV3hCVjRDVDhncnZZWDBEZVdjZEQtcVNaTFRvbWdENmVQZkdRYXkybW9ucllJVy0wLUtERjN3c1A2M2pDaktKc0tJSEIzMTFDM0pQYWR5a1ZCeTNoYzFRSdIBoAFBVV95cUxOa09ZVHMzLVc3Rk9sRFhSRGQ0NkFSYmZuLUpLQjMyY0hYRTI5bU9rNGk5VEI1a2t3MFNHNThMTlZyVFhTMFgzMDlqdVI3WkNCUDRFdFphTXBFbHl5ZDV6d3hrcURESmNJQWFiYVJzaTItVWJiV1NSbTN5Y2ZoaEZfWTd3RWlXMWlYX0dQMHQzYlI4Ym5mRzkzdy1KSU9yQXNk?oc=5",
+      "locator": null,
+      "published_at": "2026-10-14"
+    },
+    "extracted_at": "2026-10-30T12:02:43.452733",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_379838768e",
+    "company_id": "anthropic",
+    "metric": "arr",
+    "value": 16300000000.0,
+    "unit": null,
+    "raw_text": "Anthropic's S-1 Shows $16.3B in First-Half Revenue",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5pUnpjVER4b3JYanZLQUJMdFJIWDVGLVZzdG50a0RiQ21VS3E5bVVxc25rQUwtOXVYRDJzUzU2WTM0aGprdGVZakF3cDNCbjRCNUQyOENVWnpaLU0?oc=5",
+      "locator": null,
+      "published_at": "2026-10-29"
+    },
+    "extracted_at": "2026-10-30T12:02:43.452733",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_51211c768e",
+    "company_id": "anthropic",
+    "metric": "arr",
+    "value": 65000000000.0,
+    "unit": null,
+    "raw_text": "Anthropic revenue run rate tops $65 billion, source says",
+    "qualifiers": [
+      "run_rate",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVEJ6S2RpblVGQzhVS083a3dqR3JpajJOUkJIVUZIS1ZkQ05PeW9TdkJUazFpRXNybXNDUUNnV3dfWTllcFdsYms2Mm53dGJwY1VyYnVYb0xYSTNwZWoyaC1vM0FDVWJtTlh6VjFyTGxGUUNaYkg0VDdzNlhjMDJ4dUxJVHQzY0dUaWdKd2t3d0NoWk5IQU52bDRXWTJxZWNFdThJ?oc=5",
+      "locator": null,
+      "published_at": "2026-08-17"
+    },
+    "extracted_at": "2026-10-30T12:02:43.452733",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2835,
+    "derivation": null
+  },
+  {
     "id": "clm_61fe3c2566",
     "company_id": "anthropic",
     "metric": "valuation",
@@ -141,30 +242,6 @@
     "extracted_at": "2026-10-23T10:33:17.606078",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_43de06cc62",
-    "company_id": "anthropic",
-    "metric": "nrr",
-    "value": 900.0,
-    "unit": "%",
-    "raw_text": "900% net revenue retention",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "This Week in Startups",
-      "url": null,
-      "locator": null,
-      "published_at": "2026-10-29"
-    },
-    "extracted_at": "2026-10-29T12:07:33.443424",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3,
     "derivation": null
   },
   {
@@ -2816,10 +2893,10 @@
     "derivation": null
   },
   {
-    "id": "drv_13f0633d73",
+    "id": "drv_57c4e2c1c0",
     "company_id": "anthropic",
     "metric": "revenue_multiple",
-    "value": 8.09,
+    "value": 23.31,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -2832,9 +2909,9 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-06-14"
+      "published_at": "2026-10-29"
     },
-    "extracted_at": "2026-10-29T12:07:33.443424",
+    "extracted_at": "2026-10-30T12:02:43.452733",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
@@ -2842,7 +2919,7 @@
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
         "clm_037cb88bfb",
-        "clm_b506604679"
+        "clm_379838768e"
       ]
     }
   },
@@ -2865,7 +2942,7 @@
       "locator": null,
       "published_at": "2026-10-22"
     },
-    "extracted_at": "2026-10-29T12:07:33.443424",
+    "extracted_at": "2026-10-30T12:02:43.452733",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

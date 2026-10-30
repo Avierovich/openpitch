@@ -27,12 +27,12 @@
     "derivation": null
   },
   {
-    "id": "clm_da8f3aa7bb",
+    "id": "clm_1b53f30cad",
     "company_id": "applied-intuition",
-    "metric": "headcount",
-    "value": 1000.0,
+    "metric": "round_amount",
+    "value": 25000000.0,
     "unit": null,
-    "raw_text": "1,000 engineers",
+    "raw_text": "Navy awards Applied Intuition $25M to deploy AI sensor fusion at sea",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -41,11 +41,11 @@
     "source": {
       "type": "web",
       "name": "appliedintuition.com",
-      "url": "https://appliedintuition.com/careers",
+      "url": "https://appliedintuition.com",
       "locator": null,
       "published_at": null
     },
-    "extracted_at": "2026-10-23T10:33:17.606078",
+    "extracted_at": "2026-10-29T12:07:33.443424",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.25,
     "derivation": null
@@ -96,30 +96,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_da8f3aa7bb",
-    "company_id": "applied-intuition",
-    "metric": "headcount",
-    "value": 1000.0,
-    "unit": null,
-    "raw_text": "1,000 engineers",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "appliedintuition.com",
-      "url": "https://appliedintuition.com/jobs",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-23T10:33:17.606078",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
     "derivation": null
   },
   {
@@ -250,12 +226,12 @@
     "derivation": null
   },
   {
-    "id": "clm_1b53f30cad",
+    "id": "clm_da8f3aa7bb",
     "company_id": "applied-intuition",
-    "metric": "round_amount",
-    "value": 25000000.0,
+    "metric": "headcount",
+    "value": 1000.0,
     "unit": null,
-    "raw_text": "Navy awards Applied Intuition $25M to deploy AI sensor fusion at sea",
+    "raw_text": "1,000 engineers",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -264,11 +240,35 @@
     "source": {
       "type": "web",
       "name": "appliedintuition.com",
-      "url": "https://appliedintuition.com",
+      "url": "https://appliedintuition.com/careers",
       "locator": null,
       "published_at": null
     },
-    "extracted_at": "2026-10-29T12:07:33.443424",
+    "extracted_at": "2026-10-30T12:02:43.452733",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_da8f3aa7bb",
+    "company_id": "applied-intuition",
+    "metric": "headcount",
+    "value": 1000.0,
+    "unit": null,
+    "raw_text": "1,000 engineers",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "appliedintuition.com",
+      "url": "https://appliedintuition.com/jobs",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-30T12:02:43.452733",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.25,
     "derivation": null

@@ -12,28 +12,6 @@
   "vc_attention_score": 84.7,
   "universe_rank": 37,
   "metrics": {
-    "notable_customers": {
-      "metric": "notable_customers",
-      "value": 10000.0,
-      "unit": "list",
-      "range": null,
-      "as_of": "2026-10-30",
-      "estimate_type": "reported",
-      "confidence": 0.25,
-      "supporting_claims": [
-        "clm_4fef42061a"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 10000.0,
-        "change_pct": 0.0,
-        "since": "2026-10-27"
-      },
-      "history_ref": "history/fireworks-ai/notable_customers.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "round_amount": {
       "metric": "round_amount",
       "value": 1500000000.0,
@@ -41,7 +19,7 @@
       "range": null,
       "as_of": "2026-07-21",
       "estimate_type": "consensus",
-      "confidence": 0.917,
+      "confidence": 0.916,
       "supporting_claims": [
         "clm_fe12e63e3c",
         "clm_86ac6d09bd",
@@ -103,7 +81,7 @@
       "range": null,
       "as_of": "2026-07-21",
       "estimate_type": "consensus",
-      "confidence": 0.631,
+      "confidence": 0.63,
       "supporting_claims": [
         "clm_2dec9db7c2",
         "clm_3519111fcd",
@@ -120,12 +98,34 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "notable_customers": {
+      "metric": "notable_customers",
+      "value": 10000.0,
+      "unit": "list",
+      "range": null,
+      "as_of": "2026-10-31",
+      "estimate_type": "reported",
+      "confidence": 0.25,
+      "supporting_claims": [
+        "clm_4fef42061a"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 10000.0,
+        "change_pct": 0.0,
+        "since": "2026-10-27"
+      },
+      "history_ref": "history/fireworks-ai/notable_customers.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "open_roles": {
       "metric": "open_roles",
       "value": 83.87,
       "unit": "count",
       "range": null,
-      "as_of": "2026-10-30",
+      "as_of": "2026-10-31",
       "estimate_type": "reported",
       "confidence": 0.97,
       "supporting_claims": [
@@ -157,5 +157,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-30"
+  "last_updated": "2026-10-31"
 }

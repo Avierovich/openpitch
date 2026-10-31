@@ -9,8 +9,8 @@
   "summary": "Sierra AI develops autonomous agents designed to perform a wide range of tasks by interacting with digital environments.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 84.3,
-  "universe_rank": 42,
+  "vc_attention_score": 84.4,
+  "universe_rank": 39,
   "metrics": {
     "total_funding": {
       "metric": "total_funding",
@@ -25,8 +25,8 @@
       "confidence": 0.97,
       "supporting_claims": [
         "clm_102515fc6f",
-        "clm_b809896751",
         "clm_9f07b3adbd",
+        "clm_b809896751",
         "clm_e1a435d4ec",
         "clm_dfa7652846",
         "clm_48ae805440",
@@ -48,19 +48,19 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 15359640034.45,
+      "value": 15600924094.74,
       "unit": "USD",
       "range": {
         "low": 15000000000.0,
-        "high": 15800000000.0
+        "high": 20000000000.0
       },
-      "as_of": "2026-07-04",
+      "as_of": "2026-10-30",
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
-        "clm_5e9bf2147b",
-        "clm_9b9e6cc50a",
         "clm_32e3800539",
+        "clm_9b9e6cc50a",
+        "clm_5e9bf2147b",
         "clm_51542bf61c",
         "clm_7a2d77572c",
         "clm_4bfed7babb",
@@ -78,12 +78,13 @@
         "clm_5a0b6eca6a",
         "clm_1da4157e92",
         "clm_0f6b0c2bab",
-        "clm_7db364c710"
+        "clm_7db364c710",
+        "clm_688925c708"
       ],
       "contradiction": false,
       "delta": {
         "previous": 15359640034.45,
-        "change_pct": -0.0,
+        "change_pct": 1.6,
         "since": "2026-07-04"
       },
       "history_ref": "history/sierra/valuation.jsonl",
@@ -103,9 +104,9 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
+        "clm_51d3a1fcdf",
         "clm_4e817963ae",
         "clm_15f3dfcddf",
-        "clm_51d3a1fcdf",
         "clm_f87636251c",
         "clm_9514602ed2",
         "clm_58c5178477",
@@ -118,7 +119,7 @@
       "contradiction": false,
       "delta": {
         "previous": 950000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-05-05"
       },
       "history_ref": "history/sierra/round_amount.jsonl",
@@ -133,7 +134,7 @@
       "range": null,
       "as_of": "2026-07-04",
       "estimate_type": "consensus",
-      "confidence": 0.214,
+      "confidence": 0.212,
       "supporting_claims": [
         "clm_aeca3ef343",
         "clm_6287c882d8"
@@ -141,7 +142,7 @@
       "contradiction": false,
       "delta": {
         "previous": 150000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-07-04"
       },
       "history_ref": "history/sierra/arr.jsonl",
@@ -154,7 +155,7 @@
       "value": 0.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-10-30",
+      "as_of": "2026-10-31",
       "estimate_type": "reported",
       "confidence": 0.438,
       "supporting_claims": [
@@ -170,19 +171,19 @@
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 66.67,
+      "value": 100.0,
       "unit": "x",
       "range": null,
       "as_of": "2026-07-04",
       "estimate_type": "reported",
       "confidence": 0.068,
       "supporting_claims": [
-        "drv_796e93939c"
+        "drv_f12798b740"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 100.0,
-        "change_pct": -33.3,
+        "previous": 66.67,
+        "change_pct": 50.0,
         "since": "2026-07-04"
       },
       "history_ref": "history/sierra/revenue_multiple.jsonl",
@@ -191,5 +192,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-10-30"
+  "last_updated": "2026-10-31"
 }

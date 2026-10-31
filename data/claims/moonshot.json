@@ -120,51 +120,57 @@
     "derivation": null
   },
   {
-    "id": "clm_181cd8848d",
+    "id": "clm_42bd4f90ea",
     "company_id": "moonshot",
-    "metric": "valuation",
-    "value": 35000000000.0,
-    "unit": null,
-    "raw_text": "$35 Billion Valuation",
-    "qualifiers": [],
+    "metric": "arr",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "Kimi Targets $2B Annual Revenue",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
     "speaker": {
       "name": null,
       "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWUo5TzBBSlZvdXZBOEwxOUV6RHB0TXVRX0Q1MFhlT3dsVEw1RzlsRFNSeUpCRGxxX1ZOVnpKVlRxTVlXSVVNTGZyTUVkSHA2RlI5V0o0WE5iOVpWVWRHZFNqV2tqSm5Kc0toZWNmcjhNVV9ORjFJV3dSYWptU2NsSE12YTVZOGdWODNkSjR6dDF2ZWEtbWpXa0pOb09kMG8?oc=5",
+      "name": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90enFIQkgyUWhCQ1VUTWlUMG00amJxR2k1QzZ0ZWVhSTg1djN3bHMzTHFlYkpWSDlERHdySGhnLXIzeF8xNFlvR0ROdDRQYmd6Q3lV?oc=5",
       "locator": null,
-      "published_at": "2026-07-29"
+      "published_at": "2026-09-11"
     },
-    "extracted_at": "2026-09-27T10:32:58.616902",
+    "extracted_at": "2026-09-14T10:31:29.338960",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
-    "id": "clm_2a2422b64a",
+    "id": "clm_881c63da7c",
     "company_id": "moonshot",
-    "metric": "round_amount",
-    "value": 3500000000.0,
-    "unit": null,
-    "raw_text": "$3.5 Billion Funding Round",
-    "qualifiers": [],
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "$50B Valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
     "speaker": {
       "name": null,
       "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWUo5TzBBSlZvdXZBOEwxOUV6RHB0TXVRX0Q1MFhlT3dsVEw1RzlsRFNSeUpCRGxxX1ZOVnpKVlRxTVlXSVVNTGZyTUVkSHA2RlI5V0o0WE5iOVpWVWRHZFNqV2tqSm5Kc0toZWNmcjhNVV9ORjFJV3dSYWptU2NsSE12YTVZOGdWODNkSjR6dDF2ZWEtbWpXa0pOb09kMG8?oc=5",
+      "name": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90enFIQkgyUWhCQ1VUTWlUMG00amJxR2k1QzZ0ZWVhSTg1djN3bHMzTHFlYkpWSDlERHdySGhnLXIzeF8xNFlvR0ROdDRQYmd6Q3lV?oc=5",
       "locator": null,
-      "published_at": "2026-07-29"
+      "published_at": "2026-09-11"
     },
-    "extracted_at": "2026-09-27T10:32:58.616902",
+    "extracted_at": "2026-09-14T10:31:29.338960",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -216,6 +222,54 @@
     "derivation": null
   },
   {
+    "id": "clm_181cd8848d",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 35000000000.0,
+    "unit": null,
+    "raw_text": "$35 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWUo5TzBBSlZvdXZBOEwxOUV6RHB0TXVRX0Q1MFhlT3dsVEw1RzlsRFNSeUpCRGxxX1ZOVnpKVlRxTVlXSVVNTGZyTUVkSHA2RlI5V0o0WE5iOVpWVWRHZFNqV2tqSm5Kc0toZWNmcjhNVV9ORjFJV3dSYWptU2NsSE12YTVZOGdWODNkSjR6dDF2ZWEtbWpXa0pOb09kMG8?oc=5",
+      "locator": null,
+      "published_at": "2026-07-29"
+    },
+    "extracted_at": "2026-09-27T10:32:58.616902",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_2a2422b64a",
+    "company_id": "moonshot",
+    "metric": "round_amount",
+    "value": 3500000000.0,
+    "unit": null,
+    "raw_text": "$3.5 Billion Funding Round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWUo5TzBBSlZvdXZBOEwxOUV6RHB0TXVRX0Q1MFhlT3dsVEw1RzlsRFNSeUpCRGxxX1ZOVnpKVlRxTVlXSVVNTGZyTUVkSHA2RlI5V0o0WE5iOVpWVWRHZFNqV2tqSm5Kc0toZWNmcjhNVV9ORjFJV3dSYWptU2NsSE12YTVZOGdWODNkSjR6dDF2ZWEtbWpXa0pOb09kMG8?oc=5",
+      "locator": null,
+      "published_at": "2026-07-29"
+    },
+    "extracted_at": "2026-09-27T10:32:58.616902",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_183f1296b5",
     "company_id": "moonshot",
     "metric": "latest_round",
@@ -261,6 +315,57 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_8ef762c213",
+    "company_id": "moonshot",
+    "metric": "round_amount",
+    "value": 3500000000.0,
+    "unit": null,
+    "raw_text": "Moonshot AI raises $3.5 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0wVkNCMHBKM0I5eU5qTXBueFdDMVR1SzRxREcwUUVzNXhSRkYzOGwxblFDaklPNG94WGdaYnpPU0RWMGFnWlhaM3YtSVVUd1lFLWRHWHB4anZCMjB5Z0FrUHNTdk1IclhXUXVOd2laR0Iya0xEbWVqTi1n0gGOAUFVX3lxTE9TQmxRbHh3NmloTzZmcXZ3UzhnaWp3TlltNGVpZ1NDRng1V09nclFEWTVOTUpSZy1QdzJjbDlmSm9uN0VXcF9BMEJzLW90NU5FWFV0TGtiZEpWOUNIUHBlUUVlNVFua0xPaDEwdDhFcFVLd0k4RnhXRWFwOGVHcW1keTdjUDc4eVJyVkdlMWc?oc=5",
+      "locator": null,
+      "published_at": "2026-07-30"
+    },
+    "extracted_at": "2026-10-30T12:02:43.452733",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_49dd16f6e2",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": null,
+    "raw_text": "targets $50 billion valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0wVkNCMHBKM0I5eU5qTXBueFdDMVR1SzRxREcwUUVzNXhSRkYzOGwxblFDaklPNG94WGdaYnpPU0RWMGFnWlhaM3YtSVVUd1lFLWRHWHB4anZCMjB5Z0FrUHNTdk1IclhXUXVOd2laR0Iya0xEbWVqTi1n0gGOAUFVX3lxTE9TQmxRbHh3NmloTzZmcXZ3UzhnaWp3TlltNGVpZ1NDRng1V09nclFEWTVOTUpSZy1QdzJjbDlmSm9uN0VXcF9BMEJzLW90NU5FWFV0TGtiZEpWOUNIUHBlUUVlNVFua0xPaDEwdDhFcFVLd0k4RnhXRWFwOGVHcW1keTdjUDc4eVJyVkdlMWc?oc=5",
+      "locator": null,
+      "published_at": "2026-07-30"
+    },
+    "extracted_at": "2026-10-30T12:02:43.452733",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
     "derivation": null
   },
   {
@@ -363,6 +468,30 @@
     "derivation": null
   },
   {
+    "id": "clm_49c6965814",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "$50B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdHVuM3BqeDI1NEkwakttU2lncURObTlLekFzLTlQa2thd2V2SzVrcmMwWk1KeEtYbFh4TWhYNUNlYkx0SHczTGxqQ1BmS1hnazk5TjBISVNmQUNTWWwwTmNLNG1hYlFDRDBmZXBTTEtJb3RwWndwenc5ZjhBcF85a3RqN21qZw?oc=5",
+      "locator": null,
+      "published_at": "2026-10-06"
+    },
+    "extracted_at": "2026-10-15T10:02:10.844942",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_d6e55f64de",
     "company_id": "moonshot",
     "metric": "valuation",
@@ -390,105 +519,6 @@
     "derivation": null
   },
   {
-    "id": "clm_49c6965814",
-    "company_id": "moonshot",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": "USD",
-    "raw_text": "$50B Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdHVuM3BqeDI1NEkwakttU2lncURObTlLekFzLTlQa2thd2V2SzVrcmMwWk1KeEtYbFh4TWhYNUNlYkx0SHczTGxqQ1BmS1hnazk5TjBISVNmQUNTWWwwTmNLNG1hYlFDRDBmZXBTTEtJb3RwWndwenc5ZjhBcF85a3RqN21qZw?oc=5",
-      "locator": null,
-      "published_at": "2026-10-06"
-    },
-    "extracted_at": "2026-10-15T10:02:10.844942",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_483d6bffda",
-    "company_id": "moonshot",
-    "metric": "valuation",
-    "value": 18000000000.0,
-    "unit": "USD",
-    "raw_text": "$18 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaUFpdWJ0OFVEYU5yenNJNjR0VXExUHVhMWlxUWZGMUFIaGZzeUxzVDg2aVdma3ZvcG1BTnJWYTg5Szl1c1hxTmdMeG1idlMzN2pkU1lfcUstWEVMZTdnUnQzSXg3aTR4TFVaQmpPNjNCcUp1R0otNFg2dUxQQXJNRDhyTE9pOC1VR1RxNi1KRy1GbUk2N0VVVk1ZR3dHUy02RUFMUVpoRWRjMkZpXzcxWDln?oc=5",
-      "locator": null,
-      "published_at": "2026-03-14"
-    },
-    "extracted_at": "2026-10-27T11:13:23.267375",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_8ef762c213",
-    "company_id": "moonshot",
-    "metric": "round_amount",
-    "value": 3500000000.0,
-    "unit": null,
-    "raw_text": "Moonshot AI raises $3.5 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Chosunbiz",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0wVkNCMHBKM0I5eU5qTXBueFdDMVR1SzRxREcwUUVzNXhSRkYzOGwxblFDaklPNG94WGdaYnpPU0RWMGFnWlhaM3YtSVVUd1lFLWRHWHB4anZCMjB5Z0FrUHNTdk1IclhXUXVOd2laR0Iya0xEbWVqTi1n0gGOAUFVX3lxTE9TQmxRbHh3NmloTzZmcXZ3UzhnaWp3TlltNGVpZ1NDRng1V09nclFEWTVOTUpSZy1QdzJjbDlmSm9uN0VXcF9BMEJzLW90NU5FWFV0TGtiZEpWOUNIUHBlUUVlNVFua0xPaDEwdDhFcFVLd0k4RnhXRWFwOGVHcW1keTdjUDc4eVJyVkdlMWc?oc=5",
-      "locator": null,
-      "published_at": "2026-07-30"
-    },
-    "extracted_at": "2026-10-30T12:02:43.452733",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_49dd16f6e2",
-    "company_id": "moonshot",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": null,
-    "raw_text": "targets $50 billion valuation",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Chosunbiz",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0wVkNCMHBKM0I5eU5qTXBueFdDMVR1SzRxREcwUUVzNXhSRkYzOGwxblFDaklPNG94WGdaYnpPU0RWMGFnWlhaM3YtSVVUd1lFLWRHWHB4anZCMjB5Z0FrUHNTdk1IclhXUXVOd2laR0Iya0xEbWVqTi1n0gGOAUFVX3lxTE9TQmxRbHh3NmloTzZmcXZ3UzhnaWp3TlltNGVpZ1NDRng1V09nclFEWTVOTUpSZy1QdzJjbDlmSm9uN0VXcF9BMEJzLW90NU5FWFV0TGtiZEpWOUNIUHBlUUVlNVFua0xPaDEwdDhFcFVLd0k4RnhXRWFwOGVHcW1keTdjUDc4eVJyVkdlMWc?oc=5",
-      "locator": null,
-      "published_at": "2026-07-30"
-    },
-    "extracted_at": "2026-10-30T12:02:43.452733",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1575,
-    "derivation": null
-  },
-  {
     "id": "clm_2dbed69ced",
     "company_id": "moonshot",
     "metric": "valuation",
@@ -513,57 +543,27 @@
     "derivation": null
   },
   {
-    "id": "clm_42bd4f90ea",
-    "company_id": "moonshot",
-    "metric": "arr",
-    "value": 2000000000.0,
-    "unit": "USD",
-    "raw_text": "Kimi Targets $2B Annual Revenue",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "36Kr",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90enFIQkgyUWhCQ1VUTWlUMG00amJxR2k1QzZ0ZWVhSTg1djN3bHMzTHFlYkpWSDlERHdySGhnLXIzeF8xNFlvR0ROdDRQYmd6Q3lV?oc=5",
-      "locator": null,
-      "published_at": "2026-09-11"
-    },
-    "extracted_at": "2026-09-14T10:31:29.338960",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_881c63da7c",
+    "id": "clm_483d6bffda",
     "company_id": "moonshot",
     "metric": "valuation",
-    "value": 50000000000.0,
+    "value": 18000000000.0,
     "unit": "USD",
-    "raw_text": "$50B Valuation",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
+    "raw_text": "$18 Billion Valuation",
+    "qualifiers": [],
     "speaker": {
       "name": null,
       "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "36Kr",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90enFIQkgyUWhCQ1VUTWlUMG00amJxR2k1QzZ0ZWVhSTg1djN3bHMzTHFlYkpWSDlERHdySGhnLXIzeF8xNFlvR0ROdDRQYmd6Q3lV?oc=5",
+      "name": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaUFpdWJ0OFVEYU5yenNJNjR0VXExUHVhMWlxUWZGMUFIaGZzeUxzVDg2aVdma3ZvcG1BTnJWYTg5Szl1c1hxTmdMeG1idlMzN2pkU1lfcUstWEVMZTdnUnQzSXg3aTR4TFVaQmpPNjNCcUp1R0otNFg2dUxQQXJNRDhyTE9pOC1VR1RxNi1KRy1GbUk2N0VVVk1ZR3dHUy02RUFMUVpoRWRjMkZpXzcxWDln?oc=5",
       "locator": null,
-      "published_at": "2026-09-11"
+      "published_at": "2026-03-14"
     },
-    "extracted_at": "2026-09-14T10:31:29.338960",
+    "extracted_at": "2026-10-27T11:13:23.267375",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -2946,7 +2946,7 @@
       "locator": null,
       "published_at": "2026-05-07"
     },
-    "extracted_at": "2026-10-30T12:02:43.452733",
+    "extracted_at": "2026-10-31T11:19:55.382595",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

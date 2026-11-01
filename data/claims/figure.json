@@ -27,32 +27,6 @@
     "derivation": null
   },
   {
-    "id": "clm_9f9b3d615b",
-    "company_id": "figure",
-    "metric": "headcount_growth",
-    "value": 21.0,
-    "unit": "months",
-    "raw_text": "a company that is only 21 months old has already built humanoid robots",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "No Priors",
-      "url": null,
-      "locator": null,
-      "published_at": "2024-04-04"
-    },
-    "extracted_at": "2026-10-31T11:19:55.382595",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.378,
-    "derivation": null
-  },
-  {
     "id": "clm_ac0126d9fa",
     "company_id": "figure",
     "metric": "round_amount",
@@ -103,6 +77,80 @@
     "derivation": null
   },
   {
+    "id": "clm_814dd571de",
+    "company_id": "figure",
+    "metric": "valuation",
+    "value": 2600000000.0,
+    "unit": null,
+    "raw_text": "valued at $2.6 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQTkzZ2V3NWFURi0wSDlvbnpKcVQ4OGNVcldQajY1cmtXR2t4a0R0SlRMeDl0dy1PUERfeXMyQ1gzOUVkUlUxckQ5N29rUkl2dXZlUGRKUEtOd2hnTThPLUdkV0JmTHVfclpCZXVPVHl1WDZybVh4ZWpQVGZTbzZlQVI3R05KWVFSQ0VhZ3ktdkhsbTl1ZVk3LXZuQ3ZXbXB3Ni1adENmeXlhUdIBrwFBVV95cUxOQ09wZUlNaUxBTmFQcURYeGdNazl5emhvVC1MOWJvczBuNllmZUtVOXVidFk3MWRGTjB0dXdpNXZva29TeXRtR19nSTBzZDdhTDVLelVja0ZPQ1d5ekxmUUJkbi02cHRiY0d0MjNQTlptdTdRa0hadTJwQ1Q4MUZZYXk3Tkp4eV8tTWFXR3RWWkVJLUxuVWZXMnZuXy1BREVhZUs5Rk11bkMzallscm9N?oc=5",
+      "locator": null,
+      "published_at": "2024-02-29"
+    },
+    "extracted_at": "2026-10-23T10:33:17.606078",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_bcdf15d881",
+    "company_id": "figure",
+    "metric": "valuation",
+    "value": 39000000000.0,
+    "unit": "USD",
+    "raw_text": "Robotics Startup Figure AI Valued at $39 Billion in New Funding",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPY0RHNm5VdFVfMnVpckZ0LVo2VGctYkwyemJKYklReXI4UnRXdE9NZl9fRWJ1QW1pckFqUU1YWWFqQjlFTC1IS1QzanRacGlLVEpsc2VQMVdrMWJmcWh5TDI1TTZDcXQtU0poSTQ4WU45NldnR2VxMTBCNGljTlpaMm9CUzdSSGgyRzZZN2d2U05zRU1SVGVsVU02Smx1UTZsOVpycFNrZkFPclVlZ09mbnNyZw?oc=5",
+      "locator": null,
+      "published_at": "2025-09-16"
+    },
+    "extracted_at": "2026-11-01T12:09:38.700208",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_9f9b3d615b",
+    "company_id": "figure",
+    "metric": "headcount_growth",
+    "value": 21.0,
+    "unit": "months",
+    "raw_text": "a company that is only 21 months old has already built humanoid robots",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "No Priors",
+      "url": null,
+      "locator": null,
+      "published_at": "2024-04-04"
+    },
+    "extracted_at": "2026-10-31T11:19:55.382595",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.378,
+    "derivation": null
+  },
+  {
     "id": "clm_8739f50e05",
     "company_id": "figure",
     "metric": "round_amount",
@@ -147,30 +195,6 @@
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB1REw3Z0pNT19jcmhpRHk1aGNoRGtPRlItVWd0N2xKaVJwbHFRUXdra2xmSDBYN1BoU1pGZV94Uzh2V0J2ODNMaWxFZkptN2hBUTBpWFo0OThRQTA4cEkzYg?oc=5",
       "locator": null,
       "published_at": "2026-03-26"
-    },
-    "extracted_at": "2026-10-23T10:33:17.606078",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_814dd571de",
-    "company_id": "figure",
-    "metric": "valuation",
-    "value": 2600000000.0,
-    "unit": null,
-    "raw_text": "valued at $2.6 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQTkzZ2V3NWFURi0wSDlvbnpKcVQ4OGNVcldQajY1cmtXR2t4a0R0SlRMeDl0dy1PUERfeXMyQ1gzOUVkUlUxckQ5N29rUkl2dXZlUGRKUEtOd2hnTThPLUdkV0JmTHVfclpCZXVPVHl1WDZybVh4ZWpQVGZTbzZlQVI3R05KWVFSQ0VhZ3ktdkhsbTl1ZVk3LXZuQ3ZXbXB3Ni1adENmeXlhUdIBrwFBVV95cUxOQ09wZUlNaUxBTmFQcURYeGdNazl5emhvVC1MOWJvczBuNllmZUtVOXVidFk3MWRGTjB0dXdpNXZva29TeXRtR19nSTBzZDdhTDVLelVja0ZPQ1d5ekxmUUJkbi02cHRiY0d0MjNQTlptdTdRa0hadTJwQ1Q4MUZZYXk3Tkp4eV8tTWFXR3RWWkVJLUxuVWZXMnZuXy1BREVhZUs5Rk11bkMzallscm9N?oc=5",
-      "locator": null,
-      "published_at": "2024-02-29"
     },
     "extracted_at": "2026-10-23T10:33:17.606078",
     "extractor_model": "gemini-3.5-flash-lite",
@@ -818,30 +842,6 @@
       "type": "news",
       "name": "TechCrunch",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZDQ0UXRGX0dPTjZEX2VSZzVTX1pHQTBvN1Bobk10bG85M0E3cVE2Q2VHSHd1WENWTTlEY3M5SlFtenZndEdfbzdBTTBmbDZ0ZVJXdHhEVXg0SmtQSmtkdUJ0a3ZIWFVHS0o3eXdvazZFbjlBY3d6UjR2bjdTbkUwX0tIbHJucXVyRGd4c1BPSmQ?oc=5",
-      "locator": null,
-      "published_at": "2025-09-16"
-    },
-    "extracted_at": "2026-06-20T22:06:34.303152",
-    "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_bcdf15d881",
-    "company_id": "figure",
-    "metric": "valuation",
-    "value": 39000000000.0,
-    "unit": null,
-    "raw_text": "Robotics Startup Figure AI Valued at $39 Billion in New Funding - Bloomberg",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPY0RHNm5VdFVfMnVpckZ0LVo2VGctYkwyemJKYklReXI4UnRXdE9NZl9fRWJ1QW1pckFqUU1YWWFqQjlFTC1IS1QzanRacGlLVEpsc2VQMVdrMWJmcWh5TDI1TTZDcXQtU0poSTQ4WU45NldnR2VxMTBCNGljTlpaMm9CUzdSSGgyRzZZN2d2U05zRU1SVGVsVU02Smx1UTZsOVpycFNrZkFPclVlZ09mbnNyZw?oc=5",
       "locator": null,
       "published_at": "2025-09-16"
     },

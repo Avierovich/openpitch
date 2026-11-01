@@ -1,5 +1,31 @@
 [
   {
+    "id": "clm_a19d1fde5d",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1250000000000.0,
+    "unit": "USD",
+    "raw_text": "Invest Committee: Put 20% of the Fund Into OpenAI at $1.25 Trillion",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "investor"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "20VC (Harry Stebbings)",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-files-s1-ahead-of-2trn-ipo-instincts-rumoured-30-billion-fundraise-microsoft-laysoff-27000-while-meta-taps-equity-markets-for-95-billion-capex-spending-spree",
+      "locator": null,
+      "published_at": "2026-10-29"
+    },
+    "extracted_at": "2026-10-29T12:07:33.443424",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.336,
+    "derivation": null
+  },
+  {
     "id": "clm_7f6254a422",
     "company_id": "openai",
     "metric": "round_amount",
@@ -49,32 +75,6 @@
     "extracted_at": "2026-10-23T10:33:17.606078",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_a19d1fde5d",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 1250000000000.0,
-    "unit": "USD",
-    "raw_text": "Invest Committee: Put 20% of the Fund Into OpenAI at $1.25 Trillion",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "investor"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "20VC (Harry Stebbings)",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-files-s1-ahead-of-2trn-ipo-instincts-rumoured-30-billion-fundraise-microsoft-laysoff-27000-while-meta-taps-equity-markets-for-95-billion-capex-spending-spree",
-      "locator": null,
-      "published_at": "2026-10-29"
-    },
-    "extracted_at": "2026-10-29T12:07:33.443424",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.336,
     "derivation": null
   },
   {
@@ -130,78 +130,55 @@
     "derivation": null
   },
   {
-    "id": "clm_8fabc82371",
+    "id": "clm_59bf73f0af",
     "company_id": "openai",
     "metric": "round_amount",
-    "value": 40000000000.0,
+    "value": 30000000000.0,
     "unit": "USD",
-    "raw_text": "OpenAI raises $40B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTjJfVWhBaXN5LWE5LVA2YlJvVFpfNXZBTkxwbFdoRjc1bzV0a29IM1FaRkFTSTFiVEx2TndTMmVUcFVIbXBtaEZ5cTgwd3hBRmhULVhPNDg0NmtxZWgxcHNNQ01XMUhrVzZlYXNoZUZBQmxxV3dDQWFzR3RvN2VCV1pnZ0VPSEVw?oc=5",
-      "locator": null,
-      "published_at": "2025-03-31"
-    },
-    "extracted_at": "2026-08-31T12:11:11.881256",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_806a2e92ba",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 300000000000.0,
-    "unit": "USD",
-    "raw_text": "$300B post-money valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTjJfVWhBaXN5LWE5LVA2YlJvVFpfNXZBTkxwbFdoRjc1bzV0a29IM1FaRkFTSTFiVEx2TndTMmVUcFVIbXBtaEZ5cTgwd3hBRmhULVhPNDg0NmtxZWgxcHNNQ01XMUhrVzZlYXNoZUZBQmxxV3dDQWFzR3RvN2VCV1pnZ0VPSEVw?oc=5",
-      "locator": null,
-      "published_at": "2025-03-31"
-    },
-    "extracted_at": "2026-08-31T12:11:11.881256",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_39847574e3",
-    "company_id": "openai",
-    "metric": "arr",
-    "value": 50000000000.0,
-    "unit": "USD",
-    "raw_text": "OpenAI's September annualized revenue nears $50 billion, less than previously indicated, source says",
+    "raw_text": "$30 billion funding round",
     "qualifiers": [
-      "run_rate",
-      "approximate"
+      "forward_looking"
     ],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
       "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLUJ6eFRkeVppWC1ocFZFMjRyWnFyczBwcml6OEJtaElGOEpxZkgzaFBSa1F2RTJjb3dXVTdLZ0pxWUpyZVhjZVdZRWR4TFpJQ2tjRG1UVGV6WWMwTkJsVVVDUHNjTU05MHBFWENJNGNPZW5sMjdyRUtLX0pfcUVLaWo5ZjhKd2ZCUnBHRlc2aXRpTFRMQTZSWWJuelZ4ZnVrM08xTVJBdlhtcjNEMS1PZUZhT2hDX3hYOUJGc2MzTV8?oc=5",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUDJQanpaYk12dWRPUnlUMGphTXY3eUxMejZmNEw2SmRsZzQ2OXFlUlVYakRscmt4akVENzJldU4zeXVBNXBnajJvemQ5LTdyZ09hZnZwaGVWeDdzMVdMSVE2UDNGcEZwT2w1aERVZDF2LS1xREpJTW1ORnMyZEpUMkVxS0lZeEY5czRFNVdKb1BkaWZvMGk2dnNpUFpBZw?oc=5",
       "locator": null,
-      "published_at": "2026-10-08"
+      "published_at": "2026-09-29"
     },
-    "extracted_at": "2026-10-09T11:53:18.608350",
+    "extracted_at": "2026-09-30T11:06:00.704755",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4016,
+    "base_confidence": 0.2625,
+    "derivation": null
+  },
+  {
+    "id": "clm_9b566c614f",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1400000000000.0,
+    "unit": "USD",
+    "raw_text": "$1.4 trillion valuation",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUDJQanpaYk12dWRPUnlUMGphTXY3eUxMejZmNEw2SmRsZzQ2OXFlUlVYakRscmt4akVENzJldU4zeXVBNXBnajJvemQ5LTdyZ09hZnZwaGVWeDdzMVdMSVE2UDNGcEZwT2w1aERVZDF2LS1xREpJTW1ORnMyZEpUMkVxS0lZeEY5czRFNVdKb1BkaWZvMGk2dnNpUFpBZw?oc=5",
+      "locator": null,
+      "published_at": "2026-09-29"
+    },
+    "extracted_at": "2026-09-30T11:06:00.704755",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2625,
     "derivation": null
   },
   {
@@ -312,6 +289,107 @@
     "derivation": null
   },
   {
+    "id": "clm_56af4dee04",
+    "company_id": "openai",
+    "metric": "total_funding",
+    "value": 30000000000.0,
+    "unit": null,
+    "raw_text": "raise $30 billion",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CTech",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjaUJ3eGVobUkyVmNrdEJ2VmNzSEk3RTZTbTVXRXNYZ3o3M3RoTEhvSzNXLUJDaDRmNmZucXdiZW0wUlE0SFVFRHJFa1BHYjhvR2NXVnBMUjVidlljYkl6RUxaSk5ROTg?oc=5",
+      "locator": null,
+      "published_at": "2026-10-20"
+    },
+    "extracted_at": "2026-10-20T10:08:21.911749",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
+    "id": "clm_a5775b16e5",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1400000000000.0,
+    "unit": null,
+    "raw_text": "$1.4 trillion valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CTech",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjaUJ3eGVobUkyVmNrdEJ2VmNzSEk3RTZTbTVXRXNYZ3o3M3RoTEhvSzNXLUJDaDRmNmZucXdiZW0wUlE0SFVFRHJFa1BHYjhvR2NXVnBMUjVidlljYkl6RUxaSk5ROTg?oc=5",
+      "locator": null,
+      "published_at": "2026-10-20"
+    },
+    "extracted_at": "2026-10-20T10:08:21.911749",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_8fabc82371",
+    "company_id": "openai",
+    "metric": "round_amount",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI raises $40B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTjJfVWhBaXN5LWE5LVA2YlJvVFpfNXZBTkxwbFdoRjc1bzV0a29IM1FaRkFTSTFiVEx2TndTMmVUcFVIbXBtaEZ5cTgwd3hBRmhULVhPNDg0NmtxZWgxcHNNQ01XMUhrVzZlYXNoZUZBQmxxV3dDQWFzR3RvN2VCV1pnZ0VPSEVw?oc=5",
+      "locator": null,
+      "published_at": "2025-03-31"
+    },
+    "extracted_at": "2026-08-31T12:11:11.881256",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_806a2e92ba",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 300000000000.0,
+    "unit": "USD",
+    "raw_text": "$300B post-money valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTjJfVWhBaXN5LWE5LVA2YlJvVFpfNXZBTkxwbFdoRjc1bzV0a29IM1FaRkFTSTFiVEx2TndTMmVUcFVIbXBtaEZ5cTgwd3hBRmhULVhPNDg0NmtxZWgxcHNNQ01XMUhrVzZlYXNoZUZBQmxxV3dDQWFzR3RvN2VCV1pnZ0VPSEVw?oc=5",
+      "locator": null,
+      "published_at": "2025-03-31"
+    },
+    "extracted_at": "2026-08-31T12:11:11.881256",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_2f27f2f63d",
     "company_id": "openai",
     "metric": "round_amount",
@@ -366,6 +444,81 @@
     "derivation": null
   },
   {
+    "id": "clm_c1ae259aab",
+    "company_id": "openai",
+    "metric": "total_funding",
+    "value": 11000000000.0,
+    "unit": "usd",
+    "raw_text": "OpenAI Raises Just $11 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNejJxdF8tcGo4Y29fMDFPWW9UZHFjUUFWalVkajJaQk1JYnBMbmZiTTJHdDZhanI1RmxLQWlpb3hCVEduendjV19YRTFaVE1ScEd1c2JlbDBaWVBOWE5aTVo0Vl9uMVFKbjNIVHJmZkZ6eU9ZMjU0UUdLUEkwcjA0QWJRNU5tYzM3d3VnaEZBWThwZ29reUFwS2dSWjVGNG9OcTk2U3BQRVVCR1REX3FKQXNFT1NZUTNMd1g5X1BjOWQ4M29OcUE?oc=5",
+      "locator": null,
+      "published_at": "2026-10-31"
+    },
+    "extracted_at": "2026-11-01T12:09:38.700208",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_781e7a7842",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1250000000000.0,
+    "unit": "usd",
+    "raw_text": "Valuation Hits $1.25 Trillion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNejJxdF8tcGo4Y29fMDFPWW9UZHFjUUFWalVkajJaQk1JYnBMbmZiTTJHdDZhanI1RmxLQWlpb3hCVEduendjV19YRTFaVE1ScEd1c2JlbDBaWVBOWE5aTVo0Vl9uMVFKbjNIVHJmZkZ6eU9ZMjU0UUdLUEkwcjA0QWJRNU5tYzM3d3VnaEZBWThwZ29reUFwS2dSWjVGNG9OcTk2U3BQRVVCR1REX3FKQXNFT1NZUTNMd1g5X1BjOWQ4M29OcUE?oc=5",
+      "locator": null,
+      "published_at": "2026-10-31"
+    },
+    "extracted_at": "2026-11-01T12:09:38.700208",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_39847574e3",
+    "company_id": "openai",
+    "metric": "arr",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI's September annualized revenue nears $50 billion, less than previously indicated, source says",
+    "qualifiers": [
+      "run_rate",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLUJ6eFRkeVppWC1ocFZFMjRyWnFyczBwcml6OEJtaElGOEpxZkgzaFBSa1F2RTJjb3dXVTdLZ0pxWUpyZVhjZVdZRWR4TFpJQ2tjRG1UVGV6WWMwTkJsVVVDUHNjTU05MHBFWENJNGNPZW5sMjdyRUtLX0pfcUVLaWo5ZjhKd2ZCUnBHRlc2aXRpTFRMQTZSWWJuelZ4ZnVrM08xTVJBdlhtcjNEMS1PZUZhT2hDX3hYOUJGc2MzTV8?oc=5",
+      "locator": null,
+      "published_at": "2026-10-08"
+    },
+    "extracted_at": "2026-10-09T11:53:18.608350",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4016,
+    "derivation": null
+  },
+  {
     "id": "clm_976d940ce9",
     "company_id": "openai",
     "metric": "round_amount",
@@ -416,58 +569,6 @@
     "extracted_at": "2026-10-24T10:01:15.454154",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_59bf73f0af",
-    "company_id": "openai",
-    "metric": "round_amount",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "$30 billion funding round",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUDJQanpaYk12dWRPUnlUMGphTXY3eUxMejZmNEw2SmRsZzQ2OXFlUlVYakRscmt4akVENzJldU4zeXVBNXBnajJvemQ5LTdyZ09hZnZwaGVWeDdzMVdMSVE2UDNGcEZwT2w1aERVZDF2LS1xREpJTW1ORnMyZEpUMkVxS0lZeEY5czRFNVdKb1BkaWZvMGk2dnNpUFpBZw?oc=5",
-      "locator": null,
-      "published_at": "2026-09-29"
-    },
-    "extracted_at": "2026-09-30T11:06:00.704755",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2625,
-    "derivation": null
-  },
-  {
-    "id": "clm_9b566c614f",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 1400000000000.0,
-    "unit": "USD",
-    "raw_text": "$1.4 trillion valuation",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUDJQanpaYk12dWRPUnlUMGphTXY3eUxMejZmNEw2SmRsZzQ2OXFlUlVYakRscmt4akVENzJldU4zeXVBNXBnajJvemQ5LTdyZ09hZnZwaGVWeDdzMVdMSVE2UDNGcEZwT2w1aERVZDF2LS1xREpJTW1ORnMyZEpUMkVxS0lZeEY5czRFNVdKb1BkaWZvMGk2dnNpUFpBZw?oc=5",
-      "locator": null,
-      "published_at": "2026-09-29"
-    },
-    "extracted_at": "2026-09-30T11:06:00.704755",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2625,
     "derivation": null
   },
   {
@@ -705,59 +806,6 @@
     "extracted_at": "2026-10-24T10:01:15.454154",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_56af4dee04",
-    "company_id": "openai",
-    "metric": "total_funding",
-    "value": 30000000000.0,
-    "unit": null,
-    "raw_text": "raise $30 billion",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "CTech",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjaUJ3eGVobUkyVmNrdEJ2VmNzSEk3RTZTbTVXRXNYZ3o3M3RoTEhvSzNXLUJDaDRmNmZucXdiZW0wUlE0SFVFRHJFa1BHYjhvR2NXVnBMUjVidlljYkl6RUxaSk5ROTg?oc=5",
-      "locator": null,
-      "published_at": "2026-10-20"
-    },
-    "extracted_at": "2026-10-20T10:08:21.911749",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1575,
-    "derivation": null
-  },
-  {
-    "id": "clm_a5775b16e5",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 1400000000000.0,
-    "unit": null,
-    "raw_text": "$1.4 trillion valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "CTech",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjaUJ3eGVobUkyVmNrdEJ2VmNzSEk3RTZTbTVXRXNYZ3o3M3RoTEhvSzNXLUJDaDRmNmZucXdiZW0wUlE0SFVFRHJFa1BHYjhvR2NXVnBMUjVidlljYkl6RUxaSk5ROTg?oc=5",
-      "locator": null,
-      "published_at": "2026-10-20"
-    },
-    "extracted_at": "2026-10-20T10:08:21.911749",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
     "derivation": null
   },
   {
@@ -4086,7 +4134,7 @@
       "locator": null,
       "published_at": "2026-08-20"
     },
-    "extracted_at": "2026-10-31T11:19:55.382595",
+    "extracted_at": "2026-11-01T12:09:38.700208",
     "extractor_model": "derive-engine",
     "base_confidence": 0.4658,
     "derivation": {

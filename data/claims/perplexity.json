@@ -1,5 +1,56 @@
 [
   {
+    "id": "clm_2c18904f88",
+    "company_id": "perplexity",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "at Over $30 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZjMtZExfeUhfcmZaMkJNVnhGZF96dmh0cklYU0o3NHlwSXdabnhIelBIS21tc1YwNDM1OGdzazVqZEVzOW1uZWJscl9meGFWRlE2aU80MGZWRkpYNDFBQm9BTnk2bzMzWXRwSVdPR2otdGlZdS1HcHBPZ2luZXRmMUpJcmVRTUZxWlRYUHBDOEN2cWJ6c053?oc=5",
+      "locator": null,
+      "published_at": "2026-08-24"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_511b8807fc",
+    "company_id": "perplexity",
+    "metric": "arr",
+    "value": 750000000.0,
+    "unit": "USD",
+    "raw_text": "$750 Million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZjMtZExfeUhfcmZaMkJNVnhGZF96dmh0cklYU0o3NHlwSXdabnhIelBIS21tc1YwNDM1OGdzazVqZEVzOW1uZWJscl9meGFWRlE2aU80MGZWRkpYNDFBQm9BTnk2bzMzWXRwSVdPR2otdGlZdS1HcHBPZ2luZXRmMUpJcmVRTUZxWlRYUHBDOEN2cWJ6c053?oc=5",
+      "locator": null,
+      "published_at": "2026-08-24"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_fc24151cdd",
     "company_id": "perplexity",
     "metric": "valuation",
@@ -75,6 +126,33 @@
     "extracted_at": "2026-08-27T17:02:21.670041",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.126,
+    "derivation": null
+  },
+  {
+    "id": "clm_d2d090f35e",
+    "company_id": "perplexity",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": null,
+    "raw_text": "Valuation Seen Topping $30 Billion",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5WVGZ2NmgzYVJ4Sk1uM1I2QnNsQVdzYUh5WWllR1laUm5fcUdYZEQ0YlRfaDI4MlZfbVZ4am5meFhZTWJPS1V4MUlsZjZLV1RUWXY4cS1LNTV0NFljZDM5SzR5Q3VvMVFSLThHa2lFcWFoaFB0Y0E?oc=5",
+      "locator": null,
+      "published_at": "2026-08-23"
+    },
+    "extracted_at": "2026-10-07T11:44:32.066946",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -221,84 +299,6 @@
     "extracted_at": "2026-10-29T12:07:33.443424",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_2c18904f88",
-    "company_id": "perplexity",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "at Over $30 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZjMtZExfeUhfcmZaMkJNVnhGZF96dmh0cklYU0o3NHlwSXdabnhIelBIS21tc1YwNDM1OGdzazVqZEVzOW1uZWJscl9meGFWRlE2aU80MGZWRkpYNDFBQm9BTnk2bzMzWXRwSVdPR2otdGlZdS1HcHBPZ2luZXRmMUpJcmVRTUZxWlRYUHBDOEN2cWJ6c053?oc=5",
-      "locator": null,
-      "published_at": "2026-08-24"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_511b8807fc",
-    "company_id": "perplexity",
-    "metric": "arr",
-    "value": 750000000.0,
-    "unit": "USD",
-    "raw_text": "$750 Million",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZjMtZExfeUhfcmZaMkJNVnhGZF96dmh0cklYU0o3NHlwSXdabnhIelBIS21tc1YwNDM1OGdzazVqZEVzOW1uZWJscl9meGFWRlE2aU80MGZWRkpYNDFBQm9BTnk2bzMzWXRwSVdPR2otdGlZdS1HcHBPZ2luZXRmMUpJcmVRTUZxWlRYUHBDOEN2cWJ6c053?oc=5",
-      "locator": null,
-      "published_at": "2026-08-24"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_d2d090f35e",
-    "company_id": "perplexity",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": null,
-    "raw_text": "Valuation Seen Topping $30 Billion",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5WVGZ2NmgzYVJ4Sk1uM1I2QnNsQVdzYUh5WWllR1laUm5fcUdYZEQ0YlRfaDI4MlZfbVZ4am5meFhZTWJPS1V4MUlsZjZLV1RUWXY4cS1LNTV0NFljZDM5SzR5Q3VvMVFSLThHa2lFcWFoaFB0Y0E?oc=5",
-      "locator": null,
-      "published_at": "2026-08-23"
-    },
-    "extracted_at": "2026-10-07T11:44:32.066946",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -1415,7 +1415,7 @@
     "derivation": null
   },
   {
-    "id": "drv_9f1bc6b20d",
+    "id": "drv_02c29e4c49",
     "company_id": "perplexity",
     "metric": "revenue_multiple",
     "value": 26.67,
@@ -1431,9 +1431,9 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-08-25"
+      "published_at": "2026-08-24"
     },
-    "extracted_at": "2026-10-31T11:19:55.382595",
+    "extracted_at": "2026-11-01T12:09:38.700208",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
@@ -1441,7 +1441,7 @@
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
         "clm_29f361d044",
-        "clm_4090891398"
+        "clm_511b8807fc"
       ]
     }
   }

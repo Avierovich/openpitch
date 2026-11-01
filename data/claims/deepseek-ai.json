@@ -1,5 +1,53 @@
 [
   {
+    "id": "clm_9c43fab423",
+    "company_id": "deepseek-ai",
+    "metric": "total_funding",
+    "value": 15800000000.0,
+    "unit": null,
+    "raw_text": "DeepSeek Raises $15.8 Billion in Second Round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "TOKENPOST",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0waTZaNEFDZVROWVlkZVdxMWRjYzVSVHV2UDVybzlETFVHOXlRbjBsRkxsTXJiS0Zpby16M3N5cmtIdFpmTkk2RjR0S2RGTEpMdWZtMXZoaEs?oc=5",
+      "locator": null,
+      "published_at": "2026-10-30"
+    },
+    "extracted_at": "2026-10-30T12:02:43.452733",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_b5334950b5",
+    "company_id": "deepseek-ai",
+    "metric": "valuation",
+    "value": 86000000000.0,
+    "unit": null,
+    "raw_text": "$86 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "TOKENPOST",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0waTZaNEFDZVROWVlkZVdxMWRjYzVSVHV2UDVybzlETFVHOXlRbjBsRkxsTXJiS0Zpby16M3N5cmtIdFpmTkk2RjR0S2RGTEpMdWZtMXZoaEs?oc=5",
+      "locator": null,
+      "published_at": "2026-10-30"
+    },
+    "extracted_at": "2026-10-30T12:02:43.452733",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_3c27bae341",
     "company_id": "deepseek-ai",
     "metric": "round_amount",
@@ -102,14 +150,15 @@
     "derivation": null
   },
   {
-    "id": "clm_6d748ebe5d",
+    "id": "clm_f99df150ea",
     "company_id": "deepseek-ai",
     "metric": "valuation",
     "value": 74000000000.0,
     "unit": "USD",
     "raw_text": "$74 billion valuation",
     "qualifiers": [
-      "unconfirmed"
+      "unconfirmed",
+      "forward_looking"
     ],
     "speaker": {
       "name": null,
@@ -117,14 +166,42 @@
     },
     "source": {
       "type": "news",
-      "name": "The Standard (HK)",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUFN6STBMbVRYeXEtZ2ZHakpOSVZYM3FQSDBtamF1TmJTOUVSb0QyQlBGVGRlMHVYY2ozTG1PMEN6Ul9wR29BOVpzcHd6aDBjWjBzOUk1MzlGbVlDUDNlbXczaVJ0NndSdW5adEo3VGF1TDhuLXhvczhSaW0xSE1jMTBDeE9ST3hnQUpab1N0eTBHME5YakVjenpzbEVRYVpiMGwzVHQxTkhiYXdFSm5uYzRsQkhkaTk0VDNqS0tpN1dPYmg4Y0FyMkI4TnFoNTFFa1ZOekRHVjhQTXhPV3ltYQ?oc=5",
+      "name": "The Express Tribune",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbFlBMnZtVnk0dkdHLTF4VnZ5Z0MyR0RJRzFOS3JaeUNhaXhtVHc2YlhjRXJtYzJYQjNWYUtzZmdNZXpRRC1STEJ1SEFjT1pUVm9HREVDb05NRVpGVVlMd3RkY0QwVWNKTkFWOHlmWlcxMlVoVkE4VUY4cHFNZkRMNWE5YVhuUllBcGF4YTdEY28zT1V0T1FtNklPQ1lpcVRxSWUycnN4NmJkb0lUZ01zanlVUTB1UmNZa1F4Q0pnVkZJTFJtMzllYXh4bVHSAdQBQVVfeXFMUFRaZHZsMnB5SkJSUEx2eFB2X1pLOUhwbDQ5c0NhTWI2SHZZMENxYTV1OFhNMDVHeWJNV1BzcmhyR3VMb255Y3lienJzVS1PYV9lemdYSWpFdllPX1VaU2xpb09IOVVDUk1CM2RvbVV3VFZJVVVWRzFvUzNnS0VnOFljY3J4ek1JN0Q0NWpCMm1JSm95Qjlxdi1SUWlKVTFGVUsxX2x6anI1Z0Mwc0JiUXMzRXp5ME52dC15a0JWUU84dWdvMnA0ZGlXcEJyeEFSU2lVc18?oc=5",
       "locator": null,
-      "published_at": "2026-07-18"
+      "published_at": "2026-07-15"
     },
-    "extracted_at": "2026-10-29T12:07:33.443424",
+    "extracted_at": "2026-09-15T10:11:13.514998",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_0d64bb2755",
+    "company_id": "deepseek-ai",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "DeepSeek valued at more than $50 bn after funding round",
+    "qualifiers": [
+      "unconfirmed",
+      "rounded",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Nepalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSzFkOGxrUnhiaTFzclNGQ0FGbGlmRjhfeC1kR1ZqbF9BWlMxeVN2MEMySUdZeGIyOVR2WXQzbUJ5cENtM3F4LVBzMXZKWDRCYmxCRXRDemI0NFVSWDhmb0J5ZDVjQV9mcFdsekhEV1Fib1pBRF9fRzdsUThWdnYwbW1RU09Eam5tNWlaNHFCN3JqZEc3VjBidUFMeWFYY3dneDJhdW10LTFrM1JxMGhZY0xUMVM?oc=5",
+      "locator": null,
+      "published_at": "2026-06-17"
+    },
+    "extracted_at": "2026-10-21T10:17:02.064836",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.241,
     "derivation": null
   },
   {
@@ -202,6 +279,32 @@
     "extracted_at": "2026-10-16T09:45:26.622667",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_6d748ebe5d",
+    "company_id": "deepseek-ai",
+    "metric": "valuation",
+    "value": 74000000000.0,
+    "unit": "USD",
+    "raw_text": "$74 billion valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Standard (HK)",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUFN6STBMbVRYeXEtZ2ZHakpOSVZYM3FQSDBtamF1TmJTOUVSb0QyQlBGVGRlMHVYY2ozTG1PMEN6Ul9wR29BOVpzcHd6aDBjWjBzOUk1MzlGbVlDUDNlbXczaVJ0NndSdW5adEo3VGF1TDhuLXhvczhSaW0xSE1jMTBDeE9ST3hnQUpab1N0eTBHME5YakVjenpzbEVRYVpiMGwzVHQxTkhiYXdFSm5uYzRsQkhkaTk0VDNqS0tpN1dPYmg4Y0FyMkI4TnFoNTFFa1ZOekRHVjhQTXhPV3ltYQ?oc=5",
+      "locator": null,
+      "published_at": "2026-07-18"
+    },
+    "extracted_at": "2026-10-29T12:07:33.443424",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -464,82 +567,6 @@
     "derivation": null
   },
   {
-    "id": "clm_0d64bb2755",
-    "company_id": "deepseek-ai",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": "USD",
-    "raw_text": "DeepSeek valued at more than $50 bn after funding round",
-    "qualifiers": [
-      "unconfirmed",
-      "rounded",
-      "approximate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Nepalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSzFkOGxrUnhiaTFzclNGQ0FGbGlmRjhfeC1kR1ZqbF9BWlMxeVN2MEMySUdZeGIyOVR2WXQzbUJ5cENtM3F4LVBzMXZKWDRCYmxCRXRDemI0NFVSWDhmb0J5ZDVjQV9mcFdsekhEV1Fib1pBRF9fRzdsUThWdnYwbW1RU09Eam5tNWlaNHFCN3JqZEc3VjBidUFMeWFYY3dneDJhdW10LTFrM1JxMGhZY0xUMVM?oc=5",
-      "locator": null,
-      "published_at": "2026-06-17"
-    },
-    "extracted_at": "2026-10-21T10:17:02.064836",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.241,
-    "derivation": null
-  },
-  {
-    "id": "clm_9c43fab423",
-    "company_id": "deepseek-ai",
-    "metric": "total_funding",
-    "value": 15800000000.0,
-    "unit": null,
-    "raw_text": "DeepSeek Raises $15.8 Billion in Second Round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "TOKENPOST",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0waTZaNEFDZVROWVlkZVdxMWRjYzVSVHV2UDVybzlETFVHOXlRbjBsRkxsTXJiS0Zpby16M3N5cmtIdFpmTkk2RjR0S2RGTEpMdWZtMXZoaEs?oc=5",
-      "locator": null,
-      "published_at": "2026-10-30"
-    },
-    "extracted_at": "2026-10-30T12:02:43.452733",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_b5334950b5",
-    "company_id": "deepseek-ai",
-    "metric": "valuation",
-    "value": 86000000000.0,
-    "unit": null,
-    "raw_text": "$86 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "TOKENPOST",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0waTZaNEFDZVROWVlkZVdxMWRjYzVSVHV2UDVybzlETFVHOXlRbjBsRkxsTXJiS0Zpby16M3N5cmtIdFpmTkk2RjR0S2RGTEpMdWZtMXZoaEs?oc=5",
-      "locator": null,
-      "published_at": "2026-10-30"
-    },
-    "extracted_at": "2026-10-30T12:02:43.452733",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_309be87a59",
     "company_id": "deepseek-ai",
     "metric": "total_funding",
@@ -716,33 +743,6 @@
     "extracted_at": "2026-09-21T10:38:28.440880",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.3307,
-    "derivation": null
-  },
-  {
-    "id": "clm_f99df150ea",
-    "company_id": "deepseek-ai",
-    "metric": "valuation",
-    "value": 74000000000.0,
-    "unit": "USD",
-    "raw_text": "$74 billion valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Express Tribune",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbFlBMnZtVnk0dkdHLTF4VnZ5Z0MyR0RJRzFOS3JaeUNhaXhtVHc2YlhjRXJtYzJYQjNWYUtzZmdNZXpRRC1STEJ1SEFjT1pUVm9HREVDb05NRVpGVVlMd3RkY0QwVWNKTkFWOHlmWlcxMlVoVkE4VUY4cHFNZkRMNWE5YVhuUllBcGF4YTdEY28zT1V0T1FtNklPQ1lpcVRxSWUycnN4NmJkb0lUZ01zanlVUTB1UmNZa1F4Q0pnVkZJTFJtMzllYXh4bVHSAdQBQVVfeXFMUFRaZHZsMnB5SkJSUEx2eFB2X1pLOUhwbDQ5c0NhTWI2SHZZMENxYTV1OFhNMDVHeWJNV1BzcmhyR3VMb255Y3lienJzVS1PYV9lemdYSWpFdllPX1VaU2xpb09IOVVDUk1CM2RvbVV3VFZJVVVWRzFvUzNnS0VnOFljY3J4ek1JN0Q0NWpCMm1JSm95Qjlxdi1SUWlKVTFGVUsxX2x6anI1Z0Mwc0JiUXMzRXp5ME52dC15a0JWUU84dWdvMnA0ZGlXcEJyeEFSU2lVc18?oc=5",
-      "locator": null,
-      "published_at": "2026-07-15"
-    },
-    "extracted_at": "2026-09-15T10:11:13.514998",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -2044,7 +2044,7 @@
       "locator": null,
       "published_at": "2026-10-27"
     },
-    "extracted_at": "2026-10-31T11:19:55.382595",
+    "extracted_at": "2026-11-01T12:09:38.700208",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1369,
     "derivation": {

@@ -1,5 +1,29 @@
 [
   {
+    "id": "clm_4fef42061a",
+    "company_id": "fireworks-ai",
+    "metric": "notable_customers",
+    "value": 10000.0,
+    "unit": null,
+    "raw_text": "trusted by 10,000+ companies globally",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fireworks.ai",
+      "url": "https://fireworks.ai",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-31T11:19:55.382595",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
     "id": "clm_fe12e63e3c",
     "company_id": "fireworks-ai",
     "metric": "round_amount",
@@ -45,6 +69,30 @@
     "extracted_at": "2026-10-07T11:44:32.066946",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_0faf880d9a",
+    "company_id": "fireworks-ai",
+    "metric": "open_roles",
+    "value": 90.0,
+    "unit": null,
+    "raw_text": "Showing 90 positions",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fireworks.ai",
+      "url": "https://fireworks.ai/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-31T11:19:55.382595",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
     "derivation": null
   },
   {
@@ -244,82 +292,6 @@
     "derivation": null
   },
   {
-    "id": "clm_4fef42061a",
-    "company_id": "fireworks-ai",
-    "metric": "notable_customers",
-    "value": 10000.0,
-    "unit": null,
-    "raw_text": "trusted by 10,000+ companies globally",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "fireworks.ai",
-      "url": "https://fireworks.ai",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-31T11:19:55.382595",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_0faf880d9a",
-    "company_id": "fireworks-ai",
-    "metric": "open_roles",
-    "value": 90.0,
-    "unit": null,
-    "raw_text": "Showing 90 positions",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "fireworks.ai",
-      "url": "https://fireworks.ai/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-31T11:19:55.382595",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_91019c5b55",
-    "company_id": "fireworks-ai",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": null,
-    "raw_text": "aims for a $30 billion to $40 billion valuation in its new funding round",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed",
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "KuCoin",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeVc3RTZqS2I1a25hd1F3TWZZTEpmVWpPanlVY3BoY01IMng0ODZQOXpXYWp5ZFlIUXpZNUpObVpZcWFDem1sdW1mR0hNUjAza0tNNXhsS0MwS3hnbFBySmNiWFh4Y1pVaFZKM2Z6Uk43LWRDTDJkbXJZZFJ3Y0I1SHh6NDU5ZFVhVlZFTVZHd2hCZUo5SmJxSXlWelRKNnZNVDhQWC1uZVNOMWc1ZHotNDM0emlhZGpoZ2htZw?oc=5",
-      "locator": null,
-      "published_at": "2026-10-20"
-    },
-    "extracted_at": "2026-10-31T11:19:55.382595",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1417,
-    "derivation": null
-  },
-  {
     "id": "clm_763ef0c4b7",
     "company_id": "fireworks-ai",
     "metric": "valuation",
@@ -370,6 +342,88 @@
     "extracted_at": "2026-09-25T10:09:44.175619",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_571330cad2",
+    "company_id": "fireworks-ai",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "eyes $30B to $40B valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdldzS2gyN21GazBiWjJGNm5rVXZQb0h6SS1STFlpRlNSSzJEVDdyWUNQYVBKS29tQVJPQkNpemZYazQtTS15QVp2T3VPUnFRazBaZGdfdEp4N0J2SEE2NEpoWEZNbEFKOGhlUThVMUpWajNfaC1uS0F1MXVzRTFWQW9welB6eFhhVjdQcmR0bGhfcFRmelFmRkVzVmVrTGZyUXVLc2RzWm5iaVFnUTg4OA?oc=5",
+      "locator": null,
+      "published_at": "2026-10-22"
+    },
+    "extracted_at": "2026-10-24T10:01:15.454154",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_17bedbccc5",
+    "company_id": "fireworks-ai",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "Fireworks AI eyes up to $40B valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNWp3T2pzZlVucDBqZW1LNG5EMEpSXzVSSU9NZTRfYWt6SG1sZmhrdlZZYnE4aENmZGZOMWxfU3ZRN0JsQ0ZENlhISlBoUDhkSmV5WDQ5WjZPTTcxdHhPRS05RURPd2lyWVlaWUMtT3REU2kxUWhsTm5yWXQweWxQV2lRSWp6VkhVTHpZOWx0T2lzbHFvXzNGeQ?oc=5",
+      "locator": null,
+      "published_at": "2026-10-22"
+    },
+    "extracted_at": "2026-10-30T12:02:43.452733",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_91019c5b55",
+    "company_id": "fireworks-ai",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": null,
+    "raw_text": "aims for a $30 billion to $40 billion valuation in its new funding round",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed",
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeVc3RTZqS2I1a25hd1F3TWZZTEpmVWpPanlVY3BoY01IMng0ODZQOXpXYWp5ZFlIUXpZNUpObVpZcWFDem1sdW1mR0hNUjAza0tNNXhsS0MwS3hnbFBySmNiWFh4Y1pVaFZKM2Z6Uk43LWRDTDJkbXJZZFJ3Y0I1SHh6NDU5ZFVhVlZFTVZHd2hCZUo5SmJxSXlWelRKNnZNVDhQWC1uZVNOMWc1ZHotNDM0emlhZGpoZ2htZw?oc=5",
+      "locator": null,
+      "published_at": "2026-10-20"
+    },
+    "extracted_at": "2026-10-31T11:19:55.382595",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1417,
     "derivation": null
   },
   {
@@ -424,33 +478,6 @@
     "derivation": null
   },
   {
-    "id": "clm_17bedbccc5",
-    "company_id": "fireworks-ai",
-    "metric": "valuation",
-    "value": 40000000000.0,
-    "unit": "USD",
-    "raw_text": "Fireworks AI eyes up to $40B valuation",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNWp3T2pzZlVucDBqZW1LNG5EMEpSXzVSSU9NZTRfYWt6SG1sZmhrdlZZYnE4aENmZGZOMWxfU3ZRN0JsQ0ZENlhISlBoUDhkSmV5WDQ5WjZPTTcxdHhPRS05RURPd2lyWVlaWUMtT3REU2kxUWhsTm5yWXQweWxQV2lRSWp6VkhVTHpZOWx0T2lzbHFvXzNGeQ?oc=5",
-      "locator": null,
-      "published_at": "2026-10-22"
-    },
-    "extracted_at": "2026-10-30T12:02:43.452733",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
     "id": "clm_eee50fb7f3",
     "company_id": "fireworks-ai",
     "metric": "open_roles",
@@ -496,33 +523,6 @@
     "extracted_at": "2026-10-27T11:13:23.267375",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_571330cad2",
-    "company_id": "fireworks-ai",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "eyes $30B to $40B valuation",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdldzS2gyN21GazBiWjJGNm5rVXZQb0h6SS1STFlpRlNSSzJEVDdyWUNQYVBKS29tQVJPQkNpemZYazQtTS15QVp2T3VPUnFRazBaZGdfdEp4N0J2SEE2NEpoWEZNbEFKOGhlUThVMUpWajNfaC1uS0F1MXVzRTFWQW9welB6eFhhVjdQcmR0bGhfcFRmelFmRkVzVmVrTGZyUXVLc2RzWm5iaVFnUTg4OA?oc=5",
-      "locator": null,
-      "published_at": "2026-10-22"
-    },
-    "extracted_at": "2026-10-24T10:01:15.454154",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {

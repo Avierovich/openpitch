@@ -380,6 +380,33 @@
     "derivation": null
   },
   {
+    "id": "clm_08d01dd0bd",
+    "company_id": "fluidstack",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "$40bn Fluidstack valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Hedgeweek",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRmZEb29MYU5EZFNEcWtnUXRxMkJkN0tXZFZXNzY2c1hQbi1TR3hPT2NnVFAyVE41ZUhQTS1BU0Q4NFBCTF9Lb1NncjZrOTNrOFhuQnNEcG1qdTVJaVBTNTM4bXVOVXNLSENIb216emQzVFlQcDc0MWtZWUhPVnVwa0dvczY5QTRhSk14YkUxYWNBa2xJX0x4bXR3eDZKVHQzOEM0dVVvZjNVSzV3dmc?oc=5",
+      "locator": null,
+      "published_at": "2026-10-29"
+    },
+    "extracted_at": "2026-10-31T11:19:55.382595",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
     "id": "clm_0f2745d7b8",
     "company_id": "fluidstack",
     "metric": "valuation",
@@ -607,6 +634,54 @@
     "derivation": null
   },
   {
+    "id": "clm_feb6f61244",
+    "company_id": "fluidstack",
+    "metric": "open_roles",
+    "value": 256.0,
+    "unit": "roles",
+    "raw_text": "Open roles 256 open",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fluidstack.io",
+      "url": "https://fluidstack.io/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-11-01T12:09:38.700208",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_feb6f61244",
+    "company_id": "fluidstack",
+    "metric": "open_roles",
+    "value": 256.0,
+    "unit": "roles",
+    "raw_text": "Open roles 256 open",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fluidstack.io",
+      "url": "https://fluidstack.io/jobs",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-11-01T12:09:38.700208",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
     "id": "clm_8e8098092d",
     "company_id": "fluidstack",
     "metric": "open_roles",
@@ -652,33 +727,6 @@
     "extracted_at": "2026-10-31T11:19:55.382595",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_08d01dd0bd",
-    "company_id": "fluidstack",
-    "metric": "valuation",
-    "value": 40000000000.0,
-    "unit": "USD",
-    "raw_text": "$40bn Fluidstack valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Hedgeweek",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRmZEb29MYU5EZFNEcWtnUXRxMkJkN0tXZFZXNzY2c1hQbi1TR3hPT2NnVFAyVE41ZUhQTS1BU0Q4NFBCTF9Lb1NncjZrOTNrOFhuQnNEcG1qdTVJaVBTNTM4bXVOVXNLSENIb216emQzVFlQcDc0MWtZWUhPVnVwa0dvczY5QTRhSk14YkUxYWNBa2xJX0x4bXR3eDZKVHQzOEM0dVVvZjNVSzV3dmc?oc=5",
-      "locator": null,
-      "published_at": "2026-10-29"
-    },
-    "extracted_at": "2026-10-31T11:19:55.382595",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -1499,54 +1547,6 @@
     "extracted_at": "2026-09-21T10:38:28.440880",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.3675,
-    "derivation": null
-  },
-  {
-    "id": "clm_feb6f61244",
-    "company_id": "fluidstack",
-    "metric": "open_roles",
-    "value": 256.0,
-    "unit": null,
-    "raw_text": "256 open",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "fluidstack.io",
-      "url": "https://fluidstack.io/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-03T10:23:28.113006",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_feb6f61244",
-    "company_id": "fluidstack",
-    "metric": "open_roles",
-    "value": 256.0,
-    "unit": null,
-    "raw_text": "256 open",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "fluidstack.io",
-      "url": "https://fluidstack.io/jobs",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-03T10:23:28.113006",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
     "derivation": null
   },
   {

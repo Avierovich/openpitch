@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2026-08-06",
       "estimate_type": "reported",
-      "confidence": 0.145,
+      "confidence": 0.144,
       "supporting_claims": [
         "clm_a66030b533"
       ],
@@ -34,9 +34,31 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 15000000000.0,
+      "unit": "object",
+      "range": null,
+      "as_of": "2025-06-12",
+      "estimate_type": "reported",
+      "confidence": 0.117,
+      "supporting_claims": [
+        "clm_d1391bdcfd"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 15000000000.0,
+        "change_pct": 0.0,
+        "since": "2025-06-12"
+      },
+      "history_ref": "history/scale/latest_round.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "valuation": {
       "metric": "valuation",
-      "value": 28618337652.54,
+      "value": 28618958327.5,
       "unit": "USD",
       "range": null,
       "as_of": "2025-06-12",
@@ -49,7 +71,7 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 28617716658.72,
+        "previous": 28618337652.54,
         "change_pct": 0.0,
         "since": "2025-06-12"
       },
@@ -63,7 +85,7 @@
       "value": 1000.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-11-01",
+      "as_of": "2026-11-02",
       "estimate_type": "reported",
       "confidence": 0.213,
       "supporting_claims": [
@@ -76,28 +98,6 @@
         "since": "2026-10-07"
       },
       "history_ref": "history/scale/headcount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "latest_round": {
-      "metric": "latest_round",
-      "value": 15000000000.0,
-      "unit": "object",
-      "range": null,
-      "as_of": "2025-06-12",
-      "estimate_type": "reported",
-      "confidence": 0.118,
-      "supporting_claims": [
-        "clm_d1391bdcfd"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 15000000000.0,
-        "change_pct": 0.0,
-        "since": "2025-06-12"
-      },
-      "history_ref": "history/scale/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -132,14 +132,14 @@
       "range": null,
       "as_of": "2026-04-15",
       "estimate_type": "reported",
-      "confidence": 0.037,
+      "confidence": 0.036,
       "supporting_claims": [
         "drv_4e24b9bd86"
       ],
       "contradiction": false,
       "delta": {
         "previous": 6.9,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-04-15"
       },
       "history_ref": "history/scale/revenue_multiple.jsonl",
@@ -148,5 +148,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-11-01"
+  "last_updated": "2026-11-02"
 }

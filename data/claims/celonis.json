@@ -53,54 +53,6 @@
     "derivation": null
   },
   {
-    "id": "clm_ac6ea70eee",
-    "company_id": "celonis",
-    "metric": "total_funding",
-    "value": 290000000.0,
-    "unit": "USD",
-    "raw_text": "$290 Million Funding",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Pulse 2.0",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9oUFFKQmRhM2NOZW5GMXE2YzFaSlBqbEd2UGIyaElwd0pHcGFKM1E3V3JFZkdxSEduU1VYM0VNNTZJZ21BWFpVX3VzOURhNWsxWlY2Z2M4S01CN0NNbkJBbWYxSDktWUlFSDZ3MkJDamN0aEhZQXNjSHZfWm9Sdw?oc=5",
-      "locator": null,
-      "published_at": "2019-11-23"
-    },
-    "extracted_at": "2026-09-28T11:35:42.398874",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_f32042fb5d",
-    "company_id": "celonis",
-    "metric": "valuation",
-    "value": 2500000000.0,
-    "unit": "USD",
-    "raw_text": "$2.5 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Pulse 2.0",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9oUFFKQmRhM2NOZW5GMXE2YzFaSlBqbEd2UGIyaElwd0pHcGFKM1E3V3JFZkdxSEduU1VYM0VNNTZJZ21BWFpVX3VzOURhNWsxWlY2Z2M4S01CN0NNbkJBbWYxSDktWUlFSDZ3MkJDamN0aEhZQXNjSHZfWm9Sdw?oc=5",
-      "locator": null,
-      "published_at": "2019-11-23"
-    },
-    "extracted_at": "2026-09-28T11:35:42.398874",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_89157d5b5b",
     "company_id": "celonis",
     "metric": "total_funding",
@@ -192,6 +144,102 @@
       "published_at": "2026-08-17"
     },
     "extracted_at": "2026-08-27T17:02:21.670041",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_e86f231f97",
+    "company_id": "celonis",
+    "metric": "round_amount",
+    "value": 50000000.0,
+    "unit": null,
+    "raw_text": "$50M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMDF2X1RtSG5uUVo4UTh5dWVsd2tFeGdKN0FaU2didnY4NC1seHUzYnM3QUpNQmtOc2xSallVNDhkVk0wanl1UGNkeW1HTnJrUzc4N2hLZldsSWxsUDJmLUpubno2VzdmbWE3bFFmc0RRQ1EtNEFRRHotMjlXbnJfVFliemFFazNJSVFlZGJn?oc=5",
+      "locator": null,
+      "published_at": "2018-06-26"
+    },
+    "extracted_at": "2026-11-02T13:46:40.731910",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_116176b657",
+    "company_id": "celonis",
+    "metric": "valuation",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "$1B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMDF2X1RtSG5uUVo4UTh5dWVsd2tFeGdKN0FaU2didnY4NC1seHUzYnM3QUpNQmtOc2xSallVNDhkVk0wanl1UGNkeW1HTnJrUzc4N2hLZldsSWxsUDJmLUpubno2VzdmbWE3bFFmc0RRQ1EtNEFRRHotMjlXbnJfVFliemFFazNJSVFlZGJn?oc=5",
+      "locator": null,
+      "published_at": "2018-06-26"
+    },
+    "extracted_at": "2026-11-02T13:46:40.731910",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_ac6ea70eee",
+    "company_id": "celonis",
+    "metric": "total_funding",
+    "value": 290000000.0,
+    "unit": "USD",
+    "raw_text": "$290 Million Funding",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Pulse 2.0",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9oUFFKQmRhM2NOZW5GMXE2YzFaSlBqbEd2UGIyaElwd0pHcGFKM1E3V3JFZkdxSEduU1VYM0VNNTZJZ21BWFpVX3VzOURhNWsxWlY2Z2M4S01CN0NNbkJBbWYxSDktWUlFSDZ3MkJDamN0aEhZQXNjSHZfWm9Sdw?oc=5",
+      "locator": null,
+      "published_at": "2019-11-23"
+    },
+    "extracted_at": "2026-09-28T11:35:42.398874",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_f32042fb5d",
+    "company_id": "celonis",
+    "metric": "valuation",
+    "value": 2500000000.0,
+    "unit": "USD",
+    "raw_text": "$2.5 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Pulse 2.0",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9oUFFKQmRhM2NOZW5GMXE2YzFaSlBqbEd2UGIyaElwd0pHcGFKM1E3V3JFZkdxSEduU1VYM0VNNTZJZ21BWFpVX3VzOURhNWsxWlY2Z2M4S01CN0NNbkJBbWYxSDktWUlFSDZ3MkJDamN0aEhZQXNjSHZfWm9Sdw?oc=5",
+      "locator": null,
+      "published_at": "2019-11-23"
+    },
+    "extracted_at": "2026-09-28T11:35:42.398874",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -1186,10 +1234,10 @@
     "derivation": null
   },
   {
-    "id": "drv_b2cb336639",
+    "id": "drv_1742c64d7c",
     "company_id": "celonis",
     "metric": "revenue_multiple",
-    "value": 3.24,
+    "value": 16.86,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -1202,16 +1250,16 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-07-03"
+      "published_at": "2026-08-17"
     },
-    "extracted_at": "2026-11-01T12:09:38.700208",
+    "extracted_at": "2026-11-02T13:46:40.731910",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2054,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_f32042fb5d",
+        "clm_1bea91a08f",
         "clm_4a9d9165ee"
       ]
     }

@@ -9,7 +9,7 @@
   "summary": "DeepSeek AI focuses on developing large-scale AI models and conducting research to advance artificial intelligence capabilities. They aim to contribute to the progress of AI technology through open research and development.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 89.3,
+  "vc_attention_score": 89.4,
   "universe_rank": 8,
   "metrics": {
     "total_funding": {
@@ -46,7 +46,7 @@
     },
     "valuation": {
       "metric": "valuation",
-      "value": 61700342661.72,
+      "value": 61919846063.39,
       "unit": "USD",
       "range": {
         "low": 50000000000.0,
@@ -81,9 +81,10 @@
         "clm_93952d7e80",
         "clm_aff2cf13b5",
         "clm_728081a323",
+        "clm_9531c75902",
+        "clm_633a39bebe",
         "clm_b41c7965c6",
         "clm_f99df150ea",
-        "clm_9531c75902",
         "clm_6d748ebe5d",
         "clm_a0c09a5ff6",
         "clm_f531bdf667",
@@ -99,44 +100,13 @@
       "contradiction": false,
       "delta": {
         "previous": 61700342661.72,
-        "change_pct": 0.0,
+        "change_pct": 0.4,
         "since": "2026-10-30"
       },
       "history_ref": "history/deepseek-ai/valuation.jsonl",
       "unconfirmed": true,
       "confirmed_value": 86000000000.0,
       "confirmed_as_of": "2026-10-30"
-    },
-    "round_amount": {
-      "metric": "round_amount",
-      "value": 15000000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 15000000000.0,
-        "high": 15000000000.0
-      },
-      "as_of": "2026-10-27",
-      "estimate_type": "consensus",
-      "confidence": 0.923,
-      "supporting_claims": [
-        "clm_3c27bae341",
-        "clm_dbd95a1669",
-        "clm_0541719195",
-        "clm_022144cfdc",
-        "clm_72a64cab5c",
-        "clm_879a800c56",
-        "clm_d12935159a"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 15000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-10-27"
-      },
-      "history_ref": "history/deepseek-ai/round_amount.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     },
     "arr": {
       "metric": "arr",
@@ -145,7 +115,7 @@
       "range": null,
       "as_of": "2026-09-25",
       "estimate_type": "consensus",
-      "confidence": 0.372,
+      "confidence": 0.369,
       "supporting_claims": [
         "clm_342ce119be",
         "clm_19797c8a05"
@@ -161,6 +131,37 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "round_amount": {
+      "metric": "round_amount",
+      "value": 15000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 15000000000.0,
+        "high": 15000000000.0
+      },
+      "as_of": "2026-10-27",
+      "estimate_type": "consensus",
+      "confidence": 0.923,
+      "supporting_claims": [
+        "clm_dbd95a1669",
+        "clm_0541719195",
+        "clm_879a800c56",
+        "clm_3c27bae341",
+        "clm_022144cfdc",
+        "clm_72a64cab5c",
+        "clm_d12935159a"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 15000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-10-27"
+      },
+      "history_ref": "history/deepseek-ai/round_amount.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "latest_round": {
       "metric": "latest_round",
       "value": 7193427025.56,
@@ -171,7 +172,7 @@
       },
       "as_of": "2026-07-14",
       "estimate_type": "consensus",
-      "confidence": 0.611,
+      "confidence": 0.61,
       "supporting_claims": [
         "clm_d0d93298ed",
         "clm_2ab48b6dc2"
@@ -189,19 +190,19 @@
     },
     "revenue_multiple": {
       "metric": "revenue_multiple",
-      "value": 74.0,
+      "value": 52.0,
       "unit": "x",
       "range": null,
-      "as_of": "2026-10-27",
+      "as_of": "2026-09-24",
       "estimate_type": "reported",
-      "confidence": 0.131,
+      "confidence": 0.099,
       "supporting_claims": [
-        "drv_0843594223"
+        "drv_602c6c5f77"
       ],
       "contradiction": false,
       "delta": {
         "previous": 74.0,
-        "change_pct": 0.0,
+        "change_pct": -29.7,
         "since": "2026-10-27"
       },
       "history_ref": "history/deepseek-ai/revenue_multiple.jsonl",
@@ -210,5 +211,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-11-01"
+  "last_updated": "2026-11-02"
 }

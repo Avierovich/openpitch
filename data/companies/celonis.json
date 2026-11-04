@@ -17,7 +17,7 @@
       "value": 3000.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-11-02",
+      "as_of": "2026-11-04",
       "estimate_type": "reported",
       "confidence": 0.191,
       "supporting_claims": [
@@ -39,7 +39,7 @@
       "value": 1000.0,
       "unit": "list",
       "range": null,
-      "as_of": "2026-11-02",
+      "as_of": "2026-11-04",
       "estimate_type": "reported",
       "confidence": 0.225,
       "supporting_claims": [
@@ -52,35 +52,6 @@
         "since": "2026-10-09"
       },
       "history_ref": "history/celonis/notable_customers.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 1000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2026-09-15",
-      "estimate_type": "consensus",
-      "confidence": 0.671,
-      "supporting_claims": [
-        "clm_89157d5b5b",
-        "clm_f0638776aa",
-        "clm_b4e580e0b2",
-        "clm_2557a67a3a",
-        "clm_c3f55fe0a8",
-        "clm_9373310818",
-        "clm_a7375da408",
-        "clm_538b6cd945"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1000000000.0,
-        "change_pct": 0.0,
-        "since": "2026-09-15"
-      },
-      "history_ref": "history/celonis/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -100,7 +71,7 @@
       "contradiction": false,
       "delta": {
         "previous": 400000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2022-09-06"
       },
       "history_ref": "history/celonis/round_amount.jsonl",
@@ -118,15 +89,15 @@
       },
       "as_of": "2026-08-17",
       "estimate_type": "consensus",
-      "confidence": 0.675,
+      "confidence": 0.672,
       "supporting_claims": [
         "clm_93f95c055d",
         "clm_2b1330ceae",
         "clm_ad6d4e962a",
         "clm_ae195d4c38",
+        "clm_0b81e88e78",
         "clm_1bea91a08f",
         "clm_abdd22d911",
-        "clm_0b81e88e78",
         "clm_df8f1ec2d9",
         "clm_2a8fd8cab3",
         "clm_e34f5ce92d",
@@ -149,6 +120,35 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 1000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2026-09-15",
+      "estimate_type": "consensus",
+      "confidence": 0.67,
+      "supporting_claims": [
+        "clm_89157d5b5b",
+        "clm_f0638776aa",
+        "clm_b4e580e0b2",
+        "clm_2557a67a3a",
+        "clm_c3f55fe0a8",
+        "clm_9373310818",
+        "clm_a7375da408",
+        "clm_538b6cd945"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-09-15"
+      },
+      "history_ref": "history/celonis/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "arr": {
       "metric": "arr",
       "value": 771000000.0,
@@ -156,7 +156,7 @@
       "range": null,
       "as_of": "2026-07-03",
       "estimate_type": "reported",
-      "confidence": 0.154,
+      "confidence": 0.151,
       "supporting_claims": [
         "clm_4a9d9165ee"
       ],
@@ -198,17 +198,17 @@
       "value": 16.86,
       "unit": "x",
       "range": null,
-      "as_of": "2026-08-17",
+      "as_of": "2026-07-03",
       "estimate_type": "reported",
-      "confidence": 0.108,
+      "confidence": 0.073,
       "supporting_claims": [
-        "drv_1742c64d7c"
+        "drv_31aaf85ca4"
       ],
       "contradiction": false,
       "delta": {
-        "previous": 3.24,
-        "change_pct": 420.4,
-        "since": "2026-07-03"
+        "previous": 16.86,
+        "change_pct": 0.0,
+        "since": "2026-08-17"
       },
       "history_ref": "history/celonis/revenue_multiple.jsonl",
       "unconfirmed": false,
@@ -216,5 +216,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-11-02"
+  "last_updated": "2026-11-04"
 }

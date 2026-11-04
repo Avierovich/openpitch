@@ -25,11 +25,11 @@
       "confidence": 0.97,
       "supporting_claims": [
         "clm_fa1ca25dfb",
-        "clm_0d1de079e4",
-        "clm_f87eacf058",
-        "clm_92f08c5b0b",
-        "clm_a33a02e78f",
         "clm_1a9e9ccc7a",
+        "clm_a33a02e78f",
+        "clm_0d1de079e4",
+        "clm_92f08c5b0b",
+        "clm_f87eacf058",
         "clm_133bae1f48",
         "clm_20468ed29d",
         "clm_6f1e45e4d7",
@@ -60,23 +60,23 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
+        "clm_9a24a0d9b3",
         "clm_bc73d753ed",
         "clm_1407cd0069",
         "clm_d9b4f60a43",
-        "clm_9a24a0d9b3",
         "clm_4b164dda40",
         "clm_7a6ea93bc7",
         "clm_795ae10f4b",
         "clm_e58870c790",
+        "clm_13dc1498b7",
+        "clm_98c992635b",
         "clm_dd83af0591",
         "clm_4806770680",
         "clm_d99325df6f",
         "clm_9069891d0b",
         "clm_e4101bcffd",
-        "clm_98c992635b",
-        "clm_13dc1498b7",
-        "clm_a3a8512859",
         "clm_2dfbfd2d94",
+        "clm_a3a8512859",
         "clm_a67458754d",
         "clm_41eb02c434",
         "clm_bd7dddbc1d",
@@ -88,11 +88,33 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 464671196.16,
-        "change_pct": 0.0,
+        "previous": 464686147.22,
+        "change_pct": -0.0,
         "since": "2026-09-15"
       },
       "history_ref": "history/helion-energy/round_amount.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 7.0,
+      "unit": "object",
+      "range": null,
+      "as_of": "2026-06-05",
+      "estimate_type": "reported",
+      "confidence": 0.247,
+      "supporting_claims": [
+        "clm_479810f5f6"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 7.0,
+        "change_pct": 0.0,
+        "since": "2026-06-05"
+      },
+      "history_ref": "history/helion-energy/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -107,7 +129,7 @@
       },
       "as_of": "2026-06-08",
       "estimate_type": "consensus",
-      "confidence": 0.776,
+      "confidence": 0.775,
       "supporting_claims": [
         "clm_fd78978f46",
         "clm_5859e3f0a6",
@@ -127,29 +149,7 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
-    },
-    "latest_round": {
-      "metric": "latest_round",
-      "value": 7.0,
-      "unit": "object",
-      "range": null,
-      "as_of": "2026-06-05",
-      "estimate_type": "reported",
-      "confidence": 0.249,
-      "supporting_claims": [
-        "clm_479810f5f6"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 7.0,
-        "change_pct": 0.0,
-        "since": "2026-06-05"
-      },
-      "history_ref": "history/helion-energy/latest_round.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-11-02"
+  "last_updated": "2026-11-04"
 }

@@ -48,6 +48,33 @@
     "derivation": null
   },
   {
+    "id": "clm_7d366ec39d",
+    "company_id": "anysphere-cursor",
+    "metric": "valuation",
+    "value": 400000000.0,
+    "unit": "USD",
+    "raw_text": "at least a $400 million valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNGdlTGNsZF8wY2ZxcnBYOERuV2lHclFlOUtrcFZVYnRHVWNmV0c0TEF3TWdjc2FoQzN6MDJadnIzNHYzdjltZXF0VWhySVNwYjhMNnJhalZ3aFlkT2lFb0hTTi1udGdKQi1CZTYxNFlqS2xubXZPb2M0VS11bzRnejZmLTFfTVQ3VV81R3ZrQ3pTRXVUd1JjTDZtWnM?oc=5",
+      "locator": null,
+      "published_at": "2024-07-15"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
     "id": "clm_14f769cd12",
     "company_id": "anysphere-cursor",
     "metric": "round_amount",
@@ -95,33 +122,6 @@
     "extracted_at": "2026-09-05T09:07:28.177448",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_7d366ec39d",
-    "company_id": "anysphere-cursor",
-    "metric": "valuation",
-    "value": 400000000.0,
-    "unit": "USD",
-    "raw_text": "at least a $400 million valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNGdlTGNsZF8wY2ZxcnBYOERuV2lHclFlOUtrcFZVYnRHVWNmV0c0TEF3TWdjc2FoQzN6MDJadnIzNHYzdjltZXF0VWhySVNwYjhMNnJhalZ3aFlkT2lFb0hTTi1udGdKQi1CZTYxNFlqS2xubXZPb2M0VS11bzRnejZmLTFfTVQ3VV81R3ZrQ3pTRXVUd1JjTDZtWnM?oc=5",
-      "locator": null,
-      "published_at": "2024-07-15"
-    },
-    "extracted_at": "2026-09-05T09:07:28.177448",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -1031,7 +1031,7 @@
       "locator": null,
       "published_at": "2026-06-16"
     },
-    "extracted_at": "2026-11-02T13:46:40.731910",
+    "extracted_at": "2026-11-04T13:18:39.395579",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

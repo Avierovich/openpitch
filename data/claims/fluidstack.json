@@ -560,13 +560,89 @@
     "derivation": null
   },
   {
+    "id": "clm_02bccd311f",
+    "company_id": "fluidstack",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": "USD",
+    "raw_text": "$18 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY0N1S3BBNFpDXzJ6NDg1S1NxSC1Oc1hKUGpBZDBtV29zTjhJS2U4VkRsMEUyUWhGVlMydloyWElXN3VUZlJWTm1DR2s1YnNzd3JTaFB0a1gxbWVXSTVJR1NHMEpINFdGdEIwNXJubko0dm9IcUM3VFVqckFrbWJYeDg5WU0tQlZ4cEZrdHJwcW1ZR3NqbmRHVXZuQ2hXdU51OTJScGFPV2x6MlRkeU40Z291bGg?oc=5",
+      "locator": null,
+      "published_at": "2026-04-14"
+    },
+    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_c3ea5beeee",
+    "company_id": "fluidstack",
+    "metric": "open_roles",
+    "value": 257.0,
+    "unit": null,
+    "raw_text": "257 open",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fluidstack.io",
+      "url": "https://fluidstack.io/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-11-04T13:18:39.395579",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_c3ea5beeee",
+    "company_id": "fluidstack",
+    "metric": "open_roles",
+    "value": 257.0,
+    "unit": null,
+    "raw_text": "257 open",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fluidstack.io",
+      "url": "https://fluidstack.io/jobs",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-11-04T13:18:39.395579",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
     "id": "clm_c4376698e6",
     "company_id": "fluidstack",
     "metric": "valuation",
     "value": 18000000000.0,
     "unit": "USD",
-    "raw_text": "$18B Valuation",
-    "qualifiers": [],
+    "raw_text": "FluidStack's $18B Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
     "speaker": {
       "name": null,
       "role": "journalist"
@@ -578,9 +654,35 @@
       "locator": null,
       "published_at": "2026-04-15"
     },
-    "extracted_at": "2026-09-13T10:11:10.741230",
+    "extracted_at": "2026-11-04T13:18:39.395579",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_bd7fb3c5b4",
+    "company_id": "fluidstack",
+    "metric": "round_amount",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "$1.5B Round",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "tech-insider.org",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVVVzSjJjM3MtNVRKQUNFUHZYb0lOQldHc0N3WnlhcHJyanp5TlJPcm05bS04bjNhRUstQ2U2NTVjNS1fQ016YmswSlY5dGlwSlc5R2dLWWwyWW5ZYmNicy1PMmdySGhzZkJDOTFleDA5dkVmTmlpOHlDbEhjd2pMUG41dVloNjdr?oc=5",
+      "locator": null,
+      "published_at": "2026-04-15"
+    },
+    "extracted_at": "2026-11-04T13:18:39.395579",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -655,80 +757,6 @@
       "published_at": "2026-04-14"
     },
     "extracted_at": "2026-09-17T10:01:41.438182",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_c3ea5beeee",
-    "company_id": "fluidstack",
-    "metric": "open_roles",
-    "value": 257.0,
-    "unit": null,
-    "raw_text": "257 open",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "fluidstack.io",
-      "url": "https://fluidstack.io/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-11-02T13:46:40.731910",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_c3ea5beeee",
-    "company_id": "fluidstack",
-    "metric": "open_roles",
-    "value": 257.0,
-    "unit": null,
-    "raw_text": "257 open",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "fluidstack.io",
-      "url": "https://fluidstack.io/jobs",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-11-02T13:46:40.731910",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_02bccd311f",
-    "company_id": "fluidstack",
-    "metric": "valuation",
-    "value": 18000000000.0,
-    "unit": "USD",
-    "raw_text": "$18 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY0N1S3BBNFpDXzJ6NDg1S1NxSC1Oc1hKUGpBZDBtV29zTjhJS2U4VkRsMEUyUWhGVlMydloyWElXN3VUZlJWTm1DR2s1YnNzd3JTaFB0a1gxbWVXSTVJR1NHMEpINFdGdEIwNXJubko0dm9IcUM3VFVqckFrbWJYeDg5WU0tQlZ4cEZrdHJwcW1ZR3NqbmRHVXZuQ2hXdU51OTJScGFPV2x6MlRkeU40Z291bGg?oc=5",
-      "locator": null,
-      "published_at": "2026-04-14"
-    },
-    "extracted_at": "2026-09-13T10:11:10.741230",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
     "derivation": null

@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2026-03-26",
       "estimate_type": "consensus",
-      "confidence": 0.808,
+      "confidence": 0.806,
       "supporting_claims": [
         "clm_bd4cd2e26e",
         "clm_f1658d437b",
@@ -49,25 +49,26 @@
     },
     "round_amount": {
       "metric": "round_amount",
-      "value": 700000000.0,
+      "value": 1000000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2026-05-21",
-      "estimate_type": "reported",
-      "confidence": 0.239,
+      "as_of": "2026-03-27",
+      "estimate_type": "consensus",
+      "confidence": 0.261,
       "supporting_claims": [
-        "clm_44a717b09a"
+        "clm_b901a06374",
+        "clm_830ad3ebc6"
       ],
       "contradiction": false,
       "delta": {
         "previous": 700000000.0,
-        "change_pct": 0.0,
+        "change_pct": 42.9,
         "since": "2026-05-21"
       },
       "history_ref": "history/figure/round_amount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
+      "unconfirmed": true,
+      "confirmed_value": 700000000.0,
+      "confirmed_as_of": "2026-05-21"
     },
     "headcount_growth": {
       "metric": "headcount_growth",
@@ -120,7 +121,7 @@
       "range": null,
       "as_of": "2025-09-16",
       "estimate_type": "consensus",
-      "confidence": 0.554,
+      "confidence": 0.553,
       "supporting_claims": [
         "clm_0bda6ab6e4",
         "clm_55992f10c2",
@@ -166,7 +167,7 @@
       "range": null,
       "as_of": "2025-02-16",
       "estimate_type": "reported",
-      "confidence": 0.041,
+      "confidence": 0.04,
       "supporting_claims": [
         "clm_f48c5759c6"
       ],
@@ -182,5 +183,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-11-02"
+  "last_updated": "2026-11-04"
 }

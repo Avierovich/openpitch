@@ -27,29 +27,29 @@
     "derivation": null
   },
   {
-    "id": "clm_11c09f4309",
+    "id": "clm_bc562e180f",
     "company_id": "hugging-face",
     "metric": "valuation",
-    "value": 13000000000.0,
-    "unit": null,
-    "raw_text": "exploring sale at $13 billion valuation",
+    "value": 12900000000.0,
+    "unit": "USD",
+    "raw_text": "Nvidia crushes $96.2B quarter and nears $12.9B Hugging Face deal",
     "qualifiers": [
       "unconfirmed"
     ],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
-      "type": "news",
-      "name": "Quartz",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1wSE11aVRna3BSM2JDS2RwYldSVlRja1BNUms5YmRSZWh1VmFsZWhsV0hHaHM4eHg5dWRrdW5ZemxNT0MwYVlWYlZ6OHQwWTAzdHlJcjN5TEZEWC1aOFNOMUZwQWdSeW42TG5qaDlaN3lDTS1pQVM4Y3RIZzQ?oc=5",
+      "type": "podcast",
+      "name": "20VC (Harry Stebbings)",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-crushes-quarter-and-buys-hugging-face-openai-cuts-off-cursor-instinct-hits-25bn-valuation-and-the-race-for-ai-assistants-cognition-raises-at-46bn-linear-25bn-and-clay-7bn",
       "locator": null,
-      "published_at": "2026-08-24"
+      "published_at": "2026-09-03"
     },
-    "extracted_at": "2026-10-16T09:45:26.622667",
+    "extracted_at": "2026-09-24T09:50:31.335914",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
+    "base_confidence": 0.252,
     "derivation": null
   },
   {
@@ -76,32 +76,6 @@
     "extracted_at": "2026-09-24T09:50:31.335914",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_bc562e180f",
-    "company_id": "hugging-face",
-    "metric": "valuation",
-    "value": 12900000000.0,
-    "unit": "USD",
-    "raw_text": "Nvidia crushes $96.2B quarter and nears $12.9B Hugging Face deal",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "20VC (Harry Stebbings)",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-crushes-quarter-and-buys-hugging-face-openai-cuts-off-cursor-instinct-hits-25bn-valuation-and-the-race-for-ai-assistants-cognition-raises-at-46bn-linear-25bn-and-clay-7bn",
-      "locator": null,
-      "published_at": "2026-09-03"
-    },
-    "extracted_at": "2026-09-24T09:50:31.335914",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.252,
     "derivation": null
   },
   {
@@ -177,6 +151,80 @@
     "extracted_at": "2026-10-24T10:01:15.454154",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_662041e652",
+    "company_id": "hugging-face",
+    "metric": "round_amount",
+    "value": 399.0,
+    "unit": "USD",
+    "raw_text": "Hugging Face built a $399 open-source robot duck",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "This Week in Startups",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-09-18"
+    },
+    "extracted_at": "2026-11-04T13:18:39.395579",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3,
+    "derivation": null
+  },
+  {
+    "id": "clm_6f99945da2",
+    "company_id": "hugging-face",
+    "metric": "subscribers",
+    "value": 16000.0,
+    "unit": null,
+    "raw_text": "sold 16,000 units off a single tweet",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "This Week in Startups",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-09-18"
+    },
+    "extracted_at": "2026-11-04T13:18:39.395579",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3,
+    "derivation": null
+  },
+  {
+    "id": "clm_11c09f4309",
+    "company_id": "hugging-face",
+    "metric": "valuation",
+    "value": 13000000000.0,
+    "unit": null,
+    "raw_text": "exploring sale at $13 billion valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Quartz",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1wSE11aVRna3BSM2JDS2RwYldSVlRja1BNUms5YmRSZWh1VmFsZWhsV0hHaHM4eHg5dWRrdW5ZemxNT0MwYVlWYlZ6OHQwWTAzdHlJcjN5TEZEWC1aOFNOMUZwQWdSeW42TG5qaDlaN3lDTS1pQVM4Y3RIZzQ?oc=5",
+      "locator": null,
+      "published_at": "2026-08-24"
+    },
+    "extracted_at": "2026-10-16T09:45:26.622667",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
     "derivation": null
   },
   {
@@ -336,30 +384,6 @@
     "value": 399.0,
     "unit": "USD",
     "raw_text": "Hugging Face built a $399 open-source robot duck",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "This Week in Startups",
-      "url": null,
-      "locator": null,
-      "published_at": "2026-09-18"
-    },
-    "extracted_at": "2026-11-02T13:46:40.731910",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3,
-    "derivation": null
-  },
-  {
-    "id": "clm_6f99945da2",
-    "company_id": "hugging-face",
-    "metric": "subscribers",
-    "value": 16000.0,
-    "unit": "units",
-    "raw_text": "sold 16,000 units",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -1416,7 +1440,7 @@
       "locator": null,
       "published_at": "2026-08-27"
     },
-    "extracted_at": "2026-11-02T13:46:40.731910",
+    "extracted_at": "2026-11-04T13:18:39.395579",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

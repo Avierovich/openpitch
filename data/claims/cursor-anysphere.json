@@ -326,15 +326,14 @@
     "derivation": null
   },
   {
-    "id": "clm_822f7114b8",
+    "id": "clm_9669acd8b3",
     "company_id": "cursor-anysphere",
-    "metric": "valuation",
-    "value": 10000000000.0,
+    "metric": "arr",
+    "value": 4000000000.0,
     "unit": "USD",
-    "raw_text": "$10 Billion Valuation",
+    "raw_text": "$4B annualized revenue",
     "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
+      "run_rate"
     ],
     "speaker": {
       "name": null,
@@ -342,14 +341,14 @@
     },
     "source": {
       "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTmlldjNFaVR0MzJRbGJKRFpvUmRpM3ZqSUt5ekxGR21PbzlEMVdKX2tiV3VtbGNKbjVQTHhrWnY2X2phblZJM29FcjRwbmZ2N0pJbFR6OWdsRllGR0FLM1phdzA4d2VBMGN5N2ktcl9IcF9HNHh6NWxvRWRURENxX3pYTlQ?oc=5",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcGd4Z0c0SzhoUVd4RGNrbGpDNG1lLWhnMFFXSEhFZExyWFhJdW5HOVloUVd1b1VBRi1uOFEyaHNCcndpZkxHM0YyQm9Wdnl5NEFRSW5FS0V1c0lCYXZocGRUd1dvOHBvd1RrZjNxOEJ3SmxHYWlVQU5vMjNIdTVIYjdnaw?oc=5",
       "locator": null,
-      "published_at": "2025-03-07"
+      "published_at": "2026-06-10"
     },
-    "extracted_at": "2026-10-22T10:37:55.971484",
+    "extracted_at": "2026-10-19T11:06:35.602420",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
+    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -398,58 +397,6 @@
     "extracted_at": "2026-10-19T11:06:35.602420",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_9669acd8b3",
-    "company_id": "cursor-anysphere",
-    "metric": "arr",
-    "value": 4000000000.0,
-    "unit": "USD",
-    "raw_text": "$4B annualized revenue",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcGd4Z0c0SzhoUVd4RGNrbGpDNG1lLWhnMFFXSEhFZExyWFhJdW5HOVloUVd1b1VBRi1uOFEyaHNCcndpZkxHM0YyQm9Wdnl5NEFRSW5FS0V1c0lCYXZocGRUd1dvOHBvd1RrZjNxOEJ3SmxHYWlVQU5vMjNIdTVIYjdnaw?oc=5",
-      "locator": null,
-      "published_at": "2026-06-10"
-    },
-    "extracted_at": "2026-10-19T11:06:35.602420",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_cf17032c97",
-    "company_id": "cursor-anysphere",
-    "metric": "arr",
-    "value": 2000000000.0,
-    "unit": "USD",
-    "raw_text": "$2 Billion Revenue Run Rate",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORjVaUnJBelNSaVdubGxpTFZHNWQ1NHY4bUQwRjNwV21mZ3pOaEJ6aWNUOERnZ0k3cURPc2I5VFhxTGNRbXJhMUhuV010dzF4RGo5OXN2MktKVGNZemtObjZnSnhRYnZvVWhIaGdNWTF3WmVHSnk0QlNmZlpVT3FqY0tuaw?oc=5",
-      "locator": null,
-      "published_at": "2026-03-03"
-    },
-    "extracted_at": "2026-10-19T11:06:35.602420",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -528,6 +475,86 @@
     "extracted_at": "2026-10-19T11:06:35.602420",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_a4f2215208",
+    "company_id": "cursor-anysphere",
+    "metric": "valuation",
+    "value": 60000000000.0,
+    "unit": "USD",
+    "raw_text": "How Aman Sanger Built Cursor Into a $60 Billion AI Coding Story",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "ascendants.in",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTjRfeFdjcVdPMnpUMHlMbm54bGp3S281UW5vQU1acGNFbmlpbk5aaHRhOWNwUnNoelRnTFRWTjhweUZBR1JnZDF0Wk0zV29NWHRZOEtoakNJaloxRk4tb0NQYWlpLW9pMmxnTnB2N2JUYjA1ZkVsS3hsRlhzMVNGWHJtX0lLMWFXalhKcDFCcnpRaEU?oc=5",
+      "locator": null,
+      "published_at": "2026-06-18"
+    },
+    "extracted_at": "2026-11-04T13:18:39.395579",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_822f7114b8",
+    "company_id": "cursor-anysphere",
+    "metric": "valuation",
+    "value": 10000000000.0,
+    "unit": "USD",
+    "raw_text": "$10 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTmlldjNFaVR0MzJRbGJKRFpvUmRpM3ZqSUt5ekxGR21PbzlEMVdKX2tiV3VtbGNKbjVQTHhrWnY2X2phblZJM29FcjRwbmZ2N0pJbFR6OWdsRllGR0FLM1phdzA4d2VBMGN5N2ktcl9IcF9HNHh6NWxvRWRURENxX3pYTlQ?oc=5",
+      "locator": null,
+      "published_at": "2025-03-07"
+    },
+    "extracted_at": "2026-10-22T10:37:55.971484",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_cf17032c97",
+    "company_id": "cursor-anysphere",
+    "metric": "arr",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "$2 Billion Revenue Run Rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORjVaUnJBelNSaVdubGxpTFZHNWQ1NHY4bUQwRjNwV21mZ3pOaEJ6aWNUOERnZ0k3cURPc2I5VFhxTGNRbXJhMUhuV010dzF4RGo5OXN2MktKVGNZemtObjZnSnhRYnZvVWhIaGdNWTF3WmVHSnk0QlNmZlpVT3FqY0tuaw?oc=5",
+      "locator": null,
+      "published_at": "2026-03-03"
+    },
+    "extracted_at": "2026-10-19T11:06:35.602420",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -623,7 +650,7 @@
       "locator": null,
       "published_at": "2026-04-18"
     },
-    "extracted_at": "2026-11-02T13:46:40.731910",
+    "extracted_at": "2026-11-04T13:18:39.395579",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

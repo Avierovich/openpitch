@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-11-04
+# OpenPitch Data Quality Report - 2026-11-05
 
 ## Summary
 
-- Profiles generated: 672
-- Watchlist candidates: 1381
+- Profiles generated: 677
+- Watchlist candidates: 1383
 - Top-50 cards: 50
-- Profiles with at least one metric: 658
-- Critical issues: 121
+- Profiles with at least one metric: 662
+- Critical issues: 122
 - Warnings: 17
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 707
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 704
 
 ## Top-50 Companies With No Metrics
 
@@ -139,6 +139,7 @@ None.
 - Kabbage
 - Kallyope
 - Karat Financial
+- KeepTruckin
 - Krea
 - Lean Technologies
 - Mindsay

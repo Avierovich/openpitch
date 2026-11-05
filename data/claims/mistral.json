@@ -72,32 +72,6 @@
     "derivation": null
   },
   {
-    "id": "clm_887f0fb12f",
-    "company_id": "mistral",
-    "metric": "headcount",
-    "value": 900.0,
-    "unit": null,
-    "raw_text": "900+ employees",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "mistral.ai",
-      "url": "https://mistral.ai/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-30T12:02:43.452733",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
-    "derivation": null
-  },
-  {
     "id": "clm_6d4b89bc0a",
     "company_id": "mistral",
     "metric": "latest_round",
@@ -338,32 +312,6 @@
     "derivation": null
   },
   {
-    "id": "clm_b18a2e2321",
-    "company_id": "mistral",
-    "metric": "total_funding",
-    "value": 100000000.0,
-    "unit": "USD",
-    "raw_text": "$100M+ seed financing",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "No Priors",
-      "url": null,
-      "locator": null,
-      "published_at": "2023-11-09"
-    },
-    "extracted_at": "2026-11-04T13:18:39.395579",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.378,
-    "derivation": null
-  },
-  {
     "id": "clm_108a8e923c",
     "company_id": "mistral",
     "metric": "valuation",
@@ -385,6 +333,58 @@
     "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_887f0fb12f",
+    "company_id": "mistral",
+    "metric": "headcount",
+    "value": 900.0,
+    "unit": null,
+    "raw_text": "900+ employees",
+    "qualifiers": [
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "mistral.ai",
+      "url": "https://mistral.ai/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-11-05T13:15:28.916366",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2125,
+    "derivation": null
+  },
+  {
+    "id": "clm_b18a2e2321",
+    "company_id": "mistral",
+    "metric": "total_funding",
+    "value": 100000000.0,
+    "unit": null,
+    "raw_text": "$100M+ seed financing",
+    "qualifiers": [
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "No Priors",
+      "url": null,
+      "locator": null,
+      "published_at": "2023-11-09"
+    },
+    "extracted_at": "2026-11-05T13:15:28.916366",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.357,
     "derivation": null
   },
   {
@@ -1930,7 +1930,7 @@
       "locator": null,
       "published_at": "2026-02-11"
     },
-    "extracted_at": "2026-11-04T13:18:39.395579",
+    "extracted_at": "2026-11-05T13:15:28.916366",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

@@ -72,33 +72,6 @@
     "derivation": null
   },
   {
-    "id": "clm_98c3c5b18c",
-    "company_id": "cerebras",
-    "metric": "valuation",
-    "value": 35000000000.0,
-    "unit": "USD",
-    "raw_text": "$35 Bn Valuation",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Analytics India Magazine",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZGYtOHNjWC1uajFsYWF5MXpEQ0VfQXBVQnk5RDZzZmJ1SlBtR0pHWHFsNC1teHUyZE43aElETU15Z28tVEJMTklCdm9hYUF0OGFqVkQyY182R2cybUhTWEd2ODVhWDV5bnJ6YXFKRWJTR3lrOFR6STMtN0xKV0lPSW85ZnU1bEhHVlFNZV96VWFqQUVOMmtvYXk1VnQ?oc=5",
-      "locator": null,
-      "published_at": "2026-05-06"
-    },
-    "extracted_at": "2026-11-02T13:46:40.731910",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1575,
-    "derivation": null
-  },
-  {
     "id": "clm_8aba5a4f48",
     "company_id": "cerebras",
     "metric": "total_funding",
@@ -140,54 +113,6 @@
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNE5LSjRnYkdYbkk4Q2toSVQtd3ZBdW9SUkFQazczXzRHSXh0V2xoRzd3N3phMXg4RHlSaDFDZklLci1GbXRtSkF6NEUwQWJUUDczeVEwUkI5TXlqZGgwSUZGWlN6VDlUdklId1RwTVVJRlRWeHlEc1E5Y25XQV9lQ3VydDBWdWRtLXZsVDJadUJyTGs?oc=5",
       "locator": null,
       "published_at": "2026-02-05"
-    },
-    "extracted_at": "2026-10-29T12:07:33.443424",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_ce869f304c",
-    "company_id": "cerebras",
-    "metric": "total_funding",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "Nvidia Rival Cerebras Raises $1 Billion in Funding at $23 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLWJXcDBRMjQ4Um9iNEo3aktOQWpLTVBQN1dHMUtONDNoS0lURHZyY3hkSnpSMEQtdFFwQTktLThhM09mMzc0ZUFJdDU2RDItQ3lZM1FwTm5xOWhaX2Rrc29vbm1SSjZlNUZDLXJNaERkcmh0M1ZHbEJ4RTA0bFpBSTFDN1dEYndmYXB4SXExNVpJS0tFZEJ6SVVXQ2pWdXpmeVhsNVNBb1hJb3MwS3FWYw?oc=5",
-      "locator": null,
-      "published_at": "2026-02-04"
-    },
-    "extracted_at": "2026-10-29T12:07:33.443424",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_f20abb62d1",
-    "company_id": "cerebras",
-    "metric": "valuation",
-    "value": 23000000000.0,
-    "unit": "USD",
-    "raw_text": "Nvidia Rival Cerebras Raises $1 Billion in Funding at $23 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLWJXcDBRMjQ4Um9iNEo3aktOQWpLTVBQN1dHMUtONDNoS0lURHZyY3hkSnpSMEQtdFFwQTktLThhM09mMzc0ZUFJdDU2RDItQ3lZM1FwTm5xOWhaX2Rrc29vbm1SSjZlNUZDLXJNaERkcmh0M1ZHbEJ4RTA0bFpBSTFDN1dEYndmYXB4SXExNVpJS0tFZEJ6SVVXQ2pWdXpmeVhsNVNBb1hJb3MwS3FWYw?oc=5",
-      "locator": null,
-      "published_at": "2026-02-04"
     },
     "extracted_at": "2026-10-29T12:07:33.443424",
     "extractor_model": "gemini-3.5-flash-lite",
@@ -316,6 +241,156 @@
     "extracted_at": "2026-11-01T12:09:38.700208",
     "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_17e3ffd877",
+    "company_id": "cerebras",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "Raises $1 Billion in Funding",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLWJXcDBRMjQ4Um9iNEo3aktOQWpLTVBQN1dHMUtONDNoS0lURHZyY3hkSnpSMEQtdFFwQTktLThhM09mMzc0ZUFJdDU2RDItQ3lZM1FwTm5xOWhaX2Rrc29vbm1SSjZlNUZDLXJNaERkcmh0M1ZHbEJ4RTA0bFpBSTFDN1dEYndmYXB4SXExNVpJS0tFZEJ6SVVXQ2pWdXpmeVhsNVNBb1hJb3MwS3FWYw?oc=5",
+      "locator": null,
+      "published_at": "2026-02-04"
+    },
+    "extracted_at": "2026-11-05T13:15:28.916366",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_d9fe3c1ecf",
+    "company_id": "cerebras",
+    "metric": "valuation",
+    "value": 23000000000.0,
+    "unit": null,
+    "raw_text": "$23 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLWJXcDBRMjQ4Um9iNEo3aktOQWpLTVBQN1dHMUtONDNoS0lURHZyY3hkSnpSMEQtdFFwQTktLThhM09mMzc0ZUFJdDU2RDItQ3lZM1FwTm5xOWhaX2Rrc29vbm1SSjZlNUZDLXJNaERkcmh0M1ZHbEJ4RTA0bFpBSTFDN1dEYndmYXB4SXExNVpJS0tFZEJ6SVVXQ2pWdXpmeVhsNVNBb1hJb3MwS3FWYw?oc=5",
+      "locator": null,
+      "published_at": "2026-02-04"
+    },
+    "extracted_at": "2026-11-05T13:15:28.916366",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_55e0b994e0",
+    "company_id": "cerebras",
+    "metric": "valuation",
+    "value": 26600000000.0,
+    "unit": null,
+    "raw_text": "seeks up to $26.6B valuation in US IPO",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeVJsakhVWktSeElwNV82WU94d2M4ZEZWa1BpX01LcDhDRGVKRTd0X3cxSmlWNGxueU00UGZ0SzVwSkI2ZDVYeE1mMERIdVpuTlBHc2djOGh1bW1jY1lCMVJqY05rWUVEY05oTHdFMm9OQWpQZ0VHcl9NckQ5R0JDRDRDdkVyTERUTlJCRG5XR0dHc01ZVGV5NQ?oc=5",
+      "locator": null,
+      "published_at": "2026-05-04"
+    },
+    "extracted_at": "2026-11-05T13:15:28.916366",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
+    "id": "clm_98c3c5b18c",
+    "company_id": "cerebras",
+    "metric": "valuation",
+    "value": 35000000000.0,
+    "unit": "USD",
+    "raw_text": "$35 Bn Valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Analytics India Magazine",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZGYtOHNjWC1uajFsYWF5MXpEQ0VfQXBVQnk5RDZzZmJ1SlBtR0pHWHFsNC1teHUyZE43aElETU15Z28tVEJMTklCdm9hYUF0OGFqVkQyY182R2cybUhTWEd2ODVhWDV5bnJ6YXFKRWJTR3lrOFR6STMtN0xKV0lPSW85ZnU1bEhHVlFNZV96VWFqQUVOMmtvYXk1VnQ?oc=5",
+      "locator": null,
+      "published_at": "2026-05-06"
+    },
+    "extracted_at": "2026-11-02T13:46:40.731910",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
+    "id": "clm_ce869f304c",
+    "company_id": "cerebras",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "Nvidia Rival Cerebras Raises $1 Billion in Funding at $23 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLWJXcDBRMjQ4Um9iNEo3aktOQWpLTVBQN1dHMUtONDNoS0lURHZyY3hkSnpSMEQtdFFwQTktLThhM09mMzc0ZUFJdDU2RDItQ3lZM1FwTm5xOWhaX2Rrc29vbm1SSjZlNUZDLXJNaERkcmh0M1ZHbEJ4RTA0bFpBSTFDN1dEYndmYXB4SXExNVpJS0tFZEJ6SVVXQ2pWdXpmeVhsNVNBb1hJb3MwS3FWYw?oc=5",
+      "locator": null,
+      "published_at": "2026-02-04"
+    },
+    "extracted_at": "2026-10-29T12:07:33.443424",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_f20abb62d1",
+    "company_id": "cerebras",
+    "metric": "valuation",
+    "value": 23000000000.0,
+    "unit": "USD",
+    "raw_text": "Nvidia Rival Cerebras Raises $1 Billion in Funding at $23 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLWJXcDBRMjQ4Um9iNEo3aktOQWpLTVBQN1dHMUtONDNoS0lURHZyY3hkSnpSMEQtdFFwQTktLThhM09mMzc0ZUFJdDU2RDItQ3lZM1FwTm5xOWhaX2Rrc29vbm1SSjZlNUZDLXJNaERkcmh0M1ZHbEJ4RTA0bFpBSTFDN1dEYndmYXB4SXExNVpJS0tFZEJ6SVVXQ2pWdXpmeVhsNVNBb1hJb3MwS3FWYw?oc=5",
+      "locator": null,
+      "published_at": "2026-02-04"
+    },
+    "extracted_at": "2026-10-29T12:07:33.443424",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -1716,7 +1791,7 @@
       "locator": null,
       "published_at": "2026-08-12"
     },
-    "extracted_at": "2026-11-04T13:18:39.395579",
+    "extracted_at": "2026-11-05T13:15:28.916366",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

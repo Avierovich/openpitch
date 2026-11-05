@@ -1,5 +1,31 @@
 [
   {
+    "id": "clm_75340eebc2",
+    "company_id": "mercor",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": "USD",
+    "raw_text": "Mercor valuation doubles to $20B on revenue growth",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Investing.com UK",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcTNGdUtjRC1JbUtfbUh2R2hHSmZTSy1ralhEX2Y5UzdJeGItNnVTREloZzNyZkNHWDJwQ0JRV1FvQ0lUZmQ3X05xcmhvZVdNZDFYVGE1NEFPR1REVUlHS3IwdXNXNmxCek00YXVNNWJLUXQtNHlyc19Yb0ZYN3lTa1hNMVdWQkRmemJaOGM1ZUZBSHhFck56cjloV2VIUmZJSmpodUlIYkY5VER0Y0pYOTNMdmJCa2tuVVVabFZ3?oc=5",
+      "locator": null,
+      "published_at": "2026-07-09"
+    },
+    "extracted_at": "2026-11-04T13:18:39.395579",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
     "id": "clm_7ff93371f6",
     "company_id": "mercor",
     "metric": "valuation",
@@ -148,29 +174,27 @@
     "derivation": null
   },
   {
-    "id": "clm_75340eebc2",
+    "id": "clm_393365d078",
     "company_id": "mercor",
-    "metric": "valuation",
-    "value": 20000000000.0,
-    "unit": "USD",
-    "raw_text": "Mercor valuation doubles to $20B on revenue growth",
-    "qualifiers": [
-      "rounded"
-    ],
+    "metric": "headcount",
+    "value": 718000.0,
+    "unit": "count",
+    "raw_text": "718k k Roles created",
+    "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
-      "type": "news",
-      "name": "Investing.com UK",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcTNGdUtjRC1JbUtfbUh2R2hHSmZTSy1ralhEX2Y5UzdJeGItNnVTREloZzNyZkNHWDJwQ0JRV1FvQ0lUZmQ3X05xcmhvZVdNZDFYVGE1NEFPR1REVUlHS3IwdXNXNmxCek00YXVNNWJLUXQtNHlyc19Yb0ZYN3lTa1hNMVdWQkRmemJaOGM1ZUZBSHhFck56cjloV2VIUmZJSmpodUlIYkY5VER0Y0pYOTNMdmJCa2tuVVVabFZ3?oc=5",
+      "type": "web",
+      "name": "mercor.com",
+      "url": "https://mercor.com",
       "locator": null,
-      "published_at": "2026-07-09"
+      "published_at": null
     },
-    "extracted_at": "2026-11-04T13:18:39.395579",
+    "extracted_at": "2026-11-05T13:15:28.916366",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
+    "base_confidence": 0.25,
     "derivation": null
   },
   {
@@ -180,12 +204,10 @@
     "value": 10000000000.0,
     "unit": "USD",
     "raw_text": "$10 billion valuation",
-    "qualifiers": [
-      "rounded"
-    ],
+    "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "exec"
+      "role": "unknown"
     },
     "source": {
       "type": "web",
@@ -194,9 +216,9 @@
       "locator": null,
       "published_at": null
     },
-    "extracted_at": "2026-11-04T13:18:39.395579",
+    "extracted_at": "2026-11-05T13:15:28.916366",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.45,
+    "base_confidence": 0.25,
     "derivation": null
   },
   {
@@ -204,12 +226,14 @@
     "company_id": "mercor",
     "metric": "latest_round",
     "value": 3.0,
-    "unit": "round",
+    "unit": "round_letter",
     "raw_text": "Series C",
-    "qualifiers": [],
+    "qualifiers": [
+      "forward_looking"
+    ],
     "speaker": {
       "name": null,
-      "role": "exec"
+      "role": "unknown"
     },
     "source": {
       "type": "web",
@@ -218,9 +242,9 @@
       "locator": null,
       "published_at": null
     },
-    "extracted_at": "2026-11-04T13:18:39.395579",
+    "extracted_at": "2026-11-05T13:15:28.916366",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.5,
+    "base_confidence": 0.175,
     "derivation": null
   },
   {
@@ -1257,7 +1281,7 @@
       "locator": null,
       "published_at": "2026-07-25"
     },
-    "extracted_at": "2026-11-04T13:18:39.395579",
+    "extracted_at": "2026-11-05T13:15:28.916366",
     "extractor_model": "derive-engine",
     "base_confidence": 0.3312,
     "derivation": {

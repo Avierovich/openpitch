@@ -16,12 +16,17 @@
       "metric": "valuation",
       "value": 50000000000.0,
       "unit": "USD",
-      "range": null,
-      "as_of": "2026-10-15",
+      "range": {
+        "low": 50000000000.0,
+        "high": 50000000000.0
+      },
+      "as_of": "2026-11-05",
       "estimate_type": "consensus",
-      "confidence": 0.443,
+      "confidence": 0.738,
       "supporting_claims": [
         "clm_4733038a81",
+        "clm_171ed8b7cc",
+        "clm_693c473199",
         "clm_d37b13e875",
         "clm_b526f61ace"
       ],
@@ -46,7 +51,7 @@
       },
       "as_of": "2026-10-09",
       "estimate_type": "consensus",
-      "confidence": 0.739,
+      "confidence": 0.737,
       "supporting_claims": [
         "clm_a5f4df6c4f",
         "clm_3668b14afd"
@@ -69,7 +74,7 @@
       "range": null,
       "as_of": "2026-05-12",
       "estimate_type": "consensus",
-      "confidence": 0.514,
+      "confidence": 0.513,
       "supporting_claims": [
         "clm_3989f43af2",
         "clm_09d471a692"
@@ -91,11 +96,11 @@
       "unit": "USD",
       "range": {
         "low": 2100000000.0,
-        "high": 2100000000.0
+        "high": 5000000000.0
       },
       "as_of": "2026-05-13",
       "estimate_type": "consensus",
-      "confidence": 0.692,
+      "confidence": 0.69,
       "supporting_claims": [
         "clm_26de188ca1",
         "clm_d010e7194f",
@@ -113,5 +118,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-11-04"
+  "last_updated": "2026-11-05"
 }

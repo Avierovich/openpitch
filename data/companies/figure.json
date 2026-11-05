@@ -10,21 +10,23 @@
   "segment": "global",
   "in_universe": true,
   "vc_attention_score": 87.7,
-  "universe_rank": 19,
+  "universe_rank": 20,
   "metrics": {
     "valuation": {
       "metric": "valuation",
-      "value": 39065721379.23,
+      "value": 39051852970.46,
       "unit": "USD",
       "range": null,
-      "as_of": "2026-03-26",
+      "as_of": "2026-07-31",
       "estimate_type": "consensus",
-      "confidence": 0.806,
+      "confidence": 0.878,
       "supporting_claims": [
         "clm_bd4cd2e26e",
+        "clm_98317cd8c1",
+        "clm_7ecaabd103",
+        "clm_b721711fde",
         "clm_f1658d437b",
         "clm_bcdf15d881",
-        "clm_98317cd8c1",
         "clm_119d3655eb",
         "clm_073462360d",
         "clm_4973563f79",
@@ -61,14 +63,38 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 700000000.0,
-        "change_pct": 42.9,
-        "since": "2026-05-21"
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-03-27"
       },
       "history_ref": "history/figure/round_amount.jsonl",
       "unconfirmed": true,
       "confirmed_value": 700000000.0,
       "confirmed_as_of": "2026-05-21"
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 1000000000.0,
+      "unit": "USD",
+      "range": null,
+      "as_of": "2025-09-16",
+      "estimate_type": "consensus",
+      "confidence": 0.552,
+      "supporting_claims": [
+        "clm_0bda6ab6e4",
+        "clm_55992f10c2",
+        "clm_7e98f0f671"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 1000000000.0,
+        "change_pct": 0.0,
+        "since": "2025-09-16"
+      },
+      "history_ref": "history/figure/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "headcount_growth": {
       "metric": "headcount_growth",
@@ -110,30 +136,6 @@
         "since": "2024-04-04"
       },
       "history_ref": "history/figure/headcount.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 1000000000.0,
-      "unit": "USD",
-      "range": null,
-      "as_of": "2025-09-16",
-      "estimate_type": "consensus",
-      "confidence": 0.553,
-      "supporting_claims": [
-        "clm_0bda6ab6e4",
-        "clm_55992f10c2",
-        "clm_7e98f0f671"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 1000000000.0,
-        "change_pct": 0.0,
-        "since": "2025-09-16"
-      },
-      "history_ref": "history/figure/total_funding.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -183,5 +185,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-11-04"
+  "last_updated": "2026-11-05"
 }

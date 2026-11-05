@@ -9,9 +9,100 @@
   "summary": "Moonshot is a company that uses AI to develop large language models for various applications.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 87.1,
-  "universe_rank": 22,
+  "vc_attention_score": 88.6,
+  "universe_rank": 16,
   "metrics": {
+    "valuation": {
+      "metric": "valuation",
+      "value": 49799812426.03,
+      "unit": "USD",
+      "range": {
+        "low": 3500000000.0,
+        "high": 50000000000.0
+      },
+      "as_of": "2026-10-24",
+      "estimate_type": "consensus",
+      "confidence": 0.97,
+      "supporting_claims": [
+        "clm_b93abaed45",
+        "clm_53859b2c7f",
+        "clm_107d297a33",
+        "clm_d6e55f64de",
+        "clm_49c6965814",
+        "clm_6a07b1670f",
+        "clm_76bf0f69ee",
+        "clm_d8401766a5",
+        "clm_68e4bf89e4",
+        "clm_a3cd724515",
+        "clm_e248a02b0f",
+        "clm_1cfebb751e",
+        "clm_6d00d28230",
+        "clm_881c63da7c",
+        "clm_49dd16f6e2",
+        "clm_71f001a27f",
+        "clm_9759b88606",
+        "clm_bc91d9ccf8",
+        "clm_bd6566548b",
+        "clm_17b8a435b0",
+        "clm_49c32518cc",
+        "clm_2e9a86e7f8",
+        "clm_305b76f927",
+        "clm_40f9de454d",
+        "clm_33e016e715",
+        "clm_7c35fe7ac6",
+        "clm_0177ddaa5a",
+        "clm_29ab08018f",
+        "clm_6b05c045fd",
+        "clm_cf9a820756",
+        "clm_80031d1771",
+        "clm_d79f6c4904",
+        "clm_cccb8e4c50",
+        "clm_6dd90495f5",
+        "clm_7ae839841c",
+        "clm_10755bbab2",
+        "clm_debe537c59",
+        "clm_17bb1a2c45"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 33094068518.24,
+        "change_pct": 50.5,
+        "since": "2026-09-29"
+      },
+      "history_ref": "history/moonshot/valuation.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "total_funding": {
+      "metric": "total_funding",
+      "value": 3500000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 2000000000.0,
+        "high": 3500000000.0
+      },
+      "as_of": "2026-07-29",
+      "estimate_type": "consensus",
+      "confidence": 0.953,
+      "supporting_claims": [
+        "clm_b74a9756f0",
+        "clm_da056e95ee",
+        "clm_52f6bab356",
+        "clm_e33f8bc73a",
+        "clm_182894d9c5"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 3500000000.0,
+        "change_pct": -0.0,
+        "since": "2026-07-29"
+      },
+      "history_ref": "history/moonshot/total_funding.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "latest_round": {
       "metric": "latest_round",
       "value": 3500000000.0,
@@ -44,87 +135,6 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "valuation": {
-      "metric": "valuation",
-      "value": 33094068518.24,
-      "unit": "USD",
-      "range": {
-        "low": 3500000000.0,
-        "high": 50000000000.0
-      },
-      "as_of": "2026-09-29",
-      "estimate_type": "consensus",
-      "confidence": 0.97,
-      "supporting_claims": [
-        "clm_d785154228",
-        "clm_bcc238024e",
-        "clm_2dfa250dab",
-        "clm_84ed6e38cf",
-        "clm_4dc677a0a0",
-        "clm_df9dd3a2a7",
-        "clm_7be716e5b8",
-        "clm_9e78645bae",
-        "clm_66706febd6",
-        "clm_85f223da3c",
-        "clm_9c12767a8a",
-        "clm_f76dc085f5",
-        "clm_12c7436640",
-        "clm_4841726055",
-        "clm_4ffc037f6b",
-        "clm_4bfba58275",
-        "clm_181cd8848d",
-        "clm_f61325f567",
-        "clm_c3faf6bdb5",
-        "clm_11f18bfd54",
-        "clm_8e436b4a23",
-        "clm_61f9de6680",
-        "clm_18d3397f07",
-        "clm_09ef38246a",
-        "clm_56f0110826",
-        "clm_dcb1f2b0b6",
-        "clm_ac6fd5f4fc",
-        "clm_8a4c2dc727"
-      ],
-      "contradiction": true,
-      "delta": {
-        "previous": 33094068518.24,
-        "change_pct": 0.0,
-        "since": "2026-09-29"
-      },
-      "history_ref": "history/moonshot/valuation.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "total_funding": {
-      "metric": "total_funding",
-      "value": 3500000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 2000000000.0,
-        "high": 3500000000.0
-      },
-      "as_of": "2026-07-29",
-      "estimate_type": "consensus",
-      "confidence": 0.954,
-      "supporting_claims": [
-        "clm_b74a9756f0",
-        "clm_da056e95ee",
-        "clm_52f6bab356",
-        "clm_e33f8bc73a",
-        "clm_182894d9c5"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 3500000000.0,
-        "change_pct": 0.0,
-        "since": "2026-07-29"
-      },
-      "history_ref": "history/moonshot/total_funding.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "round_amount": {
       "metric": "round_amount",
       "value": 3500000000.0,
@@ -135,7 +145,7 @@
       },
       "as_of": "2026-07-30",
       "estimate_type": "consensus",
-      "confidence": 0.969,
+      "confidence": 0.968,
       "supporting_claims": [
         "clm_2a2422b64a",
         "clm_0cc06da7e3",
@@ -164,7 +174,7 @@
       "range": null,
       "as_of": "2026-05-07",
       "estimate_type": "consensus",
-      "confidence": 0.31,
+      "confidence": 0.307,
       "supporting_claims": [
         "clm_348cf6bfec",
         "clm_87df7a759e",
@@ -173,7 +183,7 @@
       "contradiction": true,
       "delta": {
         "previous": 200000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-05-07"
       },
       "history_ref": "history/moonshot/arr.jsonl",
@@ -188,7 +198,7 @@
       "range": null,
       "as_of": "2026-07-29",
       "estimate_type": "reported",
-      "confidence": 0.112,
+      "confidence": 0.111,
       "supporting_claims": [
         "drv_9a9142786a"
       ],
@@ -204,5 +214,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-11-04"
+  "last_updated": "2026-11-05"
 }

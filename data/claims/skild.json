@@ -172,6 +172,30 @@
     "derivation": null
   },
   {
+    "id": "clm_3ca8b6787c",
+    "company_id": "skild",
+    "metric": "arr",
+    "value": 100000000.0,
+    "unit": "USD",
+    "raw_text": "Skild AI: Omni-Bodied Robot Brain Passes US$100m ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "AI Magazine",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcEIzYUw5N2NyLXhwcEp2QlFxa2pmVmxjLWRsUVlsUGtGaWpUenlkaTFodkdmVlY3Ulh5R0Fqb1F5UWlTQ280Y2xZS1lQRmZVTW1KZ3hpeXd2WnlObGhkd2JqVFpHTUEtSGRwN083d1BFaFNaQUs4Nm9VZTliWnJWWUh0eXNDZw?oc=5",
+      "locator": null,
+      "published_at": "2026-11-04"
+    },
+    "extracted_at": "2026-11-04T13:18:39.395579",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_8f5246bd74",
     "company_id": "skild",
     "metric": "arr",
@@ -274,27 +298,29 @@
     "derivation": null
   },
   {
-    "id": "clm_3ca8b6787c",
+    "id": "clm_c100e3ec56",
     "company_id": "skild",
     "metric": "arr",
     "value": 100000000.0,
     "unit": "USD",
-    "raw_text": "Skild AI: Omni-Bodied Robot Brain Passes US$100m ARR",
-    "qualifiers": [],
+    "raw_text": "Skild AI Crosses $100 Million Annual Revenue Run Rate in Ten Months",
+    "qualifiers": [
+      "run_rate"
+    ],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
       "type": "news",
-      "name": "AI Magazine",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcEIzYUw5N2NyLXhwcEp2QlFxa2pmVmxjLWRsUVlsUGtGaWpUenlkaTFodkdmVlY3Ulh5R0Fqb1F5UWlTQ280Y2xZS1lQRmZVTW1KZ3hpeXd2WnlObGhkd2JqVFpHTUEtSGRwN083d1BFaFNaQUs4Nm9VZTliWnJWWUh0eXNDZw?oc=5",
+      "name": "Securities.io",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPckpKN0lDODhsOHRJdkFkcGtVQ2FmWTFBSWsxZnRicllDcWtkWTJrOHFTMmhLaXpDZllmWl9pUVNFVzdxM0NTbW5QdmNzdmJyTEJDTTRaQ3VxM2JIUm10VVBNblFqc2xpMnFTOVhmMVVJQVlvcjA5Q0c3TF9VRE1ydXR5dkk4LVhsRDBkdjhVZ1luRkxKUG8xNw?oc=5",
       "locator": null,
-      "published_at": "2026-11-04"
+      "published_at": "2026-09-10"
     },
-    "extracted_at": "2026-11-04T13:18:39.395579",
+    "extracted_at": "2026-10-31T11:19:55.382595",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
+    "base_confidence": 0.3375,
     "derivation": null
   },
   {
@@ -369,32 +395,6 @@
     "extracted_at": "2026-10-30T12:02:43.452733",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_c100e3ec56",
-    "company_id": "skild",
-    "metric": "arr",
-    "value": 100000000.0,
-    "unit": "USD",
-    "raw_text": "Skild AI Crosses $100 Million Annual Revenue Run Rate in Ten Months",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Securities.io",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPckpKN0lDODhsOHRJdkFkcGtVQ2FmWTFBSWsxZnRicllDcWtkWTJrOHFTMmhLaXpDZllmWl9pUVNFVzdxM0NTbW5QdmNzdmJyTEJDTTRaQ3VxM2JIUm10VVBNblFqc2xpMnFTOVhmMVVJQVlvcjA5Q0c3TF9VRE1ydXR5dkk4LVhsRDBkdjhVZ1luRkxKUG8xNw?oc=5",
-      "locator": null,
-      "published_at": "2026-09-10"
-    },
-    "extracted_at": "2026-10-31T11:19:55.382595",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3375,
     "derivation": null
   },
   {
@@ -1528,7 +1528,7 @@
     "derivation": null
   },
   {
-    "id": "drv_6f9677308c",
+    "id": "drv_01b21d5eff",
     "company_id": "skild",
     "metric": "revenue_multiple",
     "value": 140.0,
@@ -1544,9 +1544,9 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-09-18"
+      "published_at": "2026-11-04"
     },
-    "extracted_at": "2026-11-04T13:18:39.395579",
+    "extracted_at": "2026-11-05T13:15:28.916366",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
@@ -1554,7 +1554,7 @@
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
         "clm_d3a50a9900",
-        "clm_5bfe0f931d"
+        "clm_3ca8b6787c"
       ]
     }
   }

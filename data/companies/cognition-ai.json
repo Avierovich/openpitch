@@ -38,10 +38,10 @@
         "clm_8682eb5130",
         "clm_57997506b6",
         "clm_fbbf33ee4d",
+        "clm_8955386e9c",
         "clm_57997506b6",
         "clm_3821d16feb",
         "clm_d3a6f63806",
-        "clm_8955386e9c",
         "clm_4516820a51",
         "clm_114e0cd0a5",
         "clm_6b70fe0cb9",
@@ -83,10 +83,10 @@
       "confidence": 0.97,
       "supporting_claims": [
         "clm_a12f41c471",
+        "clm_5954897923",
         "clm_d7d613182d",
         "clm_d53851ba03",
         "clm_466a1ca382",
-        "clm_5954897923",
         "clm_b6ce537a57",
         "clm_3ba536ca13",
         "clm_af665068af",
@@ -106,6 +106,29 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "open_roles": {
+      "metric": "open_roles",
+      "value": 25.5,
+      "unit": "count",
+      "range": null,
+      "as_of": "2026-11-06",
+      "estimate_type": "reported",
+      "confidence": 0.438,
+      "supporting_claims": [
+        "clm_3033a27390",
+        "clm_8d6e657733"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 24.0,
+        "change_pct": 6.2,
+        "since": "2026-10-22"
+      },
+      "history_ref": "history/cognition-ai/open_roles.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "latest_round": {
       "metric": "latest_round",
       "value": 1000000000.0,
@@ -116,7 +139,7 @@
       },
       "as_of": "2026-09-02",
       "estimate_type": "consensus",
-      "confidence": 0.709,
+      "confidence": 0.708,
       "supporting_claims": [
         "clm_d7b119147a",
         "clm_cbc34779e4",
@@ -125,33 +148,11 @@
       ],
       "contradiction": true,
       "delta": {
-        "previous": 5.0,
-        "change_pct": 19999999900.0,
-        "since": "2026-09-09"
+        "previous": 1000000000.0,
+        "change_pct": -0.0,
+        "since": "2026-09-02"
       },
       "history_ref": "history/cognition-ai/latest_round.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
-    "open_roles": {
-      "metric": "open_roles",
-      "value": 24.0,
-      "unit": "count",
-      "range": null,
-      "as_of": "2026-11-05",
-      "estimate_type": "reported",
-      "confidence": 0.25,
-      "supporting_claims": [
-        "clm_3033a27390"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 24.0,
-        "change_pct": 0.0,
-        "since": "2026-10-22"
-      },
-      "history_ref": "history/cognition-ai/open_roles.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -189,5 +190,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-11-05"
+  "last_updated": "2026-11-06"
 }

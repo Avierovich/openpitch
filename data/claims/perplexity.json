@@ -51,6 +51,57 @@
     "derivation": null
   },
   {
+    "id": "clm_2c18904f88",
+    "company_id": "perplexity",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "at Over $30 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZjMtZExfeUhfcmZaMkJNVnhGZF96dmh0cklYU0o3NHlwSXdabnhIelBIS21tc1YwNDM1OGdzazVqZEVzOW1uZWJscl9meGFWRlE2aU80MGZWRkpYNDFBQm9BTnk2bzMzWXRwSVdPR2otdGlZdS1HcHBPZ2luZXRmMUpJcmVRTUZxWlRYUHBDOEN2cWJ6c053?oc=5",
+      "locator": null,
+      "published_at": "2026-08-24"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_511b8807fc",
+    "company_id": "perplexity",
+    "metric": "arr",
+    "value": 750000000.0,
+    "unit": "USD",
+    "raw_text": "$750 Million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZjMtZExfeUhfcmZaMkJNVnhGZF96dmh0cklYU0o3NHlwSXdabnhIelBIS21tc1YwNDM1OGdzazVqZEVzOW1uZWJscl9meGFWRlE2aU80MGZWRkpYNDFBQm9BTnk2bzMzWXRwSVdPR2otdGlZdS1HcHBPZ2luZXRmMUpJcmVRTUZxWlRYUHBDOEN2cWJ6c053?oc=5",
+      "locator": null,
+      "published_at": "2026-08-24"
+    },
+    "extracted_at": "2026-09-01T10:16:51.580984",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_69e70108ab",
     "company_id": "perplexity",
     "metric": "valuation",
@@ -195,57 +246,6 @@
     "extracted_at": "2026-10-21T10:17:02.064836",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_2c18904f88",
-    "company_id": "perplexity",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "at Over $30 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZjMtZExfeUhfcmZaMkJNVnhGZF96dmh0cklYU0o3NHlwSXdabnhIelBIS21tc1YwNDM1OGdzazVqZEVzOW1uZWJscl9meGFWRlE2aU80MGZWRkpYNDFBQm9BTnk2bzMzWXRwSVdPR2otdGlZdS1HcHBPZ2luZXRmMUpJcmVRTUZxWlRYUHBDOEN2cWJ6c053?oc=5",
-      "locator": null,
-      "published_at": "2026-08-24"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_511b8807fc",
-    "company_id": "perplexity",
-    "metric": "arr",
-    "value": 750000000.0,
-    "unit": "USD",
-    "raw_text": "$750 Million",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZjMtZExfeUhfcmZaMkJNVnhGZF96dmh0cklYU0o3NHlwSXdabnhIelBIS21tc1YwNDM1OGdzazVqZEVzOW1uZWJscl9meGFWRlE2aU80MGZWRkpYNDFBQm9BTnk2bzMzWXRwSVdPR2otdGlZdS1HcHBPZ2luZXRmMUpJcmVRTUZxWlRYUHBDOEN2cWJ6c053?oc=5",
-      "locator": null,
-      "published_at": "2026-08-24"
-    },
-    "extracted_at": "2026-09-01T10:16:51.580984",
-    "extractor_model": "gemini-3.7-flash",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -1433,7 +1433,7 @@
       "locator": null,
       "published_at": "2026-08-25"
     },
-    "extracted_at": "2026-11-05T13:15:28.916366",
+    "extracted_at": "2026-11-06T13:17:56.700625",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

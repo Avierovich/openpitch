@@ -1,5 +1,31 @@
 [
   {
+    "id": "clm_dee39b9646",
+    "company_id": "fireworks",
+    "metric": "notable_customers",
+    "value": 10000.0,
+    "unit": "companies",
+    "raw_text": "trusted by 10,000+ companies globally",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fireworks.ai",
+      "url": "https://fireworks.ai",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-11-05T13:15:28.916366",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
     "id": "clm_21b62cca59",
     "company_id": "fireworks",
     "metric": "round_amount",
@@ -392,6 +418,33 @@
     "derivation": null
   },
   {
+    "id": "clm_b174d1d328",
+    "company_id": "fireworks",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "Nvidia-backed Fireworks AI eyes $30B to $40B valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdldzS2gyN21GazBiWjJGNm5rVXZQb0h6SS1STFlpRlNSSzJEVDdyWUNQYVBKS29tQVJPQkNpemZYazQtTS15QVp2T3VPUnFRazBaZGdfdEp4N0J2SEE2NEpoWEZNbEFKOGhlUThVMUpWajNfaC1uS0F1MXVzRTFWQW9welB6eFhhVjdQcmR0bGhfcFRmelFmRkVzVmVrTGZyUXVLc2RzWm5iaVFnUTg4OA?oc=5",
+      "locator": null,
+      "published_at": "2026-10-22"
+    },
+    "extracted_at": "2026-11-05T13:15:28.916366",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
     "id": "clm_707c3c5e27",
     "company_id": "fireworks",
     "metric": "valuation",
@@ -446,15 +499,13 @@
     "derivation": null
   },
   {
-    "id": "clm_dee39b9646",
+    "id": "clm_73dc8817fa",
     "company_id": "fireworks",
-    "metric": "notable_customers",
-    "value": 10000.0,
-    "unit": "companies",
-    "raw_text": "trusted by 10,000+ companies globally",
-    "qualifiers": [
-      "rounded"
-    ],
+    "metric": "open_roles",
+    "value": 91.0,
+    "unit": null,
+    "raw_text": "Showing 91 positions",
+    "qualifiers": [],
     "speaker": {
       "name": null,
       "role": "unknown"
@@ -462,13 +513,13 @@
     "source": {
       "type": "web",
       "name": "fireworks.ai",
-      "url": "https://fireworks.ai",
+      "url": "https://fireworks.ai/careers",
       "locator": null,
       "published_at": null
     },
-    "extracted_at": "2026-11-05T13:15:28.916366",
+    "extracted_at": "2026-11-06T13:17:56.700625",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
+    "base_confidence": 0.25,
     "derivation": null
   },
   {
@@ -493,33 +544,6 @@
     "extracted_at": "2026-11-05T13:15:28.916366",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_b174d1d328",
-    "company_id": "fireworks",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "Nvidia-backed Fireworks AI eyes $30B to $40B valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdldzS2gyN21GazBiWjJGNm5rVXZQb0h6SS1STFlpRlNSSzJEVDdyWUNQYVBKS29tQVJPQkNpemZYazQtTS15QVp2T3VPUnFRazBaZGdfdEp4N0J2SEE2NEpoWEZNbEFKOGhlUThVMUpWajNfaC1uS0F1MXVzRTFWQW9welB6eFhhVjdQcmR0bGhfcFRmelFmRkVzVmVrTGZyUXVLc2RzWm5iaVFnUTg4OA?oc=5",
-      "locator": null,
-      "published_at": "2026-10-22"
-    },
-    "extracted_at": "2026-11-05T13:15:28.916366",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -565,30 +589,6 @@
       "type": "web",
       "name": "fireworks.ai",
       "url": "https://fireworks.ai",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-11-04T13:18:39.395579",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_73dc8817fa",
-    "company_id": "fireworks",
-    "metric": "open_roles",
-    "value": 91.0,
-    "unit": "positions",
-    "raw_text": "Showing 91 positions",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "fireworks.ai",
-      "url": "https://fireworks.ai/careers",
       "locator": null,
       "published_at": null
     },
@@ -2482,7 +2482,7 @@
       "locator": null,
       "published_at": "2026-07-21"
     },
-    "extracted_at": "2026-11-05T13:15:28.916366",
+    "extracted_at": "2026-11-06T13:17:56.700625",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2029,
     "derivation": {

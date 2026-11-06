@@ -1,31 +1,5 @@
 [
   {
-    "id": "clm_822145abc3",
-    "company_id": "hugging-face",
-    "metric": "valuation",
-    "value": 13000000000.0,
-    "unit": null,
-    "raw_text": "Hugging Face exploring sale at $13 billion valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQVBnMmhrU3FOUHprRlhrNEllRy01bmFqUUh6Z1JfekxNNEw4MldlZl9fUkhYcFhuamhFdDhGNjhpN3BVTldnc2RWaEdJVUZlR3kzVTRSOExCYnozWVRIQWNram5Lc2Y0NE1RdTJHbEZaS25ab29mWDlNQnBfNUUzdFpKSXUzc3JQMHNoS2hxbENOc0NwanVMdUFn?oc=5",
-      "locator": null,
-      "published_at": "2026-08-24"
-    },
-    "extracted_at": "2026-09-25T10:09:44.175619",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_1ff674eb0b",
     "company_id": "hugging-face",
     "metric": "valuation",
@@ -299,6 +273,56 @@
     "derivation": null
   },
   {
+    "id": "clm_6f99945da2",
+    "company_id": "hugging-face",
+    "metric": "subscribers",
+    "value": 16000.0,
+    "unit": null,
+    "raw_text": "sold 16,000 units off a single tweet",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "This Week in Startups",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-09-18"
+    },
+    "extracted_at": "2026-11-06T13:17:56.700625",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3,
+    "derivation": null
+  },
+  {
+    "id": "clm_822145abc3",
+    "company_id": "hugging-face",
+    "metric": "valuation",
+    "value": 13000000000.0,
+    "unit": null,
+    "raw_text": "Hugging Face exploring sale at $13 billion valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQVBnMmhrU3FOUHprRlhrNEllRy01bmFqUUh6Z1JfekxNNEw4MldlZl9fUkhYcFhuamhFdDhGNjhpN3BVTldnc2RWaEdJVUZlR3kzVTRSOExCYnozWVRIQWNram5Lc2Y0NE1RdTJHbEZaS25ab29mWDlNQnBfNUUzdFpKSXUzc3JQMHNoS2hxbENOc0NwanVMdUFn?oc=5",
+      "locator": null,
+      "published_at": "2026-08-24"
+    },
+    "extracted_at": "2026-09-25T10:09:44.175619",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_3896d95df9",
     "company_id": "hugging-face",
     "metric": "total_funding",
@@ -406,30 +430,6 @@
     "value": 399.0,
     "unit": "USD",
     "raw_text": "Hugging Face built a $399 open-source robot duck",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "This Week in Startups",
-      "url": null,
-      "locator": null,
-      "published_at": "2026-09-18"
-    },
-    "extracted_at": "2026-11-04T13:18:39.395579",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3,
-    "derivation": null
-  },
-  {
-    "id": "clm_6f99945da2",
-    "company_id": "hugging-face",
-    "metric": "subscribers",
-    "value": 16000.0,
-    "unit": null,
-    "raw_text": "sold 16,000 units off a single tweet",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -1464,7 +1464,7 @@
       "locator": null,
       "published_at": "2026-08-27"
     },
-    "extracted_at": "2026-11-05T13:15:28.916366",
+    "extracted_at": "2026-11-06T13:17:56.700625",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

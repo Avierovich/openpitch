@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-11-05
+# OpenPitch Data Quality Report - 2026-11-06
 
 ## Summary
 
-- Profiles generated: 677
-- Watchlist candidates: 1383
+- Profiles generated: 681
+- Watchlist candidates: 1411
 - Top-50 cards: 50
-- Profiles with at least one metric: 662
-- Critical issues: 122
-- Warnings: 17
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 704
+- Profiles with at least one metric: 666
+- Critical issues: 123
+- Warnings: 16
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 728
 
 ## Top-50 Companies With No Metrics
 
@@ -71,6 +71,7 @@ None.
 - Baichuan Intelligence
 - Basecamp Research
 - BigHat Biosciences
+- BioMap
 - Bright Machines
 - Built Robotics
 - Cadence
@@ -167,7 +168,6 @@ None.
 - Celonis: arr
 - Celonis: headcount
 - Hugging Face: headcount
-- Shield AI: total_funding
 
 ## Review Rule
 

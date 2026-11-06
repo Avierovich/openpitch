@@ -172,30 +172,6 @@
     "derivation": null
   },
   {
-    "id": "clm_3ca8b6787c",
-    "company_id": "skild",
-    "metric": "arr",
-    "value": 100000000.0,
-    "unit": "USD",
-    "raw_text": "Skild AI: Omni-Bodied Robot Brain Passes US$100m ARR",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "AI Magazine",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcEIzYUw5N2NyLXhwcEp2QlFxa2pmVmxjLWRsUVlsUGtGaWpUenlkaTFodkdmVlY3Ulh5R0Fqb1F5UWlTQ280Y2xZS1lQRmZVTW1KZ3hpeXd2WnlObGhkd2JqVFpHTUEtSGRwN083d1BFaFNaQUs4Nm9VZTliWnJWWUh0eXNDZw?oc=5",
-      "locator": null,
-      "published_at": "2026-11-04"
-    },
-    "extracted_at": "2026-11-04T13:18:39.395579",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_8f5246bd74",
     "company_id": "skild",
     "metric": "arr",
@@ -324,6 +300,56 @@
     "derivation": null
   },
   {
+    "id": "clm_f7b4548852",
+    "company_id": "skild",
+    "metric": "arr",
+    "value": 100000000.0,
+    "unit": "USD",
+    "raw_text": "$100m Revenue Run-Rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Silicon UK",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9yWjR2YUMybkJ3RTFkOTlzVGF2V01sQlhvRXRTS0RRLVZmVGR4el95NlVkalE4WWw0R2RBWjA2ZWZfTkhHNnVWYU91SXhJbXhDb2RiVlg2dGU1ZEdBdVk1LUhtQTk?oc=5",
+      "locator": null,
+      "published_at": "2026-09-14"
+    },
+    "extracted_at": "2026-10-27T11:13:23.267375",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_3ca8b6787c",
+    "company_id": "skild",
+    "metric": "arr",
+    "value": 100000000.0,
+    "unit": "USD",
+    "raw_text": "Skild AI: Omni-Bodied Robot Brain Passes US$100m ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "AI Magazine",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcEIzYUw5N2NyLXhwcEp2QlFxa2pmVmxjLWRsUVlsUGtGaWpUenlkaTFodkdmVlY3Ulh5R0Fqb1F5UWlTQ280Y2xZS1lQRmZVTW1KZ3hpeXd2WnlObGhkd2JqVFpHTUEtSGRwN083d1BFaFNaQUs4Nm9VZTliWnJWWUh0eXNDZw?oc=5",
+      "locator": null,
+      "published_at": "2026-11-04"
+    },
+    "extracted_at": "2026-11-04T13:18:39.395579",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_b1d898baf3",
     "company_id": "skild",
     "metric": "total_funding",
@@ -393,32 +419,6 @@
       "published_at": "2026-09-10"
     },
     "extracted_at": "2026-10-30T12:02:43.452733",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_f7b4548852",
-    "company_id": "skild",
-    "metric": "arr",
-    "value": 100000000.0,
-    "unit": "USD",
-    "raw_text": "$100m Revenue Run-Rate",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Silicon UK",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9yWjR2YUMybkJ3RTFkOTlzVGF2V01sQlhvRXRTS0RRLVZmVGR4el95NlVkalE4WWw0R2RBWjA2ZWZfTkhHNnVWYU91SXhJbXhDb2RiVlg2dGU1ZEdBdVk1LUhtQTk?oc=5",
-      "locator": null,
-      "published_at": "2026-09-14"
-    },
-    "extracted_at": "2026-10-27T11:13:23.267375",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.4725,
     "derivation": null
@@ -1528,7 +1528,7 @@
     "derivation": null
   },
   {
-    "id": "drv_01b21d5eff",
+    "id": "drv_6f9677308c",
     "company_id": "skild",
     "metric": "revenue_multiple",
     "value": 140.0,
@@ -1544,9 +1544,9 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-11-04"
+      "published_at": "2026-09-18"
     },
-    "extracted_at": "2026-11-05T13:15:28.916366",
+    "extracted_at": "2026-11-06T13:17:56.700625",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
@@ -1554,7 +1554,7 @@
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
         "clm_d3a50a9900",
-        "clm_3ca8b6787c"
+        "clm_5bfe0f931d"
       ]
     }
   }

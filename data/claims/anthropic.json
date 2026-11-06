@@ -120,30 +120,6 @@
     "derivation": null
   },
   {
-    "id": "clm_43de06cc62",
-    "company_id": "anthropic",
-    "metric": "nrr",
-    "value": 900.0,
-    "unit": null,
-    "raw_text": "900% net revenue retention",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "This Week in Startups",
-      "url": null,
-      "locator": null,
-      "published_at": "2026-10-29"
-    },
-    "extracted_at": "2026-11-05T13:15:28.916366",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3,
-    "derivation": null
-  },
-  {
     "id": "clm_023c4c40b8",
     "company_id": "anthropic",
     "metric": "nrr",
@@ -165,6 +141,56 @@
     "extracted_at": "2026-11-04T13:18:39.395579",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_89ba1cad9c",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 1500000000000.0,
+    "unit": "USD",
+    "raw_text": "$1.5 Trillion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xbzNockVjWlJZVFAwT3lzQTM2WGNzM0FZei1Vc05XQ2llNlNHcWxhSFBFcHZrVmdPWmEwMkNOQzJWdVhnQmJIU3ktSG5fQ25MZ3JwZ0d0VVhvVWVZYXdyNFZZRXNYQW8yT0kxbmVyekVyR2oxemc?oc=5",
+      "locator": null,
+      "published_at": "2026-11-06"
+    },
+    "extracted_at": "2026-11-06T13:17:56.700625",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_43de06cc62",
+    "company_id": "anthropic",
+    "metric": "nrr",
+    "value": 900.0,
+    "unit": null,
+    "raw_text": "900% net revenue retention",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "This Week in Startups",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-10-29"
+    },
+    "extracted_at": "2026-11-05T13:15:28.916366",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3,
     "derivation": null
   },
   {
@@ -2959,7 +2985,7 @@
       "locator": null,
       "published_at": "2026-10-29"
     },
-    "extracted_at": "2026-11-05T13:15:28.916366",
+    "extracted_at": "2026-11-06T13:17:56.700625",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
@@ -2990,7 +3016,7 @@
       "locator": null,
       "published_at": "2026-10-22"
     },
-    "extracted_at": "2026-11-05T13:15:28.916366",
+    "extracted_at": "2026-11-06T13:17:56.700625",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

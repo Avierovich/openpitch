@@ -346,6 +346,30 @@
     "derivation": null
   },
   {
+    "id": "clm_558db874af",
+    "company_id": "sierra",
+    "metric": "arr",
+    "value": 100000000.0,
+    "unit": "USD",
+    "raw_text": "Bret Taylor’s Sierra reaches $100M ARR in under two years",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbEhEWExtejFMRFdTWnRfNXlUTGMza3M3RmgzUmJ5LUs3ZEt2RVpYZGs0OXdDM0NoNE10OFBIc2dvQmpDdlpPRnhjM3g4amRsTXczeG8tRUNiT2RuVk9VUVZkbzNPczhnQVptaVZKTUZ1bWNMSktwT05CY0Z4QUdVeXpmZU5zOXdyaFhRUFU1YklJNWJk?oc=5",
+      "locator": null,
+      "published_at": "2025-11-21"
+    },
+    "extracted_at": "2026-11-06T13:17:56.700625",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_603022b3cc",
     "company_id": "sierra",
     "metric": "arr",
@@ -1518,7 +1542,7 @@
     "derivation": null
   },
   {
-    "id": "drv_b6fcc8ab9b",
+    "id": "drv_319113f4f9",
     "company_id": "sierra",
     "metric": "revenue_multiple",
     "value": 100.0,
@@ -1534,9 +1558,9 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2025-12-03"
+      "published_at": "2025-11-21"
     },
-    "extracted_at": "2026-11-05T13:15:28.916366",
+    "extracted_at": "2026-11-06T13:17:56.700625",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
@@ -1544,7 +1568,7 @@
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
         "clm_c3abac4b1b",
-        "clm_603022b3cc"
+        "clm_558db874af"
       ]
     }
   }

@@ -1,29 +1,5 @@
 [
   {
-    "id": "clm_13a2e22b0a",
-    "company_id": "cursor",
-    "metric": "valuation",
-    "value": 29000000000.0,
-    "unit": "USD",
-    "raw_text": "$29 billion valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "exec"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxON1BTMy01NE52Z2tXWVU0aTRweU1JcmppMkVJQWRZVkIyZENhNWM5b085SlNfVi1vNjZsRWR3WHJqaXhQNENhcng1Nm1jelNnbC1pd0tmUnI4ZmR1Vllla2Z2ZFhWMWdQakl4cjFQendVSHNyd21hNnMyVHpwZnpmMHlLYlRuUQ?oc=5",
-      "locator": null,
-      "published_at": "2025-12-11"
-    },
-    "extracted_at": "2026-10-27T11:13:23.267375",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.75,
-    "derivation": null
-  },
-  {
     "id": "clm_28f60a06df",
     "company_id": "cursor",
     "metric": "valuation",
@@ -72,6 +48,30 @@
     "derivation": null
   },
   {
+    "id": "clm_13a2e22b0a",
+    "company_id": "cursor",
+    "metric": "valuation",
+    "value": 29000000000.0,
+    "unit": "USD",
+    "raw_text": "$29 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxON1BTMy01NE52Z2tXWVU0aTRweU1JcmppMkVJQWRZVkIyZENhNWM5b085SlNfVi1vNjZsRWR3WHJqaXhQNENhcng1Nm1jelNnbC1pd0tmUnI4ZmR1Vllla2Z2ZFhWMWdQakl4cjFQendVSHNyd21hNnMyVHpwZnpmMHlLYlRuUQ?oc=5",
+      "locator": null,
+      "published_at": "2025-12-11"
+    },
+    "extracted_at": "2026-10-27T11:13:23.267375",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.75,
+    "derivation": null
+  },
+  {
     "id": "clm_1eb7c4a1d5",
     "company_id": "cursor",
     "metric": "round_amount",
@@ -115,6 +115,54 @@
       "published_at": "2024-12-19"
     },
     "extracted_at": "2026-10-29T12:07:33.443424",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_e5fadf41cb",
+    "company_id": "cursor",
+    "metric": "latest_round",
+    "value": 60000000.0,
+    "unit": "USD",
+    "raw_text": "raises $60 million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Forbes",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTWhqM3lvOFpjcElMM1l2ZVY4VWU5bi1iNE1na0JXQ3NJTmFLenpDUDhtY1ZVZ3JERGNjOXZNcHdqaWxMaFFmazhsb3hNOTBHUHhySmd6TlUwTloxTmNwM2c2MU9kNUJCR00wNUJWVGx1cGtMR01FTFZoMWtSdzdFNjkzT2xwUEpua0dFM1ZUeXVyZ1g4SlY1cTRiZk41ZUhlV1NLcWhSOGNqUi01dEhCSGhseGxmY2J0Y3ZPTHdaTnRZUVBRYkR5MC1JUkpVaUJqTzR3NjBOSzJIRmstVXJhaQ?oc=5",
+      "locator": null,
+      "published_at": "2024-08-22"
+    },
+    "extracted_at": "2026-11-06T13:17:56.700625",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_d6982f1fce",
+    "company_id": "cursor",
+    "metric": "valuation",
+    "value": 400000000.0,
+    "unit": "USD",
+    "raw_text": "$400 million valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Forbes",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTWhqM3lvOFpjcElMM1l2ZVY4VWU5bi1iNE1na0JXQ3NJTmFLenpDUDhtY1ZVZ3JERGNjOXZNcHdqaWxMaFFmazhsb3hNOTBHUHhySmd6TlUwTloxTmNwM2c2MU9kNUJCR00wNUJWVGx1cGtMR01FTFZoMWtSdzdFNjkzT2xwUEpua0dFM1ZUeXVyZ1g4SlY1cTRiZk41ZUhlV1NLcWhSOGNqUi01dEhCSGhseGxmY2J0Y3ZPTHdaTnRZUVBRYkR5MC1JUkpVaUJqTzR3NjBOSzJIRmstVXJhaQ?oc=5",
+      "locator": null,
+      "published_at": "2024-08-22"
+    },
+    "extracted_at": "2026-11-06T13:17:56.700625",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -444,7 +492,7 @@
       "locator": null,
       "published_at": "2025-12-11"
     },
-    "extracted_at": "2026-11-05T13:15:28.916366",
+    "extracted_at": "2026-11-06T13:17:56.700625",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2588,
     "derivation": {

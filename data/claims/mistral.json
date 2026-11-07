@@ -290,6 +290,78 @@
     "derivation": null
   },
   {
+    "id": "clm_b18a2e2321",
+    "company_id": "mistral",
+    "metric": "total_funding",
+    "value": 100000000.0,
+    "unit": null,
+    "raw_text": "$100M+",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "No Priors",
+      "url": null,
+      "locator": null,
+      "published_at": "2023-11-09"
+    },
+    "extracted_at": "2026-11-07T12:16:01.893632",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3,
+    "derivation": null
+  },
+  {
+    "id": "clm_3cb2830455",
+    "company_id": "mistral",
+    "metric": "round_amount",
+    "value": 4400000000.0,
+    "unit": null,
+    "raw_text": "$4.4B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "https://www.dars.gov.et/",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTzhHWTU1aVR2Z3F5U25Zclpmb0U1ZVZRb3B1cmxTYkR1Y3c3alhsM2tsUDVuYTFxUE13OXk0MUFlOEpJMEViZ0ZjdFNpeWdMMlJKTk5JdGJrZFNzUGpXclh1TWVoQW8wQ2o2WWZHcVl6RjM2ZmEzdzFXZXdzNU1wbjdlYVhLNGExYkpSNWtxMFZjMjFGblJoeHI5dTFGcnNJOFFULWw5TFppMDZmelNrT3U1ODZzbkJoT1ZmeGhOVndzTVpiZnB6TW9qVXJLOVVpcnNkMzktbmw4TVZK?oc=5",
+      "locator": null,
+      "published_at": "2026-09-08"
+    },
+    "extracted_at": "2026-11-07T12:16:01.893632",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_03cf0e7fca",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 31000000000.0,
+    "unit": null,
+    "raw_text": "$31B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "https://www.dars.gov.et/",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTzhHWTU1aVR2Z3F5U25Zclpmb0U1ZVZRb3B1cmxTYkR1Y3c3alhsM2tsUDVuYTFxUE13OXk0MUFlOEpJMEViZ0ZjdFNpeWdMMlJKTk5JdGJrZFNzUGpXclh1TWVoQW8wQ2o2WWZHcVl6RjM2ZmEzdzFXZXdzNU1wbjdlYVhLNGExYkpSNWtxMFZjMjFGblJoeHI5dTFGcnNJOFFULWw5TFppMDZmelNrT3U1ODZzbkJoT1ZmeGhOVndzTVpiZnB6TW9qVXJLOVVpcnNkMzktbmw4TVZK?oc=5",
+      "locator": null,
+      "published_at": "2026-09-08"
+    },
+    "extracted_at": "2026-11-07T12:16:01.893632",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_25ea7ecd95",
     "company_id": "mistral",
     "metric": "latest_round",
@@ -481,32 +553,6 @@
     "extracted_at": "2026-09-09T09:51:11.595604",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_b18a2e2321",
-    "company_id": "mistral",
-    "metric": "total_funding",
-    "value": 100000000.0,
-    "unit": null,
-    "raw_text": "$100M+ seed financing",
-    "qualifiers": [
-      "approximate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "No Priors",
-      "url": null,
-      "locator": null,
-      "published_at": "2023-11-09"
-    },
-    "extracted_at": "2026-11-05T13:15:28.916366",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.357,
     "derivation": null
   },
   {
@@ -2052,7 +2098,7 @@
       "locator": null,
       "published_at": "2026-02-11"
     },
-    "extracted_at": "2026-11-06T13:17:56.700625",
+    "extracted_at": "2026-11-07T12:16:01.893632",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

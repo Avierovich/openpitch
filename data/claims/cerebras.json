@@ -242,33 +242,6 @@
     "derivation": null
   },
   {
-    "id": "clm_55e0b994e0",
-    "company_id": "cerebras",
-    "metric": "valuation",
-    "value": 26600000000.0,
-    "unit": null,
-    "raw_text": "seeks up to $26.6B valuation in US IPO",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeVJsakhVWktSeElwNV82WU94d2M4ZEZWa1BpX01LcDhDRGVKRTd0X3cxSmlWNGxueU00UGZ0SzVwSkI2ZDVYeE1mMERIdVpuTlBHc2djOGh1bW1jY1lCMVJqY05rWUVEY05oTHdFMm9OQWpQZ0VHcl9NckQ5R0JDRDRDdkVyTERUTlJCRG5XR0dHc01ZVGV5NQ?oc=5",
-      "locator": null,
-      "published_at": "2026-05-04"
-    },
-    "extracted_at": "2026-11-05T13:15:28.916366",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1575,
-    "derivation": null
-  },
-  {
     "id": "clm_963862988e",
     "company_id": "cerebras",
     "metric": "round_amount",
@@ -316,6 +289,33 @@
     "extracted_at": "2026-11-01T12:09:38.700208",
     "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_55e0b994e0",
+    "company_id": "cerebras",
+    "metric": "valuation",
+    "value": 26600000000.0,
+    "unit": null,
+    "raw_text": "seeks up to $26.6B valuation in US IPO",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeVJsakhVWktSeElwNV82WU94d2M4ZEZWa1BpX01LcDhDRGVKRTd0X3cxSmlWNGxueU00UGZ0SzVwSkI2ZDVYeE1mMERIdVpuTlBHc2djOGh1bW1jY1lCMVJqY05rWUVEY05oTHdFMm9OQWpQZ0VHcl9NckQ5R0JDRDRDdkVyTERUTlJCRG5XR0dHc01ZVGV5NQ?oc=5",
+      "locator": null,
+      "published_at": "2026-05-04"
+    },
+    "extracted_at": "2026-11-05T13:15:28.916366",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
     "derivation": null
   },
   {
@@ -1791,7 +1791,7 @@
       "locator": null,
       "published_at": "2026-08-12"
     },
-    "extracted_at": "2026-11-06T13:17:56.700625",
+    "extracted_at": "2026-11-07T12:16:01.893632",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

@@ -274,32 +274,6 @@
     "derivation": null
   },
   {
-    "id": "clm_c100e3ec56",
-    "company_id": "skild",
-    "metric": "arr",
-    "value": 100000000.0,
-    "unit": "USD",
-    "raw_text": "Skild AI Crosses $100 Million Annual Revenue Run Rate in Ten Months",
-    "qualifiers": [
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Securities.io",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPckpKN0lDODhsOHRJdkFkcGtVQ2FmWTFBSWsxZnRicllDcWtkWTJrOHFTMmhLaXpDZllmWl9pUVNFVzdxM0NTbW5QdmNzdmJyTEJDTTRaQ3VxM2JIUm10VVBNblFqc2xpMnFTOVhmMVVJQVlvcjA5Q0c3TF9VRE1ydXR5dkk4LVhsRDBkdjhVZ1luRkxKUG8xNw?oc=5",
-      "locator": null,
-      "published_at": "2026-09-10"
-    },
-    "extracted_at": "2026-10-31T11:19:55.382595",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3375,
-    "derivation": null
-  },
-  {
     "id": "clm_f7b4548852",
     "company_id": "skild",
     "metric": "arr",
@@ -323,6 +297,32 @@
     "extracted_at": "2026-10-27T11:13:23.267375",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_c100e3ec56",
+    "company_id": "skild",
+    "metric": "arr",
+    "value": 100000000.0,
+    "unit": "USD",
+    "raw_text": "Skild AI Crosses $100 Million Annual Revenue Run Rate in Ten Months",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Securities.io",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPckpKN0lDODhsOHRJdkFkcGtVQ2FmWTFBSWsxZnRicllDcWtkWTJrOHFTMmhLaXpDZllmWl9pUVNFVzdxM0NTbW5QdmNzdmJyTEJDTTRaQ3VxM2JIUm10VVBNblFqc2xpMnFTOVhmMVVJQVlvcjA5Q0c3TF9VRE1ydXR5dkk4LVhsRDBkdjhVZ1luRkxKUG8xNw?oc=5",
+      "locator": null,
+      "published_at": "2026-09-10"
+    },
+    "extracted_at": "2026-10-31T11:19:55.382595",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3375,
     "derivation": null
   },
   {
@@ -1546,7 +1546,7 @@
       "locator": null,
       "published_at": "2026-09-18"
     },
-    "extracted_at": "2026-11-06T13:17:56.700625",
+    "extracted_at": "2026-11-07T12:16:01.893632",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

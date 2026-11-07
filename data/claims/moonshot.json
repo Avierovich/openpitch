@@ -315,33 +315,6 @@
     "derivation": null
   },
   {
-    "id": "clm_53859b2c7f",
-    "company_id": "moonshot",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": null,
-    "raw_text": "seeks $50B valuation",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "New York Post",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYWRvLWx2YnpfLTVLOExPdVljamVJaERZOE9KSjJfSnZyeEJjNlR2ejF1NTBOTmFscTMxeTFJM0hWR0JYbk9MRVJYeklJeXpRdTNiMzFfcE8yZHBjOHVXYnpuUU5yTFVnMjFTTEI1SlMyNkZTdFZVejBZbHlYZU1hcFVxSzVPTFFvY2FKd3Y0M1V1Skd2SjdkSkZ3WVBTQXdLU3p0Z2ZyX0h3bUsxSEhua3h0bXZIOGs3WmxnbHFBdTQ?oc=5",
-      "locator": null,
-      "published_at": "2026-07-21"
-    },
-    "extracted_at": "2026-08-24T06:11:52.835308",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
     "id": "clm_107d297a33",
     "company_id": "moonshot",
     "metric": "valuation",
@@ -467,6 +440,33 @@
     "extracted_at": "2026-10-11T11:49:13.286274",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_53859b2c7f",
+    "company_id": "moonshot",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": null,
+    "raw_text": "seeks $50B valuation",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "New York Post",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYWRvLWx2YnpfLTVLOExPdVljamVJaERZOE9KSjJfSnZyeEJjNlR2ejF1NTBOTmFscTMxeTFJM0hWR0JYbk9MRVJYeklJeXpRdTNiMzFfcE8yZHBjOHVXYnpuUU5yTFVnMjFTTEI1SlMyNkZTdFZVejBZbHlYZU1hcFVxSzVPTFFvY2FKd3Y0M1V1Skd2SjdkSkZ3WVBTQXdLU3p0Z2ZyX0h3bUsxSEhua3h0bXZIOGs3WmxnbHFBdTQ?oc=5",
+      "locator": null,
+      "published_at": "2026-07-21"
+    },
+    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -2997,7 +2997,7 @@
       "locator": null,
       "published_at": "2026-07-29"
     },
-    "extracted_at": "2026-11-06T13:17:56.700625",
+    "extracted_at": "2026-11-07T12:16:01.893632",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

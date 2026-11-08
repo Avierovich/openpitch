@@ -26,6 +26,56 @@
     "derivation": null
   },
   {
+    "id": "clm_3c27bae341",
+    "company_id": "deepseek-ai",
+    "metric": "round_amount",
+    "value": 15000000000.0,
+    "unit": "USD",
+    "raw_text": "$15B Funding Round",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Wowtale",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1kZlRNdVVqNE83Q3VodjAzZzB6anluanhzQ3BhM0dma3VJNndwQ1Y4d3dGcXBoNVVzcGYxLWVSa2cwZDhodUd1VWl0UHFmWjNQZmZV?oc=5",
+      "locator": null,
+      "published_at": "2026-10-27"
+    },
+    "extracted_at": "2026-10-27T11:13:23.267375",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_b41c7965c6",
+    "company_id": "deepseek-ai",
+    "metric": "valuation",
+    "value": 74000000000.0,
+    "unit": "USD",
+    "raw_text": "Valuation Jumps to $74B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Wowtale",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1kZlRNdVVqNE83Q3VodjAzZzB6anluanhzQ3BhM0dma3VJNndwQ1Y4d3dGcXBoNVVzcGYxLWVSa2cwZDhodUd1VWl0UHFmWjNQZmZV?oc=5",
+      "locator": null,
+      "published_at": "2026-10-27"
+    },
+    "extracted_at": "2026-10-27T11:13:23.267375",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_9531c75902",
     "company_id": "deepseek-ai",
     "metric": "valuation",
@@ -591,56 +641,6 @@
     "extracted_at": "2026-10-30T12:02:43.452733",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_3c27bae341",
-    "company_id": "deepseek-ai",
-    "metric": "round_amount",
-    "value": 15000000000.0,
-    "unit": "USD",
-    "raw_text": "$15B Funding Round",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Wowtale",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1kZlRNdVVqNE83Q3VodjAzZzB6anluanhzQ3BhM0dma3VJNndwQ1Y4d3dGcXBoNVVzcGYxLWVSa2cwZDhodUd1VWl0UHFmWjNQZmZV?oc=5",
-      "locator": null,
-      "published_at": "2026-10-27"
-    },
-    "extracted_at": "2026-10-27T11:13:23.267375",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_b41c7965c6",
-    "company_id": "deepseek-ai",
-    "metric": "valuation",
-    "value": 74000000000.0,
-    "unit": "USD",
-    "raw_text": "Valuation Jumps to $74B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Wowtale",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1kZlRNdVVqNE83Q3VodjAzZzB6anluanhzQ3BhM0dma3VJNndwQ1Y4d3dGcXBoNVVzcGYxLWVSa2cwZDhodUd1VWl0UHFmWjNQZmZV?oc=5",
-      "locator": null,
-      "published_at": "2026-10-27"
-    },
-    "extracted_at": "2026-10-27T11:13:23.267375",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -2130,10 +2130,10 @@
     "derivation": null
   },
   {
-    "id": "drv_602c6c5f77",
+    "id": "drv_0843594223",
     "company_id": "deepseek-ai",
     "metric": "revenue_multiple",
-    "value": 52.0,
+    "value": 74.0,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [
@@ -2148,16 +2148,16 @@
       "name": "derived:revenue_multiple",
       "url": null,
       "locator": null,
-      "published_at": "2026-09-24"
+      "published_at": "2026-10-27"
     },
-    "extracted_at": "2026-11-07T12:16:01.893632",
+    "extracted_at": "2026-11-08T12:50:32.551327",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1369,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_7ed614b410",
+        "clm_b41c7965c6",
         "clm_342ce119be"
       ]
     }

@@ -1,31 +1,5 @@
 [
   {
-    "id": "clm_dee39b9646",
-    "company_id": "fireworks",
-    "metric": "notable_customers",
-    "value": 10000.0,
-    "unit": "companies",
-    "raw_text": "trusted by 10,000+ companies globally",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "fireworks.ai",
-      "url": "https://fireworks.ai",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-11-05T13:15:28.916366",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
-    "derivation": null
-  },
-  {
     "id": "clm_21b62cca59",
     "company_id": "fireworks",
     "metric": "round_amount",
@@ -217,6 +191,30 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.294,
+    "derivation": null
+  },
+  {
+    "id": "clm_73dc8817fa",
+    "company_id": "fireworks",
+    "metric": "open_roles",
+    "value": 91.0,
+    "unit": null,
+    "raw_text": "Showing 91 positions",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fireworks.ai",
+      "url": "https://fireworks.ai/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-11-07T12:16:01.893632",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
     "derivation": null
   },
   {
@@ -472,6 +470,57 @@
     "derivation": null
   },
   {
+    "id": "clm_dee39b9646",
+    "company_id": "fireworks",
+    "metric": "notable_customers",
+    "value": 10000.0,
+    "unit": null,
+    "raw_text": "trusted by 10,000+ companies globally",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fireworks.ai",
+      "url": "https://fireworks.ai",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-11-08T12:50:32.551327",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_3d6b712efa",
+    "company_id": "fireworks",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "Valuation Eyes $30 Billion",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfMnFnd3N5WDdLcGJLWi0zMFc2Q1ppZlJWaHZFM2JJb2UwQURPYTlnWkRNVHBxN3VoOXBrNXZjZng5cG5wa2o3dWMxVmlyN2hzaXVIZUE2Tm94Qk02bVZsUlQwZ3AxNDZ2VnJuVTBzcUoxdkV2amc?oc=5",
+      "locator": null,
+      "published_at": "2026-11-07"
+    },
+    "extracted_at": "2026-11-08T12:50:32.551327",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
     "id": "clm_ab772fc078",
     "company_id": "fireworks",
     "metric": "valuation",
@@ -496,30 +545,6 @@
     "extracted_at": "2026-10-30T12:02:43.452733",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_73dc8817fa",
-    "company_id": "fireworks",
-    "metric": "open_roles",
-    "value": 91.0,
-    "unit": null,
-    "raw_text": "Showing 91 positions",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "fireworks.ai",
-      "url": "https://fireworks.ai/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-11-07T12:16:01.893632",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
     "derivation": null
   },
   {
@@ -2482,7 +2507,7 @@
       "locator": null,
       "published_at": "2026-07-21"
     },
-    "extracted_at": "2026-11-07T12:16:01.893632",
+    "extracted_at": "2026-11-08T12:50:32.551327",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2029,
     "derivation": {

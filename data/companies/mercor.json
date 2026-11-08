@@ -9,7 +9,7 @@
   "summary": "Mercor is a company that uses AI to help with data annotation and labeling for various applications.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 85.3,
+  "vc_attention_score": 85.2,
   "universe_rank": 34,
   "metrics": {
     "valuation": {
@@ -24,10 +24,10 @@
       "estimate_type": "consensus",
       "confidence": 0.97,
       "supporting_claims": [
+        "clm_49376ad18c",
         "clm_75340eebc2",
         "clm_7ff93371f6",
         "clm_c74eb17484",
-        "clm_49376ad18c",
         "clm_b2edd8a2da",
         "clm_e900a1b997",
         "clm_0fbf02cca5",
@@ -43,7 +43,7 @@
       "contradiction": true,
       "delta": {
         "previous": 20000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-08-27"
       },
       "history_ref": "history/mercor/valuation.jsonl",
@@ -58,10 +58,10 @@
       "range": null,
       "as_of": "2026-07-25",
       "estimate_type": "consensus",
-      "confidence": 0.691,
+      "confidence": 0.69,
       "supporting_claims": [
-        "clm_c3657789fe",
         "clm_3da23f4b07",
+        "clm_c3657789fe",
         "clm_a3bdf9bde5",
         "clm_37e1d95fde"
       ],
@@ -83,7 +83,7 @@
       "range": null,
       "as_of": "2026-07-25",
       "estimate_type": "consensus",
-      "confidence": 0.759,
+      "confidence": 0.757,
       "supporting_claims": [
         "clm_74ed32197e",
         "clm_7ebf0a1f24",
@@ -110,7 +110,7 @@
       "range": null,
       "as_of": "2026-07-25",
       "estimate_type": "reported",
-      "confidence": 0.25,
+      "confidence": 0.248,
       "supporting_claims": [
         "clm_e47d35c808"
       ],
@@ -125,12 +125,30 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
+    "notable_customers": {
+      "metric": "notable_customers",
+      "value": 1749.0,
+      "unit": "list",
+      "range": null,
+      "as_of": "2026-11-08",
+      "estimate_type": "reported",
+      "confidence": 0.25,
+      "supporting_claims": [
+        "clm_122a36b954"
+      ],
+      "contradiction": false,
+      "delta": null,
+      "history_ref": "history/mercor/notable_customers.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
     "headcount": {
       "metric": "headcount",
       "value": 689000.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-11-07",
+      "as_of": "2026-11-08",
       "estimate_type": "reported",
       "confidence": 0.438,
       "supporting_claims": [
@@ -153,7 +171,7 @@
       "value": 4000000.0,
       "unit": "USD",
       "range": null,
-      "as_of": "2026-11-07",
+      "as_of": "2026-11-08",
       "estimate_type": "reported",
       "confidence": 0.225,
       "supporting_claims": [
@@ -177,7 +195,7 @@
       "range": null,
       "as_of": "2026-07-25",
       "estimate_type": "reported",
-      "confidence": 0.138,
+      "confidence": 0.137,
       "supporting_claims": [
         "drv_cd507bff2e"
       ],
@@ -193,5 +211,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-11-07"
+  "last_updated": "2026-11-08"
 }

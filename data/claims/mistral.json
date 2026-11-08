@@ -290,16 +290,66 @@
     "derivation": null
   },
   {
+    "id": "clm_1ef360582b",
+    "company_id": "mistral",
+    "metric": "round_amount",
+    "value": 3000000000.0,
+    "unit": "EUR",
+    "raw_text": "€3 billion Series D",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "EU-Startups",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOOC1KTDYxSTZRdWQ4M0lsLXpITHpWS3BhMkJNTDJMSW1NNTZjeV8xNTA0VGUwcENxekRnSGwybXRvZmZDeERYWkZ2RkxGZWhNSHpuYXJCeV9NcHlGeUs3NnNvaS1rQzVfQ0hXMEUydEdDOW41Rjh0Y1VUMVFHZG9qbHBReDhtcnR5LUNYdlN6c2ZsSkk0Tnk5R1czSlBqR0VxTkpBdHdjd2ZDT0k3cUFwUmpwaFNmXzZoN25LTjRyanJRbms0ZjM0TU5BRFJ6bk0?oc=5",
+      "locator": null,
+      "published_at": "2026-09-08"
+    },
+    "extracted_at": "2026-11-06T13:17:56.700625",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_20f67f8fef",
+    "company_id": "mistral",
+    "metric": "valuation",
+    "value": 21000000000.0,
+    "unit": "EUR",
+    "raw_text": "over €21 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "EU-Startups",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOOC1KTDYxSTZRdWQ4M0lsLXpITHpWS3BhMkJNTDJMSW1NNTZjeV8xNTA0VGUwcENxekRnSGwybXRvZmZDeERYWkZ2RkxGZWhNSHpuYXJCeV9NcHlGeUs3NnNvaS1rQzVfQ0hXMEUydEdDOW41Rjh0Y1VUMVFHZG9qbHBReDhtcnR5LUNYdlN6c2ZsSkk0Tnk5R1czSlBqR0VxTkpBdHdjd2ZDT0k3cUFwUmpwaFNmXzZoN25LTjRyanJRbms0ZjM0TU5BRFJ6bk0?oc=5",
+      "locator": null,
+      "published_at": "2026-09-08"
+    },
+    "extracted_at": "2026-11-06T13:17:56.700625",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_b18a2e2321",
     "company_id": "mistral",
     "metric": "total_funding",
     "value": 100000000.0,
-    "unit": null,
-    "raw_text": "$100M+",
-    "qualifiers": [],
+    "unit": "USD",
+    "raw_text": "$100M+ seed financing",
+    "qualifiers": [
+      "forward_looking"
+    ],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "podcast",
@@ -308,9 +358,9 @@
       "locator": null,
       "published_at": "2023-11-09"
     },
-    "extracted_at": "2026-11-07T12:16:01.893632",
+    "extracted_at": "2026-11-08T12:50:32.551327",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3,
+    "base_confidence": 0.294,
     "derivation": null
   },
   {
@@ -385,54 +435,6 @@
     "extracted_at": "2026-11-06T13:17:56.700625",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.294,
-    "derivation": null
-  },
-  {
-    "id": "clm_1ef360582b",
-    "company_id": "mistral",
-    "metric": "round_amount",
-    "value": 3000000000.0,
-    "unit": "EUR",
-    "raw_text": "€3 billion Series D",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "EU-Startups",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOOC1KTDYxSTZRdWQ4M0lsLXpITHpWS3BhMkJNTDJMSW1NNTZjeV8xNTA0VGUwcENxekRnSGwybXRvZmZDeERYWkZ2RkxGZWhNSHpuYXJCeV9NcHlGeUs3NnNvaS1rQzVfQ0hXMEUydEdDOW41Rjh0Y1VUMVFHZG9qbHBReDhtcnR5LUNYdlN6c2ZsSkk0Tnk5R1czSlBqR0VxTkpBdHdjd2ZDT0k3cUFwUmpwaFNmXzZoN25LTjRyanJRbms0ZjM0TU5BRFJ6bk0?oc=5",
-      "locator": null,
-      "published_at": "2026-09-08"
-    },
-    "extracted_at": "2026-11-06T13:17:56.700625",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_20f67f8fef",
-    "company_id": "mistral",
-    "metric": "valuation",
-    "value": 21000000000.0,
-    "unit": "EUR",
-    "raw_text": "over €21 billion valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "EU-Startups",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOOC1KTDYxSTZRdWQ4M0lsLXpITHpWS3BhMkJNTDJMSW1NNTZjeV8xNTA0VGUwcENxekRnSGwybXRvZmZDeERYWkZ2RkxGZWhNSHpuYXJCeV9NcHlGeUs3NnNvaS1rQzVfQ0hXMEUydEdDOW41Rjh0Y1VUMVFHZG9qbHBReDhtcnR5LUNYdlN6c2ZsSkk0Tnk5R1czSlBqR0VxTkpBdHdjd2ZDT0k3cUFwUmpwaFNmXzZoN25LTjRyanJRbms0ZjM0TU5BRFJ6bk0?oc=5",
-      "locator": null,
-      "published_at": "2026-09-08"
-    },
-    "extracted_at": "2026-11-06T13:17:56.700625",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -2098,7 +2100,7 @@
       "locator": null,
       "published_at": "2026-02-11"
     },
-    "extracted_at": "2026-11-07T12:16:01.893632",
+    "extracted_at": "2026-11-08T12:50:32.551327",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

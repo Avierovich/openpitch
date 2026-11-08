@@ -9,41 +9,9 @@
   "summary": "Isomorphic uses AI and machine learning to design and develop new materials with unique properties and applications.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 88.6,
+  "vc_attention_score": 88.5,
   "universe_rank": 14,
   "metrics": {
-    "valuation": {
-      "metric": "valuation",
-      "value": 50000000000.0,
-      "unit": "USD",
-      "range": {
-        "low": 50000000000.0,
-        "high": 50000000000.0
-      },
-      "as_of": "2026-11-06",
-      "estimate_type": "consensus",
-      "confidence": 0.9,
-      "supporting_claims": [
-        "clm_171ed8b7cc",
-        "clm_4733038a81",
-        "clm_a77dafc320",
-        "clm_6e43314811",
-        "clm_693c473199",
-        "clm_2d069d1cc1",
-        "clm_d37b13e875",
-        "clm_b526f61ace"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 50000000000.0,
-        "change_pct": -0.0,
-        "since": "2026-11-06"
-      },
-      "history_ref": "history/isomorphic/valuation.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "round_amount": {
       "metric": "round_amount",
       "value": 5000000000.0,
@@ -54,26 +22,58 @@
       },
       "as_of": "2026-11-06",
       "estimate_type": "consensus",
-      "confidence": 0.916,
+      "confidence": 0.915,
       "supporting_claims": [
-        "clm_d7c9a0dbc4",
         "clm_0fd7ff747c",
-        "clm_53f22b1b2b",
         "clm_99bba4e678",
         "clm_2d98747143",
+        "clm_d7c9a0dbc4",
+        "clm_53f22b1b2b",
         "clm_dec6a25cf7",
         "clm_e69ef4ee3a"
       ],
       "contradiction": false,
       "delta": {
         "previous": 5000000000.0,
-        "change_pct": 0.0,
+        "change_pct": -0.0,
         "since": "2026-11-06"
       },
       "history_ref": "history/isomorphic/round_amount.jsonl",
       "unconfirmed": true,
       "confirmed_value": 2100000000.0,
       "confirmed_as_of": "2026-05-13"
+    },
+    "valuation": {
+      "metric": "valuation",
+      "value": 50000000000.0,
+      "unit": "USD",
+      "range": {
+        "low": 50000000000.0,
+        "high": 50000000000.0
+      },
+      "as_of": "2026-11-06",
+      "estimate_type": "consensus",
+      "confidence": 0.899,
+      "supporting_claims": [
+        "clm_a77dafc320",
+        "clm_4733038a81",
+        "clm_693c473199",
+        "clm_171ed8b7cc",
+        "clm_6e43314811",
+        "clm_2d069d1cc1",
+        "clm_d37b13e875",
+        "clm_b526f61ace"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 50000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-11-06"
+      },
+      "history_ref": "history/isomorphic/valuation.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     },
     "total_funding": {
       "metric": "total_funding",
@@ -82,7 +82,7 @@
       "range": null,
       "as_of": "2026-05-12",
       "estimate_type": "consensus",
-      "confidence": 0.512,
+      "confidence": 0.511,
       "supporting_claims": [
         "clm_3989f43af2",
         "clm_09d471a692"
@@ -108,7 +108,7 @@
       },
       "as_of": "2026-10-09",
       "estimate_type": "consensus",
-      "confidence": 0.735,
+      "confidence": 0.733,
       "supporting_claims": [
         "clm_a5f4df6c4f",
         "clm_3668b14afd"
@@ -131,7 +131,7 @@
       "range": null,
       "as_of": "2026-11-05",
       "estimate_type": "reported",
-      "confidence": 0.516,
+      "confidence": 0.512,
       "supporting_claims": [
         "clm_368ec009ae"
       ],
@@ -147,5 +147,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-11-07"
+  "last_updated": "2026-11-08"
 }

@@ -153,54 +153,6 @@
     "derivation": null
   },
   {
-    "id": "clm_dd7c2ab849",
-    "company_id": "perplexity",
-    "metric": "valuation",
-    "value": 14000000000.0,
-    "unit": null,
-    "raw_text": "Valuation Jumps to $14 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "FinTech Weekly",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTHdRSzJ5Ym5IRndBUWQ2VjdOdmduV21fWE9zT2dQaUhtMzdJZXhYZFV0UERjQU5CQkpFeE1QbFJDb2NmcjZfOTM2M0Q1Y0RvMDdOczQwZTVxM0VZWHV2MUFzYWs0MWNlOG1yTjY0eEpuUlNkeVVOdlh5ZVdpX0hSNTQwcEtUNnVXUllESUJ2UVgwR2FfR0dTUlJ1aG5NNlFibEFFTFZrMmxVYzkt?oc=5",
-      "locator": null,
-      "published_at": "2025-05-14"
-    },
-    "extracted_at": "2026-10-21T10:17:02.064836",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_27cafda3ea",
-    "company_id": "perplexity",
-    "metric": "round_amount",
-    "value": 500000000.0,
-    "unit": null,
-    "raw_text": "$500 Million Funding Round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "FinTech Weekly",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTHdRSzJ5Ym5IRndBUWQ2VjdOdmduV21fWE9zT2dQaUhtMzdJZXhYZFV0UERjQU5CQkpFeE1QbFJDb2NmcjZfOTM2M0Q1Y0RvMDdOczQwZTVxM0VZWHV2MUFzYWs0MWNlOG1yTjY0eEpuUlNkeVVOdlh5ZVdpX0hSNTQwcEtUNnVXUllESUJ2UVgwR2FfR0dTUlJ1aG5NNlFibEFFTFZrMmxVYzkt?oc=5",
-      "locator": null,
-      "published_at": "2025-05-14"
-    },
-    "extracted_at": "2026-10-21T10:17:02.064836",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_18a090e255",
     "company_id": "perplexity",
     "metric": "valuation",
@@ -220,6 +172,80 @@
       "published_at": "2024-04-23"
     },
     "extracted_at": "2026-10-29T12:07:33.443424",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_f47ba14827",
+    "company_id": "perplexity",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": null,
+    "raw_text": "$18 billion valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPcHEzdWd4NE02ZmFlZjdUV3ByNWx5cXlLUUlJb2FoMmVYMDJ0WlpELUFFdUFPbWI2R0tMalpqWDctakN4WGYtWDd1Z3loVjMtdmtYRWJqYS1XUjhCU1VCdTR2eXdjSW1JMklaWk0tUmkybFNfaTREaXVMRWNTa1BQdUg0RVNvY2EzVV9oOTQwOVRJbF90WFJSbFNOMVpkTHR5SGdMNXFUVmItQTJQMzk2bU81VktxSVFJYmFmMkNKZER6cGp5MXdmTW9mM0dqTDZCdlFHUzc5dDkyQmNaSWdj?oc=5",
+      "locator": null,
+      "published_at": "2025-03-20"
+    },
+    "extracted_at": "2026-10-29T12:07:33.443424",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_dd7c2ab849",
+    "company_id": "perplexity",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": null,
+    "raw_text": "Valuation Jumps to $14 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "FinTech Weekly",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMGJORENtOUl5TXJJdngxd05VTlNieUZLNHBSenZnM2RKZ3JEZTJQS0RIcWh0dTdDT0drM0Z5aUh4Y1NYLTVxS0hQczd3LWhBd1h4djV0NXFFdEhkSW13NWczak13MkNHSFYzRnl1Q2ZYNHd1eGZ1NGpBcEJHQm5ETE9ZOXEtTUQwQkgxamx5dzQ2WmE0NEE?oc=5",
+      "locator": null,
+      "published_at": "2025-05-14"
+    },
+    "extracted_at": "2026-11-08T12:50:32.551327",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_27cafda3ea",
+    "company_id": "perplexity",
+    "metric": "round_amount",
+    "value": 500000000.0,
+    "unit": null,
+    "raw_text": "$500 Million Funding Round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "FinTech Weekly",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMGJORENtOUl5TXJJdngxd05VTlNieUZLNHBSenZnM2RKZ3JEZTJQS0RIcWh0dTdDT0drM0Z5aUh4Y1NYLTVxS0hQczd3LWhBd1h4djV0NXFFdEhkSW13NWczak13MkNHSFYzRnl1Q2ZYNHd1eGZ1NGpBcEJHQm5ETE9ZOXEtTUQwQkgxamx5dzQ2WmE0NEE?oc=5",
+      "locator": null,
+      "published_at": "2025-05-14"
+    },
+    "extracted_at": "2026-11-08T12:50:32.551327",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -321,32 +347,6 @@
     "extracted_at": "2026-09-07T10:15:07.048991",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_f47ba14827",
-    "company_id": "perplexity",
-    "metric": "valuation",
-    "value": 18000000000.0,
-    "unit": null,
-    "raw_text": "$18 billion valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPcHEzdWd4NE02ZmFlZjdUV3ByNWx5cXlLUUlJb2FoMmVYMDJ0WlpELUFFdUFPbWI2R0tMalpqWDctakN4WGYtWDd1Z3loVjMtdmtYRWJqYS1XUjhCU1VCdTR2eXdjSW1JMklaWk0tUmkybFNfaTREaXVMRWNTa1BQdUg0RVNvY2EzVV9oOTQwOVRJbF90WFJSbFNOMVpkTHR5SGdMNXFUVmItQTJQMzk2bU81VktxSVFJYmFmMkNKZER6cGp5MXdmTW9mM0dqTDZCdlFHUzc5dDkyQmNaSWdj?oc=5",
-      "locator": null,
-      "published_at": "2025-03-20"
-    },
-    "extracted_at": "2026-10-29T12:07:33.443424",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -1433,7 +1433,7 @@
       "locator": null,
       "published_at": "2026-08-24"
     },
-    "extracted_at": "2026-11-07T12:16:01.893632",
+    "extracted_at": "2026-11-08T12:50:32.551327",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

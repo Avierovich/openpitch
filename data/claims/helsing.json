@@ -216,54 +216,6 @@
     "derivation": null
   },
   {
-    "id": "clm_3e418ceb34",
-    "company_id": "helsing",
-    "metric": "round_amount",
-    "value": 1800000000.0,
-    "unit": null,
-    "raw_text": "Raises $1.8 Billion in Series E Round",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "www.trendingtopics.eu",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZXNUNlZmbWNyMzN5WWdlNElTMmtiQUVnbDhvUmdoWVpaXy1fbjVxcGJnd3VNdVlvdEVkYTIzR2FLZHBZbE9EbzhmZW9yNEtIbmVFMUdhMkFGaVdVSmdkLU4tc0tmckphWnRZeFdad21xaTA4b3Q1a3lhNE00YV9WR2dqRFJ6cDVqM3RwRXhBdkJZNGZWQmVkcUZXcUduN0hPMGpISHF3S185QQ?oc=5",
-      "locator": null,
-      "published_at": "2026-07-13"
-    },
-    "extracted_at": "2026-10-07T11:44:32.066946",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_e06243f729",
-    "company_id": "helsing",
-    "metric": "valuation",
-    "value": 18000000000.0,
-    "unit": null,
-    "raw_text": "Valuation Climbs to $18 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "www.trendingtopics.eu",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZXNUNlZmbWNyMzN5WWdlNElTMmtiQUVnbDhvUmdoWVpaXy1fbjVxcGJnd3VNdVlvdEVkYTIzR2FLZHBZbE9EbzhmZW9yNEtIbmVFMUdhMkFGaVdVSmdkLU4tc0tmckphWnRZeFdad21xaTA4b3Q1a3lhNE00YV9WR2dqRFJ6cDVqM3RwRXhBdkJZNGZWQmVkcUZXcUduN0hPMGpISHF3S185QQ?oc=5",
-      "locator": null,
-      "published_at": "2026-07-13"
-    },
-    "extracted_at": "2026-10-07T11:44:32.066946",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_623b3b1df3",
     "company_id": "helsing",
     "metric": "round_amount",
@@ -384,30 +336,6 @@
     "derivation": null
   },
   {
-    "id": "clm_25c89f561c",
-    "company_id": "helsing",
-    "metric": "valuation",
-    "value": 18000000000.0,
-    "unit": null,
-    "raw_text": "Goldman Backs Drone Startup Helsing at $18 Billion Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRXJZVFVORmdqUWdhSGxvSUIwbE42amVWaUN3VzBBYlJTV1VNSnBWRTdXbkZUcmpSV0o0TFQxUE5wSjNkaWV2MXRBSWZQQ2ZaUWxucHJUMElhTy1NZWhaZ3FyaV9tb3ZvbDNRdERKRVZEcDJOaXR0TXdiRDRwa1k4WHZHaVE3U2ZSVy1YVHY5YWhmTXY4V28zUWlkZUZLOU52NGEtUVBYS2ZYQ0ZOTlBsV1hzZmU?oc=5",
-      "locator": null,
-      "published_at": "2026-07-13"
-    },
-    "extracted_at": "2026-08-26T05:56:52.356025",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_22bcec4f1c",
     "company_id": "helsing",
     "metric": "round_amount",
@@ -453,6 +381,176 @@
     "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_112a06951a",
+    "company_id": "helsing",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": "USD",
+    "raw_text": "$18 Billion Valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRXJZVFVORmdqUWdhSGxvSUIwbE42amVWaUN3VzBBYlJTV1VNSnBWRTdXbkZUcmpSV0o0TFQxUE5wSjNkaWV2MXRBSWZQQ2ZaUWxucHJUMElhTy1NZWhaZ3FyaV9tb3ZvbDNRdERKRVZEcDJOaXR0TXdiRDRwa1k4WHZHaVE3U2ZSVy1YVHY5YWhmTXY4V28zUWlkZUZLOU52NGEtUVBYS2ZYQ0ZOTlBsV1hzZmU?oc=5",
+      "locator": null,
+      "published_at": "2026-07-13"
+    },
+    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_71437fa1ee",
+    "company_id": "helsing",
+    "metric": "latest_round",
+    "value": 5.0,
+    "unit": "round",
+    "raw_text": "Series E",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Helsing",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE45enQ2dVRLM2k2S0QzNVg2RmRxVUJWRUUyNi1PS0EzbkdRQklHY2pFa3lKRlVCcFNrTFFac1hWYjBoUWxXeUlPeGJpd3lsaTlQc1pqNTBIbDRzV2VHTHZyN05NR1VtMGtmYklOVg?oc=5",
+      "locator": null,
+      "published_at": "2026-07-13"
+    },
+    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_e5f85d9a5f",
+    "company_id": "helsing",
+    "metric": "round_amount",
+    "value": 1800000000.0,
+    "unit": "USD",
+    "raw_text": "US$1.8bn",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Helsing",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE45enQ2dVRLM2k2S0QzNVg2RmRxVUJWRUUyNi1PS0EzbkdRQklHY2pFa3lKRlVCcFNrTFFac1hWYjBoUWxXeUlPeGJpd3lsaTlQc1pqNTBIbDRzV2VHTHZyN05NR1VtMGtmYklOVg?oc=5",
+      "locator": null,
+      "published_at": "2026-07-13"
+    },
+    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_980ddd9695",
+    "company_id": "helsing",
+    "metric": "round_amount",
+    "value": 1800000000.0,
+    "unit": "USD",
+    "raw_text": "$1.8 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Defense News",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPejcxR2NIaXdkVDltek1jUnREUGtydlNGd2kxX2hGQnpCbFptYU5XT0Z0OE5aNWhwQnFSSlNDZzdKdzlYaG9yVnpfaXBSbDIwMWRZdzc4UlZaUlFyVklRNzItNkRPd3JNcGNxa2NZeGJVYXN1UmZ6ekVodGREQUxOU3lXQXVMdEJvNUlJZTJUMkhVcy1vai1aYVhIVWVZYjBiUnBsUUVkUEllVkh6cUNGQkVEN1p3S21mcVlxYg?oc=5",
+      "locator": null,
+      "published_at": "2026-07-13"
+    },
+    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_3e418ceb34",
+    "company_id": "helsing",
+    "metric": "round_amount",
+    "value": 1800000000.0,
+    "unit": null,
+    "raw_text": "Raises $1.8 Billion in Series E Round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "www.trendingtopics.eu",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZXNUNlZmbWNyMzN5WWdlNElTMmtiQUVnbDhvUmdoWVpaXy1fbjVxcGJnd3VNdVlvdEVkYTIzR2FLZHBZbE9EbzhmZW9yNEtIbmVFMUdhMkFGaVdVSmdkLU4tc0tmckphWnRZeFdad21xaTA4b3Q1a3lhNE00YV9WR2dqRFJ6cDVqM3RwRXhBdkJZNGZWQmVkcUZXcUduN0hPMGpISHF3S185QQ?oc=5",
+      "locator": null,
+      "published_at": "2026-07-13"
+    },
+    "extracted_at": "2026-10-07T11:44:32.066946",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_e06243f729",
+    "company_id": "helsing",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": null,
+    "raw_text": "Valuation Climbs to $18 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "www.trendingtopics.eu",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZXNUNlZmbWNyMzN5WWdlNElTMmtiQUVnbDhvUmdoWVpaXy1fbjVxcGJnd3VNdVlvdEVkYTIzR2FLZHBZbE9EbzhmZW9yNEtIbmVFMUdhMkFGaVdVSmdkLU4tc0tmckphWnRZeFdad21xaTA4b3Q1a3lhNE00YV9WR2dqRFJ6cDVqM3RwRXhBdkJZNGZWQmVkcUZXcUduN0hPMGpISHF3S185QQ?oc=5",
+      "locator": null,
+      "published_at": "2026-07-13"
+    },
+    "extracted_at": "2026-10-07T11:44:32.066946",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_25c89f561c",
+    "company_id": "helsing",
+    "metric": "valuation",
+    "value": 18000000000.0,
+    "unit": null,
+    "raw_text": "Goldman Backs Drone Startup Helsing at $18 Billion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRXJZVFVORmdqUWdhSGxvSUIwbE42amVWaUN3VzBBYlJTV1VNSnBWRTdXbkZUcmpSV0o0TFQxUE5wSjNkaWV2MXRBSWZQQ2ZaUWxucHJUMElhTy1NZWhaZ3FyaV9tb3ZvbDNRdERKRVZEcDJOaXR0TXdiRDRwa1k4WHZHaVE3U2ZSVy1YVHY5YWhmTXY4V28zUWlkZUZLOU52NGEtUVBYS2ZYQ0ZOTlBsV1hzZmU?oc=5",
+      "locator": null,
+      "published_at": "2026-07-13"
+    },
+    "extracted_at": "2026-08-26T05:56:52.356025",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {

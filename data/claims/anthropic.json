@@ -168,6 +168,57 @@
     "derivation": null
   },
   {
+    "id": "clm_6d9f33db07",
+    "company_id": "anthropic",
+    "metric": "open_roles",
+    "value": 75.0,
+    "unit": null,
+    "raw_text": "AI Research & Engineering 75 Open Roles",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "anthropic.com",
+      "url": "https://anthropic.com/jobs",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extractor_model": "gemini-3.6-flash",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
+    "id": "clm_6e9b1da60c",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 1200000000000.0,
+    "unit": null,
+    "raw_text": "IPO Valuation Drops to $1.2T",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Brave New Coin",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUEFLZXN4R3JVbzlVOEZfSmRkbzF0dUFpZTdzbkF5MnhNUk85M2IzNUNELWpGM1daQWxiLWV3am1RM2k5bHhUVU9GLVRJeWV3Mm40UF8xN25tUTdQdVBaWlpLRmtkam56RzB4Qk9NRnotZ1ZIejBlZUcxR1NFdzJKb09vZi1HUWgzV3dGeEhhU1ZPM0N1UVVjZkhJNmFaREpfM25hMzNhSmFPNTdlSDdaMW5ZcllGeFhFMHI5NFlkT1A?oc=5",
+      "locator": null,
+      "published_at": "2026-11-08"
+    },
+    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extractor_model": "gemini-3.6-flash",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
     "id": "clm_ac71d08239",
     "company_id": "anthropic",
     "metric": "valuation",
@@ -3009,7 +3060,7 @@
       "locator": null,
       "published_at": "2026-10-29"
     },
-    "extracted_at": "2026-11-08T12:50:32.551327",
+    "extracted_at": "2026-11-09T14:24:11.277617",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
@@ -3040,7 +3091,7 @@
       "locator": null,
       "published_at": "2026-10-22"
     },
-    "extracted_at": "2026-11-08T12:50:32.551327",
+    "extracted_at": "2026-11-09T14:24:11.277617",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

@@ -53,54 +53,6 @@
     "derivation": null
   },
   {
-    "id": "clm_e86f231f97",
-    "company_id": "celonis",
-    "metric": "round_amount",
-    "value": 50000000.0,
-    "unit": null,
-    "raw_text": "$50M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMDF2X1RtSG5uUVo4UTh5dWVsd2tFeGdKN0FaU2didnY4NC1seHUzYnM3QUpNQmtOc2xSallVNDhkVk0wanl1UGNkeW1HTnJrUzc4N2hLZldsSWxsUDJmLUpubno2VzdmbWE3bFFmc0RRQ1EtNEFRRHotMjlXbnJfVFliemFFazNJSVFlZGJn?oc=5",
-      "locator": null,
-      "published_at": "2018-06-26"
-    },
-    "extracted_at": "2026-11-02T13:46:40.731910",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_116176b657",
-    "company_id": "celonis",
-    "metric": "valuation",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "$1B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMDF2X1RtSG5uUVo4UTh5dWVsd2tFeGdKN0FaU2didnY4NC1seHUzYnM3QUpNQmtOc2xSallVNDhkVk0wanl1UGNkeW1HTnJrUzc4N2hLZldsSWxsUDJmLUpubno2VzdmbWE3bFFmc0RRQ1EtNEFRRHotMjlXbnJfVFliemFFazNJSVFlZGJn?oc=5",
-      "locator": null,
-      "published_at": "2018-06-26"
-    },
-    "extracted_at": "2026-11-02T13:46:40.731910",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_0b81e88e78",
     "company_id": "celonis",
     "metric": "valuation",
@@ -218,6 +170,78 @@
     "extracted_at": "2026-08-27T17:02:21.670041",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_d4ea913822",
+    "company_id": "celonis",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "Raises $1 Billion in Series D",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "citybiz",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03M2VXX3JBS0ZJZWYtZ2NnM3lJNFpQaVIydWpqTVM2UUZrY1o5M1NuNHJrOGJucGxfeTZGRDBEaVFiMWc2RndJMHVZMFpmMWRuU3BEcjB1dk5FdHFNU2VvNlEyLXRuV0xjZnF4R2dZcDYwd1BJTUM2ZmxGbU5LZE0?oc=5",
+      "locator": null,
+      "published_at": "2021-06-02"
+    },
+    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_e86f231f97",
+    "company_id": "celonis",
+    "metric": "round_amount",
+    "value": 50000000.0,
+    "unit": null,
+    "raw_text": "$50M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMDF2X1RtSG5uUVo4UTh5dWVsd2tFeGdKN0FaU2didnY4NC1seHUzYnM3QUpNQmtOc2xSallVNDhkVk0wanl1UGNkeW1HTnJrUzc4N2hLZldsSWxsUDJmLUpubno2VzdmbWE3bFFmc0RRQ1EtNEFRRHotMjlXbnJfVFliemFFazNJSVFlZGJn?oc=5",
+      "locator": null,
+      "published_at": "2018-06-26"
+    },
+    "extracted_at": "2026-11-02T13:46:40.731910",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_116176b657",
+    "company_id": "celonis",
+    "metric": "valuation",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "$1B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMDF2X1RtSG5uUVo4UTh5dWVsd2tFeGdKN0FaU2didnY4NC1seHUzYnM3QUpNQmtOc2xSallVNDhkVk0wanl1UGNkeW1HTnJrUzc4N2hLZldsSWxsUDJmLUpubno2VzdmbWE3bFFmc0RRQ1EtNEFRRHotMjlXbnJfVFliemFFazNJSVFlZGJn?oc=5",
+      "locator": null,
+      "published_at": "2018-06-26"
+    },
+    "extracted_at": "2026-11-02T13:46:40.731910",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -1252,7 +1276,7 @@
       "locator": null,
       "published_at": "2026-07-03"
     },
-    "extracted_at": "2026-11-08T12:50:32.551327",
+    "extracted_at": "2026-11-09T14:24:11.277617",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2054,
     "derivation": {

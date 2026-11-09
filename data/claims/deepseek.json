@@ -76,32 +76,6 @@
     "derivation": null
   },
   {
-    "id": "clm_57b8dd0ed1",
-    "company_id": "deepseek",
-    "metric": "valuation",
-    "value": 74000000000.0,
-    "unit": "USD",
-    "raw_text": "DeepSeek reportedly to raise fresh capital at $74 billion valuation ahead of IPO",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Jakarta Post",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMWpsbGhvcEl6UGZwTi05MjR4a0lsczFMbXdSQ0VaOG5sN1JSRWhUTjhJWGV2U1AyTnNWNGg4RnFHMlZqYmpOd1hqY0hvUl9nQjFBdG0zZjl3VXA0ZGJjLWdtSE9YTVdQQXIzQTM1RFFmVTlXWk12SWRCQXR4UmRDSVlGcDIxUkp1cXM0dlZqaXR0SF9zN05JMTdTLXhJZTVTSXdCbUd3S3lzRmc2eXY1d1l3MklhdktreGVlaUNjTll5aXVmS0E2S3dn?oc=5",
-      "locator": null,
-      "published_at": "2026-07-19"
-    },
-    "extracted_at": "2026-10-21T10:17:02.064836",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_7c2d7c93d5",
     "company_id": "deepseek",
     "metric": "valuation",
@@ -360,6 +334,59 @@
     "extracted_at": "2026-11-07T12:16:01.893632",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_7ccd372d86",
+    "company_id": "deepseek",
+    "metric": "arr",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "China's DeepSeek annualised revenue run rate hits $1 billion",
+    "qualifiers": [
+      "run_rate",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWXVuODNzOU5VUThxSFRIUk9CMHh0OC1QY01HZVZWajZpaVdSTGJ3TU1DOU5yWVFFbWVoT1hzZTJaeTVST3QxcUgxZG11UlhnS1Y2Ulc2eU9ORzZDRFI0em1PMmROOUctQkE5emZJYkQ4LTlYNENrZlVQZk9LTUppYnRqSVdRdzFIbW5NYkFPTEFqcVJFQXNHeHpCNUtmdXZqN3NBZElfYVNsUDhIWHFmdGlWQXRtOWxTaTFKM2tGREd2TWU4RERxVTRhUnBfak93QkN0dlFNa1IyY0hJZXpRVDN30gHnAUFVX3lxTE1JVkxrd1lKY3gtR1FLSy05ZlcwekJCTDg2SnR6cFZTZG1GTzEzLWRnS28yRExVTDQtVUJIQm9TdUFuLTVKcmZYRVFrb1o1YlpSdWlBNVBydC1jSUU1QmIxbzkwS05PTHJPZFI1dkpfMXl5ZmpyWElvdjVka210OG1HbElxZjJPQWJoNTdrQmpNOTlxaUJmTE1HdkFuTXhXSHhwQ25vWm5EWVVoWEFnNEJRWFFXZXNjSkItYU11RTNkQldteUUySk5KRTlKN2VFLXk2RGZJNmhMd2pQRm4tbUtJSkJsOWFRRQ?oc=5",
+      "locator": null,
+      "published_at": "2026-09-24"
+    },
+    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2835,
+    "derivation": null
+  },
+  {
+    "id": "clm_57b8dd0ed1",
+    "company_id": "deepseek",
+    "metric": "valuation",
+    "value": 74000000000.0,
+    "unit": "USD",
+    "raw_text": "DeepSeek reportedly to raise fresh capital at $74 billion valuation ahead of IPO",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Jakarta Post",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMWpsbGhvcEl6UGZwTi05MjR4a0lsczFMbXdSQ0VaOG5sN1JSRWhUTjhJWGV2U1AyTnNWNGg4RnFHMlZqYmpOd1hqY0hvUl9nQjFBdG0zZjl3VXA0ZGJjLWdtSE9YTVdQQXIzQTM1RFFmVTlXWk12SWRCQXR4UmRDSVlGcDIxUkp1cXM0dlZqaXR0SF9zN05JMTdTLXhJZTVTSXdCbUd3S3lzRmc2eXY1d1l3MklhdktreGVlaUNjTll5aXVmS0E2S3dn?oc=5",
+      "locator": null,
+      "published_at": "2026-07-19"
+    },
+    "extracted_at": "2026-10-21T10:17:02.064836",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -3611,7 +3638,7 @@
       "locator": null,
       "published_at": "2026-08-25"
     },
-    "extracted_at": "2026-11-08T12:50:32.551327",
+    "extracted_at": "2026-11-09T14:24:11.277617",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

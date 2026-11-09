@@ -27,30 +27,6 @@
     "derivation": null
   },
   {
-    "id": "clm_50a42f97da",
-    "company_id": "vast-data",
-    "metric": "total_funding",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "Vast Data Raises $1 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "NAI500",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTzlZUXNkMUMyZmswcVNOQWVpTWJKQWI0N2lTaEpkUk1VNmU4MjFlMWhYdTZfRldYejhFS1MwMTFpZjR2c0FmZW5VNHRRLWNmT1huRmVWaUdXYkJWMDh2Z0R2Q3FFSV83eFY1Y01OM2V0cVpITkZjYTJ6TmpqVGRpZkpLWQ?oc=5",
-      "locator": null,
-      "published_at": "2026-04-22"
-    },
-    "extracted_at": "2026-09-03T09:52:38.790034",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_3de37e8011",
     "company_id": "vast-data",
     "metric": "valuation",
@@ -116,6 +92,30 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNUdIcHZVQk1GSUxlZU8zWHJFTklhZkpCbkhqX2xlN0Q2Tnp5UlBIQnpINXBkQzc3eVlyX29LbDJGUDFzSThyVHB2Rm8yQU1aRld4MTNfRmdQRklGcFZsYnlDMGFVc0h0cktzMTlMc2tsZFJmSDBVVUE1dWpzYU9OLS0xcDZhajE3?oc=5",
       "locator": null,
       "published_at": "2026-04-23"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_50a42f97da",
+    "company_id": "vast-data",
+    "metric": "total_funding",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "Vast Data Raises $1 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "NAI500",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTzlZUXNkMUMyZmswcVNOQWVpTWJKQWI0N2lTaEpkUk1VNmU4MjFlMWhYdTZfRldYejhFS1MwMTFpZjR2c0FmZW5VNHRRLWNmT1huRmVWaUdXYkJWMDh2Z0R2Q3FFSV83eFY1Y01OM2V0cVpITkZjYTJ6TmpqVGRpZkpLWQ?oc=5",
+      "locator": null,
+      "published_at": "2026-04-22"
     },
     "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
@@ -245,32 +245,6 @@
     "derivation": null
   },
   {
-    "id": "clm_c677a417f5",
-    "company_id": "vast-data",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "Vast Data eyes $30B valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "CTech",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GSUNKRk1HakZVZkowb3pOeEFZbkpQc2tuNnJKeWo3TnQ3ODRnand1OEgzenIyMjVON0poSk5Mb0ZtUldEdjVnRjE0cEZ0SXhqaTJiQnVYR0I5Y0lQdnFGVXB1bXNXbFE?oc=5",
-      "locator": null,
-      "published_at": "2025-08-01"
-    },
-    "extracted_at": "2026-10-29T12:07:33.443424",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_42596fd668",
     "company_id": "vast-data",
     "metric": "total_funding",
@@ -364,6 +338,59 @@
     "extracted_at": "2026-11-04T13:18:39.395579",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_5fbf71c771",
+    "company_id": "vast-data",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": null,
+    "raw_text": "Vast Data eyes $30B valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "calcalistech.com",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GSUNKRk1HakZVZkowb3pOeEFZbkpQc2tuNnJKeWo3TnQ3ODRnand1OEgzenIyMjVON0poSk5Mb0ZtUldEdjVnRjE0cEZ0SXhqaTJiQnVYR0I5Y0lQdnFGVXB1bXNXbFE?oc=5",
+      "locator": null,
+      "published_at": "2025-08-01"
+    },
+    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_c677a417f5",
+    "company_id": "vast-data",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "Vast Data eyes $30B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "CTech",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GSUNKRk1HakZVZkowb3pOeEFZbkpQc2tuNnJKeWo3TnQ3ODRnand1OEgzenIyMjVON0poSk5Mb0ZtUldEdjVnRjE0cEZ0SXhqaTJiQnVYR0I5Y0lQdnFGVXB1bXNXbFE?oc=5",
+      "locator": null,
+      "published_at": "2025-08-01"
+    },
+    "extracted_at": "2026-10-29T12:07:33.443424",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -1733,7 +1760,7 @@
       "locator": null,
       "published_at": "2026-04-23"
     },
-    "extracted_at": "2026-11-08T12:50:32.551327",
+    "extracted_at": "2026-11-09T14:24:11.277617",
     "extractor_model": "derive-engine",
     "base_confidence": 0.3623,
     "derivation": {

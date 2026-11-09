@@ -104,6 +104,58 @@
     "derivation": null
   },
   {
+    "id": "clm_4ee95cd98b",
+    "company_id": "openai",
+    "metric": "latest_round",
+    "value": 11000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI Just Raised $11 Billion at a $1.25 Trillion Valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNd0VJbTY4NE9DN3ZJY01VUlMwQXpyZUNYeGZzbnIyWWRtLTBGdE12ZjFYa0xhUGZlcmNDVF9sUlEyT0lPWS1ld1pEUzczNTJFdnhJVlJDQkw0Tl94S0UwbGN5WFMzeVZTYTU5MDZ3THRIZGpiX0d1a0Joc1ZOOWl3bC1EekR4dUNVc0g3QzZ2eTZTTXB2ZkZDUHhacC1aQlJscFRidDNlSXVHSC1GZG9pUWVtckN1VjZBVEsyVUpfMDh0ZXlzRHZ0U3c2TzFvQlV4WGRyeE1tM1k?oc=5",
+      "locator": null,
+      "published_at": "2026-11-07"
+    },
+    "extracted_at": "2026-11-08T12:50:32.551327",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_1ca9b5f46b",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1250000000000.0,
+    "unit": "USD",
+    "raw_text": "$1.25 Trillion Valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNd0VJbTY4NE9DN3ZJY01VUlMwQXpyZUNYeGZzbnIyWWRtLTBGdE12ZjFYa0xhUGZlcmNDVF9sUlEyT0lPWS1ld1pEUzczNTJFdnhJVlJDQkw0Tl94S0UwbGN5WFMzeVZTYTU5MDZ3THRIZGpiX0d1a0Joc1ZOOWl3bC1EekR4dUNVc0g3QzZ2eTZTTXB2ZkZDUHhacC1aQlJscFRidDNlSXVHSC1GZG9pUWVtckN1VjZBVEsyVUpfMDh0ZXlzRHZ0U3c2TzFvQlV4WGRyeE1tM1k?oc=5",
+      "locator": null,
+      "published_at": "2026-11-07"
+    },
+    "extracted_at": "2026-11-08T12:50:32.551327",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
     "id": "clm_b823e45fda",
     "company_id": "openai",
     "metric": "valuation",
@@ -128,106 +180,6 @@
     "extracted_at": "2026-11-05T13:15:28.916366",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2268,
-    "derivation": null
-  },
-  {
-    "id": "clm_f16f420162",
-    "company_id": "openai",
-    "metric": "total_funding",
-    "value": 11000000000.0,
-    "unit": null,
-    "raw_text": "OpenAI Secures $11B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "AI Insider",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYXNsRDZkdlRYaDFRYlUtQnM1NC13RjNFdEt0dlJhSlVpTUxtZ1A1YkdRTzhoc29hNC1HaGpTYkFtMHdWRFRLaEhFaWJtMnpjazBZSURBVllsWnZMTW15a0tSVWQ0OGE0ckwxbHExbDluNGxzMWFUdWdla09mamg4U24tY3hCVkhTektMY19OTHN0ZWI4amo5UjA0Q01IMEgybVozRUQ2ejRZTEdoSnRZVk9Sc00xU2ZNMFZpa1gxcw?oc=5",
-      "locator": null,
-      "published_at": "2026-11-07"
-    },
-    "extracted_at": "2026-11-07T12:16:01.893632",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_ebb8f0acb6",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 1250000000000.0,
-    "unit": null,
-    "raw_text": "at $1.25T Valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "AI Insider",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYXNsRDZkdlRYaDFRYlUtQnM1NC13RjNFdEt0dlJhSlVpTUxtZ1A1YkdRTzhoc29hNC1HaGpTYkFtMHdWRFRLaEhFaWJtMnpjazBZSURBVllsWnZMTW15a0tSVWQ0OGE0ckwxbHExbDluNGxzMWFUdWdla09mamg4U24tY3hCVkhTektMY19OTHN0ZWI4amo5UjA0Q01IMEgybVozRUQ2ejRZTEdoSnRZVk9Sc00xU2ZNMFZpa1gxcw?oc=5",
-      "locator": null,
-      "published_at": "2026-11-07"
-    },
-    "extracted_at": "2026-11-07T12:16:01.893632",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_0c8f569995",
-    "company_id": "openai",
-    "metric": "latest_round",
-    "value": 11000000000.0,
-    "unit": "USD",
-    "raw_text": "OpenAI raises $11 billion at $1.25 trillion valuation",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Billionaires.Africa",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTTBaSm9Ed0t6OW01VjFQMjhncVBkT3B0RFlWZGk4eklkOTZrcmVqUXl4YXJLOV9aSWRNcUR2cnhVUVZEZ0IzYU9panRBY044eFVIOUgzYWhzZmFSM1RYN0ZaUl9RMkY4OFdhREFMaEJVM0VDNjZhbnRJcVNtU0NzT2RmMURCNEgzb2VlUWt1ZjRKUDhwcWFmV2h1Q3NwWnk1U3RLRGtJTEFWOGI5cllEUTBQblh5dVlybWozaFdSbzQ3c3pjamxxZlVuTWhfZENKOHZuV3VuZ0kwUnNIVFB6RTNR?oc=5",
-      "locator": null,
-      "published_at": "2026-11-07"
-    },
-    "extracted_at": "2026-11-08T12:50:32.551327",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_39df83c14c",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 1250000000000.0,
-    "unit": "USD",
-    "raw_text": "at $1.25 trillion valuation",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Billionaires.Africa",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTTBaSm9Ed0t6OW01VjFQMjhncVBkT3B0RFlWZGk4eklkOTZrcmVqUXl4YXJLOV9aSWRNcUR2cnhVUVZEZ0IzYU9panRBY044eFVIOUgzYWhzZmFSM1RYN0ZaUl9RMkY4OFdhREFMaEJVM0VDNjZhbnRJcVNtU0NzT2RmMURCNEgzb2VlUWt1ZjRKUDhwcWFmV2h1Q3NwWnk1U3RLRGtJTEFWOGI5cllEUTBQblh5dVlybWozaFdSbzQ3c3pjamxxZlVuTWhfZENKOHZuV3VuZ0kwUnNIVFB6RTNR?oc=5",
-      "locator": null,
-      "published_at": "2026-11-07"
-    },
-    "extracted_at": "2026-11-08T12:50:32.551327",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
     "derivation": null
   },
   {
@@ -283,110 +235,6 @@
     "derivation": null
   },
   {
-    "id": "clm_5381d5137e",
-    "company_id": "openai",
-    "metric": "latest_round",
-    "value": 11000000000.0,
-    "unit": "USD",
-    "raw_text": "OpenAI Raises $11 Billion at $1.25 Trillion Valuation",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "entARABI",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPczNjY1FEMVlJZnp1NGZHMjRNaVZhTE9FX1RlNjEtaUp1UEFwaFJod2d1YnVhWldMbWFjUU1Nb2VXUU43SktrT2cxM2hqVEUzY1VQRGpMSnlkVHNTdzVNMDFLTldNaG9uVHMwRERUdUdlWGlxWXNmX1dvdWtiX2stWURnZWYzLWdick9IMjFMTEwzc3c3aEllVnltNVZCblBnU1hlZUo1dFJIZmFSUEl3?oc=5",
-      "locator": null,
-      "published_at": "2026-11-07"
-    },
-    "extracted_at": "2026-11-08T12:50:32.551327",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_cf77e0d646",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 1250000000000.0,
-    "unit": "USD",
-    "raw_text": "$1.25 Trillion Valuation",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "entARABI",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPczNjY1FEMVlJZnp1NGZHMjRNaVZhTE9FX1RlNjEtaUp1UEFwaFJod2d1YnVhWldMbWFjUU1Nb2VXUU43SktrT2cxM2hqVEUzY1VQRGpMSnlkVHNTdzVNMDFLTldNaG9uVHMwRERUdUdlWGlxWXNmX1dvdWtiX2stWURnZWYzLWdick9IMjFMTEwzc3c3aEllVnltNVZCblBnU1hlZUo1dFJIZmFSUEl3?oc=5",
-      "locator": null,
-      "published_at": "2026-11-07"
-    },
-    "extracted_at": "2026-11-08T12:50:32.551327",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_4ee95cd98b",
-    "company_id": "openai",
-    "metric": "latest_round",
-    "value": 11000000000.0,
-    "unit": "USD",
-    "raw_text": "OpenAI Just Raised $11 Billion at a $1.25 Trillion Valuation",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNd0VJbTY4NE9DN3ZJY01VUlMwQXpyZUNYeGZzbnIyWWRtLTBGdE12ZjFYa0xhUGZlcmNDVF9sUlEyT0lPWS1ld1pEUzczNTJFdnhJVlJDQkw0Tl94S0UwbGN5WFMzeVZTYTU5MDZ3THRIZGpiX0d1a0Joc1ZOOWl3bC1EekR4dUNVc0g3QzZ2eTZTTXB2ZkZDUHhacC1aQlJscFRidDNlSXVHSC1GZG9pUWVtckN1VjZBVEsyVUpfMDh0ZXlzRHZ0U3c2TzFvQlV4WGRyeE1tM1k?oc=5",
-      "locator": null,
-      "published_at": "2026-11-07"
-    },
-    "extracted_at": "2026-11-08T12:50:32.551327",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
-    "id": "clm_1ca9b5f46b",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 1250000000000.0,
-    "unit": "USD",
-    "raw_text": "$1.25 Trillion Valuation",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNd0VJbTY4NE9DN3ZJY01VUlMwQXpyZUNYeGZzbnIyWWRtLTBGdE12ZjFYa0xhUGZlcmNDVF9sUlEyT0lPWS1ld1pEUzczNTJFdnhJVlJDQkw0Tl94S0UwbGN5WFMzeVZTYTU5MDZ3THRIZGpiX0d1a0Joc1ZOOWl3bC1EekR4dUNVc0g3QzZ2eTZTTXB2ZkZDUHhacC1aQlJscFRidDNlSXVHSC1GZG9pUWVtckN1VjZBVEsyVUpfMDh0ZXlzRHZ0U3c2TzFvQlV4WGRyeE1tM1k?oc=5",
-      "locator": null,
-      "published_at": "2026-11-07"
-    },
-    "extracted_at": "2026-11-08T12:50:32.551327",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4725,
-    "derivation": null
-  },
-  {
     "id": "clm_c7411d03af",
     "company_id": "openai",
     "metric": "latest_round",
@@ -430,6 +278,306 @@
       "type": "news",
       "name": "Middle East Online",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWnVtMFhLNEhQMFZLdi1wcU5xUXdpcjNHSFNmbVlPM3JWLVVvYzJjbHMtOGxpZEd5bmtiOWJSTk04MzZqREFiVmVYcE1lNW1YNVg0VFdmMjNJVHhucmVXcUhpUzBIU2h0X3A3WTZSTEpaT0tRbUZ1SDFfOFlTdXRzSWtaUUpkYUFvbFhmYm9iQlZpOVFZ?oc=5",
+      "locator": null,
+      "published_at": "2026-11-07"
+    },
+    "extracted_at": "2026-11-08T12:50:32.551327",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_0c8f569995",
+    "company_id": "openai",
+    "metric": "latest_round",
+    "value": 11000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI raises $11 billion at $1.25 trillion valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Billionaires.Africa",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTTBaSm9Ed0t6OW01VjFQMjhncVBkT3B0RFlWZGk4eklkOTZrcmVqUXl4YXJLOV9aSWRNcUR2cnhVUVZEZ0IzYU9panRBY044eFVIOUgzYWhzZmFSM1RYN0ZaUl9RMkY4OFdhREFMaEJVM0VDNjZhbnRJcVNtU0NzT2RmMURCNEgzb2VlUWt1ZjRKUDhwcWFmV2h1Q3NwWnk1U3RLRGtJTEFWOGI5cllEUTBQblh5dVlybWozaFdSbzQ3c3pjamxxZlVuTWhfZENKOHZuV3VuZ0kwUnNIVFB6RTNR?oc=5",
+      "locator": null,
+      "published_at": "2026-11-07"
+    },
+    "extracted_at": "2026-11-08T12:50:32.551327",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_39df83c14c",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1250000000000.0,
+    "unit": "USD",
+    "raw_text": "at $1.25 trillion valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Billionaires.Africa",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTTBaSm9Ed0t6OW01VjFQMjhncVBkT3B0RFlWZGk4eklkOTZrcmVqUXl4YXJLOV9aSWRNcUR2cnhVUVZEZ0IzYU9panRBY044eFVIOUgzYWhzZmFSM1RYN0ZaUl9RMkY4OFdhREFMaEJVM0VDNjZhbnRJcVNtU0NzT2RmMURCNEgzb2VlUWt1ZjRKUDhwcWFmV2h1Q3NwWnk1U3RLRGtJTEFWOGI5cllEUTBQblh5dVlybWozaFdSbzQ3c3pjamxxZlVuTWhfZENKOHZuV3VuZ0kwUnNIVFB6RTNR?oc=5",
+      "locator": null,
+      "published_at": "2026-11-07"
+    },
+    "extracted_at": "2026-11-08T12:50:32.551327",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_ce8e46c891",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1250000000000.0,
+    "unit": "USD",
+    "raw_text": "valuation at $1.25T",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "fundsforNGOs News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVGgwTTl3LTl3NC1vbzFHTDN3aXNpMG5vN043YWwxMjRSUUxmbHJtYVppTW1yYmgzZW90STRtVVR2R2Fma21qYnB5MUFXcmNkMDU0UzJaZDZCcnFhRkdqS29DX3VuaFNabjR2VUJyRzRtMTlLUEswSnFEaTRmc3VYSmJ6T0hINEE1N1NzQlBoeVJhM0xUakhkeEVIeks5LUpRcUZ6eTNpdw?oc=5",
+      "locator": null,
+      "published_at": "2026-11-09"
+    },
+    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_e06a825596",
+    "company_id": "openai",
+    "metric": "round_amount",
+    "value": 20000000000.0,
+    "unit": "USD",
+    "raw_text": "funding round cut to $20B",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "fundsforNGOs News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVGgwTTl3LTl3NC1vbzFHTDN3aXNpMG5vN043YWwxMjRSUUxmbHJtYVppTW1yYmgzZW90STRtVVR2R2Fma21qYnB5MUFXcmNkMDU0UzJaZDZCcnFhRkdqS29DX3VuaFNabjR2VUJyRzRtMTlLUEswSnFEaTRmc3VYSmJ6T0hINEE1N1NzQlBoeVJhM0xUakhkeEVIeks5LUpRcUZ6eTNpdw?oc=5",
+      "locator": null,
+      "published_at": "2026-11-09"
+    },
+    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_654f20d6f2",
+    "company_id": "openai",
+    "metric": "total_funding",
+    "value": 11000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI Raises $11 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dataconomy",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdzZSYXAwODluTFVvNXl2UnExQm1ZTzdUTnFpWnhNdEQzRVdjQjlDc0lJZVo1cUJlRHY0Y2JDVnZ3QzZqeE16cDBRYmMxbzlKVEJmaDZ2cU5DQjVxZHUyTkpZYlJteDluRjE5RzRQMC14V0YzWkpUenNDbURCR0swREpHQVNCUkV4NlFEXzhB?oc=5",
+      "locator": null,
+      "published_at": "2026-11-09"
+    },
+    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_86c4ab514b",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1250000000000.0,
+    "unit": "USD",
+    "raw_text": "$1.25 Trillion Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dataconomy",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdzZSYXAwODluTFVvNXl2UnExQm1ZTzdUTnFpWnhNdEQzRVdjQjlDc0lJZVo1cUJlRHY0Y2JDVnZ3QzZqeE16cDBRYmMxbzlKVEJmaDZ2cU5DQjVxZHUyTkpZYlJteDluRjE5RzRQMC14V0YzWkpUenNDbURCR0swREpHQVNCUkV4NlFEXzhB?oc=5",
+      "locator": null,
+      "published_at": "2026-11-09"
+    },
+    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_43cbd60a5a",
+    "company_id": "openai",
+    "metric": "round_amount",
+    "value": 11000000000.0,
+    "unit": "USD",
+    "raw_text": "secures $11bn in funding round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Verdict",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqTUlDZUlackFuRmYwR1BIclB4RVVJYllhWUdDMHpqSkFWUVFha1RhVUtsZDFmbmNpcHBhV1lJcW1mMWhld1VTTEZEeHFZY1hDc0RsS01aa2NKMmFrcW4zbDRGa3E?oc=5",
+      "locator": null,
+      "published_at": "2026-11-09"
+    },
+    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_489e18ae50",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1250000000000.0,
+    "unit": "USD",
+    "raw_text": "$1.25tn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Verdict",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqTUlDZUlackFuRmYwR1BIclB4RVVJYllhWUdDMHpqSkFWUVFha1RhVUtsZDFmbmNpcHBhV1lJcW1mMWhld1VTTEZEeHFZY1hDc0RsS01aa2NKMmFrcW4zbDRGa3E?oc=5",
+      "locator": null,
+      "published_at": "2026-11-09"
+    },
+    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_f16f420162",
+    "company_id": "openai",
+    "metric": "total_funding",
+    "value": 11000000000.0,
+    "unit": null,
+    "raw_text": "OpenAI Secures $11B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "AI Insider",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYXNsRDZkdlRYaDFRYlUtQnM1NC13RjNFdEt0dlJhSlVpTUxtZ1A1YkdRTzhoc29hNC1HaGpTYkFtMHdWRFRLaEhFaWJtMnpjazBZSURBVllsWnZMTW15a0tSVWQ0OGE0ckwxbHExbDluNGxzMWFUdWdla09mamg4U24tY3hCVkhTektMY19OTHN0ZWI4amo5UjA0Q01IMEgybVozRUQ2ejRZTEdoSnRZVk9Sc00xU2ZNMFZpa1gxcw?oc=5",
+      "locator": null,
+      "published_at": "2026-11-07"
+    },
+    "extracted_at": "2026-11-07T12:16:01.893632",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_ebb8f0acb6",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1250000000000.0,
+    "unit": null,
+    "raw_text": "at $1.25T Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "AI Insider",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYXNsRDZkdlRYaDFRYlUtQnM1NC13RjNFdEt0dlJhSlVpTUxtZ1A1YkdRTzhoc29hNC1HaGpTYkFtMHdWRFRLaEhFaWJtMnpjazBZSURBVllsWnZMTW15a0tSVWQ0OGE0ckwxbHExbDluNGxzMWFUdWdla09mamg4U24tY3hCVkhTektMY19OTHN0ZWI4amo5UjA0Q01IMEgybVozRUQ2ejRZTEdoSnRZVk9Sc00xU2ZNMFZpa1gxcw?oc=5",
+      "locator": null,
+      "published_at": "2026-11-07"
+    },
+    "extracted_at": "2026-11-07T12:16:01.893632",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_5381d5137e",
+    "company_id": "openai",
+    "metric": "latest_round",
+    "value": 11000000000.0,
+    "unit": "USD",
+    "raw_text": "OpenAI Raises $11 Billion at $1.25 Trillion Valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "entARABI",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPczNjY1FEMVlJZnp1NGZHMjRNaVZhTE9FX1RlNjEtaUp1UEFwaFJod2d1YnVhWldMbWFjUU1Nb2VXUU43SktrT2cxM2hqVEUzY1VQRGpMSnlkVHNTdzVNMDFLTldNaG9uVHMwRERUdUdlWGlxWXNmX1dvdWtiX2stWURnZWYzLWdick9IMjFMTEwzc3c3aEllVnltNVZCblBnU1hlZUo1dFJIZmFSUEl3?oc=5",
+      "locator": null,
+      "published_at": "2026-11-07"
+    },
+    "extracted_at": "2026-11-08T12:50:32.551327",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_cf77e0d646",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1250000000000.0,
+    "unit": "USD",
+    "raw_text": "$1.25 Trillion Valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "entARABI",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPczNjY1FEMVlJZnp1NGZHMjRNaVZhTE9FX1RlNjEtaUp1UEFwaFJod2d1YnVhWldMbWFjUU1Nb2VXUU43SktrT2cxM2hqVEUzY1VQRGpMSnlkVHNTdzVNMDFLTldNaG9uVHMwRERUdUdlWGlxWXNmX1dvdWtiX2stWURnZWYzLWdick9IMjFMTEwzc3c3aEllVnltNVZCblBnU1hlZUo1dFJIZmFSUEl3?oc=5",
       "locator": null,
       "published_at": "2026-11-07"
     },
@@ -5024,7 +5172,7 @@
       "locator": null,
       "published_at": "2026-08-20"
     },
-    "extracted_at": "2026-11-08T12:50:32.551327",
+    "extracted_at": "2026-11-09T14:24:11.277617",
     "extractor_model": "derive-engine",
     "base_confidence": 0.4658,
     "derivation": {

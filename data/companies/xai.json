@@ -19,10 +19,10 @@
       "range": null,
       "as_of": "2026-01-07",
       "estimate_type": "consensus",
-      "confidence": 0.859,
+      "confidence": 0.858,
       "supporting_claims": [
-        "clm_3769f513df",
         "clm_3086cec304",
+        "clm_3769f513df",
         "clm_6f038503a8",
         "clm_4bcf6b8993",
         "clm_9c362f7877",
@@ -37,11 +37,33 @@
       ],
       "contradiction": false,
       "delta": {
-        "previous": 220726221436.47,
-        "change_pct": -0.9,
+        "previous": 218786028644.12,
+        "change_pct": -0.0,
         "since": "2026-01-07"
       },
       "history_ref": "history/xai/valuation.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
+    },
+    "latest_round": {
+      "metric": "latest_round",
+      "value": 20000000000.0,
+      "unit": "object",
+      "range": null,
+      "as_of": "2026-01-06",
+      "estimate_type": "reported",
+      "confidence": 0.226,
+      "supporting_claims": [
+        "clm_4fcc5afeb0"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 20000000000.0,
+        "change_pct": 0.0,
+        "since": "2026-01-06"
+      },
+      "history_ref": "history/xai/latest_round.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
@@ -53,7 +75,7 @@
       "range": null,
       "as_of": "2025-11-26",
       "estimate_type": "consensus",
-      "confidence": 0.351,
+      "confidence": 0.35,
       "supporting_claims": [
         "clm_d980f290aa",
         "clm_0a3041ec94",
@@ -70,24 +92,6 @@
       "unconfirmed": true,
       "confirmed_value": 60000000000.0,
       "confirmed_as_of": "2026-04-23"
-    },
-    "latest_round": {
-      "metric": "latest_round",
-      "value": 20000000000.0,
-      "unit": "object",
-      "range": null,
-      "as_of": "2026-01-06",
-      "estimate_type": "reported",
-      "confidence": 0.227,
-      "supporting_claims": [
-        "clm_4fcc5afeb0"
-      ],
-      "contradiction": true,
-      "delta": null,
-      "history_ref": "history/xai/latest_round.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
     },
     "total_funding": {
       "metric": "total_funding",
@@ -118,5 +122,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-11-08"
+  "last_updated": "2026-11-09"
 }

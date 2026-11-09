@@ -1,5 +1,29 @@
 [
   {
+    "id": "clm_69db9deda9",
+    "company_id": "anysphere",
+    "metric": "valuation",
+    "value": 60000000000.0,
+    "unit": "USD",
+    "raw_text": "all-stock deal worth $60 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9NdGtYTDhMN3lTTnJ0c1FrZ1FkaU9idXNjNzI2aVk5VlhnYmFEUVlBLWNuYl9STkVQekpiZTlhUEFXRm8zOTBHYno1WkdKR0o5MXc?oc=5",
+      "locator": null,
+      "published_at": "2026-06-16"
+    },
+    "extracted_at": "2026-11-08T12:50:32.551327",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_b9c75ebd29",
     "company_id": "anysphere",
     "metric": "arr",
@@ -44,30 +68,6 @@
     },
     "extracted_at": "2026-07-12T07:44:16.543146",
     "extractor_model": "gemini-2.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_69db9deda9",
-    "company_id": "anysphere",
-    "metric": "valuation",
-    "value": 60000000000.0,
-    "unit": "USD",
-    "raw_text": "all-stock deal worth $60 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Instagram",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9NdGtYTDhMN3lTTnJ0c1FrZ1FkaU9idXNjNzI2aVk5VlhnYmFEUVlBLWNuYl9STkVQekpiZTlhUEFXRm8zOTBHYno1WkdKR0o5MXc?oc=5",
-      "locator": null,
-      "published_at": "2026-06-16"
-    },
-    "extracted_at": "2026-11-08T12:50:32.551327",
-    "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.525,
     "derivation": null
   },
@@ -843,7 +843,7 @@
     "derivation": null
   },
   {
-    "id": "drv_b4aba4e71e",
+    "id": "drv_f849f9647d",
     "company_id": "anysphere",
     "metric": "revenue_multiple",
     "value": 15.0,
@@ -861,14 +861,14 @@
       "locator": null,
       "published_at": "2026-06-16"
     },
-    "extracted_at": "2026-11-08T12:50:32.551327",
+    "extracted_at": "2026-11-09T14:24:11.277617",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_aa3b541312",
+        "clm_69db9deda9",
         "clm_b9c75ebd29"
       ]
     }

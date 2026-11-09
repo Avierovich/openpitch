@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-11-08
+# OpenPitch Data Quality Report - 2026-11-09
 
 ## Summary
 
-- Profiles generated: 683
-- Watchlist candidates: 1425
+- Profiles generated: 689
+- Watchlist candidates: 1437
 - Top-50 cards: 50
-- Profiles with at least one metric: 668
-- Critical issues: 123
+- Profiles with at least one metric: 674
+- Critical issues: 124
 - Warnings: 17
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 740
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 746
 
 ## Top-50 Companies With No Metrics
 
@@ -152,6 +152,7 @@ None.
 - Unconventional AI
 - Weaviate
 - Yassir
+- construction
 
 ## Single-Source Core Metrics
 

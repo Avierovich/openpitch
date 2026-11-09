@@ -283,6 +283,30 @@
     "derivation": null
   },
   {
+    "id": "clm_6bed6d10e2",
+    "company_id": "project-prometheus",
+    "metric": "total_funding",
+    "value": 12000000000.0,
+    "unit": "USD",
+    "raw_text": "raises $12B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRUdDTWtaR0lkVDVMYUVtajFPdmp6Uno2NlF4OUhZRlN3NzRtNWJrRHdSOURJbldNWmt5N3V6REVKdnFxQjBXNUw4NHp0ZG5TbmF6WG9SYl9EN3daMWt1QWl1Y3BNRDlRdFZoUzFZRGZVVjlTUGtQWExON1lmRDFfeHVGX1YydkcyYUYwNUo1V0tycFFZVWx5VUNhZURtV21XNFFxMU1Gb0FEdWpQVnVqQmt3?oc=5",
+      "locator": null,
+      "published_at": "2026-06-11"
+    },
+    "extracted_at": "2026-10-27T11:13:23.267375",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_3ad01abbbb",
     "company_id": "project-prometheus",
     "metric": "round_amount",
@@ -307,30 +331,6 @@
     "extracted_at": "2026-10-27T11:13:23.267375",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_6bed6d10e2",
-    "company_id": "project-prometheus",
-    "metric": "total_funding",
-    "value": 12000000000.0,
-    "unit": "USD",
-    "raw_text": "raises $12B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRUdDTWtaR0lkVDVMYUVtajFPdmp6Uno2NlF4OUhZRlN3NzRtNWJrRHdSOURJbldNWmt5N3V6REVKdnFxQjBXNUw4NHp0ZG5TbmF6WG9SYl9EN3daMWt1QWl1Y3BNRDlRdFZoUzFZRGZVVjlTUGtQWExON1lmRDFfeHVGX1YydkcyYUYwNUo1V0tycFFZVWx5VUNhZURtV21XNFFxMU1Gb0FEdWpQVnVqQmt3?oc=5",
-      "locator": null,
-      "published_at": "2026-06-11"
-    },
-    "extracted_at": "2026-10-27T11:13:23.267375",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {

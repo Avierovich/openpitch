@@ -125,6 +125,30 @@
     "derivation": null
   },
   {
+    "id": "clm_e4efad1b11",
+    "company_id": "anysphere-cursor",
+    "metric": "valuation",
+    "value": 60000000000.0,
+    "unit": "USD",
+    "raw_text": "all-stock deal worth $60 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9NdGtYTDhMN3lTTnJ0c1FrZ1FkaU9idXNjNzI2aVk5VlhnYmFEUVlBLWNuYl9STkVQekpiZTlhUEFXRm8zOTBHYno1WkdKR0o5MXc?oc=5",
+      "locator": null,
+      "published_at": "2026-06-16"
+    },
+    "extracted_at": "2026-11-08T12:50:32.551327",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_0b480b48ed",
     "company_id": "anysphere-cursor",
     "metric": "valuation",
@@ -173,30 +197,6 @@
     "derivation": null
   },
   {
-    "id": "clm_ebc093f62f",
-    "company_id": "anysphere-cursor",
-    "metric": "arr",
-    "value": 4000000000.0,
-    "unit": null,
-    "raw_text": "Annualized Revenue Reaches $4 Billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY01haklTT3IteUxlTWM2UXZLd1hGM3ctTHp0bVdlV0x5Vkxlb3lmOFFiLWE0Q1J3TGdiS2tFVGxhWVg2VmFmOGpuOENXM2JKOE9GOUFkbUkwaFVlM05TLWxZN0otNy1ySlF1b0ZyNlNOWUQ5Q09tVW9SMzlrdzRveldZLWxYeF9fc045WU5BVTB0N1pDOUVfcFpXMUtMTGp3RkRLNHZfUQ?oc=5",
-      "locator": null,
-      "published_at": "2026-06-16"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_bc5debeea5",
     "company_id": "anysphere-cursor",
     "metric": "valuation",
@@ -218,6 +218,30 @@
     "extracted_at": "2026-09-05T09:07:28.177448",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_ebc093f62f",
+    "company_id": "anysphere-cursor",
+    "metric": "arr",
+    "value": 4000000000.0,
+    "unit": null,
+    "raw_text": "Annualized Revenue Reaches $4 Billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY01haklTT3IteUxlTWM2UXZLd1hGM3ctTHp0bVdlV0x5Vkxlb3lmOFFiLWE0Q1J3TGdiS2tFVGxhWVg2VmFmOGpuOENXM2JKOE9GOUFkbUkwaFVlM05TLWxZN0otNy1ySlF1b0ZyNlNOWUQ5Q09tVW9SMzlrdzRveldZLWxYeF9fc045WU5BVTB0N1pDOUVfcFpXMUtMTGp3RkRLNHZfUQ?oc=5",
+      "locator": null,
+      "published_at": "2026-06-16"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -365,30 +389,6 @@
     },
     "extracted_at": "2026-09-05T09:07:28.177448",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_e4efad1b11",
-    "company_id": "anysphere-cursor",
-    "metric": "valuation",
-    "value": 60000000000.0,
-    "unit": "USD",
-    "raw_text": "all-stock deal worth $60 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Instagram",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9NdGtYTDhMN3lTTnJ0c1FrZ1FkaU9idXNjNzI2aVk5VlhnYmFEUVlBLWNuYl9STkVQekpiZTlhUEFXRm8zOTBHYno1WkdKR0o5MXc?oc=5",
-      "locator": null,
-      "published_at": "2026-06-16"
-    },
-    "extracted_at": "2026-11-08T12:50:32.551327",
-    "extractor_model": "gemini-3.7-flash",
     "base_confidence": 0.525,
     "derivation": null
   },
@@ -1055,7 +1055,7 @@
       "locator": null,
       "published_at": "2026-06-16"
     },
-    "extracted_at": "2026-11-08T12:50:32.551327",
+    "extracted_at": "2026-11-09T14:24:11.277617",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

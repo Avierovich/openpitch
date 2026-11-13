@@ -9,7 +9,7 @@
   "summary": "Cerebras Systems creates specialized wafer-scale processors and systems for accelerating AI and deep learning computation.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 85.9,
+  "vc_attention_score": 85.8,
   "universe_rank": 32,
   "metrics": {
     "round_amount": {
@@ -19,7 +19,7 @@
       "range": null,
       "as_of": "2026-04-02",
       "estimate_type": "consensus",
-      "confidence": 0.897,
+      "confidence": 0.894,
       "supporting_claims": [
         "clm_298a19df06",
         "clm_963862988e",
@@ -52,7 +52,7 @@
       "range": null,
       "as_of": "2026-02-05",
       "estimate_type": "consensus",
-      "confidence": 0.439,
+      "confidence": 0.435,
       "supporting_claims": [
         "clm_1fede69526",
         "clm_f5a8ba9331",
@@ -76,7 +76,7 @@
       "range": null,
       "as_of": "2026-05-04",
       "estimate_type": "consensus",
-      "confidence": 0.94,
+      "confidence": 0.938,
       "supporting_claims": [
         "clm_4bc81a9397",
         "clm_5e7814d1a3",
@@ -112,7 +112,7 @@
       "range": null,
       "as_of": "2026-02-05",
       "estimate_type": "consensus",
-      "confidence": 0.773,
+      "confidence": 0.771,
       "supporting_claims": [
         "clm_8aba5a4f48",
         "clm_ce869f304c",
@@ -133,21 +133,22 @@
     },
     "arr": {
       "metric": "arr",
-      "value": 200003333.33,
+      "value": 204597381.06,
       "unit": "USD",
       "range": null,
-      "as_of": "2026-08-12",
+      "as_of": "2026-11-12",
       "estimate_type": "consensus",
-      "confidence": 0.446,
+      "confidence": 0.644,
       "supporting_claims": [
         "clm_e32790969d",
         "clm_e794c66901",
-        "clm_a187f9a1c4"
+        "clm_a187f9a1c4",
+        "clm_914cba9e60"
       ],
       "contradiction": false,
       "delta": {
         "previous": 200003333.33,
-        "change_pct": 0.0,
+        "change_pct": 2.3,
         "since": "2026-08-12"
       },
       "history_ref": "history/cerebras/arr.jsonl",
@@ -155,51 +156,50 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "revenue_multiple": {
-      "metric": "revenue_multiple",
-      "value": 58.0,
-      "unit": "x",
-      "range": null,
-      "as_of": "2026-08-14",
-      "estimate_type": "reported",
-      "confidence": 0.182,
-      "supporting_claims": [
-        "clm_feefdc3941"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 58.0,
-        "change_pct": 0.0,
-        "since": "2026-08-14"
-      },
-      "history_ref": "history/cerebras/revenue_multiple.jsonl",
-      "unconfirmed": false,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "revenue_growth": {
       "metric": "revenue_growth",
-      "value": 97.96,
+      "value": 55.0,
       "unit": "pct",
       "range": null,
-      "as_of": "2026-08-14",
+      "as_of": "2026-11-12",
       "estimate_type": "reported",
-      "confidence": 0.328,
+      "confidence": 0.372,
       "supporting_claims": [
-        "clm_a217a997b0",
-        "clm_5498625f57"
+        "clm_f6221bfe26"
       ],
-      "contradiction": false,
+      "contradiction": true,
       "delta": {
         "previous": 97.96,
-        "change_pct": -0.0,
+        "change_pct": -43.9,
         "since": "2026-08-14"
       },
       "history_ref": "history/cerebras/revenue_growth.jsonl",
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "revenue_multiple": {
+      "metric": "revenue_multiple",
+      "value": 109.0,
+      "unit": "x",
+      "range": null,
+      "as_of": "2026-11-12",
+      "estimate_type": "reported",
+      "confidence": 0.18,
+      "supporting_claims": [
+        "drv_eb67f936b6"
+      ],
+      "contradiction": true,
+      "delta": {
+        "previous": 58.0,
+        "change_pct": 87.9,
+        "since": "2026-08-14"
+      },
+      "history_ref": "history/cerebras/revenue_multiple.jsonl",
+      "unconfirmed": false,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-11-09"
+  "last_updated": "2026-11-13"
 }

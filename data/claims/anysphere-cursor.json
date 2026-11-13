@@ -197,30 +197,6 @@
     "derivation": null
   },
   {
-    "id": "clm_bc5debeea5",
-    "company_id": "anysphere-cursor",
-    "metric": "valuation",
-    "value": 60000000000.0,
-    "unit": "USD",
-    "raw_text": "$60B Deal",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQUV9CV0plTXBfMnpjbkNuUWszNlJwSlJCdHk0MjlzNWstNElRSlhGZzhUX1pqRTFOVnNveUQ1MnUtVDJtTUVCWG9IZUJUc3hTWXFEM2FjaVhZRzJNWTh1RE5EY2NsUTJ4OFE1M2tXUDRuQ1JxSWQtSGNiZ082Z0h0Rkh2dHd4aXc5YWlwOF9yMUxZZGx5SkxXWlBLcHpvMUxmYWtNUFVyTWxXR0tSb0ZNMGwxdUt5V1MydWRUSHRuUUtETVZvblluelNpYTFWRTQ0UHBEdWhQbTdoTFBwa1psM1prc2pzZk40Nm4yZkNMMTBLWUFpSmxNMmwzbHlIVzFqelE?oc=5",
-      "locator": null,
-      "published_at": "2026-08-18"
-    },
-    "extracted_at": "2026-09-05T09:07:28.177448",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_ebc093f62f",
     "company_id": "anysphere-cursor",
     "metric": "arr",
@@ -242,6 +218,30 @@
     "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_bc5debeea5",
+    "company_id": "anysphere-cursor",
+    "metric": "valuation",
+    "value": 60000000000.0,
+    "unit": "USD",
+    "raw_text": "$60B Deal",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQUV9CV0plTXBfMnpjbkNuUWszNlJwSlJCdHk0MjlzNWstNElRSlhGZzhUX1pqRTFOVnNveUQ1MnUtVDJtTUVCWG9IZUJUc3hTWXFEM2FjaVhZRzJNWTh1RE5EY2NsUTJ4OFE1M2tXUDRuQ1JxSWQtSGNiZ082Z0h0Rkh2dHd4aXc5YWlwOF9yMUxZZGx5SkxXWlBLcHpvMUxmYWtNUFVyTWxXR0tSb0ZNMGwxdUt5V1MydWRUSHRuUUtETVZvblluelNpYTFWRTQ0UHBEdWhQbTdoTFBwa1psM1prc2pzZk40Nm4yZkNMMTBLWUFpSmxNMmwzbHlIVzFqelE?oc=5",
+      "locator": null,
+      "published_at": "2026-08-18"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -390,6 +390,32 @@
     "extracted_at": "2026-09-05T09:07:28.177448",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_b9c6ad55f5",
+    "company_id": "anysphere-cursor",
+    "metric": "valuation",
+    "value": 60000000000.0,
+    "unit": null,
+    "raw_text": "SpaceX to Buy Cursor Developer Anysphere for $60 Billion",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "bloomingbit",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBMZ0NNX013Y3MyZ2kyY21lczM2bVM1bzdpUzNsSXk0dTBsZXU5cFVTa2hEUEUzTUQ5NmVzTktPdU12eC1oRW5sYVdCaFduWFhnb2lrZg?oc=5",
+      "locator": null,
+      "published_at": "2026-06-16"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -1055,7 +1081,7 @@
       "locator": null,
       "published_at": "2026-06-16"
     },
-    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extracted_at": "2026-11-13T13:13:08.574545",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

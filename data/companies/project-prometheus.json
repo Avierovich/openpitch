@@ -22,9 +22,11 @@
       },
       "as_of": "2026-05-18",
       "estimate_type": "consensus",
-      "confidence": 0.929,
+      "confidence": 0.964,
       "supporting_claims": [
         "clm_baac1e6419",
+        "clm_63177445ff",
+        "clm_af499f59e7",
         "clm_ace6101b80",
         "clm_07099ff829",
         "clm_ec9486d32c",
@@ -57,8 +59,8 @@
       "supporting_claims": [
         "clm_6c7333dd3f",
         "clm_1d7419d5df",
-        "clm_86d18a8156",
         "clm_d9f2dbebdb",
+        "clm_86d18a8156",
         "clm_0db447274f",
         "clm_c290864eef",
         "clm_d38040e7d5",
@@ -108,13 +110,10 @@
       "metric": "round_amount",
       "value": 10000000000.0,
       "unit": "USD",
-      "range": {
-        "low": 10000000000.0,
-        "high": 10000000000.0
-      },
+      "range": null,
       "as_of": "2026-04-24",
       "estimate_type": "consensus",
-      "confidence": 0.882,
+      "confidence": 0.879,
       "supporting_claims": [
         "clm_de986f3d2f",
         "clm_78598bb8bb",
@@ -143,13 +142,10 @@
       "metric": "latest_round",
       "value": 10000000000.0,
       "unit": "object",
-      "range": {
-        "low": 10000000000.0,
-        "high": 10000000000.0
-      },
+      "range": null,
       "as_of": "2026-04-24",
       "estimate_type": "consensus",
-      "confidence": 0.514,
+      "confidence": 0.51,
       "supporting_claims": [
         "clm_405b686728",
         "clm_e4783d4a69"
@@ -157,7 +153,7 @@
       "contradiction": false,
       "delta": {
         "previous": 10000000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-04-24"
       },
       "history_ref": "history/project-prometheus/latest_round.jsonl",
@@ -166,5 +162,5 @@
       "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-11-09"
+  "last_updated": "2026-11-13"
 }

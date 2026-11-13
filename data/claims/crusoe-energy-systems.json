@@ -1,31 +1,5 @@
 [
   {
-    "id": "clm_47a3605ca3",
-    "company_id": "crusoe-energy-systems",
-    "metric": "valuation",
-    "value": 10000000000.0,
-    "unit": "USD",
-    "raw_text": "$10B Valuation",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "GetLatka",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hcjBqUVJvbFF6ZlRWMHJ6YWtYeU1vd1Y1VC1KN0NpT1pCczJzckZITy1DNWdvR2kxQnRaaWQ3MmM2SjdoTTZBUFdUWEtTQTk2Rmc?oc=5",
-      "locator": null,
-      "published_at": "2025-09-18"
-    },
-    "extracted_at": "2026-10-08T12:05:08.457629",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3375,
-    "derivation": null
-  },
-  {
     "id": "clm_edf4e1c751",
     "company_id": "crusoe-energy-systems",
     "metric": "total_funding",
@@ -97,33 +71,6 @@
     "extracted_at": "2026-10-09T11:53:18.608350",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.225,
-    "derivation": null
-  },
-  {
-    "id": "clm_bf0d7e41a0",
-    "company_id": "crusoe-energy-systems",
-    "metric": "valuation",
-    "value": 10000000000.0,
-    "unit": "usd",
-    "raw_text": "in Talks for $10 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVlFkUGdud195RU04c0pkNDh3VkpjTWRmbk9zckRJLVdaNUN2MndCaFJRcXBVM2tmUkVmUzVHYWNLNFhnZk1CUzhRcENIRlhkVXhMSXphM2RXMHdnWWVFR2otTU5oMmU3SUZXSzdDZ2xpNGoyekREMkFvSGh4elBaOXozZlQ3M0hJNWRaSjlnVzRLcmtKLVpLeEtfVlRrMm94eFJkaVJJaXFWTVZFSS1Ma1JRdWc?oc=5",
-      "locator": null,
-      "published_at": "2025-08-21"
-    },
-    "extracted_at": "2026-09-17T10:01:41.438182",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -229,6 +176,30 @@
     "derivation": null
   },
   {
+    "id": "clm_d7105d7626",
+    "company_id": "crusoe-energy-systems",
+    "metric": "round_amount",
+    "value": 3900000000.0,
+    "unit": null,
+    "raw_text": "Crusoe raises $3.9B to scale up its data center development work",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Business Journals",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbmtRak00bEUyZ1I2NzZHc2dlcl9NemZMaHZFU2Z5MlFZODdHcEdoazdpdU1pZ3hOMURTUk5zUlRpdXlKblQydGUzczY5NGdtOERrbkhVY0hmUUFDc2pYTERjZVpFR3lKb2NaM3BDQzFBblN1b2JUdi1hdzZOMURNNmdnZlNpbTVORXUyZjdjYXVyb1pfNFJ1RzEtOA?oc=5",
+      "locator": null,
+      "published_at": "2026-09-22"
+    },
+    "extracted_at": "2026-09-23T09:52:35.463285",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_a57b0f8b00",
     "company_id": "crusoe-energy-systems",
     "metric": "round_amount",
@@ -277,12 +248,89 @@
     "derivation": null
   },
   {
-    "id": "clm_d7105d7626",
+    "id": "clm_acbad8cf92",
+    "company_id": "crusoe-energy-systems",
+    "metric": "valuation",
+    "value": 1750000000.0,
+    "unit": null,
+    "raw_text": "$1.75 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Business Journals",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcDA1amVzZ1AwOTQzZkw0TjA4WldLX3c4eHlfaVRBM0xscWhHbVR0eG5YRWJ1dFJEUlN3RlB2QlNpM1lFT2hKMnRnNUZrYmstVUZab3ZjVG9XQTB0WWFaLVNETE5LM3RLZ056Yl8ta3FqRGlrR2FXOU5MbzlWaXZhd2JXenVVNGFyNGdqNXRNeUZLM0dEWGFraUlqMjdPcXFMLWZIR0hn?oc=5",
+      "locator": null,
+      "published_at": "2022-04-22"
+    },
+    "extracted_at": "2026-09-15T10:11:13.514998",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_1ccc745891",
+    "company_id": "crusoe-energy-systems",
+    "metric": "arr",
+    "value": 290700000.0,
+    "unit": "USD",
+    "raw_text": "Crusoe Revenue 2025: $290.7M Est.",
+    "qualifiers": [
+      "forward_looking",
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hcjBqUVJvbFF6ZlRWMHJ6YWtYeU1vd1Y1VC1KN0NpT1pCczJzckZITy1DNWdvR2kxQnRaaWQ3MmM2SjdoTTZBUFdUWEtTQTk2Rmc?oc=5",
+      "locator": null,
+      "published_at": "2025-09-18"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3307,
+    "derivation": null
+  },
+  {
+    "id": "clm_9192210404",
+    "company_id": "crusoe-energy-systems",
+    "metric": "valuation",
+    "value": 30900000000.0,
+    "unit": "USD",
+    "raw_text": "$30.9B Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hcjBqUVJvbFF6ZlRWMHJ6YWtYeU1vd1Y1VC1KN0NpT1pCczJzckZITy1DNWdvR2kxQnRaaWQ3MmM2SjdoTTZBUFdUWEtTQTk2Rmc?oc=5",
+      "locator": null,
+      "published_at": "2025-09-18"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_fe98c76250",
     "company_id": "crusoe-energy-systems",
     "metric": "round_amount",
-    "value": 3900000000.0,
-    "unit": null,
-    "raw_text": "Crusoe raises $3.9B to scale up its data center development work",
+    "value": 3000000000.0,
+    "unit": "USD",
+    "raw_text": "Crusoe Closes $3B Round",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -290,14 +338,67 @@
     },
     "source": {
       "type": "news",
-      "name": "The Business Journals",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbmtRak00bEUyZ1I2NzZHc2dlcl9NemZMaHZFU2Z5MlFZODdHcEdoazdpdU1pZ3hOMURTUk5zUlRpdXlKblQydGUzczY5NGdtOERrbkhVY0hmUUFDc2pYTERjZVpFR3lKb2NaM3BDQzFBblN1b2JUdi1hdzZOMURNNmdnZlNpbTVORXUyZjdjYXVyb1pfNFJ1RzEtOA?oc=5",
+      "name": "Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY1RreG1iZF9QQTB0d2FWdmN4NlJ2X3hHQ3A1UzhQMjFDZHVlM1l2QUdKRGVFV3dzTXdQZGJRZlRwRUV2Ql9Ea2FyYVJiUTBzelB5cGk4YXQ3MkNScVpaQW1tb01EVkYwOG0wQ1ZVNGlaSlAtN3RrWEw5WldRbDJsdEpXUlpqSnNKMW1PMkpIX21VN3Y1c09ydURmd3lucWxsMjM3Ul9VVUo5U2p0Y3pfQ09kZ0NjUHRQek0yLWJkcC0xMWhwckxaamNSQQ?oc=5",
       "locator": null,
-      "published_at": "2026-09-22"
+      "published_at": "2026-09-05"
     },
-    "extracted_at": "2026-09-23T09:52:35.463285",
+    "extracted_at": "2026-11-13T13:13:08.574545",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_47a3605ca3",
+    "company_id": "crusoe-energy-systems",
+    "metric": "valuation",
+    "value": 10000000000.0,
+    "unit": "USD",
+    "raw_text": "$10B Valuation",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hcjBqUVJvbFF6ZlRWMHJ6YWtYeU1vd1Y1VC1KN0NpT1pCczJzckZITy1DNWdvR2kxQnRaaWQ3MmM2SjdoTTZBUFdUWEtTQTk2Rmc?oc=5",
+      "locator": null,
+      "published_at": "2025-09-18"
+    },
+    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3375,
+    "derivation": null
+  },
+  {
+    "id": "clm_bf0d7e41a0",
+    "company_id": "crusoe-energy-systems",
+    "metric": "valuation",
+    "value": 10000000000.0,
+    "unit": "usd",
+    "raw_text": "in Talks for $10 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVlFkUGdud195RU04c0pkNDh3VkpjTWRmbk9zckRJLVdaNUN2MndCaFJRcXBVM2tmUkVmUzVHYWNLNFhnZk1CUzhRcENIRlhkVXhMSXphM2RXMHdnWWVFR2otTU5oMmU3SUZXSzdDZ2xpNGoyekREMkFvSGh4elBaOXozZlQ3M0hJNWRaSjlnVzRLcmtKLVpLeEtfVlRrMm94eFJkaVJJaXFWTVZFSS1Ma1JRdWc?oc=5",
+      "locator": null,
+      "published_at": "2025-08-21"
+    },
+    "extracted_at": "2026-09-17T10:01:41.438182",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -392,30 +493,6 @@
       "published_at": "2022-04-22"
     },
     "extracted_at": "2026-10-29T12:07:33.443424",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_acbad8cf92",
-    "company_id": "crusoe-energy-systems",
-    "metric": "valuation",
-    "value": 1750000000.0,
-    "unit": null,
-    "raw_text": "$1.75 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Business Journals",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcDA1amVzZ1AwOTQzZkw0TjA4WldLX3c4eHlfaVRBM0xscWhHbVR0eG5YRWJ1dFJEUlN3RlB2QlNpM1lFT2hKMnRnNUZrYmstVUZab3ZjVG9XQTB0WWFaLVNETE5LM3RLZ056Yl8ta3FqRGlrR2FXOU5MbzlWaXZhd2JXenVVNGFyNGdqNXRNeUZLM0dEWGFraUlqMjdPcXFMLWZIR0hn?oc=5",
-      "locator": null,
-      "published_at": "2022-04-22"
-    },
-    "extracted_at": "2026-09-15T10:11:13.514998",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -1659,7 +1736,7 @@
       "locator": null,
       "published_at": "2026-09-03"
     },
-    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extracted_at": "2026-11-13T13:13:08.574545",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

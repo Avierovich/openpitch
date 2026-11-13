@@ -27,32 +27,6 @@
     "derivation": null
   },
   {
-    "id": "clm_c020cd3f42",
-    "company_id": "devoted-health",
-    "metric": "valuation",
-    "value": 25000000000.0,
-    "unit": null,
-    "raw_text": "$25 billion valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Traders Union",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX2tKRGszdlZnZTJIN0V5NmpVc0YxR2VQd3MzeVhia3VNcWp6a3l0MVYtT25RNG1ibHQ1S2ZGWnFPaEJxRTVTc2tEZk9rdVhyTnF3Mzl1SVBvZUJNWEZuSEJ5QndUbWJMbEVFNnJVLTkzd0pxUzVNS1RrUThNM1pHaWs2YmtkbFNjWUpBUzI2VmVFeHZiT0dvQ3hFcw?oc=5",
-      "locator": null,
-      "published_at": "2026-08-21"
-    },
-    "extracted_at": "2026-10-05T12:12:41.057527",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_cb34b0e0cf",
     "company_id": "devoted-health",
     "metric": "valuation",
@@ -79,12 +53,12 @@
     "derivation": null
   },
   {
-    "id": "clm_d1a71832f4",
+    "id": "clm_d48140dcd4",
     "company_id": "devoted-health",
     "metric": "valuation",
-    "value": 3000000000.0,
-    "unit": null,
-    "raw_text": "Devoted Health Valued at $3 Billion With New Funds",
+    "value": 1800000000.0,
+    "unit": "USD",
+    "raw_text": "worth $1.8 billion",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -92,12 +66,12 @@
     },
     "source": {
       "type": "news",
-      "name": "The Information",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWDktZVROUE9nUThUQy05c2xsU1lfQjdmMkg1cjNpMGVSOXRyVlZkWllvcGlsMTEza0RzcDRMRnZjNWdUellqdnF1bjZBSlBvcWJfbXdsd2tMQ05ZYlc0VUZoaWJrUjdfei1Td3A2eTdheFp5d2tMa2RmYjlwY3FpNmwyWkJDYkw1aWtON3czQTh3Q1U?oc=5",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeGpEbGhyZkJSSkVlZkJiTlZJTDlpWlZEZmVfQld3b2taVzRHMlZoV2U3OUxZSzlWZTQ5dEZROW1odjNNRGR4RWhUdHJUbkE0WkhweUhEN05mcUV1R0dNYkxCTElmV0h3ZUNfM0o4SzdTU0xrbGhPdFFFZ3ZhWld2Yk9VNlFkNmZwWnNVYTllaV96eHdYS1pYLW5zYXlJcmg1OUpUOHlmRDJOQi1wTmc?oc=5",
       "locator": null,
-      "published_at": "2020-05-15"
+      "published_at": "2018-10-17"
     },
-    "extracted_at": "2026-10-19T11:06:35.602420",
+    "extracted_at": "2026-09-15T10:11:13.514998",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -148,6 +122,56 @@
     "extracted_at": "2026-10-02T11:05:56.740593",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_c020cd3f42",
+    "company_id": "devoted-health",
+    "metric": "valuation",
+    "value": 25000000000.0,
+    "unit": null,
+    "raw_text": "$25 billion valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX2tKRGszdlZnZTJIN0V5NmpVc0YxR2VQd3MzeVhia3VNcWp6a3l0MVYtT25RNG1ibHQ1S2ZGWnFPaEJxRTVTc2tEZk9rdVhyTnF3Mzl1SVBvZUJNWEZuSEJ5QndUbWJMbEVFNnJVLTkzd0pxUzVNS1RrUThNM1pHaWs2YmtkbFNjWUpBUzI2VmVFeHZiT0dvQ3hFcw?oc=5",
+      "locator": null,
+      "published_at": "2026-08-21"
+    },
+    "extracted_at": "2026-10-05T12:12:41.057527",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_d1a71832f4",
+    "company_id": "devoted-health",
+    "metric": "valuation",
+    "value": 3000000000.0,
+    "unit": null,
+    "raw_text": "Devoted Health Valued at $3 Billion With New Funds",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Information",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWDktZVROUE9nUThUQy05c2xsU1lfQjdmMkg1cjNpMGVSOXRyVlZkWllvcGlsMTEza0RzcDRMRnZjNWdUellqdnF1bjZBSlBvcWJfbXdsd2tMQ05ZYlc0VUZoaWJrUjdfei1Td3A2eTdheFp5d2tMa2RmYjlwY3FpNmwyWkJDYkw1aWtON3czQTh3Q1U?oc=5",
+      "locator": null,
+      "published_at": "2020-05-15"
+    },
+    "extracted_at": "2026-10-19T11:06:35.602420",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -548,30 +572,6 @@
     "extracted_at": "2026-09-15T10:11:13.514998",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_d48140dcd4",
-    "company_id": "devoted-health",
-    "metric": "valuation",
-    "value": 1800000000.0,
-    "unit": "USD",
-    "raw_text": "worth $1.8 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeGpEbGhyZkJSSkVlZkJiTlZJTDlpWlZEZmVfQld3b2taVzRHMlZoV2U3OUxZSzlWZTQ5dEZROW1odjNNRGR4RWhUdHJUbkE0WkhweUhEN05mcUV1R0dNYkxCTElmV0h3ZUNfM0o4SzdTU0xrbGhPdFFFZ3ZhWld2Yk9VNlFkNmZwWnNVYTllaV96eHdYS1pYLW5zYXlJcmg1OUpUOHlmRDJOQi1wTmc?oc=5",
-      "locator": null,
-      "published_at": "2018-10-17"
-    },
-    "extracted_at": "2026-09-15T10:11:13.514998",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {

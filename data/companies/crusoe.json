@@ -9,7 +9,7 @@
   "summary": "Crusoe provides energy-efficient cloud computing solutions, leveraging stranded or waste energy sources for AI and HPC workloads.",
   "segment": "global",
   "in_universe": true,
-  "vc_attention_score": 86.8,
+  "vc_attention_score": 86.7,
   "universe_rank": 24,
   "metrics": {
     "latest_round": {
@@ -22,7 +22,7 @@
       },
       "as_of": "2026-09-18",
       "estimate_type": "consensus",
-      "confidence": 0.875,
+      "confidence": 0.872,
       "supporting_claims": [
         "clm_e6f525de45",
         "clm_f43f2339b6",
@@ -72,7 +72,7 @@
       "contradiction": false,
       "delta": {
         "previous": 3900000000.0,
-        "change_pct": -0.0,
+        "change_pct": 0.0,
         "since": "2026-09-19"
       },
       "history_ref": "history/crusoe/round_amount.jsonl",
@@ -182,34 +182,12 @@
       "confirmed_value": null,
       "confirmed_as_of": null
     },
-    "revenue_growth": {
-      "metric": "revenue_growth",
-      "value": 4.0,
-      "unit": "pct",
-      "range": null,
-      "as_of": "2026-04-14",
-      "estimate_type": "reported",
-      "confidence": 0.064,
-      "supporting_claims": [
-        "clm_f6b7a66c37"
-      ],
-      "contradiction": false,
-      "delta": {
-        "previous": 4.0,
-        "change_pct": 0.0,
-        "since": "2026-04-14"
-      },
-      "history_ref": "history/crusoe/revenue_growth.jsonl",
-      "unconfirmed": true,
-      "confirmed_value": null,
-      "confirmed_as_of": null
-    },
     "open_roles": {
       "metric": "open_roles",
       "value": 7.0,
       "unit": "count",
       "range": null,
-      "as_of": "2026-11-09",
+      "as_of": "2026-11-13",
       "estimate_type": "reported",
       "confidence": 0.25,
       "supporting_claims": [
@@ -225,7 +203,29 @@
       "unconfirmed": false,
       "confirmed_value": null,
       "confirmed_as_of": null
+    },
+    "revenue_growth": {
+      "metric": "revenue_growth",
+      "value": 4.0,
+      "unit": "pct",
+      "range": null,
+      "as_of": "2026-04-14",
+      "estimate_type": "reported",
+      "confidence": 0.062,
+      "supporting_claims": [
+        "clm_f6b7a66c37"
+      ],
+      "contradiction": false,
+      "delta": {
+        "previous": 4.0,
+        "change_pct": 0.0,
+        "since": "2026-04-14"
+      },
+      "history_ref": "history/crusoe/revenue_growth.jsonl",
+      "unconfirmed": true,
+      "confirmed_value": null,
+      "confirmed_as_of": null
     }
   },
-  "last_updated": "2026-11-09"
+  "last_updated": "2026-11-13"
 }

@@ -48,30 +48,6 @@
     "derivation": null
   },
   {
-    "id": "clm_ee2007dfcd",
-    "company_id": "fireworks-ai",
-    "metric": "open_roles",
-    "value": 91.0,
-    "unit": null,
-    "raw_text": "Showing 91 positions",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "fireworks.ai",
-      "url": "https://fireworks.ai/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-11-07T12:16:01.893632",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
     "id": "clm_09f086039d",
     "company_id": "fireworks-ai",
     "metric": "latest_round",
@@ -250,6 +226,161 @@
     "derivation": null
   },
   {
+    "id": "clm_5b2a1a76d2",
+    "company_id": "fireworks-ai",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "Fireworks AI targets valuation of up to $40 billion",
+    "qualifiers": [
+      "forward_looking",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "jawlah.co",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5SWjBSc3NpZFdWZnBJMkx2NmlmRmF2UkhfaDR2OXZXUzJRRU5kUnlyOU9EbVpHWTdrcEhESkpqWQ?oc=5",
+      "locator": null,
+      "published_at": "2026-10-24"
+    },
+    "extracted_at": "2026-10-30T12:02:43.452733",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_4ebfe97a79",
+    "company_id": "fireworks-ai",
+    "metric": "arr",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "Fireworks AI Revenue 2026: $1B",
+    "qualifiers": [
+      "forward_looking",
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56dXF1ZEtMMW5GRTJCcm44dm1tc2VTb0hzVFMwbU1QbjhraWxPV1E3MHpqRHUtT18wWlBaU2J5dVhNVG1TTk1PRF9VNElOb2o0enp2M3J3?oc=5",
+      "locator": null,
+      "published_at": "2025-11-09"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3307,
+    "derivation": null
+  },
+  {
+    "id": "clm_72e9f2bcce",
+    "company_id": "fireworks-ai",
+    "metric": "valuation",
+    "value": 17500000000.0,
+    "unit": "USD",
+    "raw_text": "$17.5B Valuation",
+    "qualifiers": [
+      "forward_looking",
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "GetLatka",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56dXF1ZEtMMW5GRTJCcm44dm1tc2VTb0hzVFMwbU1QbjhraWxPV1E3MHpqRHUtT18wWlBaU2J5dVhNVG1TTk1PRF9VNElOb2o0enp2M3J3?oc=5",
+      "locator": null,
+      "published_at": "2025-11-09"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3307,
+    "derivation": null
+  },
+  {
+    "id": "clm_4fef42061a",
+    "company_id": "fireworks-ai",
+    "metric": "notable_customers",
+    "value": 10000.0,
+    "unit": "count",
+    "raw_text": "trusted by 10,000+ companies globally",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "web",
+      "name": "fireworks.ai",
+      "url": "https://fireworks.ai",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.45,
+    "derivation": null
+  },
+  {
+    "id": "clm_5db657c4e6",
+    "company_id": "fireworks-ai",
+    "metric": "open_roles",
+    "value": 96.0,
+    "unit": "count",
+    "raw_text": "Showing 96 positions",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "web",
+      "name": "fireworks.ai",
+      "url": "https://fireworks.ai/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.5,
+    "derivation": null
+  },
+  {
+    "id": "clm_ee2007dfcd",
+    "company_id": "fireworks-ai",
+    "metric": "open_roles",
+    "value": 91.0,
+    "unit": null,
+    "raw_text": "Showing 91 positions",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "fireworks.ai",
+      "url": "https://fireworks.ai/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-11-07T12:16:01.893632",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
     "id": "clm_17bedbccc5",
     "company_id": "fireworks-ai",
     "metric": "valuation",
@@ -303,30 +434,6 @@
     "derivation": null
   },
   {
-    "id": "clm_4fef42061a",
-    "company_id": "fireworks-ai",
-    "metric": "notable_customers",
-    "value": 10000.0,
-    "unit": null,
-    "raw_text": "trusted by 10,000+ companies globally",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "fireworks.ai",
-      "url": "https://fireworks.ai",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-11-09T14:24:11.277617",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
     "id": "clm_8200290323",
     "company_id": "fireworks-ai",
     "metric": "valuation",
@@ -375,33 +482,6 @@
     "extracted_at": "2026-11-05T13:15:28.916366",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.25,
-    "derivation": null
-  },
-  {
-    "id": "clm_5b2a1a76d2",
-    "company_id": "fireworks-ai",
-    "metric": "valuation",
-    "value": 40000000000.0,
-    "unit": "USD",
-    "raw_text": "Fireworks AI targets valuation of up to $40 billion",
-    "qualifiers": [
-      "forward_looking",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "jawlah.co",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5SWjBSc3NpZFdWZnBJMkx2NmlmRmF2UkhfaDR2OXZXUzJRRU5kUnlyOU9EbVpHWTdrcEhESkpqWQ?oc=5",
-      "locator": null,
-      "published_at": "2026-10-24"
-    },
-    "extracted_at": "2026-10-30T12:02:43.452733",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {

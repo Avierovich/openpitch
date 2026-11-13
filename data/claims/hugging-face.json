@@ -74,6 +74,57 @@
     "derivation": null
   },
   {
+    "id": "clm_277167e9bd",
+    "company_id": "hugging-face",
+    "metric": "arr",
+    "value": 150000000.0,
+    "unit": "USD",
+    "raw_text": "revenue jumps 50% to over $150M",
+    "qualifiers": [
+      "run_rate",
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0NmYya0ZvYmNVZm5NR0c3c1BJbldNTklKUXdlRjR4Q3VFTDRQWTVSUUZrWGRxZUpPazl3QkwtM0FIMDgtWUtlTkhmTkpscnA1RjdrekZiR2c0NGN5SEZjQUx3U3NMYUx2djdXckU2LU1xUU4y?oc=5",
+      "locator": null,
+      "published_at": "2026-08-24"
+    },
+    "extracted_at": "2026-10-05T12:12:41.057527",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.4252,
+    "derivation": null
+  },
+  {
+    "id": "clm_96e2e603c3",
+    "company_id": "hugging-face",
+    "metric": "revenue_growth",
+    "value": 50.0,
+    "unit": "percent",
+    "raw_text": "revenue jumps 50%",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0NmYya0ZvYmNVZm5NR0c3c1BJbldNTklKUXdlRjR4Q3VFTDRQWTVSUUZrWGRxZUpPazl3QkwtM0FIMDgtWUtlTkhmTkpscnA1RjdrekZiR2c0NGN5SEZjQUx3U3NMYUx2djdXckU2LU1xUU4y?oc=5",
+      "locator": null,
+      "published_at": "2026-08-24"
+    },
+    "extracted_at": "2026-10-05T12:12:41.057527",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_bc562e180f",
     "company_id": "hugging-face",
     "metric": "valuation",
@@ -150,15 +201,14 @@
     "derivation": null
   },
   {
-    "id": "clm_277167e9bd",
+    "id": "clm_bd32a5dcb0",
     "company_id": "hugging-face",
-    "metric": "arr",
-    "value": 150000000.0,
-    "unit": "USD",
-    "raw_text": "revenue jumps 50% to over $150M",
+    "metric": "valuation",
+    "value": 13000000000.0,
+    "unit": null,
+    "raw_text": "valuation of 13 billion",
     "qualifiers": [
-      "run_rate",
-      "rounded"
+      "unconfirmed"
     ],
     "speaker": {
       "name": null,
@@ -166,38 +216,14 @@
     },
     "source": {
       "type": "news",
-      "name": "Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0NmYya0ZvYmNVZm5NR0c3c1BJbldNTklKUXdlRjR4Q3VFTDRQWTVSUUZrWGRxZUpPazl3QkwtM0FIMDgtWUtlTkhmTkpscnA1RjdrekZiR2c0NGN5SEZjQUx3U3NMYUx2djdXckU2LU1xUU4y?oc=5",
+      "name": "Techzine Global",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOGh1OGUyUmtyYW5UN0JEaE1QTlRqZ0RDdDFNU2ZhOUlFX0hoLTlzNVFzOXhrdkYxNEtMY2N4bGtXY1FGVkdfbDRkV0lLOWkzRGJENXd0NDJHZTh4eTJMMzBhMlJFaHJQZ2U3ZkFhUmRselc4ZVdTQjhuWlZiUHVpZ0R6aTNvYWxRVWtEY0I4SmV2M1Q1ellkc1VCVVJsSmhjc19MdEdR?oc=5",
       "locator": null,
-      "published_at": "2026-08-24"
+      "published_at": "2026-08-23"
     },
-    "extracted_at": "2026-10-05T12:12:41.057527",
+    "extracted_at": "2026-10-29T12:07:33.443424",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4252,
-    "derivation": null
-  },
-  {
-    "id": "clm_96e2e603c3",
-    "company_id": "hugging-face",
-    "metric": "revenue_growth",
-    "value": 50.0,
-    "unit": "percent",
-    "raw_text": "revenue jumps 50%",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0NmYya0ZvYmNVZm5NR0c3c1BJbldNTklKUXdlRjR4Q3VFTDRQWTVSUUZrWGRxZUpPazl3QkwtM0FIMDgtWUtlTkhmTkpscnA1RjdrekZiR2c0NGN5SEZjQUx3U3NMYUx2djdXckU2LU1xUU4y?oc=5",
-      "locator": null,
-      "published_at": "2026-08-24"
-    },
-    "extracted_at": "2026-10-05T12:12:41.057527",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -273,6 +299,78 @@
     "derivation": null
   },
   {
+    "id": "clm_6f99945da2",
+    "company_id": "hugging-face",
+    "metric": "subscribers",
+    "value": 16000.0,
+    "unit": null,
+    "raw_text": "sold 16,000 units",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "This Week in Startups",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-09-18"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3,
+    "derivation": null
+  },
+  {
+    "id": "clm_691ce39409",
+    "company_id": "hugging-face",
+    "metric": "total_funding",
+    "value": 235000000.0,
+    "unit": null,
+    "raw_text": "raises $235M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOc1RPR0Q2WVJHamd3d0lMSjhITjQwaWp4VXRPbEg1TEZ2RlZuYkczMm8xVWdTdnc0OTV1Qzg1U0hqNnN4dmlaVy0wUXIxRFRGSzlZdmNGdVdlSUIzQ3g4b0lFOUJqVzBaNVpfZThfUGs5Zy0tY2toQXBERklXTjFFMkJMenJGZU50WUFtRWFUYnEyZGcwUGhhX1dySlQ4bmQxVElZanFUME94SHJM?oc=5",
+      "locator": null,
+      "published_at": "2023-08-25"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_2b6338d716",
+    "company_id": "hugging-face",
+    "metric": "round_amount",
+    "value": 235000000.0,
+    "unit": null,
+    "raw_text": "raises $235M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOc1RPR0Q2WVJHamd3d0lMSjhITjQwaWp4VXRPbEg1TEZ2RlZuYkczMm8xVWdTdnc0OTV1Qzg1U0hqNnN4dmlaVy0wUXIxRFRGSzlZdmNGdVdlSUIzQ3g4b0lFOUJqVzBaNVpfZThfUGs5Zy0tY2toQXBERklXTjFFMkJMenJGZU50WUFtRWFUYnEyZGcwUGhhX1dySlQ4bmQxVElZanFUME94SHJM?oc=5",
+      "locator": null,
+      "published_at": "2023-08-25"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_5ee78e8b47",
     "company_id": "hugging-face",
     "metric": "valuation",
@@ -330,30 +428,6 @@
     "value": 399.0,
     "unit": null,
     "raw_text": "Hugging Face built a $399 open-source robot duck",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "This Week in Startups",
-      "url": null,
-      "locator": null,
-      "published_at": "2026-09-18"
-    },
-    "extracted_at": "2026-11-09T14:24:11.277617",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3,
-    "derivation": null
-  },
-  {
-    "id": "clm_6f99945da2",
-    "company_id": "hugging-face",
-    "metric": "subscribers",
-    "value": 16000.0,
-    "unit": null,
-    "raw_text": "sold 16,000 units off a single tweet",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -776,32 +850,6 @@
     "extracted_at": "2026-10-27T11:13:23.267375",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_bd32a5dcb0",
-    "company_id": "hugging-face",
-    "metric": "valuation",
-    "value": 13000000000.0,
-    "unit": null,
-    "raw_text": "valuation of 13 billion",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Techzine Global",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOGh1OGUyUmtyYW5UN0JEaE1QTlRqZ0RDdDFNU2ZhOUlFX0hoLTlzNVFzOXhrdkYxNEtMY2N4bGtXY1FGVkdfbDRkV0lLOWkzRGJENXd0NDJHZTh4eTJMMzBhMlJFaHJQZ2U3ZkFhUmRselc4ZVdTQjhuWlZiUHVpZ0R6aTNvYWxRVWtEY0I4SmV2M1Q1ellkc1VCVVJsSmhjc19MdEdR?oc=5",
-      "locator": null,
-      "published_at": "2026-08-23"
-    },
-    "extracted_at": "2026-10-29T12:07:33.443424",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -1489,7 +1537,7 @@
       "locator": null,
       "published_at": "2026-08-27"
     },
-    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extracted_at": "2026-11-13T13:13:08.574545",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

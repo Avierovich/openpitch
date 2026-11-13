@@ -26,30 +26,6 @@
     "derivation": null
   },
   {
-    "id": "clm_fc88704b20",
-    "company_id": "figure-ai",
-    "metric": "valuation",
-    "value": 2600000000.0,
-    "unit": null,
-    "raw_text": "valued at $2.6 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQTkzZ2V3NWFURi0wSDlvbnpKcVQ4OGNVcldQajY1cmtXR2t4a0R0SlRMeDl0dy1PUERfeXMyQ1gzOUVkUlUxckQ5N29rUkl2dXZlUGRKUEtOd2hnTThPLUdkV0JmTHVfclpCZXVPVHl1WDZybVh4ZWpQVGZTbzZlQVI3R05KWVFSQ0VhZ3ktdkhsbTl1ZVk3LXZuQ3ZXbXB3Ni1adENmeXlhUdIBrwFBVV95cUxOQ09wZUlNaUxBTmFQcURYeGdNazl5emhvVC1MOWJvczBuNllmZUtVOXVidFk3MWRGTjB0dXdpNXZva29TeXRtR19nSTBzZDdhTDVLelVja0ZPQ1d5ekxmUUJkbi02cHRiY0d0MjNQTlptdTdRa0hadTJwQ1Q4MUZZYXk3Tkp4eV8tTWFXR3RWWkVJLUxuVWZXMnZuXy1BREVhZUs5Rk11bkMzallscm9N?oc=5",
-      "locator": null,
-      "published_at": "2024-02-29"
-    },
-    "extracted_at": "2026-10-23T10:33:17.606078",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_a1d65986d4",
     "company_id": "figure-ai",
     "metric": "valuation",
@@ -171,6 +147,54 @@
     "extracted_at": "2026-11-05T13:15:28.916366",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_fc88704b20",
+    "company_id": "figure-ai",
+    "metric": "valuation",
+    "value": 2600000000.0,
+    "unit": "USD",
+    "raw_text": "valued at $2.6 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQTkzZ2V3NWFURi0wSDlvbnpKcVQ4OGNVcldQajY1cmtXR2t4a0R0SlRMeDl0dy1PUERfeXMyQ1gzOUVkUlUxckQ5N29rUkl2dXZlUGRKUEtOd2hnTThPLUdkV0JmTHVfclpCZXVPVHl1WDZybVh4ZWpQVGZTbzZlQVI3R05KWVFSQ0VhZ3ktdkhsbTl1ZVk3LXZuQ3ZXbXB3Ni1adENmeXlhUQ?oc=5",
+      "locator": null,
+      "published_at": "2024-02-29"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_a0a1bf13c4",
+    "company_id": "figure-ai",
+    "metric": "total_funding",
+    "value": 700000000.0,
+    "unit": "USD",
+    "raw_text": "raised $700 million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "news",
+      "name": "Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZGdjUUhoN2JEcDJpTEw0eDFjS09PY0hQeFlzanRtX2NvdVhLWE9jeWNhOFE4RHlxX2N0ZzNrOEJHMGt5dGNmVEFkdmNKSzNLLXcxeVVNdEdaWldYSXBJS0c5MGxWRkpuRlVzbTZteWlHWURsOTNIdUs2ZzdIekdBb3JjR1RkeVR3V0Q3dXpoeS1PWEVhWmc?oc=5",
+      "locator": null,
+      "published_at": "2026-05-21"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.75,
     "derivation": null
   },
   {

@@ -274,6 +274,30 @@
     "derivation": null
   },
   {
+    "id": "clm_34d2037cfc",
+    "company_id": "devin",
+    "metric": "valuation",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "Now Valued at $2B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "AI Business",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbDlkbVQyRTlRWU1JVDMtR3Z6cjNGd003SThCdHNBYXBLeW43OC1uVDVydTAwSUJlUm9wRVdSYTE5emZoQUxKTTc1aGtEaFpEMXBCSG1uNTY0QUZISFhrUE5kdUZkTjhtV2RRU1VwUEtHUmRtemdBQjE4UXhWR1c3c0xhOWZ6SnBC?oc=5",
+      "locator": null,
+      "published_at": "2024-04-30"
+    },
+    "extracted_at": "2026-10-20T10:08:21.911749",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_19373b6d2b",
     "company_id": "devin",
     "metric": "arr",
@@ -719,30 +743,6 @@
     "extracted_at": "2026-09-10T09:49:02.856855",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_34d2037cfc",
-    "company_id": "devin",
-    "metric": "valuation",
-    "value": 2000000000.0,
-    "unit": "USD",
-    "raw_text": "Now Valued at $2B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "AI Business",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbDlkbVQyRTlRWU1JVDMtR3Z6cjNGd003SThCdHNBYXBLeW43OC1uVDVydTAwSUJlUm9wRVdSYTE5emZoQUxKTTc1aGtEaFpEMXBCSG1uNTY0QUZISFhrUE5kdUZkTjhtV2RRU1VwUEtHUmRtemdBQjE4UXhWR1c3c0xhOWZ6SnBC?oc=5",
-      "locator": null,
-      "published_at": "2024-04-30"
-    },
-    "extracted_at": "2026-10-20T10:08:21.911749",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -2262,7 +2262,7 @@
       "locator": null,
       "published_at": "2026-09-02"
     },
-    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extracted_at": "2026-11-13T13:13:08.574545",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2608,
     "derivation": {

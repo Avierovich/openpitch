@@ -96,12 +96,12 @@
     "derivation": null
   },
   {
-    "id": "clm_26cb18a1d3",
+    "id": "clm_b4e8832c93",
     "company_id": "nscale",
-    "metric": "round_amount",
-    "value": 2000000000.0,
-    "unit": "USD",
-    "raw_text": "US$2 Billion Series C",
+    "metric": "latest_round",
+    "value": 3.0,
+    "unit": null,
+    "raw_text": "Nscale raises $2bn Series C at $14.6bn valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -109,12 +109,60 @@
     },
     "source": {
       "type": "news",
-      "name": "Latham & Watkins LLP",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5rYXI4bjJoMmJmTlZMRGtBdHhGY1N0WnRBTGpLNUIweDl4MVlvWElETFdrVnp4R1R4c09UNG45ejFmaGxFZV9iclBGQkM2N2IteTVlX1JaYkdTb1hRXzQ4dlJVN0lrYXJ1dU1vRlR3R1NIamQ4RDYw?oc=5",
+      "name": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNN2c5VmNzUDBYNExTUUpBRjNGV0dQZ2dKaXNpbzFqQVo1WDR3clBJWjF5UW82RUx1UlpIMTdtN1pGd3RWTkl5V2tmOGtXbHlESmpRQ3FMUGxrZDZXclBZemFsWGJQUEVZeUc1bnlWTE8tSUEwZnhyeFpZMUhxcmc?oc=5",
       "locator": null,
       "published_at": "2026-03-09"
     },
-    "extracted_at": "2026-10-30T12:02:43.452733",
+    "extracted_at": "2026-11-01T12:09:38.700208",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_e365c27d5d",
+    "company_id": "nscale",
+    "metric": "round_amount",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "Nscale raises $2bn Series C at $14.6bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNN2c5VmNzUDBYNExTUUpBRjNGV0dQZ2dKaXNpbzFqQVo1WDR3clBJWjF5UW82RUx1UlpIMTdtN1pGd3RWTkl5V2tmOGtXbHlESmpRQ3FMUGxrZDZXclBZemFsWGJQUEVZeUc1bnlWTE8tSUEwZnhyeFpZMUhxcmc?oc=5",
+      "locator": null,
+      "published_at": "2026-03-09"
+    },
+    "extracted_at": "2026-11-01T12:09:38.700208",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_2358e1779a",
+    "company_id": "nscale",
+    "metric": "valuation",
+    "value": 14600000000.0,
+    "unit": "USD",
+    "raw_text": "Nscale raises $2bn Series C at $14.6bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNN2c5VmNzUDBYNExTUUpBRjNGV0dQZ2dKaXNpbzFqQVo1WDR3clBJWjF5UW82RUx1UlpIMTdtN1pGd3RWTkl5V2tmOGtXbHlESmpRQ3FMUGxrZDZXclBZemFsWGJQUEVZeUc1bnlWTE8tSUEwZnhyeFpZMUhxcmc?oc=5",
+      "locator": null,
+      "published_at": "2026-03-09"
+    },
+    "extracted_at": "2026-11-01T12:09:38.700208",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -163,6 +211,107 @@
       "published_at": "2026-09-25"
     },
     "extracted_at": "2026-09-27T10:32:58.616902",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_e0662b1bb1",
+    "company_id": "nscale",
+    "metric": "valuation",
+    "value": 35000000000.0,
+    "unit": "USD",
+    "raw_text": "Targeting $35 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TheEnergyMag",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NSmFUTXBHaC00aTc2MDN5SWtLcW5GNUJ5bEZnS2ppWlBhc3RiVlk4MS1BUlNSTW1USU5jVzlUMXYwWEtnM0lvYU5iRkNWTVp1bVN6ME45NFk4T2VNcXZRQkRPaWIyZ2o3SFN0Q2VWZzh0cDdEa3N5Q3hoQXBkZzA?oc=5",
+      "locator": null,
+      "published_at": "2026-11-11"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_9ce34c137a",
+    "company_id": "nscale",
+    "metric": "valuation",
+    "value": 35000000000.0,
+    "unit": "USD",
+    "raw_text": "$35B",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "FourWeekMBA",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQam5mdDd6WldlUnBBSEJoWjZEUkdhY3JuMERVSlNVZTVXcVZoaTZ6bWtXWW9hZ3o5aHlaMEVxcEZzTEtBWktleGV1OER4WjIxV2taUjZOb0tuZTg5aG9QMGVWRVpFTkQ5UEpOVWpBeXFxYkJvSDZDTklBWFpKNVUtb3dBUHBqQjMxeDZLWFNHSQ?oc=5",
+      "locator": null,
+      "published_at": "2026-11-10"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_532e80bc95",
+    "company_id": "nscale",
+    "metric": "revenue_growth",
+    "value": 1400.0,
+    "unit": "percent",
+    "raw_text": "revenue jumps 14-fold",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "MLQ.ai",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQM3czWGdvcGFCQUJlY1psaGlqZGNNV3VXZm96bTBHVHkyaGZmMTlvdmxsMFYtcklRSTB4MWY1RVA0RUljMHFsLWJ6V3FLYjMwbFBCRkQtV1B1dlhpejhReDhEbGV1Yzh0T28tU3k0OXRuMTlFQUF1RlZ2eUpZdkpENllOVHFWVlBjM2lxUGpTOHQyYnAxZzJEVVFjeVZTXzEtSXlWa1hGbVdDQkta?oc=5",
+      "locator": null,
+      "published_at": "2026-11-13"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_26cb18a1d3",
+    "company_id": "nscale",
+    "metric": "round_amount",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "US$2 Billion Series C",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Latham & Watkins LLP",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5rYXI4bjJoMmJmTlZMRGtBdHhGY1N0WnRBTGpLNUIweDl4MVlvWElETFdrVnp4R1R4c09UNG45ejFmaGxFZV9iclBGQkM2N2IteTVlX1JaYkdTb1hRXzQ4dlJVN0lrYXJ1dU1vRlR3R1NIamQ4RDYw?oc=5",
+      "locator": null,
+      "published_at": "2026-03-09"
+    },
+    "extracted_at": "2026-10-30T12:02:43.452733",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -233,78 +382,6 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcXZMUHFrNlI4OGVuaU56TWxxb2NRR3JfMWdBN3BzSU9Kcjd5a3luU3RpQ0ZLbWZnb2QweFlsRFBVM2dPcmNSNVpMZnViakpfOU1Nc3RSRlJYVmJjZGRERGRSTlJUQkdyaFFvQWRDcjBDTjJDOC14NzZhNGRPaDJBOFBTc1UwRlEyWGJDMnFNOGdReVZUOEpGNUphMA?oc=5",
       "locator": null,
       "published_at": "2026-09-25"
-    },
-    "extracted_at": "2026-11-01T12:09:38.700208",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_b4e8832c93",
-    "company_id": "nscale",
-    "metric": "latest_round",
-    "value": 3.0,
-    "unit": null,
-    "raw_text": "Nscale raises $2bn Series C at $14.6bn valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Next Web",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNN2c5VmNzUDBYNExTUUpBRjNGV0dQZ2dKaXNpbzFqQVo1WDR3clBJWjF5UW82RUx1UlpIMTdtN1pGd3RWTkl5V2tmOGtXbHlESmpRQ3FMUGxrZDZXclBZemFsWGJQUEVZeUc1bnlWTE8tSUEwZnhyeFpZMUhxcmc?oc=5",
-      "locator": null,
-      "published_at": "2026-03-09"
-    },
-    "extracted_at": "2026-11-01T12:09:38.700208",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_e365c27d5d",
-    "company_id": "nscale",
-    "metric": "round_amount",
-    "value": 2000000000.0,
-    "unit": "USD",
-    "raw_text": "Nscale raises $2bn Series C at $14.6bn valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Next Web",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNN2c5VmNzUDBYNExTUUpBRjNGV0dQZ2dKaXNpbzFqQVo1WDR3clBJWjF5UW82RUx1UlpIMTdtN1pGd3RWTkl5V2tmOGtXbHlESmpRQ3FMUGxrZDZXclBZemFsWGJQUEVZeUc1bnlWTE8tSUEwZnhyeFpZMUhxcmc?oc=5",
-      "locator": null,
-      "published_at": "2026-03-09"
-    },
-    "extracted_at": "2026-11-01T12:09:38.700208",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_2358e1779a",
-    "company_id": "nscale",
-    "metric": "valuation",
-    "value": 14600000000.0,
-    "unit": "USD",
-    "raw_text": "Nscale raises $2bn Series C at $14.6bn valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Next Web",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNN2c5VmNzUDBYNExTUUpBRjNGV0dQZ2dKaXNpbzFqQVo1WDR3clBJWjF5UW82RUx1UlpIMTdtN1pGd3RWTkl5V2tmOGtXbHlESmpRQ3FMUGxrZDZXclBZemFsWGJQUEVZeUc1bnlWTE8tSUEwZnhyeFpZMUhxcmc?oc=5",
-      "locator": null,
-      "published_at": "2026-03-09"
     },
     "extracted_at": "2026-11-01T12:09:38.700208",
     "extractor_model": "gemini-3.5-flash-lite",
@@ -2547,7 +2624,7 @@
       "locator": null,
       "published_at": "2026-09-02"
     },
-    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extracted_at": "2026-11-13T13:13:08.574545",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2282,
     "derivation": {

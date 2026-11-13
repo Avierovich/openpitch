@@ -122,6 +122,57 @@
     "derivation": null
   },
   {
+    "id": "clm_8639b5e2c6",
+    "company_id": "scale",
+    "metric": "valuation",
+    "value": 14000000000.0,
+    "unit": "USD",
+    "raw_text": "Scale AI valued at $14 bln",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQ1MzYS1yc3FjWTNBbHZOUlVmb0Z5azZFNUNxejhZOGNuZDV0eklST01jQ3hRUjZSNWNJVnB0X3k2aW1UZlJQMGtYNUpQaEs5T1JLVUVRaF8yTFF2VmRhZEdTdGN4TEl5TnFjNE9wOUtYRzAzNkJRQW5qWmhILVRCR0JhQk9DY2VCdG1GWldmcUNPeDh5SDNJTmJINUJtZw?oc=5",
+      "locator": null,
+      "published_at": "2024-05-21"
+    },
+    "extracted_at": "2026-11-05T13:15:28.916366",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_4d5e487ab1",
+    "company_id": "scale",
+    "metric": "valuation",
+    "value": 25000000000.0,
+    "unit": "USD",
+    "raw_text": "Scale AI seeking valuation as high as $25 billion in potential tender offer",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNjh1Z0xrbUZ6V0kxTUtPc0RwaUFmLWNKQXlKWHZIZ1BuWjVkZ21Ob1dXQkV4S0txSkJPVXpCWW9tRmlMMm9fV2czNEtYVXRFLVJ6dWNBRnE3RTJnYU91VkZiNm9YY2Z1b1hySVdJQThYRTJkQlE1WGk2bHYyZVk0QUpxSQ?oc=5",
+      "locator": null,
+      "published_at": "2025-03-28"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
     "id": "clm_9336375d87",
     "company_id": "scale",
     "metric": "valuation",
@@ -147,30 +198,6 @@
     "extracted_at": "2026-10-27T11:13:23.267375",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.1984,
-    "derivation": null
-  },
-  {
-    "id": "clm_8639b5e2c6",
-    "company_id": "scale",
-    "metric": "valuation",
-    "value": 14000000000.0,
-    "unit": "USD",
-    "raw_text": "Scale AI valued at $14 bln",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQ1MzYS1yc3FjWTNBbHZOUlVmb0Z5azZFNUNxejhZOGNuZDV0eklST01jQ3hRUjZSNWNJVnB0X3k2aW1UZlJQMGtYNUpQaEs5T1JLVUVRaF8yTFF2VmRhZEdTdGN4TEl5TnFjNE9wOUtYRzAzNkJRQW5qWmhILVRCR0JhQk9DY2VCdG1GWldmcUNPeDh5SDNJTmJINUJtZw?oc=5",
-      "locator": null,
-      "published_at": "2024-05-21"
-    },
-    "extracted_at": "2026-11-05T13:15:28.916366",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -369,7 +396,7 @@
       "locator": null,
       "published_at": "2026-04-15"
     },
-    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extracted_at": "2026-11-13T13:13:08.574545",
     "extractor_model": "derive-engine",
     "base_confidence": 0.194,
     "derivation": {

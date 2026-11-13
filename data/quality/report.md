@@ -1,14 +1,14 @@
-# OpenPitch Data Quality Report - 2026-11-09
+# OpenPitch Data Quality Report - 2026-11-13
 
 ## Summary
 
-- Profiles generated: 689
-- Watchlist candidates: 1437
+- Profiles generated: 698
+- Watchlist candidates: 1453
 - Top-50 cards: 50
-- Profiles with at least one metric: 674
-- Critical issues: 124
-- Warnings: 17
-- Discovery backlog (auto-discovered, awaiting first pipeline run): 746
+- Profiles with at least one metric: 683
+- Critical issues: 125
+- Warnings: 16
+- Discovery backlog (auto-discovered, awaiting first pipeline run): 753
 
 ## Top-50 Companies With No Metrics
 
@@ -118,6 +118,7 @@ None.
 - Genesis Therapeutics
 - Ghost Robotics
 - Ginger
+- Go.AI
 - H Company
 - HUMAIN
 - Happy Health
@@ -160,7 +161,6 @@ None.
 - Figure AI: headcount
 - Figure AI: headcount
 - Scale AI: headcount
-- Mercor: total_funding
 - Mercor: headcount
 - Fireworks AI: arr
 - Fireworks AI: total_funding

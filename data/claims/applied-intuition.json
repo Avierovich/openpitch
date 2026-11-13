@@ -1,5 +1,29 @@
 [
   {
+    "id": "clm_1b53f30cad",
+    "company_id": "applied-intuition",
+    "metric": "round_amount",
+    "value": 25000000.0,
+    "unit": null,
+    "raw_text": "Navy awards Applied Intuition $25M to deploy AI sensor fusion at sea",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "appliedintuition.com",
+      "url": "https://appliedintuition.com",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-29T12:07:33.443424",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
     "id": "clm_c5b3950445",
     "company_id": "applied-intuition",
     "metric": "valuation",
@@ -24,30 +48,6 @@
     "extracted_at": "2026-10-15T10:02:10.844942",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.1575,
-    "derivation": null
-  },
-  {
-    "id": "clm_1b53f30cad",
-    "company_id": "applied-intuition",
-    "metric": "round_amount",
-    "value": 25000000.0,
-    "unit": null,
-    "raw_text": "Navy awards Applied Intuition $25M to deploy AI sensor fusion at sea",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "appliedintuition.com",
-      "url": "https://appliedintuition.com",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-29T12:07:33.443424",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
     "derivation": null
   },
   {
@@ -125,6 +125,54 @@
     "derivation": null
   },
   {
+    "id": "clm_e1912a8bb4",
+    "company_id": "applied-intuition",
+    "metric": "round_amount",
+    "value": 600000000.0,
+    "unit": "USD",
+    "raw_text": "raises $600m",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaVdxT3NEUjJRaHhlNkhNQmpiR2VuckFkYUhRU3BKcVhQV2tXN3VNaktJOFhVcl9vSUF0QjNQMDBjcU1xOEg5eW44dHlMb2drS3pJbl9rUk1RMy1vdUtaUXlKU3V1UGMtUHRsSV9TUkxnUmlfbHo5cFEwd2poa0pQdm1JaTZwcjQ?oc=5",
+      "locator": null,
+      "published_at": "2025-06-18"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_d0b9595450",
+    "company_id": "applied-intuition",
+    "metric": "valuation",
+    "value": 15000000000.0,
+    "unit": "USD",
+    "raw_text": "$15bn valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaVdxT3NEUjJRaHhlNkhNQmpiR2VuckFkYUhRU3BKcVhQV2tXN3VNaktJOFhVcl9vSUF0QjNQMDBjcU1xOEg5eW44dHlMb2drS3pJbl9rUk1RMy1vdUtaUXlKU3V1UGMtUHRsSV9TUkxnUmlfbHo5cFEwd2poa0pQdm1JaTZwcjQ?oc=5",
+      "locator": null,
+      "published_at": "2025-06-18"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_afe459811d",
     "company_id": "applied-intuition",
     "metric": "valuation",
@@ -149,30 +197,6 @@
     "derivation": null
   },
   {
-    "id": "clm_3a85de5d38",
-    "company_id": "applied-intuition",
-    "metric": "valuation",
-    "value": 6000000000.0,
-    "unit": "USD",
-    "raw_text": "Applied Intuition lands $6B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZkpOMmpaRThYQ28wQkkxR2lFVnZZbFBNbUdLcGxIcWhtRENtb2NrYzRRdThsUkgtWU1WZlg3UGlYeTFRMU1LdzJob3RPcWxOcmVYQnBkeHhNUEJobW5qNVFFTm54aXNrbndDSFk0ak1GbDJxcVJqQTBwcGZjS3FibDVVQlBDQXFFT3JyYlNkdVJCRnpH?oc=5",
-      "locator": null,
-      "published_at": "2024-03-12"
-    },
-    "extracted_at": "2026-09-04T09:41:05.539009",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_14e424138b",
     "company_id": "applied-intuition",
     "metric": "valuation",
@@ -194,6 +218,108 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_820c8ca438",
+    "company_id": "applied-intuition",
+    "metric": "round_amount",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "raise $1.5B",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNktNSTU2MzJFQ083ZmlaNWdjNkQxVTYxMFdPdUdYdHVYWnQxQ1Y5OWlmSlhXS3VIR3o0SzloZzdBRXl5azVBOUdOWnlCb0d5RTBLcnFCZTNKWGJzWmg4RF92S3RlUnhsd1UtZXMwR0hzajJjcXFsYmF0Y194QS1NNmZ1Vk5tbzFFQnRJS2hwZXlsbENGU0R0YnFNMA?oc=5",
+      "locator": null,
+      "published_at": "2026-11-11"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_e3d7965578",
+    "company_id": "applied-intuition",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "$30B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNktNSTU2MzJFQ083ZmlaNWdjNkQxVTYxMFdPdUdYdHVYWnQxQ1Y5OWlmSlhXS3VIR3o0SzloZzdBRXl5azVBOUdOWnlCb0d5RTBLcnFCZTNKWGJzWmg4RF92S3RlUnhsd1UtZXMwR0hzajJjcXFsYmF0Y194QS1NNmZ1Vk5tbzFFQnRJS2hwZXlsbENGU0R0YnFNMA?oc=5",
+      "locator": null,
+      "published_at": "2026-11-11"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_fd380f2625",
+    "company_id": "applied-intuition",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "$30 billion valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "MLQ.ai",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSmV6NWk2ZHNPa3pnRV9kbXY2Uml6M2pWdjMzZFhwQm4tRWtvYlBOc212dUdldG1hQWhGanZyR05BNHd4R3RxLThjMTh0bDZrU0NCT2hwc19wdXE1MU94STQzN0xJOUZBN1BpWW9KWjN0R3RUUUtqdkctSjlBZTNsXzRfaWtVVzNTSGxsSlRWWDB4ZWQtdHV2OXJaYjdJUnB4NldfdmdBTUdqSklrQnZoS1owQlJ3ZjBqUElKSlZMZ1VoXzQ?oc=5",
+      "locator": null,
+      "published_at": "2026-11-11"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_3a85de5d38",
+    "company_id": "applied-intuition",
+    "metric": "valuation",
+    "value": 6000000000.0,
+    "unit": "USD",
+    "raw_text": "Applied Intuition lands $6B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZkpOMmpaRThYQ28wQkkxR2lFVnZZbFBNbUdLcGxIcWhtRENtb2NrYzRRdThsUkgtWU1WZlg3UGlYeTFRMU1LdzJob3RPcWxOcmVYQnBkeHhNUEJobW5qNVFFTm54aXNrbndDSFk0ak1GbDJxcVJqQTBwcGZjS3FibDVVQlBDQXFFT3JyYlNkdVJCRnpH?oc=5",
+      "locator": null,
+      "published_at": "2024-03-12"
+    },
+    "extracted_at": "2026-09-04T09:41:05.539009",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -245,54 +371,6 @@
     "extracted_at": "2026-10-15T10:02:10.844942",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.1575,
-    "derivation": null
-  },
-  {
-    "id": "clm_e1912a8bb4",
-    "company_id": "applied-intuition",
-    "metric": "round_amount",
-    "value": 600000000.0,
-    "unit": "USD",
-    "raw_text": "raises $600m",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaVdxT3NEUjJRaHhlNkhNQmpiR2VuckFkYUhRU3BKcVhQV2tXN3VNaktJOFhVcl9vSUF0QjNQMDBjcU1xOEg5eW44dHlMb2drS3pJbl9rUk1RMy1vdUtaUXlKU3V1UGMtUHRsSV9TUkxnUmlfbHo5cFEwd2poa0pQdm1JaTZwcjQ?oc=5",
-      "locator": null,
-      "published_at": "2025-06-18"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_d0b9595450",
-    "company_id": "applied-intuition",
-    "metric": "valuation",
-    "value": 15000000000.0,
-    "unit": "USD",
-    "raw_text": "$15bn valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaVdxT3NEUjJRaHhlNkhNQmpiR2VuckFkYUhRU3BKcVhQV2tXN3VNaktJOFhVcl9vSUF0QjNQMDBjcU1xOEg5eW44dHlMb2drS3pJbl9rUk1RMy1vdUtaUXlKU3V1UGMtUHRsSV9TUkxnUmlfbHo5cFEwd2poa0pQdm1JaTZwcjQ?oc=5",
-      "locator": null,
-      "published_at": "2025-06-18"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
     "derivation": null
   },
   {

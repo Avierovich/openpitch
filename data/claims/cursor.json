@@ -1,5 +1,29 @@
 [
   {
+    "id": "clm_13a2e22b0a",
+    "company_id": "cursor",
+    "metric": "valuation",
+    "value": 29000000000.0,
+    "unit": "USD",
+    "raw_text": "$29 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "exec"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxON1BTMy01NE52Z2tXWVU0aTRweU1JcmppMkVJQWRZVkIyZENhNWM5b085SlNfVi1vNjZsRWR3WHJqaXhQNENhcng1Nm1jelNnbC1pd0tmUnI4ZmR1Vllla2Z2ZFhWMWdQakl4cjFQendVSHNyd21hNnMyVHpwZnpmMHlLYlRuUQ?oc=5",
+      "locator": null,
+      "published_at": "2025-12-11"
+    },
+    "extracted_at": "2026-10-27T11:13:23.267375",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.75,
+    "derivation": null
+  },
+  {
     "id": "clm_28f60a06df",
     "company_id": "cursor",
     "metric": "valuation",
@@ -48,27 +72,27 @@
     "derivation": null
   },
   {
-    "id": "clm_13a2e22b0a",
+    "id": "clm_633b437239",
     "company_id": "cursor",
     "metric": "valuation",
-    "value": 29000000000.0,
+    "value": 50000000000.0,
     "unit": "USD",
-    "raw_text": "$29 billion valuation",
+    "raw_text": "$50B valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "exec"
+      "role": "unknown"
     },
     "source": {
       "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxON1BTMy01NE52Z2tXWVU0aTRweU1JcmppMkVJQWRZVkIyZENhNWM5b085SlNfVi1vNjZsRWR3WHJqaXhQNENhcng1Nm1jelNnbC1pd0tmUnI4ZmR1Vllla2Z2ZFhWMWdQakl4cjFQendVSHNyd21hNnMyVHpwZnpmMHlLYlRuUQ?oc=5",
+      "name": "jawlah.co",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBVY0Y3VFJUUnFJTkNhRFdHQTVrRGZDQVRlYXNxVFRQYmVQaGZISzduYUY0eERWaVBJWnZMZG5aMA?oc=5",
       "locator": null,
-      "published_at": "2025-12-11"
+      "published_at": "2026-04-18"
     },
     "extracted_at": "2026-10-27T11:13:23.267375",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.75,
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -168,6 +192,54 @@
     "derivation": null
   },
   {
+    "id": "clm_4872b5a173",
+    "company_id": "cursor",
+    "metric": "round_amount",
+    "value": 2300000000.0,
+    "unit": "USD",
+    "raw_text": "$2.3 billion funding round",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeGpHRGdTQ3NTSlBZWHIzWFBRRElRQzh6bnFsTG1Od0RYS0NfU2JCMzFMaWZuSXQtc01vRlY0dFV3bjRPV05mMjR4MWhTMU55d3VTVkRSTU16SnJFdGpPZkVyR21KTVZIZFpTVjFTY3ZsOUc0cnc5R3NCNlFBeC12MFdTX0c?oc=5",
+      "locator": null,
+      "published_at": "2025-11-13"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_f230c5a2c9",
+    "company_id": "cursor",
+    "metric": "valuation",
+    "value": 29300000000.0,
+    "unit": "USD",
+    "raw_text": "$29.3 billion valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeGpHRGdTQ3NTSlBZWHIzWFBRRElRQzh6bnFsTG1Od0RYS0NfU2JCMzFMaWZuSXQtc01vRlY0dFV3bjRPV05mMjR4MWhTMU55d3VTVkRSTU16SnJFdGpPZkVyR21KTVZIZFpTVjFTY3ZsOUc0cnc5R3NCNlFBeC12MFdTX0c?oc=5",
+      "locator": null,
+      "published_at": "2025-11-13"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_5ea7602f65",
     "company_id": "cursor",
     "metric": "valuation",
@@ -261,30 +333,6 @@
       "type": "news",
       "name": "The Next Web",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVy1jZUJ6d19vQ29LYmVoelg4N3JycXd0dG05aFIxUjFVZF9ZclRqTzRVbTd3ZE9ZdTRwWS1YUm45R2RzM0x4cndTdUc2bWZEWnpxbDZXR0I3UTlybWZLNktLa1JBY1I2aGlsRG9nUDRyaFZtLUFoLXBZVmpka2s2TXBjblFPcEF3NXJ6NnBTTTBJTFdsVVRGZw?oc=5",
-      "locator": null,
-      "published_at": "2026-04-18"
-    },
-    "extracted_at": "2026-10-27T11:13:23.267375",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_633b437239",
-    "company_id": "cursor",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": "USD",
-    "raw_text": "$50B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "jawlah.co",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBVY0Y3VFJUUnFJTkNhRFdHQTVrRGZDQVRlYXNxVFRQYmVQaGZISzduYUY0eERWaVBJWnZMZG5aMA?oc=5",
       "locator": null,
       "published_at": "2026-04-18"
     },
@@ -492,7 +540,7 @@
       "locator": null,
       "published_at": "2025-12-11"
     },
-    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extracted_at": "2026-11-13T13:13:08.574545",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2588,
     "derivation": {

@@ -1,29 +1,50 @@
 [
   {
-    "id": "clm_b682cee082",
+    "id": "clm_d32880da7b",
     "company_id": "vast-data",
-    "metric": "open_roles",
-    "value": 100.0,
-    "unit": "count",
-    "raw_text": "With over 100 positions open all over the world",
-    "qualifiers": [
-      "rounded",
-      "approximate"
-    ],
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "$1b raise",
+    "qualifiers": [],
     "speaker": {
       "name": null,
       "role": "unknown"
     },
     "source": {
-      "type": "web",
-      "name": "vastdata.com",
-      "url": "https://vastdata.com/careers",
+      "type": "news",
+      "name": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRWTdsZng0bDZfbVUta0xOM1NvVlpSZ3hFR0FYZS1mS1k2eEhXdlZsWFhjanhVa01SdVN3blF6ZzQ5a2VUUXJvbDFpS2tHSFBvMm5WQnM5VWdtdnlXUlVPb3BCbkVzZ1FwN0M2VQ?oc=5",
       "locator": null,
-      "published_at": null
+      "published_at": "2026-04-23"
     },
-    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1913,
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_fdc09c21ab",
+    "company_id": "vast-data",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": null,
+    "raw_text": "$30b valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRWTdsZng0bDZfbVUta0xOM1NvVlpSZ3hFR0FYZS1mS1k2eEhXdlZsWFhjanhVa01SdVN3blF6ZzQ5a2VUUXJvbDFpS2tHSFBvMm5WQnM5VWdtdnlXUlVPb3BCbkVzZ1FwN0M2VQ?oc=5",
+      "locator": null,
+      "published_at": "2026-04-23"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -195,30 +216,6 @@
     "derivation": null
   },
   {
-    "id": "clm_e4f8e2852b",
-    "company_id": "vast-data",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "$30b valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Globes - Israel Business News",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbHFFcmc2X2dMR00zek1IeEhyaFY4XzQ5MFFndFFLcFdfUENrVFNvNFI4ZDRoM1NSdkpyVzlWeUJuUXJGNjRfZEVjVkRXejdqZDNVTGtnMHlObGw5bmJTUzlPeUVObllxODE2OTdzU2lfaVJCNjdpeDlkZzJ3SXhyY2JmOUc5NWh1RGZVLUtyZXhPdENY?oc=5",
-      "locator": null,
-      "published_at": "2026-04-22"
-    },
-    "extracted_at": "2026-10-27T11:13:23.267375",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_6cd23a27d8",
     "company_id": "vast-data",
     "metric": "valuation",
@@ -242,6 +239,33 @@
     "extracted_at": "2026-09-03T09:52:38.790034",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_5fbf71c771",
+    "company_id": "vast-data",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": null,
+    "raw_text": "Vast Data eyes $30B valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "calcalistech.com",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GSUNKRk1HakZVZkowb3pOeEFZbkpQc2tuNnJKeWo3TnQ3ODRnand1OEgzenIyMjVON0poSk5Mb0ZtUldEdjVnRjE0cEZ0SXhqaTJiQnVYR0I5Y0lQdnFGVXB1bXNXbFE?oc=5",
+      "locator": null,
+      "published_at": "2025-08-01"
+    },
+    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -341,30 +365,54 @@
     "derivation": null
   },
   {
-    "id": "clm_5fbf71c771",
+    "id": "clm_b682cee082",
+    "company_id": "vast-data",
+    "metric": "open_roles",
+    "value": 100.0,
+    "unit": "count",
+    "raw_text": "With over 100 positions open all over the world",
+    "qualifiers": [
+      "rounded",
+      "approximate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "vastdata.com",
+      "url": "https://vastdata.com/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1913,
+    "derivation": null
+  },
+  {
+    "id": "clm_e4f8e2852b",
     "company_id": "vast-data",
     "metric": "valuation",
     "value": 30000000000.0,
-    "unit": null,
-    "raw_text": "Vast Data eyes $30B valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
+    "unit": "USD",
+    "raw_text": "$30b valuation",
+    "qualifiers": [],
     "speaker": {
       "name": null,
       "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "calcalistech.com",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GSUNKRk1HakZVZkowb3pOeEFZbkpQc2tuNnJKeWo3TnQ3ODRnand1OEgzenIyMjVON0poSk5Mb0ZtUldEdjVnRjE0cEZ0SXhqaTJiQnVYR0I5Y0lQdnFGVXB1bXNXbFE?oc=5",
+      "name": "Globes - Israel Business News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbHFFcmc2X2dMR00zek1IeEhyaFY4XzQ5MFFndFFLcFdfUENrVFNvNFI4ZDRoM1NSdkpyVzlWeUJuUXJGNjRfZEVjVkRXejdqZDNVTGtnMHlObGw5bmJTUzlPeUVObllxODE2OTdzU2lfaVJCNjdpeDlkZzJ3SXhyY2JmOUc5NWh1RGZVLUtyZXhPdENY?oc=5",
       "locator": null,
-      "published_at": "2025-08-01"
+      "published_at": "2026-04-22"
     },
-    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extracted_at": "2026-10-27T11:13:23.267375",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -1430,54 +1478,6 @@
     "derivation": null
   },
   {
-    "id": "clm_d32880da7b",
-    "company_id": "vast-data",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "$1b raise",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRWTdsZng0bDZfbVUta0xOM1NvVlpSZ3hFR0FYZS1mS1k2eEhXdlZsWFhjanhVa01SdVN3blF6ZzQ5a2VUUXJvbDFpS2tHSFBvMm5WQnM5VWdtdnlXUlVPb3BCbkVzZ1FwN0M2VQ?oc=5",
-      "locator": null,
-      "published_at": "2026-04-23"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_fdc09c21ab",
-    "company_id": "vast-data",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": null,
-    "raw_text": "$30b valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRWTdsZng0bDZfbVUta0xOM1NvVlpSZ3hFR0FYZS1mS1k2eEhXdlZsWFhjanhVa01SdVN3blF6ZzQ5a2VUUXJvbDFpS2tHSFBvMm5WQnM5VWdtdnlXUlVPb3BCbkVzZ1FwN0M2VQ?oc=5",
-      "locator": null,
-      "published_at": "2026-04-23"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_13dd2d942a",
     "company_id": "vast-data",
     "metric": "round_amount",
@@ -1760,7 +1760,7 @@
       "locator": null,
       "published_at": "2026-04-23"
     },
-    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extracted_at": "2026-11-13T13:13:08.574545",
     "extractor_model": "derive-engine",
     "base_confidence": 0.3623,
     "derivation": {

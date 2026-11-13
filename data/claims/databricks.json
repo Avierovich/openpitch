@@ -222,57 +222,6 @@
     "derivation": null
   },
   {
-    "id": "clm_d535a779c1",
-    "company_id": "databricks",
-    "metric": "valuation",
-    "value": 175000000000.0,
-    "unit": "USD",
-    "raw_text": "Databricks Eyes $175B Valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "https://tech-insider.org/",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ncnJEWWFKS3JFOTVFWmVmMUg3SWJQdEVfSGlLTVZvYVhTemFMOWFGMlVYV0lpcUIyY3VhTDZDclV4ZGRYaG5sbVpmak9FaDR2VUhrbm5mSzY0c2FHRW51a1BVOUtDdXVyQ193bk80Mk0?oc=5",
-      "locator": null,
-      "published_at": "2026-06-11"
-    },
-    "extracted_at": "2026-10-07T11:44:32.066946",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_23923ff325",
-    "company_id": "databricks",
-    "metric": "arr",
-    "value": 5400000000.0,
-    "unit": "USD",
-    "raw_text": "$5.4B ARR",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "https://tech-insider.org/",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ncnJEWWFKS3JFOTVFWmVmMUg3SWJQdEVfSGlLTVZvYVhTemFMOWFGMlVYV0lpcUIyY3VhTDZDclV4ZGRYaG5sbVpmak9FaDR2VUhrbm5mSzY0c2FHRW51a1BVOUtDdXVyQ193bk80Mk0?oc=5",
-      "locator": null,
-      "published_at": "2026-06-11"
-    },
-    "extracted_at": "2026-10-07T11:44:32.066946",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_1fa279d24f",
     "company_id": "databricks",
     "metric": "arr",
@@ -394,6 +343,131 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.4725,
+    "derivation": null
+  },
+  {
+    "id": "clm_bda6c121d0",
+    "company_id": "databricks",
+    "metric": "arr",
+    "value": 7000000000.0,
+    "unit": null,
+    "raw_text": "Databricks Crosses $7B Revenue Run-Rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CIOL",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbHRvRHF0Z2ZucUs2MktYQ2RTbnBqb0YwaGt4VWRmYXNSdXFIZTZaeW1nU2F0SUQxVzhFM09ibzVtemdsbHVBREpjeTNKMWY1cVdoUlJxdmNJWDRHeGMtdU9ZNGh5LTZYMFNiOHdfc2ctQTJHTm5qZkl3b2xWeUZWNTRMWmNqWlhreVdwSmIteVo0czNBUng5WEFBRjhncUtxUnBTMldwT0tYT0tNc1dkOTR0Vl9qd3dXLU55Zi1Tc9IBvwFBVV95cUxPbHRvRHF0Z2ZucUs2MktYQ2RTbnBqb0YwaGt4VWRmYXNSdXFIZTZaeW1nU2F0SUQxVzhFM09ibzVtemdsbHVBREpjeTNKMWY1cVdoUlJxdmNJWDRHeGMtdU9ZNGh5LTZYMFNiOHdfc2ctQTJHTm5qZkl3b2xWeUZWNTRMWmNqWlhreVdwSmIteVo0czNBUng5WEFBRjhncUtxUnBTMldwT0tYT0tNc1dkOTR0Vl9qd3dXLU55Zi1Tcw?oc=5",
+      "locator": null,
+      "published_at": "2026-08-14"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3375,
+    "derivation": null
+  },
+  {
+    "id": "clm_eb313bf8e5",
+    "company_id": "databricks",
+    "metric": "round_amount",
+    "value": 5000000000.0,
+    "unit": null,
+    "raw_text": "Raises $5B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CIOL",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbHRvRHF0Z2ZucUs2MktYQ2RTbnBqb0YwaGt4VWRmYXNSdXFIZTZaeW1nU2F0SUQxVzhFM09ibzVtemdsbHVBREpjeTNKMWY1cVdoUlJxdmNJWDRHeGMtdU9ZNGh5LTZYMFNiOHdfc2ctQTJHTm5qZkl3b2xWeUZWNTRMWmNqWlhreVdwSmIteVo0czNBUng5WEFBRjhncUtxUnBTMldwT0tYT0tNc1dkOTR0Vl9qd3dXLU55Zi1Tc9IBvwFBVV95cUxPbHRvRHF0Z2ZucUs2MktYQ2RTbnBqb0YwaGt4VWRmYXNSdXFIZTZaeW1nU2F0SUQxVzhFM09ibzVtemdsbHVBREpjeTNKMWY1cVdoUlJxdmNJWDRHeGMtdU9ZNGh5LTZYMFNiOHdfc2ctQTJHTm5qZkl3b2xWeUZWNTRMWmNqWlhreVdwSmIteVo0czNBUng5WEFBRjhncUtxUnBTMldwT0tYT0tNc1dkOTR0Vl9qd3dXLU55Zi1Tcw?oc=5",
+      "locator": null,
+      "published_at": "2026-08-14"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_50cb8e0efa",
+    "company_id": "databricks",
+    "metric": "valuation",
+    "value": 190000000000.0,
+    "unit": null,
+    "raw_text": "$190B Valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CIOL",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbHRvRHF0Z2ZucUs2MktYQ2RTbnBqb0YwaGt4VWRmYXNSdXFIZTZaeW1nU2F0SUQxVzhFM09ibzVtemdsbHVBREpjeTNKMWY1cVdoUlJxdmNJWDRHeGMtdU9ZNGh5LTZYMFNiOHdfc2ctQTJHTm5qZkl3b2xWeUZWNTRMWmNqWlhreVdwSmIteVo0czNBUng5WEFBRjhncUtxUnBTMldwT0tYT0tNc1dkOTR0Vl9qd3dXLU55Zi1Tc9IBvwFBVV95cUxPbHRvRHF0Z2ZucUs2MktYQ2RTbnBqb0YwaGt4VWRmYXNSdXFIZTZaeW1nU2F0SUQxVzhFM09ibzVtemdsbHVBREpjeTNKMWY1cVdoUlJxdmNJWDRHeGMtdU9ZNGh5LTZYMFNiOHdfc2ctQTJHTm5qZkl3b2xWeUZWNTRMWmNqWlhreVdwSmIteVo0czNBUng5WEFBRjhncUtxUnBTMldwT0tYT0tNc1dkOTR0Vl9qd3dXLU55Zi1Tcw?oc=5",
+      "locator": null,
+      "published_at": "2026-08-14"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_d535a779c1",
+    "company_id": "databricks",
+    "metric": "valuation",
+    "value": 175000000000.0,
+    "unit": "USD",
+    "raw_text": "Databricks Eyes $175B Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "https://tech-insider.org/",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ncnJEWWFKS3JFOTVFWmVmMUg3SWJQdEVfSGlLTVZvYVhTemFMOWFGMlVYV0lpcUIyY3VhTDZDclV4ZGRYaG5sbVpmak9FaDR2VUhrbm5mSzY0c2FHRW51a1BVOUtDdXVyQ193bk80Mk0?oc=5",
+      "locator": null,
+      "published_at": "2026-06-11"
+    },
+    "extracted_at": "2026-10-07T11:44:32.066946",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_23923ff325",
+    "company_id": "databricks",
+    "metric": "arr",
+    "value": 5400000000.0,
+    "unit": "USD",
+    "raw_text": "$5.4B ARR",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "https://tech-insider.org/",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ncnJEWWFKS3JFOTVFWmVmMUg3SWJQdEVfSGlLTVZvYVhTemFMOWFGMlVYV0lpcUIyY3VhTDZDclV4ZGRYaG5sbVpmak9FaDR2VUhrbm5mSzY0c2FHRW51a1BVOUtDdXVyQ193bk80Mk0?oc=5",
+      "locator": null,
+      "published_at": "2026-06-11"
+    },
+    "extracted_at": "2026-10-07T11:44:32.066946",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -1603,7 +1677,7 @@
       "locator": null,
       "published_at": "2026-08-14"
     },
-    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extracted_at": "2026-11-13T13:13:08.574545",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

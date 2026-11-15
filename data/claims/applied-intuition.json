@@ -24,6 +24,32 @@
     "derivation": null
   },
   {
+    "id": "clm_fd380f2625",
+    "company_id": "applied-intuition",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "$30 billion valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "MLQ.ai",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSmV6NWk2ZHNPa3pnRV9kbXY2Uml6M2pWdjMzZFhwQm4tRWtvYlBOc212dUdldG1hQWhGanZyR05BNHd4R3RxLThjMTh0bDZrU0NCT2hwc19wdXE1MU94STQzN0xJOUZBN1BpWW9KWjN0R3RUUUtqdkctSjlBZTNsXzRfaWtVVzNTSGxsSlRWWDB4ZWQtdHV2OXJaYjdJUnB4NldfdmdBTUdqSklrQnZoS1owQlJ3ZjBqUElKSlZMZ1VoXzQ?oc=5",
+      "locator": null,
+      "published_at": "2026-11-11"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_c5b3950445",
     "company_id": "applied-intuition",
     "metric": "valuation",
@@ -48,6 +74,32 @@
     "extracted_at": "2026-10-15T10:02:10.844942",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
+    "id": "clm_da8f3aa7bb",
+    "company_id": "applied-intuition",
+    "metric": "headcount",
+    "value": 1000.0,
+    "unit": "engineers",
+    "raw_text": "1,000+ Engineers",
+    "qualifiers": [
+      "rounded"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "appliedintuition.com",
+      "url": "https://appliedintuition.com/about",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-10-08T12:05:08.457629",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
     "derivation": null
   },
   {
@@ -99,32 +151,6 @@
     "derivation": null
   },
   {
-    "id": "clm_da8f3aa7bb",
-    "company_id": "applied-intuition",
-    "metric": "headcount",
-    "value": 1000.0,
-    "unit": "engineers",
-    "raw_text": "1,000+ Engineers",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "appliedintuition.com",
-      "url": "https://appliedintuition.com/about",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-10-08T12:05:08.457629",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
-    "derivation": null
-  },
-  {
     "id": "clm_e1912a8bb4",
     "company_id": "applied-intuition",
     "metric": "round_amount",
@@ -170,6 +196,163 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_d5e92c5b4a",
+    "company_id": "applied-intuition",
+    "metric": "round_amount",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "in talks to raise $1.5B",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQ2xsMTFFaXVOYVNremVGN1QzcWQ4UVVLSjFJMGpsODdVUTNhNkYyX0s4d0c5OEpjR2czQ1BMQXlqQmRLU2FxaDZJanYwNnJqOC1HRENKMk55MU5EQ1FSb1ZHS0NvSlFYYzVRT0RBMmRsbE55R25GcVRFVnhyRnFlS2pvMV9TWEFUNGM0OXUtMjl6UUdCV3JvMVJBaVktNTBycmV1bHZQcmNhSWRST0tfQTg5UEJhbjJUWE1YdU1vQklxbGVReHlqR2IyVQ?oc=5",
+      "locator": null,
+      "published_at": "2026-11-11"
+    },
+    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_dd53134121",
+    "company_id": "applied-intuition",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "at $30B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQ2xsMTFFaXVOYVNremVGN1QzcWQ4UVVLSjFJMGpsODdVUTNhNkYyX0s4d0c5OEpjR2czQ1BMQXlqQmRLU2FxaDZJanYwNnJqOC1HRENKMk55MU5EQ1FSb1ZHS0NvSlFYYzVRT0RBMmRsbE55R25GcVRFVnhyRnFlS2pvMV9TWEFUNGM0OXUtMjl6UUdCV3JvMVJBaVktNTBycmV1bHZQcmNhSWRST0tfQTg5UEJhbjJUWE1YdU1vQklxbGVReHlqR2IyVQ?oc=5",
+      "locator": null,
+      "published_at": "2026-11-11"
+    },
+    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_6fd701249f",
+    "company_id": "applied-intuition",
+    "metric": "round_amount",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "in talks to raise $1.5B+",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSnBKY0JuZlBrVTdYRDd3Q3lKQm9NZHcydzUwSjFkUTJaN2w0SFFCS1VMQU9wZFlucnY2bjQzRkcyQUlUcUFCQllUeGZrUFBvTW1XcU1IX0J1TGxJMnhUeUp2elJmU3B5WGg3ai1TOHB5MVVCajhubEVoUEpET1hoeDdiWl96ckhRWHdWRHJRc3FHWWx2TFIxU1VIV0o2ME1BMmRRUl9feGo3VlZKZmY0SUwyMElSbkRFa2lIMzZyaW12b0l0TkJaQktuanpGTWNTZXpr?oc=5",
+      "locator": null,
+      "published_at": "2026-11-12"
+    },
+    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_db3e68eae8",
+    "company_id": "applied-intuition",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "at about $30B",
+    "qualifiers": [
+      "approximate",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSnBKY0JuZlBrVTdYRDd3Q3lKQm9NZHcydzUwSjFkUTJaN2w0SFFCS1VMQU9wZFlucnY2bjQzRkcyQUlUcUFCQllUeGZrUFBvTW1XcU1IX0J1TGxJMnhUeUp2elJmU3B5WGg3ai1TOHB5MVVCajhubEVoUEpET1hoeDdiWl96ckhRWHdWRHJRc3FHWWx2TFIxU1VIV0o2ME1BMmRRUl9feGo3VlZKZmY0SUwyMElSbkRFa2lIMzZyaW12b0l0TkJaQktuanpGTWNTZXpr?oc=5",
+      "locator": null,
+      "published_at": "2026-11-12"
+    },
+    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.2677,
+    "derivation": null
+  },
+  {
+    "id": "clm_98561b9978",
+    "company_id": "applied-intuition",
+    "metric": "round_amount",
+    "value": 1500000000.0,
+    "unit": "USD",
+    "raw_text": "Seeks $1.5 Billion Round",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EQ3A5LW5SVWotX1lmcmpzeU1ScUI3anFsRWd2TmUxdXl6RHVLNXQ5YnNVbUdIWThtSURzTVFOVzh0cC12YXZndWlCbXluR24tRG9rZWE4TUdhQXZnSW1SN0J6a093Sk40OHN0dWVVVVAtS3NyRGc?oc=5",
+      "locator": null,
+      "published_at": "2026-11-11"
+    },
+    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_1b5c464577",
+    "company_id": "applied-intuition",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "at $30 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EQ3A5LW5SVWotX1lmcmpzeU1ScUI3anFsRWd2TmUxdXl6RHVLNXQ5YnNVbUdIWThtSURzTVFOVzh0cC12YXZndWlCbXluR24tRG9rZWE4TUdhQXZnSW1SN0J6a093Sk40OHN0dWVVVVAtS3NyRGc?oc=5",
+      "locator": null,
+      "published_at": "2026-11-11"
+    },
+    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -264,32 +447,6 @@
       "type": "news",
       "name": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNktNSTU2MzJFQ083ZmlaNWdjNkQxVTYxMFdPdUdYdHVYWnQxQ1Y5OWlmSlhXS3VIR3o0SzloZzdBRXl5azVBOUdOWnlCb0d5RTBLcnFCZTNKWGJzWmg4RF92S3RlUnhsd1UtZXMwR0hzajJjcXFsYmF0Y194QS1NNmZ1Vk5tbzFFQnRJS2hwZXlsbENGU0R0YnFNMA?oc=5",
-      "locator": null,
-      "published_at": "2026-11-11"
-    },
-    "extracted_at": "2026-11-13T13:13:08.574545",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_fd380f2625",
-    "company_id": "applied-intuition",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "$30 billion valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "MLQ.ai",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSmV6NWk2ZHNPa3pnRV9kbXY2Uml6M2pWdjMzZFhwQm4tRWtvYlBOc212dUdldG1hQWhGanZyR05BNHd4R3RxLThjMTh0bDZrU0NCT2hwc19wdXE1MU94STQzN0xJOUZBN1BpWW9KWjN0R3RUUUtqdkctSjlBZTNsXzRfaWtVVzNTSGxsSlRWWDB4ZWQtdHV2OXJaYjdJUnB4NldfdmdBTUdqSklrQnZoS1owQlJ3ZjBqUElKSlZMZ1VoXzQ?oc=5",
       "locator": null,
       "published_at": "2026-11-11"
     },

@@ -52,58 +52,6 @@
     "derivation": null
   },
   {
-    "id": "clm_3c12c17a31",
-    "company_id": "thinking-machines",
-    "metric": "valuation",
-    "value": 40000000000.0,
-    "unit": null,
-    "raw_text": "Thinking Machines Lab seeks $1b raise at $40b valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWXcyVWMzSDU2TmF2UVpRWE9ETzE2UzB6ZWl1TTFTOUdWaWNXNGVFVzBtMnFRNzJwT1hGU0s1a045aXV6TVJVcEdTV2hPOFI0cXMxaXNoRk5qbHVOdzBIV2c4Tng0MUZaaS01RzJzOUVRZ1FyMTRHU3RoUThnTUI5dWI5VnhFVFVLVTV0alBkVUQ3aUdUMlVwYUpn?oc=5",
-      "locator": null,
-      "published_at": "2026-09-03"
-    },
-    "extracted_at": "2026-09-25T10:09:44.175619",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_fbba91aafc",
-    "company_id": "thinking-machines",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "Thinking Machines Lab seeks $1b raise at $40b valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWXcyVWMzSDU2TmF2UVpRWE9ETzE2UzB6ZWl1TTFTOUdWaWNXNGVFVzBtMnFRNzJwT1hGU0s1a045aXV6TVJVcEdTV2hPOFI0cXMxaXNoRk5qbHVOdzBIV2c4Tng0MUZaaS01RzJzOUVRZ1FyMTRHU3RoUThnTUI5dWI5VnhFVFVLVTV0alBkVUQ3aUdUMlVwYUpn?oc=5",
-      "locator": null,
-      "published_at": "2026-09-03"
-    },
-    "extracted_at": "2026-09-25T10:09:44.175619",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_e90d962032",
     "company_id": "thinking-machines",
     "metric": "valuation",
@@ -432,14 +380,15 @@
     "derivation": null
   },
   {
-    "id": "clm_ed628cd1fe",
+    "id": "clm_3727a05e75",
     "company_id": "thinking-machines",
-    "metric": "valuation",
-    "value": 40000000000.0,
-    "unit": null,
-    "raw_text": "Thinking Machines Lab Seeks $40B Valuation",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "Thinking Machines Lab Seeks $1 Billion",
     "qualifiers": [
-      "unconfirmed"
+      "unconfirmed",
+      "forward_looking"
     ],
     "speaker": {
       "name": null,
@@ -447,14 +396,68 @@
     },
     "source": {
       "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUkdWaHp4cjRwVno1T05zaGxXNkN5ZGlmVzl5aGZSemNiTTdyajRqY3gtbVJhV01jbGRkaGx0YVRkWU5xanFwRC1mZlkxdTFOaExsTVhtLWNlQTJFdFBBYUx2c3ItZlVwVlRmMHdRMDZROGtJcjlqWmZZV0ZvVHdpSDE5QVk5Ulk5VHNmdVJUT2IxRmc0QmdVZjdIQQ?oc=5",
+      "name": "PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONDBZX3RQaVFSZ2Mtc1lTVmp3dlNtQk93MDI4b2xhUWF0bHh3UmJsOHl1Tld4QW03UnY4MUxwMGhETmZqUGZOdWRHQ3lDX3dEejRRU1VvSlptTHd5cXV0VEpaVmtGclZ4X0d5bFd6NzlfN0VOX1lPa2QwTTNQeDByTHRBeHd1QnZaa3RMbml3a1p4UWZtQldzWlo1VTFoTlBta29TeXNiRjluV25JcllIb1Jubw?oc=5",
       "locator": null,
-      "published_at": "2026-09-04"
+      "published_at": "2026-09-03"
     },
-    "extracted_at": "2026-09-25T10:09:44.175619",
+    "extracted_at": "2026-09-05T09:07:28.177448",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_79da0e2f28",
+    "company_id": "thinking-machines",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "$40 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONDBZX3RQaVFSZ2Mtc1lTVmp3dlNtQk93MDI4b2xhUWF0bHh3UmJsOHl1Tld4QW03UnY4MUxwMGhETmZqUGZOdWRHQ3lDX3dEejRRU1VvSlptTHd5cXV0VEpaVmtGclZ4X0d5bFd6NzlfN0VOX1lPa2QwTTNQeDByTHRBeHd1QnZaa3RMbml3a1p4UWZtQldzWlo1VTFoTlBta29TeXNiRjluV25JcllIb1Jubw?oc=5",
+      "locator": null,
+      "published_at": "2026-09-03"
+    },
+    "extracted_at": "2026-09-05T09:07:28.177448",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_52909847e2",
+    "company_id": "thinking-machines",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "Mira Murati's Thinking Machines seeks $50 billion valuation in funding talks",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbXJzRmFKRlFVWjduZnVOMU5xQ0kxV2c0UVFfU1J5SDBUVVc5SUtiUV9pemxPX2k0dHJ3RXgxXzI3SjA5b2twMjRQekpnejN3UGp1b3NPa2NXSFZFMEVQQ3BqWi1wcGlUSEdnb09HeVpPNlFWbTdQOWJOLWNZR0NZQmtxWjBtUzl3QzlxMkxHTVhHa1Jsb2xMQWZFOHhJY0UtQlVZelV3dy1GRXRLby12MHJEZHFVNkJPTmc?oc=5",
+      "locator": null,
+      "published_at": "2025-11-13"
+    },
+    "extracted_at": "2026-08-24T06:11:52.835308",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
     "derivation": null
   },
   {
@@ -551,6 +554,137 @@
     "extracted_at": "2026-11-04T13:18:39.395579",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_4927848104",
+    "company_id": "thinking-machines",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": "USD",
+    "raw_text": "Thinking Machines Lab seeks $1b raise",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance Australia",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMXRmWlpFT1hET0dxOGJPZTRkZEdrRHJsVUprOTVQVE9fd20xME1OMm9xbk5CUkJBR0ppYUNVakJzOWlPNTlkSEJ2NnNhbEtJaTMzZllnRmpMQ3QzUzkzaTdyemdGd21mU3kweE5rN1dnYlpVdnAtQmJhWllZYmdNMk96NnItZw?oc=5",
+      "locator": null,
+      "published_at": "2026-09-03"
+    },
+    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_d6d78bd401",
+    "company_id": "thinking-machines",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "$40b valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance Australia",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMXRmWlpFT1hET0dxOGJPZTRkZEdrRHJsVUprOTVQVE9fd20xME1OMm9xbk5CUkJBR0ppYUNVakJzOWlPNTlkSEJ2NnNhbEtJaTMzZllnRmpMQ3QzUzkzaTdyemdGd21mU3kweE5rN1dnYlpVdnAtQmJhWllZYmdNMk96NnItZw?oc=5",
+      "locator": null,
+      "published_at": "2026-09-03"
+    },
+    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_3c12c17a31",
+    "company_id": "thinking-machines",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": null,
+    "raw_text": "Thinking Machines Lab seeks $1b raise at $40b valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWXcyVWMzSDU2TmF2UVpRWE9ETzE2UzB6ZWl1TTFTOUdWaWNXNGVFVzBtMnFRNzJwT1hGU0s1a045aXV6TVJVcEdTV2hPOFI0cXMxaXNoRk5qbHVOdzBIV2c4Tng0MUZaaS01RzJzOUVRZ1FyMTRHU3RoUThnTUI5dWI5VnhFVFVLVTV0alBkVUQ3aUdUMlVwYUpn?oc=5",
+      "locator": null,
+      "published_at": "2026-09-03"
+    },
+    "extracted_at": "2026-09-25T10:09:44.175619",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_fbba91aafc",
+    "company_id": "thinking-machines",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "Thinking Machines Lab seeks $1b raise at $40b valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWXcyVWMzSDU2TmF2UVpRWE9ETzE2UzB6ZWl1TTFTOUdWaWNXNGVFVzBtMnFRNzJwT1hGU0s1a045aXV6TVJVcEdTV2hPOFI0cXMxaXNoRk5qbHVOdzBIV2c4Tng0MUZaaS01RzJzOUVRZ1FyMTRHU3RoUThnTUI5dWI5VnhFVFVLVTV0alBkVUQ3aUdUMlVwYUpn?oc=5",
+      "locator": null,
+      "published_at": "2026-09-03"
+    },
+    "extracted_at": "2026-09-25T10:09:44.175619",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_ed628cd1fe",
+    "company_id": "thinking-machines",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": null,
+    "raw_text": "Thinking Machines Lab Seeks $40B Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUkdWaHp4cjRwVno1T05zaGxXNkN5ZGlmVzl5aGZSemNiTTdyajRqY3gtbVJhV01jbGRkaGx0YVRkWU5xanFwRC1mZlkxdTFOaExsTVhtLWNlQTJFdFBBYUx2c3ItZlVwVlRmMHdRMDZROGtJcjlqWmZZV0ZvVHdpSDE5QVk5Ulk5VHNmdVJUT2IxRmc0QmdVZjdIQQ?oc=5",
+      "locator": null,
+      "published_at": "2026-09-04"
+    },
+    "extracted_at": "2026-09-25T10:09:44.175619",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -894,60 +1028,6 @@
     "derivation": null
   },
   {
-    "id": "clm_3727a05e75",
-    "company_id": "thinking-machines",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": "USD",
-    "raw_text": "Thinking Machines Lab Seeks $1 Billion",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "PYMNTS.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONDBZX3RQaVFSZ2Mtc1lTVmp3dlNtQk93MDI4b2xhUWF0bHh3UmJsOHl1Tld4QW03UnY4MUxwMGhETmZqUGZOdWRHQ3lDX3dEejRRU1VvSlptTHd5cXV0VEpaVmtGclZ4X0d5bFd6NzlfN0VOX1lPa2QwTTNQeDByTHRBeHd1QnZaa3RMbml3a1p4UWZtQldzWlo1VTFoTlBta29TeXNiRjluV25JcllIb1Jubw?oc=5",
-      "locator": null,
-      "published_at": "2026-09-03"
-    },
-    "extracted_at": "2026-09-05T09:07:28.177448",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_79da0e2f28",
-    "company_id": "thinking-machines",
-    "metric": "valuation",
-    "value": 40000000000.0,
-    "unit": "USD",
-    "raw_text": "$40 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "PYMNTS.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONDBZX3RQaVFSZ2Mtc1lTVmp3dlNtQk93MDI4b2xhUWF0bHh3UmJsOHl1Tld4QW03UnY4MUxwMGhETmZqUGZOdWRHQ3lDX3dEejRRU1VvSlptTHd5cXV0VEpaVmtGclZ4X0d5bFd6NzlfN0VOX1lPa2QwTTNQeDByTHRBeHd1QnZaa3RMbml3a1p4UWZtQldzWlo1VTFoTlBta29TeXNiRjluV25JcllIb1Jubw?oc=5",
-      "locator": null,
-      "published_at": "2026-09-03"
-    },
-    "extracted_at": "2026-09-05T09:07:28.177448",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
     "id": "clm_3e9568dc1d",
     "company_id": "thinking-machines",
     "metric": "round_amount",
@@ -1179,33 +1259,6 @@
     "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.241,
-    "derivation": null
-  },
-  {
-    "id": "clm_52909847e2",
-    "company_id": "thinking-machines",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": "USD",
-    "raw_text": "Mira Murati's Thinking Machines seeks $50 billion valuation in funding talks",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbXJzRmFKRlFVWjduZnVOMU5xQ0kxV2c0UVFfU1J5SDBUVVc5SUtiUV9pemxPX2k0dHJ3RXgxXzI3SjA5b2twMjRQekpnejN3UGp1b3NPa2NXSFZFMEVQQ3BqWi1wcGlUSEdnb09HeVpPNlFWbTdQOWJOLWNZR0NZQmtxWjBtUzl3QzlxMkxHTVhHa1Jsb2xMQWZFOHhJY0UtQlVZelV3dy1GRXRLby12MHJEZHFVNkJPTmc?oc=5",
-      "locator": null,
-      "published_at": "2025-11-13"
-    },
-    "extracted_at": "2026-08-24T06:11:52.835308",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2205,
     "derivation": null
   },
   {

@@ -319,12 +319,12 @@
     "derivation": null
   },
   {
-    "id": "clm_20bbc5efb1",
+    "id": "clm_b9c6ad55f5",
     "company_id": "anysphere-cursor",
     "metric": "valuation",
     "value": 60000000000.0,
-    "unit": "USD",
-    "raw_text": "SpaceX Buys Cursor for $60B",
+    "unit": null,
+    "raw_text": "SpaceX to Buy Cursor Developer Anysphere for $60 Billion",
     "qualifiers": [
       "unconfirmed"
     ],
@@ -334,12 +334,12 @@
     },
     "source": {
       "type": "news",
-      "name": "Business Model Analyst",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5MNUpmQ1JhTExPVURvZXFGN0RncmI0ZGw4QVdJTHBpX3hYMkhzdDlpTjM1cFF6ZXdtVFZaY1MySnZ5N1QtZTBVRENuVnFrLXFUbDI5VFBkdzVROVZRUFJzNlJBanctU0pPQlRsTmJsNHdkRXg4?oc=5",
+      "name": "bloomingbit",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBMZ0NNX013Y3MyZ2kyY21lczM2bVM1bzdpUzNsSXk0dTBsZXU5cFVTa2hEUEUzTUQ5NmVzTktPdU12eC1oRW5sYVdCaFduWFhnb2lrZg?oc=5",
       "locator": null,
-      "published_at": "2026-06-29"
+      "published_at": "2026-06-16"
     },
-    "extracted_at": "2026-10-29T12:07:33.443424",
+    "extracted_at": "2026-11-13T13:13:08.574545",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
     "derivation": null
@@ -369,6 +369,56 @@
     "derivation": null
   },
   {
+    "id": "clm_eebb6f7ce6",
+    "company_id": "anysphere-cursor",
+    "metric": "valuation",
+    "value": 60000000000.0,
+    "unit": "USD",
+    "raw_text": "SpaceX obtains right to buy AI start-up Cursor for $60bn",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPclFCNHFaSWF3cW9hNWREQmg3dU96Z29EaE52WGV2ejgtRFRqRkxPVF9QemhnMWkyS2VlRWxuQ2Q5R0NfeTF4WkRXbjd1OVZvUklibktsakc1Rkxfbl9sVGtLajhTTmF1WWE1QlZUakw5Zkp3RXZsbm9VeEdyRDlLNHloM0Y?oc=5",
+      "locator": null,
+      "published_at": "2026-04-21"
+    },
+    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_20bbc5efb1",
+    "company_id": "anysphere-cursor",
+    "metric": "valuation",
+    "value": 60000000000.0,
+    "unit": "USD",
+    "raw_text": "SpaceX Buys Cursor for $60B",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Business Model Analyst",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5MNUpmQ1JhTExPVURvZXFGN0RncmI0ZGw4QVdJTHBpX3hYMkhzdDlpTjM1cFF6ZXdtVFZaY1MySnZ5N1QtZTBVRENuVnFrLXFUbDI5VFBkdzVROVZRUFJzNlJBanctU0pPQlRsTmJsNHdkRXg4?oc=5",
+      "locator": null,
+      "published_at": "2026-06-29"
+    },
+    "extracted_at": "2026-10-29T12:07:33.443424",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_4c2f621f86",
     "company_id": "anysphere-cursor",
     "metric": "valuation",
@@ -390,32 +440,6 @@
     "extracted_at": "2026-09-05T09:07:28.177448",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_b9c6ad55f5",
-    "company_id": "anysphere-cursor",
-    "metric": "valuation",
-    "value": 60000000000.0,
-    "unit": null,
-    "raw_text": "SpaceX to Buy Cursor Developer Anysphere for $60 Billion",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "bloomingbit",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBMZ0NNX013Y3MyZ2kyY21lczM2bVM1bzdpUzNsSXk0dTBsZXU5cFVTa2hEUEUzTUQ5NmVzTktPdU12eC1oRW5sYVdCaFduWFhnb2lrZg?oc=5",
-      "locator": null,
-      "published_at": "2026-06-16"
-    },
-    "extracted_at": "2026-11-13T13:13:08.574545",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -1081,7 +1105,7 @@
       "locator": null,
       "published_at": "2026-06-16"
     },
-    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extracted_at": "2026-11-15T13:08:25.214807",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

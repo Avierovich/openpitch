@@ -196,6 +196,30 @@
     "derivation": null
   },
   {
+    "id": "clm_717e647a4c",
+    "company_id": "crusoe",
+    "metric": "open_roles",
+    "value": 7.0,
+    "unit": null,
+    "raw_text": "Department 7 Open roles",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "web",
+      "name": "crusoe.ai",
+      "url": "https://crusoe.ai/careers",
+      "locator": null,
+      "published_at": null
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.25,
+    "derivation": null
+  },
+  {
     "id": "clm_bcc37a7741",
     "company_id": "crusoe",
     "metric": "total_funding",
@@ -292,54 +316,6 @@
     "derivation": null
   },
   {
-    "id": "clm_e7c868dd96",
-    "company_id": "crusoe",
-    "metric": "total_funding",
-    "value": 3000000000.0,
-    "unit": "USD",
-    "raw_text": "Crusoe raises $3B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOM2xJbGg3YVAzcGxBVFcyQkxMSGh6eVJlenNhRzctOU9FMnRDSE9kanlqWXFKRVZYMVkwT3pMaHQxWDdOWkdJdWpobWdLWlB2YTNhSUNIOGtXVVlSVVN4cGNKMlNjTi1PeVlPWmFSSGgxbmhmN0s4NUh4QUZGaUE5ZU5NaFRVbTVJemFELVN4UUJqM18wb0hSMFhRVWNNZw?oc=5",
-      "locator": null,
-      "published_at": "2026-09-04"
-    },
-    "extracted_at": "2026-10-22T10:37:55.971484",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_73d31d71b1",
-    "company_id": "crusoe",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "$30B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOM2xJbGg3YVAzcGxBVFcyQkxMSGh6eVJlenNhRzctOU9FMnRDSE9kanlqWXFKRVZYMVkwT3pMaHQxWDdOWkdJdWpobWdLWlB2YTNhSUNIOGtXVVlSVVN4cGNKMlNjTi1PeVlPWmFSSGgxbmhmN0s4NUh4QUZGaUE5ZU5NaFRVbTVJemFELVN4UUJqM18wb0hSMFhRVWNNZw?oc=5",
-      "locator": null,
-      "published_at": "2026-09-04"
-    },
-    "extracted_at": "2026-10-22T10:37:55.971484",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_b96899e681",
     "company_id": "crusoe",
     "metric": "round_amount",
@@ -407,6 +383,54 @@
       "published_at": "2026-09-04"
     },
     "extracted_at": "2026-09-04T09:41:05.539009",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_e7c868dd96",
+    "company_id": "crusoe",
+    "metric": "total_funding",
+    "value": 3000000000.0,
+    "unit": "USD",
+    "raw_text": "Crusoe raises $3B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOM2xJbGg3YVAzcGxBVFcyQkxMSGh6eVJlenNhRzctOU9FMnRDSE9kanlqWXFKRVZYMVkwT3pMaHQxWDdOWkdJdWpobWdLWlB2YTNhSUNIOGtXVVlSVVN4cGNKMlNjTi1PeVlPWmFSSGgxbmhmN0s4NUh4QUZGaUE5ZU5NaFRVbTVJemFELVN4UUJqM18wb0hSMFhRVWNNZw?oc=5",
+      "locator": null,
+      "published_at": "2026-09-04"
+    },
+    "extracted_at": "2026-10-22T10:37:55.971484",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_73d31d71b1",
+    "company_id": "crusoe",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "$30B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOM2xJbGg3YVAzcGxBVFcyQkxMSGh6eVJlenNhRzctOU9FMnRDSE9kanlqWXFKRVZYMVkwT3pMaHQxWDdOWkdJdWpobWdLWlB2YTNhSUNIOGtXVVlSVVN4cGNKMlNjTi1PeVlPWmFSSGgxbmhmN0s4NUh4QUZGaUE5ZU5NaFRVbTVJemFELVN4UUJqM18wb0hSMFhRVWNNZw?oc=5",
+      "locator": null,
+      "published_at": "2026-09-04"
+    },
+    "extracted_at": "2026-10-22T10:37:55.971484",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -509,30 +533,6 @@
     "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_717e647a4c",
-    "company_id": "crusoe",
-    "metric": "open_roles",
-    "value": 7.0,
-    "unit": null,
-    "raw_text": "Department 7 Open roles",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "web",
-      "name": "crusoe.ai",
-      "url": "https://crusoe.ai/careers",
-      "locator": null,
-      "published_at": null
-    },
-    "extracted_at": "2026-11-13T13:13:08.574545",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.25,
     "derivation": null
   },
   {

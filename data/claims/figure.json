@@ -53,6 +53,30 @@
     "derivation": null
   },
   {
+    "id": "clm_814dd571de",
+    "company_id": "figure",
+    "metric": "valuation",
+    "value": 2600000000.0,
+    "unit": null,
+    "raw_text": "valued at $2.6 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQTkzZ2V3NWFURi0wSDlvbnpKcVQ4OGNVcldQajY1cmtXR2t4a0R0SlRMeDl0dy1PUERfeXMyQ1gzOUVkUlUxckQ5N29rUkl2dXZlUGRKUEtOd2hnTThPLUdkV0JmTHVfclpCZXVPVHl1WDZybVh4ZWpQVGZTbzZlQVI3R05KWVFSQ0VhZ3ktdkhsbTl1ZVk3LXZuQ3ZXbXB3Ni1adENmeXlhUdIBrwFBVV95cUxOQ09wZUlNaUxBTmFQcURYeGdNazl5emhvVC1MOWJvczBuNllmZUtVOXVidFk3MWRGTjB0dXdpNXZva29TeXRtR19nSTBzZDdhTDVLelVja0ZPQ1d5ekxmUUJkbi02cHRiY0d0MjNQTlptdTdRa0hadTJwQ1Q4MUZZYXk3Tkp4eV8tTWFXR3RWWkVJLUxuVWZXMnZuXy1BREVhZUs5Rk11bkMzallscm9N?oc=5",
+      "locator": null,
+      "published_at": "2024-02-29"
+    },
+    "extracted_at": "2026-10-23T10:33:17.606078",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_7ecaabd103",
     "company_id": "figure",
     "metric": "valuation",
@@ -177,27 +201,29 @@
     "derivation": null
   },
   {
-    "id": "clm_814dd571de",
+    "id": "clm_45299a0d54",
     "company_id": "figure",
-    "metric": "valuation",
-    "value": 2600000000.0,
-    "unit": null,
-    "raw_text": "valued at $2.6 billion",
-    "qualifiers": [],
+    "metric": "headcount",
+    "value": 21.0,
+    "unit": "months",
+    "raw_text": "a company that is only 21 months old",
+    "qualifiers": [
+      "rounded"
+    ],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
-      "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQTkzZ2V3NWFURi0wSDlvbnpKcVQ4OGNVcldQajY1cmtXR2t4a0R0SlRMeDl0dy1PUERfeXMyQ1gzOUVkUlUxckQ5N29rUkl2dXZlUGRKUEtOd2hnTThPLUdkV0JmTHVfclpCZXVPVHl1WDZybVh4ZWpQVGZTbzZlQVI3R05KWVFSQ0VhZ3ktdkhsbTl1ZVk3LXZuQ3ZXbXB3Ni1adENmeXlhUQ?oc=5",
+      "type": "podcast",
+      "name": "No Priors",
+      "url": null,
       "locator": null,
-      "published_at": "2024-02-29"
+      "published_at": "2024-04-04"
     },
-    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extracted_at": "2026-11-15T13:08:25.214807",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
+    "base_confidence": 0.378,
     "derivation": null
   },
   {
@@ -399,32 +425,6 @@
     "extracted_at": "2026-09-04T09:41:05.539009",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_45299a0d54",
-    "company_id": "figure",
-    "metric": "headcount",
-    "value": 21.0,
-    "unit": "months",
-    "raw_text": "a company that is only 21 months old",
-    "qualifiers": [
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "No Priors",
-      "url": null,
-      "locator": null,
-      "published_at": "2024-04-04"
-    },
-    "extracted_at": "2026-10-19T11:06:35.602420",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.378,
     "derivation": null
   },
   {

@@ -74,83 +74,6 @@
     "derivation": null
   },
   {
-    "id": "clm_277167e9bd",
-    "company_id": "hugging-face",
-    "metric": "arr",
-    "value": 150000000.0,
-    "unit": "USD",
-    "raw_text": "revenue jumps 50% to over $150M",
-    "qualifiers": [
-      "run_rate",
-      "rounded"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0NmYya0ZvYmNVZm5NR0c3c1BJbldNTklKUXdlRjR4Q3VFTDRQWTVSUUZrWGRxZUpPazl3QkwtM0FIMDgtWUtlTkhmTkpscnA1RjdrekZiR2c0NGN5SEZjQUx3U3NMYUx2djdXckU2LU1xUU4y?oc=5",
-      "locator": null,
-      "published_at": "2026-08-24"
-    },
-    "extracted_at": "2026-10-05T12:12:41.057527",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4252,
-    "derivation": null
-  },
-  {
-    "id": "clm_96e2e603c3",
-    "company_id": "hugging-face",
-    "metric": "revenue_growth",
-    "value": 50.0,
-    "unit": "percent",
-    "raw_text": "revenue jumps 50%",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0NmYya0ZvYmNVZm5NR0c3c1BJbldNTklKUXdlRjR4Q3VFTDRQWTVSUUZrWGRxZUpPazl3QkwtM0FIMDgtWUtlTkhmTkpscnA1RjdrekZiR2c0NGN5SEZjQUx3U3NMYUx2djdXckU2LU1xUU4y?oc=5",
-      "locator": null,
-      "published_at": "2026-08-24"
-    },
-    "extracted_at": "2026-10-05T12:12:41.057527",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_bc562e180f",
-    "company_id": "hugging-face",
-    "metric": "valuation",
-    "value": 12900000000.0,
-    "unit": "USD",
-    "raw_text": "Nvidia crushes $96.2B quarter and nears $12.9B Hugging Face deal",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "20VC (Harry Stebbings)",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-crushes-quarter-and-buys-hugging-face-openai-cuts-off-cursor-instinct-hits-25bn-valuation-and-the-race-for-ai-assistants-cognition-raises-at-46bn-linear-25bn-and-clay-7bn",
-      "locator": null,
-      "published_at": "2026-09-03"
-    },
-    "extracted_at": "2026-09-24T09:50:31.335914",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.252,
-    "derivation": null
-  },
-  {
     "id": "clm_140b53041b",
     "company_id": "hugging-face",
     "metric": "arr",
@@ -198,6 +121,32 @@
     "extracted_at": "2026-10-04T11:05:13.664288",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_bc562e180f",
+    "company_id": "hugging-face",
+    "metric": "valuation",
+    "value": 12900000000.0,
+    "unit": "USD",
+    "raw_text": "Nvidia crushes $96.2B quarter and nears $12.9B Hugging Face deal",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "20VC (Harry Stebbings)",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-crushes-quarter-and-buys-hugging-face-openai-cuts-off-cursor-instinct-hits-25bn-valuation-and-the-race-for-ai-assistants-cognition-raises-at-46bn-linear-25bn-and-clay-7bn",
+      "locator": null,
+      "published_at": "2026-09-03"
+    },
+    "extracted_at": "2026-09-24T09:50:31.335914",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.252,
     "derivation": null
   },
   {
@@ -251,6 +200,54 @@
     "derivation": null
   },
   {
+    "id": "clm_691ce39409",
+    "company_id": "hugging-face",
+    "metric": "total_funding",
+    "value": 235000000.0,
+    "unit": null,
+    "raw_text": "raises $235M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOc1RPR0Q2WVJHamd3d0lMSjhITjQwaWp4VXRPbEg1TEZ2RlZuYkczMm8xVWdTdnc0OTV1Qzg1U0hqNnN4dmlaVy0wUXIxRFRGSzlZdmNGdVdlSUIzQ3g4b0lFOUJqVzBaNVpfZThfUGs5Zy0tY2toQXBERklXTjFFMkJMenJGZU50WUFtRWFUYnEyZGcwUGhhX1dySlQ4bmQxVElZanFUME94SHJM?oc=5",
+      "locator": null,
+      "published_at": "2023-08-25"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_2b6338d716",
+    "company_id": "hugging-face",
+    "metric": "round_amount",
+    "value": 235000000.0,
+    "unit": null,
+    "raw_text": "raises $235M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOc1RPR0Q2WVJHamd3d0lMSjhITjQwaWp4VXRPbEg1TEZ2RlZuYkczMm8xVWdTdnc0OTV1Qzg1U0hqNnN4dmlaVy0wUXIxRFRGSzlZdmNGdVdlSUIzQ3g4b0lFOUJqVzBaNVpfZThfUGs5Zy0tY2toQXBERklXTjFFMkJMenJGZU50WUFtRWFUYnEyZGcwUGhhX1dySlQ4bmQxVElZanFUME94SHJM?oc=5",
+      "locator": null,
+      "published_at": "2023-08-25"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_a8c077f8c3",
     "company_id": "hugging-face",
     "metric": "valuation",
@@ -299,12 +296,36 @@
     "derivation": null
   },
   {
+    "id": "clm_0769727061",
+    "company_id": "hugging-face",
+    "metric": "total_funding",
+    "value": 235000000.0,
+    "unit": "USD",
+    "raw_text": "Hugging Face Raises $235 Million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "AI Business",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPS0J3cl83NGRxRnhaVzJkOFZpLTI3azh5MUpqclpiRlQtRDNWaWNDUXRJNW5NTXdIeURuOVZQcEVmT0lsZ3FEY1dyUWJPQkoxWWFNenp5bThkUjhJWUJGT2V2WmpvbjhLUEdwTHdSSnhRVVR1dlFLSGh6aVNoUUxLaGtlRDVUZWdENnRKWDl3UW51Y0czZmV6STZKQQ?oc=5",
+      "locator": null,
+      "published_at": "2023-08-28"
+    },
+    "extracted_at": "2026-11-07T12:16:01.893632",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_6f99945da2",
     "company_id": "hugging-face",
     "metric": "subscribers",
     "value": 16000.0,
     "unit": null,
-    "raw_text": "sold 16,000 units",
+    "raw_text": "sold 16,000 units off a single tweet",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -317,42 +338,45 @@
       "locator": null,
       "published_at": "2026-09-18"
     },
-    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extracted_at": "2026-11-15T13:08:25.214807",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.3,
     "derivation": null
   },
   {
-    "id": "clm_691ce39409",
+    "id": "clm_277167e9bd",
     "company_id": "hugging-face",
-    "metric": "total_funding",
-    "value": 235000000.0,
-    "unit": null,
-    "raw_text": "raises $235M",
-    "qualifiers": [],
+    "metric": "arr",
+    "value": 150000000.0,
+    "unit": "USD",
+    "raw_text": "revenue jumps 50% to over $150M",
+    "qualifiers": [
+      "run_rate",
+      "rounded"
+    ],
     "speaker": {
       "name": null,
       "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOc1RPR0Q2WVJHamd3d0lMSjhITjQwaWp4VXRPbEg1TEZ2RlZuYkczMm8xVWdTdnc0OTV1Qzg1U0hqNnN4dmlaVy0wUXIxRFRGSzlZdmNGdVdlSUIzQ3g4b0lFOUJqVzBaNVpfZThfUGs5Zy0tY2toQXBERklXTjFFMkJMenJGZU50WUFtRWFUYnEyZGcwUGhhX1dySlQ4bmQxVElZanFUME94SHJM?oc=5",
+      "name": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0NmYya0ZvYmNVZm5NR0c3c1BJbldNTklKUXdlRjR4Q3VFTDRQWTVSUUZrWGRxZUpPazl3QkwtM0FIMDgtWUtlTkhmTkpscnA1RjdrekZiR2c0NGN5SEZjQUx3U3NMYUx2djdXckU2LU1xUU4y?oc=5",
       "locator": null,
-      "published_at": "2023-08-25"
+      "published_at": "2026-08-24"
     },
-    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extracted_at": "2026-10-05T12:12:41.057527",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
+    "base_confidence": 0.4252,
     "derivation": null
   },
   {
-    "id": "clm_2b6338d716",
+    "id": "clm_96e2e603c3",
     "company_id": "hugging-face",
-    "metric": "round_amount",
-    "value": 235000000.0,
-    "unit": null,
-    "raw_text": "raises $235M",
+    "metric": "revenue_growth",
+    "value": 50.0,
+    "unit": "percent",
+    "raw_text": "revenue jumps 50%",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -360,12 +384,12 @@
     },
     "source": {
       "type": "news",
-      "name": "Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOc1RPR0Q2WVJHamd3d0lMSjhITjQwaWp4VXRPbEg1TEZ2RlZuYkczMm8xVWdTdnc0OTV1Qzg1U0hqNnN4dmlaVy0wUXIxRFRGSzlZdmNGdVdlSUIzQ3g4b0lFOUJqVzBaNVpfZThfUGs5Zy0tY2toQXBERklXTjFFMkJMenJGZU50WUFtRWFUYnEyZGcwUGhhX1dySlQ4bmQxVElZanFUME94SHJM?oc=5",
+      "name": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0NmYya0ZvYmNVZm5NR0c3c1BJbldNTklKUXdlRjR4Q3VFTDRQWTVSUUZrWGRxZUpPazl3QkwtM0FIMDgtWUtlTkhmTkpscnA1RjdrekZiR2c0NGN5SEZjQUx3U3NMYUx2djdXckU2LU1xUU4y?oc=5",
       "locator": null,
-      "published_at": "2023-08-25"
+      "published_at": "2026-08-24"
     },
-    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extracted_at": "2026-10-05T12:12:41.057527",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
     "derivation": null
@@ -470,30 +494,6 @@
     "extracted_at": "2026-11-09T14:24:11.277617",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_0769727061",
-    "company_id": "hugging-face",
-    "metric": "total_funding",
-    "value": 235000000.0,
-    "unit": "USD",
-    "raw_text": "Hugging Face Raises $235 Million",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "AI Business",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPS0J3cl83NGRxRnhaVzJkOFZpLTI3azh5MUpqclpiRlQtRDNWaWNDUXRJNW5NTXdIeURuOVZQcEVmT0lsZ3FEY1dyUWJPQkoxWWFNenp5bThkUjhJWUJGT2V2WmpvbjhLUEdwTHdSSnhRVVR1dlFLSGh6aVNoUUxLaGtlRDVUZWdENnRKWDl3UW51Y0czZmV6STZKQQ?oc=5",
-      "locator": null,
-      "published_at": "2023-08-28"
-    },
-    "extracted_at": "2026-11-07T12:16:01.893632",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -1537,7 +1537,7 @@
       "locator": null,
       "published_at": "2026-08-27"
     },
-    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extracted_at": "2026-11-15T13:08:25.214807",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

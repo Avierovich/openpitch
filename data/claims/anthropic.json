@@ -1,11 +1,11 @@
 [
   {
-    "id": "clm_8a9ea9c54e",
+    "id": "clm_e40cb319dd",
     "company_id": "anthropic",
-    "metric": "valuation",
-    "value": 1000000000000.0,
-    "unit": null,
-    "raw_text": "Anthropic raises $65 billion, nears $1T valuation ahead of IPO",
+    "metric": "round_amount",
+    "value": 30000000000.0,
+    "unit": "USD",
+    "raw_text": "Anthropic raises $30B Series G",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -13,23 +13,23 @@
     },
     "source": {
       "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNFJZbFFxa0ZvbjBzTzhhbm9jMnVPYTFJdW1JdjU4NE5qblhSVTJrQkxna0lneXo1T1IxZnE2UFd6dm82VDFpcW1HaWEwcVJDaUJtUGJHZWg4UDBUd0otWDNFbzVhbWFuQ3kzbm5odjNBeGw0YkFhMDhEcllVcDR4dXhnMmJ6MFhPZGt5YW1VNkZzWXNlbkJWcldn?oc=5",
+      "name": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaXY3cUsxbGhpVW9tUHAyc0MwNFlEOUJjRVFXYVBHNTBzZDNkakxyTW4yenQ0N3NUMGk0Zk1KbHVyVmprSWtJQzk3dGZjRUQ1QWhvbi00UnBjWlhsb0lPQnFYcDQxUW9BWFMteEVfekdvSG5acDRHU1pDQXB0M2M2WlhqclE1VGJfSUNXOXRZYmI2THlDYWp4MzlUcGdlWnB1enJpUXVUclBvZU5O?oc=5",
       "locator": null,
-      "published_at": "2026-05-28"
+      "published_at": "2026-02-12"
     },
-    "extracted_at": "2026-07-06T14:31:09.058208",
-    "extractor_model": "gemini-2.5-flash-lite",
+    "extracted_at": "2026-09-12T09:20:27.932122",
+    "extractor_model": "gemini-3.6-flash",
     "base_confidence": 0.525,
     "derivation": null
   },
   {
-    "id": "clm_fdf2a3fbc1",
+    "id": "clm_037cb88bfb",
     "company_id": "anthropic",
-    "metric": "total_funding",
-    "value": 65000000000.0,
-    "unit": null,
-    "raw_text": "Anthropic raises $65 billion, nears $1T valuation ahead of IPO",
+    "metric": "valuation",
+    "value": 380000000000.0,
+    "unit": "USD",
+    "raw_text": "at $380B valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -37,14 +37,67 @@
     },
     "source": {
       "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNFJZbFFxa0ZvbjBzTzhhbm9jMnVPYTFJdW1JdjU4NE5qblhSVTJrQkxna0lneXo1T1IxZnE2UFd6dm82VDFpcW1HaWEwcVJDaUJtUGJHZWg4UDBUd0otWDNFbzVhbWFuQ3kzbm5odjNBeGw0YkFhMDhEcllVcDR4dXhnMmJ6MFhPZGt5YW1VNkZzWXNlbkJWcldn?oc=5",
+      "name": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaXY3cUsxbGhpVW9tUHAyc0MwNFlEOUJjRVFXYVBHNTBzZDNkakxyTW4yenQ0N3NUMGk0Zk1KbHVyVmprSWtJQzk3dGZjRUQ1QWhvbi00UnBjWlhsb0lPQnFYcDQxUW9BWFMteEVfekdvSG5acDRHU1pDQXB0M2M2WlhqclE1VGJfSUNXOXRZYmI2THlDYWp4MzlUcGdlWnB1enJpUXVUclBvZU5O?oc=5",
       "locator": null,
-      "published_at": "2026-05-28"
+      "published_at": "2026-02-12"
     },
-    "extracted_at": "2026-07-06T14:31:09.058208",
-    "extractor_model": "gemini-2.5-flash-lite",
+    "extracted_at": "2026-09-12T09:20:27.932122",
+    "extractor_model": "gemini-3.6-flash",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_bdcf918db1",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 1400000000000.0,
+    "unit": "USD",
+    "raw_text": "Anthropic targets $1.4TRN IPO valuation",
+    "qualifiers": [
+      "forward_looking",
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "20VC (Harry Stebbings)",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-jensen-huang-investigation-what-happens-now-sequoia-leave-london-close-scout-program-and-end-evergreen-fund-nasdaq-loses-25trn-in-24-hours-anthropic-targets-14trn-ipo-valuation",
+      "locator": null,
+      "published_at": "2026-11-12"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.189,
+    "derivation": null
+  },
+  {
+    "id": "clm_3eefad7792",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 1000000000000.0,
+    "unit": "USD",
+    "raw_text": "Anthropic targets $1T IPO valuation",
+    "qualifiers": [
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "20VC (Harry Stebbings)",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-jensen-huang-investigation-what-happens-now-sequoia-leave-london-close-scout-program-and-end-evergreen-fund-nasdaq-loses-25trn-in-24-hours-anthropic-targets-14trn-ipo-valuation",
+      "locator": null,
+      "published_at": "2026-11-12"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.21,
     "derivation": null
   },
   {
@@ -120,39 +173,12 @@
     "derivation": null
   },
   {
-    "id": "clm_bdcf918db1",
+    "id": "clm_042dcb1737",
     "company_id": "anthropic",
-    "metric": "valuation",
-    "value": 1400000000000.0,
+    "metric": "arr",
+    "value": 600000000000.0,
     "unit": "USD",
-    "raw_text": "Anthropic targets $1.4TRN IPO valuation",
-    "qualifiers": [
-      "forward_looking",
-      "run_rate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "20VC (Harry Stebbings)",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-jensen-huang-investigation-what-happens-now-sequoia-leave-london-close-scout-program-and-end-evergreen-fund-nasdaq-loses-25trn-in-24-hours-anthropic-targets-14trn-ipo-valuation",
-      "locator": null,
-      "published_at": "2026-11-12"
-    },
-    "extracted_at": "2026-11-13T13:13:08.574545",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.189,
-    "derivation": null
-  },
-  {
-    "id": "clm_3eefad7792",
-    "company_id": "anthropic",
-    "metric": "valuation",
-    "value": 1000000000000.0,
-    "unit": "USD",
-    "raw_text": "Anthropic targets $1T IPO valuation",
+    "raw_text": "Goldman Sachs expects Anthropic revenue to exceed $600bn by 2030",
     "qualifiers": [
       "forward_looking"
     ],
@@ -161,15 +187,142 @@
       "role": "unknown"
     },
     "source": {
-      "type": "podcast",
-      "name": "20VC (Harry Stebbings)",
-      "url": "https://thetwentyminutevc.libsyn.com/20vc-jensen-huang-investigation-what-happens-now-sequoia-leave-london-close-scout-program-and-end-evergreen-fund-nasdaq-loses-25trn-in-24-hours-anthropic-targets-14trn-ipo-valuation",
+      "type": "news",
+      "name": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc0tWeGNDOUh5S1RleHBrVDlUdGNiRjktVDZGbmtRNlBUcXkwbDRfNXBuSXZ4Yk1NNVBOUTZXNDRlc09LdDI0VlpKMlFRMUVCaVh6VndVSWlwT2NkNElsc1JxUDVZUWFYZ2pWY3NFTFNKQm9fZnk1YkNTZWV6dnFVc2s0T2o?oc=5",
       "locator": null,
-      "published_at": "2026-11-12"
+      "published_at": "2026-11-10"
     },
     "extracted_at": "2026-11-13T13:13:08.574545",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.21,
+    "base_confidence": 0.2625,
+    "derivation": null
+  },
+  {
+    "id": "clm_51211c768e",
+    "company_id": "anthropic",
+    "metric": "arr",
+    "value": 65000000000.0,
+    "unit": null,
+    "raw_text": "Anthropic revenue run rate tops $65 billion, source says",
+    "qualifiers": [
+      "run_rate",
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVEJ6S2RpblVGQzhVS083a3dqR3JpajJOUkJIVUZIS1ZkQ05PeW9TdkJUazFpRXNybXNDUUNnV3dfWTllcFdsYms2Mm53dGJwY1VyYnVYb0xYSTNwZWoyaC1vM0FDVWJtTlh6VjFyTGxGUUNaYkg0VDdzNlhjMDJ4dUxJVHQzY0dUaWdKd2t3d0NoWk5IQU52bDRXWTJxZWNFdThJ?oc=5",
+      "locator": null,
+      "published_at": "2026-08-17"
+    },
+    "extracted_at": "2026-10-30T12:02:43.452733",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2835,
+    "derivation": null
+  },
+  {
+    "id": "clm_4d08af9428",
+    "company_id": "anthropic",
+    "metric": "arr",
+    "value": 81000000000.0,
+    "unit": null,
+    "raw_text": "Anthropic Says Its Revenue Run Rate Jumped to an $81 Billion Run Rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZ2Jwd3hfa2VQNGpKSzJoZEtnQzVDUlpzOWJ0YU5YUjhpSTN2cEhxT19QMHNzRjVYSmlDUEdVdWtqTEdyYkRYb3o3VDZlc1Z0cGlLbWc0ZzBxWi1UUUxMNUc2WDRSSks3QUdzMzA4eGJmdHNKLTFldGZfVG9UZ3JWN0hfdkJ5YTRNRDBkTUpRek8yd2d4NXRia0Jvdw?oc=5",
+      "locator": null,
+      "published_at": "2026-11-11"
+    },
+    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.3375,
+    "derivation": null
+  },
+  {
+    "id": "clm_41ae2b5a08",
+    "company_id": "anthropic",
+    "metric": "arr",
+    "value": 81000000000.0,
+    "unit": null,
+    "raw_text": "Anthropic Says Its Revenue Run Rate Jumped to an $81 Billion Run Rate",
+    "qualifiers": [
+      "run_rate"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdXBpaWYxSjlWekFLZVh6endRckZ5VDRZbS1UUTlNSV9wQ2pyY1BMRDgxQTF3OEt1YTBJYnNJLWlGT3g1NnEwX1ZsdVZqa3pVcG9vb01YQ1d4Qy1OSkxDODVnMm9SaVA1dDVIb0Z1dEsyeUg0WnE5SWpBYjBsWmlBZHI2NEhEQjlyOGJvZXZzdktaVnNGVUlSd2JDSHNTYU56Y2FrNndEWkNfaHVRTy1KWlp3?oc=5",
+      "locator": null,
+      "published_at": "2026-11-11"
+    },
+    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extractor_model": "gemini-3.7-flash",
+    "base_confidence": 0.3375,
+    "derivation": null
+  },
+  {
+    "id": "clm_8a9ea9c54e",
+    "company_id": "anthropic",
+    "metric": "valuation",
+    "value": 1000000000000.0,
+    "unit": null,
+    "raw_text": "Anthropic raises $65 billion, nears $1T valuation ahead of IPO",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNFJZbFFxa0ZvbjBzTzhhbm9jMnVPYTFJdW1JdjU4NE5qblhSVTJrQkxna0lneXo1T1IxZnE2UFd6dm82VDFpcW1HaWEwcVJDaUJtUGJHZWg4UDBUd0otWDNFbzVhbWFuQ3kzbm5odjNBeGw0YkFhMDhEcllVcDR4dXhnMmJ6MFhPZGt5YW1VNkZzWXNlbkJWcldn?oc=5",
+      "locator": null,
+      "published_at": "2026-05-28"
+    },
+    "extracted_at": "2026-07-06T14:31:09.058208",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_fdf2a3fbc1",
+    "company_id": "anthropic",
+    "metric": "total_funding",
+    "value": 65000000000.0,
+    "unit": null,
+    "raw_text": "Anthropic raises $65 billion, nears $1T valuation ahead of IPO",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNFJZbFFxa0ZvbjBzTzhhbm9jMnVPYTFJdW1JdjU4NE5qblhSVTJrQkxna0lneXo1T1IxZnE2UFd6dm82VDFpcW1HaWEwcVJDaUJtUGJHZWg4UDBUd0otWDNFbzVhbWFuQ3kzbm5odjNBeGw0YkFhMDhEcllVcDR4dXhnMmJ6MFhPZGt5YW1VNkZzWXNlbkJWcldn?oc=5",
+      "locator": null,
+      "published_at": "2026-05-28"
+    },
+    "extracted_at": "2026-07-06T14:31:09.058208",
+    "extractor_model": "gemini-2.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -196,32 +349,6 @@
     "extracted_at": "2026-11-13T13:13:08.574545",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.3675,
-    "derivation": null
-  },
-  {
-    "id": "clm_042dcb1737",
-    "company_id": "anthropic",
-    "metric": "arr",
-    "value": 600000000000.0,
-    "unit": "USD",
-    "raw_text": "Goldman Sachs expects Anthropic revenue to exceed $600bn by 2030",
-    "qualifiers": [
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc0tWeGNDOUh5S1RleHBrVDlUdGNiRjktVDZGbmtRNlBUcXkwbDRfNXBuSXZ4Yk1NNVBOUTZXNDRlc09LdDI0VlpKMlFRMUVCaVh6VndVSWlwT2NkNElsc1JxUDVZUWFYZ2pWY3NFTFNKQm9fZnk1YkNTZWV6dnFVc2s0T2o?oc=5",
-      "locator": null,
-      "published_at": "2026-11-10"
-    },
-    "extracted_at": "2026-11-13T13:13:08.574545",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2625,
     "derivation": null
   },
   {
@@ -274,54 +401,6 @@
     "extracted_at": "2026-11-13T13:13:08.574545",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2625,
-    "derivation": null
-  },
-  {
-    "id": "clm_e40cb319dd",
-    "company_id": "anthropic",
-    "metric": "round_amount",
-    "value": 30000000000.0,
-    "unit": "USD",
-    "raw_text": "Anthropic raises $30B Series G",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaXY3cUsxbGhpVW9tUHAyc0MwNFlEOUJjRVFXYVBHNTBzZDNkakxyTW4yenQ0N3NUMGk0Zk1KbHVyVmprSWtJQzk3dGZjRUQ1QWhvbi00UnBjWlhsb0lPQnFYcDQxUW9BWFMteEVfekdvSG5acDRHU1pDQXB0M2M2WlhqclE1VGJfSUNXOXRZYmI2THlDYWp4MzlUcGdlWnB1enJpUXVUclBvZU5O?oc=5",
-      "locator": null,
-      "published_at": "2026-02-12"
-    },
-    "extracted_at": "2026-09-12T09:20:27.932122",
-    "extractor_model": "gemini-3.6-flash",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_037cb88bfb",
-    "company_id": "anthropic",
-    "metric": "valuation",
-    "value": 380000000000.0,
-    "unit": "USD",
-    "raw_text": "at $380B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaXY3cUsxbGhpVW9tUHAyc0MwNFlEOUJjRVFXYVBHNTBzZDNkakxyTW4yenQ0N3NUMGk0Zk1KbHVyVmprSWtJQzk3dGZjRUQ1QWhvbi00UnBjWlhsb0lPQnFYcDQxUW9BWFMteEVfekdvSG5acDRHU1pDQXB0M2M2WlhqclE1VGJfSUNXOXRZYmI2THlDYWp4MzlUcGdlWnB1enJpUXVUclBvZU5O?oc=5",
-      "locator": null,
-      "published_at": "2026-02-12"
-    },
-    "extracted_at": "2026-09-12T09:20:27.932122",
-    "extractor_model": "gemini-3.6-flash",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -623,33 +702,6 @@
     "extracted_at": "2026-10-30T12:02:43.452733",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_51211c768e",
-    "company_id": "anthropic",
-    "metric": "arr",
-    "value": 65000000000.0,
-    "unit": null,
-    "raw_text": "Anthropic revenue run rate tops $65 billion, source says",
-    "qualifiers": [
-      "run_rate",
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVEJ6S2RpblVGQzhVS083a3dqR3JpajJOUkJIVUZIS1ZkQ05PeW9TdkJUazFpRXNybXNDUUNnV3dfWTllcFdsYms2Mm53dGJwY1VyYnVYb0xYSTNwZWoyaC1vM0FDVWJtTlh6VjFyTGxGUUNaYkg0VDdzNlhjMDJ4dUxJVHQzY0dUaWdKd2t3d0NoWk5IQU52bDRXWTJxZWNFdThJ?oc=5",
-      "locator": null,
-      "published_at": "2026-08-17"
-    },
-    "extracted_at": "2026-10-30T12:02:43.452733",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.2835,
     "derivation": null
   },
   {
@@ -3199,10 +3251,10 @@
     "derivation": null
   },
   {
-    "id": "drv_16ec0a1de9",
+    "id": "drv_57c4e2c1c0",
     "company_id": "anthropic",
     "metric": "revenue_multiple",
-    "value": 61.35,
+    "value": 23.31,
     "unit": "x",
     "raw_text": "revenue_multiple = valuation ÷ ARR",
     "qualifiers": [],
@@ -3217,14 +3269,14 @@
       "locator": null,
       "published_at": "2026-10-29"
     },
-    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extracted_at": "2026-11-15T13:08:25.214807",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {
       "kind": "identity",
       "formula": "revenue_multiple = valuation ÷ ARR",
       "inputs": [
-        "clm_8a9ea9c54e",
+        "clm_037cb88bfb",
         "clm_379838768e"
       ]
     }
@@ -3248,7 +3300,7 @@
       "locator": null,
       "published_at": "2026-10-22"
     },
-    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extracted_at": "2026-11-15T13:08:25.214807",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

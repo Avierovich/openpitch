@@ -257811,5 +257811,1201 @@
   "avoma:e36278781718da9b": [],
   "bionic:54abdc1a59b5b506": [],
   "bionic-reading:88e1b489aa650631": [],
-  "brava:5cfc3ad8708dfe00": []
+  "brava:5cfc3ad8708dfe00": [],
+  "anthropic:d44a7d23ca44d1d3": [],
+  "applied-intuition:a19928aaf058fb14": [
+    {
+      "id": "clm_da8f3aa7bb",
+      "company_id": "applied-intuition",
+      "metric": "headcount",
+      "value": 1000.0,
+      "unit": null,
+      "raw_text": "1,000 engineers",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "web",
+        "name": "appliedintuition.com",
+        "url": "https://appliedintuition.com/careers",
+        "locator": null,
+        "published_at": null
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.7-flash",
+      "base_confidence": 0.25,
+      "derivation": null
+    }
+  ],
+  "applied-intuition:ecda053dedd1f95b": [
+    {
+      "id": "clm_da8f3aa7bb",
+      "company_id": "applied-intuition",
+      "metric": "headcount",
+      "value": 1000.0,
+      "unit": null,
+      "raw_text": "1,000 engineers",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "web",
+        "name": "appliedintuition.com",
+        "url": "https://appliedintuition.com/jobs",
+        "locator": null,
+        "published_at": null
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.7-flash",
+      "base_confidence": 0.25,
+      "derivation": null
+    }
+  ],
+  "bright-health:f5b6cef4d487c8a5": [],
+  "deepseek-ai:96b3f08bd168d42b": [],
+  "fluidstack:2f91fadbefb4540d": [
+    {
+      "id": "clm_498460c9a4",
+      "company_id": "fluidstack",
+      "metric": "open_roles",
+      "value": 251.0,
+      "unit": null,
+      "raw_text": "251 open",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "web",
+        "name": "fluidstack.io",
+        "url": "https://fluidstack.io/careers",
+        "locator": null,
+        "published_at": null
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.25,
+      "derivation": null
+    }
+  ],
+  "fluidstack:ea49541d9b961b4c": [
+    {
+      "id": "clm_498460c9a4",
+      "company_id": "fluidstack",
+      "metric": "open_roles",
+      "value": 251.0,
+      "unit": null,
+      "raw_text": "251 open",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "web",
+        "name": "fluidstack.io",
+        "url": "https://fluidstack.io/jobs",
+        "locator": null,
+        "published_at": null
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.25,
+      "derivation": null
+    }
+  ],
+  "harvey:743d9542a2762a28": [],
+  "helsing:3542ecd5f9ab3104": [],
+  "hugging-face:9089ed7bd1a0219b": [
+    {
+      "id": "clm_393f030f1c",
+      "company_id": "hugging-face",
+      "metric": "total_funding",
+      "value": 15000000.0,
+      "unit": null,
+      "raw_text": "Hugging Face raises $15 million",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "news",
+        "name": "TechCrunch",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTEt1ZVFFSldtckVnQWFfOTJkSUhJa0Q5d1ZHOHpNZnFXUWJRcHlzdW5QVGpuYXZhRlp4NkJ2cWlLTld0NnhBcHZBcUNBUzluNW53ZkJkYzZsNG9sQ3RQc3dMS1VPZlZDOC1LMm1xYkFSZEdiU1IxZFpnR0tMTmljNzRxZFk5R3doZFpPRU4yYV9vT2R4amhKVVZlMDJDZGtmTkMyNWhxanp5YzVlMWF5RmVscEF1eE1PTTFtczdfSUw4REk?oc=5",
+        "locator": null,
+        "published_at": "2019-12-17"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.375,
+      "derivation": null
+    }
+  ],
+  "isomorphic:9173c0364a0105fe": [
+    {
+      "id": "clm_6d13a17bdc",
+      "company_id": "isomorphic",
+      "metric": "total_funding",
+      "value": 2000000000.0,
+      "unit": "USD",
+      "raw_text": "Google’s Isomorphic Labs reportedly eyeing more than $2B in new funding round",
+      "qualifiers": [
+        "unconfirmed",
+        "forward_looking"
+      ],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQkNNUnk2WW9VNk5LZTdBUVhoR2Y5R1FONkZZbFZMN1RRY09CODdyVFZybzAxcU0wMDQ0VlA1dVNBVFJ2dFVYWkNsLUdqUFFRMGtjX2dHSFphTnp4NFdCcjhvdjR2T0l2R3lRTjdlY0FZWlJtenZ2MENwTzNBbkhxek5ESjEtN1lK?oc=5",
+        "locator": null,
+        "published_at": "2026-05-09"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.2205,
+      "derivation": null
+    }
+  ],
+  "isomorphic:ce21a0d2d79354b4": [],
+  "mercor:f79c974e358344d2": [],
+  "mercor:72689c4beb64a6ac": [],
+  "moonshot:7a3beb9971e7ab51": [
+    {
+      "id": "clm_38f8e78ec8",
+      "company_id": "moonshot",
+      "metric": "valuation",
+      "value": 50000000000.0,
+      "unit": "USD",
+      "raw_text": "Kimi Valued at $50B",
+      "qualifiers": [
+        "unconfirmed"
+      ],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "36Kr",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9KRDF2d0hvcGFVQVQxLVRiTFdsYmVEQWZqQVlkNjRyc29oQ2RyQ0FJeTg2NDJ3dU5vbFhUVXdUM0licFVNMU5UYWdPZERZYzNyUVlZ?oc=5",
+        "locator": null,
+        "published_at": "2026-11-16"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.315,
+      "derivation": null
+    }
+  ],
+  "openai:743d9542a2762a28": [],
+  "openai:677f55e29bbfa392": [
+    {
+      "id": "clm_33767b3e6f",
+      "company_id": "openai",
+      "metric": "round_amount",
+      "value": 15000000000.0,
+      "unit": "USD",
+      "raw_text": "OpenAI raises $15 billion at $1.25 trillion valuation, CNBC reports",
+      "qualifiers": [
+        "unconfirmed"
+      ],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Crypto Briefing",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTnBmN1hrb05GTHlPeFRxSlVjc01BTDZ2UjNiUENINl9EVkN3SldwbS1MVHhaZ0sxRjVJZ24wQnNzem1sUGZOZFJwdm55Z3UwcDY4cXBsTFprVlZZTlZ2eEVPZmVpN2JOa0lkd1RBNVlSUmR0cUdPZGFzZWFmbzVjYV9hQUFaWkFOMzg5QlZiZkdpWE9GTXc?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.315,
+      "derivation": null
+    },
+    {
+      "id": "clm_42a9b54dda",
+      "company_id": "openai",
+      "metric": "valuation",
+      "value": 1250000000000.0,
+      "unit": "USD",
+      "raw_text": "$1.25 trillion valuation",
+      "qualifiers": [
+        "unconfirmed"
+      ],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Crypto Briefing",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTnBmN1hrb05GTHlPeFRxSlVjc01BTDZ2UjNiUENINl9EVkN3SldwbS1MVHhaZ0sxRjVJZ24wQnNzem1sUGZOZFJwdm55Z3UwcDY4cXBsTFprVlZZTlZ2eEVPZmVpN2JOa0lkd1RBNVlSUmR0cUdPZGFzZWFmbzVjYV9hQUFaWkFOMzg5QlZiZkdpWE9GTXc?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.315,
+      "derivation": null
+    }
+  ],
+  "project-prometheus:e086dd463e872a79": [
+    {
+      "id": "clm_762757904f",
+      "company_id": "project-prometheus",
+      "metric": "total_funding",
+      "value": 12000000000.0,
+      "unit": null,
+      "raw_text": "Prometheus Raises $12 Billion",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "news",
+        "name": "ITP.net",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRk9SeEc4NWFTdU1DanFwS0JYZVhkcGRlby1MN2NUa21tZGdoN2tTNXhxWVhSaThSMmJTbUU5LURacDk2bzJVSlVaUnhjOHlUSFB4MGJuUTNsWk5tTXhNMjJXbW5CazBXZ04zX0hNVEZiZlBnWWh4VjkzcTZ3aWcxOTRKc0lkdFZuNnVWV0ZVXzgxaWIyZ1JUc2tUMGg2ZjVnd213SkQ2NnZ3VDMyS1hlczJMdw?oc=5",
+        "locator": null,
+        "published_at": "2026-06-14"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.375,
+      "derivation": null
+    }
+  ],
+  "reflection-ai:bba0fcf5ad1a22f8": [
+    {
+      "id": "clm_8b4ccef88a",
+      "company_id": "reflection-ai",
+      "metric": "total_funding",
+      "value": 2000000000.0,
+      "unit": "USD",
+      "raw_text": "raises $2 billion",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Communications Today",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNV3VLcElROEhRZ2pTZ05oZHRCQ0hRaEcwUVktc3RfNV8xZWYxUmVraGx2dFFuRmROaXFfSWVqdVV1Vlc1WnljTDlBajFaSzI2aVBET3RLdnlub1R6cnJRdUtQQ2dkdUwxSmE4TGFzQTVOOTBwZWlfZS1odWdGd0RLRmJOZGFCYVNVNXdIdmI0dllOV3BMNTJPR0hLaDE?oc=5",
+        "locator": null,
+        "published_at": "2025-10-10"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    },
+    {
+      "id": "clm_5a835b3040",
+      "company_id": "reflection-ai",
+      "metric": "valuation",
+      "value": 8000000000.0,
+      "unit": "USD",
+      "raw_text": "valued at $8B",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Communications Today",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNV3VLcElROEhRZ2pTZ05oZHRCQ0hRaEcwUVktc3RfNV8xZWYxUmVraGx2dFFuRmROaXFfSWVqdVV1Vlc1WnljTDlBajFaSzI2aVBET3RLdnlub1R6cnJRdUtQQ2dkdUwxSmE4TGFzQTVOOTBwZWlfZS1odWdGd0RLRmJOZGFCYVNVNXdIdmI0dllOV3BMNTJPR0hLaDE?oc=5",
+        "locator": null,
+        "published_at": "2025-10-10"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    }
+  ],
+  "thinking-machines:5dbbf5b928194458": [
+    {
+      "id": "clm_7986d9bcda",
+      "company_id": "thinking-machines",
+      "metric": "valuation",
+      "value": 12000000000.0,
+      "unit": "USD",
+      "raw_text": "Thinking Machines Lab hits $12 billion in valuation",
+      "qualifiers": [
+        "unconfirmed"
+      ],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "The American Bazaar",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNzJYeFEzcVJ5eXVvQ3ZPQW5lMUxuS091WVpnWVdSRjVES0VmWW9zX1RjY29razN5TmhoSHNGeWlqdHpQWUlXSW45cUZnZ3hFV3o0aVpxZjNjUmIySGZPVGFCZ2o5OUd2Mnd3dTluU2hza3JoMHZSY0lGdlREZWZjdEJ6b0ZzcmJOSm1QYTZEMkd1NmtFXzlOM3FCem02Tmh6d2ZDeTRwbDFUWjBCc2cyZk1hN3MtaDFUN1NWaTlRVUE2cEdDb3pUVlBvZTNEZw?oc=5",
+        "locator": null,
+        "published_at": "2025-07-16"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.315,
+      "derivation": null
+    }
+  ],
+  "vast-data:5139c5c9db7c0213": [
+    {
+      "id": "clm_f01b4f8060",
+      "company_id": "vast-data",
+      "metric": "round_amount",
+      "value": 83000000.0,
+      "unit": "USD",
+      "raw_text": "raises $83 million",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "news",
+        "name": "calcalistech.com",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE45ZEhpRFJWcWNVdmNpNEk0aHV2TzA4NXhCMC1KM1RJdHRXNnFhVFc2S1F3ank4LVNQMWNzMGF3c2tVNldUcnQyX18xQjdJczJXS1NTQ1gwc29oRDRzeHhXMlJPdjhXNU1FZFZsNFJ2T2t4c1hheEdn?oc=5",
+        "locator": null,
+        "published_at": "2021-05-04"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.375,
+      "derivation": null
+    },
+    {
+      "id": "clm_ee2f33aa4c",
+      "company_id": "vast-data",
+      "metric": "valuation",
+      "value": 3700000000.0,
+      "unit": "USD",
+      "raw_text": "valuation to $3.7 billion",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "news",
+        "name": "calcalistech.com",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE45ZEhpRFJWcWNVdmNpNEk0aHV2TzA4NXhCMC1KM1RJdHRXNnFhVFc2S1F3ank4LVNQMWNzMGF3c2tVNldUcnQyX18xQjdJczJXS1NTQ1gwc29oRDRzeHhXMlJPdjhXNU1FZFZsNFJ2T2t4c1hheEdn?oc=5",
+        "locator": null,
+        "published_at": "2021-05-04"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.375,
+      "derivation": null
+    }
+  ],
+  "abundance:7dd1dda9fc0e161b": [],
+  "abundance:69e1c875d838b45a": [],
+  "acquired:50fb61dade2299c8": [],
+  "acquired:240ef3f8c4d14b80": [],
+  "acquired:7cc58764dcfdd6d6": [],
+  "acquired:9b51b92869003637": [],
+  "aeredium:18e333da77990466": [],
+  "agile-robots:689c492aa718dc48": [
+    {
+      "id": "clm_924aaca2cc",
+      "company_id": "agile-robots",
+      "metric": "total_funding",
+      "value": 500000000.0,
+      "unit": "USD",
+      "raw_text": "Agile Robots raises $500M funding",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "SiliconANGLE",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaXZ5VlRueEhEd3hNTnEtNVFFZ3FJWGV6Qm9RekVlaHEyQmdONHdfemhESXpHcFQzNnkyXzd0elFPamo5TVBSWjlWWDBZb0c4a01LUDJRT09ZOEt6S2lSRHNMbFY2Vi1LaFhPQzVPWTVCcjkyejBDUnY2UF9IcUZrS0xyQm9FMVBGZk1fUUhoWkxUaW02M1E2S0tVbUxwY3pzTkI1dHh3?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    },
+    {
+      "id": "clm_0d4b0e1891",
+      "company_id": "agile-robots",
+      "metric": "valuation",
+      "value": 8500000000.0,
+      "unit": "USD",
+      "raw_text": "$8.5B valuation",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "SiliconANGLE",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaXZ5VlRueEhEd3hNTnEtNVFFZ3FJWGV6Qm9RekVlaHEyQmdONHdfemhESXpHcFQzNnkyXzd0elFPamo5TVBSWjlWWDBZb0c4a01LUDJRT09ZOEt6S2lSRHNMbFY2Vi1LaFhPQzVPWTVCcjkyejBDUnY2UF9IcUZrS0xyQm9FMVBGZk1fUUhoWkxUaW02M1E2S0tVbUxwY3pzTkI1dHh3?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    }
+  ],
+  "agile-robots:06a7bf29b004e909": [
+    {
+      "id": "clm_6487e53e6d",
+      "company_id": "agile-robots",
+      "metric": "headcount",
+      "value": 2000.0,
+      "unit": null,
+      "raw_text": "Our 2,000+ R&D experts",
+      "qualifiers": [
+        "rounded"
+      ],
+      "speaker": {
+        "name": null,
+        "role": "exec"
+      },
+      "source": {
+        "type": "web",
+        "name": "agile-robots.com",
+        "url": "https://agile-robots.com",
+        "locator": null,
+        "published_at": null
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.45,
+      "derivation": null
+    }
+  ],
+  "agile-robots:9b4af1dc6ffd2315": [
+    {
+      "id": "clm_d9826e1fc1",
+      "company_id": "agile-robots",
+      "metric": "total_funding",
+      "value": 500000000.0,
+      "unit": "USD",
+      "raw_text": "Agile Robots Raises $500 Million",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Forbes",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQN2taQlMzeE15Nl8xM1F3c3JHbDNyNks4UEI3YVFCNERUX0NVeTh5akdMMm9GN21JcFk5bk1DT0hlbGs2QmFoVlRtT2N4NDZqRDM5SWtMQi1IeXZwTXBPek5NbnRxTE0yLUlsZFJoa2RoMWhCbkt0Q0ZjY3J0ZFV0UkllcHBKSWhxYUxNeTIxYW8xb3hBRXdlZnBWQjdsaHpfNEprcFdJQWFZeG9KOEs1WkxwVXR2MFRLd0JJRlpvZjlTV2Qtb3BmNzZJX3Uxb3hLUms4MkFn?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    },
+    {
+      "id": "clm_6516f27919",
+      "company_id": "agile-robots",
+      "metric": "valuation",
+      "value": 8500000000.0,
+      "unit": "USD",
+      "raw_text": "$8.5 Billion Valuation",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Forbes",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQN2taQlMzeE15Nl8xM1F3c3JHbDNyNks4UEI3YVFCNERUX0NVeTh5akdMMm9GN21JcFk5bk1DT0hlbGs2QmFoVlRtT2N4NDZqRDM5SWtMQi1IeXZwTXBPek5NbnRxTE0yLUlsZFJoa2RoMWhCbkt0Q0ZjY3J0ZFV0UkllcHBKSWhxYUxNeTIxYW8xb3hBRXdlZnBWQjdsaHpfNEprcFdJQWFZeG9KOEs1WkxwVXR2MFRLd0JJRlpvZjlTV2Qtb3BmNzZJX3Uxb3hLUms4MkFn?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    }
+  ],
+  "agile-robots:b2e3c7797e91dd48": [],
+  "agile-robots:a2dedbfbe22219c3": [
+    {
+      "id": "clm_1507dbd57b",
+      "company_id": "agile-robots",
+      "metric": "total_funding",
+      "value": 500000000.0,
+      "unit": "USD",
+      "raw_text": "Agile Robots raises $500m",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Silicon Republic",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVk5qbGNoODhIT2ZkM3hIZER1YkxOa3Z3R3pYVDZZMUdQSndZeFRqbzhYcGw0cmFOdHcydnhfZmxiQV9RckwyU29IMy1jVHgzdldBQzhJNFpjcjFMY3JXT3VhXzBGaDJHNG1MOUZJeldWbnZicXVnVjlFc0lFSkJtR2JwZ0VuLWg0UzZ1YWExTlFIZlZNTUZBaUhB?oc=5",
+        "locator": null,
+        "published_at": "2026-11-13"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    },
+    {
+      "id": "clm_c2b67e838e",
+      "company_id": "agile-robots",
+      "metric": "valuation",
+      "value": 8500000000.0,
+      "unit": "USD",
+      "raw_text": "$8.5bn valuation",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Silicon Republic",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVk5qbGNoODhIT2ZkM3hIZER1YkxOa3Z3R3pYVDZZMUdQSndZeFRqbzhYcGw0cmFOdHcydnhfZmxiQV9RckwyU29IMy1jVHgzdldBQzhJNFpjcjFMY3JXT3VhXzBGaDJHNG1MOUZJeldWbnZicXVnVjlFc0lFSkJtR2JwZ0VuLWg0UzZ1YWExTlFIZlZNTUZBaUhB?oc=5",
+        "locator": null,
+        "published_at": "2026-11-13"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    }
+  ],
+  "agile-robots:b69ee7ab21072f09": [
+    {
+      "id": "clm_29fab1e164",
+      "company_id": "agile-robots",
+      "metric": "total_funding",
+      "value": 500000000.0,
+      "unit": "USD",
+      "raw_text": "Agile Robots Raises $500M",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Unite.AI",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTkxtZEFtdkZBRmp5dXgtaTBPVmMzNkU5MDlGbVdlT3p6TGhpcTBNbGJhOXVqUk5nbmJNX215MVJhVkxldkx1OXo2UFBieXZOVkJFYzEtemQ5Q2lUeXZwV21QSTRVN0gwTUVRcnR4bnRoTUNXMHFncVliV2txUVN5ZWtEbkdWb2hMTS1mREpjdGwwYW82TGl6WnB3?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    },
+    {
+      "id": "clm_f864c9e1d1",
+      "company_id": "agile-robots",
+      "metric": "latest_round",
+      "value": 6.0,
+      "unit": "Series F",
+      "raw_text": "Series F",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Unite.AI",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTkxtZEFtdkZBRmp5dXgtaTBPVmMzNkU5MDlGbVdlT3p6TGhpcTBNbGJhOXVqUk5nbmJNX215MVJhVkxldkx1OXo2UFBieXZOVkJFYzEtemQ5Q2lUeXZwV21QSTRVN0gwTUVRcnR4bnRoTUNXMHFncVliV2txUVN5ZWtEbkdWb2hMTS1mREpjdGwwYW82TGl6WnB3?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    },
+    {
+      "id": "clm_0e06a27de1",
+      "company_id": "agile-robots",
+      "metric": "valuation",
+      "value": 8500000000.0,
+      "unit": "USD",
+      "raw_text": "$8.5B Valuation",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Unite.AI",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTkxtZEFtdkZBRmp5dXgtaTBPVmMzNkU5MDlGbVdlT3p6TGhpcTBNbGJhOXVqUk5nbmJNX215MVJhVkxldkx1OXo2UFBieXZOVkJFYzEtemQ5Q2lUeXZwV21QSTRVN0gwTUVRcnR4bnRoTUNXMHFncVliV2txUVN5ZWtEbkdWb2hMTS1mREpjdGwwYW82TGl6WnB3?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    }
+  ],
+  "agile-robots:1e492b0eb1fef1ec": [
+    {
+      "id": "clm_8aa22d8f0a",
+      "company_id": "agile-robots",
+      "metric": "total_funding",
+      "value": 500000000.0,
+      "unit": "USD",
+      "raw_text": "Agile Robots raises $500 mn",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Beinsure",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5SSnE3VjZXUVNpVXc1RUVTeFM4ZHNPams4RmZuLXVpbHhsS0hIajdpUmV6R3R2MUVvbEV5N3MxR0hGX3h6MHEtVXV1eHBsM25rVEhxcHZpdGhNcnNhTTRXR1Y5QTlKU2s5WWhEYlpYSVRDSFZXVk5LaXJOTkpNZw?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    },
+    {
+      "id": "clm_9ed22e84c3",
+      "company_id": "agile-robots",
+      "metric": "valuation",
+      "value": 8500000000.0,
+      "unit": "USD",
+      "raw_text": "$8.5 bn valuation",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Beinsure",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5SSnE3VjZXUVNpVXc1RUVTeFM4ZHNPams4RmZuLXVpbHhsS0hIajdpUmV6R3R2MUVvbEV5N3MxR0hGX3h6MHEtVXV1eHBsM25rVEhxcHZpdGhNcnNhTTRXR1Y5QTlKU2s5WWhEYlpYSVRDSFZXVk5LaXJOTkpNZw?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    }
+  ],
+  "agile-robots:74aab7a82fe93e4a": [
+    {
+      "id": "clm_e901a918ad",
+      "company_id": "agile-robots",
+      "metric": "total_funding",
+      "value": 500000000.0,
+      "unit": "USD",
+      "raw_text": "Agile Robots raises $500 million",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "jawlah.co",
+        "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5id1FCZnVrME9wamVjdUg0cWNNVGd0cWZzVmpVVDdzbGJmX0JTZ0pxakNxcHVyZ0hHQll6YUxrUQ?oc=5",
+        "locator": null,
+        "published_at": "2026-11-15"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    },
+    {
+      "id": "clm_bd2ab8bdc7",
+      "company_id": "agile-robots",
+      "metric": "valuation",
+      "value": 8500000000.0,
+      "unit": "USD",
+      "raw_text": "$8.5 billion valuation",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "jawlah.co",
+        "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5id1FCZnVrME9wamVjdUg0cWNNVGd0cWZzVmpVVDdzbGJmX0JTZ0pxakNxcHVyZ0hHQll6YUxrUQ?oc=5",
+        "locator": null,
+        "published_at": "2026-11-15"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    }
+  ],
+  "agile-robots:5abbe6e1250e5221": [
+    {
+      "id": "clm_ea2bf3ad14",
+      "company_id": "agile-robots",
+      "metric": "total_funding",
+      "value": 500000000.0,
+      "unit": "USD",
+      "raw_text": "Agile Robots Raises $500M",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "FinSMEs",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ1BXNFlIRVRHeENEOHNhWTNjWnYyTnZKTEpia25iTjYwTkgyOWFFc1l3aGpPRGUyTEdoLWtDNGxGUFVRbWhyVWlJazlnM1lOeVFBaDFnc3padnlLRXEtV1Iyc0N4bGdnbzBJNUgySVFNdURQYlVteElfM1pSVU01M0VfS0VvYlR3WjVpSElTcnMxUE5nVm1fQnRYY0I4TUExVVBHT2tn?oc=5",
+        "locator": null,
+        "published_at": "2026-11-13"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    },
+    {
+      "id": "clm_413eb76490",
+      "company_id": "agile-robots",
+      "metric": "latest_round",
+      "value": 6.0,
+      "unit": "Series F",
+      "raw_text": "Series F",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "FinSMEs",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ1BXNFlIRVRHeENEOHNhWTNjWnYyTnZKTEpia25iTjYwTkgyOWFFc1l3aGpPRGUyTEdoLWtDNGxGUFVRbWhyVWlJazlnM1lOeVFBaDFnc3padnlLRXEtV1Iyc0N4bGdnbzBJNUgySVFNdURQYlVteElfM1pSVU01M0VfS0VvYlR3WjVpSElTcnMxUE5nVm1fQnRYY0I4TUExVVBHT2tn?oc=5",
+        "locator": null,
+        "published_at": "2026-11-13"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    },
+    {
+      "id": "clm_cfa929a68f",
+      "company_id": "agile-robots",
+      "metric": "valuation",
+      "value": 8500000000.0,
+      "unit": "USD",
+      "raw_text": "$8.5 Billion Valuation",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "FinSMEs",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ1BXNFlIRVRHeENEOHNhWTNjWnYyTnZKTEpia25iTjYwTkgyOWFFc1l3aGpPRGUyTEdoLWtDNGxGUFVRbWhyVWlJazlnM1lOeVFBaDFnc3padnlLRXEtV1Iyc0N4bGdnbzBJNUgySVFNdURQYlVteElfM1pSVU01M0VfS0VvYlR3WjVpSElTcnMxUE5nVm1fQnRYY0I4TUExVVBHT2tn?oc=5",
+        "locator": null,
+        "published_at": "2026-11-13"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    }
+  ],
+  "agile-robots:077064aa8d7295b2": [
+    {
+      "id": "clm_d79c91a119",
+      "company_id": "agile-robots",
+      "metric": "total_funding",
+      "value": 500000000.0,
+      "unit": "USD",
+      "raw_text": "Agile Robots Raises $500M",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Wowtale",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBRNk1maG5YVzk0OHNKc25KQ0o1VEZWR2xwUHRrbTlKdTh6anU4SW10THJ2OVpaTTVFYXo0aFl1eDJYRzQ1RU9aVUJ5UkNXRE4zTjVj?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    },
+    {
+      "id": "clm_e7fbc30ed2",
+      "company_id": "agile-robots",
+      "metric": "latest_round",
+      "value": 6.0,
+      "unit": "Series F",
+      "raw_text": "Series F",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Wowtale",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBRNk1maG5YVzk0OHNKc25KQ0o1VEZWR2xwUHRrbTlKdTh6anU4SW10THJ2OVpaTTVFYXo0aFl1eDJYRzQ1RU9aVUJ5UkNXRE4zTjVj?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    },
+    {
+      "id": "clm_4090b954db",
+      "company_id": "agile-robots",
+      "metric": "valuation",
+      "value": 8500000000.0,
+      "unit": "USD",
+      "raw_text": "$8.5B Valuation",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Wowtale",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBRNk1maG5YVzk0OHNKc25KQ0o1VEZWR2xwUHRrbTlKdTh6anU4SW10THJ2OVpaTTVFYXo0aFl1eDJYRzQ1RU9aVUJ5UkNXRE4zTjVj?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    }
+  ],
+  "agile-robots:d84c35c6cf8e7fdc": [
+    {
+      "id": "clm_46c46c2dda",
+      "company_id": "agile-robots",
+      "metric": "total_funding",
+      "value": 500000000.0,
+      "unit": "USD",
+      "raw_text": "$500 Million",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Pulse 2.0",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLXBJTkNWdFo3d0Y4V2FnNXFKMUluLUJhSUY2aHRFRkdDNmlTMG9DaVBUYmNfMTY4U3A4WUJFTFlWbUdvM0lYMW91akdhX2s5ellqWVRGMUpka3doMXRKY3VyR2tscGZJdEFFQ0R1WFdfVEZTdWFmY25iVEtUX0ZSc1g2S0pfZjY3QmZUOGI1R1BrUmNsUjl6LXFYd2FwSFNkLTNtNEwwNUhBYWhZWm5KaFl1akUyODNFa2YtVg?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    },
+    {
+      "id": "clm_8e17376fe2",
+      "company_id": "agile-robots",
+      "metric": "latest_round",
+      "value": 6.0,
+      "unit": "Series F",
+      "raw_text": "Series F",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Pulse 2.0",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLXBJTkNWdFo3d0Y4V2FnNXFKMUluLUJhSUY2aHRFRkdDNmlTMG9DaVBUYmNfMTY4U3A4WUJFTFlWbUdvM0lYMW91akdhX2s5ellqWVRGMUpka3doMXRKY3VyR2tscGZJdEFFQ0R1WFdfVEZTdWFmY25iVEtUX0ZSc1g2S0pfZjY3QmZUOGI1R1BrUmNsUjl6LXFYd2FwSFNkLTNtNEwwNUhBYWhZWm5KaFl1akUyODNFa2YtVg?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    },
+    {
+      "id": "clm_3b4e715b4b",
+      "company_id": "agile-robots",
+      "metric": "valuation",
+      "value": 8500000000.0,
+      "unit": "USD",
+      "raw_text": "$8.5 Billion Valuation",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Pulse 2.0",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLXBJTkNWdFo3d0Y4V2FnNXFKMUluLUJhSUY2aHRFRkdDNmlTMG9DaVBUYmNfMTY4U3A4WUJFTFlWbUdvM0lYMW91akdhX2s5ellqWVRGMUpka3doMXRKY3VyR2tscGZJdEFFQ0R1WFdfVEZTdWFmY25iVEtUX0ZSc1g2S0pfZjY3QmZUOGI1R1BrUmNsUjl6LXFYd2FwSFNkLTNtNEwwNUhBYWhZWm5KaFl1akUyODNFa2YtVg?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    }
+  ],
+  "agile-robots:468358e9ebddb19a": [
+    {
+      "id": "clm_8749cf7a10",
+      "company_id": "agile-robots",
+      "metric": "total_funding",
+      "value": 500000000.0,
+      "unit": "USD",
+      "raw_text": "Agile Robots raises $500 million",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "UA.NEWS",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNlUtNmdJNW5BeDYwdDB1SW1CTTVtUUtEYmJoa1RvV3p0a3VjZDFTZksxMWJ1SkJNMzRiRFVRd1R1Qi01M0hMV0tUa1ZvMEhIUFAzWEpsdW9OM05KNjBPTlVZMFdodk4xUWx5ZWNjYi1ST2FUQTJXZ1dCeGQ4a3NKeEFsQTRYc1dXbzRycUgzRHFfUWJLZ2FtYXFuSXVYSi1Bcnc?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    },
+    {
+      "id": "clm_ac06ac1027",
+      "company_id": "agile-robots",
+      "metric": "valuation",
+      "value": 8500000000.0,
+      "unit": "USD",
+      "raw_text": "$8.5 billion valuation",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "UA.NEWS",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNlUtNmdJNW5BeDYwdDB1SW1CTTVtUUtEYmJoa1RvV3p0a3VjZDFTZksxMWJ1SkJNMzRiRFVRd1R1Qi01M0hMV0tUa1ZvMEhIUFAzWEpsdW9OM05KNjBPTlVZMFdodk4xUWx5ZWNjYi1ST2FUQTJXZ1dCeGQ4a3NKeEFsQTRYc1dXbzRycUgzRHFfUWJLZ2FtYXFuSXVYSi1Bcnc?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    }
+  ],
+  "agile-robots:658d575af37b2e0b": [
+    {
+      "id": "clm_817d21a6a0",
+      "company_id": "agile-robots",
+      "metric": "total_funding",
+      "value": 500000000.0,
+      "unit": "USD",
+      "raw_text": "Agile Robots Raises $500 Million",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Demokratis.co.id",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAwWUJuc3RZUUZucXRqd3BGRWZibjFWcTFsOGY0b2FoSFN0VUg1dWl6OGd5dHdKcUV4UkRRb2lCQk05SmZaZ0lDWTd4VmxqY3R1Y0xJNVJxdnEwVUxmUkhzSXo3VFhHdW9OaFE?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    },
+    {
+      "id": "clm_7cf93932e6",
+      "company_id": "agile-robots",
+      "metric": "valuation",
+      "value": 8500000000.0,
+      "unit": "USD",
+      "raw_text": "$8.5 Billion Valuation",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Demokratis.co.id",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAwWUJuc3RZUUZucXRqd3BGRWZibjFWcTFsOGY0b2FoSFN0VUg1dWl6OGd5dHdKcUV4UkRRb2lCQk05SmZaZ0lDWTd4VmxqY3R1Y0xJNVJxdnEwVUxmUkhzSXo3VFhHdW9OaFE?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    }
+  ],
+  "agile-robots:94f605ca90944659": [],
+  "agile-robots:7dd047b563a0f34c": [
+    {
+      "id": "clm_8286353cf3",
+      "company_id": "agile-robots",
+      "metric": "valuation",
+      "value": 8500000000.0,
+      "unit": "USD",
+      "raw_text": "$8.5 billion valuation",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "journalist"
+      },
+      "source": {
+        "type": "news",
+        "name": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNejV6UjB3dnh4R0JIQ0JQcHlxdG1JS0VrZkNNaXpiVEZtRlFVcEJYYjNSV0xEX3NQVkI3ZEs4c19Xc191SWs2WTg5WkI0ZktBSHFmaTJLX0lQVGFhM2ZLdjlVUHpyNmR1ZUI5TlJvUElNMkw5VW85bDRwRGdfZFJNREtORDNFNXVkSG9scmR6Y3dIVGRURXBRbDNGcWd6TkU1RFVJRFZoVEQ2ZW1mOXFHbVRLc01mWmxzb2dua2NoWQ?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.525,
+      "derivation": null
+    }
+  ],
+  "agile-robots:392c50a2f9025865": [
+    {
+      "id": "clm_8edef59c4a",
+      "company_id": "agile-robots",
+      "metric": "valuation",
+      "value": 8500000000.0,
+      "unit": null,
+      "raw_text": "$8.5 Billion Valuation",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "news",
+        "name": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcDBwNTBVZzdhQjlkVDRaQXRiM2dsVUJYdmx3c3NLeC1ZeUJfNDd3ZHdoOFZhdXh0S3FZdEk3dEVfXzA4UE80ckVLYnktSDFfbHRQRW94ZndRWndBV3B1SEFOaUNFbmhhbGZSS1BwelA4ZDB4MzRCQndMcDJfakNFSkQtZw?oc=5",
+        "locator": null,
+        "published_at": "2026-11-12"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.375,
+      "derivation": null
+    }
+  ],
+  "agile-robots:63a3521746254ce7": [
+    {
+      "id": "clm_efa42571be",
+      "company_id": "agile-robots",
+      "metric": "total_funding",
+      "value": 500000000.0,
+      "unit": null,
+      "raw_text": "$500 million funding",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "news",
+        "name": "Gasgoo",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNGJOUzRrQUlsUWMyOGdJY2tGZlVvNGdFdXpPX1FMN05mdlREYkdkTFg3eGlNLXBLWDlFQ0R1eFFEdm1sYlVlT0N2a0N2R1dJRUktdTAwM3hKMnNGaXBRX2F2VUFxcFYzcUJBVkluaHhPS211b2cxTnQ3VF9CUXFWMWdzdVAwQzl5ekVveWI1YURKbWdmUlhNUWhGaktTWWR1SXg4TDU3VHhpaGRpa21vT2ZnLVczeWRIMHQ5MXVtV1VoR3ZfMEFaa2xlYWwyQ0s3bWRDd2xn?oc=5",
+        "locator": null,
+        "published_at": "2026-11-13"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.375,
+      "derivation": null
+    },
+    {
+      "id": "clm_eb378d4d65",
+      "company_id": "agile-robots",
+      "metric": "valuation",
+      "value": 8500000000.0,
+      "unit": null,
+      "raw_text": "valuation reaches $8.5 billion",
+      "qualifiers": [],
+      "speaker": {
+        "name": null,
+        "role": "unknown"
+      },
+      "source": {
+        "type": "news",
+        "name": "Gasgoo",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNGJOUzRrQUlsUWMyOGdJY2tGZlVvNGdFdXpPX1FMN05mdlREYkdkTFg3eGlNLXBLWDlFQ0R1eFFEdm1sYlVlT0N2a0N2R1dJRUktdTAwM3hKMnNGaXBRX2F2VUFxcFYzcUJBVkluaHhPS211b2cxTnQ3VF9CUXFWMWdzdVAwQzl5ekVveWI1YURKbWdmUlhNUWhGaktTWWR1SXg4TDU3VHhpaGRpa21vT2ZnLVczeWRIMHQ5MXVtV1VoR3ZfMEFaa2xlYWwyQ0s3bWRDd2xn?oc=5",
+        "locator": null,
+        "published_at": "2026-11-13"
+      },
+      "extracted_at": "2026-11-16T14:10:18.144807",
+      "extractor_model": "gemini-3.5-flash-lite",
+      "base_confidence": 0.375,
+      "derivation": null
+    }
+  ],
+  "avoma:de9a2e1c90132338": [],
+  "avoma:66c4470c604ebf7f": [],
+  "banana:8b054d834b62ae55": [],
+  "bionic:6f241b4f1fa67755": [],
+  "bionic-reading:4d9f7d33f4d3eedd": [],
+  "bionic-reading:b999b14a70a89383": [],
+  "brava:ac503bcb714c7eba": []
 }

@@ -54,55 +54,30 @@
     "derivation": null
   },
   {
-    "id": "clm_dec6a25cf7",
-    "company_id": "isomorphic",
-    "metric": "round_amount",
-    "value": 5000000000.0,
-    "unit": "USD",
-    "raw_text": "Isomorphic Labs in talks to raise $5bn at a $50bn valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Next Web",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZG02VXRTMXhDV245bFo0NjlyUDJhcGJwYTgxX055QzNMY3hPdWhmeF9PUUluU010aVltOFd2Y056bW1HNTlrWnJCeTN2WTFUSU5aY3l2dVhrSlVQY2hXQUowa0p5UmVWejFEbzgzcFRBcG4zTlp1ZExlLXE3Z2RXRnZn?oc=5",
-      "locator": null,
-      "published_at": "2026-11-05"
-    },
-    "extracted_at": "2026-11-06T13:17:56.700625",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_2d069d1cc1",
+    "id": "clm_a042f01380",
     "company_id": "isomorphic",
     "metric": "valuation",
-    "value": 50000000000.0,
+    "value": 40000000000.0,
     "unit": "USD",
-    "raw_text": "$50bn valuation",
+    "raw_text": "Valuation of $40 Billion",
     "qualifiers": [
-      "unconfirmed"
+      "unconfirmed",
+      "forward_looking"
     ],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
       "type": "news",
-      "name": "The Next Web",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZG02VXRTMXhDV245bFo0NjlyUDJhcGJwYTgxX055QzNMY3hPdWhmeF9PUUluU010aVltOFd2Y056bW1HNTlrWnJCeTN2WTFUSU5aY3l2dVhrSlVQY2hXQUowa0p5UmVWejFEbzgzcFRBcG4zTlp1ZExlLXE3Z2RXRnZn?oc=5",
+      "name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNEJuX1pGT2FSdjBBY1RFOXp0Z21qSm1pRXRDTnQ0anh1UGRpMkR2dUR6OHNkNWRGaWZUNGdIdndfWnNzMjJodHdmQXVNMHJXeWJISURFVmJfS0pEdmxmMFRuZUNEaEhaa3QxUGRSRE9MMFVBcC1BRUVOYThlMFNURm1mM3JGcVBaRVhJR1NESXlIQTlJYldUWHUzSFhENGc5ZTVPTUdhTU9CMU0?oc=5",
       "locator": null,
-      "published_at": "2026-11-05"
+      "published_at": "2026-10-08"
     },
-    "extracted_at": "2026-11-06T13:17:56.700625",
+    "extracted_at": "2026-11-13T13:13:08.574545",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
+    "base_confidence": 0.1575,
     "derivation": null
   },
   {
@@ -130,33 +105,6 @@
     "extracted_at": "2026-10-17T09:18:38.037935",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.126,
-    "derivation": null
-  },
-  {
-    "id": "clm_a042f01380",
-    "company_id": "isomorphic",
-    "metric": "valuation",
-    "value": 40000000000.0,
-    "unit": "USD",
-    "raw_text": "Valuation of $40 Billion",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNEJuX1pGT2FSdjBBY1RFOXp0Z21qSm1pRXRDTnQ0anh1UGRpMkR2dUR6OHNkNWRGaWZUNGdIdndfWnNzMjJodHdmQXVNMHJXeWJISURFVmJfS0pEdmxmMFRuZUNEaEhaa3QxUGRSRE9MMFVBcC1BRUVOYThlMFNURm1mM3JGcVBaRVhJR1NESXlIQTlJYldUWHUzSFhENGc5ZTVPTUdhTU9CMU0?oc=5",
-      "locator": null,
-      "published_at": "2026-10-08"
-    },
-    "extracted_at": "2026-11-13T13:13:08.574545",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1575,
     "derivation": null
   },
   {
@@ -255,6 +203,85 @@
     "extracted_at": "2026-10-22T10:37:55.971484",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_6d13a17bdc",
+    "company_id": "isomorphic",
+    "metric": "total_funding",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "Google’s Isomorphic Labs reportedly eyeing more than $2B in new funding round",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQkNNUnk2WW9VNk5LZTdBUVhoR2Y5R1FONkZZbFZMN1RRY09CODdyVFZybzAxcU0wMDQ0VlA1dVNBVFJ2dFVYWkNsLUdqUFFRMGtjX2dHSFphTnp4NFdCcjhvdjR2T0l2R3lRTjdlY0FZWlJtenZ2MENwTzNBbkhxek5ESjEtN1lK?oc=5",
+      "locator": null,
+      "published_at": "2026-05-09"
+    },
+    "extracted_at": "2026-11-16T14:10:18.144807",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_dec6a25cf7",
+    "company_id": "isomorphic",
+    "metric": "round_amount",
+    "value": 5000000000.0,
+    "unit": "USD",
+    "raw_text": "Isomorphic Labs in talks to raise $5bn at a $50bn valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZG02VXRTMXhDV245bFo0NjlyUDJhcGJwYTgxX055QzNMY3hPdWhmeF9PUUluU010aVltOFd2Y056bW1HNTlrWnJCeTN2WTFUSU5aY3l2dVhrSlVQY2hXQUowa0p5UmVWejFEbzgzcFRBcG4zTlp1ZExlLXE3Z2RXRnZn?oc=5",
+      "locator": null,
+      "published_at": "2026-11-05"
+    },
+    "extracted_at": "2026-11-06T13:17:56.700625",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_2d069d1cc1",
+    "company_id": "isomorphic",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "$50bn valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZG02VXRTMXhDV245bFo0NjlyUDJhcGJwYTgxX055QzNMY3hPdWhmeF9PUUluU010aVltOFd2Y056bW1HNTlrWnJCeTN2WTFUSU5aY3l2dVhrSlVQY2hXQUowa0p5UmVWejFEbzgzcFRBcG4zTlp1ZExlLXE3Z2RXRnZn?oc=5",
+      "locator": null,
+      "published_at": "2026-11-05"
+    },
+    "extracted_at": "2026-11-06T13:17:56.700625",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {

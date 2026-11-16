@@ -76,6 +76,32 @@
     "derivation": null
   },
   {
+    "id": "clm_5ab815de56",
+    "company_id": "devin",
+    "metric": "valuation",
+    "value": 25000000000.0,
+    "unit": "USD",
+    "raw_text": "in talks to raise 'hundreds of millions' at $25B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSjdTdGpZTXpJX1lHTTFUQzI0OXhiUThyOGxQQ0hjZG1GV3M0VDg0UFlRZlRQcjNDb3BhaXg1aFFESUQ1clhKdi1QYkZmTDJxUk5QcnctNHZoSWpzc3lDVTBuNEhVTWtoZEtXNkVTVG50T3phS2Fzalp0OV8zRVJ1eXN4RlNwclYyYV9yZy1JRjIxdnhjV1F4WUJqVEs0bEZrNVlsQm96N2lmdGQ4MXZKalVMckJJc0U3SFdDeU9IX3hZTDA?oc=5",
+      "locator": null,
+      "published_at": "2026-04-23"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_a4222b4885",
     "company_id": "devin",
     "metric": "latest_round",
@@ -121,32 +147,6 @@
     "extracted_at": "2026-09-08T09:45:47.974558",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_800104ab54",
-    "company_id": "devin",
-    "metric": "valuation",
-    "value": 40000000000.0,
-    "unit": "USD",
-    "raw_text": "reportedly already in talks to raise at $40B valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOLWFmbDNSWW1tcGhWeHM2RnY1TDVJX2p3LU44b09XamFkTmRRWlVfNkxGMVJtWmxZczE3Q0Nyd2ZFaXVsNE1ybWo3U1A3V19fX2FSaklnWlRiQWlfTF90MVNWTlhNNDdHSFVEMGRNQUdSTGxLaDJUemhWZV9DcjRIRzFnbWtUVDNXWjZVcHFRSUJaUUNjNkw5bGl2dHlWOE81dGxmQmRHWXlhMGN1RXhxSmNVRkxSa2s?oc=5",
-      "locator": null,
-      "published_at": "2026-08-12"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -274,27 +274,30 @@
     "derivation": null
   },
   {
-    "id": "clm_34d2037cfc",
+    "id": "clm_9161e1e8a6",
     "company_id": "devin",
     "metric": "valuation",
-    "value": 2000000000.0,
-    "unit": "USD",
-    "raw_text": "Now Valued at $2B",
-    "qualifiers": [],
+    "value": 10000000000.0,
+    "unit": null,
+    "raw_text": "$10 Billion Valuation",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
     "speaker": {
       "name": null,
-      "role": "journalist"
+      "role": "unknown"
     },
     "source": {
       "type": "news",
-      "name": "AI Business",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbDlkbVQyRTlRWU1JVDMtR3Z6cjNGd003SThCdHNBYXBLeW43OC1uVDVydTAwSUJlUm9wRVdSYTE5emZoQUxKTTc1aGtEaFpEMXBCSG1uNTY0QUZISFhrUE5kdUZkTjhtV2RRU1VwUEtHUmRtemdBQjE4UXhWR1c3c0xhOWZ6SnBC?oc=5",
+      "name": "Decrypt",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5DSWpjNlFfWEE3bUZmZGhjZmNGNTh0NUxTb21qUDR6REtvQnVISDdXblJEcHM4Y3VRNEZES2g4WUMtVWozdDJ5RlZZdElacTNrNFM1d2FTZTJaaXJFS1VjMDRELVA5bnVGaW5fUUU0RQ?oc=5",
       "locator": null,
-      "published_at": "2024-04-30"
+      "published_at": "2025-07-24"
     },
-    "extracted_at": "2026-10-20T10:08:21.911749",
+    "extracted_at": "2026-11-15T13:08:25.214807",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
+    "base_confidence": 0.1575,
     "derivation": null
   },
   {
@@ -324,33 +327,6 @@
     "derivation": null
   },
   {
-    "id": "clm_9161e1e8a6",
-    "company_id": "devin",
-    "metric": "valuation",
-    "value": 10000000000.0,
-    "unit": null,
-    "raw_text": "$10 Billion Valuation",
-    "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "Decrypt",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5DSWpjNlFfWEE3bUZmZGhjZmNGNTh0NUxTb21qUDR6REtvQnVISDdXblJEcHM4Y3VRNEZES2g4WUMtVWozdDJ5RlZZdElacTNrNFM1d2FTZTJaaXJFS1VjMDRELVA5bnVGaW5fUUU0RQ?oc=5",
-      "locator": null,
-      "published_at": "2025-07-24"
-    },
-    "extracted_at": "2026-11-15T13:08:25.214807",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1575,
-    "derivation": null
-  },
-  {
     "id": "clm_e36a44d070",
     "company_id": "devin",
     "metric": "arr",
@@ -374,6 +350,56 @@
     "extracted_at": "2026-11-04T13:18:39.395579",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.3375,
+    "derivation": null
+  },
+  {
+    "id": "clm_800104ab54",
+    "company_id": "devin",
+    "metric": "valuation",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "raw_text": "reportedly already in talks to raise at $40B valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOLWFmbDNSWW1tcGhWeHM2RnY1TDVJX2p3LU44b09XamFkTmRRWlVfNkxGMVJtWmxZczE3Q0Nyd2ZFaXVsNE1ybWo3U1A3V19fX2FSaklnWlRiQWlfTF90MVNWTlhNNDdHSFVEMGRNQUdSTGxLaDJUemhWZV9DcjRIRzFnbWtUVDNXWjZVcHFRSUJaUUNjNkw5bGl2dHlWOE81dGxmQmRHWXlhMGN1RXhxSmNVRkxSa2s?oc=5",
+      "locator": null,
+      "published_at": "2026-08-12"
+    },
+    "extracted_at": "2026-09-08T09:45:47.974558",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
+    "id": "clm_34d2037cfc",
+    "company_id": "devin",
+    "metric": "valuation",
+    "value": 2000000000.0,
+    "unit": "USD",
+    "raw_text": "Now Valued at $2B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "AI Business",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbDlkbVQyRTlRWU1JVDMtR3Z6cjNGd003SThCdHNBYXBLeW43OC1uVDVydTAwSUJlUm9wRVdSYTE5emZoQUxKTTc1aGtEaFpEMXBCSG1uNTY0QUZISFhrUE5kdUZkTjhtV2RRU1VwUEtHUmRtemdBQjE4UXhWR1c3c0xhOWZ6SnBC?oc=5",
+      "locator": null,
+      "published_at": "2024-04-30"
+    },
+    "extracted_at": "2026-10-20T10:08:21.911749",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -646,32 +672,6 @@
     "extracted_at": "2026-10-11T11:49:13.286274",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_5ab815de56",
-    "company_id": "devin",
-    "metric": "valuation",
-    "value": 25000000000.0,
-    "unit": "USD",
-    "raw_text": "in talks to raise 'hundreds of millions' at $25B valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSjdTdGpZTXpJX1lHTTFUQzI0OXhiUThyOGxQQ0hjZG1GV3M0VDg0UFlRZlRQcjNDb3BhaXg1aFFESUQ1clhKdi1QYkZmTDJxUk5QcnctNHZoSWpzc3lDVTBuNEhVTWtoZEtXNkVTVG50T3phS2Fzalp0OV8zRVJ1eXN4RlNwclYyYV9yZy1JRjIxdnhjV1F4WUJqVEs0bEZrNVlsQm96N2lmdGQ4MXZKalVMckJJc0U3SFdDeU9IX3hZTDA?oc=5",
-      "locator": null,
-      "published_at": "2026-04-23"
-    },
-    "extracted_at": "2026-09-08T09:45:47.974558",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -2289,7 +2289,7 @@
       "locator": null,
       "published_at": "2026-09-02"
     },
-    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extracted_at": "2026-11-16T14:10:18.144807",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2608,
     "derivation": {

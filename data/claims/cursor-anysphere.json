@@ -354,32 +354,6 @@
     "derivation": null
   },
   {
-    "id": "clm_d759946ee7",
-    "company_id": "cursor-anysphere",
-    "metric": "valuation",
-    "value": 60000000000.0,
-    "unit": "USD",
-    "raw_text": "$60 billion Cursor deal",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Express Tribune",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT092U2tnVlhFSGF1cnBydm9wdlZDLTBDVHJBVTY1aXVvd2Q0YzhnYkgzNHJ1NE40bERvSTE0OXNqYWZiZXFVb09RUXczbTNHX3pERWVFc2RkcVU0NTRWa0NWcVhrZGVBaFp1NnlvSlplN3NoMl9ibXdtWkcybXVtZUt1MFF0b0k2cVpHWDhtNDJBU2NaR0RTazNvMlhsUFkxN1M2N3hMeXBsdW1raEEwRQ?oc=5",
-      "locator": null,
-      "published_at": "2026-06-16"
-    },
-    "extracted_at": "2026-10-19T11:06:35.602420",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
     "id": "clm_a4f2215208",
     "company_id": "cursor-anysphere",
     "metric": "valuation",
@@ -404,6 +378,32 @@
     "extracted_at": "2026-11-04T13:18:39.395579",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
+    "derivation": null
+  },
+  {
+    "id": "clm_d759946ee7",
+    "company_id": "cursor-anysphere",
+    "metric": "valuation",
+    "value": 60000000000.0,
+    "unit": "USD",
+    "raw_text": "$60 billion Cursor deal",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Express Tribune",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT092U2tnVlhFSGF1cnBydm9wdlZDLTBDVHJBVTY1aXVvd2Q0YzhnYkgzNHJ1NE40bERvSTE0OXNqYWZiZXFVb09RUXczbTNHX3pERWVFc2RkcVU0NTRWa0NWcVhrZGVBaFp1NnlvSlplN3NoMl9ibXdtWkcybXVtZUt1MFF0b0k2cVpHWDhtNDJBU2NaR0RTazNvMlhsUFkxN1M2N3hMeXBsdW1raEEwRQ?oc=5",
+      "locator": null,
+      "published_at": "2026-06-16"
+    },
+    "extracted_at": "2026-10-19T11:06:35.602420",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
@@ -674,7 +674,7 @@
       "locator": null,
       "published_at": "2026-04-18"
     },
-    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extracted_at": "2026-11-16T14:10:18.144807",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

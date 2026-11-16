@@ -1,5 +1,31 @@
 [
   {
+    "id": "clm_5818b2ce47",
+    "company_id": "ssi",
+    "metric": "valuation",
+    "value": 30000000000.0,
+    "unit": null,
+    "raw_text": "$30 billion valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "the-decoder.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZnFNRTFyaWtZdzdwaTRaZGlnR09YeTVGc2NfQ0Z2aDVtaFBfMUs5R3h2bWd2dlBqb0puQXhXNnRVTGVkSC1Yamx3Nk1LNGJlekxnVV8tWjJxUGtUM3BWcVNLN3QxYjZsWldLWVNHTHRHSmhLVTZiR0U4bWlKNWlqa0VSUlRBei1US2t1dnhCalk1bmdDc09Zb3BZSUYzekxudEJ6cXA0cTR3Zw?oc=5",
+      "locator": null,
+      "published_at": "2025-02-18"
+    },
+    "extracted_at": "2026-11-13T13:13:08.574545",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.315,
+    "derivation": null
+  },
+  {
     "id": "clm_acecd769d4",
     "company_id": "ssi",
     "metric": "valuation",
@@ -47,82 +73,6 @@
     "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.3675,
-    "derivation": null
-  },
-  {
-    "id": "clm_5818b2ce47",
-    "company_id": "ssi",
-    "metric": "valuation",
-    "value": 30000000000.0,
-    "unit": null,
-    "raw_text": "$30 billion valuation",
-    "qualifiers": [
-      "unconfirmed"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "the-decoder.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZnFNRTFyaWtZdzdwaTRaZGlnR09YeTVGc2NfQ0Z2aDVtaFBfMUs5R3h2bWd2dlBqb0puQXhXNnRVTGVkSC1Yamx3Nk1LNGJlekxnVV8tWjJxUGtUM3BWcVNLN3QxYjZsWldLWVNHTHRHSmhLVTZiR0U4bWlKNWlqa0VSUlRBei1US2t1dnhCalk1bmdDc09Zb3BZSUYzekxudEJ6cXA0cTR3Zw?oc=5",
-      "locator": null,
-      "published_at": "2025-02-18"
-    },
-    "extracted_at": "2026-11-13T13:13:08.574545",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.315,
-    "derivation": null
-  },
-  {
-    "id": "clm_27fc1b6eac",
-    "company_id": "ssi",
-    "metric": "headcount",
-    "value": 50.0,
-    "unit": null,
-    "raw_text": "roughly 50 employees",
-    "qualifiers": [
-      "approximate"
-    ],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVhWajdRUTRBYnpSNGJDVzRpNlNRbV85Mml0VEFINUZndjNnNFpsdFVSRFktei1BdXVpUXB2dkxCRlBYelZ4YnZRZGpuejFSUkVHV2haUjZsa3Z2czVLc2Nfa01ZbGpsSUc1R0lXYnFnMkVrRUpLZDdNWUFyT0lVS3B1VWlCcEVtTE50bUliWThxUElQYUxNT1lRSQ?oc=5",
-      "locator": null,
-      "published_at": "2026-07-29"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.4462,
-    "derivation": null
-  },
-  {
-    "id": "clm_7f8b9a6abb",
-    "company_id": "ssi",
-    "metric": "valuation",
-    "value": 32000000000.0,
-    "unit": null,
-    "raw_text": "It's worth $32 billion",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVhWajdRUTRBYnpSNGJDVzRpNlNRbV85Mml0VEFINUZndjNnNFpsdFVSRFktei1BdXVpUXB2dkxCRlBYelZ4YnZRZGpuejFSUkVHV2haUjZsa3Z2czVLc2Nfa01ZbGpsSUc1R0lXYnFnMkVrRUpLZDdNWUFyT0lVS3B1VWlCcEVtTE50bUliWThxUElQYUxNT1lRSQ?oc=5",
-      "locator": null,
-      "published_at": "2026-07-29"
-    },
-    "extracted_at": "2026-08-20T05:29:24.095297",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -205,6 +155,33 @@
     "derivation": null
   },
   {
+    "id": "clm_1530d7f582",
+    "company_id": "ssi",
+    "metric": "valuation",
+    "value": 20000000000.0,
+    "unit": null,
+    "raw_text": "worth $20B",
+    "qualifiers": [
+      "unconfirmed",
+      "forward_looking"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "R&D World",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQWJ2LVZBYXA2cjlPVzBKZUMwVVhmUUJBZ0xNcEszLWZkaGhJWWt1NnpranhNWWVaLTNHUDVCSFFyX3g4MzlFOGtyM05ZUXV2TDF5T2dSNlZndmtfMExpc0hPRUVha09WWG5MbDBma2ZPSjJ3VFU0TDdkc05TeW9qNDVtT1BqUlJaV2NDdUU4bzNMbXZ6Wm5hZjJXNHMxcXNkUzJzaldXZF8?oc=5",
+      "locator": null,
+      "published_at": "2025-02-10"
+    },
+    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.1575,
+    "derivation": null
+  },
+  {
     "id": "clm_28c7381861",
     "company_id": "ssi",
     "metric": "valuation",
@@ -232,30 +209,53 @@
     "derivation": null
   },
   {
-    "id": "clm_1530d7f582",
+    "id": "clm_27fc1b6eac",
     "company_id": "ssi",
-    "metric": "valuation",
-    "value": 20000000000.0,
+    "metric": "headcount",
+    "value": 50.0,
     "unit": null,
-    "raw_text": "worth $20B",
+    "raw_text": "roughly 50 employees",
     "qualifiers": [
-      "unconfirmed",
-      "forward_looking"
+      "approximate"
     ],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "R&D World",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQWJ2LVZBYXA2cjlPVzBKZUMwVVhmUUJBZ0xNcEszLWZkaGhJWWt1NnpranhNWWVaLTNHUDVCSFFyX3g4MzlFOGtyM05ZUXV2TDF5T2dSNlZndmtfMExpc0hPRUVha09WWG5MbDBma2ZPSjJ3VFU0TDdkc05TeW9qNDVtT1BqUlJaV2NDdUU4bzNMbXZ6Wm5hZjJXNHMxcXNkUzJzaldXZF8?oc=5",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVhWajdRUTRBYnpSNGJDVzRpNlNRbV85Mml0VEFINUZndjNnNFpsdFVSRFktei1BdXVpUXB2dkxCRlBYelZ4YnZRZGpuejFSUkVHV2haUjZsa3Z2czVLc2Nfa01ZbGpsSUc1R0lXYnFnMkVrRUpLZDdNWUFyT0lVS3B1VWlCcEVtTE50bUliWThxUElQYUxNT1lRSQ?oc=5",
       "locator": null,
-      "published_at": "2025-02-10"
+      "published_at": "2026-07-29"
     },
-    "extracted_at": "2026-09-03T09:52:38.790034",
+    "extracted_at": "2026-08-20T05:29:24.095297",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.1575,
+    "base_confidence": 0.4462,
+    "derivation": null
+  },
+  {
+    "id": "clm_7f8b9a6abb",
+    "company_id": "ssi",
+    "metric": "valuation",
+    "value": 32000000000.0,
+    "unit": null,
+    "raw_text": "It's worth $32 billion",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVhWajdRUTRBYnpSNGJDVzRpNlNRbV85Mml0VEFINUZndjNnNFpsdFVSRFktei1BdXVpUXB2dkxCRlBYelZ4YnZRZGpuejFSUkVHV2haUjZsa3Z2czVLc2Nfa01ZbGpsSUc1R0lXYnFnMkVrRUpLZDdNWUFyT0lVS3B1VWlCcEVtTE50bUliWThxUElQYUxNT1lRSQ?oc=5",
+      "locator": null,
+      "published_at": "2026-07-29"
+    },
+    "extracted_at": "2026-08-20T05:29:24.095297",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
     "derivation": null
   },
   {

@@ -296,6 +296,54 @@
     "derivation": null
   },
   {
+    "id": "clm_6f99945da2",
+    "company_id": "hugging-face",
+    "metric": "subscribers",
+    "value": 16000.0,
+    "unit": null,
+    "raw_text": "sold 16,000 units off a single tweet",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "podcast",
+      "name": "This Week in Startups",
+      "url": null,
+      "locator": null,
+      "published_at": "2026-09-18"
+    },
+    "extracted_at": "2026-11-16T14:10:18.144807",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.3,
+    "derivation": null
+  },
+  {
+    "id": "clm_393f030f1c",
+    "company_id": "hugging-face",
+    "metric": "total_funding",
+    "value": 15000000.0,
+    "unit": null,
+    "raw_text": "Hugging Face raises $15 million",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTEt1ZVFFSldtckVnQWFfOTJkSUhJa0Q5d1ZHOHpNZnFXUWJRcHlzdW5QVGpuYXZhRlp4NkJ2cWlLTld0NnhBcHZBcUNBUzluNW53ZkJkYzZsNG9sQ3RQc3dMS1VPZlZDOC1LMm1xYkFSZEdiU1IxZFpnR0tMTmljNzRxZFk5R3doZFpPRU4yYV9vT2R4amhKVVZlMDJDZGtmTkMyNWhxanp5YzVlMWF5RmVscEF1eE1PTTFtczdfSUw4REk?oc=5",
+      "locator": null,
+      "published_at": "2019-12-17"
+    },
+    "extracted_at": "2026-11-16T14:10:18.144807",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_0769727061",
     "company_id": "hugging-face",
     "metric": "total_funding",
@@ -317,30 +365,6 @@
     "extracted_at": "2026-11-07T12:16:01.893632",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_6f99945da2",
-    "company_id": "hugging-face",
-    "metric": "subscribers",
-    "value": 16000.0,
-    "unit": null,
-    "raw_text": "sold 16,000 units off a single tweet",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "podcast",
-      "name": "This Week in Startups",
-      "url": null,
-      "locator": null,
-      "published_at": "2026-09-18"
-    },
-    "extracted_at": "2026-11-15T13:08:25.214807",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.3,
     "derivation": null
   },
   {
@@ -1537,7 +1561,7 @@
       "locator": null,
       "published_at": "2026-08-27"
     },
-    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extracted_at": "2026-11-16T14:10:18.144807",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2536,
     "derivation": {

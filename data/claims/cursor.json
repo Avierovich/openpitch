@@ -72,6 +72,30 @@
     "derivation": null
   },
   {
+    "id": "clm_633b437239",
+    "company_id": "cursor",
+    "metric": "valuation",
+    "value": 50000000000.0,
+    "unit": "USD",
+    "raw_text": "$50B valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "jawlah.co",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBVY0Y3VFJUUnFJTkNhRFdHQTVrRGZDQVRlYXNxVFRQYmVQaGZISzduYUY0eERWaVBJWnZMZG5aMA?oc=5",
+      "locator": null,
+      "published_at": "2026-04-18"
+    },
+    "extracted_at": "2026-10-27T11:13:23.267375",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_1eb7c4a1d5",
     "company_id": "cursor",
     "metric": "round_amount",
@@ -163,30 +187,6 @@
       "published_at": "2024-08-22"
     },
     "extracted_at": "2026-11-06T13:17:56.700625",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
-    "id": "clm_633b437239",
-    "company_id": "cursor",
-    "metric": "valuation",
-    "value": 50000000000.0,
-    "unit": "USD",
-    "raw_text": "$50B valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "jawlah.co",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBVY0Y3VFJUUnFJTkNhRFdHQTVrRGZDQVRlYXNxVFRQYmVQaGZISzduYUY0eERWaVBJWnZMZG5aMA?oc=5",
-      "locator": null,
-      "published_at": "2026-04-18"
-    },
-    "extracted_at": "2026-10-27T11:13:23.267375",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.375,
     "derivation": null
@@ -540,7 +540,7 @@
       "locator": null,
       "published_at": "2025-12-11"
     },
-    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extracted_at": "2026-11-16T14:10:18.144807",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2588,
     "derivation": {

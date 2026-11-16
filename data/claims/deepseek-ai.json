@@ -154,6 +154,30 @@
     "derivation": null
   },
   {
+    "id": "clm_309be87a59",
+    "company_id": "deepseek-ai",
+    "metric": "total_funding",
+    "value": 100000000000.0,
+    "unit": "yuan",
+    "raw_text": "doubles funding round to 100bn yuan",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "The Standard (HK)",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOejN4cW10eGdiSmNhUWpUd1pZb0hBWFhJNjk4N3ZMNllEeHFDQzJPVHhBczNFU0UzbUFZN1pCNFN6ZzJzcWlEczgyRkJPOWRlclRaTjAtSU00WWFWc0ZGZm1MVWpZLW9MYnBwcFU3cVg0aUpWY0RpaE43aUpEYzY3QmpzeWJmbjE5cEViVVp4U2x1bzd6Tjdzd0tMcEhiUXdfNllPQ3N0UTdZbnZBNHVObVl3RmZZZWk3VklpZktvR2g0Zw?oc=5",
+      "locator": null,
+      "published_at": "2026-10-13"
+    },
+    "extracted_at": "2026-10-30T12:02:43.452733",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
     "id": "clm_342ce119be",
     "company_id": "deepseek-ai",
     "metric": "arr",
@@ -309,30 +333,6 @@
     "extracted_at": "2026-09-07T10:15:07.048991",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_309be87a59",
-    "company_id": "deepseek-ai",
-    "metric": "total_funding",
-    "value": 100000000000.0,
-    "unit": "yuan",
-    "raw_text": "doubles funding round to 100bn yuan",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "The Standard (HK)",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOejN4cW10eGdiSmNhUWpUd1pZb0hBWFhJNjk4N3ZMNllEeHFDQzJPVHhBczNFU0UzbUFZN1pCNFN6ZzJzcWlEczgyRkJPOWRlclRaTjAtSU00WWFWc0ZGZm1MVWpZLW9MYnBwcFU3cVg0aUpWY0RpaE43aUpEYzY3QmpzeWJmbjE5cEViVVp4U2x1bzd6Tjdzd0tMcEhiUXdfNllPQ3N0UTdZbnZBNHVObVl3RmZZZWk3VklpZktvR2g0Zw?oc=5",
-      "locator": null,
-      "published_at": "2026-10-13"
-    },
-    "extracted_at": "2026-10-30T12:02:43.452733",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -2150,7 +2150,7 @@
       "locator": null,
       "published_at": "2026-10-27"
     },
-    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extracted_at": "2026-11-16T14:10:18.144807",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1369,
     "derivation": {

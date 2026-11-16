@@ -1,5 +1,57 @@
 [
   {
+    "id": "clm_e26649ac5b",
+    "company_id": "openai",
+    "metric": "round_amount",
+    "value": 15000000000.0,
+    "unit": null,
+    "raw_text": "OpenAI Reportedly Raises $15B",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQjJCXzFPZDhMNE1EUFlsUFROeFQ2MWZ5aHdCekd1dGtiNlhPaGN4X1I2VUxmYmZ6eXJBbF9Ddldzc2I3ZkwyQ1pVTEVkX1VZcFVxWXFXbi0zWmVVSTF1ZVp0NlZKSURhYkVrR2w3NnNXQXNvVUZxOFVxSkJQQTFnbTk5cWhtRXdQeFZmZkpvTkhDZGo2bzFOVk5pNA?oc=5",
+      "locator": null,
+      "published_at": "2026-11-12"
+    },
+    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
+    "id": "clm_a667c4c913",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 1250000000000.0,
+    "unit": null,
+    "raw_text": "$1.25 Trillion Valuation",
+    "qualifiers": [
+      "unconfirmed"
+    ],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQjJCXzFPZDhMNE1EUFlsUFROeFQ2MWZ5aHdCekd1dGtiNlhPaGN4X1I2VUxmYmZ6eXJBbF9Ddldzc2I3ZkwyQ1pVTEVkX1VZcFVxWXFXbi0zWmVVSTF1ZVp0NlZKSURhYkVrR2w3NnNXQXNvVUZxOFVxSkJQQTFnbTk5cWhtRXdQeFZmZkpvTkhDZGo2bzFOVk5pNA?oc=5",
+      "locator": null,
+      "published_at": "2026-11-12"
+    },
+    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.225,
+    "derivation": null
+  },
+  {
     "id": "clm_ded884c2ce",
     "company_id": "openai",
     "metric": "round_amount",
@@ -152,54 +204,6 @@
     "derivation": null
   },
   {
-    "id": "clm_2d82e04c88",
-    "company_id": "openai",
-    "metric": "round_amount",
-    "value": 15000000000.0,
-    "unit": "USD",
-    "raw_text": "OpenAI raises $15B",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOd0lwdmRqZ3hQMldUOEZGSHluWE9hUFdhaFBnbDR0Z3pfLXNwMDlQdFQ2YmFtbzd2c04zOEZUQXlZM0hEVWJ6ekVucW96cTJOY3lPRTIwT09rNFU1ZEgxRmk1dkNKN1c1OFhyVGZ3c19iYXdPbi1POUh6cVdJQkJNRDJfb3RVdDlSSTVUZERCMVhrWTdNbm0wTlpGZGJzOHdSaTJTemJVT19pdXp0MFRndXd6YlBVREFsd0hIUVZlUHk3Rzg?oc=5",
-      "locator": null,
-      "published_at": "2026-11-12"
-    },
-    "extracted_at": "2026-11-13T13:13:08.574545",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_792d472ad2",
-    "company_id": "openai",
-    "metric": "valuation",
-    "value": 1250000000000.0,
-    "unit": "USD",
-    "raw_text": "a $1.25T valuation",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOd0lwdmRqZ3hQMldUOEZGSHluWE9hUFdhaFBnbDR0Z3pfLXNwMDlQdFQ2YmFtbzd2c04zOEZUQXlZM0hEVWJ6ekVucW96cTJOY3lPRTIwT09rNFU1ZEgxRmk1dkNKN1c1OFhyVGZ3c19iYXdPbi1POUh6cVdJQkJNRDJfb3RVdDlSSTVUZERCMVhrWTdNbm0wTlpGZGJzOHdSaTJTemJVT19pdXp0MFRndXd6YlBVREFsd0hIUVZlUHk3Rzg?oc=5",
-      "locator": null,
-      "published_at": "2026-11-12"
-    },
-    "extracted_at": "2026-11-13T13:13:08.574545",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
     "id": "clm_af1b49da68",
     "company_id": "openai",
     "metric": "total_funding",
@@ -252,7 +256,55 @@
     "derivation": null
   },
   {
-    "id": "clm_b087050eb7",
+    "id": "clm_ded884c2ce",
+    "company_id": "openai",
+    "metric": "round_amount",
+    "value": 15000000000.0,
+    "unit": null,
+    "raw_text": "OpenAI raised $15B",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZHRLbUxyc3RYdGRNU1pQaC1sX01NT1IzdzUtNFNwSTBIdldKVmJUWjVpcVZZS2c0d0J1cTdYT0xIN2F3aXRLVXdLa18wYWtRX2ZfUzFEODNqZ3haTWd2Zl94eUt5STZPLUpLZ3J6cFVabElnNkxJd18wMk02aXZIeF9DYklsLVdhdTg3TUdXeUxkRDF1amNCLXhnMVg?oc=5",
+      "locator": null,
+      "published_at": "2026-11-12"
+    },
+    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_4d8d19083e",
+    "company_id": "openai",
+    "metric": "valuation",
+    "value": 125000000000.0,
+    "unit": null,
+    "raw_text": "$.125 valuation",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZHRLbUxyc3RYdGRNU1pQaC1sX01NT1IzdzUtNFNwSTBIdldKVmJUWjVpcVZZS2c0d0J1cTdYT0xIN2F3aXRLVXdLa18wYWtRX2ZfUzFEODNqZ3haTWd2Zl94eUt5STZPLUpLZ3J6cFVabElnNkxJd18wMk02aXZIeF9DYklsLVdhdTg3TUdXeUxkRDF1amNCLXhnMVg?oc=5",
+      "locator": null,
+      "published_at": "2026-11-12"
+    },
+    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
+    "derivation": null
+  },
+  {
+    "id": "clm_2d82e04c88",
     "company_id": "openai",
     "metric": "round_amount",
     "value": 15000000000.0,
@@ -265,8 +317,8 @@
     },
     "source": {
       "type": "news",
-      "name": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUy12eEJjS2dOY3VfVm5wT1FwWXh5SWdVZ3RoZUlYTk5CNkVjZFdvT1VtMERCX3RIZTA4S3Q4eGtWcXpxeGs1SUhYVW5qTjZHVFBTM0RjX1VQcFRSejd4RDVHZUJzUm5mSC1WZEhrQTJodVdueEE3bVFiSFdNU1pkR1Ytdk1NMzFpTGFMREN3LW8zQmh0Qzc5VkkzTkRURUtSRm9FbjlHajYwUzVKUExlanNlX0ZmeUdxWVUxM1V4dFQtcm9Yam9hRG91M2w?oc=5",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOd0lwdmRqZ3hQMldUOEZGSHluWE9hUFdhaFBnbDR0Z3pfLXNwMDlQdFQ2YmFtbzd2c04zOEZUQXlZM0hEVWJ6ekVucW96cTJOY3lPRTIwT09rNFU1ZEgxRmk1dkNKN1c1OFhyVGZ3c19iYXdPbi1POUh6cVdJQkJNRDJfb3RVdDlSSTVUZERCMVhrWTdNbm0wTlpGZGJzOHdSaTJTemJVT19pdXp0MFRndXd6YlBVREFsd0hIUVZlUHk3Rzg?oc=5",
       "locator": null,
       "published_at": "2026-11-12"
     },
@@ -276,12 +328,12 @@
     "derivation": null
   },
   {
-    "id": "clm_2d8d2696d1",
+    "id": "clm_792d472ad2",
     "company_id": "openai",
     "metric": "valuation",
     "value": 1250000000000.0,
     "unit": "USD",
-    "raw_text": "$1.25T valuation",
+    "raw_text": "a $1.25T valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
@@ -289,8 +341,8 @@
     },
     "source": {
       "type": "news",
-      "name": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUy12eEJjS2dOY3VfVm5wT1FwWXh5SWdVZ3RoZUlYTk5CNkVjZFdvT1VtMERCX3RIZTA4S3Q4eGtWcXpxeGs1SUhYVW5qTjZHVFBTM0RjX1VQcFRSejd4RDVHZUJzUm5mSC1WZEhrQTJodVdueEE3bVFiSFdNU1pkR1Ytdk1NMzFpTGFMREN3LW8zQmh0Qzc5VkkzTkRURUtSRm9FbjlHajYwUzVKUExlanNlX0ZmeUdxWVUxM1V4dFQtcm9Yam9hRG91M2w?oc=5",
+      "name": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOd0lwdmRqZ3hQMldUOEZGSHluWE9hUFdhaFBnbDR0Z3pfLXNwMDlQdFQ2YmFtbzd2c04zOEZUQXlZM0hEVWJ6ekVucW96cTJOY3lPRTIwT09rNFU1ZEgxRmk1dkNKN1c1OFhyVGZ3c19iYXdPbi1POUh6cVdJQkJNRDJfb3RVdDlSSTVUZERCMVhrWTdNbm0wTlpGZGJzOHdSaTJTemJVT19pdXp0MFRndXd6YlBVREFsd0hIUVZlUHk3Rzg?oc=5",
       "locator": null,
       "published_at": "2026-11-12"
     },
@@ -348,103 +400,103 @@
     "derivation": null
   },
   {
-    "id": "clm_e26649ac5b",
+    "id": "clm_33767b3e6f",
     "company_id": "openai",
     "metric": "round_amount",
     "value": 15000000000.0,
-    "unit": null,
-    "raw_text": "OpenAI Reportedly Raises $15B",
+    "unit": "USD",
+    "raw_text": "OpenAI raises $15 billion at $1.25 trillion valuation, CNBC reports",
     "qualifiers": [
       "unconfirmed"
     ],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQjJCXzFPZDhMNE1EUFlsUFROeFQ2MWZ5aHdCekd1dGtiNlhPaGN4X1I2VUxmYmZ6eXJBbF9Ddldzc2I3ZkwyQ1pVTEVkX1VZcFVxWXFXbi0zWmVVSTF1ZVp0NlZKSURhYkVrR2w3NnNXQXNvVUZxOFVxSkJQQTFnbTk5cWhtRXdQeFZmZkpvTkhDZGo2bzFOVk5pNA?oc=5",
+      "name": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTnBmN1hrb05GTHlPeFRxSlVjc01BTDZ2UjNiUENINl9EVkN3SldwbS1MVHhaZ0sxRjVJZ24wQnNzem1sUGZOZFJwdm55Z3UwcDY4cXBsTFprVlZZTlZ2eEVPZmVpN2JOa0lkd1RBNVlSUmR0cUdPZGFzZWFmbzVjYV9hQUFaWkFOMzg5QlZiZkdpWE9GTXc?oc=5",
       "locator": null,
       "published_at": "2026-11-12"
     },
-    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extracted_at": "2026-11-16T14:10:18.144807",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
-    "id": "clm_a667c4c913",
+    "id": "clm_42a9b54dda",
     "company_id": "openai",
     "metric": "valuation",
     "value": 1250000000000.0,
-    "unit": null,
-    "raw_text": "$1.25 Trillion Valuation",
+    "unit": "USD",
+    "raw_text": "$1.25 trillion valuation",
     "qualifiers": [
       "unconfirmed"
     ],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQjJCXzFPZDhMNE1EUFlsUFROeFQ2MWZ5aHdCekd1dGtiNlhPaGN4X1I2VUxmYmZ6eXJBbF9Ddldzc2I3ZkwyQ1pVTEVkX1VZcFVxWXFXbi0zWmVVSTF1ZVp0NlZKSURhYkVrR2w3NnNXQXNvVUZxOFVxSkJQQTFnbTk5cWhtRXdQeFZmZkpvTkhDZGo2bzFOVk5pNA?oc=5",
+      "name": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTnBmN1hrb05GTHlPeFRxSlVjc01BTDZ2UjNiUENINl9EVkN3SldwbS1MVHhaZ0sxRjVJZ24wQnNzem1sUGZOZFJwdm55Z3UwcDY4cXBsTFprVlZZTlZ2eEVPZmVpN2JOa0lkd1RBNVlSUmR0cUdPZGFzZWFmbzVjYV9hQUFaWkFOMzg5QlZiZkdpWE9GTXc?oc=5",
       "locator": null,
       "published_at": "2026-11-12"
     },
-    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extracted_at": "2026-11-16T14:10:18.144807",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.225,
+    "base_confidence": 0.315,
     "derivation": null
   },
   {
-    "id": "clm_ded884c2ce",
+    "id": "clm_b087050eb7",
     "company_id": "openai",
     "metric": "round_amount",
     "value": 15000000000.0,
-    "unit": null,
-    "raw_text": "OpenAI raised $15B",
+    "unit": "USD",
+    "raw_text": "OpenAI raises $15B",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZHRLbUxyc3RYdGRNU1pQaC1sX01NT1IzdzUtNFNwSTBIdldKVmJUWjVpcVZZS2c0d0J1cTdYT0xIN2F3aXRLVXdLa18wYWtRX2ZfUzFEODNqZ3haTWd2Zl94eUt5STZPLUpLZ3J6cFVabElnNkxJd18wMk02aXZIeF9DYklsLVdhdTg3TUdXeUxkRDF1amNCLXhnMVg?oc=5",
+      "name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUy12eEJjS2dOY3VfVm5wT1FwWXh5SWdVZ3RoZUlYTk5CNkVjZFdvT1VtMERCX3RIZTA4S3Q4eGtWcXpxeGs1SUhYVW5qTjZHVFBTM0RjX1VQcFRSejd4RDVHZUJzUm5mSC1WZEhrQTJodVdueEE3bVFiSFdNU1pkR1Ytdk1NMzFpTGFMREN3LW8zQmh0Qzc5VkkzTkRURUtSRm9FbjlHajYwUzVKUExlanNlX0ZmeUdxWVUxM1V4dFQtcm9Yam9hRG91M2w?oc=5",
       "locator": null,
       "published_at": "2026-11-12"
     },
-    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extracted_at": "2026-11-13T13:13:08.574545",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
-    "id": "clm_4d8d19083e",
+    "id": "clm_2d8d2696d1",
     "company_id": "openai",
     "metric": "valuation",
-    "value": 125000000000.0,
-    "unit": null,
-    "raw_text": "$.125 valuation",
+    "value": 1250000000000.0,
+    "unit": "USD",
+    "raw_text": "$1.25T valuation",
     "qualifiers": [],
     "speaker": {
       "name": null,
-      "role": "unknown"
+      "role": "journalist"
     },
     "source": {
       "type": "news",
-      "name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZHRLbUxyc3RYdGRNU1pQaC1sX01NT1IzdzUtNFNwSTBIdldKVmJUWjVpcVZZS2c0d0J1cTdYT0xIN2F3aXRLVXdLa18wYWtRX2ZfUzFEODNqZ3haTWd2Zl94eUt5STZPLUpLZ3J6cFVabElnNkxJd18wMk02aXZIeF9DYklsLVdhdTg3TUdXeUxkRDF1amNCLXhnMVg?oc=5",
+      "name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUy12eEJjS2dOY3VfVm5wT1FwWXh5SWdVZ3RoZUlYTk5CNkVjZFdvT1VtMERCX3RIZTA4S3Q4eGtWcXpxeGs1SUhYVW5qTjZHVFBTM0RjX1VQcFRSejd4RDVHZUJzUm5mSC1WZEhrQTJodVdueEE3bVFiSFdNU1pkR1Ytdk1NMzFpTGFMREN3LW8zQmh0Qzc5VkkzTkRURUtSRm9FbjlHajYwUzVKUExlanNlX0ZmeUdxWVUxM1V4dFQtcm9Yam9hRG91M2w?oc=5",
       "locator": null,
       "published_at": "2026-11-12"
     },
-    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extracted_at": "2026-11-13T13:13:08.574545",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
+    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -5668,7 +5720,7 @@
       "locator": null,
       "published_at": "2026-08-20"
     },
-    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extracted_at": "2026-11-16T14:10:18.144807",
     "extractor_model": "derive-engine",
     "base_confidence": 0.4658,
     "derivation": {

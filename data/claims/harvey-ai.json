@@ -222,13 +222,40 @@
     "derivation": null
   },
   {
+    "id": "clm_02fdb24037",
+    "company_id": "harvey-ai",
+    "metric": "round_amount",
+    "value": 80000000.0,
+    "unit": "USD",
+    "raw_text": "Harvey AI raises $80M",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPS3dEWm5hM0wxYjJXVEtGbDg5LXdBa1M2VVIxeFdlZEZ0bkNQSFE0UWZGZmpibWgxa3dTbWNfSXZFY1NSYWktRUxkNnhyWUN5OFhHem9VbzJwRk1aWTNtTGQwcHdvZ1NEb0QxVE1heXlDY1MtU1B3NTRTcUQxcVo4WHJpNl9wbEFrdWFkcng2MVEwWl80Z25fWmVR?oc=5",
+      "locator": null,
+      "published_at": "2023-12-20"
+    },
+    "extracted_at": "2026-10-31T11:19:55.382595",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
     "id": "clm_1a3e533faf",
     "company_id": "harvey-ai",
     "metric": "total_funding",
     "value": 500000000.0,
     "unit": "USD",
     "raw_text": "over $500M in funding",
-    "qualifiers": [],
+    "qualifiers": [
+      "rounded",
+      "approximate"
+    ],
     "speaker": {
       "name": null,
       "role": "journalist"
@@ -240,9 +267,9 @@
       "locator": null,
       "published_at": "2025-02-14"
     },
-    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extracted_at": "2026-11-16T14:10:18.144807",
     "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.42,
+    "base_confidence": 0.3213,
     "derivation": null
   },
   {
@@ -610,30 +637,6 @@
     "extracted_at": "2026-10-31T11:19:55.382595",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.2205,
-    "derivation": null
-  },
-  {
-    "id": "clm_02fdb24037",
-    "company_id": "harvey-ai",
-    "metric": "round_amount",
-    "value": 80000000.0,
-    "unit": "USD",
-    "raw_text": "Harvey AI raises $80M",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPS3dEWm5hM0wxYjJXVEtGbDg5LXdBa1M2VVIxeFdlZEZ0bkNQSFE0UWZGZmpibWgxa3dTbWNfSXZFY1NSYWktRUxkNnhyWUN5OFhHem9VbzJwRk1aWTNtTGQwcHdvZ1NEb0QxVE1heXlDY1MtU1B3NTRTcUQxcVo4WHJpNl9wbEFrdWFkcng2MVEwWl80Z25fWmVR?oc=5",
-      "locator": null,
-      "published_at": "2023-12-20"
-    },
-    "extracted_at": "2026-10-31T11:19:55.382595",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
     "derivation": null
   },
   {
@@ -1494,7 +1497,7 @@
       "locator": null,
       "published_at": "2026-07-03"
     },
-    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extracted_at": "2026-11-16T14:10:18.144807",
     "extractor_model": "derive-engine",
     "base_confidence": 0.1811,
     "derivation": {

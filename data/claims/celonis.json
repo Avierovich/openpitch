@@ -149,54 +149,6 @@
     "derivation": null
   },
   {
-    "id": "clm_7e06d636ec",
-    "company_id": "celonis",
-    "metric": "round_amount",
-    "value": 400000000.0,
-    "unit": "USD",
-    "raw_text": "Celonis’ US$400 Million Series D Financing",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "journalist"
-    },
-    "source": {
-      "type": "news",
-      "name": "Latham & Watkins LLP",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQmNZX0U1cFh4Q3VobzVtZVZMcEU2WXF0b25OZUJKUG9IQk5WcU56bjVES3hsZVRGQVJWM3N6MHk2YWlLMFpwanRhQkpFaW5vZG85T0tQMjgxX1MxTjBtbm5KVTNZZlVGTnZiZG9FUnpHLWhWaWF0QVpFZFBGUi16LWlRTndoamhXUGt1ZUVwWHVvbldVeW1TWC1ZT2gwRGpRZHZFMVpRU2FQLTRzdjdF?oc=5",
-      "locator": null,
-      "published_at": "2022-09-06"
-    },
-    "extracted_at": "2026-10-27T11:13:23.267375",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.525,
-    "derivation": null
-  },
-  {
-    "id": "clm_d4ea913822",
-    "company_id": "celonis",
-    "metric": "round_amount",
-    "value": 1000000000.0,
-    "unit": null,
-    "raw_text": "Raises $1 Billion in Series D",
-    "qualifiers": [],
-    "speaker": {
-      "name": null,
-      "role": "unknown"
-    },
-    "source": {
-      "type": "news",
-      "name": "citybiz",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03M2VXX3JBS0ZJZWYtZ2NnM3lJNFpQaVIydWpqTVM2UUZrY1o5M1NuNHJrOGJucGxfeTZGRDBEaVFiMWc2RndJMHVZMFpmMWRuU3BEcjB1dk5FdHFNU2VvNlEyLXRuV0xjZnF4R2dZcDYwd1BJTUM2ZmxGbU5LZE0?oc=5",
-      "locator": null,
-      "published_at": "2021-06-02"
-    },
-    "extracted_at": "2026-11-09T14:24:11.277617",
-    "extractor_model": "gemini-3.5-flash-lite",
-    "base_confidence": 0.375,
-    "derivation": null
-  },
-  {
     "id": "clm_a7375da408",
     "company_id": "celonis",
     "metric": "total_funding",
@@ -242,6 +194,54 @@
     "extracted_at": "2026-08-27T17:02:21.670041",
     "extractor_model": "gemini-3.5-flash-lite",
     "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_7e06d636ec",
+    "company_id": "celonis",
+    "metric": "round_amount",
+    "value": 400000000.0,
+    "unit": "USD",
+    "raw_text": "Celonis’ US$400 Million Series D Financing",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "journalist"
+    },
+    "source": {
+      "type": "news",
+      "name": "Latham & Watkins LLP",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQmNZX0U1cFh4Q3VobzVtZVZMcEU2WXF0b25OZUJKUG9IQk5WcU56bjVES3hsZVRGQVJWM3N6MHk2YWlLMFpwanRhQkpFaW5vZG85T0tQMjgxX1MxTjBtbm5KVTNZZlVGTnZiZG9FUnpHLWhWaWF0QVpFZFBGUi16LWlRTndoamhXUGt1ZUVwWHVvbldVeW1TWC1ZT2gwRGpRZHZFMVpRU2FQLTRzdjdF?oc=5",
+      "locator": null,
+      "published_at": "2022-09-06"
+    },
+    "extracted_at": "2026-10-27T11:13:23.267375",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.525,
+    "derivation": null
+  },
+  {
+    "id": "clm_d4ea913822",
+    "company_id": "celonis",
+    "metric": "round_amount",
+    "value": 1000000000.0,
+    "unit": null,
+    "raw_text": "Raises $1 Billion in Series D",
+    "qualifiers": [],
+    "speaker": {
+      "name": null,
+      "role": "unknown"
+    },
+    "source": {
+      "type": "news",
+      "name": "citybiz",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03M2VXX3JBS0ZJZWYtZ2NnM3lJNFpQaVIydWpqTVM2UUZrY1o5M1NuNHJrOGJucGxfeTZGRDBEaVFiMWc2RndJMHVZMFpmMWRuU3BEcjB1dk5FdHFNU2VvNlEyLXRuV0xjZnF4R2dZcDYwd1BJTUM2ZmxGbU5LZE0?oc=5",
+      "locator": null,
+      "published_at": "2021-06-02"
+    },
+    "extracted_at": "2026-11-09T14:24:11.277617",
+    "extractor_model": "gemini-3.5-flash-lite",
+    "base_confidence": 0.375,
     "derivation": null
   },
   {
@@ -1276,7 +1276,7 @@
       "locator": null,
       "published_at": "2026-07-03"
     },
-    "extracted_at": "2026-11-15T13:08:25.214807",
+    "extracted_at": "2026-11-16T14:10:18.144807",
     "extractor_model": "derive-engine",
     "base_confidence": 0.2054,
     "derivation": {

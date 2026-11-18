@@ -15,3 +15,6 @@ import pytest
 def _hermetic_remote(tmp_path, monkeypatch):
     monkeypatch.setenv("OPENPITCH_REMOTE", "http://127.0.0.1:1")
     monkeypatch.setenv("OPENPITCH_CACHE", str(tmp_path / "remote-cache"))
+    # The serving gate is on by default; a developer's OPENPITCH_GATE=off must not
+    # silently change what the suite tests. Tests that need it off set it themselves.
+    monkeypatch.delenv("OPENPITCH_GATE", raising=False)

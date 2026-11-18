@@ -25,27 +25,46 @@ def build_server():
     @mcp.tool(annotations=_READONLY)
     def list_companies(filter: str | None = None, segment: str = "all",
                        sort_by: str = "universe_rank", limit: int = 50) -> dict:
-        """List covered AI companies with headline metrics."""
+        """List covered AI companies with headline metrics.
+
+        A metric with status 'withheld' failed a plausibility check: say it exists and why, never state its value.
+        """
         return tools.list_companies(filter, segment, sort_by, limit)
 
     @mcp.tool(annotations=_READONLY)
     def get_company(id: str, include_sources: bool = True) -> dict:
-        """Full profile for one company: all resolved metrics with provenance."""
+        """Full profile for one company: all resolved metrics with provenance.
+
+        A metric with status 'withheld' failed a plausibility check: say it exists and why, never state its value.
+        """
         return tools.get_company(id, include_sources)
 
     @mcp.tool(annotations=_READONLY)
     def get_metric(company_id: str, metric: str, with_history: bool = False) -> dict:
-        """One metric with value/range, confidence, estimate_type, as_of, and sources."""
+        """One metric with value/range, confidence, estimate_type, as_of, and sources.
+
+        Returns status 'withheld' (no value) when the figure failed a plausibility
+        check: say it exists and why, never state its value. get_provenance has the raw claims.
+        """
         return tools.get_metric(company_id, metric, with_history)
 
     @mcp.tool(annotations=_READONLY)
     def get_provenance(company_id: str, metric: str) -> dict:
-        """Underlying claims + confidence factors behind a metric."""
+        """Underlying claims + confidence factors behind a metric.
+
+        The audit path: raw claims are returned even for a withheld figure. When
+        `gate.action` is 'withhold', do not cite any claim's value as the figure;
+        `gate_flag` marks the claims behind it.
+        """
         return tools.get_provenance(company_id, metric)
 
     @mcp.tool(annotations=_READONLY)
     def compare_companies(ids: list[str], metrics: list[str]) -> dict:
-        """Side-by-side metric comparison across companies."""
+        """Side-by-side metric comparison across companies.
+
+        A null cell means no data; a {"status": "withheld"} cell means the figure failed a
+        plausibility check. Never state a withheld value.
+        """
         return tools.compare_companies(ids, metrics)
 
     @mcp.tool(annotations=_READONLY)
@@ -55,7 +74,8 @@ def build_server():
 
         Newest-first, capped at `limit` (default 50). If `since` is omitted, defaults to a
         30-day window (echoed back as `since`). Narrow with `since`/`min_confidence` when
-        `truncated` is true; `total` is the pre-cap count.
+        `truncated` is true; `total` is the pre-cap count. Events about a withheld
+        figure carry no numbers.
         """
         return tools.what_moved(since, min_confidence, include_contradictions, limit)
 
@@ -67,7 +87,7 @@ def build_server():
 
         Newest-first, capped at `limit` (default 50). Narrow with `since` (YYYY-MM-DD),
         `type`, `company_id`, or `min_confidence` when `truncated` is true; `total` is the
-        pre-cap count.
+        pre-cap count. Events about a withheld figure carry no numbers.
         """
         return tools.get_events(since, type, company_id, min_confidence, limit)
 

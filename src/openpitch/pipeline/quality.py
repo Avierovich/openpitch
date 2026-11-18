@@ -7,10 +7,11 @@ treated as credible.
 
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import date
 from html import escape
 
+from .. import serving_gate as gate
 from .. import store
 from ..config import load_watchlist
 from ..paths import data_dir
@@ -63,11 +64,17 @@ class QualitySnapshot:
     single_source_metrics: list[str]
     funded_no_valuation: list[str]
     discovery_backlog: int
+    # Published figures the serving gate withholds as implausible: wrong numbers, as
+    # opposed to the missing ones above. Shape failures are structural (a whole field
+    # holding the wrong type), so they are counted per metric rather than listed.
+    gate_withheld: list[str] = field(default_factory=list)
+    gate_shape_withheld: dict[str, int] = field(default_factory=dict)
+    gate_ran: bool = False         # off: no gate section, so no false "0 withheld"
 
     @property
     def critical_count(self) -> int:
         return (len(self.top50_no_metrics) + len(self.unprofiled_high_priority)
-                + len(self.funded_no_valuation))
+                + len(self.funded_no_valuation) + len(self.gate_withheld))
 
     @property
     def warning_count(self) -> int:
@@ -173,7 +180,24 @@ def build_snapshot(top_n: int = 50) -> QualitySnapshot:
              or _metric_number(c, "round_amount") >= ROUND_VALUATION_FLOOR)
     ]
 
+    gate_ran = gate.enabled()
+    gate_withheld: list[str] = []
+    gate_shape_withheld: dict[str, int] = {}
+    if gate_ran:
+        for c in companies:
+            for m, v in gate.guarded(c, store.read_claims).items():
+                if v.action != gate.WITHHOLD:
+                    continue
+                if v.rule == "shape":
+                    gate_shape_withheld[m] = gate_shape_withheld.get(m, 0) + 1
+                else:
+                    # Number-free reason: this report is published as quality.html.
+                    gate_withheld.append(f"{c.name}: {m} ({v.rule}): {v.reason}")
+
     return QualitySnapshot(
+        gate_withheld=gate_withheld,
+        gate_shape_withheld=gate_shape_withheld,
+        gate_ran=gate_ran,
         generated_at=date.today(),
         total_profiles=len(companies),
         watchlist_size=len(watchlist),
@@ -199,6 +223,11 @@ def _section(title: str, items: list[str], empty: str = "None.") -> list[str]:
     return lines
 
 
+def _shape_summary(snapshot: QualitySnapshot) -> str:
+    """'latest_round: 354, notable_customers: 28', or 'none'."""
+    return ", ".join(f"{m}: {n}" for m, n in sorted(snapshot.gate_shape_withheld.items())) or "none"
+
+
 def render_markdown(snapshot: QualitySnapshot) -> str:
     lines = [
         f"# OpenPitch Data Quality Report - {snapshot.generated_at.isoformat()}",
@@ -220,6 +249,10 @@ def render_markdown(snapshot: QualitySnapshot) -> str:
     lines += _section("Curated High-Priority Watchlist Companies Not Profiled (critical)",
                       snapshot.unprofiled_high_priority)
     lines += _section("Funded But No Valuation (critical — ingestion gap)", snapshot.funded_no_valuation)
+    if snapshot.gate_ran:
+        lines += _section("Implausible Figures Withheld From Display (critical — wrong numbers)",
+                          snapshot.gate_withheld)
+        lines += [f"Malformed values withheld by the shape rule: {_shape_summary(snapshot)}.", ""]
     lines += _section("Single-Source Core Metrics", snapshot.single_source_metrics)
     lines += [
         "## Review Rule",
@@ -236,6 +269,12 @@ def render_html(snapshot: QualitySnapshot) -> str:
         if not items:
             return "<p>None.</p>"
         return "<ul>" + "".join(f"<li>{escape(item)}</li>" for item in items) + "</ul>"
+
+    # Empty when the gate is off, so the page matches the pre-gate output exactly.
+    gate_html = (
+        f"\n  <h2>Implausible Figures Withheld From Display (critical)</h2>{list_html(snapshot.gate_withheld)}"
+        f'\n  <p class="sub">Malformed values withheld by the shape rule: {escape(_shape_summary(snapshot))}.</p>'
+        if snapshot.gate_ran else "")
 
     return f"""<!doctype html>
 <html>
@@ -267,7 +306,7 @@ def render_html(snapshot: QualitySnapshot) -> str:
   <h2>Top-50 Missing Valuation</h2>{list_html(snapshot.top50_missing_valuation)}
   <h2>Top-50 Missing ARR / Revenue</h2>{list_html(snapshot.top50_missing_arr)}
   <h2>Curated High-Priority Watchlist Companies Not Profiled</h2>{list_html(snapshot.unprofiled_high_priority)}
-  <h2>Funded But No Valuation (critical)</h2>{list_html(snapshot.funded_no_valuation)}
+  <h2>Funded But No Valuation (critical)</h2>{list_html(snapshot.funded_no_valuation)}{gate_html}
   <h2>Single-Source Core Metrics</h2>{list_html(snapshot.single_source_metrics)}
 </div></body></html>"""
 

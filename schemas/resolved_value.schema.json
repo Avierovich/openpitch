@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://openpitch.dev/schemas/resolved_value-1.0.json",
+  "$id": "https://openpitch.dev/schemas/resolved_value-1.1.json",
   "title": "OpenPitch Resolved Value",
-  "description": "The reconciled best estimate for a single metric, with provenance and confidence (FRD §3.2).",
+  "description": "The reconciled best estimate for a single metric, with provenance and confidence (FRD §3.2). As served, a figure that fails the plausibility gate has its figure keys set to null and carries status 'withheld' and a gate verdict (MCP-SPEC, Withheld figures).",
   "type": "object",
   "required": ["metric", "value", "estimate_type", "confidence", "as_of"],
   "properties": {
@@ -10,7 +10,7 @@
     "value": {},
     "unit": { "type": "string" },
     "range": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": { "low": {}, "high": {} }
     },
     "as_of": { "type": "string", "description": "Date of the freshest supporting claim" },
@@ -19,13 +19,31 @@
     "supporting_claims": { "type": "array", "items": { "type": "string" } },
     "contradiction": { "type": "boolean", "default": false },
     "delta": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "previous": {},
         "change_pct": { "type": "number" },
         "since": { "type": "string" }
       }
     },
-    "history_ref": { "type": "string" }
+    "history_ref": { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["withheld"],
+      "description": "Present only when the serving gate withholds the figure; value is then null."
+    },
+    "gate": {
+      "type": "object",
+      "description": "Serving-gate verdict. action 'withhold' nulls the figure; 'caution' keeps it.",
+      "required": ["action", "rule", "reason", "evidence_claim_ids", "gate_version"],
+      "properties": {
+        "action": { "type": "string", "enum": ["withhold", "caution"] },
+        "rule": { "type": "string" },
+        "reason": { "type": "string", "description": "Never contains a withheld figure." },
+        "evidence_claim_ids": { "type": "array", "items": { "type": "string" } },
+        "gate_version": { "type": "string" },
+        "detail": { "type": "string", "description": "Numeric audit text; get_provenance only." }
+      }
+    }
   }
 }

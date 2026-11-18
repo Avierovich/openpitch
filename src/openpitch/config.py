@@ -53,6 +53,18 @@ def load_scoring() -> dict:
 
 
 @lru_cache(maxsize=1)
+def load_serving_gate() -> dict:
+    """Serving-gate thresholds, or {} when unavailable (an older remote checkout has
+    no file); serving_gate.DEFAULTS fills every missing key."""
+    try:
+        path = _config_file("serving_gate.yaml")
+        raw = yaml.safe_load(path.read_text()) if path and path.exists() else None
+    except (OSError, ValueError, yaml.YAMLError):   # ValueError covers bad encodings
+        return {}
+    return raw if isinstance(raw, dict) else {}
+
+
+@lru_cache(maxsize=1)
 def load_watchlist() -> list[dict]:
     """Global + MENA companies, each tagged with a `segment` and (if classified)
     a two-level taxonomy (category/subcategory/specialty) from taxonomy.yaml."""

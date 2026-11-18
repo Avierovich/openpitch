@@ -23,7 +23,7 @@ Company objects (in `list_companies` / `get_company`) carry the two-level taxono
 Any response containing a metric value must include:
 
 - `metric`;
-- `value` or `range`;
+- `value` or `range` (both `null` for a withheld figure; see Withheld figures);
 - `unit`;
 - `estimate_type`;
 - `confidence`;
@@ -48,6 +48,48 @@ If data is missing, return:
 ```
 
 Do not fabricate values.
+
+### Withheld figures
+
+A serving gate (`src/openpitch/serving_gate.py`, thresholds in `config/serving_gate.yaml`)
+checks every figure for plausibility as it is served. A figure that fails is withheld: it
+is never stated, but its existence and the reason stay visible. The committed data is not
+edited, so this is reversible and fully auditable.
+
+A withheld metric keeps every key of the shape above, with the figure keys (`value`,
+`range`, `delta`, `confirmed_value`, `confirmed_as_of`) set to `null`, plus:
+
+```json
+{
+  "status": "withheld",
+  "gate": {
+    "action": "withhold",
+    "rule": "unit_not_normalized",
+    "reason": "the source states it in \"million USD\" but the scale was never applied",
+    "evidence_claim_ids": ["clm_1"],
+    "gate_version": "1"
+  }
+}
+```
+
+The `reason` never contains the withheld figure. A figure that passes with a caveat keeps
+its value and carries the same `gate` block with `"action": "caution"`.
+
+How each tool reports a withheld figure:
+
+| Tool | Behavior |
+|---|---|
+| `get_metric` | Top-level `status: "withheld"`, a `message`, and `next` pointing to `get_provenance`. With `with_history`, history rows keep their dates and confidence with `value: null`. |
+| `get_company` | The metric is replaced in place with the withheld shape. |
+| `list_companies`, `compare_companies` | The cell is `{"value": null, "status": "withheld", "rule", "reason", "confidence", "as_of"}`. A `null` cell still means no data. |
+| `get_events`, `what_moved` | Events about a withheld figure have `previous`, `current` and `change_pct` set to `null`, `payload.status: "withheld"`, and a summary without numbers. |
+| `get_provenance` | Unchanged: the raw claims are the audit path. Adds a top-level `gate` (including a numeric `detail`) and `gate_flag` on the claims behind the figure. |
+
+An agent may say that a figure exists and why it was withheld, but must not state its
+value, including from a flagged claim in `get_provenance`.
+
+Setting `OPENPITCH_GATE=off`, or `enabled: false` in the config, serves every figure
+ungated.
 
 ## Tool: `list_companies`
 
@@ -259,6 +301,8 @@ Use structured statuses:
 
 - `ok`;
 - `not_found`;
+- `withheld` (`get_metric` only: the figure exists but failed a plausibility check; see
+  Withheld figures);
 - `invalid_metric`;
 - `invalid_company`;
 - `data_unavailable`;

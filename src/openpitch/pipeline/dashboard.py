@@ -11,6 +11,7 @@ from html import escape
 import json
 from datetime import date
 
+from .. import serving_gate as gate
 from .. import store
 from ..config import load_metrics, load_scoring, load_watchlist
 from ..paths import REPO_ROOT
@@ -38,7 +39,7 @@ h1{font-size:26px;margin:0 0 4px}.sub{color:var(--mut);margin:0 0 24px}
 .m{display:flex;justify-content:space-between;border-top:1px solid #232a40;padding:7px 0;font-size:14px}
 .m .k{color:var(--mut)}.v{font-variant-numeric:tabular-nums}
 .tag{display:inline-block;background:#202840;color:var(--mut);border-radius:6px;padding:1px 7px;font-size:11px;margin-left:6px}
-.warn{color:var(--warn)}.conf{font-size:11px;color:var(--mut)}
+.warn{color:var(--warn)}.conf{font-size:11px;color:var(--mut)}.wh{color:var(--mut);font-style:italic}
 .rumor{font-size:10px;color:#e3b341;border:1px solid #5c4a1a;border-radius:4px;padding:0 4px;vertical-align:middle}
 .confirmed{font-size:11px;color:#7fd1c1}
 .yr{font-size:11px;color:var(--mut);margin-left:5px;font-variant-numeric:tabular-nums}
@@ -190,6 +191,16 @@ def _year_badge(as_of) -> str:
     return f'<span class="{cls}" title="{title}">{yr}</span>'
 
 
+def _gated_html(v, value_html: str) -> str:
+    """Value cell under the serving gate. Withheld: no figure, the reason on hover.
+    Caution: the figure plus a marker. No verdict: unchanged."""
+    if v and v.action == gate.WITHHOLD:
+        return (f'<span class="wh" title="{escape(v.reason, quote=True)}">withheld</span> '
+                f'<span class="conf">[failed a plausibility check]</span>')
+    mark = f' <span class="warn" title="{escape(v.reason, quote=True)}">⚠</span>' if v else ""
+    return value_html + mark
+
+
 def _metric_label(key: str) -> str:
     defs = load_metrics()
     return defs[key].label if key in defs else key.replace("_", " ").title()
@@ -211,8 +222,12 @@ def _display_rank(rank: int) -> str:
     return f"#{rank}" if rank <= 50 else "watchlist"
 
 
-def _metric_number(c, metric: str) -> float:
+def _metric_number(c, metric: str, verdicts: dict | None = None) -> float:
+    """Numeric value for sorting and aggregation; 0 when absent or withheld, so a
+    withheld figure can neither reorder the page nor inflate the market map."""
     rv = c.metrics.get(metric)
+    if verdicts and gate.withheld(verdicts, metric):
+        return 0.0
     return float(rv.value) if rv and isinstance(rv.value, (int, float)) else 0.0
 
 
@@ -236,21 +251,27 @@ def _taxon_label(category: str | None, subcategory: str | None) -> str:
     return f'{main} · <span class="sub">{escape(subcategory)}</span>' if subcategory else main
 
 
-def _company_card(c, display_rank: int | None = None) -> str:
+def _company_card(c, display_rank: int | None = None, verdicts: dict | None = None) -> str:
     rank = display_rank or c.universe_rank
+    verdicts = verdicts or {}
     rows = ""
     for m, rv in c.metrics.items():
+        v = verdicts.get(m)
         warn = ' <span class="warn" title="public-source discrepancy">⚑</span>' if rv.contradiction else ""
-        val = _money(rv.value) if rv.unit == "USD" else f"{rv.value:,.0f}" if isinstance(rv.value, (int, float)) else rv.value
-        rows += (f'<div class="m"><span class="k">{_metric_label(m)}{warn}</span>'
-                 f'<span class="v">{val}{_status_html(rv)} <span class="conf">[{rv.estimate_type.value} · {_band(rv.confidence)}]</span>'
-                 f'{_year_badge(rv.as_of)}{_range_bar(rv)}</span></div>')
+        if gate.withheld(verdicts, m):
+            body = _gated_html(v, "")
+        else:
+            val = _money(rv.value) if rv.unit == "USD" else f"{rv.value:,.0f}" if isinstance(rv.value, (int, float)) else rv.value
+            body = _gated_html(v, f'{val}{_status_html(rv)} <span class="conf">[{rv.estimate_type.value} · {_band(rv.confidence)}]</span>'
+                                  f'{_year_badge(rv.as_of)}{_range_bar(rv)}')
+        rows += f'<div class="m"><span class="k">{_metric_label(m)}{warn}</span><span class="v">{body}</span></div>'
     if not rows:
         rows = '<div class="m"><span class="k">Coverage status</span><span class="v">source checked; no metric claims yet</span></div>'
     attrs = _card_attrs(
         rank=rank or 9999, name=c.name, category=c.category, subcategory=c.subcategory,
-        valuation=_metric_number(c, "valuation"), funding=_metric_number(c, "total_funding"),
-        revenue=_metric_number(c, "arr"), coverage=_coverage(c),
+        valuation=_metric_number(c, "valuation", verdicts),
+        funding=_metric_number(c, "total_funding", verdicts),
+        revenue=_metric_number(c, "arr", verdicts), coverage=_coverage(c),
     )
     name = escape(c.name)
     site = _site_url(c.website)
@@ -285,10 +306,12 @@ def _pending_card(meta: dict, display_rank: int) -> str:
     )
 
 
-def _company_page(c, display_rank: int | None = None) -> str:
+def _company_page(c, display_rank: int | None = None, verdicts: dict | None = None) -> str:
     rank = display_rank or c.universe_rank
+    verdicts = verdicts or {}
     blocks = ""
     for m, rv in c.metrics.items():
+        v = verdicts.get(m)
         srcs = ""
         for cl in store.read_claims(c.id):
             if cl.metric == m and cl.source.type.value != "derived":
@@ -300,10 +323,15 @@ def _company_page(c, display_rank: int | None = None) -> str:
                         if url.startswith(("http://", "https://")) else sname)
                 srcs += f'<div class="src">↳ {link} · {cl.source.type.value} · {cl.source.published_at or "n.d."} — "{escape(cl.raw_text)}"</div>'
         warn = ' <span class="warn">⚑ public-source discrepancy</span>' if rv.contradiction else ""
-        val = _money(rv.value) if rv.unit == "USD" else (f"{rv.value:,.0f}" if isinstance(rv.value, (int, float)) else rv.value)
+        if gate.withheld(verdicts, m):
+            # No figure, range or sparkline; the sources stay as the audit trail.
+            body = _gated_html(v, "") + f' <span class="conf">{escape(v.reason)}</span>'
+        else:
+            val = _money(rv.value) if rv.unit == "USD" else (f"{rv.value:,.0f}" if isinstance(rv.value, (int, float)) else rv.value)
+            body = _gated_html(v, f'{val}{_status_html(rv)} <span class="conf">[{rv.estimate_type.value} · conf {rv.confidence}]</span>'
+                                  f'{_year_badge(rv.as_of)}{_range_bar(rv)}{_sparkline(c.id, m)}')
         blocks += (f'<div class="card"><div class="m"><span class="k">{_metric_label(m)}{warn}</span>'
-                   f'<span class="v">{val}{_status_html(rv)} <span class="conf">[{rv.estimate_type.value} · conf {rv.confidence}]</span>'
-                   f'{_year_badge(rv.as_of)}{_range_bar(rv)}{_sparkline(c.id, m)}</span></div>{srcs}</div>')
+                   f'<span class="v">{body}</span></div>{srcs}</div>')
     return _html(f"{escape(c.name)} — OpenPitch", f'<a href="../index.html">← all companies</a><h1>{escape(c.name)}</h1>'
                  f'<p class="sub">{_tier(rank)} · {_taxon_label(c.category, c.subcategory)}{(" · " + escape(c.specialty)) if c.specialty else ""} · rank {_display_rank(rank or 0)} · VC-attention {c.vc_attention_score}</p>'
                  f'{("<p class=" + chr(34) + "desc" + chr(34) + ">" + escape(c.summary) + "</p>") if c.summary else ""}'
@@ -335,13 +363,15 @@ def _agent_card() -> dict:
     }
 
 
-def _market_map(companies) -> str:
+def _market_map(companies, verdicts: dict | None = None) -> str:
     """Total tracked valuation by sector — the VC 'market map'. Hand-rolled SVG-free bars
-    (pure CSS widths), dependency-free. Sums only companies with a resolved valuation."""
+    (pure CSS widths), dependency-free. Sums only companies with a resolved valuation
+    that passes the serving gate (`verdicts` maps company id to its verdicts)."""
     from statistics import median
+    verdicts = verdicts or {}
     agg: dict[str, dict] = {}
     for c in companies:
-        v = _metric_number(c, "valuation")
+        v = _metric_number(c, "valuation", verdicts.get(c.id))
         if v <= 0:
             continue
         d = agg.setdefault(c.category or "other", {"val": 0.0, "n": 0, "conf": []})
@@ -394,9 +424,12 @@ def build() -> str:
             f"loaded but universe.json selects {len(prev_selected)} — likely a transient "
             "partial read. Re-run."
         )
+    # Serving gate: one verdict map per company, shared by sort, cards, pages and map.
+    verdicts = ({c.id: gate.guarded(c, store.read_claims) for c in companies_raw}
+                if gate.enabled() else {})
     companies = sorted(
         companies_raw,
-        key=lambda c: (-_metric_number(c, "valuation"), c.universe_rank or 1e9, c.name),
+        key=lambda c: (-_metric_number(c, "valuation", verdicts.get(c.id)), c.universe_rank or 1e9, c.name),
     )
     universe_size = int(load_scoring().get("universe_size", 50))
     sourced_ids = {c.id for c in companies}
@@ -414,7 +447,7 @@ def build() -> str:
     (DIST / "company").mkdir(parents=True, exist_ok=True)
     (DIST / ".well-known").mkdir(parents=True, exist_ok=True)
 
-    cards = "".join(_company_card(c, rank) for rank, c in display_companies)
+    cards = "".join(_company_card(c, rank, verdicts.get(c.id)) for rank, c in display_companies)
     cards += "".join(_pending_card(meta, rank) for rank, meta in pending)
 
     # Filter dropdown options, grouped main → subcategories, from what's on the page.
@@ -445,9 +478,9 @@ def build() -> str:
         f'<div class="grid" data-grid>{cards}</div>',
     )
     store.atomic_write_text(DIST / "index.html", index)
-    store.atomic_write_text(DIST / "market.html", _market_map(companies))
+    store.atomic_write_text(DIST / "market.html", _market_map(companies, verdicts))
     for rank, c in display_companies:
-        store.atomic_write_text(DIST / "company" / f"{c.id}.html", _company_page(c, rank))
+        store.atomic_write_text(DIST / "company" / f"{c.id}.html", _company_page(c, rank, verdicts.get(c.id)))
     store.atomic_write_text(DIST / ".well-known" / "agent.json", json.dumps(_agent_card(), indent=2))
     store.atomic_write_text(DIST / "quality.html", render_html(quality))
     return str(DIST)

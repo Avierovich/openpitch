@@ -6,6 +6,40 @@ All notable changes to OpenPitch are documented here. The format follows
 
 ## [Unreleased]
 
+### Added
+- A serving-time plausibility gate (`src/openpitch/serving_gate.py`, thresholds in
+  `config/serving_gate.yaml`). It withholds figures that cannot be right from the MCP tools,
+  the dashboard and the market map: values whose source stated them in another currency, a
+  ratio, or with a scale word that was never applied; money figures too small to be real;
+  values outside a believable range; and the less reliable side of a contradiction such as a
+  valuation below total funding. Committed data is not edited. On 2026-11-18 it withheld 435
+  of 1,925 published figures: 53 implausible values and 382 malformed ones. It caught 14 of 17
+  known-bad figures, and the other 3 were judged correct or not detectable at serving time.
+  It hid none of the reference figures checked.
+- The quality report gains a section listing implausible figures, so it measures wrong numbers
+  as well as missing ones. The critical count rises accordingly, from 125 to 178.
+
+### Changed
+- MCP: `get_metric` can return `status: "withheld"`, with a `message` and a `next` pointer to
+  `get_provenance`. Withheld metrics keep every key with the figure keys set to `null`, plus a
+  `gate` block. Summary cells in `list_companies` and `compare_companies` become
+  `{"value": null, "status": "withheld", ...}`, while `null` still means no data. Events about
+  a withheld figure lose their numbers, including in the summary. `get_provenance` is
+  unchanged apart from an added `gate` verdict and `gate_flag` on claims.
+- Tool descriptions tell the agent it may say a withheld figure exists and why, but must not
+  state it.
+- `schemas/resolved_value.schema.json` is now 1.1: it adds `status` and `gate`, and allows
+  `null` for `range` and `delta`. The old schema already rejected 1,457 of 1,925 served
+  metrics, because a metric with no range is served as `range: null`.
+
+### Notes
+- `OPENPITCH_GATE=off`, or `enabled: false` in the config, serves every figure ungated.
+- A plain confidence floor was considered and rejected. Only 4 of the 17 known-bad figures sat
+  below 0.2 confidence, while a 0.2 floor would hide 42% of all figures. The floor exists in
+  the config but ships at 0.
+- `universe_rank` is still computed upstream from raw values, so a company whose valuation is
+  withheld can keep an inflated rank in `list_companies` until the ranking is gated as well.
+
 ## [0.1.3] — 2026-07-09
 
 ### Fixed

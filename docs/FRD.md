@@ -406,7 +406,7 @@ Local stdio server (BRD §4.1.4). Reads the git-tracked data; **the user's own a
 | `get_events` | `since?`, `type?`, `company_id?`, `min_confidence?` | filtered event stream (§8.5) for in-loop agents |
 | `search` | `query` | companies/metrics matching free text |
 
-**Every numeric response includes** `value, range, confidence, estimate_type, as_of, sources[]` — provenance is never stripped (BRD NFR-07). The server is read-only.
+**Every numeric response includes** `value, range, confidence, estimate_type, as_of, sources[]` — provenance is never stripped (BRD NFR-07). The server is read-only. The one exception is a figure the serving plausibility gate withholds: its value and range are `null`, it carries `status: "withheld"` with the reason, and its raw claims stay available through `get_provenance` (MCP-SPEC, Withheld figures).
 
 ---
 

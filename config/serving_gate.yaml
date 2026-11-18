@@ -1,0 +1,89 @@
+# Serving-time data-quality gate (src/openpitch/serving_gate.py).
+#
+# Runs where data is SERVED (MCP tools + dashboard). It never edits data/: a figure
+# that fails a rule is withheld from display with its reason, and stays fully
+# auditable through get_provenance. Kill switch: OPENPITCH_GATE=off, or enabled: false.
+#
+# Why plausibility rules and not a confidence floor: confidence measures source
+# reliability and corroboration, not whether a number is believable. Measured on
+# 2026-11-18, only 4 of 17 known-bad figures sat below 0.2 confidence, while a 0.2
+# floor would have hidden 42% of all published metrics.
+#
+# Every value here is mirrored by DEFAULTS in serving_gate.py; a test keeps them equal.
+
+enabled: true
+
+# Optional confidence floor. Shipped OFF (0.0) on purpose, per the measurement above.
+# Raise it only to hide decayed figures; it does not catch unit errors.
+min_confidence: 0.0
+
+# Shape rule: a value whose Python type cannot be the registry type. Separately
+# toggleable because it is the bulk of all withholds: on 2026-11-18 every latest_round
+# (354) held a bare number, and 28 notable_customers held a count instead of a list.
+shape_rule: true
+
+# USD metrics: smallest believable value. Below this, the figure lost its magnitude
+# ("80" for $80M). acv has no floor: a $2,400 contract is real.
+usd_floors:
+  valuation: 100000
+  total_funding: 100000
+  round_amount: 100000
+  arr: 10000
+  mrr: 1000
+
+# Non-USD numeric metrics: [low, high] believable window. pct metrics are whole percents.
+bounds:
+  revenue_multiple: [0.5, 500]
+  revenue_growth: [-100, 5000]
+  headcount_growth: [-100, 1000]
+  nrr: [0, 1000]
+  equity_sold_pct: [0, 100]
+  headcount: [1, 250000]
+  subscribers: [1, 5000000000]
+  open_roles: [0, 50000]
+
+# Claim units accepted as already-USD.
+usd_units: ["", "usd", "us$", "$", "dollars", "us dollars"]
+
+# Rough USD per unit. Used only to judge how wrong an unconverted figure could be,
+# never to convert. Within parity_band the error is bounded (caution, not withhold).
+fx_usd_per_unit:
+  eur: 1.08
+  gbp: 1.27
+  chf: 1.12
+  cad: 0.73
+  aud: 0.65
+  sgd: 0.74
+  nzd: 0.6
+  cny: 0.14
+  rmb: 0.14
+  yuan: 0.14
+  hkd: 0.128
+  krw: 0.00072
+  won: 0.00072
+  jpy: 0.0067
+  yen: 0.0067
+  inr: 0.012
+  aed: 0.27
+  sar: 0.27
+  ils: 0.27
+  idr: 0.000063
+  brl: 0.18
+  sek: 0.095
+  nok: 0.093
+  try: 0.03
+parity_band: [0.5, 2.0]
+
+# A served value "equals" a claim's raw number within this tolerance.
+face_tolerance: 0.05
+
+# Cross-metric checks: tolerance before two figures count as contradicting, and the
+# confidence at or above which the losing side is cautioned instead of withheld.
+pair_tolerance: 0.10
+arr_valuation_max_ratio: 2.0
+high_confidence_guard: 0.75
+soft_qualifiers: ["forward_looking", "unconfirmed"]
+
+# Derived figure whose input sits this many times away from its metric's published
+# value: shown with a caution, never withheld (the input may be the accurate one).
+stale_derivation_ratio: 3.0

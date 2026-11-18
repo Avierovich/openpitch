@@ -5,8 +5,12 @@ This is a standalone work list for OpenPitch. It assumes no prior conversation.
 OpenPitch publishes valuations, revenue and funding for private AI companies. Every
 figure is meant to carry its source, its date and a confidence score. A user installed
 it on 18 November 2026 and reported obviously wrong numbers. I investigated and
-confirmed the report. `openpitch quality-report` currently flags 125 critical issues,
-up from 51 in June.
+confirmed the report with a direct scan of the published data.
+
+Do not use `openpitch quality-report` to measure these errors. Its critical count (125 on
+18 November) is almost entirely `funded_no_valuation`, which is a coverage gap: a company
+with funding found but no valuation. It contains no check for implausible values, so a
+wrong number passes it silently. Fix 10 below adds that missing check.
 
 The sources are mostly fine. Almost every defect below happens after ingest, in
 normalization and merging, which means the fixes are concentrated in a few places and
@@ -143,21 +147,53 @@ looks as trustworthy as a sourced one.
 Cap a derived metric's confidence at the lowest confidence among its inputs, and
 suppress it entirely when any input is quarantined.
 
+### 10. The quality report has no plausibility check
+
+Done on 18 November 2026. The report now lists every figure the serving gate withholds as
+implausible, and counts the malformed values per metric. On that date it listed 53
+implausible figures, and the critical count rose from 125 to 178 as a result.
+
+### 11. Universe ranking still uses withheld figures
+
+`src/openpitch/pipeline/score.py` ranks the universe from raw valuations, upstream of the
+serving gate. The MCP `list_companies` default sort is `universe_rank`, so a company whose
+valuation is withheld can still sit high in the list. The `deepseek` record ranked 3rd on
+its unconverted CNY figure. The dashboard is not affected, because it sorts by gated
+values.
+
+Make `_signal` in `score.py` skip a valuation that `serving_gate.assess` withholds. This
+changes stored data (`data/universe.json` and each company's rank), so it belongs with
+the backfill rather than at serving time.
+
 ## Improvements
 
 These are not defects. They are the changes that buy the most credibility for the least
 work, in the order I would do them.
 
-### Suppress low confidence figures at serving time
+### Gate implausible figures at serving time
 
-Do this first, before any of the fixes. The confidence model already knows which
-numbers are junk. Cyera's bogus revenue carries confidence 0.087 while its well
-corroborated 12 billion valuation carries 0.97 across 29 claims. The system scores the
-junk correctly and then publishes it at identical visual weight.
+Done on 18 November 2026, in `src/openpitch/serving_gate.py` with thresholds in
+`config/serving_gate.yaml`. It withholds 435 of 1,925 published figures (53 implausible,
+382 malformed), catches 14 of the 17 known bad figures, and hides none of the known good
+ones. The 3 it misses are Cyera's reported 80x multiple (genuinely sourced), 1X's valuation
+(fix 1, an identity problem) and FuriosaAI's valuation (correctly converted with a stale
+label, so it is cautioned rather than withheld). The contract is in `docs/MCP-SPEC.md`
+under Withheld figures. It is a mitigation: every fix above is still needed, and the
+gate's withhold list in the quality report is the measure of how much is left.
 
-Hiding or visually demoting anything below roughly 0.2 in both the MCP responses and
-the dashboard removes most of what the user saw, touches no extraction code, and can
-ship today. It also matches what the product already claims about its own trust model.
+A plain confidence floor does not work, and an earlier version of this document
+recommended one, so the reasoning is worth keeping.
+
+Confidence measures how reliable and corroborated the sources are. It does not measure
+whether a number is plausible, so a unit error reported by one reputable outlet still
+scores in the middle. Of 17 known bad figures, only 4 sit below 0.2. Yellow.ai's 500
+dollar valuation scores 0.51 and Cyera's `latest_round` of 7 scores 0.83. A 0.2 floor
+would also hide 42 percent of all published metrics.
+
+The gate therefore needs plausibility rules alongside any floor: evidence of a unit
+problem in the supporting claims, money figures too small to be real, and figures that
+contradict each other within one company. It runs where data is served (the MCP tools
+and the dashboard) and touches no extraction code.
 
 ### Add the invariants to CI as a gate
 
@@ -166,7 +202,8 @@ metric with a non currency unit, no valuation below total funding, no money valu
 100,000 dollars, no two published companies sharing a domain. Quarantine the offending
 record rather than failing the build, so a bad source never blocks a refresh.
 
-This is what stops the 125 count climbing back.
+This is what stops wrong numbers reaching publication again once the fixes have cleared
+the current ones.
 
 ### Backfill the existing data
 

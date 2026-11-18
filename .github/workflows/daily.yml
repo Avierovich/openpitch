@@ -14,6 +14,7 @@ concurrency:
 
 permissions:
   contents: write               # commit refreshed data
+  administration: read          # repo traffic API (views/clones) for the adoption snapshot
   pages: write
   id-token: write
 
@@ -73,6 +74,26 @@ jobs:
 
       - name: Build dashboard
         run: openpitch build-dashboard
+
+      # GitHub keeps traffic for 14 days only and offers no export, so snapshot it
+      # daily into the repo. Fail-soft: adoption stats must never break the refresh.
+      - name: Snapshot adoption metrics
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p data/traffic
+          R=${{ github.repository }}
+          v=$(gh api "repos/$R/traffic/views"  --jq '{count,uniques}'  2>/dev/null || echo '{}')
+          c=$(gh api "repos/$R/traffic/clones" --jq '{count,uniques}'  2>/dev/null || echo '{}')
+          f=$(gh api "repos/$R/traffic/popular/referrers"              2>/dev/null || echo '[]')
+          s=$(gh api "repos/$R" --jq '{stars:.stargazers_count,forks:.forks_count,watchers:.subscribers_count}' 2>/dev/null || echo '{}')
+          p=$(curl -sf -H 'User-Agent: openpitch-traffic-snapshot' \
+                https://pypistats.org/api/packages/openpitch-mcp/recent 2>/dev/null || echo '{}')
+          jq -cn --arg d "$(date -u +%F)" --argjson v "$v" --argjson c "$c" \
+                 --argjson f "$f" --argjson s "$s" --argjson p "$p" \
+            '{date:$d, repo:$s, views:$v, clones:$c, referrers:$f, pypi:$p}' \
+            >> data/traffic/github.jsonl
 
       - name: Commit refreshed data
         run: |

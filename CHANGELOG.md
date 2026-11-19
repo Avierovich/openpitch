@@ -6,6 +6,18 @@ All notable changes to OpenPitch are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.1.4] - 2026-11-19
+
+### Fixed
+- The daily pipeline survives an LLM model being retired. A retired Gemini model returns 404,
+  which used to crash every scheduled run (the dashboard served 37-day-old data). A 404 now
+  rotates to the next model, then falls back to the next provider.
+- `openpitch run --max-runtime-minutes` stops collecting at the budget and still publishes
+  what finished. A budgeted run refreshes the stalest companies in the universe first, then
+  the rest of the watchlist.
+- The `openpitch-mcp` launcher now requires `openpitch>=0.1.4`, so it always installs a
+  version with the plausibility gate.
+
 ### Added
 - A serving-time plausibility gate (`src/openpitch/serving_gate.py`, thresholds in
   `config/serving_gate.yaml`). It withholds figures that cannot be right from the MCP tools,
